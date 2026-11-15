@@ -159,7 +159,7 @@ $("ring").style.background="conic-gradient(var(--ac) 0 21.2%,var(--bd) 0)";
 fill("k4",[["29%","Риск от бедност или социално изключване","1,87 млн. души, 2025","am"],["11,8%","Бедни сред работещите (18–64)","55,1% сред безработните","ac"],["558,08 €","Средна пенсия, сеп. 2026","+7,8% от 1 юли","bl"],["347,51 €","Минимална пенсия","макс. 1 738,40 €","bl"],["≈ 2,04 млн.","Пенсионери с осъвременяване от 1 юли","НОИ","bl"],["3,5%","Безработица, Q2 2026","107 100 души","gr"]]);
 hb("inc",[["Минимална пенсия",347.51,"ac"],["Линия на бедност 2026 (официална)",390.63,"am"],["Линия на бедност (НСИ, 2025)",443.1,"am"],["Средна пенсия",558.08,"bl"],["Минимална заплата",620.2,"gr"],["Средна заплата, Q3",1438,"gr"]],function(v){return F2.format(v)+" €"},1438);
 /* реклами: попълни img/imgM/href/alt, за да замениш свободното място */
-var CONTACT="reklama@example.bg";
+var CONTACT="bgvchisla@proton.me";
 var ADS={top:{img:"",imgM:"",href:"",alt:""},bot:{img:"",imgM:"",href:"",alt:""}};
 function ad(id,a){var h='<small>Реклама</small>';if(a.img&&a.href){h+='<a class="f" href="'+a.href+'" target="_blank" rel="sponsored noopener"><picture>'+(a.imgM?'<source media="(max-width:639px)" srcset="'+a.imgM+'">':'')+'<img src="'+a.img+'" alt="'+(a.alt||'Реклама')+'" loading="lazy"></picture></a>'}else{h+='<a href="mailto:'+CONTACT+'?subject=Реклама">Рекламно място · 728×90 / 320×100 · Пишете ни: '+CONTACT+'</a>'}$(id).innerHTML=h}
 ad("ad-top",ADS.top);ad("ad-bot",ADS.bot);
