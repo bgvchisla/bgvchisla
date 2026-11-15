@@ -1,0 +1,89 @@
+name: Daily data update
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Download repository files
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch official Eurostat data
+        run: python scripts/update_economy.py
+
+      - name: Validate data files
+        run: |
+          python - <<'PY'
+          import json
+
+          with open("data.json", encoding="utf-8") as file:
+              json.load(file)
+
+          with open("economy.json", encoding="utf-8") as file:
+              data = json.load(file)
+
+          series = next(
+              row for row in data["series"]
+              if row["id"] == "gdp_per_capita_current_eur"
+          )
+
+          points = series["points"]
+          if len(points) < 2:
+              raise RuntimeError("Недостатъчно годишни данни.")
+
+          years = [point["year"] for point in points]
+          if years != sorted(set(years)):
+              raise RuntimeError("Неподредени или дублирани години.")
+
+          print("Последна година:", points[-1]["year"])
+          print("Последна стойност:", points[-1]["value"])
+          PY
+
+      - name: Save updated data to main
+        id: save
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add economy.json
+          if git diff --cached --quiet; then
+            echo "No file changes to save."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Update official Eurostat series"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Prepare files
+        if: steps.save.outputs.changed == 'true'
+        run: |
+          mkdir public
+          cp index.html data.json economy.json economy-charts.js public/
+
+      - name: Deploy production
+        if: steps.save.outputs.changed == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=bgvchisla --branch=main
