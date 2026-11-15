@@ -57,7 +57,8 @@ tr:last-child td{border:0}
 .mt{margin-top:10px}
 .ad{margin:14px 0;text-align:center}.ad small{display:block;font-size:.62rem;color:var(--mu);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}.ad a{display:flex;align-items:center;justify-content:center;width:100%;max-width:728px;min-height:90px;margin:0 auto;border-radius:12px;border:1px dashed var(--bd);background:var(--card);color:var(--mu);font-size:.82rem;text-decoration:none;padding:8px;overflow:hidden}.ad a.f{border:0;padding:0;min-height:0}.ad img{display:block;width:100%;height:auto}
 [hidden]{display:none!important}
-#mk-tape{margin:10px 0}
+#mk{margin:12px 0 0}
+#mk-note{font-size:.66rem;color:var(--mu);margin:2px 4px 0;text-align:right}
 .mk-go{display:block;width:100%;border:1px dashed var(--bd);background:var(--card);color:var(--mu);padding:10px 12px;border-radius:12px;font:inherit;font-size:.8rem;cursor:pointer;text-align:center}
 .mk-go:hover{color:var(--tx)}
 @media (min-width:640px){.g{grid-template-columns:repeat(3,1fr)}.hero{padding:28px 20px}.c{padding:16px 14px}}
@@ -72,9 +73,9 @@ tr:last-child td{border:0}
 <div class="r"><span>На жител: <b id="pc">—</b></span><span>Дял от БВП: <b id="gdp">—</b></span><span>Тренд: <b id="ps">—</b>/сек.</span></div>
 <label class="sw"><input type="checkbox" id="pend" checked><span>Включи заема от 2,25 млрд. € (29.09.2026), още неотразен в официалните данни</span></label>
 </div>
+<div id="mk"><div id="mk-tape"><button class="mk-go">📈 Пазарни цени: крипто, злато, петрол, индекси, акции – натисни за зареждане (външно съдържание от TradingView, може да ползва бисквитки)</button></div><div id="mk-note" hidden>Пазарни цени: TradingView · може да са със закъснение · не са инвестиционен съвет</div></div>
 <nav id="nav"></nav>
 <div class="ad" id="ad-top"></div>
-<div id="mk-tape"><button class="mk-go">📈 Пазарни цени: крипто, злато, петрол, акции – натисни за зареждане (външно съдържание от TradingView)</button></div>
 <section id="s0" class="on">
 <h2>Накратко</h2><p class="h">Най-важното за страната – последни налични данни.</p>
 <div class="g" id="k0"></div>
@@ -113,12 +114,6 @@ tr:last-child td{border:0}
 <div class="tip">Минималната пенсия (347,51 €) е под официалната линия на бедност за 2026 г. (390,63 €). Около 810 000 пенсионери получават пенсия до минималната.</div>
 <p class="src">Линията на бедност е 60% от медианния доход. Изчисленията „≈“ са мои.</p>
 </section>
-<section id="s5">
-<h2>Пазари</h2><p class="h">Крипто, злато, сребро, петрол Brent и акциите на „Великолепната седморка“.</p>
-<div class="box wide" id="mk-consent"><h3>Пазарни цени от TradingView</h3><p class="h">Графиките се зареждат от външен сайт (TradingView), който може да ползва бисквитки. Натисни бутона, за да ги заредиш.</p><button class="mk-go">Покажи пазарните цени</button></div>
-<div class="box wide" id="mk-over" hidden></div>
-<p class="src">Пазарни данни и графики: TradingView. Цените може да са със закъснение и не са инвестиционен съвет.</p>
-</section>
 <div class="ad" id="ad-bot"></div>
 <ul class="src">
 <li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г. Пазарни цени: TradingView.</li>
@@ -139,9 +134,9 @@ var BASE=37416e6,PEND=2.25e9,DR=169e6/(30*86400),T0=new Date(2026,9,1).getTime()
 function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0)/1000,0);$("debt").textContent="€ "+F.format(d);$("pc").textContent=F.format(d/POP)+" €";$("gdp").textContent=F1.format(d/GDP*100)+"%";$("ps").textContent=F1.format(DR)+" €"}
 $("pend").onchange=tick;tick();setInterval(tick,100);
 /* табове */
-var T=["Накратко","Дълг","Цени","Банки","Хора","Пазари"];
+var T=["Накратко","Дълг","Цени","Банки","Хора"];
 $("nav").innerHTML=T.map(function(t,i){return '<button data-i="'+i+'" class="'+(i?"":"on")+'">'+t+'</button>'}).join("");
-$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav button").forEach(function(b){b.classList.toggle("on",b.dataset.i==i)});for(var k=0;k<6;k++)$("s"+k).classList.toggle("on",k==i)};
+$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav button").forEach(function(b){b.classList.toggle("on",b.dataset.i==i)});for(var k=0;k<5;k++)$("s"+k).classList.toggle("on",k==i)};
 /* накратко */
 fill("k0",[["6,1%","Годишна инфлация, окт.","експресна оценка","ac"],["−2,8% БВП","Бюджетен дефицит, сеп.","3,669 млрд. € от началото на годината","ac"],["57,2 млрд. €","Депозити на домакинствата","+16,2% за година","gr"],["33,1 млрд. €","Кредити на домакинствата","+20,7% за година","am"],["1 438 €","Средна заплата, Q3","−0,4% спрямо Q2","bl"],["558 €","Средна пенсия, сеп.","минимална 347,51 €","bl"],["21,2%","Под линията на бедност","1,37 млн. души, 2025 г.","ac"],["BBB+","Кредитен рейтинг","Fitch: позитивна · S&P: стабилна","gr"]]);
 /* дълг */
@@ -173,13 +168,9 @@ $("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'
 function okd(a){var n=new Date().toISOString().slice(0,10);return a&&!(a.from&&n<a.from)&&!(a.to&&n>a.to)}
 function pick(s){var l=[].concat(s||[]).filter(okd);return l.length?l[Math.floor(Math.random()*l.length)]:{}}
 fetch("data.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;if(j.contact)CONTACT=j.contact;if(j.ads){ad("ad-top",pick(j.ads.top));ad("ad-bot",pick(j.ads.bot))}$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.'}).catch(function(){});
-/* пазари (TradingView): зареждат се само след натискане на бутон */
-var MK={groups:[["Крипто",[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"]]],["Суровини",[["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Петрол Brent"]]],["Акции",[["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]]]]},mkOn=false;
-function tvw(el,name,cfg){var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-"+name+".js";s.async=true;s.text=JSON.stringify(cfg);c.appendChild(s);el.appendChild(c)}
-function mkLoad(){if(mkOn)return;mkOn=true;var th=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light",all=[];MK.groups.forEach(function(g){g[1].forEach(function(x){all.push({proName:x[0],title:x[1]})})});
-$("mk-consent").hidden=true;$("mk-over").hidden=false;$("mk-tape").innerHTML="";
-tvw($("mk-tape"),"ticker-tape",{symbols:all,showSymbolLogo:true,colorTheme:th,isTransparent:true,displayMode:"adaptive",locale:"en"});
-tvw($("mk-over"),"market-overview",{colorTheme:th,dateRange:"12M",showChart:true,locale:"en",isTransparent:true,showSymbolLogo:true,width:"100%",height:560,tabs:MK.groups.map(function(g){return {title:g[0],symbols:g[1].map(function(x){return {s:x[0],d:x[1]}})}})})}
+/* лента с пазарни цени (TradingView): зарежда се само след натискане на бутон */
+var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]],mkOn=false;
+function mkLoad(){if(mkOn)return;mkOn=true;var th=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light",el=$("mk-tape");el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:true,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c);$("mk-note").hidden=false}
 document.addEventListener("click",function(e){if(e.target.classList&&e.target.classList.contains("mk-go")){try{localStorage.setItem("mk","1")}catch(x){}mkLoad()}});
 try{if(localStorage.getItem("mk")==="1")mkLoad()}catch(x){}
 </script>
