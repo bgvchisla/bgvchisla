@@ -56,6 +56,10 @@ tr:last-child td{border:0}
 .src li{margin:4px 0}
 .mt{margin-top:10px}
 .ad{margin:14px 0;text-align:center}.ad small{display:block;font-size:.62rem;color:var(--mu);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}.ad a{display:flex;align-items:center;justify-content:center;width:100%;max-width:728px;min-height:90px;margin:0 auto;border-radius:12px;border:1px dashed var(--bd);background:var(--card);color:var(--mu);font-size:.82rem;text-decoration:none;padding:8px;overflow:hidden}.ad a.f{border:0;padding:0;min-height:0}.ad img{display:block;width:100%;height:auto}
+[hidden]{display:none!important}
+#mk-tape{margin:10px 0}
+.mk-go{display:block;width:100%;border:1px dashed var(--bd);background:var(--card);color:var(--mu);padding:10px 12px;border-radius:12px;font:inherit;font-size:.8rem;cursor:pointer;text-align:center}
+.mk-go:hover{color:var(--tx)}
 @media (min-width:640px){.g{grid-template-columns:repeat(3,1fr)}.hero{padding:28px 20px}.c{padding:16px 14px}}
 @media (min-width:960px){main{padding:24px 24px 64px}.g{grid-template-columns:repeat(4,1fr);gap:14px}#k1,#k4{grid-template-columns:repeat(3,1fr)}nav{justify-content:center}nav button{flex:none;padding:10px 22px}h2{font-size:1.25rem}section.on{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}section.on>h2,section.on>p.h,section.on>.g,section.on>.tip,section.on>.src,section.on>.wide,section.on>.box.tw{grid-column:1/-1}section.on>.box,section.on>.tip,section.on>.mt{margin-top:0}}
 </style>
@@ -70,13 +74,12 @@ tr:last-child td{border:0}
 </div>
 <nav id="nav"></nav>
 <div class="ad" id="ad-top"></div>
-
+<div id="mk-tape"><button class="mk-go">📈 Пазарни цени: крипто, злато, петрол, акции – натисни за зареждане (външно съдържание от TradingView)</button></div>
 <section id="s0" class="on">
 <h2>Накратко</h2><p class="h">Най-важното за страната – последни налични данни.</p>
 <div class="g" id="k0"></div>
 <div class="tip">💡 Цените растат по-бързо от заплатите в публичния сектор, а бюджетът е на дефицит – затова дългът расте. Банковите депозити пък са рекордни.</div>
 </section>
-
 <section id="s1">
 <h2>Дълг и бюджет</h2><p class="h">Колко дължи държавата и колко харчи спрямо приходите си (януари – септември 2026).</p>
 <div class="g" id="k1"></div>
@@ -84,7 +87,6 @@ tr:last-child td{border:0}
 <div class="box"><h3>Дълг и външен сектор</h3><div id="debtbars"></div></div>
 <div class="tip">Дългът на „централно управление“ (МФ) и на „държавно управление“ (НСИ, Маастрихт) са различни мерки и не са пряко сравними.</div>
 </section>
-
 <section id="s2">
 <h2>Цени и инфлация</h2><p class="h">Колко поскъпва животът – месец по месец през 2026 г.</p>
 <div class="g" id="k2"></div>
@@ -93,7 +95,6 @@ tr:last-child td{border:0}
 <div class="box tw"><table id="inf"></table></div>
 <p class="src">ИПЦ – национален индекс; ХИПЦ – хармонизиран (за сравнение в ЕС). Октомври е експресна оценка на НСИ. Август по ХИПЦ – експресна оценка.</p>
 </section>
-
 <section id="s3">
 <h2>Банки: кредити и депозити</h2><p class="h">Колко пари са заели и колко са спестили хората и фирмите – септември 2026, БНБ.</p>
 <div class="g" id="k3"></div>
@@ -102,7 +103,6 @@ tr:last-child td{border:0}
 <div class="tip">Домакинствата държат 1,7 пъти повече пари в банките, отколкото дължат. Кредитите на хората растат близо два пъти по-бързо от тези на фирмите.</div>
 <p class="src">Данните за „домакинства“ включват и нетърговски организации, обслужващи домакинствата (НТООД).</p>
 </section>
-
 <section id="s4">
 <h2>Доходи, бедност и пенсии</h2><p class="h">Колко получават хората и колко са под линията на бедност.</p>
 <div class="box wide"><h3>Бедност през 2025 г. (НСИ)</h3>
@@ -113,10 +113,15 @@ tr:last-child td{border:0}
 <div class="tip">Минималната пенсия (347,51 €) е под официалната линия на бедност за 2026 г. (390,63 €). Около 810 000 пенсионери получават пенсия до минималната.</div>
 <p class="src">Линията на бедност е 60% от медианния доход. Изчисленията „≈“ са мои.</p>
 </section>
-
+<section id="s5">
+<h2>Пазари</h2><p class="h">Крипто, злато, сребро, петрол Brent и акциите на „Великолепната седморка“.</p>
+<div class="box wide" id="mk-consent"><h3>Пазарни цени от TradingView</h3><p class="h">Графиките се зареждат от външен сайт (TradingView), който може да ползва бисквитки. Натисни бутона, за да ги заредиш.</p><button class="mk-go">Покажи пазарните цени</button></div>
+<div class="box wide" id="mk-over" hidden></div>
+<p class="src">Пазарни данни и графики: TradingView. Цените може да са със закъснение и не са инвестиционен съвет.</p>
+</section>
 <div class="ad" id="ad-bot"></div>
 <ul class="src">
-<li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г.</li>
+<li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г. Пазарни цени: TradingView.</li>
 <li>Броячът започва от 37,416 млрд. € към 30.09.2026 (МФ), плюс по избор 2,25 млрд. € нов външен дълг и тренд ≈ 65 €/сек. Това е модел, не официална цифра.</li>
 <li>Не е инвестиционен или финансов съвет. За точни стойности виж nsi.bg, minfin.bg, bnb.bg, nssi.bg.</li>
 <li id="adli"></li>
@@ -134,9 +139,9 @@ var BASE=37416e6,PEND=2.25e9,DR=169e6/(30*86400),T0=new Date(2026,9,1).getTime()
 function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0)/1000,0);$("debt").textContent="€ "+F.format(d);$("pc").textContent=F.format(d/POP)+" €";$("gdp").textContent=F1.format(d/GDP*100)+"%";$("ps").textContent=F1.format(DR)+" €"}
 $("pend").onchange=tick;tick();setInterval(tick,100);
 /* табове */
-var T=["Накратко","Дълг","Цени","Банки","Хора"];
+var T=["Накратко","Дълг","Цени","Банки","Хора","Пазари"];
 $("nav").innerHTML=T.map(function(t,i){return '<button data-i="'+i+'" class="'+(i?"":"on")+'">'+t+'</button>'}).join("");
-$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav button").forEach(function(b){b.classList.toggle("on",b.dataset.i==i)});for(var k=0;k<5;k++)$("s"+k).classList.toggle("on",k==i)};
+$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav button").forEach(function(b){b.classList.toggle("on",b.dataset.i==i)});for(var k=0;k<6;k++)$("s"+k).classList.toggle("on",k==i)};
 /* накратко */
 fill("k0",[["6,1%","Годишна инфлация, окт.","експресна оценка","ac"],["−2,8% БВП","Бюджетен дефицит, сеп.","3,669 млрд. € от началото на годината","ac"],["57,2 млрд. €","Депозити на домакинствата","+16,2% за година","gr"],["33,1 млрд. €","Кредити на домакинствата","+20,7% за година","am"],["1 438 €","Средна заплата, Q3","−0,4% спрямо Q2","bl"],["558 €","Средна пенсия, сеп.","минимална 347,51 €","bl"],["21,2%","Под линията на бедност","1,37 млн. души, 2025 г.","ac"],["BBB+","Кредитен рейтинг","Fitch: позитивна · S&P: стабилна","gr"]]);
 /* дълг */
@@ -159,15 +164,24 @@ $("ring").style.background="conic-gradient(var(--ac) 0 21.2%,var(--bd) 0)";
 fill("k4",[["29%","Риск от бедност или социално изключване","1,87 млн. души, 2025","am"],["11,8%","Бедни сред работещите (18–64)","55,1% сред безработните","ac"],["558,08 €","Средна пенсия, сеп. 2026","+7,8% от 1 юли","bl"],["347,51 €","Минимална пенсия","макс. 1 738,40 €","bl"],["≈ 2,04 млн.","Пенсионери с осъвременяване от 1 юли","НОИ","bl"],["3,5%","Безработица, Q2 2026","107 100 души","gr"]]);
 hb("inc",[["Минимална пенсия",347.51,"ac"],["Линия на бедност 2026 (официална)",390.63,"am"],["Линия на бедност (НСИ, 2025)",443.1,"am"],["Средна пенсия",558.08,"bl"],["Минимална заплата",620.2,"gr"],["Средна заплата, Q3",1438,"gr"]],function(v){return F2.format(v)+" €"},1438);
 /* реклами: попълни img/imgM/href/alt, за да замениш свободното място */
-var CONTACT="reklama@example.bg";
+var CONTACT="bgvchisla@proton.me";
 var ADS={top:{img:"",imgM:"",href:"",alt:""},bot:{img:"",imgM:"",href:"",alt:""}};
 function ad(id,a){var h='<small>Реклама</small>';if(a.img&&a.href){h+='<a class="f" href="'+a.href+'" target="_blank" rel="sponsored noopener"><picture>'+(a.imgM?'<source media="(max-width:639px)" srcset="'+a.imgM+'">':'')+'<img src="'+a.img+'" alt="'+(a.alt||'Реклама')+'" loading="lazy"></picture></a>'}else{h+='<a href="mailto:'+CONTACT+'?subject=Реклама">Рекламно място · 728×90 / 320×100 · Пишете ни: '+CONTACT+'</a>'}$(id).innerHTML=h}
 ad("ad-top",ADS.top);ad("ad-bot",ADS.bot);
 $("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.';
-/* зареждане на рекламите от data.json (без припкване на кода) */
+/* зареждане на рекламите от data.json (без пипане на кода) */
 function okd(a){var n=new Date().toISOString().slice(0,10);return a&&!(a.from&&n<a.from)&&!(a.to&&n>a.to)}
 function pick(s){var l=[].concat(s||[]).filter(okd);return l.length?l[Math.floor(Math.random()*l.length)]:{}}
 fetch("data.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;if(j.contact)CONTACT=j.contact;if(j.ads){ad("ad-top",pick(j.ads.top));ad("ad-bot",pick(j.ads.bot))}$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.'}).catch(function(){});
+/* пазари (TradingView): зареждат се само след натискане на бутон */
+var MK={groups:[["Крипто",[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"]]],["Суровини",[["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Петрол Brent"]]],["Акции",[["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]]]]},mkOn=false;
+function tvw(el,name,cfg){var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-"+name+".js";s.async=true;s.text=JSON.stringify(cfg);c.appendChild(s);el.appendChild(c)}
+function mkLoad(){if(mkOn)return;mkOn=true;var th=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light",all=[];MK.groups.forEach(function(g){g[1].forEach(function(x){all.push({proName:x[0],title:x[1]})})});
+$("mk-consent").hidden=true;$("mk-over").hidden=false;$("mk-tape").innerHTML="";
+tvw($("mk-tape"),"ticker-tape",{symbols:all,showSymbolLogo:true,colorTheme:th,isTransparent:true,displayMode:"adaptive",locale:"en"});
+tvw($("mk-over"),"market-overview",{colorTheme:th,dateRange:"12M",showChart:true,locale:"en",isTransparent:true,showSymbolLogo:true,width:"100%",height:560,tabs:MK.groups.map(function(g){return {title:g[0],symbols:g[1].map(function(x){return {s:x[0],d:x[1]}})}})})}
+document.addEventListener("click",function(e){if(e.target.classList&&e.target.classList.contains("mk-go")){try{localStorage.setItem("mk","1")}catch(x){}mkLoad()}});
+try{if(localStorage.getItem("mk")==="1")mkLoad()}catch(x){}
 </script>
 <script src="economy-charts.js"></script>
 </body>
