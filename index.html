@@ -56,12 +56,17 @@ tr:last-child td{border:0}
 .src li{margin:4px 0}
 .mt{margin-top:10px}
 .ad{margin:14px 0;text-align:center}.ad small{display:block;font-size:.62rem;color:var(--mu);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}.ad a{display:flex;align-items:center;justify-content:center;width:100%;max-width:728px;min-height:90px;margin:0 auto;border-radius:12px;border:1px dashed var(--bd);background:var(--card);color:var(--mu);font-size:.82rem;text-decoration:none;padding:8px;overflow:hidden}.ad a.f{border:0;padding:0;min-height:0}.ad img{display:block;width:100%;height:auto}
+#mk{margin:0 0 12px}
+#mk-tape{border:1px solid var(--bd);border-radius:14px;background:var(--card);overflow:hidden;min-height:50px}
+#mk-tape .tradingview-widget-container{margin:0}
+#mk-note{font-size:.66rem;color:var(--mu);margin:4px 6px 0;text-align:right}
 @media (min-width:640px){.g{grid-template-columns:repeat(3,1fr)}.hero{padding:28px 20px}.c{padding:16px 14px}}
 @media (min-width:960px){main{padding:24px 24px 64px}.g{grid-template-columns:repeat(4,1fr);gap:14px}#k1,#k4{grid-template-columns:repeat(3,1fr)}nav{justify-content:center}nav button{flex:none;padding:10px 22px}h2{font-size:1.25rem}section.on{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}section.on>h2,section.on>p.h,section.on>.g,section.on>.tip,section.on>.src,section.on>.wide,section.on>.box.tw{grid-column:1/-1}section.on>.box,section.on>.tip,section.on>.mt{margin-top:0}}
 </style>
 </head>
 <body>
 <main>
+<div id="mk"><div id="mk-tape"></div><div id="mk-note">Пазарни цени: TradingView · може да са със закъснение · не са инвестиционен съвет</div></div>
 <div class="hero">
 <small>🇧🇬 Държавен дълг на България (централно управление), оценка в реално време</small>
 <div class="n" id="debt">—</div>
@@ -70,13 +75,11 @@ tr:last-child td{border:0}
 </div>
 <nav id="nav"></nav>
 <div class="ad" id="ad-top"></div>
-
 <section id="s0" class="on">
 <h2>Накратко</h2><p class="h">Най-важното за страната – последни налични данни.</p>
 <div class="g" id="k0"></div>
 <div class="tip">💡 Цените растат по-бързо от заплатите в публичния сектор, а бюджетът е на дефицит – затова дългът расте. Банковите депозити пък са рекордни.</div>
 </section>
-
 <section id="s1">
 <h2>Дълг и бюджет</h2><p class="h">Колко дължи държавата и колко харчи спрямо приходите си (януари – септември 2026).</p>
 <div class="g" id="k1"></div>
@@ -84,7 +87,6 @@ tr:last-child td{border:0}
 <div class="box"><h3>Дълг и външен сектор</h3><div id="debtbars"></div></div>
 <div class="tip">Дългът на „централно управление“ (МФ) и на „държавно управление“ (НСИ, Маастрихт) са различни мерки и не са пряко сравними.</div>
 </section>
-
 <section id="s2">
 <h2>Цени и инфлация</h2><p class="h">Колко поскъпва животът – месец по месец през 2026 г.</p>
 <div class="g" id="k2"></div>
@@ -93,7 +95,6 @@ tr:last-child td{border:0}
 <div class="box tw"><table id="inf"></table></div>
 <p class="src">ИПЦ – национален индекс; ХИПЦ – хармонизиран (за сравнение в ЕС). Октомври е експресна оценка на НСИ. Август по ХИПЦ – експресна оценка.</p>
 </section>
-
 <section id="s3">
 <h2>Банки: кредити и депозити</h2><p class="h">Колко пари са заели и колко са спестили хората и фирмите – септември 2026, БНБ.</p>
 <div class="g" id="k3"></div>
@@ -102,7 +103,6 @@ tr:last-child td{border:0}
 <div class="tip">Домакинствата държат 1,7 пъти повече пари в банките, отколкото дължат. Кредитите на хората растат близо два пъти по-бързо от тези на фирмите.</div>
 <p class="src">Данните за „домакинства“ включват и нетърговски организации, обслужващи домакинствата (НТООД).</p>
 </section>
-
 <section id="s4">
 <h2>Доходи, бедност и пенсии</h2><p class="h">Колко получават хората и колко са под линията на бедност.</p>
 <div class="box wide"><h3>Бедност през 2025 г. (НСИ)</h3>
@@ -113,10 +113,9 @@ tr:last-child td{border:0}
 <div class="tip">Минималната пенсия (347,51 €) е под официалната линия на бедност за 2026 г. (390,63 €). Около 810 000 пенсионери получават пенсия до минималната.</div>
 <p class="src">Линията на бедност е 60% от медианния доход. Изчисленията „≈“ са мои.</p>
 </section>
-
 <div class="ad" id="ad-bot"></div>
 <ul class="src">
-<li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г.</li>
+<li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г. Пазарни цени: TradingView.</li>
 <li>Броячът започва от 37,416 млрд. € към 30.09.2026 (МФ), плюс по избор 2,25 млрд. € нов външен дълг и тренд ≈ 65 €/сек. Това е модел, не официална цифра.</li>
 <li>Не е инвестиционен или финансов съвет. За точни стойности виж nsi.bg, minfin.bg, bnb.bg, nssi.bg.</li>
 <li id="adli"></li>
@@ -164,10 +163,14 @@ var ADS={top:{img:"",imgM:"",href:"",alt:""},bot:{img:"",imgM:"",href:"",alt:""}
 function ad(id,a){var h='<small>Реклама</small>';if(a.img&&a.href){h+='<a class="f" href="'+a.href+'" target="_blank" rel="sponsored noopener"><picture>'+(a.imgM?'<source media="(max-width:639px)" srcset="'+a.imgM+'">':'')+'<img src="'+a.img+'" alt="'+(a.alt||'Реклама')+'" loading="lazy"></picture></a>'}else{h+='<a href="mailto:'+CONTACT+'?subject=Реклама">Рекламно място · 728×90 / 320×100 · Пишете ни: '+CONTACT+'</a>'}$(id).innerHTML=h}
 ad("ad-top",ADS.top);ad("ad-bot",ADS.bot);
 $("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.';
-/* зареждане на рекламите от data.json (без припкване на кода) */
+/* зареждане на рекламите от data.json (без пипане на кода) */
 function okd(a){var n=new Date().toISOString().slice(0,10);return a&&!(a.from&&n<a.from)&&!(a.to&&n>a.to)}
 function pick(s){var l=[].concat(s||[]).filter(okd);return l.length?l[Math.floor(Math.random()*l.length)]:{}}
 fetch("data.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;if(j.contact)CONTACT=j.contact;if(j.ads){ad("ad-top",pick(j.ads.top));ad("ad-bot",pick(j.ads.bot))}$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.'}).catch(function(){});
+/* лента с пазарни цени (TradingView): зарежда се автоматично */
+var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
+function mkLoad(){var th=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light",el=$("mk-tape");el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
+mkLoad();
 </script>
 <script src="economy-charts.js"></script>
 </body>
