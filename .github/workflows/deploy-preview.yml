@@ -1,0 +1,31 @@
+name: Deploy preview to Cloudflare Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [development]
+    paths:
+      - ".github/workflows/deploy-preview.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: development
+
+      - name: Prepare files
+        run: |
+          mkdir public
+          cp index.html data.json economy.json economy-charts.js public/
+
+      - name: Deploy preview
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=bgvchisla --branch=development

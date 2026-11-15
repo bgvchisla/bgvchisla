@@ -169,5 +169,6 @@ function okd(a){var n=new Date().toISOString().slice(0,10);return a&&!(a.from&&n
 function pick(s){var l=[].concat(s||[]).filter(okd);return l.length?l[Math.floor(Math.random()*l.length)]:{}}
 fetch("data.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;if(j.contact)CONTACT=j.contact;if(j.ads){ad("ad-top",pick(j.ads.top));ad("ad-bot",pick(j.ads.bot))}$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.'}).catch(function(){});
 </script>
+<script src="economy-charts.js"></script>
 </body>
 </html>
