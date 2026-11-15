@@ -2,7 +2,176 @@
   "schema_version": 1,
   "last_successful_update": null,
   "indicators": [],
-  "series": [],
+  "series": [
+    {
+      "id": "gdp_per_capita_current_eur",
+      "title": "БВП на човек по текущи цени",
+      "unit": "евро на човек",
+      "frequency": "annual",
+      "source": "Евростат",
+      "dataset": "nama_10_pc",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_pc?lang=EN&freq=A&unit=CP_EUR_HAB&na_item=B1GQ&geo=BG",
+      "note": "По текущи цени; не измерва самостоятелно реалния растеж.",
+      "updated_at": "2026-11-15T12:34:27.865147+00:00",
+      "points": [
+        {
+          "year": 1995,
+          "value": 1730,
+          "flag": null
+        },
+        {
+          "year": 1996,
+          "value": 1180,
+          "flag": null
+        },
+        {
+          "year": 1997,
+          "value": 1210,
+          "flag": null
+        },
+        {
+          "year": 1998,
+          "value": 1630,
+          "flag": null
+        },
+        {
+          "year": 1999,
+          "value": 1560,
+          "flag": null
+        },
+        {
+          "year": 2000,
+          "value": 1770,
+          "flag": null
+        },
+        {
+          "year": 2001,
+          "value": 2010,
+          "flag": null
+        },
+        {
+          "year": 2002,
+          "value": 2220,
+          "flag": null
+        },
+        {
+          "year": 2003,
+          "value": 2400,
+          "flag": null
+        },
+        {
+          "year": 2004,
+          "value": 2710,
+          "flag": null
+        },
+        {
+          "year": 2005,
+          "value": 3110,
+          "flag": null
+        },
+        {
+          "year": 2006,
+          "value": 3560,
+          "flag": null
+        },
+        {
+          "year": 2007,
+          "value": 4240,
+          "flag": null
+        },
+        {
+          "year": 2008,
+          "value": 4890,
+          "flag": null
+        },
+        {
+          "year": 2009,
+          "value": 4930,
+          "flag": null
+        },
+        {
+          "year": 2010,
+          "value": 5080,
+          "flag": null
+        },
+        {
+          "year": 2011,
+          "value": 5640,
+          "flag": null
+        },
+        {
+          "year": 2012,
+          "value": 5820,
+          "flag": null
+        },
+        {
+          "year": 2013,
+          "value": 5870,
+          "flag": null
+        },
+        {
+          "year": 2014,
+          "value": 6080,
+          "flag": null
+        },
+        {
+          "year": 2015,
+          "value": 6560,
+          "flag": null
+        },
+        {
+          "year": 2016,
+          "value": 7070,
+          "flag": null
+        },
+        {
+          "year": 2017,
+          "value": 7720,
+          "flag": null
+        },
+        {
+          "year": 2018,
+          "value": 8360,
+          "flag": null
+        },
+        {
+          "year": 2019,
+          "value": 9250,
+          "flag": null
+        },
+        {
+          "year": 2020,
+          "value": 9470,
+          "flag": null
+        },
+        {
+          "year": 2021,
+          "value": 10970,
+          "flag": null
+        },
+        {
+          "year": 2022,
+          "value": 13350,
+          "flag": null
+        },
+        {
+          "year": 2023,
+          "value": 14750,
+          "flag": null
+        },
+        {
+          "year": 2024,
+          "value": 16340,
+          "flag": null
+        },
+        {
+          "year": 2025,
+          "value": 18120,
+          "flag": null
+        }
+      ]
+    }
+  ],
   "eu_funds": [],
   "update_status": {
     "status": "not_configured",
