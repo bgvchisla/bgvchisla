@@ -1,4 +1,4 @@
-name: Test official economic data
+name: Test and save official economic data
 
 on:
   push:
@@ -10,16 +10,22 @@ on:
       - ".github/workflows/test-economy.yml"
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: economy-development
+  cancel-in-progress: false
 
 jobs:
-  test:
+  update:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
       - name: Download repository files
         uses: actions/checkout@v4
+        with:
+          ref: development
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,20 +49,27 @@ jobs:
           )
 
           points = series["points"]
-          if not points:
-              raise RuntimeError("Липсват годишни данни.")
+          if len(points) < 2:
+              raise RuntimeError("Недостатъчно годишни данни.")
+
+          years = [point["year"] for point in points]
+          if years != sorted(set(years)):
+              raise RuntimeError("Неподредени или дублирани години.")
 
           print("Източник:", series["source"])
           print("Брой години:", len(points))
-          print("Първа година:", points[0]["year"])
           print("Последна година:", points[-1]["year"])
           print("Последна стойност:", points[-1]["value"])
-          print("Единица:", series["unit"])
           PY
 
-      - name: Save test result
-        uses: actions/upload-artifact@v4
-        with:
-          name: economy-test-result
-          path: economy.json
-          retention-days: 7
+      - name: Save validated data to development
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add economy.json
+          if git diff --cached --quiet; then
+            echo "No file changes to save."
+          else
+            git commit -m "Update official Eurostat series"
+            git push origin HEAD:development
+          fi
