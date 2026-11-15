@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>България в числа – дълг, цени, банки, доходи</title>
+<style>
+:root{--bg:#f5f6f8;--card:#fff;--tx:#14181f;--mu:#667085;--ac:#d92d20;--gr:#039855;--bl:#2f5bea;--am:#dc6803;--bd:#e4e7ec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1116;--card:#171b22;--tx:#eef0f4;--mu:#98a2b3;--ac:#ff7066;--gr:#32d583;--bl:#7c9cff;--am:#fdb022;--bd:#2a313c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1116;--card:#171b22;--tx:#eef0f4;--mu:#98a2b3;--ac:#ff7066;--gr:#32d583;--bl:#7c9cff;--am:#fdb022;--bd:#2a313c;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.45}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+main{max-width:1120px;margin:0 auto;padding:14px 14px 48px}
+.hero{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:20px 14px;text-align:center}
+.hero small{color:var(--mu);font-size:.8rem}
+.hero .n{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:clamp(1.6rem,8.5vw,4rem);font-weight:700;color:var(--ac);font-variant-numeric:tabular-nums;margin:6px 0;word-break:break-all}
+.hero .r{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;font-size:.8rem;color:var(--mu)}
+.hero .r b{color:var(--tx)}
+label.sw{display:flex;gap:8px;font-size:.74rem;color:var(--mu);margin-top:10px;text-align:left;justify-content:center}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:11;background:var(--bg);padding:10px 0;display:flex;gap:6px;overflow-x:auto}
+nav button{flex:1;min-width:max-content;border:1px solid var(--bd);background:var(--card);color:var(--mu);padding:9px 14px;border-radius:999px;font:inherit;font-size:.86rem;font-weight:600;cursor:pointer}
+nav button.on{background:var(--tx);color:var(--bg);border-color:var(--tx)}
+section{display:none}section.on{display:block}
+h2{font-size:1.05rem;margin:20px 2px 4px}
+p.h{color:var(--mu);font-size:.82rem;margin:0 2px 10px}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:14px 12px}
+.c .n{font-size:clamp(1.15rem,5.4vw,1.55rem);font-weight:750;font-variant-numeric:tabular-nums;line-height:1.15}
+.c .l{font-size:.78rem;margin-top:5px}
+.c .s{font-size:.68rem;color:var(--mu);margin-top:2px}
+.ac .n{color:var(--ac)}.gr .n{color:var(--gr)}.bl .n{color:var(--bl)}.am .n{color:var(--am)}
+.box{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:14px 12px;margin-top:10px}
+.box h3{font-size:.86rem;margin:0 0 10px}
+.hb{display:grid;grid-template-columns:minmax(90px,34%) 1fr auto;gap:8px;align-items:center;font-size:.78rem;margin:8px 0}
+.hb .t{height:12px;background:var(--bd);border-radius:6px;overflow:hidden}
+.hb .t i{display:block;height:100%;border-radius:6px}
+.hb b{font-variant-numeric:tabular-nums;font-size:.78rem}
+svg{width:100%;height:auto;display:block}
+svg text{fill:var(--mu);font-size:11px;font-family:inherit}
+.ln{fill:none;stroke-width:2.5}.ax{stroke:var(--bd);stroke-width:1}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:430px;font-size:.78rem;font-variant-numeric:tabular-nums}
+th,td{padding:7px 6px;text-align:right;border-bottom:1px solid var(--bd);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600;font-size:.7rem}
+tr:last-child td{border:0}
+.up{color:var(--ac)}.dn{color:var(--gr)}
+.don{display:flex;gap:16px;align-items:center}
+.ring{width:112px;height:112px;border-radius:50%;flex:none;display:grid;place-items:center}
+.ring span{background:var(--card);width:80px;height:80px;border-radius:50%;display:grid;place-items:center;font-weight:750;font-size:1.15rem}
+.lg{font-size:.8rem;display:grid;gap:6px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}
+.tip{background:color-mix(in srgb,var(--bl) 10%,var(--card));border:1px solid var(--bd);border-radius:14px;padding:11px 12px;font-size:.8rem;margin-top:10px}
+.src{color:var(--mu);font-size:.72rem;margin-top:22px}
+.src li{margin:4px 0}
+.mt{margin-top:10px}
+.ad{margin:14px 0;text-align:center}.ad small{display:block;font-size:.62rem;color:var(--mu);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}.ad a{display:flex;align-items:center;justify-content:center;width:100%;max-width:728px;min-height:90px;margin:0 auto;border-radius:12px;border:1px dashed var(--bd);background:var(--card);color:var(--mu);font-size:.82rem;text-decoration:none;padding:8px;overflow:hidden}.ad a.f{border:0;padding:0;min-height:0}.ad img{display:block;width:100%;height:auto}
+@media (min-width:640px){.g{grid-template-columns:repeat(3,1fr)}.hero{padding:28px 20px}.c{padding:16px 14px}}
+@media (min-width:960px){main{padding:24px 24px 64px}.g{grid-template-columns:repeat(4,1fr);gap:14px}#k1,#k4{grid-template-columns:repeat(3,1fr)}nav{justify-content:center}nav button{flex:none;padding:10px 22px}h2{font-size:1.25rem}section.on{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}section.on>h2,section.on>p.h,section.on>.g,section.on>.tip,section.on>.src,section.on>.wide,section.on>.box.tw{grid-column:1/-1}section.on>.box,section.on>.tip,section.on>.mt{margin-top:0}}
+</style>
+</head>
+<body>
+<main>
+<div class="hero">
+<small>🇧🇬 Държавен дълг на България (централно управление), оценка в реално време</small>
+<div class="n" id="debt">—</div>
+<div class="r"><span>На жител: <b id="pc">—</b></span><span>Дял от БВП: <b id="gdp">—</b></span><span>Тренд: <b id="ps">—</b>/сек.</span></div>
+<label class="sw"><input type="checkbox" id="pend" checked><span>Включи заема от 2,25 млрд. € (29.09.2026), още неотразен в официалните данни</span></label>
+</div>
+<nav id="nav"></nav>
+<div class="ad" id="ad-top"></div>
+
+<section id="s0" class="on">
+<h2>Накратко</h2><p class="h">Най-важното за страната – последни налични данни.</p>
+<div class="g" id="k0"></div>
+<div class="tip">💡 Цените растат по-бързо от заплатите в публичния сектор, а бюджетът е на дефицит – затова дългът расте. Банковите депозити пък са рекордни.</div>
+</section>
+
+<section id="s1">
+<h2>Дълг и бюджет</h2><p class="h">Колко дължи държавата и колко харчи спрямо приходите си (януари – септември 2026).</p>
+<div class="g" id="k1"></div>
+<div class="box"><h3>Приходи и разходи, млрд. €</h3><div id="bud"></div></div>
+<div class="box"><h3>Дълг и външен сектор</h3><div id="debtbars"></div></div>
+<div class="tip">Дългът на „централно управление“ (МФ) и на „държавно управление“ (НСИ, Маастрихт) са различни мерки и не са пряко сравними.</div>
+</section>
+
+<section id="s2">
+<h2>Цени и инфлация</h2><p class="h">Колко поскъпва животът – месец по месец през 2026 г.</p>
+<div class="g" id="k2"></div>
+<div class="box"><h3>Годишна инфлация (%)</h3><div id="cy"></div></div>
+<div class="box"><h3>Месечна инфлация, ИПЦ (%)</h3><div id="cm"></div></div>
+<div class="box tw"><table id="inf"></table></div>
+<p class="src">ИПЦ – национален индекс; ХИПЦ – хармонизиран (за сравнение в ЕС). Октомври е експресна оценка на НСИ. Август по ХИПЦ – експресна оценка.</p>
+</section>
+
+<section id="s3">
+<h2>Банки: кредити и депозити</h2><p class="h">Колко пари са заели и колко са спестили хората и фирмите – септември 2026, БНБ.</p>
+<div class="g" id="k3"></div>
+<div class="box wide"><h3>Размер, млрд. €</h3><div id="bk"></div></div>
+<div class="box tw"><h3>Последни три месеца, млрд. €</h3><table id="bt"></table></div>
+<div class="tip">Домакинствата държат 1,7 пъти повече пари в банките, отколкото дължат. Кредитите на хората растат близо два пъти по-бързо от тези на фирмите.</div>
+<p class="src">Данните за „домакинства“ включват и нетърговски организации, обслужващи домакинствата (НТООД).</p>
+</section>
+
+<section id="s4">
+<h2>Доходи, бедност и пенсии</h2><p class="h">Колко получават хората и колко са под линията на бедност.</p>
+<div class="box wide"><h3>Бедност през 2025 г. (НСИ)</h3>
+<div class="don"><div class="ring" id="ring"><span>21,2%</span></div>
+<div class="lg"><div><i class="dot" style="background:var(--ac)"></i><b>1 368 700</b> души под линията на бедност</div><div><i class="dot" style="background:var(--bd)"></i>Останалите ≈ 5,07 млн.</div><div class="s" style="color:var(--mu)">Линия: 866,67 лв. (≈ 443 €) на човек месечно</div></div></div></div>
+<div class="g mt" id="k4"></div>
+<div class="box wide"><h3>Месечни доходи в евро – сравнение</h3><div id="inc"></div></div>
+<div class="tip">Минималната пенсия (347,51 €) е под официалната линия на бедност за 2026 г. (390,63 €). Около 810 000 пенсионери получават пенсия до минималната.</div>
+<p class="src">Линията на бедност е 60% от медианния доход. Изчисленията „≈“ са мои.</p>
+</section>
+
+<div class="ad" id="ad-bot"></div>
+<ul class="src">
+<li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г.</li>
+<li>Броячът започва от 37,416 млрд. € към 30.09.2026 (МФ), плюс по избор 2,25 млрд. € нов външен дълг и тренд ≈ 65 €/сек. Това е модел, не официална цифра.</li>
+<li>Не е инвестиционен или финансов съвет. За точни стойности виж nsi.bg, minfin.bg, bnb.bg, nssi.bg.</li>
+<li id="adli"></li>
+</ul>
+</main>
+<script>
+var $=function(i){return document.getElementById(i)};
+var F=new Intl.NumberFormat("bg-BG",{maximumFractionDigits:0}),F1=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:1}),F2=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:3});
+function sg(v,d){var s=(d||F1).format(Math.abs(v));return (v<0?"−":"+")+s}
+function card(n,l,s,c){return '<div class="c '+(c||"")+'"><div class="n">'+n+'</div><div class="l">'+l+'</div>'+(s?'<div class="s">'+s+'</div>':"")+'</div>'}
+function fill(id,a){$(id).innerHTML=a.map(function(x){return card.apply(null,x)}).join("")}
+function hb(id,rows,fmt,max){var m=max||Math.max.apply(null,rows.map(function(r){return r[1]}));$(id).innerHTML=rows.map(function(r){return '<div class="hb"><span>'+r[0]+'</span><span class="t"><i style="width:'+(r[1]/m*100)+'%;background:var(--'+(r[2]||"bl")+')"></i></span><b>'+fmt(r[1])+'</b></div>'}).join("")}
+/* тикер */
+var BASE=37416e6,PEND=2.25e9,DR=169e6/(30*86400),T0=new Date(2026,9,1).getTime(),POP=6423207,GDP=37416e6/0.287;
+function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0)/1000,0);$("debt").textContent="€ "+F.format(d);$("pc").textContent=F.format(d/POP)+" €";$("gdp").textContent=F1.format(d/GDP*100)+"%";$("ps").textContent=F1.format(DR)+" €"}
+$("pend").onchange=tick;tick();setInterval(tick,100);
+/* табове */
+var T=["Накратко","Дълг","Цени","Банки","Хора"];
+$("nav").innerHTML=T.map(function(t,i){return '<button data-i="'+i+'" class="'+(i?"":"on")+'">'+t+'</button>'}).join("");
+$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav button").forEach(function(b){b.classList.toggle("on",b.dataset.i==i)});for(var k=0;k<5;k++)$("s"+k).classList.toggle("on",k==i)};
+/* накратко */
+fill("k0",[["6,1%","Годишна инфлация, окт.","експресна оценка","ac"],["−2,8% БВП","Бюджетен дефицит, сеп.","3,669 млрд. € от началото на годината","ac"],["57,2 млрд. €","Депозити на домакинствата","+16,2% за година","gr"],["33,1 млрд. €","Кредити на домакинствата","+20,7% за година","am"],["1 438 €","Средна заплата, Q3","−0,4% спрямо Q2","bl"],["558 €","Средна пенсия, сеп.","минимална 347,51 €","bl"],["21,2%","Под линията на бедност","1,37 млн. души, 2025 г.","ac"],["BBB+","Кредитен рейтинг","Fitch: позитивна · S&P: стабилна","gr"]]);
+/* дълг */
+fill("k1",[["37,416 млрд. €","Официален дълг, 30.09.2026","28,7% от БВП; +169 млн. € за месец"],["−3,669 млрд. €","Дефицит (КФП)","2,8% от прогнозния БВП","ac"],["8,478 млрд. €","Фискален резерв","6,565 млрд. депозити","gr"],["974,5 млн. €","Лихви за 9 месеца","92% от годишния план","ac"],["5,7%","Дефицит 2026 по закона за бюджета","Fitch очаква 4,5%; S&P – 5,1%"],["6,5 млрд. €","Нов дълг, поет до 29.09","лимит 10,1 млрд. €"]]);
+hb("bud",[["Приходи и помощи",33.898,"gr"],["Данъци и осигуровки",27.201,"bl"],["Разходи",37.567,"ac"]],function(v){return F2.format(v)});
+hb("debtbars",[["Външен дълг, дек. 2025",57.679,"am"],["Дълг на централно упр., сеп. 2026",37.416,"ac"],["Дълг на държавно упр., 2025",34.797,"bl"],["Международни резерви, 2025",40.1,"gr"]],function(v){return F1.format(v)+" млрд. €"});
+/* цени */
+var M=["ян","фев","мар","апр","май","юни","юли","авг","сеп","окт*"],R=[[0.6,3.5,0.6,2.3],[0.4,3.3,0.2,2.1],[0.9,4.1,1.0,2.8],[1.8,6.8,1.8,6.0],[0.0,6.9,0.3,6.3],[-0.9,5.4,-0.5,5.2],[0.8,4.5,0.6,4.4],[0.6,5.1,0.8,5.1],[-0.2,5.7,0.0,5.6],[1.3,6.1,0.8,6.0]];
+fill("k2",[["6,1%","Годишна, окт. (ИПЦ)","експресна оценка","ac"],["+1,3%","Месечна, окт. (ИПЦ)","експресна оценка","ac"],["4,2%","От началото на годината","дек. 2025 → сеп. 2026"],["5,1%","Средногодишна, 12 месеца","ИПЦ; по ХИПЦ 4,2%"]]);
+function svgLine(id){var W=640,H=200,l=30,b=22,t=12,x=function(i){return l+i*(W-l-10)/9},y=function(v){return t+(8-v)*(H-t-b)/8};var s='<svg viewBox="0 0 '+W+' '+H+'">';[0,2,4,6,8].forEach(function(v){s+='<line class="ax" x1="'+l+'" x2="'+W+'" y1="'+y(v)+'" y2="'+y(v)+'"/><text x="2" y="'+(y(v)+4)+'">'+v+'%</text>'});[[1,"ac"],[3,"bl"]].forEach(function(p){var pts=R.map(function(r,i){return x(i)+","+y(r[p[0]])}).join(" ");s+='<polyline class="ln" style="stroke:var(--'+p[1]+')" points="'+pts+'"/>';R.forEach(function(r,i){s+='<circle cx="'+x(i)+'" cy="'+y(r[p[0]])+'" r="3" style="fill:var(--'+p[1]+')"/>'})});R.forEach(function(r,i){s+='<text x="'+(x(i)-8)+'" y="'+(H-6)+'">'+M[i]+'</text>'});s+='<text x="'+(W-170)+'" y="10" style="fill:var(--ac)">● ИПЦ</text><text x="'+(W-100)+'" y="10" style="fill:var(--bl)">● ХИПЦ</text></svg>';$(id).innerHTML=s}
+function svgBars(id){var W=640,H=170,l=30,z=105,x=function(i){return l+i*(W-l-10)/10+8};var s='<svg viewBox="0 0 '+W+' '+H+'"><line class="ax" x1="'+l+'" x2="'+W+'" y1="'+z+'" y2="'+z+'"/>';R.forEach(function(r,i){var v=r[0],h=Math.abs(v)*36;s+='<rect x="'+x(i)+'" y="'+(v>=0?z-h:z)+'" width="38" height="'+Math.max(h,1)+'" rx="4" style="fill:var(--'+(v>=0?"ac":"gr")+')"/><text x="'+(x(i)+19)+'" y="'+(v>=0?z-h-5:z+h+13)+'" text-anchor="middle">'+sg(v)+'</text><text x="'+(x(i)+19)+'" y="'+(H-4)+'" text-anchor="middle">'+M[i]+'</text>'});$(id).innerHTML=s+"</svg>"}
+svgLine("cy");svgBars("cm");
+$("inf").innerHTML="<tr><th>2026</th><th>ИПЦ м/м</th><th>ИПЦ г/г</th><th>ХИПЦ м/м</th><th>ХИПЦ г/г</th></tr>"+R.map(function(r,i){return "<tr><td>"+M[i]+"</td><td class='"+(r[0]>0?"up":r[0]<0?"dn":"")+"'>"+sg(r[0])+"%</td><td>"+F1.format(r[1])+"%</td><td class='"+(r[2]>0?"up":r[2]<0?"dn":"")+"'>"+sg(r[2])+"%</td><td>"+F1.format(r[3])+"%</td></tr>"}).join("");
+/* банки */
+fill("k3",[["33,115 млрд. €","Кредити на домакинства","+20,7% за година","am"],["29,401 млрд. €","Кредити на фирми","+12,0% за година","am"],["57,222 млрд. €","Депозити на домакинства","+16,2% за година","gr"],["27,959 млрд. €","Депозити на фирми","+7,0% за година","gr"]]);
+hb("bk",[["Депозити – домакинства",57.222,"gr"],["Кредити – домакинства",33.115,"am"],["Кредити – фирми",29.401,"ac"],["Депозити – фирми",27.959,"bl"]],function(v){return F1.format(v)});
+$("bt").innerHTML="<tr><th></th><th>юли</th><th>авг.</th><th>сеп.</th></tr><tr><td>Кредити – домакинства</td><td>32,129</td><td>32,637</td><td>33,115</td></tr><tr><td>Кредити – фирми</td><td>29,150</td><td>29,256</td><td>29,401</td></tr><tr><td>Депозити – домакинства</td><td>56,859</td><td>57,191</td><td>57,222</td></tr><tr><td>Депозити – фирми</td><td>—</td><td>28,347</td><td>27,959</td></tr>";
+/* хора */
+$("ring").style.background="conic-gradient(var(--ac) 0 21.2%,var(--bd) 0)";
+fill("k4",[["29%","Риск от бедност или социално изключване","1,87 млн. души, 2025","am"],["11,8%","Бедни сред работещите (18–64)","55,1% сред безработните","ac"],["558,08 €","Средна пенсия, сеп. 2026","+7,8% от 1 юли","bl"],["347,51 €","Минимална пенсия","макс. 1 738,40 €","bl"],["≈ 2,04 млн.","Пенсионери с осъвременяване от 1 юли","НОИ","bl"],["3,5%","Безработица, Q2 2026","107 100 души","gr"]]);
+hb("inc",[["Минимална пенсия",347.51,"ac"],["Линия на бедност 2026 (официална)",390.63,"am"],["Линия на бедност (НСИ, 2025)",443.1,"am"],["Средна пенсия",558.08,"bl"],["Минимална заплата",620.2,"gr"],["Средна заплата, Q3",1438,"gr"]],function(v){return F2.format(v)+" €"},1438);
+/* реклами: попълни img/imgM/href/alt, за да замениш свободното място */
+var CONTACT="reklama@example.bg";
+var ADS={top:{img:"",imgM:"",href:"",alt:""},bot:{img:"",imgM:"",href:"",alt:""}};
+function ad(id,a){var h='<small>Реклама</small>';if(a.img&&a.href){h+='<a class="f" href="'+a.href+'" target="_blank" rel="sponsored noopener"><picture>'+(a.imgM?'<source media="(max-width:639px)" srcset="'+a.imgM+'">':'')+'<img src="'+a.img+'" alt="'+(a.alt||'Реклама')+'" loading="lazy"></picture></a>'}else{h+='<a href="mailto:'+CONTACT+'?subject=Реклама">Рекламно място · 728×90 / 320×100 · Пишете ни: '+CONTACT+'</a>'}$(id).innerHTML=h}
+ad("ad-top",ADS.top);ad("ad-bot",ADS.bot);
+$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.';
+/* зареждане на рекламите от data.json (без припкване на кода) */
+function okd(a){var n=new Date().toISOString().slice(0,10);return a&&!(a.from&&n<a.from)&&!(a.to&&n>a.to)}
+function pick(s){var l=[].concat(s||[]).filter(okd);return l.length?l[Math.floor(Math.random()*l.length)]:{}}
+fetch("data.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;if(j.contact)CONTACT=j.contact;if(j.ads){ad("ad-top",pick(j.ads.top));ad("ad-bot",pick(j.ads.bot))}$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.'}).catch(function(){});
+</script>
+</body>
+</html>

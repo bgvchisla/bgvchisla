@@ -1,0 +1,15 @@
+{
+  "contact": "bgvchisla@proton.me",
+  "ads": {
+    "top": [],
+    "bot": []
+  },
+  "_пример_за_реклама_копирай_вътре_в_top_или_bot": {
+    "img": "https://example.com/baner-728x90.png",
+    "imgM": "https://example.com/baner-320x100.png",
+    "href": "https://example.com",
+    "alt": "Име на рекламодателя",
+    "from": "2026-12-01",
+    "to": "2026-12-31"
+  }
+}
