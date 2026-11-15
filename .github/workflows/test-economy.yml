@@ -1,0 +1,62 @@
+name: Test official economic data
+
+on:
+  push:
+    branches:
+      - development
+    paths:
+      - "scripts/update_economy.py"
+      - "economy.json"
+      - ".github/workflows/test-economy.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Download repository files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch official Eurostat data
+        run: python scripts/update_economy.py
+
+      - name: Validate downloaded series
+        run: |
+          python - <<'PY'
+          import json
+
+          with open("economy.json", encoding="utf-8") as file:
+              data = json.load(file)
+
+          series = next(
+              row for row in data["series"]
+              if row["id"] == "gdp_per_capita_current_eur"
+          )
+
+          points = series["points"]
+          if not points:
+              raise RuntimeError("Липсват годишни данни.")
+
+          print("Източник:", series["source"])
+          print("Брой години:", len(points))
+          print("Първа година:", points[0]["year"])
+          print("Последна година:", points[-1]["year"])
+          print("Последна стойност:", points[-1]["value"])
+          print("Единица:", series["unit"])
+          PY
+
+      - name: Save test result
+        uses: actions/upload-artifact@v4
+        with:
+          name: economy-test-result
+          path: economy.json
+          retention-days: 7
