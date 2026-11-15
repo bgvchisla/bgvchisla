@@ -59,6 +59,32 @@ jobs:
           print("Последна стойност:", points[-1]["value"])
           PY
 
+      - name: Ignore timestamp-only changes
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+
+          with open("economy.json", encoding="utf-8") as file:
+              new = json.load(file)
+
+          old = json.loads(
+              subprocess.check_output(["git", "show", "HEAD:economy.json"]).decode("utf-8")
+          )
+
+          def clean(data):
+              data.pop("updated_at", None)
+              for row in data.get("series", []):
+                  row.pop("updated_at", None)
+              return data
+
+          if clean(new) == clean(old):
+              subprocess.check_call(["git", "checkout", "--", "economy.json"])
+              print("Only the timestamp changed. File restored.")
+          else:
+              print("Real data change found.")
+          PY
+
       - name: Save updated data to main
         id: save
         run: |
