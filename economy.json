@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_successful_update": "2026-11-18T16:15:53.652634+00:00",
+  "last_successful_update": "2026-11-18T16:16:49.909512+00:00",
   "indicators": [],
   "series": [
     {
@@ -12,7 +12,7 @@
       "dataset": "nama_10_pc",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_pc?lang=EN&freq=A&unit=CP_EUR_HAB&na_item=B1GQ&geo=BG",
       "note": "По текущи цени; не измерва самостоятелно реалния растеж.",
-      "updated_at": "2026-11-18T16:15:51.180839+00:00",
+      "updated_at": "2026-11-18T16:16:45.549037+00:00",
       "points": [
         {
           "year": 1995,
@@ -180,7 +180,7 @@
       "dataset": "nama_10_gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?lang=EN&freq=A&unit=CLV_PCH_PRE&na_item=B1GQ&geo=BG",
       "note": "Годишен процентен темп при верижно свързани обеми.",
-      "updated_at": "2026-11-18T16:15:51.636123+00:00",
+      "updated_at": "2026-11-18T16:16:46.079251+00:00",
       "points": [
         {
           "year": 1996,
@@ -343,7 +343,7 @@
       "dataset": "une_rt_a",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&freq=A&unit=PC_ACT&sex=T&age=Y15-74&geo=BG",
       "note": "Годишен коефициент на безработица.",
-      "updated_at": "2026-11-18T16:15:52.572375+00:00",
+      "updated_at": "2026-11-18T16:16:47.149013+00:00",
       "points": [
         {
           "year": 2009,
@@ -441,7 +441,7 @@
       "dataset": "demo_pjan",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?lang=EN&freq=A&unit=NR&sex=T&age=TOTAL&geo=BG",
       "note": "Население към 1 януари; отчетени стойности.",
-      "updated_at": "2026-11-18T16:15:53.039774+00:00",
+      "updated_at": "2026-11-18T16:16:47.677168+00:00",
       "points": [
         {
           "year": 1960,
@@ -774,17 +774,458 @@
           "flag": null
         }
       ]
+    },
+    {
+      "id": "employment_rate_20_64",
+      "title": "Заетост на населението 20–64 г.",
+      "unit": "%",
+      "frequency": "annual",
+      "source": "Евростат",
+      "dataset": "lfsi_emp_a",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_a?lang=EN&freq=A&indic_em=EMP_LFS&unit=PC_POP&sex=T&age=Y20-64&geo=BG",
+      "note": "Коефициент на заетост за възраст 20–64 години.",
+      "updated_at": "2026-11-18T16:16:46.617703+00:00",
+      "points": [
+        {
+          "year": 2009,
+          "value": 68.2,
+          "flag": null
+        },
+        {
+          "year": 2010,
+          "value": 64.1,
+          "flag": "b"
+        },
+        {
+          "year": 2011,
+          "value": 62.3,
+          "flag": "b"
+        },
+        {
+          "year": 2012,
+          "value": 62.4,
+          "flag": null
+        },
+        {
+          "year": 2013,
+          "value": 62.9,
+          "flag": null
+        },
+        {
+          "year": 2014,
+          "value": 64.4,
+          "flag": null
+        },
+        {
+          "year": 2015,
+          "value": 66.5,
+          "flag": null
+        },
+        {
+          "year": 2016,
+          "value": 67.0,
+          "flag": null
+        },
+        {
+          "year": 2017,
+          "value": 70.6,
+          "flag": null
+        },
+        {
+          "year": 2018,
+          "value": 71.7,
+          "flag": null
+        },
+        {
+          "year": 2019,
+          "value": 74.3,
+          "flag": "b"
+        },
+        {
+          "year": 2020,
+          "value": 72.7,
+          "flag": null
+        },
+        {
+          "year": 2021,
+          "value": 73.3,
+          "flag": null
+        },
+        {
+          "year": 2022,
+          "value": 75.9,
+          "flag": null
+        },
+        {
+          "year": 2023,
+          "value": 76.2,
+          "flag": null
+        },
+        {
+          "year": 2024,
+          "value": 76.8,
+          "flag": "b"
+        },
+        {
+          "year": 2025,
+          "value": 77.0,
+          "flag": null
+        }
+      ]
+    },
+    {
+      "id": "gdp_pps_index",
+      "title": "БВП на човек в PPS, ЕС = 100",
+      "unit": "индекс",
+      "frequency": "annual",
+      "source": "Евростат",
+      "dataset": "tec00114",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tec00114?lang=EN&freq=A&indic_ppp=VI_PPS_EU27_2020_HAB&ppp_cat18=GDP&geo=BG",
+      "note": "Индекс спрямо средното за ЕС (ЕС=100).",
+      "updated_at": "2026-11-18T16:16:48.211388+00:00",
+      "points": [
+        {
+          "year": 2014,
+          "value": 48,
+          "flag": null
+        },
+        {
+          "year": 2015,
+          "value": 49,
+          "flag": null
+        },
+        {
+          "year": 2016,
+          "value": 51,
+          "flag": null
+        },
+        {
+          "year": 2017,
+          "value": 52,
+          "flag": null
+        },
+        {
+          "year": 2018,
+          "value": 53,
+          "flag": null
+        },
+        {
+          "year": 2019,
+          "value": 55,
+          "flag": null
+        },
+        {
+          "year": 2020,
+          "value": 57,
+          "flag": null
+        },
+        {
+          "year": 2021,
+          "value": 59,
+          "flag": null
+        },
+        {
+          "year": 2022,
+          "value": 62,
+          "flag": null
+        },
+        {
+          "year": 2023,
+          "value": 63,
+          "flag": null
+        },
+        {
+          "year": 2024,
+          "value": 66,
+          "flag": null
+        },
+        {
+          "year": 2025,
+          "value": 68,
+          "flag": "p"
+        }
+      ]
+    },
+    {
+      "id": "exports_goods_mio_eur",
+      "title": "Износ на стоки",
+      "unit": "млн. евро",
+      "frequency": "annual",
+      "source": "Евростат",
+      "dataset": "ext_lt_intertrd",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ext_lt_intertrd?lang=EN&freq=A&indic_et=MIO_EXP_VAL&sitc06=TOTAL&partner=WORLD&geo=BG",
+      "note": "Износ на стоки към всички партньори, млн. евро.",
+      "updated_at": "2026-11-18T16:16:49.140190+00:00",
+      "points": [
+        {
+          "year": 2002,
+          "value": 6062.9,
+          "flag": null
+        },
+        {
+          "year": 2003,
+          "value": 6668.2,
+          "flag": null
+        },
+        {
+          "year": 2004,
+          "value": 7984.9,
+          "flag": null
+        },
+        {
+          "year": 2005,
+          "value": 9223.3,
+          "flag": null
+        },
+        {
+          "year": 2006,
+          "value": 11748.1,
+          "flag": null
+        },
+        {
+          "year": 2007,
+          "value": 13512.1,
+          "flag": null
+        },
+        {
+          "year": 2008,
+          "value": 15204.1,
+          "flag": null
+        },
+        {
+          "year": 2009,
+          "value": 11699.5,
+          "flag": null
+        },
+        {
+          "year": 2010,
+          "value": 15561.4,
+          "flag": null
+        },
+        {
+          "year": 2011,
+          "value": 20264.6,
+          "flag": null
+        },
+        {
+          "year": 2012,
+          "value": 20770.5,
+          "flag": null
+        },
+        {
+          "year": 2013,
+          "value": 22271.8,
+          "flag": null
+        },
+        {
+          "year": 2014,
+          "value": 22043.6,
+          "flag": null
+        },
+        {
+          "year": 2015,
+          "value": 22877.6,
+          "flag": null
+        },
+        {
+          "year": 2016,
+          "value": 24021.8,
+          "flag": null
+        },
+        {
+          "year": 2017,
+          "value": 27779.9,
+          "flag": null
+        },
+        {
+          "year": 2018,
+          "value": 28495.9,
+          "flag": null
+        },
+        {
+          "year": 2019,
+          "value": 29788.7,
+          "flag": null
+        },
+        {
+          "year": 2020,
+          "value": 27966.9,
+          "flag": null
+        },
+        {
+          "year": 2021,
+          "value": 34822.3,
+          "flag": null
+        },
+        {
+          "year": 2022,
+          "value": 47508.8,
+          "flag": null
+        },
+        {
+          "year": 2023,
+          "value": 44377.3,
+          "flag": null
+        },
+        {
+          "year": 2024,
+          "value": 44249.0,
+          "flag": null
+        },
+        {
+          "year": 2025,
+          "value": 42882.1,
+          "flag": null
+        }
+      ]
+    },
+    {
+      "id": "imports_goods_mio_eur",
+      "title": "Внос на стоки",
+      "unit": "млн. евро",
+      "frequency": "annual",
+      "source": "Евростат",
+      "dataset": "ext_lt_intertrd",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ext_lt_intertrd?lang=EN&freq=A&indic_et=MIO_IMP_VAL&sitc06=TOTAL&partner=WORLD&geo=BG",
+      "note": "Внос на стоки от всички партньори, млн. евро.",
+      "updated_at": "2026-11-18T16:16:49.909456+00:00",
+      "points": [
+        {
+          "year": 2002,
+          "value": 8411.2,
+          "flag": null
+        },
+        {
+          "year": 2003,
+          "value": 9610.5,
+          "flag": null
+        },
+        {
+          "year": 2004,
+          "value": 11619.5,
+          "flag": null
+        },
+        {
+          "year": 2005,
+          "value": 12497.5,
+          "flag": null
+        },
+        {
+          "year": 2006,
+          "value": 15424.2,
+          "flag": null
+        },
+        {
+          "year": 2007,
+          "value": 21861.5,
+          "flag": null
+        },
+        {
+          "year": 2008,
+          "value": 25093.9,
+          "flag": null
+        },
+        {
+          "year": 2009,
+          "value": 16875.9,
+          "flag": null
+        },
+        {
+          "year": 2010,
+          "value": 19245.1,
+          "flag": null
+        },
+        {
+          "year": 2011,
+          "value": 23406.5,
+          "flag": null
+        },
+        {
+          "year": 2012,
+          "value": 25459.5,
+          "flag": null
+        },
+        {
+          "year": 2013,
+          "value": 25828.5,
+          "flag": null
+        },
+        {
+          "year": 2014,
+          "value": 26118.3,
+          "flag": null
+        },
+        {
+          "year": 2015,
+          "value": 26346.8,
+          "flag": null
+        },
+        {
+          "year": 2016,
+          "value": 26158.7,
+          "flag": null
+        },
+        {
+          "year": 2017,
+          "value": 30213.2,
+          "flag": null
+        },
+        {
+          "year": 2018,
+          "value": 32083.5,
+          "flag": null
+        },
+        {
+          "year": 2019,
+          "value": 33650.3,
+          "flag": null
+        },
+        {
+          "year": 2020,
+          "value": 30648.8,
+          "flag": null
+        },
+        {
+          "year": 2021,
+          "value": 39128.1,
+          "flag": null
+        },
+        {
+          "year": 2022,
+          "value": 55175.8,
+          "flag": null
+        },
+        {
+          "year": 2023,
+          "value": 49605.9,
+          "flag": null
+        },
+        {
+          "year": 2024,
+          "value": 50840.7,
+          "flag": null
+        },
+        {
+          "year": 2025,
+          "value": 53732.6,
+          "flag": null
+        }
+      ]
     }
   ],
   "eu_funds": [],
   "update_status": {
-    "status": "partial",
+    "status": "ok",
     "successful_series": [
       "gdp_per_capita_current_eur",
       "gdp_real_growth",
+      "employment_rate_20_64",
       "unemployment_rate_15_74",
-      "population_total"
+      "population_total",
+      "gdp_pps_index",
+      "exports_goods_mio_eur",
+      "imports_goods_mio_eur"
     ],
-    "configured_series": 6
+    "configured_series": 8
   }
 }
