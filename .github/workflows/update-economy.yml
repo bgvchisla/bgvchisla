@@ -36,6 +36,7 @@ jobs:
           else
             git commit -m "Update economic statistics"
             git push origin HEAD:main
+          fi
 
       - name: Prepare production files
         run: |
@@ -47,4 +48,3 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy public --project-name=bgvchisla --branch=main
-          fi
