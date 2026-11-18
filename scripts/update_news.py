@@ -27,9 +27,8 @@ FEEDS = [
         "id": "parliament-news",
         "section": "bulgaria",
         "name": "Народно събрание",
-        "discovery_url": "https://www.parliament.bg/bg/rss",
+        "url": "https://www.parliament.bg/?fid=3&lng=bg&page=feed",
         "allowed_hosts": ["www.parliament.bg", "parliament.bg"],
-        "discovery_label": "Новини",
         "keywords": [],
     },
     {
@@ -166,9 +165,32 @@ def fetch(feed):
         raw = response.read(MAX_BYTES + 1)
     if len(raw) > MAX_BYTES:
         raise ValueError("Feed exceeds the 1 MB size limit")
+    # Remove an external DOCTYPE before parsing; entity declarations stay forbidden.
     upper = raw.upper()
-    if b"<!DOCTYPE" in upper or b"<!ENTITY" in upper:
-        raise ValueError("DTD/entity declarations are not accepted")
+    if b"<!ENTITY" in upper:
+        raise ValueError("XML entity declarations are not accepted")
+    if b"<!DOCTYPE" in upper:
+        start = upper.find(b"<!DOCTYPE")
+        quote = None
+        bracket_depth = 0
+        end = None
+        for pos in range(start + 9, len(raw)):
+            ch = raw[pos]
+            if quote:
+                if ch == quote:
+                    quote = None
+            elif ch in (34, 39):
+                quote = ch
+            elif ch == 91:
+                bracket_depth += 1
+            elif ch == 93:
+                bracket_depth = max(0, bracket_depth - 1)
+            elif ch == 62 and bracket_depth == 0:
+                end = pos + 1
+                break
+        if end is None:
+            raise ValueError("Malformed XML DOCTYPE declaration")
+        raw = raw[:start] + raw[end:]
     root = ET.fromstring(raw)
     rows = []
     for node in root.iter():
