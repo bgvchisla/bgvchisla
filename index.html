@@ -950,8 +950,8 @@ fetch("official_bnb.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw ne
 function renderNssi(data){
  var m=data.metrics||{};
  var specs=[
-  ["pensioners_count","Брой пенсионери","към "+data.reference_date,"bl",function(v){return F0.format(v)}],
-  ["pensions_count","Брой пенсии","към "+data.reference_date,"bl",function(v){return F0.format(v)}],
+  ["pensioners_count","Брой пенсионери","към "+data.reference_date,"bl",function(v){return F.format(v)}],
+  ["pensions_count","Брой пенсии","към "+data.reference_date,"bl",function(v){return F.format(v)}],
   ["average_pension","Среден размер на пенсията","средно за първото полугодие · евро","gr",function(v){return F2.format(v)+" €"}],
   ["pension_expenditure","Разход за пенсии","натрупано януари–юни · евро","am",function(v){return (v/1e9).toLocaleString("bg-BG",{minimumFractionDigits:3,maximumFractionDigits:3})+" млрд. €"}]
  ];
