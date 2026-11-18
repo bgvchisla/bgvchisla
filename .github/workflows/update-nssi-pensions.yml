@@ -1,0 +1,41 @@
+name: Update official NSSI pension data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 7 5,20 * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_nssi_pensions.py"
+      - ".github/workflows/update-nssi-pensions.yml"
+permissions:
+  contents: write
+concurrency:
+  group: update-nssi-pensions
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check xlrd
+      - name: Import and validate official NSSI data
+        run: python scripts/update_nssi_pensions.py
+      - name: Commit updated dataset
+        run: |
+          git add -f official_nssi.json
+          if git diff --cached --quiet -- official_nssi.json; then
+            echo "No NSSI data changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update official NSSI pension data"
+            git push
+          fi
