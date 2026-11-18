@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T14:10:52.693901+00:00",
+  "updated_at": "2026-11-18T14:13:10.031354+00:00",
   "items": [
     {
       "section": "europe",
@@ -351,7 +351,7 @@
     "failures": [
       {
         "feed": "parliament-news",
-        "error": "No matching official RSS link found on discovery page"
+        "error": "No valid article links found on official HTML page"
       }
     ]
   },
