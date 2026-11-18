@@ -483,6 +483,20 @@ label.sw{
   #k0 .c .s{font-size:.8rem;line-height:1.4;margin-top:6px}
 }
 @media(prefers-reduced-motion:reduce){#k0 .c{transition:none}#k0 .c:hover{transform:none}}
+
+/* Професионална навигация с ясна йерархия и номерация */
+#site-content nav#nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;padding:16px 0 18px;overflow:visible;border-bottom:1px solid #d7e0e9}
+#site-content nav#nav button{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:7px;min-width:0;min-height:76px;padding:12px 15px;border:1px solid #d4dee8;border-radius:10px;background:linear-gradient(145deg,#fff 0%,#f5f8fb 100%);color:#344b65;text-align:left;box-shadow:0 2px 5px rgba(29,48,70,.045);transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease}
+#site-content nav#nav button .nav-num{display:block;color:#8a9bad;font-size:.62rem;line-height:1;font-weight:800;letter-spacing:.14em;font-variant-numeric:tabular-nums}
+#site-content nav#nav button .nav-text{display:block;font-size:.91rem;line-height:1.15;font-weight:700;letter-spacing:-.018em;overflow-wrap:anywhere}
+#site-content nav#nav button.on{position:relative;background:linear-gradient(145deg,#2d4664 0%,#20364f 100%);border-color:#20364f;color:#fff;box-shadow:0 5px 13px rgba(32,54,79,.19)}
+#site-content nav#nav button.on:after{content:"";position:absolute;left:15px;bottom:0;width:30px;height:3px;border-radius:3px 3px 0 0;background:#8fb4d7}
+#site-content nav#nav button.on .nav-num{color:#b9d0e6}
+@media(hover:hover){#site-content nav#nav button:not(.on):hover{transform:translateY(-2px);background:#fff;border-color:#aebfd0;box-shadow:0 6px 14px rgba(29,48,70,.09);color:#243f5d}#site-content nav#nav button.on:hover{transform:translateY(-1px);box-shadow:0 7px 16px rgba(32,54,79,.22)}}
+@media(max-width:959px){#site-content nav#nav{grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}}
+@media(max-width:639px){#site-content nav#nav{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;padding:12px 0 14px}#site-content nav#nav button{min-height:64px;padding:10px 9px;border-radius:8px;gap:6px}#site-content nav#nav button .nav-text{font-size:.78rem;line-height:1.15}#site-content nav#nav button .nav-num{font-size:.56rem}#site-content nav#nav button.on:after{left:9px;width:24px}}
+@media(prefers-reduced-motion:reduce){#site-content nav#nav button{transition:none}#site-content nav#nav button:hover{transform:none}}
+
 </style>
 </head>
 <body>
@@ -624,8 +638,8 @@ function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0
 $("pend").onchange=tick;tick();setInterval(tick,100);
 /* табове */
 var T=["Накратко","Дълг","Цени","Банки","Хора","Икономика","Труд","България в ЕС","Демография","Търговия","Региони","Новини"];
-$("nav").innerHTML=T.map(function(t,i){return '<button data-i="'+i+'" class="'+(i?"":"on")+'">'+t+'</button>'}).join("");
-$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav button").forEach(function(b){b.classList.toggle("on",b.dataset.i==i)});for(var k=0;k<T.length;k++)$("s"+k).classList.toggle("on",k==i)};
+$("nav").innerHTML=T.map(function(t,i){var n=String(i+1).padStart(2,"0");return '<button type="button" data-i="'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+'"><span class="nav-num">'+n+'</span><span class="nav-text">'+t+'</span></button>'}).join("");
+$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav#nav button").forEach(function(b){var active=b.dataset.i==i;b.classList.toggle("on",active);b.setAttribute("aria-pressed",active?"true":"false")});for(var k=0;k<T.length;k++)$("s"+k).classList.toggle("on",k==i)};
 /* накратко */
 fill("k0",[["6,1%","Годишна инфлация, окт.","експресна оценка","ac"],["−2,8% БВП","Бюджетен дефицит, сеп.","3,669 млрд. € от началото на годината","ac"],["57,2 млрд. €","Депозити на домакинствата","+16,2% за година","gr"],["33,1 млрд. €","Кредити на домакинствата","+20,7% за година","am"],["1 438 €","Средна заплата, Q3","−0,4% спрямо Q2","bl"],["558 €","Средна пенсия, сеп.","минимална 347,51 €","bl"],["21,2%","Под линията на бедност","1,37 млн. души, 2025 г.","ac"],["BBB+","Кредитен рейтинг","Fitch: позитивна · S&P: стабилна","gr"]]);
 /* дълг */
