@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T14:58:05.960024+00:00",
+  "updated_at": "2026-11-18T15:05:50.276961+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Message by Commissioner Dombrovskis to the Eurostat General Assembly",
+      "summary": "European Commission Speech Luxembourg, 18 Nov 2026 Dear Mariana, dear colleagues. Unfortunately, I cannot be with you in person at this year's Eurostat General Assembly. Let me begin by thanking you all for your...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2507",
+      "published": "2026-11-18T14:43:53+00:00",
+      "feed_id": "commission-press"
+    },
     {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
@@ -76,6 +85,15 @@
     },
     {
       "section": "europe",
+      "source": "Евростат",
+      "title": "Annual inflation up to 4.0% in the euro area",
+      "summary": "The euro area annual inflation rate was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.1%. European Union annual inflation was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.5%. These figures ar",
+      "url": "https://ec.europa.eu/eurostat/product?code=2-18112026-ap",
+      "published": "2026-11-18T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Kubilius on the Instrument for Coordinated Support to Ukraine",
       "summary": "European Commission Speech Brussels, 18 Nov 2026 This year experience have shown that Ukraine support loan for Ukraine's defence, 60 billion euro for the years 2026-2027, is a real game changer; it proves succ...",
@@ -90,15 +108,6 @@
       "summary": "European Commission Press release Brussels, 18 Nov 2026 Today, the European Commission opens the 2027 Erasmus+ call for proposals with a budget of over €5.3 billion. The call is expected to offer learning mobility experiences in all education sectors for an es",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2494",
       "published": "2026-11-18T09:31:44+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioners Dombrovskis and Kubilius on an Instrument for Coordinated Support to Ukraine",
-      "summary": "European Commission Statement Brussels, 18 Nov 2026 Commissioner Dombrovskis: Good morning, everyone. For almost five years, Ukraine has stood guard against the Russian aggression that also threatens our citizens...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2493",
-      "published": "2026-11-18T09:23:09+00:00",
       "feed_id": "commission-press"
     },
     {
@@ -166,6 +175,15 @@
     },
     {
       "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Committee against Torture Opens Eighty-Fifth Session in Geneva",
+      "summary": "The Committee against Torture this morning opened its eighty-fifth session, which is being held in Geneva from 16 November to 5 December. During the session, the Committee will review efforts by Angola, Belize, Norway and the Republic of Moldova to implement t",
+      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/le-comite-contre-la-torture-ouvre-les-travaux-de-sa-85e-session",
+      "published": "2026-11-16T11:46:58+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Ukraine: EU lists 113 individuals and entities to further restrict Russia’s ability to finance its war of aggression",
       "summary": "The Council has imposed restrictive measures on 12 individuals and 101 entities active in the banking, financial and energy sectors for their role in financing Russia’s war efforts and supporting its shadow fleet.",
@@ -202,12 +220,30 @@
     },
     {
       "section": "europe",
+      "source": "Евростат",
+      "title": "Industrial production up by 0.2% in the euro area and by 0.5% in the EU",
+      "summary": "In September 2026, compared with August 2026, seasonally adjusted industrial production increased by 0.2% in the euro area and by 0.5% in the EU, according to first estimates from Eurostat, the statistical office of the European Union. In August 2026, industri",
+      "url": "https://ec.europa.eu/eurostat/product?code=4-16112026-ap",
+      "published": "2026-11-16T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
       "summary": "The Council approved a record payment of just under €8 billion for Ukraine under the Ukraine Facility, following Ukraine’s successful completion of over 20 target steps under the Ukraine Plan.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/",
       "published": "2026-11-16T09:38:00+00:00",
       "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "ООН – Женева",
+      "title": "New Permanent Representative of Israel Presents Credentials to the Director-General of the United Nations Office at Geneva",
+      "summary": "Jonathan Peled, the new Permanent Representative of Israel to the United Nations Office at Geneva, today presented his credentials to Tatiana Valovaya, the Director-General of the United Nations Office at Geneva.Prior to his appointment in Geneva, Mr. Peled se",
+      "url": "https://www.ungeneva.org/en/news-media/presentation-of-credentials/2026/11/new-permanent-representative-israel-presents",
+      "published": "2026-11-16T08:48:51+00:00",
+      "feed_id": "un-geneva-press"
     },
     {
       "section": "europe",
@@ -238,6 +274,15 @@
     },
     {
       "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Committee on Economic, Social and Cultural Rights Concludes Eightieth Session after Adopting Concluding Observations on Reports of Austria, Eswatini, Mexico and Pakistan",
+      "summary": "The Committee on Economic, Social and Cultural Rights this afternoon concluded its eightieth session after adopting concluding observations on the reports of Austria, Eswatini, Mexico and Pakistan under the International Covenant on Economic, Social and Cultur",
+      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/le-comite-des-droits-economiques-sociaux-et-culturels-acheve-sa",
+      "published": "2026-11-13T17:48:28+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Weekly schedule of President António Costa",
       "summary": "Weekly schedule of President António Costa, 16-22 November 2026.",
@@ -262,6 +307,24 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/13/media-advisory-foreign-affairs-council-of-16-november-2026/",
       "published": "2026-11-13T16:00:00+00:00",
       "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Euro area international trade in goods deficit €10.3 bn",
+      "summary": "The first estimates of euro area balance showed a €10.3 bn deficit in trade in goods with the rest of the world in September 2026, compared with a surplus of €13.5 bn in September 2025.",
+      "url": "https://ec.europa.eu/eurostat/product?code=6-13112026-bp",
+      "published": "2026-11-13T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "GDP up by 0.4% and employment stable in the euro area",
+      "summary": "In the third quarter of 2026, seasonally adjusted GDP increased by 0.4% in the euro area and by 0.5% in the EU, compared with the previous quarter, according to a flash estimate published by Eurostat, the statistical office of the European Union. In the second",
+      "url": "https://ec.europa.eu/eurostat/product?code=2-13112026-ap",
+      "published": "2026-11-13T10:00:00+00:00",
+      "feed_id": "eurostat-news"
     },
     {
       "section": "bulgaria",
@@ -355,6 +418,69 @@
     },
     {
       "section": "europe",
+      "source": "ООН – Женева",
+      "title": "New Permanent Representative of Malawi Presents Credentials to the Director-General of the United Nations Office at Geneva",
+      "summary": "Ambumulire Nellie Itimu Phiri, the new Permanent Representative of Malawi to the United Nations Office at Geneva, today presented her credentials to Tatiana Valovaya, the Director-General of the United Nations Office at Geneva.Prior to her appointment to Genev",
+      "url": "https://www.ungeneva.org/en/news-media/presentation-of-credentials/2026/11/new-permanent-representative-malawi-presents",
+      "published": "2026-11-10T11:59:32+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Le nouveau Représentant permanent d’El Salvador présente ses lettres de créance",
+      "summary": "M. Agustín Vásquez Gómez a présenté aujourd’hui à Mme Tatiana Valovaya, Directrice générale de l’Office des Nations Unies à Genève, les pouvoirs l’accréditant comme Représentant permanent de la République d’El Salvador auprès de l’Office.Avant sa nomination à",
+      "url": "https://www.ungeneva.org/fr/news-media/presentation-of-credentials/2026/11/le-nouveau-representant-permanent-del-salvador",
+      "published": "2026-11-10T11:42:52+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Seventh Review Conference of the High Contracting Parties to the Convention on Certain Conventional Weapons (CCW)",
+      "summary": "UNITED NATIONS OFFICE IN GENEVA, 10 November 2026 – The Seventh Review Conference of the High Contracting Parties to the Convention on Certain Conventional Weapons (CCW) will be held at the Palais des Nations in Geneva from 16 - 20 November 2026 under the pres",
+      "url": "https://www.ungeneva.org/en/news-media/press-release/2026/11/seventh-review-conference-high-contracting-parties-convention",
+      "published": "2026-11-10T09:29:14+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Services production up by 0.3% in both the euro area and the EU",
+      "summary": "In August 2026, compared with July 2026, seasonally adjusted services production increased by 0.3% in both the euro area and the EU, according to first estimates from Eurostat, the statistical office of the European Union. In July 2026, services production gre",
+      "url": "https://ec.europa.eu/eurostat/product?code=4-09112026-ap",
+      "published": "2026-11-09T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Human Rights Committee and Committee on Economic, Social and Cultural Rights Celebrate Sixtieth Anniversaries of their Covenants",
+      "summary": "The Human Rights Committee and the Committee on Economic, Social and Cultural Rights this afternoon held an event to mark the sixtieth anniversaries of their respective Covenants, the International Covenant on Civil and Political Rightsand the International Co",
+      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/le-comite-des-droits-economiques-sociaux-et-culturels-et-le",
+      "published": "2026-11-06T19:02:23+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Experts of the Committee on Economic, Social and Cultural Rights Welcome Austria’s Expansion of Housing First Services, Raise Questions on Access to the Labour Market for Asylum Seekers and the Education of Minority Children",
+      "summary": "The Committee on Economic, Social and Cultural Rights today concluded its consideration of the fifth periodic report of Austria, during which it reviewed the State party’s efforts to implement the International Covenant on Economic, Social and Cultural Rights.",
+      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/examen-de-lautriche-au-comite-des-droits-economiques-sociaux-et",
+      "published": "2026-11-06T14:29:02+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Volume of retail trade down by 0.7% in the euro area and by 0.6% in the EU",
+      "summary": "In September 2026, compared with August 2026, the seasonally adjusted retail trade volume decreased by 0.7% in the euro area and by 0.6% in the EU, according to first estimates from Eurostat, the statistical office of the European Union. In August 2026, retail",
+      "url": "https://ec.europa.eu/eurostat/product?code=4-06112026-ap",
+      "published": "2026-11-06T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
       "source": "Европейска централна банка",
       "title": "ECB publishes consolidated banking data for end-June 2026",
       "summary": "",
@@ -364,12 +490,75 @@
     },
     {
       "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Committee on Economic, Social and Cultural Rights Commends Mexico for Progress in Reducing Poverty, Asks about Measures to Protect Human Rights Defenders and Reduce the Gender Wage Gap",
+      "summary": "The Committee on Economic, Social and Cultural Rights today concluded its review of the seventh periodic report of Mexico under the International Covenant on Economic, Social and Cultural Rights, with Committee Experts commending the State’s progress in reduci",
+      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/examen-du-mexique-au-comite-des-droits-economiques-sociaux-et",
+      "published": "2026-11-05T19:29:11+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Human Rights Committee Adopts Reports on Follow-Up to Concluding Observations Concerning Bolivia, Iraq, Luxembourg, Togo and Uruguay",
+      "summary": "The Human Rights Committee today adopted reports on follow-up to concluding observations concerning Bolivia, Iraq, Luxembourg, Togo and Uruguay. Yvonne Donders, Committee Expert and the Special Rapporteur on follow-up to concluding observations, said that as t",
+      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/human-rights-committee-adopts-reports-follow-concluding",
+      "published": "2026-11-05T17:20:59+00:00",
+      "feed_id": "un-geneva-press"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Industrial producer prices up by 2.5% in the euro area and by 2.6% in the EU",
+      "summary": "In September 2026, compared with August 2026, industrial producer prices increased by 2.5% in the euro area and by 2.6% in the EU, according to first estimates from Eurostat, the statistical office of the European Union. In August 2026, industrial producer pri",
+      "url": "https://ec.europa.eu/eurostat/product?code=4-05112026-ap",
+      "published": "2026-11-05T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Euro area annual inflation up to 4.0%",
+      "summary": "Euro area annual inflation is expected to be 4.0% in October 2026, up from 3.8% in September according to a flash estimate from Eurostat, the statistical office of the European Union.",
+      "url": "https://ec.europa.eu/eurostat/product?code=2-04112026-ap",
+      "published": "2026-11-04T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
       "source": "Европейска централна банка",
       "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
       "summary": "",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
       "published": "2026-11-04T00:00:00+00:00",
       "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Euro area unemployment at 6.5%",
+      "summary": "In September 2026, the euro area seasonally adjusted unemployment rate was 6.5%, stable compared with August 2026 and up from 6.3% in September 2025. The EU unemployment rate was 6.2% in September 2026, also stable compared with August 2026 and up from 6.0% in",
+      "url": "https://ec.europa.eu/eurostat/product?code=3-30102026-bp",
+      "published": "2026-10-30T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "GDP up by 0.4% in the euro area and by 0.5% in the EU",
+      "summary": "In the third quarter of 2026, seasonally adjusted GDP increased by 0.4% in the euro area and by 0.5% in the EU, compared with the previous quarter, according to a preliminary flash estimate published by Eurostat, the statistical office of the European Union. I",
+      "url": "https://ec.europa.eu/eurostat/product?code=2-30102026-ap",
+      "published": "2026-10-30T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Household real income per capita slightly increases in both the euro area and the EU",
+      "summary": "In the second quarter of 2026, household real income per capita increased by 0.1% in the euro area, after an increase of 0.1% in the first quarter of 2026. In the same period, household real consumption per capita increased by 0.3%, after having stayed stable",
+      "url": "https://ec.europa.eu/eurostat/product?code=2-28102026-ap",
+      "published": "2026-10-28T10:00:00+00:00",
+      "feed_id": "eurostat-news"
     },
     {
       "section": "bulgaria",
@@ -442,200 +631,11 @@
       "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260914_BG",
       "published": "2026-09-14T00:00:00+00:00",
       "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ взе решение за допълване на лиценза за извършване на дейност като платежна институция на „Датекс Пеймънт Технолоджи“ ЕАД с платежните услуги по чл. 4, т. 2, т. 3, букви „б“ и „в“ и т. 5, предложение първо от Закона за платежните услуги и платежните системи",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260827_4_BG",
-      "published": "2026-08-27T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ издаде лиценз за извършване на дейност като дружество за електронни пари на „МУВУ България“ ЕООД",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260827_3_BG",
-      "published": "2026-08-27T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „ДИПЛАН ПРОПЪРТИ МЕНИДЖМЪНТ“ АД на основание чл. 9, ал. 11 от Закона за лицата, обслужващи кредити, и купувачите на кредити",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260827_2_BG",
-      "published": "2026-08-27T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение за прилагане на „Насоки за изменение на Насоки EBA/GL/2016/07 относно прилагането на определението за неизпълнение съгласно член 178 от Регламент (ЕС) № 575/2013“ (EBA/GL/2026/05)",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260827_1_BG",
-      "published": "2026-08-27T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение за спазване на „Насоки относно независимостта на компетентните органи по отношение на надзора съгласно Директива 2013/36/ЕС” (EBA/GL/2026/04)",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260731_7_BG",
-      "published": "2026-07-31T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие прие решение за прилагане на „Насоки относно пропорционални методи за диверсификация на дребно съгласно член 123, параграф 1 от Регламент (ЕС) № 575/2013” (EBA/GL/2026/02)",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260731_6_BG",
-      "published": "2026-07-31T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение за спазване, считано от 11 януари 2027 г., на Насоки относно инструментите, които са на разположение на клонове от трети държави за неограничено и непосредствено ползване за покриване на рискове или загуби съгласно член 48д, параграф 2, буква в) от Директива 2013/36/ЕС (EBA/GL/2026/03)",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260731_5_BG",
-      "published": "2026-07-31T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ определи индивидуалния размер на таксите за покриване на административните разходи на БНБ за 2025 г., произтичащи от функциите по надзор и преструктуриране",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260731_4_BG",
-      "published": "2026-07-31T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие Наредба за изменение и допълнение на Наредба № 49 на БНБ от 6 октомври 2025 г. за условията и реда за издаване на лиценз и изисквания към дейността на лицата, обслужващи кредити, и за предоставяне на информация от купувачите на кредити и кредитните институции",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260731_3_BG",
-      "published": "2026-07-31T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Разяснения и предупреждение на Европейските надзорни органи относно криптоактивите",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260731_2_BG",
-      "published": "2026-07-31T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Предупреждение на Европейските надзорни органи относно онлайн финансови измами и измамни схеми в света на изкуствения интелект",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260731_1_BG",
-      "published": "2026-07-31T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "БНБ пуска в обращение сребърна колекционерска монета „Преображенски манастир“",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260731_10EURO_BG",
-      "published": "2026-07-31T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "ЕЦБ обявява краткия списък на проектите за нови банкноти и започва обществено допитване",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260723_BG",
-      "published": "2026-07-23T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие Монетна програма на БНБ за 2027 г. и Предварителна монетна програма на БНБ за 2028 – 2029 г.",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260710_BG",
-      "published": "2026-07-10T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Считано от 8 юли 2026 г., продажните цени на сребърните монети за колекционерски цели, продавани на каса на БНБ, са актуализирани",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260707_5_BG",
-      "published": "2026-07-07T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Днес УС на БНБ издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „ЕОС МАТРИКС“ ЕАД",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260707_4_BG",
-      "published": "2026-07-07T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Днес УС на БНБ издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „АПС България“ ЕАД",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260707_3_BG",
-      "published": "2026-07-07T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Днес УС на БНБ издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „Агенция за контрол на просрочени задължения“ АД",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260707_2_BG",
-      "published": "2026-07-07T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Днес УС на БНБ издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „Фронтекс Интернешънъл“ ЕАД",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260707_1_BG",
-      "published": "2026-07-07T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "На 30 юни 2026 г. изтече шестмесечният срок, в рамките на който банките бяха задължени да извършват без такса обмяна на налични левове в евро за гражданите и бизнеса",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260701_BG",
-      "published": "2026-07-01T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Считано от 1 юли 2026 г., продажните цени на златните монети за колекционерски цели, продавани на каса на БНБ, са актуализирани",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260630_BG",
-      "published": "2026-06-30T00:00:00+00:00",
-      "feed_id": "bnb-news"
     }
   ],
   "feed_status": {
-    "ok": 5,
-    "total": 5,
+    "ok": 7,
+    "total": 7,
     "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
