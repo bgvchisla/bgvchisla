@@ -824,6 +824,11 @@ label.sw{
  #site-content nav#nav .nav-sub{font-size:.63rem}
 }
 
+
+/* Навигацията реагира веднага и не анимира тежки преизчисления на секциите */
+#site-content section{animation:none}
+#site-content nav#nav button{ -webkit-tap-highlight-color:transparent; touch-action:manipulation }
+
 </style>
 </head>
 <body>
@@ -1036,7 +1041,24 @@ var NAV_META=[
  ["16","Актуални събития","M4 4h16v16H4z M8 8h8 M8 12h8 M8 16h5"]
 ];
 $("nav").innerHTML=T.map(function(t,i){var m=NAV_META[i];return '<button type="button" data-i="'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+'"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>'}).join("");
-$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav#nav button").forEach(function(b){var active=b.dataset.i==i;b.classList.toggle("on",active);b.setAttribute("aria-pressed",active?"true":"false")});for(var k=0;k<T.length;k++)$("s"+k).classList.toggle("on",k==i)};
+$("nav").onclick=function(e){
+ var button=e.target.closest("button[data-i]");
+ if(!button||!$("nav").contains(button))return;
+ var i=Number(button.dataset.i);
+ if(!Number.isInteger(i)||i<0||i>=T.length)return;
+ if($("s"+i).classList.contains("on"))return;
+ document.querySelectorAll("#nav button").forEach(function(b){
+  var active=b===button;
+  b.classList.toggle("on",active);
+  b.setAttribute("aria-pressed",active?"true":"false");
+ });
+ requestAnimationFrame(function(){
+  for(var k=0;k<T.length;k++){
+   var section=$("s"+k);
+   if(section)section.classList.toggle("on",k===i);
+  }
+ });
+};
 /* накратко */
 fill("k0",[["6,1%","Годишна инфлация, окт.","експресна оценка","ac"],["−2,8% БВП","Бюджетен дефицит, сеп.","3,669 млрд. € от началото на годината","ac"],["57,2 млрд. €","Депозити на домакинствата","+16,2% за година","gr"],["33,1 млрд. €","Кредити на домакинствата","+20,7% за година","am"],["1 438 €","Средна заплата, Q3","−0,4% спрямо Q2","bl"],["558 €","Средна пенсия, сеп.","минимална 347,51 €","bl"],["21,2%","Под линията на бедност","1,37 млн. души, 2025 г.","ac"],["BBB+","Кредитен рейтинг","Fitch: позитивна · S&P: стабилна","gr"]]);
 /* дълг */
