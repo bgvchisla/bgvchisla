@@ -1,7 +1,25 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:08:46.386560+00:00",
+  "updated_at": "2026-11-18T21:18:16.485257+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Тръмп, Си и Путин: нов световен ред или дипломатически спектакъл?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/439740-tramp-si-i-putin-nov-svetoven-red-ili-diplomaticheski-spektakal",
+      "published": "2026-11-18T21:16:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+      "summary": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T21:13:06+00:00",
+      "feed_id": "bbc-world"
+    },
     {
       "section": "europe",
       "source": "Euronews",
@@ -252,15 +270,6 @@
       "summary": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype.",
       "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T17:34:25+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-      "summary": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T17:34:23+00:00",
       "feed_id": "bbc-world"
     },
     {
@@ -559,15 +568,6 @@
       "url": "https://www.euronews.com/video/2026/11/18/gta-6-countdown-begins-as-billboards-go-up-from-tokyo-to-sydney",
       "published": "2026-11-18T14:38:01+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Иран и САЩ продължават да си разменят удари",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439720-iran-i-sasht-prodalzhavat-da-si-razmenyat-udari",
-      "published": "2026-11-18T14:32:00+00:00",
-      "feed_id": "investor-economy"
     },
     {
       "section": "europe",
