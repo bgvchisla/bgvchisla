@@ -180,7 +180,8 @@ def fetch_html_news(feed):
             path = urllib.parse.urlparse(url).path.casefold()
             if len(title) < 35 or not valid_url(url, feed["allowed_hosts"]):
                 continue
-            if not any(token in path for token in ("/news", "newsid", "news_id")):
+            full_url = url.casefold()
+            if not any(token in path or token in full_url for token in ("/news", "newsid", "news_id", "aid=")):
                 continue
             if title.casefold() in {"архив новини", "новини"}:
                 continue
