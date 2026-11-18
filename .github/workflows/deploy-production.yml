@@ -1,4 +1,5 @@
 name: Deploy production to Cloudflare Pages
+# Production release pipeline for validated portal assets and live data
 
 on:
   workflow_dispatch:
