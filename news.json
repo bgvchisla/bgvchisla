@@ -1,7 +1,25 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:09:38.673006+00:00",
+  "updated_at": "2026-11-18T19:24:37.575738+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "От недоверие към партньорство - как криптоиндустрията се интегрира във финансовия сектор?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439707-ot-nedoverie-kam-partnyorstvo-kak-kriptoindustriyata-se-integrira-vav-finansoviya-sektor",
+      "published": "2026-11-18T19:11:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "The leave campaign has been resurrected, so how should Burnham respond?",
+      "summary": "No 10 is confident the PM can make the case for closer EU ties, while others worry about leaving the campaign solely in his hands The launch of a pro-Brexit campaign was one of the few genuine surprises this week in Westminster, even if the arguments were stra",
+      "url": "https://www.theguardian.com/politics/2026/nov/18/pro-brexit-stay-out-same-playbook-analysis",
+      "published": "2026-11-18T19:02:40+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
@@ -19,15 +37,6 @@
       "url": "https://www.investor.bg/a/538-pazari/439755-aktsionerite-na-sofarma-shte-glasuvat-programa-za-obratno-izkupuvane-na-aktsii-prez-yanuari",
       "published": "2026-11-18T18:56:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "The leave campaign has been resurrected, so how does Burnham respond?",
-      "summary": "No 10 is confident the PM can make the case for closer EU ties, while others worry about leaving the campaign solely in his hands The launch of a pro-Brexit campaign was one of the few genuine surprises this week in Westminster, even if the arguments were stra",
-      "url": "https://www.theguardian.com/politics/2026/nov/18/pro-brexit-stay-out-same-playbook-analysis",
-      "published": "2026-11-18T18:48:08+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -622,15 +631,6 @@
       "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439731-parlamentat-ogranichi-reklamata-na-hazarta",
       "published": "2026-11-18T13:00:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Moldova summons Russia’s envoy over multiple drone incursions",
-      "summary": "“This is what the 'peace' promoted by the Kremlin looks like,\" fumed Chișinău's foreign ministry.",
-      "url": "https://www.politico.eu/article/moldova-summons-russia-envoy-over-drone-incursions/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-18T12:57:12+00:00",
-      "feed_id": "politico-europe"
     }
   ],
   "feed_status": {
