@@ -1,8 +1,6 @@
 name: Daily data update
 
 on:
-  schedule:
-    - cron: "0 5 * * *"
   workflow_dispatch:
 
 permissions:
@@ -31,32 +29,26 @@ jobs:
       - name: Fetch official Eurostat data
         run: python scripts/update_economy.py
 
-      - name: Validate data files
+      - name: Require a complete, valid refresh
         run: |
           python - <<'PY'
           import json
+          from pathlib import Path
 
-          with open("data.json", encoding="utf-8") as file:
-              json.load(file)
-
-          with open("economy.json", encoding="utf-8") as file:
-              data = json.load(file)
-
-          series = next(
-              row for row in data["series"]
-              if row["id"] == "gdp_per_capita_current_eur"
-          )
-
-          points = series["points"]
-          if len(points) < 2:
-              raise RuntimeError("Недостатъчно годишни данни.")
-
-          years = [point["year"] for point in points]
-          if years != sorted(set(years)):
-              raise RuntimeError("Неподредени или дублирани години.")
-
-          print("Последна година:", points[-1]["year"])
-          print("Последна стойност:", points[-1]["value"])
+          json.loads(Path("data.json").read_text(encoding="utf-8"))
+          data = json.loads(Path("economy.json").read_text(encoding="utf-8"))
+          status = data.get("update_status", {})
+          expected = status.get("configured_series")
+          successful = status.get("successful_series", [])
+          if status.get("status") != "ok" or not expected or len(successful) != expected:
+              raise SystemExit(f"Eurostat refresh incomplete: {len(successful)}/{expected} series succeeded")
+          by_id = {row["id"]: row for row in data.get("series", [])}
+          for series_id in successful:
+              points = by_id.get(series_id, {}).get("points", [])
+              years = [point["year"] for point in points]
+              if len(points) < 2 or years != sorted(set(years)):
+                  raise SystemExit(f"Invalid series: {series_id}")
+          print(f"Validated all {len(successful)} Eurostat series.")
           PY
 
       - name: Ignore timestamp-only changes
@@ -100,16 +92,3 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Prepare files
-        if: steps.save.outputs.changed == 'true'
-        run: |
-          mkdir public
-          cp index.html data.json economy.json economy-charts.js public/
-
-      - name: Deploy production
-        if: steps.save.outputs.changed == 'true'
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=bgvchisla --branch=main
