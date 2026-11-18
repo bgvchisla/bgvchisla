@@ -27,7 +27,8 @@ FEEDS = [
         "id": "parliament-news",
         "section": "bulgaria",
         "name": "Народно събрание",
-        "url": "https://www.parliament.bg/xml/news.php",
+        "url": "https://www.parliament.bg/",
+        "mode": "html",
         "allowed_hosts": ["www.parliament.bg", "parliament.bg"],
         "keywords": [],
     },
@@ -35,9 +36,9 @@ FEEDS = [
         "id": "bnb-news",
         "section": "bulgaria",
         "name": "Българска народна банка",
-        "discovery_url": "https://www.bnb.bg/AboutUs/PressOffice/PORSS/index.htm",
+        "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/",
+        "mode": "html",
         "allowed_hosts": ["www.bnb.bg", "bnb.bg"],
-        "discovery_label": "RSS За БНБ",
         "keywords": [],
     },
     {
@@ -54,26 +55,28 @@ class LinkFinder(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.links = []
-        self._href = None
-        self._text = []
-        self._attrs = {}
+        self.events = []
+        self.href = None
+        self.parts = []
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag.lower() == "a":
-            self._href = attrs.get("href")
-            self._text = [attrs.get("title", ""), attrs.get("aria-label", "")]
-            self._attrs = attrs
-        elif self._href is not None and tag.lower() == "img":
-            self._text.append(attrs.get("alt", ""))
+            self.href = attrs.get("href")
+            self.parts = [attrs.get("title", ""), attrs.get("aria-label", "")]
+        elif self.href is not None and tag.lower() == "img":
+            self.parts.append(attrs.get("alt", ""))
     def handle_data(self, data):
-        if self._href is not None:
-            self._text.append(data)
+        if self.href is not None:
+            self.parts.append(data)
+        elif data.strip():
+            self.events.append(("text", data.strip()))
     def handle_endtag(self, tag):
-        if tag.lower() == "a" and self._href is not None:
-            self.links.append((self._href, " ".join(" ".join(self._text).split())))
-            self._href = None
-            self._text = []
-            self._attrs = []
+        if tag.lower() == "a" and self.href is not None:
+            label = " ".join(" ".join(self.parts).split())
+            self.links.append((self.href, label))
+            self.events.append(("link", self.href, label))
+            self.href = None
+            self.parts = []
 
 class TextOnly(HTMLParser):
     def __init__(self):
@@ -126,7 +129,71 @@ def valid_url(url, hosts):
     except Exception:
         return False
 
+def fetch_html_news(feed):
+    page_url = feed["url"]
+    if not valid_url(page_url, feed["allowed_hosts"]):
+        raise ValueError("HTML news URL is not on the HTTPS host allowlist")
+    req = urllib.request.Request(page_url, headers={"User-Agent": USER_AGENT, "Accept": "text/html"})
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+        final_url = response.geturl()
+        if not valid_url(final_url, feed["allowed_hosts"]):
+            raise ValueError("HTML news page redirected outside its host allowlist")
+        raw = response.read(MAX_BYTES + 1)
+    if len(raw) > MAX_BYTES:
+        raise ValueError("HTML news page exceeds the 1 MB size limit")
+    parser = LinkFinder()
+    parser.feed(raw.decode("utf-8", errors="replace"))
+    rows = []
+    if feed["id"] == "bnb-news":
+        pending = None
+        events = parser.events + [("end",)]
+        for event in events:
+            if event[0] == "link":
+                if pending:
+                    href, date_text, parts = pending
+                    title = clean_text(" ".join(parts), 220)
+                    match = re.fullmatch(r"([0-9]{2})\.([0-9]{2})\.([0-9]{4})", date_text)
+                    url = urllib.parse.urljoin(final_url, href)
+                    if title and match and valid_url(url, feed["allowed_hosts"]):
+                        day, month, year = match.groups()
+                        rows.append({"section": feed["section"], "source": feed["name"], "title": title,
+                                     "summary": "", "url": url, "published": f"{year}-{month}-{day}T00:00:00+00:00",
+                                     "feed_id": feed["id"]})
+                href, label = event[1], event[2]
+                pending = [href, label, []] if re.fullmatch(r"[0-9]{2}\.[0-9]{2}\.[0-9]{4}", label) else None
+            elif event[0] == "text" and pending:
+                pending[2].append(event[1])
+            elif event[0] == "end" and pending:
+                href, date_text, parts = pending
+                title = clean_text(" ".join(parts), 220)
+                match = re.fullmatch(r"([0-9]{2})\.([0-9]{2})\.([0-9]{4})", date_text)
+                url = urllib.parse.urljoin(final_url, href)
+                if title and match and valid_url(url, feed["allowed_hosts"]):
+                    day, month, year = match.groups()
+                    rows.append({"section": feed["section"], "source": feed["name"], "title": title,
+                                 "summary": "", "url": url, "published": f"{year}-{month}-{day}T00:00:00+00:00",
+                                 "feed_id": feed["id"]})
+    else:
+        for href, label in parser.links:
+            title = clean_text(label, 220)
+            url = urllib.parse.urljoin(final_url, href)
+            path = urllib.parse.urlparse(url).path.casefold()
+            if len(title) < 35 or not valid_url(url, feed["allowed_hosts"]):
+                continue
+            if not any(token in path for token in ("/news", "newsid", "news_id")):
+                continue
+            if title.casefold() in {"архив новини", "новини"}:
+                continue
+            rows.append({"section": feed["section"], "source": feed["name"], "title": title,
+                         "summary": "", "url": url, "published": None, "feed_id": feed["id"]})
+    unique = {row["url"]: row for row in rows}
+    if not unique:
+        raise ValueError("No valid article links found on official HTML page")
+    return list(unique.values())[:MAX_PER_FEED]
+
 def fetch(feed):
+    if feed.get("mode") == "html":
+        return fetch_html_news(feed)
     url = feed.get("url")
     if not url and feed.get("discovery_url"):
         discovery = feed["discovery_url"]
