@@ -188,6 +188,54 @@ nav button.on{background:#34485f;color:#f7f9fb;border-color:#34485f}
  .news-panel{background:#f1f4f7}
 }
 
+
+/* Професионална редакционна палитра */
+:root{
+ --bg:#e8edf3;
+ --card:#ffffff;
+ --tx:#1f2d3d;
+ --mu:#66778b;
+ --ac:#b64b45;
+ --gr:#24765f;
+ --bl:#315f91;
+ --am:#a8732e;
+ --bd:#d5dee8;
+ color-scheme:light;
+}
+body{background:var(--bg);color:var(--tx)}
+.dashboard-grid{background:#e8edf3}
+.masthead{background:#24384f;color:#f4f7fb;border-bottom:3px solid #b64b45}
+.brand-mark{background:#f4f7fb;color:#24384f;border-color:#d8e0e9}
+.masthead-brand small,.masthead-note{color:#c4d0de}
+.hero{background:linear-gradient(135deg,#f9fbfd 0%,#e5edf5 100%);border:1px solid #cbd7e4;box-shadow:0 5px 18px #24384f12}
+.hero .n{color:#203b5d}
+nav{background:var(--bg);border-bottom-color:#cbd5e0}
+nav button{background:#f7f9fc;color:#50647c;border:1px solid #cbd6e2}
+nav button.on{background:#24384f;color:#fff;border-color:#24384f}
+.c{background:#fff;border:1px solid #d7e0e9;box-shadow:0 3px 10px #24384f0d}
+.box{background:#fbfcfe;border:1px solid #d5dee8;box-shadow:0 3px 10px #24384f0b}
+.tip{background:#edf3f8;border:1px solid #d0dce8;border-left:4px solid #52799f;color:#334b64}
+.news-panel{background:#fff;border:1px solid #d2dce7;border-top:4px solid #52799f;box-shadow:0 5px 18px #24384f12}
+.news-panel h2{color:#24384f}
+.news-item{border-bottom-color:#e5eaf0}
+.news-item:first-child a{color:#172b43}
+.news-item a{color:#2b4058}
+.news-item a:hover{color:#a33f3a}
+.news-meta,.news-intro,.news-updated{color:#718196}
+.ad a{background:#fbfcfe;border-color:#cbd6e2;color:#687b90}
+#mk-tape{background:#fff;border-color:#cbd6e2;box-shadow:0 2px 8px #24384f0d}
+.ring span{background:#fff}
+.news-heading{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.news-heading .flag{font-size:1.15rem;line-height:1;flex:none}
+.flag-group{display:flex;align-items:center;gap:5px;white-space:nowrap;flex:none}
+.flag-group span{font-size:1.02rem;line-height:1;display:inline-block}
+.news-heading-mobile{margin-top:18px!important}
+@media(max-width:639px){
+ .flag-group{gap:4px}
+ .flag-group span{font-size:.94rem}
+ .news-heading .flag{font-size:1.08rem}
+}
+
 </style>
 </head>
 <body>
@@ -196,7 +244,7 @@ nav button.on{background:#34485f;color:#f7f9fb;border-color:#34485f}
   <div class="masthead-brand"><span class="brand-mark">B</span><div><strong>БЪЛГАРИЯ В ЧИСЛА</strong><small>ФИНАНСИ · ИКОНОМИКА · ДАННИ</small></div></div>
   <div class="masthead-note">ФАКТИТЕ ЗАД ИКОНОМИКАТА</div>
 </header>
-<aside class="news-panel news-side" aria-label="Новини от България"><h2>България</h2><p class="news-intro">Актуални заглавия от различни източници</p><div class="news-list" id="news-left-list"></div></aside>
+<aside class="news-panel news-side" aria-label="Новини от България"><h2 class="news-heading"><span>България</span><span class="flag flag-bg" aria-label="България">🇧🇬</span></h2><p class="news-intro">Актуални заглавия от различни източници</p><div class="news-list" id="news-left-list"></div></aside>
 <div id="site-content">
 <main>
 <div id="mk"><div id="mk-tape"></div><div id="mk-note">Пазарни цени: TradingView · може да са със закъснение · не са инвестиционен съвет</div></div>
@@ -246,7 +294,7 @@ nav button.on{background:#34485f;color:#f7f9fb;border-color:#34485f}
 <div class="tip">Минималната пенсия (347,51 €) е под официалната линия на бедност за 2026 г. (390,63 €). Около 810 000 пенсионери получават пенсия до минималната.</div>
 <p class="src">Линията на бедност е 60% от медианния доход. Изчисленията „≈“ са мои.</p>
 </section>
-<section id="s5"><h2>Новини</h2><p class="h">Актуални заглавия от различни източници.</p><div id="news-mobile" class="news-panel"><h2>България</h2><div class="news-list" id="news-mobile-bg"></div><h2 style="margin-top:18px">Европа и свят</h2><div class="news-list" id="news-mobile-eu"></div></div></section>
+<section id="s5"><h2>Новини</h2><p class="h">Актуални заглавия от различни източници.</p><div id="news-mobile" class="news-panel"><h2 class="news-heading"><span>България</span><span class="flag flag-bg" aria-label="България">🇧🇬</span></h2><div class="news-list" id="news-mobile-bg"></div><h2 class="news-heading news-heading-mobile"><span>Европа и свят</span><span class="flag-group" aria-label="Европейски съюз, Великобритания, САЩ, Китай и Япония"><span title="Европейски съюз">🇪🇺</span><span title="Великобритания">🇬🇧</span><span title="САЩ">🇺🇸</span><span title="Китай">🇨🇳</span><span title="Япония">🇯🇵</span></span></h2><div class="news-list" id="news-mobile-eu"></div></div></section>
 <div class="ad" id="ad-bot"></div>
 <ul class="src">
 <li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г. Пазарни цени: TradingView.</li>
@@ -256,7 +304,7 @@ nav button.on{background:#34485f;color:#f7f9fb;border-color:#34485f}
 </ul>
 </main>
 </div>
-<aside class="news-panel news-side" aria-label="Новини от Европа и света"><h2>Европа и свят</h2><p class="news-intro">Последни заглавия от институционални източници</p><div class="news-list" id="news-right-list"></div></aside>
+<aside class="news-panel news-side" aria-label="Новини от Европа и света"><h2 class="news-heading"><span>Европа и свят</span><span class="flag-group" aria-label="Европейски съюз, Великобритания, САЩ, Китай и Япония"><span title="Европейски съюз">🇪🇺</span><span title="Великобритания">🇬🇧</span><span title="САЩ">🇺🇸</span><span title="Китай">🇨🇳</span><span title="Япония">🇯🇵</span></span></h2><p class="news-intro">Актуални заглавия от различни източници</p><div class="news-list" id="news-right-list"></div></aside>
 </div>
 <script>
 var $=function(i){return document.getElementById(i)};
