@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-18T21:13:34.977352+00:00",
+  "checked_at": "2026-11-18T21:15:11.888754+00:00",
   "scope": "source_availability_only",
   "ok": 4,
   "total": 5,
@@ -14,7 +14,7 @@
       "expected": "Месечни таблици за изпълнението на държавния бюджет",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-18T21:13:29.572968+00:00",
+      "checked_at": "2026-11-18T21:15:04.660740+00:00",
       "note": "Източникът не премина проверката за достъпност."
     },
     {
@@ -29,8 +29,8 @@
       "content_type": "text/html;charset=utf-8",
       "final_url": "https://www.bnb.bg/Statistics/StStatisticalBD/",
       "download_links_detected": 0,
-      "checked_at": "2026-11-18T21:13:30.984543+00:00",
-      "response_seconds": 1.41,
+      "checked_at": "2026-11-18T21:15:05.927183+00:00",
+      "response_seconds": 1.27,
       "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия."
     },
     {
@@ -45,8 +45,8 @@
       "content_type": "text/html; charset=UTF-8",
       "final_url": "https://www.nsi.bg/ddb2.1/?l=bg",
       "download_links_detected": 0,
-      "checked_at": "2026-11-18T21:13:32.544976+00:00",
-      "response_seconds": 1.56,
+      "checked_at": "2026-11-18T21:15:06.275741+00:00",
+      "response_seconds": 0.35,
       "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия."
     },
     {
@@ -61,8 +61,8 @@
       "content_type": "text/html; charset=utf-8",
       "final_url": "https://www.nsi.bg/statistical-data/146",
       "download_links_detected": 16,
-      "checked_at": "2026-11-18T21:13:33.275708+00:00",
-      "response_seconds": 0.73,
+      "checked_at": "2026-11-18T21:15:07.545518+00:00",
+      "response_seconds": 1.27,
       "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия."
     },
     {
@@ -77,8 +77,8 @@
       "content_type": "text/html",
       "final_url": "https://www.nssi.bg/publikacii/statistika/pensii-statistika/",
       "download_links_detected": 77,
-      "checked_at": "2026-11-18T21:13:34.977319+00:00",
-      "response_seconds": 1.7,
+      "checked_at": "2026-11-18T21:15:11.888719+00:00",
+      "response_seconds": 4.34,
       "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия."
     }
   ],
