@@ -806,6 +806,7 @@ label.sw{
 <h2>Пенсии и осигуряване — официални данни на НОИ</h2>
 <p class="h">Последен публикуван статистически бюлетин на НОИ. Показателите са с различна времева база — брой към отчетна дата, среден размер за полугодие и натрупан разход от началото на годината.</p>
 <div class="g" id="nssi-kpis"><div class="c"><div class="l">Зареждане на официалните данни…</div></div></div>
+<div class="box wide"><h3>Историческа динамика — пенсионери и пенсии</h3><p class="src">Тримесечни моментни стойности към отчетните дати. Историческият ред е извлечен от оригиналните бюлетини на НОИ.</p><div id="nssi-history"><p class="src">Зареждане на историческите данни…</p></div></div>
 <div class="box wide"><h3>Как да четем показателите</h3>
 <p class="src">Броят на пенсионерите и броят на пенсиите са моментни стойности към 30.06.2026 г. Средният размер от 523,38 € е среден за първото полугодие на 2026 г. Разходът от 6,496 млрд. € е натрупан за периода 1 януари – 30 юни 2026 г.; той не е месечен разход.</p>
 <p class="src" id="nssi-meta">Източник: Национален осигурителен институт.</p></div>
@@ -957,6 +958,20 @@ function renderNssi(data){
  ];
  $("nssi-kpis").innerHTML=specs.map(function(x){var item=m[x[0]];if(!item||!Number.isFinite(item.value))throw new Error("Invalid NSSI metric "+x[0]);return card(x[4](item.value),x[1],x[2],x[3])}).join("");
  $("nssi-meta").textContent="Отчетна дата: "+data.reference_date+". "+data.methodology;
+ var history=Array.isArray(data.history)?data.history.slice().sort(function(a,b){return a.reference_date.localeCompare(b.reference_date)}):[];
+ var historyRoot=$("nssi-history");
+ if(historyRoot){
+  if(!history.length){historyRoot.textContent="Историческа серията все още не е налична."}
+  else{
+   var table=document.createElement("table");
+   var head=document.createElement("thead");var hr=document.createElement("tr");
+   ["Отчетна дата","Пенсионери","Брой пенсии"].forEach(function(label){var th=document.createElement("th");th.textContent=label;hr.appendChild(th)});
+   head.appendChild(hr);table.appendChild(head);
+   var body=document.createElement("tbody");
+   history.forEach(function(item){var tr=document.createElement("tr");[item.reference_date,F.format(item.pensioners_count),F.format(item.pensions_count)].forEach(function(value){var td=document.createElement("td");td.textContent=value;tr.appendChild(td)});body.appendChild(tr)});
+   table.appendChild(body);historyRoot.textContent="";historyRoot.appendChild(table);
+  }
+ }
  var updated=data.updated_at?new Date(data.updated_at).toLocaleString("bg-BG",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/Sofia"}):"";
  $("nssi-updated").textContent=" Последна успешна автоматична актуализация: "+updated+".";
 }
