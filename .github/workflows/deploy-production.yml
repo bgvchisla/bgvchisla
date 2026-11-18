@@ -2,6 +2,16 @@ name: Deploy production to Cloudflare Pages
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "privacy.html"
+      - "news.json"
+      - "economy.json"
+      - "economy-charts.js"
+      - "data.json"
+      - ".github/workflows/deploy-production.yml"
 
 permissions:
   contents: read
