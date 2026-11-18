@@ -4,7 +4,7 @@ import datetime as dt, html, json, re, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
-INDEX="https://www.nsi.bg/statistical-data/410"
+INDEX="https://www.nsi.bg/press-release"
 BASE="https://www.nsi.bg"
 OUT=Path("official_business_climate.json")
 UA="Mozilla/5.0 (compatible; Bgvchisla/1.0)"
@@ -48,7 +48,7 @@ def main():
     links=[]
     for href,title in page.links:
         title=html.unescape(title)
-        if "/press-release/" in href and "наблюдение-на-бизнес-тенденциите" in href.lower():
+        if "/press-release/" in href and "nablyudenie-na-biznes-tendenciite" in href.lower():
             links.append(absolute(href))
     # Prefer latest dated release, not an arbitrary first link.
     urls=list(dict.fromkeys(links))
