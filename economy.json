@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_successful_update": null,
+  "last_successful_update": "2026-11-18T16:15:40.332225+00:00",
   "indicators": [],
   "series": [
     {
@@ -12,7 +12,7 @@
       "dataset": "nama_10_pc",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_pc?lang=EN&freq=A&unit=CP_EUR_HAB&na_item=B1GQ&geo=BG",
       "note": "По текущи цени; не измерва самостоятелно реалния растеж.",
-      "updated_at": "2026-11-15T13:08:48.643771+00:00",
+      "updated_at": "2026-11-18T16:15:37.291509+00:00",
       "points": [
         {
           "year": 1995,
@@ -170,11 +170,621 @@
           "flag": null
         }
       ]
+    },
+    {
+      "id": "gdp_real_growth",
+      "title": "Реален БВП — годишен темп на изменение",
+      "unit": "%",
+      "frequency": "annual",
+      "source": "Евростат",
+      "dataset": "nama_10_gdp",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?lang=EN&freq=A&unit=CLV_PCH_PRE&na_item=B1GQ&geo=BG",
+      "note": "Годишен процентен темп при верижно свързани обеми.",
+      "updated_at": "2026-11-18T16:15:37.801535+00:00",
+      "points": [
+        {
+          "year": 1996,
+          "value": 5.2,
+          "flag": null
+        },
+        {
+          "year": 1997,
+          "value": -14.1,
+          "flag": null
+        },
+        {
+          "year": 1998,
+          "value": 3.8,
+          "flag": null
+        },
+        {
+          "year": 1999,
+          "value": -8.4,
+          "flag": null
+        },
+        {
+          "year": 2000,
+          "value": 4.6,
+          "flag": null
+        },
+        {
+          "year": 2001,
+          "value": 3.8,
+          "flag": null
+        },
+        {
+          "year": 2002,
+          "value": 5.9,
+          "flag": null
+        },
+        {
+          "year": 2003,
+          "value": 5.2,
+          "flag": null
+        },
+        {
+          "year": 2004,
+          "value": 6.5,
+          "flag": null
+        },
+        {
+          "year": 2005,
+          "value": 7.1,
+          "flag": null
+        },
+        {
+          "year": 2006,
+          "value": 6.8,
+          "flag": null
+        },
+        {
+          "year": 2007,
+          "value": 6.7,
+          "flag": null
+        },
+        {
+          "year": 2008,
+          "value": 6.1,
+          "flag": null
+        },
+        {
+          "year": 2009,
+          "value": -3.3,
+          "flag": null
+        },
+        {
+          "year": 2010,
+          "value": 1.6,
+          "flag": null
+        },
+        {
+          "year": 2011,
+          "value": 2.1,
+          "flag": null
+        },
+        {
+          "year": 2012,
+          "value": 0.7,
+          "flag": null
+        },
+        {
+          "year": 2013,
+          "value": -0.5,
+          "flag": null
+        },
+        {
+          "year": 2014,
+          "value": 0.9,
+          "flag": null
+        },
+        {
+          "year": 2015,
+          "value": 3.4,
+          "flag": null
+        },
+        {
+          "year": 2016,
+          "value": 3.0,
+          "flag": null
+        },
+        {
+          "year": 2017,
+          "value": 2.7,
+          "flag": null
+        },
+        {
+          "year": 2018,
+          "value": 2.6,
+          "flag": null
+        },
+        {
+          "year": 2019,
+          "value": 3.3,
+          "flag": null
+        },
+        {
+          "year": 2020,
+          "value": -2.5,
+          "flag": null
+        },
+        {
+          "year": 2021,
+          "value": 6.1,
+          "flag": null
+        },
+        {
+          "year": 2022,
+          "value": 3.3,
+          "flag": null
+        },
+        {
+          "year": 2023,
+          "value": 2.0,
+          "flag": null
+        },
+        {
+          "year": 2024,
+          "value": 3.3,
+          "flag": null
+        },
+        {
+          "year": 2025,
+          "value": 3.0,
+          "flag": null
+        }
+      ]
+    },
+    {
+      "id": "unemployment_rate_15_74",
+      "title": "Безработица 15–74 г.",
+      "unit": "%",
+      "frequency": "annual",
+      "source": "Евростат",
+      "dataset": "une_rt_a",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&freq=A&unit=PC_ACT&sex=T&age=Y15-74&geo=BG",
+      "note": "Годишен коефициент на безработица.",
+      "updated_at": "2026-11-18T16:15:39.087504+00:00",
+      "points": [
+        {
+          "year": 2009,
+          "value": 7.9,
+          "flag": null
+        },
+        {
+          "year": 2010,
+          "value": 11.3,
+          "flag": "b"
+        },
+        {
+          "year": 2011,
+          "value": 12.3,
+          "flag": "b"
+        },
+        {
+          "year": 2012,
+          "value": 13.3,
+          "flag": null
+        },
+        {
+          "year": 2013,
+          "value": 13.9,
+          "flag": null
+        },
+        {
+          "year": 2014,
+          "value": 12.4,
+          "flag": null
+        },
+        {
+          "year": 2015,
+          "value": 10.1,
+          "flag": null
+        },
+        {
+          "year": 2016,
+          "value": 8.6,
+          "flag": null
+        },
+        {
+          "year": 2017,
+          "value": 7.2,
+          "flag": null
+        },
+        {
+          "year": 2018,
+          "value": 6.2,
+          "flag": null
+        },
+        {
+          "year": 2019,
+          "value": 5.2,
+          "flag": "b"
+        },
+        {
+          "year": 2020,
+          "value": 6.1,
+          "flag": null
+        },
+        {
+          "year": 2021,
+          "value": 5.2,
+          "flag": null
+        },
+        {
+          "year": 2022,
+          "value": 4.2,
+          "flag": null
+        },
+        {
+          "year": 2023,
+          "value": 4.3,
+          "flag": null
+        },
+        {
+          "year": 2024,
+          "value": 4.2,
+          "flag": "b"
+        },
+        {
+          "year": 2025,
+          "value": 3.5,
+          "flag": null
+        }
+      ]
+    },
+    {
+      "id": "population_total",
+      "title": "Население към 1 януари",
+      "unit": "души",
+      "frequency": "annual",
+      "source": "Евростат",
+      "dataset": "demo_pjan",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?lang=EN&freq=A&unit=NR&sex=T&age=TOTAL&geo=BG",
+      "note": "Население към 1 януари; отчетени стойности.",
+      "updated_at": "2026-11-18T16:15:39.603480+00:00",
+      "points": [
+        {
+          "year": 1960,
+          "value": 7829246,
+          "flag": null
+        },
+        {
+          "year": 1961,
+          "value": 7905502,
+          "flag": null
+        },
+        {
+          "year": 1962,
+          "value": 7980734,
+          "flag": null
+        },
+        {
+          "year": 1963,
+          "value": 8045158,
+          "flag": null
+        },
+        {
+          "year": 1964,
+          "value": 8111132,
+          "flag": null
+        },
+        {
+          "year": 1965,
+          "value": 8177547,
+          "flag": null
+        },
+        {
+          "year": 1966,
+          "value": 8230788,
+          "flag": null
+        },
+        {
+          "year": 1967,
+          "value": 8285325,
+          "flag": null
+        },
+        {
+          "year": 1968,
+          "value": 8335126,
+          "flag": null
+        },
+        {
+          "year": 1969,
+          "value": 8404080,
+          "flag": null
+        },
+        {
+          "year": 1970,
+          "value": 8464264,
+          "flag": null
+        },
+        {
+          "year": 1971,
+          "value": 8514883,
+          "flag": null
+        },
+        {
+          "year": 1972,
+          "value": 8557906,
+          "flag": null
+        },
+        {
+          "year": 1973,
+          "value": 8594493,
+          "flag": null
+        },
+        {
+          "year": 1974,
+          "value": 8647440,
+          "flag": null
+        },
+        {
+          "year": 1975,
+          "value": 8710049,
+          "flag": null
+        },
+        {
+          "year": 1976,
+          "value": 8731434,
+          "flag": null
+        },
+        {
+          "year": 1977,
+          "value": 8785763,
+          "flag": null
+        },
+        {
+          "year": 1978,
+          "value": 8822602,
+          "flag": null
+        },
+        {
+          "year": 1979,
+          "value": 8805462,
+          "flag": null
+        },
+        {
+          "year": 1980,
+          "value": 8846417,
+          "flag": null
+        },
+        {
+          "year": 1981,
+          "value": 8876652,
+          "flag": null
+        },
+        {
+          "year": 1982,
+          "value": 8905581,
+          "flag": null
+        },
+        {
+          "year": 1983,
+          "value": 8929332,
+          "flag": null
+        },
+        {
+          "year": 1984,
+          "value": 8950144,
+          "flag": null
+        },
+        {
+          "year": 1985,
+          "value": 8971214,
+          "flag": null
+        },
+        {
+          "year": 1986,
+          "value": 8949880,
+          "flag": null
+        },
+        {
+          "year": 1987,
+          "value": 8966462,
+          "flag": null
+        },
+        {
+          "year": 1988,
+          "value": 8976255,
+          "flag": null
+        },
+        {
+          "year": 1989,
+          "value": 8986636,
+          "flag": null
+        },
+        {
+          "year": 1990,
+          "value": 8767308,
+          "flag": null
+        },
+        {
+          "year": 1991,
+          "value": 8669269,
+          "flag": null
+        },
+        {
+          "year": 1992,
+          "value": 8595465,
+          "flag": null
+        },
+        {
+          "year": 1993,
+          "value": 8484863,
+          "flag": null
+        },
+        {
+          "year": 1994,
+          "value": 8459763,
+          "flag": null
+        },
+        {
+          "year": 1995,
+          "value": 8427418,
+          "flag": null
+        },
+        {
+          "year": 1996,
+          "value": 8384715,
+          "flag": null
+        },
+        {
+          "year": 1997,
+          "value": 8340936,
+          "flag": null
+        },
+        {
+          "year": 1998,
+          "value": 8283200,
+          "flag": null
+        },
+        {
+          "year": 1999,
+          "value": 8230371,
+          "flag": null
+        },
+        {
+          "year": 2000,
+          "value": 8190876,
+          "flag": null
+        },
+        {
+          "year": 2001,
+          "value": 8149468,
+          "flag": null
+        },
+        {
+          "year": 2002,
+          "value": 7868815,
+          "flag": null
+        },
+        {
+          "year": 2003,
+          "value": 7805506,
+          "flag": null
+        },
+        {
+          "year": 2004,
+          "value": 7745147,
+          "flag": null
+        },
+        {
+          "year": 2005,
+          "value": 7688573,
+          "flag": null
+        },
+        {
+          "year": 2006,
+          "value": 7629371,
+          "flag": null
+        },
+        {
+          "year": 2007,
+          "value": 7572673,
+          "flag": null
+        },
+        {
+          "year": 2008,
+          "value": 7518002,
+          "flag": null
+        },
+        {
+          "year": 2009,
+          "value": 7467119,
+          "flag": null
+        },
+        {
+          "year": 2010,
+          "value": 7421766,
+          "flag": null
+        },
+        {
+          "year": 2011,
+          "value": 7369431,
+          "flag": null
+        },
+        {
+          "year": 2012,
+          "value": 7327224,
+          "flag": null
+        },
+        {
+          "year": 2013,
+          "value": 7202556,
+          "flag": null
+        },
+        {
+          "year": 2014,
+          "value": 7117453,
+          "flag": null
+        },
+        {
+          "year": 2015,
+          "value": 7029690,
+          "flag": null
+        },
+        {
+          "year": 2016,
+          "value": 6938759,
+          "flag": null
+        },
+        {
+          "year": 2017,
+          "value": 6849518,
+          "flag": null
+        },
+        {
+          "year": 2018,
+          "value": 6757418,
+          "flag": null
+        },
+        {
+          "year": 2019,
+          "value": 6664177,
+          "flag": null
+        },
+        {
+          "year": 2020,
+          "value": 6569275,
+          "flag": null
+        },
+        {
+          "year": 2021,
+          "value": 6532117,
+          "flag": null
+        },
+        {
+          "year": 2022,
+          "value": 6482484,
+          "flag": null
+        },
+        {
+          "year": 2023,
+          "value": 6447710,
+          "flag": null
+        },
+        {
+          "year": 2024,
+          "value": 6445481,
+          "flag": null
+        },
+        {
+          "year": 2025,
+          "value": 6437360,
+          "flag": null
+        }
+      ]
     }
   ],
   "eu_funds": [],
   "update_status": {
-    "status": "not_configured",
-    "message": "Официалните източници все още не са свързани."
+    "status": "partial",
+    "successful_series": [
+      "gdp_per_capita_current_eur",
+      "gdp_real_growth",
+      "unemployment_rate_15_74",
+      "population_total"
+    ],
+    "configured_series": 6
   }
 }
