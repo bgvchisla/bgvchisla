@@ -104,7 +104,8 @@ FEEDS = [
         "url": "https://www.ungeneva.org/news-media/press-items-list/rss.xml",
         "allowed_hosts": ["www.ungeneva.org", "ungeneva.org"],
         "keywords": [],
-    },    {
+    },
+    {
         "id": "bbc-world",
         "section": "europe",
         "name": "BBC News – Свят",
@@ -458,6 +459,30 @@ def fetch(feed):
             break
     return rows
 
+def classify_investor_section(item):
+    """Move clearly international Investor.bg stories out of the Bulgaria stream."""
+    if item.get("feed_id") not in {"investor-economy", "investor-finance"}:
+        return item
+    text = (item.get("title", "") + " " + item.get("summary", "")).casefold()
+    international_terms = (
+        "русия", "руски", "москва", "путин", "украйна", "украин", "киев",
+        "съединените щати", "саш", "американ", "трамп", "китай", "пекин",
+        "иран", "израел", "газа", "близкия изток", "нато", "wall street",
+        "nvidia", "apple", "microsoft", "google", "amazon", "tesla",
+        "deutsche bank", "lagarde", "лагард", "европейската комисия",
+        "еврокомис", "европейския съюз", "еврозон", "европейската централна банка",
+        "евростат", "ecb", "eurostat", "международния валутен фонд",
+        "световния икономически форум", "световната банка", "герман",
+        "франция", "френск", "британ", "великобритания", "италия", "испания",
+        "полша", "унгария", "чехия", "сърбия", "турция", "япония", "индия",
+        "корея", "саудитска арабия", "opec", "федералния резерв",
+        "американската борса", "азиатските пазари", "международн"
+    )
+    if any(term in text for term in international_terms):
+        item["section"] = "europe"
+    return item
+
+
 def main():
     previous = {}
     if OUT.exists():
@@ -476,12 +501,22 @@ def main():
             failures.append({"feed": feed["id"], "error": str(exc)[:180]})
             # Keep the last known-good entries for this feed if a temporary outage occurs.
             all_items.extend(x for x in previous_items if x.get("feed_id") == feed["id"])
+    all_items = [classify_investor_section(item) for item in all_items]
     dedup = {}
     for item in all_items:
         key = item["url"].split("#", 1)[0].rstrip("/")
         if key not in dedup or (item["published"] or "") > (dedup[key]["published"] or ""):
             dedup[key] = item
-    items = sorted(dedup.values(), key=lambda x: x["published"] or "", reverse=True)[:70]
+    # Limit each publisher's contribution so one prolific feed cannot dominate.
+    balanced = []
+    per_feed = {}
+    for item in sorted(dedup.values(), key=lambda x: x["published"] or "", reverse=True):
+        feed_id = item.get("feed_id", "unknown")
+        if per_feed.get(feed_id, 0) >= 10:
+            continue
+        per_feed[feed_id] = per_feed.get(feed_id, 0) + 1
+        balanced.append(item)
+    items = balanced[:70]
     result = {
         "schema_version": 1,
         "updated_at": datetime.now(timezone.utc).isoformat(),
