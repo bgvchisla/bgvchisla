@@ -9,6 +9,10 @@ on:
       - "index.html"
       - "privacy.html"
       - "news.json"
+      - "economy.json"
+      - "economy-charts.js"
+      - "scripts/update_economy.py"
+      - ".github/workflows/update-economy.yml"
       - "scripts/update_news.py"
       - ".github/workflows/update-news.yml"
 
