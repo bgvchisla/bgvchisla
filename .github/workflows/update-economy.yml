@@ -11,7 +11,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: economy-main
+  group: production-data-refresh
   cancel-in-progress: false
 jobs:
   update:
