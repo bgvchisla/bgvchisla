@@ -31,6 +31,22 @@
  ["population_total","demo-population-chart",palette.blue,""]
  ];
  defs.forEach(([id,target,color,unit])=>chart(target,series(data,id),color,unit));
+ const ex=series(data,"exports_goods_mio_eur"),im=series(data,"imports_goods_mio_eur");
+ if(ex&&im){
+  const host=$("trade-chart"),a=valid(ex),b=valid(im),bm=new Map(b.map(p=>[p.year,p.value]));
+  const rows=a.filter(p=>bm.has(p.year));
+  if(host&&rows.length>1){
+   const W=720,H=250,L=68,R=18,T=22,B=38,vals=rows.flatMap(p=>[p.value,bm.get(p.year)]),lo=Math.min(...vals),hi=Math.max(...vals),pad=(hi-lo||hi||1)*.12,min=lo-pad,max=hi+pad;
+   const x=i=>L+i*(W-L-R)/(rows.length-1),y=v=>T+(max-v)*(H-T-B)/(max-min);
+   const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.setAttribute("viewBox",`0 0 ${W} ${H}`);svg.setAttribute("role","img");svg.setAttribute("aria-label","Износ и внос на стоки в милиони евро");host.appendChild(svg);
+   function line(tag,attrs,txt){const e=document.createElementNS(svg.namespaceURI,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(txt!==undefined)e.textContent=txt;svg.appendChild(e);}
+   for(let k=0;k<=4;k++){const v=min+(max-min)*k/4;line("line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"#d5dee8"});line("text",{x:L-8,y:y(v)+4,"text-anchor":"end"},nf.format(v));}
+   [[p=>p.value,palette.blue],[p=>bm.get(p.year),palette.red]].forEach(([get,color])=>{const d=rows.map((p,i)=>(i?"L":"M")+x(i)+" "+y(get(p))).join(" ");line("path",{d,fill:"none",stroke:color,"stroke-width":3,"stroke-linecap":"round","stroke-linejoin":"round"});});
+   const step=Math.max(1,Math.ceil(rows.length/8));rows.forEach((p,i)=>{if(i%step===0||i===rows.length-1)line("text",{x:x(i),y:H-12,"text-anchor":"middle"},String(p.year));});
+   line("text",{x:L,y:13,fill:palette.blue},"● Износ");line("text",{x:L+95,y:13,fill:palette.red},"● Внос");
+   const last=rows[rows.length-1],bal=last.value-bm.get(last.year);node("p","Търговско салдо през "+last.year+": "+nf.format(bal)+" млн. евро.",host);
+  }
+ }
  kpi("eco-kpis",series(data,"gdp_real_growth"),"%","Реален растеж на БВП");
  kpi("lab-kpis",series(data,"employment_rate_20_64"),"%","Заетост, 20–64 г.");
  kpi("lab-kpis",series(data,"unemployment_rate_15_74"),"%","Безработица, 15–74 г.");
