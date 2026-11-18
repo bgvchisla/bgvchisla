@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T13:29:04.914866+00:00",
+  "updated_at": "2026-11-18T13:43:04.465261+00:00",
   "items": [
     {
       "section": "europe",
@@ -32,11 +32,15 @@
   ],
   "feed_status": {
     "ok": 1,
-    "total": 2,
+    "total": 3,
     "failures": [
       {
-        "feed": "nsi-rss",
-        "error": "DTD/entity declarations are not accepted"
+        "feed": "parliament-news",
+        "error": "No matching official RSS link found on discovery page"
+      },
+      {
+        "feed": "bnb-news",
+        "error": "No matching official RSS link found on discovery page"
       }
     ]
   },
