@@ -84,5 +84,14 @@
  kpiBillions("eco-kpis",series(data,"exports_goods_mio_eur"),"Износ на стоки");
  kpiBillions("eco-kpis",series(data,"imports_goods_mio_eur"),"Внос на стоки");
  const pop=valid(series(data,"population_total"));if(pop.length>1){const first=pop[0],last=pop[pop.length-1];const delta=last.value-first.value;const host=$("demo-kpis");const box=node("div",undefined,host,"c");node("div",(delta>0?"+":"")+n0.format(delta),box,"n");node("div","Промяна спрямо "+first.year,box,"l");node("div",last.year+" спрямо "+first.year,box,"s");}
+ const demoHost=$("demo-kpis");
+ const ageing=node("div",undefined,demoHost,"c am");
+ node("div","24,3%",ageing,"n");
+ node("div","Население на 65 и повече години",ageing,"l");
+ node("div","31.12.2025 · НСИ · 1 557 851 души",ageing,"s");
+ const migration=node("div",undefined,demoHost,"c gr");
+ node("div","+35 085",migration,"n");
+ node("div","Положителен нетен външен миграционен прираст",migration,"l");
+ node("div","2025 г. · НСИ · имигранти минус емигранти",migration,"s");
  }catch(err){console.error("Неуспешно зареждане на икономическите серии",err);document.querySelectorAll("#eco-kpis,#lab-kpis,#eu-kpis,#demo-kpis,#trade-kpis").forEach(h=>{if(!h.children.length)node("p","Данните временно не са налични. Последната успешна версия се запазва.",h,"news-empty");});}
 })();
