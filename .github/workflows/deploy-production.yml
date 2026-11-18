@@ -11,6 +11,7 @@ on:
       - "news.json"
       - "source_status.json"
       - "official_fiscal.json"
+      - "official_bnb.json"
       - "economy.json"
       - "economy-charts.js"
       - "data.json"
@@ -38,13 +39,13 @@ jobs:
           test -f economy-charts.js
           test -f privacy.html
           test -f source_status.json
-          python3 -c "import json; json.load(open('source_status.json', encoding='utf-8')); json.load(open('official_fiscal.json', encoding='utf-8')); print('Official data JSON OK')"
+          python3 -c "import json; json.load(open('source_status.json', encoding='utf-8')); json.load(open('official_fiscal.json', encoding='utf-8')); json.load(open('official_bnb.json', encoding='utf-8')); print('Official data JSON OK')"
           python3 -c "import json; json.load(open('news.json', encoding='utf-8')); print('News JSON OK')"
 
       - name: Prepare files
         run: |
           mkdir public
-          cp index.html data.json economy.json economy-charts.js privacy.html news.json source_status.json official_fiscal.json public/
+          cp index.html data.json economy.json economy-charts.js privacy.html news.json source_status.json official_fiscal.json official_bnb.json public/
 
       - name: Deploy production
         uses: cloudflare/wrangler-action@v3
