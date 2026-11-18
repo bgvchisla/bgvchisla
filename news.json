@@ -1,7 +1,52 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:15:29.363079+00:00",
+  "updated_at": "2026-11-18T23:15:15.145690+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+      "summary": "No state has ever been found guilty by an international court of committing genocide.",
+      "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T23:04:06+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "GTA 6 bedazzles gamers in Australia with ‘fully lived in, breathable world’",
+      "summary": "Players can renovate houses, fix cars, lift weights and follow the story in Grand Theft Auto VI’s Miami-inspired Vice City Gamers across Australia woke up Thursday morning feeling like Christmas came early, some bleary-eyed from late night sessions on the Play",
+      "url": "https://www.theguardian.com/games/2026/nov/19/gta-6-grand-theft-auto-vi-release-launch-australia-first-to-play-game",
+      "published": "2026-11-18T22:48:46+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T22:34:56+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "EU proposes €45bn loan for Ukraine to avert cash crisis and boost defences",
+      "summary": "Von der Leyen says she wants to give Kyiv ‘strong hand’ in talks and is confident all 27 member states will back idea The EU executive has proposed a €45bn (£37.5bn) loan for Ukraine to help with a looming cash crisis and reinforce its defences, as Russia’s re",
+      "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
+      "published": "2026-11-18T22:34:03+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
+      "summary": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Moïse A Florida pastor with dual Haitian-American citizenship was convicted on Wednesday of US charges arising from the 2021 assassination of the Haitian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
+      "published": "2026-11-18T22:31:41+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "Euronews",
@@ -118,15 +163,6 @@
       "url": "https://www.investor.bg/a/516-politika/439757-tramp-katsna-v-kitay-si-i-putin-kritikuvaha-zapadniya-protektsionizam",
       "published": "2026-11-18T20:15:28+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T20:14:57+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -445,15 +481,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Labour faces double blow over UK fossil fuel projects",
-      "summary": "Large North Sea operator EnQuest says it is quitting oil basin, while SSE threatens to close Yorkshire gas storage site Nils Pratley: with more gas storage at risk. What’s the government plan for secure supplies? The energy secretary has been dealt a double bl",
-      "url": "https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene",
-      "published": "2026-11-18T16:19:41+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
       "summary": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
@@ -469,15 +496,6 @@
       "url": "https://www.investor.bg/a/538-pazari/439747-otchetat-na-nvidia-ne-uspyava-da-vdahne-dostatachno-optimizam-na-wall-street",
       "published": "2026-11-18T16:06:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
-      "summary": "Zookeepers say she cannot have surgery but are providing fluids and supportive care to help her pass the hat.",
-      "url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T16:05:26+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -613,24 +631,6 @@
       "url": "https://www.euronews.com/2026/11/18/iraqi-court-jails-six-french-islamic-state-members-for-life",
       "published": "2026-11-18T14:20:41+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - General Affairs Council and accession conference with Montenegro of 19 November 2026",
-      "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/media-advisory-general-affairs-council-and-accession-conference-with-montenegro-of-19-november-2026/",
-      "published": "2026-11-18T14:10:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Israel delays building contracts for West Bank settlement after UK sanctions",
-      "summary": "Attorney general says E1 settlement decision should not be taken by caretaker government led by Netanyahu Israel has postponed issuing contracts for the construction of a large settlement on the West Bank seen as likely to render a two-state solution unviable,",
-      "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
-      "published": "2026-11-18T14:05:38+00:00",
-      "feed_id": "guardian-world"
     }
   ],
   "feed_status": {
