@@ -163,7 +163,8 @@ def fetch_parliament_api(feed):
         seen_ids.add(news_id)
         title = clean_text(str(record.get("M_NewsL_title") or ""), 400)
         published = parse_date(str(record.get("G_Gal_E_date") or record.get("M_News_date") or ""))
-        if not title:
+        # The API includes localized duplicates; keep Bulgarian-language headlines.
+        if not title or not re.search(r"[А-Яа-я]", title):
             continue
         article_url = "https://www.parliament.bg/bg/news/" + str(news_id)
         rows.append({
