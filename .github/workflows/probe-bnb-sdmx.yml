@@ -2,6 +2,11 @@ name: Probe official BNB SDMX source
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/probe_bnb_sdmx.py"
+      - ".github/workflows/probe-bnb-sdmx.yml"
 
 permissions:
   contents: read
