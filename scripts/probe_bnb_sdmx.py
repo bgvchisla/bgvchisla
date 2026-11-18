@@ -1,24 +1,20 @@
 #!/usr/bin/env python3
-"""Inspect the official BNB SDMX-ML DCS publication without publishing observations."""
+"""Read-only inspection of official BNB monetary-statistics workbook."""
+import io
 import urllib.request
-import xml.etree.ElementTree as ET
+from openpyxl import load_workbook
 
-URL = "https://www.bnb.bg/bnbweb/groups/public/documents/bnb_sdmx/dcs.xml"
+URL = "https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/s_monetarystatistics_all_bg.xlsx"
 req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0 bgvchisla official data probe"})
 with urllib.request.urlopen(req, timeout=60) as response:
-    raw = response.read(30_000_001)
+    raw = response.read(50_000_001)
     print("HTTP", response.status, "content-type", response.headers.get("Content-Type"), "bytes", len(raw))
-if len(raw) > 30_000_000:
-    raise SystemExit("Response exceeds 30 MB safety limit")
-root = ET.fromstring(raw)
-print("ROOT", root.tag)
-print("ROOT ATTRS", root.attrib)
-for child in list(root)[:12]:
-    print("CHILD", child.tag, child.attrib)
-ns = {"generic": "http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"}
-# Generic and compact SDMX structures are inspected generically.
-for elem in root.iter():
-    local = elem.tag.rsplit("}", 1)[-1]
-    if local in {"DataSet", "Series", "Obs", "ObsDimension", "ObsValue", "Group", "KeyFamilyRef", "Dataflow"}:
-        print("ELEMENT", local, elem.attrib, (elem.text or "").strip()[:160])
-print("TOTAL ELEMENTS", sum(1 for _ in root.iter()))
+if len(raw) > 50_000_000 or not raw.startswith(b"PK"):
+    raise SystemExit("Invalid or oversized XLSX")
+wb = load_workbook(io.BytesIO(raw), read_only=True, data_only=True)
+print("SHEETS", len(wb.sheetnames), wb.sheetnames)
+for ws in wb.worksheets:
+    print("\nSHEET", repr(ws.title), "rows", ws.max_row, "cols", ws.max_column)
+    for row in ws.iter_rows(min_row=1, max_row=min(ws.max_row, 12), values_only=True):
+        vals = [v for v in row[:12]]
+        print("ROW", repr(vals))
