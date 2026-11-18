@@ -49,6 +49,31 @@ FEEDS = [
         "allowed_hosts": ["www.ecb.europa.eu", "ecb.europa.eu"],
         "keywords": [],
     },
+,
+    {
+        "id": "commission-press",
+        "section": "europe",
+        "name": "Европейска комисия",
+        "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+        "allowed_hosts": ["ec.europa.eu"],
+        "keywords": [],
+    },
+    {
+        "id": "council-press",
+        "section": "europe",
+        "name": "Съвет на Европейския съюз",
+        "url": "https://www.consilium.europa.eu/en/rss/pressreleases.ashx/",
+        "allowed_hosts": ["www.consilium.europa.eu", "consilium.europa.eu"],
+        "keywords": [],
+    },
+    {
+        "id": "europarl-press",
+        "section": "europe",
+        "name": "Европейски парламент",
+        "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
+        "allowed_hosts": ["www.europarl.europa.eu", "europarl.europa.eu"],
+        "keywords": [],
+    },
 ]
 
 class LinkFinder(HTMLParser):
