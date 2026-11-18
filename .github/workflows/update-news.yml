@@ -42,4 +42,15 @@ jobs:
           else
             git commit -m "Update institutional news feeds"
             git push origin HEAD:main
+
+      - name: Prepare production files
+        run: |
+          mkdir -p public
+          cp index.html data.json economy.json economy-charts.js privacy.html news.json public/
+      - name: Deploy refreshed data to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=bgvchisla --branch=main
           fi
