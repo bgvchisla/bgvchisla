@@ -75,6 +75,11 @@
  kpi("lab-kpis",series(data,"employment_rate_20_64"),"%","Заетост, 20–64 г.");
  kpi("lab-kpis",series(data,"unemployment_rate_15_74"),"%","Безработица, 15–74 г.");
  kpi("eu-kpis",series(data,"gdp_pps_index"),"","БВП на човек, ЕС = 100");
+ const euHost=$("eu-kpis");
+ const addEuCard=(value,label,note,cls)=>{const box=node("div",undefined,euHost,"c "+(cls||"bl"));node("div",value,box,"n");node("div",label,box,"l");node("div",note,box,"s");};
+ addEuCard("72,3","Фактическо индивидуално потребление на човек","2025 · ЕС = 100 · Евростат","gr");
+ addEuCard("63%","Ценово равнище на потреблението на домакинствата","2025 · ЕС = 100 · Евростат","am");
+ addEuCard("+4,2 пр.п.","Потребление спрямо БВП на човек","72,3 − 68,1 · 2025 · процентни пункта","bl");
  kpi("demo-kpis",series(data,"population_total"),"","Население към 1 януари");
  kpi("trade-kpis",series(data,"exports_goods_mio_eur")," млн. €","Износ на стоки");
  kpi("trade-kpis",series(data,"imports_goods_mio_eur")," млн. €","Внос на стоки");
