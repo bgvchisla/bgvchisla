@@ -59,7 +59,7 @@ def main():
     seen=set()
     for href,label in parser.items:
         text=html.unescape(label)
-        if "Статистически бюлетин" not in text or "Пенсии" not in text or not re.search(r"\\.xls(?:\\?|$)",href,re.I): continue
+        if "Статистически бюлетин" not in text or "Пенсии" not in text or not re.search(r"\\bxls\\b",text,re.I): continue
         m=re.search(r"(\\d{2})\\.(\\d{2})\\.(\\d{4})",text)
         if not m: continue
         date=dt.date(int(m.group(3)),int(m.group(2)),int(m.group(1)))
