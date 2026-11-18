@@ -1,7 +1,43 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:05:50.276961+00:00",
+  "updated_at": "2026-11-18T15:16:49.518156+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "КЗК разреши придобиването на \"Шелли груп\" от дъщерна фирма на \"Шнайдер Електрик\"",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439743-kzk-razreshi-pridobivaneto-na-shelli-grup-ot-dashterna-firma-na-shnayder-elektrik",
+      "published": "2026-11-18T15:12:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - Education, Youth, Culture and Sport Council of 19-20 November 2026",
+      "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/media-advisory-education-youth-culture-and-sport-council-of-19-20-november-2026/",
+      "published": "2026-11-18T15:10:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Десет подаръка за Путин, срещу които Тръмп не получи нищо",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439719-deset-podaraka-za-putin-sreshtu-koito-tramp-ne-poluchi-nishto",
+      "published": "2026-11-18T15:00:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Парламентът прие на първо четене промени в закона за независимия финансов одит",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439732-parlamentat-prie-na-parvo-chetene-promeni-v-zakona-za-nezavisimiya-finansov-odit",
+      "published": "2026-11-18T14:44:00+00:00",
+      "feed_id": "investor-finance"
+    },
     {
       "section": "europe",
       "source": "Европейска комисия",
@@ -12,6 +48,42 @@
       "feed_id": "commission-press"
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Иран и САЩ продължават да си разменят удари",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439720-iran-i-sasht-prodalzhavat-da-si-razmenyat-udari",
+      "published": "2026-11-18T14:32:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Кабинетът отпуска 200 млн. евро за пътни ремонти отпреди 2026 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439736-kabinetat-otpuska-200-mln-evro-za-patni-remonti-otpredi-2026-g",
+      "published": "2026-11-18T14:31:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "С инвестиция за над 250 млн. евро ще се изгражда „Завод за производство на барут - Бодрово“",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439733-s-investitsiya-za-nad-250-mln-evro-shte-se-izgrazhda-zavod-za-proizvodstvo-na-barut-bodrovo",
+      "published": "2026-11-18T14:16:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "София преминава към интелигентно управление на цялото улично осветление",
+      "summary": "",
+      "url": "https://www.investor.bg/a/534-novini/439730-sofiya-preminava-kam-inteligentno-upravlenie-na-tsyaloto-ulichno-osvetlenie",
+      "published": "2026-11-18T14:10:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Media advisory - General Affairs Council and accession conference with Montenegro of 19 November 2026",
@@ -19,6 +91,15 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/media-advisory-general-affairs-council-and-accession-conference-with-montenegro-of-19-november-2026/",
       "published": "2026-11-18T14:10:00+00:00",
       "feed_id": "council-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "ЕК създава Служба на ЕС по въпросите на санкциите",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439735-ek-sazdava-sluzhba-na-es-po-vaprosite-na-sanktsiite",
+      "published": "2026-11-18T14:05:00+00:00",
+      "feed_id": "investor-economy"
     },
     {
       "section": "europe",
@@ -37,6 +118,69 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2505",
       "published": "2026-11-18T13:36:46+00:00",
       "feed_id": "commission-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Златото между геополитиката, политическите сътресения в САЩ и амбициите на Китай",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439677-zlatoto-mezhdu-geopolitikata-politicheskite-satreseniya-v-sasht-i-ambitsiite-na-kitay",
+      "published": "2026-11-18T13:10:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Парламентът ограничи рекламата на хазарта",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439731-parlamentat-ogranichi-reklamata-na-hazarta",
+      "published": "2026-11-18T13:00:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Българската администрация е била шпионирана от хакери в продължение на пет години",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439724-balgarskata-administratsiya-e-bila-shpionirana-ot-hakeri-v-prodalzhenie-na-pet-godini",
+      "published": "2026-11-18T12:56:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Година след МiCA: българският криптосектор между лицензите и рисковете",
+      "summary": "",
+      "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439716-godina-sled-mica-balgarskiyat-kriptosektor-mezhdu-litsenzite-i-riskovete",
+      "published": "2026-11-18T12:52:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Обикновената услуга за издаване на лична карта ще е 20 дни",
+      "summary": "",
+      "url": "https://www.investor.bg/a/526-pravosadie/439727-obiknovenata-usluga-za-izdavane-na-lichna-karta-shte-e-20-dni",
+      "published": "2026-11-18T12:40:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Ryanair планира да удвои пътниците си в България до 7 млн. годишно до 2032 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439729-ryanair-planira-da-udvoi-patnitsite-si-v-balgariya-do-7-mln-godishno-do-2032-g",
+      "published": "2026-11-18T12:34:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Френската EDF е близо до договор за 14 млрд. евро за 6 ядрени реактора",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439725-frenskata-edf-e-blizo-do-dogovor-za-14-mlrd-evro-za-6-yadreni-reaktora",
+      "published": "2026-11-18T11:54:29+00:00",
+      "feed_id": "investor-economy"
     },
     {
       "section": "europe",
@@ -73,6 +217,15 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2498",
       "published": "2026-11-18T11:23:28+00:00",
       "feed_id": "commission-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Deutsche Bank се опитва да ограничи щетите от теча на информация за Русия и Епстийн",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439713-deutsche-bank-se-opitva-da-ogranichi-shtetite-ot-techa-na-informatsiya-za-rusiya-i-epstiyn",
+      "published": "2026-11-18T10:51:00+00:00",
+      "feed_id": "investor-finance"
     },
     {
       "section": "europe",
@@ -118,6 +271,42 @@
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
       "published": "2026-11-18T09:00:00+00:00",
       "feed_id": "ecb-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Силният отчет на Nvidia не успя да оцвети всички водещи азиатски пазари в зелено",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439705-silniyat-otchet-na-nvidia-ne-uspya-da-otsveti-vsichki-vodeshti-aziatski-pazari-v-zeleno",
+      "published": "2026-11-18T08:37:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Цената на петрола се понижава на фона на признаците за възстановяване на доставките*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439702-tsenata-na-petrola-se-ponizhava-na-fona-na-priznatsite-za-vazstanovyavane-na-dostavkite",
+      "published": "2026-11-18T07:58:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Eurobank купува 65% от Първа инвестиционна банка",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439703-eurobank-kupuva-65-ot-parva-investitsionna-banka",
+      "published": "2026-11-18T07:34:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Панайот Пощов: Краткосрочно погледнато, финансовият пазар е конкурс за красота",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439684-panayot-poshtov-kratkosrochno-poglednato-finansoviyat-pazar-e-konkurs-za-krasota",
+      "published": "2026-11-18T06:28:00+00:00",
+      "feed_id": "investor-finance"
     },
     {
       "section": "europe",
@@ -372,15 +561,6 @@
       "feed_id": "council-press"
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Fisheries and aquaculture: Council and Parliament agree on modernised framework for statistics",
-      "summary": "The Council and European Parliament agree on a modernised framework for fisheries and aquaculture statistics, improving data quality and simplifying reporting across the EU.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/12/fisheries-and-aquaculture-council-and-parliament-agree-on-modernised-framework-for-statistics/",
-      "published": "2026-11-12T15:00:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
       "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Председателят на Народното събрание Михаела Доцова и народни представители се простиха със скулптора, общественика и политика Вежди Рашидов",
@@ -451,192 +631,17 @@
       "url": "https://ec.europa.eu/eurostat/product?code=4-09112026-ap",
       "published": "2026-11-09T10:00:00+00:00",
       "feed_id": "eurostat-news"
-    },
-    {
-      "section": "europe",
-      "source": "ООН – Женева",
-      "title": "Human Rights Committee and Committee on Economic, Social and Cultural Rights Celebrate Sixtieth Anniversaries of their Covenants",
-      "summary": "The Human Rights Committee and the Committee on Economic, Social and Cultural Rights this afternoon held an event to mark the sixtieth anniversaries of their respective Covenants, the International Covenant on Civil and Political Rightsand the International Co",
-      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/le-comite-des-droits-economiques-sociaux-et-culturels-et-le",
-      "published": "2026-11-06T19:02:23+00:00",
-      "feed_id": "un-geneva-press"
-    },
-    {
-      "section": "europe",
-      "source": "ООН – Женева",
-      "title": "Experts of the Committee on Economic, Social and Cultural Rights Welcome Austria’s Expansion of Housing First Services, Raise Questions on Access to the Labour Market for Asylum Seekers and the Education of Minority Children",
-      "summary": "The Committee on Economic, Social and Cultural Rights today concluded its consideration of the fifth periodic report of Austria, during which it reviewed the State party’s efforts to implement the International Covenant on Economic, Social and Cultural Rights.",
-      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/examen-de-lautriche-au-comite-des-droits-economiques-sociaux-et",
-      "published": "2026-11-06T14:29:02+00:00",
-      "feed_id": "un-geneva-press"
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Volume of retail trade down by 0.7% in the euro area and by 0.6% in the EU",
-      "summary": "In September 2026, compared with August 2026, the seasonally adjusted retail trade volume decreased by 0.7% in the euro area and by 0.6% in the EU, according to first estimates from Eurostat, the statistical office of the European Union. In August 2026, retail",
-      "url": "https://ec.europa.eu/eurostat/product?code=4-06112026-ap",
-      "published": "2026-11-06T10:00:00+00:00",
-      "feed_id": "eurostat-news"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска централна банка",
-      "title": "ECB publishes consolidated banking data for end-June 2026",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
-      "published": "2026-11-06T09:00:00+00:00",
-      "feed_id": "ecb-press"
-    },
-    {
-      "section": "europe",
-      "source": "ООН – Женева",
-      "title": "Committee on Economic, Social and Cultural Rights Commends Mexico for Progress in Reducing Poverty, Asks about Measures to Protect Human Rights Defenders and Reduce the Gender Wage Gap",
-      "summary": "The Committee on Economic, Social and Cultural Rights today concluded its review of the seventh periodic report of Mexico under the International Covenant on Economic, Social and Cultural Rights, with Committee Experts commending the State’s progress in reduci",
-      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/examen-du-mexique-au-comite-des-droits-economiques-sociaux-et",
-      "published": "2026-11-05T19:29:11+00:00",
-      "feed_id": "un-geneva-press"
-    },
-    {
-      "section": "europe",
-      "source": "ООН – Женева",
-      "title": "Human Rights Committee Adopts Reports on Follow-Up to Concluding Observations Concerning Bolivia, Iraq, Luxembourg, Togo and Uruguay",
-      "summary": "The Human Rights Committee today adopted reports on follow-up to concluding observations concerning Bolivia, Iraq, Luxembourg, Togo and Uruguay. Yvonne Donders, Committee Expert and the Special Rapporteur on follow-up to concluding observations, said that as t",
-      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/human-rights-committee-adopts-reports-follow-concluding",
-      "published": "2026-11-05T17:20:59+00:00",
-      "feed_id": "un-geneva-press"
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Industrial producer prices up by 2.5% in the euro area and by 2.6% in the EU",
-      "summary": "In September 2026, compared with August 2026, industrial producer prices increased by 2.5% in the euro area and by 2.6% in the EU, according to first estimates from Eurostat, the statistical office of the European Union. In August 2026, industrial producer pri",
-      "url": "https://ec.europa.eu/eurostat/product?code=4-05112026-ap",
-      "published": "2026-11-05T10:00:00+00:00",
-      "feed_id": "eurostat-news"
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Euro area annual inflation up to 4.0%",
-      "summary": "Euro area annual inflation is expected to be 4.0% in October 2026, up from 3.8% in September according to a flash estimate from Eurostat, the statistical office of the European Union.",
-      "url": "https://ec.europa.eu/eurostat/product?code=2-04112026-ap",
-      "published": "2026-11-04T10:00:00+00:00",
-      "feed_id": "eurostat-news"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска централна банка",
-      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
-      "published": "2026-11-04T00:00:00+00:00",
-      "feed_id": "ecb-press"
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Euro area unemployment at 6.5%",
-      "summary": "In September 2026, the euro area seasonally adjusted unemployment rate was 6.5%, stable compared with August 2026 and up from 6.3% in September 2025. The EU unemployment rate was 6.2% in September 2026, also stable compared with August 2026 and up from 6.0% in",
-      "url": "https://ec.europa.eu/eurostat/product?code=3-30102026-bp",
-      "published": "2026-10-30T10:00:00+00:00",
-      "feed_id": "eurostat-news"
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "GDP up by 0.4% in the euro area and by 0.5% in the EU",
-      "summary": "In the third quarter of 2026, seasonally adjusted GDP increased by 0.4% in the euro area and by 0.5% in the EU, compared with the previous quarter, according to a preliminary flash estimate published by Eurostat, the statistical office of the European Union. I",
-      "url": "https://ec.europa.eu/eurostat/product?code=2-30102026-ap",
-      "published": "2026-10-30T10:00:00+00:00",
-      "feed_id": "eurostat-news"
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Household real income per capita slightly increases in both the euro area and the EU",
-      "summary": "In the second quarter of 2026, household real income per capita increased by 0.1% in the euro area, after an increase of 0.1% in the first quarter of 2026. In the same period, household real consumption per capita increased by 0.3%, after having stayed stable",
-      "url": "https://ec.europa.eu/eurostat/product?code=2-28102026-ap",
-      "published": "2026-10-28T10:00:00+00:00",
-      "feed_id": "eurostat-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Българската народна банка обявява ежегодния си конкурс за стипендианти през 2027 година",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261028_BG",
-      "published": "2026-10-28T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие Наредба за изменение на Наредба № 30 на БНБ за изчисляване размера на дължимите от банките премийни вноски по Закона за гарантиране на влоговете в банките",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261026_BG",
-      "published": "2026-10-26T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "На свое заседание Управителният съвет на БНБ прие за информация изданието на БНБ „Икономически преглед“, брой 2 за 2026 г.",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261016_BG",
-      "published": "2026-10-16T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ взе решение за разрешаване на преобразуването на „Токуда Банк“ ЕАД чрез вливане по реда на чл. 262 от Търговския закон в „Българо-американска кредитна банка“ АД",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261009_BG",
-      "published": "2026-10-09T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "БНБ пуска в обращение златна колекционерска монета „Св. Иван Рилски“",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261009_100EURO_BG",
-      "published": "2026-10-09T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Уточнение от БНБ във връзка с публични изявления относно позицията на управителя на БНБ от 25 септември 2026 г.",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260928_BG",
-      "published": "2026-09-28T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ определи нивото на антицикличния капиталов буфер, приложим към кредитни рискови експозиции в Република България, на 2.25% през четвъртото тримесечие на 2027 г.",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260925_CCB_BG",
-      "published": "2026-09-25T00:00:00+00:00",
-      "feed_id": "bnb-news"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „БЕСТ Кепитъл България” ЕАД на основание чл. 9, ал. 11 от Закона за лицата, обслужващи кредити, и купувачите на кредити",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20260914_BG",
-      "published": "2026-09-14T00:00:00+00:00",
-      "feed_id": "bnb-news"
     }
   ],
   "feed_status": {
-    "ok": 7,
-    "total": 7,
-    "failures": []
+    "ok": 9,
+    "total": 10,
+    "failures": [
+      {
+        "feed": "parliament-news",
+        "error": "<urlopen error timed out>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
