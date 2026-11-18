@@ -12,10 +12,12 @@ BASE="https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/"
 SPECS=[
  {"id":"gdp_per_capita_current_eur","title":"БВП на човек по текущи цени","unit":"евро на човек","dataset":"nama_10_pc","filters":{"freq":"A","unit":"CP_EUR_HAB","na_item":"B1GQ","geo":"BG"},"note":"По текущи цени; не измерва самостоятелно реалния растеж."},
  {"id":"gdp_real_growth","title":"Реален БВП — годишен темп на изменение","unit":"%","dataset":"nama_10_gdp","filters":{"freq":"A","unit":"CLV_PCH_PRE","na_item":"B1GQ","geo":"BG"},"note":"Годишен процентен темп при верижно свързани обеми."},
- {"id":"employment_rate_20_64","title":"Заетост на населението 20–64 г.","unit":"%","dataset":"lfsi_emp_a","filters":{"freq":"A","unit":"PC","sex":"T","age":"Y20-64","geo":"BG"},"note":"Коефициент на заетост за възраст 20–64 години."},
+ {"id":"employment_rate_20_64","title":"Заетост на населението 20–64 г.","unit":"%","dataset":"lfsi_emp_a","filters":{"freq":"A","indic_em":"EMP_LFS","unit":"PC_POP","sex":"T","age":"Y20-64","geo":"BG"},"note":"Коефициент на заетост за възраст 20–64 години."},
  {"id":"unemployment_rate_15_74","title":"Безработица 15–74 г.","unit":"%","dataset":"une_rt_a","filters":{"freq":"A","unit":"PC_ACT","sex":"T","age":"Y15-74","geo":"BG"},"note":"Годишен коефициент на безработица."},
  {"id":"population_total","title":"Население към 1 януари","unit":"души","dataset":"demo_pjan","filters":{"freq":"A","unit":"NR","sex":"T","age":"TOTAL","geo":"BG"},"note":"Население към 1 януари; отчетени стойности."},
- {"id":"gdp_pps_index","title":"БВП на човек в PPS, ЕС = 100","unit":"индекс","dataset":"tec00114","filters":{"freq":"A","unit":"PPS_EU27_2020_HAB","na_item":"B1GQ","geo":"BG"},"note":"Индекс спрямо средното за ЕС (ЕС=100)."},
+ {"id":"gdp_pps_index","title":"БВП на човек в PPS, ЕС = 100","unit":"индекс","dataset":"tec00114","filters":{"freq":"A","indic_ppp":"VI_PPS_EU27_2020_HAB","ppp_cat18":"GDP","geo":"BG"},"note":"Индекс спрямо средното за ЕС (ЕС=100)."},
+ {"id":"exports_goods_mio_eur","title":"Износ на стоки","unit":"млн. евро","dataset":"ext_lt_intertrd","filters":{"freq":"A","indic_et":"MIO_EXP_VAL","sitc06":"TOTAL","partner":"WORLD","geo":"BG"},"note":"Износ на стоки към всички партньори, млн. евро."},
+ {"id":"imports_goods_mio_eur","title":"Внос на стоки","unit":"млн. евро","dataset":"ext_lt_intertrd","filters":{"freq":"A","indic_et":"MIO_IMP_VAL","sitc06":"TOTAL","partner":"WORLD","geo":"BG"},"note":"Внос на стоки от всички партньори, млн. евро."},
 ]
 def get_item(obj,index):
  if isinstance(obj,list): return obj[index] if index<len(obj) else None
