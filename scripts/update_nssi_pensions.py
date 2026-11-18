@@ -115,6 +115,8 @@ def main():
       "methodology":"Броят на пенсионерите и пенсиите е моментна стойност към отчетната дата. Историческата серия включва само тези съпоставими количествени показатели от официалните тримесечни бюлетини. Средният размер е среден за отчетния период. Разходът е натрупан от началото на годината до отчетната дата; показателите имат различна времева база и не следва да се сравняват като еднотипни месечни стойности.",
       "history_methodology":"Историческите редове са броят на пенсионерите и броят на пенсиите към датите на съответните тримесечни бюлетини. Паричните показатели не са включени в историческата серия, за да не се смесват валути и отчетни периоди."
     }
+    if previous and previous.get("reference_date")==period_iso and previous.get("metrics")==payload["metrics"] and previous.get("history")==payload["history"]:
+        payload["updated_at"]=previous.get("updated_at",payload["updated_at"])
     OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("NSSI import OK",period_iso,"history points",len(history))
     for k,v in payload["metrics"].items(): print(k,v)
