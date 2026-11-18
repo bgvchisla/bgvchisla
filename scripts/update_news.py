@@ -27,9 +27,8 @@ FEEDS = [
         "id": "parliament-news",
         "section": "bulgaria",
         "name": "Народно събрание",
-        "url": None,
-        "discovery_url": "https://www.parliament.bg/bg/rss",
-        "discovery_label": "Новини",
+        "url": "https://www.parliament.bg/bg/news",
+        "mode": "html",
         "allowed_hosts": ["www.parliament.bg", "parliament.bg"],
         "keywords": [],
     },
@@ -199,7 +198,10 @@ def fetch_html_news(feed):
                 continue
             path = urllib.parse.urlparse(url).path.casefold()
             full_url = url.casefold()
-            if not any(token in path or token in full_url for token in ("/news", "newsid", "news_id", "aid=")):
+            if feed["id"] == "parliament-news":
+                if not (path.startswith("/bg/news/") or "aid=" in full_url or "newsid" in full_url):
+                    continue
+            elif not any(token in path or token in full_url for token in ("/news", "newsid", "news_id", "aid=")):
                 continue
             if title.casefold() in {"архив новини", "новини"}:
                 continue
