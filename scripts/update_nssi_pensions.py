@@ -88,7 +88,12 @@ def main():
     if len(history)<6:
         raise ValueError(f"Expected at least 6 quarterly historical bulletins from 2025 onward, found {len(history)}")
     period,url,label,values=latest
-    previous=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
+    previous=None
+    if OUT.exists():
+        try:
+            previous=json.loads(OUT.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            print("Warning: replacing previously malformed official_nssi.json after full source validation")
     period_iso=period.isoformat()
     if previous and period_iso < previous.get("reference_date",""):
         raise ValueError("NSSI data regression: refusing to replace newer bulletin")
@@ -110,7 +115,7 @@ def main():
       "methodology":"Броят на пенсионерите и пенсиите е моментна стойност към отчетната дата. Историческата серия включва само тези съпоставими количествени показатели от официалните тримесечни бюлетини. Средният размер е среден за отчетния период. Разходът е натрупан от началото на годината до отчетната дата; показателите имат различна времева база и не следва да се сравняват като еднотипни месечни стойности.",
       "history_methodology":"Историческите редове са броят на пенсионерите и броят на пенсиите към датите на съответните тримесечни бюлетини. Паричните показатели не са включени в историческата серия, за да не се смесват валути и отчетни периоди."
     }
-    OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("NSSI import OK",period_iso,"history points",len(history))
     for k,v in payload["metrics"].items(): print(k,v)
 
