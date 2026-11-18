@@ -6,8 +6,6 @@
 <title>България в числа – дълг, цени, банки, доходи</title>
 <style>
 :root{--bg:#f5f6f8;--card:#fff;--tx:#14181f;--mu:#667085;--ac:#d92d20;--gr:#039855;--bl:#2f5bea;--am:#dc6803;--bd:#e4e7ec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1116;--card:#171b22;--tx:#eef0f4;--mu:#98a2b3;--ac:#ff7066;--gr:#32d583;--bl:#7c9cff;--am:#fdb022;--bd:#2a313c;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0e1116;--card:#171b22;--tx:#eef0f4;--mu:#98a2b3;--ac:#ff7066;--gr:#32d583;--bl:#7c9cff;--am:#fdb022;--bd:#2a313c;color-scheme:dark}
 *{box-sizing:border-box}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.45}
@@ -96,11 +94,11 @@ body{background:#f4f6f8;color:var(--tx);font-family:Inter,ui-sans-serif,system-u
 #mk-note{letter-spacing:.02em}
 .hero{border:0;border-radius:5px;background:#e8eef4;color:#26384d;padding:30px 24px;text-align:left;box-shadow:0 3px 12px #25364b0a;border:1px solid #dce4ec}
 .hero small,.hero .r{color:#687b91}
-.hero .r b{color:#fff}
+.hero .r b{color:#26384d}
 .hero .n{color:#26384d;font-size:clamp(2.1rem,5vw,3.7rem);letter-spacing:-.045em;margin:12px 0}
 .hero .r{justify-content:flex-start;gap:24px}
-.hero .r span{border-left:1px solid #46566d;padding-left:12px}
-label.sw{justify-content:flex-start;color:#bdc9d9}
+.hero .r span{border-left:1px solid #c8d3df;padding-left:12px}
+label.sw{justify-content:flex-start;color:#687b91}
 nav{background:#f4f6f8;border-bottom:1px solid #e1e6eb;padding:12px 0 10px}
 nav button{border-radius:4px;background:transparent;border-color:transparent;color:#58677b;padding:10px 15px}
 nav button.on{background:#dce6ef;color:#2c435d;border-color:#cbd7e3}
@@ -294,7 +292,7 @@ fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error(
 
 /* лента с пазарни цени (TradingView): зарежда се автоматично */
 var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
-function mkLoad(){var th=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light",el=$("mk-tape");el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
+function mkLoad(){var th="light",el=$("mk-tape");el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
 mkLoad();
 </script>
 <script src="economy-charts.js"></script>
