@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_successful_update": "2026-11-18T16:16:49.909512+00:00",
+  "last_successful_update": "2026-11-18T16:17:00.647465+00:00",
   "indicators": [],
   "series": [
     {
@@ -12,7 +12,7 @@
       "dataset": "nama_10_pc",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_pc?lang=EN&freq=A&unit=CP_EUR_HAB&na_item=B1GQ&geo=BG",
       "note": "По текущи цени; не измерва самостоятелно реалния растеж.",
-      "updated_at": "2026-11-18T16:16:45.549037+00:00",
+      "updated_at": "2026-11-18T16:16:58.472922+00:00",
       "points": [
         {
           "year": 1995,
@@ -180,7 +180,7 @@
       "dataset": "nama_10_gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?lang=EN&freq=A&unit=CLV_PCH_PRE&na_item=B1GQ&geo=BG",
       "note": "Годишен процентен темп при верижно свързани обеми.",
-      "updated_at": "2026-11-18T16:16:46.079251+00:00",
+      "updated_at": "2026-11-18T16:16:58.799943+00:00",
       "points": [
         {
           "year": 1996,
@@ -343,7 +343,7 @@
       "dataset": "une_rt_a",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&freq=A&unit=PC_ACT&sex=T&age=Y15-74&geo=BG",
       "note": "Годишен коефициент на безработица.",
-      "updated_at": "2026-11-18T16:16:47.149013+00:00",
+      "updated_at": "2026-11-18T16:16:59.416067+00:00",
       "points": [
         {
           "year": 2009,
@@ -441,7 +441,7 @@
       "dataset": "demo_pjan",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?lang=EN&freq=A&unit=NR&sex=T&age=TOTAL&geo=BG",
       "note": "Население към 1 януари; отчетени стойности.",
-      "updated_at": "2026-11-18T16:16:47.677168+00:00",
+      "updated_at": "2026-11-18T16:16:59.720804+00:00",
       "points": [
         {
           "year": 1960,
@@ -784,7 +784,7 @@
       "dataset": "lfsi_emp_a",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_a?lang=EN&freq=A&indic_em=EMP_LFS&unit=PC_POP&sex=T&age=Y20-64&geo=BG",
       "note": "Коефициент на заетост за възраст 20–64 години.",
-      "updated_at": "2026-11-18T16:16:46.617703+00:00",
+      "updated_at": "2026-11-18T16:16:59.108609+00:00",
       "points": [
         {
           "year": 2009,
@@ -882,7 +882,7 @@
       "dataset": "tec00114",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tec00114?lang=EN&freq=A&indic_ppp=VI_PPS_EU27_2020_HAB&ppp_cat18=GDP&geo=BG",
       "note": "Индекс спрямо средното за ЕС (ЕС=100).",
-      "updated_at": "2026-11-18T16:16:48.211388+00:00",
+      "updated_at": "2026-11-18T16:17:00.021668+00:00",
       "points": [
         {
           "year": 2014,
@@ -955,7 +955,7 @@
       "dataset": "ext_lt_intertrd",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ext_lt_intertrd?lang=EN&freq=A&indic_et=MIO_EXP_VAL&sitc06=TOTAL&partner=WORLD&geo=BG",
       "note": "Износ на стоки към всички партньори, млн. евро.",
-      "updated_at": "2026-11-18T16:16:49.140190+00:00",
+      "updated_at": "2026-11-18T16:17:00.332217+00:00",
       "points": [
         {
           "year": 2002,
@@ -1088,7 +1088,7 @@
       "dataset": "ext_lt_intertrd",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ext_lt_intertrd?lang=EN&freq=A&indic_et=MIO_IMP_VAL&sitc06=TOTAL&partner=WORLD&geo=BG",
       "note": "Внос на стоки от всички партньори, млн. евро.",
-      "updated_at": "2026-11-18T16:16:49.909456+00:00",
+      "updated_at": "2026-11-18T16:17:00.647405+00:00",
       "points": [
         {
           "year": 2002,
