@@ -21,7 +21,7 @@ jobs:
       - name: Prepare files
         run: |
           mkdir public
-          cp index.html data.json economy.json economy-charts.js public/
+          cp index.html data.json economy.json economy-charts.js x-test.html public/
 
       - name: Deploy preview
         uses: cloudflare/wrangler-action@v3
