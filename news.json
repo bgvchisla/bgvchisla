@@ -1,7 +1,52 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T20:21:32.310598+00:00",
+  "updated_at": "2026-11-18T21:08:46.386560+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "US Defence Secretary announces military cooperation in surprise Caracas visit",
+      "summary": "The US Defence Secretary met Delcy Rodríguez in Caracas ahead of a planned visit to Colombia, where he is due to discuss bilateral security cooperation.",
+      "url": "https://www.euronews.com/2026/11/18/us-defence-secretary-announces-military-cooperation-in-surprise-caracas-visit",
+      "published": "2026-11-18T21:02:43+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EPP moves to suspend Serbia’s former ruling party",
+      "summary": "SNS will have 12 months to deliver on the EPP's demands, or face expulsion.",
+      "url": "https://www.politico.eu/article/epp-moves-to-suspend-serbias-former-ruling-party/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-18T20:46:08+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Започва ремонт за 3,4 млн. евро на участък от \"Челопешко шосе\" в софийския район \"Кремиковци\"",
+      "summary": "",
+      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439758-zapochva-remont-za-34-mln-evro-na-uchastak-ot-chelopeshko-shose-v-sofiyskiya-rayon-kremikovtsi",
+      "published": "2026-11-18T20:36:46+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "What the Crimean bridge attack means for Russia",
+      "summary": "Ukraine's latest strike on the Kerch Bridge has disrupted a key transport link between Russia and Crimea. Beyond the damage, the attack could have serious consequences for Russian military logistics and Putin's prestige.",
+      "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-18T20:30:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Hegseth uses Venezuela visit to boast of Maduro’s capture by US military",
+      "summary": "Defense secretary asserts US dominance on trip that would have seemed ‘impossible, almost unbelievable’ a year ago Pete Hegseth has used his first visit to Venezuela since US special forces abducted its former president, Nicolás Maduro, to boast of the dictato",
+      "url": "https://www.theguardian.com/world/2026/nov/18/pete-hegseth-venezuela-nicolas-maduro-military",
+      "published": "2026-11-18T20:24:19+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "Deutsche Welle",
@@ -400,6 +445,15 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Anthony Albanese defies critics for Apec summit photo with Vladimir Putin",
+      "summary": "Despite pleas from pro-Ukraine Australians, the prime minister accepts wishes of Chinese hosts with group picture Get our daily political email , free app or daily news podcast Anthony Albanese has appeared in a leaders’ photo with Vladimir Putin at the Apec s",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/18/anthony-albanese-defies-critics-for-apec-summit-photo-with-vladimir-putin",
+      "published": "2026-11-18T15:39:11+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Borussia Dortmund bows to fan pressure and end Rheinmetall deal",
       "summary": "Borussia Dortmund has reluctantly ended its association with a major sponsor after long-term fan protests. They are not the first Bundesliga club to u-turn, as commercial interests clash with politics and fan culture.",
@@ -480,15 +534,6 @@
       "feed_id": "investor-economy"
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Has the 'Parthenon puzzle' been solved? The long quest to reassemble lost eastern pediment",
-      "summary": "The depiction of the birth of the goddess Athena above the Parthenon's entrance is considered a masterpiece of ancient art. Now, a German research team has pieced together all the surviving fragments.",
-      "url": "https://www.dw.com/en/has-the-parthenon-puzzle-been-solved-the-long-quest-to-reassemble-lost-eastern-pediment/a-79982098?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T14:49:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Парламентът прие на първо четене промени в закона за независимия финансов одит",
@@ -522,15 +567,6 @@
       "summary": "",
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439720-iran-i-sasht-prodalzhavat-da-si-razmenyat-udari",
       "published": "2026-11-18T14:32:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Кабинетът отпуска 200 млн. евро за пътни ремонти отпреди 2026 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439736-kabinetat-otpuska-200-mln-evro-za-patni-remonti-otpredi-2026-g",
-      "published": "2026-11-18T14:31:00+00:00",
       "feed_id": "investor-economy"
     },
     {
@@ -595,42 +631,6 @@
       "url": "https://www.politico.eu/article/france-edouard-philippe-steps-up-attacks-on-marine-le-pen-and-jean-luc-melenchon-as-his-poll-numbers-slide/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-18T13:52:43+00:00",
       "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Keynote speech by Commissioner Kubilius at the European Business Summit",
-      "summary": "European Commission Speech Brussels, 18 Nov 2026 Good afternoon, I am glad to be here together with you, Europe's business leaders. I will not tell you anything new, if I will repeat that our defence readiness...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2506",
-      "published": "2026-11-18T13:52:04+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Wie Björn Höcke die Geschichte umdeutet",
-      "summary": "Björn Höcke nutzt den Volkstrauertag für eine gezielte Provokation und präsentiert stark überhöhte deutsche Opferzahlen zu Flucht, Vertreibung und alliierten Luftangriffen. Die AfD fordert einen Schlussstrich unter die NS-Vergangenheit, doch wie funktioniert d",
-      "url": "https://www.politico.eu/podcast/inside-afd/wie-bjorn-hocke-die-geschichte-umdeutet/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-18T13:50:58+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Press remarks by Commissioner Zaharieva on the Advanced Materials for Europe Initiative",
-      "summary": "European Commission Speech Brussels, 18 Nov 2026 Good afternoon, and welcome to the read-out of today's College meeting. Today, we discussed a proposal on Advanced Materials for Europe. I will present the deta...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2505",
-      "published": "2026-11-18T13:36:46+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Trump and Putin shake hands in first encounter since 2025",
-      "summary": "Donald Trump, Vladimir Putin and Xi Jinping are preparing for historic three-way talks in China, bringing the three leaders together in person for the first time.",
-      "url": "https://www.euronews.com/2026/11/18/trump-and-putin-shake-hands-in-first-encounter-since-2025",
-      "published": "2026-11-18T13:13:00+00:00",
-      "feed_id": "euronews"
     }
   ],
   "feed_status": {
