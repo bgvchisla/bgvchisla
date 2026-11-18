@@ -37,7 +37,7 @@ wb = load_workbook(io.BytesIO(raw), read_only=True, data_only=True)
 print("Workbook sheets:", wb.sheetnames)
 for ws in wb.worksheets:
     print(f"\\nSHEET {ws.title!r} dimensions={ws.max_row}x{ws.max_column}")
-    for row in ws.iter_rows(min_row=1, max_row=min(ws.max_row or 1, 24), values_only=True):
-        values = [str(v)[:160] if v is not None else "" for v in row[:12]]
-        if any(values):
-            print(" | ".join(values))
+    for row_idx, row in enumerate(ws.iter_rows(values_only=True), start=1):
+        populated = [(idx + 1, str(value)[:100]) for idx, value in enumerate(row) if value is not None]
+        if populated:
+            print(f"ROW {row_idx}: " + " | ".join(f"C{col}={value}" for col, value in populated[:20]))
