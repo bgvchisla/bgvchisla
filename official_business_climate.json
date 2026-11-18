@@ -1,0 +1,67 @@
+{
+  "source": "Национален статистически институт",
+  "source_url": "https://www.nsi.bg/press-release/nablyudenie-na-biznes-tendenciite-v-promishlenostta-stroitelstvoto-targoviyata-na-drebno-i-uslugite-9194",
+  "reference_date": "2026-10",
+  "updated_at": "2026-11-18T22:57:58Z",
+  "values": {
+    "total": {
+      "value": 13.2,
+      "previous": 15.3,
+      "change": -2.1
+    },
+    "industry": {
+      "value": 14.1,
+      "previous": 16.9,
+      "change": -2.8
+    },
+    "construction": {
+      "value": 9.7,
+      "previous": 9.3,
+      "change": 0.4
+    },
+    "retail": {
+      "value": 26.5,
+      "previous": 25.3,
+      "change": 1.2
+    },
+    "services": {
+      "value": 1.5,
+      "previous": 8.4,
+      "change": -6.9
+    }
+  },
+  "history": [
+    {
+      "period": "2026-10",
+      "values": {
+        "total": {
+          "value": 13.2,
+          "previous": 15.3,
+          "change": -2.1
+        },
+        "industry": {
+          "value": 14.1,
+          "previous": 16.9,
+          "change": -2.8
+        },
+        "construction": {
+          "value": 9.7,
+          "previous": 9.3,
+          "change": 0.4
+        },
+        "retail": {
+          "value": 26.5,
+          "previous": 25.3,
+          "change": 1.2
+        },
+        "services": {
+          "value": 1.5,
+          "previous": 8.4,
+          "change": -6.9
+        }
+      },
+      "source_url": "https://www.nsi.bg/press-release/nablyudenie-na-biznes-tendenciite-v-promishlenostta-stroitelstvoto-targoviyata-na-drebno-i-uslugite-9194"
+    }
+  ],
+  "methodology": "Показателите са балансови оценки от месечното наблюдение на бизнес тенденциите. Общият показател е претеглена средна на четирите отраслови показателя. Промените са разлики в процентни пунктове спрямо предходния месец."
+}
