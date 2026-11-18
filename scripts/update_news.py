@@ -65,14 +65,6 @@ FEEDS = [
         "allowed_hosts": ["www.consilium.europa.eu", "consilium.europa.eu"],
         "keywords": [],
     },
-    {
-        "id": "europarl-press",
-        "section": "europe",
-        "name": "Европейски парламент",
-        "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-        "allowed_hosts": ["www.europarl.europa.eu", "europarl.europa.eu"],
-        "keywords": [],
-    },
 ]
 
 class LinkFinder(HTMLParser):
