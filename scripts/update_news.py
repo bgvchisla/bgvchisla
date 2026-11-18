@@ -24,11 +24,21 @@ MAX_PER_FEED = 35
 USER_AGENT = "bgvchisla-news-aggregator/1.0 (+https://bgvchisla.com)"
 FEEDS = [
     {
-        "id": "nsi-rss",
+        "id": "parliament-news",
         "section": "bulgaria",
-        "name": "Национален статистически институт",
-        "url": "https://www.nsi.bg/?format=feed&type=rss",
-        "allowed_hosts": ["www.nsi.bg", "nsi.bg"],
+        "name": "Народно събрание",
+        "discovery_url": "https://www.parliament.bg/bg/rss",
+        "allowed_hosts": ["www.parliament.bg", "parliament.bg"],
+        "discovery_label": "Новини",
+        "keywords": [],
+    },
+    {
+        "id": "bnb-news",
+        "section": "bulgaria",
+        "name": "Българска народна банка",
+        "discovery_url": "https://www.bnb.bg/AboutUs/PressOffice/PORSS/index.htm",
+        "allowed_hosts": ["www.bnb.bg", "bnb.bg"],
+        "discovery_label": "RSS За БНБ",
         "keywords": [],
     },
     {
@@ -39,7 +49,26 @@ FEEDS = [
         "allowed_hosts": ["www.ecb.europa.eu", "ecb.europa.eu"],
         "keywords": [],
     },
-]
+}
+
+class LinkFinder(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.links = []
+        self._href = None
+        self._text = []
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() == "a":
+            self._href = dict(attrs).get("href")
+            self._text = []
+    def handle_data(self, data):
+        if self._href is not None:
+            self._text.append(data)
+    def handle_endtag(self, tag):
+        if tag.lower() == "a" and self._href is not None:
+            self.links.append((self._href, " ".join(" ".join(self._text).split())))
+            self._href = None
+            self._text = []
 
 class TextOnly(HTMLParser):
     def __init__(self):
@@ -93,7 +122,27 @@ def valid_url(url, hosts):
         return False
 
 def fetch(feed):
-    url = feed["url"]
+    url = feed.get("url")
+    if not url and feed.get("discovery_url"):
+        discovery = feed["discovery_url"]
+        if not valid_url(discovery, feed["allowed_hosts"]):
+            raise ValueError("Discovery URL is not on the HTTPS host allowlist")
+        req = urllib.request.Request(discovery, headers={"User-Agent": USER_AGENT, "Accept": "text/html"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+            page_url = response.geturl()
+            if not valid_url(page_url, feed["allowed_hosts"]):
+                raise ValueError("Discovery redirected outside its host allowlist")
+            page = response.read(MAX_BYTES + 1)
+        if len(page) > MAX_BYTES:
+            raise ValueError("Discovery page exceeds the 1 MB size limit")
+        finder = LinkFinder()
+        finder.feed(page.decode("utf-8", errors="replace"))
+        matches = [(urllib.parse.urljoin(page_url, href), label) for href, label in finder.links
+                   if feed["discovery_label"].casefold() in label.casefold() and href]
+        candidates = [candidate for candidate, _ in matches if valid_url(candidate, feed["allowed_hosts"])]
+        if not candidates:
+            raise ValueError("No matching official RSS link found on discovery page")
+        url = candidates[0]
     if not valid_url(url, feed["allowed_hosts"]):
         raise ValueError("Feed URL is not on the HTTPS host allowlist")
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/atom+xml, application/rss+xml, application/xml, text/xml"})
