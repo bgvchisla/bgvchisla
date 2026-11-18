@@ -592,6 +592,95 @@ label.sw{
 #site-content nav#nav button::after{content:none!important;display:none!important}
 #site-content nav#nav button{counter-increment:none!important}
 
+
+/* Единен дизайн на показателите във всички секции — по модела на „Накратко“ */
+#site-content section:not(#s0) .g{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#site-content section:not(#s0) .g .c{
+  --card-accent:var(--ui-blue);
+  position:relative;
+  min-width:0;
+  min-height:154px;
+  overflow:hidden;
+  padding:20px 19px 18px;
+  border:1px solid #d5dee8;
+  border-top:4px solid var(--card-accent);
+  border-radius:13px;
+  background:linear-gradient(145deg,#fff 0%,#f5f8fb 100%);
+  box-shadow:0 4px 13px rgba(36,56,79,.07);
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+}
+#site-content section:not(#s0) .g .c.ac{--card-accent:var(--ui-red);background:linear-gradient(145deg,#fff 0%,#fbf5f4 100%)}
+#site-content section:not(#s0) .g .c.gr{--card-accent:var(--ui-green);background:linear-gradient(145deg,#fff 0%,#f3f8f5 100%)}
+#site-content section:not(#s0) .g .c.bl{--card-accent:var(--ui-blue);background:linear-gradient(145deg,#fff 0%,#f3f6fa 100%)}
+#site-content section:not(#s0) .g .c.am{--card-accent:var(--ui-amber);background:linear-gradient(145deg,#fff 0%,#faf7f1 100%)}
+#site-content section:not(#s0) .g .c .n{
+  color:var(--card-accent);
+  font-size:clamp(1.55rem,2.1vw,2.15rem);
+  font-weight:800;
+  line-height:1.14;
+  letter-spacing:-.045em;
+  overflow-wrap:anywhere;
+  margin:0 0 12px;
+}
+#site-content section:not(#s0) .g .c .l{
+  color:#2d4058;
+  font-size:1rem;
+  line-height:1.36;
+  font-weight:650;
+  letter-spacing:-.012em;
+  margin:0;
+}
+#site-content section:not(#s0) .g .c .s{
+  color:#687b93;
+  font-size:.88rem;
+  line-height:1.45;
+  margin-top:7px;
+}
+/* Графики, таблици и пояснителни панели следват същата повърхност */
+#site-content section:not(#s0)>.box{
+  border:1px solid #d5dee8;
+  border-top:3px solid #8da2b8;
+  border-radius:12px;
+  background:linear-gradient(145deg,#fff 0%,#f8fafc 100%);
+  box-shadow:0 4px 13px rgba(36,56,79,.055);
+  padding:19px;
+}
+#site-content section:not(#s0)>.box h3{
+  color:#2d4058;
+  font-size:.98rem;
+  font-weight:750;
+}
+#site-content section:not(#s0)>.box.tw{
+  border-top-width:3px;
+}
+#site-content section:not(#s0)>.box .hb{
+  font-size:.84rem;
+  margin:13px 0;
+}
+#site-content section:not(#s0)>.box .hb b{font-size:.84rem}
+#site-content section:not(#s0)>.tip{
+  border-radius:11px;
+  box-shadow:0 3px 10px rgba(36,56,79,.035);
+}
+@media(min-width:960px){
+  #site-content section:not(#s0) .g{grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
+}
+@media(max-width:639px){
+  #site-content section:not(#s0) .g{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  #site-content section:not(#s0) .g .c{min-height:136px;padding:16px 13px 14px;border-radius:11px}
+  #site-content section:not(#s0) .g .c .n{font-size:clamp(1.3rem,5.6vw,1.7rem);margin-bottom:9px}
+  #site-content section:not(#s0) .g .c .l{font-size:.87rem;line-height:1.32}
+  #site-content section:not(#s0) .g .c .s{font-size:.77rem;line-height:1.38;margin-top:6px}
+  #site-content section:not(#s0)>.box{padding:15px 13px}
+}
+@media(hover:hover){
+  #site-content section:not(#s0) .g .c:hover{transform:translateY(-2px);border-color:#c4d1df;box-shadow:0 8px 18px rgba(36,56,79,.10)}
+}
+@media(prefers-reduced-motion:reduce){
+  #site-content section:not(#s0) .g .c{transition:none}
+  #site-content section:not(#s0) .g .c:hover{transform:none}
+}
+
 </style>
 </head>
 <body>
