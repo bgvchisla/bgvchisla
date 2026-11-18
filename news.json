@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T14:15:03.538342+00:00",
+  "updated_at": "2026-11-18T14:18:11.728876+00:00",
   "items": [
     {
       "section": "europe",
@@ -10,6 +10,15 @@
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
       "published": "2026-11-18T09:00:00+00:00",
       "feed_id": "ecb-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Пътуващата изложба „150 години детски организации в България – история, уроци и бъдеще“ беше открита в Народното събрание",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6676",
+      "published": "2026-11-18T00:00:00+00:00",
+      "feed_id": "parliament-news"
     },
     {
       "section": "bulgaria",
@@ -346,14 +355,9 @@
     }
   ],
   "feed_status": {
-    "ok": 2,
+    "ok": 3,
     "total": 3,
-    "failures": [
-      {
-        "feed": "parliament-news",
-        "error": "No valid article links found on official HTML page"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
