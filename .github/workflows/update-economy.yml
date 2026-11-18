@@ -1,22 +1,22 @@
 name: Update economic statistics
+
 on:
+  # Daily check against the official Eurostat API (05:00 UTC).
   schedule:
-    - cron: "17 4 * * 2"
+    - cron: "0 5 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/update_economy.py"
-      - ".github/workflows/update-economy.yml"
+
 permissions:
   contents: write
+
 concurrency:
   group: production-data-refresh
   cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,27 +24,70 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Fetch and validate Eurostat series
+
+      - name: Fetch official Eurostat series
         run: python scripts/update_economy.py
-      - name: Save validated economy data
+
+      - name: Require a complete, valid refresh
         run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("economy.json").read_text(encoding="utf-8"))
+          status = data.get("update_status", {})
+          expected = status.get("configured_series")
+          successful = status.get("successful_series", [])
+          if status.get("status") != "ok" or not expected or len(successful) != expected:
+              raise SystemExit(
+                  f"Eurostat refresh incomplete: {len(successful)}/{expected} series succeeded"
+              )
+
+          series_by_id = {row["id"]: row for row in data.get("series", [])}
+          for series_id in successful:
+              row = series_by_id.get(series_id)
+              points = row.get("points", []) if row else []
+              years = [p["year"] for p in points]
+              if len(points) < 2 or years != sorted(set(years)):
+                  raise SystemExit(f"Invalid or incomplete series: {series_id}")
+              for point in points:
+                  if not isinstance(point.get("value"), (int, float)):
+                      raise SystemExit(f"Non-numeric observation in {series_id}")
+          print(f"Validated all {len(successful)} Eurostat series.")
+          PY
+
+      - name: Save only real data changes
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          path = Path("economy.json")
+          new = json.loads(path.read_text(encoding="utf-8"))
+          old = json.loads(subprocess.check_output(
+              ["git", "show", "HEAD:economy.json"], text=True
+          ))
+
+          def comparable(data):
+              data.pop("last_successful_update", None)
+              data.pop("updated_at", None)
+              for row in data.get("series", []):
+                  row.pop("updated_at", None)
+              return data
+
+          if comparable(new) == comparable(old):
+              subprocess.check_call(["git", "checkout", "--", "economy.json"])
+              print("No new observations or status changes; keeping the last published file.")
+          else:
+              print("New observations or a data-status change detected.")
+          PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add economy.json
           if git diff --cached --quiet; then
-            echo "No economy data changes."
+            echo "No economic data changes to publish."
           else
-            git commit -m "Update economic statistics"
+            git commit -m "Update official Eurostat series"
             git push origin HEAD:main
           fi
-
-      - name: Prepare production files
-        run: |
-          mkdir -p public
-          cp index.html data.json economy.json economy-charts.js privacy.html news.json public/
-      - name: Deploy refreshed data to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=bgvchisla --branch=main
