@@ -9,7 +9,7 @@
  function series(data,id){return (data.series||[]).find(s=>s.id===id);}
  function valid(s){return s&&(s.points||[]).filter(p=>Number.isFinite(p.value)&&Number.isInteger(p.year)).sort((a,b)=>a.year-b.year);}
  function latest(s){const p=valid(s);return p.length?p[p.length-1]:null;}
- function kpi(hostId, s, suffix, label){const p=latest(s);if(!p)return;const box=node("div",undefined,$(hostId),"c");node("div",n0.format(p.value)+(suffix||""),box,"n");node("div",label||s.title,box,"l");node("div",String(p.year)+" · Евростат",box,"s");}
+ function kpi(hostId, s, suffix, label){const p=latest(s);if(!p)return;const box=node("div",undefined,$(hostId),"c");node("div",n0.format(p.value)+(suffix||""),box,"n");node("div",label||s.title,box,"l");node("div",String(p.year)+" · Евростат"+(p.flag==="p"?" · предварителни данни":p.flag==="e"?" · оценка":""),box,"s");}
  function chart(hostId,s,color,unit){const host=$(hostId);if(!host||!s)return;const points=valid(s);if(points.length<2){node("p","Недостатъчно налични наблюдения.",host,"news-empty");return;}
  const W=720,H=250,L=62,R=18,T=18,B=38, vals=points.map(p=>p.value),lo=Math.min(...vals),hi=Math.max(...vals),pad=(hi-lo||Math.abs(hi)||1)*.14,min=lo-pad,max=hi+pad;
  const x=i=>L+i*(W-L-R)/(points.length-1), y=v=>T+(max-v)*(H-T-B)/(max-min);
