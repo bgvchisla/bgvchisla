@@ -305,6 +305,33 @@ nav#nav button.on{
   color:#fff;
   border-color:#24384f;
 }
+/* Двуколонен централен блок: брояч + фискален компас */
+.hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);column-gap:clamp(18px,3vw,38px);align-items:center}
+.hero>small,.hero>.n,.hero>.r,.hero>label.sw{grid-column:1}
+.fiscal-compass{grid-column:2;grid-row:1 / span 4;align-self:stretch;display:flex;flex-direction:column;justify-content:center;min-width:0;padding:20px 22px;background:linear-gradient(145deg,#f8fbfe,#eaf1f8);border:1px solid #cbd7e4;border-radius:8px;box-shadow:inset 0 1px 0 #fff}
+.fc-head,.fc-foot{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.fc-kicker{font-size:.68rem;font-weight:800;letter-spacing:.12em;color:#52708f}
+.fc-status{font-size:.62rem;font-weight:750;letter-spacing:.06em;color:#a8732e;background:#f5ead9;border:1px solid #e7d5b9;border-radius:3px;padding:5px 7px}
+.fc-main{display:flex;align-items:center;gap:18px;margin:22px 0}
+.fc-gauge{--gauge:47.8%;width:118px;height:118px;flex:none;border-radius:50%;display:grid;place-items:center;background:conic-gradient(#315f91 var(--gauge),#dce5ee 0);position:relative}
+.fc-gauge:before{content:"";position:absolute;inset:9px;border-radius:50%;background:#f5f8fb}
+.fc-gauge-inner{z-index:1;display:flex;flex-direction:column;align-items:center;gap:1px}
+.fc-gauge-inner strong{font-size:1.45rem;line-height:1.1;color:#24384f;letter-spacing:-.04em}
+.fc-gauge-inner small{font-size:.67rem;color:#66778b}
+.fc-copy{min-width:0;display:flex;flex-direction:column;gap:5px}
+.fc-copy>strong{font-size:1.65rem;line-height:1;color:#24765f;letter-spacing:-.04em}
+.fc-copy>span{font-size:.76rem;line-height:1.35;color:#536981}
+.fc-track{height:7px;background:#dce5ee;border-radius:8px;overflow:hidden;margin-top:7px}
+.fc-track i{display:block;height:100%;width:47.8%;background:linear-gradient(90deg,#315f91,#24765f);border-radius:8px}
+.fc-copy>small{font-size:.68rem;color:#66778b}
+.fc-foot{border-top:1px solid #d8e1ea;padding-top:12px;font-size:.62rem;color:#728399}
+@media(max-width:760px){
+ .hero{grid-template-columns:minmax(0,1fr);row-gap:14px}
+ .hero>small,.hero>.n,.hero>.r,.hero>label.sw,.fiscal-compass{grid-column:1;grid-row:auto}
+ .fiscal-compass{padding:16px}
+ .fc-main{margin:16px 0}
+ .fc-gauge{width:100px;height:100px}
+}
 /* По-компактен брояч на държавния дълг */
 .hero{
   padding:18px 22px;
@@ -366,6 +393,13 @@ label.sw{
 <div class="n" id="debt">—</div>
 <div class="r"><span>На жител: <b id="pc">—</b></span><span>Дял от БВП: <b id="gdp">—</b></span><span>Тренд: <b id="ps">—</b>/сек.</span></div>
 <label class="sw"><input type="checkbox" id="pend" checked><span>Включи заема от 2,25 млрд. € (29.09.2026), още неотразен в официалните данни</span></label>
+<div class="fiscal-compass" aria-label="Сравнение на дълга с референтната стойност от Маастрихт">
+  <div class="fc-head"><span class="fc-kicker">ФИСКАЛЕН КОМПАС</span><span class="fc-status">МААСТРИХТ · 60%</span></div>
+  <div class="fc-main"><div class="fc-gauge" id="fc-gauge"><div class="fc-gauge-inner"><strong id="fc-percent">28,7%</strong><small>от БВП</small></div></div>
+    <div class="fc-copy"><strong id="fc-used">47,8%</strong><span>от референтната граница</span><div class="fc-track"><i id="fc-fill"></i></div><small id="fc-gap">31,3 пр.п. до 60%</small></div>
+  </div>
+  <div class="fc-foot"><span>България · държавен дълг</span><span>Референтна стойност на ЕС</span></div>
+</div>
 </div>
 <nav id="nav"></nav>
 <div class="ad" id="ad-top"></div>
@@ -479,7 +513,7 @@ function fill(id,a){$(id).innerHTML=a.map(function(x){return card.apply(null,x)}
 function hb(id,rows,fmt,max){var m=max||Math.max.apply(null,rows.map(function(r){return r[1]}));$(id).innerHTML=rows.map(function(r){return '<div class="hb"><span>'+r[0]+'</span><span class="t"><i style="width:'+(r[1]/m*100)+'%;background:var(--'+(r[2]||"bl")+')"></i></span><b>'+fmt(r[1])+'</b></div>'}).join("")}
 /* тикер */
 var BASE=37416e6,PEND=2.25e9,DR=169e6/(30*86400),T0=new Date(2026,9,1).getTime(),POP=6423207,GDP=37416e6/0.287;
-function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0)/1000,0);$("debt").textContent="€ "+F.format(d);$("pc").textContent=F.format(d/POP)+" €";$("gdp").textContent=F1.format(d/GDP*100)+"%";$("ps").textContent=F1.format(DR)+" €"}
+function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0)/1000,0),ratio=d/GDP*100,used=ratio/60*100,gap=60-ratio;$("debt").textContent="€ "+F.format(d);$("pc").textContent=F.format(d/POP)+" €";$("gdp").textContent=F1.format(ratio)+"%";$("ps").textContent=F1.format(DR)+" €";$("fc-percent").textContent=F1.format(ratio)+"%";$("fc-used").textContent=F1.format(used)+"%";$("fc-gap").textContent=F1.format(gap)+" пр.п. до 60%";$("fc-gauge").style.setProperty("--gauge",Math.max(0,Math.min(100,used))+"%");$("fc-fill").style.width=Math.max(0,Math.min(100,used))+"%"}
 $("pend").onchange=tick;tick();setInterval(tick,100);
 /* табове */
 var T=["Накратко","Дълг","Цени","Банки","Хора","Икономика","Труд","България в ЕС","Демография","Търговия","Региони","Новини"];
@@ -553,7 +587,7 @@ fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error(
 });
 
 /* лента с пазарни цени (TradingView): зарежда се автоматично */
-var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
+var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["TVC:SX5E","EURO STOXX 50"],["XETR:DAX","DAX"],["EURONEXT:PX1","CAC 40"],["TVC:UKX","FTSE 100"],["TVC:NI225","Nikkei 225"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
 function mkLoad(){var th="light",el=$("mk-tape");if(el.dataset.loaded==="1")return;el.dataset.loaded="1";el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
 /* Поверителност: TradingView се зарежда само след избор */
 (function(){var key="bgvchisla_tradingview_choice",banner=$("privacy-notice"),choice=null;try{choice=localStorage.getItem(key)}catch(e){}if(choice==="allow"){mkLoad()}else if(choice==="essential"){$("mk-tape").textContent="Пазарната лента е изключена по Ваш избор."}else{banner.hidden=false}function save(v){try{localStorage.setItem(key,v)}catch(e){}banner.hidden=true;if(v==="allow")mkLoad();else{$("mk-tape").innerHTML="";$("mk-tape").dataset.loaded="0";$("mk-tape").textContent="Пазарната лента не е заредена по Ваш избор."}} $("privacy-settings").addEventListener("click",function(){banner.hidden=false});$("privacy-accept").addEventListener("click",function(){save("allow")});$("privacy-essential").addEventListener("click",function(){save("essential")})})();
