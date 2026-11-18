@@ -49,7 +49,7 @@ FEEDS = [
         "allowed_hosts": ["www.ecb.europa.eu", "ecb.europa.eu"],
         "keywords": [],
     },
-}
+]
 
 class LinkFinder(HTMLParser):
     def __init__(self):
