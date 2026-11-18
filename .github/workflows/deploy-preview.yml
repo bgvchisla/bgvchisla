@@ -30,7 +30,7 @@ jobs:
       - name: Prepare files
         run: |
           mkdir public
-          cp index.html privacy.html data.json economy.json economy-charts.js news.json x-test.html public/
+          cp index.html privacy.html data.json economy.json economy-charts.js news.json public/
 
       - name: Deploy preview
         uses: cloudflare/wrangler-action@v3
