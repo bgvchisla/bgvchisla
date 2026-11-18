@@ -242,6 +242,27 @@ nav button.on{background:#24384f;color:#fff;border-color:#24384f}
 .flag-group{display:flex;align-items:center;gap:5px;white-space:nowrap;flex:none}
 @media(max-width:639px){.flag-icon,.flag-icon svg{width:21px;height:14px}.flag-group{gap:4px}}
 
+
+/* Флаговете при „Европа и свят“ в два подравнени реда */
+.news-heading .flag-group{
+ display:grid;
+ grid-template-columns:repeat(4,24px);
+ grid-auto-rows:16px;
+ justify-content:end;
+ align-items:center;
+ justify-items:center;
+ gap:5px 4px;
+ width:108px;
+ white-space:normal;
+ flex:none;
+}
+.news-heading .flag-group .flag-icon{width:24px;height:16px}
+.news-heading .flag-group .flag-icon svg{width:24px;height:16px}
+@media(max-width:639px){
+ .news-heading .flag-group{grid-template-columns:repeat(4,21px);grid-auto-rows:14px;width:96px;gap:4px 3px}
+ .news-heading .flag-group .flag-icon,.news-heading .flag-group .flag-icon svg{width:21px;height:14px}
+}
+
 </style>
 </head>
 <body>
