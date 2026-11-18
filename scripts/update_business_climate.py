@@ -51,7 +51,8 @@ def main():
         if "/press-release/" in href and "nablyudenie-na-biznes-tendenciite" in href.lower():
             links.append(absolute(href))
     # Prefer latest dated release, not an arbitrary first link.
-    urls=list(dict.fromkeys(links))\n    if not urls: urls=["https://www.nsi.bg/press-release/nablyudenie-na-biznes-tendenciite-v-promishlenostta-stroitelstvoto-targoviyata-na-drebno-i-uslugite-9194"]
+    urls=list(dict.fromkeys(links))
+    if not urls: urls=["https://www.nsi.bg/press-release/nablyudenie-na-biznes-tendenciite-v-promishlenostta-stroitelstvoto-targoviyata-na-drebno-i-uslugite-9194"]
     if not urls: raise ValueError("No official NSI business-climate release links found")
     old=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"history":[]}
     olddate=old.get("reference_date","")
