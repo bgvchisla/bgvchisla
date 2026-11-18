@@ -22,6 +22,18 @@
  }
  try{
  const res=await fetch("economy.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);const data=await res.json();
+ const regionNames={"region_gdp_pps_BG31":"Северозападен","region_gdp_pps_BG32":"Северен централен","region_gdp_pps_BG33":"Североизточен","region_gdp_pps_BG34":"Югоизточен","region_gdp_pps_BG41":"Югозападен","region_gdp_pps_BG42":"Южен централен"};
+ const regions=Object.keys(regionNames).map(id=>({id,name:regionNames[id],point:latest(series(data,id))})).filter(x=>x.point);
+ const regionHost=$("region-gdp-chart"),regionKpis=$("region-kpis");
+ if(regions.length&&regionHost){
+  const year=Math.min(...regions.map(x=>x.point.year));
+  const comparable=regions.filter(x=>x.point.year===year).sort((a,b)=>b.point.value-a.point.value);
+  const max=Math.max(...comparable.map(x=>x.point.value),1);
+  const bars=node("div",undefined,regionHost);
+  comparable.forEach((r,i)=>{const row=node("div",undefined,bars,"hb");node("span",r.name,row);const track=node("span",undefined,row,"t");const fill=node("i",undefined,track);fill.style.width=(r.point.value/max*100)+"%";fill.style.background=i===0?palette.green:palette.blue;node("b",nf.format(r.point.value),row);});
+  node("p","Последна обща година за сравнение: "+year+" · индекс ЕС = 100.",regionHost,"src");
+  if(regionKpis&&comparable.length){const best=comparable[0],worst=comparable[comparable.length-1];const a=node("div",undefined,regionKpis,"c");node("div",nf.format(best.point.value),a,"n");node("div","Най-висок показател · "+best.name,a,"l");node("div",year+" · индекс ЕС = 100",a,"s");const b=node("div",undefined,regionKpis,"c");node("div",nf.format(worst.point.value),b,"n");node("div","Най-нисък показател · "+worst.name,b,"l");node("div",year+" · индекс ЕС = 100",b,"s");}
+ }else if(regionHost){node("p","Регионалните данни временно не са налични. Ще се покажат след успешно потвърждение от Евростат.",regionHost,"news-empty");}
  const defs=[
  ["gdp_real_growth","eco-gdp-chart",palette.blue,"%"],
  ["gdp_per_capita_current_eur","eco-gdpcap-chart",palette.green," €"],
