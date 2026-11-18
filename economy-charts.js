@@ -10,6 +10,7 @@
  function valid(s){return s&&(s.points||[]).filter(p=>Number.isFinite(p.value)&&Number.isInteger(p.year)).sort((a,b)=>a.year-b.year);}
  function latest(s){const p=valid(s);return p.length?p[p.length-1]:null;}
  function kpi(hostId, s, suffix, label){const p=latest(s);if(!p)return;const box=node("div",undefined,$(hostId),"c");node("div",n0.format(p.value)+(suffix||""),box,"n");node("div",label||s.title,box,"l");node("div",String(p.year)+" · Евростат"+(p.flag==="p"?" · предварителни данни":p.flag==="e"?" · оценка":""),box,"s");}
+ function kpiBillions(hostId,s,label){const p=latest(s);if(!p)return;const box=node("div",undefined,$(hostId),"c");node("div",new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:1}).format(p.value/1000)+" млрд. €",box,"n");node("div",label||s.title,box,"l");node("div",String(p.year)+" · Евростат"+(p.flag==="p"?" · предварителни данни":p.flag==="e"?" · оценка":""),box,"s");}
  function chart(hostId,s,color,unit){const host=$(hostId);if(!host||!s)return;const points=valid(s);if(points.length<2){node("p","Недостатъчно налични наблюдения.",host,"news-empty");return;}
  const W=720,H=250,L=62,R=18,T=18,B=38, vals=points.map(p=>p.value),lo=Math.min(...vals),hi=Math.max(...vals),pad=(hi-lo||Math.abs(hi)||1)*.14,min=lo-pad,max=hi+pad;
  const x=i=>L+i*(W-L-R)/(points.length-1), y=v=>T+(max-v)*(H-T-B)/(max-min);
@@ -69,6 +70,8 @@
  const exp=series(data,"exports_goods_mio_eur"),imp=series(data,"imports_goods_mio_eur");
  if(exp&&imp){const host=$("trade-chart");const e=latest(exp),i=latest(imp);if(host&&e&&i)node("p","Последни налични стойности: износ "+nf.format(e.value)+" млн. евро; внос "+nf.format(i.value)+" млн. евро.",host);}
  const g=latest(series(data,"gdp_real_growth"));if(g)kpi("eco-kpis",series(data,"gdp_per_capita_current_eur")," €","БВП на човек, текущи цени");
+ kpiBillions("eco-kpis",series(data,"exports_goods_mio_eur"),"Износ на стоки");
+ kpiBillions("eco-kpis",series(data,"imports_goods_mio_eur"),"Внос на стоки");
  const pop=valid(series(data,"population_total"));if(pop.length>1){const first=pop[0],last=pop[pop.length-1];const delta=last.value-first.value;const host=$("demo-kpis");const box=node("div",undefined,host,"c");node("div",(delta>0?"+":"")+n0.format(delta),box,"n");node("div","Промяна спрямо "+first.year,box,"l");node("div",last.year+" спрямо "+first.year,box,"s");}
  }catch(err){console.error("Неуспешно зареждане на икономическите серии",err);document.querySelectorAll("#eco-kpis,#lab-kpis,#eu-kpis,#demo-kpis,#trade-kpis").forEach(h=>{if(!h.children.length)node("p","Данните временно не са налични. Последната успешна версия се запазва.",h,"news-empty");});}
 })();
