@@ -23,7 +23,7 @@ SOURCES = [
     {
         "id": "minfin_budget",
         "name": "Министерство на финансите — месечно изпълнение на бюджета",
-        "url": "https://www.minfin.bg/bg/statistics/18",
+        "url": "https://www.minfin.bg/bg/statistics/5",
         "frequency": "месечно",
         "expected": "Месечни таблици за изпълнението на държавния бюджет",
         "owner": "Министерство на финансите",
@@ -114,6 +114,7 @@ def check(source):
             "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия.",
         }
     except Exception as exc:
+        restricted = isinstance(exc, urllib.error.HTTPError) and exc.code in (401, 403, 429)
         return {
             "id": source["id"],
             "name": source["name"],
@@ -121,10 +122,10 @@ def check(source):
             "url": source["url"],
             "frequency": source["frequency"],
             "expected": source["expected"],
-            "status": "error",
+            "status": "restricted" if restricted else "error",
             "error": str(exc)[:240],
             "checked_at": datetime.now(timezone.utc).isoformat(),
-            "note": "Източникът не премина проверката за достъпност.",
+            "note": ("Автоматизираната среда е ограничена от сървъра на източника; това не означава, че официалната страница е недостъпна за посетители." if restricted else "Източникът не премина проверката за достъпност."),
         }
 
 def main():
