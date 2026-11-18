@@ -151,7 +151,7 @@ def fetch_html_news(feed):
             if event[0] == "link":
                 if pending:
                     href, date_text, parts = pending
-                    title = clean_text(" ".join(parts), 220)
+                    title = clean_text(" ".join(parts), 400)
                     match = re.fullmatch(r"([0-9]{2})\.([0-9]{2})\.([0-9]{4})", date_text)
                     url = urllib.parse.urljoin(final_url, href)
                     if title and match and valid_url(url, feed["allowed_hosts"]):
@@ -165,7 +165,7 @@ def fetch_html_news(feed):
                 pending[2].append(event[1])
             elif event[0] == "end" and pending:
                 href, date_text, parts = pending
-                title = clean_text(" ".join(parts), 220)
+                title = clean_text(" ".join(parts), 400)
                 match = re.fullmatch(r"([0-9]{2})\.([0-9]{2})\.([0-9]{4})", date_text)
                 url = urllib.parse.urljoin(final_url, href)
                 if title and match and valid_url(url, feed["allowed_hosts"]):
@@ -175,7 +175,7 @@ def fetch_html_news(feed):
                                  "feed_id": feed["id"]})
     elif feed["id"] == "parliament-news":
         for href, label in parser.links:
-            title = clean_text(label, 220)
+            title = clean_text(label, 400)
             url = urllib.parse.urljoin(final_url, href)
             parsed = urllib.parse.urlparse(url)
             query = urllib.parse.parse_qs(parsed.query)
@@ -192,7 +192,7 @@ def fetch_html_news(feed):
                          "summary": "", "url": url, "published": None, "feed_id": feed["id"]})
     else:
         for href, label in parser.links:
-            title = clean_text(label, 220)
+            title = clean_text(label, 400)
             url = urllib.parse.urljoin(final_url, href)
             if len(title) < 35 or not valid_url(url, feed["allowed_hosts"]):
                 continue
@@ -284,7 +284,7 @@ def fetch(feed):
     for node in root.iter():
         if local_name(node.tag) not in ("item", "entry"):
             continue
-        title = clean_text(child_text(node, {"title"}), 220)
+        title = clean_text(child_text(node, {"title"}), 400)
         link = child_text(node, {"link"})
         if not link:
             link = child_text(node, {"guid", "id"})
