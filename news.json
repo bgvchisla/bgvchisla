@@ -1,7 +1,61 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:16:49.518156+00:00",
+  "updated_at": "2026-11-18T17:18:28.687005+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "EU-Indonesia: Council greenlights signature of landmark trade and investment agreements",
+      "summary": "The Council has authorised the signature and provisional application of the EU-Indonesia comprehensive economic partnership agreement (CEPA) and the investment protection agreement (IPA).",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/eu-indonesia-council-greenlights-signature-of-landmark-trade-and-investment-agreements/",
+      "published": "2026-11-18T16:35:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Hoekstra during Ministerial High-Level event on the launch of the Second Global Stocktake at COP31",
+      "summary": "European Commission Speech Antalya, 18 Nov 2026 GST2 should be a reality check, a moment to acknowledge progress on the one hand and at the same time to be honest and transparent about where exactly we are fa...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2510",
+      "published": "2026-11-18T16:27:19+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Лагард сигнализира, че би обмислила варианта да оглави Световния икономически форум",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439750-lagard-signalizira-che-bi-obmislila-varianta-da-oglavi-svetovniya-ikonomicheski-forum",
+      "published": "2026-11-18T16:21:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Отчетът на Nvidia не успява да вдъхне достатъчно оптимизъм на Wall Street*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439747-otchetat-na-nvidia-ne-uspyava-da-vdahne-dostatachno-optimizam-na-wall-street",
+      "published": "2026-11-18T16:06:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - EU-United Kingdom summit of 20 November 2026",
+      "summary": "Approximate timings and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/media-advisory-eu-united-kingdom-summit/",
+      "published": "2026-11-18T15:38:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Държавата увеличи капитала на „Напоителни системи“ с 20 млн. евро",
+      "summary": "",
+      "url": "https://www.investor.bg/a/520-zemedelie/439738-darzhavata-uvelichi-kapitala-na-napoitelni-sistemi-s-20-mln-evro",
+      "published": "2026-11-18T15:34:00+00:00",
+      "feed_id": "investor-economy"
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
@@ -165,24 +219,6 @@
       "feed_id": "investor-economy"
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Ryanair планира да удвои пътниците си в България до 7 млн. годишно до 2032 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439729-ryanair-planira-da-udvoi-patnitsite-si-v-balgariya-do-7-mln-godishno-do-2032-g",
-      "published": "2026-11-18T12:34:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Френската EDF е близо до договор за 14 млрд. евро за 6 ядрени реактора",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439725-frenskata-edf-e-blizo-do-dogovor-za-14-mlrd-evro-za-6-yadreni-reaktora",
-      "published": "2026-11-18T11:54:29+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Hoekstra at EU press conference at COP31",
@@ -256,15 +292,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission opens Erasmus+ 2027 call with over €5.3 billion for wider opportunities in education, training, youth and sport",
-      "summary": "European Commission Press release Brussels, 18 Nov 2026 Today, the European Commission opens the 2027 Erasmus+ call for proposals with a budget of over €5.3 billion. The call is expected to offer learning mobility experiences in all education sectors for an es",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2494",
-      "published": "2026-11-18T09:31:44+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
       "source": "Европейска централна банка",
       "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
       "summary": "",
@@ -300,15 +327,6 @@
       "feed_id": "investor-finance"
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Панайот Пощов: Краткосрочно погледнато, финансовият пазар е конкурс за красота",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439684-panayot-poshtov-kratkosrochno-poglednato-finansoviyat-pazar-e-konkurs-za-krasota",
-      "published": "2026-11-18T06:28:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Grids package: Council and Parliament agree to streamline permitting for a faster clean energy transition",
@@ -325,6 +343,15 @@
       "url": "https://www.parliament.bg/bg/news/6676",
       "published": "2026-11-18T00:00:00+00:00",
       "feed_id": "parliament-news"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Българска народна банка",
+      "title": "Считано от 19 ноември 2026 г. продажните цени на сребърните монети за колекционерски цели, продавани на каса на БНБ, са актуализирани",
+      "summary": "",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261118_BG",
+      "published": "2026-11-18T00:00:00+00:00",
+      "feed_id": "bnb-news"
     },
     {
       "section": "europe",
@@ -543,24 +570,6 @@
       "feed_id": "bnb-news"
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Emissions trading system: Council and Parliament agree to boost free carbon allowances for energy-intensive industries",
-      "summary": "The Council reached a provisional agreement with the European Parliament on increasing free carbon allowances for industry sectors falling under the ETS heat and fuel benchmarks from 2026 to 2030.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/12/emissions-trading-system-council-and-parliament-agree-to-boost-free-carbon-allowances-for-energy-intensive-industries/",
-      "published": "2026-11-12T22:30:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Remarks by President António Costa at the press conference following the meeting of the European Political Community in Dublin",
-      "summary": "President of the European Council, António Costa, outlined the main results of the discussions of the leaders during the meeting of the European Political Community held in Dublin, Ireland, on 12 November 2026.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/12/remarks-by-president-antonio-costa-at-the-press-conference-following-the-meeting-of-the-european-political-community-in-dublin/",
-      "published": "2026-11-12T18:45:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
       "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Председателят на Народното събрание Михаела Доцова и народни представители се простиха със скулптора, общественика и политика Вежди Рашидов",
@@ -622,26 +631,12 @@
       "url": "https://www.ungeneva.org/en/news-media/press-release/2026/11/seventh-review-conference-high-contracting-parties-convention",
       "published": "2026-11-10T09:29:14+00:00",
       "feed_id": "un-geneva-press"
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Services production up by 0.3% in both the euro area and the EU",
-      "summary": "In August 2026, compared with July 2026, seasonally adjusted services production increased by 0.3% in both the euro area and the EU, according to first estimates from Eurostat, the statistical office of the European Union. In July 2026, services production gre",
-      "url": "https://ec.europa.eu/eurostat/product?code=4-09112026-ap",
-      "published": "2026-11-09T10:00:00+00:00",
-      "feed_id": "eurostat-news"
     }
   ],
   "feed_status": {
-    "ok": 9,
+    "ok": 10,
     "total": 10,
-    "failures": [
-      {
-        "feed": "parliament-news",
-        "error": "<urlopen error timed out>"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
