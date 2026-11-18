@@ -266,7 +266,7 @@ nav button.on{background:#24384f;color:#fff;border-color:#24384f}
 
 .site-footer{margin:28px 0 12px;padding:16px 8px 4px;border-top:1px solid #cbd6e2;text-align:center;color:#718196}
 .site-footer a{font-size:.72rem;color:#496b8e;text-decoration:none}
-.site-footer a:hover{text-decoration:underline}
+.site-footer a:hover{text-decoration:underline}\n.site-footer button{border:0;background:none;padding:0;color:#496b8e;font:inherit;font-size:.72rem;cursor:pointer}\n.site-footer button:hover{text-decoration:underline}\n.footer-sep{color:#a0adbb;font-size:.72rem}
 .site-footer small{display:block;margin-top:7px;font-size:.64rem;letter-spacing:.015em}
 .privacy-notice{position:fixed;z-index:100;left:50%;bottom:12px;transform:translateX(-50%);width:min(760px,calc(100% - 24px));display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 14px;background:#fff;border:1px solid #cbd6e2;border-top:3px solid #52799f;border-radius:7px;box-shadow:0 8px 28px #172b4330;color:#34485f}
 .privacy-notice[hidden]{display:none}
@@ -345,7 +345,7 @@ nav button.on{background:#24384f;color:#fff;border-color:#24384f}
 </ul>
 
 <footer class="site-footer">
- <div><a href="privacy.html">Политика за поверителност</a></div>
+ <div><a href="privacy.html">Политика за поверителност</a><span class="footer-sep"> · </span><button type="button" id="privacy-settings">Настройки за поверителност</button></div>
  <small>© 2026 България в числа. Всички права запазени. | © 2026 Bulgaria in Numbers. All rights reserved.</small>
 </footer>
 <div id="privacy-notice" class="privacy-notice" role="dialog" aria-label="Поверителност и външна пазарна лента" hidden>
@@ -436,7 +436,7 @@ fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error(
 var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
 function mkLoad(){var th="light",el=$("mk-tape");if(el.dataset.loaded==="1")return;el.dataset.loaded="1";el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
 /* Поверителност: TradingView се зарежда само след избор */
-(function(){var key="bgvchisla_tradingview_choice",banner=$("privacy-notice"),choice=null;try{choice=localStorage.getItem(key)}catch(e){}if(choice==="allow"){mkLoad()}else if(choice==="essential"){$("mk-tape").textContent="Пазарната лента е изключена по Ваш избор."}else{banner.hidden=false}function save(v){try{localStorage.setItem(key,v)}catch(e){}banner.hidden=true;if(v==="allow")mkLoad();else $("mk-tape").textContent="Пазарната лента не е заредена по Ваш избор."} $("privacy-accept").addEventListener("click",function(){save("allow")});$("privacy-essential").addEventListener("click",function(){save("essential")})})();
+(function(){var key="bgvchisla_tradingview_choice",banner=$("privacy-notice"),choice=null;try{choice=localStorage.getItem(key)}catch(e){}if(choice==="allow"){mkLoad()}else if(choice==="essential"){$("mk-tape").textContent="Пазарната лента е изключена по Ваш избор."}else{banner.hidden=false}function save(v){try{localStorage.setItem(key,v)}catch(e){}banner.hidden=true;if(v==="allow")mkLoad();else{$("mk-tape").innerHTML="";$("mk-tape").dataset.loaded="0";$("mk-tape").textContent="Пазарната лента не е заредена по Ваш избор."}} $("privacy-settings").addEventListener("click",function(){banner.hidden=false});$("privacy-accept").addEventListener("click",function(){save("allow")});$("privacy-essential").addEventListener("click",function(){save("essential")})})();
 </script>
 <script src="economy-charts.js"></script>
 </body>
