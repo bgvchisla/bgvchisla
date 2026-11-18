@@ -63,10 +63,10 @@ def main():
     for sheet_name, title_fragment in [("brv","Брой на пенсионерите"),("brp","Брой на пенсиите"),("SRRAZ","Среден брой пенсионери"),("razhod","Разход по видове пенсии")]:
         title=str(book.sheet_by_name(sheet_name).cell_value(2,0)).replace("\n"," ")
         if title_fragment not in title: raise ValueError(f"Unexpected table title in {sheet_name}: {title!r}")
-    pensioners=number(book.sheet_by_name("brv"),9,1,"Общо ( І + ІІ + ІІІ + IV )")
-    pensions=number(book.sheet_by_name("brp"),9,1,"Общо ( І + ІІ + ІІІ + IV )")
+    pensioners=number(book.sheet_by_name("brv"),9,2,"Общо ( І + ІІ + ІІІ + IV )")
+    pensions=number(book.sheet_by_name("brp"),9,2,"Общо ( І + ІІ + ІІІ + IV )")
     avg=number(book.sheet_by_name("SRRAZ"),7,4,"Общо ( І + ІІ + ІІІ + IV)",label_col=1)
-    expenditure=number(book.sheet_by_name("razhod"),9,1,"Разход за пенсии ")
+    expenditure=number(book.sheet_by_name("razhod"),9,2,"Разход за пенсии ")
     previous=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
     period_iso=period.isoformat()
     if previous and period_iso < previous.get("reference_date",""):
