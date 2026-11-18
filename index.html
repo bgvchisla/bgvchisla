@@ -963,7 +963,19 @@ label.sw{
 <section id="s14">
 <h2>Бизнес климат</h2>
 <p class="h">Оценки и очаквания на ръководителите на предприятия в четири основни сектора. Последни налични месечни данни от НСИ.</p>
-<div class="g" id="business-kpis"><div class="c"><div class="l">Зареждане на официалните данни…</div></div></div><div class="box wide"><h3>Бизнес климат по сектори</h3><div id="business-bars"></div></div>
+<div class="g" id="business-kpis">
+<div class="c ac"><div class="n">13,2%</div><div class="l">Общ бизнес климат</div><div class="s">−2,1 пр. п. спрямо предходния месец</div></div>
+<div class="c ac"><div class="n">14,1%</div><div class="l">Промишленост</div><div class="s">−2,8 пр. п. спрямо предходния месец</div></div>
+<div class="c gr"><div class="n">9,7%</div><div class="l">Строителство</div><div class="s">+0,4 пр. п. спрямо предходния месец</div></div>
+<div class="c gr"><div class="n">26,5%</div><div class="l">Търговия на дребно</div><div class="s">+1,2 пр. п. спрямо предходния месец</div></div>
+<div class="c ac"><div class="n">1,5%</div><div class="l">Услуги</div><div class="s">−6,9 пр. п. спрямо предходния месец</div></div>
+</div>
+<div class="box wide"><h3>Бизнес климат по сектори</h3><div id="business-bars">
+<div class="hb"><span class="l">Промишленост</span><div class="t"><i style="width:53.2%;background:var(--bl)"></i></div><b>14,1%</b></div>
+<div class="hb"><span class="l">Строителство</span><div class="t"><i style="width:36.6%;background:var(--bl)"></i></div><b>9,7%</b></div>
+<div class="hb"><span class="l">Търговия на дребно</span><div class="t"><i style="width:100%;background:var(--bl)"></i></div><b>26,5%</b></div>
+<div class="hb"><span class="l">Услуги</span><div class="t"><i style="width:5.7%;background:var(--bl)"></i></div><b>1,5%</b></div>
+</div></div>
 <div class="box wide"><h3>Как да тълкуваме показателя</h3>
 <p class="src">Бизнес климатът е анкетен показател, който обобщава оценките за настоящото и очакваното бизнес състояние на предприятията. Той не е темп на икономически растеж, индекс на производство или дял на печелившите фирми. Общият показател е претеглена средна на четирите отраслови показателя.</p>
 <p class="src" id="business-analysis">Анализът се обновява с всеки нов бюлетин.</p>
@@ -1237,7 +1249,7 @@ document.getElementById("business-analysis").textContent="Общият пока�
 document.getElementById("business-source").href=d.source_url;
 document.getElementById("business-updated").textContent="Отчетен период: "+label+". Последна проверка: "+d.updated_at+".";
 })
-.catch(e=>console.warn("NSI business climate data unavailable",e));
+.catch(e=>{console.warn("NSI business climate data unavailable",e);document.getElementById("business-updated").textContent="Показани са последните проверени стойности; автоматичното обновяване временно не е достъпно.";});
 })();
 </script>
 <!-- Official NSI business-climate data binding -->
