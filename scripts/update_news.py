@@ -130,7 +130,9 @@ def valid_url(url, hosts):
         return False
 
 def fetch_parliament_api(feed):
-    api_url = "https://www.parliament.bg/api/v1/front-news/bg/1"
+    # The official event-list endpoint returns a collection of recent events
+    # linked to news records. Deduplicate bilingual rows by M_News_id.
+    api_url = "https://www.parliament.bg/api/v1/event-list/bg/10"
     if not valid_url(api_url, feed["allowed_hosts"]):
         raise ValueError("Parliament API URL is not on the HTTPS host allowlist")
     req = urllib.request.Request(api_url, headers={
@@ -145,22 +147,25 @@ def fetch_parliament_api(feed):
     if len(raw) > MAX_BYTES:
         raise ValueError("Parliament API response exceeds the 1 MB size limit")
     payload = json.loads(raw.decode("utf-8"))
-    if isinstance(payload, dict):
-        records = [payload]
-    elif isinstance(payload, list):
-        records = payload
-    else:
-        raise ValueError("Unexpected Parliament API response format")
+    if not isinstance(payload, list):
+        raise ValueError("Unexpected Parliament event-list response format")
     rows = []
-    for record in records:
+    seen_ids = set()
+    for record in payload:
         if not isinstance(record, dict):
             continue
-        title = clean_text(str(record.get("M_NewsL_title") or ""), 400)
         news_id = record.get("M_News_id")
-        published = parse_date(str(record.get("M_News_date") or ""))
-        if not title or not str(news_id).isdigit():
+        if not str(news_id or "").isdigit():
             continue
-        article_url = "https://www.parliament.bg/bg/news/" + str(int(news_id))
+        news_id = int(news_id)
+        if news_id in seen_ids:
+            continue
+        seen_ids.add(news_id)
+        title = clean_text(str(record.get("M_NewsL_title") or ""), 400)
+        published = parse_date(str(record.get("G_Gal_E_date") or record.get("M_News_date") or ""))
+        if not title:
+            continue
+        article_url = "https://www.parliament.bg/bg/news/" + str(news_id)
         rows.append({
             "section": feed["section"], "source": feed["name"],
             "title": title, "summary": "", "url": article_url,
@@ -169,7 +174,7 @@ def fetch_parliament_api(feed):
         if len(rows) >= MAX_PER_FEED:
             break
     if not rows:
-        raise ValueError("Parliament API returned no usable news records")
+        raise ValueError("Parliament event-list API returned no usable news records")
     return rows
 
 def fetch_html_news(feed):
