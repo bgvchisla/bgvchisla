@@ -49,7 +49,6 @@ FEEDS = [
         "allowed_hosts": ["www.ecb.europa.eu", "ecb.europa.eu"],
         "keywords": [],
     },
-,
     {
         "id": "commission-press",
         "section": "europe",
