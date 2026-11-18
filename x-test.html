@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Тест на X потоци – bgvchisla.com</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 24px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: #0e1116; color: #eef2f7; line-height: 1.5;
+    }
+    main { max-width: 1440px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.35rem, 2vw, 1.9rem); }
+    .intro { color: #aab4c2; margin: 0 0 22px; max-width: 900px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    section { min-width: 0; background: #171d26; border: 1px solid #2b3543; border-radius: 14px; padding: 14px; }
+    h2 { font-size: 1.05rem; margin: 0 0 12px; }
+    .feed { background: #10151c; border: 1px solid #2a3441; border-radius: 10px; padding: 10px; margin: 0 0 14px; min-height: 220px; overflow: hidden; }
+    .feed:last-child { margin-bottom: 0; }
+    .account { color: #aab4c2; font-size: .82rem; margin: 0 0 7px; }
+    a { color: #8ab4f8; }
+    .note { margin-top: 18px; padding: 12px 14px; border: 1px solid #384657; border-radius: 10px; color: #b8c3d1; font-size: .88rem; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 620px) { body { padding: 14px; } .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Тест на вградени потоци от X</h1>
+  <p class="intro">
+    Тестова страница за bgvchisla.com. Проверяваме дали официалните X Embedded Timelines
+    се зареждат, дали показват актуални публични публикации и дали са видими за посетители,
+    които не са влезли в X. Това не е RSS/API извличане и не копира публикациите в сайта.
+  </p>
+
+  <div class="grid">
+    <section>
+      <h2>Финансови медии</h2>
+      <div class="feed">
+        <p class="account">Reuters · @Reuters</p>
+        <a class="twitter-timeline" data-theme="dark" data-height="420"
+           href="https://twitter.com/Reuters?ref_src=twsrc%5Etfw">Публикации от Reuters</a>
+      </div>
+      <div class="feed">
+        <p class="account">Bloomberg · @business</p>
+        <a class="twitter-timeline" data-theme="dark" data-height="420"
+           href="https://twitter.com/business?ref_src=twsrc%5Etfw">Публикации от Bloomberg</a>
+      </div>
+      <div class="feed">
+        <p class="account">CNBC · @CNBC</p>
+        <a class="twitter-timeline" data-theme="dark" data-height="420"
+           href="https://twitter.com/CNBC?ref_src=twsrc%5Etfw">Публикации от CNBC</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Европа</h2>
+      <div class="feed">
+        <p class="account">Европейска централна банка · @ecb</p>
+        <a class="twitter-timeline" data-theme="dark" data-height="500"
+           href="https://twitter.com/ecb?ref_src=twsrc%5Etfw">Публикации от ЕЦБ</a>
+      </div>
+      <div class="feed">
+        <p class="account">Европейска комисия · @EU_Commission</p>
+        <a class="twitter-timeline" data-theme="dark" data-height="500"
+           href="https://twitter.com/EU_Commission?ref_src=twsrc%5Etfw">Публикации от Европейската комисия</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>САЩ и световни пазари</h2>
+      <div class="feed">
+        <p class="account">Федерален резерв · @federalreserve</p>
+        <a class="twitter-timeline" data-theme="dark" data-height="500"
+           href="https://twitter.com/federalreserve?ref_src=twsrc%5Etfw">Публикации от Федералния резерв</a>
+      </div>
+    </section>
+  </div>
+
+  <div class="note">
+    <strong>Важно за теста:</strong> X може да получава техническа информация за посещението
+    (например IP адрес, браузър и посетена страница), когато се зарежда вградено съдържание.
+    Не включвайте този поток в публичния сайт, преди да преценим изискванията за поверителност,
+    бисквитки и съгласие. Ако потоците са празни, изчакайте малко и презаредете; после проверете
+    в отделен инкогнито прозорец без влязъл X профил.
+    <br><br>
+    Официални инструкции:
+    <a href="https://help.x.com/en/using-x/embed-x-feed" target="_blank" rel="noopener noreferrer">Как се вгражда X timeline</a>.
+  </div>
+</main>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
