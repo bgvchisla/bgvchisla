@@ -1,4 +1,5 @@
 name: Update official NSSI pension data
+# Recovery run after validating the importer output format.
 on:
   workflow_dispatch:
   schedule:
