@@ -30,10 +30,10 @@ def fetch(url):
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; Bgvchisla/1.0)"})
     with urllib.request.urlopen(req,timeout=60) as r: return r.read()
 
-def number(sheet, row, col, expected_label):
-    label=str(sheet.cell_value(row-1,col-1)).strip()
-    if label != expected_label: raise ValueError(f"Unexpected NSSI label at {sheet.name}!R{row}C{col}: {label!r}")
-    value=sheet.cell_value(row-1,col)
+def number(sheet, row, value_col, expected_label, label_col=1):
+    label=str(sheet.cell_value(row-1,label_col-1)).strip()
+    if label != expected_label: raise ValueError(f"Unexpected NSSI label at {sheet.name}!R{row}C{label_col}: {label!r}")
+    value=sheet.cell_value(row-1,value_col-1)
     value=float(value)
     if not math.isfinite(value) or value < 0: raise ValueError(f"Invalid numeric value: {value}")
     return value
@@ -65,7 +65,7 @@ def main():
         if title_fragment not in title: raise ValueError(f"Unexpected table title in {sheet_name}: {title!r}")
     pensioners=number(book.sheet_by_name("brv"),9,1,"Общо ( І + ІІ + ІІІ + IV )")
     pensions=number(book.sheet_by_name("brp"),9,1,"Общо ( І + ІІ + ІІІ + IV )")
-    avg=number(book.sheet_by_name("SRRAZ"),7,3,"Общо ( І + ІІ + ІІІ + IV)")
+    avg=number(book.sheet_by_name("SRRAZ"),7,4,"Общо ( І + ІІ + ІІІ + IV)",label_col=1)
     expenditure=number(book.sheet_by_name("razhod"),9,1,"Разход за пенсии ")
     previous=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
     period_iso=period.isoformat()
