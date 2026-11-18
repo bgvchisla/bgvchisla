@@ -7,6 +7,7 @@ on:
     paths:
       - ".github/workflows/deploy-preview.yml"
       - "index.html"
+      - "privacy.html"
       - "news.json"
       - "scripts/update_news.py"
       - ".github/workflows/update-news.yml"
@@ -25,7 +26,7 @@ jobs:
       - name: Prepare files
         run: |
           mkdir public
-          cp index.html data.json economy.json economy-charts.js news.json x-test.html public/
+          cp index.html privacy.html data.json economy.json economy-charts.js news.json x-test.html public/
 
       - name: Deploy preview
         uses: cloudflare/wrangler-action@v3
