@@ -27,7 +27,7 @@ FEEDS = [
         "id": "parliament-news",
         "section": "bulgaria",
         "name": "Народно събрание",
-        "url": "https://www.parliament.bg/?fid=3&lng=bg&page=feed",
+        "url": "https://www.parliament.bg/xml/news.php",
         "allowed_hosts": ["www.parliament.bg", "parliament.bg"],
         "keywords": [],
     },
