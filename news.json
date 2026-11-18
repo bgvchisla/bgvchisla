@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T14:18:11.728876+00:00",
+  "updated_at": "2026-11-18T14:21:50.705746+00:00",
   "items": [
     {
       "section": "europe",
@@ -22,12 +22,57 @@
     },
     {
       "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Strengthening the dialogue between the parliaments of Bulgaria and Slovakia will contribute to deepening the partnership in all areas of mutual interest, said the President of the National Assembly, Mihaela Dotsova, at a meeting with the President of the National Council of Slovakia, Dr. Richard Raši",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6674",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "parliament-news"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Ръководителят на делегацията на Народното събрание в Интерпарламентарния съюз Росица Кирова участва в Глобалната парламентарна конференция за правата на човека в Женева",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6673",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "parliament-news"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Screening for diabetes was held at the National Assembly under the slogan \"Act Early Against Diabetes\"",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6672",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "parliament-news"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "За България запазването на централната роля и адекватното финансиране на кохезионната и общата селскостопанска политика са от решаващо значение, заяви председателят на Народното събрание Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6671",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "parliament-news"
+    },
+    {
+      "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "Считано от 16 ноември 2026 г., продажната цена на платинената монета „Десислава“, номинална стойност 10 000 лева, емисия 1993 г., продавана на каса на БНБ, е актуализирана",
       "summary": "",
       "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261113_BG",
       "published": "2026-11-13T00:00:00+00:00",
       "feed_id": "bnb-news"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Председателят на Народното събрание Михаела Доцова и народни представители се простиха със скулптора, общественика и политика Вежди Рашидов",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6669",
+      "published": "2026-11-12T00:00:00+00:00",
+      "feed_id": "parliament-news"
     },
     {
       "section": "bulgaria",
