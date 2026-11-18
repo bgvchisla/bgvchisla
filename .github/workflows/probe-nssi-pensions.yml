@@ -1,6 +1,9 @@
 name: Inspect official NSSI pension workbook
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/probe_nssi_pensions.py", ".github/workflows/probe-nssi-pensions.yml"]
 permissions:
   contents: read
 jobs:
