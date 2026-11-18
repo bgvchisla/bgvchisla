@@ -11,10 +11,10 @@ OUT = Path("official_bnb.json")
 SHEET = "Cred_BG"
 # These rows are explicitly labelled in the source workbook; values are thousand EUR.
 SERIES = {
-    "nonfinancial_corporations_loans": (9, "Кредити към нефинансови предприятия"),
-    "household_consumer_loans": (32, "Потребителски кредити на домакинствата и НТООД"),
-    "household_housing_loans": (50, "Жилищни кредити на домакинствата и НТООД"),
-    "household_other_loans": (68, "Други кредити на домакинствата и НТООД"),
+    "nonfinancial_corporations_loans": (9, "Кредити", "Кредити към нефинансови предприятия"),
+    "household_consumer_loans": (32, "Потребителски кредити", "Потребителски кредити на домакинствата и НТООД"),
+    "household_housing_loans": (50, "Жилищни кредити", "Жилищни кредити на домакинствата и НТООД"),
+    "household_other_loans": (68, "Други кредити", "Други кредити на домакинствата и НТООД"),
 }
 
 def iso_month(v):
@@ -37,13 +37,13 @@ def main():
         if cell is not None: periods.append((col, iso_month(cell)))
     if len(periods) < 100: raise ValueError(f"Too few monthly periods: {len(periods)}")
     labels = {row: str(ws.cell(row, 1).value or "").strip() for row, _ in SERIES.values()}
-    for row, expected in SERIES.values():
+    for row, expected, _label in SERIES.values():
         if labels[row] != expected:
             raise ValueError(f"Source row mapping changed at {row}: {labels[row]!r} != {expected!r}")
     if periods != sorted(periods, key=lambda x:x[1]) or len({p for _,p in periods}) != len(periods):
         raise ValueError("Periods are not strictly ordered and unique")
     result = {}
-    for key, (row, label) in SERIES.items():
+    for key, (row, expected, label) in SERIES.items():
         points = []
         for col, period in periods:
             value = ws.cell(row, col).value
