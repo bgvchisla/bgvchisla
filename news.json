@@ -1,11 +1,147 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "items": [],
+  "updated_at": "2026-11-18T13:23:17.218301+00:00",
+  "items": [
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Boris Vujčić: Financial Stability Review - November 2026",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+      "published": "2026-11-18T09:00:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+      "published": "2026-11-18T09:00:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+      "published": "2026-11-17T18:30:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Frank Elderson: Smart supervision for small banks",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
+      "published": "2026-11-16T13:00:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+      "published": "2026-11-16T08:30:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Isabel Schnabel: Made in Europe",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+      "published": "2026-11-13T07:20:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+      "published": "2026-11-10T16:45:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
+      "published": "2026-11-10T14:00:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+      "published": "2026-11-07T14:00:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "ECB publishes consolidated banking data for end-June 2026",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+      "published": "2026-11-06T09:00:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+      "published": "2026-11-05T08:00:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Piero Cipollone: Shaping the future of money",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+      "published": "2026-11-05T07:30:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+      "published": "2026-11-04T00:00:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+      "published": "2026-11-02T09:30:00+00:00",
+      "feed_id": "ecb-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Philip R. Lane: AI adoption in Europe",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+      "published": "2026-10-30T16:10:00+00:00",
+      "feed_id": "ecb-press"
+    }
+  ],
   "feed_status": {
-    "ok": 0,
+    "ok": 2,
     "total": 2,
     "failures": []
   },
-  "notice": "Новинарският поток ще се попълни при първото успешно обновяване на RSS/Atom емисиите."
+  "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
