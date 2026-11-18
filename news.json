@@ -1,7 +1,25 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T17:20:40.963832+00:00",
+  "updated_at": "2026-11-18T18:13:13.780315+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "SOFIX подобри рекорда си от края на октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439754-sofix-podobri-rekorda-si-ot-kraya-na-oktomvri",
+      "published": "2026-11-18T17:51:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Русия предлага намаляване на военните в Калининград срещу изтегляне на НАТО от Източна Европа",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439728-rusiya-predlaga-namalyavane-na-voennite-v-kaliningrad-sreshtu-izteglyane-na-nato-ot-iztochna-evropa",
+      "published": "2026-11-18T17:30:00+00:00",
+      "feed_id": "investor-economy"
+    },
     {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
@@ -210,15 +228,6 @@
       "feed_id": "investor-finance"
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Обикновената услуга за издаване на лична карта ще е 20 дни",
-      "summary": "",
-      "url": "https://www.investor.bg/a/526-pravosadie/439727-obiknovenata-usluga-za-izdavane-na-lichna-karta-shte-e-20-dni",
-      "published": "2026-11-18T12:40:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Hoekstra at EU press conference at COP31",
@@ -315,15 +324,6 @@
       "summary": "",
       "url": "https://www.investor.bg/a/538-pazari/439702-tsenata-na-petrola-se-ponizhava-na-fona-na-priznatsite-za-vazstanovyavane-na-dostavkite",
       "published": "2026-11-18T07:58:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Eurobank купува 65% от Първа инвестиционна банка",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439703-eurobank-kupuva-65-ot-parva-investitsionna-banka",
-      "published": "2026-11-18T07:34:00+00:00",
       "feed_id": "investor-finance"
     },
     {
