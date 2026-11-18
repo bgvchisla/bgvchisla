@@ -36,7 +36,7 @@ def main():
         cell = ws.cell(2, col).value
         if cell is not None: periods.append((col, iso_month(cell)))
     if len(periods) < 100: raise ValueError(f"Too few monthly periods: {len(periods)}")
-    labels = {row: str(ws.cell(row, 1).value or "").strip() for row, _ in SERIES.values()}
+    labels = {row: str(ws.cell(row, 1).value or "").strip() for row, _expected, _label in SERIES.values()}
     for row, expected, _label in SERIES.values():
         if labels[row] != expected:
             raise ValueError(f"Source row mapping changed at {row}: {labels[row]!r} != {expected!r}")
