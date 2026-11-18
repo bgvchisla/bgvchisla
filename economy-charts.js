@@ -4,7 +4,7 @@
  const nf = new Intl.NumberFormat("bg-BG",{maximumFractionDigits:1});
  const n0 = new Intl.NumberFormat("bg-BG",{maximumFractionDigits:0});
  const $ = id => document.getElementById(id);
- const palette = {blue:"#315f91",green:"#24765f",red:"#b64b45",ochre:"#a8732e",muted:"#66778b"};
+ const palette = {blue:"#426f9b",green:"#2d7963",red:"#ad514b",ochre:"#a87836",muted:"#65778c"};
  function node(tag, text, parent, cls) { const e=document.createElement(tag); if(text!==undefined)e.textContent=text; if(parent)parent.appendChild(e); if(cls)e.className=cls; return e; }
  function series(data,id){return (data.series||[]).find(s=>s.id===id);}
  function valid(s){return s&&(s.points||[]).filter(p=>Number.isFinite(p.value)&&Number.isInteger(p.year)).sort((a,b)=>a.year-b.year);}
@@ -15,7 +15,7 @@
  const x=i=>L+i*(W-L-R)/(points.length-1), y=v=>T+(max-v)*(H-T-B)/(max-min);
  const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.setAttribute("viewBox",`0 0 ${W} ${H}`);svg.setAttribute("role","img");svg.setAttribute("aria-label",s.title);host.appendChild(svg);
  function el(tag,attrs,txt){const e=document.createElementNS(svg.namespaceURI,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(txt!==undefined)e.textContent=txt;svg.appendChild(e);return e;}
- for(let i=0;i<=4;i++){const v=min+(max-min)*i/4;el("line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"#d5dee8"});el("text",{x:L-8,y:y(v)+4,"text-anchor":"end"},nf.format(v));}
+ for(let i=0;i<=4;i++){const v=min+(max-min)*i/4;el("line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"#dce4ec"});el("text",{x:L-8,y:y(v)+4,"text-anchor":"end"},nf.format(v));}
  const d=points.map((p,i)=>(i?"L":"M")+x(i)+" "+y(p.value)).join(" ");el("path",{d,fill:"none",stroke:color||palette.blue,"stroke-width":3,"stroke-linecap":"round","stroke-linejoin":"round"});
  const step=Math.max(1,Math.ceil(points.length/8));points.forEach((p,i)=>{const c=el("circle",{cx:x(i),cy:y(p.value),r:3.5,fill:color||palette.blue});const title=document.createElementNS(svg.namespaceURI,"title");title.textContent=p.year+": "+nf.format(p.value)+(unit||"");c.appendChild(title);if(i%step===0||i===points.length-1)el("text",{x:x(i),y:H-12,"text-anchor":"middle"},String(p.year));});
  const details=node("details",undefined,host);node("summary","Таблица с точните годишни стойности",details);const wrap=node("div",undefined,details,"tw"),table=node("table",undefined,wrap),thead=node("thead",undefined,table),tr=node("tr",undefined,thead);["Година","Стойност","Бележка"].forEach(t=>node("th",t,tr));const tb=node("tbody",undefined,table);points.forEach(p=>{const r=node("tr",undefined,tb);node("td",String(p.year),r);node("td",nf.format(p.value)+(unit||""),r);node("td",p.flag||"—",r);});
@@ -52,7 +52,7 @@
    const x=i=>L+i*(W-L-R)/(rows.length-1),y=v=>T+(max-v)*(H-T-B)/(max-min);
    const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.setAttribute("viewBox",`0 0 ${W} ${H}`);svg.setAttribute("role","img");svg.setAttribute("aria-label","Износ и внос на стоки в милиони евро");host.appendChild(svg);
    function line(tag,attrs,txt){const e=document.createElementNS(svg.namespaceURI,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(txt!==undefined)e.textContent=txt;svg.appendChild(e);}
-   for(let k=0;k<=4;k++){const v=min+(max-min)*k/4;line("line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"#d5dee8"});line("text",{x:L-8,y:y(v)+4,"text-anchor":"end"},nf.format(v));}
+   for(let k=0;k<=4;k++){const v=min+(max-min)*k/4;line("line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"#dce4ec"});line("text",{x:L-8,y:y(v)+4,"text-anchor":"end"},nf.format(v));}
    [[p=>p.value,palette.blue],[p=>bm.get(p.year),palette.red]].forEach(([get,color])=>{const d=rows.map((p,i)=>(i?"L":"M")+x(i)+" "+y(get(p))).join(" ");line("path",{d,fill:"none",stroke:color,"stroke-width":3,"stroke-linecap":"round","stroke-linejoin":"round"});});
    const step=Math.max(1,Math.ceil(rows.length/8));rows.forEach((p,i)=>{if(i%step===0||i===rows.length-1)line("text",{x:x(i),y:H-12,"text-anchor":"middle"},String(p.year));});
    line("text",{x:L,y:13,fill:palette.blue},"● Износ");line("text",{x:L+95,y:13,fill:palette.red},"● Внос");
