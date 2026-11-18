@@ -277,6 +277,78 @@ nav button.on{background:#24384f;color:#fff;border-color:#24384f}
 .privacy-actions #privacy-accept{background:#24384f;border-color:#24384f;color:#fff;min-width:48px}
 @media(max-width:639px){.privacy-notice{bottom:8px;display:block;padding:11px}.privacy-actions{justify-content:flex-end;margin-top:8px}.site-footer small{font-size:.59rem}}
 
+
+/* Навигация без хоризонтален плъзгач — адаптивна мрежа */
+nav#nav{
+  display:grid;
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  gap:8px;
+  overflow:visible;
+  padding:12px 0;
+  align-items:stretch;
+}
+nav#nav button{
+  min-width:0;
+  width:100%;
+  flex:none;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  line-height:1.2;
+  padding:11px 8px;
+  border:1px solid #cbd6e2;
+  border-radius:5px;
+  text-align:center;
+  font-size:.84rem;
+}
+nav#nav button.on{
+  background:#24384f;
+  color:#fff;
+  border-color:#24384f;
+}
+/* По-компактен брояч на държавния дълг */
+.hero{
+  padding:18px 22px;
+}
+.hero .n{
+  font-size:clamp(1.9rem,4.2vw,3.15rem);
+  line-height:1.08;
+  margin:7px 0 9px;
+  letter-spacing:-.045em;
+  overflow-wrap:anywhere;
+}
+.hero .r{
+  gap:9px 20px;
+  font-size:.78rem;
+}
+.hero .r span{
+  padding-left:10px;
+}
+label.sw{
+  margin-top:8px;
+  font-size:.7rem;
+  line-height:1.35;
+}
+@media(max-width:959px){
+  nav#nav{grid-template-columns:repeat(4,minmax(0,1fr));}
+}
+@media(max-width:639px){
+  nav#nav{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:6px;
+    padding:10px 0;
+  }
+  nav#nav button{
+    padding:10px 5px;
+    font-size:.76rem;
+    min-height:42px;
+  }
+  .hero{padding:17px 14px}
+  .hero .n{font-size:clamp(1.65rem,7.2vw,2.5rem);margin:6px 0 8px}
+  .hero .r{gap:7px 12px}
+  .hero .r span{padding-left:8px}
+  label.sw{font-size:.66rem}
+}
+
 </style>
 </head>
 <body>
