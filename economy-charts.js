@@ -74,6 +74,15 @@
  kpi("eco-kpis",series(data,"gdp_real_growth"),"%","Реален растеж на БВП");
  kpi("lab-kpis",series(data,"employment_rate_20_64"),"%","Заетост, 20–64 г.");
  kpi("lab-kpis",series(data,"unemployment_rate_15_74"),"%","Безработица, 15–74 г.");
+ const labHost=$("lab-kpis");
+ const youth=node("div",undefined,labHost,"c ac");
+ node("div","13,1%",youth,"n");
+ node("div","Безработица сред младите, 15–24 г.",youth,"l");
+ node("div","2025 · НСИ",youth,"s");
+ const longTerm=node("div",undefined,labHost,"c am");
+ node("div","1,5%",longTerm,"n");
+ node("div","Продължителна безработица (1+ години)",longTerm,"l");
+ node("div","2025 · НСИ",longTerm,"s");
  kpi("eu-kpis",series(data,"gdp_pps_index"),"","БВП на човек, ЕС = 100");
  const euHost=$("eu-kpis");
  const addEuCard=(value,label,note,cls)=>{const box=node("div",undefined,euHost,"c "+(cls||"bl"));node("div",value,box,"n");node("div",label,box,"l");node("div",note,box,"s");};
