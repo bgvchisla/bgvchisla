@@ -1,4 +1,4 @@
-name: Update official NSI business climate (validated)
+name: Update official NSI business climate (validated v2)
 on:
   workflow_dispatch:
   schedule:
