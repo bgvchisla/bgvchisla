@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T13:43:04.465261+00:00",
+  "updated_at": "2026-11-18T13:46:21.393104+00:00",
   "items": [
     {
       "section": "europe",
@@ -40,7 +40,7 @@
       },
       {
         "feed": "bnb-news",
-        "error": "No matching official RSS link found on discovery page"
+        "error": "DTD/entity declarations are not accepted"
       }
     ]
   },
