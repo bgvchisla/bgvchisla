@@ -23,11 +23,13 @@ jobs:
           python3 -c "import json; json.load(open('data.json', encoding='utf-8')); json.load(open('economy.json', encoding='utf-8')); print('JSON OK')"
           test -f index.html
           test -f economy-charts.js
+          test -f privacy.html
+          python3 -c "import json; json.load(open('news.json', encoding='utf-8')); print('News JSON OK')"
 
       - name: Prepare files
         run: |
           mkdir public
-          cp index.html data.json economy.json economy-charts.js public/
+          cp index.html data.json economy.json economy-charts.js privacy.html news.json public/
 
       - name: Deploy production
         uses: cloudflare/wrangler-action@v3
