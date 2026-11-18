@@ -83,6 +83,9 @@ tr:last-child td{border:0}
 </style>
 </head>
 <body>
+<div class="dashboard-grid">
+<aside class="news-panel news-side" aria-label="Новини от България"><h2>България</h2><p class="news-intro">Последни заглавия от институционални източници</p><div class="news-list" id="news-left-list"></div></aside>
+<div id="site-content">
 <main>
 <div id="mk"><div id="mk-tape"></div><div id="mk-note">Пазарни цени: TradingView · може да са със закъснение · не са инвестиционен съвет</div></div>
 <div class="hero">
@@ -131,7 +134,8 @@ tr:last-child td{border:0}
 <div class="tip">Минималната пенсия (347,51 €) е под официалната линия на бедност за 2026 г. (390,63 €). Около 810 000 пенсионери получават пенсия до минималната.</div>
 <p class="src">Линията на бедност е 60% от медианния доход. Изчисленията „≈“ са мои.</p>
 </section>
-<section id="s5"><h2>Новини</h2><p class="h">Последни заглавия от институционални източници.</p><div id="news-mobile" class="news-panel"><h2>България</h2><div class="news-list" id="news-mobile-bg"></div><h2 style="margin-top:18px">Европа и свят</h2><div class="news-list" id="news-mobile-eu"></div></div></section>\n<div class="ad" id="ad-bot"></div>
+<section id="s5"><h2>Новини</h2><p class="h">Последни заглавия от институционални източници.</p><div id="news-mobile" class="news-panel"><h2>България</h2><div class="news-list" id="news-mobile-bg"></div><h2 style="margin-top:18px">Европа и свят</h2><div class="news-list" id="news-mobile-eu"></div></div></section>
+<div class="ad" id="ad-bot"></div>
 <ul class="src">
 <li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г. Пазарни цени: TradingView.</li>
 <li>Броячът започва от 37,416 млрд. € към 30.09.2026 (МФ), плюс по избор 2,25 млрд. € нов външен дълг и тренд ≈ 65 €/сек. Това е модел, не официална цифра.</li>
@@ -139,6 +143,9 @@ tr:last-child td{border:0}
 <li id="adli"></li>
 </ul>
 </main>
+</div>
+<aside class="news-panel news-side" aria-label="Новини от Европа и света"><h2>Европа и свят</h2><p class="news-intro">Последни заглавия от институционални източници</p><div class="news-list" id="news-right-list"></div></aside>
+</div>
 <script>
 var $=function(i){return document.getElementById(i)};
 var F=new Intl.NumberFormat("bg-BG",{maximumFractionDigits:0}),F1=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:1}),F2=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:3});
@@ -210,7 +217,8 @@ fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error(
 }).catch(function(){
   ["news-left-list","news-right-list","news-mobile-bg","news-mobile-eu"].forEach(function(id){renderNews(id,[])})
 });
-\n/* лента с пазарни цени (TradingView): зарежда се автоматично */
+
+/* лента с пазарни цени (TradingView): зарежда се автоматично */
 var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
 function mkLoad(){var th=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light",el=$("mk-tape");el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
 mkLoad();
