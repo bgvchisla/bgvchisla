@@ -24,12 +24,12 @@ MAX_PER_FEED = 35
 USER_AGENT = "bgvchisla-news-aggregator/1.0 (+https://bgvchisla.com)"
 FEEDS = [
     {
-        "id": "eurostat-bg",
+        "id": "nsi-rss",
         "section": "bulgaria",
-        "name": "Евростат",
-        "url": "https://ec.europa.eu/eurostat/en/search?_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_GENSTA&p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_mode=view&p_p_resource_id=atom&p_p_state=maximized",
-        "allowed_hosts": ["ec.europa.eu"],
-        "keywords": ["bulgaria", "bulgarian", "българ", "bulgarie"],
+        "name": "Национален статистически институт",
+        "url": "https://www.nsi.bg/?format=feed&type=rss",
+        "allowed_hosts": ["www.nsi.bg", "nsi.bg"],
+        "keywords": [],
     },
     {
         "id": "ecb-press",
@@ -126,6 +126,11 @@ def fetch(feed):
             haystack = (title + " " + description).casefold()
             if not any(k.casefold() in haystack for k in feed["keywords"]):
                 continue
+        # ECB's press RSS also contains speeches and interviews; keep formal releases.
+        if feed["id"] == "ecb-press":
+            path = urllib.parse.urlparse(link).path
+            if "/press/pr/" not in path:
+                continue
         rows.append({
             "section": feed["section"], "source": feed["name"],
             "title": title, "summary": description, "url": link,
@@ -144,14 +149,15 @@ def main():
             previous = {}
     all_items = []
     failures = []
+    previous_items = previous.get("items", []) if isinstance(previous, dict) else []
     for feed in FEEDS:
         try:
-            all_items.extend(fetch(feed))
+            fresh = fetch(feed)
+            all_items.extend(fresh)
         except Exception as exc:
             failures.append({"feed": feed["id"], "error": str(exc)[:180]})
-    if failures and not all_items and previous.get("items"):
-        print("All feeds failed; preserving previous valid news.json")
-        return
+            # Keep the last known-good entries for this feed if a temporary outage occurs.
+            all_items.extend(x for x in previous_items if x.get("feed_id") == feed["id"])
     dedup = {}
     for item in all_items:
         key = item["url"].split("#", 1)[0].rstrip("/")
