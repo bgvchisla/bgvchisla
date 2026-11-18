@@ -263,6 +263,20 @@ nav button.on{background:#24384f;color:#fff;border-color:#24384f}
  .news-heading .flag-group .flag-icon,.news-heading .flag-group .flag-icon svg{width:21px;height:14px}
 }
 
+
+.site-footer{margin:28px 0 12px;padding:16px 8px 4px;border-top:1px solid #cbd6e2;text-align:center;color:#718196}
+.site-footer a{font-size:.72rem;color:#496b8e;text-decoration:none}
+.site-footer a:hover{text-decoration:underline}
+.site-footer small{display:block;margin-top:7px;font-size:.64rem;letter-spacing:.015em}
+.privacy-notice{position:fixed;z-index:100;left:50%;bottom:12px;transform:translateX(-50%);width:min(760px,calc(100% - 24px));display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 14px;background:#fff;border:1px solid #cbd6e2;border-top:3px solid #52799f;border-radius:7px;box-shadow:0 8px 28px #172b4330;color:#34485f}
+.privacy-notice[hidden]{display:none}
+.privacy-notice p{margin:0;font-size:.75rem;line-height:1.45}
+.privacy-notice a{color:#315f91;white-space:nowrap}
+.privacy-actions{display:flex;align-items:center;gap:7px;flex:none}
+.privacy-actions button{border:1px solid #cbd6e2;border-radius:4px;padding:7px 10px;background:#f4f7fa;color:#34485f;font:600 .72rem system-ui;cursor:pointer}
+.privacy-actions #privacy-accept{background:#24384f;border-color:#24384f;color:#fff;min-width:48px}
+@media(max-width:639px){.privacy-notice{bottom:8px;display:block;padding:11px}.privacy-actions{justify-content:flex-end;margin-top:8px}.site-footer small{font-size:.59rem}}
+
 </style>
 </head>
 <body>
@@ -329,6 +343,19 @@ nav button.on{background:#24384f;color:#fff;border-color:#24384f}
 <li>Не е инвестиционен или финансов съвет. За точни стойности виж nsi.bg, minfin.bg, bnb.bg, nssi.bg.</li>
 <li id="adli"></li>
 </ul>
+
+<footer class="site-footer">
+ <div><a href="privacy.html">Политика за поверителност</a></div>
+ <small>© 2026 България в числа. Всички права запазени. | © 2026 Bulgaria in Numbers. All rights reserved.</small>
+</footer>
+<div id="privacy-notice" class="privacy-notice" role="dialog" aria-label="Поверителност и външна пазарна лента" hidden>
+ <p>Използваме необходимите технически технологии. Пазарната лента на TradingView е външна услуга и се зарежда само с Ваше разрешение. <a href="privacy.html">Политика за поверителност</a>.</p>
+ <div class="privacy-actions">
+  <button type="button" id="privacy-accept">ОК</button>
+  <button type="button" id="privacy-essential">Само необходимите</button>
+ </div>
+</div>
+
 </main>
 </div>
 <aside class="news-panel news-side" aria-label="Новини от Европа и света"><h2 class="news-heading"><span>Европа и свят</span><span class="flag-group" aria-label="Европейски съюз, Великобритания, САЩ, Китай, Япония, Канада, Бразилия и Австралия"><span class="flag-icon" title="Европейски съюз"><svg viewBox="0 0 30 20" role="img" aria-label="Европейски съюз"><rect width="30" height="20" rx="1.5" fill="#003399"/><g fill="#ffdf00"><circle cx="15" cy="4" r="1"/><circle cx="19.5" cy="5.5" r="1"/><circle cx="21" cy="10" r="1"/><circle cx="19.5" cy="14.5" r="1"/><circle cx="15" cy="16" r="1"/><circle cx="10.5" cy="14.5" r="1"/><circle cx="9" cy="10" r="1"/><circle cx="10.5" cy="5.5" r="1"/></g></svg></span><span class="flag-icon" title="Великобритания"><svg viewBox="0 0 30 20" role="img" aria-label="Великобритания"><rect width="30" height="20" fill="#012169"/><path d="M0 0l30 20M30 0L0 20" stroke="#fff" stroke-width="4"/><path d="M0 0l30 20M30 0L0 20" stroke="#c8102e" stroke-width="1.5"/><path d="M15 0v20M0 10h30" stroke="#fff" stroke-width="6"/><path d="M15 0v20M0 10h30" stroke="#c8102e" stroke-width="3"/></svg></span><span class="flag-icon" title="САЩ"><svg viewBox="0 0 30 20" role="img" aria-label="САЩ"><rect width="30" height="20" fill="#fff"/><path d="M0 0h30v1.54H0zm0 3.08h30v1.54H0zm0 3.08h30V9.7H0zm0 3.08h30v1.54H0zm0 3.08h30v1.54H0zm0 3.08h30v1.54H0z" fill="#b22234"/><rect width="13" height="10.8" fill="#3c3b6e"/><g fill="#fff"><circle cx="2" cy="2" r=".55"/><circle cx="5" cy="2" r=".55"/><circle cx="8" cy="2" r=".55"/><circle cx="11" cy="2" r=".55"/><circle cx="3.5" cy="5" r=".55"/><circle cx="6.5" cy="5" r=".55"/><circle cx="9.5" cy="5" r=".55"/><circle cx="2" cy="8" r=".55"/><circle cx="5" cy="8" r=".55"/><circle cx="8" cy="8" r=".55"/><circle cx="11" cy="8" r=".55"/></g></svg></span><span class="flag-icon" title="Китай"><svg viewBox="0 0 30 20" role="img" aria-label="Китай"><rect width="30" height="20" fill="#de2910"/><path d="M6 3l.8 2.2 2.3.1-1.8 1.4.6 2.2L6 7.6l-1.9 1.3.6-2.2-1.8-1.4 2.3-.1z" fill="#ffde00"/><g fill="#ffde00"><circle cx="12" cy="3" r="1"/><circle cx="14" cy="6" r="1"/><circle cx="14" cy="10" r="1"/><circle cx="12" cy="13" r="1"/></g></svg></span><span class="flag-icon" title="Япония"><svg viewBox="0 0 30 20" role="img" aria-label="Япония"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="5.3" fill="#bc002d"/></svg></span><span class="flag-icon" title="Канада"><svg viewBox="0 0 30 20" role="img" aria-label="Канада"><rect width="30" height="20" fill="#fff"/><path d="M0 0h7v20H0zm23 0h7v20h-7z" fill="#d80621"/><path d="M15 3l1.2 3 2-.8-1 2.2 2.2 1.1-2.4 1 .8 2.5-2.8-1.4-2.8 1.4.8-2.5-2.4-1 2.2-1.1-1-2.2 2 .8z" fill="#d80621"/></svg></span><span class="flag-icon" title="Бразилия"><svg viewBox="0 0 30 20" role="img" aria-label="Бразилия"><rect width="30" height="20" rx="1.5" fill="#009b3a"/><path d="M15 2L27 10 15 18 3 10z" fill="#ffdf00"/><circle cx="15" cy="10" r="4.2" fill="#002776"/></svg></span><span class="flag-icon" title="Австралия"><svg viewBox="0 0 30 20" role="img" aria-label="Австралия"><rect width="30" height="20" fill="#00008b"/><rect width="13" height="9" fill="#012169"/><path d="M0 0l13 9M13 0L0 9" stroke="#fff" stroke-width="2"/><path d="M0 0l13 9M13 0L0 9" stroke="#c8102e" stroke-width=".7"/><path d="M6.5 0v9M0 4.5h13" stroke="#fff" stroke-width="2.8"/><path d="M6.5 0v9M0 4.5h13" stroke="#c8102e" stroke-width="1.2"/><g fill="#fff"><circle cx="21" cy="5" r="1"/><circle cx="25" cy="12" r=".9"/><circle cx="18" cy="15" r=".8"/><circle cx="15" cy="11" r=".7"/></g></svg></span></span></h2><p class="news-intro">Актуални заглавия от различни източници</p><div class="news-list" id="news-right-list"></div></aside>
@@ -407,8 +434,9 @@ fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error(
 
 /* лента с пазарни цени (TradingView): зарежда се автоматично */
 var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
-function mkLoad(){var th="light",el=$("mk-tape");el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
-mkLoad();
+function mkLoad(){var th="light",el=$("mk-tape");if(el.dataset.loaded==="1")return;el.dataset.loaded="1";el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
+/* Поверителност: TradingView се зарежда само след избор */
+(function(){var key="bgvchisla_tradingview_choice",banner=$("privacy-notice"),choice=null;try{choice=localStorage.getItem(key)}catch(e){}if(choice==="allow"){mkLoad()}else if(choice==="essential"){$("mk-tape").textContent="Пазарната лента е изключена по Ваш избор."}else{banner.hidden=false}function save(v){try{localStorage.setItem(key,v)}catch(e){}banner.hidden=true;if(v==="allow")mkLoad();else $("mk-tape").textContent="Пазарната лента не е заредена по Ваш избор."} $("privacy-accept").addEventListener("click",function(){save("allow")});$("privacy-essential").addEventListener("click",function(){save("essential")})})();
 </script>
 <script src="economy-charts.js"></script>
 </body>
