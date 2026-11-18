@@ -27,7 +27,7 @@ FEEDS = [
         "id": "parliament-news",
         "section": "bulgaria",
         "name": "Народно събрание",
-        "url": "https://www.parliament.bg/",
+        "url": "https://www.parliament.bg/?lng=bg",
         "mode": "html",
         "allowed_hosts": ["www.parliament.bg", "parliament.bg"],
         "keywords": [],
@@ -173,13 +173,32 @@ def fetch_html_news(feed):
                     rows.append({"section": feed["section"], "source": feed["name"], "title": title,
                                  "summary": "", "url": url, "published": f"{year}-{month}-{day}T00:00:00+00:00",
                                  "feed_id": feed["id"]})
+    elif feed["id"] == "parliament-news":
+        in_news_section = False
+        for event in parser.events:
+            if event[0] == "text":
+                heading = clean_text(event[1]).casefold().strip(" :")
+                if heading == "новини":
+                    in_news_section = True
+                elif heading in {"актуално", "пленарна зала", "заседания на комисии"}:
+                    in_news_section = False
+            elif event[0] == "link" and in_news_section:
+                href, label = event[1], event[2]
+                title = clean_text(label, 220)
+                url = urllib.parse.urljoin(final_url, href)
+                if len(title) < 35 or not valid_url(url, feed["allowed_hosts"]):
+                    continue
+                if title.casefold() in {"архив новини", "новини"}:
+                    continue
+                rows.append({"section": feed["section"], "source": feed["name"], "title": title,
+                             "summary": "", "url": url, "published": None, "feed_id": feed["id"]})
     else:
         for href, label in parser.links:
             title = clean_text(label, 220)
             url = urllib.parse.urljoin(final_url, href)
-            path = urllib.parse.urlparse(url).path.casefold()
             if len(title) < 35 or not valid_url(url, feed["allowed_hosts"]):
                 continue
+            path = urllib.parse.urlparse(url).path.casefold()
             full_url = url.casefold()
             if not any(token in path or token in full_url for token in ("/news", "newsid", "news_id", "aid=")):
                 continue
