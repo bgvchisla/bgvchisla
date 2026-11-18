@@ -48,6 +48,17 @@
  if(ex&&im){
   const host=$("trade-chart"),a=valid(ex),b=valid(im),bm=new Map(b.map(p=>[p.year,p.value]));
   const rows=a.filter(p=>bm.has(p.year));
+  if(rows.length){
+   const last=rows[rows.length-1],imports=bm.get(last.year),balance=last.value-imports,coverage=last.value/imports*100;
+   const balanceCard=node("div",undefined,$("trade-kpis"),"c "+(balance<0?"ac":"gr"));
+   node("div",(balance<0?"−":"+")+nf.format(Math.abs(balance))+" млн. €",balanceCard,"n");
+   node("div","Търговско салдо",balanceCard,"l");
+   node("div",last.year+" · износ минус внос",balanceCard,"s");
+   const coverageCard=node("div",undefined,$("trade-kpis"),"c bl");
+   node("div",nf.format(coverage)+"%",coverageCard,"n");
+   node("div","Покритие на вноса с износ",coverageCard,"l");
+   node("div",last.year+" · износът спрямо вноса",coverageCard,"s");
+  }
   if(host&&rows.length>1){
    const W=720,H=250,L=68,R=18,T=22,B=38,vals=rows.flatMap(p=>[p.value,bm.get(p.year)]),lo=Math.min(...vals),hi=Math.max(...vals),pad=(hi-lo||hi||1)*.12,min=lo-pad,max=hi+pad;
    const x=i=>L+i*(W-L-R)/(rows.length-1),y=v=>T+(max-v)*(H-T-B)/(max-min);
