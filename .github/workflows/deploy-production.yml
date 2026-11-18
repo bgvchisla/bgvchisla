@@ -12,6 +12,9 @@ on:
       - "source_status.json"
       - "official_fiscal.json"
       - "official_bnb.json"
+      - "official_nssi.json"
+      - "scripts/update_nssi_pensions.py"
+      - ".github/workflows/update-nssi-pensions.yml"
       - "scripts/update_bnb_monetary.py"
       - "economy.json"
       - "economy-charts.js"
@@ -40,13 +43,13 @@ jobs:
           test -f economy-charts.js
           test -f privacy.html
           test -f source_status.json
-          python3 -c "import json; json.load(open('source_status.json', encoding='utf-8')); json.load(open('official_fiscal.json', encoding='utf-8')); json.load(open('official_bnb.json', encoding='utf-8')); print('Official data JSON OK')"
+          python3 -c "import json; json.load(open('source_status.json', encoding='utf-8')); json.load(open('official_fiscal.json', encoding='utf-8')); json.load(open('official_bnb.json', encoding='utf-8')); json.load(open('official_nssi.json', encoding='utf-8')); print('Official data JSON OK')"
           python3 -c "import json; json.load(open('news.json', encoding='utf-8')); print('News JSON OK')"
 
       - name: Prepare files
         run: |
           mkdir public
-          cp index.html data.json economy.json economy-charts.js privacy.html news.json source_status.json official_fiscal.json official_bnb.json public/
+          cp index.html data.json economy.json economy-charts.js privacy.html news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json public/
 
       - name: Deploy production
         uses: cloudflare/wrangler-action@v3
