@@ -129,6 +129,49 @@ def valid_url(url, hosts):
     except Exception:
         return False
 
+def fetch_parliament_api(feed):
+    api_url = "https://www.parliament.bg/api/v1/front-news/bg/1"
+    if not valid_url(api_url, feed["allowed_hosts"]):
+        raise ValueError("Parliament API URL is not on the HTTPS host allowlist")
+    req = urllib.request.Request(api_url, headers={
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
+    })
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+        final_url = response.geturl()
+        if not valid_url(final_url, feed["allowed_hosts"]):
+            raise ValueError("Parliament API redirected outside its host allowlist")
+        raw = response.read(MAX_BYTES + 1)
+    if len(raw) > MAX_BYTES:
+        raise ValueError("Parliament API response exceeds the 1 MB size limit")
+    payload = json.loads(raw.decode("utf-8"))
+    if isinstance(payload, dict):
+        records = [payload]
+    elif isinstance(payload, list):
+        records = payload
+    else:
+        raise ValueError("Unexpected Parliament API response format")
+    rows = []
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        title = clean_text(str(record.get("M_NewsL_title") or ""), 400)
+        news_id = record.get("M_News_id")
+        published = parse_date(str(record.get("M_News_date") or ""))
+        if not title or not str(news_id).isdigit():
+            continue
+        article_url = "https://www.parliament.bg/bg/news/" + str(int(news_id))
+        rows.append({
+            "section": feed["section"], "source": feed["name"],
+            "title": title, "summary": "", "url": article_url,
+            "published": published, "feed_id": feed["id"],
+        })
+        if len(rows) >= MAX_PER_FEED:
+            break
+    if not rows:
+        raise ValueError("Parliament API returned no usable news records")
+    return rows
+
 def fetch_html_news(feed):
     page_url = feed["url"]
     if not valid_url(page_url, feed["allowed_hosts"]):
@@ -213,6 +256,8 @@ def fetch_html_news(feed):
     return list(unique.values())[:MAX_PER_FEED]
 
 def fetch(feed):
+    if feed["id"] == "parliament-news":
+        return fetch_parliament_api(feed)
     if feed.get("mode") == "html":
         return fetch_html_news(feed)
     url = feed.get("url")
