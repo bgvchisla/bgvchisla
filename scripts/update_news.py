@@ -65,6 +65,22 @@ FEEDS = [
         "allowed_hosts": ["www.consilium.europa.eu", "consilium.europa.eu"],
         "keywords": [],
     },
+    {
+        "id": "eurostat-news",
+        "section": "europe",
+        "name": "Евростат",
+        "url": "https://ec.europa.eu/eurostat/en/search?_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL&p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_mode=view&p_p_resource_id=atom&p_p_state=maximized",
+        "allowed_hosts": ["ec.europa.eu"],
+        "keywords": [],
+    },
+    {
+        "id": "un-geneva-press",
+        "section": "europe",
+        "name": "ООН – Женева",
+        "url": "https://www.ungeneva.org/news-media/press-items-list/rss.xml",
+        "allowed_hosts": ["www.ungeneva.org", "ungeneva.org"],
+        "keywords": [],
+    },
 ]
 
 class LinkFinder(HTMLParser):
