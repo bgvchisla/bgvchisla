@@ -32,8 +32,8 @@
   const max=Math.max(...comparable.map(x=>x.point.value),1);
   const bars=node("div",undefined,regionHost);
   comparable.forEach((r,i)=>{const row=node("div",undefined,bars,"hb");node("span",r.name,row);const track=node("span",undefined,row,"t");const fill=node("i",undefined,track);fill.style.width=(r.point.value/max*100)+"%";fill.style.background=i===0?palette.green:palette.blue;node("b",nf.format(r.point.value),row);});
-  node("p","Последна обща година за сравнение: "+year+" · индекс ЕС = 100.",regionHost,"src");
-  if(regionKpis&&comparable.length){const best=comparable[0],worst=comparable[comparable.length-1];const a=node("div",undefined,regionKpis,"c");node("div",nf.format(best.point.value),a,"n");node("div","Най-висок показател · "+best.name,a,"l");node("div",year+" · индекс ЕС = 100",a,"s");const b=node("div",undefined,regionKpis,"c");node("div",nf.format(worst.point.value),b,"n");node("div","Най-нисък показател · "+worst.name,b,"l");node("div",year+" · индекс ЕС = 100",b,"s");}
+  node("p","Последна обща година за сравнение: "+year+" · PPS на жител.",regionHost,"src");
+  if(regionKpis&&comparable.length){const best=comparable[0],worst=comparable[comparable.length-1],spread=best.point.value-worst.point.value,ratio=best.point.value/worst.point.value;const makeRegionCard=(value,label,note)=>{const box=node("div",undefined,regionKpis,"c");node("div",value,box,"n");node("div",label,box,"l");node("div",note,box,"s");};makeRegionCard(nf.format(best.point.value),"Най-висок показател · "+best.name,year+" · PPS на жител");makeRegionCard(nf.format(worst.point.value),"Най-нисък показател · "+worst.name,year+" · PPS на жител");makeRegionCard(nf.format(spread),"Разлика между най-високия и най-ниския",year+" · PPS на жител");makeRegionCard(ratio.toLocaleString("bg-BG",{minimumFractionDigits:2,maximumFractionDigits:2})+" пъти","Съотношение между двата крайни района",best.name+" спрямо "+worst.name); }
  }else if(regionHost){node("p","Регионалните данни временно не са налични. Ще се покажат след успешно потвърждение от Евростат.",regionHost,"news-empty");}
  const defs=[
  ["gdp_real_growth","eco-gdp-chart",palette.blue,"%"],
