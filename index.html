@@ -536,6 +536,15 @@ label.sw{
 }
 @media(prefers-reduced-motion:reduce){#site-content nav#nav button{transition:none}}
 
+
+/* Финално премахване на всякакви номера/индекси от навигационните бутони */
+#site-content nav#nav .nav-num,
+#site-content nav#nav .nav-index,
+#site-content nav#nav .nav-number{display:none!important}
+#site-content nav#nav button::before,
+#site-content nav#nav button::after{content:none!important;display:none!important}
+#site-content nav#nav button{counter-increment:none!important}
+
 </style>
 </head>
 <body>
