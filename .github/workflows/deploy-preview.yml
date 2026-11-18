@@ -5,7 +5,7 @@ on:
   push:
     branches: [development]
     paths:
-      - ".github/workflows/deploy-preview.yml"
+      - ".github/workflows/deploy-preview.yml"\n      - "index.html"\n      - "news.json"\n      - "scripts/update_news.py"\n      - ".github/workflows/update-news.yml"
 
 permissions:
   contents: read
@@ -21,7 +21,7 @@ jobs:
       - name: Prepare files
         run: |
           mkdir public
-          cp index.html data.json economy.json economy-charts.js x-test.html public/
+          cp index.html data.json economy.json economy-charts.js news.json x-test.html public/
 
       - name: Deploy preview
         uses: cloudflare/wrangler-action@v3
