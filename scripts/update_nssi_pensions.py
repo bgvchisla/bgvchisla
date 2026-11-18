@@ -66,7 +66,7 @@ def main():
     pensioners=number(book.sheet_by_name("brv"),9,2,"Общо ( І + ІІ + ІІІ + IV )")
     pensions=number(book.sheet_by_name("brp"),9,2,"Общо ( І + ІІ + ІІІ + IV )")
     avg=number(book.sheet_by_name("SRRAZ"),7,4,"Общо ( І + ІІ + ІІІ + IV)",label_col=1)
-    expenditure=number(book.sheet_by_name("razhod"),9,2,"Разход за пенсии ")
+    expenditure=number(book.sheet_by_name("razhod"),9,2,"Разход за пенсии")
     previous=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
     period_iso=period.isoformat()
     if previous and period_iso < previous.get("reference_date",""):
