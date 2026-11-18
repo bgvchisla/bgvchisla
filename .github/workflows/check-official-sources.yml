@@ -45,7 +45,8 @@ jobs:
         run: |
           mkdir -p public
           cp index.html data.json economy.json economy-charts.js privacy.html news.json source_status.json public/
-\n      - name: Deploy source status
+
+      - name: Deploy source status
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
