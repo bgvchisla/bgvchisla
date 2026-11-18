@@ -12,6 +12,7 @@ on:
       - "source_status.json"
       - "official_fiscal.json"
       - "official_bnb.json"
+      - "scripts/update_bnb_monetary.py"
       - "economy.json"
       - "economy-charts.js"
       - "data.json"
