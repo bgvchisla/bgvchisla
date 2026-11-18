@@ -57,10 +57,15 @@ class LinkFinder(HTMLParser):
         self.links = []
         self._href = None
         self._text = []
+        self._attrs = {}
     def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
         if tag.lower() == "a":
-            self._href = dict(attrs).get("href")
-            self._text = []
+            self._href = attrs.get("href")
+            self._text = [attrs.get("title", ""), attrs.get("aria-label", "")]
+            self._attrs = attrs
+        elif self._href is not None and tag.lower() == "img":
+            self._text.append(attrs.get("alt", ""))
     def handle_data(self, data):
         if self._href is not None:
             self._text.append(data)
@@ -69,6 +74,7 @@ class LinkFinder(HTMLParser):
             self.links.append((self._href, " ".join(" ".join(self._text).split())))
             self._href = None
             self._text = []
+            self._attrs = []
 
 class TextOnly(HTMLParser):
     def __init__(self):
@@ -138,8 +144,15 @@ def fetch(feed):
         finder = LinkFinder()
         finder.feed(page.decode("utf-8", errors="replace"))
         matches = [(urllib.parse.urljoin(page_url, href), label) for href, label in finder.links
-                   if feed["discovery_label"].casefold() in label.casefold() and href]
-        candidates = [candidate for candidate, _ in matches if valid_url(candidate, feed["allowed_hosts"])]
+                   if href and (
+                       feed["discovery_label"].casefold() in label.casefold()
+                       or "rss" in href.casefold()
+                       or "feed" in href.casefold()
+                   )]
+        candidates = []
+        for candidate, _label in matches:
+            if valid_url(candidate, feed["allowed_hosts"]) and candidate not in candidates:
+                candidates.append(candidate)
         if not candidates:
             raise ValueError("No matching official RSS link found on discovery page")
         url = candidates[0]
