@@ -3,11 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>България в числа – дълг, цени, банки, доходи</title>
+<title>България в числа – финанси, икономика, хора и демография</title>
 <style>
 :root{--bg:#f5f6f8;--card:#fff;--tx:#14181f;--mu:#667085;--ac:#d92d20;--gr:#039855;--bl:#2f5bea;--am:#dc6803;--bd:#e4e7ec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1116;--card:#171b22;--tx:#eef0f4;--mu:#98a2b3;--ac:#ff7066;--gr:#32d583;--bl:#7c9cff;--am:#fdb022;--bd:#2a313c;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0e1116;--card:#171b22;--tx:#eef0f4;--mu:#98a2b3;--ac:#ff7066;--gr:#32d583;--bl:#7c9cff;--am:#fdb022;--bd:#2a313c;color-scheme:dark}
 *{box-sizing:border-box}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.45}
@@ -62,9 +60,390 @@ tr:last-child td{border:0}
 #mk-note{font-size:.66rem;color:var(--mu);margin:4px 6px 0;text-align:right}
 @media (min-width:640px){.g{grid-template-columns:repeat(3,1fr)}.hero{padding:28px 20px}.c{padding:16px 14px}}
 @media (min-width:960px){main{padding:24px 24px 64px}.g{grid-template-columns:repeat(4,1fr);gap:14px}#k1,#k4{grid-template-columns:repeat(3,1fr)}nav{justify-content:center}nav button{flex:none;padding:10px 22px}h2{font-size:1.25rem}section.on{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}section.on>h2,section.on>p.h,section.on>.g,section.on>.tip,section.on>.src,section.on>.wide,section.on>.box.tw{grid-column:1/-1}section.on>.box,section.on>.tip,section.on>.mt{margin-top:0}}
+
+/* Новинарски колони */
+.dashboard-grid{display:grid;grid-template-columns:minmax(210px,1fr) minmax(620px,1120px) minmax(210px,1fr);gap:14px;align-items:start;max-width:1720px;margin:0 auto;padding:14px}
+#site-content{min-width:0}
+.news-panel{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:12px;min-width:0}
+.news-panel h2{margin:2px 0 4px;font-size:1rem}
+.news-intro,.news-updated{font-size:.7rem;color:var(--mu);margin:0 0 10px}
+.news-list{display:grid;gap:10px}
+.news-item{border-bottom:1px solid var(--bd);padding:0 0 10px}
+.news-item:last-child{border:0;padding-bottom:0}
+.news-item a{color:var(--tx);font-size:.82rem;font-weight:650;text-decoration:none}
+.news-item a:hover{text-decoration:underline}
+.news-meta{font-size:.66rem;color:var(--mu);margin-top:4px}
+.news-summary{font-size:.73rem;color:var(--mu);margin:5px 0 0}
+.news-empty{font-size:.78rem;color:var(--mu)}
+#news-mobile{display:block}
+@media(max-width:1199px){.dashboard-grid{display:block;max-width:1120px;padding:0 14px}.news-side{display:none}#news-mobile{display:block}.news-panel{margin:12px 0}}
+@media(min-width:1200px){main{max-width:none;margin:0;padding:0}.dashboard-grid{padding-top:14px}.news-panel{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}#site-content main{max-width:1120px;margin:0 auto;padding:0 14px 48px}}
+
+/* Редизайн: балансирана светла редакционна палитра */
+:root{--bg:#f4f6f8;--card:#fff;--tx:#263445;--mu:#718096;--ac:#bd514b;--gr:#32866a;--bl:#58779e;--am:#b58a4c;--bd:#e1e6eb}
+body{background:#f4f6f8;color:var(--tx);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+.dashboard-grid{max-width:1900px;grid-template-columns:minmax(245px,290px) minmax(620px,1120px) minmax(245px,290px);gap:22px;padding:0 22px 36px}
+.masthead{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:17px 24px;margin:0 -22px;background:#e7edf3;color:#26384d;border-bottom:2px solid #bd514b}
+.masthead-brand{display:flex;align-items:center;gap:12px}
+.brand-mark{display:grid;place-items:center;width:42px;height:42px;border:1px solid #c5d0dc;border-radius:8px;color:#31465e;font-family:Georgia,serif;font-size:1.8rem;font-weight:700}
+.masthead-brand strong{display:block;font-size:.94rem;letter-spacing:.14em}
+.masthead-brand small{display:block;color:#718096;font-size:.62rem;letter-spacing:.17em;margin-top:3px}
+.masthead-note{font-size:.68rem;letter-spacing:.18em;color:#718096;font-weight:700}
+#site-content main{max-width:1120px;padding:0 4px 54px}
+#mk-tape{border-radius:4px;border-color:#d7dee8;box-shadow:0 1px 2px #1522380a}
+#mk-note{letter-spacing:.02em}
+.hero{border:0;border-radius:5px;background:#e8eef4;color:#26384d;padding:30px 24px;text-align:left;box-shadow:0 3px 12px #25364b0a;border:1px solid #dce4ec}
+.hero small,.hero .r{color:#687b91}
+.hero .r b{color:#26384d}
+.hero .n{color:#26384d;font-size:clamp(2.1rem,5vw,3.7rem);letter-spacing:-.045em;margin:12px 0}
+.hero .r{justify-content:flex-start;gap:24px}
+.hero .r span{border-left:1px solid #c8d3df;padding-left:12px}
+label.sw{justify-content:flex-start;color:#687b91}
+nav{background:#f4f6f8;border-bottom:1px solid #e1e6eb;padding:12px 0 10px}
+nav button{border-radius:4px;background:transparent;border-color:transparent;color:#58677b;padding:10px 15px}
+nav button.on{background:#dce6ef;color:#2c435d;border-color:#cbd7e3}
+h2{font-size:1.18rem;letter-spacing:-.02em;color:#344b65}
+section.on{gap:16px}
+.c,.box,.tip{border-radius:5px;box-shadow:0 2px 8px #15223808}
+.c{padding:17px 15px;border-color:#e1e6ed}
+.c .n{letter-spacing:-.035em}
+.box{padding:17px 16px;border-color:#e1e6ed}
+.box h3{font-size:.9rem;color:#25364c}
+.tip{border-left:3px solid var(--bl);background:#edf2f6;border-color:#dce5ed}
+.ad a{border-radius:4px}
+.news-panel{border:0;border-top:3px solid #8da2b8;border-radius:4px;padding:17px 16px;background:#fff;box-shadow:0 4px 16px #1522380a}
+.news-panel h2{font-size:.88rem;text-transform:uppercase;letter-spacing:.12em;color:#344b65;margin:0 0 7px}
+.news-intro{border-bottom:1px solid #e2e7ed;padding-bottom:12px;font-size:.69rem}
+.news-list{gap:0}
+.news-item{padding:12px 0;border-bottom:1px solid #e8ecf1}
+.news-item:first-child{padding-top:5px}
+.news-item:first-child a{font-size:.94rem;line-height:1.35;font-weight:750;color:#14243a}
+.news-item a{display:block;font-size:.79rem;line-height:1.45;font-weight:650;color:#26364b}
+.news-item a:hover{color:#a94b46;text-decoration:none}
+.news-meta{font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;color:#8290a2;margin-top:6px}
+.news-summary{font-size:.72rem;line-height:1.5}
+.news-panel .news-item:first-child:before{content:"ВОДЕЩА НОВИНА";display:block;color:#b12f2b;font-size:.57rem;font-weight:800;letter-spacing:.13em;margin:0 0 6px}
+.src{line-height:1.6}
+@media(min-width:1200px){
+ .dashboard-grid{align-items:start}
+ .news-panel{top:14px;max-height:calc(100vh - 28px);overflow:auto}
+ #site-content main{padding:0 4px 54px}
+}
+@media(max-width:1199px){
+ .dashboard-grid{padding:0 14px 28px}
+ .masthead{margin:0 -14px;padding:15px 18px}
+ .news-panel{margin:12px 0}
+ #site-content main{padding:0 0 36px}
+}
+@media(max-width:639px){
+ .masthead{padding:12px 14px}
+ .masthead-brand strong{font-size:.78rem}
+ .masthead-brand small{font-size:.53rem}
+ .masthead-note{display:none}
+ .hero{padding:22px 17px}
+ .hero .r{gap:10px 16px}
+ .hero .r span{font-size:.72rem}
+ nav{gap:4px}
+ nav button{padding:9px 12px;font-size:.8rem}
+ .news-panel{padding:14px}
+}
+
+
+/* Финална балансирана палитра: средни графитено-сини тонове */
+:root{
+ --bg:#e9edf2;
+ --card:#f7f9fb;
+ --tx:#263548;
+ --mu:#64758a;
+ --ac:#b94f4a;
+ --gr:#287b62;
+ --bl:#496f9b;
+ --am:#a97835;
+ --bd:#d2dae4;
+ color-scheme:light;
+}
+body{background:var(--bg);color:var(--tx)}
+nav{background:var(--bg);border-bottom-color:#d2dae4}
+nav button{background:#e2e8ef;color:#52647a;border-color:#d0d9e4}
+nav button.on{background:#34485f;color:#f7f9fb;border-color:#34485f}
+.masthead{background:#dbe3ec;color:#26384d;border-bottom-color:#a94e4a}
+.brand-mark{background:#e8edf3;border-color:#b9c6d4;color:#344b65}
+.hero{background:#dfe7ef;border-color:#c8d3df;color:#26384d}
+.hero small,.hero .r,label.sw{color:#5e7188}
+.hero .n{color:#263f5b}
+.hero .r b{color:#26384d}
+.c{background:#f0f3f7;border-color:#d4dce6;box-shadow:0 2px 7px #26384b12}
+.box{background:#f7f9fb;border-color:#d4dce6;box-shadow:0 2px 7px #26384b10}
+.tip{background:#e4ebf2;border-color:#cbd6e2;color:#34485f}
+.news-panel{background:#f1f4f7;border:1px solid #d0d9e3;border-top:3px solid #7188a2;box-shadow:0 3px 12px #26384b12}
+.news-item{border-bottom-color:#d9e0e8}
+.news-item:first-child a{color:#1f3045}
+.news-item a{color:#2c4057}
+.news-item a:hover{color:#a3413d}
+.news-meta,.news-intro,.news-updated{color:#66788d}
+#mk-tape{background:#f7f9fb;border-color:#cbd5e0}
+.ad a{background:#f7f9fb;border-color:#cbd5e0}
+.ring span{background:#f7f9fb}
+@media(max-width:1199px){
+ .news-panel{background:#f1f4f7}
+}
+
+
+/* Професионална редакционна палитра */
+:root{
+ --bg:#e8edf3;
+ --card:#ffffff;
+ --tx:#1f2d3d;
+ --mu:#66778b;
+ --ac:#b64b45;
+ --gr:#24765f;
+ --bl:#315f91;
+ --am:#a8732e;
+ --bd:#d5dee8;
+ color-scheme:light;
+}
+body{background:var(--bg);color:var(--tx)}
+.dashboard-grid{background:#e8edf3}
+.masthead{background:#24384f;color:#f4f7fb;border-bottom:3px solid #b64b45}
+.brand-mark{background:#f4f7fb;color:#24384f;border-color:#d8e0e9}
+.masthead-brand small,.masthead-note{color:#c4d0de}
+.hero{background:linear-gradient(135deg,#f9fbfd 0%,#e5edf5 100%);border:1px solid #cbd7e4;box-shadow:0 5px 18px #24384f12}
+.hero .n{color:#203b5d}
+nav{background:var(--bg);border-bottom-color:#cbd5e0}
+nav button{background:#f7f9fc;color:#50647c;border:1px solid #cbd6e2}
+nav button.on{background:#24384f;color:#fff;border-color:#24384f}
+.c{background:#fff;border:1px solid #d7e0e9;box-shadow:0 3px 10px #24384f0d}
+.box{background:#fbfcfe;border:1px solid #d5dee8;box-shadow:0 3px 10px #24384f0b}
+.tip{background:#edf3f8;border:1px solid #d0dce8;border-left:4px solid #52799f;color:#334b64}
+.news-panel{background:#fff;border:1px solid #d2dce7;border-top:4px solid #52799f;box-shadow:0 5px 18px #24384f12}
+.news-panel h2{color:#24384f}
+.news-item{border-bottom-color:#e5eaf0}
+.news-item:first-child a{color:#172b43}
+.news-item a{color:#2b4058}
+.news-item a:hover{color:#a33f3a}
+.news-meta,.news-intro,.news-updated{color:#718196}
+.ad a{background:#fbfcfe;border-color:#cbd6e2;color:#687b90}
+#mk-tape{background:#fff;border-color:#cbd6e2;box-shadow:0 2px 8px #24384f0d}
+.ring span{background:#fff}
+.news-heading{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.news-heading .flag{font-size:1.15rem;line-height:1;flex:none}
+.flag-group{display:flex;align-items:center;gap:5px;white-space:nowrap;flex:none}
+.flag-group span{font-size:1.02rem;line-height:1;display:inline-block}
+.news-heading-mobile{margin-top:18px!important}
+@media(max-width:639px){
+ .flag-group{gap:4px}
+ .flag-group span{font-size:.94rem}
+ .news-heading .flag{font-size:1.08rem}
+}
+
+
+.flag-icon{display:inline-flex;align-items:center;justify-content:center;flex:none;width:24px;height:16px;line-height:0}
+.flag-icon svg{display:block;width:24px;height:16px;border-radius:2px;box-shadow:0 0 0 1px #172b431c}
+.flag-group{display:flex;align-items:center;gap:5px;white-space:nowrap;flex:none}
+@media(max-width:639px){.flag-icon,.flag-icon svg{width:21px;height:14px}.flag-group{gap:4px}}
+
+
+/* Флаговете при „Европа и свят“ в два подравнени реда */
+.news-heading .flag-group{
+ display:grid;
+ grid-template-columns:repeat(4,24px);
+ grid-auto-rows:16px;
+ justify-content:end;
+ align-items:center;
+ justify-items:center;
+ gap:5px 4px;
+ width:108px;
+ white-space:normal;
+ flex:none;
+}
+.news-heading .flag-group .flag-icon{width:24px;height:16px}
+.news-heading .flag-group .flag-icon svg{width:24px;height:16px}
+@media(max-width:639px){
+ .news-heading .flag-group{grid-template-columns:repeat(4,21px);grid-auto-rows:14px;width:96px;gap:4px 3px}
+ .news-heading .flag-group .flag-icon,.news-heading .flag-group .flag-icon svg{width:21px;height:14px}
+}
+
+
+.site-footer{margin:28px 0 12px;padding:16px 8px 4px;border-top:1px solid #cbd6e2;text-align:center;color:#718196}
+.site-footer a{font-size:.72rem;color:#496b8e;text-decoration:none}
+.site-footer a:hover{text-decoration:underline}\n.site-footer button{border:0;background:none;padding:0;color:#496b8e;font:inherit;font-size:.72rem;cursor:pointer}\n.site-footer button:hover{text-decoration:underline}\n.footer-sep{color:#a0adbb;font-size:.72rem}
+.site-footer small{display:block;margin-top:7px;font-size:.64rem;letter-spacing:.015em}
+.privacy-notice{position:fixed;z-index:100;left:50%;bottom:12px;transform:translateX(-50%);width:min(760px,calc(100% - 24px));display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 14px;background:#fff;border:1px solid #cbd6e2;border-top:3px solid #52799f;border-radius:7px;box-shadow:0 8px 28px #172b4330;color:#34485f}
+.privacy-notice[hidden]{display:none}
+.privacy-notice p{margin:0;font-size:.75rem;line-height:1.45}
+.privacy-notice a{color:#315f91;white-space:nowrap}
+.privacy-actions{display:flex;align-items:center;gap:7px;flex:none}
+.privacy-actions button{border:1px solid #cbd6e2;border-radius:4px;padding:7px 10px;background:#f4f7fa;color:#34485f;font:600 .72rem system-ui;cursor:pointer}
+.privacy-actions #privacy-accept{background:#24384f;border-color:#24384f;color:#fff;min-width:48px}
+@media(max-width:639px){.privacy-notice{bottom:8px;display:block;padding:11px}.privacy-actions{justify-content:flex-end;margin-top:8px}.site-footer small{font-size:.59rem}}
+
+
+/* Навигация без хоризонтален плъзгач — адаптивна мрежа */
+nav#nav{
+  display:grid;
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  gap:8px;
+  overflow:visible;
+  padding:12px 0;
+  align-items:stretch;
+}
+nav#nav button{
+  min-width:0;
+  width:100%;
+  flex:none;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  line-height:1.2;
+  padding:11px 8px;
+  border:1px solid #cbd6e2;
+  border-radius:5px;
+  text-align:center;
+  font-size:.84rem;
+}
+nav#nav button.on{
+  background:#24384f;
+  color:#fff;
+  border-color:#24384f;
+}
+/* Двуколонен централен блок: брояч + фискален компас */
+.hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);column-gap:clamp(18px,3vw,38px);align-items:center}
+.hero>small,.hero>.n,.hero>.r,.hero>label.sw{grid-column:1}
+.fiscal-compass{grid-column:2;grid-row:1 / span 4;align-self:stretch;display:flex;flex-direction:column;justify-content:center;min-width:0;padding:20px 22px;background:linear-gradient(145deg,#f8fbfe,#eaf1f8);border:1px solid #cbd7e4;border-radius:8px;box-shadow:inset 0 1px 0 #fff}
+.fc-head,.fc-foot{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.fc-kicker{font-size:.68rem;font-weight:800;letter-spacing:.12em;color:#52708f}
+.fc-status{font-size:.62rem;font-weight:750;letter-spacing:.06em;color:#a8732e;background:#f5ead9;border:1px solid #e7d5b9;border-radius:3px;padding:5px 7px}
+.fc-main{display:flex;align-items:center;gap:18px;margin:22px 0}
+.fc-gauge{--gauge:47.8%;width:118px;height:118px;flex:none;border-radius:50%;display:grid;place-items:center;background:conic-gradient(#315f91 var(--gauge),#dce5ee 0);position:relative}
+.fc-gauge:before{content:"";position:absolute;inset:9px;border-radius:50%;background:#f5f8fb}
+.fc-gauge-inner{z-index:1;display:flex;flex-direction:column;align-items:center;gap:1px}
+.fc-gauge-inner strong{font-size:1.45rem;line-height:1.1;color:#24384f;letter-spacing:-.04em}
+.fc-gauge-inner small{font-size:.67rem;color:#66778b}
+.fc-copy{min-width:0;display:flex;flex-direction:column;gap:5px}
+.fc-copy>strong{font-size:1.65rem;line-height:1;color:#24765f;letter-spacing:-.04em}
+.fc-copy>span{font-size:.76rem;line-height:1.35;color:#536981}
+.fc-track{height:7px;background:#dce5ee;border-radius:8px;overflow:hidden;margin-top:7px}
+.fc-track i{display:block;height:100%;width:47.8%;background:linear-gradient(90deg,#315f91,#24765f);border-radius:8px}
+.fc-copy>small{font-size:.68rem;color:#66778b}
+.fc-foot{border-top:1px solid #d8e1ea;padding-top:12px;font-size:.62rem;color:#728399}
+@media(max-width:760px){
+ .hero{grid-template-columns:minmax(0,1fr);row-gap:14px}
+ .hero>small,.hero>.n,.hero>.r,.hero>label.sw,.fiscal-compass{grid-column:1;grid-row:auto}
+ .fiscal-compass{padding:16px}
+ .fc-main{margin:16px 0}
+ .fc-gauge{width:100px;height:100px}
+}
+/* По-компактен брояч на държавния дълг */
+.hero{
+  padding:18px 22px;
+}
+.hero .n{
+  font-size:clamp(1.9rem,4.2vw,3.15rem);
+  line-height:1.08;
+  margin:7px 0 9px;
+  letter-spacing:-.045em;
+  overflow-wrap:anywhere;
+}
+.hero .r{
+  gap:9px 20px;
+  font-size:.78rem;
+}
+.hero .r span{
+  padding-left:10px;
+}
+label.sw{
+  margin-top:8px;
+  font-size:.7rem;
+  line-height:1.35;
+}
+@media(max-width:959px){
+  nav#nav{grid-template-columns:repeat(4,minmax(0,1fr));}
+}
+@media(max-width:639px){
+  nav#nav{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:6px;
+    padding:10px 0;
+  }
+  nav#nav button{
+    padding:10px 5px;
+    font-size:.76rem;
+    min-height:42px;
+  }
+  .hero{padding:17px 14px}
+  .hero .n{font-size:clamp(1.65rem,7.2vw,2.5rem);margin:6px 0 8px}
+  .hero .r{gap:7px 12px}
+  .hero .r span{padding-left:8px}
+  label.sw{font-size:.66rem}
+}
+
+
+/* Финален визуален слой — съдържанието и горният блок остават непроменени */
+:root{--ui-ink:#24364b;--ui-muted:#65778c;--ui-border:#d9e1e9;--ui-surface:#fff;--ui-surface-soft:#f5f8fb;--ui-blue:#426f9b;--ui-green:#2d7963;--ui-red:#ad514b;--ui-amber:#a87836}
+#site-content section.on{row-gap:16px}
+#site-content section>h2{color:var(--ui-ink);font-size:1.22rem;font-weight:750;letter-spacing:-.025em;line-height:1.25;margin:22px 2px 0;padding:0 0 9px;border-bottom:1px solid var(--ui-border);position:relative}
+#site-content section>h2:after{content:"";position:absolute;left:0;bottom:-1px;width:42px;height:2px;background:var(--ui-blue)}
+#site-content p.h{color:var(--ui-muted);font-size:.84rem;line-height:1.55;margin:0 2px 2px}
+#site-content .g{gap:12px}
+#site-content .c{background:var(--ui-surface);border:1px solid var(--ui-border);border-radius:9px;padding:16px 16px 15px;box-shadow:0 2px 7px rgba(31,50,72,.045);transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}
+#site-content .c .n{color:var(--ui-ink);font-weight:760;letter-spacing:-.035em}
+#site-content .c.ac .n{color:var(--ui-red)}
+#site-content .c.gr .n{color:var(--ui-green)}
+#site-content .c.bl .n{color:var(--ui-blue)}
+#site-content .c.am .n{color:var(--ui-amber)}
+#site-content .c .l{color:#40546b;font-weight:600;line-height:1.4}
+#site-content .c .s{color:var(--ui-muted);line-height:1.45}
+#site-content .box{background:var(--ui-surface);border:1px solid var(--ui-border);border-radius:10px;padding:18px;margin-top:0;box-shadow:0 2px 8px rgba(31,50,72,.04)}
+#site-content .box h3{color:var(--ui-ink);font-size:.91rem;font-weight:720;line-height:1.35;margin:0 0 13px}
+#site-content .hb{gap:10px;margin:11px 0;color:#43566c}
+#site-content .hb .t{height:10px;background:#e9eef3;border-radius:99px}
+#site-content .hb .t i{border-radius:99px}
+#site-content .hb b{color:var(--ui-ink);font-weight:700}
+#site-content .tip{background:#f0f5f9;border:1px solid #dce6ee;border-left:3px solid var(--ui-blue);border-radius:8px;color:#40566d;padding:13px 15px;line-height:1.6}
+#site-content .src{color:var(--ui-muted);font-size:.72rem;line-height:1.65}
+#site-content .tw{border:1px solid var(--ui-border);border-radius:8px;background:var(--ui-surface)}
+#site-content table{font-size:.78rem;min-width:430px}
+#site-content th{background:#f3f6f9;color:#52677e;font-size:.69rem;font-weight:750;letter-spacing:.035em;text-transform:uppercase;padding:10px 9px}
+#site-content td{padding:9px;color:#344a61;border-bottom:1px solid #e9eef3}
+#site-content tbody tr:nth-child(even){background:#f8fafc}
+#site-content tbody tr:hover{background:#f0f5f9}
+#site-content details{border:1px solid var(--ui-border);border-radius:8px;background:#f8fafc;padding:10px 12px;margin-top:12px}
+#site-content details summary{color:#365a7e;font-size:.78rem;font-weight:700;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px}
+#site-content details summary::-webkit-details-marker{display:none}
+#site-content details summary:after{content:"＋";font-size:1rem;color:var(--ui-blue)}
+#site-content details[open] summary:after{content:"−"}
+#site-content details .tw{margin-top:10px}
+#site-content svg{overflow:visible}
+#site-content svg text{fill:#66798e;font-size:11px}
+#site-content svg .ax{stroke:#dce4ec}
+#site-content .ring{box-shadow:inset 0 0 0 1px #dce4ec}
+#site-content .ring span{color:var(--ui-ink);background:#fff}
+#site-content nav#nav{gap:9px;padding:14px 0 13px;border-bottom:1px solid var(--ui-border)}
+#site-content nav#nav button{background:#f8fafc;color:#50647a;border:1px solid #d5dee8;border-radius:7px;min-height:44px;font-weight:650;letter-spacing:-.01em;box-shadow:0 1px 2px rgba(31,50,72,.035);transition:background .16s ease,border-color .16s ease,color .16s ease,box-shadow .16s ease}
+#site-content nav#nav button.on{background:#263f5a;color:#fff;border-color:#263f5a;box-shadow:0 2px 6px rgba(38,63,90,.16)}
+#site-content nav#nav button:focus-visible,#site-content button:focus-visible,#site-content a:focus-visible,#site-content summary:focus-visible{outline:3px solid rgba(66,111,155,.35);outline-offset:2px}
+.news-panel{border-color:#d9e1e9;border-top-color:#6684a3;box-shadow:0 3px 12px rgba(31,50,72,.055)}
+.news-item a{color:#293e55}
+.news-item a:hover{color:#a64d48}
+.news-meta,.news-intro,.news-updated{color:#718197}
+.site-footer{color:#728196}
+.site-footer a,.site-footer button{color:#42688f}
+.privacy-notice{border-color:#d6e0e9;border-top-color:#426f9b;box-shadow:0 10px 30px rgba(25,43,63,.16)}
+.privacy-actions button{border-radius:6px}
+@media(hover:hover){#site-content .c:hover{border-color:#c5d3e0;box-shadow:0 5px 14px rgba(31,50,72,.075);transform:translateY(-1px)}#site-content .box:hover{border-color:#d0dbe5}#site-content nav#nav button:not(.on):hover{background:#edf3f8;border-color:#bfcfdd;color:#2c4c6c}}
+@media(min-width:960px){#site-content section.on{column-gap:16px;row-gap:16px}#site-content section.on>.box{min-width:0}}
+@media(max-width:639px){#site-content section>h2{font-size:1.1rem;margin-top:18px}#site-content .g{gap:9px}#site-content .c{padding:13px 12px}#site-content .c .n{font-size:clamp(1.05rem,4.8vw,1.4rem)}#site-content .box{padding:14px 12px}#site-content .hb{grid-template-columns:minmax(86px,32%) 1fr auto;gap:7px;font-size:.72rem}#site-content nav#nav button{min-height:43px;padding:9px 5px;font-size:.74rem}#site-content .tip{font-size:.77rem;padding:11px 12px}}
+@media(prefers-reduced-motion:reduce){#site-content .c,#site-content nav#nav button{transition:none}#site-content .c:hover{transform:none}}
+
 </style>
 </head>
 <body>
+<div class="dashboard-grid">
+<header class="masthead">
+  <div class="masthead-brand"><span class="brand-mark">B</span><div><strong>БЪЛГАРИЯ В ЧИСЛА</strong><small>ФИНАНСИ · ИКОНОМИКА · ДАННИ</small></div></div>
+  <div class="masthead-note">ФАКТИТЕ ЗАД ИКОНОМИКАТА</div>
+</header>
+<aside class="news-panel news-side" aria-label="Новини от България"><h2 class="news-heading"><span>България</span><span class="flag-icon" title="България"><svg viewBox="0 0 30 20" role="img" aria-label="България"><rect width="30" height="20" rx="1.5" fill="#fff"/><path d="M0 6.67h30v6.66H0z" fill="#00966e"/><path d="M0 13.33h30V20H0z" fill="#d62612"/></svg></span></h2><p class="news-intro">Актуални заглавия от различни източници</p><div class="news-list" id="news-left-list"></div></aside>
+<div id="site-content">
 <main>
 <div id="mk"><div id="mk-tape"></div><div id="mk-note">Пазарни цени: TradingView · може да са със закъснение · не са инвестиционен съвет</div></div>
 <div class="hero">
@@ -72,6 +451,13 @@ tr:last-child td{border:0}
 <div class="n" id="debt">—</div>
 <div class="r"><span>На жител: <b id="pc">—</b></span><span>Дял от БВП: <b id="gdp">—</b></span><span>Тренд: <b id="ps">—</b>/сек.</span></div>
 <label class="sw"><input type="checkbox" id="pend" checked><span>Включи заема от 2,25 млрд. € (29.09.2026), още неотразен в официалните данни</span></label>
+<div class="fiscal-compass" aria-label="Сравнение на дълга с референтната стойност от Маастрихт">
+  <div class="fc-head"><span class="fc-kicker">ФИСКАЛЕН КОМПАС</span><span class="fc-status">МААСТРИХТ · 60%</span></div>
+  <div class="fc-main"><div class="fc-gauge" id="fc-gauge"><div class="fc-gauge-inner"><strong id="fc-percent">28,7%</strong><small>от БВП</small></div></div>
+    <div class="fc-copy"><strong id="fc-used">47,8%</strong><span>от референтната граница</span><div class="fc-track"><i id="fc-fill"></i></div><small id="fc-gap">31,3 пр.п. до 60%</small></div>
+  </div>
+  <div class="fc-foot"><span>България · държавен дълг</span><span>Референтна стойност на ЕС</span></div>
+</div>
 </div>
 <nav id="nav"></nav>
 <div class="ad" id="ad-top"></div>
@@ -113,6 +499,45 @@ tr:last-child td{border:0}
 <div class="tip">Минималната пенсия (347,51 €) е под официалната линия на бедност за 2026 г. (390,63 €). Около 810 000 пенсионери получават пенсия до минималната.</div>
 <p class="src">Линията на бедност е 60% от медианния доход. Изчисленията „≈“ са мои.</p>
 </section>
+<section id="s5">
+<h2>Икономика</h2><p class="h">Производство и реална динамика на българската икономика — без да бъркаме номинален ръст с реален растеж.</p>
+<div class="g" id="eco-kpis"></div>
+<div class="box wide"><h3>Реален БВП — годишна динамика</h3><div id="eco-gdp-chart"></div><p class="src">Източник: Евростат · национални сметки. Реални обеми, верижно свързани цени.</p></div>
+<div class="box wide"><h3>БВП на човек по текущи цени</h3><div id="eco-gdpcap-chart"></div><p class="src">Източник: Евростат. Номинална стойност, не е заплата и не измерва сама по себе си покупателната способност.</p></div>
+<div class="tip">БВП измерва стойността на произведените стоки и услуги. За реалния растеж използваме показатели по постоянни/верижно свързани цени, а не само текущи евро.</div>
+</section>
+<section id="s6">
+<h2>Пазар на труда</h2><p class="h">Заетост и безработица — сравними годишни показатели от Евростат.</p>
+<div class="g" id="lab-kpis"></div>
+<div class="box"><h3>Заетост на населението 20–64 г. (%)</h3><div id="lab-employment-chart"></div></div>
+<div class="box"><h3>Безработица, 15–74 г. (%)</h3><div id="lab-unemployment-chart"></div></div>
+<p class="src">Източник: Евростат, EU Labour Force Survey. Методологията и възрастовите групи са посочени при съответната серия.</p>
+</section>
+<section id="s7">
+<h2>България в ЕС</h2><p class="h">Сравнение на БВП на човек по паритет на покупателната способност. Индекс ЕС = 100.</p>
+<div class="g" id="eu-kpis"></div>
+<div class="box wide"><h3>БВП на човек — стандарт на покупателна способност</h3><div id="eu-ppp-chart"></div><p class="src">Източник: Евростат · БВП на човек в PPS, ЕС = 100. Това е относителен индекс, не сума в евро.</p></div>
+<div class="tip">Паритетът на покупателната способност отчита разликите в ценовите равнища между държавите. Той е по-подходящ за сравнение на материалното благосъстояние от простото превалутиране по пазарен курс.</div>
+</section>
+<section id="s8">
+<h2>Демография</h2><p class="h">Население и дългосрочна промяна — реални наблюдения, отделени от прогнозите.</p>
+<div class="g" id="demo-kpis"></div>
+<div class="box wide"><h3>Население на България по години</h3><div id="demo-population-chart"></div></div>
+<p class="src">Източник: Евростат, население към 1 януари. Прогнозни стойности няма да се смесват с отчетените.</p>
+</section>
+<section id="s9">
+<h2>Външна търговия</h2><p class="h">Износ, внос и търговско салдо — ще показваме само серии с потвърдена съпоставимост.</p>
+<div class="g" id="trade-kpis"></div>
+<div class="box wide"><h3>Износ и внос на стоки</h3><div id="trade-chart"></div></div>
+<p class="src">Източник: Евростат, международна търговия със стоки. Митническа статистика и платежен баланс са различни измерители.</p>
+</section>
+<section id="s10">
+<h2>Региони</h2><p class="h">Сравнение на шестте района от ниво NUTS 2 по БВП на човек, измерен в стандарт на покупателната способност (PPS).</p>
+<div class="g" id="region-kpis"></div>
+<div class="box wide"><h3>БВП на човек по райони — PPS на жител</h3><div id="region-gdp-chart"></div><p class="src">Източник: Евростат, регионални сметки (NUTS 2). Стойностите са PPS на жител, а не индекс спрямо средното за ЕС. Последната налична година и предварителният статус са обозначени при данните.</p></div>
+<div class="tip">Това са шестте статистически района на България (NUTS 2), а не 28-те административни области. PPS е коригирана за ценовите равнища мерна единица, а не заплата или доход на домакинствата.</div>
+</section>
+<section id="s11"><h2>Новини</h2><p class="h">Актуални заглавия от различни източници.</p><div id="news-mobile" class="news-panel"><h2 class="news-heading"><span>България</span><span class="flag flag-bg" aria-label="България">🇧🇬</span></h2><div class="news-list" id="news-mobile-bg"></div><h2 class="news-heading news-heading-mobile"><span>Европа и свят</span><span class="flag-group" aria-label="Европейски съюз, Великобритания, САЩ, Китай, Япония, Канада, Бразилия и Австралия"><span class="flag-icon" title="Европейски съюз"><svg viewBox="0 0 30 20" role="img" aria-label="Европейски съюз"><rect width="30" height="20" rx="1.5" fill="#003399"/><g fill="#ffdf00"><circle cx="15" cy="4" r="1"/><circle cx="19.5" cy="5.5" r="1"/><circle cx="21" cy="10" r="1"/><circle cx="19.5" cy="14.5" r="1"/><circle cx="15" cy="16" r="1"/><circle cx="10.5" cy="14.5" r="1"/><circle cx="9" cy="10" r="1"/><circle cx="10.5" cy="5.5" r="1"/></g></svg></span><span class="flag-icon" title="Великобритания"><svg viewBox="0 0 30 20" role="img" aria-label="Великобритания"><rect width="30" height="20" fill="#012169"/><path d="M0 0l30 20M30 0L0 20" stroke="#fff" stroke-width="4"/><path d="M0 0l30 20M30 0L0 20" stroke="#c8102e" stroke-width="1.5"/><path d="M15 0v20M0 10h30" stroke="#fff" stroke-width="6"/><path d="M15 0v20M0 10h30" stroke="#c8102e" stroke-width="3"/></svg></span><span class="flag-icon" title="САЩ"><svg viewBox="0 0 30 20" role="img" aria-label="САЩ"><rect width="30" height="20" fill="#fff"/><path d="M0 0h30v1.54H0zm0 3.08h30v1.54H0zm0 3.08h30V9.7H0zm0 3.08h30v1.54H0zm0 3.08h30v1.54H0zm0 3.08h30v1.54H0z" fill="#b22234"/><rect width="13" height="10.8" fill="#3c3b6e"/><g fill="#fff"><circle cx="2" cy="2" r=".55"/><circle cx="5" cy="2" r=".55"/><circle cx="8" cy="2" r=".55"/><circle cx="11" cy="2" r=".55"/><circle cx="3.5" cy="5" r=".55"/><circle cx="6.5" cy="5" r=".55"/><circle cx="9.5" cy="5" r=".55"/><circle cx="2" cy="8" r=".55"/><circle cx="5" cy="8" r=".55"/><circle cx="8" cy="8" r=".55"/><circle cx="11" cy="8" r=".55"/></g></svg></span><span class="flag-icon" title="Китай"><svg viewBox="0 0 30 20" role="img" aria-label="Китай"><rect width="30" height="20" fill="#de2910"/><path d="M6 3l.8 2.2 2.3.1-1.8 1.4.6 2.2L6 7.6l-1.9 1.3.6-2.2-1.8-1.4 2.3-.1z" fill="#ffde00"/><g fill="#ffde00"><circle cx="12" cy="3" r="1"/><circle cx="14" cy="6" r="1"/><circle cx="14" cy="10" r="1"/><circle cx="12" cy="13" r="1"/></g></svg></span><span class="flag-icon" title="Япония"><svg viewBox="0 0 30 20" role="img" aria-label="Япония"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="5.3" fill="#bc002d"/></svg></span><span class="flag-icon" title="Канада"><svg viewBox="0 0 30 20" role="img" aria-label="Канада"><rect width="30" height="20" fill="#fff"/><path d="M0 0h7v20H0zm23 0h7v20h-7z" fill="#d80621"/><path d="M15 3l1.2 3 2-.8-1 2.2 2.2 1.1-2.4 1 .8 2.5-2.8-1.4-2.8 1.4.8-2.5-2.4-1 2.2-1.1-1-2.2 2 .8z" fill="#d80621"/></svg></span><span class="flag-icon" title="Бразилия"><svg viewBox="0 0 30 20" role="img" aria-label="Бразилия"><rect width="30" height="20" rx="1.5" fill="#009b3a"/><path d="M15 2L27 10 15 18 3 10z" fill="#ffdf00"/><circle cx="15" cy="10" r="4.2" fill="#002776"/></svg></span><span class="flag-icon" title="Австралия"><svg viewBox="0 0 30 20" role="img" aria-label="Австралия"><rect width="30" height="20" fill="#00008b"/><rect width="13" height="9" fill="#012169"/><path d="M0 0l13 9M13 0L0 9" stroke="#fff" stroke-width="2"/><path d="M0 0l13 9M13 0L0 9" stroke="#c8102e" stroke-width=".7"/><path d="M6.5 0v9M0 4.5h13" stroke="#fff" stroke-width="2.8"/><path d="M6.5 0v9M0 4.5h13" stroke="#c8102e" stroke-width="1.2"/><g fill="#fff"><circle cx="21" cy="5" r="1"/><circle cx="25" cy="12" r=".9"/><circle cx="18" cy="15" r=".8"/><circle cx="15" cy="11" r=".7"/></g></svg></span></span></h2><div class="news-list" id="news-mobile-eu"></div></div></section>
 <div class="ad" id="ad-bot"></div>
 <ul class="src">
 <li>Източници: НСИ, Министерство на финансите, БНБ, НОИ, Fitch, S&amp;P – чрез БТА, БНР, News.bg и др. Данни към 15.11.2026 г. Пазарни цени: TradingView.</li>
@@ -120,7 +545,23 @@ tr:last-child td{border:0}
 <li>Не е инвестиционен или финансов съвет. За точни стойности виж nsi.bg, minfin.bg, bnb.bg, nssi.bg.</li>
 <li id="adli"></li>
 </ul>
+
+<footer class="site-footer">
+ <div><a href="privacy.html">Политика за поверителност</a><span class="footer-sep"> · </span><button type="button" id="privacy-settings">Настройки за поверителност</button></div>
+ <small>© 2026 България в числа. Всички права запазени. | © 2026 Bulgaria in Numbers. All rights reserved.</small>
+</footer>
+<div id="privacy-notice" class="privacy-notice" role="dialog" aria-label="Поверителност и външна пазарна лента" hidden>
+ <p>Използваме необходимите технически технологии. Пазарната лента на TradingView е външна услуга и се зарежда само с Ваше разрешение. <a href="privacy.html">Политика за поверителност</a>.</p>
+ <div class="privacy-actions">
+  <button type="button" id="privacy-accept">ОК</button>
+  <button type="button" id="privacy-essential">Само необходимите</button>
+ </div>
+</div>
+
 </main>
+</div>
+<aside class="news-panel news-side" aria-label="Новини от Европа и света"><h2 class="news-heading"><span>Европа и свят</span><span class="flag-group" aria-label="Европейски съюз, Великобритания, САЩ, Китай, Япония, Канада, Бразилия и Австралия"><span class="flag-icon" title="Европейски съюз"><svg viewBox="0 0 30 20" role="img" aria-label="Европейски съюз"><rect width="30" height="20" rx="1.5" fill="#003399"/><g fill="#ffdf00"><circle cx="15" cy="4" r="1"/><circle cx="19.5" cy="5.5" r="1"/><circle cx="21" cy="10" r="1"/><circle cx="19.5" cy="14.5" r="1"/><circle cx="15" cy="16" r="1"/><circle cx="10.5" cy="14.5" r="1"/><circle cx="9" cy="10" r="1"/><circle cx="10.5" cy="5.5" r="1"/></g></svg></span><span class="flag-icon" title="Великобритания"><svg viewBox="0 0 30 20" role="img" aria-label="Великобритания"><rect width="30" height="20" fill="#012169"/><path d="M0 0l30 20M30 0L0 20" stroke="#fff" stroke-width="4"/><path d="M0 0l30 20M30 0L0 20" stroke="#c8102e" stroke-width="1.5"/><path d="M15 0v20M0 10h30" stroke="#fff" stroke-width="6"/><path d="M15 0v20M0 10h30" stroke="#c8102e" stroke-width="3"/></svg></span><span class="flag-icon" title="САЩ"><svg viewBox="0 0 30 20" role="img" aria-label="САЩ"><rect width="30" height="20" fill="#fff"/><path d="M0 0h30v1.54H0zm0 3.08h30v1.54H0zm0 3.08h30V9.7H0zm0 3.08h30v1.54H0zm0 3.08h30v1.54H0zm0 3.08h30v1.54H0z" fill="#b22234"/><rect width="13" height="10.8" fill="#3c3b6e"/><g fill="#fff"><circle cx="2" cy="2" r=".55"/><circle cx="5" cy="2" r=".55"/><circle cx="8" cy="2" r=".55"/><circle cx="11" cy="2" r=".55"/><circle cx="3.5" cy="5" r=".55"/><circle cx="6.5" cy="5" r=".55"/><circle cx="9.5" cy="5" r=".55"/><circle cx="2" cy="8" r=".55"/><circle cx="5" cy="8" r=".55"/><circle cx="8" cy="8" r=".55"/><circle cx="11" cy="8" r=".55"/></g></svg></span><span class="flag-icon" title="Китай"><svg viewBox="0 0 30 20" role="img" aria-label="Китай"><rect width="30" height="20" fill="#de2910"/><path d="M6 3l.8 2.2 2.3.1-1.8 1.4.6 2.2L6 7.6l-1.9 1.3.6-2.2-1.8-1.4 2.3-.1z" fill="#ffde00"/><g fill="#ffde00"><circle cx="12" cy="3" r="1"/><circle cx="14" cy="6" r="1"/><circle cx="14" cy="10" r="1"/><circle cx="12" cy="13" r="1"/></g></svg></span><span class="flag-icon" title="Япония"><svg viewBox="0 0 30 20" role="img" aria-label="Япония"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="5.3" fill="#bc002d"/></svg></span><span class="flag-icon" title="Канада"><svg viewBox="0 0 30 20" role="img" aria-label="Канада"><rect width="30" height="20" fill="#fff"/><path d="M0 0h7v20H0zm23 0h7v20h-7z" fill="#d80621"/><path d="M15 3l1.2 3 2-.8-1 2.2 2.2 1.1-2.4 1 .8 2.5-2.8-1.4-2.8 1.4.8-2.5-2.4-1 2.2-1.1-1-2.2 2 .8z" fill="#d80621"/></svg></span><span class="flag-icon" title="Бразилия"><svg viewBox="0 0 30 20" role="img" aria-label="Бразилия"><rect width="30" height="20" rx="1.5" fill="#009b3a"/><path d="M15 2L27 10 15 18 3 10z" fill="#ffdf00"/><circle cx="15" cy="10" r="4.2" fill="#002776"/></svg></span><span class="flag-icon" title="Австралия"><svg viewBox="0 0 30 20" role="img" aria-label="Австралия"><rect width="30" height="20" fill="#00008b"/><rect width="13" height="9" fill="#012169"/><path d="M0 0l13 9M13 0L0 9" stroke="#fff" stroke-width="2"/><path d="M0 0l13 9M13 0L0 9" stroke="#c8102e" stroke-width=".7"/><path d="M6.5 0v9M0 4.5h13" stroke="#fff" stroke-width="2.8"/><path d="M6.5 0v9M0 4.5h13" stroke="#c8102e" stroke-width="1.2"/><g fill="#fff"><circle cx="21" cy="5" r="1"/><circle cx="25" cy="12" r=".9"/><circle cx="18" cy="15" r=".8"/><circle cx="15" cy="11" r=".7"/></g></svg></span></span></h2><p class="news-intro">Актуални заглавия от различни източници</p><div class="news-list" id="news-right-list"></div></aside>
+</div>
 <script>
 var $=function(i){return document.getElementById(i)};
 var F=new Intl.NumberFormat("bg-BG",{maximumFractionDigits:0}),F1=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:1}),F2=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:3});
@@ -130,12 +571,12 @@ function fill(id,a){$(id).innerHTML=a.map(function(x){return card.apply(null,x)}
 function hb(id,rows,fmt,max){var m=max||Math.max.apply(null,rows.map(function(r){return r[1]}));$(id).innerHTML=rows.map(function(r){return '<div class="hb"><span>'+r[0]+'</span><span class="t"><i style="width:'+(r[1]/m*100)+'%;background:var(--'+(r[2]||"bl")+')"></i></span><b>'+fmt(r[1])+'</b></div>'}).join("")}
 /* тикер */
 var BASE=37416e6,PEND=2.25e9,DR=169e6/(30*86400),T0=new Date(2026,9,1).getTime(),POP=6423207,GDP=37416e6/0.287;
-function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0)/1000,0);$("debt").textContent="€ "+F.format(d);$("pc").textContent=F.format(d/POP)+" €";$("gdp").textContent=F1.format(d/GDP*100)+"%";$("ps").textContent=F1.format(DR)+" €"}
+function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0)/1000,0),ratio=d/GDP*100,used=ratio/60*100,gap=60-ratio;$("debt").textContent="€ "+F.format(d);$("pc").textContent=F.format(d/POP)+" €";$("gdp").textContent=F1.format(ratio)+"%";$("ps").textContent=F1.format(DR)+" €";$("fc-percent").textContent=F1.format(ratio)+"%";$("fc-used").textContent=F1.format(used)+"%";$("fc-gap").textContent=F1.format(gap)+" пр.п. до 60%";$("fc-gauge").style.setProperty("--gauge",Math.max(0,Math.min(100,used))+"%");$("fc-fill").style.width=Math.max(0,Math.min(100,used))+"%"}
 $("pend").onchange=tick;tick();setInterval(tick,100);
 /* табове */
-var T=["Накратко","Дълг","Цени","Банки","Хора"];
+var T=["Накратко","Дълг","Цени","Банки","Хора","Икономика","Труд","България в ЕС","Демография","Търговия","Региони","Новини"];
 $("nav").innerHTML=T.map(function(t,i){return '<button data-i="'+i+'" class="'+(i?"":"on")+'">'+t+'</button>'}).join("");
-$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav button").forEach(function(b){b.classList.toggle("on",b.dataset.i==i)});for(var k=0;k<5;k++)$("s"+k).classList.toggle("on",k==i)};
+$("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav button").forEach(function(b){b.classList.toggle("on",b.dataset.i==i)});for(var k=0;k<T.length;k++)$("s"+k).classList.toggle("on",k==i)};
 /* накратко */
 fill("k0",[["6,1%","Годишна инфлация, окт.","експресна оценка","ac"],["−2,8% БВП","Бюджетен дефицит, сеп.","3,669 млрд. € от началото на годината","ac"],["57,2 млрд. €","Депозити на домакинствата","+16,2% за година","gr"],["33,1 млрд. €","Кредити на домакинствата","+20,7% за година","am"],["1 438 €","Средна заплата, Q3","−0,4% спрямо Q2","bl"],["558 €","Средна пенсия, сеп.","минимална 347,51 €","bl"],["21,2%","Под линията на бедност","1,37 млн. души, 2025 г.","ac"],["BBB+","Кредитен рейтинг","Fitch: позитивна · S&P: стабилна","gr"]]);
 /* дълг */
@@ -167,11 +608,50 @@ $("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'
 function okd(a){var n=new Date().toISOString().slice(0,10);return a&&!(a.from&&n<a.from)&&!(a.to&&n>a.to)}
 function pick(s){var l=[].concat(s||[]).filter(okd);return l.length?l[Math.floor(Math.random()*l.length)]:{}}
 fetch("data.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;if(j.contact)CONTACT=j.contact;if(j.ads){ad("ad-top",pick(j.ads.top));ad("ad-bot",pick(j.ads.bot))}$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.'}).catch(function(){});
+
+/* Новинарски поток: съдържанието идва от проверявания news.json */
+function sortNewsNewestFirst(items){
+  return items.slice().sort(function(a,b){
+    var ta=a.published?Date.parse(a.published):NaN;
+    var tb=b.published?Date.parse(b.published):NaN;
+    var va=Number.isFinite(ta)?ta:-Infinity;
+    var vb=Number.isFinite(tb)?tb:-Infinity;
+    return vb-va;
+  });
+}
+function renderNews(target,items){
+  items=sortNewsNewestFirst(items);
+  var root=$(target);if(!root)return;root.textContent="";
+  if(!items.length){var empty=document.createElement("p");empty.className="news-empty";empty.textContent="Все още няма публикувани заглавия. Потокът се обновява автоматично.";root.appendChild(empty);return}
+  items.forEach(function(item){
+    var article=document.createElement("article");article.className="news-item";
+    var link=document.createElement("a");link.href=item.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=item.title;article.appendChild(link);
+    var meta=document.createElement("div");meta.className="news-meta";
+    var date=item.published?new Date(item.published):null;
+    meta.textContent=item.source+(date&&!isNaN(date.getTime())?" · "+date.toLocaleString("bg-BG",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/Sofia"}):"");
+    article.appendChild(meta);
+    if(item.summary){var summary=document.createElement("p");summary.className="news-summary";summary.textContent=item.summary;article.appendChild(summary)}
+    root.appendChild(article)
+  })
+}
+fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("news.json unavailable");return r.json()}).then(function(data){
+  var items=Array.isArray(data.items)?data.items:[];
+  renderNews("news-left-list",items.filter(function(x){return x.section==="bulgaria"}));
+  renderNews("news-right-list",items.filter(function(x){return x.section==="europe"}));
+  renderNews("news-mobile-bg",items.filter(function(x){return x.section==="bulgaria"}));
+  renderNews("news-mobile-eu",items.filter(function(x){return x.section==="europe"}));
+}).catch(function(){
+  ["news-left-list","news-right-list","news-mobile-bg","news-mobile-eu"].forEach(function(id){renderNews(id,[])})
+});
+
 /* лента с пазарни цени (TradingView): зарежда се автоматично */
-var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
-function mkLoad(){var th=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light",el=$("mk-tape");el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
-mkLoad();
+var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["TVC:SX5E","EURO STOXX 50"],["XETR:DAX","DAX"],["EURONEXT:PX1","CAC 40"],["TVC:UKX","FTSE 100"],["TVC:NI225","Nikkei 225"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
+function mkLoad(){var th="light",el=$("mk-tape");if(el.dataset.loaded==="1")return;el.dataset.loaded="1";el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
+/* Поверителност: TradingView се зарежда само след избор */
+(function(){var key="bgvchisla_tradingview_choice",banner=$("privacy-notice"),choice=null;try{choice=localStorage.getItem(key)}catch(e){}if(choice==="allow"){mkLoad()}else if(choice==="essential"){$("mk-tape").textContent="Пазарната лента е изключена по Ваш избор."}else{banner.hidden=false}function save(v){try{localStorage.setItem(key,v)}catch(e){}banner.hidden=true;if(v==="allow")mkLoad();else{$("mk-tape").innerHTML="";$("mk-tape").dataset.loaded="0";$("mk-tape").textContent="Пазарната лента не е заредена по Ваш избор."}} $("privacy-settings").addEventListener("click",function(){banner.hidden=false});$("privacy-accept").addEventListener("click",function(){save("allow")});$("privacy-essential").addEventListener("click",function(){save("essential")})})();
 </script>
-<script src="economy-charts.js"></script>
+<script src="economy-charts.js" defer></script>
 </body>
 </html>
+
+<!-- News feed preview refresh: Investor.bg RSS integration -->
