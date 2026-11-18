@@ -39,3 +39,5 @@ jobs:
             git commit -m "Update official NSSI pension data"
             git push
           fi
+
+# Historical bulletin import validated against the official NSSI archive.
