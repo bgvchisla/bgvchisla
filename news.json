@@ -1,7 +1,88 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:24:37.575738+00:00",
+  "updated_at": "2026-11-18T20:21:32.310598+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
+      "summary": "On a visit to Caracas, Pete Hegseth signed a deal that signifies the \"reestablishment of our defense partnership.\" US-Venezuela ties were strained for years until US troops ousted ex-President Nicolas Maduro in January.",
+      "url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-18T20:19:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Тръмп кацна в Китай, Си и Путин критикуваха западния протекционизъм",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439757-tramp-katsna-v-kitay-si-i-putin-kritikuvaha-zapadniya-protektsionizam",
+      "published": "2026-11-18T20:15:28+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T20:14:57+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "William and Kate meet PM Modi as they wrap up India tour",
+      "summary": "The meeting in New Delhi was a late addition to the royal couple's India visit, which also included their appearance at the annual Earthshot Prize",
+      "url": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T20:07:08+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Burnham’s 10-year plan lined up for Dec. 17 publication",
+      "summary": "It would be the last possible date before MPs leave for their Christmas recess.",
+      "url": "https://www.politico.eu/article/uk-andy-burnham-10-year-plan-lined-up-for-december-17-publication/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-18T19:48:24+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "ЕК иска Европа да стане световен лидер в производството на модерни материали до 2035 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439739-ek-iska-evropa-da-stane-svetoven-lider-v-proizvodstvoto-na-moderni-materiali-do-2035-g",
+      "published": "2026-11-18T19:43:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Стийн Якобсен: Още през 2027 г. AI може да стимулира потреблението с дигитални валути",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/439752-stiyn-yakobsen-oshte-prez-2027-g-ai-mozhe-da-stimulira-potreblenieto-s-digitalni-valuti",
+      "published": "2026-11-18T19:42:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Украинските атаки с дронове са намалили почти наполовина рафиниращия капацитет на Русия",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439753-ukrainskite-ataki-s-dronove-sa-namalili-pochti-napolovina-rafinirashtiya-kapatsitet-na-rusiya",
+      "published": "2026-11-18T19:41:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "EU ‘to close door’ to talks on long-term UK ties until Burnham has decided on Brexit",
+      "summary": "Diplomats say piecemeal approach of resets is coming to an end and Europe wants clarity on whether Britain wants to reverse its exit The EU will shut the door to discussions with Andy Burnham about the UK’s longer-term relationship with the bloc until the gove",
+      "url": "https://www.theguardian.com/politics/2026/nov/18/eu-uk-reset-summit-talks-burnham-brexit",
+      "published": "2026-11-18T19:17:19+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
@@ -91,15 +172,6 @@
       "url": "https://www.dw.com/en/muslims-to-outnumber-christians-by-2035-research-shows/a-79984307?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-18T17:52:00+00:00",
       "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "William and Kate reflect on 'enduring' UK-India ties with Modi",
-      "summary": "The meeting in New Delhi was a late addition to the royal couple's India visit, which has also included their appearance at the annual Earthshot Prize",
-      "url": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T17:51:47+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "bulgaria",
@@ -328,24 +400,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Who speaks for Europe abroad? Not its top diplomat",
-      "summary": "EU leaders’ decision to exclude the bloc’s foreign policy chief from their negotiating lineup for Russia peace talks reveals how national turf wars undermine Brussels’ global ambitions • Don’t get This Is Europe delivered to your inbox? Sign up here The EU, we",
-      "url": "https://www.theguardian.com/world/2026/nov/18/who-speaks-for-europe-abroad-not-its-top-diplomat",
-      "published": "2026-11-18T15:40:05+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Parents jailed for torture and death of four-year-old girl found along French motorway in 1987",
-      "summary": "Inass Touloub's body was found along the A10 road in 1987, bearing marks of abuse, and was not identified until 2018.",
-      "url": "https://www.bbc.co.uk/news/articles/c6lyw490z14jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T15:39:57+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Borussia Dortmund bows to fan pressure and end Rheinmetall deal",
       "summary": "Borussia Dortmund has reluctantly ended its association with a major sponsor after long-term fan protests. They are not the first Bundesliga club to u-turn, as commercial interests clash with politics and fan culture.",
@@ -481,30 +535,12 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "India: Online censorship grows after 'Cockroach' protests",
-      "summary": "Since anti-government Cockroach protests erupted, journalists and creators say their content is increasingly being restricted on social media in India.",
-      "url": "https://www.dw.com/en/india-online-censorship-grows-after-cockroach-protests/a-79976982?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T14:28:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Iraqi court jails six French Islamic State members for life",
       "summary": "More than 5,700 Islamic State detainees whom the US moved from Syria to Iraq are due to go on trial from Sunday, while rights groups question whether Iraq’s courts are fair.",
       "url": "https://www.euronews.com/2026/11/18/iraqi-court-jails-six-french-islamic-state-members-for-life",
       "published": "2026-11-18T14:20:41+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "С инвестиция за над 250 млн. евро ще се изгражда „Завод за производство на барут - Бодрово“",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439733-s-investitsiya-za-nad-250-mln-evro-shte-se-izgrazhda-zavod-za-proizvodstvo-na-barut-bodrovo",
-      "published": "2026-11-18T14:16:00+00:00",
-      "feed_id": "investor-economy"
     },
     {
       "section": "europe",
@@ -514,15 +550,6 @@
       "url": "https://www.euronews.com/2026/11/18/baku-tbilisi-and-astana-join-forces-to-expand-middle-corridor-as-belgian-firms-eye-investm",
       "published": "2026-11-18T14:14:22+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "София преминава към интелигентно управление на цялото улично осветление",
-      "summary": "",
-      "url": "https://www.investor.bg/a/534-novini/439730-sofiya-preminava-kam-inteligentno-upravlenie-na-tsyaloto-ulichno-osvetlenie",
-      "published": "2026-11-18T14:10:00+00:00",
-      "feed_id": "investor-economy"
     },
     {
       "section": "europe",
@@ -541,15 +568,6 @@
       "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
       "published": "2026-11-18T14:05:38+00:00",
       "feed_id": "guardian-world"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "ЕК създава Служба на ЕС по въпросите на санкциите",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439735-ek-sazdava-sluzhba-na-es-po-vaprosite-na-sanktsiite",
-      "published": "2026-11-18T14:05:00+00:00",
-      "feed_id": "investor-economy"
     },
     {
       "section": "europe",
@@ -613,24 +631,6 @@
       "url": "https://www.euronews.com/2026/11/18/trump-and-putin-shake-hands-in-first-encounter-since-2025",
       "published": "2026-11-18T13:13:00+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Златото между геополитиката, политическите сътресения в САЩ и амбициите на Китай",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439677-zlatoto-mezhdu-geopolitikata-politicheskite-satreseniya-v-sasht-i-ambitsiite-na-kitay",
-      "published": "2026-11-18T13:10:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Парламентът ограничи рекламата на хазарта",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439731-parlamentat-ogranichi-reklamata-na-hazarta",
-      "published": "2026-11-18T13:00:00+00:00",
-      "feed_id": "investor-finance"
     }
   ],
   "feed_status": {
