@@ -755,6 +755,32 @@ label.sw{
 }
 @media(prefers-reduced-motion:reduce){#site-content nav#nav button{transition:none}#site-content nav#nav button:hover{transform:none}}
 
+
+/* Навигационните заглавия остават на един ред */
+#site-content nav#nav .nav-copy{min-width:0}
+#site-content nav#nav .nav-title{
+ white-space:nowrap;
+ word-break:normal;
+ overflow-wrap:normal;
+ font-size:.82rem;
+ letter-spacing:-.035em;
+}
+@media(max-width:1199px){
+ #site-content nav#nav .nav-title{font-size:.78rem;letter-spacing:-.045em}
+}
+@media(max-width:959px){
+ #site-content nav#nav .nav-title{font-size:.74rem;letter-spacing:-.05em}
+ #site-content nav#nav button{grid-template-columns:32px minmax(0,1fr);gap:8px}
+ #site-content nav#nav .nav-arrow{display:none}
+}
+@media(max-width:639px){
+ #site-content nav#nav .nav-title{font-size:clamp(.66rem,2.7vw,.76rem);letter-spacing:-.055em}
+ #site-content nav#nav .nav-sub{font-size:.58rem}
+ #site-content nav#nav button{grid-template-columns:28px minmax(0,1fr);gap:7px;padding:9px 8px;min-height:66px}
+ #site-content nav#nav .nav-icon{width:28px;height:28px}
+ #site-content nav#nav .nav-icon svg{width:16px;height:16px}
+}
+
 </style>
 </head>
 <body>
