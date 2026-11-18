@@ -681,6 +681,80 @@ label.sw{
   #site-content section:not(#s0) .g .c:hover{transform:none}
 }
 
+
+/* Навигация: редакционни панели с ясна йерархия */
+#site-content nav#nav{
+ display:grid;
+ grid-template-columns:repeat(5,minmax(0,1fr));
+ gap:12px;
+ padding:18px 0 22px;
+ overflow:visible;
+ border-bottom:1px solid #cbd6e2;
+}
+#site-content nav#nav button{
+ position:relative;
+ display:grid;
+ grid-template-columns:42px minmax(0,1fr) 16px;
+ align-items:center;
+ gap:11px;
+ min-width:0;
+ min-height:88px;
+ padding:15px 14px;
+ overflow:hidden;
+ border:1px solid #d5dee8;
+ border-radius:12px;
+ background:linear-gradient(145deg,#fff 0%,#f5f8fb 100%);
+ color:#344b65;
+ text-align:left;
+ box-shadow:0 3px 10px rgba(31,50,72,.055);
+ transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease,background .18s ease;
+}
+#site-content nav#nav button:before{
+ content:"";
+ position:absolute;left:0;top:14px;bottom:14px;width:3px;
+ border-radius:0 3px 3px 0;background:#9aafc4;opacity:.0;
+}
+#site-content nav#nav .nav-icon{
+ display:grid;place-items:center;width:42px;height:42px;
+ border:1px solid #dce5ee;border-radius:11px;
+ background:#edf2f7;color:#52708f;
+}
+#site-content nav#nav .nav-icon svg{width:21px;height:21px}
+#site-content nav#nav .nav-copy{display:grid;gap:4px;min-width:0}
+#site-content nav#nav .nav-title{font-size:.94rem;line-height:1.22;font-weight:750;letter-spacing:-.02em;color:#2b4058}
+#site-content nav#nav .nav-sub{font-size:.68rem;line-height:1.25;color:#8190a2;font-weight:550}
+#site-content nav#nav .nav-arrow{align-self:start;margin-top:2px;color:#9aa9b9;font-size:.9rem;opacity:.65}
+#site-content nav#nav button.on{
+ background:linear-gradient(135deg,#304b6c 0%,#24384f 100%);
+ border-color:#24384f;color:#fff;
+ box-shadow:0 8px 20px rgba(36,56,79,.2);
+}
+#site-content nav#nav button.on:before{opacity:1;background:#d4a56a}
+#site-content nav#nav button.on .nav-icon{background:#405d7e;border-color:#58718d;color:#fff}
+#site-content nav#nav button.on .nav-title{color:#fff}
+#site-content nav#nav button.on .nav-sub{color:#c2cfdd}
+#site-content nav#nav button.on .nav-arrow{color:#d9e3ed}
+@media(hover:hover){
+ #site-content nav#nav button:not(.on):hover{transform:translateY(-3px);border-color:#aebfd0;box-shadow:0 9px 18px rgba(31,50,72,.10);background:#fff}
+ #site-content nav#nav button:not(.on):hover:before{opacity:1}
+}
+@media(max-width:1199px){#site-content nav#nav{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:959px){
+ #site-content nav#nav{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+ #site-content nav#nav button{grid-template-columns:36px minmax(0,1fr) 12px;gap:9px;min-height:78px;padding:12px 10px}
+ #site-content nav#nav .nav-icon{width:36px;height:36px}
+ #site-content nav#nav .nav-title{font-size:.86rem}
+}
+@media(max-width:639px){
+ #site-content nav#nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:12px 0 16px}
+ #site-content nav#nav button{grid-template-columns:32px minmax(0,1fr) 10px;gap:8px;min-height:72px;padding:10px 9px;border-radius:10px}
+ #site-content nav#nav .nav-icon{width:32px;height:32px;border-radius:9px}
+ #site-content nav#nav .nav-icon svg{width:18px;height:18px}
+ #site-content nav#nav .nav-title{font-size:.79rem}
+ #site-content nav#nav .nav-sub{font-size:.61rem}
+}
+@media(prefers-reduced-motion:reduce){#site-content nav#nav button{transition:none}#site-content nav#nav button:hover{transform:none}}
+
 </style>
 </head>
 <body>
@@ -850,7 +924,24 @@ function tick(){var d=BASE+($("pend").checked?PEND:0)+DR*Math.max((Date.now()-T0
 $("pend").onchange=tick;tick();setInterval(tick,100);
 /* табове */
 var T=["Накратко","Дълг","Цени","Банки","Хора","Икономика","Труд","България в ЕС","Демография","Търговия","Региони","Фискални данни","Кредити и банки","Пенсии и НОИ","Новини"];
-$("nav").innerHTML=T.map(function(t,i){return '<button type="button" data-i="'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+'">'+t+'</button>'}).join("");
+var NAV_META=[
+ ["01","Общ преглед","M3 3h7v7H3z M14 3h7v7h-7z M14 14h7v7h-7z M3 14h7v7H3z"],
+ ["02","Публични финанси","M4 19V5m0 14h16M8 15l3-4 3 2 5-7"],
+ ["03","Потребителски цени","M4 7h16M6 3v4m12-4v4M5 11h14v9H5z"],
+ ["04","Парична система","M3 7h18v13H3z M3 7l9-4 9 4 M8 12h.01 M12 12h.01 M16 12h.01"],
+ ["05","Доходи и общество","M16 20v-1a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v1 M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8 M22 20v-1a4 4 0 0 0-3-3.87 M16 3.13a4 4 0 0 1 0 7.75"],
+ ["06","Макроикономика","M3 20h18M5 16l4-5 4 2 6-8"],
+ ["07","Пазар на труда","M3 7h18v13H3z M8 7V4h8v3 M3 12h18"],
+ ["08","Европейски сравнения","M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20 M2 12h20 M12 2a15 15 0 0 1 0 20 M12 2a15 15 0 0 0 0 20"],
+ ["09","Население","M3 20v-1a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1 M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6 M16 11a3 3 0 1 0 0-6 M16 15h1a4 4 0 0 1 4 4v1"],
+ ["10","Външна търговия","M3 12h18 M12 3l9 9-9 9 M3 7v10"],
+ ["11","Регионални данни","M3 5l6-2 6 3 6-2v15l-6 2-6-3-6 2z M9 3v15 M15 6v15"],
+ ["12","Бюджет и отчетност","M4 4h16v16H4z M8 8h8 M8 12h8 M8 16h5"],
+ ["13","Кредитен пазар","M3 7h18v13H3z M3 7l9-4 9 4 M8 12h8"],
+ ["14","Социална система","M12 21s-8-4.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.5-8 11-8 11z"],
+ ["15","Актуални събития","M4 4h16v16H4z M8 8h8 M8 12h8 M8 16h5"]
+];
+$("nav").innerHTML=T.map(function(t,i){var m=NAV_META[i];return '<button type="button" data-i="'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+'"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>'}).join("");
 $("nav").onclick=function(e){var i=e.target.dataset.i;if(i==null)return;document.querySelectorAll("nav#nav button").forEach(function(b){var active=b.dataset.i==i;b.classList.toggle("on",active);b.setAttribute("aria-pressed",active?"true":"false")});for(var k=0;k<T.length;k++)$("s"+k).classList.toggle("on",k==i)};
 /* накратко */
 fill("k0",[["6,1%","Годишна инфлация, окт.","експресна оценка","ac"],["−2,8% БВП","Бюджетен дефицит, сеп.","3,669 млрд. € от началото на годината","ac"],["57,2 млрд. €","Депозити на домакинствата","+16,2% за година","gr"],["33,1 млрд. €","Кредити на домакинствата","+20,7% за година","am"],["1 438 €","Средна заплата, Q3","−0,4% спрямо Q2","bl"],["558 €","Средна пенсия, сеп.","минимална 347,51 €","bl"],["21,2%","Под линията на бедност","1,37 млн. души, 2025 г.","ac"],["BBB+","Кредитен рейтинг","Fitch: позитивна · S&P: стабилна","gr"]]);
