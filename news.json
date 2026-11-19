@@ -1,24 +1,78 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T11:46:04.547854+00:00",
+  "updated_at": "2026-11-19T12:51:55.722746+00:00",
   "items": [
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "UN top court rules Myanmar committed genocide against its minority Muslim Rohingya population in 2017",
-      "summary": "The International Court of Justice has upheld large parts of a genocide case against Myanmar linked to the 2017 conflict with its Rohingya minority. It called for it to pay reparations and let refugees return safely.",
-      "url": "https://www.dw.com/en/un-top-court-rules-myanmar-committed-genocide-against-its-minority-muslim-rohingya-population-in-2017/a-79987898?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T11:39:00+00:00",
-      "feed_id": "dw-world"
+      "source": "POLITICO Europe",
+      "title": "Nigel Farage is back in Brussels",
+      "summary": "The veteran Brexiteer is in town to attack Andy Burnham's efforts at building bridges with the EU.",
+      "url": "https://www.politico.eu/article/nigel-farage-is-back-in-brussels/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T12:50:25+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Министърът на иновациите съобщи за нови хакерски атаки срещу държавни сайтове",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439786-ministarat-na-inovatsiite-saobshti-za-novi-hakerski-ataki-sreshtu-darzhavni-saytove",
+      "published": "2026-11-19T12:48:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "Euroclear: Въпросът за запорираните руски средства засяга доверието на външните инвеститори",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439792-euroclear-vaprosat-za-zaporiranite-ruski-sredstva-zasyaga-doverieto-na-vanshnite-investitori",
+      "published": "2026-11-19T12:38:23+00:00",
+      "feed_id": "investor-finance"
     },
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Tusk appears to mock Trump’s Putin comment as Ukraine’s allies meet in Berlin – Europe live",
-      "summary": "After US president called Putin a friend, Poland’s PM said: ‘God, protect us from such friends’ For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Uk",
+      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
+      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or",
       "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-      "published": "2026-11-19T11:37:39+00:00",
+      "published": "2026-11-19T12:34:02+00:00",
       "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Danish MPs approve Greenland security pact with US",
+      "summary": "Danish foreign minister says deal ‘removes all uncertainty’ over territory but warns trust in US needs rebuilding Europe live – latest updates The Danish parliament has unanimously approved a new Arctic security pact between Greenland, Denmark and the US in wh",
+      "url": "https://www.theguardian.com/world/2026/nov/19/danish-mps-approve-greenland-security-pact-us",
+      "published": "2026-11-19T12:33:52+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Meta отлага въвеждането на нова структура на акциите си, предложена от Зукърбърг",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439788-meta-otlaga-vavezhdaneto-na-nova-struktura-na-aktsiite-si-predlozhena-ot-zukarbarg",
+      "published": "2026-11-19T12:28:09+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+      "summary": "Judgment ends seven-year legal battle and is seen as critical test for dealing with most serious of all state crimes Myanmar committed genocide against its Rohingya minority nearly a decade ago, the world’s highest court has ruled. The judgment from the intern",
+      "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+      "published": "2026-11-19T12:05:42+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "ICJ: Myanmar committed genocide against Rohingya",
+      "summary": "The International Court of Justice has upheld large parts of a genocide case against Myanmar linked to the 2017 conflict with its Rohingya minority. It called for it to pay reparations and let refugees return safely.",
+      "url": "https://www.dw.com/en/icj-myanmar-committed-genocide-against-rohingya/a-79987898?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T11:39:00+00:00",
+      "feed_id": "dw-world"
     },
     {
       "section": "europe",
@@ -60,18 +114,9 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
-      "summary": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systematic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two Walkley awards, one for a story about the systemic betrayal of a woman who was ki",
+      "summary": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two Walkley awards, one for a story about the systemic betrayal of a woman who was kill",
       "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
       "published": "2026-11-19T11:13:32+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Myanmar committed acts of genocide against Rohingya minority, world’s top court rules",
-      "summary": "Judgment ends seven-year legal battle and is seen as critical test for dealing with most serious of all state crimes Myanmar committed acts of genocide against its Rohingya minority during “clearance operations” nearly a decade ago, the world’s highest court h",
-      "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
-      "published": "2026-11-19T11:08:44+00:00",
       "feed_id": "guardian-world"
     },
     {
@@ -177,7 +222,7 @@
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6",
-      "summary": "Several African stars feature",
+      "summary": "DJ lag, one of South Africa's best-known electronic music producers, is among several African stars to feature on Grand Theft Auto 6.",
       "url": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T10:32:10+00:00",
       "feed_id": "bbc-world"
@@ -500,7 +545,7 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Leaders of the US, China and Russia hold historic trilateral summit",
+      "title": "Trilateral summit ends with 'peace declaration' but no mention of Ukraine and Iran",
       "summary": "Trump declared that “we have great responsibilities to solve problems that affect the entire planet,” as he joined China's Xi and Russia’s Putin for the historic trilateral summit in China, while Xi said “the world is at peace when great powers live in harmony",
       "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
       "published": "2026-11-19T06:33:02+00:00",
@@ -522,15 +567,6 @@
       "summary": "If the Aboriginal woman had been checked at regular intervals as required, her ‘excess consumption of water’ would have been prevented, inquest finds • Warning: This article contains images of and references to Indigenous Australians who have died Get our brea",
       "url": "https://www.theguardian.com/australia-news/2026/nov/19/tammy-shipley-was-supposed-to-be-monitored-in-prison-instead-she-died-after-drinking-20l-of-water-ntwnfb",
       "published": "2026-11-19T06:20:46+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Mother whose twin baby died was determined to have home birth despite advice of experts, NSW inquest hears",
-      "summary": "Inquest into deaths of four babies in northern NSW between 2022 and 2024 told mother refused to give birth in hospital after hearing others’ traumatic stories Get our breaking news email , free app or daily news podcast Baby B’s mother was so determined to hav",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mother-whose-twin-baby-died-was-determined-to-have-home-birth-despite-expert-advice-nsw-inquest-hears-ntwnfb",
-      "published": "2026-11-19T06:17:12+00:00",
       "feed_id": "guardian-world"
     },
     {
@@ -595,53 +631,12 @@
       "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/die-koalition-der-wartenden-europa-blickt-nach-shenzhen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-19T04:30:00+00:00",
       "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Europe’s automotive transition needs a competitive industrial base",
-      "summary": "POLITICAL ADVERTISEMENT More information here",
-      "url": "https://www.politico.eu/sponsored-content/europes-automotive-transition-needs-a-competitive-industrial-base/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T04:00:00+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Crimean Bridge has been attacked again, Russian official says",
-      "summary": "The Crimean Bridge has been attacked again, Crimea's Russian-installed governor said. The attack comes as Vladimir Putin prepares to sit down with Donald Trump and Xi Jinping for joint talks in China.",
-      "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T03:43:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU lawmakers accuse Chinese officials of intimidation over Taiwan",
-      "summary": "Parliament President Roberta Metsola is in touch with Chinese authorities “to ensure that further incidents can be avoided”",
-      "url": "https://www.politico.eu/article/eu-lawmakers-accuse-chinese-officials-of-intimidation-over-taiwan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T03:00:00+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Germany presses to make Ukraine aid Le Pen-proof",
-      "summary": "Berlin wants to lock future increases of aid to Kyiv into an EU budget framework that can't be vetoed by any single country.",
-      "url": "https://www.politico.eu/article/germany-presses-to-make-ukraine-aid-marine-le-pen-proof/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T03:00:00+00:00",
-      "feed_id": "politico-europe"
     }
   ],
   "feed_status": {
-    "ok": 14,
+    "ok": 15,
     "total": 15,
-    "failures": [
-      {
-        "feed": "investor-finance",
-        "error": "The read operation timed out"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
