@@ -1,7 +1,52 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:23:48.568630+00:00",
+  "updated_at": "2026-11-19T21:15:59.856271+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
+      "summary": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Get our breaking news email , free app or daily news podcast Guardian Australia journalists have won two Walkley awards, one fo",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
+      "published": "2026-11-19T21:04:01+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "'Humanitarian mission' for Kostiantynivka: Is it a trap?",
+      "summary": "Russian President Putin has proposed an evacuation of the Ukrainian city of Kostiantynivka, like the recent operation in Oleshky. Experts warn this could serve military, not humanitarian, aims. What should Kyiv do?",
+      "url": "https://www.dw.com/en/humanitarian-mission-for-kostiantynivka-is-it-a-trap/a-79996772?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T20:53:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+      "summary": "Britain understood to have made concessions on youth mobility scheme as negotiations on wider deal continue British and European negotiators were striving to put the finishing touches to a deal on Thursday night as they provisionally agreed to allow 100,000 EU",
+      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+      "published": "2026-11-19T20:52:05+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Кадър на деня за 19 ноември",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439821-kadar-na-denya-za-19-noemvri",
+      "published": "2026-11-19T20:46:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "US defence secretary Pete Hegseth lands in Ecuador on Latin America anti-narcotics tour",
+      "summary": "The US defence secretary, under fire for his role in the Iran war and illegal bombings in the Caribbean and Pacific, has announced a military pact with Venezuela. His next stop is Honduras.",
+      "url": "https://www.euronews.com/2026/11/19/us-defence-secretary-pete-hegseth-lands-in-ecuador-on-latin-america-anti-narcotics-tour",
+      "published": "2026-11-19T20:33:03+00:00",
+      "feed_id": "euronews"
+    },
     {
       "section": "europe",
       "source": "Euronews",
@@ -167,9 +212,9 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "Xi-Trump-Putin summit: What did it achieve?",
-      "summary": "The presidents of China, the US and Russia have held an unprecedented summit. While Trump said the three leaders were \"making history,\" Xi described the talks as \"fruitful,\" and Putin called them \"open and candid.\"",
-      "url": "https://www.dw.com/en/xi-trump-putin-summit-what-did-it-achieve/a-79996668?maca=en-rss-en-all-1573-rdf",
+      "title": "Xi Jinping, Donald Trump and Vladimir Putin have held trilateral talks ― but what did they achieve?",
+      "summary": "The presidents of China, the US and Russia have held an unprecedented summit. While Trump said the three leaders were \"making history,\" Xi described the talks as \"fruitful\" and Putin called them \"open and candid.\"",
+      "url": "https://www.dw.com/en/xi-jinping-donald-trump-and-vladimir-putin-have-held-trilateral-talks-―-but-what-did-they-achieve/a-79996668?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-19T17:52:00+00:00",
       "feed_id": "dw-world"
     },
@@ -274,15 +319,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
-      "summary": "Britain understood to have made concessions on youth mobility scheme as negotiations on wider deal continue British and EU negotiators have provisionally agreed to allow 100,000 young EU citizens to come to the UK every year under a new mobility scheme, as neg",
-      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
-      "published": "2026-11-19T17:19:17+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Middle East conflict poses biggest threat to global energy security in history, IEA warns",
       "summary": "Disruption to oil supplies through the Strait of Hormuz is driving up costs for households, while the agency says the longer the crisis continues, the harder it will be for global energy markets to recover.",
@@ -374,8 +410,8 @@
     {
       "section": "europe",
       "source": "POLITICO Europe",
-      "title": "Trump presses European leaders about Ukraine aid in call after Putin summit",
-      "summary": "In a surprise call, the U.S. president followed up his meeting with Russian and Chinese leaders by quizzing Kyiv's European allies.",
+      "title": "After Putin talks, Trump tells Europe it could save lives and cash if Ukraine war ends",
+      "summary": "The U.S. president followed up his meeting with Russian and Chinese leaders with a surprise call to Berlin.",
       "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-19T16:38:37+00:00",
       "feed_id": "politico-europe"
@@ -463,30 +499,12 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Islam to become world's largest religion by 2035 as Christianity also grows, study says",
-      "summary": "Pew Research Center has projected that both Islam and Christianity will grow between 2020 and 2070, with Muslims rising by more than 80% to over 3.6 billion and Christians by 30% to close to 3 billion.",
-      "url": "https://www.euronews.com/2026/11/19/islam-to-become-worlds-largest-religion-by-2035-as-christianity-also-grows-study-says",
-      "published": "2026-11-19T15:50:09+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Media advisory - Presentation of the revised MFF negotiating box and Press briefing ahead of the 26-27 November Special European Council",
       "summary": "Press conference on the revised negotiating box for the EU’s next MFF will take place on Saturday 21 November at 11.00, followed by Press briefing ahead of the Special European Council meeting of 26-27 November 2026.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/media-advisory-press-conference-on-the-mff-negobox-and-press-briefing-ahead-of-the-special-european-council-meeting-of-26-27-november-2026/",
       "published": "2026-11-19T15:45:00+00:00",
       "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
-      "summary": "Far from the grand ambitions declared in Yalta in 1945, Shenzhen felt like a meeting in search of an agenda It is arguably true, given it was the first such meeting of the leaders of China, Russia and the US, that Thursday’s gathering in Shenzhen deserved the",
-      "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
-      "published": "2026-11-19T15:35:01+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -588,15 +606,6 @@
       "feed_id": "council-press"
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
-      "summary": "German Foreign Minister Wadephul has said the Coalition of the Willing meeting in Berlin sends a clear message to Moscow to take peace talks seriously. He also warned Ukraine should be prepared for peace talks to fail.",
-      "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T13:56:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "САЩ обмислят увеличаване на износа на дизел и петрол за Европа",
@@ -621,15 +630,6 @@
       "summary": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".",
       "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T13:31:23+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-      "summary": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week.",
-      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T13:07:35+00:00",
       "feed_id": "bbc-world"
     }
   ],
