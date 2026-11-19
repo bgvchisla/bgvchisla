@@ -1,0 +1,9 @@
+# Keep the live news feed fresh for both news columns
+/news.json
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  CDN-Cache-Control: no-store
+  Cloudflare-CDN-Cache-Control: no-store
+
+# Always revalidate the page shell
+/
+  Cache-Control: no-cache, must-revalidate, max-age=0
