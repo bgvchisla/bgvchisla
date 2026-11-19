@@ -1,7 +1,142 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:51:55.722746+00:00",
+  "updated_at": "2026-11-19T14:08:50.546999+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Equipping Europeans for the age of AI: Council approves conclusions",
+      "summary": "The Council has approved conclusions highlighting the need for citizens at all stages of life to be equipped with the skills and competences to engage critically and responsibly with artificial intelligence.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/",
+      "published": "2026-11-19T13:58:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
+      "summary": "German Foreign Minister Wadephul has said the Coalition of the Willing meeting in Berlin sends a clear message to Moscow to take peace talks seriously. He also warned Ukraine should be prepared for peace talks to fail.",
+      "url": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T13:56:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "САЩ обмислят увеличаване на износа на дизел и петрол за Европа",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439797-sasht-obmislyat-uvelichavane-na-iznosa-na-dizel-i-petrol-za-evropa",
+      "published": "2026-11-19T13:54:28+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+      "summary": "Judgment finds ‘intent to destroy a substantial part of the Rohingya population’ after case seen as critical test for dealing with most serious of state crimes Myanmar committed genocide against its Rohingya minority during a 2017 military campaign, the world’",
+      "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+      "published": "2026-11-19T13:52:10+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "No mention of fossil fuels in latest COP31 draft deal",
+      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now all mention of fossil fuels has been removed from the summit's new draft agreement.",
+      "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T13:49:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
+      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "published": "2026-11-19T13:48:04+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+      "summary": "The US Secretary of Defence says Venezuela has 'gone from our most aggressive regional threat to a compliant security partner'.",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T13:31:23+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Pakistan minister to visit India, but no breakthrough expected",
+      "summary": "A Pakistani minister's visit to India for a Shanghai Cooperation Organization forum marks a rare high-level contact between the two archrivals, but analysts say it does not signal a resumption of bilateral engagement.",
+      "url": "https://www.dw.com/en/pakistan-minister-to-visit-india-but-no-breakthrough-expected/a-79991717?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T13:26:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Търговският дефицит на България се свива с 22% на годишна база през септември",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439790-targovskiyat-defitsit-na-balgariya-se-sviva-s-22-na-godishna-baza-prez-septemvri",
+      "published": "2026-11-19T13:15:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "What is at stake at the EU-UK summit in Brussels?",
+      "summary": "Leaders will wrestle with easing Brexit red tape, restoring emissions trading and opening up youth mobility UK politics live – latest updates The EU and UK will hold a long-awaited summit in Brussels on Friday – the second since Brexit – to hammer out the UK’s",
+      "url": "https://www.theguardian.com/politics/2026/nov/19/eu-uk-summit-explainer-burnham-brexit-brussels",
+      "published": "2026-11-19T13:11:23+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+      "summary": "The Russian president said the Crimean Bridge was civilian infrastructure, which Kyiv disputes.",
+      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T13:07:35+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейската комисия открива две нови наказателни процедури срещу България",
+      "summary": "",
+      "url": "https://www.investor.bg/a/527-svyat/439793-evropeyskata-komisiya-otkriva-dve-novi-nakazatelni-protseduri-sreshtu-balgariya",
+      "published": "2026-11-19T13:05:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "APEC summit: Trump, Xi, Putin talks end with 'peace declaration'",
+      "summary": "The three world leaders discussed the Russian invasion of Ukraine as well as nuclear arms controls. Following the trilateral talks, President Trump reportedly headed to the airport. Follow DW live.",
+      "url": "https://www.dw.com/en/apec-summit-trump-xi-putin-talks-end-with-peace-declaration/live-79964719?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T13:05:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+      "summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
+      "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T12:56:30+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Video: EU-Gesundheitskommissar wird aus Protest gegen Pestizidregeln mit „Asche“ beworfen",
+      "summary": "Olivér Várhelyi wollte gerade auf einem Krebsgipfel das Wort ergreifen, als eine graue Substanz auf ihn geworfen wurde.",
+      "url": "https://www.politico.eu/article/video-eu-gesundheitskommissar-wird-aus-protest-gegen-pestizidregeln-mit-asche-beworfen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T12:54:22+00:00",
+      "feed_id": "politico-europe"
+    },
     {
       "section": "europe",
       "source": "POLITICO Europe",
@@ -22,6 +157,15 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+      "summary": "First incursion across boundary since ceasefire deal comes as Eisenkot seeks to form government without Netanyahu The Israeli military crossed into Hamas-controlled central Gaza on Wednesday in its first ground operation across the “yellow line” boundary since",
+      "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+      "published": "2026-11-19T12:40:46+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
       "source": "Investor.bg – Финанси",
       "title": "Euroclear: Въпросът за запорираните руски средства засяга доверието на външните инвеститори",
       "summary": "",
@@ -32,10 +176,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
-      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or",
-      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-      "published": "2026-11-19T12:34:02+00:00",
+      "title": "Eight injured after driver in Israel repeatedly rams car into Palestinians",
+      "summary": "Arab MPs accuse politicians of fuelling hostility as footage shows driver accelerating towards Palestinians at four locations in Kafr Qasim Eight people were injured on Wednesday evening when a driver struck Palestinian residents at four separate locations in",
+      "url": "https://www.theguardian.com/world/2026/nov/19/car-rams-into-palestinian-residents-four-times-in-israeli-city-kafr-qasim",
+      "published": "2026-11-19T12:36:37+00:00",
       "feed_id": "guardian-world"
     },
     {
@@ -58,19 +202,28 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
-      "summary": "Judgment ends seven-year legal battle and is seen as critical test for dealing with most serious of all state crimes Myanmar committed genocide against its Rohingya minority nearly a decade ago, the world’s highest court has ruled. The judgment from the intern",
-      "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
-      "published": "2026-11-19T12:05:42+00:00",
-      "feed_id": "guardian-world"
+      "source": "POLITICO Europe",
+      "title": "Présidentielle : pourquoi les youtubeurs ne veulent pas être régulés comme la télé",
+      "summary": "Dans un entretien à POLITICO, l’Umicc, qui représente les créateurs de contenus, défend ses positions face aux règles de pluralisme que veut leur soumettre l'Arcom.",
+      "url": "https://www.politico.eu/article/presidentielle-pourquoi-les-youtubeurs-ne-veulent-pas-etre-regules-comme-la-tele/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T12:11:50+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Myanmar guilty of genocide against Rohingya UN court rules",
+      "summary": "The International Court of Justice ruled by nine votes to six that Myanmar had \"committed\" genocide against the Rohingya community.",
+      "url": "https://www.euronews.com/2026/11/19/myanmar-guilty-of-genocide-against-rohingya-un-court-rules",
+      "published": "2026-11-19T11:59:09+00:00",
+      "feed_id": "euronews"
     },
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "ICJ: Myanmar committed genocide against Rohingya",
+      "title": "Myanmar committed genocide against Rohingya, top UN court rules",
       "summary": "The International Court of Justice has upheld large parts of a genocide case against Myanmar linked to the 2017 conflict with its Rohingya minority. It called for it to pay reparations and let refugees return safely.",
-      "url": "https://www.dw.com/en/icj-myanmar-committed-genocide-against-rohingya/a-79987898?maca=en-rss-en-all-1573-rdf",
+      "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-19T11:39:00+00:00",
       "feed_id": "dw-world"
     },
@@ -90,15 +243,6 @@
       "summary": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader, Mark Speakman, will not contest his seat at",
       "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
       "published": "2026-11-19T11:23:41+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
-      "summary": "First incursion across boundary since ceasefire deal comes as Eisenkot seeks to form government without Netanyahu The Israeli military crossed into Hamas-controlled central Gaza on Wednesday in its first ground operation across the “yellow line” boundary since",
-      "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
-      "published": "2026-11-19T11:23:11+00:00",
       "feed_id": "guardian-world"
     },
     {
@@ -357,7 +501,7 @@
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
-      "summary": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods",
+      "summary": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods.",
       "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T09:21:54+00:00",
       "feed_id": "bbc-world"
@@ -463,30 +607,12 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Crimean Bridge attacked again, Russia says",
-      "summary": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
-      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T07:32:06+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Giving a solo founder the horsepower of a multinational — affordably",
       "summary": "European small businesses have ambition and creativity, but lack time and budgets. As Kuo Zhang of Alibaba.com writes in an op-ed for Euronews, affordable, ready-to-use AI and global supply chain tools give even solo founders the capabilities of global compani",
       "url": "https://www.euronews.com/2026/11/19/giving-a-solo-founder-the-horsepower-of-a-multinational-affordably",
       "published": "2026-11-19T07:30:21+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "What makes 'Grand Theft Auto VI' more than just a game?",
-      "summary": "When \"GTA VI\" is released on November 19, millions of people worldwide will rush to their consoles to play it. How has this video game created such a cross-generational buzz?",
-      "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T07:21:00+00:00",
-      "feed_id": "dw-world"
     },
     {
       "section": "bulgaria",
@@ -505,132 +631,6 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439767-unicredit-i-germaniya-postignaha-sporazumenie-za-pridobivaneto-na-commerzbank",
       "published": "2026-11-19T07:09:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "North Korea expanding original uranium enrichment facility, UN nuclear watchdog says",
-      "summary": "The IAEA has not had access to Yongbyon or other locations in North Korea since the country kicked out the agency’s inspectors in 2009.",
-      "url": "https://www.euronews.com/2026/11/19/north-korea-expanding-original-uranium-enrichment-facility-un-nuclear-watchdog-says",
-      "published": "2026-11-19T07:00:42+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Why depth beats breadth in Europe’s hunt for an AI edge",
-      "summary": "At the European Resilience Summit, Mauro Capo, Accenture’s digital sovereignty lead for EMEA, shared the company’s view on Europe’s opportunities in AI’s next phase.",
-      "url": "https://www.politico.eu/sponsored-content/why-depth-beats-breadth-in-europes-hunt-for-an-ai-edge/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T07:00:00+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
-      "summary": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by supporters of former prime minister Sheikh Hasina sparked clashes, bomb blasts",
-      "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return",
-      "published": "2026-11-19T06:58:33+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Europe must make the EU–UK Security and Defence Partnership work",
-      "summary": "'Europe’s security environment will not wait for perfect alignment. Our leaders should seize the opportunities within reach. Our industry needs them to do so,' write Micael Johansson and David Lockwood, senior representatives of the European aerospace, securit",
-      "url": "https://www.euronews.com/2026/11/19/europe-must-make-the-euuk-security-and-defence-partnership-work",
-      "published": "2026-11-19T06:41:46+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Trilateral summit ends with 'peace declaration' but no mention of Ukraine and Iran",
-      "summary": "Trump declared that “we have great responsibilities to solve problems that affect the entire planet,” as he joined China's Xi and Russia’s Putin for the historic trilateral summit in China, while Xi said “the world is at peace when great powers live in harmony",
-      "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
-      "published": "2026-11-19T06:33:02+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "France: Hundreds raise a glass to Beaujolais Nouveau in Lyon",
-      "summary": "Lyon welcomed the arrival of Beaujolais Nouveau with a lively nighttime parade of wine barrels, flaming torches and brass music. Hundreds gathered to celebrate the first tastings of this year's wine.",
-      "url": "https://www.euronews.com/video/2026/11/19/france-hundreds-raise-a-glass-to-beaujolais-nouveau-in-lyon",
-      "published": "2026-11-19T06:29:05+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Tammy Shipley was supposed to be monitored in prison. Instead she died after drinking 20L of water",
-      "summary": "If the Aboriginal woman had been checked at regular intervals as required, her ‘excess consumption of water’ would have been prevented, inquest finds • Warning: This article contains images of and references to Indigenous Australians who have died Get our brea",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/tammy-shipley-was-supposed-to-be-monitored-in-prison-instead-she-died-after-drinking-20l-of-water-ntwnfb",
-      "published": "2026-11-19T06:20:46+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Anthropic привлече 81 млрд. долара в най-голямото IPO в историята",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439765-anthropic-privleche-81-mlrd-dolara-v-nay-golyamoto-ipo-v-istoriyata",
-      "published": "2026-11-19T06:03:24+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Is the AI bubble bursting just as Anthropic goes public?",
-      "summary": "The sharp sell-off in tech stocks after the US midterms and the Nvidia scandal has cast doubt on Anthropic's IPO. Yet with hundreds of billions still being invested, some think the AI party is still in full swing.",
-      "url": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T05:58:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Украйна отново атакува Кримския мост, в Русия виждат неадекватна защита за ключовия обект",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439764-ukrayna-otnovo-atakuva-krimskiya-most-v-rusiya-vizhdat-neadekvatna-zashtita-za-klyuchoviya-obekt",
-      "published": "2026-11-19T05:38:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Как Италия се превърна във фискален модел за подражание в Г-7?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439657-kak-italiya-se-prevarna-vav-fiskalen-model-za-podrazhanie-v-g-7",
-      "published": "2026-11-19T05:30:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "The Coalition of the Willing’s chance to deliver",
-      "summary": "European leaders gather in Berlin for a high-stakes meeting on Ukraine, just as Donald Trump, Vladimir Putin and Xi Jinping hold talks in China. With Washington and Moscow sending conflicting signals about Europe’s role in peace negotiations, can the Coalition",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-coalition-of-the-willings-chance-to-deliver/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T05:05:00+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-      "summary": "The meeting comes with challenges as there are things Xi does not appear keen to discuss with Putin and Trump.",
-      "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T04:42:52+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Die Koalition der Wartenden: Europa blickt nach Shenzhen",
-      "summary": "Donald Trump, Xi Jinping und Wladimir Putin verhandeln in Shenzhen womöglich über die neue Weltordnung – und Europa guckt zu. Eine „Koalition der Willigen“ aus Dutzenden Staats- und Regierungschefs sucht gleichzeitig in Berlin nach einer Antwort auf die drohen",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/die-koalition-der-wartenden-europa-blickt-nach-shenzhen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T04:30:00+00:00",
-      "feed_id": "politico-europe"
     }
   ],
   "feed_status": {
