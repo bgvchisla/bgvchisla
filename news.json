@@ -1,11 +1,56 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:44:05.784405+00:00",
+  "updated_at": "2026-11-19T02:41:35.964112+00:00",
   "items": [
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Pre-Christmas rate hike unlikely as unemployment rate jumps to highest level in five years",
+      "title": "One Nation’s general manager takes leave amid speculation he will be sidelined after leaks and vetting scandals",
+      "summary": "Exclusive: Kelvin Morton was hired in February in appointment heralded as turning point for professionalisation of party Get our daily political email , free app or daily news podcast One Nation’s general manager, Kelvin Morton, has taken leave amid speculatio",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/one-nation-general-manager-takes-leave-amid-sidelining-speculation-politics-ntwnfb",
+      "published": "2026-11-19T02:36:37+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "GTA 6 dazzles gamers in Australia with ‘fully lived-in, breathable world’",
+      "summary": "Players can renovate houses, fix cars, lift weights and follow the story in Grand Theft Auto VI’s Miami-inspired Vice City Tell us: are you playing Grand Theft Auto VI? Gamers across Australia woke up Thursday morning feeling like Christmas had come early, som",
+      "url": "https://www.theguardian.com/games/2026/nov/19/gta-6-grand-theft-auto-vi-release-launch-australia-first-to-play-game",
+      "published": "2026-11-19T02:30:12+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Claude-maker Anthropic poised for stock market debut worth up to $1.5tn",
+      "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T02:20:15+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
+      "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
+      "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T01:56:28+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "General Pants Co enters voluntary administration, putting hundreds of jobs at risk",
+      "summary": "Australian fashion chain becomes latest retailer in trouble after David Jones, Cue and Veronika Maine Get our breaking news email , free app or daily news podcast Youth fashion chain General Pants Co has become the latest major retailer to slide into voluntary",
+      "url": "https://www.theguardian.com/business/2026/nov/19/general-pants-co-enters-voluntary-administration-jobs-at-risk",
+      "published": "2026-11-19T01:46:21+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australia may have ‘one foot in recession’ as unemployment surges to five-year high",
       "summary": "Jobless rate rises from 4.7% to 4.9% for October, latest bureau of statistics figures reveal Get our daily political email , free app or daily news podcast Australia may already have “one foot in recession” after unemployment surged to 4.9% in October, from 4.",
       "url": "https://www.theguardian.com/business/2026/nov/19/unemployment-rate-jumps-highest-level-five-years-job-figures",
       "published": "2026-11-19T01:12:55+00:00",
@@ -86,15 +131,6 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
-      "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T23:44:27+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
       "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
       "summary": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
       "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
@@ -127,15 +163,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T23:04:06+00:00",
       "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "GTA 6 dazzles gamers in Australia with ‘fully lived-in, breathable world’",
-      "summary": "Players can renovate houses, fix cars, lift weights and follow the story in Grand Theft Auto VI’s Miami-inspired Vice City Tell us: are you playing Grand Theft Auto VI? Gamers across Australia woke up Thursday morning feeling like Christmas had come early, som",
-      "url": "https://www.theguardian.com/games/2026/nov/19/gta-6-grand-theft-auto-vi-release-launch-australia-first-to-play-game",
-      "published": "2026-11-18T22:48:46+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -201,15 +228,6 @@
       "feed_id": "investor-finance"
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-      "summary": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
-      "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T21:28:08+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Хегсет подписа военно споразумение с Венецуела при необявено посещение",
@@ -265,15 +283,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Hegseth uses Venezuela visit to boast of Maduro’s capture by US military",
-      "summary": "Defense secretary asserts US dominance on trip that would have seemed ‘impossible, almost unbelievable’ a year ago Pete Hegseth has used his first visit to Venezuela since US special forces abducted its former president, Nicolás Maduro, to boast of the dictato",
-      "url": "https://www.theguardian.com/world/2026/nov/18/pete-hegseth-venezuela-nicolas-maduro-military",
-      "published": "2026-11-18T20:24:19+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
       "summary": "On a visit to Caracas, Pete Hegseth signed a deal that signifies the \"reestablishment of our defense partnership.\" US-Venezuela ties were strained for years until US troops ousted ex-President Nicolas Maduro in January.",
@@ -325,15 +334,6 @@
       "url": "https://www.investor.bg/a/518-energetika/439753-ukrainskite-ataki-s-dronove-sa-namalili-pochti-napolovina-rafinirashtiya-kapatsitet-na-rusiya",
       "published": "2026-11-18T19:41:00+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "EU ‘to close door’ to talks on long-term UK ties until Burnham has decided on Brexit",
-      "summary": "Diplomats say piecemeal approach of resets is coming to an end and Europe wants clarity on whether Britain wants to reverse its exit The EU will shut the door to discussions with Andy Burnham about the UK’s longer-term relationship with the bloc until the gove",
-      "url": "https://www.theguardian.com/politics/2026/nov/18/eu-uk-reset-summit-talks-burnham-brexit",
-      "published": "2026-11-18T19:17:19+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "bulgaria",
