@@ -1648,7 +1648,7 @@ fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error(
 });
 
 /* Пазарна лента: Legacy TradingView Ticker Tape — стабилна, компактна версия */
-var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["STOXX:SX5E","Euro Stoxx 50"],["XETR:DAX","DAX"],["EURONEXT:PX1","CAC 40"],["FOREXCOM:UK100","FTSE 100"],["INDEX:NKY","Nikkei 225"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
+var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["ICEENDEX:TFM1!","Dutch TTF газ"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["STOXX:SX5E","Euro Stoxx 50"],["XETR:DAX","DAX"],["EURONEXT:PX1","CAC 40"],["FOREXCOM:UK100","FTSE 100"],["INDEX:NKY","Nikkei 225"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
 function mkLoad(){
  var el=$("mk-tape");
  if(el.dataset.loaded==="1")return;
