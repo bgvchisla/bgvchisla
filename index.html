@@ -1110,8 +1110,24 @@ label.sw{
  #s5 .eco-index-row>b{grid-column:2;grid-row:2}
 }
 
+
+/* Достъпност: връзката за прескачане е скрита, докато не получи клавиатурен фокус. */
+body>a.skip-link{
+ position:fixed!important;top:8px!important;left:-10000px!important;
+ z-index:10000!important;display:block!important;
+ width:max-content!important;max-width:calc(100vw - 24px)!important;
+ padding:11px 16px!important;border:2px solid #fff!important;
+ border-radius:8px!important;background:#24384F!important;color:#fff!important;
+ font-size:16px!important;font-weight:700!important;line-height:1.4!important;
+ text-decoration:none!important;box-shadow:0 4px 16px rgba(0,0,0,.22)!important;
+ transform:none!important;
+}
+body>a.skip-link:focus,body>a.skip-link:focus-visible{
+ left:12px!important;outline:3px solid #A8732E!important;outline-offset:3px!important;
+}
+
 </style>
-<link rel="stylesheet" href="/assets/design-system.css?v=2">
+<link rel="stylesheet" href="/assets/design-system.css?v=3">
 </head>
 <body>
 <a class="skip-link" href="#main-content">Към основното съдържание</a>
