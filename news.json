@@ -1,7 +1,43 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:15:59.856271+00:00",
+  "updated_at": "2026-11-19T22:14:24.803126+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+      "summary": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T22:09:04+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
+      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T21:38:42+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T21:21:43+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "Wall Street се сблъска с разпродажба след силния борсов дебют на Anthropic",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439822-wall-street-se-sblaska-s-razprodazhba-sled-silniya-borsov-debyut-na-anthropic",
+      "published": "2026-11-19T21:21:00+00:00",
+      "feed_id": "investor-finance"
+    },
     {
       "section": "europe",
       "source": "The Guardian – World",
@@ -103,6 +139,15 @@
     },
     {
       "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "The web is held together by volunteers. AI could tear it apart.",
+      "summary": "As AI reveals deeply hidden vulnerabilities, idealist coders and non-profits say they’re running on fumes trying to maintain the web's core vitals.",
+      "url": "https://www.politico.eu/article/ai-internet-website-shutdown-hack-cyberattack/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T19:32:08+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Uganda minister at COP31: 'We need a just transition'",
       "summary": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
@@ -118,15 +163,6 @@
       "url": "https://www.euronews.com/2026/11/19/new-regional-security-architecture-will-also-benefit-europe-pakistani-fm-tells-euronews",
       "published": "2026-11-19T19:17:35+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T19:16:21+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -167,9 +203,9 @@
     {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
-      "title": "Ще промени ли поредната вълна на консолидация в българския банков сектор след сделката с ПИБ",
+      "title": "Ще промени ли поредната вълна на консолидация в българския банков сектор пазара след сделката с ПИБ",
       "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439807-shte-promeni-li-porednata-valna-na-konsolidatsiya-v-balgarskiya-bankov-sektor-sled-sdelkata-s-pib",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439807-shte-promeni-li-porednata-valna-na-konsolidatsiya-v-balgarskiya-bankov-sektor-pazara-sled-sdelkata-s-pib",
       "published": "2026-11-19T18:45:00+00:00",
       "feed_id": "investor-finance"
     },
@@ -516,15 +552,6 @@
       "feed_id": "investor-finance"
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Чуждите инвестиции в България растат с над 66% през първите девет месеца на годината",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439795-chuzhdite-investitsii-v-balgariya-rastat-s-nad-66-prez-parvite-devet-mesetsa-na-godinata",
-      "published": "2026-11-19T15:22:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Alexander Zverev faces fresh lawsuit from ex-girlfriend",
@@ -604,33 +631,6 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/",
       "published": "2026-11-19T13:58:00+00:00",
       "feed_id": "council-press"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "САЩ обмислят увеличаване на износа на дизел и петрол за Европа",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439797-sasht-obmislyat-uvelichavane-na-iznosa-na-dizel-i-petrol-za-evropa",
-      "published": "2026-11-19T13:54:28+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission greenlights the Netherlands' fifth and final payment request for €1.7 billion under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 19 Nov 2026 Today, the European Commission greenlighted the Netherlands' fifth and last payment request worth €1.7 billion under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2523",
-      "published": "2026-11-19T13:37:45+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
-      "summary": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T13:31:23+00:00",
-      "feed_id": "bbc-world"
     }
   ],
   "feed_status": {
