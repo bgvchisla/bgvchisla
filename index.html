@@ -1139,6 +1139,16 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 #site-content .mobile-nav-toggle .mobile-nav-current{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #site-content .mobile-nav-toggle .mobile-nav-chevron{flex:none;font-size:1.15rem;line-height:1;color:#66809B}
 
+
+/* SOFIX: отделен проверен линк към графиката, тъй като Ticker Tape не визуализира този нов пазарен символ коректно. */
+#sofix-link{display:flex;align-items:center;gap:10px;min-height:38px;margin-top:7px;padding:7px 11px;border:1px solid #cbd6e2;border-radius:7px;background:#fff;color:#24384f;text-decoration:none;font-size:.78rem;line-height:1.2}
+#sofix-link strong{font-size:.86rem;letter-spacing:.04em}
+#sofix-link>span:nth-of-type(1){color:#718196}
+#sofix-link .sofix-open{margin-left:auto;color:#315f91;font-weight:700;white-space:nowrap}
+#sofix-link:hover{border-color:#315f91;background:#f7f9fb}
+#sofix-link:focus-visible{outline:3px solid #a8732e;outline-offset:2px}
+@media(max-width:639px){#sofix-link{gap:7px;flex-wrap:wrap}#sofix-link .sofix-open{margin-left:auto}}
+
 </style>
 <link rel="stylesheet" href="/assets/design-system.css?v=3">
 </head>
@@ -1161,7 +1171,7 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 <div id="site-content">
 <main id="main-content">
 <h1 class="sr-only">България в числа — официални данни, икономика, финанси и общество</h1>
-<div id="mk"><div id="mk-tape"></div><div id="mk-note">Пазарни цени: TradingView · може да са със закъснение · не са инвестиционен съвет</div></div>
+<div id="mk"><div id="mk-tape"></div><a id="sofix-link" href="https://www.tradingview.com/symbols/BSESOF-SOFIX/" target="_blank" rel="noopener noreferrer" aria-label="Отвори индекса SOFIX в TradingView">🇧🇬 <strong>SOFIX</strong><span>Българска фондова борса</span><span class="sofix-open">Графика в TradingView ↗</span></a><div id="mk-note">Пазарни цени: TradingView · може да са със закъснение · не са инвестиционен съвет</div></div>
 <div class="hero">
 <small>🇧🇬 Държавен дълг на България (централно управление), оценка в реално време</small>
 <div class="n" id="debt">—</div>
@@ -1638,7 +1648,7 @@ fetch("news.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error(
 });
 
 /* лента с пазарни цени (TradingView): зарежда се автоматично */
-var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["STOXX:SX5E","Euro Stoxx 50 Index"],["BSESOF:SOFIX","SOFIX · България"],["XETR:DAX","DAX"],["EURONEXT:PX1","CAC 40"],["FOREXCOM:UK100","FTSE 100"],["INDEX:NKY","Nikkei 225"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
+var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["STOXX:SX5E","Euro Stoxx 50 Index"],["XETR:DAX","DAX"],["EURONEXT:PX1","CAC 40"],["FOREXCOM:UK100","FTSE 100"],["INDEX:NKY","Nikkei 225"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
 function mkLoad(){var th="light",el=$("mk-tape");if(el.dataset.loaded==="1")return;el.dataset.loaded="1";el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:(window.matchMedia&&window.matchMedia("(max-width: 639px)").matches)?"regular":"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
 /* Поверителност: TradingView се зарежда само след избор */
 (function(){var key="bgvchisla_tradingview_choice",banner=$("privacy-notice"),choice=null;try{choice=localStorage.getItem(key)}catch(e){}if(choice==="allow"){mkLoad()}else if(choice==="essential"){$("mk-tape").textContent="Пазарната лента е изключена по Ваш избор."}else{banner.hidden=false}function save(v){try{localStorage.setItem(key,v)}catch(e){}banner.hidden=true;if(v==="allow")mkLoad();else{$("mk-tape").innerHTML="";$("mk-tape").dataset.loaded="0";$("mk-tape").textContent="Пазарната лента не е заредена по Ваш избор."}} $("privacy-settings").addEventListener("click",function(){banner.hidden=false});$("privacy-accept").addEventListener("click",function(){save("allow")});$("privacy-essential").addEventListener("click",function(){save("essential")})})();
