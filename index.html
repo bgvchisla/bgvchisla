@@ -973,6 +973,50 @@ label.sw{
   }
 }
 
+
+/* Section 4 — editorial hierarchy, chart clarity and responsive rhythm */
+#s4{--s4-ink:#26384d}
+#s4>h2{letter-spacing:-.025em}
+#s4>p.h{max-width:68ch;line-height:1.55}
+#s4 .box{padding:clamp(15px,2.2vw,22px);border-radius:14px}
+#s4 .box h3{font-size:.94rem;letter-spacing:-.01em;margin-bottom:13px}
+#s4 .don{gap:clamp(16px,3vw,26px);align-items:center;padding:4px 2px 2px}
+#s4 .ring{width:clamp(112px,17vw,148px);height:clamp(112px,17vw,148px);box-shadow:inset 0 0 0 1px rgba(38,56,77,.08)}
+#s4 .ring span{width:72%;height:72%;font-size:clamp(1.05rem,2vw,1.35rem);color:var(--tx);box-shadow:0 1px 4px rgba(30,45,62,.06)}
+#s4 .lg{font-size:.84rem;line-height:1.5;gap:9px;min-width:0}
+#s4 .lg>div{min-width:0}
+#s4 .lg b{font-variant-numeric:tabular-nums;white-space:nowrap}
+#s4 .dot{width:10px;height:10px;margin-right:8px;vertical-align:baseline}
+#s4 #k4{gap:10px}
+#s4 #k4 .c{min-width:0;padding:15px 14px;border-radius:12px;box-shadow:0 1px 2px rgba(30,45,62,.025)}
+#s4 #k4 .n{font-size:clamp(1.22rem,2vw,1.55rem);letter-spacing:-.035em}
+#s4 #k4 .l{font-size:.79rem;line-height:1.4;font-weight:650}
+#s4 #k4 .s{font-size:.7rem;line-height:1.45;margin-top:5px}
+#s4 .chart-intro,#s4 .chart-foot{font-size:.74rem;line-height:1.5;color:var(--mu);margin:0 0 12px}
+#s4 .chart-foot{margin:12px 0 0;padding-top:10px;border-top:1px solid var(--bd)}
+#s4 #inc{display:grid;gap:11px}
+#s4 #inc .hb{grid-template-columns:minmax(145px,29%) minmax(50px,1fr) auto;gap:10px;margin:0;font-size:.76rem}
+#s4 #inc .hb>span:first-child{line-height:1.35;color:var(--tx)}
+#s4 #inc .hb .t{height:10px;border-radius:10px;background:#e9edf2}
+#s4 #inc .hb .t i{border-radius:10px;min-width:2px}
+#s4 #inc .hb b{font-size:.78rem;white-space:nowrap}
+#s4 .tip{line-height:1.55;padding:14px 16px;border-radius:12px}
+#s4>.src{line-height:1.55;max-width:100ch}
+@media(max-width:520px){
+ #s4 .don{align-items:flex-start;gap:13px}
+ #s4 .ring{width:104px;height:104px}
+ #s4 .ring span{font-size:1rem}
+ #s4 .lg{font-size:.76rem;gap:7px}
+ #s4 #inc .hb{grid-template-columns:minmax(112px,40%) minmax(35px,1fr) auto;gap:7px;font-size:.7rem}
+ #s4 #inc .hb b{font-size:.7rem}
+ #s4 #k4 .c{padding:13px 12px}
+}
+@media(min-width:960px){
+ #s4>.box.wide:first-of-type{grid-column:1/-1}
+ #s4>.income-box{grid-column:1/-1}
+ #s4>.tip{grid-column:1/-1}
+}
+
 </style>
 </head>
 <body>
@@ -1039,10 +1083,10 @@ label.sw{
 <section id="s4">
 <h2>Доходи, бедност и пенсии</h2><p class="h">Колко получават хората и колко са под линията на бедност.</p>
 <div class="box wide"><h3>Бедност през 2025 г. (НСИ)</h3>
-<div class="don"><div class="ring" id="ring"><span>21,2%</span></div>
+<div class="don"><div class="ring" id="ring" role="img" aria-label="21,2 процента от населението под линията на бедност през 2025 година"><span>21,2%</span></div>
 <div class="lg"><div><i class="dot" style="background:var(--ac)"></i><b>1 368 700</b> души под линията на бедност</div><div><i class="dot" style="background:var(--bd)"></i>Останалите ≈ 5,07 млн.</div><div class="s" style="color:var(--mu)">Линия за 2025 г.: 866,67 лв. (≈ 443 €) на човек месечно</div></div></div></div>
 <div class="g mt" id="k4"></div>
-<div class="box wide"><h3>Месечни доходи в евро – сравнение</h3><div id="inc"></div></div>
+<div class="box wide income-box"><h3>Месечни доходи и социални прагове</h3><p class="chart-intro">Стойности в евро на месец. Съпоставката включва различни категории и отчетни периоди — не е среден доход на домакинство.</p><div id="inc"></div><p class="chart-foot">Минимални и средни пенсии, годишни линии на бедност и минимална/средна работна заплата. Периодът е посочен в етикета на всеки показател.</p></div>
 <div class="tip">От 1 юли 2026 г. минималната пенсия за осигурителен стаж и възраст е 347,51 € — с 43,12 € под линията на бедност за 2026 г. (390,63 €). Средната пенсия през септември е 558,08 €; броят на пенсионерите е 2 067 912.</div>
 <p class="src">Източници: НСИ — „Статистика на доходите и условията на живот“ (EU-SILC), изследване 2025 г.; референтната година на доходите за показателите за бедност и неравенство е 2024 г. Данните за средната пенсия за септември 2026 г. са от НОИ. Коефициентът на Джини е по скала от 0 (пълно равенство) до 100 (пълно неравенство).</p>
 </section>
