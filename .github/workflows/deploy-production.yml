@@ -70,7 +70,7 @@ jobs:
       - name: Prepare files
         run: |
           mkdir public
-          cp index.html data.json economy.json economy-charts.js privacy.html news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json public/
+          cp index.html data.json economy.json economy-charts.js privacy.html news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json _headers public/
 
       - name: Deploy production
         if: github.event_name != 'workflow_run' || steps.news_change.outputs.deploy == 'true'
