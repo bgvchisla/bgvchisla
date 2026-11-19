@@ -1,7 +1,169 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:21:58.588696+00:00",
+  "updated_at": "2026-11-19T16:27:22.827696+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "SOFIX се повиши с над 2%, оборотът на БФБ надхвърли 6 млн. евро",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439811-sofix-se-povishi-s-nad-2-oborotat-na-bfb-nadhvarli-6-mln-evro",
+      "published": "2026-11-19T16:24:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+      "summary": "Relief in the immediate aftermath of a landmark ruling, but what happens next is in the hands of governments around the world There were tears in the halls of The Hague in the Netherlands and an eruption of applause in the refugee camps of Bangladesh as the sc",
+      "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling",
+      "published": "2026-11-19T16:15:52+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
+      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "published": "2026-11-19T16:15:46+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "No mention of fossil fuels in latest COP31 draft deal",
+      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now all mention of fossil fuels has been removed from the summit's new draft agreement.",
+      "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T16:03:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Европейските инвеститори на дребно са купили акции за 1,1 млрд. долара в IPO-то на Anthropic",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439806-evropeyskite-investitori-na-drebno-sa-kupili-aktsii-za-11-mlrd-dolara-v-ipo-to-na-anthropic",
+      "published": "2026-11-19T16:02:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Enlargement: EU and Montenegro close accession negotiations on taxation and regional policy",
+      "summary": "The EU and Montenegro provisionally closed accession negotiations on taxation (chapter 16) and regional policy and coordination of structural instruments (chapter 22).",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/enlargement-eu-and-montenegro-close-accession-negotiations-on-taxation-and-regional-policy/",
+      "published": "2026-11-19T15:58:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Nasdaq Composite започва сесията на зелено, Anthropic се насочва към ръст при дебюта си*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439810-nasdaq-composite-zapochva-sesiyata-na-zeleno-anthropic-se-nasochva-kam-rast-pri-debyuta-si",
+      "published": "2026-11-19T15:55:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+      "summary": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people.",
+      "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T15:52:26+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Anthropic trading tests investors' appetite for AI",
+      "summary": "Shares in Anthropic have started trading on the Nasdaq after its record $81 billion IPO. Its performance will put investor confidence in AI and the Claude maker's $1.5 trillion valuation to the test.",
+      "url": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T15:52:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Britain shouldn’t rush to a second Brexit referendum, say pro-EU Lib Dems",
+      "summary": "Al Pinkerton, the party's Europe spokesperson, says the public would have “an expectation” there would be a referendum on rejoining the bloc.",
+      "url": "https://www.politico.eu/article/britain-brexit-referendum-liberal-democrats-al-pinkerton/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T15:51:21+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Islam to become world's largest religion by 2035 as Christianity also grows, study says",
+      "summary": "Pew Research Center has projected that both Islam and Christianity will grow between 2020 and 2070, with Muslims rising by more than 80% to over 3.6 billion and Christians by 30% to close to 3 billion.",
+      "url": "https://www.euronews.com/2026/11/19/islam-to-become-worlds-largest-religion-by-2035-as-christianity-also-grows-study-says",
+      "published": "2026-11-19T15:50:09+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’ Apec summit – latest updates China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit,",
+      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+      "published": "2026-11-19T15:50:03+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - Presentation of the revised MFF negotiating box and Press briefing ahead of the 26-27 November Special European Council",
+      "summary": "Press conference on the revised negotiating box for the EU’s next MFF will take place on Saturday 21 November at 11.00, followed by Press briefing ahead of the Special European Council meeting of 26-27 November 2026.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/media-advisory-press-conference-on-the-mff-negobox-and-press-briefing-ahead-of-the-special-european-council-meeting-of-26-27-november-2026/",
+      "published": "2026-11-19T15:45:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "‘New page in history?’ Xi, Trump and Putin summit was more of a footnote",
+      "summary": "Far from the grand ambitions declared in Yalta in 1945, Shenzhen felt like a meeting in search of an agenda Apec summit – latest updates It is arguably true, given it was the first such meeting of the leaders of China, Russia and the US, that Thursday’s gather",
+      "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
+      "published": "2026-11-19T15:35:01+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "Групата на „Спиди“ отчита 26% ръст на консолидираната печалба за първите девет месеца",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439774-grupata-na-spidi-otchita-26-rast-na-konsolidiranata-pechalba-za-parvite-devet-mesetsa",
+      "published": "2026-11-19T15:34:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "summary": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
+      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T15:23:34+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Чуждите инвестиции в България растат с над 66% през първите девет месеца на годината",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439795-chuzhdite-investitsii-v-balgariya-rastat-s-nad-66-prez-parvite-devet-mesetsa-na-godinata",
+      "published": "2026-11-19T15:22:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+      "summary": "Andy Burnham due in Brussels on Friday but sticking points on food rules and tuition fees remain unresolved The UK-EU reset talks will go “down to the wire” as the British government battles to have a say in shaping future European food and farming rules. With",
+      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+      "published": "2026-11-19T15:18:12+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "Deutsche Welle",
@@ -40,15 +202,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
-      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or",
-      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-      "published": "2026-11-19T14:59:14+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU Commission confirms it was targeted in cyberattack using AI tools",
       "summary": "The European Commission was targeted by an \"AI-generated cybercampaign,\" a spokesperson has said. This is the first time the bloc has publicly reported an AI-based cyberattack.",
@@ -67,15 +220,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "No mention of fossil fuels in latest COP31 draft deal",
-      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now all mention of fossil fuels has been removed from the summit's new draft agreement.",
-      "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T14:46:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Германски компании планират нови инвестиции в България през 2027 и 2028 г.",
       "summary": "",
@@ -84,20 +228,11 @@
       "feed_id": "investor-economy"
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘Really making history’: five takeaways from the meeting between Trump, Xi and Putin",
-      "summary": "Leaders focused on nuclear weapons and international court at their unprecedented gathering in Shenzhen Apec summit live – latest updates The presidents of the US, China and Russia met on Thursday for an unprecedented trilateral gathering on the sidelines of t",
-      "url": "https://www.theguardian.com/world/2026/nov/19/five-takeaways-from-putin-trump-xi-apec-shenzhen-summit",
-      "published": "2026-11-19T14:32:03+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
-      "title": "Срещата в Шънджън вероятно е краят на световната доминацията на САЩ. Кой ще ги замести?",
+      "title": "Срещата в Шънджън вероятно е краят на световната доминация на САЩ. Кой ще ги замести?",
       "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439798-sreshtata-v-shandzhan-veroyatno-e-krayat-na-svetovnata-dominatsiyata-na-sasht-koy-shte-gi-zamesti",
+      "url": "https://www.investor.bg/a/516-politika/439798-sreshtata-v-shandzhan-veroyatno-e-krayat-na-svetovnata-dominatsiya-na-sasht-koy-shte-gi-zamesti",
       "published": "2026-11-19T14:20:00+00:00",
       "feed_id": "investor-economy"
     },
@@ -213,7 +348,7 @@
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-      "summary": "The Russian president said the Crimean Bridge was civilian infrastructure, which Kyiv disputes.",
+      "summary": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week.",
       "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T13:07:35+00:00",
       "feed_id": "bbc-world"
@@ -291,24 +426,6 @@
       "feed_id": "investor-finance"
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Eight injured after driver in Israel repeatedly rams car into Palestinians",
-      "summary": "Arab MPs accuse politicians of fuelling hostility as footage shows driver accelerating towards Palestinians at four locations in Kafr Qasim Eight people were injured on Wednesday evening when a driver struck Palestinian residents at four separate locations in",
-      "url": "https://www.theguardian.com/world/2026/nov/19/car-rams-into-palestinian-residents-four-times-in-israeli-city-kafr-qasim",
-      "published": "2026-11-19T12:36:37+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Danish MPs approve Greenland security pact with US",
-      "summary": "Danish foreign minister says deal ‘removes all uncertainty’ over territory but warns trust in US needs rebuilding Europe live – latest updates The Danish parliament has unanimously approved a new Arctic security pact between Greenland, Denmark and the US in wh",
-      "url": "https://www.theguardian.com/world/2026/nov/19/danish-mps-approve-greenland-security-pact-us",
-      "published": "2026-11-19T12:33:52+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Meta отлага въвеждането на нова структура на акциите си, предложена от Зукърбърг",
@@ -370,15 +487,6 @@
       "url": "https://www.politico.eu/article/watch-eu-health-chief-has-ashes-thrown-over-him-in-protest-at-pesticide-rules/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-19T11:29:04+00:00",
       "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
-      "summary": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader, Mark Speakman, will not contest his seat at",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
-      "published": "2026-11-19T11:23:41+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -489,15 +597,6 @@
       "feed_id": "investor-economy"
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Биткойнът се раздели с ръстовете от лятото и остава с малък буфер за разпродажби",
-      "summary": "",
-      "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439779-bitkoynat-se-razdeli-s-rastovete-ot-lyatoto-i-ostava-s-malak-bufer-za-razprodazhbi",
-      "published": "2026-11-19T10:18:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Daily News 19 / 11 / 2026",
@@ -532,105 +631,6 @@
       "url": "https://ec.europa.eu/eurostat/product?code=4-19112026-ap",
       "published": "2026-11-19T10:00:00+00:00",
       "feed_id": "eurostat-news"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "APEC summit, GTA VI launch, wine parade... Today’s top No Comment videos from around the world",
-      "summary": "Watch today's top stories from around the world in this edition of Euronews' No Comment.",
-      "url": "https://www.euronews.com/video/2026/11/19/apec-summit-gta-vi-launch-wine-parade-todays-top-no-comment-videos-from-around-the-world",
-      "published": "2026-11-19T09:50:26+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Internal market for services: Council adopts regulation on the e-declaration of posted workers",
-      "summary": "Council gives its final approval to the regulation on the e-declaration of posted workers.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/internal-market-for-services-council-adopts-regulation-on-the-e-declaration-of-posted-workers/",
-      "published": "2026-11-19T09:31:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Къде да инвестираме в условия на глобална несигурност?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439722-kade-da-investirame-v-usloviya-na-globalna-nesigurnost",
-      "published": "2026-11-19T09:30:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Council calls for action to empower young people in an evolving information environment",
-      "summary": "The Council has approved conclusions aimed at empowering young people in an evolving information environment.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/council-calls-for-action-to-empower-young-people-in-an-evolving-information-environment/",
-      "published": "2026-11-19T09:30:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "South Korea's top court overturns jail term for former PM Han",
-      "summary": "Former Prime Minister Han Duck-so was convicted of helping legitimize the 2024 martial law declaration. The case will now return to a lower court.",
-      "url": "https://www.dw.com/en/south-korea-s-top-court-overturns-jail-term-for-former-pm-han/a-79987912?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T09:28:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Council greenlights new EU rules to protect vulnerable adults",
-      "summary": "The Council today formally adopted rules ensuring that adults in need of support with decision-making are better protected in cross-border situations when it comes to medical care, managing property and moving to another country.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/council-greenlights-new-eu-rules-to-protect-vulnerable-adults/",
-      "published": "2026-11-19T09:27:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Simplification: Council signs off on new law simplifying and streamlining rules on chemical products",
-      "summary": "Council signs off on new law simplifying and streamlining rules on chemical products.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/simplification-council-signs-off-on-new-law-simplifying-and-streamlining-rules-on-chemical-products/",
-      "published": "2026-11-19T09:24:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
-      "summary": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods.",
-      "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T09:21:54+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Watch: Trump, Putin and Xi sit down for historic three-way talks",
-      "summary": "The leaders of the United States, China and Russia have begun their first-ever trilateral talks in Shenzhen, China.",
-      "url": "https://www.euronews.com/2026/11/19/watch-trump-putin-and-xi-sit-down-for-historic-three-way-talks",
-      "published": "2026-11-19T09:20:23+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
-      "summary": "Some local media report that at least four bodies have been recovered.",
-      "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T09:02:52+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Hoekstra at press conference \"Powering the Transition: New Alliances to Replace the World's Most Potent Greenhouse Gas SF6” at COP31",
-      "summary": "European Commission Speech Antalya, 19 Nov 2026 Ladies and gentlemen, Good morning to all of you. I am privileged to be here with you on the kind invitation of Minister Schneider. Dear Carsten, really great t...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2514",
-      "published": "2026-11-19T08:49:35+00:00",
-      "feed_id": "commission-press"
     }
   ],
   "feed_status": {
