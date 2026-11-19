@@ -1,24 +1,105 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:15:21.901162+00:00",
+  "updated_at": "2026-11-19T19:27:48.456041+00:00",
   "items": [
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "New regional security architecture will also benefit Europe, Pakistani FM tells Euronews",
+      "summary": "In an exclusive interview for Euronews’ World Conversation show, Pakistan’s deputy prime minister revealed the backstage efforts that led to the US-Israel agreement to end the war in June. He also outlined Pakistan's strategy towards a new regional security ar",
+      "url": "https://www.euronews.com/2026/11/19/new-regional-security-architecture-will-also-benefit-europe-pakistani-fm-tells-euronews",
+      "published": "2026-11-19T19:17:35+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T19:16:21+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
-      "title": "Ukraine allies warn ‘Yalta format’ will not bring about peace – Europe live",
-      "summary": "Berlin meeting of the ‘coalition of the willing’ comes after Trump declared Putin a ‘friend’ during trilateral meeting with Xi in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state medi",
-      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-      "published": "2026-11-19T18:03:54+00:00",
+      "title": "UK and EU plan first talks on sending refused asylum seekers to third countries",
+      "summary": "Two sides to commit to discussing third-country hubs as part of reset pact after five-country deal with Rwanda The UK and the EU plan to establish formal talks for the first time about sending rejected asylum seekers to third-country hubs, according to a leake",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/19/uk-eu-talks-asylum-seekers-third-country-hubs",
+      "published": "2026-11-19T19:02:45+00:00",
       "feed_id": "guardian-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Не само AI – какво ще отличи успешните технологични компании на борсата",
+      "summary": "",
+      "url": "https://www.investor.bg/a/566-novini-i-analizi/439817-ne-samo-ai-kakvo-shte-otlichi-uspeshnite-tehnologichni-kompanii-na-borsata",
+      "published": "2026-11-19T19:00:00+00:00",
+      "feed_id": "investor-finance"
     },
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "Germany news: Pistorius to visit Auschwitz memorial in Poland trip",
-      "summary": "Germany's defense minister's first stop in Poland will be at the memorial site of the former Nazi extermination camp Auschwitz-Birkenau. Follow DW for more.",
-      "url": "https://www.dw.com/en/germany-news-pistorius-to-visit-auschwitz-memorial-in-poland-trip/live-79987991?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T18:01:00+00:00",
+      "title": "Germany news: Pistorius visits Auschwitz memorial in Poland trip",
+      "summary": "Germany's defense minister's first stop in Poland was the memorial site of the former Nazi extermination camp Auschwitz-Birkenau. Follow DW for more.",
+      "url": "https://www.dw.com/en/germany-news-pistorius-visits-auschwitz-memorial-in-poland-trip/live-79987991?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T18:59:00+00:00",
       "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Iraq's risky standoff: The state vs. Iran-allied militias",
+      "summary": "This week, Iraqi security forces surrounded an area run by the Kataib Hezbollah militia. Onlookers describe it as the most dangerous confrontation between the Iraqi state and Iran-allied militias in decades.",
+      "url": "https://www.dw.com/en/iraq-s-risky-standoff-the-state-vs-iran-allied-militias/a-79995757?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T18:59:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Ще промени ли поредната вълна на консолидация в българския банков сектор след сделката с ПИБ",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439807-shte-promeni-li-porednata-valna-na-konsolidatsiya-v-balgarskiya-bankov-sektor-sled-sdelkata-s-pib",
+      "published": "2026-11-19T18:45:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "European leaders present united front in push for peace in Ukraine",
+      "summary": "Talks in Berlin end with reaffirmed support for Kyiv and a concerted push for European representation at future peace talks to end Russia's invasion of Ukraine. DW has more.",
+      "url": "https://www.dw.com/en/european-leaders-present-united-front-in-push-for-peace-in-ukraine/live-79986520?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T18:44:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Онлайн търговците под двоен натиск – хакери и китайски платформи",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/439812-onlayn-targovtsite-pod-dvoen-natisk-hakeri-i-kitayski-platformi",
+      "published": "2026-11-19T18:30:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Trump leaves China without meeting Kim Jong-un as trilateral summit raises concerns across Asia",
+      "summary": "The US, Chinese and Russian leaders pledged to hold talks on nuclear risk reduction, but made no mention of North Korea in their joint peace declaration.",
+      "url": "https://www.euronews.com/2026/11/19/trump-leaves-china-without-meeting-kim-jong-un-as-trilateral-summit-raises-concerns-across",
+      "published": "2026-11-19T18:25:39+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Ukraine allies warn ‘Yalta format’ will not bring about peace – as it happened",
+      "summary": "Berlin meeting of the ‘coalition of the willing’ comes after Trump declared Putin a ‘friend’ during trilateral meeting with Xi in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state medi",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "published": "2026-11-19T18:03:54+00:00",
+      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -132,7 +213,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
-      "summary": "UK understood to have made concessions on youth mobility scheme as negotiations on wider deal continue British and EU negotiators have provisionally agreed to allow 100,000 young EU citizens to come to the UK every year under a new mobility scheme, as negotiat",
+      "summary": "Britain understood to have made concessions on youth mobility scheme as negotiations on wider deal continue British and EU negotiators have provisionally agreed to allow 100,000 young EU citizens to come to the UK every year under a new mobility scheme, as neg",
       "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
       "published": "2026-11-19T17:19:17+00:00",
       "feed_id": "guardian-world"
@@ -463,15 +544,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
-      "summary": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment invo",
-      "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment",
-      "published": "2026-11-19T14:00:50+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Equipping Europeans for the age of AI: Council approves conclusions",
       "summary": "The Council has approved conclusions highlighting the need for citizens at all stages of life to be equipped with the skills and competences to engage critically and responsibly with artificial intelligence.",
@@ -525,15 +597,6 @@
       "feed_id": "dw-world"
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Търговският дефицит на България се свива с 22% на годишна база през септември",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439790-targovskiyat-defitsit-na-balgariya-se-sviva-s-22-na-godishna-baza-prez-septemvri",
-      "published": "2026-11-19T13:15:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
@@ -553,15 +616,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "APEC summit: Trump, Xi, Putin talks end with 'peace declaration'",
-      "summary": "The three world leaders discussed the Russian invasion of Ukraine as well as nuclear arms controls. Following the trilateral talks, President Trump reportedly headed to the airport.",
-      "url": "https://www.dw.com/en/apec-summit-trump-xi-putin-talks-end-with-peace-declaration/live-79964719?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T13:05:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
       "source": "POLITICO Europe",
       "title": "Startups call on Commission to salvage or scrap EU Inc proposal",
       "summary": "Lobby groups call on Brussels to withdraw and resubmit after proposal for new corporate form was watered down by EU member countries.",
@@ -571,66 +625,12 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
-      "summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
-      "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T12:56:30+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "POLITICO Europe",
       "title": "Video: EU-Gesundheitskommissar wird aus Protest gegen Pestizidregeln mit „Asche“ beworfen",
       "summary": "Olivér Várhelyi wollte gerade auf einem Krebsgipfel das Wort ergreifen, als eine graue Substanz auf ihn geworfen wurde.",
       "url": "https://www.politico.eu/article/video-eu-gesundheitskommissar-wird-aus-protest-gegen-pestizidregeln-mit-asche-beworfen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-19T12:54:22+00:00",
       "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Nigel Farage is back in Brussels",
-      "summary": "The veteran Brexiteer is in town to attack Andy Burnham's efforts at building bridges with the EU.",
-      "url": "https://www.politico.eu/article/nigel-farage-is-back-in-brussels/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T12:50:25+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Министърът на иновациите съобщи за нови хакерски атаки срещу държавни сайтове",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439786-ministarat-na-inovatsiite-saobshti-za-novi-hakerski-ataki-sreshtu-darzhavni-saytove",
-      "published": "2026-11-19T12:48:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Euroclear: Въпросът за запорираните руски средства засяга доверието на външните инвеститори",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/439792-euroclear-vaprosat-za-zaporiranite-ruski-sredstva-zasyaga-doverieto-na-vanshnite-investitori",
-      "published": "2026-11-19T12:38:23+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Présidentielle : pourquoi les youtubeurs ne veulent pas être régulés comme les télés",
-      "summary": "Dans un entretien à POLITICO, l’Umicc défend fermement ses positions face aux règles de pluralisme que veut soumettre l'Arcom aux créateurs de contenus.",
-      "url": "https://www.politico.eu/article/presidentielle-pourquoi-les-youtubeurs-ne-veulent-pas-etre-regules-comme-la-tele/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T12:11:50+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Myanmar guilty of genocide against Rohingya UN court rules",
-      "summary": "The International Court of Justice ruled by nine votes to six that Myanmar had \"committed\" genocide against the Rohingya community.",
-      "url": "https://www.euronews.com/2026/11/19/myanmar-guilty-of-genocide-against-rohingya-un-court-rules",
-      "published": "2026-11-19T11:59:09+00:00",
-      "feed_id": "euronews"
     }
   ],
   "feed_status": {
