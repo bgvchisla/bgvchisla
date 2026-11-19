@@ -1,7 +1,115 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:53:17.175133+00:00",
+  "updated_at": "2026-11-19T08:13:06.132135+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Страните от ЕС се договориха за по-дълго отлагане на правилата за метан от вносителите",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439772-stranite-ot-es-se-dogovoriha-za-po-dalgo-otlagane-na-pravilata-za-metan-ot-vnositelite",
+      "published": "2026-11-19T08:03:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "China: Trump calls Putin his \"friend\" as leaders meet amid in Shenzhen",
+      "summary": "Donald Trump greeted Vladimir Putin as his friend during a meeting in Shenzhen. Their 40-minute encounter came ahead of trilateral talks with Chinese President Xi Jinping.",
+      "url": "https://www.euronews.com/video/2026/11/19/china-trump-calls-putin-his-friend-as-leaders-meet-amid-in-shenzhen",
+      "published": "2026-11-19T07:56:00+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Ukraine: Four killed and at least 13 injured in Russian strike on Odesa",
+      "summary": "Russian strikes on the historic centre of Odesa, Ukraine, killed four people and injured at least 13 others on Wednesday 18 November 2026, according to the city’s military administration.",
+      "url": "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa",
+      "published": "2026-11-19T07:45:11+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Цената на петрола се стабилизира след острия си спад в сряда*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439769-tsenata-na-petrola-se-stabilizira-sled-ostriya-si-spad-v-sryada",
+      "published": "2026-11-19T07:39:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Crimean Bridge attacked again, Russia says",
+      "summary": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
+      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T07:32:06+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Giving a solo founder the horsepower of a multinational — affordably",
+      "summary": "European small businesses have ambition and creativity, but lack time and budgets. As Kuo Zhang of Alibaba.com writes in an op-ed for Euronews, affordable, ready-to-use AI and global supply chain tools give even solo founders the capabilities of global compani",
+      "url": "https://www.euronews.com/2026/11/19/giving-a-solo-founder-the-horsepower-of-a-multinational-affordably",
+      "published": "2026-11-19T07:30:21+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "What makes 'Grand Theft Auto VI' more than just a game?",
+      "summary": "When \"GTA VI\" is released on November 19, millions of people worldwide will rush to their consoles to play it. How has this video game created such a cross-generational buzz?",
+      "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T07:21:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Бонуси за близо 4 млн. евро са раздадени в АПИ през третото тримесечие",
+      "summary": "",
+      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439768-bonusi-za-blizo-4-mln-evro-sa-razdadeni-v-api-prez-tretoto-trimesechie",
+      "published": "2026-11-19T07:17:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "UniCredit и Германия постигнаха споразумение за придобиването на Commerzbank",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439767-unicredit-i-germaniya-postignaha-sporazumenie-za-pridobivaneto-na-commerzbank",
+      "published": "2026-11-19T07:09:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "North Korea expanding original uranium enrichment facility, UN nuclear watchdog says",
+      "summary": "The IAEA has not had access to Yongbyon or other locations in North Korea since the country kicked out the agency’s inspectors in 2009.",
+      "url": "https://www.euronews.com/2026/11/19/north-korea-expanding-original-uranium-enrichment-facility-un-nuclear-watchdog-says",
+      "published": "2026-11-19T07:00:42+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Why depth beats breadth in Europe’s hunt for an AI edge",
+      "summary": "At the European Resilience Summit, Mauro Capo, Accenture’s digital sovereignty lead for EMEA, shared the company’s view on Europe’s opportunities in AI’s next phase.",
+      "url": "https://www.politico.eu/sponsored-content/why-depth-beats-breadth-in-europes-hunt-for-an-ai-edge/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T07:00:00+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
+      "summary": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by supporters of former prime minister Sheikh Hasina sparked clashes, bomb blasts",
+      "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return",
+      "published": "2026-11-19T06:58:33+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "Euronews",
@@ -15,7 +123,7 @@
       "section": "europe",
       "source": "Euronews",
       "title": "US and China want to help end Ukraine war, Trump says ahead of trilateral with Russia",
-      "summary": "The three-president meeting at the Kylin Villa in Shenzhen, which analysts expect to be heavier in symbolism than concrete breakthroughs, comes with Russia's offensive in Ukraine approaching the five-year mark.",
+      "summary": "The three-president meeting at the Kylin Villa in Shenzhen, which analysts expect to be heavier in symbolism than concrete breakthroughs, comes with Russia's offensive in Ukraine approaching the five-year mark. Trump had separate meetings with Xi and with Puti",
       "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
       "published": "2026-11-19T06:33:02+00:00",
       "feed_id": "euronews"
@@ -121,15 +229,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Hegseth in Colombia to deepen anti-drug ties after surprise Venezuela stopover",
-      "summary": "Colombian Defense Minister Jorge Eduardo Mora had told his country's parliament that the Pentagon chief would hand over a C-130 Hercules military aircraft during the visit.",
-      "url": "https://www.euronews.com/2026/11/19/hegseth-in-colombia-to-deepen-anti-drug-ties-after-surprise-venezuela-stopover",
-      "published": "2026-11-19T05:06:54+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
       "source": "POLITICO Europe",
       "title": "The Coalition of the Willing’s chance to deliver",
       "summary": "European leaders gather in Berlin for a high-stakes meeting on Ukraine, just as Donald Trump, Vladimir Putin and Xi Jinping hold talks in China. With Washington and Moscow sending conflicting signals about Europe’s role in peace negotiations, can the Coalition",
@@ -157,30 +256,12 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Crimean Bridge attacked again, Russian official says",
-      "summary": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
-      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T04:37:17+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "POLITICO Europe",
       "title": "Die Koalition der Wartenden: Europa blickt nach Shenzhen",
       "summary": "Donald Trump, Xi Jinping und Wladimir Putin verhandeln in Shenzhen womöglich über die neue Weltordnung – und Europa guckt zu. Eine „Koalition der Willigen“ aus Dutzenden Staats- und Regierungschefs sucht gleichzeitig in Berlin nach einer Antwort auf die drohen",
       "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/die-koalition-der-wartenden-europa-blickt-nach-shenzhen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-19T04:30:00+00:00",
       "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "GTA VI launch sparks celebrations in Miami and Dublin",
-      "summary": "After 13 years of anticipation, Grand Theft Auto VI has finally arrived. Fans celebrated at a launch party in Dublin, while Miami Heat supporters rushed to buy limited-edition Vice City merchandise.",
-      "url": "https://www.euronews.com/video/2026/11/19/gta-vi-launch-sparks-celebrations-in-miami-and-dublin",
-      "published": "2026-11-19T04:28:19+00:00",
-      "feed_id": "euronews"
     },
     {
       "section": "europe",
@@ -311,8 +392,8 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
-      "summary": "The firm started just five years ago and is now one of the biggest names in artificial intelligence.",
+      "title": "AI giant Anthropic valued at $1.5 trillion ahead of stock market debut",
+      "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
       "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T02:20:15+00:00",
       "feed_id": "bbc-world"
@@ -391,15 +472,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
-      "summary": "First incursion across boundary since ceasefire deal comes as Eisenkot seeks to form government without Netanyahu The Israeli military crossed into Hamas-controlled central Gaza on Wednesday in its first ground operation across the “yellow line” boundary since",
-      "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
-      "published": "2026-11-18T23:25:25+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
       "summary": "No state has ever been found guilty by an international court of committing genocide.",
@@ -409,30 +481,30 @@
     },
     {
       "section": "europe",
+      "source": "Европейска комисия",
+      "title": "EU and Jordan advance strategic partnership backed by €3 billion to boost investment, create jobs and strengthen regional stability",
+      "summary": "European Commission Press release Amman, 19 Nov 2026 Today, European Commission President Ursula von der Leyen and Commissioner for the Mediterranean Dubravka Šuica took part in the EU-Jordan Investment Conference at the Dead Sea. Alongside His Majesty King Ab",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2508",
+      "published": "2026-11-18T23:00:00+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Speech by President von der Leyen at the EU-Jordan Investment Conference",
+      "summary": "European Commission Speech Sweimeh, 19 Nov 2026 Your Majesty, King Abdullah II, Thank you for the very warm welcome. It has been nearly two years since you, your Majesty, travelled to Brussels to open a new c...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2509",
+      "published": "2026-11-18T23:00:00+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
       "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
       "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T22:34:56+00:00",
       "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Alleged Russian agent arrested for spying on Silicon Valley tech firm",
-      "summary": "The company was not named in the indictment but was described as a large, publicly traded technology and defence firm with offices across the US, including in Palo Alto, California.",
-      "url": "https://www.euronews.com/2026/11/18/alleged-russian-agent-arrested-for-spying-on-silicon-valley-tech-firm",
-      "published": "2026-11-18T22:05:07+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Bukele confirms airstrike on Haitian gang leader Jeff's luxury mansion",
-      "summary": "The Salvadoran president welcomes the destruction of the home of Jeff Larose, one of Haiti's main crime leaders. It is not clear whether Jeff was in the building during the bombing.",
-      "url": "https://www.euronews.com/2026/11/18/bukele-confirms-airstrike-on-haitian-gang-leader-jeffs-luxury-mansion",
-      "published": "2026-11-18T21:58:48+00:00",
-      "feed_id": "euronews"
     },
     {
       "section": "europe",
@@ -460,15 +532,6 @@
       "url": "https://www.investor.bg/a/461-bloomberg-tv/439740-tramp-si-i-putin-nov-svetoven-red-ili-diplomaticheski-spektakal",
       "published": "2026-11-18T21:16:00+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EPP moves to suspend Serbia’s former ruling party",
-      "summary": "SNS will have 12 months to deliver on the EPP's demands, or face expulsion.",
-      "url": "https://www.politico.eu/article/epp-moves-to-suspend-serbias-former-ruling-party/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-18T20:46:08+00:00",
-      "feed_id": "politico-europe"
     },
     {
       "section": "bulgaria",
@@ -568,69 +631,6 @@
       "url": "https://www.dw.com/en/would-ukraine-trade-land-for-nato-membership-or-protection/a-79984492?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-18T18:40:00+00:00",
       "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Israel launches new ground operation in Gaza",
-      "summary": "Israel has said its military is targeting Hamas infrastructure in central Gaza and urged civilians to avoid the area. The fight is unfolding against the backdrop of a dire food and shelter situation for Palestinians.",
-      "url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T18:29:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Как спестителите да станат инвеститори?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439715-kak-spestitelite-da-stanat-investitori",
-      "published": "2026-11-18T18:17:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Muslims to outnumber Christians by 2035, research shows",
-      "summary": "Pew Research Center projections show that there will be 2.57 billion Muslims and 2.52 billion Christians by 2035. Researchers say differences in fertility rates account for the change.",
-      "url": "https://www.dw.com/en/muslims-to-outnumber-christians-by-2035-research-shows/a-79984307?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T17:52:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "SOFIX подобри рекорда си от края на октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439754-sofix-podobri-rekorda-si-ot-kraya-na-oktomvri",
-      "published": "2026-11-18T17:51:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Русия предлага намаляване на военните в Калининград срещу изтегляне на НАТО от Източна Европа",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439728-rusiya-predlaga-namalyavane-na-voennite-v-kaliningrad-sreshtu-izteglyane-na-nato-ot-iztochna-evropa",
-      "published": "2026-11-18T17:30:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "EU-Indonesia: Council greenlights signature of landmark trade and investment agreements",
-      "summary": "The Council has authorised the signature and provisional application of the EU-Indonesia comprehensive economic partnership agreement (CEPA) and the investment protection agreement (IPA).",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/eu-indonesia-council-greenlights-signature-of-landmark-trade-and-investment-agreements/",
-      "published": "2026-11-18T16:35:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Hoekstra during Ministerial High-Level event on the launch of the Second Global Stocktake at COP31",
-      "summary": "European Commission Speech Antalya, 18 Nov 2026 GST2 should be a reality check, a moment to acknowledge progress on the one hand and at the same time to be honest and transparent about where exactly we are fa...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2510",
-      "published": "2026-11-18T16:27:19+00:00",
-      "feed_id": "commission-press"
     }
   ],
   "feed_status": {
