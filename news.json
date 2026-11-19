@@ -1,7 +1,61 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:15:15.145690+00:00",
+  "updated_at": "2026-11-19T00:13:53.593419+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Mike Lynch’s superyacht had unidentified vulnerability to high winds, report finds",
+      "summary": "Bayesian, which sank off Sicily killing seven including tech tycoon, had not been fully assessed, say investigators The superyacht Bayesian, which sank in a storm off Sicily killing seven people including the tech tycoon Mike Lynch and his teenage daughter, wa",
+      "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
+      "published": "2026-11-19T00:01:11+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Grand Theft Auto VI released as gamers rejoice globally",
+      "summary": "After 13 years of waiting, fans around the world will get to play the latest installment in the blockbuster video game series. In focus: A tale of crime and violence in a fictionalized version of Miami.",
+      "url": "https://www.dw.com/en/grand-theft-auto-vi-released-as-gamers-rejoice-globally/a-79986461?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-18T23:58:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
+      "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T23:44:27+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T23:42:07+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Russian man accused of spying on US tech defence company that assists Ukraine",
+      "summary": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
+      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T23:28:03+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+      "summary": "First incursion across boundary since ceasefire deal comes as Eisenkot seeks to form government without Netanyahu The Israeli military crossed into Hamas-controlled central Gaza on Wednesday in its first ground operation across the “yellow line” boundary since",
+      "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+      "published": "2026-11-18T23:25:25+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "BBC News – Свят",
@@ -14,8 +68,8 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "GTA 6 bedazzles gamers in Australia with ‘fully lived in, breathable world’",
-      "summary": "Players can renovate houses, fix cars, lift weights and follow the story in Grand Theft Auto VI’s Miami-inspired Vice City Gamers across Australia woke up Thursday morning feeling like Christmas came early, some bleary-eyed from late night sessions on the Play",
+      "title": "GTA 6 dazzles gamers in Australia with ‘fully lived-in, breathable world’",
+      "summary": "Players can renovate houses, fix cars, lift weights and follow the story in Grand Theft Auto VI’s Miami-inspired Vice City Get our weekend culture and lifestyle email Gamers across Australia woke up Thursday morning feeling like Christmas had come early, some",
       "url": "https://www.theguardian.com/games/2026/nov/19/gta-6-grand-theft-auto-vi-release-launch-australia-first-to-play-game",
       "published": "2026-11-18T22:48:46+00:00",
       "feed_id": "guardian-world"
@@ -37,6 +91,15 @@
       "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
       "published": "2026-11-18T22:34:03+00:00",
       "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
+      "summary": "The Prince and Princess of Wales ended their three-day trip to India on Wednesday, the couple's first international tour since 2022.",
+      "url": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T22:32:47+00:00",
+      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -73,6 +136,15 @@
       "url": "https://www.investor.bg/a/538-pazari/439762-dow-jones-iztri-nad-500-punkta-nvidia-zagubi-inertsiya-sled-silniya-otchet",
       "published": "2026-11-18T21:54:01+00:00",
       "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
+      "summary": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
+      "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T21:28:08+00:00",
+      "feed_id": "bbc-world"
     },
     {
       "section": "bulgaria",
@@ -301,15 +373,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Alexander Zverev notified of abuse lawsuit by ex-partner during ATP Finals",
-      "summary": "Men’s world No 1 allegedly violated terms of settlement Lawyers say Zverev will ‘defend himself against lawsuit’ Alexander Zverev was officially notified of a lawsuit filed by his former partner during the middle of the season-ending ATP Finals on Wednesday. T",
-      "url": "https://www.theguardian.com/sport/2026/nov/18/alexander-zverev-abuse-lawsuit-atp-finals-finals-brenda-patea",
-      "published": "2026-11-18T17:52:39+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Muslims to outnumber Christians by 2035, research shows",
       "summary": "Pew Research Center projections show that there will be 2.57 billion Muslims and 2.52 billion Christians by 2035. Researchers say differences in fertility rates account for the change.",
@@ -343,15 +406,6 @@
       "url": "https://www.euronews.com/2026/11/18/hakeem-jeffries-moves-closer-to-becoming-first-black-us-house-speaker",
       "published": "2026-11-18T17:44:05+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Grand Theft Auto 6 is a masterpiece, say critics",
-      "summary": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype.",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T17:34:25+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -391,30 +445,12 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-      "summary": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones.",
-      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T17:00:40+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 18th, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 18th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
       "url": "https://www.euronews.com/video/2026/11/18/latest-news-bulletin-november-18th-2026-evening",
       "published": "2026-11-18T17:00:26+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-      "summary": "Ukrainian forces are fighting Russian troops in an old Soviet tunnel in the Kharkiv region.",
-      "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T17:00:04+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -445,15 +481,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Julio Iglesias facing court investigation over alleged sexual offences",
-      "summary": "The 83-year-old singer is accused of abusing two former employees at Caribbean residences in 2021.",
-      "url": "https://www.bbc.co.uk/news/articles/c6x284pnn4e2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T16:33:16+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Hoekstra during Ministerial High-Level event on the launch of the Second Global Stocktake at COP31",
       "summary": "European Commission Speech Antalya, 18 Nov 2026 GST2 should be a reality check, a moment to acknowledge progress on the one hand and at the same time to be honest and transparent about where exactly we are fa...",
@@ -481,15 +508,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-      "summary": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
-      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T16:10:44+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Финанси",
       "title": "Отчетът на Nvidia не успява да вдъхне достатъчно оптимизъм на Wall Street*",
       "summary": "",
@@ -514,15 +532,6 @@
       "url": "https://www.dw.com/en/us-house-democrats-nominate-hakeem-jeffries-for-speaker/a-79983827?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-18T15:46:00+00:00",
       "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Anthony Albanese defies critics for Apec summit photo with Vladimir Putin",
-      "summary": "Despite pleas from pro-Ukraine Australians, the prime minister accepts wishes of Chinese hosts with group picture Get our daily political email , free app or daily news podcast Anthony Albanese has appeared in a leaders’ photo with Vladimir Putin at the Apec s",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/18/anthony-albanese-defies-critics-for-apec-summit-photo-with-vladimir-putin",
-      "published": "2026-11-18T15:39:11+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -588,15 +597,6 @@
       "feed_id": "council-press"
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "'Coalition of the Willing' meets in Berlin: Europe remains committed to Ukraine",
-      "summary": "The \"Coalition of the Willing\" supporting Ukraine is gathering in Berlin. One of the key issues under discussion is whether Europe will be able to play a role in future negotiations over the country's future.",
-      "url": "https://www.dw.com/en/coalition-of-the-willing-meets-in-berlin-europe-remains-committed-to-ukraine/a-79974996?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T15:03:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Парламентът прие на първо четене промени в закона за независимия финансов одит",
@@ -634,9 +634,14 @@
     }
   ],
   "feed_status": {
-    "ok": 15,
+    "ok": 14,
     "total": 15,
-    "failures": []
+    "failures": [
+      {
+        "feed": "investor-bg",
+        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
