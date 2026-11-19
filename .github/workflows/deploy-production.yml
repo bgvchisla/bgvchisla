@@ -4,6 +4,9 @@ name: Deploy production to Cloudflare Pages
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Update institutional news feeds"]
+    types: [completed]
   push:
     branches: [main]
     paths:
@@ -38,6 +41,21 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
+
+      - name: Check whether the news refresh changed news.json
+        id: news_change
+        if: github.event_name == 'workflow_run'
+        env:
+          NEWS_REFRESH_BASE: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          if git diff --quiet "$NEWS_REFRESH_BASE" HEAD -- news.json; then
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+            echo "No published news changes; skipping deployment."
+          else
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+            echo "news.json changed after the scheduled news refresh; deployment required."
+          fi
 
       - name: Validate data files
         run: |
@@ -55,6 +73,7 @@ jobs:
           cp index.html data.json economy.json economy-charts.js privacy.html news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json public/
 
       - name: Deploy production
+        if: github.event_name != 'workflow_run' || steps.news_change.outputs.deploy == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
