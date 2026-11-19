@@ -1017,6 +1017,39 @@ label.sw{
  #s4>.tip{grid-column:1/-1}
 }
 
+
+/* Section 6 — labour market data hierarchy */
+#s6.labour-section{--labour-ink:#26384d}
+#s6>p.h{max-width:76ch;line-height:1.55}
+#s6 .lab-kpis{gap:10px}
+#s6 .lab-kpis .c{min-width:0;padding:16px 14px;border-radius:12px;box-shadow:0 1px 2px rgba(30,45,62,.025)}
+#s6 .lab-kpis .n{font-size:clamp(1.28rem,2.2vw,1.65rem);letter-spacing:-.035em}
+#s6 .lab-kpis .l{font-size:.79rem;line-height:1.4;font-weight:650}
+#s6 .lab-kpis .s{font-size:.7rem;line-height:1.45;margin-top:5px}
+#s6 .labour-chart{padding:clamp(16px,2.2vw,22px);border-radius:14px}
+#s6 .labour-chart h3{font-size:.94rem;margin:0 0 4px}
+#s6 .labour-chart-sub{font-size:.72rem;color:var(--mu);margin:0 0 16px}
+#s6 .labour-compare{display:grid;gap:13px}
+#s6 .labour-row{display:grid;grid-template-columns:78px minmax(40px,1fr) 58px;align-items:center;gap:10px;font-size:.77rem}
+#s6 .labour-row>span:first-child{color:var(--mu);font-weight:600}
+#s6 .labour-row b{font-size:.82rem;text-align:right;font-variant-numeric:tabular-nums}
+#s6 .labour-track{height:12px;background:#e9edf2;border-radius:20px;overflow:hidden}
+#s6 .labour-track i{height:100%;display:block;border-radius:20px;background:#8a9db2}
+#s6 .labour-row.current .labour-track i{background:var(--bl)}
+#s6 .labour-delta{font-size:.73rem;color:var(--mu);margin-top:13px;padding-top:10px;border-top:1px solid var(--bd);font-weight:650}
+#s6 .labour-delta.positive{color:var(--gr)}
+#s6 .labour-context{line-height:1.55;padding:14px 16px}
+#s6 .labour-sources{line-height:1.55;max-width:100ch}
+@media(max-width:520px){
+ #s6 .lab-kpis .c{padding:13px 12px}
+ #s6 .labour-row{grid-template-columns:66px minmax(32px,1fr) 52px;gap:7px;font-size:.72rem}
+ #s6 .labour-row b{font-size:.76rem}
+}
+@media(min-width:960px){
+ #s6>.labour-chart{grid-column:span 1}
+ #s6>.labour-context,#s6>.labour-sources{grid-column:1/-1}
+}
+
 </style>
 </head>
 <body>
@@ -1097,12 +1130,35 @@ label.sw{
 <div class="box wide"><h3>БВП на човек по текущи цени</h3><div id="eco-gdpcap-chart"></div><p class="src">Източник: Евростат. Номинална стойност, не е заплата и не измерва сама по себе си покупателната способност.</p></div>
 <div class="tip">БВП измерва стойността на произведените стоки и услуги. За реалния растеж използваме показатели по постоянни/верижно свързани цени, а не само текущи евро.</div>
 </section>
-<section id="s6">
-<h2>Пазар на труда</h2><p class="h">Заетост и безработица — сравними годишни показатели от Евростат и НСИ.</p>
-<div class="g" id="lab-kpis"></div>
-<div class="box"><h3>Заетост на населението 20–64 г. (%)</h3><div id="lab-employment-chart"></div></div>
-<div class="box"><h3>Безработица, 15–74 г. (%)</h3><div id="lab-unemployment-chart"></div></div>
-<p class="src">Източници: Евростат, EU Labour Force Survey — обща заетост и безработица; НСИ, Наблюдение на работната сила 2025 — младежка и продължителна безработица. Продължително безработни са лицата без работа от една или повече години.</p>
+<section id="s6" class="labour-section">
+<h2>Пазар на труда</h2>
+<p class="h">Заетостта остава висока, но отслабва спрямо година по-рано. Безработицата намалява — две различни движения, които трябва да се четат заедно.</p>
+<div class="g lab-kpis">
+<div class="c bl"><div class="n">77,0%</div><div class="l">Коефициент на заетост, 20–64 г.</div><div class="s">Q3 2026 · −0,5 пр.п. на годишна база</div></div>
+<div class="c gr"><div class="n">3,1%</div><div class="l">Коефициент на безработица, 15–74 г.</div><div class="s">Q3 2026 · −0,3 пр.п. на годишна база</div></div>
+<div class="c"><div class="n">95,1 хил.</div><div class="l">Безработни лица</div><div class="s">Q3 2026 · всички възрасти 15–74 г.</div></div>
+<div class="c am"><div class="n">8,1%</div><div class="l">Младежка безработица, 15–29 г.</div><div class="s">Q3 2026 · −0,6 пр.п. на годишна база</div></div>
+</div>
+<div class="box wide labour-chart">
+<h3>Заетост на населението 20–64 г.</h3>
+<p class="labour-chart-sub">Дял от населението в същата възрастова група · НСИ</p>
+<div class="labour-compare" role="img" aria-label="Заетост: 77,5 процента през третото тримесечие на 2025 г. и 77,0 процента през третото тримесечие на 2026 г.">
+<div class="labour-row"><span>Q3 2025</span><span class="labour-track"><i style="width:77.5%"></i></span><b>77,5%</b></div>
+<div class="labour-row current"><span>Q3 2026</span><span class="labour-track"><i style="width:77%"></i></span><b>77,0%</b></div>
+</div>
+<div class="labour-delta">−0,5 процентни пункта за година</div>
+</div>
+<div class="box wide labour-chart">
+<h3>Безработица на населението 15–74 г.</h3>
+<p class="labour-chart-sub">Дял от работната сила · НСИ</p>
+<div class="labour-compare" role="img" aria-label="Безработица: 3,4 процента през третото тримесечие на 2025 г. и 3,1 процента през третото тримесечие на 2026 г.">
+<div class="labour-row"><span>Q3 2025</span><span class="labour-track"><i style="width:68%"></i></span><b>3,4%</b></div>
+<div class="labour-row current"><span>Q3 2026</span><span class="labour-track"><i style="width:62%"></i></span><b>3,1%</b></div>
+</div>
+<div class="labour-delta positive">−0,3 процентни пункта за година</div>
+</div>
+<div class="tip labour-context"><strong>Какво показват числата:</strong> по-ниската безработица не означава автоматично повече заетост. През Q3 2026 коефициентът на заетост при хората на 20–64 г. е 77,0%, а този при 15–64 г. е 70,8%. Това са различни възрастови обхвати. Младежката безработица (15–29 г.) е 8,1%, значително над общата.</div>
+<p class="src labour-sources">Източник: <a href="https://www.nsi.bg/press-release/osnovni-rezultati-ot-nablyudenieto-na-rabotnata-sila-9214" target="_blank" rel="noopener">НСИ — Основни резултати от наблюдението на работната сила, III тримесечие 2026 г. (13.11.2026)</a>. Заетостта и безработицата са коефициенти с различни знаменатели: население в съответната възрастова група и работна сила. Данните са от извадково наблюдение и имат статистическа грешка.</p>
 </section>
 <section id="s7">
 <h2>България в ЕС</h2><p class="h">Сравнение на БВП на човек по паритет на покупателната способност. Индекс ЕС = 100.</p>
