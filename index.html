@@ -1637,7 +1637,7 @@ function renderNews(target,items){
     root.appendChild(article)
   })
 }
-fetch("news.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("news.json unavailable");return r.json()}).then(function(data){
+fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("news.json unavailable");return r.json()}).then(function(data){
   var items=Array.isArray(data.items)?data.items:[];
   renderNews("news-left-list",items.filter(function(x){return x.section==="bulgaria"}));
   renderNews("news-right-list",items.filter(function(x){return x.section==="europe"}));
