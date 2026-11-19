@@ -1079,6 +1079,29 @@ label.sw{
  #s5 .eco-driver b{font-size:.84rem}
 }
 
+
+/* Economy section — household material welfare comparison */
+#s5 .eco-welfare{padding:clamp(17px,2.4vw,24px);border-radius:14px}
+#s5 .eco-welfare h3{font-size:1rem;line-height:1.35;margin:0 0 5px}
+#s5 .eco-welfare .eco-sub{margin:0 0 17px}
+#s5 .eco-index-row{display:grid;grid-template-columns:minmax(170px,1.1fr) minmax(90px,2fr) 48px;align-items:center;gap:13px;padding:13px 0;border-bottom:1px solid var(--bd)}
+#s5 .eco-index-copy{display:grid;gap:3px;min-width:0}
+#s5 .eco-index-copy strong{font-size:.8rem;line-height:1.35}
+#s5 .eco-index-copy span{font-size:.68rem;line-height:1.4;color:var(--mu)}
+#s5 .eco-index-track{height:13px;border-radius:20px;background:#e9edf2;overflow:hidden}
+#s5 .eco-index-track i{display:block;height:100%;border-radius:20px}
+#s5 .eco-gdp-index{width:68%;background:#58779e}
+#s5 .eco-aic-index{width:72.3%;background:#24765f}
+#s5 .eco-index-row>b{font-size:.95rem;text-align:right;font-variant-numeric:tabular-nums}
+#s5 .eco-gap{font-size:.78rem;font-weight:750;color:var(--gr);padding-top:13px}
+#s5 .eco-index-note{font-size:.73rem;line-height:1.6;color:var(--mu);margin:10px 0}
+@media(max-width:520px){
+ #s5 .eco-index-row{grid-template-columns:minmax(0,1fr) 43px;gap:7px}
+ #s5 .eco-index-copy{grid-column:1/-1}
+ #s5 .eco-index-track{grid-column:1}
+ #s5 .eco-index-row>b{grid-column:2;grid-row:2}
+}
+
 </style>
 </head>
 <body>
@@ -1173,6 +1196,21 @@ label.sw{
 <div class="g" id="eco-kpis"></div>
 <div class="box wide"><h3>Реален БВП — годишна динамика</h3><div id="eco-gdp-chart"></div><p class="src">Източник: Евростат · национални сметки. Реални обеми, верижно свързани цени.</p></div>
 <div class="box wide"><h3>БВП на човек по текущи цени</h3><div id="eco-gdpcap-chart"></div><p class="src">Източник: Евростат. Номинална стойност, не е заплата и не измерва сама по себе си покупателната способност.</p></div>
+<div class="box wide eco-welfare">
+<h3>Икономическо производство ≠ материално благосъстояние</h3>
+<p class="eco-sub">Индекси на човек в PPS · ЕС = 100 · 2025 г. · експресни оценки</p>
+<div class="eco-index-row">
+<div class="eco-index-copy"><strong>БВП на човек</strong><span>Икономическа активност</span></div>
+<div class="eco-index-track"><i class="eco-gdp-index"></i></div><b>68</b>
+</div>
+<div class="eco-index-row">
+<div class="eco-index-copy"><strong>Фактическо индивидуално потребление (AIC)</strong><span>По-близък показател за материалното потребление на домакинствата</span></div>
+<div class="eco-index-track"><i class="eco-aic-index"></i></div><b>72,3</b>
+</div>
+<div class="eco-gap">Разлика: 4,3 индексни пункта над БВП на човек.</div>
+<p class="eco-index-note">ЕС = 100. Стойност 72,3 означава равнище 27,7% под средното за ЕС, а не 72,3% от дохода на домакинствата. AIC включва стоки и услуги, използвани от домакинствата, независимо дали са платени пряко от тях, от държавата или от организации с нестопанска цел.</p>
+<p class="src">Източници: Евростат, „Key figures on Europe – 2026 edition“ (AIC 72,3; 2025) и НСИ/Евростат, flash оценки за БВП на човек в PPS (68; 2025). Стойностите са предварителни и могат да бъдат ревизирани.</p>
+</div>
 <div class="tip eco-method"><strong>Как да четем данните:</strong> реалният темп измерва промяната в обема на произведеното след отчитане на ценовите промени; БВП по текущи цени е номинална парична стойност; БВП на човек е средна стойност за икономиката, а не доход или заплата на отделния гражданин. Експресната оценка за Q3 2026 е предварителна и подлежи на ревизия. Годишната серия от Евростат по-долу е отделна и завършва с последната налична годишна стойност.</div>
 </section>
 <section id="s6" class="labour-section">
