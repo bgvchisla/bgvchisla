@@ -958,6 +958,21 @@ label.sw{
 }
 @media(max-width:639px){.masthead-logo{width:43px}}
 
+
+/* Mobile ticker refinement */
+@media(max-width:639px){
+  #mk{margin-bottom:14px}
+  #mk-tape{min-height:50px;border-radius:8px}
+  #mk-note{
+    margin:7px 2px 0;
+    padding:0 2px;
+    font-size:.62rem;
+    line-height:1.45;
+    text-align:left;
+    letter-spacing:0;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -1385,7 +1400,7 @@ fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error(
 
 /* лента с пазарни цени (TradingView): зарежда се автоматично */
 var MK=[["BITSTAMP:BTCUSD","Биткойн"],["BITSTAMP:ETHUSD","Етериум"],["COINBASE:SOLUSD","Солана"],["TVC:GOLD","Злато"],["TVC:SILVER","Сребро"],["TVC:UKOIL","Brent"],["FOREXCOM:SPXUSD","S&P 500"],["FOREXCOM:DJI","Dow Jones"],["STOXX:SX5E","Euro Stoxx 50 Index"],["XETR:DAX","DAX"],["EURONEXT:PX1","CAC 40"],["FOREXCOM:UK100","FTSE 100"],["INDEX:NKY","Nikkei 225"],["NASDAQ:AAPL","Apple"],["NASDAQ:MSFT","Microsoft"],["NASDAQ:GOOGL","Alphabet"],["NASDAQ:AMZN","Amazon"],["NASDAQ:NVDA","Nvidia"],["NASDAQ:META","Meta"],["NASDAQ:TSLA","Tesla"]];
-function mkLoad(){var th="light",el=$("mk-tape");if(el.dataset.loaded==="1")return;el.dataset.loaded="1";el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
+function mkLoad(){var th="light",el=$("mk-tape");if(el.dataset.loaded==="1")return;el.dataset.loaded="1";el.innerHTML="";var c=document.createElement("div");c.className="tradingview-widget-container";var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);var s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";s.async=true;s.text=JSON.stringify({symbols:MK.map(function(x){return {proName:x[0],title:x[1]}}),showSymbolLogo:true,colorTheme:th,isTransparent:false,displayMode:(window.matchMedia&&window.matchMedia("(max-width: 639px)").matches)?"regular":"adaptive",locale:"en"});c.appendChild(s);el.appendChild(c)}
 /* Поверителност: TradingView се зарежда само след избор */
 (function(){var key="bgvchisla_tradingview_choice",banner=$("privacy-notice"),choice=null;try{choice=localStorage.getItem(key)}catch(e){}if(choice==="allow"){mkLoad()}else if(choice==="essential"){$("mk-tape").textContent="Пазарната лента е изключена по Ваш избор."}else{banner.hidden=false}function save(v){try{localStorage.setItem(key,v)}catch(e){}banner.hidden=true;if(v==="allow")mkLoad();else{$("mk-tape").innerHTML="";$("mk-tape").dataset.loaded="0";$("mk-tape").textContent="Пазарната лента не е заредена по Ваш избор."}} $("privacy-settings").addEventListener("click",function(){banner.hidden=false});$("privacy-accept").addEventListener("click",function(){save("allow")});$("privacy-essential").addEventListener("click",function(){save("essential")})})();
 </script>
