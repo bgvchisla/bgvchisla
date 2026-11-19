@@ -1,7 +1,61 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:13:53.593419+00:00",
+  "updated_at": "2026-11-19T01:44:05.784405+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Pre-Christmas rate hike unlikely as unemployment rate jumps to highest level in five years",
+      "summary": "Jobless rate rises from 4.7% to 4.9% for October, latest bureau of statistics figures reveal Get our daily political email , free app or daily news podcast Australia may already have “one foot in recession” after unemployment surged to 4.9% in October, from 4.",
+      "url": "https://www.theguardian.com/business/2026/nov/19/unemployment-rate-jumps-highest-level-five-years-job-figures",
+      "published": "2026-11-19T01:12:55+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Crimean Bridge attacked again, Russian official says",
+      "summary": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
+      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T01:05:03+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Beau Lamarre-Condon’s testimony about Jesse Baird and Luke Davies’ deaths ‘fanciful in the extreme’, crown alleges",
+      "summary": "Prosecutor argues accused could be convicted on strength of forensic and ballistics evidence alone in closing statement Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon’s claims about the deaths of Jesse Baird and Luke Davies ar",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/beau-lamarre-condon-jesse-baird-luke-davies-ntwnfb",
+      "published": "2026-11-19T01:00:25+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+      "summary": "Châtaigniers en fleurs was painted in 1890 in the final two months of Vincent van Gogh's life.",
+      "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T00:49:19+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "India's religious make-up - what a new Pew study says about Hindus and Muslims",
+      "summary": "India will remain predominantly Hindu, though its Muslim population is projected to grow faster, according to a new survey.",
+      "url": "https://www.bbc.co.uk/news/articles/cqd01epyrz1do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T00:38:52+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Almost 1 in 4 children live in conflict zones — report",
+      "summary": "Denial of humanitarian access, abductions and sexual violence are among several violations against children that have increased dramtically over the past year, according to a new report by Save the Children.",
+      "url": "https://www.dw.com/en/almost-1-in-4-children-live-in-conflict-zones-report/a-79979203?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T00:34:00+00:00",
+      "feed_id": "dw-world"
+    },
     {
       "section": "europe",
       "source": "The Guardian – World",
@@ -23,7 +77,16 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
+      "title": "Why has Waymo pulled all its driverless cars from US freeways?",
+      "summary": "The vehicles currently operate in 15 US cities, though freeway rides are only offered in a handful, including San Francisco and Los Angeles.",
+      "url": "https://www.bbc.co.uk/news/videos/cmx2ryw97x4go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T23:47:46+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
       "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
       "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T23:44:27+00:00",
@@ -32,20 +95,20 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T23:42:07+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Russian man accused of spying on US tech defence company that assists Ukraine",
+      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
       "summary": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
       "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T23:28:03+00:00",
       "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Crimea bridge has been attacked again, says Russian-installed governor",
+      "summary": "Assessment of damage is underway, days after two attacks that destroyed road section of key bridge across Kerch strait linking annexed peninsula to Russia A key bridge connecting annexed Crimea to Russia has been attacked again, a Russian-appointed regional go",
+      "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+      "published": "2026-11-18T23:27:37+00:00",
+      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -69,7 +132,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "GTA 6 dazzles gamers in Australia with ‘fully lived-in, breathable world’",
-      "summary": "Players can renovate houses, fix cars, lift weights and follow the story in Grand Theft Auto VI’s Miami-inspired Vice City Get our weekend culture and lifestyle email Gamers across Australia woke up Thursday morning feeling like Christmas had come early, some",
+      "summary": "Players can renovate houses, fix cars, lift weights and follow the story in Grand Theft Auto VI’s Miami-inspired Vice City Tell us: are you playing Grand Theft Auto VI? Gamers across Australia woke up Thursday morning feeling like Christmas had come early, som",
       "url": "https://www.theguardian.com/games/2026/nov/19/gta-6-grand-theft-auto-vi-release-launch-australia-first-to-play-game",
       "published": "2026-11-18T22:48:46+00:00",
       "feed_id": "guardian-world"
@@ -140,7 +203,7 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
+      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "summary": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
       "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T21:28:08+00:00",
@@ -163,15 +226,6 @@
       "url": "https://www.investor.bg/a/461-bloomberg-tv/439740-tramp-si-i-putin-nov-svetoven-red-ili-diplomaticheski-spektakal",
       "published": "2026-11-18T21:16:00+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-      "summary": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T21:13:06+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -238,15 +292,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "William and Kate meet PM Modi as they wrap up India tour",
-      "summary": "The meeting in New Delhi was a late addition to the royal couple's India visit, which also included their appearance at the annual Earthshot Prize",
-      "url": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T20:07:08+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "POLITICO Europe",
       "title": "Burnham’s 10-year plan lined up for Dec. 17 publication",
       "summary": "It would be the last possible date before MPs leave for their Christmas recess.",
@@ -298,15 +343,6 @@
       "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439707-ot-nedoverie-kam-partnyorstvo-kak-kriptoindustriyata-se-integrira-vav-finansoviya-sektor",
       "published": "2026-11-18T19:11:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "The leave campaign has been resurrected, so how should Burnham respond?",
-      "summary": "No 10 is confident the PM can make the case for closer EU ties, while others worry about leaving the campaign solely in his hands The launch of a pro-Brexit campaign was one of the few genuine surprises this week in Westminster, even if the arguments were stra",
-      "url": "https://www.theguardian.com/politics/2026/nov/18/pro-brexit-stay-out-same-playbook-analysis",
-      "published": "2026-11-18T19:02:40+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "bulgaria",
@@ -364,15 +400,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Cheese, pet passports and youth mobility: what’s in the UK-EU ‘relationship reset’ draft?",
-      "summary": "Leaked text of 72-paragraph second draft shows agreement has largely been reached before expected signoff on Friday The UK-EU “relationship reset” agreement, which began in earnest under Keir Starmer, is expected to be signed off by Andy Burnham in Brussels on",
-      "url": "https://www.theguardian.com/politics/2026/nov/18/uk-eu-relationship-reset-draft-explainer",
-      "published": "2026-11-18T17:56:39+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Muslims to outnumber Christians by 2035, research shows",
       "summary": "Pew Research Center projections show that there will be 2.57 billion Muslims and 2.52 billion Christians by 2035. Researchers say differences in fertility rates account for the change.",
@@ -388,15 +415,6 @@
       "url": "https://www.investor.bg/a/538-pazari/439754-sofix-podobri-rekorda-si-ot-kraya-na-oktomvri",
       "published": "2026-11-18T17:51:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
-      "summary": "This blog is now closed, you can read more on this story here Yalta became a byword for betrayal. Will Trump, Xi and Putin enact another carve-up? That is the question the Guardian’s diplomatic correspondent Patrick Wintour seeks to address in his piece about",
-      "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
-      "published": "2026-11-18T17:48:24+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -424,15 +442,6 @@
       "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-18T17:13:00+00:00",
       "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "New video shows explosions moments before part of Crimea Bridge collapses",
-      "summary": "BBC Verify analyses footage showing the final moments before part of the bridge fell and videos showing the scale of destruction.",
-      "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T17:09:43+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -570,15 +579,6 @@
       "feed_id": "euronews"
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "North Korea expanded uranium enrichment plant, says IAEA head",
-      "summary": "IAEA chief Rafael Grossi has said the ongoing expansion of North Korea's uranium enrichment program remains \"a cause for serious concern.\"",
-      "url": "https://www.dw.com/en/north-korea-expanded-uranium-enrichment-plant-says-iaea-head/a-79982758?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T15:15:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "КЗК разреши придобиването на \"Шелли груп\" от дъщерна фирма на \"Шнайдер Електрик\"",
@@ -634,14 +634,9 @@
     }
   ],
   "feed_status": {
-    "ok": 14,
+    "ok": 15,
     "total": 15,
-    "failures": [
-      {
-        "feed": "investor-bg",
-        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
