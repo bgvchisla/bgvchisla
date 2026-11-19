@@ -1648,7 +1648,7 @@ fetch("news.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error(
 });
 
 /* Пазарна лента: новият официален TradingView Web Component */
-var MK=["BITSTAMP:BTCUSD","BITSTAMP:ETHUSD","COINBASE:SOLUSD","TVC:GOLD","TVC:SILVER","TVC:UKOIL","FOREXCOM:SPXUSD","FOREXCOM:DJI","STOXX:SX5E","BSESOF:SOFIX","XETR:DAX","EURONEXT:PX1","FOREXCOM:UK100","INDEX:NKY","NASDAQ:AAPL","NASDAQ:MSFT","NASDAQ:GOOGL","NASDAQ:AMZN","NASDAQ:NVDA","NASDAQ:META","NASDAQ:TSLA"];
+var MK=["BITSTAMP:BTCUSD","BITSTAMP:ETHUSD","COINBASE:SOLUSD","TVC:GOLD","TVC:SILVER","TVC:UKOIL","FOREXCOM:SPXUSD","FOREXCOM:DJI","STOXX:SX5E","XETR:DAX","EURONEXT:PX1","FOREXCOM:UK100","INDEX:NKY","NASDAQ:AAPL","NASDAQ:MSFT","NASDAQ:GOOGL","NASDAQ:AMZN","NASDAQ:NVDA","NASDAQ:META","NASDAQ:TSLA"];
 function mkLoad(){
  var el=$("mk-tape");
  if(el.dataset.loaded==="1")return;
@@ -1658,10 +1658,11 @@ function mkLoad(){
  tape.setAttribute("symbols",MK.join(","));
  tape.setAttribute("direction","horizontal");
  tape.setAttribute("item-size","compact");
+ tape.setAttribute("hide-chart","");
  el.appendChild(tape);
  var s=document.createElement("script");
  s.type="module";
- s.src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js";
+ s.src="https://www.tradingview-widget.com/w/en/tv-ticker-tape.js";
  s.onerror=function(){el.dataset.loaded="0";el.textContent="Пазарната лента временно не може да бъде заредена."};
  document.head.appendChild(s);
 }
