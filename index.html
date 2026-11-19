@@ -1412,7 +1412,7 @@ navToggle.addEventListener("click",function(){
  navToggle.setAttribute("aria-label",collapsed?"Отвори всички раздели":"Прибери списъка с раздели");
  navToggle.querySelector(".mobile-nav-chevron").textContent=collapsed?"⌄":"⌃";
 });
-navRoot.innerHTML=T.map(function(t,i){var m=NAV_META[i];return '<button type="button" data-i="'+i+'" aria-controls="s'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+'"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>'}).join("");
+navRoot.innerHTML=T.map(function(t,i){var m=NAV_META[i];return '<button type="button" data-i="'+i+'" aria-controls="s'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+' '+(i===0?'aria-current="page"':'')+'"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>'}).join("");
 var navButtons=Array.from(navRoot.querySelectorAll("button[data-i]"));
 var pageSections=Array.from(document.querySelectorAll("#site-content section[id^='s']"));
 function activateSection(index){
@@ -1454,8 +1454,8 @@ hb("debtbars",[["Външен дълг, дек. 2025",57.679,"am"],["Дълг н
 /* цени */
 var M=["ян","фев","мар","апр","май","юни","юли","авг","сеп","окт*"],R=[[0.6,3.5,0.6,2.3],[0.4,3.3,0.2,2.1],[0.9,4.1,1.0,2.8],[1.8,6.8,1.8,6.0],[0.0,6.9,0.3,6.3],[-0.9,5.4,-0.5,5.2],[0.8,4.5,0.6,4.4],[0.6,5.1,0.8,5.1],[-0.2,5.7,0.0,5.6],[1.2,6.0,0.7,5.9]];
 fill("k2",[["6,0%","Годишна, окт. (ИПЦ)","окончателни данни на НСИ","ac"],["+1,2%","Месечна, окт. (ИПЦ)","окончателни данни на НСИ","ac"],["5,4%","От началото на годината","дек. 2025 → окт. 2026"],["4,4%","Средногодишна, 12 месеца","ХИПЦ; по ИПЦ 5,1%"]]);
-function svgLine(id){var W=640,H=200,l=30,b=22,t=12,x=function(i){return l+i*(W-l-10)/9},y=function(v){return t+(8-v)*(H-t-b)/8};var s='<svg viewBox="0 0 '+W+' '+H+'">';[0,2,4,6,8].forEach(function(v){s+='<line class="ax" x1="'+l+'" x2="'+W+'" y1="'+y(v)+'" y2="'+y(v)+'"/><text x="2" y="'+(y(v)+4)+'">'+v+'%</text>'});[[1,"ac"],[3,"bl"]].forEach(function(p){var pts=R.map(function(r,i){return x(i)+","+y(r[p[0]])}).join(" ");s+='<polyline class="ln" style="stroke:var(--'+p[1]+')" points="'+pts+'"/>';R.forEach(function(r,i){s+='<circle cx="'+x(i)+'" cy="'+y(r[p[0]])+'" r="3" style="fill:var(--'+p[1]+')"/>'})});R.forEach(function(r,i){s+='<text x="'+(x(i)-8)+'" y="'+(H-6)+'">'+M[i]+'</text>'});s+='<text x="'+(W-170)+'" y="10" style="fill:var(--ac)">● ИПЦ</text><text x="'+(W-100)+'" y="10" style="fill:var(--bl)">● ХИПЦ</text></svg>';$(id).innerHTML=s}
-function svgBars(id){var W=640,H=170,l=30,z=105,x=function(i){return l+i*(W-l-10)/10+8};var s='<svg viewBox="0 0 '+W+' '+H+'"><line class="ax" x1="'+l+'" x2="'+W+'" y1="'+z+'" y2="'+z+'"/>';R.forEach(function(r,i){var v=r[0],h=Math.abs(v)*36;s+='<rect x="'+x(i)+'" y="'+(v>=0?z-h:z)+'" width="38" height="'+Math.max(h,1)+'" rx="4" style="fill:var(--'+(v>=0?"ac":"gr")+')"/><text x="'+(x(i)+19)+'" y="'+(v>=0?z-h-5:z+h+13)+'" text-anchor="middle">'+sg(v)+'</text><text x="'+(x(i)+19)+'" y="'+(H-4)+'" text-anchor="middle">'+M[i]+'</text>'});$(id).innerHTML=s+"</svg>"}
+function svgLine(id){var W=640,H=200,l=30,b=22,t=12,x=function(i){return l+i*(W-l-10)/9},y=function(v){return t+(8-v)*(H-t-b)/8};var s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Годишна инфлация по ИПЦ и ХИПЦ, проценти">';[0,2,4,6,8].forEach(function(v){s+='<line class="ax" x1="'+l+'" x2="'+W+'" y1="'+y(v)+'" y2="'+y(v)+'"/><text x="2" y="'+(y(v)+4)+'">'+v+'%</text>'});[[1,"ac"],[3,"bl"]].forEach(function(p){var pts=R.map(function(r,i){return x(i)+","+y(r[p[0]])}).join(" ");s+='<polyline class="ln" style="stroke:var(--'+p[1]+')" points="'+pts+'"/>';R.forEach(function(r,i){s+='<circle cx="'+x(i)+'" cy="'+y(r[p[0]])+'" r="3" style="fill:var(--'+p[1]+')"/>'})});R.forEach(function(r,i){s+='<text x="'+(x(i)-8)+'" y="'+(H-6)+'">'+M[i]+'</text>'});s+='<text x="'+(W-170)+'" y="10" style="fill:var(--ac)">● ИПЦ</text><text x="'+(W-100)+'" y="10" style="fill:var(--bl)">● ХИПЦ</text></svg>';$(id).innerHTML=s}
+function svgBars(id){var W=640,H=170,l=30,z=105,x=function(i){return l+i*(W-l-10)/10+8};var s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Месечна инфлация по ИПЦ, проценти"><line class="ax" x1="'+l+'" x2="'+W+'" y1="'+z+'" y2="'+z+'"/>';R.forEach(function(r,i){var v=r[0],h=Math.abs(v)*36;s+='<rect x="'+x(i)+'" y="'+(v>=0?z-h:z)+'" width="38" height="'+Math.max(h,1)+'" rx="4" style="fill:var(--'+(v>=0?"ac":"gr")+')"/><text x="'+(x(i)+19)+'" y="'+(v>=0?z-h-5:z+h+13)+'" text-anchor="middle">'+sg(v)+'</text><text x="'+(x(i)+19)+'" y="'+(H-4)+'" text-anchor="middle">'+M[i]+'</text>'});$(id).innerHTML=s+"</svg>"}
 svgLine("cy");svgBars("cm");
 $("inf").innerHTML="<tr><th>2026</th><th>ИПЦ м/м</th><th>ИПЦ г/г</th><th>ХИПЦ м/м</th><th>ХИПЦ г/г</th></tr>"+R.map(function(r,i){return "<tr><td>"+M[i]+"</td><td class='"+(r[0]>0?"up":r[0]<0?"dn":"")+"'>"+sg(r[0])+"%</td><td>"+F1.format(r[1])+"%</td><td class='"+(r[2]>0?"up":r[2]<0?"dn":"")+"'>"+sg(r[2])+"%</td><td>"+F1.format(r[3])+"%</td></tr>"}).join("");
 /* банки */
@@ -1475,7 +1475,7 @@ $("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'
 /* зареждане на рекламите от data.json (без пипане на кода) */
 function okd(a){var n=new Date().toISOString().slice(0,10);return a&&!(a.from&&n<a.from)&&!(a.to&&n>a.to)}
 function pick(s){var l=[].concat(s||[]).filter(okd);return l.length?l[Math.floor(Math.random()*l.length)]:{}}
-fetch("data.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;if(j.contact)CONTACT=j.contact;if(j.ads){ad("ad-top",pick(j.ads.top));ad("ad-bot",pick(j.ads.bot))}$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.'}).catch(function(){});
+fetch("data.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;if(j.contact)CONTACT=j.contact;if(j.ads){ad("ad-top",pick(j.ads.top));ad("ad-bot",pick(j.ads.bot))}$("adli").innerHTML='Реклама на сайта: <a href="mailto:'+CONTACT+'">'+CONTACT+'</a>. Рекламите са означени като „Реклама“.'}).catch(function(){});
 
 /* Официални месечни фискални данни от НСИ */
 function renderFiscal(data){
@@ -1510,7 +1510,7 @@ function renderFiscal(data){
  var updated=data.updated_at?new Date(data.updated_at).toLocaleString("bg-BG",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/Sofia"}):"";
  $("fiscal-updated").textContent=" Последна успешна автоматична актуализация: "+updated+".";
 }
-fetch("official_fiscal.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("Официалният набор не е достъпен");return r.json()}).then(renderFiscal).catch(function(err){$("fiscal-kpis").textContent="Официалните фискални данни временно не могат да бъдат заредени. Последните публикувани стойности не се заменят с приблизителни числа."; $("fiscal-balance-chart").textContent="Графиката ще се покаже след успешно зареждане на проверените данни."; $("fiscal-table").innerHTML="<tbody><tr><td>Няма потвърдени данни за показване.</td></tr></tbody>"});
+fetch("official_fiscal.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("Официалният набор не е достъпен");return r.json()}).then(renderFiscal).catch(function(err){$("fiscal-kpis").textContent="Официалните фискални данни временно не могат да бъдат заредени. Последните публикувани стойности не се заменят с приблизителни числа."; $("fiscal-balance-chart").textContent="Графиката ще се покаже след успешно зареждане на проверените данни."; $("fiscal-table").innerHTML="<tbody><tr><td>Няма потвърдени данни за показване.</td></tr></tbody>"});
 
 
 /* Официални месечни кредитни данни от БНБ */
@@ -1539,7 +1539,7 @@ function renderBnb(data){
  var updated=data.updated_at?new Date(data.updated_at).toLocaleString("bg-BG",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/Sofia"}):"";
  $("bnb-updated").textContent=" Последна успешна автоматична актуализация: "+updated+".";
 }
-fetch("official_bnb.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("BNB dataset unavailable");return r.json()}).then(renderBnb).catch(function(){$("bnb-kpis").textContent="Официалните данни на БНБ временно не могат да бъдат заредени. Не се показват приблизителни стойности.";$("bnb-chart").textContent="Графиката ще се покаже след успешно зареждане на проверените данни.";$("bnb-table").innerHTML="<tbody><tr><td>Няма потвърдени данни за показване.</td></tr></tbody>"});
+fetch("official_bnb.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("BNB dataset unavailable");return r.json()}).then(renderBnb).catch(function(){$("bnb-kpis").textContent="Официалните данни на БНБ временно не могат да бъдат заредени. Не се показват приблизителни стойности.";$("bnb-chart").textContent="Графиката ще се покаже след успешно зареждане на проверените данни.";$("bnb-table").innerHTML="<tbody><tr><td>Няма потвърдени данни за показване.</td></tr></tbody>"});
 
 function renderNssi(data){
  var m=data.metrics||{};
@@ -1568,7 +1568,7 @@ function renderNssi(data){
  var updated=data.updated_at?new Date(data.updated_at).toLocaleString("bg-BG",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/Sofia"}):"";
  $("nssi-updated").textContent=" Последна успешна автоматична актуализация: "+updated+".";
 }
-fetch("official_nssi.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("NSSI dataset unavailable");return r.json()}).then(renderNssi).catch(function(){$("nssi-kpis").textContent="Официалните данни на НОИ временно не могат да бъдат заредени. Не се показват приблизителни стойности."});
+fetch("official_nssi.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("NSSI dataset unavailable");return r.json()}).then(renderNssi).catch(function(){$("nssi-kpis").textContent="Официалните данни на НОИ временно не могат да бъдат заредени. Не се показват приблизителни стойности."});
 
 
 /* Новинарски поток: съдържанието идва от проверявания news.json */
@@ -1596,7 +1596,7 @@ function renderNews(target,items){
     root.appendChild(article)
   })
 }
-fetch("news.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("news.json unavailable");return r.json()}).then(function(data){
+fetch("news.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("news.json unavailable");return r.json()}).then(function(data){
   var items=Array.isArray(data.items)?data.items:[];
   renderNews("news-left-list",items.filter(function(x){return x.section==="bulgaria"}));
   renderNews("news-right-list",items.filter(function(x){return x.section==="europe"}));
@@ -1618,7 +1618,7 @@ function mkLoad(){var th="light",el=$("mk-tape");if(el.dataset.loaded==="1")retu
 const keys=["total","industry","construction","retail","services"];
 const names=["Общ бизнес климат","Промишленост","Строителство","Търговия на дребно","Услуги"];
 const fmt=n=>Number(n).toLocaleString("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:1})+"%";
-fetch("official_business_climate.json?v="+Date.now(),{cache:"no-store"})
+fetch("official_business_climate.json",{cache:"no-cache"})
 .then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json();})
 .then(d=>{
 const p=d.reference_date.split("-");
