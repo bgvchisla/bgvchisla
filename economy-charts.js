@@ -22,7 +22,7 @@
  const details=node("details",undefined,host);node("summary","Таблица с точните годишни стойности",details);const wrap=node("div",undefined,details,"tw"),table=node("table",undefined,wrap),thead=node("thead",undefined,table),tr=node("tr",undefined,thead);["Година","Стойност","Бележка"].forEach(t=>node("th",t,tr));const tb=node("tbody",undefined,table);points.forEach(p=>{const r=node("tr",undefined,tb);node("td",String(p.year),r);node("td",nf.format(p.value)+(unit||""),r);node("td",p.flag||"—",r);});
  }
  try{
- const res=await fetch("economy.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);const data=await res.json();
+ const res=await fetch("economy.json",{cache:"no-cache"});if(!res.ok)throw Error("HTTP "+res.status);const data=await res.json();
  const regionNames={"region_gdp_pps_BG31":"Северозападен","region_gdp_pps_BG32":"Северен централен","region_gdp_pps_BG33":"Североизточен","region_gdp_pps_BG34":"Югоизточен","region_gdp_pps_BG41":"Югозападен","region_gdp_pps_BG42":"Южен централен"};
  const regions=Object.keys(regionNames).map(id=>({id,name:regionNames[id],point:latest(series(data,id))})).filter(x=>x.point);
  const regionHost=$("region-gdp-chart"),regionKpis=$("region-kpis");
