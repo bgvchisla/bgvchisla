@@ -1,7 +1,133 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T14:08:50.546999+00:00",
+  "updated_at": "2026-11-19T15:21:58.588696+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Alexander Zverev faces fresh lawsuit from ex-girlfriend",
+      "summary": "World No. 1 tennis player Alexander Zverev is facing a new lawsuit related to a domestic abuse trial. The lawyer for his ex-girlfriend, Brenda Patea, told DW what the allegations are against the German player.",
+      "url": "https://www.dw.com/en/alexander-zverev-faces-fresh-lawsuit-from-ex-girlfriend/a-79990005?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T15:18:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement on the incident at today's Cancer Summit",
+      "summary": "European Commission Statement Brussels, 19 Nov 2026 This morning, at the European Cancer Summit in Brussels, organised by the European Cancer Organisation, Commissioner for Health and Animal Welfare, Olivér Várhe...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2528",
+      "published": "2026-11-19T15:04:25+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Closing remarks by Commissioner Albuquerque at the high level conference on financial literacy: beyond numbers",
+      "summary": "European Commission Speech Brussels, 19 Nov 2026 Good afternoon, ladies and gentlemen, distinguished guests. Many thanks again to you, dear Thomas, for your support and engagement in favour of financial litera...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2527",
+      "published": "2026-11-19T15:03:49+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Opening remarks by Commissioner Albuquerque at the high level conference on financial literacy: beyond numbers",
+      "summary": "European Commission Speech Brussels, 19 Nov 2026 Good morning, ladies and gentlemen, distinguished guests. Thank you for joining us in such numbers. Your presence truly shows the importance being attached to f...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2526",
+      "published": "2026-11-19T15:00:45+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
+      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "published": "2026-11-19T14:59:14+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU Commission confirms it was targeted in cyberattack using AI tools",
+      "summary": "The European Commission was targeted by an \"AI-generated cybercampaign,\" a spokesperson has said. This is the first time the bloc has publicly reported an AI-based cyberattack.",
+      "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T14:58:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Тръмп сключи сделки за 17 млрд. долара в Югоизточна Азия",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439800-tramp-sklyuchi-sdelki-za-17-mlrd-dolara-v-yugoiztochna-aziya",
+      "published": "2026-11-19T14:48:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "No mention of fossil fuels in latest COP31 draft deal",
+      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now all mention of fossil fuels has been removed from the summit's new draft agreement.",
+      "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T14:46:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Германски компании планират нови инвестиции в България през 2027 и 2028 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439799-germanski-kompanii-planirat-novi-investitsii-v-balgariya-prez-2027-i-2028-g",
+      "published": "2026-11-19T14:43:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "‘Really making history’: five takeaways from the meeting between Trump, Xi and Putin",
+      "summary": "Leaders focused on nuclear weapons and international court at their unprecedented gathering in Shenzhen Apec summit live – latest updates The presidents of the US, China and Russia met on Thursday for an unprecedented trilateral gathering on the sidelines of t",
+      "url": "https://www.theguardian.com/world/2026/nov/19/five-takeaways-from-putin-trump-xi-apec-shenzhen-summit",
+      "published": "2026-11-19T14:32:03+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Срещата в Шънджън вероятно е краят на световната доминацията на САЩ. Кой ще ги замести?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439798-sreshtata-v-shandzhan-veroyatno-e-krayat-na-svetovnata-dominatsiyata-na-sasht-koy-shte-gi-zamesti",
+      "published": "2026-11-19T14:20:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Putin hails ‘new chapter in the history of diplomacy’ after talks with Trump",
+      "summary": "Vladimir Putin says his meeting with Donald Trump and Xi Jinping covered key global security issues, including the war in Ukraine, nuclear proliferation and freedom of navigation. The leaders also discussed maritime law, the role of the International Criminal",
+      "url": "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump",
+      "published": "2026-11-19T14:15:39+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian music industry rejects ‘divide and conquer’ proposal to give musicians exemption from AI scraping",
+      "summary": "Reported proposal to give musicians special treatment is ‘unworkable’, Aria CEO says, vowing to stand with other creatives Get our daily political email , free app or daily news podcast The music industry will not accept an AI carveout deal that leaves other c",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/australian-music-industry-rejects-proposal-to-give-musicians-exemption-ai-scraping",
+      "published": "2026-11-19T14:00:52+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
+      "summary": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment invo",
+      "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment",
+      "published": "2026-11-19T14:00:50+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
@@ -40,27 +166,18 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "No mention of fossil fuels in latest COP31 draft deal",
-      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now all mention of fossil fuels has been removed from the summit's new draft agreement.",
-      "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T13:49:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
-      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or",
-      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-      "published": "2026-11-19T13:48:04+00:00",
-      "feed_id": "guardian-world"
+      "source": "Европейска комисия",
+      "title": "Commission greenlights the Netherlands' fifth and final payment request for €1.7 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 19 Nov 2026 Today, the European Commission greenlighted the Netherlands' fifth and last payment request worth €1.7 billion under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2523",
+      "published": "2026-11-19T13:37:45+00:00",
+      "feed_id": "commission-press"
     },
     {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
-      "summary": "The US Secretary of Defence says Venezuela has 'gone from our most aggressive regional threat to a compliant security partner'.",
+      "summary": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".",
       "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T13:31:23+00:00",
       "feed_id": "bbc-world"
@@ -203,8 +320,8 @@
     {
       "section": "europe",
       "source": "POLITICO Europe",
-      "title": "Présidentielle : pourquoi les youtubeurs ne veulent pas être régulés comme la télé",
-      "summary": "Dans un entretien à POLITICO, l’Umicc, qui représente les créateurs de contenus, défend ses positions face aux règles de pluralisme que veut leur soumettre l'Arcom.",
+      "title": "Présidentielle : pourquoi les youtubeurs ne veulent pas être régulés comme les télés",
+      "summary": "Dans un entretien à POLITICO, l’Umicc défend fermement ses positions face aux règles de pluralisme que veut soumettre l'Arcom aux créateurs de contenus.",
       "url": "https://www.politico.eu/article/presidentielle-pourquoi-les-youtubeurs-ne-veulent-pas-etre-regules-comme-la-tele/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-19T12:11:50+00:00",
       "feed_id": "politico-europe"
@@ -220,12 +337,30 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Florida pastor found guilty over role in assassination of Haitian president",
+      "summary": "Christian Emmanuel Sanon is convicted of involvement in the plot that resulted in the killing of Jovenel Moïse.",
+      "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T11:44:57+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Myanmar committed genocide against Rohingya, top UN court rules",
       "summary": "The International Court of Justice has upheld large parts of a genocide case against Myanmar linked to the 2017 conflict with its Rohingya minority. It called for it to pay reparations and let refugees return safely.",
       "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-19T11:39:00+00:00",
       "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Indian driver wins $1.3m in life-changing lottery prize",
+      "summary": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab.",
+      "url": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T11:38:09+00:00",
+      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -256,30 +391,12 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
-      "summary": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two Walkley awards, one for a story about the systemic betrayal of a woman who was kill",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
-      "published": "2026-11-19T11:13:32+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
       "summary": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
       "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T11:07:37+00:00",
       "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Race to replant five South African baobabs after export blocked",
-      "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
-      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
-      "published": "2026-11-19T11:03:24+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -316,15 +433,6 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2519",
       "published": "2026-11-19T10:52:19+00:00",
       "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Anthropic raises $81bn in record-breaking stock market debut",
-      "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T10:48:04+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "bulgaria",
@@ -418,15 +526,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Crimea bridge has been attacked again, says Russian-installed governor",
-      "summary": "Assessment of damage under way, days after two attacks that destroyed road section of key bridge across Kerch strait linking annexed peninsula to Russia Apec summit – latest updates The remaining Kerch rail bridge connecting Crimea to Russia was attacked overn",
-      "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
-      "published": "2026-11-19T10:03:42+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Евростат",
       "title": "Production in construction up by 0.1% in the euro area and down by 0.5% in the EU",
       "summary": "In September 2026, compared with August 2026, seasonally adjusted production in construction increased by 0.1% in the euro area and decreased by 0.5% in the EU, according to first estimates from Eurostat, the statistical office of the European Union. In August",
@@ -517,15 +616,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Iran balances ties with China and Russia as Trump ramps up pressure",
-      "summary": "As Donald Trump seeks to tighten economic pressure on Iran, China remains its biggest oil customer and Russia a key partner. But both powers are balancing support for Tehran against broader interests with Washington.",
-      "url": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T09:07:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
       "summary": "Some local media report that at least four bodies have been recovered.",
@@ -535,102 +625,12 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "India: Nearly 50,000 evacuated as Cyclone Akvan nears the coast",
-      "summary": "Cyclone Akvan, the third severe storm to hit India's east coast in a month, is expected to make landfall on November 20. Meanwhile, PM Modi led a meeting of his Council of Ministers.",
-      "url": "https://www.dw.com/en/india-nearly-50-000-evacuated-as-cyclone-akvan-nears-the-coast/live-79987334?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T08:58:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Hoekstra at press conference \"Powering the Transition: New Alliances to Replace the World's Most Potent Greenhouse Gas SF6” at COP31",
       "summary": "European Commission Speech Antalya, 19 Nov 2026 Ladies and gentlemen, Good morning to all of you. I am privileged to be here with you on the kind invitation of Minister Schneider. Dear Carsten, really great t...",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2514",
       "published": "2026-11-19T08:49:35+00:00",
       "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Eurogroup President Pierrakakis' report to the President of the Euro Summit",
-      "summary": "The President of the Eurogroup, Kyriakos Pierrakakis, has sent a letter to the President of the Euro Summit, António Costa, to report on the recent work by the Eurogroup and upcoming work priorities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/eurogroup-president-pierrakakis-report-to-the-president-of-the-euro-summit/",
-      "published": "2026-11-19T08:48:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Revealed: What Britain thinks on free movement",
-      "summary": "Presented by TikTok",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/revealed-what-britain-thinks-on-free-movement/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T08:21:03+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Страните от ЕС се договориха за по-дълго отлагане на правилата за метан от вносителите",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439772-stranite-ot-es-se-dogovoriha-za-po-dalgo-otlagane-na-pravilata-za-metan-ot-vnositelite",
-      "published": "2026-11-19T08:03:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "China: Trump calls Putin his \"friend\" as leaders meet in Shenzhen",
-      "summary": "Donald Trump greeted Vladimir Putin as his friend during a meeting in Shenzhen. Their 40-minute encounter came ahead of trilateral talks with Chinese President Xi Jinping.",
-      "url": "https://www.euronews.com/video/2026/11/19/china-trump-calls-putin-his-friend-as-leaders-meet-amid-in-shenzhen",
-      "published": "2026-11-19T07:56:00+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Ukraine: Four killed and at least 13 injured in Russian strike on Odesa",
-      "summary": "Russian strikes on the historic centre of Odesa, Ukraine, killed four people and injured at least 13 others on Wednesday 18 November 2026, according to the city’s military administration.",
-      "url": "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa",
-      "published": "2026-11-19T07:45:11+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Цената на петрола се стабилизира след острия си спад в сряда*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439769-tsenata-na-petrola-se-stabilizira-sled-ostriya-si-spad-v-sryada",
-      "published": "2026-11-19T07:39:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Giving a solo founder the horsepower of a multinational — affordably",
-      "summary": "European small businesses have ambition and creativity, but lack time and budgets. As Kuo Zhang of Alibaba.com writes in an op-ed for Euronews, affordable, ready-to-use AI and global supply chain tools give even solo founders the capabilities of global compani",
-      "url": "https://www.euronews.com/2026/11/19/giving-a-solo-founder-the-horsepower-of-a-multinational-affordably",
-      "published": "2026-11-19T07:30:21+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Бонуси за близо 4 млн. евро са раздадени в АПИ през третото тримесечие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439768-bonusi-za-blizo-4-mln-evro-sa-razdadeni-v-api-prez-tretoto-trimesechie",
-      "published": "2026-11-19T07:17:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "UniCredit и Германия постигнаха споразумение за придобиването на Commerzbank",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439767-unicredit-i-germaniya-postignaha-sporazumenie-za-pridobivaneto-na-commerzbank",
-      "published": "2026-11-19T07:09:00+00:00",
-      "feed_id": "investor-finance"
     }
   ],
   "feed_status": {
