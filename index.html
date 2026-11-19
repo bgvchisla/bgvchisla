@@ -1126,6 +1126,19 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
  left:12px!important;outline:3px solid #A8732E!important;outline-offset:3px!important;
 }
 
+
+/* Единно поведение на навигацията: прибиране след избор на раздел на всички екрани. */
+#site-content nav#nav.mobile-collapsed{display:none!important}
+#site-content .mobile-nav-toggle.nav-toggle-visible{
+ display:flex!important;align-items:center;justify-content:space-between;gap:14px;
+ width:100%;min-height:46px;margin:12px 0;padding:10px 15px;
+ border:1px solid #C6D2DF;border-radius:10px;background:#F7F9FB;color:#24384F;
+ font:inherit;font-size:.86rem;font-weight:700;text-align:left;cursor:pointer;
+ box-shadow:0 2px 7px rgba(36,56,79,.06);
+}
+#site-content .mobile-nav-toggle .mobile-nav-current{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#site-content .mobile-nav-toggle .mobile-nav-chevron{flex:none;font-size:1.15rem;line-height:1;color:#66809B}
+
 </style>
 <link rel="stylesheet" href="/assets/design-system.css?v=3">
 </head>
@@ -1423,6 +1436,7 @@ var navHelp=document.createElement("span");navHelp.id="nav-help";navHelp.classNa
 navRoot.parentNode.insertBefore(navHelp,navRoot);
 navToggle.addEventListener("click",function(){
  var collapsed=navRoot.classList.toggle("mobile-collapsed");
+ navToggle.classList.toggle("nav-toggle-visible",collapsed);
  navToggle.classList.toggle("mobile-visible",collapsed);
  navToggle.setAttribute("aria-expanded",collapsed?"false":"true");
  navToggle.setAttribute("aria-label",collapsed?"Отвори всички раздели":"Прибери списъка с раздели");
@@ -1445,7 +1459,8 @@ function activateSection(index){
   section.classList.toggle("on",section===target);
  });
  navRoot.classList.add("mobile-collapsed");
- navToggle.classList.add("mobile-visible");
+ navToggle.classList.add("nav-toggle-visible","mobile-visible");
+ navToggle.querySelector(".mobile-nav-current").textContent=navButtons[index].querySelector(".nav-title").textContent+" · Всички раздели";
  navToggle.setAttribute("aria-expanded","false");
  navToggle.setAttribute("aria-label","Отвори всички раздели");
  navToggle.querySelector(".mobile-nav-chevron").textContent="⌄";
