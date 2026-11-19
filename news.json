@@ -1,7 +1,115 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:27:22.827696+00:00",
+  "updated_at": "2026-11-19T17:25:54.723087+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Trump questions Europe's billions in Ukraine aid during surprise call",
+      "summary": "The US president reportedly called into a meeting of Kyiv's European allies from Air Force One, hours after talks with Putin and Chinese President Xi, and said Moscow was ready to negotiate a peace deal.",
+      "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
+      "published": "2026-11-19T17:24:44+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Susan Smith denied parole again 32 years after drowning her two sons",
+      "summary": "At a hearing on the possibility of parole, Smith said she wished she could change the past, and her two children \"did not deserve to die\".",
+      "url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T17:23:34+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Middle East conflict poses biggest threat to global energy security in history, IEA warns",
+      "summary": "Disruption to oil supplies through the Strait of Hormuz is driving up costs for households, while the agency says the longer the crisis continues, the harder it will be for global energy markets to recover.",
+      "url": "https://www.euronews.com/2026/11/19/middle-east-conflict-poses-biggest-threat-to-global-energy-security-in-history-iea-warns",
+      "published": "2026-11-19T17:18:31+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Ukraine allies warn ‘Yalta format’ will not bring about peace – Europe live",
+      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting with Xi in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukr",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "published": "2026-11-19T17:06:46+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+      "summary": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T17:03:23+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 19th, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 19th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/19/latest-news-bulletin-november-19th-2026-evening",
+      "published": "2026-11-19T17:00:26+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Путин покани европейците в Москва, за да обсъдят Украйна, но отхвърли примирие",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439809-putin-pokani-evropeytsite-v-moskva-za-da-obsadyat-ukrayna-no-othvarli-primirie",
+      "published": "2026-11-19T16:58:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+      "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+      "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T16:55:57+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Zucman, le retour",
+      "summary": "Un manifeste publié ce vendredi, un “sommet contre l’oligarchie internationale” samedi, une proposition de taxe supplémentaire : Gabriel Zucman est de retour au premier plan. Engagé dans une démarche de plus en plus politique, l’économiste français de 40 ans v",
+      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/zucman-le-retour/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T16:53:19+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Световната банка ще изготви мерки за спасяването на \"Топлофикация София\"",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439813-svetovnata-banka-shte-izgotvi-merki-za-spasyavaneto-na-toplofikatsiya-sofiya",
+      "published": "2026-11-19T16:51:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Iraq orders armed factions to withdraw from strategic area amid alleged oil smuggling and US pressure",
+      "summary": "Prime Minister Ali Faleh al-Zaidi has given the Iran-backed group until Friday to leave Jurf al-Nasr, as Baghdad faces growing pressure from Washington to bring powerful militias under state control.",
+      "url": "https://www.euronews.com/2026/11/19/iraq-orders-armed-factions-to-withdraw-from-strategic-area-amid-alleged-oil-smuggling-and-",
+      "published": "2026-11-19T16:49:35+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Trump presses European leaders about Ukraine aid in call after Putin summit",
+      "summary": "In a surprise call, the U.S. president followed up his meeting with Russian and Chinese leaders by quizzing Kyiv's European allies.",
+      "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T16:38:37+00:00",
+      "feed_id": "politico-europe"
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
@@ -22,18 +130,9 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
-      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or",
-      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-      "published": "2026-11-19T16:15:46+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "No mention of fossil fuels in latest COP31 draft deal",
-      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now all mention of fossil fuels has been removed from the summit's new draft agreement.",
+      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now, all mention of fossil fuels has been removed from the summit's new draft agreement.",
       "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-19T16:03:00+00:00",
       "feed_id": "dw-world"
@@ -105,7 +204,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
-      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’ Apec summit – latest updates China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit,",
+      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’ China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no m",
       "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
       "published": "2026-11-19T15:50:03+00:00",
       "feed_id": "guardian-world"
@@ -122,8 +221,8 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "‘New page in history?’ Xi, Trump and Putin summit was more of a footnote",
-      "summary": "Far from the grand ambitions declared in Yalta in 1945, Shenzhen felt like a meeting in search of an agenda Apec summit – latest updates It is arguably true, given it was the first such meeting of the leaders of China, Russia and the US, that Thursday’s gather",
+      "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+      "summary": "Far from the grand ambitions declared in Yalta in 1945, Shenzhen felt like a meeting in search of an agenda It is arguably true, given it was the first such meeting of the leaders of China, Russia and the US, that Thursday’s gathering in Shenzhen deserved the",
       "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
       "published": "2026-11-19T15:35:01+00:00",
       "feed_id": "guardian-world"
@@ -373,6 +472,15 @@
     },
     {
       "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Startups call on Commission to salvage or scrap EU Inc proposal",
+      "summary": "Lobby groups call on Brussels to withdraw and resubmit after proposal for new corporate form was watered down by EU member countries.",
+      "url": "https://www.politico.eu/article/eu-startup-lobby-groups-call-upon-commission-to-withdraw-eu-inc-proposal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T13:00:00+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
       "summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
@@ -463,21 +571,21 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "'Frustrated' - Democrats remain a divided party despite winning big in midterms",
+      "summary": "After winning power in Congress, a Democratic conference in Denver was animated with talk on the best way forward.",
+      "url": "https://www.bbc.co.uk/news/articles/c6174edpp5e8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T11:43:06+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Myanmar committed genocide against Rohingya, top UN court rules",
       "summary": "The International Court of Justice has upheld large parts of a genocide case against Myanmar linked to the 2017 conflict with its Rohingya minority. It called for it to pay reparations and let refugees return safely.",
       "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-19T11:39:00+00:00",
       "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Indian driver wins $1.3m in life-changing lottery prize",
-      "summary": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab.",
-      "url": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T11:38:09+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -496,15 +604,6 @@
       "url": "https://www.dw.com/en/germany-news-pistorius-to-visit-auschwitz-memorial-in-poland-trip/live-79987991?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-19T11:22:00+00:00",
       "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
-      "summary": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T11:07:37+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -532,105 +631,6 @@
       "url": "https://www.dw.com/en/denmark-ratifies-security-deal-with-us-and-greenland/a-79988989?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-19T10:56:00+00:00",
       "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commissioner Roswall's opening speech at the EPP Group Hearing, ‘From Stress Test to Solutions – Practical Lessons for the Birds and Habitats Directives'",
-      "summary": "European Commission Speech Brussels, 19 Nov 2026 Dear Norbert, Honourable Members, ladies and gentlemen, I am delighted to join you today. Let me begin by thanking the EPP Group for organising this hearing on ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2519",
-      "published": "2026-11-19T10:52:19+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Опасенията около AI помрачиха търговията в голяма част от борсите в Азия",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439780-opaseniyata-okolo-ai-pomrachiha-targoviyata-v-golyama-chast-ot-borsite-v-aziya",
-      "published": "2026-11-19T10:45:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Парламентът одобри придобиването на още пет зенитно-ракетни системи и 57 самоходни гаубици",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439777-parlamentat-odobri-pridobivaneto-na-oshte-pet-zenitno-raketni-sistemi-i-57-samohodni-gaubitsi",
-      "published": "2026-11-19T10:44:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commissioner Roswall's address at the 2nd European Bioeconomy Conference",
-      "summary": "European Commission Speech Brussels, 19 Nov 2026 Ladies and gentlemen, colleagues, friends, It is a huge pleasure to welcome you all to the second European Bioeconomy Conference. Twelve months have passed sinc...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2518",
-      "published": "2026-11-19T10:43:42+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Владислав Панев: Бюджетът ще доведе до рецесия и обедняване",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439776-vladislav-panev-byudzhetat-shte-dovede-do-retsesiya-i-obednyavane",
-      "published": "2026-11-19T10:33:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6",
-      "summary": "DJ lag, one of South Africa's best-known electronic music producers, is among several African stars to feature on Grand Theft Auto 6.",
-      "url": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T10:32:10+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "МАЕ: Бумът на центровете за данни ще натовари електропреносните мрежи до краен предел",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439766-mae-bumat-na-tsentrovete-za-danni-shte-natovari-elektroprenosnite-mrezhi-do-kraen-predel",
-      "published": "2026-11-19T10:25:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Daily News 19 / 11 / 2026",
-      "summary": "European Commission Daily news Brussels, 19 Nov 2026 Commission adopts its November infringement procedures To help citizens and businesses benefit fully from the European Union's legislation, the Commission maint...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2516",
-      "published": "2026-11-19T10:12:32+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Spanish election race tightens ahead of campaign’s final week, new poll shows",
-      "summary": "The conservative People's Party and Socialists are neck and neck, with the far-right Vox in position to play kingmaker.",
-      "url": "https://www.politico.eu/article/spanish-election-race-tightens-final-week-poll/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T10:10:24+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "UK Tory chief Badenoch blasts ‘disturbing’ Trump-Putin-Xi trilateral",
-      "summary": "Right-wing Kemi Badenoch says Britain must now look beyond a U.S. 'administration on its way out.'",
-      "url": "https://www.politico.eu/article/uk-tory-chief-badenoch-kemi-badenoch-blasts-disturbing-trump-putin-xi-trilateral/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T10:07:51+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Production in construction up by 0.1% in the euro area and down by 0.5% in the EU",
-      "summary": "In September 2026, compared with August 2026, seasonally adjusted production in construction increased by 0.1% in the euro area and decreased by 0.5% in the EU, according to first estimates from Eurostat, the statistical office of the European Union. In August",
-      "url": "https://ec.europa.eu/eurostat/product?code=4-19112026-ap",
-      "published": "2026-11-19T10:00:00+00:00",
-      "feed_id": "eurostat-news"
     }
   ],
   "feed_status": {
