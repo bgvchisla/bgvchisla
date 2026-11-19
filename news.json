@@ -1,7 +1,142 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:30:49.747944+00:00",
+  "updated_at": "2026-11-19T10:48:08.824837+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Опасенията около AI помрачиха търговията в голяма част от борсите в Азия",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439780-opaseniyata-okolo-ai-pomrachiha-targoviyata-v-golyama-chast-ot-borsite-v-aziya",
+      "published": "2026-11-19T10:45:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commissioner Roswall's address at the 2nd European Bioeconomy Conference",
+      "summary": "European Commission Speech Brussels, 19 Nov 2026 Ladies and gentlemen, colleagues, friends, It is a huge pleasure to welcome you all to the second European Bioeconomy Conference. Twelve months have passed sinc...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2518",
+      "published": "2026-11-19T10:43:42+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Владислав Панев: Бюджетът ще доведе до рецесия и обедняване",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439776-vladislav-panev-byudzhetat-shte-dovede-do-retsesiya-i-obednyavane",
+      "published": "2026-11-19T10:33:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Tusk appears to mock Trump’s Putin comment as Ukraine’s allies meet in Berlin – Europe live",
+      "summary": "After US president called Putin a friend, Poland’s PM said: ‘God, protect us from such friends’ Meanwhile, foreign ministers arriving for the EU foreign affairs council meeting in Brussels are heroically trying to avoid saying anything remotely interesting or",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "published": "2026-11-19T10:32:02+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Биткойнът се раздели с ръстовете от лятото и остава с малък буфер за разпродажби",
+      "summary": "",
+      "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439779-bitkoynat-se-razdeli-s-rastovete-ot-lyatoto-i-ostava-s-malak-bufer-za-razprodazhbi",
+      "published": "2026-11-19T10:18:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T10:12:16+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Spanish election race tightens ahead of campaign’s final week, new poll shows",
+      "summary": "The conservative People's Party and Socialists are neck and neck, with the far-right Vox in position to play kingmaker.",
+      "url": "https://www.politico.eu/article/spanish-election-race-tightens-final-week-poll/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T10:10:24+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "UK Tory chief Badenoch blasts ‘disturbing’ Trump-Putin-Xi trilateral",
+      "summary": "Right-wing Kemi Badenoch says Britain must now look beyond a U.S. 'administration on its way out.'",
+      "url": "https://www.politico.eu/article/uk-tory-chief-badenoch-kemi-badenoch-blasts-disturbing-trump-putin-xi-trilateral/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T10:07:51+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Crimea bridge has been attacked again, says Russian-installed governor",
+      "summary": "Assessment of damage is underway, days after two attacks that destroyed road section of key bridge across Kerch strait linking annexed peninsula to Russia The remaining Kerch rail bridge connecting Crimea to Russia was attacked overnight, leading to a halt in",
+      "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+      "published": "2026-11-19T10:03:42+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Production in construction up by 0.1% in the euro area and down by 0.5% in the EU",
+      "summary": "In September 2026, compared with August 2026, seasonally adjusted production in construction increased by 0.1% in the euro area and decreased by 0.5% in the EU, according to first estimates from Eurostat, the statistical office of the European Union. In August",
+      "url": "https://ec.europa.eu/eurostat/product?code=4-19112026-ap",
+      "published": "2026-11-19T10:00:00+00:00",
+      "feed_id": "eurostat-news"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "APEC summit, GTA VI launch, wine parade... Today’s top No Comment videos from around the world",
+      "summary": "Watch today's top stories from around the world in this edition of Euronews' No Comment.",
+      "url": "https://www.euronews.com/video/2026/11/19/apec-summit-gta-vi-launch-wine-parade-todays-top-no-comment-videos-from-around-the-world",
+      "published": "2026-11-19T09:50:26+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Internal market for services: Council adopts regulation on the e-declaration of posted workers",
+      "summary": "Council gives its final approval to the regulation on the e-declaration of posted workers.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/internal-market-for-services-council-adopts-regulation-on-the-e-declaration-of-posted-workers/",
+      "published": "2026-11-19T09:31:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Къде да инвестираме в условия на глобална несигурност?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439722-kade-da-investirame-v-usloviya-na-globalna-nesigurnost",
+      "published": "2026-11-19T09:30:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Council calls for action to empower young people in an evolving information environment",
+      "summary": "The Council has approved conclusions aimed at empowering young people in an evolving information environment.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/council-calls-for-action-to-empower-young-people-in-an-evolving-information-environment/",
+      "published": "2026-11-19T09:30:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "South Korea's top court overturns jail term for former PM Han",
+      "summary": "Former Prime Minister Han Duck-so was convicted of helping legitimize the 2024 martial law declaration. The case will now return to a lower court.",
+      "url": "https://www.dw.com/en/south-korea-s-top-court-overturns-jail-term-for-former-pm-han/a-79987912?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T09:28:00+00:00",
+      "feed_id": "dw-world"
+    },
     {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
@@ -22,6 +157,15 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
+      "summary": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods",
+      "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T09:21:54+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "Watch: Trump, Putin and Xi sit down for historic three-way talks",
       "summary": "The leaders of the United States, China and Russia have begun their first-ever trilateral talks in Shenzhen, China.",
@@ -32,20 +176,20 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "Iran relies on China and Russia as US pressure grows, but both powers are pursuing broader interests",
+      "title": "Iran balances ties with China and Russia as Trump ramps up pressure",
       "summary": "As Donald Trump seeks to tighten economic pressure on Iran, China remains its biggest oil customer and Russia a key partner. But both powers are balancing support for Tehran against broader interests with Washington.",
-      "url": "https://www.dw.com/en/iran-relies-on-china-and-russia-as-us-pressure-grows-but-both-powers-are-pursuing-broader-interests/a-79979920?maca=en-rss-en-all-1573-rdf",
+      "url": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-19T09:07:00+00:00",
       "feed_id": "dw-world"
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Tusk appears to mock Trump’s Putin comment as Ukraine’s allies meet in Berlin – Europe live",
-      "summary": "After US president called Putin a friend, Poland’s PM said: ‘God, protect us from such friends’ Meanwhile, a key bridge connecting annexed Crimea to Russia has been attacked again last night, a Russian-appointed regional governor has said, two days after Ukrai",
-      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-      "published": "2026-11-19T09:04:22+00:00",
-      "feed_id": "guardian-world"
+      "source": "BBC News – Свят",
+      "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+      "summary": "Some local media report that at least four bodies have been recovered.",
+      "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T09:02:52+00:00",
+      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -265,15 +409,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "China: Xi, Trump and Putin gather ahead of trilateral summit",
-      "summary": "Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin appeared together in Shenzhen, on Thursday 19 November 2026, posing for a group photograph alongside other world leaders ahead of a closely watched trilateral summit.",
-      "url": "https://www.euronews.com/video/2026/11/19/china-xi-trump-and-putin-gather-ahead-of-trilateral-summit",
-      "published": "2026-11-19T05:44:59+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Украйна отново атакува Кримския мост, в Русия виждат неадекватна защита за ключовия обект",
       "summary": "",
@@ -409,24 +544,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Inside Ukraine’s Coalition of the Wobbling",
-      "summary": "Macron and Merz are weakened at home and Burnham is untested abroad. Can they help Ukraine — and Europe — stand up to Putin, Trump and Xi?",
-      "url": "https://www.politico.eu/article/inside-ukraines-coalition-of-the-wobbling/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T03:00:00+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Europe argued over who would talk to Russia. Agreeing what to say is even tougher.",
-      "summary": "Some governments favor partial ceasefires to gradually reach a deal while the EU's Kaja Kallas is urging a harder line.",
-      "url": "https://www.politico.eu/article/europe-argued-over-who-would-talk-to-russia-agreeing-what-to-say-is-even-tougher/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T03:00:00+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
       "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
@@ -451,15 +568,6 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/methane-regulation-eu-agrees-targeted-amendment-to-safeguard-security-of-supply/",
       "published": "2026-11-19T02:45:00+00:00",
       "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut",
-      "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T02:20:15+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -490,15 +598,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Mike Lynch’s superyacht had unidentified vulnerability to high winds, report finds",
-      "summary": "Bayesian, which sank off Sicily killing seven including tech tycoon, had not been fully assessed, say investigators The superyacht Bayesian, which sank in a storm off Sicily killing seven people including the tech tycoon Mike Lynch and his teenage daughter, wa",
-      "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
-      "published": "2026-11-19T00:01:11+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Grand Theft Auto VI launches to global fanfare",
       "summary": "After 13 years of waiting, fans around the world will get to play the latest installment in the blockbuster video game series. In focus: A tale of crime and violence in a fictionalized version of Miami.",
@@ -518,125 +617,35 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-      "summary": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
-      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T23:28:03+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-      "summary": "No state has ever been found guilty by an international court of committing genocide.",
-      "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T23:04:06+00:00",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-18T23:42:07+00:00",
       "feed_id": "bbc-world"
     },
     {
       "section": "europe",
       "source": "Европейска комисия",
-      "title": "EU and Jordan advance strategic partnership backed by €3 billion to boost investment, create jobs and strengthen regional stability",
-      "summary": "European Commission Press release Amman, 19 Nov 2026 Today, European Commission President Ursula von der Leyen and Commissioner for the Mediterranean Dubravka Šuica took part in the EU-Jordan Investment Conference at the Dead Sea. Alongside His Majesty King Ab",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2508",
+      "title": "Statement by Executive Vice-President Mînzatu and Commissioner Lahbib ahead of European Equal Pay Day",
+      "summary": "European Commission Statement Brussels, 19 Nov 2026 Equal pay is a fundamental right. Yet, more than six decades after the principle was enshrined in the Treaties, women continue to earn less than men across the ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2503",
       "published": "2026-11-18T23:00:00+00:00",
       "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Speech by President von der Leyen at the EU-Jordan Investment Conference",
-      "summary": "European Commission Speech Sweimeh, 19 Nov 2026 Your Majesty, King Abdullah II, Thank you for the very warm welcome. It has been nearly two years since you, your Majesty, travelled to Brussels to open a new c...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2509",
-      "published": "2026-11-18T23:00:00+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Video message by President von der Leyen at the High-Level Conference on Financial Literacy",
-      "summary": "European Commission Speech Brussels, 19 Nov 2026 Distinguished guests, Ladies and gentlemen, Every day we make important decisions about money. What to spend and how much to save. But good budgeting is also ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2500",
-      "published": "2026-11-18T23:00:00+00:00",
-      "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T22:34:56+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Dow Jones изтри над 500 пункта, Nvidia загуби инерция след силния отчет",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439762-dow-jones-iztri-nad-500-punkta-nvidia-zagubi-inertsiya-sled-silniya-otchet",
-      "published": "2026-11-18T21:54:01+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Хегсет подписа военно споразумение с Венецуела при необявено посещение",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439761-hegset-podpisa-voenno-sporazumenie-s-venetsuela-pri-neobyaveno-poseshtenie",
-      "published": "2026-11-18T21:24:52+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Тръмп, Си и Путин: нов световен ред или дипломатически спектакъл?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/439740-tramp-si-i-putin-nov-svetoven-red-ili-diplomaticheski-spektakal",
-      "published": "2026-11-18T21:16:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Започва ремонт за 3,4 млн. евро на участък от \"Челопешко шосе\" в софийския район \"Кремиковци\"",
-      "summary": "",
-      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439758-zapochva-remont-za-34-mln-evro-na-uchastak-ot-chelopeshko-shose-v-sofiyskiya-rayon-kremikovtsi",
-      "published": "2026-11-18T20:36:46+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "What the Crimean bridge attack means for Russia",
-      "summary": "Ukraine's latest strike on the Kerch Bridge has disrupted a key transport link between Russia and Crimea. Beyond the damage, the attack could have serious consequences for Russian military logistics and Putin's prestige.",
-      "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T20:30:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
-      "summary": "On a visit to Caracas, Pete Hegseth signed a deal that signifies the \"reestablishment of our defense partnership.\" US-Venezuela ties were strained for years until US troops ousted ex-President Nicolas Maduro in January.",
-      "url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T20:19:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Тръмп кацна в Китай, Си и Путин критикуваха западния протекционизъм",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439757-tramp-katsna-v-kitay-si-i-putin-kritikuvaha-zapadniya-protektsionizam",
-      "published": "2026-11-18T20:15:28+00:00",
-      "feed_id": "investor-economy"
     }
   ],
   "feed_status": {
-    "ok": 15,
+    "ok": 13,
     "total": 15,
-    "failures": []
+    "failures": [
+      {
+        "feed": "investor-economy",
+        "error": "The read operation timed out"
+      },
+      {
+        "feed": "un-geneva-press",
+        "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
