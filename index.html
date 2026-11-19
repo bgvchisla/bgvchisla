@@ -7,6 +7,7 @@
 <meta name="description" content="България в числа — Фактите. Без шум. Данни, тенденции и контекст за България. Официални икономически, финансови и демографски показатели.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://bgvchisla.com/">
+<link rel="icon" type="image/svg+xml" href="/assets/bgvchisla-symbol.svg">
 <meta name="theme-color" content="#24384f">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="bg_BG">
@@ -251,7 +252,7 @@ nav button.on{background:#34485f;color:#f7f9fb;border-color:#34485f}
 }
 body{background:var(--bg);color:var(--tx)}
 .dashboard-grid{background:#e8edf3}
-.masthead{background:#24384f;color:#f4f7fb;border-bottom:3px solid #b64b45}
+.masthead{background:#24384f;color:#f4f7fb;border-bottom:3px solid #a8732e}
 .brand-mark{background:#f4f7fb;color:#24384f;border-color:#d8e0e9}
 .masthead-brand small,.masthead-note{color:#c4d0de}
 .hero{background:linear-gradient(135deg,#f9fbfd 0%,#e5edf5 100%);border:1px solid #cbd7e4;box-shadow:0 5px 18px #24384f12}
@@ -926,12 +927,25 @@ label.sw{
  .masthead-brand small{font-size:.56rem;letter-spacing:.14em}
 }
 
+
+.masthead-brand{gap:14px;min-width:0}
+.masthead-logo{display:block;width:58px;height:auto;aspect-ratio:1030/670;object-fit:contain;flex:none}
+.masthead-wordmark{min-width:0}
+.masthead-brand strong{font-size:.94rem;letter-spacing:.12em;line-height:1.2}
+.masthead-brand small{letter-spacing:.16em}
+@media(max-width:639px){
+ .masthead-logo{width:43px}
+ .masthead-brand{gap:10px}
+ .masthead-brand strong{font-size:.75rem;letter-spacing:.08em}
+ .masthead-brand small{font-size:.5rem;letter-spacing:.12em}
+}
 </style>
 </head>
 <body>
 <div class="dashboard-grid">
 <header class="masthead" role="banner">
   <a class="masthead-brand" href="/" aria-label="България в числа — начало">
+    <img class="masthead-logo" src="/assets/bgvchisla-symbol.svg" alt="" width="62" height="42" decoding="async">
     <span class="masthead-wordmark"><strong>БЪЛГАРИЯ В ЧИСЛА</strong><small>ФАКТИТЕ. БЕЗ ШУМ.</small></span>
   </a>
   <div class="masthead-note">ДАННИ, ТЕНДЕНЦИИ И КОНТЕКСТ ЗА БЪЛГАРИЯ.</div>
