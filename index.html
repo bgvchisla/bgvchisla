@@ -1111,8 +1111,10 @@ label.sw{
 }
 
 </style>
+<link rel="stylesheet" href="/assets/design-system.css?v=1">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Към основното съдържание</a>
 <div class="dashboard-grid">
 <header class="masthead" role="banner">
   <a class="masthead-brand" href="/" aria-label="България в числа — начало">
@@ -1128,7 +1130,8 @@ label.sw{
 </header>
 <aside class="news-panel news-side" aria-label="Новини от България"><h2 class="news-heading"><span>България</span><span class="flag-icon" title="България"><svg viewBox="0 0 30 20" role="img" aria-label="България"><rect width="30" height="20" rx="1.5" fill="#fff"/><path d="M0 6.67h30v6.66H0z" fill="#00966e"/><path d="M0 13.33h30V20H0z" fill="#d62612"/></svg></span></h2><p class="news-intro">Актуални заглавия от различни източници</p><div class="news-list" id="news-left-list"></div></aside>
 <div id="site-content">
-<main>
+<main id="main-content">
+<h1 class="sr-only">България в числа — официални данни, икономика, финанси и общество</h1>
 <div id="mk"><div id="mk-tape"></div><div id="mk-note">Пазарни цени: TradingView · може да са със закъснение · не са инвестиционен съвет</div></div>
 <div class="hero">
 <small>🇧🇬 Държавен дълг на България (централно управление), оценка в реално време</small>
@@ -1390,6 +1393,7 @@ var NAV_META=[
 ];
 var navRoot=$("nav");
 navRoot.setAttribute("aria-label","Основни раздели");
+navRoot.setAttribute("aria-describedby","nav-help");
 var navToggle=document.createElement("button");
 navToggle.type="button";
 navToggle.id="mobile-nav-toggle";
@@ -1397,11 +1401,15 @@ navToggle.className="mobile-nav-toggle";
 navToggle.setAttribute("aria-controls","nav");
 navToggle.setAttribute("aria-expanded","false");
 navToggle.innerHTML='<span class="mobile-nav-current">Всички раздели</span><span class="mobile-nav-chevron" aria-hidden="true">⌃</span>';
+navToggle.setAttribute("aria-label","Отвори всички раздели");
 navRoot.parentNode.insertBefore(navToggle,navRoot);
+var navHelp=document.createElement("span");navHelp.id="nav-help";navHelp.className="sr-only";navHelp.textContent="Изберете раздел, за да видите съответните данни.";
+navRoot.parentNode.insertBefore(navHelp,navRoot);
 navToggle.addEventListener("click",function(){
  var collapsed=navRoot.classList.toggle("mobile-collapsed");
  navToggle.classList.toggle("mobile-visible",collapsed);
  navToggle.setAttribute("aria-expanded",collapsed?"false":"true");
+ navToggle.setAttribute("aria-label",collapsed?"Отвори всички раздели":"Прибери списъка с раздели");
  navToggle.querySelector(".mobile-nav-chevron").textContent=collapsed?"⌄":"⌃";
 });
 navRoot.innerHTML=T.map(function(t,i){var m=NAV_META[i];return '<button type="button" data-i="'+i+'" aria-controls="s'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+'"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>'}).join("");
@@ -1415,6 +1423,7 @@ function activateSection(index){
   var active=Number(button.dataset.i)===index;
   button.classList.toggle("on",active);
   button.setAttribute("aria-pressed",active?"true":"false");
+  if(active)button.setAttribute("aria-current","page");else button.removeAttribute("aria-current");
  });
  pageSections.forEach(function(section){
   section.classList.toggle("on",section===target);
@@ -1422,6 +1431,7 @@ function activateSection(index){
  navRoot.classList.add("mobile-collapsed");
  navToggle.classList.add("mobile-visible");
  navToggle.setAttribute("aria-expanded","false");
+ navToggle.setAttribute("aria-label","Отвори всички раздели");
  navToggle.querySelector(".mobile-nav-chevron").textContent="⌄";
 }
 navButtons.forEach(function(button){
