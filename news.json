@@ -1,7 +1,88 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T08:13:06.132135+00:00",
+  "updated_at": "2026-11-19T09:30:49.747944+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Council greenlights new EU rules to protect vulnerable adults",
+      "summary": "The Council today formally adopted rules ensuring that adults in need of support with decision-making are better protected in cross-border situations when it comes to medical care, managing property and moving to another country.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/council-greenlights-new-eu-rules-to-protect-vulnerable-adults/",
+      "published": "2026-11-19T09:27:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Simplification: Council signs off on new law simplifying and streamlining rules on chemical products",
+      "summary": "Council signs off on new law simplifying and streamlining rules on chemical products.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/simplification-council-signs-off-on-new-law-simplifying-and-streamlining-rules-on-chemical-products/",
+      "published": "2026-11-19T09:24:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Watch: Trump, Putin and Xi sit down for historic three-way talks",
+      "summary": "The leaders of the United States, China and Russia have begun their first-ever trilateral talks in Shenzhen, China.",
+      "url": "https://www.euronews.com/2026/11/19/watch-trump-putin-and-xi-sit-down-for-historic-three-way-talks",
+      "published": "2026-11-19T09:20:23+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Iran relies on China and Russia as US pressure grows, but both powers are pursuing broader interests",
+      "summary": "As Donald Trump seeks to tighten economic pressure on Iran, China remains its biggest oil customer and Russia a key partner. But both powers are balancing support for Tehran against broader interests with Washington.",
+      "url": "https://www.dw.com/en/iran-relies-on-china-and-russia-as-us-pressure-grows-but-both-powers-are-pursuing-broader-interests/a-79979920?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T09:07:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Tusk appears to mock Trump’s Putin comment as Ukraine’s allies meet in Berlin – Europe live",
+      "summary": "After US president called Putin a friend, Poland’s PM said: ‘God, protect us from such friends’ Meanwhile, a key bridge connecting annexed Crimea to Russia has been attacked again last night, a Russian-appointed regional governor has said, two days after Ukrai",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "published": "2026-11-19T09:04:22+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "India: Nearly 50,000 evacuated as Cyclone Akvan nears the coast",
+      "summary": "Cyclone Akvan, the third severe storm to hit India's east coast in a month, is expected to make landfall on November 20. Meanwhile, PM Modi led a meeting of his Council of Ministers.",
+      "url": "https://www.dw.com/en/india-nearly-50-000-evacuated-as-cyclone-akvan-nears-the-coast/live-79987334?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T08:58:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Hoekstra at press conference \"Powering the Transition: New Alliances to Replace the World's Most Potent Greenhouse Gas SF6” at COP31",
+      "summary": "European Commission Speech Antalya, 19 Nov 2026 Ladies and gentlemen, Good morning to all of you. I am privileged to be here with you on the kind invitation of Minister Schneider. Dear Carsten, really great t...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2514",
+      "published": "2026-11-19T08:49:35+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Eurogroup President Pierrakakis' report to the President of the Euro Summit",
+      "summary": "The President of the Eurogroup, Kyriakos Pierrakakis, has sent a letter to the President of the Euro Summit, António Costa, to report on the recent work by the Eurogroup and upcoming work priorities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/eurogroup-president-pierrakakis-report-to-the-president-of-the-euro-summit/",
+      "published": "2026-11-19T08:48:00+00:00",
+      "feed_id": "council-press"
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Revealed: What Britain thinks on free movement",
+      "summary": "Presented by TikTok",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/revealed-what-britain-thinks-on-free-movement/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T08:21:03+00:00",
+      "feed_id": "politico-europe"
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
@@ -122,8 +203,8 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "US and China want to help end Ukraine war, Trump says ahead of trilateral with Russia",
-      "summary": "The three-president meeting at the Kylin Villa in Shenzhen, which analysts expect to be heavier in symbolism than concrete breakthroughs, comes with Russia's offensive in Ukraine approaching the five-year mark. Trump had separate meetings with Xi and with Puti",
+      "title": "Historic trilateral summit between leaders of the US, China and Russia begins",
+      "summary": "Trump declared that “we have great responsibilities to solve problems that affect the entire planet,” as he joined China's Xi and Russia’s Putin for the historic trilateral summit in China, while Xi said “the world is at peace when great powers live in harmony",
       "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
       "published": "2026-11-19T06:33:02+00:00",
       "feed_id": "euronews"
@@ -199,15 +280,6 @@
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439764-ukrayna-otnovo-atakuva-krimskiya-most-v-rusiya-vizhdat-neadekvatna-zashtita-za-klyuchoviya-obekt",
       "published": "2026-11-19T05:38:00+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Zelenskyy says he expects debrief from US envoys on Trump’s talks with Xi and Putin",
-      "summary": "The US envoys told Kyiv they would give a debrief on the talks being held by Trump in China during meetings in Berlin on Thursday, Zelenskyy said.",
-      "url": "https://www.euronews.com/2026/11/19/zelenskyy-says-he-expects-debrief-from-us-envoys-on-trumps-talks-with-xi-and-putin",
-      "published": "2026-11-19T05:34:11+00:00",
-      "feed_id": "euronews"
     },
     {
       "section": "europe",
@@ -355,15 +427,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "5 key places that signal where Spain’s election is heading",
-      "summary": "We analyzed the results of every congressional election in the country’s history to find the battlegrounds you need to know about.",
-      "url": "https://www.politico.eu/article/5-key-places-that-signal-where-spains-election-is-heading/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-19T03:00:00+00:00",
-      "feed_id": "politico-europe"
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
       "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
@@ -392,7 +455,7 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "AI giant Anthropic valued at $1.5 trillion ahead of stock market debut",
+      "title": "Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut",
       "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
       "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T02:20:15+00:00",
@@ -463,15 +526,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Crimea bridge has been attacked again, says Russian-installed governor",
-      "summary": "Assessment of damage is underway, days after two attacks that destroyed road section of key bridge across Kerch strait linking annexed peninsula to Russia A key bridge connecting annexed Crimea to Russia has been attacked again, a Russian-appointed regional go",
-      "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
-      "published": "2026-11-18T23:27:37+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
       "summary": "No state has ever been found guilty by an international court of committing genocide.",
@@ -494,6 +548,15 @@
       "title": "Speech by President von der Leyen at the EU-Jordan Investment Conference",
       "summary": "European Commission Speech Sweimeh, 19 Nov 2026 Your Majesty, King Abdullah II, Thank you for the very warm welcome. It has been nearly two years since you, your Majesty, travelled to Brussels to open a new c...",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2509",
+      "published": "2026-11-18T23:00:00+00:00",
+      "feed_id": "commission-press"
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Video message by President von der Leyen at the High-Level Conference on Financial Literacy",
+      "summary": "European Commission Speech Brussels, 19 Nov 2026 Distinguished guests, Ladies and gentlemen, Every day we make important decisions about money. What to spend and how much to save. But good budgeting is also ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2500",
       "published": "2026-11-18T23:00:00+00:00",
       "feed_id": "commission-press"
     },
@@ -568,69 +631,6 @@
       "url": "https://www.investor.bg/a/516-politika/439757-tramp-katsna-v-kitay-si-i-putin-kritikuvaha-zapadniya-protektsionizam",
       "published": "2026-11-18T20:15:28+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "ЕК иска Европа да стане световен лидер в производството на модерни материали до 2035 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439739-ek-iska-evropa-da-stane-svetoven-lider-v-proizvodstvoto-na-moderni-materiali-do-2035-g",
-      "published": "2026-11-18T19:43:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Стийн Якобсен: Още през 2027 г. AI може да стимулира потреблението с дигитални валути",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/439752-stiyn-yakobsen-oshte-prez-2027-g-ai-mozhe-da-stimulira-potreblenieto-s-digitalni-valuti",
-      "published": "2026-11-18T19:42:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Украинските атаки с дронове са намалили почти наполовина рафиниращия капацитет на Русия",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439753-ukrainskite-ataki-s-dronove-sa-namalili-pochti-napolovina-rafinirashtiya-kapatsitet-na-rusiya",
-      "published": "2026-11-18T19:41:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "От недоверие към партньорство - как криптоиндустрията се интегрира във финансовия сектор?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439707-ot-nedoverie-kam-partnyorstvo-kak-kriptoindustriyata-se-integrira-vav-finansoviya-sektor",
-      "published": "2026-11-18T19:11:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Европейските борси достигнаха двуседмично дъно, повлечени от минните компании",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439756-evropeyskite-borsi-dostignaha-dvusedmichno-dano-povlecheni-ot-minnite-kompanii",
-      "published": "2026-11-18T18:59:15+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Акционерите на „Софарма“ ще гласуват програма за обратно изкупуване на акции през януари",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439755-aktsionerite-na-sofarma-shte-glasuvat-programa-za-obratno-izkupuvane-na-aktsii-prez-yanuari",
-      "published": "2026-11-18T18:56:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Would Ukraine trade land for NATO membership or protection?",
-      "summary": "The US is exploring whether Ukraine would cede parts of Donetsk province still under its control in return for NATO membership or protection. Experts warn the idea is risky.",
-      "url": "https://www.dw.com/en/would-ukraine-trade-land-for-nato-membership-or-protection/a-79984492?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-18T18:40:00+00:00",
-      "feed_id": "dw-world"
     }
   ],
   "feed_status": {
