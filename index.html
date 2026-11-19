@@ -1095,6 +1095,26 @@ label.sw{
 #s5 .eco-index-row>b{font-size:.95rem;text-align:right;font-variant-numeric:tabular-nums}
 #s5 .eco-gap{font-size:.78rem;font-weight:750;color:var(--gr);padding-top:13px}
 #s5 .eco-index-note{font-size:.73rem;line-height:1.6;color:var(--mu);margin:10px 0}
+
+#s5 .eco-peer-title{font-size:.86rem;line-height:1.4;margin:22px 0 4px}
+#s5 .eco-peer-sub{font-size:.69rem;line-height:1.45;color:var(--mu);margin:0 0 10px}
+#s5 .eco-peer-legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.68rem;color:var(--mu);margin:8px 0 10px}
+#s5 .eco-peer-legend span{display:flex;align-items:center;gap:6px}
+#s5 .eco-peer-legend i{display:inline-block;width:10px;height:10px;border-radius:3px}
+#s5 .eco-legend-gdp{background:#58779e}
+#s5 .eco-legend-aic{background:#24765f}
+#s5 .eco-peer-row{display:grid;grid-template-columns:86px minmax(90px,1fr) 66px;align-items:center;gap:10px;padding:8px 9px;border-bottom:1px solid var(--bd);font-size:.72rem}
+#s5 .eco-peer-row.is-bg{background:#eef3f7;border-radius:7px;font-weight:750}
+#s5 .eco-peer-bars{display:grid;gap:4px}
+#s5 .eco-peer-bars i{display:block;height:7px;border-radius:0 5px 5px 0;max-width:100%}
+#s5 .eco-peer-gdp{background:#58779e}
+#s5 .eco-peer-aic{background:#24765f}
+#s5 .eco-peer-row>b{font-size:.72rem;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:520px){
+ #s5 .eco-peer-row{grid-template-columns:70px minmax(60px,1fr) 60px;gap:7px;padding:8px 5px;font-size:.67rem}
+ #s5 .eco-peer-row>b{font-size:.66rem}
+}
+
 @media(max-width:520px){
  #s5 .eco-index-row{grid-template-columns:minmax(0,1fr) 43px;gap:7px}
  #s5 .eco-index-copy{grid-column:1/-1}
@@ -1198,18 +1218,32 @@ label.sw{
 <div class="box wide"><h3>БВП на човек по текущи цени</h3><div id="eco-gdpcap-chart"></div><p class="src">Източник: Евростат. Номинална стойност, не е заплата и не измерва сама по себе си покупателната способност.</p></div>
 <div class="box wide eco-welfare">
 <h3>Икономическо производство ≠ материално благосъстояние</h3>
-<p class="eco-sub">Индекси на човек в PPS · ЕС = 100 · 2025 г. · експресни оценки</p>
+<p class="eco-sub">БВП и фактическо индивидуално потребление (AIC) на човек · PPS · ЕС = 100 · 2025 г.</p>
 <div class="eco-index-row">
 <div class="eco-index-copy"><strong>БВП на човек</strong><span>Икономическа активност</span></div>
 <div class="eco-index-track"><i class="eco-gdp-index"></i></div><b>68</b>
 </div>
 <div class="eco-index-row">
 <div class="eco-index-copy"><strong>Фактическо индивидуално потребление (AIC)</strong><span>По-близък показател за материалното потребление на домакинствата</span></div>
-<div class="eco-index-track"><i class="eco-aic-index"></i></div><b>72,3</b>
+<div class="eco-index-track"><i class="eco-aic-index"></i></div><b>77</b>
 </div>
-<div class="eco-gap">Разлика: 4,3 индексни пункта над БВП на човек.</div>
-<p class="eco-index-note">ЕС = 100. Стойност 72,3 означава равнище 27,7% под средното за ЕС, а не 72,3% от дохода на домакинствата. AIC включва стоки и услуги, използвани от домакинствата, независимо дали са платени пряко от тях, от държавата или от организации с нестопанска цел.</p>
-<p class="src">Източници: Евростат, „Key figures on Europe – 2026 edition“ (AIC 72,3; 2025) и НСИ/Евростат, flash оценки за БВП на човек в PPS (68; 2025). Стойностите са предварителни и могат да бъдат ревизирани.</p>
+<div class="eco-gap">AIC е с 9 индексни пункта над БВП на човек.</div>
+<p class="eco-index-note">ЕС = 100. И двата показателя са индекси, а не проценти от заплата или доход. AIC включва стоки и услуги, използвани от домакинствата, независимо дали са платени пряко от тях, от държавата или от организации с нестопанска цел.</p>
+<h4 class="eco-peer-title">България и избрани държави от Централна и Югоизточна Европа</h4>
+<p class="eco-peer-sub">Индекси за 2025 г. · ЕС = 100 · по-висока стойност означава по-високо равнище спрямо средното за ЕС</p>
+<div class="eco-peer-legend"><span><i class="eco-legend-gdp"></i> БВП на човек</span><span><i class="eco-legend-aic"></i> AIC на човек</span></div>
+<div class="eco-peer-list">
+<div class="eco-peer-row is-bg"><strong>България</strong><span class="eco-peer-bars"><i class="eco-peer-gdp" style="width:68%"></i><i class="eco-peer-aic" style="width:77%"></i></span><b>68 / 77</b></div>
+<div class="eco-peer-row"><strong>Румъния</strong><span class="eco-peer-bars"><i class="eco-peer-gdp" style="width:78%"></i><i class="eco-peer-aic" style="width:86%"></i></span><b>78 / 86</b></div>
+<div class="eco-peer-row"><strong>Хърватия</strong><span class="eco-peer-bars"><i class="eco-peer-gdp" style="width:78%"></i><i class="eco-peer-aic" style="width:79%"></i></span><b>78 / 79</b></div>
+<div class="eco-peer-row"><strong>Гърция</strong><span class="eco-peer-bars"><i class="eco-peer-gdp" style="width:68%"></i><i class="eco-peer-aic" style="width:73%"></i></span><b>68 / 73</b></div>
+<div class="eco-peer-row"><strong>Унгария</strong><span class="eco-peer-bars"><i class="eco-peer-gdp" style="width:76%"></i><i class="eco-peer-aic" style="width:73%"></i></span><b>76 / 73</b></div>
+<div class="eco-peer-row"><strong>Полша</strong><span class="eco-peer-bars"><i class="eco-peer-gdp" style="width:81%"></i><i class="eco-peer-aic" style="width:83%"></i></span><b>81 / 83</b></div>
+<div class="eco-peer-row"><strong>Чехия</strong><span class="eco-peer-bars"><i class="eco-peer-gdp" style="width:81%"></i><i class="eco-peer-aic" style="width:113%"></i></span><b>81 / 113</b></div>
+<div class="eco-peer-row"><strong>Словения</strong><span class="eco-peer-bars"><i class="eco-peer-gdp" style="width:91%"></i><i class="eco-peer-aic" style="width:86%"></i></span><b>91 / 86</b></div>
+</div>
+<p class="eco-index-note">Подредбата е по географски и икономически близки държави, а не по класация на ЕС. Стойностите са закръглени до цели индексни пункта.</p>
+<p class="src">Източник: Евростат/НСИ, набор prc_ppp_ind_1; НСИ, „Actual individual consumption per capita in the EU – 2025“ и Евростат, предварителна оценка за БВП на човек в PPS. Данните за 2025 г. са предварителни и подлежат на ревизия.</p>
 </div>
 <div class="tip eco-method"><strong>Как да четем данните:</strong> реалният темп измерва промяната в обема на произведеното след отчитане на ценовите промени; БВП по текущи цени е номинална парична стойност; БВП на човек е средна стойност за икономиката, а не доход или заплата на отделния гражданин. Експресната оценка за Q3 2026 е предварителна и подлежи на ревизия. Годишната серия от Евростат по-долу е отделна и завършва с последната налична годишна стойност.</div>
 </section>
