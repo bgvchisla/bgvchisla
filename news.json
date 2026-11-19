@@ -1,7 +1,52 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:14:24.803126+00:00",
+  "updated_at": "2026-11-19T23:10:58.930007+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU-UK summit — live updates",
+      "summary": "The British PM is in Brussels to ink a host of post-Brexit agreements — and start talking about what comes next.",
+      "url": "https://www.politico.eu/article/eu-uk-summit-live-updates/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-19T23:05:00+00:00",
+      "feed_id": "politico-europe"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "California probing whether China improperly acquired Nvidia technology",
+      "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:04:30+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "From premature baby to social media star - Famed hippo Fiona dies",
+      "summary": "The beloved hippopotamus died days after swallowing a knitted hat that accidentally got into her enclosure at the Cincinnati Zoo.",
+      "url": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T22:54:03+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+      "summary": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
+      "url": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T22:48:22+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+      "summary": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader Mark Speakman will not contest his seat at th",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
+      "published": "2026-11-19T22:17:09+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "BBC News – Свят",
@@ -60,7 +105,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
-      "summary": "Britain understood to have made concessions on youth mobility scheme as negotiations on wider deal continue British and European negotiators were striving to put the finishing touches to a deal on Thursday night as they provisionally agreed to allow 100,000 EU",
+      "summary": "Britain makes concessions on youth mobility scheme as negotiations on food and farming go down to the wire British and European negotiators were striving to put the finishing touches to a deal on Thursday night as they provisionally agreed to allow 100,000 EU",
       "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
       "published": "2026-11-19T20:52:05+00:00",
       "feed_id": "guardian-world"
@@ -346,15 +391,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "What did Trump, Xi and Putin get out of their historic meeting?",
-      "summary": "Trump, Putin and Xi have issued a \"joint declaration of peace\" after historical trilateral talks, but what did they get out of meeting?",
-      "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T17:23:29+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Middle East conflict poses biggest threat to global energy security in history, IEA warns",
       "summary": "Disruption to oil supplies through the Strait of Hormuz is driving up costs for households, while the agency says the longer the crisis continues, the harder it will be for global energy markets to recover.",
@@ -388,15 +424,6 @@
       "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china",
       "published": "2026-11-19T17:12:11+00:00",
       "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
-      "summary": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T17:03:23+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -463,15 +490,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
-      "summary": "Relief in the immediate aftermath of a landmark ruling, but what happens next is in the hands of governments around the world There were tears in the halls of The Hague in the Netherlands and an eruption of applause in the refugee camps of Bangladesh as the sc",
-      "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling",
-      "published": "2026-11-19T16:15:52+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "No mention of fossil fuels in latest COP31 draft deal",
       "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now, all mention of fossil fuels has been removed from the summit's new draft agreement.",
@@ -505,15 +523,6 @@
       "url": "https://www.investor.bg/a/538-pazari/439810-nasdaq-composite-zapochva-sesiyata-na-zeleno-anthropic-se-nasochva-kam-rast-pri-debyuta-si",
       "published": "2026-11-19T15:55:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-      "summary": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people.",
-      "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T15:52:26+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -622,21 +631,25 @@
       "url": "https://www.investor.bg/a/516-politika/439798-sreshtata-v-shandzhan-veroyatno-e-krayat-na-svetovnata-dominatsiya-na-sasht-koy-shte-gi-zamesti",
       "published": "2026-11-19T14:20:00+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Equipping Europeans for the age of AI: Council approves conclusions",
-      "summary": "The Council has approved conclusions highlighting the need for citizens at all stages of life to be equipped with the skills and competences to engage critically and responsibly with artificial intelligence.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/equipping-europeans-for-the-age-of-ai-council-approves-conclusions/",
-      "published": "2026-11-19T13:58:00+00:00",
-      "feed_id": "council-press"
     }
   ],
   "feed_status": {
-    "ok": 15,
+    "ok": 12,
     "total": 15,
-    "failures": []
+    "failures": [
+      {
+        "feed": "investor-bg",
+        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      {
+        "feed": "investor-economy",
+        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      {
+        "feed": "investor-finance",
+        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
