@@ -476,10 +476,23 @@ def fetch(feed):
     return rows
 
 def classify_investor_section(item):
-    """Move clearly international Investor.bg stories out of the Bulgaria stream."""
+    """Move only clearly foreign-focused stories to Europe/world.
+
+    Domestic relevance is determined first from the headline. The summary is
+    deliberately excluded from the foreign-keyword test because Bulgarian
+    stories often mention EU funds, Eurostat or international partners.
+    """
     if item.get("feed_id") not in {"investor-economy", "investor-finance", "economic-bg"}:
         return item
-    text = (item.get("title", "") + " " + item.get("summary", "")).casefold()
+    title = item.get("title", "").casefold()
+    domestic_terms = (
+        "българ", "софия", "пловдив", "варна", "бургас", "русе",
+        "стара загора", "перник", "кисел", "въглищните регион",
+        "българските домакинства", "у нас", "в страната"
+    )
+    if any(term in title for term in domestic_terms):
+        item["section"] = "bulgaria"
+        return item
     international_terms = (
         "русия", "руски", "москва", "путин", "украйна", "украин", "киев",
         "съединените щати", "саш", "американ", "трамп", "китай", "пекин",
@@ -492,10 +505,12 @@ def classify_investor_section(item):
         "франция", "френск", "британ", "великобритания", "италия", "испания",
         "полша", "унгария", "чехия", "сърбия", "турция", "япония", "индия",
         "корея", "саудитска арабия", "opec", "федералния резерв",
-        "американската борса", "азиатските пазари", "международн"
+        "американската борса", "азиатските пазари"
     )
-    if any(term in text for term in international_terms):
+    if any(term in title for term in international_terms):
         item["section"] = "europe"
+    else:
+        item["section"] = "bulgaria"
     return item
 
 
