@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T23:11:49.472633+00:00",
-  "last_checked_at": "2026-11-20T23:11:49.472636+00:00",
+  "updated_at": "2026-11-20T23:55:17.009767+00:00",
+  "last_checked_at": "2026-11-20T23:55:17.009770+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -41,7 +41,7 @@
       "url": "https://www.economic.bg/bg/a/view/malkijat-biznes-v-sofijska-oblast-tyrsi-evrosredstva-za-start-i-modernizacija",
       "published": "2026-11-20T13:50:25+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 32
+      "priority_score": 31
     },
     {
       "section": "bulgaria",
@@ -131,7 +131,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 25
+      "priority_score": 24
     },
     {
       "section": "bulgaria",
@@ -161,16 +161,6 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarska-iniciativa-s-mejdunarodno-partniorstvo-postavja-osnovite-za-vnedrjavane-na-malki-modulni-reaktori",
       "published": "2026-11-20T14:17:38+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "110 млн. евро ще бъдат насочени към предприятия във въглищните региони",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439849-110-mln-evro-shte-badat-nasocheni-kam-predpriyatiya-vav-vaglishtnite-regioni",
-      "published": "2026-11-20T13:36:00+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 24
     },
     {
@@ -211,6 +201,16 @@
       "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
       "published": "2026-11-20T19:01:30+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 23
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "110 млн. евро ще бъдат насочени към предприятия във въглищните региони",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439849-110-mln-evro-shte-badat-nasocheni-kam-predpriyatiya-vav-vaglishtnite-regioni",
+      "published": "2026-11-20T13:36:00+00:00",
+      "feed_id": "investor-economy",
       "priority_score": 23
     },
     {
@@ -381,7 +381,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
       "published": "2026-11-20T17:17:57+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -434,26 +434,6 @@
       "priority_score": 14
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - General Affairs Council (Cohesion) of 23 November 2026",
-      "summary": "Main agenda items, approximate timing and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-general-affairs-council-cohesion-of-23-november-2026/",
-      "published": "2026-11-20T13:54:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 14
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Remarks by President António Costa at the press conference following the EU-UK summit of 20 November 2026",
-      "summary": "During the press conference held after at the end of the EU-United Kingdom summit of 20 November 2026, President António Costa addressed the press.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/remarks-by-president-antonio-costa-at-the-press-conference-following-the-eu-uk-summit-of-20-november-2026/",
-      "published": "2026-11-20T13:54:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 14
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Правителството определи таван на приходите на производителите на ток",
@@ -471,6 +451,26 @@
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
       "published": "2026-11-20T17:11:42+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 13
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - General Affairs Council (Cohesion) of 23 November 2026",
+      "summary": "Main agenda items, approximate timing and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-general-affairs-council-cohesion-of-23-november-2026/",
+      "published": "2026-11-20T13:54:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 13
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Remarks by President António Costa at the press conference following the EU-UK summit of 20 November 2026",
+      "summary": "During the press conference held after at the end of the EU-United Kingdom summit of 20 November 2026, President António Costa addressed the press.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/remarks-by-president-antonio-costa-at-the-press-conference-following-the-eu-uk-summit-of-20-november-2026/",
+      "published": "2026-11-20T13:54:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 13
     },
     {
@@ -565,6 +565,56 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "A new Nepal, an old neighbour - Balendra Shah's India test",
+      "summary": "Trade, connectivity and regional cooperation will be on top of the agenda when Nepal's PM meets his India counterpart.",
+      "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:28:17+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Dead pets were meant to be cremated - then their bodies appeared on a livestream",
+      "summary": "Grieving Filipinos confront a distressing reality: their dogs and cats may not have received the send-off they paid for.",
+      "url": "https://www.bbc.co.uk/news/articles/cmn502ek17yvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:20:33+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "US declassifies more UFO footage filmed in the Middle East",
+      "summary": "The Pentagon has released an eighth tranche of UFO records, which includes three video clips recorded in 2020, 2023 and 2026.",
+      "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:15:20+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "NSW passes Mount Pleasant coalmine law as Greens claim change an attempt to head off One Nation",
+      "summary": "Labor says allowing mine to increase production reflects ‘gravity of situation facing hundreds of workers’ – but critics call it ‘unprecedented and dangerous’ Get our breaking news email , free app or daily news podcast The New South Wales government has passe",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/21/nsw-passes-hunter-valley-coalmine-law-as-greens-claim-change-an-attempt-to-head-off-one-nation-ntwnfb",
+      "published": "2026-11-20T23:09:57+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:08:57+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "Germany: Berlin student protest targets rearmament and compulsory service",
       "summary": "Thousands of students marched through Berlin, on Friday 20 November 2026, protesting against the country's rapid military rearmament and fears of a return to compulsory military service. Their protest formed part of a wider wave of youth demonstrations across",
@@ -624,66 +674,6 @@
       "priority_score": 12
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Завръща ли се златото като убежище на фона на несигурността около AI?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/439868-zavrashta-li-se-zlatoto-kato-ubezhishte-na-fona-na-nesigurnostta-okolo-ai",
-      "published": "2026-11-20T21:49:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Trump threatens ‘tremendous penalties’ on US tech firms that build datacenters abroad",
-      "summary": "President gives wide-ranging White House press conference and says he has ‘fantastic relationships’ with Putin and Xi Donald Trump threatened on Friday to impose “tremendous penalties” on American tech companies that build datacenters outside the US, though he",
-      "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
-      "published": "2026-11-20T21:47:41+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "What the new UK-EU deal could mean for future post-Brexit relations",
-      "summary": "The BBC's political and Europe editors analyse the new agreements between the UK and EU.",
-      "url": "https://www.bbc.co.uk/news/videos/c90k6gl3lyxeo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T21:43:22+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Сривът на изкуствения интелект набира скорост, Nvidia изтри 2,6 трлн. долара от октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439877-srivat-na-izkustveniya-intelekt-nabira-skorost-nvidia-iztri-26-trln-dolara-ot-oktomvri",
-      "published": "2026-11-20T21:38:54+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
-      "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout Who are Anthropic’s seven co-founders, now worth $180bn? As Anthropic’s stock dropped during its second day of tradin",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "published": "2026-11-20T21:38:17+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Video shows dramatic helicopter rescue of woman trapped in flood channel",
-      "summary": "Los Angeles County firefighters rescued a woman trapped in a fast-moving flood control channel using a helicopter and an airborne paramedic.",
-      "url": "https://www.euronews.com/2026/11/20/video-shows-dramatic-helicopter-rescue-of-woman-trapped-in-flood-channel",
-      "published": "2026-11-20T21:18:14+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission greenlights Slovenia's seventh and final payment request for €271.8 million under NextGenerationEU",
@@ -702,12 +692,27 @@
       "published": "2026-11-20T09:00:19+00:00",
       "feed_id": "commission-press",
       "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – България",
+      "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/367399-predlagat-vrashtane-na-mesechnata-karta-za-edna-liniya-za-nazemen-transport-v-sofiya",
+      "published": "2023-01-12T09:49:00+00:00",
+      "feed_id": "investor-bg",
+      "priority_score": 12
     }
   ],
   "feed_status": {
-    "ok": 17,
+    "ok": 16,
     "total": 17,
-    "failures": []
+    "failures": [
+      {
+        "feed": "parliament-news",
+        "error": "<urlopen error timed out>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
