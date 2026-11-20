@@ -66,6 +66,22 @@ FEEDS = [
         "keywords": [],
     },
     {
+        "id": "bta-bulgaria",
+        "section": "bulgaria",
+        "name": "БТА",
+        "url": "https://www.bta.bg/bg/news/bulgaria/rss",
+        "allowed_hosts": ["www.bta.bg", "bta.bg"],
+        "keywords": [],
+    },
+    {
+        "id": "economic-bg",
+        "section": "bulgaria",
+        "name": "Economic.bg",
+        "url": "https://www.economic.bg/bg/rss.xml",
+        "allowed_hosts": ["www.economic.bg", "economic.bg"],
+        "keywords": [],
+    },
+    {
         "id": "ecb-press",
         "section": "europe",
         "name": "Европейска централна банка",
@@ -461,7 +477,7 @@ def fetch(feed):
 
 def classify_investor_section(item):
     """Move clearly international Investor.bg stories out of the Bulgaria stream."""
-    if item.get("feed_id") not in {"investor-economy", "investor-finance"}:
+    if item.get("feed_id") not in {"investor-economy", "investor-finance", "economic-bg"}:
         return item
     text = (item.get("title", "") + " " + item.get("summary", "")).casefold()
     international_terms = (
@@ -520,6 +536,7 @@ def main():
     result = {
         "schema_version": 1,
         "updated_at": datetime.now(timezone.utc).isoformat(),
+        "last_checked_at": datetime.now(timezone.utc).isoformat(),
         "items": items,
         "feed_status": {
             "ok": len(FEEDS) - len(failures),
