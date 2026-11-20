@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T18:46:04.642741+00:00",
-  "last_checked_at": "2026-11-20T18:46:04.642746+00:00",
+  "updated_at": "2026-11-20T19:50:34.361845+00:00",
+  "last_checked_at": "2026-11-20T19:50:34.361849+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -41,7 +41,7 @@
       "url": "https://www.economic.bg/bg/a/view/malkijat-biznes-v-sofijska-oblast-tyrsi-evrosredstva-za-start-i-modernizacija",
       "published": "2026-11-20T13:50:25+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 33
+      "priority_score": 32
     },
     {
       "section": "europe",
@@ -85,6 +85,16 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Майкъл Кълън разказа в Габрово за дългия път до опаковането на Райхстага от Кристо",
+      "summary": "Историята за възникването на идеята на Кристо Явашев да опакова сградата на Райхстага в Берлин и пътя до нейната реализация, отнел повече от две десетилетия, беше представена от американския историк на архитектурата Майкъл Кълън на среща в центъра „Кристо и Жа",
+      "url": "https://www.bta.bg/bg/news/lik/1251467-maykal-kalan-razkaza-v-gabrovo-za-dalgiya-pat-do-opakovaneto-na-rayhstaga-ot-kri",
+      "published": "2026-11-20T19:33:16+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Презаписването на IPO-то на Anthropic може би ще убеди пазарните участници да нямат страх от AI",
       "summary": "",
@@ -115,23 +125,13 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Семинар по проект за укрепване на капацитета на България и Румъния за реформиране на учебните програми се състоя в София",
-      "summary": "Семинар по проект за укрепване на капацитета на България и Румъния за реформиране на учебните програми, който се изпълнява от Организацията за икономическо сътрудничество и развитие (ОИСР) с подкрепата на Европейската комисия (ЕК), се проведе в София, съобщиха",
-      "url": "https://www.bta.bg/bg/news/lik/1251398-seminar-po-proekt-za-ukrepvane-na-kapatsiteta-na-balgariya-i-rumaniya-za-reformi",
-      "published": "2026-11-20T17:31:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Потребителското доверие в САЩ расте през ноември на фона на спада на цените на бензина",
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 26
+      "priority_score": 25
     },
     {
       "section": "bulgaria",
@@ -165,26 +165,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "110 млн. евро ще бъдат насочени към предприятия във въглищните региони",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439849-110-mln-evro-shte-badat-nasocheni-kam-predpriyatiya-vav-vaglishtnite-regioni",
-      "published": "2026-11-20T13:36:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Монетният двор пуска сребърен медал с лика на цар Самуил (снимки)",
-      "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
-      "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
-      "published": "2026-11-20T12:48:19+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
@@ -202,6 +182,36 @@
       "published": "2026-11-20T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 25
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "След десетгодишна пауза международното студентско биенале „Рисунка“ събра в София творби на студенти от осем страни",
+      "summary": "Националната художествена академия (НХА) възобнови Международното студентско биенале „Рисунка“ десет години след последното му издание. Четвъртото биенале бе открито тази вечер в столичната галерия „Академия“ с изложба на 93-ма студенти от десет висши училища",
+      "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
+      "published": "2026-11-20T19:01:30+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "110 млн. евро ще бъдат насочени към предприятия във въглищните региони",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439849-110-mln-evro-shte-badat-nasocheni-kam-predpriyatiya-vav-vaglishtnite-regioni",
+      "published": "2026-11-20T13:36:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Монетният двор пуска сребърен медал с лика на цар Самуил (снимки)",
+      "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
+      "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
+      "published": "2026-11-20T12:48:19+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 24
     },
     {
       "section": "bulgaria",
@@ -361,16 +371,6 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
       "published": "2026-11-20T17:17:57+00:00",
       "feed_id": "commission-press",
-      "priority_score": 16
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
-      "published": "2026-11-20T17:11:42+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 15
     },
     {
@@ -445,13 +445,23 @@
     },
     {
       "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
+      "published": "2026-11-20T17:11:42+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 14
+    },
+    {
+      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Joint statement EU-United Kingdom summit, 20 November 2026",
       "summary": "The leaders of the European Union and United Kingdom held their second EU-UK summit in Brussels on 20 November 2026, and agreed on a joint statement.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/joint-statement-eu-united-kingdom-summit-20-november-2026/",
       "published": "2026-11-20T13:07:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -534,6 +544,16 @@
       "priority_score": 14
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – България",
+      "title": "Правителството определи таван на приходите на производителите на ток",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/367331-pravitelstvoto-opredeli-tavan-na-prihodite-na-proizvoditelite-na-tok",
+      "published": "2023-01-11T13:10:00+00:00",
+      "feed_id": "investor-bg",
+      "priority_score": 14
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission greenlights Slovenia's seventh and final payment request for €271.8 million under NextGenerationEU",
@@ -541,7 +561,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2535",
       "published": "2026-11-20T09:04:07+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -551,17 +571,87 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2534",
       "published": "2026-11-20T09:00:19+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – България",
-      "title": "Правителството определи таван на приходите на производителите на ток",
+      "source": "Investor.bg – Финанси",
+      "title": "Биткойнът не издържа теста за \"дигитално злато\"",
       "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/367331-pravitelstvoto-opredeli-tavan-na-prihodite-na-proizvoditelite-na-tok",
-      "published": "2023-01-11T13:10:00+00:00",
-      "feed_id": "investor-bg",
-      "priority_score": 14
+      "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439875-bitkoynat-ne-izdarzha-testa-za-digitalno-zlato",
+      "published": "2026-11-20T19:41:38+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+      "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T19:38:46+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+      "summary": "Nikhil Gupta pleaded guilty to murder-for-hire, conspiracy to commit murder-for-hire, and conspiracy to commit money laundering in February.",
+      "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T19:27:49+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Germany intensifies engagement with South Caucasus as 'region of opportunities'",
+      "summary": "Germany's foreign minister visited Azerbaijan and Armenia to develop projects of “strategic importance to Europe both economically and politically,\" in the context of Russia's aggression against Ukraine and the economic situation in Europe.",
+      "url": "https://www.euronews.com/2026/11/20/germany-intensifies-engagement-with-south-caucasus-as-region-of-opportunities",
+      "published": "2026-11-20T19:24:23+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Съвместната мултижанрова изложба „фотоИграфикА“ на Иво Бобев и Антон Савов бе открита в Кърджали",
+      "summary": "В арт галерия „Кръг“ в Кърджали бе открита съвместната мултижанрова изложба „фотоИграфикА“, дело на Иво Бобев - фотография и Антон Савов - графика. Двама автори, родени в Кърджали, носят паметта и нишката на своите родови корени. Единият има в родословието си",
+      "url": "https://www.bta.bg/bg/news/lik/1251463-savmestnata-multizhanrova-izlozhba-fotoigrafika-na-ivo-bobev-i-anton-savov-be-",
+      "published": "2026-11-20T19:16:51+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "White House removes cyber-security chief after series of tech outages",
+      "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T19:03:56+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Trump accuses Iran of dishonesty while defending Putin ties",
+      "summary": "Speaking at a White House press conference on Friday, Trump defended his ties with Xi and Putin, called for a \"real deal\" with Iran and claimed the Russian leader wanted to end the war in Ukraine through diplomacy.",
+      "url": "https://www.euronews.com/2026/11/20/trump-accuses-iran-of-dishonesty-while-defending-putin-ties",
+      "published": "2026-11-20T18:55:06+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Любомир Григоров е победителят в националния конкурс за скулптурна композиция в памет на Милчо Левиев",
+      "summary": "На официална церемония в Дома на културата „Борис Христов“ в Пловдив бяха обявени лауреатите в националния конкурс за скулптурна композиция в памет на световноизвестния композитор, пианист и джаз музикант Милчо Левиев. В рамките на събитието бе открита и излож",
+      "url": "https://www.bta.bg/bg/news/lik/1251457-lyubomir-grigorov-e-pobeditelyat-v-natsionalniya-konkurs-za-skulpturna-kompozits",
+      "published": "2026-11-20T18:50:18+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
     },
     {
       "section": "bulgaria",
@@ -597,7 +687,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Misty-eyed Burnham gambles on closer ties with EU as he throws down gauntlet to Tories and Reform",
-      "summary": "PM challenges rivals to rebuff plan he says could add 0.5% annual growth to economy and offer young people hope Several sentences in to a slightly convoluted answer about where UK-EU relations might go next, Andy Burnham abruptly changed tack. “The important p",
+      "summary": "PM challenges rivals to rebuff plan he says could add 0.5% annual growth to economy and offer young people hope Several sentences into a slightly convoluted answer about where UK-EU relations might go next, Andy Burnham abruptly changed tack. “The important po",
       "url": "https://www.theguardian.com/politics/2026/nov/20/andy-burnham-uk-eu-brussels-summit",
       "published": "2026-11-20T18:22:50+00:00",
       "feed_id": "guardian-world",
@@ -611,96 +701,6 @@
       "url": "https://www.bta.bg/bg/news/lik/1251440-maychinstvoto-vklyuchva-otgovornostta-za-duhovnoto-izrastvane-na-deteto-kaza-pr",
       "published": "2026-11-20T18:17:07+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper",
-      "summary": "Russian intelligence thought to be behind plan to kill US-Ukrainian musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempt",
-      "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-      "published": "2026-11-20T18:16:12+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Адвокат Велина Пиргова представя изложбата „Отвъд правото“ в Арт галерия – Петрич",
-      "summary": "Изложбата „Отвъд правото“ на адвокат Велина Пиргова беше открита тази вечер в Арт галерия – Петрич. Експозицията представя 15 ръчно изработени гоблена, чрез които авторката разкрива една по-малко позната част от своя свят – този на цветовете, творчеството и ли",
-      "url": "https://www.bta.bg/bg/news/lik/1251441-advokat-velina-pirgova-predstavya-izlozhbata-otvad-pravoto-v-art-galeriya-pe",
-      "published": "2026-11-20T18:12:56+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изложбата живопис „Eсен“ представи творби на четирима български художници във фоайето на Старозагорската опера",
-      "summary": "Изложбата живопис „Eсен“ беше открита тази вечер минути преди официалното начало на 56-ото издание на Фестивала на оперното и балетното изкуство (ФОБИ) във фоайето на Старозагорската опера. Експозицията представя картини от творчеството на Венко Мадолев, Орхан",
-      "url": "https://www.bta.bg/bg/news/lik/1251435-izlozhbata-zhivopis-esen-predstavi-tvorbi-na-chetirima-balgarski-hudozhnitsi-v",
-      "published": "2026-11-20T18:06:06+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live",
-      "summary": "President of European Council says EU ‘remains open to have the closest possible relationship’ with the UK Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutralise t",
-      "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
-      "published": "2026-11-20T17:59:55+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Burnham seals trade and youth mobility deals in biggest step towards EU since Brexit",
-      "summary": "Agreements reached on food and drink, emissions and to allow young people to move around continent, but may be derailed over student fees Andy Burnham has taken the biggest step towards deeper ties with the EU since Brexit, sealing deals to ease trade and crea",
-      "url": "https://www.theguardian.com/politics/2026/nov/20/burnham-trade-youth-mobility-deals-biggest-step-towards-eu-since-brexit",
-      "published": "2026-11-20T17:57:10+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Петото издание на Коледния фестивал в София беше официално открито в парка пред НДК",
-      "summary": "Петото издание на коледния фестивал Sofia Christmas Fest беше официално открито в парка пред Националния дворец на културата (НДК) и до 28 декември пространството ще е Коледно градче. Кметът на София Васил Терзиев каза, че е щастлив, тъй като София отново е за",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251432-petoto-izdanie-na-koledniya-festival-v-sofiya-beshe-ofitsialno-otkrito-v-parka-p",
-      "published": "2026-11-20T17:55:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-      "summary": "Nikhil Gupta pleaded guilty to murder-for-hire, conspiracy to commit murder-for-hire, and conspiracy to commit money laundering in February.",
-      "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T17:54:37+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Плевен започна националният кръг на многоезичното състезание за ученици",
-      "summary": "В Плевен с церемония беше обявено началото на националния кръг на многоезичното състезание за ученици. Тя се състоя в концертна зала „Катя Попова“. В състезанието общо 132 ученици от 20 области на България ще покажат своите знания по английски, италиански, исп",
-      "url": "https://www.bta.bg/bg/news/lik/1251427-v-pleven-zapochna-natsionalniyat-krag-na-mnogoezichnoto-sastezanie-za-uchenitsi",
-      "published": "2026-11-20T17:54:12+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
-      "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
-      "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T17:49:48+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 12
     }
   ],
