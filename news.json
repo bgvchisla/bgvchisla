@@ -1,7 +1,43 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:51:03.673136+00:00",
+  "updated_at": "2026-11-20T06:52:29.862436+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Цената на петрола „Брент“ продължава да расте след волатилна сесия*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439824-tsenata-na-petrola-brent-prodalzhava-da-raste-sled-volatilna-sesiya",
+      "published": "2026-11-20T06:43:24+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Germany news: Lufthansa to cut 1,000 jobs, reports say",
+      "summary": "The job cuts come as Lufthansa Airlines is struggling to turn a profit. Meanwhile, further youth-led protests are expected. DW has the latest.",
+      "url": "https://www.dw.com/en/germany-news-lufthansa-to-cut-1-000-jobs-reports-say/live-79998529?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T06:41:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Китай ограничи износа на двигатели за дронове, Тръмп иска Европа да спре помощта за Киев",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439823-kitay-ogranichi-iznosa-na-dvigateli-za-dronove-tramp-iska-evropa-da-spre-pomoshtta-za-kiev",
+      "published": "2026-11-20T06:08:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 20th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 20th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/20/latest-news-bulletin-november-20th-2026-morning",
+      "published": "2026-11-20T06:00:32+00:00",
+      "feed_id": "euronews"
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
@@ -212,8 +248,8 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
-      "summary": "Orla Guerin speaks to seven people trapped in Taiz by the Houthis who reveal what life is like under siege.",
+      "title": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
+      "summary": "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks.",
       "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-20T00:13:21+00:00",
       "feed_id": "bbc-world"
@@ -393,7 +429,7 @@
       "section": "europe",
       "source": "Euronews",
       "title": "New regional security architecture will also benefit Europe, Pakistani FM tells Euronews",
-      "summary": "In an exclusive interview for Euronews’ World Conversation show, Pakistan’s deputy prime minister revealed the backstage efforts that led to the US-Israel agreement to end the war in June. He also outlined Pakistan's strategy towards a new regional security ar",
+      "summary": "In an exclusive interview for Euronews’ World Conversation show, Pakistan’s Deputy Prime Minister revealed the backstage mediation that brought the US and Iran to agreement in June. He also outlined Pakistan's strategy towards a new regional security architect",
       "url": "https://www.euronews.com/2026/11/19/new-regional-security-architecture-will-also-benefit-europe-pakistani-fm-tells-euronews",
       "published": "2026-11-19T19:17:35+00:00",
       "feed_id": "euronews"
@@ -480,15 +516,6 @@
       "feed_id": "guardian-world"
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Xi Jinping, Donald Trump and Vladimir Putin have held trilateral talks ― but what did they achieve?",
-      "summary": "The presidents of China, the US and Russia have held an unprecedented summit. While Trump said the three leaders were \"making history,\" Xi described the talks as \"fruitful\" and Putin called them \"open and candid.\"",
-      "url": "https://www.dw.com/en/xi-jinping-donald-trump-and-vladimir-putin-have-held-trilateral-talks-―-but-what-did-they-achieve/a-79996668?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T17:52:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Христо Борисов: Payhawk се готви за глобална експанзия",
@@ -540,15 +567,6 @@
       "summary": "The US president reportedly called into a meeting of Kyiv's European allies from Air Force One, hours after talks with Putin and Xi, and said Moscow was ready to negotiate a peace deal.",
       "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
       "published": "2026-11-19T17:24:44+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Middle East conflict poses biggest threat to global energy security in history, IEA warns",
-      "summary": "Disruption to oil supplies through the Strait of Hormuz is driving up costs for households, while the agency says the longer the crisis continues, the harder it will be for global energy markets to recover.",
-      "url": "https://www.euronews.com/2026/11/19/middle-east-conflict-poses-biggest-threat-to-global-energy-security-in-history-iea-warns",
-      "published": "2026-11-19T17:18:31+00:00",
       "feed_id": "euronews"
     },
     {
@@ -613,24 +631,6 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/media-advisory-press-conference-on-the-mff-negobox-and-press-briefing-ahead-of-the-special-european-council-meeting-of-26-27-november-2026/",
       "published": "2026-11-19T15:45:00+00:00",
       "feed_id": "council-press"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Групата на „Спиди“ отчита 26% ръст на консолидираната печалба за първите девет месеца",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439774-grupata-na-spidi-otchita-26-rast-na-konsolidiranata-pechalba-za-parvite-devet-mesetsa",
-      "published": "2026-11-19T15:34:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement on the incident at today's Cancer Summit",
-      "summary": "European Commission Statement Brussels, 19 Nov 2026 This morning, at the European Cancer Summit in Brussels, organised by the European Cancer Organisation, Commissioner for Health and Animal Welfare, Olivér Várhe...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2528",
-      "published": "2026-11-19T15:04:25+00:00",
-      "feed_id": "commission-press"
     }
   ],
   "feed_status": {
