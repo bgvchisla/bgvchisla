@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T09:48:11.524851+00:00",
-  "last_checked_at": "2026-11-20T09:48:11.524857+00:00",
+  "updated_at": "2026-11-20T10:50:18.579111+00:00",
+  "last_checked_at": "2026-11-20T10:50:18.579115+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "За разноски по загубени дела за последните три години Община Кърджали е била осъдена да заплати близо 470 хиляди евро",
+      "summary": "Общата сума на съдебни разноски за периода 1 ноември 2023г. – 30 септември 2026г., която Община Кърджали е осъдена да заплати по всички административни, граждански, търговски и други загубени дела, е 469 923 евро. Това каза кметът Ерол Мюмюн в отговор на питан",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250939-za-raznoski-po-zagubeni-dela-za-poslednite-tri-godini-obshtina-kardzhali-e-bila-",
+      "published": "2026-11-20T10:32:13+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 56
+    },
     {
       "section": "europe",
       "source": "Economic.bg",
@@ -11,35 +21,25 @@
       "url": "https://www.economic.bg/bg/a/view/vecherni-novini-chujdestrannite-investicii-v-bylgarija-dyrjavata-moje-da-si-poiska-avansite-za-hemus",
       "published": "2026-11-19T16:38:10+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 48
+      "priority_score": 47
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "България приключва Плана за възстановяване и устойчивост, ще получи 99% от парите по него, каза вицепремиерът Пеканов",
-      "summary": "България приключва днес Плана за възстановяване и устойчивост, и ще получи 99% от парите по него, съобщи вицепремиерът Атанас Пеканов на брифинг в Министерския съвет. Европейската комисия днес одобри парите по петото плащане - над 1,7 млрд. евро, които Българи",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250867-balgariya-priklyuchva-plana-za-vazstanovyavane-i-ustoychivost-shte-poluchi-99-",
-      "published": "2026-11-20T09:31:21+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 43
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "„Продължаваме промяната“ представи кандидатите си за членове на ВСС от квотата на парламента за Съдийската колегия",
-      "summary": "„Продължаваме промяната“ представи в пленарна зала кандидатите си за членове на Висшия съдебен съвет (ВСС) от квотата на парламента за Съдийската колегия. Кандидатурата на Васил Пандов беше представена от депутата Стою Стоев, който отбеляза, че доц. д-р Пандов",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250825--prodalzhavame-promyanata-predstavi-kandidatite-si-za-chlenove-na-vss-ot-kvotat",
-      "published": "2026-11-20T09:38:47+00:00",
+      "title": "\"Възраждане\" ще подкрепи личности, без да се съобразява с квоти при избора на членове на ВСС, заяви Костадин Костадинов",
+      "summary": "\"Възраждане\" ще участва в гласуването и освен Цвета Рангелова (издигната от политическата сила), ще подкрепи и други кандидати, обяви при дебатите в пленарната зала, след представянето на всички номинации за Висшия съдебен съвет, лидерът на парламентарна група",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250937--vazrazhdane-shte-podkrepi-lichnosti-bez-da-se-saobrazyava-s-kvoti-pri-izbora-",
+      "published": "2026-11-20T10:33:21+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 42
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "От „Прогресивна България\" представиха кандидатите си за Съдийска колегия на ВСС пред Народното събрание",
-      "summary": "От ПГ на „Прогресивна България\" представиха кандидатите си за членове на Съдийската колегия на Висшия съдебен съвет (ВСС) пред Народното събрание. Кандидатурата на Анета Антонова представи Димитър Здравков. Той посочи, че Антонова е утвърден преподавател и уче",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250826-ot-progresivna-balgariya-predstaviha-kandidatite-si-za-sadiyska-kolegiya-na-vs",
-      "published": "2026-11-20T09:35:47+00:00",
+      "title": "Асоциацията на пенсионните дружества и Икономически университет – Варна подписаха меморандум за сътрудничество",
+      "summary": "Българската асоциация на дружествата за допълнително пенсионно осигуряване (БАДДПО) и Икономически университет - Варна подписаха меморандум за партньорство. Под документа стоят подписите на председателя на УС на асоциацията Евелина Милтенова и на ректора проф.",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250947-asotsiatsiyata-na-pensionnite-druzhestva-i-ikonomicheski-universitet-varna-pod",
+      "published": "2026-11-20T10:34:48+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 41
     },
@@ -51,7 +51,17 @@
       "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-postavi-vyprosa-za-regulatornata-nesigurnost-poskypvaneto-na-energijnata-infrastruktura",
       "published": "2026-11-19T16:23:42+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 40
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Днешният избор на членове на ВСС е важна стъпка към връщането на доверието в съдебната система, каза Янка Тянкова от „Прогресивна България“",
+      "summary": "Убедена съм, че днешният избор е изключително важна стъпка към връщането на доверието в съдебната система и гаранция за нейното ефективно функциониране изцяло и единствено в полза на гражданите. Това каза Янка Тянкова от ПГ на „Прогресивна България“ при разиск",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250962-dneshniyat-izbor-na-chlenove-na-vss-e-vazhna-stapka-kam-vrashtaneto-na-doverieto",
+      "published": "2026-11-20T10:36:37+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 38
     },
     {
       "section": "bulgaria",
@@ -64,14 +74,14 @@
       "priority_score": 37
     },
     {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Путин покани европейците в Москва, за да обсъдят Украйна, но отхвърли примирие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439809-putin-pokani-evropeytsite-v-moskva-za-da-obsadyat-ukrayna-no-othvarli-primirie",
-      "published": "2026-11-19T16:58:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 37
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Още 110 млн. евро тръгват към Кюстендил, Перник и Стара Загора за справедлив преход",
+      "summary": "Нова процедура за подкрепа на бизнеса във въглищните региони на България с бюджет от 110 млн. евро получи одобрение от Комитета за наблюдение на Програма „Развитие на регионите“ 2021 – 2027 г. Средствата са предназначени за микро-, малки и средни предприятия в",
+      "url": "https://www.economic.bg/bg/a/view/oshte-110-mln-evro-trygvat-kym-kustendil-pernik-i-stara-zagora-za-spravedliv-prehod",
+      "published": "2026-11-20T10:24:23+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 34
     },
     {
       "section": "europe",
@@ -91,7 +101,7 @@
       "url": "https://www.economic.bg/bg/a/view/reinvestiranata-pechalba-ostava-dvigatelja-na-chujdestrannite-investicii-v-bylgarija",
       "published": "2026-11-19T16:09:23+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 30
+      "priority_score": 29
     },
     {
       "section": "bulgaria",
@@ -101,7 +111,7 @@
       "url": "https://www.parliament.bg/bg/news/6679",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
-      "priority_score": 30
+      "priority_score": 29
     },
     {
       "section": "bulgaria",
@@ -115,22 +125,42 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "След рекордни продажби dm България планира нови инвестиции в разширяване",
-      "summary": "Дрогерийната верига dm България планира да увеличи логистичния си капацитет с 25% през следващата година, като инвестира около 500 хил. евро в оборудване и техника за новите площи. Компанията ще продължи да открива магазини в страната, но основният ѝ фокус ост",
-      "url": "https://www.economic.bg/bg/a/view/sled-rekordni-prodajbi-dm-bylgarija-planira-novi-investicii-v-razshirjavane",
-      "published": "2026-11-19T13:35:39+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 28
+      "source": "БТА",
+      "title": "Три учебни филма за професии в туризма са изготвени по трансграничен проект между Добрич и Констанца",
+      "summary": "Три учебни филма за професиите камериер в хотелиерството, сервитьор-барман и администратор в хотелиерството са изготвени по трансграничен проект за обучение в туризма и учене през целия живот. Това съобщиха Красен Събев, ръководител на проекта, и Божанка Добре",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250964-tri-uchebni-filma-za-profesii-v-turizma-sa-izgotveni-po-transgranichen-proekt-me",
+      "published": "2026-11-20T10:48:31+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "„Ай Ти Еф Груп“ набра 15 млн. евро от първото за компанията предлагане на облигации чрез БФБ",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439845-ay-ti-ef-grup-nabra-15-mln-evro-ot-parvoto-za-kompaniyata-predlagane-na-obligatsii-chrez-bfb",
+      "published": "2026-11-20T10:40:49+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 26
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Жена, изтеглила над 7 хил. евро чрез злоупотреба с чужди лични данни, разкриха полицаи в Мездра",
-      "summary": "Млада жена, злоупотребявала с лични данни, е разкрита след разследване на служители на Районно управление – Мездра, съобщиха от Областната дирекция (ОД) на МВР – Враца. В резултат на злоупотребата 29-годишната жена е успяла да изтегли без знанието на собствени",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250882-zhena-izteglila-nad-7-hil-evro-chrez-zloupotreba-s-chuzhdi-lichni-danni-razkr",
-      "published": "2026-11-20T09:43:33+00:00",
+      "title": "Над 1,5 млн. евро ще бъдат инвестирани в последния етап от изграждането на канализация в тунджанското село Веселиново",
+      "summary": "Над 1,5 млн. евро ще бъдат инвестирани в последния, пети етап от изграждането на канализация в едно от най-големите села в ямболската община Тунджа - Веселиново. Началото на строително-монтажните дейности беше дадено със символична церемония по първа копка. Ср",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250940-nad-1-5-mln-evro-shte-badat-investirani-v-posledniya-etap-ot-izgrazhdaneto-na-k",
+      "published": "2026-11-20T10:36:42+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Лагард: Европа трябва да се научи да предотвратява заплахите, преди да се материализират",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439840-lagard-evropa-tryabva-da-se-nauchi-da-predotvratyava-zaplahite-predi-da-se-materializirat",
+      "published": "2026-11-20T10:13:00+00:00",
+      "feed_id": "investor-economy",
       "priority_score": 26
     },
     {
@@ -146,10 +176,20 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Граждани протестират в подкрепа на родителите, майките, децата и семействата, и за правата на хората с увреждания",
-      "summary": "Граждани протестират в София в подкрепа на родителите, майките и децата, и за правата на хората с увреждания. Протестът е под надслов „За достойнство, права и справедливост“ и е организиран от сдружение „Достойнство 2023“ и гражданска инициатива „Родители за д",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250839-grazhdani-protestirat-v-podkrepa-na-roditelite-maykite-detsata-i-semeystvata-",
-      "published": "2026-11-20T09:38:33+00:00",
+      "title": "Екипи на Единната спасителна система тренираха как да действат при ситуация с бедстващи хора край язовир „Дренов дол“",
+      "summary": "В Кюстендил се състоя практическо учение със силите и средствата на Единната спасителна система за действия при възникнало бедствено положение. По сценария на учението е получен сигнал за бедстващи хора в близост до язовир „Дренов дол“, чието ниво на водата е",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250955-ekipi-na-edinnata-spasitelna-sistema-treniraha-kak-da-deystvat-pri-situatsiya-s-",
+      "published": "2026-11-20T10:46:41+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Медицинският колеж на Тракийския университет връчи дипломите на абсолвенти от випуск 2026",
+      "summary": "На тържествена церемония в залата на Културния център в Стара Загора Медицинският колеж на Тракийския университет връчи дипломите на 115 абсолвенти от випуск 2026, завършили шест медицински специалности: „Рехабилитатор“, „Протезист, ортезист, ортопедист“, „Мед",
+      "url": "https://www.bta.bg/bg/news/lik/1250952-meditsinskiyat-kolezh-na-trakiyskiya-universitet-vrachi-diplomite-na-absolventi-",
+      "published": "2026-11-20T10:38:20+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 24
     },
@@ -164,16 +204,6 @@
       "priority_score": 22
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Stoxx 600 записа най-дългата си серия на спадове от август насам",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439816-stoxx-600-zapisa-nay-dalgata-si-seriya-na-spadove-ot-avgust-nasam",
-      "published": "2026-11-19T17:40:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 22
-    },
-    {
       "section": "europe",
       "source": "Economic.bg",
       "title": "Финансовите резултати на Generali за 2026 г. ще надхвърлят очакванията",
@@ -181,16 +211,6 @@
       "url": "https://www.economic.bg/bg/a/view/finansovite-rezultati-na-generali-za-2026-g-shte-nadhvyrljat-ochakvanijata",
       "published": "2026-11-19T16:51:51+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Фотодокументална изложба, посветена на 80-годишнината от създаването на УНИЦЕФ, беше открита в Народното събрание",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6677",
-      "published": "2026-11-19T00:00:00+00:00",
-      "feed_id": "parliament-news",
       "priority_score": 22
     },
     {
@@ -214,13 +234,13 @@
       "priority_score": 22
     },
     {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Енергийното потребление на центровете за данни може да се удвои до 2030 г.",
-      "summary": "Потреблението на електроенергия от центровете за данни може да се удвои до 2030 г., достигайки до 1000 тераватчаса годишно. Това ще натовари електропреносните мрежи и ще доведе до 70% увеличение на въглеродните емисии, сочат данни на Международната агенция по",
-      "url": "https://www.economic.bg/bg/a/view/energijnoto-potreblenie-na-centrovete-za-danni-moje-da-se-udvoi-do-2030-g",
-      "published": "2026-11-19T14:13:34+00:00",
-      "feed_id": "economic-bg",
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Фотодокументална изложба, посветена на 80-годишнината от създаването на УНИЦЕФ, беше открита в Народното събрание",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6677",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 21
     },
     {
@@ -314,13 +334,53 @@
       "priority_score": 17
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Търговище приема номинации за отличията „Спортист на годината“ - 2026",
-      "summary": "Община Търговище обявява началото на номинациите за традиционните годишни отличия „Спортист на годината“. До 30 ноември включително спортните клубове в общината могат да предложат своите най-успешни състезатели и отбори за 2026 г., информират от общинския прес",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250884-obshtina-targovishte-priema-nominatsii-za-otlichiyata-sportist-na-godinata-2",
-      "published": "2026-11-20T09:46:39+00:00",
-      "feed_id": "bta-bulgaria",
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commissioner Tzitzikostas delivers a video address at 50th anniversary of the Hellenic Institute of Transportation Engineers",
+      "summary": "European Commission Ομιλία Brussels, 20 Nov 2026 Κύριε Πρόεδρε, Κυρίες και κύριοι, Το Ελληνικό Ινστιτούτο Συγκοινωνιολόγων ιδρύθηκε το 1976. Τον Ιούλιο της ίδιας χρονιάς, η Ελλάδα άνοιγε στις Βρυξέλλες τις δια...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/el/speech_26_2544",
+      "published": "2026-11-20T10:35:32+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 16
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission greenlights Slovenia's seventh and final payment request for €271.8 million under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Slovenia's seventh payment request worth €271.8 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2535",
+      "published": "2026-11-20T09:04:07+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 16
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission greenlights Greece's final payment requests for €11.32 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Greece's eighth and ninth payment requests, amounting to €11.32 billion, under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2534",
+      "published": "2026-11-20T09:00:19+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 16
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission partially greenlights Belgium's final payment request for €1.38 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Belgium's sixth and final payment request for €1.38 billion under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2533",
+      "published": "2026-11-20T08:58:31+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 16
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Извънредното запасяване тласка нагоре продажбите на дребно във Великобритания",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439838-izvanrednoto-zapasyavane-tlaska-nagore-prodazhbite-na-drebno-vav-velikobritaniya",
+      "published": "2026-11-20T10:18:00+00:00",
+      "feed_id": "investor-economy",
       "priority_score": 15
     },
     {
@@ -344,14 +404,174 @@
       "priority_score": 14
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 100 антични предмета от некропола на Хераклея Синтика са предадени на музея в Петрич",
+      "summary": "Над 100 керамични предмета, открити при археологически проучвания на богатия некропол на Хераклея Синтика, вече са предадени на Историческия музей в Петрич. Находките са реставрирани и подготвени за експониране. Това съобщи за БТА ръководителят на археологичес",
+      "url": "https://www.bta.bg/bg/news/lik/1250963-nad-100-antichni-predmeta-ot-nekropola-na-herakleya-sintika-sa-predadeni-na-muze",
+      "published": "2026-11-20T10:44:55+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Прогноза за времето",
+      "summary": "През следващото денонощие ще има променлива облачност, съобщиха от Националния институт по метеорология и хидрология. През нощта превалявания от дъжд ще има на места главно в северните и източните райони, а утре - предимно в планинските, западните и южните. В",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250972-prognoza-za-vremeto",
+      "published": "2026-11-20T10:44:06+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Sustainability: Council and Parliament strike deal on simpler transparency rules for financial product",
-      "summary": "The Council and the European Parliament reached a provisional agreement on simpler transparency rules for sustainable financial products sold in the EU.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/sustainability-council-and-parliament-strike-deal-on-simpler-transparency-rules-for-financial-product/",
-      "published": "2026-11-19T20:01:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 13
+      "source": "The Guardian – World",
+      "title": "UK says reset deal with EU agreed but talks will continue ‘in some areas’ – live",
+      "summary": "UK statement comes after EU said deal would not take effect without future agreement over university tuition fees Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutr",
+      "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+      "published": "2026-11-20T10:30:45+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Bhutan: Traditional wood painting shapes the kingdom's architecture",
+      "summary": "In Bhutan, artisans hand-paint intricate patterns on wooden buildings, preserving a centuries-old tradition. Known as Shing Tshon, the craft remains central to the kingdom's cultural identity.",
+      "url": "https://www.euronews.com/video/2026/11/20/bhutan-traditional-wood-painting-shapes-the-kingdoms-architecture",
+      "published": "2026-11-20T10:25:45+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Полша затвори ключово военно летище заради една от най-масираните руски атаки в Украйна",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439839-polsha-zatvori-klyuchovo-voenno-letishte-zaradi-edna-ot-nay-masiranite-ruski-ataki-v-ukrayna",
+      "published": "2026-11-20T10:22:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "summary": "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge.",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T10:20:08+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Do Mercedes, VW cuts signal the end — or a reset?",
+      "summary": "German automakers are now pulling back on investments at home, sparking fresh anxiety about the future of the auto sector. Some industry watchers think there is still a narrow window to stem the decline. But how?",
+      "url": "https://www.dw.com/en/do-mercedes-vw-cuts-signal-the-end-or-a-reset/a-79946928?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T10:14:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "UniCredit печели финалната битка за Commerzbank със съгласието на Германия",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439837-unicredit-pecheli-finalnata-bitka-za-commerzbank-sas-saglasieto-na-germaniya",
+      "published": "2026-11-20T10:11:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Iran readies tanker convoy at Kharg Island to test US oil blockade",
+      "summary": "More than 14 tankers have been assigned crews and Iranian flags at the terminal that handles up to 90% of the country’s crude exports, according to satellite imagery and ship-tracking data, with a convoy expected to head toward the Sea of Oman in the coming da",
+      "url": "https://www.euronews.com/2026/11/20/iran-readies-tanker-convoy-at-kharg-island-to-test-us-oil-blockade",
+      "published": "2026-11-20T10:06:49+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "‘Staff deserve answers’ on Commission cyberattack, union says",
+      "summary": "EU executive “yet to send a single update to all staff\" about recent cyberattack, union email says.",
+      "url": "https://www.politico.eu/article/staff-deserve-answers-eu-commission-cyberattack-union-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T10:04:39+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Global stock markets slump as Anthropic IPO fails to stem AI sell-off",
+      "summary": "Asian markets on track for their worst week since 2020, with European and US stocks also way down Business live – latest updates Global stock markets have slumped as Anthropic’s record-breaking IPO failed to stem a sell-off in AI-linked companies. Asian stock",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "published": "2026-11-20T10:02:21+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Brussels to link UK-EU summit package to tuition fee demands",
+      "summary": "Brussels denies it is taking Britain \"hostage\" despite insisting student fees are part of wider \"package.\"",
+      "url": "https://www.politico.eu/article/brussels-to-link-uk-eu-summit-package-to-tuition-fee-demands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T10:01:42+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+      "summary": "Ukraine's capital has been struck by Russian missiles with at least 3 deaths reported. The latest strikes come after Vladimir Putin warned of a \"painful\" response following the Kerch bridge strikes. Follow DW.",
+      "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T09:58:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Germany says investors ready to spend €25B to buy TikTok Europe",
+      "summary": "Germany and Austria floated the initiative earlier this week, citing concerns about the Chinese-owned company's influence on European democracy.",
+      "url": "https://www.politico.eu/article/germany-says-investors-ready-to-spend-e25b-to-buy-tiktok-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T09:52:38+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP31: UN Climate summit enters final phase with no deal in sight",
+      "summary": "After nearly two weeks of negotiations, countries remain divided on how to fight global warming. A new draft declaration doesn't mention the phaseout of fossil fuels, the main drivers of climate change. DW has more.",
+      "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T09:52:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Почти всички служители на Anthropic вече са милионери",
+      "summary": "Борсовият дебют на Anthropic превърна почти всички служители на компанията в милионери за една нощ – някои от тях дори мултимилионери. Към септември тази година Ai лабораторията е имала 5300 служители, сочат документи, подадени до регулаторните органи, цитиран",
+      "url": "https://www.economic.bg/bg/a/view/pochti-vsichki-slujiteli-na-anthropic-veche-sa-milioneri",
+      "published": "2026-11-20T09:48:18+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Emmanuel Macron hosts Kamala Harris at Elysée",
+      "summary": "The French leader is hosting the former vice president in a \"private capacity,\" the Elysée said.",
+      "url": "https://www.politico.eu/article/emmanuel-macron-hosts-kamala-harris-for-dinner/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T09:46:45+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 12
     },
     {
       "section": "europe",
@@ -361,66 +581,6 @@
       "url": "https://www.dw.com/en/lufthansa-to-cut-1-000-jobs-citing-ongoing-losses-reports/a-80000062?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-20T09:43:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Варненско читалище предизвиква децата да напишат най-красивото писмо до Дядо Коледа",
-      "summary": "Народното читалище „Васил Левски 1945“ във Варна обявява национален конкурс за най-красиво писмо до Дядо Коледа, съобщават от културната институция. Могат да участват деца и младежи от 4 до 18 години, които ще бъдат разпределени в четири възрастови групи. Всек",
-      "url": "https://www.bta.bg/bg/news/lik/1250823-varnensko-chitalishte-predizvikva-detsata-da-napishat-nay-krasivoto-pismo-do-dya",
-      "published": "2026-11-20T09:42:12+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Юлиян Марков е назначен за директор на Общинското предприятие „Благоустройство и комунално стопанство“ след конкурс",
-      "summary": "Юлиян Марков е назначен за директор на Общинското предприятие „Благоустройство и комунално стопанство“ (ОП БКС) със заповед на кмета на община Шумен проф. Христо Христов след спечелен конкурс за заемане на длъжността, проведен на 6 ноември, съобщиха от пресцен",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250863-yuliyan-markov-e-naznachen-za-direktor-na-obshtinskoto-predpriyatie-blagoustroy",
-      "published": "2026-11-20T09:39:45+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Поетесата Албена Тодорова гостува във Велико Търново с разговор за поезията като убежище",
-      "summary": "Поетесата, преводачка и преподавателка Албена Тодорова ще гостува днес във Велико Търново, в камерната зала на пространството за култура AC², съобщиха организаторите. Темата на разговора е „Поезията като форма на убежище и стихотворенията, от които ти се живее",
-      "url": "https://www.bta.bg/bg/news/lik/1250814-poetesata-albena-todorova-gostuva-vav-veliko-tarnovo-s-razgovor-za-poeziyata-kat",
-      "published": "2026-11-20T09:36:53+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "UK and EU close in on Brexit reset deal but tuition fees remain a stumbling block – live",
-      "summary": "UK and EU have provisionally agreed to allow 100,000 EU citizens to come to the UK every year under a new mobility scheme Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed",
-      "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
-      "published": "2026-11-20T09:36:53+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Юлиан Костов и Никко Скай представят дуета Burning Fast",
-      "summary": "Актьорът Юлиан Костов и британският певец с италиански корени Никко Скай представят денс поп сингъла с хаус звучене Burning Fast, съобщават от „Орфей Мюзик“. По думите им Burning Fast разказва за любовта в епохата на имиджа и статута, за игрите, които хората и",
-      "url": "https://www.bta.bg/bg/news/lik/1250861-yulian-kostov-i-nikko-skay-predstavyat-dueta-burning-fast",
-      "published": "2026-11-20T09:35:26+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Three Kyiv bridges hit during major Russian missile attack",
-      "summary": "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge.",
-      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T09:31:24+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 12
     },
     {
@@ -485,111 +645,11 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "US: Protesters demand human control over AI after Anthropic's IPO",
-      "summary": "Protesters gathered outside Anthropic’s San Francisco headquarters on 19 November 2026 to demand tighter regulation and greater human control over artificial intelligence, following the company’s $2 trillion stock market debut.",
-      "url": "https://www.euronews.com/video/2026/11/20/us-protesters-demand-human-control-over-ai-after-anthropics-ipo",
-      "published": "2026-11-20T08:49:48+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Полша планира да започне да строи първата си ядрена централа през 2028 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439831-polsha-planira-da-zapochne-da-stroi-parvata-si-yadrena-tsentrala-prez-2028-g",
-      "published": "2026-11-20T08:42:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Защо България се нуждае от собствена генетична база данни?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/521-zdraveopazvane/439829-zashto-balgariya-se-nuzhdae-ot-sobstvena-genetichna-baza-danni",
-      "published": "2026-11-20T08:40:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Russia hits 3 Kyiv bridges in major attack, while Poland reports airspace violation",
-      "summary": "The overnight strikes, which killed at least five people across Ukraine, came hours after Vladimir Putin vowed a painful response to Ukraine’s attacks on the Crimean bridge.",
-      "url": "https://www.politico.eu/article/russia-hits-3-kyiv-bridges-in-major-attack-while-poland-reports-airspace-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T08:39:06+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Japan: The dark secret behind an island paradise full of rabbits",
-      "summary": "Hundreds of rabbits roam freely on Japan's Okunoshima Island, delighting visitors from around the world. But behind its idyllic scenery lies a troubling history of secret chemical weapons production.",
-      "url": "https://www.euronews.com/video/2026/11/20/japan-the-dark-secret-behind-an-island-paradise-full-of-rabbits",
-      "published": "2026-11-20T08:28:27+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Нови курсове и повече практика в 17-ото издание на Vivacom Техническа академия",
-      "summary": "С обогатена програма, достъп до иновативни технологии и повече практически задачи стартира новото издание на Vivacom Техническа академия – една от най-мащабните образователни програми на компанията, насочена към студенти от първи, втори, трети и четвърти курс",
-      "url": "https://www.economic.bg/bg/a/view/novi-kursove-i-poveche-praktika-v-17-oto-izdanie-na-vivacom-tehnicheska-akademija",
-      "published": "2026-11-20T08:21:04+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "India: Pakistani minister visits Delhi for SCO forum amid frozen ties",
-      "summary": "Pakistan's Climate Minister Musadik Malik has arrived in New Delhi for an SCO cultural forum, the first visit by a Pakistani federal minister since 2023. Meanwhile, Cyclone Akvan has made landfall.",
-      "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T08:20:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
-      "summary": "Two sides find provisional compromise on scheme but food and farming negotiations go down to the wire UK-EU summit live – latest news updates British and European negotiators were closing in on a reset deal on Thursday night as they provisionally agreed to all",
-      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
-      "published": "2026-11-20T08:19:28+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Ukraine: Kyiv metro stations become overnight shelters amid air raids",
-      "summary": "Residents of Kyiv, Ukraine, sought refuge in underground metro stations overnight on Thursday 19 November 2026, as repeated air raid alerts warned of further Russian attacks on the capital. Strikes on the Ukrainian capital killed at least one person, injured f",
-      "url": "https://www.euronews.com/video/2026/11/20/ukraine-kyiv-metro-stations-become-overnight-shelters-amid-air-raids",
-      "published": "2026-11-20T08:06:11+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Senior Tories urge Badenoch to drop Brexit talk in major strategy shift, sources say",
-      "summary": "Exclusive: While PM pushes for EU reset, Tory leader is moving away from ‘divisive’ issue that defined party for years UK-EU summit live: latest news updates Kemi Badenoch has been advised by her team to limit the amount of time she spends discussing Brexit an",
-      "url": "https://www.theguardian.com/politics/2026/nov/20/kemi-badenoch-brexit-eu-conservatives",
-      "published": "2026-11-20T08:00:26+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
-      "title": "Enlargement: EU and Montenegro close accession negotiations on taxation and regional policy",
-      "summary": "The EU and Montenegro provisionally closed accession negotiations on taxation (chapter 16) and regional policy and coordination of structural instruments (chapter 22).",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/enlargement-eu-and-montenegro-close-accession-negotiations-on-taxation-and-regional-policy/",
-      "published": "2026-11-19T15:58:00+00:00",
+      "title": "Sustainability: Council and Parliament strike deal on simpler transparency rules for financial product",
+      "summary": "The Council and the European Parliament reached a provisional agreement on simpler transparency rules for sustainable financial products sold in the EU.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/sustainability-council-and-parliament-strike-deal-on-simpler-transparency-rules-for-financial-product/",
+      "published": "2026-11-19T20:01:00+00:00",
       "feed_id": "council-press",
       "priority_score": 12
     },
@@ -606,101 +666,41 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "217-day underwater patrol of UK's nuclear submarine HMS Vengeance worries experts",
-      "summary": "The Royal Navy's HMS Vengeance nuclear submarine has set a new record by completing a 217-day mission. For about seven months, the crew had almost no contact with the outside world.",
-      "url": "https://www.euronews.com/2026/11/20/217-day-underwater-patrol-of-uks-nuclear-submarine-hms-vengeance-worries-experts",
-      "published": "2026-11-20T07:42:47+00:00",
+      "title": "US: Protesters demand human control over AI after Anthropic's IPO",
+      "summary": "Protesters gathered outside Anthropic’s San Francisco headquarters on 19 November 2026 to demand tighter regulation and greater human control over artificial intelligence, following the company’s $2 trillion stock market debut.",
+      "url": "https://www.euronews.com/video/2026/11/20/us-protesters-demand-human-control-over-ai-after-anthropics-ipo",
+      "published": "2026-11-20T08:49:48+00:00",
       "feed_id": "euronews",
       "priority_score": 11
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "China's Xi praises 'turnaround' in relationship with Australia",
-      "summary": "The leaders of Australia and China have held talks on sidelines of APEC summit. Australian PM Anthony Albanese is also slated to meet Chinese Premier Li Qiang.",
-      "url": "https://www.dw.com/en/china-s-xi-praises-turnaround-in-relationship-with-australia/a-79999229?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T07:33:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Vape users hospitalised after losing consciousness, prompting public health warning in New South Wales",
-      "summary": "Testing confirms presence of etomidate, a strong and fast-acting sedative used as a general anaesthetic overseas but not registered for medical use in Australia Get our breaking news email , free app or daily news podcast Three people who lost consciousness an",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/vape-users-hospitalised-after-losing-consciousness-prompting-public-health-warning-in-new-south-wales",
-      "published": "2026-11-20T07:17:01+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "UK and EU to agree youth mobility scheme, BBC understands",
-      "summary": "The scheme is expected to be approved at Friday's UK-EU summit, with new deals on food trade and carbon emissions also on the table.",
-      "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T07:14:46+00:00",
-      "feed_id": "bbc-world",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Полша планира да започне да строи първата си ядрена централа през 2028 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439831-polsha-planira-da-zapochne-da-stroi-parvata-si-yadrena-tsentrala-prez-2028-g",
+      "published": "2026-11-20T08:42:00+00:00",
+      "feed_id": "investor-economy",
       "priority_score": 11
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Цената на златото се готви за най-големия си седмичен спад от март насам",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Защо България се нуждае от собствена генетична база данни?",
       "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439826-tsenata-na-zlatoto-se-gotvi-za-nay-golemiya-si-sedmichen-spad-ot-mart-nasam",
-      "published": "2026-11-20T07:06:00+00:00",
-      "feed_id": "investor-finance",
+      "url": "https://www.investor.bg/a/521-zdraveopazvane/439829-zashto-balgariya-se-nuzhdae-ot-sobstvena-genetichna-baza-danni",
+      "published": "2026-11-20T08:40:00+00:00",
+      "feed_id": "investor-economy",
       "priority_score": 11
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "White House national cyber director fired after wave of tech outages",
-      "summary": "The national cyber director is tasked with advising the president on cybersecurity policy and strategy, including information security and data protection as well as deterrence of \"malicious\" activity.",
-      "url": "https://www.euronews.com/2026/11/20/white-house-national-cyber-director-fired-after-wave-of-tech-outages",
-      "published": "2026-11-20T07:03:40+00:00",
-      "feed_id": "euronews",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Baby born with heart abnormalities ‘didn’t have a chance’ after non-medical free birth, NSW inquest hears",
-      "summary": "Inquest into the deaths of four babies after free and home births hears routine checks and follow-up may have saved their lives Get our breaking news email , free app or daily news podcast Four babies who died in New South Wales – three after free births and o",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb",
-      "published": "2026-11-20T06:51:54+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Цената на петрола „Брент“ продължава да расте след волатилна сесия*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439824-tsenata-na-petrola-brent-prodalzhava-da-raste-sled-volatilna-sesiya",
-      "published": "2026-11-20T06:43:24+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Germany news: Lufthansa to cut 1,000 jobs, reports say",
-      "summary": "The job cuts come as Lufthansa Airlines is struggling to turn a profit. Meanwhile, further youth-led protests are expected. DW has the latest.",
-      "url": "https://www.dw.com/en/germany-news-lufthansa-to-cut-1-000-jobs-reports-say/live-79998529?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T06:41:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Nigeria moves to end jail terms for attempted suicide",
-      "summary": "Nigeria's proposed reform follows years of calls from psychiatrists and a parallel Senate bill.",
-      "url": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T06:32:17+00:00",
-      "feed_id": "bbc-world",
+      "source": "POLITICO Europe",
+      "title": "Russia hits 3 Kyiv bridges in major attack, while Poland reports airspace violation",
+      "summary": "The overnight strikes, which killed at least five people across Ukraine, came hours after Vladimir Putin vowed a painful response to Ukraine’s attacks on the Crimean bridge.",
+      "url": "https://www.politico.eu/article/russia-hits-3-kyiv-bridges-in-major-attack-while-poland-reports-airspace-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T08:39:06+00:00",
+      "feed_id": "politico-europe",
       "priority_score": 11
     }
   ],
