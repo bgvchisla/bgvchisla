@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:16:49.443356+00:00",
-  "last_checked_at": "2026-11-20T22:16:49.443360+00:00",
+  "updated_at": "2026-11-20T23:11:49.472633+00:00",
+  "last_checked_at": "2026-11-20T23:11:49.472636+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -11,7 +11,7 @@
       "url": "https://www.investor.bg/a/526-pravosadie/439855-parlamentat-izbra-chlenovete-na-visshiya-sadeben-savet-ot-kvotata-na-narodnoto-sabranie",
       "published": "2026-11-20T12:45:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 40
+      "priority_score": 39
     },
     {
       "section": "bulgaria",
@@ -175,16 +175,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Монетният двор пуска сребърен медал с лика на цар Самуил (снимки)",
-      "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
-      "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
-      "published": "2026-11-20T12:48:19+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
@@ -221,6 +211,16 @@
       "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
       "published": "2026-11-20T19:01:30+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 23
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Монетният двор пуска сребърен медал с лика на цар Самуил (снимки)",
+      "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
+      "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
+      "published": "2026-11-20T12:48:19+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 23
     },
     {
@@ -391,16 +391,6 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/statement-by-the-eurogroup-president-on-the-nominations-for-the-post-of-ecb-executive-board-members/",
       "published": "2026-11-20T16:35:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
-      "published": "2026-11-20T17:11:42+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 14
     },
     {
@@ -464,6 +454,26 @@
       "priority_score": 14
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – България",
+      "title": "Правителството определи таван на приходите на производителите на ток",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/367331-pravitelstvoto-opredeli-tavan-na-prihodite-na-proizvoditelite-na-tok",
+      "published": "2023-01-11T13:10:00+00:00",
+      "feed_id": "investor-bg",
+      "priority_score": 14
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
+      "published": "2026-11-20T17:11:42+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 13
+    },
+    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Joint statement EU-United Kingdom summit, 20 November 2026",
@@ -471,7 +481,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/joint-statement-eu-united-kingdom-summit-20-november-2026/",
       "published": "2026-11-20T13:07:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -481,7 +491,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2550",
       "published": "2026-11-20T12:32:21+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -491,7 +501,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2549",
       "published": "2026-11-20T12:30:50+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -501,7 +511,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/mff-2028-2034-council-agrees-negotiating-position-on-stronger-civil-protection-mechanism-and-support-for-health-preparedness/",
       "published": "2026-11-20T12:30:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -511,7 +521,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2548",
       "published": "2026-11-20T12:29:15+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -521,7 +531,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2547",
       "published": "2026-11-20T12:27:35+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -531,17 +541,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2546",
       "published": "2026-11-20T12:24:37+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – България",
-      "title": "Правителството определи таван на приходите на производителите на ток",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/367331-pravitelstvoto-opredeli-tavan-na-prihodite-na-proizvoditelite-na-tok",
-      "published": "2023-01-11T13:10:00+00:00",
-      "feed_id": "investor-bg",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -565,23 +565,43 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission greenlights Slovenia's seventh and final payment request for €271.8 million under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Slovenia's seventh payment request worth €271.8 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2535",
-      "published": "2026-11-20T09:04:07+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 13
+      "source": "Euronews",
+      "title": "Germany: Berlin student protest targets rearmament and compulsory service",
+      "summary": "Thousands of students marched through Berlin, on Friday 20 November 2026, protesting against the country's rapid military rearmament and fears of a return to compulsory military service. Their protest formed part of a wider wave of youth demonstrations across",
+      "url": "https://www.euronews.com/video/2026/11/20/germany-berlin-student-protest-targets-rearmament-and-compulsory-service",
+      "published": "2026-11-20T22:54:22+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission greenlights Greece's final payment requests for €11.32 billion under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Greece's eighth and ninth payment requests, amounting to €11.32 billion, under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2534",
-      "published": "2026-11-20T09:00:19+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 13
+      "source": "BBC News – Свят",
+      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T22:42:47+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "French police officers sentenced for beating of music producer Michel Zecler",
+      "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
+      "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T22:37:09+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "French police officers found guilty of racist assault on black music producer",
+      "summary": "Beating of Michel Zecler in 2020 sparked outrage over police brutality after it was caught on security cameras Three French police officers who beat a black music producer they said was not wearing a face mask during the Covid pandemic have been found guilty o",
+      "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
+      "published": "2026-11-20T22:23:53+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
     },
     {
       "section": "europe",
@@ -665,42 +685,22 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Trump threatens ban on US firms building AI data centres overseas",
-      "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T20:54:12+00:00",
-      "feed_id": "bbc-world",
+      "source": "Европейска комисия",
+      "title": "Commission greenlights Slovenia's seventh and final payment request for €271.8 million under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Slovenia's seventh payment request worth €271.8 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2535",
+      "published": "2026-11-20T09:04:07+00:00",
+      "feed_id": "commission-press",
       "priority_score": 12
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Russian ornithologist jailed over small donations to Navalny's foundation",
-      "summary": "Sofia Rosenfeld has devoted her life to studying Arctic birds. A Russian court sentenced her to 3.5 years in a penal colony over donations to Navalny's foundation. Friends and family are fighting for her release.",
-      "url": "https://www.dw.com/en/russian-ornithologist-jailed-over-small-donations-to-navalny-s-foundation/a-80005505?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T20:45:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "САЩ ще забранят на местни компании да изграждат центрове за данни в чужбина",
-      "summary": "",
-      "url": "https://www.investor.bg/a/566-novini-i-analizi/439876-sasht-shte-zabranyat-na-mestni-kompanii-da-izgrazhdat-tsentrove-za-danni-v-chuzhbina",
-      "published": "2026-11-20T20:40:41+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Repression against Iranian lawyers increases",
-      "summary": "At least 135 lawyers in Iran have been subjected to repressive measures over the past year. UN experts warn that this seriously jeopardizes the right of those accused to trial in a constitutional court.",
-      "url": "https://www.dw.com/en/repression-against-iranian-lawyers-increases/a-80006742?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T20:36:00+00:00",
-      "feed_id": "dw-world",
+      "source": "Европейска комисия",
+      "title": "Commission greenlights Greece's final payment requests for €11.32 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Greece's eighth and ninth payment requests, amounting to €11.32 billion, under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2534",
+      "published": "2026-11-20T09:00:19+00:00",
+      "feed_id": "commission-press",
       "priority_score": 12
     }
   ],
