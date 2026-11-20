@@ -1,7 +1,170 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:52:29.862436+00:00",
+  "updated_at": "2026-11-20T07:56:04.587875+00:00",
+  "last_checked_at": "2026-11-20T07:56:04.587883+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Нощта на театрите старозагорският Драматичен театър ще представи спектакъла „Иконите спят\"",
+      "summary": "Драматичният театър „Гео Милев“ в Стара Загора ще представи спектакъла „Иконите спят“ по време на четиринадесетото издание на Европейската нощ на театрите, което ще се проведе утре, 21 ноември. Това съобщиха за БТА от културната институция. Автор и режисьор на",
+      "url": "https://www.bta.bg/bg/news/lik/1250765-v-noshtta-na-teatrite-starozagorskiyat-dramatichen-teatar-shte-predstavi-spektak",
+      "published": "2026-11-20T07:54:08+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Биткойн фондът на BlackRock отчете рекорден отлив на капитал за ден",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439827-bitkoyn-fondat-na-blackrock-otchete-rekorden-otliv-na-kapital-za-den",
+      "published": "2026-11-20T07:43:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "217-day underwater patrol of UK's nuclear submarine HMS Vengeance worries experts",
+      "summary": "The Royal Navy's HMS Vengeance nuclear submarine has set a new record by completing a 217-day mission. For about seven months, the crew had almost no contact with the outside world.",
+      "url": "https://www.euronews.com/2026/11/20/217-day-underwater-patrol-of-uks-nuclear-submarine-hms-vengeance-worries-experts",
+      "published": "2026-11-20T07:42:47+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Автомобил е изгорял при движение във Видин, двама души са с леки изгаряния",
+      "summary": "Лек автомобил изгоря при движение по ул. „Цар Александър II“ във Видин, а шофьорът и пътувалата с него жена са получили леки изгаряния по ръцете. Това съобщиха от Областната дирекция на МВР във Видин. Сигналът за пожара е подаден вчера в 15:41 часа. Екип на по",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250763-avtomobil-e-izgoryal-pri-dvizhenie-vav-vidin-dvama-dushi-sa-s-leki-izgaryaniya",
+      "published": "2026-11-20T07:39:41+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Лоши са условията за туризъм в планините, съобщиха от Планинската спасителна служба на БЧК",
+      "summary": "Лоши са условията за туризъм в планините, съобщиха за БТА от Планинската спасителна служба на Българския Червен кръст (БЧК). В най-високите части на планините е мъгливо и ветровито. В централното било на Стара планина има ураганен вятър. Няма сериозни инцидент",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250758-loshi-sa-usloviyata-za-turizam-v-planinite-saobshtiha-ot-planinskata-spasitelna",
+      "published": "2026-11-20T07:37:06+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Документалният „Естествен филм“ за писателя Георги Господинов ще бъде представен пред старозагорската публика",
+      "summary": "Документалната лента „Естествен филм“ за писателя Георги Господинов ще бъде представена пред старозагорската публика. Това съобщи един от инициаторите на събитието в Стара Загора - Райна Димитрова от културната организация „Книжарница в куфар“. Прожекцията ще",
+      "url": "https://www.bta.bg/bg/news/lik/1250749-dokumentalniyat-estestven-film-za-pisatelya-georgi-gospodinov-shte-bade-predst",
+      "published": "2026-11-20T07:34:46+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "China's Xi praises 'turnaround' in relationship with Australia",
+      "summary": "The leaders of Australia and China have held talks on sidelines of APEC summit. Australian PM Anthony Albanese is also slated to meet Chinese Premier Li Qiang.",
+      "url": "https://www.dw.com/en/china-s-xi-praises-turnaround-in-relationship-with-australia/a-79999229?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T07:33:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Лекари във Велико Търново спасиха 11-годишно дете със заседнало чуждо тяло в хранопровода",
+      "summary": "Дете на 11 години със заседнало голямо парче месо в хранопровода беше спасено от екип на Многопрофилната областна болница за активно лечение „Д-р Стефан Черкезов“ във Велико Търново. Случаят е първи за лечебното заведение, при който се налага изваждане на чужд",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250750-lekari-vav-veliko-tarnovo-spasiha-11-godishno-dete-sas-zasednalo-chuzhdo-tyalo-v",
+      "published": "2026-11-20T07:30:03+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Две авиомедицински мисии са изпълнени през последната седмица, общо 34 602 повиквания са постъпили на тел. 112",
+      "summary": "През последната седмица са изпълнени две авиомедицински мисии по въздуха, при които пациенти в тежко състояние са получили възможност за навременно високоспециализирано лечение. Това съобщиха от Дирекция „Национална система 112“ към Министерството на вътрешнит",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250725-dve-aviomeditsinski-misii-sa-izpalneni-prez-poslednata-sedmitsa-obshto-34-602-p",
+      "published": "2026-11-20T07:29:31+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "„Повече от просто игра“: Грандиозната премиера на GTA VI подхранва икономиката на съдържанието",
+      "summary": "След 13 години очакване Grand Theft Auto VI се появи с гръм и трясък, привличайки милиони купувачи и давайки тласък на паралелна икономика от предавания на живо, кратки видеоклипове и друго съдържание. В основата ѝ стои огромна аудитория, която не само играе и",
+      "url": "https://www.economic.bg/bg/a/view/grandioznata-premiera-na-gta-vi-podhranva-ikonomikata-na-sydyrjanieto",
+      "published": "2026-11-20T07:22:12+00:00",
+      "feed_id": "economic-bg"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Парламентът започна процедурата по избор на членове на съдийската и на прокурорската колегия на ВСС",
+      "summary": "Парламентът започна процедурата по избор на членове на съдийската и на прокурорската колегия на Висшия съдебен съвет (ВСС) от квотата на Народното събрание. Правната комисия изслуша общо 21 магистрати, от които 13 кандидати за Съдийската колегия (СК) на ВСС и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250748-parlamentat-zapochna-protsedurata-po-izbor-na-chlenove-na-sadiyskata-i-na-prokur",
+      "published": "2026-11-20T07:19:11+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Vape users hospitalised after losing consciousness, prompting public health warning in New South Wales",
+      "summary": "NSW health issues public warning about vape liquids containing etomidate, a strong and fast-acting sedative used as a general anaesthetic overseas Three people who lost consciousness and were hospitalised in New South Wales after using certain vapes have teste",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/vape-users-hospitalised-after-losing-consciousness-prompting-public-health-warning-in-new-south-wales",
+      "published": "2026-11-20T07:17:01+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "UK and EU to agree youth mobility scheme, BBC understands",
+      "summary": "The scheme is expected to be approved at Friday's UK-EU summit, with new deals on food trade and carbon emissions also on the table.",
+      "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T07:14:46+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "На 86 сигнала за различни щети и опасни ситуации е реагирала Столичната община заради снощната буря",
+      "summary": "През изминалата нощ екипите на дирекция „Аварийна помощ и превенция“ към Столичната община са реагирали на общо 86 сигнала за различни щети и опасни ситуации в София, съобщиха от Общината за БТА след снощната буря. Сред тях са паднали дървета на пътни платна и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250736-na-86-signala-za-razlichni-shteti-i-opasni-situatsii-e-reagirala-stolichnata-obs",
+      "published": "2026-11-20T07:08:13+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Цената на златото се готви за най-големия си седмичен спад от март насам",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439826-tsenata-na-zlatoto-se-gotvi-za-nay-golemiya-si-sedmichen-spad-ot-mart-nasam",
+      "published": "2026-11-20T07:06:00+00:00",
+      "feed_id": "investor-finance"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "White House national cyber director fired after wave of tech outages",
+      "summary": "The national cyber director is tasked with advising the president on cybersecurity policy and strategy, including information security and data protection as well as deterrence of \"malicious\" activity.",
+      "url": "https://www.euronews.com/2026/11/20/white-house-national-cyber-director-fired-after-wave-of-tech-outages",
+      "published": "2026-11-20T07:03:40+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Тържественото запалване на коледните светлини в Гурково ще е на 4 декември",
+      "summary": "Тържественото запалване на коледните светлини в Гурково ще е на 4 декември. Това съобщават от общинската администрация на официалната си фейсбук страница. Програмата ще започне от сутринта и ще премине под надслов „Вълшебствата на Коледа в Гурково\". Начало на",
+      "url": "https://www.bta.bg/bg/news/lik/1250726-tarzhestvenoto-zapalvane-na-kolednite-svetlini-v-gurkovo-shte-e-na-4-dekemvri",
+      "published": "2026-11-20T06:53:57+00:00",
+      "feed_id": "bta-bulgaria"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Baby born with heart abnormalities ‘didn’t have a chance’ after non-medical free birth, NSW inquest hears",
+      "summary": "Inquest into the deaths of four babies after free and home births hears routine checks and follow-up may have saved their lives Get our breaking news email , free app or daily news podcast Four babies who died in New South Wales – three after free births and o",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb",
+      "published": "2026-11-20T06:51:54+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
@@ -19,6 +182,15 @@
       "url": "https://www.dw.com/en/germany-news-lufthansa-to-cut-1-000-jobs-reports-say/live-79998529?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-20T06:41:00+00:00",
       "feed_id": "dw-world"
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общо 21 души са ранени при катастрофи през изминалото денонощие",
+      "summary": "Общо 21 души са ранени при 18 катастрофи през изминалото денонощие, съобщиха от Министерството на вътрешните работи на сайта си. Четирима души са пострадали при три тежки и 32 леки произшествия в София. От началото на месеца в страната са загинали 31 души, а 4",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250731-obshto-21-dushi-sa-raneni-pri-katastrofi-prez-izminaloto-denonoshtie",
+      "published": "2026-11-20T06:37:03+00:00",
+      "feed_id": "bta-bulgaria"
     },
     {
       "section": "europe",
@@ -112,30 +284,12 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "UK and EU to agree youth mobility scheme, BBC understands",
-      "summary": "The scheme is expected to be approved at Friday's UK-EU summit, with new deals on food trade and carbon emissions also on the table.",
-      "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T04:35:51+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "White House replaces cyber security chief after tech outages",
       "summary": "Sean Cairncross is leaving his role as national cyber director after a chaotic week of tech outages. Kirsten Davies, the Pentagon's chief information officer, will assume the position in an acting capacity.",
       "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-20T04:21:00+00:00",
       "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘Perfect weapon’: diabetic woman found guilty of murdering her 94-year-old parents with insulin",
-      "summary": "Jury convicts Raelene Polymiadis after four-month trial in South Australian supreme court Get our breaking news email , free app or daily news podcast A jury has convicted a diabetic woman of murdering both her elderly parents with insulin after a marathon cri",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/diabetic-woman-found-guilty-murdering-94-year-old-parents-with-insulin-ntwnfb",
-      "published": "2026-11-20T04:15:16+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -226,15 +380,6 @@
       "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-20T00:50:24+00:00",
       "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Religion should be removed from terrorism definition under Australian law as it gives ‘false credibility’, watchdog says",
-      "summary": "Independent National Security Legislation Monitor says reference to religion has ‘contributed to discrimination and violence against religious minorities’ Get our breaking news email , free app or daily news podcast Religion should be removed from Australia’s",
-      "url": "https://www.theguardian.com/law/2026/nov/20/religion-should-removed-from-terrorism-definition-australian-law-gives-false-credibility-watchdog-ntwnfb",
-      "published": "2026-11-20T00:19:57+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -481,161 +626,17 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "European leaders present united front in push for peace in Ukraine",
-      "summary": "Talks in Berlin end with reaffirmed support for Kyiv and a concerted push for European representation at future peace talks to end Russia's invasion of Ukraine.",
-      "url": "https://www.dw.com/en/european-leaders-present-united-front-in-push-for-peace-in-ukraine/live-79986520?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T18:44:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Онлайн търговците под двоен натиск – хакери и китайски платформи",
       "summary": "",
       "url": "https://www.investor.bg/a/461-bloomberg-tv/439812-onlayn-targovtsite-pod-dvoen-natisk-hakeri-i-kitayski-platformi",
       "published": "2026-11-19T18:30:00+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Trump leaves China without meeting Kim Jong-un as trilateral summit raises concerns across Asia",
-      "summary": "The US, Chinese and Russian leaders pledged to hold talks on nuclear risk reduction, but made no mention of North Korea in their joint peace declaration.",
-      "url": "https://www.euronews.com/2026/11/19/trump-leaves-china-without-meeting-kim-jong-un-as-trilateral-summit-raises-concerns-across",
-      "published": "2026-11-19T18:25:39+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Ukraine allies warn ‘Yalta format’ will not bring about peace – as it happened",
-      "summary": "Berlin meeting of the ‘coalition of the willing’ comes after Trump declared Putin a ‘friend’ during trilateral meeting with Xi in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state medi",
-      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-      "published": "2026-11-19T18:03:54+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Христо Борисов: Payhawk се готви за глобална експанзия",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/439804-hristo-borisov-payhawk-se-gotvi-za-globalna-ekspanziya",
-      "published": "2026-11-19T17:45:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Stoxx 600 записа най-дългата си серия на спадове от август насам",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439816-stoxx-600-zapisa-nay-dalgata-si-seriya-na-spadove-ot-avgust-nasam",
-      "published": "2026-11-19T17:40:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "AI доларът е тук, но никой не знае как ще се развие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439815-ai-dolarat-e-tuk-no-nikoy-ne-znae-kak-shte-se-razvie",
-      "published": "2026-11-19T17:35:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "US: Protesters warn of AI bubble as Anthropic makes stock market history",
-      "summary": "Anthropic made its Nasdaq debut with a record-breaking IPO valuing the AI company at $1.5 trillion. Outside the exchange in New York, police detained three protesters warning of financial risks.",
-      "url": "https://www.euronews.com/video/2026/11/19/us-protesters-warn-of-ai-bubble-as-anthropic-makes-stock-market-history",
-      "published": "2026-11-19T17:32:29+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "On board with Frontex: Euronews patrols the waters off Crete as migrant arrivals from Libya rise",
-      "summary": "Aboard the Latvian patrol vessel Valpas, Euronews follows maritime operations and visits a Frontex drone base at Tympaki airfield. A search for missing migrants near Chrissi Island highlights the dangers of the crossing, while temporary reception facilities fa",
-      "url": "https://www.euronews.com/2026/11/19/on-board-with-frontex-euronews-patrols-the-waters-off-crete-as-migrant-arrivals-from-libya",
-      "published": "2026-11-19T17:30:08+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Trump questions Europe's billions in Ukraine aid during surprise call",
-      "summary": "The US president reportedly called into a meeting of Kyiv's European allies from Air Force One, hours after talks with Putin and Xi, and said Moscow was ready to negotiate a peace deal.",
-      "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
-      "published": "2026-11-19T17:24:44+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Путин покани европейците в Москва, за да обсъдят Украйна, но отхвърли примирие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439809-putin-pokani-evropeytsite-v-moskva-za-da-obsadyat-ukrayna-no-othvarli-primirie",
-      "published": "2026-11-19T16:58:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Световната банка ще изготви мерки за спасяването на \"Топлофикация София\"",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439813-svetovnata-banka-shte-izgotvi-merki-za-spasyavaneto-na-toplofikatsiya-sofiya",
-      "published": "2026-11-19T16:51:00+00:00",
-      "feed_id": "investor-economy"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "SOFIX се повиши с над 2%, оборотът на БФБ надхвърли 6 млн. евро",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439811-sofix-se-povishi-s-nad-2-oborotat-na-bfb-nadhvarli-6-mln-evro",
-      "published": "2026-11-19T16:24:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Европейските инвеститори на дребно са купили акции за 1,1 млрд. долара в IPO-то на Anthropic",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439806-evropeyskite-investitori-na-drebno-sa-kupili-aktsii-za-11-mlrd-dolara-v-ipo-to-na-anthropic",
-      "published": "2026-11-19T16:02:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Enlargement: EU and Montenegro close accession negotiations on taxation and regional policy",
-      "summary": "The EU and Montenegro provisionally closed accession negotiations on taxation (chapter 16) and regional policy and coordination of structural instruments (chapter 22).",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/enlargement-eu-and-montenegro-close-accession-negotiations-on-taxation-and-regional-policy/",
-      "published": "2026-11-19T15:58:00+00:00",
-      "feed_id": "council-press"
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Nasdaq Composite започва сесията на зелено, Anthropic се насочва към ръст при дебюта си*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439810-nasdaq-composite-zapochva-sesiyata-na-zeleno-anthropic-se-nasochva-kam-rast-pri-debyuta-si",
-      "published": "2026-11-19T15:55:00+00:00",
-      "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - Presentation of the revised MFF negotiating box and Press briefing ahead of the 26-27 November Special European Council",
-      "summary": "Press conference on the revised negotiating box for the EU’s next MFF will take place on Saturday 21 November at 11.00, followed by Press briefing ahead of the Special European Council meeting of 26-27 November 2026.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/media-advisory-press-conference-on-the-mff-negobox-and-press-briefing-ahead-of-the-special-european-council-meeting-of-26-27-november-2026/",
-      "published": "2026-11-19T15:45:00+00:00",
-      "feed_id": "council-press"
     }
   ],
   "feed_status": {
-    "ok": 15,
-    "total": 15,
+    "ok": 17,
+    "total": 17,
     "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
