@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:53:14.465332+00:00",
-  "last_checked_at": "2026-11-20T15:53:14.465336+00:00",
+  "updated_at": "2026-11-20T16:47:47.406394+00:00",
+  "last_checked_at": "2026-11-20T16:47:47.406399+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Шест ученически отбора представиха бизнес идеи по време на иновационен лагер в НПГ „Димитър Талев“ в Гоце Делчев",
+      "summary": "Шест ученически отбора от Неврокопската професионална гимназия (НПГ) „Димитър Талев“ в Гоце Делчев участваха в иновационен лагер, в който разработиха и представиха свои бизнес идеи пред жури, включващо представители на бизнеса и местната администрация. Инициат",
+      "url": "https://www.bta.bg/bg/news/lik/1251365-shest-uchenicheski-otbora-predstaviha-biznes-idei-po-vreme-na-inovatsionen-lager",
+      "published": "2026-11-20T16:28:29+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 44
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
@@ -16,32 +26,42 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Туристи от Трън и Брезник организират съвместно изкачване на връх Любаш в защита на природата",
-      "summary": "Съвместно изкачване на връх Любаш организират тази неделя, 22 ноември, Туристическо дружество – Трън и сдружение „Земя“ от Брезник. Инициативата цели да привлече общественото внимание към природните богатства на района и да изрази несъгласие с инвестиционните",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251338-turisti-ot-tran-i-breznik-organizirat-savmestno-izkachvane-na-vrah-lyubash-v-zas",
-      "published": "2026-11-20T15:34:06+00:00",
+      "title": "Община Свищов започва анкетно проучване сред работодателите на територията на общината",
+      "summary": "Община Свищов кани работодателите на територията на общината да участват в онлайн анкетно проучване, насочено към установяване на актуалните и перспективните потребности на местния бизнес от работна сила и квалифицирани кадри. Това съобщиха от отдел „Образован",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251354-obshtina-svishtov-zapochva-anketno-prouchvane-sred-rabotodatelite-na-teritoriyat",
+      "published": "2026-11-20T16:29:02+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 38
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Община Добричка организира конкурс за коледни картички и украси под надслов „Весела Коледа за всички“",
-      "summary": "Местната комисия за борба с противообществените прояви на малолетни и непълнолетни към Община Добричка организира конкурс за изработване на коледни картички и украси под надслов „Весела Коледа за всички“, съобщават от общинската администрация. В конкурса могат",
-      "url": "https://www.bta.bg/bg/news/lik/1251334-obshtina-dobrichka-organizira-konkurs-za-koledni-kartichki-i-ukrasi-pod-nadslov-",
-      "published": "2026-11-20T15:33:16+00:00",
+      "title": "С празничен концерт и благотворителна кампания училището в силистренското село Окорш отбеляза 85 години",
+      "summary": "Средно училище „Йордан Йовков“ в село Окорш, община Дулово, отбеляза 85 години от създаването си с празничен концерт. Това съобщиха от администрацията на официалната си страница във Фейсбук. Честването премина под мотото „85 години знание. Един урок по човечно",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251382-s-praznichen-kontsert-i-blagotvoritelna-kampaniya-uchilishteto-v-silistrenskoto-",
+      "published": "2026-11-20T16:25:44+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 38
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Двама шестокласници от видинско училище намериха портмоне с 350 евро и го върнаха на собственичката",
-      "summary": "Двама шестокласници от Основно училище „Свети Климент Охридски“ във Видин намериха портмоне с 350 евро и лични документи и го предадоха в полицията. Благодарение на честната постъпка на Любомир Пламенов и Максим Дафинов собственичката получи обратно изгубените",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251311-dvama-shestoklasnitsi-ot-vidinsko-uchilishte-nameriha-portmone-s-350-evro-i-go-v",
-      "published": "2026-11-20T15:28:58+00:00",
+      "title": "Министърът на отбраната Димитър Стоянов и посланикът на Австрия обсъдиха сигурността в Черно море и региона",
+      "summary": "Министърът на отбраната Димитър Стоянов проведе среща с посланика на Република Австрия в България Андреа Икич-Бьом, съобщиха от пресцентъра на Министерството на отбраната (МО). Основни теми на разговора между министър Стоянов и посланик Икич-Бьом бяха средата",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251377-ministarat-na-otbranata-dimitar-stoyanov-i-poslanikat-na-avstriya-obsadiha-sigur",
+      "published": "2026-11-20T16:23:26+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 38
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
+      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
+      "published": "2026-11-20T16:10:40+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 34
     },
     {
       "section": "europe",
@@ -64,16 +84,6 @@
       "priority_score": 30
     },
     {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Франция отново се изправя пред най-страховитата си задача - приемането на бюджета",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439841-frantsiya-otnovo-se-izpravya-pred-nay-strahovitata-si-zadacha-priemaneto-na-byudzheta",
-      "published": "2026-11-20T14:06:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 29
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Парламентът одобри субсидирането на областните болници от държавата",
@@ -82,6 +92,16 @@
       "published": "2023-01-11T11:54:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 29
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Франция отново се изправя пред най-страховитата си задача - приемането на бюджета",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439841-frantsiya-otnovo-se-izpravya-pred-nay-strahovitata-si-zadacha-priemaneto-na-byudzheta",
+      "published": "2026-11-20T14:06:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 28
     },
     {
       "section": "bulgaria",
@@ -96,32 +116,12 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Районната прокуратура в Монтана и Агенцията за социално подпомагане в Берковица са провели среща за координиране при случаи на деца, жертви на насилие",
-      "summary": "Представители на Районната прокуратура в Монтана, на Агенцията за социално подпомагане и на други институции са провели среща в Дирекция „Социално подпомагане“ – Берковица, за подобряване на координацията помежду си при случаи на деца, станали жертва на насили",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251331-rayonnata-prokuratura-v-montana-i-agentsiyata-za-sotsialno-podpomagane-v-berkovi",
-      "published": "2026-11-20T15:26:15+00:00",
+      "title": "Бакалаври и магистри от Факултета по педагогика на Софийския университет получиха дипломите си на тържествена церемония",
+      "summary": "На тържествена церемония в Аулата на Ректората на Софийския университет „Св. Климент Охридски“ (СУ) 260 бакалаври и магистри от Факултета по педагогика получиха дипломите си, съобщи пресцентърът на висшето училище. От тях 75 завършват с отличен успех, а петима",
+      "url": "https://www.bta.bg/bg/news/lik/1251375-bakalavri-i-magistri-ot-fakulteta-po-pedagogika-na-sofiyskiya-universitet-poluch",
+      "published": "2026-11-20T16:38:59+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 27
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Бургаският държавен университет ще си партнира с българска и швейцарска компания за производство на водород от отпадъци",
-      "summary": "Бургаският държавен университет (БДУ) „Проф. д-р Асен Златаров“, българската компания „Ес Ви Пи Лабс“ ООД и швейцарската Pure Cycle Power AG подписаха меморандум за разбирателство в областта на научните изследвания, образованието и технологичните иновации. Пар",
-      "url": "https://www.bta.bg/bg/news/lik/1251320-burgaskiyat-darzhaven-universitet-shte-si-partnira-s-balgarska-i-shveytsarska-ko",
-      "published": "2026-11-20T15:24:06+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 27
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Исперих даде мандат за подкрепа на отчетите и бюджета на Асоциацията по ВиК",
-      "summary": "Общинският съвет в Исперих даде мандат за подкрепа на отчетите и бюджета на Асоциацията по ВиК за 2025 и 2026 година. На редовното си заседание съветниците упълномощиха заместник-кмета Ариф Ахмед да представлява общината на предстоящото заседание на Общото съб",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251346-obshtinskiyat-savet-v-isperih-dade-mandat-za-podkrepa-na-otchetite-i-byudzheta-n",
-      "published": "2026-11-20T15:50:50+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
     },
     {
       "section": "bulgaria",
@@ -134,6 +134,16 @@
       "priority_score": 26
     },
     {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 26
+    },
+    {
       "section": "europe",
       "source": "Economic.bg",
       "title": "Колко от българските домакинства имат деца? (Графика)",
@@ -141,7 +151,7 @@
       "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
       "published": "2026-11-20T14:42:23+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 26
+      "priority_score": 25
     },
     {
       "section": "europe",
@@ -151,7 +161,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarska-iniciativa-s-mejdunarodno-partniorstvo-postavja-osnovite-za-vnedrjavane-na-malki-modulni-reaktori",
       "published": "2026-11-20T14:17:38+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 26
+      "priority_score": 25
     },
     {
       "section": "bulgaria",
@@ -195,16 +205,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "„Почти перфектно“: България усвои почти всички предвидени пари по ПВУ",
-      "summary": "България ще усвои около 99% от средствата по Плана за възстановяване и устойчивост (ПВУ), с което надхвърля предварителните очаквания на правителството. На специален брифинг в петък вицепремиерът Атанас Пеканов отчете напредъка на страната по Механизма за възс",
-      "url": "https://www.economic.bg/bg/a/view/pochti-perfektno-bylgarija-usvoi-pochti-vsichki-predvideni-pari-po-pvu",
-      "published": "2026-11-20T10:52:19+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "България получава над 1,7 млрд. евро по петото плащане от ПВУ",
       "summary": "",
@@ -221,26 +221,6 @@
       "url": "https://www.investor.bg/a/538-pazari/439845-ay-ti-ef-grup-nabra-15-mln-evro-ot-parvoto-za-kompaniyata-predlagane-na-obligatsii-chrez-bfb",
       "published": "2026-11-20T10:40:49+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 25
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Лагард: Европа трябва да се научи да предотвратява заплахите, преди да се материализират",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439840-lagard-evropa-tryabva-da-se-nauchi-da-predotvratyava-zaplahite-predi-da-se-materializirat",
-      "published": "2026-11-20T10:13:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Работодателите в Добрич търсят кадри с различна квалификация, обявени са 66 свободни работни места",
-      "summary": "Работодателите в Добрич търсят кадри в различни сфери, като обявените свободни работни места са 66. Това показва справка, изпратена от Дирекция „Бюро по труда“ – Добрич до БТА. Най-много са позициите за лекари – девет. Търсят се още петима оператори в производ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251318-rabotodatelite-v-dobrich-tarsyat-kadri-s-razlichna-kvalifikatsiya-obyaveni-sa-6",
-      "published": "2026-11-20T15:21:13+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 24
     },
     {
@@ -251,6 +231,16 @@
       "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261118_BG",
       "published": "2026-11-18T00:00:00+00:00",
       "feed_id": "bnb-news",
+      "priority_score": 22
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Засилването на диалога между парламентите на България и Словакия ще допринесе за задълбочаване на партньорството във всички области от взаимен интерес, заяви председателят на Народното събрание Михаела Доцова на среща с председателя на Националния съвет на Словакия д-р Рихард Раши",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6674",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 22
     },
     {
@@ -282,6 +272,26 @@
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 20
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Пътуващата изложба „150 години детски организации в България – история, уроци и бъдеще“ беше открита в Народното събрание",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6676",
+      "published": "2026-11-18T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 18
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "В Народното събрание се проведе скрининг за захарен диабет под надслов „Действайте рано срещу диабета“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6672",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 18
     },
     {
       "section": "bulgaria",
@@ -356,6 +366,26 @@
     {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
+      "title": "Statement by Eurogroup President Kyriakos Pierrakakis on the nominations for the post of ECB executive board members",
+      "summary": "Eurogroup President issued a statement on the nominations for the post of ECB executive board members.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/statement-by-the-eurogroup-president-on-the-nominations-for-the-post-of-ecb-executive-board-members/",
+      "published": "2026-11-20T16:35:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 16
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Forward look: 23 November - 6 December 2026",
+      "summary": "Overview of the main subjects to be discussed at meetings of the Council of the EU over the next two weeks and upcoming media events.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
+      "published": "2026-11-20T16:00:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 16
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
       "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
       "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/european-peace-facility-council-mobilises-additional-1-billion-in-new-military-aid-to-ukraine/",
@@ -371,7 +401,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
       "published": "2026-11-20T14:30:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 16
+      "priority_score": 15
     },
     {
       "section": "europe",
@@ -381,7 +411,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
       "published": "2026-11-20T14:10:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 16
+      "priority_score": 15
     },
     {
       "section": "europe",
@@ -391,7 +421,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-general-affairs-council-cohesion-of-23-november-2026/",
       "published": "2026-11-20T13:54:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 16
+      "priority_score": 15
     },
     {
       "section": "europe",
@@ -401,7 +431,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/remarks-by-president-antonio-costa-at-the-press-conference-following-the-eu-uk-summit-of-20-november-2026/",
       "published": "2026-11-20T13:54:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 16
+      "priority_score": 15
     },
     {
       "section": "europe",
@@ -481,7 +511,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/el/speech_26_2544",
       "published": "2026-11-20T10:35:32+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -491,16 +521,6 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2543",
       "published": "2026-11-20T10:34:48+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Извънредното запасяване тласка нагоре продажбите на дребно във Великобритания",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439838-izvanrednoto-zapasyavane-tlaska-nagore-prodazhbite-na-drebno-vav-velikobritaniya",
-      "published": "2026-11-20T10:18:00+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 14
     },
     {
@@ -544,6 +564,16 @@
       "priority_score": 14
     },
     {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Извънредното запасяване тласка нагоре продажбите на дребно във Великобритания",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439838-izvanrednoto-zapasyavane-tlaska-nagore-prodazhbite-na-drebno-vav-velikobritaniya",
+      "published": "2026-11-20T10:18:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 13
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Биткойн фондът на BlackRock отчете рекорден отлив на капитал за ден",
@@ -554,52 +584,112 @@
       "priority_score": 13
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Там, където присъства Бог, човешкият живот придобива своя истински съкровен смисъл, каза Белоградчишкият епископ Поликарп в Пловдив",
+      "summary": "Днес извървяхме заедно един път, но този път не беше просто разстояние между две места, той беше израз на нашата обща вяра, на духовното ни единство и на желанието ни да вървим през живота с Бога. Предвождани от чудотворния образ на Пресвета Богородица Йерусал",
+      "url": "https://www.bta.bg/bg/news/lik/1251381-tam-kadeto-prisastva-bog-choveshkiyat-zhivot-pridobiva-svoya-istinski-sakroven",
+      "published": "2026-11-20T16:45:32+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
       "section": "europe",
       "source": "Euronews",
-      "title": "UAE's Lana Nusseibeh pledges ‘relentless diplomacy’ in bid to lead the UN",
-      "summary": "Lana Nusseibeh, the Emirati star diplomat running to succeed António Guterres, told Euronews the UN must return to its core purpose of peace, development, and prosperity. She has pledged relentless diplomacy, a leaner UN judged on results, and early action on",
-      "url": "https://www.euronews.com/2026/11/20/uaes-lana-nusseibeh-pledges-relentless-diplomacy-in-bid-to-lead-the-un",
-      "published": "2026-11-20T15:43:24+00:00",
+      "title": "Morocco commits €366 million to build a national defence industry by 2035",
+      "summary": "The royal cabinet said the plan aims to meet 40% of the armed forces’ and security services’ equipment needs through domestic production by 2035 and to generate more than 65% of industry revenues from exports, supported by a new strategic agency, a holding com",
+      "url": "https://www.euronews.com/2026/11/20/morocco-commits-366-million-to-build-a-national-defence-industry-by-2035",
+      "published": "2026-11-20T16:43:13+00:00",
       "feed_id": "euronews",
       "priority_score": 12
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Започва прием на номинации за най-добрите спортисти на Сливен за 2026 г.",
-      "summary": "Започва прием на предложения за определяне на десетте най-добри спортисти, треньор на годината, най-добър отбор и спортист с увреждания на Сливен за 2026 г., обявиха от Общината. Тази година в класацията се въвежда и нова категория – „Устремени към върха“, коя",
-      "url": "https://www.bta.bg/bg/news/sport/1251348-zapochva-priem-na-nominatsii-za-nay-dobrite-sportisti-na-sliven-za-2026-g-",
-      "published": "2026-11-20T15:40:04+00:00",
+      "title": "Дарения от Швейцария обогатиха фонда на казанлъшката Художествена галерия с три творби на Дечко Узунов и Бенчо Обрешков",
+      "summary": "Фондът на Художествена галерия - Казанлък се обогати с три нови творби - едно живописно платно на Дечко Узунов и две на Бенчо Обрешков. Това съобщиха от културния институт на официалната си фейсбук страница. Те са дарени от д-р Михаел Дьоман от Цюрих и Розмари",
+      "url": "https://www.bta.bg/bg/news/lik/1251373-dareniya-ot-shveytsariya-obogatiha-fonda-na-kazanlashkata-hudozhestvena-galeriya",
+      "published": "2026-11-20T16:33:27+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Dow прави опит да избегне зоната на корекция на старта на последната сесия за седмицата*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439867-dow-pravi-opit-da-izbegne-zonata-na-korektsiya-na-starta-na-poslednata-sesiya-za-sedmitsata",
-      "published": "2026-11-20T15:36:00+00:00",
-      "feed_id": "investor-finance",
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Latvian leader calls for closure of EU borders to all Russians",
+      "summary": "Andris Kulbergs warned that Europe cannot screen hundreds of thousands of Russian tourists as Moscow escalates its hybrid attacks.",
+      "url": "https://www.politico.eu/article/latvian-leader-andris-kulbergs-calls-for-closure-of-eu-borders-to-all-russians/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T16:28:09+00:00",
+      "feed_id": "politico-europe",
       "priority_score": 12
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Can German auto manufacturing recover after Mercedes and VW cuts?",
-      "summary": "German automakers are pulling back on investments at home, sparking fresh anxiety about the auto sector's future. Some industry watchers think there is still a narrow window to stem the decline. But how?",
-      "url": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T15:36:00+00:00",
-      "feed_id": "dw-world",
+      "source": "BBC News – Свят",
+      "title": "Anthropic shares fall a day after blockbuster opening",
+      "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T16:27:47+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
+      "summary": "Asian markets record worst week since 2020 as investors question huge sums being poured into AI build-out Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic’s shares have slumped at the start of a second day of trading, as its record-breaking I",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "published": "2026-11-20T16:26:07+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 12
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Кулинарен конкурс организира читалището в луковитското село Карлуково на 21 ноември",
-      "summary": "Празничен кулинарен конкурс под наслов „Вкусът на Карлуково и българската традиция“ организира в събота, 21 ноември, Народно читалище „Дико Илиев – 1904 г.“ в луковитското село. Това е първото му издание, съобщи за БТА секретарят на културната институция Цвета",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251309-kulinaren-konkurs-organizira-chitalishteto-v-lukovitskoto-selo-karlukovo-na-21-n",
-      "published": "2026-11-20T15:31:47+00:00",
+      "title": "Земеделски производители излизат на протест с тежка техника в Генерал Тошево срещу добива на газ в общината",
+      "summary": "Земеделски производители от община Генерал Тошево подготвят протест с тежка техника на 28 ноември срещу намерението за добив на газ на територията на общината, както и за защита на земеделските земи и водните ресурси. Акцията е организирана от Асоциацията на б",
+      "url": "https://www.bta.bg/bg/news/economy/1251384-zemedelski-proizvoditeli-izlizat-na-protest-s-tezhka-tehnika-v-general-toshevo-s",
+      "published": "2026-11-20T16:25:48+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Проф. д. изк. Чавдар Попов представи книгата си „Теоретични проблеми на историята на изкуството“ в София",
+      "summary": "Проф. д. изк. Чавдар Попов представи книгата си „Теоретични проблеми на историята на изкуството“ в галерия „Академия“ на Националната художествена академия (НХА) в София. Изданието е посветено на теоретични въпроси на изкуствознанието, които според автора са п",
+      "url": "https://www.bta.bg/bg/news/lik/1251359-prof-d-izk-chavdar-popov-predstavi-knigata-si-teoretichni-problemi-na-istori",
+      "published": "2026-11-20T16:23:37+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Deepening EU–Canada ties: From critical minerals and defence to erasmus+",
+      "summary": "‘We are determined to drive the renewed political momentum between the EU and Canada forward,’ write four Members of the European People’s Party (EPP) Group in the European Parliament in an op-ed for Euronews, published on the occasion of a visit by an EPP del",
+      "url": "https://www.euronews.com/2026/11/20/deepening-eucanada-ties-from-critical-minerals-and-defence-to-erasmus",
+      "published": "2026-11-20T16:21:57+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Russian missiles and drone hit Poland during attacks on Ukraine",
+      "summary": "Polish PM calls strikes, which took place amid western military exercises, ‘an intentional provocation’ by Moscow Two Russian cruise missiles and a jet-powered drone crashed in Poland, according to officials, during Russian air attacks on Ukraine that took pla",
+      "url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+      "published": "2026-11-20T16:16:01+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Мишчо, който пише писма на децата, стана герой на книга",
+      "summary": "Инициативата за изпращане на хартиени писма на деца \"Писмата на Мишчо\" прерасна в книга. Малките читатели вече могат да се срещнат с познатия герой и чрез премиерното томче \"Писмата на Мишчо от улица „Копче“ номер 9“ на Диана Алексиева, съобщиха от екипа. Нова",
+      "url": "https://www.bta.bg/bg/news/lik/1251221-mishcho-koyto-pishe-pisma-na-detsata-stana-geroy-na-kniga",
+      "published": "2026-11-20T16:15:46+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
@@ -609,98 +699,8 @@
       "title": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live",
       "summary": "President of European Council says EU ‘remains open to have the closest possible relationship’ with the UK Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutralise t",
       "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
-      "published": "2026-11-20T15:24:09+00:00",
+      "published": "2026-11-20T16:15:24+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Националната галерия ще представи 154 произведения на Кирил Цонев по повод 130-годишнина от рождението му",
-      "summary": "Изложбата „Кирил Цонев. От рисунката до картината“, включваща 154 произведения на художника, ще бъде открита на 26 ноември в Националната галерия / Двореца в София, съобщават домакините. Експозицията е посветена на 130-годишнината от рождението на твореца и ще",
-      "url": "https://www.bta.bg/bg/news/lik/1251322-natsionalnata-galeriya-shte-predstavi-154-proizvedeniya-na-kiril-tsonev-po-povod",
-      "published": "2026-11-20T15:23:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Акциите на Anthropic поевтиняха с 9% в първата сесия след борсовия дебют",
-      "summary": "Акциите на Anthropic поевтиняха с 9% при отварянето на търговията в петък, след историческия дебют на компанията на борсата Nasdaq. В последствие имаше корекция нагоре и към 17 ч. българско време се търгува 7% надолу. Инвеститорите имат опасения около инвестиц",
-      "url": "https://www.economic.bg/bg/a/view/akciite-na-anthropic-poevtinjaha-s-9-v-pyrvata-sesija-sled",
-      "published": "2026-11-20T15:18:14+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "„Градус“ отчита силен ръст на приходите и печалбата за деветмесечието",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439862-gradus-otchita-silen-rast-na-prihodite-i-pechalbata-za-devetmesechieto",
-      "published": "2026-11-20T15:18:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Young people across Europe stage coordinated ‘fight for our future’ protests",
-      "summary": "Activists in more than 20 countries demonstrate over cost of living, learning conditions and rising military spending Students and young workers have taken to the streets in more than 20 European countries in coordinated protests over the surging cost of livin",
-      "url": "https://www.theguardian.com/world/2026/nov/20/young-people-europe-coordinated-protests-cost-of-living",
-      "published": "2026-11-20T15:15:28+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Measles in America: Here's a constructive approach to beating the highly contagious disease, based on Brazil's experience",
-      "summary": "The US is now officially a measles contagion zone. By mid-2026, there were more infections than in all of the previous year. But it could beat measles again, just like Brazil did two years ago.",
-      "url": "https://www.dw.com/en/measles-in-america-here-s-a-constructive-approach-to-beating-the-highly-contagious-disease-based-on-brazil-s-experience/a-79990626?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T15:14:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Ukraine: Rescue teams search wreckage after deadly Russian strike on Kyiv",
-      "summary": "A Russian overnight attack on Kyiv, Ukraine, killed eight people on Friday 20 November 2026, according to Associated Press, leaving buildings and warehouses damaged across the capital. Firefighters battled blazes as emergency crews searched the wreckage and po",
-      "url": "https://www.euronews.com/video/2026/11/20/ukraine-rescue-teams-search-wreckage-after-deadly-russian-strike-on-kyiv",
-      "published": "2026-11-20T15:12:40+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
-      "summary": "Rikers had been slated to close by August 2027 following legislation passed by the City Council in 2019. Moving the deadline will require a change to this law.",
-      "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
-      "published": "2026-11-20T15:03:20+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Is Pakistan backing anti-Taliban groups in Afghanistan?",
-      "summary": "The Taliban rulers in Afghanistan have accused Pakistan of aiding and sheltering armed resistance groups. The allegations come amid heightened tensions and are likely to deepen the rift between the two neighbors.",
-      "url": "https://www.dw.com/en/is-pakistan-backing-anti-taliban-groups-in-afghanistan/a-80004814?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T15:02:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Germany face belgium in Nations League quarterfinals — Klopp plays down favorites tag",
-      "summary": "Germany coach Jürgen Klopp is looking to \"carry positive momentum forward\" as his team draw neighboring Belgium in the quarterfinals of the UEFA Nations League.",
-      "url": "https://www.dw.com/en/germany-face-belgium-in-nations-league-quarterfinals-klopp-plays-down-favorites-tag/a-80004794?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T14:53:00+00:00",
-      "feed_id": "dw-world",
       "priority_score": 12
     }
   ],
