@@ -1,28 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:46:34.790395+00:00",
-  "last_checked_at": "2026-11-20T17:46:34.790399+00:00",
+  "updated_at": "2026-11-20T18:46:04.642741+00:00",
+  "last_checked_at": "2026-11-20T18:46:04.642746+00:00",
   "items": [
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Зам.-министър Николай Витанов представи българските приоритети в сферата на образованието на Съвета на ЕС",
-      "summary": "Критичното мислене, развитието на умения за взаимодействие с изкуствения интелект (ИИ) и подготовката на учащите за бъдещите предизвикателства бяха сред основните теми на заседанието на Съвета на Европейския съюз (ЕС) по образование, младеж, култура и спорт (ч",
-      "url": "https://www.bta.bg/bg/news/lik/1251414-zam-ministar-nikolay-vitanov-predstavi-balgarskite-prioriteti-v-sferata-na-obra",
-      "published": "2026-11-20T17:07:29+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 52
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Исперих ще предостави до 150 000 евро временна финансова помощ на МИГ за изпълнение на социален проект",
-      "summary": "Община Исперих ще предостави до 150 000 евро временна финансова помощ на Сдружението с нестопанска цел (СНЦ) „Местна инициативна група (МИГ) – Исперих“ за изпълнение на проекта „Социално включване и равни възможности за уязвими и маргинализирани групи в община",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251406-obshtina-isperih-shte-predostavi-do-150-000-evro-vremenna-finansova-pomosht-na-m",
-      "published": "2026-11-20T16:59:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 42
-    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
@@ -31,27 +11,7 @@
       "url": "https://www.investor.bg/a/526-pravosadie/439855-parlamentat-izbra-chlenovete-na-visshiya-sadeben-savet-ot-kvotata-na-narodnoto-sabranie",
       "published": "2026-11-20T12:45:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 41
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Окръжен съд – Враца остави в ареста непълнолетен, обвинен в грабеж с побой",
-      "summary": "Врачанският окръжен съд постанови днес 16-годишен младеж, обвинен в грабеж, придружен с побой, да бъде задържан под стража, съобщиха от съдебната институция. Съдът е преценил, че случаят е изключителен и са налице всички законови основания за налагане на най-т",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251407-okrazhen-sad-vratsa-ostavi-v-aresta-nepalnoleten-obvinen-v-grabezh-s-poboy",
-      "published": "2026-11-20T16:58:50+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 38
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
-      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
-      "published": "2026-11-20T16:10:40+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 34
+      "priority_score": 40
     },
     {
       "section": "bulgaria",
@@ -62,6 +22,16 @@
       "published": "2026-11-13T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 34
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
+      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
+      "published": "2026-11-20T16:10:40+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 33
     },
     {
       "section": "bulgaria",
@@ -111,7 +81,37 @@
       "url": "https://www.parliament.bg/bg/news/6679",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
-      "priority_score": 28
+      "priority_score": 27
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Презаписването на IPO-то на Anthropic може би ще убеди пазарните участници да нямат страх от AI",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/439866-prezapisvaneto-na-ipo-to-na-anthropic-mozhe-bi-shte-ubedi-pazarnite-uchastnitsi-da-nyamat-strah-ot-ai",
+      "published": "2026-11-20T18:39:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Държавната опера - Стара Загора беше отличена с годишната награда „Съживено наследство“ на Института за изследване на изкуствата при БАН",
+      "summary": "Държавната опера - Стара Загора беше отличена с годишната награда „Съживено наследство“ на Института за изследване на изкуствата при Българската академия на науките (БАН). Отличието прие маестро Владимир Бошнаков по време на церемонията за откриването на 56-от",
+      "url": "https://www.bta.bg/bg/news/lik/1251451-darzhavnata-opera-stara-zagora-beshe-otlichena-s-godishnata-nagrada-sazhiveno",
+      "published": "2026-11-20T18:32:09+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Европейските борси затвориха тежка седмица след разпродажби на технологичните акции",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439874-evropeyskite-borsi-zatvoriha-tezhka-sedmitsa-sled-razprodazhbi-na-tehnologichnite-aktsii",
+      "published": "2026-11-20T18:02:13+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 26
     },
     {
       "section": "bulgaria",
@@ -131,36 +131,6 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Десет семейства в Мездра отбелязаха 50 години брачен живот, във Враца обща златна сватба ще празнуват 22 двойки",
-      "summary": "За трета поредна година Община Мездра организира инициативата „50 години заедно“, с която почете семействата, сключили граждански брак преди половин век, съобщиха от общинска администрация. Събитието се състоя в навечерието на Деня на християнското семейство и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251199-deset-semeystva-v-mezdra-otbelyazaha-50-godini-brachen-zhivot-vav-vratsa-obshta",
-      "published": "2026-11-20T17:00:57+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6682",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6681",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
       "priority_score": 26
     },
     {
@@ -215,13 +185,33 @@
     },
     {
       "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6682",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 25
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 25
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "„Главболгарстрой“ пое ангажимент пред гръцки министър за ускорено завършване на магистрала „Струма“",
       "summary": "В изказването си преди официалния старт на седмата министерска среща на P-TEC председателят на УС на „Главболгарстрой“ Калин Пешов потвърди поетия пред министъра на околната среда и енергетиката на Гърция Ставрос Папаставру ангажимент за ускорено завършване на",
       "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-poe-angajiment-pred-grycki-ministyr-za-uskoreno-zavyrshvane-na-magistrala-struma",
       "published": "2026-11-20T12:07:01+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 25
+      "priority_score": 24
     },
     {
       "section": "bulgaria",
@@ -291,7 +281,7 @@
       "url": "https://www.parliament.bg/bg/news/6677",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
-      "priority_score": 20
+      "priority_score": 19
     },
     {
       "section": "bulgaria",
@@ -375,13 +365,23 @@
     },
     {
       "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
+      "published": "2026-11-20T17:11:42+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 15
+    },
+    {
+      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Statement by Eurogroup President Kyriakos Pierrakakis on the nominations for the post of ECB executive board members",
       "summary": "Eurogroup President issued a statement on the nominations for the post of ECB executive board members.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/statement-by-the-eurogroup-president-on-the-nominations-for-the-post-of-ecb-executive-board-members/",
       "published": "2026-11-20T16:35:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 16
+      "priority_score": 15
     },
     {
       "section": "europe",
@@ -391,16 +391,6 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
       "published": "2026-11-20T16:00:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 16
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
-      "published": "2026-11-20T17:11:42+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 15
     },
     {
@@ -471,7 +461,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2550",
       "published": "2026-11-20T12:32:21+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -481,7 +471,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2549",
       "published": "2026-11-20T12:30:50+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -491,7 +481,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/mff-2028-2034-council-agrees-negotiating-position-on-stronger-civil-protection-mechanism-and-support-for-health-preparedness/",
       "published": "2026-11-20T12:30:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -501,7 +491,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2548",
       "published": "2026-11-20T12:29:15+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -511,7 +501,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2547",
       "published": "2026-11-20T12:27:35+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -521,7 +511,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2546",
       "published": "2026-11-20T12:24:37+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -574,42 +564,82 @@
       "priority_score": 14
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-      "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T17:36:29+00:00",
-      "feed_id": "bbc-world",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Постоянна музейна експозиция, посветена на самоковската градска култура и фотографията, бе открита в Доспевската къща",
+      "summary": "Постоянна музейна експозиция, посветена на самоковската градска култура и фотографията, бе открита днес в Доспевската къща в града. Събитието е част от програмата на научната конференция „Димитър Зограф и неговото време“, посветена на 230 години от рождението",
+      "url": "https://www.bta.bg/bg/news/lik/1251453-postoyanna-muzeyna-ekspozitsiya-posvetena-na-samokovskata-gradska-kultura-i-fot",
+      "published": "2026-11-20T18:37:18+00:00",
+      "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "The biggest winners and losers of the EU-UK summit deals",
-      "summary": "We take stock of who’s up and who’s down after London and Brussels sign three new deals.",
-      "url": "https://www.politico.eu/article/the-winners-and-losers-of-the-eu-uk-summit-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T17:24:57+00:00",
-      "feed_id": "politico-europe",
+      "source": "The Guardian – World",
+      "title": "Spain frees wealthy US-sought activist on bail as Irish police raid Dublin home",
+      "summary": "Pro-Palestinian donor James ‘Fergie’ Chambers released as court considers extradition request In a blur of events surrounding the Trump administration’s effort to extradite James “Fergie” Chambers, Spain released the wealthy US activist and donor on bail even",
+      "url": "https://www.theguardian.com/world/2026/nov/20/james-fergie-chambers-bail-spain",
+      "published": "2026-11-20T18:34:13+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Indian man sentenced to 19 years in prison for conspiring to kill Sikh separatist in New York",
+      "summary": "Nikhil Gupta admitted to plotting with Indian government official to hire hitman to murder dual US-Canadian citizen An Indian ⁠man was sentenced to more ⁠than 19 ​years in US prison on Friday after admitting to orchestrating a failed Indian government-backed p",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist",
+      "published": "2026-11-20T18:24:12+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Misty-eyed Burnham gambles on closer ties with EU as he throws down gauntlet to Tories and Reform",
+      "summary": "PM challenges rivals to rebuff plan he says could add 0.5% annual growth to economy and offer young people hope Several sentences in to a slightly convoluted answer about where UK-EU relations might go next, Andy Burnham abruptly changed tack. “The important p",
+      "url": "https://www.theguardian.com/politics/2026/nov/20/andy-burnham-uk-eu-brussels-summit",
+      "published": "2026-11-20T18:22:50+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 12
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "В Кюстендил бяха наградени победителите в ученическия конкурс \"Корени на родолюбието\"",
-      "summary": "В Кюстендил бяха наградени победителите в ученическия конкурс \"Корени на родолюбието\", който се организира от Ротари клуб - Кюстендил. В тазгодишното издание темата е \"от поколение на поколение – традициите на мое семейство“, каза пред БТА Славяна Славова, пре",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251424-v-kyustendil-byaha-nagradeni-pobeditelite-v-uchenicheskiya-konkurs-koreni-na-ro",
-      "published": "2026-11-20T17:24:12+00:00",
+      "title": "Майчинството включва отговорността за духовното израстване на детето, каза проф. Теодор Стойчев в навечерието на Въведение Богородично",
+      "summary": "Майчинството не се изчерпва с даряването и съхраняването на физическия живот. То включва отговорността за духовното израстване на детето, а тази отговорност предполага най-напред личен пример. Това каза иконом проф. Теодор Стойчев, който изнесе беседа на конце",
+      "url": "https://www.bta.bg/bg/news/lik/1251440-maychinstvoto-vklyuchva-otgovornostta-za-duhovnoto-izrastvane-na-deteto-kaza-pr",
+      "published": "2026-11-20T18:17:07+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper",
+      "summary": "Russian intelligence thought to be behind plan to kill US-Ukrainian musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempt",
+      "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+      "published": "2026-11-20T18:16:12+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Адвокат Велина Пиргова представя изложбата „Отвъд правото“ в Арт галерия – Петрич",
+      "summary": "Изложбата „Отвъд правото“ на адвокат Велина Пиргова беше открита тази вечер в Арт галерия – Петрич. Експозицията представя 15 ръчно изработени гоблена, чрез които авторката разкрива една по-малко позната част от своя свят – този на цветовете, творчеството и ли",
+      "url": "https://www.bta.bg/bg/news/lik/1251441-advokat-velina-pirgova-predstavya-izlozhbata-otvad-pravoto-v-art-galeriya-pe",
+      "published": "2026-11-20T18:12:56+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Петдесет и третото издание на Софийски международен панаир на книгата ще се състои от 8 до 13 декември в НДК",
-      "summary": "Петдесет и третото издание на Софийския международен панаир на книгата ще се състои от 8 до 13 декември в Националния дворец на културата (НДК). Събитието ще събере издатели, писатели и любители на литературата, съобщават организаторите от Асоциация „Българска",
-      "url": "https://www.bta.bg/bg/news/lik/1251245-petdeset-i-tretoto-izdanie-na-sofiyski-mezhdunaroden-panair-na-knigata-shte-se-s",
-      "published": "2026-11-20T17:20:49+00:00",
+      "title": "Изложбата живопис „Eсен“ представи творби на четирима български художници във фоайето на Старозагорската опера",
+      "summary": "Изложбата живопис „Eсен“ беше открита тази вечер минути преди официалното начало на 56-ото издание на Фестивала на оперното и балетното изкуство (ФОБИ) във фоайето на Старозагорската опера. Експозицията представя картини от творчеството на Венко Мадолев, Орхан",
+      "url": "https://www.bta.bg/bg/news/lik/1251435-izlozhbata-zhivopis-esen-predstavi-tvorbi-na-chetirima-balgarski-hudozhnitsi-v",
+      "published": "2026-11-20T18:06:06+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
@@ -619,87 +649,57 @@
       "title": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live",
       "summary": "President of European Council says EU ‘remains open to have the closest possible relationship’ with the UK Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutralise t",
       "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
-      "published": "2026-11-20T17:16:07+00:00",
+      "published": "2026-11-20T17:59:55+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
-      "summary": "Ukrainian President Zelenskyy said Russia launched one of the largest aerial attacks since the invasion began. Poland accused Moscow of a \"provocation,\" saying two missiles landed in the NATO country. Follow DW.",
-      "url": "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T17:12:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Better educated than ever – yet Germany's Gen Z is being shut out of its own future",
-      "summary": "Never before have young people faced so many challenges. Young Germans are asking: Will I be better off later in life than my parents are now?",
-      "url": "https://www.dw.com/en/better-educated-than-ever-yet-germany-s-gen-z-is-being-shut-out-of-its-own-future/a-80005823?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T17:09:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Жители на „Дружба 2“ протестират за втори път срещу продължителното прекъсване на топлоподаването",
-      "summary": "Жители на пета част на столичния квартал „Дружба 2“ протестират за втори път срещу „Топлофикация София“ заради прекъснатото от 28 август топлоподаване и многократното отлагане на срока за възстановяването му. На протеста присъства и кметът на район „Искър“ Пет",
-      "url": "https://www.bta.bg/bg/news/economy/1251418-zhiteli-na-druzhba-2-protestirat-za-vtori-pat-sreshtu-prodalzhitelnoto-prekasv",
-      "published": "2026-11-20T17:03:06+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Движението на кръстовището на улиците „Димитър Пешев“ и „Обиколна“ беше възстановено към 19:10 ч.",
-      "summary": "Жители на пета част на столичния квартал „Дружба 2“ протестираха за втори път срещу „Топлофикация София“ заради прекъснатото от 28 август топлоподаване и многократното отлагане на срока за възстановяването му. Движението на кръстовището на улиците „Димитър Пеш",
-      "url": "https://www.bta.bg/bg/news/economy/1251426-dvizhenieto-na-krastovishteto-na-ulitsite-dimitar-peshev-i-obikolna-beshe-va",
-      "published": "2026-11-20T17:03:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Andy Burnham discovers nothing in Brussels is ever easy",
-      "summary": "Britain’s prime minister is banking on a ‘brainstorm’ to decide Britain’s future with the EU. He just has to get through the spin wars first.",
-      "url": "https://www.politico.eu/article/andy-burnham-eu-uk-summit-reset-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T17:00:51+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 20th, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 20th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/20/latest-news-bulletin-november-20th-2026-evening",
-      "published": "2026-11-20T17:00:26+00:00",
-      "feed_id": "euronews",
       "priority_score": 12
     },
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Gérard Depardieu and Michel Houellebecq investigated over on-set rape and assault allegations",
-      "summary": "Actor and author are alleged to have attacked and gang-raped a woman while filming together in 2018 French police are investigating allegations that the actor Gérard Depardieu and the author Michel Houellebecq gang-raped and assaulted a woman during a 2018 fil",
-      "url": "https://www.theguardian.com/film/2026/nov/20/gerard-depardieu-michel-houellebecq-investigated-allegations",
-      "published": "2026-11-20T16:54:57+00:00",
+      "title": "Burnham seals trade and youth mobility deals in biggest step towards EU since Brexit",
+      "summary": "Agreements reached on food and drink, emissions and to allow young people to move around continent, but may be derailed over student fees Andy Burnham has taken the biggest step towards deeper ties with the EU since Brexit, sealing deals to ease trade and crea",
+      "url": "https://www.theguardian.com/politics/2026/nov/20/burnham-trade-youth-mobility-deals-biggest-step-towards-eu-since-brexit",
+      "published": "2026-11-20T17:57:10+00:00",
       "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Петото издание на Коледния фестивал в София беше официално открито в парка пред НДК",
+      "summary": "Петото издание на коледния фестивал Sofia Christmas Fest беше официално открито в парка пред Националния дворец на културата (НДК) и до 28 декември пространството ще е Коледно градче. Кметът на София Васил Терзиев каза, че е щастлив, тъй като София отново е за",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251432-petoto-izdanie-na-koledniya-festival-v-sofiya-beshe-ofitsialno-otkrito-v-parka-p",
+      "published": "2026-11-20T17:55:00+00:00",
+      "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T16:54:29+00:00",
+      "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+      "summary": "Nikhil Gupta pleaded guilty to murder-for-hire, conspiracy to commit murder-for-hire, and conspiracy to commit money laundering in February.",
+      "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T17:54:37+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Плевен започна националният кръг на многоезичното състезание за ученици",
+      "summary": "В Плевен с церемония беше обявено началото на националния кръг на многоезичното състезание за ученици. Тя се състоя в концертна зала „Катя Попова“. В състезанието общо 132 ученици от 20 области на България ще покажат своите знания по английски, италиански, исп",
+      "url": "https://www.bta.bg/bg/news/lik/1251427-v-pleven-zapochna-natsionalniyat-krag-na-mnogoezichnoto-sastezanie-za-uchenitsi",
+      "published": "2026-11-20T17:54:12+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
+      "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T17:49:48+00:00",
       "feed_id": "bbc-world",
       "priority_score": 12
     }
