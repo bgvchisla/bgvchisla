@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T19:50:34.361845+00:00",
-  "last_checked_at": "2026-11-20T19:50:34.361849+00:00",
+  "updated_at": "2026-11-20T20:38:58.192183+00:00",
+  "last_checked_at": "2026-11-20T20:38:58.192187+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -71,7 +71,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439841-frantsiya-otnovo-se-izpravya-pred-nay-strahovitata-si-zadacha-priemaneto-na-byudzheta",
       "published": "2026-11-20T14:06:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 28
+      "priority_score": 27
     },
     {
       "section": "bulgaria",
@@ -111,7 +111,7 @@
       "url": "https://www.bta.bg/bg/news/lik/1251451-darzhavnata-opera-stara-zagora-beshe-otlichena-s-godishnata-nagrada-sazhiveno",
       "published": "2026-11-20T18:32:09+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 26
+      "priority_score": 25
     },
     {
       "section": "bulgaria",
@@ -121,7 +121,7 @@
       "url": "https://www.investor.bg/a/538-pazari/439874-evropeyskite-borsi-zatvoriha-tezhka-sedmitsa-sled-razprodazhbi-na-tehnologichnite-aktsii",
       "published": "2026-11-20T18:02:13+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 26
+      "priority_score": 25
     },
     {
       "section": "bulgaria",
@@ -155,16 +155,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Българска инициатива с международно партньорство поставя основите за внедряване на малки модулни реактори",
-      "summary": "Българската енергийно-технологична компания Blue Bird Energy подписа споразумение за съвместно сътрудничество с полската Synthos Green Energy (SGE) и Националната електрическа компания (НЕК) за внедряване на малки модулни ядрени реактори (ММР) в България. Това",
-      "url": "https://www.economic.bg/bg/a/view/bylgarska-iniciativa-s-mejdunarodno-partniorstvo-postavja-osnovite-za-vnedrjavane-na-malki-modulni-reaktori",
-      "published": "2026-11-20T14:17:38+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
@@ -186,11 +176,31 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Първото издание на фестивала „Бургас – световна сцена на езиците и културите“ беше открито на 20 езика",
+      "summary": "С поздрави на 20 езика бе открито първото издание на фестивала „Бургас – световна сцена на езиците и културите“. Публиката в залатаа на Central Park, домакин на събитието, имаше възможност да чуе приветствия на азербайджански, арабски, арменски, виетнамски, гр",
+      "url": "https://www.bta.bg/bg/news/lik/1251485-parvoto-izdanie-na-festivala-burgas-svetovna-stsena-na-ezitsite-i-kulturite-",
+      "published": "2026-11-20T20:03:46+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "След десетгодишна пауза международното студентско биенале „Рисунка“ събра в София творби на студенти от осем страни",
       "summary": "Националната художествена академия (НХА) възобнови Международното студентско биенале „Рисунка“ десет години след последното му издание. Четвъртото биенале бе открито тази вечер в столичната галерия „Академия“ с изложба на 93-ма студенти от десет висши училища",
       "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
       "published": "2026-11-20T19:01:30+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Българска инициатива с международно партньорство поставя основите за внедряване на малки модулни реактори",
+      "summary": "Българската енергийно-технологична компания Blue Bird Energy подписа споразумение за съвместно сътрудничество с полската Synthos Green Energy (SGE) и Националната електрическа компания (НЕК) за внедряване на малки модулни ядрени реактори (ММР) в България. Това",
+      "url": "https://www.economic.bg/bg/a/view/bylgarska-iniciativa-s-mejdunarodno-partniorstvo-postavja-osnovite-za-vnedrjavane-na-malki-modulni-reaktori",
+      "published": "2026-11-20T14:17:38+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 24
     },
     {
@@ -231,16 +241,6 @@
       "url": "https://www.economic.bg/bg/a/view/stolichna-obshtina-veche-shte-si-plashta-za-sybiraneto-na-starite-drehi",
       "published": "2026-11-20T11:29:58+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "България получава над 1,7 млрд. евро по петото плащане от ПВУ",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439843-balgariya-poluchava-nad-17-mlrd-evro-po-petoto-plashtane-ot-pvu",
-      "published": "2026-11-20T10:50:00+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 24
     },
     {
@@ -365,6 +365,16 @@
     },
     {
       "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Weekly schedule of President António Costa",
+      "summary": "Weekly schedule of President António Costa, 21-29 November 2026.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/weekly-schedule-of-president-antonio-costa/",
+      "published": "2026-11-20T20:15:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 16
+    },
+    {
+      "section": "europe",
       "source": "Европейска комисия",
       "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
       "summary": "European Commission News Brussels, 20 Nov 2026 Commission President Ursula von der Leyen and European Council President António Costa hosted British Prime Minister Andy Burnham in Brussels today for the sec...",
@@ -405,13 +415,23 @@
     },
     {
       "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
+      "published": "2026-11-20T17:11:42+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 14
+    },
+    {
+      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Media advisory - Agriculture and Fisheries Council of 23 November 2026",
       "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
       "published": "2026-11-20T14:30:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -421,7 +441,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
       "published": "2026-11-20T14:10:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -431,7 +451,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-general-affairs-council-cohesion-of-23-november-2026/",
       "published": "2026-11-20T13:54:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -441,16 +461,6 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/remarks-by-president-antonio-costa-at-the-press-conference-following-the-eu-uk-summit-of-20-november-2026/",
       "published": "2026-11-20T13:54:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
-      "published": "2026-11-20T17:11:42+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 14
     },
     {
@@ -524,6 +534,16 @@
       "priority_score": 14
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – България",
+      "title": "Правителството определи таван на приходите на производителите на ток",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/367331-pravitelstvoto-opredeli-tavan-na-prihodite-na-proizvoditelite-na-tok",
+      "published": "2023-01-11T13:10:00+00:00",
+      "feed_id": "investor-bg",
+      "priority_score": 14
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Commissioner Tzitzikostas delivers a video address at 50th anniversary of the Hellenic Institute of Transportation Engineers",
@@ -531,7 +551,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/el/speech_26_2544",
       "published": "2026-11-20T10:35:32+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -541,17 +561,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2543",
       "published": "2026-11-20T10:34:48+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – България",
-      "title": "Правителството определи таван на приходите на производителите на ток",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/367331-pravitelstvoto-opredeli-tavan-na-prihodite-na-proizvoditelite-na-tok",
-      "published": "2023-01-11T13:10:00+00:00",
-      "feed_id": "investor-bg",
-      "priority_score": 14
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -574,13 +584,63 @@
       "priority_score": 13
     },
     {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Trump threatens ban on US firms building AI data centres overseas",
+      "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T20:35:26+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "At COP31, conflict over climate science slows action on global warming",
+      "summary": "Attacks on climate science and disinformation risk delaying key measures at COP31 in Antalya. As the UN climate talks draw to a close, how will that affect efforts to come to an agreement?",
+      "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T20:34:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP31: UN Climate summit enters final phase with no deal in sight",
+      "summary": "After nearly two weeks of negotiations, countries remain divided on how to fight global warming. A new draft declaration doesn't mention the phaseout of fossil fuels, the main drivers of climate change. DW has more.",
+      "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T20:31:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Биткойнът не издържа теста за \"дигитално злато\"",
+      "source": "БТА",
+      "title": "Концерт спектакъл „Повярвай в мечтата\" представи музикалната школа „По ноти\" в Търговище",
+      "summary": "Концерт спектакълът „Повярвай в мечтата“ на музикалната школа „По ноти“ и приятели събра млади таланти на сцената на Драматичния театър в Търговище. Проявата е организирана от Центъра за подкрепа за личностно развитие – Обединен детски комплекс (ЦПЛР – ОДК) с",
+      "url": "https://www.bta.bg/bg/news/lik/1251483-kontsert-spektakal-povyarvay-v-mechtata-predstavi-muzikalnata-shkola-po-noti-",
+      "published": "2026-11-20T20:20:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Украйна подлага на натиск руската логистика с ударите срещу Кримския мост",
       "summary": "",
-      "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439875-bitkoynat-ne-izdarzha-testa-za-digitalno-zlato",
-      "published": "2026-11-20T19:41:38+00:00",
-      "feed_id": "investor-finance",
+      "url": "https://www.investor.bg/a/527-svyat/439872-ukrayna-podlaga-na-natisk-ruskata-logistika-s-udarite-sreshtu-krimskiya-most",
+      "published": "2026-11-20T20:09:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Has the 'Parthenon puzzle' been solved? The long quest to reassemble lost eastern pediment",
+      "summary": "The depiction of the birth of the goddess Athena above the Parthenon's entrance is considered a masterpiece of ancient art. Now, a German research team has pieced together all the surviving fragments.",
+      "url": "https://www.dw.com/en/has-the-parthenon-puzzle-been-solved-the-long-quest-to-reassemble-lost-eastern-pediment/a-79982098?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T20:03:00+00:00",
+      "feed_id": "dw-world",
       "priority_score": 12
     },
     {
@@ -589,8 +649,28 @@
       "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
       "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
       "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T19:38:46+00:00",
+      "published": "2026-11-20T20:00:53+00:00",
       "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Gérard Depardieu and French author investigated over sexual allegations",
+      "summary": "A judicial investigation was launched after a complaint was filed last year over \"allegations of a sexual nature\".",
+      "url": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T19:45:20+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Биткойнът не издържа теста за \"дигитално злато\"",
+      "summary": "",
+      "url": "https://www.investor.bg/a/541-kriptopazar-i-digitalni-aktivi/439875-bitkoynat-ne-izdarzha-testa-za-digitalno-zlato",
+      "published": "2026-11-20T19:41:38+00:00",
+      "feed_id": "investor-finance",
       "priority_score": 12
     },
     {
@@ -620,86 +700,6 @@
       "summary": "В арт галерия „Кръг“ в Кърджали бе открита съвместната мултижанрова изложба „фотоИграфикА“, дело на Иво Бобев - фотография и Антон Савов - графика. Двама автори, родени в Кърджали, носят паметта и нишката на своите родови корени. Единият има в родословието си",
       "url": "https://www.bta.bg/bg/news/lik/1251463-savmestnata-multizhanrova-izlozhba-fotoigrafika-na-ivo-bobev-i-anton-savov-be-",
       "published": "2026-11-20T19:16:51+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "White House removes cyber-security chief after series of tech outages",
-      "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
-      "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T19:03:56+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Trump accuses Iran of dishonesty while defending Putin ties",
-      "summary": "Speaking at a White House press conference on Friday, Trump defended his ties with Xi and Putin, called for a \"real deal\" with Iran and claimed the Russian leader wanted to end the war in Ukraine through diplomacy.",
-      "url": "https://www.euronews.com/2026/11/20/trump-accuses-iran-of-dishonesty-while-defending-putin-ties",
-      "published": "2026-11-20T18:55:06+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Любомир Григоров е победителят в националния конкурс за скулптурна композиция в памет на Милчо Левиев",
-      "summary": "На официална церемония в Дома на културата „Борис Христов“ в Пловдив бяха обявени лауреатите в националния конкурс за скулптурна композиция в памет на световноизвестния композитор, пианист и джаз музикант Милчо Левиев. В рамките на събитието бе открита и излож",
-      "url": "https://www.bta.bg/bg/news/lik/1251457-lyubomir-grigorov-e-pobeditelyat-v-natsionalniya-konkurs-za-skulpturna-kompozits",
-      "published": "2026-11-20T18:50:18+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Постоянна музейна експозиция, посветена на самоковската градска култура и фотографията, бе открита в Доспевската къща",
-      "summary": "Постоянна музейна експозиция, посветена на самоковската градска култура и фотографията, бе открита днес в Доспевската къща в града. Събитието е част от програмата на научната конференция „Димитър Зограф и неговото време“, посветена на 230 години от рождението",
-      "url": "https://www.bta.bg/bg/news/lik/1251453-postoyanna-muzeyna-ekspozitsiya-posvetena-na-samokovskata-gradska-kultura-i-fot",
-      "published": "2026-11-20T18:37:18+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Spain frees wealthy US-sought activist on bail as Irish police raid Dublin home",
-      "summary": "Pro-Palestinian donor James ‘Fergie’ Chambers released as court considers extradition request In a blur of events surrounding the Trump administration’s effort to extradite James “Fergie” Chambers, Spain released the wealthy US activist and donor on bail even",
-      "url": "https://www.theguardian.com/world/2026/nov/20/james-fergie-chambers-bail-spain",
-      "published": "2026-11-20T18:34:13+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Indian man sentenced to 19 years in prison for conspiring to kill Sikh separatist in New York",
-      "summary": "Nikhil Gupta admitted to plotting with Indian government official to hire hitman to murder dual US-Canadian citizen An Indian ⁠man was sentenced to more ⁠than 19 ​years in US prison on Friday after admitting to orchestrating a failed Indian government-backed p",
-      "url": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist",
-      "published": "2026-11-20T18:24:12+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Misty-eyed Burnham gambles on closer ties with EU as he throws down gauntlet to Tories and Reform",
-      "summary": "PM challenges rivals to rebuff plan he says could add 0.5% annual growth to economy and offer young people hope Several sentences into a slightly convoluted answer about where UK-EU relations might go next, Andy Burnham abruptly changed tack. “The important po",
-      "url": "https://www.theguardian.com/politics/2026/nov/20/andy-burnham-uk-eu-brussels-summit",
-      "published": "2026-11-20T18:22:50+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Майчинството включва отговорността за духовното израстване на детето, каза проф. Теодор Стойчев в навечерието на Въведение Богородично",
-      "summary": "Майчинството не се изчерпва с даряването и съхраняването на физическия живот. То включва отговорността за духовното израстване на детето, а тази отговорност предполага най-напред личен пример. Това каза иконом проф. Теодор Стойчев, който изнесе беседа на конце",
-      "url": "https://www.bta.bg/bg/news/lik/1251440-maychinstvoto-vklyuchva-otgovornostta-za-duhovnoto-izrastvane-na-deteto-kaza-pr",
-      "published": "2026-11-20T18:17:07+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 12
     }
