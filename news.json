@@ -1,12 +1,75 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:48:13.577179+00:00",
+  "updated_at": "2026-11-20T05:51:03.673136+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Високи такси и забавена продукция – как Босфорът влияе на българското корабостроене",
+      "summary": "",
+      "url": "https://www.investor.bg/a/524-industriya/439794-visoki-taksi-i-zabavena-produktsiya-kak-bosforat-vliyae-na-balgarskoto-korabostroene",
+      "published": "2026-11-20T05:32:00+00:00",
+      "feed_id": "investor-economy"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "US sells first deep-sea mining leases off American Samoa, days after court ruled against process",
+      "summary": "The Trump administration pressed ahead with the auction despite a federal judge’s finding that regulators broke wildlife protection law and conservation groups vowed to have the leases voided.",
+      "url": "https://www.euronews.com/2026/11/20/us-sells-first-deep-sea-mining-leases-off-american-samoa-days-after-court-ruled-against-pr",
+      "published": "2026-11-20T05:19:16+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "More climate money for Africa? Europe says use what's already pledged",
+      "summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
+      "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T05:03:43+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Kellie Sloane says she’s ‘pretty sure’ NSW Liberals exodus is over after Mark Speakman resigns",
+      "summary": "Former opposition leader warns party against being ‘One Nation lite’ as he becomes eighth out of 24 Liberal MPs not to recontest seat in March Get our daily political email , free app or daily news podcast The New South Wales opposition leader, Kellie Sloane,",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
+      "published": "2026-11-20T05:02:16+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Race to be next UN secretary general exposes divisions among world powers",
+      "summary": "Debate about dominance of permanent five members could reignite if major powers block Costa Rican frontrunner The race to become the next UN secretary general could reach a decisive moment on Friday when a UN security council vote is likely to reveal whether t",
+      "url": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers",
+      "published": "2026-11-20T05:00:24+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Iraq university’s removal of male professors teaching women sparks weeks of protests",
+      "summary": "Al-Qadisiyah University’s move a sign of the country’s slide into a Taliban-like gender segregation, say activists The removal of male professors teaching female students at a university in southern Iraq has sparked protests and been criticised by activists as",
+      "url": "https://www.theguardian.com/global-development/2026/nov/20/iraqi-university-ban-men-teaching-women-protests",
+      "published": "2026-11-20T05:00:23+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Beau Lamarre-Condon’s explanations of body disposal ‘ring hollow’, court hears",
+      "summary": "Former police officer has pleaded not guilty to murdering Jesse Baird and Luke Davies in Paddington in February 2024 Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon knew he had murdered two men and his attempts to explain the d",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/beau-lamarre-condons-attempts-to-explain-disposal-alleged-victims-bodies-ring-hollow-court-hears-ntwnfb",
+      "published": "2026-11-20T04:58:21+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
-      "summary": "Community expectations around datacentres have changed in the age of AI, chief executive Craig Scroggie says Community backlash to a datacentre expansion in inner Melbourne that resulted in NextDC’s share price dropping 40% will change the way the company enga",
+      "summary": "Public expectations around datacentres have changed in the age of AI, chief executive Craig Scroggie says Get our breaking news email , free app or daily news podcast Community backlash to a datacentre expansion in inner Melbourne that resulted in NextDC’s sha",
       "url": "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne",
       "published": "2026-11-20T04:37:08+00:00",
       "feed_id": "guardian-world"
@@ -122,15 +185,6 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "More climate money for Africa? Europe says use what's already pledged",
-      "summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
-      "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T00:54:50+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
       "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
       "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
       "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
@@ -144,15 +198,6 @@
       "summary": "Independent National Security Legislation Monitor says reference to religion has ‘contributed to discrimination and violence against religious minorities’ Get our breaking news email , free app or daily news podcast Religion should be removed from Australia’s",
       "url": "https://www.theguardian.com/law/2026/nov/20/religion-should-removed-from-terrorism-definition-australian-law-gives-false-credibility-watchdog-ntwnfb",
       "published": "2026-11-20T00:19:57+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for ‘many years’",
-      "summary": "Congressional Budget Office also questions whether Australian-flagged vessels could be compelled into a conflict with China under Aukus deal Get our breaking news email , free app or daily news podcast Providing nuclear-powered submarines to Australia would di",
-      "url": "https://www.theguardian.com/world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years",
-      "published": "2026-11-20T00:16:29+00:00",
       "feed_id": "guardian-world"
     },
     {
@@ -208,15 +253,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T23:33:51+00:00",
       "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
-      "summary": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment invo",
-      "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment",
-      "published": "2026-11-19T23:30:26+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -508,38 +544,11 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Is Europe now in the shadow of a Trump, Putin and Xi alliance? – podcast",
-      "summary": "Andy Burnham is meeting western leaders in Berlin and Brussels this week, to discuss Ukraine and closer ties to the EU. Meanwhile, Donald Trump, Vladimir Putin and Xi Jinping have met at the Apec summit in China. Is this the start of a global shift of power aw",
-      "url": "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
-      "published": "2026-11-19T17:23:36+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Middle East conflict poses biggest threat to global energy security in history, IEA warns",
       "summary": "Disruption to oil supplies through the Strait of Hormuz is driving up costs for households, while the agency says the longer the crisis continues, the harder it will be for global energy markets to recover.",
       "url": "https://www.euronews.com/2026/11/19/middle-east-conflict-poses-biggest-threat-to-global-energy-security-in-history-iea-warns",
       "published": "2026-11-19T17:18:31+00:00",
-      "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Myanmar ruling gives new relevance to genocide convention and is ‘full of messages’ for Israel",
-      "summary": "Hailed as ‘a rare moment of justice’, judges’ decision sets out a roadmap for assessing the question of intent The international court of justice (ICJ) verdict making Myanmar the first country in history to be found guilty of committing genocide does not just",
-      "url": "https://www.theguardian.com/law/2026/nov/19/myanmar-ruling-new-relevance-genocide-convention-messages-israel",
-      "published": "2026-11-19T17:14:55+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 19th, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 19th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/19/latest-news-bulletin-november-19th-2026-evening",
-      "published": "2026-11-19T17:00:26+00:00",
       "feed_id": "euronews"
     },
     {
@@ -622,26 +631,12 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2528",
       "published": "2026-11-19T15:04:25+00:00",
       "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Closing remarks by Commissioner Albuquerque at the high level conference on financial literacy: beyond numbers",
-      "summary": "European Commission Speech Brussels, 19 Nov 2026 Good afternoon, ladies and gentlemen, distinguished guests. Many thanks again to you, dear Thomas, for your support and engagement in favour of financial litera...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2527",
-      "published": "2026-11-19T15:03:49+00:00",
-      "feed_id": "commission-press"
     }
   ],
   "feed_status": {
-    "ok": 14,
+    "ok": 15,
     "total": 15,
-    "failures": [
-      {
-        "feed": "parliament-news",
-        "error": "<urlopen error timed out>"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
