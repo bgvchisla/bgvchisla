@@ -1456,11 +1456,16 @@ navToggle.addEventListener("click",function(){
  setNavCollapsed(!navRoot.classList.contains("mobile-collapsed"));
 });
 /* Автоматично прибиране надолу и разгъване при връщане към менюто. */
-var navStartY=0,navEndY=0,lastScrollY=window.scrollY||0,navScrollFrame=0;
+var navStartY=0,navCollapseY=0,lastScrollY=window.scrollY||0,navScrollFrame=0;
 function measureNavRange(){
- var rect=navRoot.getBoundingClientRect();
- navStartY=rect.top+(window.scrollY||0);
- navEndY=navStartY+Math.max(rect.height,1);
+ var scrollY=window.scrollY||0;
+ var navRect=navRoot.getBoundingClientRect();
+ var heading=document.querySelector("#s0 h2");
+ if(!heading)return;
+ navStartY=navRect.top+scrollY;
+ var headingY=heading.getBoundingClientRect().top+scrollY;
+ /* Прибиране точно когато заглавието „Накратко“ достигне първоначалната горна линия на менюто. */
+ navCollapseY=headingY-navStartY;
 }
 window.addEventListener("resize",function(){
  if(!navRoot.classList.contains("mobile-collapsed"))measureNavRange();
@@ -1471,7 +1476,7 @@ window.addEventListener("scroll",function(){
   navScrollFrame=0;
   var currentY=window.scrollY||0;
   var delta=currentY-lastScrollY;
-  if(delta>3&&currentY>navEndY+32){
+  if(delta>3&&currentY>=navCollapseY){
    if(!navRoot.classList.contains("mobile-collapsed"))setNavCollapsed(true);
   }else if(delta< -3&&currentY<navStartY-32){
    if(navRoot.classList.contains("mobile-collapsed"))setNavCollapsed(false);
