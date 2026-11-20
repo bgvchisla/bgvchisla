@@ -1,7 +1,79 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:05:46.659174+00:00",
+  "updated_at": "2026-11-20T01:38:32.356881+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "New Ukraine talks including Europe to be held 'soon' — Merz",
+      "summary": "Germany's Chancellor Friedrich Merz says European leaders could take part in fresh Ukraine talks on \"neutral ground.\" The UK and EU countries have urged a seat at the table in meetings between the US, Russia and Ukraine.",
+      "url": "https://www.dw.com/en/new-ukraine-talks-including-europe-to-be-held-soon-merz/a-79997961?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T01:27:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Cincinnati's famous hippo Fiona dies after eating visitor's hat",
+      "summary": "Fiona was a global sensation at the Cincinnati Zoo in the US. The hippo, who was born prematurely, was named after the \"Shrek\" film character.",
+      "url": "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T01:03:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "More climate money for Africa? Europe says use what's already pledged",
+      "summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
+      "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:54:50+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:50:24+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Religion should be removed from terrorism definition under Australian law as it gives ‘false credibility’, watchdog says",
+      "summary": "Independent National Security Legislation Monitor says reference to religion has ‘contributed to discrimination and violence against religious minorities’ Get our breaking news email , free app or daily news podcast Religion should be removed from Australia’s",
+      "url": "https://www.theguardian.com/law/2026/nov/20/religion-should-removed-from-terrorism-definition-australian-law-gives-false-credibility-watchdog-ntwnfb",
+      "published": "2026-11-20T00:19:57+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for ‘many years’",
+      "summary": "Congressional Budget Office also questions whether Australian-flagged vessels could be compelled into a conflict with China under Aukus deal Get our breaking news email , free app or daily news podcast Providing nuclear-powered submarines to Australia would di",
+      "url": "https://www.theguardian.com/world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years",
+      "published": "2026-11-20T00:16:29+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Why Canada is embracing AI data centres while the US pushes back",
+      "summary": "Shark Tank's Kevin O'Leary is among the big investors looking to Canada as a data centre development destination, while his US project faces local opposition.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:13:24+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+      "summary": "Orla Guerin speaks to seven people trapped in Taiz by the Houthis who reveal what life is like under siege.",
+      "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:13:21+00:00",
+      "feed_id": "bbc-world"
+    },
     {
       "section": "europe",
       "source": "BBC News – Свят",
@@ -76,15 +148,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "New Ukraine talks including Europe to be held 'soon' — Merz",
-      "summary": "Germany's Chancellor Friedrich Merz says European leaders could take part in fresh Ukraine talks on \"neutral ground.\" The UK and EU countries have urged a seat at the table in meetings between the US, Russia and Ukraine.",
-      "url": "https://www.dw.com/en/new-ukraine-talks-including-europe-to-be-held-soon-merz/a-79997961?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T23:19:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75",
       "summary": "The former Liberal MP had fought a long battle against glioblastoma, an aggressive form of brain cancer Get our daily political email , free app or daily news podcast Former Liberal MP Sharman Stone has died via voluntary assisted dying after spending much of",
@@ -112,24 +175,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "From premature baby to social media star - Famed hippo Fiona dies",
-      "summary": "The beloved hippopotamus died days after swallowing a knitted hat that accidentally got into her enclosure at the Cincinnati Zoo.",
-      "url": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T22:54:03+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
-      "summary": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
-      "url": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T22:48:22+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
       "summary": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader Mark Speakman will not contest his seat at th",
@@ -139,30 +184,12 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T21:21:43+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Финанси",
       "title": "Wall Street се сблъска с разпродажба след силния борсов дебют на Anthropic",
       "summary": "",
       "url": "https://www.investor.bg/a/538-pazari/439822-wall-street-se-sblaska-s-razprodazhba-sled-silniya-borsov-debyut-na-anthropic",
       "published": "2026-11-19T21:21:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
-      "summary": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Get our breaking news email , free app or daily news podcast Guardian Australia journalists have won two Walkley awards, one fo",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
-      "published": "2026-11-19T21:04:01+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -208,15 +235,6 @@
       "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
       "published": "2026-11-19T20:21:25+00:00",
       "feed_id": "euronews"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-      "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
-      "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T20:07:02+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -445,15 +463,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
-      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’ China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no m",
-      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
-      "published": "2026-11-19T17:13:23+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 19th, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 19th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
@@ -541,15 +550,6 @@
       "url": "https://www.investor.bg/a/538-pazari/439810-nasdaq-composite-zapochva-sesiyata-na-zeleno-anthropic-se-nasochva-kam-rast-pri-debyuta-si",
       "published": "2026-11-19T15:55:00+00:00",
       "feed_id": "investor-finance"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Anthropic trading tests investors' appetite for AI",
-      "summary": "Anthropic was valued at $2 trillion after shares started trading on the Nasdaq following a record $81 billion IPO. Its performance will put investor confidence in AI to the test.",
-      "url": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T15:52:00+00:00",
-      "feed_id": "dw-world"
     },
     {
       "section": "europe",
