@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_successful_update": "2026-11-18T17:19:56.462024+00:00",
+  "last_successful_update": "2026-11-20T05:54:10.776476+00:00",
   "indicators": [],
   "series": [
     {
@@ -12,7 +12,7 @@
       "dataset": "nama_10_pc",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_pc?lang=EN&freq=A&unit=CP_EUR_HAB&na_item=B1GQ&geo=BG",
       "note": "По текущи цени; не измерва самостоятелно реалния растеж.",
-      "updated_at": "2026-11-18T17:19:50.128609+00:00",
+      "updated_at": "2026-11-20T05:54:04.049249+00:00",
       "points": [
         {
           "year": 1995,
@@ -180,7 +180,7 @@
       "dataset": "nama_10_gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?lang=EN&freq=A&unit=CLV_PCH_PRE&na_item=B1GQ&geo=BG",
       "note": "Годишен процентен темп при верижно свързани обеми.",
-      "updated_at": "2026-11-18T17:19:50.602828+00:00",
+      "updated_at": "2026-11-20T05:54:04.576080+00:00",
       "points": [
         {
           "year": 1996,
@@ -284,7 +284,7 @@
         },
         {
           "year": 2016,
-          "value": 3,
+          "value": 3.0,
           "flag": null
         },
         {
@@ -319,7 +319,7 @@
         },
         {
           "year": 2023,
-          "value": 2,
+          "value": 2.0,
           "flag": null
         },
         {
@@ -329,7 +329,7 @@
         },
         {
           "year": 2025,
-          "value": 3,
+          "value": 3.0,
           "flag": null
         }
       ]
@@ -343,7 +343,7 @@
       "dataset": "une_rt_a",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&freq=A&unit=PC_ACT&sex=T&age=Y15-74&geo=BG",
       "note": "Годишен коефициент на безработица.",
-      "updated_at": "2026-11-18T17:19:51.561142+00:00",
+      "updated_at": "2026-11-20T05:54:05.614624+00:00",
       "points": [
         {
           "year": 2009,
@@ -441,7 +441,7 @@
       "dataset": "demo_pjan",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?lang=EN&freq=A&unit=NR&sex=T&age=TOTAL&geo=BG",
       "note": "Население към 1 януари; отчетени стойности.",
-      "updated_at": "2026-11-18T17:19:52.038991+00:00",
+      "updated_at": "2026-11-20T05:54:06.152778+00:00",
       "points": [
         {
           "year": 1960,
@@ -784,7 +784,7 @@
       "dataset": "lfsi_emp_a",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_a?lang=EN&freq=A&indic_em=EMP_LFS&unit=PC_POP&sex=T&age=Y20-64&geo=BG",
       "note": "Коефициент на заетост за възраст 20–64 години.",
-      "updated_at": "2026-11-18T17:19:51.094068+00:00",
+      "updated_at": "2026-11-20T05:54:05.093364+00:00",
       "points": [
         {
           "year": 2009,
@@ -823,7 +823,7 @@
         },
         {
           "year": 2016,
-          "value": 67,
+          "value": 67.0,
           "flag": null
         },
         {
@@ -868,7 +868,7 @@
         },
         {
           "year": 2025,
-          "value": 77,
+          "value": 77.0,
           "flag": null
         }
       ]
@@ -882,7 +882,7 @@
       "dataset": "tec00114",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tec00114?lang=EN&freq=A&indic_ppp=VI_PPS_EU27_2020_HAB&ppp_cat18=GDP&geo=BG",
       "note": "Индекс спрямо средното за ЕС (ЕС=100).",
-      "updated_at": "2026-11-18T17:19:52.531298+00:00",
+      "updated_at": "2026-11-20T05:54:06.661730+00:00",
       "points": [
         {
           "year": 2014,
@@ -955,7 +955,7 @@
       "dataset": "ext_lt_intertrd",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ext_lt_intertrd?lang=EN&freq=A&indic_et=MIO_EXP_VAL&sitc06=TOTAL&partner=WORLD&geo=BG",
       "note": "Износ на стоки към всички партньори, млн. евро.",
-      "updated_at": "2026-11-18T17:19:53.048774+00:00",
+      "updated_at": "2026-11-20T05:54:07.250223+00:00",
       "points": [
         {
           "year": 2002,
@@ -1069,7 +1069,7 @@
         },
         {
           "year": 2024,
-          "value": 44249,
+          "value": 44249.0,
           "flag": null
         },
         {
@@ -1088,7 +1088,7 @@
       "dataset": "ext_lt_intertrd",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ext_lt_intertrd?lang=EN&freq=A&indic_et=MIO_IMP_VAL&sitc06=TOTAL&partner=WORLD&geo=BG",
       "note": "Внос на стоки от всички партньори, млн. евро.",
-      "updated_at": "2026-11-18T17:19:53.518290+00:00",
+      "updated_at": "2026-11-20T05:54:07.768793+00:00",
       "points": [
         {
           "year": 2002,
@@ -1215,13 +1215,13 @@
     {
       "id": "region_gdp_pps_BG31",
       "title": "Северозападен район — БВП на човек в PPS",
-      "unit": "PPS на жител",
+      "unit": "индекс ЕС=100",
       "frequency": "annual",
       "source": "Евростат",
       "dataset": "nama_10r_2gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10r_2gdp?lang=EN&freq=A&unit=PPS_EU27_2020_HAB&geo=BG31",
       "note": "Регионален БВП на човек в PPS; NUTS 2.",
-      "updated_at": "2026-11-18T17:19:53.984126+00:00",
+      "updated_at": "2026-11-20T05:54:08.270382+00:00",
       "points": [
         {
           "year": 2000,
@@ -1353,13 +1353,13 @@
     {
       "id": "region_gdp_pps_BG32",
       "title": "Северен централен район — БВП на човек в PPS",
-      "unit": "PPS на жител",
+      "unit": "индекс ЕС=100",
       "frequency": "annual",
       "source": "Евростат",
       "dataset": "nama_10r_2gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10r_2gdp?lang=EN&freq=A&unit=PPS_EU27_2020_HAB&geo=BG32",
       "note": "Регионален БВП на човек в PPS; NUTS 2.",
-      "updated_at": "2026-11-18T17:19:54.463466+00:00",
+      "updated_at": "2026-11-20T05:54:08.770016+00:00",
       "points": [
         {
           "year": 2000,
@@ -1491,13 +1491,13 @@
     {
       "id": "region_gdp_pps_BG33",
       "title": "Североизточен район — БВП на човек в PPS",
-      "unit": "PPS на жител",
+      "unit": "индекс ЕС=100",
       "frequency": "annual",
       "source": "Евростат",
       "dataset": "nama_10r_2gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10r_2gdp?lang=EN&freq=A&unit=PPS_EU27_2020_HAB&geo=BG33",
       "note": "Регионален БВП на човек в PPS; NUTS 2.",
-      "updated_at": "2026-11-18T17:19:54.926818+00:00",
+      "updated_at": "2026-11-20T05:54:09.287189+00:00",
       "points": [
         {
           "year": 2000,
@@ -1629,13 +1629,13 @@
     {
       "id": "region_gdp_pps_BG34",
       "title": "Югоизточен район — БВП на човек в PPS",
-      "unit": "PPS на жител",
+      "unit": "индекс ЕС=100",
       "frequency": "annual",
       "source": "Евростат",
       "dataset": "nama_10r_2gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10r_2gdp?lang=EN&freq=A&unit=PPS_EU27_2020_HAB&geo=BG34",
       "note": "Регионален БВП на човек в PPS; NUTS 2.",
-      "updated_at": "2026-11-18T17:19:55.436391+00:00",
+      "updated_at": "2026-11-20T05:54:09.793410+00:00",
       "points": [
         {
           "year": 2000,
@@ -1767,13 +1767,13 @@
     {
       "id": "region_gdp_pps_BG41",
       "title": "Югозападен район — БВП на човек в PPS",
-      "unit": "PPS на жител",
+      "unit": "индекс ЕС=100",
       "frequency": "annual",
       "source": "Евростат",
       "dataset": "nama_10r_2gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10r_2gdp?lang=EN&freq=A&unit=PPS_EU27_2020_HAB&geo=BG41",
       "note": "Регионален БВП на човек в PPS; NUTS 2.",
-      "updated_at": "2026-11-18T17:19:55.939700+00:00",
+      "updated_at": "2026-11-20T05:54:10.284444+00:00",
       "points": [
         {
           "year": 2000,
@@ -1905,13 +1905,13 @@
     {
       "id": "region_gdp_pps_BG42",
       "title": "Южен централен район — БВП на човек в PPS",
-      "unit": "PPS на жител",
+      "unit": "индекс ЕС=100",
       "frequency": "annual",
       "source": "Евростат",
       "dataset": "nama_10r_2gdp",
       "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10r_2gdp?lang=EN&freq=A&unit=PPS_EU27_2020_HAB&geo=BG42",
       "note": "Регионален БВП на човек в PPS; NUTS 2.",
-      "updated_at": "2026-11-18T17:19:56.461933+00:00",
+      "updated_at": "2026-11-20T05:54:10.776397+00:00",
       "points": [
         {
           "year": 2000,
