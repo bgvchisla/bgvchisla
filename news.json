@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:28:13.581172+00:00",
-  "last_checked_at": "2026-11-20T21:28:13.581177+00:00",
+  "updated_at": "2026-11-20T22:16:49.443356+00:00",
+  "last_checked_at": "2026-11-20T22:16:49.443360+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -31,7 +31,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 33
+      "priority_score": 32
     },
     {
       "section": "bulgaria",
@@ -44,16 +44,6 @@
       "priority_score": 32
     },
     {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
-      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
-      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
-      "published": "2026-11-20T15:45:35+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 29
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Парламентът одобри субсидирането на областните болници от държавата",
@@ -62,6 +52,16 @@
       "published": "2023-01-11T11:54:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 29
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
+      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
+      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
+      "published": "2026-11-20T15:45:35+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 28
     },
     {
       "section": "europe",
@@ -81,7 +81,7 @@
       "url": "https://www.parliament.bg/bg/news/6679",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
-      "priority_score": 27
+      "priority_score": 26
     },
     {
       "section": "bulgaria",
@@ -91,7 +91,7 @@
       "url": "https://www.bta.bg/bg/news/lik/1251467-maykal-kalan-razkaza-v-gabrovo-za-dalgiya-pat-do-opakovaneto-na-rayhstaga-ot-kri",
       "published": "2026-11-20T19:33:16+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 26
+      "priority_score": 25
     },
     {
       "section": "bulgaria",
@@ -132,36 +132,6 @@
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
       "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6682",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6681",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Първото издание на фестивала „Бургас – световна сцена на езиците и културите“ беше открито на 20 езика",
-      "summary": "С поздрави на 20 езика бе открито първото издание на фестивала „Бургас – световна сцена на езиците и културите“. Публиката в залатаа на Central Park, домакин на събитието, имаше възможност да чуе приветствия на азербайджански, арабски, арменски, виетнамски, гр",
-      "url": "https://www.bta.bg/bg/news/lik/1251485-parvoto-izdanie-na-festivala-burgas-svetovna-stsena-na-ezitsite-i-kulturite-",
-      "published": "2026-11-20T20:03:46+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 24
     },
     {
       "section": "bulgaria",
@@ -215,23 +185,33 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "„Главболгарстрой“ пое ангажимент пред гръцки министър за ускорено завършване на магистрала „Струма“",
-      "summary": "В изказването си преди официалния старт на седмата министерска среща на P-TEC председателят на УС на „Главболгарстрой“ Калин Пешов потвърди поетия пред министъра на околната среда и енергетиката на Гърция Ставрос Папаставру ангажимент за ускорено завършване на",
-      "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-poe-angajiment-pred-grycki-ministyr-za-uskoreno-zavyrshvane-na-magistrala-struma",
-      "published": "2026-11-20T12:07:01+00:00",
-      "feed_id": "economic-bg",
+      "source": "Народно събрание",
+      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6682",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 24
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Столична община вече ще си плаща за събирането на старите дрехи",
-      "summary": "Столична община ще плаща до 220 хил. евро годишно за събирането на стари дрехи и обувки, след като досегашният безплатен за общината модел стана неустойчив",
-      "url": "https://www.economic.bg/bg/a/view/stolichna-obshtina-veche-shte-si-plashta-za-sybiraneto-na-starite-drehi",
-      "published": "2026-11-20T11:29:58+00:00",
-      "feed_id": "economic-bg",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Първото издание на фестивала „Бургас – световна сцена на езиците и културите“ беше открито на 20 езика",
+      "summary": "С поздрави на 20 езика бе открито първото издание на фестивала „Бургас – световна сцена на езиците и културите“. Публиката в залатаа на Central Park, домакин на събитието, имаше възможност да чуе приветствия на азербайджански, арабски, арменски, виетнамски, гр",
+      "url": "https://www.bta.bg/bg/news/lik/1251485-parvoto-izdanie-na-festivala-burgas-svetovna-stsena-na-ezitsite-i-kulturite-",
+      "published": "2026-11-20T20:03:46+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 23
     },
     {
       "section": "bulgaria",
@@ -241,6 +221,26 @@
       "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
       "published": "2026-11-20T19:01:30+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 23
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "„Главболгарстрой“ пое ангажимент пред гръцки министър за ускорено завършване на магистрала „Струма“",
+      "summary": "В изказването си преди официалния старт на седмата министерска среща на P-TEC председателят на УС на „Главболгарстрой“ Калин Пешов потвърди поетия пред министъра на околната среда и енергетиката на Гърция Ставрос Папаставру ангажимент за ускорено завършване на",
+      "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-poe-angajiment-pred-grycki-ministyr-za-uskoreno-zavyrshvane-na-magistrala-struma",
+      "published": "2026-11-20T12:07:01+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 23
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Столична община вече ще си плаща за събирането на старите дрехи",
+      "summary": "Столична община ще плаща до 220 хил. евро годишно за събирането на стари дрехи и обувки, след като досегашният безплатен за общината модел стана неустойчив",
+      "url": "https://www.economic.bg/bg/a/view/stolichna-obshtina-veche-shte-si-plashta-za-sybiraneto-na-starite-drehi",
+      "published": "2026-11-20T11:29:58+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 23
     },
     {
@@ -291,7 +291,7 @@
       "url": "https://www.parliament.bg/bg/news/6677",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
-      "priority_score": 19
+      "priority_score": 18
     },
     {
       "section": "bulgaria",
@@ -371,7 +371,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/weekly-schedule-of-president-antonio-costa/",
       "published": "2026-11-20T20:15:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 16
+      "priority_score": 15
     },
     {
       "section": "europe",
@@ -395,22 +395,22 @@
     },
     {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Forward look: 23 November - 6 December 2026",
-      "summary": "Overview of the main subjects to be discussed at meetings of the Council of the EU over the next two weeks and upcoming media events.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
-      "published": "2026-11-20T16:00:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 15
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
       "summary": "",
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
       "published": "2026-11-20T17:11:42+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 14
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Forward look: 23 November - 6 December 2026",
+      "summary": "Overview of the main subjects to be discussed at meetings of the Council of the EU over the next two weeks and upcoming media events.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
+      "published": "2026-11-20T16:00:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 14
     },
     {
@@ -585,6 +585,76 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
+      "summary": "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks.",
+      "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T22:14:17+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+      "summary": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T21:57:07+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Завръща ли се златото като убежище на фона на несигурността около AI?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/439868-zavrashta-li-se-zlatoto-kato-ubezhishte-na-fona-na-nesigurnostta-okolo-ai",
+      "published": "2026-11-20T21:49:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Trump threatens ‘tremendous penalties’ on US tech firms that build datacenters abroad",
+      "summary": "President gives wide-ranging White House press conference and says he has ‘fantastic relationships’ with Putin and Xi Donald Trump threatened on Friday to impose “tremendous penalties” on American tech companies that build datacenters outside the US, though he",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
+      "published": "2026-11-20T21:47:41+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "What the new UK-EU deal could mean for future post-Brexit relations",
+      "summary": "The BBC's political and Europe editors analyse the new agreements between the UK and EU.",
+      "url": "https://www.bbc.co.uk/news/videos/c90k6gl3lyxeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T21:43:22+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "Сривът на изкуствения интелект набира скорост, Nvidia изтри 2,6 трлн. долара от октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439877-srivat-na-izkustveniya-intelekt-nabira-skorost-nvidia-iztri-26-trln-dolara-ot-oktomvri",
+      "published": "2026-11-20T21:38:54+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+      "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout Who are Anthropic’s seven co-founders, now worth $180bn? As Anthropic’s stock dropped during its second day of tradin",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "published": "2026-11-20T21:38:17+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "Video shows dramatic helicopter rescue of woman trapped in flood channel",
       "summary": "Los Angeles County firefighters rescued a woman trapped in a fast-moving flood control channel using a helicopter and an airborne paramedic.",
@@ -631,76 +701,6 @@
       "url": "https://www.dw.com/en/repression-against-iranian-lawyers-increases/a-80006742?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-20T20:36:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "At COP31, conflict over climate science slows action on global warming",
-      "summary": "Attacks on climate science and disinformation risk delaying key measures at COP31 in Antalya. As the UN climate talks draw to a close, how will that affect efforts to come to an agreement?",
-      "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T20:34:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP31: UN Climate summit enters final phase with no deal in sight",
-      "summary": "After nearly two weeks of negotiations, countries remain divided on how to fight global warming. A new draft declaration doesn't mention the phaseout of fossil fuels, the main drivers of climate change. DW has more.",
-      "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T20:31:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Концерт спектакъл „Повярвай в мечтата\" представи музикалната школа „По ноти\" в Търговище",
-      "summary": "Концерт спектакълът „Повярвай в мечтата“ на музикалната школа „По ноти“ и приятели събра млади таланти на сцената на Драматичния театър в Търговище. Проявата е организирана от Центъра за подкрепа за личностно развитие – Обединен детски комплекс (ЦПЛР – ОДК) с",
-      "url": "https://www.bta.bg/bg/news/lik/1251483-kontsert-spektakal-povyarvay-v-mechtata-predstavi-muzikalnata-shkola-po-noti-",
-      "published": "2026-11-20T20:20:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Украйна подлага на натиск руската логистика с ударите срещу Кримския мост",
-      "summary": "",
-      "url": "https://www.investor.bg/a/527-svyat/439872-ukrayna-podlaga-na-natisk-ruskata-logistika-s-udarite-sreshtu-krimskiya-most",
-      "published": "2026-11-20T20:09:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Has the 'Parthenon puzzle' been solved? The long quest to reassemble lost eastern pediment",
-      "summary": "The depiction of the birth of the goddess Athena above the Parthenon's entrance is considered a masterpiece of ancient art. Now, a German research team has pieced together all the surviving fragments.",
-      "url": "https://www.dw.com/en/has-the-parthenon-puzzle-been-solved-the-long-quest-to-reassemble-lost-eastern-pediment/a-79982098?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T20:03:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-      "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T20:00:53+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Gérard Depardieu and French author investigated over sexual allegations",
-      "summary": "A judicial investigation was launched after a complaint was filed last year over \"allegations of a sexual nature\".",
-      "url": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T19:45:20+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 12
     }
   ],
