@@ -499,6 +499,56 @@ def classify_investor_section(item):
     return item
 
 
+def editorial_priority(item):
+    """Score public-interest relevance without judging political positions or sentiment."""
+    title = item.get("title", "")
+    summary = item.get("summary", "")
+    text = (title + " " + summary).casefold()
+    score = 0
+    topic_hits = {
+        "politics": (
+            "правителств", "минист", "народното събрание", "парламент", "депутат",
+            "президент", "избор", "коалиц", "оставка", "вот на недоверие",
+            "законопроект", "конституц", "държавн"
+        ),
+        "economy": (
+            "бюджет", "инфлац", "икономик", "бвп", "дефицит", "дълг",
+            "данък", "данъц", "заплат", "пенси", "доход", "безработиц",
+            "лихвен", "бнб", "евро", "инвестици", "бизнес", "енерги",
+            "цени", "пазар", "финанс"
+        ),
+        "society": (
+            "здрав", "болниц", "лекар", "образован", "училищ", "университет",
+            "социал", "пенсион", "инцидент", "бедств", "пожар", "наводнен",
+            "земетрес", "катастроф", "транспорт", "съд", "прокуратур",
+            "корупц", "права", "обществен"
+        ),
+    }
+    matches = {topic: sum(1 for term in terms if term in text) for topic, terms in topic_hits.items()}
+    if matches["politics"]:
+        score += min(26, 14 + (matches["politics"] - 1) * 4)
+    if matches["economy"]:
+        score += min(26, 14 + (matches["economy"] - 1) * 4)
+    if matches["society"]:
+        score += min(24, 12 + (matches["society"] - 1) * 3)
+    high_impact = (
+        "извънредно", "спешно", "криза", "решение", "одобри", "приема",
+        "отхвърли", "влиза в сила", "рекорд", "милиард", "милиона",
+        "загина", "ранени", "евакуац", "затваря", "блокира"
+    )
+    score += min(12, sum(3 for term in high_impact if term in text))
+    if item.get("feed_id") in {"parliament-news", "bnb-news", "ecb-press", "commission-press", "council-press", "eurostat-news"}:
+        score += 4
+    published = item.get("published")
+    if published:
+        try:
+            age_hours = max(0.0, (datetime.now(timezone.utc) - datetime.fromisoformat(published.replace("Z", "+00:00"))).total_seconds() / 3600)
+            score += max(0, round(12 * (1 - age_hours / 48)))
+        except (TypeError, ValueError):
+            pass
+    return min(100, score)
+
+
 def main():
     previous = {}
     if OUT.exists():
@@ -531,8 +581,14 @@ def main():
         if per_feed.get(feed_id, 0) >= 10:
             continue
         per_feed[feed_id] = per_feed.get(feed_id, 0) + 1
+        item["priority_score"] = editorial_priority(item)
         balanced.append(item)
-    items = balanced[:70]
+    # Editorial relevance first; publication time breaks ties and keeps the stream fresh.
+    items = sorted(
+        balanced,
+        key=lambda x: (x.get("priority_score", 0), x.get("published") or ""),
+        reverse=True,
+    )[:70]
     result = {
         "schema_version": 1,
         "updated_at": datetime.now(timezone.utc).isoformat(),
