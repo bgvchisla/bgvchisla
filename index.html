@@ -322,8 +322,16 @@ nav button.on{background:#24384f;color:#fff;border-color:#24384f}
 .privacy-notice a{color:#315f91;white-space:nowrap}
 .privacy-actions{display:flex;align-items:center;gap:7px;flex:none}
 .privacy-actions button{border:1px solid #cbd6e2;border-radius:4px;padding:7px 10px;background:#f4f7fa;color:#34485f;font:600 .72rem system-ui;cursor:pointer}
-.privacy-actions #privacy-accept{background:#24384f;border-color:#24384f;color:#fff;min-width:48px}
-@media(max-width:639px){.privacy-notice{bottom:8px;display:block;padding:11px}.privacy-actions{justify-content:flex-end;margin-top:8px}.site-footer small{font-size:.59rem}}
+.privacy-copy{min-width:0;flex:1}
+.privacy-copy>strong{display:block;font-size:.83rem;margin-bottom:4px;color:#24384f}
+.privacy-actions #privacy-accept{background:#24384f;border-color:#24384f;color:#fff}
+.privacy-actions #privacy-essential{background:#fff}
+.privacy-actions #privacy-customize{background:#eef2f6}
+.privacy-preferences{display:grid;gap:9px;margin-top:10px;padding:10px 12px;background:#f4f7fa;border:1px solid #d9e1e9;border-radius:5px}
+.privacy-preferences label{display:flex;align-items:flex-start;gap:8px;font-size:.72rem;line-height:1.4}
+.privacy-preferences input{margin:2px 0 0;accent-color:#24384f;flex:none}
+.privacy-actions button[hidden]{display:none}
+@media(max-width:639px){.privacy-notice{bottom:8px;display:block;padding:11px}.privacy-actions{justify-content:flex-end;flex-wrap:wrap;margin-top:8px}.privacy-actions button{font-size:.68rem;padding:7px 8px}.privacy-preferences{margin-top:9px}.site-footer small{font-size:.59rem}}
 
 
 /* Навигация без хоризонтален плъзгач — адаптивна мрежа */
@@ -1387,11 +1395,20 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
  <div><a href="advertise.html">Рекламирайте при нас</a><span class="footer-sep"> · </span><a href="privacy.html">Политика за поверителност</a><span class="footer-sep"> · </span><button type="button" id="privacy-settings">Настройки за поверителност</button></div>
  <small>© 2026 България в числа. Всички права запазени. | © 2026 Bulgaria in Numbers. All rights reserved.</small>
 </footer>
-<div id="privacy-notice" class="privacy-notice" role="dialog" aria-label="Поверителност и външна пазарна лента" hidden>
- <p>Използваме необходимите технически технологии. Пазарната лента на TradingView е външна услуга и се зарежда само с Ваше разрешение. <a href="privacy.html">Политика за поверителност</a>.</p>
+<div id="privacy-notice" class="privacy-notice" role="dialog" aria-modal="false" aria-labelledby="privacy-title" aria-describedby="privacy-description" hidden>
+ <div class="privacy-copy">
+  <strong id="privacy-title">Вашата поверителност</strong>
+  <p id="privacy-description">Използваме необходимите технологии за работата на сайта. С Ваше разрешение можем да използваме Google Analytics за обобщена статистика на посещенията и TradingView за пазарната лента. Изборът Ви не ограничава достъпа до съдържанието. <a href="privacy.html">Подробности в политиката за поверителност</a>.</p>
+ </div>
+ <div id="privacy-preferences" class="privacy-preferences" hidden>
+  <label><input type="checkbox" id="consent-analytics"> Аналитика (Google Analytics 4) — помага ни да разбираме посещенията и използването на страниците.</label>
+  <label><input type="checkbox" id="consent-tradingview"> Външно съдържание (TradingView) — зарежда пазарната лента и може да изпраща технически данни към доставчика.</label>
+ </div>
  <div class="privacy-actions">
-  <button type="button" id="privacy-accept">ОК</button>
+  <button type="button" id="privacy-accept">Приеми всички</button>
   <button type="button" id="privacy-essential">Само необходимите</button>
+  <button type="button" id="privacy-customize" aria-expanded="false" aria-controls="privacy-preferences">Настройки</button>
+  <button type="button" id="privacy-save" hidden>Запази избора</button>
  </div>
 </div>
 
@@ -1722,8 +1739,106 @@ function mkLoad(){
  c.appendChild(s);
  el.appendChild(c);
 }
-/* Поверителност: TradingView се зарежда само след избор */
-(function(){var key="bgvchisla_tradingview_choice",banner=$("privacy-notice"),choice=null;try{choice=localStorage.getItem(key)}catch(e){}if(choice==="allow"){mkLoad()}else if(choice==="essential"){$("mk-tape").textContent="Пазарната лента е изключена по Ваш избор."}else{banner.hidden=false}function save(v){try{localStorage.setItem(key,v)}catch(e){}banner.hidden=true;if(v==="allow")mkLoad();else{$("mk-tape").innerHTML="";$("mk-tape").dataset.loaded="0";$("mk-tape").textContent="Пазарната лента не е заредена по Ваш избор."}} $("privacy-settings").addEventListener("click",function(){banner.hidden=false});$("privacy-accept").addEventListener("click",function(){save("allow")});$("privacy-essential").addEventListener("click",function(){save("essential")})})();
+/* Поверителност: отделни и оттегляеми избори за аналитика и външно съдържание.
+   Google Analytics се зарежда едва след изрично съгласие (Basic Consent Mode). */
+(function(){
+ var banner=$("privacy-notice");
+ var analyticsKey="bgvchisla_analytics_consent";
+ var tradingKey="bgvchisla_tradingview_choice";
+ var preferences=$("privacy-preferences");
+ var analyticsToggle=$("consent-analytics");
+ var tradingToggle=$("consent-tradingview");
+ var customize=$("privacy-customize");
+ var saveButton=$("privacy-save");
+ var analyticsConsent=null;
+ var tradingConsent=null;
+ var gaLoaded=false;
+ function read(key){try{return localStorage.getItem(key)}catch(e){return null}}
+ function persist(key,value){try{localStorage.setItem(key,value)}catch(e){}}
+ function loadAnalytics(){
+  if(gaLoaded)return;
+  gaLoaded=true;
+  window.dataLayer=window.dataLayer||[];
+  window.gtag=window.gtag||function(){window.dataLayer.push(arguments)};
+  window.gtag("consent","default",{
+   analytics_storage:"denied",
+   ad_storage:"denied",
+   ad_user_data:"denied",
+   ad_personalization:"denied"
+  });
+  window.gtag("consent","update",{
+   analytics_storage:"granted",
+   ad_storage:"denied",
+   ad_user_data:"denied",
+   ad_personalization:"denied"
+  });
+  window.gtag("js",new Date());
+  window.gtag("config","G-5ES5CJJT15",{send_page_view:true});
+  var script=document.createElement("script");
+  script.async=true;
+  script.src="https://www.googletagmanager.com/gtag/js?id=G-5ES5CJJT15";
+  script.onerror=function(){gaLoaded=false};
+  document.head.appendChild(script);
+ }
+ function applyAnalytics(granted){
+  analyticsConsent=!!granted;
+  if(analyticsConsent){loadAnalytics()}
+  else if(gaLoaded&&window.gtag){
+   window.gtag("consent","update",{
+    analytics_storage:"denied",
+    ad_storage:"denied",
+    ad_user_data:"denied",
+    ad_personalization:"denied"
+   });
+  }
+ }
+ function applyTradingView(granted){
+  tradingConsent=!!granted;
+  if(tradingConsent){mkLoad()}
+  else{
+   var el=$("mk-tape");
+   if(el){el.innerHTML="";el.dataset.loaded="0";el.textContent="Пазарната лента не е заредена по Ваш избор."}
+  }
+ }
+ function showBanner(){
+  analyticsToggle.checked=analyticsConsent===true;
+  tradingToggle.checked=tradingConsent===true;
+  preferences.hidden=true;
+  saveButton.hidden=true;
+  customize.hidden=false;
+  customize.setAttribute("aria-expanded","false");
+  banner.hidden=false;
+ }
+ function saveChoices(analytics,trading){
+  analyticsConsent=!!analytics;
+  tradingConsent=!!trading;
+  persist(analyticsKey,analyticsConsent?"granted":"denied");
+  persist(tradingKey,tradingConsent?"allow":"essential");
+  applyAnalytics(analyticsConsent);
+  applyTradingView(tradingConsent);
+  banner.hidden=true;
+ }
+ var storedAnalytics=read(analyticsKey);
+ var storedTrading=read(tradingKey);
+ analyticsConsent=storedAnalytics==="granted"?true:storedAnalytics==="denied"?false:null;
+ tradingConsent=storedTrading==="allow"?true:storedTrading==="essential"?false:null;
+ if(analyticsConsent===true)applyAnalytics(true);
+ if(tradingConsent===true)applyTradingView(true);
+ else if(tradingConsent===false)applyTradingView(false);
+ if(analyticsConsent===null||tradingConsent===null)showBanner();
+ $("privacy-settings").addEventListener("click",showBanner);
+ $("privacy-accept").addEventListener("click",function(){saveChoices(true,true)});
+ $("privacy-essential").addEventListener("click",function(){saveChoices(false,false)});
+ customize.addEventListener("click",function(){
+  preferences.hidden=false;
+  saveButton.hidden=false;
+  customize.hidden=true;
+  analyticsToggle.checked=analyticsConsent===true;
+  tradingToggle.checked=tradingConsent===true;
+  saveButton.focus();
+ });
+ saveButton.addEventListener("click",function(){saveChoices(analyticsToggle.checked,tradingToggle.checked)});
+})();
 </script>
 <script src="economy-charts.js" defer></script>
 <script>
