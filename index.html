@@ -1455,42 +1455,35 @@ function setNavCollapsed(collapsed){
 navToggle.addEventListener("click",function(){
  setNavCollapsed(!navRoot.classList.contains("mobile-collapsed"));
 });
-/* Автоматично прибиране при движение надолу и разгъване при връщане нагоре. */
-var navStartY=0,navEndY=0,lastScrollY=window.scrollY||0,navScrollFrame=0;
-function measureNavRange(){
- var wasCollapsed=navRoot.classList.contains("mobile-collapsed");
- if(wasCollapsed)navRoot.classList.remove("mobile-collapsed");
+/* Автоматично прибиране надолу; повторно разгъване едва при връщане близо до началото на менюто. */
+var navStartY=0,lastScrollY=window.scrollY||0,navScrollFrame=0,lastNavDirection=0;
+function measureNavStart(){
  var rect=navRoot.getBoundingClientRect();
  navStartY=rect.top+(window.scrollY||0);
- navEndY=navStartY+Math.max(rect.height,1);
- if(wasCollapsed)navRoot.classList.add("mobile-collapsed");
 }
-measureNavRange();
-window.addEventListener("resize",function(){measureNavRange()},{passive:true});
+measureNavStart();
+window.addEventListener("resize",function(){
+ if(!navRoot.classList.contains("mobile-collapsed"))measureNavStart();
+},{passive:true});
 window.addEventListener("scroll",function(){
  if(navScrollFrame)return;
  navScrollFrame=window.requestAnimationFrame(function(){
   navScrollFrame=0;
   var currentY=window.scrollY||0;
   var delta=currentY-lastScrollY;
-  if(Math.abs(delta)>3){
-   if(delta>0&&currentY>navEndY+24){
+  if(Math.abs(delta)>=6){
+   var direction=delta>0?1:-1;
+   if(direction!==lastNavDirection){lastNavDirection=direction;}
+   if(direction>0&&currentY>navStartY+80){
     if(!navRoot.classList.contains("mobile-collapsed"))setNavCollapsed(true);
-   }else if(delta<0&&currentY<navEndY-24){
+   }else if(direction<0&&currentY<=navStartY+80){
     if(navRoot.classList.contains("mobile-collapsed"))setNavCollapsed(false);
    }
   }
   lastScrollY=currentY;
  });
 },{passive:true});
-navRoot.innerHTML=T.map(function(t,i){var m=NAV_META[i];return '<button type="button" data-i="'+i+'" aria-controls="s'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+' '+(i===0?'aria-current="page"':'')+'"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>'}).join("");
-var navButtons=Array.from(navRoot.querySelectorAll("button[data-i]"));
-var pageSections=Array.from(document.querySelectorAll("#site-content section[id^='s']"));
-function activateSection(index){
- if(!Number.isInteger(index)||index<0||index>=T.length)return;
- var target=$("s"+index);
- if(!target){console.error("Липсва секция s"+index);return;}
- navButtons.forEach(function(button){
+navButtons.forEach(function(button){
   var active=Number(button.dataset.i)===index;
   button.classList.toggle("on",active);
   button.setAttribute("aria-pressed",active?"true":"false");
