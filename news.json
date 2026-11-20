@@ -1,7 +1,97 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:10:58.930007+00:00",
+  "updated_at": "2026-11-20T00:05:46.659174+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "How did Anthropic's stock market debut unfold?",
+      "summary": "The BBC's Samira Hussain breaks down the AI company's first day as a publicly traded company, as shares closed up 17%.",
+      "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:52:25+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Trump posthumously pardons US baseball legend Pete Rose",
+      "summary": "Rose, who died in 2024, was given a lifetime ban from the sport for betting on games but was reinstated last year.",
+      "url": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:51:50+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+      "summary": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:40:29+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
+      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:33:51+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
+      "summary": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment invo",
+      "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment",
+      "published": "2026-11-19T23:30:26+00:00",
+      "feed_id": "guardian-world"
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
+      "summary": "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up.",
+      "url": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:29:00+00:00",
+      "feed_id": "bbc-world"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Price tag for US war in Iran barrels past $48 billion",
+      "summary": "A Pentagon budget officer has said the price of the Iran war surpassed $48.3 billion last week. That does not include costs sustained in Iranian attacks on US bases — lawmakers want details the Pentagon is loath to give.",
+      "url": "https://www.dw.com/en/price-tag-for-us-war-in-iran-barrels-past-48-billion/a-79998255?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T23:22:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Ukraine: Russian strikes damage Austrian and Dutch embassies in Kyiv",
+      "summary": "Russian strikes damaged the Austrian and Dutch embassies in Kyiv on Thursday. Windows were shattered and vehicles damaged, but diplomatic staff escaped unharmed.",
+      "url": "https://www.euronews.com/video/2026/11/20/ukraine-russian-strikes-damage-austrian-and-dutch-embassies-in-kyiv",
+      "published": "2026-11-19T23:21:18+00:00",
+      "feed_id": "euronews"
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "New Ukraine talks including Europe to be held 'soon' — Merz",
+      "summary": "Germany's Chancellor Friedrich Merz says European leaders could take part in fresh Ukraine talks on \"neutral ground.\" The UK and EU countries have urged a seat at the table in meetings between the US, Russia and Ukraine.",
+      "url": "https://www.dw.com/en/new-ukraine-talks-including-europe-to-be-held-soon-merz/a-79997961?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-19T23:19:00+00:00",
+      "feed_id": "dw-world"
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75",
+      "summary": "The former Liberal MP had fought a long battle against glioblastoma, an aggressive form of brain cancer Get our daily political email , free app or daily news podcast Former Liberal MP Sharman Stone has died via voluntary assisted dying after spending much of",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/howard-era-minister-sharman-stone-dies-via-voluntary-assisted-dying-aged-75",
+      "published": "2026-11-19T23:07:02+00:00",
+      "feed_id": "guardian-world"
+    },
     {
       "section": "europe",
       "source": "POLITICO Europe",
@@ -14,7 +104,7 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "California probing whether China improperly acquired Nvidia technology",
+      "title": "California targets Nvidia in China AI chip probe",
       "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
       "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T23:04:30+00:00",
@@ -46,24 +136,6 @@
       "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
       "published": "2026-11-19T22:17:09+00:00",
       "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-      "summary": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
-      "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T22:09:04+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-      "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
-      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T21:38:42+00:00",
-      "feed_id": "bbc-world"
     },
     {
       "section": "europe",
@@ -105,7 +177,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
-      "summary": "Britain makes concessions on youth mobility scheme as negotiations on food and farming go down to the wire British and European negotiators were striving to put the finishing touches to a deal on Thursday night as they provisionally agreed to allow 100,000 EU",
+      "summary": "Britain makes concessions on youth mobility scheme as negotiations on food and farming go down to the wire British and European negotiators were closing in on a reset deal on Thursday night as they provisionally agreed to allow 100,000 EU citizens to come to t",
       "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
       "published": "2026-11-19T20:52:05+00:00",
       "feed_id": "guardian-world"
@@ -163,15 +235,6 @@
       "url": "https://www.investor.bg/a/527-svyat/439796-si-tramp-i-putin-sveryavane-na-chasovnitsite-a-ne-obsht-proekt-za-prekroyavane-na-sveta",
       "published": "2026-11-19T20:00:00+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75",
-      "summary": "The former Liberal MP had fought a long battle against glioblastoma, an aggressive form of brain cancer Get our daily political email , free app or daily news podcast Former Liberal MP Sharman Stone has died via voluntary assisted dying after spending much of",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/howard-era-minister-sharman-stone-dies-via-voluntary-assisted-dying-aged-75",
-      "published": "2026-11-19T19:44:24+00:00",
-      "feed_id": "guardian-world"
     },
     {
       "section": "europe",
@@ -318,24 +381,6 @@
       "feed_id": "investor-finance"
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-      "summary": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
-      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T17:38:22+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Rohingya genocide: What was said in court and what happens now?",
-      "summary": "The verdict marks the first time a state has ever been found to have committed genocide by an international court.",
-      "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T17:35:05+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "AI доларът е тук, но никой не знае как ще се развие",
@@ -382,15 +427,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Susan Smith denied parole again 32 years after drowning her two sons",
-      "summary": "At a hearing on the possibility of parole, Smith said she wished she could change the past, and her two children \"did not deserve to die\".",
-      "url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T17:23:34+00:00",
-      "feed_id": "bbc-world"
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Middle East conflict poses biggest threat to global energy security in history, IEA warns",
       "summary": "Disruption to oil supplies through the Strait of Hormuz is driving up costs for households, while the agency says the longer the crisis continues, the harder it will be for global energy markets to recover.",
@@ -414,15 +450,6 @@
       "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’ China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no m",
       "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
       "published": "2026-11-19T17:13:23+00:00",
-      "feed_id": "guardian-world"
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Trump accused of falling asleep during Xi Jinping speech at Apec summit in China",
-      "summary": "US president appeared to doze off while Chinese leader made speech, but White House insisted he was awake Donald Trump was, again, accused of falling asleep during a televised event, this time during the speech of the Chinese president, Xi Jinping, at the Asia",
-      "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china",
-      "published": "2026-11-19T17:12:11+00:00",
       "feed_id": "guardian-world"
     },
     {
@@ -460,15 +487,6 @@
       "url": "https://www.investor.bg/a/518-energetika/439813-svetovnata-banka-shte-izgotvi-merki-za-spasyavaneto-na-toplofikatsiya-sofiya",
       "published": "2026-11-19T16:51:00+00:00",
       "feed_id": "investor-economy"
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Iraq orders armed factions to withdraw from strategic area amid alleged oil smuggling and US pressure",
-      "summary": "Prime Minister Ali Faleh al-Zaidi has given the Iran-backed group until Friday to leave Jurf al-Nasr, as Baghdad faces growing pressure from Washington to bring powerful militias under state control.",
-      "url": "https://www.euronews.com/2026/11/19/iraq-orders-armed-factions-to-withdraw-from-strategic-area-amid-alleged-oil-smuggling-and-",
-      "published": "2026-11-19T16:49:35+00:00",
-      "feed_id": "euronews"
     },
     {
       "section": "europe",
@@ -562,15 +580,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Alexander Zverev faces fresh lawsuit from ex-girlfriend",
-      "summary": "World No. 1 tennis player Alexander Zverev is facing a new lawsuit related to a domestic abuse trial. The lawyer for his ex-girlfriend, Brenda Patea, told DW what the allegations are against the German player.",
-      "url": "https://www.dw.com/en/alexander-zverev-faces-fresh-lawsuit-from-ex-girlfriend/a-79990005?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T15:18:00+00:00",
-      "feed_id": "dw-world"
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Statement on the incident at today's Cancer Summit",
       "summary": "European Commission Statement Brussels, 19 Nov 2026 This morning, at the European Cancer Summit in Brussels, organised by the European Cancer Organisation, Commissioner for Health and Animal Welfare, Olivér Várhe...",
@@ -595,15 +604,6 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2526",
       "published": "2026-11-19T15:00:45+00:00",
       "feed_id": "commission-press"
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU Commission confirms it was targeted in cyberattack using AI tools",
-      "summary": "The European Commission was targeted by an \"AI-generated cybercampaign,\" a spokesperson has said. This is the first time the bloc has publicly reported an AI-based cyberattack.",
-      "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-19T14:58:00+00:00",
-      "feed_id": "dw-world"
     },
     {
       "section": "bulgaria",
@@ -634,22 +634,9 @@
     }
   ],
   "feed_status": {
-    "ok": 12,
+    "ok": 15,
     "total": 15,
-    "failures": [
-      {
-        "feed": "investor-bg",
-        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-      },
-      {
-        "feed": "investor-economy",
-        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-      },
-      {
-        "feed": "investor-finance",
-        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
