@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:02:18.036652+00:00",
-  "last_checked_at": "2026-11-20T08:02:18.036655+00:00",
+  "updated_at": "2026-11-20T08:52:13.579035+00:00",
+  "last_checked_at": "2026-11-20T08:52:13.579039+00:00",
   "items": [
     {
       "section": "europe",
@@ -16,12 +16,32 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Парламентът започна процедурата по избор на членове на съдийската и на прокурорската колегия на ВСС",
-      "summary": "Парламентът започна процедурата по избор на членове на съдийската и на прокурорската колегия на Висшия съдебен съвет (ВСС) от квотата на Народното събрание. Правната комисия изслуша общо 21 магистрати, от които 13 кандидати за Съдийската колегия (СК) на ВСС и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250748-parlamentat-zapochna-protsedurata-po-izbor-na-chlenove-na-sadiyskata-i-na-prokur",
-      "published": "2026-11-20T07:19:11+00:00",
+      "title": "Янка Тянкова представи в пленарната зала доклада на правната комисия за изслушването на кандидатите за членове на ВСС от квотата на парламента",
+      "summary": "Председателят на комисията по правни въпроси Янка Тянкова представи в пленарната зала на Народното събрание доклада на комисията относно изслушване на допуснатите кандидати за членове за съдийската и за прокурорската колегия на Висшия съдебен съвет (ВСС) от кв",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250816-yanka-tyankova-predstavi-v-plenarnata-zala-doklada-na-pravnata-komisiya-za-izslu",
+      "published": "2026-11-20T08:43:25+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 46
+      "priority_score": 42
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "ДПС ще подкрепи всички кандидати за ВСС от квотата на парламента, освен Емил Дечев, Андрей Янкулов и Цвета Рангелова",
+      "summary": "ДПС ще подкрепи всички кандидати за Висшия съдебен съвет (ВСС) от квотата на Народното събрание, освен трима, заяви на брифинг в кулоарите на парламента председателят на парламентарната група (ПГ) на ДПС и на партията Делян Пеевски. Няма да подкрепим Емил Дече",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250771-dps-shte-podkrepi-vsichki-kandidati-za-vss-ot-kvotata-na-parlamenta-osven-emil-",
+      "published": "2026-11-20T08:27:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 42
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Ще участваме в гласуването, ще подкрепим всички професионалисти, за някои ще има шарено гласуване от групата, каза Бойко Борисов за избора на ВСС",
+      "summary": "Ще участваме в гласуването, ще подкрепим всички професионалисти, каза лидерът на ГЕРБ и председател на ПГ на ГЕРБ-СДС Бойко Борисов пред журналисти в кулоарите на парламента по повод избора на членове за Висшия съдебен съвет (ВСС). По думите му ще има огромно",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250775-shte-uchastvame-v-glasuvaneto-shte-podkrepim-vsichki-profesionalisti-za-nyakoi",
+      "published": "2026-11-20T08:23:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 42
     },
     {
       "section": "bulgaria",
@@ -52,6 +72,16 @@
       "published": "2026-11-19T16:58:00+00:00",
       "feed_id": "investor-economy",
       "priority_score": 37
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Щангистът Ангел Русев се възстановява от контузия и се подготвя за Световната купа в Доха, клубът му ще финансира участието w Катар",
+      "summary": "Шесткратният европейски шампион по вдигане на тежести Ангел Русев се възстановява от контузията, която получи по време на световното първенство в Нинбо, Китай, и се подготвя за участие в Световната купа в Доха, Катар. Това съобщи щангистът в интервю за БТА. Ру",
+      "url": "https://www.bta.bg/bg/news/sport/1250824-shtangistat-angel-rusev-se-vazstanovyava-ot-kontuziya-i-se-podgotvya-za-svetovna",
+      "published": "2026-11-20T08:49:51+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 30
     },
     {
       "section": "europe",
@@ -96,42 +126,12 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Лекари във Велико Търново спасиха 11-годишно дете със заседнало чуждо тяло в хранопровода",
-      "summary": "Дете на 11 години със заседнало голямо парче месо в хранопровода беше спасено от екип на Многопрофилната областна болница за активно лечение „Д-р Стефан Черкезов“ във Велико Търново. Случаят е първи за лечебното заведение, при който се налага изваждане на чужд",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250750-lekari-vav-veliko-tarnovo-spasiha-11-godishno-dete-sas-zasednalo-chuzhdo-tyalo-v",
-      "published": "2026-11-20T07:30:03+00:00",
+      "title": "Окръжният съд в Хасково за пореден път отказа да освободи от ареста дипломат от Конго, обвинен в трафик на 206 кг кокаин през \"Капитан Андреево\"",
+      "summary": "Състав на Окръжния съд в Хасково отхвърли молбата на 41-годишен дипломат от Демократична Република Конго мярката му за неотклонение \"задържане под стража\" да бъде изменена в по-лека, съобщиха от пресцентъра на съда. Жан Де Дю Мутеба е един от обвиняемите по сл",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250797-okrazhniyat-sad-v-haskovo-za-poreden-pat-otkaza-da-osvobodi-ot-aresta-diplomat-o",
+      "published": "2026-11-20T08:27:25+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 27
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Нощта на театрите старозагорският Драматичен театър ще представи спектакъла „Иконите спят\"",
-      "summary": "Драматичният театър „Гео Милев“ в Стара Загора ще представи спектакъла „Иконите спят“ по време на четиринадесетото издание на Европейската нощ на театрите, което ще се проведе утре, 21 ноември. Това съобщиха за БТА от културната институция. Автор и режисьор на",
-      "url": "https://www.bta.bg/bg/news/lik/1250765-v-noshtta-na-teatrite-starozagorskiyat-dramatichen-teatar-shte-predstavi-spektak",
-      "published": "2026-11-20T07:54:08+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Две авиомедицински мисии са изпълнени през последната седмица, общо 34 602 повиквания са постъпили на тел. 112",
-      "summary": "През последната седмица са изпълнени две авиомедицински мисии по въздуха, при които пациенти в тежко състояние са получили възможност за навременно високоспециализирано лечение. Това съобщиха от Дирекция „Национална система 112“ към Министерството на вътрешнит",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250725-dve-aviomeditsinski-misii-sa-izpalneni-prez-poslednata-sedmitsa-obshto-34-602-p",
-      "published": "2026-11-20T07:29:31+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Тържественото запалване на коледните светлини в Гурково ще е на 4 декември",
-      "summary": "Тържественото запалване на коледните светлини в Гурково ще е на 4 декември. Това съобщават от общинската администрация на официалната си фейсбук страница. Програмата ще започне от сутринта и ще премине под надслов „Вълшебствата на Коледа в Гурково\". Начало на",
-      "url": "https://www.bta.bg/bg/news/lik/1250726-tarzhestvenoto-zapalvane-na-kolednite-svetlini-v-gurkovo-shte-e-na-4-dekemvri",
-      "published": "2026-11-20T06:53:57+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
     },
     {
       "section": "europe",
@@ -141,25 +141,45 @@
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439823-kitay-ogranichi-iznosa-na-dvigateli-za-dronove-tramp-iska-evropa-da-spre-pomoshtta-za-kiev",
       "published": "2026-11-20T06:08:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 26
+      "priority_score": 25
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Автомобил е изгорял при движение във Видин, двама души са с леки изгаряния",
-      "summary": "Лек автомобил изгоря при движение по ул. „Цар Александър II“ във Видин, а шофьорът и пътувалата с него жена са получили леки изгаряния по ръцете. Това съобщиха от Областната дирекция на МВР във Видин. Сигналът за пожара е подаден вчера в 15:41 часа. Екип на по",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250763-avtomobil-e-izgoryal-pri-dvizhenie-vav-vidin-dvama-dushi-sa-s-leki-izgaryaniya",
-      "published": "2026-11-20T07:39:41+00:00",
+      "title": "Второкласници от иновативното Трето основно училище „Гоце Делчев\" в Петрич посветиха своя инициатива на Деня на четенето",
+      "summary": "Ученици от 2. „Б“ клас „Мечтатели“ на Трето основно училище „Гоце Делчев\" в Петрич представиха четенето като преживяване и приключение. Инициативата под надслов „Между страниците“ е организирана по повод Деня на четенето, съобщи за БТА Невяна Узунова, една от",
+      "url": "https://www.bta.bg/bg/news/lik/1250766-vtoroklasnitsi-ot-inovativnoto-treto-osnovno-uchilishte-gotse-delchev-v-petric",
+      "published": "2026-11-20T08:47:57+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 24
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Лоши са условията за туризъм в планините, съобщиха от Планинската спасителна служба на БЧК",
-      "summary": "Лоши са условията за туризъм в планините, съобщиха за БТА от Планинската спасителна служба на Българския Червен кръст (БЧК). В най-високите части на планините е мъгливо и ветровито. В централното било на Стара планина има ураганен вятър. Няма сериозни инцидент",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250758-loshi-sa-usloviyata-za-turizam-v-planinite-saobshtiha-ot-planinskata-spasitelna",
-      "published": "2026-11-20T07:37:06+00:00",
+      "title": "Спокойствието на селото и любовта към животните задържат Станимир Станев в Кара Михал, където развива козеферма",
+      "summary": "Спокойствието на селото и любовта към животните задържат Станимир Станев в Кара Михал, община Самуил, където той развива козеферма с близо 130 кози от породата френска алпийска. За пет години Станев и двамата му съдружници увеличават стадото от първоначалните",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250789-spokoystvieto-na-seloto-i-lyubovta-kam-zhivotnite-zadarzhat-stanimir-stanev-v-ka",
+      "published": "2026-11-20T08:33:40+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Бюрото по труда в Шумен са обявени свободни работни места за лекари, лаборанти, електротехници, шофьори и други специалисти",
+      "summary": "В Бюрото по труда в Шумен са обявени свободни работни места за лекари, лаборанти, електротехници, шофьори и други специалисти, съобщи за БТА Камелия Дамянова, главен експерт \"Посреднически услуги\" в Дирекция \"Бюро по труда\" (ДБТ) – Шумен. Обявени са свободни р",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250788-v-byuroto-po-truda-v-shumen-sa-obyaveni-svobodni-rabotni-mesta-za-lekari-labora",
+      "published": "2026-11-20T08:24:24+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Развитието на младежките центрове обсъдиха на регионална консултативна среща в Свищов",
+      "summary": "Младежкият център в Свищов беше домакин вчера на регионална консултативна среща на тема „Младежки приоритети в действие 2028–2034“, организирана по инициатива на Националния фокусен център с ръководител Ахмед Куйтов. Събитието събра представители на младежки ц",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250781-razvitieto-na-mladezhkite-tsentrove-obsadiha-na-regionalna-konsultativna-sreshta",
+      "published": "2026-11-20T08:24:12+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 24
     },
@@ -171,7 +191,7 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439807-shte-promeni-li-porednata-valna-na-konsolidatsiya-v-balgarskiya-bankov-sektor-pazara-sled-sdelkata-s-pib",
       "published": "2026-11-19T18:45:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 23
+      "priority_score": 22
     },
     {
       "section": "bulgaria",
@@ -201,26 +221,6 @@
       "url": "https://www.investor.bg/a/538-pazari/439811-sofix-se-povishi-s-nad-2-oborotat-na-bfb-nadhvarli-6-mln-evro",
       "published": "2026-11-19T16:24:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 22
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Германски компании планират нови инвестиции в България през 2027 и 2028 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439799-germanski-kompanii-planirat-novi-investitsii-v-balgariya-prez-2027-i-2028-g",
-      "published": "2026-11-19T14:43:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 22
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Енергийното потребление на центровете за данни може да се удвои до 2030 г.",
-      "summary": "Потреблението на електроенергия от центровете за данни може да се удвои до 2030 г., достигайки до 1000 тераватчаса годишно. Това ще натовари електропреносните мрежи и ще доведе до 70% увеличение на въглеродните емисии, сочат данни на Международната агенция по",
-      "url": "https://www.economic.bg/bg/a/view/energijnoto-potreblenie-na-centrovete-za-danni-moje-da-se-udvoi-do-2030-g",
-      "published": "2026-11-19T14:13:34+00:00",
-      "feed_id": "economic-bg",
       "priority_score": 22
     },
     {
@@ -254,22 +254,22 @@
       "priority_score": 22
     },
     {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Енергийното потребление на центровете за данни може да се удвои до 2030 г.",
+      "summary": "Потреблението на електроенергия от центровете за данни може да се удвои до 2030 г., достигайки до 1000 тераватчаса годишно. Това ще натовари електропреносните мрежи и ще доведе до 70% увеличение на въглеродните емисии, сочат данни на Международната агенция по",
+      "url": "https://www.economic.bg/bg/a/view/energijnoto-potreblenie-na-centrovete-za-danni-moje-da-se-udvoi-do-2030-g",
+      "published": "2026-11-19T14:13:34+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 21
+    },
+    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Стрийминг платформата SkyShowtime прекратява дейност",
       "summary": "Стрийминг платформата SkyShowtime ще прекрати дейността си в края на 2027 г., след като акционерите – Comcast и Skydance – стигнаха до заключението, че съвместното им европейско дружество вече не може да постигне необходимия мащаб, за да се конкурира с глобалн",
       "url": "https://www.economic.bg/bg/a/view/strijming-platformata-sky-showtime-prekratjava-dejnost",
       "published": "2026-11-19T13:23:38+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 21
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Строителният бум в България затихва (Графика)",
-      "summary": "Строителната продукция в България започва да забавя темпа си на растеж, сочат данните на европейската статистическа служба Евростат в четвъртък. Според тях, годишният ръст през септември е бил 0.6%, след като през август той бе 2.2%. За сравнение, в началото н",
-      "url": "https://www.economic.bg/bg/a/view/stroitelnijat-bum-v-bylgarija-zapochva-da-gubi-para-grafika",
-      "published": "2026-11-19T13:05:48+00:00",
       "feed_id": "economic-bg",
       "priority_score": 21
     },
@@ -365,6 +365,16 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Адвокатите очакват нова наредба за заплащане на правната помощ, каза председателят на колегията във Видин Славяна Младенова",
+      "summary": "Адвокатите в страната продължават да очакват приемането на нова наредба за заплащане на правната помощ и увеличение на възнагражденията за служебни защити и особени представители. Това каза за БТА председателят на Адвокатската колегия във Видин Славяна Младено",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1250803-advokatite-ochakvat-nova-naredba-za-zaplashtane-na-pravnata-pomosht-kaza-predse",
+      "published": "2026-11-20T08:32:15+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 15
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Биткойн фондът на BlackRock отчете рекорден отлив на капитал за ден",
       "summary": "",
@@ -394,13 +404,123 @@
       "priority_score": 13
     },
     {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "US: Protesters demand human control over AI after Anthropic's IPO",
+      "summary": "Protesters gathered outside Anthropic’s San Francisco headquarters on 19 November 2026 to demand tighter regulation and greater human control over artificial intelligence, following the company’s $2 trillion stock market debut.",
+      "url": "https://www.euronews.com/video/2026/11/20/us-protesters-demand-human-control-over-ai-after-anthropics-ipo",
+      "published": "2026-11-20T08:49:48+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Полша планира да започне да строи първата си ядрена централа през 2028 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439831-polsha-planira-da-zapochne-da-stroi-parvata-si-yadrena-tsentrala-prez-2028-g",
+      "published": "2026-11-20T08:42:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "summary": "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge.",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T08:40:45+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Женското благотворително дружество „Майчина грижа“ организира в Габрово кулинарен и арт базар в подкрепа на талантливи деца",
-      "summary": "Женското благотворително дружество „Майчина грижа“ в Габрово организира благотворителен кулинарен и арт базар за набиране на средства за Фонд „Стефана Богдан Генчева“. Инициативата ще се състои днес, от 11:00 ч. до църквата „Успение на Пресвета Богородица“, съ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250770-zhenskoto-blagotvoritelno-druzhestvo-maychina-grizha-organizira-v-gabrovo-kuli",
-      "published": "2026-11-20T07:56:18+00:00",
-      "feed_id": "bta-bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Защо България се нуждае от собствена генетична база данни?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/521-zdraveopazvane/439829-zashto-balgariya-se-nuzhdae-ot-sobstvena-genetichna-baza-danni",
+      "published": "2026-11-20T08:40:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Russia hits 3 Kyiv bridges in major attack, while Poland reports airspace violation",
+      "summary": "The overnight strikes, which killed at least five people across Ukraine, came hours after Vladimir Putin vowed a painful response to Ukraine’s attacks on the Crimean bridge.",
+      "url": "https://www.politico.eu/article/russia-hits-3-kyiv-bridges-in-major-attack-while-poland-reports-airspace-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T08:39:06+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Japan: The dark secret behind an island paradise full of rabbits",
+      "summary": "Hundreds of rabbits roam freely on Japan's Okunoshima Island, delighting visitors from around the world. But behind its idyllic scenery lies a troubling history of secret chemical weapons production.",
+      "url": "https://www.euronews.com/video/2026/11/20/japan-the-dark-secret-behind-an-island-paradise-full-of-rabbits",
+      "published": "2026-11-20T08:28:27+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Andy Burnham heads to Brussels as UK and EU close in on Brexit reset deal – live",
+      "summary": "UK and EU have provisionally agreed to allow 100,000 EU citizens to come to the UK every year under a new mobility scheme. Rajeev Syal and Lisa O’Carroll The UK and the EU plan to establish formal talks for the first time about sending rejected asylum seekers",
+      "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+      "published": "2026-11-20T08:28:08+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Нови курсове и повече практика в 17-ото издание на Vivacom Техническа академия",
+      "summary": "С обогатена програма, достъп до иновативни технологии и повече практически задачи стартира новото издание на Vivacom Техническа академия – една от най-мащабните образователни програми на компанията, насочена към студенти от първи, втори, трети и четвърти курс",
+      "url": "https://www.economic.bg/bg/a/view/novi-kursove-i-poveche-praktika-v-17-oto-izdanie-na-vivacom-tehnicheska-akademija",
+      "published": "2026-11-20T08:21:04+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "India: Pakistani minister visits Delhi for SCO forum amid frozen ties",
+      "summary": "Pakistan's climate minister Musadik Malik has arrived in New Delhi for an SCO cultural forum, the first visit by a Pakistani federal minister since 2023. Meanwhile, Cyclone Akvan has made landfall.",
+      "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T08:20:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+      "summary": "Britain makes concessions on youth mobility scheme as negotiations on food and farming go down to the wire UK-EU summit live – latest news updates British and European negotiators were closing in on a reset deal on Thursday night as they provisionally agreed t",
+      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+      "published": "2026-11-20T08:19:28+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Ukraine: Kyiv metro stations become overnight shelters amid air raids",
+      "summary": "Residents of Kyiv, Ukraine, sought refuge in underground metro stations overnight on Thursday 19 November 2026, as repeated air raid alerts warned of further Russian attacks on the capital. Strikes on the Ukrainian capital killed at least one person, injured f",
+      "url": "https://www.euronews.com/video/2026/11/20/ukraine-kyiv-metro-stations-become-overnight-shelters-amid-air-raids",
+      "published": "2026-11-20T08:06:11+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Senior Tories urge Badenoch to drop Brexit talk in major strategy shift, sources say",
+      "summary": "Exclusive: While PM pushes for EU reset, Tory leader is moving away from ‘divisive’ issue that defined party for years UK-EU summit live: latest news updates Kemi Badenoch has been advised by her team to limit the amount of time she spends discussing Brexit an",
+      "url": "https://www.theguardian.com/politics/2026/nov/20/kemi-badenoch-brexit-eu-conservatives",
+      "published": "2026-11-20T08:00:26+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 12
     },
     {
@@ -411,16 +531,6 @@
       "url": "https://www.euronews.com/2026/11/20/217-day-underwater-patrol-of-uks-nuclear-submarine-hms-vengeance-worries-experts",
       "published": "2026-11-20T07:42:47+00:00",
       "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Документалният „Естествен филм“ за писателя Георги Господинов ще бъде представен пред старозагорската публика",
-      "summary": "Документалната лента „Естествен филм“ за писателя Георги Господинов ще бъде представена пред старозагорската публика. Това съобщи един от инициаторите на събитието в Стара Загора - Райна Димитрова от културната организация „Книжарница в куфар“. Прожекцията ще",
-      "url": "https://www.bta.bg/bg/news/lik/1250749-dokumentalniyat-estestven-film-za-pisatelya-georgi-gospodinov-shte-bade-predst",
-      "published": "2026-11-20T07:34:46+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
     {
@@ -455,16 +565,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "На 86 сигнала за различни щети и опасни ситуации е реагирала Столичната община заради снощната буря",
-      "summary": "През изминалата нощ екипите на дирекция „Аварийна помощ и превенция“ към Столичната община са реагирали на общо 86 сигнала за различни щети и опасни ситуации в София, съобщиха от Общината за БТА след снощната буря. Сред тях са паднали дървета на пътни платна и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1250736-na-86-signala-za-razlichni-shteti-i-opasni-situatsii-e-reagirala-stolichnata-obs",
-      "published": "2026-11-20T07:08:13+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Цената на златото се готви за най-големия си седмичен спад от март насам",
       "summary": "",
@@ -481,36 +581,6 @@
       "url": "https://www.euronews.com/2026/11/20/white-house-national-cyber-director-fired-after-wave-of-tech-outages",
       "published": "2026-11-20T07:03:40+00:00",
       "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Baby born with heart abnormalities ‘didn’t have a chance’ after non-medical free birth, NSW inquest hears",
-      "summary": "Inquest into the deaths of four babies after free and home births hears routine checks and follow-up may have saved their lives Get our breaking news email , free app or daily news podcast Four babies who died in New South Wales – three after free births and o",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb",
-      "published": "2026-11-20T06:51:54+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Цената на петрола „Брент“ продължава да расте след волатилна сесия*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439824-tsenata-na-petrola-brent-prodalzhava-da-raste-sled-volatilna-sesiya",
-      "published": "2026-11-20T06:43:24+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Germany news: Lufthansa to cut 1,000 jobs, reports say",
-      "summary": "The job cuts come as Lufthansa Airlines is struggling to turn a profit. Meanwhile, further youth-led protests are expected. DW has the latest.",
-      "url": "https://www.dw.com/en/germany-news-lufthansa-to-cut-1-000-jobs-reports-say/live-79998529?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T06:41:00+00:00",
-      "feed_id": "dw-world",
       "priority_score": 12
     },
     {
@@ -575,6 +645,46 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Baby born with heart abnormalities ‘didn’t have a chance’ after non-medical free birth, NSW inquest hears",
+      "summary": "Inquest into the deaths of four babies after free and home births hears routine checks and follow-up may have saved their lives Get our breaking news email , free app or daily news podcast Four babies who died in New South Wales – three after free births and o",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb",
+      "published": "2026-11-20T06:51:54+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 11
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Цената на петрола „Брент“ продължава да расте след волатилна сесия*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439824-tsenata-na-petrola-brent-prodalzhava-da-raste-sled-volatilna-sesiya",
+      "published": "2026-11-20T06:43:24+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Germany news: Lufthansa to cut 1,000 jobs, reports say",
+      "summary": "The job cuts come as Lufthansa Airlines is struggling to turn a profit. Meanwhile, further youth-led protests are expected. DW has the latest.",
+      "url": "https://www.dw.com/en/germany-news-lufthansa-to-cut-1-000-jobs-reports-say/live-79998529?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-20T06:41:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Nigeria moves to end jail terms for attempted suicide",
+      "summary": "Nigeria's proposed reform follows years of calls from psychiatrists and a parallel Senate bill.",
+      "url": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T06:32:17+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 20th, 2026 – Morning",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 20th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
@@ -591,116 +701,6 @@
       "url": "https://www.investor.bg/a/524-industriya/439794-visoki-taksi-i-zabavena-produktsiya-kak-bosforat-vliyae-na-balgarskoto-korabostroene",
       "published": "2026-11-20T05:32:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "US sells first deep-sea mining leases off American Samoa, days after court ruled against process",
-      "summary": "The Trump administration pressed ahead with the auction despite a federal judge’s finding that regulators broke wildlife protection law and conservation groups vowed to have the leases voided.",
-      "url": "https://www.euronews.com/2026/11/20/us-sells-first-deep-sea-mining-leases-off-american-samoa-days-after-court-ruled-against-pr",
-      "published": "2026-11-20T05:19:16+00:00",
-      "feed_id": "euronews",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "More climate money for Africa? Europe says use what's already pledged",
-      "summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
-      "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T05:03:43+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Kellie Sloane says she’s ‘pretty sure’ NSW Liberals exodus is over after Mark Speakman resigns",
-      "summary": "Former opposition leader warns party against being ‘One Nation lite’ as he becomes eighth out of 24 Liberal MPs not to recontest seat in March Get our daily political email , free app or daily news podcast The New South Wales opposition leader, Kellie Sloane,",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
-      "published": "2026-11-20T05:02:16+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Race to be next UN secretary general exposes divisions among world powers",
-      "summary": "Debate about dominance of permanent five members could reignite if major powers block Costa Rican frontrunner The race to become the next UN secretary general could reach a decisive moment on Friday when a UN security council vote is likely to reveal whether t",
-      "url": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers",
-      "published": "2026-11-20T05:00:24+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Iraq university’s removal of male professors teaching women sparks weeks of protests",
-      "summary": "Al-Qadisiyah University’s move a sign of the country’s slide into a Taliban-like gender segregation, say activists The removal of male professors teaching female students at a university in southern Iraq has sparked protests and been criticised by activists as",
-      "url": "https://www.theguardian.com/global-development/2026/nov/20/iraqi-university-ban-men-teaching-women-protests",
-      "published": "2026-11-20T05:00:23+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Beau Lamarre-Condon’s explanations of body disposal ‘ring hollow’, court hears",
-      "summary": "Former police officer has pleaded not guilty to murdering Jesse Baird and Luke Davies in Paddington in February 2024 Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon knew he had murdered two men and his attempts to explain the d",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/beau-lamarre-condons-attempts-to-explain-disposal-alleged-victims-bodies-ring-hollow-court-hears-ntwnfb",
-      "published": "2026-11-20T04:58:21+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
-      "summary": "Public expectations around datacentres have changed in the age of AI, chief executive Craig Scroggie says Get our breaking news email , free app or daily news podcast Community backlash to a datacentre expansion in inner Melbourne that resulted in NextDC’s sha",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne",
-      "published": "2026-11-20T04:37:08+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "White House replaces cyber security chief after tech outages",
-      "summary": "Sean Cairncross is leaving his role as national cyber director after a chaotic week of tech outages. Kirsten Davies, the Pentagon's chief information officer, will assume the position in an acting capacity.",
-      "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-20T04:21:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "China issues Mount Fuji warning as family of missing climber offers reward",
-      "summary": "The $75,000 reward offered by Chen Jie's family has sparked fears of more reckless climbing attempts.",
-      "url": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T04:13:22+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Das Zaudern der Manuela Schwesig",
-      "summary": "Wer übernimmt die Macht in der SPD? Als wiedergewählte Ministerpräsidentin von Mecklenburg-Vorpommern ist Manuela Schwesig die ungekrönte Königin der Partei, doch bei der Frage nach dem Vorsitz taktiert sie noch. Rasmus Buchsteiner analysiert, warum sie zögert",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/das-zaudern-der-manuela-schwesig/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T04:02:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Delay Another Day: How James Bond can save the EU",
-      "summary": "A series of EU-themed 007 movies? Yes please.",
-      "url": "https://www.politico.eu/article/delay-another-day-james-bond-help-robert-pattinson-save-eu/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T03:00:00+00:00",
-      "feed_id": "politico-europe",
       "priority_score": 11
     }
   ],
