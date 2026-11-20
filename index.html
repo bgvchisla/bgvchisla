@@ -1465,7 +1465,7 @@ function measureNavRange(){
  navStartY=navRect.top+scrollY;
  var headingY=heading.getBoundingClientRect().top+scrollY;
  /* Прибиране точно когато заглавието „Накратко“ достигне първоначалната горна линия на менюто. */
- navCollapseY=headingY-navStartY;
+ navCollapseY=headingY-navStartY+4;
 }
 window.addEventListener("resize",function(){
  if(!navRoot.classList.contains("mobile-collapsed"))measureNavRange();
