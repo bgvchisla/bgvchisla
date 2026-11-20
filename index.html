@@ -1444,14 +1444,45 @@ navToggle.setAttribute("aria-label","Отвори всички раздели");
 navRoot.parentNode.insertBefore(navToggle,navRoot);
 var navHelp=document.createElement("span");navHelp.id="nav-help";navHelp.className="sr-only";navHelp.textContent="Изберете раздел, за да видите съответните данни.";
 navRoot.parentNode.insertBefore(navHelp,navRoot);
-navToggle.addEventListener("click",function(){
- var collapsed=navRoot.classList.toggle("mobile-collapsed");
+function setNavCollapsed(collapsed){
+ navRoot.classList.toggle("mobile-collapsed",collapsed);
  navToggle.classList.toggle("nav-toggle-visible",collapsed);
  navToggle.classList.toggle("mobile-visible",collapsed);
  navToggle.setAttribute("aria-expanded",collapsed?"false":"true");
  navToggle.setAttribute("aria-label",collapsed?"Отвори всички раздели":"Прибери списъка с раздели");
  navToggle.querySelector(".mobile-nav-chevron").textContent=collapsed?"⌄":"⌃";
+}
+navToggle.addEventListener("click",function(){
+ setNavCollapsed(!navRoot.classList.contains("mobile-collapsed"));
 });
+/* Автоматично прибиране при движение надолу и разгъване при връщане нагоре. */
+var navStartY=0,navEndY=0,lastScrollY=window.scrollY||0,navScrollFrame=0;
+function measureNavRange(){
+ var wasCollapsed=navRoot.classList.contains("mobile-collapsed");
+ if(wasCollapsed)navRoot.classList.remove("mobile-collapsed");
+ var rect=navRoot.getBoundingClientRect();
+ navStartY=rect.top+(window.scrollY||0);
+ navEndY=navStartY+Math.max(rect.height,1);
+ if(wasCollapsed)navRoot.classList.add("mobile-collapsed");
+}
+measureNavRange();
+window.addEventListener("resize",function(){measureNavRange()},{passive:true});
+window.addEventListener("scroll",function(){
+ if(navScrollFrame)return;
+ navScrollFrame=window.requestAnimationFrame(function(){
+  navScrollFrame=0;
+  var currentY=window.scrollY||0;
+  var delta=currentY-lastScrollY;
+  if(Math.abs(delta)>3){
+   if(delta>0&&currentY>navEndY+24){
+    if(!navRoot.classList.contains("mobile-collapsed"))setNavCollapsed(true);
+   }else if(delta<0&&currentY<navEndY-24){
+    if(navRoot.classList.contains("mobile-collapsed"))setNavCollapsed(false);
+   }
+  }
+  lastScrollY=currentY;
+ });
+},{passive:true});
 navRoot.innerHTML=T.map(function(t,i){var m=NAV_META[i];return '<button type="button" data-i="'+i+'" aria-controls="s'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+' '+(i===0?'aria-current="page"':'')+'"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>'}).join("");
 var navButtons=Array.from(navRoot.querySelectorAll("button[data-i]"));
 var pageSections=Array.from(document.querySelectorAll("#site-content section[id^='s']"));
@@ -1468,12 +1499,8 @@ function activateSection(index){
  pageSections.forEach(function(section){
   section.classList.toggle("on",section===target);
  });
- navRoot.classList.add("mobile-collapsed");
- navToggle.classList.add("nav-toggle-visible","mobile-visible");
  navToggle.querySelector(".mobile-nav-current").textContent=navButtons[index].querySelector(".nav-title").textContent+" · Всички раздели";
- navToggle.setAttribute("aria-expanded","false");
- navToggle.setAttribute("aria-label","Отвори всички раздели");
- navToggle.querySelector(".mobile-nav-chevron").textContent="⌄";
+ setNavCollapsed(true);
 }
 navButtons.forEach(function(button){
  button.addEventListener("click",function(event){
