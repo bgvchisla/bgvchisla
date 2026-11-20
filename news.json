@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:38:18.733214+00:00",
-  "last_checked_at": "2026-11-20T17:38:18.733219+00:00",
+  "updated_at": "2026-11-20T17:46:34.790395+00:00",
+  "last_checked_at": "2026-11-20T17:46:34.790399+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -55,6 +55,16 @@
     },
     {
       "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Ръководителят на делегацията на Народното събрание в Интерпарламентарния съюз Росица Кирова участва в Глобалната парламентарна конференция за правата на човека в Женева",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6673",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 34
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Малкият бизнес в Софийска област търси евросредства за старт и модернизация",
       "summary": "Възможностите за стартиране на собствен бизнес, модернизация на предприятия и развитие на местни инициативи са сред най-търсените форми на европейско финансиране в Софийска област. Особен интерес предизвикват проектите, които могат да се реализират чрез местни",
@@ -71,7 +81,7 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 30
+      "priority_score": 29
     },
     {
       "section": "bulgaria",
@@ -131,6 +141,16 @@
       "url": "https://www.bta.bg/bg/news/bulgaria/1251199-deset-semeystva-v-mezdra-otbelyazaha-50-godini-brachen-zhivot-vav-vratsa-obshta",
       "published": "2026-11-20T17:00:57+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6682",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 26
     },
     {
@@ -245,16 +265,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Засилването на диалога между парламентите на България и Словакия ще допринесе за задълбочаване на партньорството във всички области от взаимен интерес, заяви председателят на Народното събрание Михаела Доцова на среща с председателя на Националния съвет на Словакия д-р Рихард Раши",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6674",
-      "published": "2026-11-13T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "Днес УС на БНБ издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „МОСТ ФИНАНС МЕНИДЖМЪНТ“ АД на основание чл. 9, ал. 11 от Закона за лицата, обслужващи кредити, и купувачите на кредити",
       "summary": "",
@@ -282,26 +292,6 @@
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 20
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Пътуващата изложба „150 години детски организации в България – история, уроци и бъдеще“ беше открита в Народното събрание",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6676",
-      "published": "2026-11-18T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "В Народното събрание се проведе скрининг за захарен диабет под надслов „Действайте рано срещу диабета“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6672",
-      "published": "2026-11-13T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 18
     },
     {
       "section": "bulgaria",
@@ -584,16 +574,6 @@
       "priority_score": 14
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Биткойн фондът на BlackRock отчете рекорден отлив на капитал за ден",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439827-bitkoyn-fondat-na-blackrock-otchete-rekorden-otliv-na-kapital-za-den",
-      "published": "2026-11-20T07:43:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 13
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
@@ -701,6 +681,26 @@
       "url": "https://www.euronews.com/video/2026/11/20/latest-news-bulletin-november-20th-2026-evening",
       "published": "2026-11-20T17:00:26+00:00",
       "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Gérard Depardieu and Michel Houellebecq investigated over on-set rape and assault allegations",
+      "summary": "Actor and author are alleged to have attacked and gang-raped a woman while filming together in 2018 French police are investigating allegations that the actor Gérard Depardieu and the author Michel Houellebecq gang-raped and assaulted a woman during a 2018 fil",
+      "url": "https://www.theguardian.com/film/2026/nov/20/gerard-depardieu-michel-houellebecq-investigated-allegations",
+      "published": "2026-11-20T16:54:57+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T16:54:29+00:00",
+      "feed_id": "bbc-world",
       "priority_score": 12
     }
   ],
