@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:36:57.107787+00:00",
-  "last_checked_at": "2026-11-20T17:36:57.107790+00:00",
+  "updated_at": "2026-11-20T17:38:18.733214+00:00",
+  "last_checked_at": "2026-11-20T17:38:18.733219+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -204,7 +204,7 @@
       "priority_score": 25
     },
     {
-      "section": "europe",
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Столична община вече ще си плаща за събирането на старите дрехи",
       "summary": "Столична община ще плаща до 220 хил. евро годишно за събирането на стари дрехи и обувки, след като досегашният безплатен за общината модел стана неустойчив",
@@ -595,6 +595,16 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+      "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T17:36:29+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
       "source": "POLITICO Europe",
       "title": "The biggest winners and losers of the EU-UK summit deals",
       "summary": "We take stock of who’s up and who’s down after London and Brussels sign three new deals.",
@@ -691,16 +701,6 @@
       "url": "https://www.euronews.com/video/2026/11/20/latest-news-bulletin-november-20th-2026-evening",
       "published": "2026-11-20T17:00:26+00:00",
       "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Gérard Depardieu and Michel Houellebecq investigated over on-set rape and assault allegations",
-      "summary": "Actor and author are alleged to have attacked and gang-raped a woman while filming together in 2018 French police are investigating allegations that the actor Gérard Depardieu and the author Michel Houellebecq gang-raped and assaulted a woman during a 2018 fil",
-      "url": "https://www.theguardian.com/film/2026/nov/20/gerard-depardieu-michel-houellebecq-investigated-allegations",
-      "published": "2026-11-20T16:54:57+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 12
     }
   ],
