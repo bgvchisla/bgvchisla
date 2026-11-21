@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:57:03.758448+00:00",
-  "last_checked_at": "2026-11-21T10:57:03.758453+00:00",
+  "updated_at": "2026-11-21T11:37:13.307442+00:00",
+  "last_checked_at": "2026-11-21T11:37:13.307446+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Колко болнични ползват работещите в Европа и колко струва това на икономиката?",
+      "summary": "Средностатистическият европеец отсъства от работа близо три седмици годишно заради здравословни проблеми, показва нов доклад, цитиран от euronews. Това се равнява на около 6% от потенциалното работно време в Европейския съюз (ЕС) и води до загуби от приблизите",
+      "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
+      "published": "2026-11-21T11:35:11+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 42
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -22,6 +32,16 @@
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
       "priority_score": 41
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "През 2027 г. се очаква Европейският парламент да приеме нов регламент за защита на децата онлайн",
+      "summary": "През 2027 г. Европейският парламент трябва да приеме нов регламент за защита на децата онлайн. Европейската комисия вече излезе с предложение за този регламент, известен като EU Kids Act. Това каза във Варна пред участниците в конференцията „Децата в дигитални",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251598-prez-2027-g-se-ochakva-evropeyskiyat-parlament-da-prieme-nov-reglament-za-zasht",
+      "published": "2026-11-21T11:06:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 40
     },
     {
       "section": "bulgaria",
@@ -61,7 +81,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
       "published": "2026-11-21T09:00:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 30
+      "priority_score": 29
     },
     {
       "section": "bulgaria",
@@ -125,16 +145,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Перник даде начало на залесителна кампания, която ще продължи и през следващата седмица",
-      "summary": "Община Перник даде начало на залесителна кампания, която ще обхване различни квартали на града. Това съобщи за БТА заместник-кметът Стефан Кръстев, който се включи в засаждането на дръвчета в парковото пространство срещу административния център в квартал „Изто",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251583-obshtina-pernik-dade-nachalo-na-zalesitelna-kampaniya-koyato-shte-prodalzhi-i-p",
-      "published": "2026-11-21T10:16:39+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Заместник-председателят на Народното събрание Иван Ангелов разговаря с унгарския депутат, застъпник на българското национално малцинство в парламента на Унгария, Симеон Варга",
       "summary": "",
@@ -175,16 +185,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Потребителското доверие в САЩ расте през ноември на фона на спада на цените на бензина",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
-      "published": "2026-11-20T17:26:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "Считано от 19 ноември 2026 г. продажните цени на сребърните монети за колекционерски цели, продавани на каса на БНБ, са актуализирани",
       "summary": "",
@@ -206,10 +206,10 @@
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
-      "title": "Предложение на МЗХ: Земя да се наема дългосрочно, а аренди да се плащат по банков път",
+      "title": "Потребителското доверие в САЩ расте през ноември на фона на спада на цените на бензина",
       "summary": "",
-      "url": "https://www.investor.bg/a/520-zemedelie/439857-predlozhenie-na-mzh-zemya-da-se-naema-dalgosrochno-a-arendi-da-se-plashtat-po-bankov-pat",
-      "published": "2026-11-20T15:09:00+00:00",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
+      "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
       "priority_score": 21
     },
@@ -262,16 +262,6 @@
       "published": "2026-10-09T00:00:00+00:00",
       "feed_id": "bnb-news",
       "priority_score": 21
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Монетният двор пуска сребърен медал с лика на цар Самуил (снимки)",
-      "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
-      "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
-      "published": "2026-11-20T12:48:19+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 20
     },
     {
       "section": "bulgaria",
@@ -364,6 +354,16 @@
       "priority_score": 16
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Полицията във Варна задържа мъж със 7 килограма марихуана",
+      "summary": "При специализирана операция срещу битовата престъпност и пътния травматизъм е задържан 50-годишен мъж, заподозрян за отглеждане и разпространение на марихуана, съобщиха от полицията във Варна. Мъжът е арестуван в село Юнак. При обиски в дома и в колата му крим",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251604-politsiyata-vav-varna-zadarzha-mazh-sas-7-kilograma-marihuana",
+      "published": "2026-11-21T10:57:22+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 15
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Statement by President von der Leyen on the assassination attempt against a US-Ukrainian citizen in Denmark",
@@ -371,7 +371,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556",
       "published": "2026-11-21T09:01:16+00:00",
       "feed_id": "commission-press",
-      "priority_score": 16
+      "priority_score": 15
     },
     {
       "section": "bulgaria",
@@ -384,10 +384,90 @@
       "priority_score": 14
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 120 души посетиха приемната на НОИ в Деня на отворените врати в София",
+      "summary": "Над 120 души посрещна Националният осигурителен институт (НОИ) в първия Ден на отворените врати от кампанията „Попитай НОИ“ в София, съобщиха от институцията. В рамките на три часа хората се срещнаха с ръководството и експертите на институцията, за да зададат",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251623-nad-120-dushi-posetiha-priemnata-na-noi-v-denya-na-otvorenite-vrati-v-sofiya",
+      "published": "2026-11-21T11:35:51+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Rejoining EU ‘on the table’ as UK strikes deals on trade and young people",
+      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
+      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "published": "2026-11-21T11:23:52+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "От днес се въвежда кръгово движение на едно от основните кръстовища в Смолян",
+      "summary": "От днес в Смолян е въведена временна организация на движението на кръстовището на улиците „Д-р Петър Берон“, „Родопи“ и „Коста Аврамиков“. Светофарната уредба на едно от основните кръстовища в квартал „Райково“ е изключена, а движението на автомобилите се регу",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251603-ot-dnes-se-vavezhda-kragovo-dvizhenie-na-edno-ot-osnovnite-krastovishta-v-smolya",
+      "published": "2026-11-21T11:14:14+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Девет пакетчета със суха листна маса, реагираща на кетамин, са открити в автомобил в Криводол",
+      "summary": "Девет пакетчета със суха листна маса, реагираща на кетамин при полеви наркотест, са открити в лек автомобил в Криводол, съобщиха от Областната дирекция (ОД) на МВР във Враца. Наркотикът е намерен по време на специализирана полицейска операция на служители от с",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251601-devet-paketcheta-sas-suha-listna-masa-reagirashta-na-ketamin-sa-otkriti-v-avto",
+      "published": "2026-11-21T11:10:42+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Haitians excited but uneasy as El Salvador troops fight gangs",
+      "summary": "Foreign combatants in Port-au-Prince welcomed by many after years of gang control but some fear offensive could exacerbate volatile situation A bullet-peppered mural of the Haitian striker Emmanuel Sanon covers the facade of Port-au-Prince’s main football grou",
+      "url": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele",
+      "published": "2026-11-21T11:00:57+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 21st, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-midday",
+      "published": "2026-11-21T11:00:15+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Срещата Си-Тръмп-Путин и границите на геополитическото сближаване",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439864-sreshtata-si-tramp-putin-i-granitsite-na-geopoliticheskoto-sblizhavane",
+      "published": "2026-11-21T11:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP31: UN Climate summit runs into overtime as deal remains elusive",
+      "summary": "After nearly two weeks of negotiations, countries remain divided on how to fight global warming. A new draft declaration doesn't mention the phaseout of fossil fuels, the main drivers of climate change. DW has more.",
+      "url": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-overtime-as-deal-remains-elusive/live-79999516?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T10:52:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "Costa cuts proposed EU budget by €44B",
-      "summary": "Brussels proposes tax on Big Tech to raise billions for the next budget cycle.",
+      "summary": "Brussels plans a tax on Big Tech to raise billions for the next budget cycle.",
       "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-21T10:44:05+00:00",
       "feed_id": "politico-europe",
@@ -424,16 +504,6 @@
       "priority_score": 12
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Младежкият театър отбелязва Международния ден за елиминиране на насилието",
-      "summary": "Младежкият театър „Николай Бинев“ отбелязва Международния ден за елиминиране на насилието срещу жените (25 ноември) със събитие срещу домашното насилие, информират от трупата. Фотоизложба, театрално представление и дискусия със специалисти ще поставят фокус въ",
-      "url": "https://www.bta.bg/bg/news/lik/1251590-mladezhkiyat-teatar-otbelyazva-mezhdunarodniya-den-za-eliminirane-na-nasilieto",
-      "published": "2026-11-21T10:26:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Japan: Autonomous air taxi completes passenger flight without a pilot",
@@ -441,36 +511,6 @@
       "url": "https://www.euronews.com/video/2026/11/21/japan-autonomous-air-taxi-completes-passenger-flight-without-a-pilot",
       "published": "2026-11-21T10:20:25+00:00",
       "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Прогноза за времето",
-      "summary": "През нощта ще бъде предимно ясно. На отделни места в котловините и равнините ще е мъгливо. Ще духа слаб, в Източна България до умерен вятър от запад-северозапад. Минималните температури ще са между 3° и 8°, за София - около 4°, съобщиха от Националния институт",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251587-prognoza-za-vremeto",
-      "published": "2026-11-21T10:17:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Двама мъже са задържани в Благоевград за измама с фиктивни онлайн обяви за автомобили",
-      "summary": "Двама 29-годишни мъже са задържани в Благоевград за измама с фиктивни обяви в интернет за продажба на автомобили, съобщиха от Областната дирекция (ОД) на МВР в Стара Загора. Мъжете са от Благоевград и село Покровник и са задържани на 19 ноември при специализир",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251582-dvama-mazhe-sa-zadarzhani-v-blagoevgrad-za-izmama-s-fiktivni-onlayn-obyavi-za-av",
-      "published": "2026-11-21T10:15:32+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "От редки птици в тръстиките до невидими обитатели под водата – Драгоманското блато предлага изненади за туристите през всички сезони",
-      "summary": "Драгоманското блато е място, което може да бъде посещавано от природолюбителите и през четирите сезона. Неговото разнообразие от растителни и животински видове предизвиква любопитство през цялата година, със своя живот над и под водата. Това разказаха за БТА П",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251573-ot-redki-ptitsi-v-trastikite-do-nevidimi-obitateli-pod-vodata-dragomanskoto-bl",
-      "published": "2026-11-21T10:11:19+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
     {
@@ -515,52 +555,12 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Rejoining EU ‘on the table’ as UK strikes deals on trade and young people",
-      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
-      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
-      "published": "2026-11-21T09:45:52+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
       "summary": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
       "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T09:40:55+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T09:34:20+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "'Killer robots' talks at UN end with no legally binding ban",
-      "summary": "Countries have agreed to extend discussions over controls on lethal autonomous weapons systems for two years.",
-      "url": "https://www.dw.com/en/killer-robots-talks-at-un-end-with-no-legally-binding-ban/a-80008584?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T09:18:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Pentagon declassifies new UFO footage filmed by US military",
-      "summary": "The US Department of War has published its eighth release of declassified historical files on unidentified anomalous phenomena, with further documents expected to be made public.",
-      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
-      "published": "2026-11-21T09:01:41+00:00",
-      "feed_id": "euronews",
       "priority_score": 12
     },
     {
@@ -574,16 +574,6 @@
       "priority_score": 12
     },
     {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
-      "summary": "European Commission News Brussels, 20 Nov 2026 Commission President Ursula von der Leyen and European Council President António Costa hosted British Prime Minister Andy Burnham in Brussels today for the sec...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
-      "published": "2026-11-20T17:17:57+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
@@ -592,6 +582,46 @@
       "published": "2023-01-12T09:49:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T09:34:20+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "AI променя софтуерното инженерство – на някои разработчици им липсват трудностите",
+      "summary": "Когато Джема Роджърс започва да учи компютърни науки през 2002 г., софтуерното инженерство се смята за перспективна и добре платена професия, която гарантира сигурно бъдеще. Тя привлича хора, които обичат да се потапят в детайлите на програмния код, да открива",
+      "url": "https://www.economic.bg/bg/a/view/ai-promenja-softuernoto-injenerstvo-na-njakoi-razrabotchici-im-lipsvat-trudnostite",
+      "published": "2026-11-21T09:30:37+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "'Killer robots' talks at UN end with no legally binding ban",
+      "summary": "Countries have agreed to extend discussions over controls on lethal autonomous weapons systems for two years.",
+      "url": "https://www.dw.com/en/killer-robots-talks-at-un-end-with-no-legally-binding-ban/a-80008584?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T09:18:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Pentagon declassifies new UFO footage filmed by US military",
+      "summary": "The US Department of War has published its eighth release of declassified historical files on unidentified anomalous phenomena, with further documents expected to be made public.",
+      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
+      "published": "2026-11-21T09:01:41+00:00",
+      "feed_id": "euronews",
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -671,36 +701,6 @@
       "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
       "published": "2026-11-21T07:07:09+00:00",
       "feed_id": "euronews",
-      "priority_score": 11
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Накъде ще движи геополитиката цената на златото?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/439833-nakade-shte-dvizhi-geopolitikata-tsenata-na-zlatoto",
-      "published": "2026-11-21T07:00:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Three El Salvador soldiers die in explosives accident in Haiti",
-      "summary": "The soldiers were part of a Salvadoran military contingent deployed to the violence-ridden Caribbean nation last month to rescue four missing airmen. The deployment has widened into an operation against Haiti's gangs.",
-      "url": "https://www.dw.com/en/three-el-salvador-soldiers-die-in-explosives-accident-in-haiti/a-80008005?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T06:58:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Срещата в Шънджън показа на Путин, че приятелствата му си имат граници",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439850-sreshtata-v-shandzhan-pokaza-na-putin-che-priyatelstvata-mu-si-imat-granitsi",
-      "published": "2026-11-21T06:30:00+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 11
     }
   ],
