@@ -1408,15 +1408,14 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 <div id="privacy-notice" class="privacy-notice" role="dialog" aria-modal="false" aria-labelledby="privacy-title" aria-describedby="privacy-description" hidden>
  <div class="privacy-copy">
   <strong id="privacy-title">Вашата поверителност</strong>
-  <p id="privacy-description">Използваме необходими технологии. По желание можете да разрешите аналитика и външно съдържание. Изборът Ви не ограничава достъпа до сайта. <a href="privacy.html">Подробности в политиката за поверителност</a>.</p>
+  <p id="privacy-description">Използваме необходимите технологии. Съгласни ли сте да използваме и аналитика и външно съдържание? <a href="privacy.html">Подробности в политиката за поверителност</a>.</p>
  </div>
  <div id="privacy-preferences" class="privacy-preferences" hidden>
   <label><input type="checkbox" id="consent-analytics"> Аналитика (Google Analytics 4) — помага ни да разбираме посещенията и използването на страниците.</label>
   <label><input type="checkbox" id="consent-tradingview"> Външно съдържание (TradingView) — зарежда пазарната лента и може да изпраща технически данни към доставчика.</label>
  </div>
  <div class="privacy-actions">
-  <button type="button" id="privacy-accept">Приеми всички</button>
-  <button type="button" id="privacy-essential">Само необходимите</button>
+  <button type="button" id="privacy-accept">Съгласен съм с всички</button>
   <button type="button" id="privacy-customize" aria-expanded="false" aria-controls="privacy-preferences">Настройки</button>
   <button type="button" id="privacy-save" hidden>Запази избора</button>
  </div>
@@ -1838,7 +1837,6 @@ function mkLoad(){
  if(analyticsConsent===null||tradingConsent===null)showBanner();
  $("privacy-settings").addEventListener("click",showBanner);
  $("privacy-accept").addEventListener("click",function(){saveChoices(true,true)});
- $("privacy-essential").addEventListener("click",function(){saveChoices(false,false)});
  customize.addEventListener("click",function(){
   preferences.hidden=false;
   saveButton.hidden=false;
