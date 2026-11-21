@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T22:28:45.089468+00:00",
-  "last_checked_at": "2026-11-21T22:28:45.089473+00:00",
+  "updated_at": "2026-11-21T23:10:20.292775+00:00",
+  "last_checked_at": "2026-11-21T23:10:20.292779+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -11,7 +11,7 @@
       "url": "https://www.economic.bg/bg/a/view/mnogo-hora-imat-deficit-na-jeljazo-eto-zashto-tova-chesto-se-propuska",
       "published": "2026-11-21T13:00:42+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "bulgaria",
@@ -195,13 +195,23 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
+      "summary": "Избирателната комисия на Общото събрание на следователите обяви Петко Петков за избран член на Висшия съдебен съвет (ВСС) след проведеното гласуване днес. Решението на комисията не е окончателно и може да се обжалва в седемдневен срок. Петков, следовател в Нац",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
+      "published": "2026-11-21T19:59:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Дефицитът на Гърция се е увеличил с 2,5 млрд. евро за периода януари-септември",
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
       "published": "2026-11-21T09:00:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 27
+      "priority_score": 26
     },
     {
       "section": "europe",
@@ -211,16 +221,6 @@
       "url": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-20T16:50:00+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 27
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
-      "summary": "Избирателната комисия на Общото събрание на следователите обяви Петко Петков за избран член на Висшия съдебен съвет (ВСС) след проведеното гласуване днес. Решението на комисията не е окончателно и може да се обжалва в седемдневен срок. Петков, следовател в Нац",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
-      "published": "2026-11-21T19:59:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 26
     },
     {
@@ -311,7 +311,7 @@
       "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
       "published": "2026-11-21T17:00:26+00:00",
       "feed_id": "euronews",
-      "priority_score": 25
+      "priority_score": 24
     },
     {
       "section": "europe",
@@ -321,16 +321,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T16:35:15+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изкуството на хор „Морски звуци“ оставя прекрасно културно наследство за Варна и България, каза Калин Чонев",
-      "summary": "Празничен концерт отбеляза в препълнената зала на Фестивалния и конгресен център 100-годишнината от създаването на музикалното дружество „Морски звуци“ и 70-годишнината от основаването на представителния смесен хор, носещ същото име. Във видео поздрав от САЩ К",
-      "url": "https://www.bta.bg/bg/news/lik/1251818-izkustvoto-na-hor-morski-zvutsi-ostavya-prekrasno-kulturno-nasledstvo-za-varna",
-      "published": "2026-11-21T21:05:56+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 24
     },
     {
@@ -342,6 +332,16 @@
       "published": "2026-11-21T14:58:00+00:00",
       "feed_id": "dw-world",
       "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Изкуството на хор „Морски звуци“ оставя прекрасно културно наследство за Варна и България, каза Калин Чонев",
+      "summary": "Празничен концерт отбеляза в препълнената зала на Фестивалния и конгресен център 100-годишнината от създаването на музикалното дружество „Морски звуци“ и 70-годишнината от основаването на представителния смесен хор, носещ същото име. Във видео поздрав от САЩ К",
+      "url": "https://www.bta.bg/bg/news/lik/1251818-izkustvoto-na-hor-morski-zvutsi-ostavya-prekrasno-kulturno-nasledstvo-za-varna",
+      "published": "2026-11-21T21:05:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 23
     },
     {
       "section": "bulgaria",
@@ -401,16 +401,6 @@
       "url": "https://www.euronews.com/video/2026/11/21/japan-autonomous-air-taxi-completes-passenger-flight-without-a-pilot",
       "published": "2026-11-21T10:20:25+00:00",
       "feed_id": "euronews",
-      "priority_score": 23
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "China commits to low-carbon electrification and help for others to improve",
-      "summary": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 Cop31 live – latest updates China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the",
-      "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
-      "published": "2026-11-21T09:47:57+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 23
     },
     {
@@ -651,7 +641,7 @@
       "url": "https://www.politico.eu/article/andy-burnham-eu-uk-summit-reset-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-20T17:00:51+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 19
+      "priority_score": 18
     },
     {
       "section": "europe",
@@ -701,6 +691,16 @@
       "url": "https://www.parliament.bg/bg/news/6677",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
+      "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Panama submits request to join Expansion of the Information Technology Agreement",
+      "summary": "Panama has submitted a request to join the 2015 Expansion of the Information Technology Agreement (ITA II), the Chair of the Committee of Participants on the Expansion of Trade in Information Technology Products, Mr Shih-Chun Weng of Chinese Taipei, informed m",
+      "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "wto-news",
       "priority_score": 18
     }
   ],
