@@ -44,6 +44,19 @@ jobs:
           python-version: "3.12"
       - name: Decompress checked-in generator
         run: gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
+      - name: Normalize BNB series mapping
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path("scripts/generate_analysis.py")
+          source = path.read_text(encoding="utf-8")
+          old = "facts=[{'id':x.get('id'),'label':clean(x.get('title') or x.get('label') or x.get('id')),'unit':x.get('unit'),'points':x.get('points',[])[-6:]} for x in data.get('series',[])[:8] if x.get('points')]"
+          new = "facts=[{'id':x.get('id'),'label':clean(x.get('title') or x.get('label') or x.get('id')),'unit':x.get('unit'),'points':x.get('points',[])[-6:]} for x in (data.get('series',[]) if isinstance(data.get('series',[]),list) else [dict(v,id=k) for k,v in data.get('series',{}).items()])[:8] if x.get('points')]"
+          if source.count(old) != 1:
+              raise SystemExit("Expected one BNB series extraction expression; found " + str(source.count(old)))
+          path.write_text(source.replace(old, new), encoding="utf-8")
+          print("BNB series extraction now accepts both list and mapping structures.")
+          PY
       - name: Resolve editorial lane
         id: lane
         env:
@@ -75,6 +88,20 @@ jobs:
           sys.argv = ["scripts/generate_analysis.py", "--lane", __import__("os").environ["LANE"], "--dry-run"]
           runpy.run_path("scripts/generate_analysis.py", run_name="__main__")
           PY
+      - name: Persist validated generator correction
+        if: success()
+        run: |
+          gzip -n -c scripts/generate_analysis.py > /tmp/generate_analysis.py.gz
+          mv /tmp/generate_analysis.py.gz scripts/generate_analysis.py.gz
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/generate_analysis.py.gz
+          if git diff --cached --quiet; then
+            echo "Generator compression is already current."
+          else
+            git commit -m "Fix BNB series handling in analysis generator"
+            git push origin HEAD:main
+          fi
       - name: Check explicit publishing switch and API secret
         id: api
         env:
