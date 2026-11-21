@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:38:21.665263+00:00",
-  "last_checked_at": "2026-11-21T19:38:21.665265+00:00",
+  "updated_at": "2026-11-21T19:39:40.858372+00:00",
+  "last_checked_at": "2026-11-21T19:39:40.858375+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -32,6 +32,16 @@
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
       "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU and Indonesia sign trade deal",
+      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
+      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T15:21:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 37
     },
     {
       "section": "bulgaria",
@@ -74,6 +84,16 @@
       "priority_score": 34
     },
     {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "EU and Indonesia sign ambitious trade and investment agreements",
+      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 33
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
@@ -82,6 +102,76 @@
       "published": "2026-11-21T12:00:00+00:00",
       "feed_id": "investor-economy",
       "priority_score": 32
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
+      "published": "2026-11-21T11:28:47+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 32
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+      "published": "2026-11-20T15:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 31
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
+      "summary": "Copini Beauty referred to New South Wales health regulators, while federal government says it is ‘deeply concerned’ Get our breaking news email , free app or daily news podcast An Australian beauty company that promotes “clean” ingredients “free from skin irri",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
+      "published": "2026-11-21T19:00:07+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 30
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "Ready-to-run global liquidity stress tests for banks and banking systems",
+      "summary": "Liquidity risk remains a persistent threat to financial stability, as starkly demonstrated by the 2023 banking turmoil in the United States and Europe. Hence, the ability to quickly gauge banks’ liquidity risks could prove useful especially during periods of m",
+      "url": "https://www.bis.org/publications/working-paper-1394-ready-to-run-global-liquidity-stress-tests-banks-and-banking-systems",
+      "published": "2026-11-11T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 30
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "US monetary policy, macroeconomic news and the global secular decline of interest rates",
+      "summary": "The global secular decline in long-term interest rates since the 1990s has been largely driven by cumulative yield changes during U.S. monetary policy announcement windows (FOMC windows).",
+      "url": "https://www.bis.org/publications/working-paper-1393-us-monetary-policy-macroeconomic-news-and-global-secular-decline-interest-rates",
+      "published": "2026-11-10T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 30
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "News shocks and inflation: theory and evidence from large oil discoveries",
+      "summary": "We study how news shocks affect inflation in open economies, using large oil and gas discoveries with realized production lags of at least five years as observable news about future output. Panel local projections show that discoveries raise core consumer pric",
+      "url": "https://www.bis.org/publications/working-paper-1389-news-shocks-and-inflation-theory-and-evidence-from-large-oil-discoveries",
+      "published": "2026-10-23T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 30
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 29
     },
     {
       "section": "bulgaria",
@@ -94,6 +184,16 @@
       "priority_score": 29
     },
     {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Multiannual Financial Framework - President Costa’s proposal",
+      "summary": "President of the European Council, António Costa, presented his proposal to reach an agreement on the 2028-2034 Multiannual Financial Framework during a press conference on 21 November 2026.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
+      "published": "2026-11-21T10:43:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 28
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Дефицитът на Гърция се е увеличил с 2,5 млрд. евро за периода януари-септември",
@@ -101,6 +201,16 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
       "published": "2026-11-21T09:00:00+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 27
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "France and Germany complete political deal for ECB leadership",
+      "summary": "Paris’ new market-operations portfolio at the European Central Bank could become pivotal in a French debt crisis.",
+      "url": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T16:50:00+00:00",
+      "feed_id": "politico-europe",
       "priority_score": 27
     },
     {
@@ -124,6 +234,96 @@
       "priority_score": 26
     },
     {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+      "published": "2026-11-18T09:00:00+00:00",
+      "feed_id": "ecb-press",
+      "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "New trade-restrictive measures surge but WTO members step up trade facilitation efforts",
+      "summary": "The pace of newly-introduced tariffs and other non-facilitating measures rose sharply in the first half of 2026, while the stockpile of such measures reached a record level, according to the WTO Director-General's latest annual overview of developments in the",
+      "url": "https://www.wto.org/english/news_e/news26_e/tmwto_17nov26_552_e.htm",
+      "published": "2026-11-17T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+      "published": "2026-11-05T16:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "published": "2026-10-28T18:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "Building AI on credit: structures and spillovers",
+      "summary": "Capital expenditure to build artificial intelligence (AI) infrastructure is growing fast, and a rising share is financed with long-term debt and through complex off-balance sheet arrangements.",
+      "url": "https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "published": "2026-10-02T20:45:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 21st, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
+      "published": "2026-11-21T17:00:26+00:00",
+      "feed_id": "euronews",
+      "priority_score": 25
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T16:35:15+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 25
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "New EU budget proposal aims at tax gobal tech giants",
+      "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
+      "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T14:58:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 25
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Спартак Плевен надви гостуващия Ботев Академик в седмия кръг на Националната баскетболна лига за мъже",
@@ -134,6 +334,36 @@
       "priority_score": 24
     },
     {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
+      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
+      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "published": "2026-11-21T11:33:01+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 24
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 21st, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-midday",
+      "published": "2026-11-21T11:00:15+00:00",
+      "feed_id": "euronews",
+      "priority_score": 24
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Costa cuts proposed EU budget by €44B",
+      "summary": "Brussels plans a tax on Big Tech to raise billions for the next budget cycle.",
+      "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-21T10:44:05+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 24
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Дезинфлационната стратегия на Фед е обречена на провал",
@@ -141,6 +371,26 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
       "published": "2026-11-21T10:30:00+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 24
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Japan: Autonomous air taxi completes passenger flight without a pilot",
+      "summary": "A pilotless electric flying taxi has carried a passenger during a demonstration, on Friday 20 November 2026, in Japan's Yamanashi Prefecture. The Chinese-built aircraft took off vertically and flew autonomously, offering a glimpse of a possible future for urba",
+      "url": "https://www.euronews.com/video/2026/11/21/japan-autonomous-air-taxi-completes-passenger-flight-without-a-pilot",
+      "published": "2026-11-21T10:20:25+00:00",
+      "feed_id": "euronews",
+      "priority_score": 24
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "China commits to low-carbon electrification and help for others to improve",
+      "summary": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 Cop31 live – latest updates China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the",
+      "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
+      "published": "2026-11-21T09:47:57+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 24
     },
     {
@@ -164,6 +414,36 @@
       "priority_score": 23
     },
     {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Council calls for action to safeguard Europe’s traditional sports and games for future generations",
+      "summary": "The Council has approved conclusions calling for greater efforts to preserve and promote traditional sports and games in the EU.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
+      "published": "2026-11-20T14:10:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 23
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Applications open for WIPO-WTO Executive Programme on Intellectual Property Issues",
+      "summary": "The Secretariat of the World Intellectual Property Organization (WIPO) and the Secretariat of the World Trade Organization (WTO) are now accepting applications for the WIPO-WTO Executive Programme on Intellectual Property Issues for Senior Government Officials",
+      "url": "https://www.wto.org/english/news_e/news26_e/trip_19nov26_557_e.htm",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Spotlight on trade fundamentals at annual WTO student event",
+      "summary": "Over 200 students joined policymakers, executives and thought leaders on 18 November at the WTO to discuss trade fundamentals at the WTO's annual student-only event on trade, titled WTO 101: Trade Rules!. Now in its third year, the event saw spirited discussio",
+      "url": "https://www.wto.org/english/news_e/news26_e/stud_19nov26_558_e.htm",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 22
+    },
+    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "Считано от 19 ноември 2026 г. продажните цени на сребърните монети за колекционерски цели, продавани на каса на БНБ, са актуализирани",
@@ -174,6 +454,56 @@
       "priority_score": 22
     },
     {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Trade Policy Review: Peru",
+      "summary": "The sixth review of the trade policies and practices of Peru takes place on 18 and 20 November 2026. The basis for the review is a report by the WTO Secretariat and a report by the Government of Peru.",
+      "url": "https://www.wto.org/english/tratop_e/tpr_e/tpr_per_18nov26_e.htm",
+      "published": "2026-11-18T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Goods Council agrees to modernize notification reporting, reviews trade concerns",
+      "summary": "The WTO's Council for Trade in Goods (CTG) adopted a decision to improve annual reporting on notifications and the WTO Notifications Portal. It also reviewed an updated Secretariat report indicating that 35% of the 241 trade concerns raised in the Council betw",
+      "url": "https://www.wto.org/english/news_e/news26_e/good_16nov26_556_e.htm",
+      "published": "2026-11-16T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "GDP up by 0.4% and employment stable in the euro area",
+      "summary": "In the third quarter of 2026, seasonally adjusted GDP increased by 0.4% in the euro area and by 0.5% in the EU, compared with the previous quarter, according to a flash estimate published by Eurostat, the statistical office of the European Union. In the second",
+      "url": "https://ec.europa.eu/eurostat/product?code=2-13112026-ap",
+      "published": "2026-11-13T10:00:00+00:00",
+      "feed_id": "eurostat-news",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+      "published": "2026-11-12T18:30:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "published": "2026-11-12T16:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 22
+    },
+    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "Днес УС на БНБ издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „МОСТ ФИНАНС МЕНИДЖМЪНТ“ АД на основание чл. 9, ал. 11 от Закона за лицата, обслужващи кредити, и купувачите на кредити",
@@ -181,6 +511,76 @@
       "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261111_2_BG",
       "published": "2026-11-11T00:00:00+00:00",
       "feed_id": "bnb-news",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "South Africa notifies launch of safeguard investigation into certain non-wired float glass products",
+      "summary": "On 11 November 2026, South Africa notified the WTO’s Committee on Safeguards regarding the initiation on 3 November 2026 of a safeguard investigation into imports of certain non-wired float glass products.",
+      "url": "https://www.wto.org/english/news_e/news26_e/safe_zaf_11nov26_546_e.htm",
+      "published": "2026-11-11T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "Bank for International Settlements (BIS)",
+      "title": "Appointments to BIS global payments standard-setting body and Consultative Council for the Americas",
+      "summary": "Bank of Korea Governor Hyun Song Shin appointed Chair of the Bank for International Settlements (BIS) Committee on Payments and Market Infrastructures (CPMI) for a three-year term from 1 November. In addition, the Board of Directors has extended the term of Ti",
+      "url": "https://www.bis.org/media-releases/20261110-appointments-bis-global-payments-standard-setting-body-and-consultative-council-americas",
+      "published": "2026-11-10T00:00:00+00:00",
+      "feed_id": "bis-press",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "Scenarios for future banking: implications for profitability, liquidity and solvency",
+      "summary": "Who will perform banking’s core functions a decade from now, and how will risks and profitability evolve? Our framework structures expert judgement rather than forecasts.",
+      "url": "https://www.bis.org/publications/scenarios-future-banking-implications-profitability-liquidity-and-solvency",
+      "published": "2026-11-04T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "published": "2026-10-29T20:30:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "Inflation after the Iran war",
+      "summary": "An unexpected increase in energy costs raises inflation directly through flexibly-set prices. Whether that shock amplifies to a larger and persistent rise in inflation depends on its transmission through the economy.",
+      "url": "https://www.bis.org/publications/working-paper-1384-inflation-after-iran-war",
+      "published": "2026-10-19T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "published": "2026-10-16T15:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
+      "published": "2026-10-05T20:30:00+00:00",
+      "feed_id": "federal-reserve",
       "priority_score": 22
     },
     {
@@ -214,6 +614,16 @@
       "priority_score": 20
     },
     {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "UK will take its time setting out Brexit options, says minister",
+      "summary": "Hamish Falconer tells POLITICO that discussions around the topic had proved “divisive” and were important to get right.",
+      "url": "https://www.politico.eu/article/uk-brexit-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T17:50:49+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 20
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Потребителското доверие в САЩ расте през ноември на фона на спада на цените на бензина",
@@ -221,6 +631,26 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 19
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Andy Burnham discovers nothing in Brussels is ever easy",
+      "summary": "Britain’s prime minister is banking on a ‘brainstorm’ to decide Britain’s future with the EU. He just has to get through the spin wars first.",
+      "url": "https://www.politico.eu/article/andy-burnham-eu-uk-summit-reset-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T17:00:51+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 19
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "French billionaire hunter takes fight global after California tax defeat",
+      "summary": "Gabriel Zucman is rallying politicians in Paris behind his campaign to tax the super-rich. But can he overcome the billionaires and political leaders standing in his way?",
+      "url": "https://www.politico.eu/article/gabriel-zucman-billionaires-california-taxes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T16:15:46+00:00",
+      "feed_id": "politico-europe",
       "priority_score": 19
     },
     {
@@ -264,444 +694,14 @@
       "priority_score": 18
     },
     {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Считано от 16 ноември 2026 г., продажната цена на платинената монета „Десислава“, номинална стойност 10 000 лева, емисия 1993 г., продавана на каса на БНБ, е актуализирана",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261113_BG",
-      "published": "2026-11-13T00:00:00+00:00",
-      "feed_id": "bnb-news",
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Panama submits request to join Expansion of the Information Technology Agreement",
+      "summary": "Panama has submitted a request to join the 2015 Expansion of the Information Technology Agreement (ITA II), the Chair of the Committee of Participants on the Expansion of Trade in Information Technology Products, Mr Shih-Chun Weng of Chinese Taipei, informed m",
+      "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "wto-news",
       "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Днес Управителният съвет на Българската народна банка (БНБ) издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „ФИН ЦЕНТЪР“ АД на основание чл. 9, ал. 11 от Закона за лицата, обслужващи кредити, и купувачите на кредити",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261111_3_BG",
-      "published": "2026-11-11T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие Наредби за изменение и допълнение на Наредба № 2, Наредба № 4, Наредба № 7, Наредба № 8, Наредба № 10, Наредба № 11 и Наредба № 20 на БНБ",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261111_1_BG",
-      "published": "2026-11-11T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие Наредба за изменение на Наредба № 30 на БНБ за изчисляване размера на дължимите от банките премийни вноски по Закона за гарантиране на влоговете в банките",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261026_BG",
-      "published": "2026-10-26T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "На свое заседание Управителният съвет на БНБ прие за информация изданието на БНБ „Икономически преглед“, брой 2 за 2026 г.",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261016_BG",
-      "published": "2026-10-16T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "БНБ пуска в обращение златна колекционерска монета „Св. Иван Рилски“",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261009_100EURO_BG",
-      "published": "2026-10-09T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – България",
-      "title": "Парламентът задължава кабинета да предоговори затварянето на въглищните централи с ЕС",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/367377-parlamentat-zadalzhava-kabineta-da-predogovori-zatvaryaneto-na-vaglishtnite-tsentrali-s-es",
-      "published": "2023-01-12T08:15:00+00:00",
-      "feed_id": "investor-bg",
-      "priority_score": 17
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
-      "published": "2026-11-21T11:28:47+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 14
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Multiannual Financial Framework - President Costa’s proposal",
-      "summary": "President of the European Council, António Costa, presented his proposal to reach an agreement on the 2028-2034 Multiannual Financial Framework during a press conference on 21 November 2026.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
-      "published": "2026-11-21T10:43:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 14
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – България",
-      "title": "Правителството определи таван на приходите на производителите на ток",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/367331-pravitelstvoto-opredeli-tavan-na-prihodite-na-proizvoditelite-na-tok",
-      "published": "2023-01-11T13:10:00+00:00",
-      "feed_id": "investor-bg",
-      "priority_score": 14
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen on the assassination attempt against a US-Ukrainian citizen in Denmark",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 I strongly condemn the assassination attempt against a US-Ukrainian citizen in Denmark, orchestrated by Russian intelligence services. This was an attack on EU ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556",
-      "published": "2026-11-21T09:01:16+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 13
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "\"Спартак контролираше почти целия двубой\", заяви треньорът на баскетболния Ботев Академик Давид Мазур",
-      "summary": "\"Спартак контролираше почти целия двубой\", каза след загубата в Плевен със 75:87 в мач от седмия кръг на Националната баскетболна лига за мъже старши треньорът на Ботев Академик от Пловдив Давид Мазур Той коментира още, че са започнали мача добре. След това са",
-      "url": "https://www.bta.bg/bg/news/sport/1251804--spartak-kontrolirashe-pochti-tseliya-dvuboy-zayavi-trenyorat-na-basketbolniya",
-      "published": "2026-11-21T19:36:59+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-      "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T19:33:49+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Russia-bound ship attacked in Gulf of Finland",
-      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T19:20:22+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "\"Като отбор можем да търсим шансове срещу всеки съперник\", каза треньорът на баскетболния Спартак Плевен Желко Лукаич",
-      "summary": "\"Като отбор можем да търсим шансове срещу всеки съперник и да играем за победа\", каза треньорът на баскетболния Спартак Плевен Желко Лукаич след домакинската победа над Ботев Академик от Пловдив с 87:75 в мач от седмия кръг на Националната баскетболна лига за",
-      "url": "https://www.bta.bg/bg/news/sport/1251800--kato-otbor-mozhem-da-tarsim-shansove-sreshtu-vseki-sapernik-kaza-trenyorat-na",
-      "published": "2026-11-21T19:16:22+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘Six, seven, maybe more preventable deaths’: Queensland’s LNP faces reckoning over broken health system",
-      "summary": "A government in office for more than two years is finally forced to take responsibility and seemingly no longer able to blame its Labor predecessors Get our daily political email , free app or daily news podcast At the beginning of another Queensland parliamen",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/queensland-health-ambulance-deaths-lnp-labor-ntwnfb",
-      "published": "2026-11-21T19:00:08+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
-      "summary": "Copini Beauty referred to New South Wales health regulators, while federal government says it is ‘deeply concerned’ Get our breaking news email , free app or daily news podcast An Australian beauty company that promotes “clean” ingredients “free from skin irri",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
-      "published": "2026-11-21T19:00:07+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian neo-Nazis among far-right groups raising hundreds of thousands via global crowdfunding platform",
-      "summary": "GiveSendGo has been accused of facilitating the financing of extremism, but the platform says it does not ‘condone racism, discrimination, hate speech, or violence of any kind’ Get our breaking news email , free app or daily news podcast Australian neo-Nazis h",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/australian-neo-nazis-among-far-right-groups-raising-hundreds-of-thousands-via-global-crowdfunding-platform-ntwnfb",
-      "published": "2026-11-21T19:00:06+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Getting rid of antibiotic resistance: Challenges and possible solutions",
-      "summary": "If antibiotics stop working, even the smallest infection can be fatal. The WHO expects millions of deaths over the next 25 years. Can the \"One Health\" approach help combat antibiotic resistance?",
-      "url": "https://www.dw.com/en/getting-rid-of-antibiotic-resistance-challenges-and-possible-solutions/a-80010693?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T18:39:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "\"Доволен съм от себераздаването на футболистите\" каза след варненското дерби треньорът на Черно море Илиан Илиев",
-      "summary": "Изказване на треньора на Черно море Илиан Илиев след градското дерби от 15-ия кръг на Първа лига срещу отбора на Спартак 1918 (Варна), завършило 0:0 Илиан Илиев (треньор на Черно море) – „Първо стана дерби откъм битка. Винаги са били такива мачовете. Говорихме",
-      "url": "https://www.bta.bg/bg/news/sport/1251786--dovolen-sam-ot-seberazdavaneto-na-futbolistite-kaza-sled-varnenskoto-derbi-tre",
-      "published": "2026-11-21T18:38:42+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Пловдивската митрополия отбеляза Деня на християнска младеж и семейство с празничен концерт в Драматичния театър",
-      "summary": "На християнския празник Въведение Богородично в Драматичния театър „Н. Масалитинов“ в Пловдив беше изнесен тържествен концерт по случай празника на християнското семейство и православната младеж. Събитието беше организирано от Културно-просветния отдел на Плов",
-      "url": "https://www.bta.bg/bg/news/lik/1251790-plovdivskata-mitropoliya-otbelyaza-denya-na-hristiyanska-mladezh-i-semeystvo-s-p",
-      "published": "2026-11-21T18:38:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "\"Беше закономерно да си разделим по 1 точка\", смята наставникът на Спартак 1918 Варна след градското дерби срещу Черно море Даниел Моралес",
-      "summary": "Изказване на треньора на Спартак 1918 Варна Даниел Моралес след градското дерби от 15-ия кръг на Първа лига срещу Черно море, завършило 0:0. Даниел Моралес (треньор на Спартак 1918 Варна) – „След като вече е минало, е по-лесно да направим някои анализи. Мисля,",
-      "url": "https://www.bta.bg/bg/news/sport/1251791--beshe-zakonomerno-da-si-razdelim-po-1-tochka-smyata-nastavnikat-na-spartak-19",
-      "published": "2026-11-21T18:37:35+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Светлините на коледната елха в Благоевград грейнаха на празника на християнското семейство",
-      "summary": "Светлините на коледната елха в Благоевград грейнаха на празника на християнското семейство с празнична програма с участието на деца от града и Дядо Коледа. Събитието се състоя тази вечер на площад „Георги Измирлиев“ и постави началото на коледния сезон в града",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251789-svetlinite-na-kolednata-elha-v-blagoevgrad-greynaha-na-praznika-na-hristiyanskot",
-      "published": "2026-11-21T18:34:18+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Златоград отбеляза 114 години от освобождението си",
-      "summary": "Златоград отбеляза 114 години от освобождението на града и празника си – 21 ноември. Кметът Мирослав Янчев припомни, че на тази дата през 1912 г., по време на Балканската война, войските на генерал Черевин освобождават Златоград. Тържествата започнаха с шестви",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251779-zlatograd-otbelyaza-114-godini-ot-osvobozhdenieto-si",
-      "published": "2026-11-21T18:30:28+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
-      "summary": "The alleged leader of the Beltran Leyva gang and one of the FBI's most wanted fugitives, known as 'Chapo Isidro,' was captured by the Mexican military following a raid and a shootout in the coastal Sinaloa state.",
-      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T18:30:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Историческият музей в Петрич отбеляза 60 години от създаването си с тържествена вечер",
-      "summary": "Историческият музей в Петрич отбеляза 60 години от създаването си с тържествена вечер, посветена на историята на институцията, хората, допринесли за развитието ѝ, и богатството на българското културно наследство. Честването е част от поредица инициативи, орган",
-      "url": "https://www.bta.bg/bg/news/lik/1251776-istoricheskiyat-muzey-v-petrich-otbelyaza-60-godini-ot-sazdavaneto-si-s-tarzhest",
-      "published": "2026-11-21T18:04:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-      "summary": "Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade The Mexican military captured one of the FBI’s top 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night.",
-      "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
-      "published": "2026-11-21T17:46:55+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – България",
-      "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/367399-predlagat-vrashtane-na-mesechnata-karta-za-edna-liniya-za-nazemen-transport-v-sofiya",
-      "published": "2023-01-12T09:49:00+00:00",
-      "feed_id": "investor-bg",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Russian helicopter suspected of violating Finnish airspace",
-      "summary": "Finland's Defense Ministry thinks the incursion is linked to a drone strike earlier Saturday on a Russian cargo ship, which is on a US sanctions list.",
-      "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T17:08:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 21st, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
-      "published": "2026-11-21T17:00:26+00:00",
-      "feed_id": "euronews",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Effort to regulate ‘killer robots’ delayed to 2028",
-      "summary": "Russia blocked the talks, but other countries were also opposed.",
-      "url": "https://www.politico.eu/article/effort-regulate-killer-robots-delayed-until-2028-ai-un/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-21T16:43:51+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "International UN talks on controlling use of autonomous weapons collapse",
-      "summary": "Week-long efforts fail to establish negotiating mandate on AI warfare after Russian ‘filibustering’ Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control the use of autonomous weapons collapsed just before 5am a",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
-      "published": "2026-11-21T16:36:11+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T16:35:15+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU and Indonesia sign trade deal",
-      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
-      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T15:21:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "British man recalls ‘despair’ over son’s death after fall from Cyprus window",
-      "summary": "Joshua Foster tells of moment he ‘lost control’ of two-year-old when he fell from fourth storey of hotel A British father who was fined by the courts after his two-year-old son fell from a fourth-floor window during a family holiday in Cyprus has recalled his",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/21/british-man-recalls-despair-over-sons-death-after-fall-from-cyprus-window",
-      "published": "2026-11-21T15:19:03+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "New EU budget proposal aims at tax gobal tech giants",
-      "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
-      "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T14:58:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Димитър Радев: ЕЦБ трябва да е готова за ново повишение на лихвите",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439888-dimitar-radev-etsb-tryabva-da-e-gotova-za-novo-povishenie-na-lihvite",
-      "published": "2026-11-21T14:45:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Russia strikes Zelenskyy's hometown, killing 2",
-      "summary": "The attacks follow Russian President Vladimir Putin's vow of a \"painful\" response to Ukraine's attacks this week on the Kerch Bridge, linking Russian-occupied Crimea.",
-      "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T14:44:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Jair Bolsonaro hospitalised with abdominal pain while under house arrest",
-      "summary": "The former Brazilian president was taken to hospital with abdominal pain, accompanied by military police.",
-      "url": "https://www.euronews.com/2026/11/21/jair-bolsonaro-hospitalised-with-abdominal-pain-while-under-house-arrest",
-      "published": "2026-11-21T14:35:56+00:00",
-      "feed_id": "euronews",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
-      "summary": "Fausto Isidro Meza Flores, one of the FBI’s ten most-wanted fugitives, was arrested in a military operation involving US intelligence cooperation. Gunfire, burning vehicles and panic among civilians followed the raid in northern Mexico.",
-      "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
-      "published": "2026-11-21T14:20:35+00:00",
-      "feed_id": "euronews",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
-      "summary": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempted killing of",
-      "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-      "published": "2026-11-21T14:03:50+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "EU and Indonesia sign ambitious trade and investment agreements",
-      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Factsheet EU-Indonesia - Main benefits",
-      "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Main benefits Factsheet EU-Indonesia - Main benefits",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2169",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 11
     }
   ],
   "feed_status": {
