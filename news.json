@@ -1,18 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:33:49.668251+00:00",
-  "last_checked_at": "2026-11-21T16:33:49.668255+00:00",
+  "updated_at": "2026-11-21T17:24:52.692906+00:00",
+  "last_checked_at": "2026-11-21T17:24:52.692909+00:00",
   "items": [
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Радомир ще реализира два инфраструктурни проекта на обща прогнозна стойност над 2,9 млн. евро",
-      "summary": "Община Радомир е подписала споразумения с Министерството на регионалното развитие и благоустройството (МРРБ) за финансиране на два инфраструктурни проекта с обща прогнозна стойност над 2,9 млн. евро. Те предвиждат изграждане на довеждащ водопровод за селата Ка",
-      "url": "https://www.bta.bg/bg/news/economy/1251734-obshtina-radomir-shte-realizira-dva-infrastrukturni-proekta-na-obshta-prognozna-",
-      "published": "2026-11-21T15:42:01+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 44
-    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -45,6 +35,36 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Във Велико Търново 38 следователи от общо 43-ма по списък гласуваха в изборите за членове на нов ВСС от квотата на следователите",
+      "summary": "Във Велико Търново 38 следователи от общо 43-ма по списък гласуваха в изборите за членове на нов Висш съдебен съвет от квотата на следователите. Гласуването започна в 8:00 часа и приключи в 18:00 ч., като премина без проблеми, съобщи председателят на изборната",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251751-vav-veliko-tarnovo-38-sledovateli-ot-obshto-43-ma-po-spisak-glasuvaha-v-izborite",
+      "published": "2026-11-21T16:40:42+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 38
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "От 55 следователи с право на глас във Варна за Висш съдебен съвет гласуваха 49",
+      "summary": "От 55 следователи с право на глас във Варна за членове на Висшия съдебен съвет (ВСС) гласуваха 49. Резултатите обяви председателят на избирателна секция номер 4 Калин Владимиров, който прочете протокола след приключването на изборния ден и преброяването на бюл",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251756-ot-55-sledovateli-s-pravo-na-glas-vav-varna-za-vissh-sadeben-savet-glasuvaha-49",
+      "published": "2026-11-21T16:38:22+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 38
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Бургас 27 следователи гласуваха за член на ВСС от професионалната си квота",
+      "summary": "Гласуването за избор на член на Висшия съдебен съвет (ВСС) от професионалната квота на следователите приключи в Бургас точно в 18:00 часа. Това съобщиха от секционната избирателна комисия в Съдебната палата в града. Общо 27 следователи са упражнили правото си",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251750-v-burgas-27-sledovateli-glasuvaha-za-chlen-na-vss-ot-profesionalnata-si-kvota",
+      "published": "2026-11-21T16:35:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 38
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
       "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
@@ -71,7 +91,7 @@
       "url": "https://www.economic.bg/bg/a/view/kyde-tochno-shte-bydat-novite-metrostancii-kym-simeonovskija-lift-i-okolovrystnoto",
       "published": "2026-11-21T07:01:09+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 36
+      "priority_score": 35
     },
     {
       "section": "bulgaria",
@@ -92,26 +112,6 @@
       "published": "2026-11-21T12:00:00+00:00",
       "feed_id": "investor-economy",
       "priority_score": 33
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Министър-председателят Румен Радев е на официално посещение в Саудитска Арабия",
-      "summary": "Започна официалното посещение на министър-председателя Румен Радев в Саудитска Арабия, съобщиха от правителствената информационна служба. Визитата на българския премиер е по покана на престолонаследника и министър-председател на Кралство Саудитска Арабия принц",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251735-ministar-predsedatelyat-rumen-radev-e-na-ofitsialno-poseshtenie-v-sauditska-arab",
-      "published": "2026-11-21T15:50:31+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 30
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Близо 500 състезатели участват в Държавното първенство по карате в Русе",
-      "summary": "Близо 500 състезатели от 30 клуба в страната участват в Държавното първенство по карате за всички възрасти – втора фаза, което се провежда в зала „Арена Русе“. Турнирът беше официално открит днес и ще продължи и утре. Това каза за БТА Николай Цанев - президент",
-      "url": "https://www.bta.bg/bg/news/sport/1251702-blizo-500-sastezateli-uchastvat-v-darzhavnoto-parvenstvo-po-karate-v-ruse",
-      "published": "2026-11-21T15:10:47+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 30
     },
     {
       "section": "bulgaria",
@@ -186,6 +186,16 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Спартак 1918 Варна и Черно море не успяха да си отбележат гол в градското дерби",
+      "summary": "Първенство на България по футбол, среща от 15-ия кръг на efbet Лигата: Спартак 1918 Варна – Черно море 0:0 Стадион „Спартак“; Зрители - 5500; Съдия – Мартин Великов; Жълти картони: Цветослав Маринов, Закария Тиндано, Пламен Илиев (Спартак 1918 Варна); Берк Бей",
+      "url": "https://www.bta.bg/bg/news/sport/1251765-spartak-1918-varna-i-cherno-more-ne-uspyaha-da-si-otbelezhat-gol-v-gradskoto-der",
+      "published": "2026-11-21T17:10:23+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Приключи гласуването на следователите за член на ВСС и започна преброяването на гласовете",
       "summary": "Приключи гласуването на следователите за член на Висшия съдебен съвет и започна преброяването на гласовете, съобщиха от пресцентъра на съвета. От ВСС уточняват, че към момента не е започнало преброяването на бюлетините в избирателната секция в Пловдив, поради",
       "url": "https://www.bta.bg/bg/news/bulgaria/1251746-priklyuchi-glasuvaneto-na-sledovatelite-za-chlen-na-vss-i-zapochna-prebroyavanet",
@@ -235,16 +245,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Презаписването на IPO-то на Anthropic може би ще убеди пазарните участници да нямат страх от AI",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/439866-prezapisvaneto-na-ipo-to-na-anthropic-mozhe-bi-shte-ubedi-pazarnite-uchastnitsi-da-nyamat-strah-ot-ai",
-      "published": "2026-11-20T18:39:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 21
-    },
-    {
-      "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ взе решение за разрешаване на преобразуването на „Токуда Банк“ ЕАД чрез вливане по реда на чл. 262 от Търговския закон в „Българо-американска кредитна банка“ АД",
       "summary": "",
@@ -252,6 +252,16 @@
       "published": "2026-10-09T00:00:00+00:00",
       "feed_id": "bnb-news",
       "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Презаписването на IPO-то на Anthropic може би ще убеди пазарните участници да нямат страх от AI",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/439866-prezapisvaneto-na-ipo-to-na-anthropic-mozhe-bi-shte-ubedi-pazarnite-uchastnitsi-da-nyamat-strah-ot-ai",
+      "published": "2026-11-20T18:39:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 20
     },
     {
       "section": "bulgaria",
@@ -275,16 +285,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Колко от българските домакинства имат деца? (Графика)",
-      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
-      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
-      "published": "2026-11-20T14:42:23+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 20
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
@@ -302,6 +302,16 @@
       "published": "2026-11-20T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 20
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Колко от българските домакинства имат деца? (Графика)",
+      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
+      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
+      "published": "2026-11-20T14:42:23+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 19
     },
     {
       "section": "bulgaria",
@@ -384,16 +394,6 @@
       "priority_score": 17
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Оряхово и Мизия отбелязаха 149 години от освобождението си с празнични програми и поднасяне на венци и цветя",
-      "summary": "С празнични програми и поднасяне на венци и цветя пред паметниците на загиналите в Оряхово и Мизия отбелязаха 149 години от освобождението си от османско владичество. В Оряхово тържественото честване се състоя на площад „Дико Илиев“, съобщиха от Община Оряхово",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251729-oryahovo-i-miziya-otbelyazaha-149-godini-ot-osvobozhdenieto-si-s-praznichni-prog",
-      "published": "2026-11-21T15:34:18+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 15
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
@@ -411,7 +411,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
       "published": "2026-11-21T10:43:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -435,11 +435,61 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Russian helicopter suspected of violating Finnish airspace",
+      "summary": "Finland's Defense Ministry thinks the incursion is linked to a drone strike earlier Saturday on a Russian cargo ship, which is on a US sanctions list.",
+      "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T17:08:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 21st, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
+      "published": "2026-11-21T17:00:26+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Празничен концерт в храма „Света Неделя“ отбелязва Въведение Богородично",
+      "summary": "Празничен концерт с църковни песнопения в храма „Света Неделя“ отбелязва тази вечер Въведение Богородично. На събитието присъства българският патриарх и софийски митрополит Даниил. По-рано днес в Самоков той призова родителите да възпитават децата си във вяра,",
+      "url": "https://www.bta.bg/bg/news/lik/1251759-praznichen-kontsert-v-hrama-sveta-nedelya-otbelyazva-vavedenie-bogorodichno",
+      "published": "2026-11-21T16:58:10+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Effort to regulate ‘killer robots’ delayed to 2028",
+      "summary": "Russia blocked the talks, but other countries were also opposed.",
+      "url": "https://www.politico.eu/article/effort-regulate-killer-robots-delayed-until-2028-ai-un/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-21T16:43:51+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "summary": "Week-long efforts fail to establish negotiating mandate on AI warfare after Russian ‘filibustering’ Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control the use of autonomous weapons collapsed just before 5am a",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "published": "2026-11-21T16:36:11+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "FBI reportedly investigating apparent hack of its criminal database",
       "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
       "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T16:27:14+00:00",
+      "published": "2026-11-21T16:35:15+00:00",
       "feed_id": "bbc-world",
       "priority_score": 12
     },
@@ -454,6 +504,16 @@
       "priority_score": 12
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – България",
+      "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/367399-predlagat-vrashtane-na-mesechnata-karta-za-edna-liniya-za-nazemen-transport-v-sofiya",
+      "published": "2023-01-12T09:49:00+00:00",
+      "feed_id": "investor-bg",
+      "priority_score": 12
+    },
+    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU and Indonesia sign trade deal",
@@ -461,7 +521,7 @@
       "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-21T15:21:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -471,17 +531,7 @@
       "url": "https://www.theguardian.com/uk-news/2026/nov/21/british-man-recalls-despair-over-sons-death-after-fall-from-cyprus-window",
       "published": "2026-11-21T15:19:03+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Коледният базар във Враца вече работи, отворена за посетители е и ледената пързалка",
-      "summary": "Коледният базар във Враца беше официално открит днес на централния площад в града. Той предлага разнообразие от занаятчийска продукция, сред която натурална козметика, свещи, сладки и солени деликатеси, коледна украса, както и различни забавления за малки и го",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251714-koledniyat-bazar-vav-vratsa-veche-raboti-otvorena-za-posetiteli-e-i-ledenata-pa",
-      "published": "2026-11-21T15:14:53+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -491,7 +541,7 @@
       "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-21T14:58:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -501,7 +551,7 @@
       "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T14:54:24+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "bulgaria",
@@ -511,7 +561,7 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439888-dimitar-radev-etsb-tryabva-da-e-gotova-za-novo-povishenie-na-lihvite",
       "published": "2026-11-21T14:45:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -521,7 +571,7 @@
       "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-21T14:44:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -531,67 +581,7 @@
       "url": "https://www.euronews.com/2026/11/21/jair-bolsonaro-hospitalised-with-abdominal-pain-while-under-house-arrest",
       "published": "2026-11-21T14:35:56+00:00",
       "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "EU and Indonesia sign ambitious trade and investment agreements",
-      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Factsheet EU-Indonesia - Main benefits",
-      "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Main benefits Factsheet EU-Indonesia - Main benefits",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2169",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Factsheet EU-Indonesia - Agriculture",
-      "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Agriculture Factsheet EU-Indonesia - Agriculture",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2170",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Factsheet EU-Indonesia - Sustainability",
-      "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Sustainability Factsheet EU-Indonesia - Sustainability",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2171",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – България",
-      "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/367399-predlagat-vrashtane-na-mesechnata-karta-za-edna-liniya-za-nazemen-transport-v-sofiya",
-      "published": "2023-01-12T09:49:00+00:00",
-      "feed_id": "investor-bg",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -685,22 +675,32 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Haitians excited but uneasy as El Salvador troops fight gangs",
-      "summary": "Foreign combatants in Port-au-Prince welcomed by many after years of gang control but some fear offensive could exacerbate volatile situation A bullet-peppered mural of the Haitian striker Emmanuel Sanon covers the facade of Port-au-Prince’s main football grou",
-      "url": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele",
-      "published": "2026-11-21T11:00:57+00:00",
-      "feed_id": "guardian-world",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
       "priority_score": 11
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 21st, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-midday",
-      "published": "2026-11-21T11:00:15+00:00",
-      "feed_id": "euronews",
+      "source": "Европейска комисия",
+      "title": "EU and Indonesia sign ambitious trade and investment agreements",
+      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Factsheet EU-Indonesia - Main benefits",
+      "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Main benefits Factsheet EU-Indonesia - Main benefits",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2169",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
       "priority_score": 11
     }
   ],
