@@ -58,7 +58,22 @@ jobs:
           fi
           echo "lane=$LANE" >> "$GITHUB_OUTPUT"
       - name: Free evidence and budget preflight
-        run: python scripts/generate_analysis.py --lane "${{ steps.lane.outputs.lane }}" --dry-run
+        env:
+          LANE: ${{ steps.lane.outputs.lane }}
+        run: |
+          python - <<'PY'
+          import runpy
+          import sys
+          def trace(frame, event, arg):
+              if event == "exception":
+                  exc_type, exc, tb = arg
+                  if exc_type is not KeyboardInterrupt:
+                      print(f"TRACE_EXCEPTION {frame.f_code.co_filename}:{frame.f_lineno} {exc_type.__name__}: {exc}")
+              return trace
+          sys.settrace(trace)
+          sys.argv = ["scripts/generate_analysis.py", "--lane", __import__("os").environ["LANE"], "--dry-run"]
+          runpy.run_path("scripts/generate_analysis.py", run_name="__main__")
+          PY
       - name: Check explicit publishing switch and API secret
         id: api
         env:
