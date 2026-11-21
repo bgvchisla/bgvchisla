@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:12:19.731041+00:00",
-  "last_checked_at": "2026-11-21T15:12:19.731045+00:00",
+  "updated_at": "2026-11-21T15:54:02.174554+00:00",
+  "last_checked_at": "2026-11-21T15:54:02.174557+00:00",
   "items": [
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Ева Майдел се присъедини към новата инициатива за технологична стратегия на Мюнхенската конференция по сигурността",
-      "summary": "Евродепутатът и заместник-председател на Делегацията за отношения със САЩ в Европейския парламент Ева Майдел (ЕНП/ГЕРБ – СДС) прие официална покана да се присъедини като ротационен член в новосъздадената Инициатива за технологична стратегия (Tech Strategy Init",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251684-eva-maydel-se-prisaedini-kam-novata-initsiativa-za-tehnologichna-strategiya-na-m",
-      "published": "2026-11-21T13:33:43+00:00",
+      "title": "Община Радомир ще реализира два инфраструктурни проекта на обща прогнозна стойност над 2,9 млн. евро",
+      "summary": "Община Радомир е подписала споразумения с Министерството на регионалното развитие и благоустройството (МРРБ) за финансиране на два инфраструктурни проекта с обща прогнозна стойност над 2,9 млн. евро. Те предвиждат изграждане на довеждащ водопровод за селата Ка",
+      "url": "https://www.bta.bg/bg/news/economy/1251734-obshtina-radomir-shte-realizira-dva-infrastrukturni-proekta-na-obshta-prognozna-",
+      "published": "2026-11-21T15:42:01+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 44
     },
@@ -86,6 +86,16 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Министър-председателят Румен Радев е на официално посещение в Саудитска Арабия",
+      "summary": "Започна официалното посещение на министър-председателя Румен Радев в Саудитска Арабия, съобщиха от правителствената информационна служба. Визитата на българския премиер е по покана на престолонаследника и министър-председател на Кралство Саудитска Арабия принц",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251735-ministar-predsedatelyat-rumen-radev-e-na-ofitsialno-poseshtenie-v-sauditska-arab",
+      "published": "2026-11-21T15:50:31+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 30
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Близо 500 състезатели участват в Държавното първенство по карате в Русе",
       "summary": "Близо 500 състезатели от 30 клуба в страната участват в Държавното първенство по карате за всички възрасти – втора фаза, което се провежда в зала „Арена Русе“. Турнирът беше официално открит днес и ще продължи и утре. Това каза за БТА Николай Цанев - президент",
       "url": "https://www.bta.bg/bg/news/sport/1251702-blizo-500-sastezateli-uchastvat-v-darzhavnoto-parvenstvo-po-karate-v-ruse",
@@ -122,16 +132,6 @@
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
       "priority_score": 28
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Образованите хора са най-важният ресурс, каза директорът на Регионалния център за дистанционно обучение към УНСС в Хасково проф. д-р Надя Миронова",
-      "summary": "Образованите, инициативните и отговорни хора са най-важният ресурс за развитието на Хасково и целия регион. С тези думи директорът на Регионалния център за дистанционно обучение (РЦДО) към Университета за национално и световно стопанство (УНСС) в Хасково проф.",
-      "url": "https://www.bta.bg/bg/news/lik/1251654-obrazovanite-hora-sa-nay-vazhniyat-resurs-kaza-direktorat-na-regionalniya-tsent",
-      "published": "2026-11-21T13:25:57+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 27
     },
     {
       "section": "bulgaria",
@@ -215,16 +215,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Потребителското доверие в САЩ расте през ноември на фона на спада на цените на бензина",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
-      "published": "2026-11-20T17:26:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 21
-    },
-    {
-      "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ взе решение за разрешаване на преобразуването на „Токуда Банк“ ЕАД чрез вливане по реда на чл. 262 от Търговския закон в „Българо-американска кредитна банка“ АД",
       "summary": "",
@@ -232,6 +222,16 @@
       "published": "2026-10-09T00:00:00+00:00",
       "feed_id": "bnb-news",
       "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Потребителското доверие в САЩ расте през ноември на фона на спада на цените на бензина",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
+      "published": "2026-11-20T17:26:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 20
     },
     {
       "section": "bulgaria",
@@ -354,6 +354,16 @@
       "priority_score": 17
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Оряхово и Мизия отбелязаха 149 години от освобождението си с празнични програми и поднасяне на венци и цветя",
+      "summary": "С празнични програми и поднасяне на венци и цветя пред паметниците на загиналите в Оряхово и Мизия отбелязаха 149 години от освобождението си от османско владичество. В Оряхово тържественото честване се състоя на площад „Дико Илиев“, съобщиха от Община Оряхово",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251729-oryahovo-i-miziya-otbelyazaha-149-godini-ot-osvobozhdenieto-si-s-praznichni-prog",
+      "published": "2026-11-21T15:34:18+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 15
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
@@ -392,6 +402,36 @@
       "published": "2023-01-11T13:10:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 14
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU and Indonesia sign trade deal",
+      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
+      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T15:21:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "British man recalls ‘despair’ over son’s death after fall from Cyprus window",
+      "summary": "Joshua Foster tells of moment he ‘lost control’ of two-year-old when he fell from fourth storey of hotel A British father who was fined by the courts after his two-year-old son fell from a fourth-floor window during a family holiday in Cyprus has recalled his",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/21/british-man-recalls-despair-over-sons-death-after-fall-from-cyprus-window",
+      "published": "2026-11-21T15:19:03+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Коледният базар във Враца вече работи, отворена за посетители е и ледената пързалка",
+      "summary": "Коледният базар във Враца беше официално открит днес на централния площад в града. Той предлага разнообразие от занаятчийска продукция, сред която натурална козметика, свещи, сладки и солени деликатеси, коледна украса, както и различни забавления за малки и го",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251714-koledniyat-bazar-vav-vratsa-veche-raboti-otvorena-za-posetiteli-e-i-ledenata-pa",
+      "published": "2026-11-21T15:14:53+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
     },
     {
       "section": "europe",
@@ -445,16 +485,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "British man recalls ‘despair’ over son’s death after fall from Cyprus window",
-      "summary": "Joshua Foster tells of moment he ‘lost control’ of two-year-old when he fell from fourth storey of hotel A British father who was fined by the courts after his two-year-old son fell from a fourth-floor window during a family holiday in Cyprus has recalled his",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/21/british-man-recalls-despair-over-sons-death-after-fall-from-cyprus-window",
-      "published": "2026-11-21T14:35:20+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
       "summary": "Fausto Isidro Meza Flores, one of the FBI’s ten most-wanted fugitives, was arrested in a military operation involving US intelligence cooperation. Gunfire, burning vehicles and panic among civilians followed the raid in northern Mexico.",
@@ -491,56 +521,6 @@
       "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
       "published": "2026-11-21T14:03:50+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Първият кулинарен конкурс в луковитското село Карлуково събра 20 участници",
-      "summary": "Първият кулинарен конкурс за традиционни български ястия в луковитското село Карлуково събра около 20 участници. Инициативата е организирана от Народно читалище „Дико Илиев – 1904 г.“ в населеното място и е по повод Деня на християнското семейство, а в нея бях",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251693-parviyat-kulinaren-konkurs-v-lukovitskoto-selo-karlukovo-sabra-20-uchastnitsi",
-      "published": "2026-11-21T13:52:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Жители на няколко населени места в област Велико Търново се оплакаха от проблеми с електрозахранването на среща с Мая Манолова в Шемшево",
-      "summary": "Председателят на Комисията за защита на потребителите (КЗП) Мая Манолова ще настоява за по-високи неустойки за електроразпределителните дружества при лошо качество на електрозахранването и за облекчаване на процедурите за обезщетяване на потърпевшите потребите",
-      "url": "https://www.bta.bg/bg/news/economy/1251686-zhiteli-na-nyakolko-naseleni-mesta-v-oblast-veliko-tarnovo-se-oplakaha-ot-proble",
-      "published": "2026-11-21T13:43:52+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "„Естествен филм“ представя по-различен, нестандартен портрет на Георги Господинов, каза за БТА режисьорът Калина Николова",
-      "summary": "„Естествен филм“ представя един по-различен и нестандартен портрет на писателя Георги Господинов, като дава възможност на зрителите да видят не само автора на книгите, но и човека зад тях. Това каза за БТА режисьорът Калина Николова при представянето на докуме",
-      "url": "https://www.bta.bg/bg/news/lik/1251677--estestven-film-predstavya-po-razlichen-nestandarten-portret-na-georgi-gospodi",
-      "published": "2026-11-21T13:31:21+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Личната информация за децата в интернет трябва да е абсолютно минимална, каза председателят на Комисията за защита на личните данни Борислав Божинов",
-      "summary": "Личната информация за децата в интернет трябва да е абсолютно минимизирана, каза във Варна председателят на Комисията за защита на личните данни (КЗЛД) Борислав Божинов. По думите му, всеки възрастен би следвало да си даде сметка колко разрушителни последици з",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251685-lichnata-informatsiya-za-detsata-v-internet-tryabva-da-e-absolyutno-minimalna-k",
-      "published": "2026-11-21T13:27:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-      "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T13:17:38+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 12
     },
     {
@@ -602,6 +582,46 @@
       "published": "2023-01-12T09:49:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Първият кулинарен конкурс в луковитското село Карлуково събра 20 участници",
+      "summary": "Първият кулинарен конкурс за традиционни български ястия в луковитското село Карлуково събра около 20 участници. Инициативата е организирана от Народно читалище „Дико Илиев – 1904 г.“ в населеното място и е по повод Деня на християнското семейство, а в нея бях",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251693-parviyat-kulinaren-konkurs-v-lukovitskoto-selo-karlukovo-sabra-20-uchastnitsi",
+      "published": "2026-11-21T13:52:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 11
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Жители на няколко населени места в област Велико Търново се оплакаха от проблеми с електрозахранването на среща с Мая Манолова в Шемшево",
+      "summary": "Председателят на Комисията за защита на потребителите (КЗП) Мая Манолова ще настоява за по-високи неустойки за електроразпределителните дружества при лошо качество на електрозахранването и за облекчаване на процедурите за обезщетяване на потърпевшите потребите",
+      "url": "https://www.bta.bg/bg/news/economy/1251686-zhiteli-na-nyakolko-naseleni-mesta-v-oblast-veliko-tarnovo-se-oplakaha-ot-proble",
+      "published": "2026-11-21T13:43:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+      "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T13:17:38+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T13:15:21+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -681,26 +701,6 @@
       "url": "https://www.investor.bg/a/516-politika/439864-sreshtata-si-tramp-putin-i-granitsite-na-geopoliticheskoto-sblizhavane",
       "published": "2026-11-21T11:00:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP31: UN Climate summit runs into overtime as deal remains elusive",
-      "summary": "After nearly two weeks of negotiations, countries remain divided on how to fight global warming. A new draft declaration doesn't mention the phaseout of fossil fuels, the main drivers of climate change. DW has more.",
-      "url": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-overtime-as-deal-remains-elusive/live-79999516?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T10:52:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Costa cuts proposed EU budget by €44B",
-      "summary": "Brussels plans a tax on Big Tech to raise billions for the next budget cycle.",
-      "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-21T10:44:05+00:00",
-      "feed_id": "politico-europe",
       "priority_score": 11
     }
   ],
