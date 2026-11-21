@@ -485,6 +485,16 @@ label.sw{
 .site-footer a,.site-footer button{color:#42688f}
 .privacy-notice{border-color:#d6e0e9;border-top-color:#426f9b;box-shadow:0 10px 30px rgba(25,43,63,.16)}
 .privacy-actions button{border-radius:6px}
+/* Компактен банер за поверителност — фиксиран долу вдясно */
+.privacy-notice{left:auto;right:18px;bottom:18px;transform:none;width:min(370px,calc(100% - 36px));display:block;padding:12px 13px;border:1px solid #cbd6e2;border-top:3px solid #426f9b;border-radius:9px;box-shadow:0 8px 28px rgba(23,43,67,.22)}
+.privacy-copy>strong{font-size:.78rem;margin-bottom:3px}
+.privacy-copy p{font-size:.69rem;line-height:1.38;margin:0}
+.privacy-copy p a{white-space:normal}
+.privacy-actions{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:6px;margin-top:9px}
+.privacy-actions button{font-size:.67rem;padding:6px 9px;white-space:nowrap}
+.privacy-preferences{margin-top:9px;padding:9px}
+.privacy-preferences label{font-size:.68rem}
+@media(max-width:639px){.privacy-notice{left:auto;right:10px;bottom:10px;transform:none;width:min(370px,calc(100% - 20px));padding:10px 11px}.privacy-actions{justify-content:flex-end;margin-top:8px}.privacy-actions button{font-size:.65rem;padding:6px 8px}}
 @media(hover:hover){#site-content .c:hover{border-color:#c5d3e0;box-shadow:0 5px 14px rgba(31,50,72,.075);transform:translateY(-1px)}#site-content .box:hover{border-color:#d0dbe5}#site-content nav#nav button:not(.on):hover{background:#edf3f8;border-color:#bfcfdd;color:#2c4c6c}}
 @media(min-width:960px){#site-content section.on{column-gap:16px;row-gap:16px}#site-content section.on>.box{min-width:0}}
 @media(max-width:639px){#site-content section>h2{font-size:1.1rem;margin-top:18px}#site-content .g{gap:9px}#site-content .c{padding:13px 12px}#site-content .c .n{font-size:clamp(1.05rem,4.8vw,1.4rem)}#site-content .box{padding:14px 12px}#site-content .hb{grid-template-columns:minmax(86px,32%) 1fr auto;gap:7px;font-size:.72rem}#site-content nav#nav button{min-height:43px;padding:9px 5px;font-size:.74rem}#site-content .tip{font-size:.77rem;padding:11px 12px}}
@@ -1398,7 +1408,7 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 <div id="privacy-notice" class="privacy-notice" role="dialog" aria-modal="false" aria-labelledby="privacy-title" aria-describedby="privacy-description" hidden>
  <div class="privacy-copy">
   <strong id="privacy-title">Вашата поверителност</strong>
-  <p id="privacy-description">Използваме необходимите технологии за работата на сайта. С Ваше разрешение можем да използваме Google Analytics за обобщена статистика на посещенията и TradingView за пазарната лента. Изборът Ви не ограничава достъпа до съдържанието. <a href="privacy.html">Подробности в политиката за поверителност</a>.</p>
+  <p id="privacy-description">Използваме необходими технологии. По желание можете да разрешите аналитика и външно съдържание. Изборът Ви не ограничава достъпа до сайта. <a href="privacy.html">Подробности в политиката за поверителност</a>.</p>
  </div>
  <div id="privacy-preferences" class="privacy-preferences" hidden>
   <label><input type="checkbox" id="consent-analytics"> Аналитика (Google Analytics 4) — помага ни да разбираме посещенията и използването на страниците.</label>
