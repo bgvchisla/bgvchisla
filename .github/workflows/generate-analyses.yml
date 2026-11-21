@@ -52,12 +52,14 @@ jobs:
           source = path.read_text(encoding="utf-8")
           old_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
           new_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','fomc','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','financial','finance','fiscal','monetary','capital','productivity','employment','tax','lagarde','bis','wto','banking','bank','liquidity','payments','credit','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
-          if old_world not in source:
+          if old_world in source:
+              source = source.replace(old_world, new_world, 1)
+          elif new_world not in source:
               raise SystemExit("WORLD keyword definition not found")
-          source = source.replace(old_world, new_world, 1)
-          start = source.index("def get_evidence(lane):")
-          end = source.index("def api(prompt,cfg):", start)
-          replacement = r'''def story_tokens(text):
+          if "def story_tokens(text):" not in source:
+              start = source.index("def get_evidence(lane):")
+              end = source.index("def api(prompt,cfg):", start)
+              replacement = r'''def story_tokens(text):
            words=set(re.findall(r"[a-z]{3,}|[а-яё]{3,}",str(text).casefold()))
            stop={'the','and','for','from','with','that','this','after','before','into','over','under','about','amid','their','they','have','has','will','would','could','should','its','his','her','are','was','were','been','being','new','says','said','say','proposes','proposal','announces','announcement','statement','today','latest','global','world','economy','market','eu','european'}
            return words-stop
@@ -72,9 +74,10 @@ jobs:
            if health.get('ok',0)<max(8,(health.get('total',0)+1)//2):raise RuntimeError('News feed health below threshold')
            old=read('articles',[]);used={u for a in old[-12:] for u in a.get('source_urls',[])}
            sec='bulgaria' if lane=='bulgaria' else 'europe';terms=BG if lane=='bulgaria' else WORLD;now=dt.datetime.now(dt.timezone.utc);rank=[]
+           max_age_days=7 if lane=='world' else 10
            for x in news.get('items',[]):
             d=date(x.get('published'));url=x.get('url','');title=str(x.get('title',''));title_l=title.casefold();summary=str(x.get('summary','')).casefold();body=title_l+' '+summary
-            if x.get('section')!=sec or not url.startswith('https://') or url in used or not d or (now-d).days>10 or d>now+dt.timedelta(hours=3):continue
+            if x.get('section')!=sec or not url.startswith('https://') or url in used or not d or (now-d).days>max_age_days or d>now+dt.timedelta(hours=3):continue
             title_hits=[t for t in terms if t in title_l]
             if lane=='world' and not title_hits:continue
             score=sum(3 if t in title_l else 1 for t in terms if t in body)
@@ -108,12 +111,10 @@ jobs:
              else:facts={'reference_date':data.get('reference_date'),'values':data.get('values',{})}
              datasets.append({'source_id':sid,'period':data.get('latest_period') or data.get('reference_date'),'methodology':clean(data.get('methodology',''))[:700],'facts':facts})
            return {'lane':lane,'generated_at':dt.datetime.now(TZ).isoformat(),'feed_health':health,'sources':sources+items,'datasets':datasets,'chart_candidates':charts}
-          '''
           source = source[:start] + replacement + source[end:]
           path.write_text(source, encoding="utf-8")
-          print("Applied world headline relevance and near-duplicate checks.")
-          PY
-      - name: Resolve editorial lane
+          print("Applied world headline relevance, duplicate detection and seven-day freshness checks.")
+          PY      - name: Resolve editorial lane
         id: lane
         env:
           EVENT_NAME: ${{ github.event_name }}
@@ -144,6 +145,20 @@ jobs:
           PY
       - name: Free evidence and budget preflight
         run: python scripts/generate_analysis.py --lane "${{ steps.lane.outputs.lane }}" --dry-run
+      - name: Persist validated generator correction
+        if: success()
+        run: |
+          gzip -n -c scripts/generate_analysis.py > /tmp/generate_analysis.py.gz
+          mv /tmp/generate_analysis.py.gz scripts/generate_analysis.py.gz
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/generate_analysis.py.gz
+          if git diff --cached --quiet; then
+            echo "Generator is already current."
+          else
+            git commit -m "Improve world analysis evidence selection"
+            git push origin HEAD:main
+          fi
       - name: Check explicit publishing switch and API secret
         id: api
         env:
