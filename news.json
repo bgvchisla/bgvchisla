@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:42:09.876758+00:00",
-  "last_checked_at": "2026-11-21T00:42:09.876761+00:00",
+  "updated_at": "2026-11-21T01:54:37.385885+00:00",
+  "last_checked_at": "2026-11-21T01:54:37.385888+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -61,7 +61,7 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 28
+      "priority_score": 27
     },
     {
       "section": "europe",
@@ -91,7 +91,7 @@
       "url": "https://www.bta.bg/bg/news/lik/1251467-maykal-kalan-razkaza-v-gabrovo-za-dalgiya-pat-do-opakovaneto-na-rayhstaga-ot-kri",
       "published": "2026-11-20T19:33:16+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 25
+      "priority_score": 24
     },
     {
       "section": "bulgaria",
@@ -135,26 +135,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Предложение на МЗХ: Земя да се наема дългосрочно, а аренди да се плащат по банков път",
-      "summary": "",
-      "url": "https://www.investor.bg/a/520-zemedelie/439857-predlozhenie-na-mzh-zemya-da-se-naema-dalgosrochno-a-arendi-da-se-plashtat-po-bankov-pat",
-      "published": "2026-11-20T15:09:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Колко от българските домакинства имат деца? (Графика)",
-      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
-      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
-      "published": "2026-11-20T14:42:23+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
@@ -185,12 +165,22 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "След десетгодишна пауза международното студентско биенале „Рисунка“ събра в София творби на студенти от осем страни",
-      "summary": "Националната художествена академия (НХА) възобнови Международното студентско биенале „Рисунка“ десет години след последното му издание. Четвъртото биенале бе открито тази вечер в столичната галерия „Академия“ с изложба на 93-ма студенти от десет висши училища",
-      "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
-      "published": "2026-11-20T19:01:30+00:00",
-      "feed_id": "bta-bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Предложение на МЗХ: Земя да се наема дългосрочно, а аренди да се плащат по банков път",
+      "summary": "",
+      "url": "https://www.investor.bg/a/520-zemedelie/439857-predlozhenie-na-mzh-zemya-da-se-naema-dalgosrochno-a-arendi-da-se-plashtat-po-bankov-pat",
+      "published": "2026-11-20T15:09:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 23
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Колко от българските домакинства имат деца? (Графика)",
+      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
+      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
+      "published": "2026-11-20T14:42:23+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 23
     },
     {
@@ -235,13 +225,23 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "След десетгодишна пауза международното студентско биенале „Рисунка“ събра в София творби на студенти от осем страни",
+      "summary": "Националната художествена академия (НХА) възобнови Международното студентско биенале „Рисунка“ десет години след последното му издание. Четвъртото биенале бе открито тази вечер в столичната галерия „Академия“ с изложба на 93-ма студенти от десет висши училища",
+      "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
+      "published": "2026-11-20T19:01:30+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 22
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Столична община вече ще си плаща за събирането на старите дрехи",
       "summary": "Столична община ще плаща до 220 хил. евро годишно за събирането на стари дрехи и обувки, след като досегашният безплатен за общината модел стана неустойчив",
       "url": "https://www.economic.bg/bg/a/view/stolichna-obshtina-veche-shte-si-plashta-za-sybiraneto-na-starite-drehi",
       "published": "2026-11-20T11:29:58+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 23
+      "priority_score": 22
     },
     {
       "section": "bulgaria",
@@ -404,16 +404,6 @@
       "priority_score": 14
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
-      "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/european-peace-facility-council-mobilises-additional-1-billion-in-new-military-aid-to-ukraine/",
-      "published": "2026-11-20T14:50:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 14
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Правителството определи таван на приходите на производителите на ток",
@@ -431,6 +421,16 @@
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
       "published": "2026-11-20T17:11:42+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 13
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
+      "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/european-peace-facility-council-mobilises-additional-1-billion-in-new-military-aid-to-ukraine/",
+      "published": "2026-11-20T14:50:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 13
     },
     {
@@ -546,11 +546,31 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
+      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
+      "summary": "How convicted fraudsters made millions from detained immigrants, evaded efforts to shut down their bail business and left migrants behind bars.",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T01:02:39+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
       "title": "ANC fights to keep control of South Africa's key cities after election setback",
       "summary": "The ANC appears reluctant to replicate its national power-sharing deal with the pro-business DA at the local level.",
       "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T00:34:51+00:00",
       "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Victorian Greens seek urgent injunction over how-to-vote cards mimicking party’s branding but preferencing it last",
+      "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan’s cards instruct people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens are seeking an urgent injunction from the supreme",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
+      "published": "2026-11-21T00:26:56+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 12
     },
     {
@@ -570,76 +590,6 @@
       "summary": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
       "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T00:01:39+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "A new Nepal, an old neighbour - Balendra Shah's India test",
-      "summary": "Trade, connectivity and regional cooperation will be on top of the agenda when Nepal's PM meets his India counterpart.",
-      "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T23:28:17+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Dead pets were meant to be cremated - then their bodies appeared on a livestream",
-      "summary": "Grieving Filipinos confront a distressing reality: their dogs and cats may not have received the send-off they paid for.",
-      "url": "https://www.bbc.co.uk/news/articles/cmn502ek17yvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T23:20:33+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "US declassifies more UFO footage filmed in the Middle East",
-      "summary": "The Pentagon has released an eighth tranche of UFO records, which includes three video clips recorded in 2020, 2023 and 2026.",
-      "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T23:15:20+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "NSW passes Mount Pleasant coalmine law as Greens claim change an attempt to head off One Nation",
-      "summary": "Labor says allowing mine to increase production reflects ‘gravity of situation facing hundreds of workers’ – but critics call it ‘unprecedented and dangerous’ Get our breaking news email , free app or daily news podcast The New South Wales government has passe",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/21/nsw-passes-hunter-valley-coalmine-law-as-greens-claim-change-an-attempt-to-head-off-one-nation-ntwnfb",
-      "published": "2026-11-20T23:09:57+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
-      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
-      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T23:08:57+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Germany: Berlin student protest targets rearmament and compulsory service",
-      "summary": "Thousands of students marched through Berlin, on Friday 20 November 2026, protesting against the country's rapid military rearmament and fears of a return to compulsory military service. Their protest formed part of a wider wave of youth demonstrations across",
-      "url": "https://www.euronews.com/video/2026/11/20/germany-berlin-student-protest-targets-rearmament-and-compulsory-service",
-      "published": "2026-11-20T22:54:22+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T22:42:47+00:00",
       "feed_id": "bbc-world",
       "priority_score": 12
     },
@@ -696,11 +646,61 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "French police officers sentenced for beating of music producer Michel Zecler",
-      "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
-      "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T22:37:09+00:00",
+      "title": "A new Nepal, an old neighbour - Balendra Shah's India test",
+      "summary": "Trade, connectivity and regional cooperation will be on top of the agenda when Nepal's PM meets his India counterpart.",
+      "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:28:17+00:00",
       "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Dead pets were meant to be cremated - then their bodies appeared on a livestream",
+      "summary": "Grieving Filipinos confront a distressing reality: their dogs and cats may not have received the send-off they paid for.",
+      "url": "https://www.bbc.co.uk/news/articles/cmn502ek17yvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:20:33+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "US declassifies more UFO footage filmed in the Middle East",
+      "summary": "The Pentagon has released an eighth tranche of UFO records, which includes three video clips recorded in 2020, 2023 and 2026.",
+      "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:15:20+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "NSW passes Mount Pleasant coalmine law as Greens claim change an attempt to head off One Nation",
+      "summary": "Labor says allowing mine to increase production reflects ‘gravity of situation facing hundreds of workers’ – but critics call it ‘unprecedented and dangerous’ Get our breaking news email , free app or daily news podcast The New South Wales government has passe",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/21/nsw-passes-hunter-valley-coalmine-law-as-greens-claim-change-an-attempt-to-head-off-one-nation-ntwnfb",
+      "published": "2026-11-20T23:09:57+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T23:08:57+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Germany: Berlin student protest targets rearmament and compulsory service",
+      "summary": "Thousands of students marched through Berlin, on Friday 20 November 2026, protesting against the country's rapid military rearmament and fears of a return to compulsory military service. Their protest formed part of a wider wave of youth demonstrations across",
+      "url": "https://www.euronews.com/video/2026/11/20/germany-berlin-student-protest-targets-rearmament-and-compulsory-service",
+      "published": "2026-11-20T22:54:22+00:00",
+      "feed_id": "euronews",
       "priority_score": 11
     }
   ],
