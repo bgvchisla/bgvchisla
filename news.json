@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:23:07.813013+00:00",
-  "last_checked_at": "2026-11-21T20:23:07.813018+00:00",
+  "updated_at": "2026-11-21T21:08:10.208527+00:00",
+  "last_checked_at": "2026-11-21T21:08:10.208529+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -45,16 +45,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
-      "published": "2026-11-21T14:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 37
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
       "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
@@ -65,13 +55,23 @@
     },
     {
       "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
+      "published": "2026-11-21T14:30:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 36
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Къде точно ще бъдат новите метростанции към Симеоновския лифт и Околовръстното",
       "summary": "Две от линиите на софийското метро ще се свържат при бъдещ интермодален транспортен възел в района на IKEA и Sofia Ring Mall, до Околовръстния път. Там трябва да достигне продължението на първата метролиния от съществуващата станция „Бизнес парк София“ и откло",
       "url": "https://www.economic.bg/bg/a/view/kyde-tochno-shte-bydat-novite-metrostancii-kym-simeonovskija-lift-i-okolovrystnoto",
       "published": "2026-11-21T07:01:09+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 35
+      "priority_score": 34
     },
     {
       "section": "bulgaria",
@@ -82,16 +82,6 @@
       "published": "2026-11-13T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 34
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "EU and Indonesia sign ambitious trade and investment agreements",
-      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 33
     },
     {
       "section": "bulgaria",
@@ -115,22 +105,22 @@
     },
     {
       "section": "europe",
+      "source": "Европейска комисия",
+      "title": "EU and Indonesia sign ambitious trade and investment agreements",
+      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 32
+    },
+    {
+      "section": "europe",
       "source": "Federal Reserve",
       "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
       "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "published": "2026-11-20T15:00:00+00:00",
       "feed_id": "federal-reserve",
-      "priority_score": 31
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
-      "summary": "Copini Beauty referred to New South Wales health regulators, while federal government says it is ‘deeply concerned’ Get our breaking news email , free app or daily news podcast An Australian beauty company that promotes “clean” ingredients “free from skin irri",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
-      "published": "2026-11-21T19:00:07+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 30
     },
     {
@@ -165,12 +155,12 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
+      "source": "The Guardian – World",
+      "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
+      "summary": "Copini Beauty referred to New South Wales health regulators, while federal government says it is ‘deeply concerned’ Get our breaking news email , free app or daily news podcast An Australian beauty company that promotes “clean” ingredients “free from skin irri",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
+      "published": "2026-11-21T19:00:07+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 29
     },
     {
@@ -185,12 +175,12 @@
     },
     {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Multiannual Financial Framework - President Costa’s proposal",
-      "summary": "President of the European Council, António Costa, presented his proposal to reach an agreement on the 2028-2034 Multiannual Financial Framework during a press conference on 21 November 2026.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
-      "published": "2026-11-21T10:43:00+00:00",
-      "feed_id": "council-press",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
       "priority_score": 28
     },
     {
@@ -201,6 +191,16 @@
       "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
       "published": "2026-11-21T19:59:00+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 27
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Multiannual Financial Framework - President Costa’s proposal",
+      "summary": "President of the European Council, António Costa, presented his proposal to reach an agreement on the 2028-2034 Multiannual Financial Framework during a press conference on 21 November 2026.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
+      "published": "2026-11-21T10:43:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 27
     },
     {
@@ -324,6 +324,16 @@
       "priority_score": 25
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Изкуството на хор „Морски звуци“ оставя прекрасно културно наследство за Варна и България, каза Калин Чонев",
+      "summary": "Празничен концерт отбеляза в препълнената зала на Фестивалния и конгресен център 100-годишнината от създаването на музикалното дружество „Морски звуци“ и 70-годишнината от основаването на представителния смесен хор, носещ същото име. Във видео поздрав от САЩ К",
+      "url": "https://www.bta.bg/bg/news/lik/1251818-izkustvoto-na-hor-morski-zvutsi-ostavya-prekrasno-kulturno-nasledstvo-za-varna",
+      "published": "2026-11-21T21:05:56+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "New EU budget proposal aims at tax gobal tech giants",
@@ -331,7 +341,7 @@
       "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-21T14:58:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 25
+      "priority_score": 24
     },
     {
       "section": "europe",
@@ -344,6 +354,16 @@
       "priority_score": 24
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Спартак Плевен надви гостуващия Ботев Академик в седмия кръг на Националната баскетболна лига за мъже",
+      "summary": "Спартак Плевен надви гостуващия Ботев Академик (Пловдив) с 87:75 (24:22, 20:15, 24:20, 19:18) в мач от седмия кръг на Националната баскетболна лига за мъже (НБЛ). Срещата се игра в зала „Балканстрой“ в Плевен, а съдии на мача бяха Николай Цинцарски, Димитър Ге",
+      "url": "https://www.bta.bg/bg/news/sport/1251782-spartak-pleven-nadvi-gostuvashtiya-botev-akademik-v-sedmiya-krag-na-natsionalnat",
+      "published": "2026-11-21T18:09:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 23
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 21st, 2026 – Midday",
@@ -351,7 +371,7 @@
       "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-midday",
       "published": "2026-11-21T11:00:15+00:00",
       "feed_id": "euronews",
-      "priority_score": 24
+      "priority_score": 23
     },
     {
       "section": "europe",
@@ -361,7 +381,7 @@
       "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-21T10:44:05+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 24
+      "priority_score": 23
     },
     {
       "section": "bulgaria",
@@ -371,16 +391,6 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
       "published": "2026-11-21T10:30:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Спартак Плевен надви гостуващия Ботев Академик в седмия кръг на Националната баскетболна лига за мъже",
-      "summary": "Спартак Плевен надви гостуващия Ботев Академик (Пловдив) с 87:75 (24:22, 20:15, 24:20, 19:18) в мач от седмия кръг на Националната баскетболна лига за мъже (НБЛ). Срещата се игра в зала „Балканстрой“ в Плевен, а съдии на мача бяха Николай Цинцарски, Димитър Ге",
-      "url": "https://www.bta.bg/bg/news/sport/1251782-spartak-pleven-nadvi-gostuvashtiya-botev-akademik-v-sedmiya-krag-na-natsionalnat",
-      "published": "2026-11-21T18:09:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 23
     },
     {
@@ -601,7 +611,7 @@
       "url": "https://www.investor.bg/a/461-bloomberg-tv/439866-prezapisvaneto-na-ipo-to-na-anthropic-mozhe-bi-shte-ubedi-pazarnite-uchastnitsi-da-nyamat-strah-ot-ai",
       "published": "2026-11-20T18:39:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 20
+      "priority_score": 19
     },
     {
       "section": "bulgaria",
@@ -655,16 +665,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Колко от българските домакинства имат деца? (Графика)",
-      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
-      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
-      "published": "2026-11-20T14:42:23+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 19
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
@@ -685,6 +685,16 @@
     },
     {
       "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Колко от българските домакинства имат деца? (Графика)",
+      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
+      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
+      "published": "2026-11-20T14:42:23+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 18
+    },
+    {
+      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Фотодокументална изложба, посветена на 80-годишнината от създаването на УНИЦЕФ, беше открита в Народното събрание",
       "summary": "",
@@ -692,22 +702,17 @@
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 18
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Panama submits request to join Expansion of the Information Technology Agreement",
-      "summary": "Panama has submitted a request to join the 2015 Expansion of the Information Technology Agreement (ITA II), the Chair of the Committee of Participants on the Expansion of Trade in Information Technology Products, Mr Shih-Chun Weng of Chinese Taipei, informed m",
-      "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
-      "published": "2026-11-19T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 18
     }
   ],
   "feed_status": {
-    "ok": 21,
+    "ok": 20,
     "total": 21,
-    "failures": []
+    "failures": [
+      {
+        "feed": "parliament-news",
+        "error": "<urlopen error timed out>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
