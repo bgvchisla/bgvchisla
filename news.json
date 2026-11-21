@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T21:47:19.901840+00:00",
-  "last_checked_at": "2026-11-21T21:47:19.901844+00:00",
+  "updated_at": "2026-11-21T22:28:45.089468+00:00",
+  "last_checked_at": "2026-11-21T22:28:45.089473+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -31,17 +31,7 @@
       "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 39
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
-      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
-      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
-      "published": "2026-11-21T16:26:21+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 36
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -66,6 +56,16 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
+      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
+      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
+      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
+      "published": "2026-11-21T16:26:21+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 35
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
       "title": "Къде точно ще бъдат новите метростанции към Симеоновския лифт и Околовръстното",
       "summary": "Две от линиите на софийското метро ще се свържат при бъдещ интермодален транспортен възел в района на IKEA и Sofia Ring Mall, до Околовръстния път. Там трябва да достигне продължението на първата метролиния от съществуващата станция „Бизнес парк София“ и откло",
       "url": "https://www.economic.bg/bg/a/view/kyde-tochno-shte-bydat-novite-metrostancii-kym-simeonovskija-lift-i-okolovrystnoto",
@@ -84,16 +84,6 @@
       "priority_score": 34
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
-      "published": "2026-11-21T12:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 32
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "EU and Indonesia sign ambitious trade and investment agreements",
@@ -102,6 +92,16 @@
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
       "priority_score": 32
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
+      "published": "2026-11-21T12:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 31
     },
     {
       "section": "europe",
@@ -184,16 +184,6 @@
       "priority_score": 28
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
-      "summary": "Избирателната комисия на Общото събрание на следователите обяви Петко Петков за избран член на Висшия съдебен съвет (ВСС) след проведеното гласуване днес. Решението на комисията не е окончателно и може да се обжалва в седемдневен срок. Петков, следовател в Нац",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
-      "published": "2026-11-21T19:59:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 27
-    },
-    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Multiannual Financial Framework - President Costa’s proposal",
@@ -225,13 +215,23 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
+      "summary": "Избирателната комисия на Общото събрание на следователите обяви Петко Петков за избран член на Висшия съдебен съвет (ВСС) след проведеното гласуване днес. Решението на комисията не е окончателно и може да се обжалва в седемдневен срок. Петков, следовател в Нац",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
+      "published": "2026-11-21T19:59:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
       "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 27
+      "priority_score": 26
     },
     {
       "section": "bulgaria",
@@ -565,6 +565,16 @@
     },
     {
       "section": "europe",
+      "source": "BIS Research",
+      "title": "Inflation after the Iran war",
+      "summary": "An unexpected increase in energy costs raises inflation directly through flexibly-set prices. Whether that shock amplifies to a larger and persistent rise in inflation depends on its transmission through the economy.",
+      "url": "https://www.bis.org/publications/working-paper-1384-inflation-after-iran-war",
+      "published": "2026-10-19T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
       "source": "Federal Reserve",
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
@@ -651,27 +661,7 @@
       "url": "https://www.politico.eu/article/gabriel-zucman-billionaires-california-taxes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-20T16:15:46+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 19
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6682",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 19
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6681",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 19
+      "priority_score": 18
     },
     {
       "section": "bulgaria",
@@ -686,21 +676,31 @@
     {
       "section": "bulgaria",
       "source": "Народно събрание",
+      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6682",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 18
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 18
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
       "title": "Фотодокументална изложба, посветена на 80-годишнината от създаването на УНИЦЕФ, беше открита в Народното събрание",
       "summary": "",
       "url": "https://www.parliament.bg/bg/news/6677",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
-      "priority_score": 18
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Panama submits request to join Expansion of the Information Technology Agreement",
-      "summary": "Panama has submitted a request to join the 2015 Expansion of the Information Technology Agreement (ITA II), the Chair of the Committee of Participants on the Expansion of Trade in Information Technology Products, Mr Shih-Chun Weng of Chinese Taipei, informed m",
-      "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
-      "published": "2026-11-19T00:00:00+00:00",
-      "feed_id": "wto-news",
       "priority_score": 18
     }
   ],
