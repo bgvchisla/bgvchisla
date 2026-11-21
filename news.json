@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:40:17.806050+00:00",
-  "last_checked_at": "2026-11-21T02:40:17.806055+00:00",
+  "updated_at": "2026-11-21T03:29:59.809184+00:00",
+  "last_checked_at": "2026-11-21T03:29:59.809188+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -11,7 +11,7 @@
       "url": "https://www.investor.bg/a/526-pravosadie/439855-parlamentat-izbra-chlenovete-na-visshiya-sadeben-savet-ot-kvotata-na-narodnoto-sabranie",
       "published": "2026-11-20T12:45:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "bulgaria",
@@ -131,7 +131,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 24
+      "priority_score": 23
     },
     {
       "section": "bulgaria",
@@ -175,16 +175,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Монетният двор пуска сребърен медал с лика на цар Самуил (снимки)",
-      "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
-      "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
-      "published": "2026-11-20T12:48:19+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 23
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
@@ -221,6 +211,16 @@
       "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
       "published": "2026-11-20T19:01:30+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 22
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Монетният двор пуска сребърен медал с лика на цар Самуил (снимки)",
+      "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
+      "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
+      "published": "2026-11-20T12:48:19+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 22
     },
     {
@@ -374,16 +374,6 @@
       "priority_score": 14
     },
     {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
-      "summary": "European Commission News Brussels, 20 Nov 2026 Commission President Ursula von der Leyen and European Council President António Costa hosted British Prime Minister Andy Burnham in Brussels today for the sec...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
-      "published": "2026-11-20T17:17:57+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 14
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Правителството определи таван на приходите на производителите на ток",
@@ -395,12 +385,12 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
-      "published": "2026-11-20T17:11:42+00:00",
-      "feed_id": "investor-economy",
+      "source": "Европейска комисия",
+      "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
+      "summary": "European Commission News Brussels, 20 Nov 2026 Commission President Ursula von der Leyen and European Council President António Costa hosted British Prime Minister Andy Burnham in Brussels today for the sec...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
+      "published": "2026-11-20T17:17:57+00:00",
+      "feed_id": "commission-press",
       "priority_score": 13
     },
     {
@@ -475,13 +465,23 @@
     },
     {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Joint statement EU-United Kingdom summit, 20 November 2026",
-      "summary": "The leaders of the European Union and United Kingdom held their second EU-UK summit in Brussels on 20 November 2026, and agreed on a joint statement.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/joint-statement-eu-united-kingdom-summit-20-november-2026/",
-      "published": "2026-11-20T13:07:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 13
+      "source": "Deutsche Welle",
+      "title": "Brazil ex-president Jair Bolsonaro taken to hospital over abdominal pain",
+      "summary": "Jair Bolsonaro has been hospitalized in Brasilia with intestinal obstruction. The former far-right Brazilian leader is receiving pain medications, his son Carlos said.",
+      "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T03:16:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "UK anti-migrant activist jailed for slashing Channel dinghy",
+      "summary": "Daniel Thomas, known as \"Danny Tommo,\" slashed a dinghy with a knife while a French rescue worker was on board. The incident was livestreamed to a large social media audience amid growing tensions over migrant crossings.",
+      "url": "https://www.dw.com/en/uk-anti-migrant-activist-jailed-for-slashing-channel-dinghy/a-80007576?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T02:47:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
     },
     {
       "section": "europe",
@@ -495,12 +495,22 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
-      "summary": "How convicted fraudsters made millions from detained immigrants, evaded efforts to shut down their bail business and left migrants behind bars.",
-      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T01:02:39+00:00",
-      "feed_id": "bbc-world",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
+      "published": "2026-11-20T17:11:42+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Joint statement EU-United Kingdom summit, 20 November 2026",
+      "summary": "The leaders of the European Union and United Kingdom held their second EU-UK summit in Brussels on 20 November 2026, and agreed on a joint statement.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/joint-statement-eu-united-kingdom-summit-20-november-2026/",
+      "published": "2026-11-20T13:07:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 12
     },
     {
@@ -584,26 +594,6 @@
       "priority_score": 12
     },
     {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission greenlights Slovenia's seventh and final payment request for €271.8 million under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Slovenia's seventh payment request worth €271.8 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2535",
-      "published": "2026-11-20T09:04:07+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission greenlights Greece's final payment requests for €11.32 billion under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Greece's eighth and ninth payment requests, amounting to €11.32 billion, under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2534",
-      "published": "2026-11-20T09:00:19+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
@@ -612,6 +602,16 @@
       "published": "2023-01-12T09:49:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
+      "summary": "How convicted fraudsters made millions from detained immigrants, evaded efforts to shut down their bail business and left migrants behind bars.",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T01:02:39+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
     },
     {
       "section": "europe",
