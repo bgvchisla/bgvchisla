@@ -55,14 +55,18 @@ jobs:
           echo "lane=$LANE" >> "$GITHUB_OUTPUT"
       - name: Free evidence and budget preflight
         run: python scripts/generate_analysis.py --lane "${{ steps.lane.outputs.lane }}" --dry-run
-      - name: Check API secret
+      - name: Check explicit publishing switch and API secret
         id: api
         env:
           API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PUBLISH_ENABLED: ${{ vars.ANALYSES_PUBLISH_ENABLED }}
         run: |
           if [ -z "$API_KEY" ]; then
             echo "enabled=false" >> "$GITHUB_OUTPUT"
             echo "OPENAI_API_KEY is not configured. No paid generation will run."
+          elif [ "$PUBLISH_ENABLED" != "true" ]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "ANALYSES_PUBLISH_ENABLED is not true. The workflow remains in free dry-run mode."
           else
             echo "enabled=true" >> "$GITHUB_OUTPUT"
           fi
