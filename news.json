@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T21:08:10.208527+00:00",
-  "last_checked_at": "2026-11-21T21:08:10.208529+00:00",
+  "updated_at": "2026-11-21T21:47:19.901840+00:00",
+  "last_checked_at": "2026-11-21T21:47:19.901844+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -21,7 +21,7 @@
       "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
       "published": "2026-11-21T11:35:11+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 40
+      "priority_score": 39
     },
     {
       "section": "bulgaria",
@@ -34,16 +34,6 @@
       "priority_score": 39
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU and Indonesia sign trade deal",
-      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
-      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T15:21:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 37
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
@@ -51,6 +41,16 @@
       "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
       "published": "2026-11-21T16:26:21+00:00",
       "feed_id": "economic-bg",
+      "priority_score": 36
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU and Indonesia sign trade deal",
+      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
+      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T15:21:00+00:00",
+      "feed_id": "dw-world",
       "priority_score": 36
     },
     {
@@ -96,22 +96,22 @@
     {
       "section": "europe",
       "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
-      "published": "2026-11-21T11:28:47+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 32
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
       "title": "EU and Indonesia sign ambitious trade and investment agreements",
       "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
       "priority_score": 32
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
+      "published": "2026-11-21T11:28:47+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 31
     },
     {
       "section": "europe",
@@ -344,16 +344,6 @@
       "priority_score": 24
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
-      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
-      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
-      "published": "2026-11-21T11:33:01+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 24
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Спартак Плевен надви гостуващия Ботев Академик в седмия кръг на Националната баскетболна лига за мъже",
@@ -361,6 +351,16 @@
       "url": "https://www.bta.bg/bg/news/sport/1251782-spartak-pleven-nadvi-gostuvashtiya-botev-akademik-v-sedmiya-krag-na-natsionalnat",
       "published": "2026-11-21T18:09:00+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 23
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
+      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
+      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "published": "2026-11-21T11:33:01+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 23
     },
     {
@@ -421,7 +421,7 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 23
+      "priority_score": 22
     },
     {
       "section": "europe",
@@ -565,16 +565,6 @@
     },
     {
       "section": "europe",
-      "source": "BIS Research",
-      "title": "Inflation after the Iran war",
-      "summary": "An unexpected increase in energy costs raises inflation directly through flexibly-set prices. Whether that shock amplifies to a larger and persistent rise in inflation depends on its transmission through the economy.",
-      "url": "https://www.bis.org/publications/working-paper-1384-inflation-after-iran-war",
-      "published": "2026-10-19T00:00:00+00:00",
-      "feed_id": "bis-research",
-      "priority_score": 22
-    },
-    {
-      "section": "europe",
       "source": "Federal Reserve",
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
@@ -702,17 +692,22 @@
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Panama submits request to join Expansion of the Information Technology Agreement",
+      "summary": "Panama has submitted a request to join the 2015 Expansion of the Information Technology Agreement (ITA II), the Chair of the Committee of Participants on the Expansion of Trade in Information Technology Products, Mr Shih-Chun Weng of Chinese Taipei, informed m",
+      "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 18
     }
   ],
   "feed_status": {
-    "ok": 20,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "parliament-news",
-        "error": "<urlopen error timed out>"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
