@@ -51,7 +51,7 @@ jobs:
           path = Path("scripts/generate_analysis.py")
           source = path.read_text(encoding="utf-8")
           old_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
-          new_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','fomc','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','financial','finance','fiscal','monetary','capital','productivity','employment','tax','lagarde','bis','wto','banking','bank','liquidity','payments','credit','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
+          new_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','fomc','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','financial','finance','fiscal','monetary','capital','productivity','employment','tax','lagarde','bis','wto','banking','bank','liquidity','payments','credit','federal','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
           if old_world in source:
               source = source.replace(old_world, new_world, 1)
           elif new_world not in source:
@@ -59,16 +59,23 @@ jobs:
           if "def story_tokens(text):" not in source:
               start = source.index("def get_evidence(lane):")
               end = source.index("def api(prompt,cfg):", start)
-              replacement = r'''def story_tokens(text):
-           words=set(re.findall(r"[a-z]{3,}|[а-яё]{3,}",str(text).casefold()))
-           stop={'the','and','for','from','with','that','this','after','before','into','over','under','about','amid','their','they','have','has','will','would','could','should','its','his','her','are','was','were','been','being','new','says','said','say','proposes','proposal','announces','announcement','statement','today','latest','global','world','economy','market','eu','european'}
+              replacement = r"""def story_tokens(text):
+           words=set(re.findall(r"[a-z]{2,}|[а-яё]{2,}",str(text).casefold()))
+           stop={'the','and','for','from','with','that','this','after','before','into','over','under','about','amid','their','they','have','has','will','would','could','should','its','his','her','are','was','were','been','being','new','says','said','say','proposes','proposal','announces','announcement','statement','today','latest','global','world','economy','market'}
            return words-stop
-          STORY_ENTITIES={'indonesia','china','ukraine','russia','iran','israel','america','american','united','states','britain','british','germany','german','france','french','japan','india','fed','federal','reserve','ecb','bis','wto','imf','lagarde'}
+          STORY_ENTITIES={'eu','indonesia','china','ukraine','russia','iran','israel','america','american','united','states','britain','british','germany','german','france','french','japan','india','fed','federal','reserve','ecb','bis','wto','imf','lagarde'}
           STORY_EVENTS={'trade','investment','investments','agreement','agreements','partnership','tariff','tariffs','budget','framework','tax','taxes','monetary','interest','rates','inflation','banking','credit','debt','energy','oil','gas','growth','capital','productivity','employment','payments'}
           def duplicate_story(left,right):
            a=story_tokens(left);b=story_tokens(right);common=a&b
            if len(common)>=3 and len(common)/max(1,len(a|b))>=0.30:return True
            return bool(common&STORY_ENTITIES) and bool(common&STORY_EVENTS)
+          def term_match(text,term):
+           if ' ' in term:
+            pattern=r'(?<![a-z])'+re.escape(term)+r's?(?![a-z])'
+            return re.search(pattern,text) is not None
+           tokens=set(re.findall(r'[a-z]+|[а-яё]+',text))
+           if len(term)<=4:return term in tokens or term+'s' in tokens
+           return any(token.startswith(term) for token in tokens)
           def get_evidence(lane):
            news=read('news');health=news.get('feed_status',{})
            if health.get('ok',0)<max(8,(health.get('total',0)+1)//2):raise RuntimeError('News feed health below threshold')
@@ -78,9 +85,9 @@ jobs:
            for x in news.get('items',[]):
             d=date(x.get('published'));url=x.get('url','');title=str(x.get('title',''));title_l=title.casefold();summary=str(x.get('summary','')).casefold();body=title_l+' '+summary
             if x.get('section')!=sec or not url.startswith('https://') or url in used or not d or (now-d).days>max_age_days or d>now+dt.timedelta(hours=3):continue
-            title_hits=[t for t in terms if t in title_l]
+            title_hits=[t for t in terms if term_match(title_l,t)]
             if lane=='world' and not title_hits:continue
-            score=sum(3 if t in title_l else 1 for t in terms if t in body)
+            score=sum(3 if term_match(title_l,t) else 1 for t in terms if term_match(body,t))
             if score:rank.append((score,d,x))
            rank.sort(key=lambda v:(v[0],v[1]),reverse=True);items=[];outlets=set();publisher_counts={}
            for _,d,x in rank:
@@ -111,10 +118,10 @@ jobs:
              else:facts={'reference_date':data.get('reference_date'),'values':data.get('values',{})}
              datasets.append({'source_id':sid,'period':data.get('latest_period') or data.get('reference_date'),'methodology':clean(data.get('methodology',''))[:700],'facts':facts})
            return {'lane':lane,'generated_at':dt.datetime.now(TZ).isoformat(),'feed_health':health,'sources':sources+items,'datasets':datasets,'chart_candidates':charts}
-          '''
-          source = source[:start] + replacement + source[end:]
+          """
+              source = source[:start] + replacement + source[end:]
           path.write_text(source, encoding="utf-8")
-          print("Applied world headline relevance, duplicate detection and seven-day freshness checks.")
+          print("Applied precise title matching, story deduplication and seven-day freshness checks.")
           PY
       - name: Resolve editorial lane
         id: lane
