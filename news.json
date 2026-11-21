@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:54:02.174554+00:00",
-  "last_checked_at": "2026-11-21T15:54:02.174557+00:00",
+  "updated_at": "2026-11-21T16:33:49.668251+00:00",
+  "last_checked_at": "2026-11-21T16:33:49.668255+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -45,13 +45,23 @@
     },
     {
       "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
+      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
+      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
+      "published": "2026-11-21T16:26:21+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 37
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
       "summary": "",
       "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
       "published": "2026-11-21T14:30:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "bulgaria",
@@ -136,10 +146,30 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Смолян отново ще разгледа отхвърлените отчети и бюджети на ВиК асоциацията",
-      "summary": "Общинският съвет в Смолян ще разгледа на заседанието си на 26 ноември предложение за определяне позицията на Общината по отчетите и бюджетите на Асоциацията по ВиК – Смолян. Документите вече са били отхвърлени от общинските съветници през септември, а впоследс",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251718-obshtinskiyat-savet-v-smolyan-otnovo-shte-razgleda-othvarlenite-otcheti-i-byudzh",
-      "published": "2026-11-21T15:03:06+00:00",
+      "title": "Пред съдебната палата в Плевен беше организиран протест с искане за справедливост за четиригодишния Румен, който загина в село Гривица",
+      "summary": "Пред съдебната палата в Плевен отново беше организиран протест с искане за справедливост за четиригодишния Румен, който загина в село Гривица. Първият беше на 13 ноември. Организаторът на протеста Детелин Николов каза пред БТА, че излизат, за да искат справедл",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251748-pred-sadebnata-palata-v-pleven-beshe-organiziran-protest-s-iskane-za-spravedlivo",
+      "published": "2026-11-21T16:32:58+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 27
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Жалбите срещу новото ръководство на Българската федерация по борба затрудняват подготовката за предолимпийската година, каза Тодор Ангелов",
+      "summary": "Жалбите срещу избора на ново ръководство на Българската федерация по борба затрудняват поемането на управлението и създават сериозни организационни проблеми в навечерието на предолимпийската година. Това каза пред БТА избраният за председател на федерацията То",
+      "url": "https://www.bta.bg/bg/news/sport/1251733-zhalbite-sreshtu-novoto-rakovodstvo-na-balgarskata-federatsiya-po-borba-zatrudny",
+      "published": "2026-11-21T16:32:23+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Заради реконструкция на водопровод водата в Летница ще бъде спряна на 23 ноември",
+      "summary": "Заради реконструкция на водопровод в понеделник, 23 ноември, в Летница ще бъде прекъснато водоподаването, съобщават от общинската администрация. Водата ще бъде спряна в 8:00 ч. и ще бъде пусната след приключване на ремонтните дейности на водопровода на ул. „Ст",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251740-zaradi-rekonstruktsiya-na-vodoprovod-vodata-v-letnitsa-shte-bade-spryana-na-23-n",
+      "published": "2026-11-21T16:21:29+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 26
     },
@@ -155,13 +185,23 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Приключи гласуването на следователите за член на ВСС и започна преброяването на гласовете",
+      "summary": "Приключи гласуването на следователите за член на Висшия съдебен съвет и започна преброяването на гласовете, съобщиха от пресцентъра на съвета. От ВСС уточняват, че към момента не е започнало преброяването на бюлетините в избирателната секция в Пловдив, поради",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251746-priklyuchi-glasuvaneto-na-sledovatelite-za-chlen-na-vss-i-zapochna-prebroyavanet",
+      "published": "2026-11-21T16:24:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Дезинфлационната стратегия на Фед е обречена на провал",
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
       "published": "2026-11-21T10:30:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 25
+      "priority_score": 24
     },
     {
       "section": "europe",
@@ -205,16 +245,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Европейските борси затвориха тежка седмица след разпродажби на технологичните акции",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439874-evropeyskite-borsi-zatvoriha-tezhka-sedmitsa-sled-razprodazhbi-na-tehnologichnite-aktsii",
-      "published": "2026-11-20T18:02:13+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 21
-    },
-    {
-      "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ взе решение за разрешаване на преобразуването на „Токуда Банк“ ЕАД чрез вливане по реда на чл. 262 от Търговския закон в „Българо-американска кредитна банка“ АД",
       "summary": "",
@@ -222,6 +252,16 @@
       "published": "2026-10-09T00:00:00+00:00",
       "feed_id": "bnb-news",
       "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Европейските борси затвориха тежка седмица след разпродажби на технологичните акции",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439874-evropeyskite-borsi-zatvoriha-tezhka-sedmitsa-sled-razprodazhbi-na-tehnologichnite-aktsii",
+      "published": "2026-11-20T18:02:13+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 20
     },
     {
       "section": "bulgaria",
@@ -240,16 +280,6 @@
       "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
       "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
       "published": "2026-11-20T14:42:23+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 20
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Българска инициатива с международно партньорство поставя основите за внедряване на малки модулни реактори",
-      "summary": "Българската енергийно-технологична компания Blue Bird Energy подписа споразумение за съвместно сътрудничество с полската Synthos Green Energy (SGE) и Националната електрическа компания (НЕК) за внедряване на малки модулни ядрени реактори (ММР) в България. Това",
-      "url": "https://www.economic.bg/bg/a/view/bylgarska-iniciativa-s-mejdunarodno-partniorstvo-postavja-osnovite-za-vnedrjavane-na-malki-modulni-reaktori",
-      "published": "2026-11-20T14:17:38+00:00",
       "feed_id": "economic-bg",
       "priority_score": 20
     },
@@ -405,6 +435,26 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T16:27:14+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Служители от МВР ще участват в протестни действия в София на 28 ноември, съобщи Илия Кузманов",
+      "summary": "Служители от МВР ще участват в протестни действия в София на 28 ноември, идната събота, каза в ефира на БНТ председателят на Управителния съвет на Синдикалната федерация на служителите в МВР (СФСМВР) Илия Кузманов. Става въпрос за протестни действия. Колегите,",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251731-sluzhiteli-ot-mvr-shte-uchastvat-v-protestni-deystviya-v-sofiya-na-28-noemvri-s",
+      "published": "2026-11-21T16:15:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU and Indonesia sign trade deal",
       "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
@@ -485,46 +535,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
-      "summary": "Fausto Isidro Meza Flores, one of the FBI’s ten most-wanted fugitives, was arrested in a military operation involving US intelligence cooperation. Gunfire, burning vehicles and panic among civilians followed the raid in northern Mexico.",
-      "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
-      "published": "2026-11-21T14:20:35+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Примерът на светите Йоаким и Анна и животът на Дева Мария бяха припомнени в църковните служби за Въведение Богородично",
-      "summary": "Примерът на светите Йоаким и Анна и животът на Дева Мария бяха припомнени в църковните служби за отбелязвания днес празник Въведение Богородично. Определен е от Църквата и за Ден на православната християнска младеж и семейство. Родителите да възпитават децата",
-      "url": "https://www.bta.bg/bg/news/lik/1251701-primerat-na-svetite-yoakim-i-anna-i-zhivotat-na-deva-mariya-byaha-pripomneni-v-t",
-      "published": "2026-11-21T14:18:49+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "За да защитят децата си, възрастните трябва да научат колкото може повече за изкуствения интелект, смята експерт",
-      "summary": "За да защитят децата си, възрастните трябва да научат колкото може повече за изкуствения интелект (ИИ), да разберат как могат да го ползват, а не да се плашат от него, каза във Варна Ивайло Петров, председател на Алианса за устойчиво развитие на изкуствения ин",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251697-za-da-zashtityat-detsata-si-vazrastnite-tryabva-da-nauchat-kolkoto-mozhe-povech",
-      "published": "2026-11-21T14:07:52+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
-      "summary": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempted killing of",
-      "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-      "published": "2026-11-21T14:03:50+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
       "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
@@ -584,23 +594,23 @@
       "priority_score": 12
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Първият кулинарен конкурс в луковитското село Карлуково събра 20 участници",
-      "summary": "Първият кулинарен конкурс за традиционни български ястия в луковитското село Карлуково събра около 20 участници. Инициативата е организирана от Народно читалище „Дико Илиев – 1904 г.“ в населеното място и е по повод Деня на християнското семейство, а в нея бях",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251693-parviyat-kulinaren-konkurs-v-lukovitskoto-selo-karlukovo-sabra-20-uchastnitsi",
-      "published": "2026-11-21T13:52:00+00:00",
-      "feed_id": "bta-bulgaria",
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+      "summary": "Fausto Isidro Meza Flores, one of the FBI’s ten most-wanted fugitives, was arrested in a military operation involving US intelligence cooperation. Gunfire, burning vehicles and panic among civilians followed the raid in northern Mexico.",
+      "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+      "published": "2026-11-21T14:20:35+00:00",
+      "feed_id": "euronews",
       "priority_score": 11
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Жители на няколко населени места в област Велико Търново се оплакаха от проблеми с електрозахранването на среща с Мая Манолова в Шемшево",
-      "summary": "Председателят на Комисията за защита на потребителите (КЗП) Мая Манолова ще настоява за по-високи неустойки за електроразпределителните дружества при лошо качество на електрозахранването и за облекчаване на процедурите за обезщетяване на потърпевшите потребите",
-      "url": "https://www.bta.bg/bg/news/economy/1251686-zhiteli-na-nyakolko-naseleni-mesta-v-oblast-veliko-tarnovo-se-oplakaha-ot-proble",
-      "published": "2026-11-21T13:43:52+00:00",
-      "feed_id": "bta-bulgaria",
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+      "summary": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempted killing of",
+      "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+      "published": "2026-11-21T14:03:50+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 11
     },
     {
@@ -691,16 +701,6 @@
       "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-midday",
       "published": "2026-11-21T11:00:15+00:00",
       "feed_id": "euronews",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Срещата Си-Тръмп-Путин и границите на геополитическото сближаване",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439864-sreshtata-si-tramp-putin-i-granitsite-na-geopoliticheskoto-sblizhavane",
-      "published": "2026-11-21T11:00:00+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 11
     }
   ],
