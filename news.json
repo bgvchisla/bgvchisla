@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:16:00.499592+00:00",
-  "last_checked_at": "2026-11-21T09:16:00.499595+00:00",
+  "updated_at": "2026-11-21T10:13:39.670403+00:00",
+  "last_checked_at": "2026-11-21T10:13:39.670411+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -21,15 +21,15 @@
       "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Ще има широки консултации и нищо няма да бъде правено в ущърб на майките на деца с увреждания и на другите лични асистенти, каза министър Наталия Ефремова",
-      "summary": "Нищо няма да бъде направено в ущърб на майките на деца с увреждания и на другите лични асистенти. Ще бъдат направени широки консултации, ще бъдат отчетени всички интереси и ако няма необходимост или няма консенсус, нищо няма да се променя. Това заяви социалния",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251550-shte-ima-shiroki-konsultatsii-i-nishto-nyama-da-bade-praveno-v-ushtarb-na-maykit",
-      "published": "2026-11-21T08:27:34+00:00",
+      "title": "Български учени представят система за здраве и кондиция, и изкуството да реализираш потенциала си",
+      "summary": "Проф. Юлиан Карабиберов и д-р Неделя Щонова са автори на двутомно издание, което представя система за здраве и кондиция, и изкуството да реализираш потенциала си. Премиерата на „Невроатлетика“ е на 24 ноември в Event Space, информират издателите от „Книгомания",
+      "url": "https://www.bta.bg/bg/news/lik/1251574-balgarski-ucheni-predstavyat-sistema-za-zdrave-i-konditsiya-i-izkustvoto-da-rea",
+      "published": "2026-11-21T10:06:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 38
     },
@@ -71,7 +71,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 30
+      "priority_score": 29
     },
     {
       "section": "bulgaria",
@@ -96,32 +96,12 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Матраците извън употреба: проблем за сметищата, възможност за бизнеса",
-      "summary": "Матракът е сред малкото вещи в домакинството, за които човек рядко се замисля какво се случва след края на употребата им. Той се купува, използва се години наред и в един момент трябва да бъде заменен. Тогава обаче започва проблем, който не е толкова видим за",
-      "url": "https://www.bta.bg/bg/news/economy/1247765-matratsite-izvan-upotreba-problem-za-smetishtata-vazmozhnost-za-biznesa",
-      "published": "2026-11-21T09:00:00+00:00",
+      "title": "Мъж е с опасност за живота след катастрофа на кръстовище в Добрич",
+      "summary": "Мъж на 25 години е с опасност за живота след пътнотранспортно произшествие на кръстовището на улица „Батовска“ и булевард „25-ти септември“ в Добрич. Това съобщават от полицията. Лек автомобил БМВ, управляван от 27-годишен шофьор, е излязъл от контрол и се е б",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251572-mazh-e-s-opasnost-za-zhivota-sled-katastrofa-na-krastovishte-v-dobrich",
+      "published": "2026-11-21T09:47:40+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Babylon Genesis събира над 14 чуждестранни артисти на три сцени в София",
-      "summary": "Над 14 чуждестранни артисти ще участват в първото издание на Babylon Genesis, съобщават организаторите от H.M.S.U. Събитието ще се състои тази вечер в „Интер експо център\" в София и ще включва три тематични сцени, представящи развитието на културите drum & bas",
-      "url": "https://www.bta.bg/bg/news/lik/1251501-babylon-genesis-sabira-nad-14-chuzhdestranni-artisti-na-tri-stseni-v-sofiya",
-      "published": "2026-11-21T07:45:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
-      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
-      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
-      "published": "2026-11-20T15:45:35+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 26
+      "priority_score": 27
     },
     {
       "section": "bulgaria",
@@ -134,12 +114,22 @@
       "priority_score": 26
     },
     {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
+      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
+      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
+      "published": "2026-11-20T15:45:35+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 25
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Варненски художници разказват в интервюта за присъствието и значението на родния град в творчеството им",
-      "summary": "Изданието „Нарисувай ми града“ ще бъде представено днес в 18:30 ч. в Градската художествена галерия „Борис Георгиев“ във Варна. То е дело на фондация „Град и посоки“ и съдържа интервюта с осем художници, свързани с Варна, както и текстове, рисунки и фотографии",
-      "url": "https://www.bta.bg/bg/news/lik/1251552-varnenski-hudozhnitsi-razkazvat-v-intervyuta-za-prisastvieto-i-znachenieto-na-ro",
-      "published": "2026-11-21T08:32:31+00:00",
+      "title": "Роботиката трябва да бъде част от образованието на младите хора, а не само извънкласна дейност, казват участници във фестивал в Бургас",
+      "summary": "Роботиката и технологиите трябва да бъдат достъпни за децата още от ранна възраст, а практическите занимания да заемат по-важно място в образованието. Около тази идея се обединиха участниците в откриването на националния фестивал „Младите в роботиката“, който",
+      "url": "https://www.bta.bg/bg/news/lik/1251567-robotikata-tryabva-da-bade-chast-ot-obrazovanieto-na-mladite-hora-a-ne-samo-izv",
+      "published": "2026-11-21T09:38:09+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 24
     },
@@ -181,26 +171,6 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6682",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6681",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
       "priority_score": 22
     },
     {
@@ -255,22 +225,32 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "110 млн. евро ще бъдат насочени към предприятия във въглищните региони",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439849-110-mln-evro-shte-badat-nasocheni-kam-predpriyatiya-vav-vaglishtnite-regioni",
-      "published": "2026-11-20T13:36:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 21
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Монетният двор пуска сребърен медал с лика на цар Самуил (снимки)",
       "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
       "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
       "published": "2026-11-20T12:48:19+00:00",
       "feed_id": "economic-bg",
+      "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6682",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 21
     },
     {
@@ -364,6 +344,16 @@
       "priority_score": 17
     },
     {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement by President von der Leyen on the assassination attempt against a US-Ukrainian citizen in Denmark",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 I strongly condemn the assassination attempt against a US-Ukrainian citizen in Denmark, orchestrated by Russian intelligence services. This was an attack on EU ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556",
+      "published": "2026-11-21T09:01:16+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 16
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Правителството определи таван на приходите на производителите на ток",
@@ -384,6 +374,136 @@
       "priority_score": 13
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "От редки птици в тръстиките до невидими обитатели под водата – Драгоманското блато предлага изненади за туристите през всички сезони",
+      "summary": "Драгоманското блато е място, което може да бъде посещавано от природолюбителите и през четирите сезона. Неговото разнообразие от растителни и животински видове предизвиква любопитство през цялата година, със своя живот над и под водата. Това разказаха за БТА П",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251573-ot-redki-ptitsi-v-trastikite-do-nevidimi-obitateli-pod-vodata-dragomanskoto-bl",
+      "published": "2026-11-21T10:11:19+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Швейцария продължава дебата за неутралитета си с гласуване за износа на оръжия",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439881-shveytsariya-prodalzhava-debata-za-neutraliteta-si-s-glasuvane-za-iznosa-na-orazhiya",
+      "published": "2026-11-21T10:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Добрич отбеляза 146 години от рождението на Йордан Йовков",
+      "summary": "С поднасяне на венци и цветя пред паметника на Йордан Йовков и откриване на изложбата „Добруджа някога“ в Дом-паметника в Добрич днес беше отбелязана 146-ата годишнина от рождението на писателя, съобщават от културната институция. Експозицията е подредена във",
+      "url": "https://www.bta.bg/bg/news/lik/1251575-dobrich-otbelyaza-146-godini-ot-rozhdenieto-na-yordan-yovkov",
+      "published": "2026-11-21T09:57:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T09:52:11+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "China commits to low-carbon electrification and help for others to improve",
+      "summary": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 Cop31 live – latest updates China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the",
+      "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
+      "published": "2026-11-21T09:47:57+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Rejoining EU ‘on the table’ as UK strikes deals on trade and young people",
+      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
+      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "published": "2026-11-21T09:45:52+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Малък куклен театър „Слон“ отбелязва 35-годишнина на свое представление",
+      "summary": "Малък куклен театър „Слон“ отбелязва 35-годишнината на „Котаракът с чизми\". Празничните представления са на 22 ноември, 5 декември и 20 декември в „Театър 199“, информират от трупата. „Слон“ е основан през 1988 г., първата премиера е „Мечо Пух“. „Заглавието бъ",
+      "url": "https://www.bta.bg/bg/news/lik/1251571-malak-kuklen-teatar-slon-otbelyazva-35-godishnina-na-svoe-predstavlenie",
+      "published": "2026-11-21T09:45:23+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
+      "summary": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T09:40:55+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T09:34:20+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Владимир Пенев представя голо тяло, пейзажи и цикъл от седем реки в изложбата „Уроци по изкушения“",
+      "summary": "Художникът Владимир Пенев открива на 24 ноември изложбата си „Уроци по изкушения“, информират от музей-галерия „Анел“ – домакин на събитието. Куратор е Моника Тошева. Проектът обединява три основни тематични посоки — голото тяло, пейзажа и цикъла от седем реки",
+      "url": "https://www.bta.bg/bg/news/lik/1251564-vladimir-penev-predstavya-golo-tyalo-peyzazhi-i-tsikal-ot-sedem-reki-v-izlozhba",
+      "published": "2026-11-21T09:25:16+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 30 семейства се включиха в детският празник „Мама, татко и аз“ във Враца",
+      "summary": "Общо 36 деца в тандем с родител се включиха в днешния детски празник „Мама, татко и аз“ във Враца, в залата на Профилираната природо-математическа гимназия. Организатор е Община Враца, а поводът е Денят на християнското семейство – 21 ноември. Надпреварата е в",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251562-nad-30-semeystva-se-vklyuchiha-v-detskiyat-praznik-mama-tatko-i-az-vav-vratsa",
+      "published": "2026-11-21T09:24:34+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Проф. Нева Кръстева е човекът, без когото нямаше да знам как да разбирам музиката, каза за БТА диригентът Йордан Камджалов",
+      "summary": "Проф. Нева Кръстева е един човек, без когото никога нямаше да има Йордан Камджалов. Тя е човек, без когото нямаше да съществувам, човек, нямаше да знам какво да правя с музиката, нямаше да знам как да я разбирам. Това каза за БТА маестро Йордан Камджалов по по",
+      "url": "https://www.bta.bg/bg/news/lik/1251052-prof-neva-krasteva-e-chovekat-bez-kogoto-nyamashe-da-znam-kak-da-razbiram-muzi",
+      "published": "2026-11-21T09:23:48+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "'Killer robots' talks at UN end with no legally binding ban",
+      "summary": "Countries have agreed to extend discussions over controls on lethal autonomous weapons systems for two years.",
+      "url": "https://www.dw.com/en/killer-robots-talks-at-un-end-with-no-legally-binding-ban/a-80008584?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T09:18:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Pentagon declassifies new UFO footage filmed by US military",
@@ -401,116 +521,6 @@
       "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
       "published": "2026-11-21T08:56:33+00:00",
       "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В живописта на Михаил Камберов има място и за търпението, и за свободата, казва синът му Иван Камберов",
-      "summary": "В живописта на Михаил Камберов има място и за търпението, с което работеше с върха на игла, и за свободата на широката мазка. Това казва синът му Иван Камберов по повод откритата в петък вечер, в галерия „Михаил Камберов“ традиционната изложба, посветена на ро",
-      "url": "https://www.bta.bg/bg/news/lik/1251491-v-zhivopista-na-mihail-kamberov-ima-myasto-i-za-tarpenieto-i-za-svobodata-kazv",
-      "published": "2026-11-21T08:46:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Голям интерес към Деня на отворените врати в София отчете ръководството на НОИ, планира се кампанията да продължи и в други градове",
-      "summary": "Ден на отворените врати в Националния осигурителен институт (НОИ) в София събра граждани и ръководството на институцията. Учудващо голям е интересът към първия ден на отворените врати, каза управителят на института Весела Караиванова-Начева. Още в 8:30 ч. сутр",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251554-golyam-interes-kam-denya-na-otvorenite-vrati-v-sofiya-otchete-rakovodstvoto-na-n",
-      "published": "2026-11-21T08:44:30+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Над 200 участници събра деветият лекоатлетически турнир \"Децата на Плевен\"",
-      "summary": "Над 200 участници събра деветото издание на лекоатлетическия турнир \"Децата на Плевен\" . Възстановената след шестгодишно прекъсване спортна надпревара е в залата по лека атлетика. В турнира участват деца, родени през 2013, 2014, 2015, 2016, 2017, 2018 и 2019 г",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251553-nad-200-uchastnitsi-sabra-devetiyat-lekoatleticheski-turnir-detsata-na-pleven-",
-      "published": "2026-11-21T08:29:37+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T08:10:25+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Trafalgar Square Christmas tree felled in Norway",
-      "summary": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
-      "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T08:10:03+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Second judge blocks construction of Trump's massive 'triumphal arch'",
-      "summary": "Trump, who has embarked on a campaign to remodel Washington since his return to the White House in January 2025, has said the structure would be turned into a \"top grade military complex.\"",
-      "url": "https://www.euronews.com/2026/11/21/second-judge-blocks-construction-of-trumps-massive-triumphal-arch",
-      "published": "2026-11-21T08:01:28+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "ССБ: Пшеницата продължи да поевтинява на световните борси и тази седмица",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439878-ssb-pshenitsata-prodalzhi-da-poevtinyava-na-svetovnite-borsi-i-tazi-sedmitsa",
-      "published": "2026-11-21T08:00:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Майкъл Кълън ще разкаже в София историята на „Опакованият Райхстаг“",
-      "summary": "Американският историк на архитектурата Майкъл Кълън, който през 1971 г. предлага на Кристо и Жан-Клод да опаковат сградата на Райхстага в Берлин, ще гостува днес в София. В концептуално пространство „Дом“ той ще разкаже за историята на „Опакованият Райхстаг“ и",
-      "url": "https://www.bta.bg/bg/news/lik/1251506-maykal-kalan-shte-razkazhe-v-sofiya-istoriyata-na-opakovaniyat-rayhstag-",
-      "published": "2026-11-21T08:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "US judge jails Indian national in foiled Sikh separatist murder plot",
-      "summary": "New Delhi has denied any role in the plot to kill Sikh separatist Gurpatwant Singh Pannun in New York. Meanwhile, over 200 people have been hospitalized after consuming spurious liquor in Manipur state. DW has more.",
-      "url": "https://www.dw.com/en/us-judge-jails-indian-national-in-foiled-sikh-separatist-murder-plot/live-80008104?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T07:53:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-      "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T07:31:05+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Тенорът Марио Николов ще гостува на концерта на „Мери бойс бенд“ по повод 25 години от албума „Непознати улици“",
-      "summary": "„Мери бойс бенд“ ще изнесе концерта „25 години „Непознати улици“ тази вечер в Централния военен клуб, съобщават от формацията. Специален гост ще бъде тенорът Марио Николов, с когото са записали песните „В моето сърце“ и „Когато сън Земята заспи“. Водещ на съби",
-      "url": "https://www.bta.bg/bg/news/lik/1251496-tenorat-mario-nikolov-shte-gostuva-na-kontserta-na-meri-boys-bend-po-povod-25-",
-      "published": "2026-11-21T07:30:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
     {
@@ -534,16 +544,6 @@
       "priority_score": 12
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Forward look: 23 November - 6 December 2026",
-      "summary": "Overview of the main subjects to be discussed at meetings of the Council of the EU over the next two weeks and upcoming media events.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
-      "published": "2026-11-20T16:00:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 12
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
@@ -552,6 +552,56 @@
       "published": "2023-01-12T09:49:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T08:10:25+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Trafalgar Square Christmas tree felled in Norway",
+      "summary": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T08:10:03+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Second judge blocks construction of Trump's massive 'triumphal arch'",
+      "summary": "Trump, who has embarked on a campaign to remodel Washington since his return to the White House in January 2025, has said the structure would be turned into a \"top grade military complex.\"",
+      "url": "https://www.euronews.com/2026/11/21/second-judge-blocks-construction-of-trumps-massive-triumphal-arch",
+      "published": "2026-11-21T08:01:28+00:00",
+      "feed_id": "euronews",
+      "priority_score": 11
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "ССБ: Пшеницата продължи да поевтинява на световните борси и тази седмица",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439878-ssb-pshenitsata-prodalzhi-da-poevtinyava-na-svetovnite-borsi-i-tazi-sedmitsa",
+      "published": "2026-11-21T08:00:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "US judge jails Indian national in foiled Sikh separatist murder plot",
+      "summary": "New Delhi has denied any role in the plot to kill Sikh separatist Gurpatwant Singh Pannun in New York. Meanwhile, over 200 people have been hospitalized after consuming spurious liquor in Manipur state. DW has more.",
+      "url": "https://www.dw.com/en/us-judge-jails-indian-national-in-foiled-sikh-separatist-murder-plot/live-80008104?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T07:53:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -615,16 +665,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
-      "summary": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
-      "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T06:00:09+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "‘So what if there’s a hole? It hasn’t collapsed’: Kyiv residents unbothered by Russian attacks on city’s bridges",
       "summary": "Despite dodging tears in the tarmac, people are confident in city’s infrastructure – and will not worry about what has not happened yet Mykola expects to drive his battered beige passenger minibus 20 to 24 times a day past the holes in the road on Kyiv’s damag",
@@ -661,46 +701,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T04:34:00+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "When you see smoke, run: Rohingya who escaped Myanmar’s genocide tell their stories",
-      "summary": "Survivors recount rivers red with blood and burning nearby villages serving as an urgent warning to flee their homes Smoke was often the signal to run – seen from a distance, it was the indication for Rohingya that a neighbouring village was under attack and t",
-      "url": "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
-      "published": "2026-11-21T04:00:47+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
-      "published": "2026-11-20T17:11:42+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
-      "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/european-peace-facility-council-mobilises-additional-1-billion-in-new-military-aid-to-ukraine/",
-      "published": "2026-11-20T14:50:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - Agriculture and Fisheries Council of 23 November 2026",
-      "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
-      "published": "2026-11-20T14:30:00+00:00",
-      "feed_id": "council-press",
       "priority_score": 11
     }
   ],
