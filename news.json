@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:24:26.106975+00:00",
-  "last_checked_at": "2026-11-21T05:24:26.106978+00:00",
+  "updated_at": "2026-11-21T06:20:46.918635+00:00",
+  "last_checked_at": "2026-11-21T06:20:46.918638+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Започна гласуването на следователите за избор на член на Висшия съдебен съвет",
+      "summary": "Започна гласуването на следователите за избор на член на Висшия съдебен съвет. То се провежда с хартиена бюлетина и ще продължи до 18:00 часа. Право да гласуват имат 453 следователи. Те ще избират измежду двама кандидати. Гласуването се провежда в пет избирате",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251498-zapochna-glasuvaneto-na-sledovatelite-za-izbor-na-chlen-na-visshiya-sadeben-save",
+      "published": "2026-11-21T06:19:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 38
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
@@ -31,7 +41,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 31
+      "priority_score": 30
     },
     {
       "section": "bulgaria",
@@ -54,16 +64,6 @@
       "priority_score": 29
     },
     {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
-      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
-      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
-      "published": "2026-11-20T15:45:35+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 27
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Медици от осем различни специалности ще преглеждат деца в Етрополе",
@@ -71,6 +71,16 @@
       "url": "https://www.bta.bg/bg/news/bulgaria/1251477-meditsi-ot-osem-razlichni-spetsialnosti-shte-preglezhdat-detsa-v-etropole",
       "published": "2026-11-21T04:40:00+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
+      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
+      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
+      "published": "2026-11-20T15:45:35+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 26
     },
     {
@@ -92,16 +102,6 @@
       "published": "2026-11-20T14:06:00+00:00",
       "feed_id": "investor-economy",
       "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Майкъл Кълън разказа в Габрово за дългия път до опаковането на Райхстага от Кристо",
-      "summary": "Историята за възникването на идеята на Кристо Явашев да опакова сградата на Райхстага в Берлин и пътя до нейната реализация, отнел повече от две десетилетия, беше представена от американския историк на архитектурата Майкъл Кълън на среща в центъра „Кристо и Жа",
-      "url": "https://www.bta.bg/bg/news/lik/1251467-maykal-kalan-razkaza-v-gabrovo-za-dalgiya-pat-do-opakovaneto-na-rayhstaga-ot-kri",
-      "published": "2026-11-20T19:33:16+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 24
     },
     {
       "section": "bulgaria",
@@ -132,36 +132,6 @@
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
       "priority_score": 23
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6682",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 23
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6681",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 23
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Първото издание на фестивала „Бургас – световна сцена на езиците и културите“ беше открито на 20 езика",
-      "summary": "С поздрави на 20 езика бе открито първото издание на фестивала „Бургас – световна сцена на езиците и културите“. Публиката в залатаа на Central Park, домакин на събитието, имаше възможност да чуе приветствия на азербайджански, арабски, арменски, виетнамски, гр",
-      "url": "https://www.bta.bg/bg/news/lik/1251485-parvoto-izdanie-na-festivala-burgas-svetovna-stsena-na-ezitsite-i-kulturite-",
-      "published": "2026-11-20T20:03:46+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 22
     },
     {
       "section": "bulgaria",
@@ -215,22 +185,22 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "„Главболгарстрой“ пое ангажимент пред гръцки министър за ускорено завършване на магистрала „Струма“",
-      "summary": "В изказването си преди официалния старт на седмата министерска среща на P-TEC председателят на УС на „Главболгарстрой“ Калин Пешов потвърди поетия пред министъра на околната среда и енергетиката на Гърция Ставрос Папаставру ангажимент за ускорено завършване на",
-      "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-poe-angajiment-pred-grycki-ministyr-za-uskoreno-zavyrshvane-na-magistrala-struma",
-      "published": "2026-11-20T12:07:01+00:00",
-      "feed_id": "economic-bg",
+      "source": "Народно събрание",
+      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6682",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 22
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Столична община вече ще си плаща за събирането на старите дрехи",
-      "summary": "Столична община ще плаща до 220 хил. евро годишно за събирането на стари дрехи и обувки, след като досегашният безплатен за общината модел стана неустойчив",
-      "url": "https://www.economic.bg/bg/a/view/stolichna-obshtina-veche-shte-si-plashta-za-sybiraneto-na-starite-drehi",
-      "published": "2026-11-20T11:29:58+00:00",
-      "feed_id": "economic-bg",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 22
     },
     {
@@ -255,12 +225,22 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "След десетгодишна пауза международното студентско биенале „Рисунка“ събра в София творби на студенти от осем страни",
-      "summary": "Националната художествена академия (НХА) възобнови Международното студентско биенале „Рисунка“ десет години след последното му издание. Четвъртото биенале бе открито тази вечер в столичната галерия „Академия“ с изложба на 93-ма студенти от десет висши училища",
-      "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
-      "published": "2026-11-20T19:01:30+00:00",
-      "feed_id": "bta-bulgaria",
+      "source": "Economic.bg",
+      "title": "„Главболгарстрой“ пое ангажимент пред гръцки министър за ускорено завършване на магистрала „Струма“",
+      "summary": "В изказването си преди официалния старт на седмата министерска среща на P-TEC председателят на УС на „Главболгарстрой“ Калин Пешов потвърди поетия пред министъра на околната среда и енергетиката на Гърция Ставрос Папаставру ангажимент за ускорено завършване на",
+      "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-poe-angajiment-pred-grycki-ministyr-za-uskoreno-zavyrshvane-na-magistrala-struma",
+      "published": "2026-11-20T12:07:01+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Столична община вече ще си плаща за събирането на старите дрехи",
+      "summary": "Столична община ще плаща до 220 хил. евро годишно за събирането на стари дрехи и обувки, след като досегашният безплатен за общината модел стана неустойчив",
+      "url": "https://www.economic.bg/bg/a/view/stolichna-obshtina-veche-shte-si-plashta-za-sybiraneto-na-starite-drehi",
+      "published": "2026-11-20T11:29:58+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 21
     },
     {
@@ -374,16 +354,6 @@
       "priority_score": 15
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Weekly schedule of President António Costa",
-      "summary": "Weekly schedule of President António Costa, 21-29 November 2026.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/weekly-schedule-of-president-antonio-costa/",
-      "published": "2026-11-20T20:15:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 14
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Правителството определи таван на приходите на производителите на ток",
@@ -392,6 +362,16 @@
       "published": "2023-01-11T13:10:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 14
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Weekly schedule of President António Costa",
+      "summary": "Weekly schedule of President António Costa, 21-29 November 2026.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/weekly-schedule-of-president-antonio-costa/",
+      "published": "2026-11-20T20:15:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 13
     },
     {
       "section": "europe",
@@ -414,20 +394,60 @@
       "priority_score": 13
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Млади авиомоделисти от Разград и Щръклево ще посетят летище Русе по повод 100 години от първата въздушна обиколка на България",
+      "summary": "Тридесет деца от Разград и Щръклево, които се занимават с авиомоделизъм, ще посетят летище Русе днес, 21 ноември. Срещата е посветена на 100 години от първата въздушна обиколка на България, съобщи Татяна Обретенова, председател на Аероклуб Русе, който организи",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251527-mladi-aviomodelisti-ot-razgrad-i-shtraklevo-shte-posetyat-letishte-ruse-po-povod",
+      "published": "2026-11-21T06:14:37+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Forward look: 23 November - 6 December 2026",
-      "summary": "Overview of the main subjects to be discussed at meetings of the Council of the EU over the next two weeks and upcoming media events.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
-      "published": "2026-11-20T16:00:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 13
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 21st, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-morning",
+      "published": "2026-11-21T06:00:32+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Държавен архив – Ловеч съхранява ценни свидетелства за музикалната дейност на Панайот Пипков, от чието рождение се навършват 155 години",
+      "summary": "Ценни свидетелства за музикалната дейност на композитора Панайот Пипков, от чието рождение днес, 21 ноември, се навършват 155 години, се съхраняват в Държавен архив – Ловеч, каза пред БТА началникът на институцията Павлина Петрова. „В Ловеч Пипков прекарва сам",
+      "url": "https://www.bta.bg/bg/news/lik/1251228-darzhaven-arhiv-lovech-sahranyava-tsenni-svidetelstva-za-muzikalnata-deynost-n",
+      "published": "2026-11-21T06:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Дни на отворените врати като част от информационната кампания „Попитай НОИ“ започват от днес",
+      "summary": "Първият ден на отворени врати в Националния осигурителен институт (НОИ) започва днес, част от инициативата е информационната кампания „Попитай НОИ“, съобщиха от пресцентъра на института. Експертни консултации ще се предоставят от 9:00 до 12:00 ч., като ще бъда",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251105-dni-na-otvorenite-vrati-kato-chast-ot-informatsionnata-kampaniya-popitay-noi-z",
+      "published": "2026-11-21T06:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Трип-хоп формацията Origami Lake ще свири тази вечер в София",
+      "summary": "Трип-хоп формацията Origami Lake ще има два концерта през ноември – тази вечер в София във „Фабрика Автономия“ и на 28 ноември във Варна в независимото арт пространство „Нула“, съобщават от лейбъла Amek Collective. В София с Origami Lake на сцената ще излезе и",
+      "url": "https://www.bta.bg/bg/news/lik/1251499-trip-hop-formatsiyata-origami-lake-shte-sviri-v-sofiya-i-varna-prez-noemvri",
+      "published": "2026-11-21T05:45:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
     },
     {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "summary": "Trump's comments came as Russia launched \"biggest attacks this year\" against Ukraine.",
+      "summary": "Trump's comments came after Russia launched \"biggest attacks this year\" against Ukraine.",
       "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T05:15:41+00:00",
       "feed_id": "bbc-world",
@@ -436,9 +456,9 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Патриарх Даниил ще бъде възглави литургия в храма „Въведение Богородично\" в Самоков",
+      "title": "Патриарх Даниил ще възглави литургия в храма „Въведение Богородично\" в Самоков",
       "summary": "Българският патриарх и Софийски митрополит Даниил ще бъде възглави литургия в храма „Въведение Богородично\" в Самоков за днешния празник Въведения Богородично, съобщиха от Софийската митрополия. Празникът е определен е и за Ден на православната християнска мла",
-      "url": "https://www.bta.bg/bg/news/lik/1251466-patriarh-daniil-shte-bade-vazglavi-liturgiya-v-hrama-vavedenie-bogorodichno-v-",
+      "url": "https://www.bta.bg/bg/news/lik/1251466-patriarh-daniil-shte-vazglavi-liturgiya-v-hrama-vavedenie-bogorodichno-v-samok",
       "published": "2026-11-21T05:02:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 12
@@ -485,42 +505,22 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Rohingya who escaped Myanmar’s genocide tell their stories",
-      "summary": "Survivors recount rivers red with blood and burning nearby villages serving as an urgent warning to flee their homes Smoke was often the signal to run – seen from a distance, it was the indication for Rohingya that a neighbouring village was under attack and t",
-      "url": "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
-      "published": "2026-11-21T04:00:47+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Временно се променя движението на трамваи заради ремонт на стрелката при кръстовището на бул. „Ал. Стамболийски“ и „Константин Величков“",
-      "summary": "Временна организация на движението на трамвайната стрелка на кръстовището на бул. „Александър Стамболийски“ и бул. „Константин Величков“ се въвежда от днес до полунощ на 23 ноември, съобщиха от Столичната община. Причината е извършване на основен ремонт на стр",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1249757-vremenno-se-promenya-dvizhenieto-na-tramvaite-zaradi-remont-na-strelkata-pri-kra",
-      "published": "2026-11-21T04:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Празнични концерти за Въведение Богородично ще се състоят в Софийската епархия",
-      "summary": "Православната църква чества на 21 ноември празника Въведение Богородично и Деня на православната християнска младеж и семейство. По този повод, с благословението на Софийския митрополит и български патриарх Даниил, в духовните околии на Софийската епархия ще с",
-      "url": "https://www.bta.bg/bg/news/lik/1251497-praznichni-kontserti-za-vavedenie-bogorodichno-shte-se-sastoyat-v-sofiyskata-epa",
-      "published": "2026-11-21T04:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
       "summary": "",
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
       "published": "2026-11-20T17:11:42+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Forward look: 23 November - 6 December 2026",
+      "summary": "Overview of the main subjects to be discussed at meetings of the Council of the EU over the next two weeks and upcoming media events.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
+      "published": "2026-11-20T16:00:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 12
     },
     {
@@ -655,6 +655,36 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Rohingya who escaped Myanmar’s genocide tell their stories",
+      "summary": "Survivors recount rivers red with blood and burning nearby villages serving as an urgent warning to flee their homes Smoke was often the signal to run – seen from a distance, it was the indication for Rohingya that a neighbouring village was under attack and t",
+      "url": "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
+      "published": "2026-11-21T04:00:47+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 11
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Временно се променя движението на трамваи заради ремонт на стрелката при кръстовището на бул. „Ал. Стамболийски“ и „Константин Величков“",
+      "summary": "Временна организация на движението на трамвайната стрелка на кръстовището на бул. „Александър Стамболийски“ и бул. „Константин Величков“ се въвежда от днес до полунощ на 23 ноември, съобщиха от Столичната община. Причината е извършване на основен ремонт на стр",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1249757-vremenno-se-promenya-dvizhenieto-na-tramvaite-zaradi-remont-na-strelkata-pri-kra",
+      "published": "2026-11-21T04:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 11
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Празнични концерти за Въведение Богородично ще се състоят в Софийската епархия",
+      "summary": "Православната църква чества на 21 ноември празника Въведение Богородично и Деня на православната християнска младеж и семейство. По този повод, с благословението на Софийския митрополит и български патриарх Даниил, в духовните околии на Софийската епархия ще с",
+      "url": "https://www.bta.bg/bg/news/lik/1251497-praznichni-kontserti-za-vavedenie-bogorodichno-shte-se-sastoyat-v-sofiyskata-epa",
+      "published": "2026-11-21T04:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain",
       "summary": "Jair Bolsonaro has been hospitalized in Brasilia with intestinal obstruction. The former far-right Brazilian leader is receiving pain medications, his son Carlos said.",
@@ -671,36 +701,6 @@
       "url": "https://www.dw.com/en/uk-anti-migrant-activist-jailed-for-slashing-channel-dinghy/a-80007576?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-21T02:47:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
-      "summary": "How convicted fraudsters made millions from detained immigrants, evaded efforts to shut down their bail business and left migrants behind bars.",
-      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T01:02:39+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "ANC fights to keep control of South Africa's key cities after election setback",
-      "summary": "The ANC appears reluctant to replicate its national power-sharing deal with the pro-business DA at the local level.",
-      "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T00:34:51+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Victorian Greens seek urgent injunction over how-to-vote cards mimicking party’s branding but preferencing it last",
-      "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan’s cards instruct people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens are seeking an urgent injunction from the supreme",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
-      "published": "2026-11-21T00:26:56+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 11
     }
   ],
