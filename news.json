@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:53:53.270449+00:00",
-  "last_checked_at": "2026-11-21T18:53:53.270454+00:00",
+  "updated_at": "2026-11-21T19:37:56.939472+00:00",
+  "last_checked_at": "2026-11-21T19:37:56.939476+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -11,7 +11,7 @@
       "url": "https://www.economic.bg/bg/a/view/mnogo-hora-imat-deficit-na-jeljazo-eto-zashto-tova-chesto-se-propuska",
       "published": "2026-11-21T13:00:42+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 43
+      "priority_score": 42
     },
     {
       "section": "bulgaria",
@@ -101,7 +101,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
       "published": "2026-11-21T09:00:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 28
+      "priority_score": 27
     },
     {
       "section": "bulgaria",
@@ -135,26 +135,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Софийският районен съд наложи мярка за неотклонение „задържане под стража“ на обвинените в блудство трима непълнолетни",
-      "summary": "Софийският районен съд наложи мярка за неотклонение „задържане под стража“ на обвинените в блудство три непълнолетни лица. Мярката беше разгледана при закрити врата. Трима непълнолетни на 14, 15 и 16 години са задържани за срок до 48 часа за блудствени действи",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251783-sofiyskiyat-rayonen-sad-nalozhi-myarka-za-neotklonenie-zadarzhane-pod-strazha-",
-      "published": "2026-11-21T17:34:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Софийският районен съд наложи мярка за неотклонение „задържане под стража“ на обвинените в блудство трима непълнолетни",
-      "summary": "Софийският районен съд наложи мярка за неотклонение „задържане под стража“ на обвинените в блудство три непълнолетни лица. Трима непълнолетни на 14, 15 и 16 години са задържани за срок до 48 часа за блудствени действия спрямо непълнолетно момиче в София, съобщ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251773-sofiyskiyat-rayonen-sad-nalozhi-myarka-za-neotklonenie-zadarzhane-pod-strazha-",
-      "published": "2026-11-21T17:34:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Дезинфлационната стратегия на Фед е обречена на провал",
       "summary": "",
@@ -162,6 +142,16 @@
       "published": "2026-11-21T10:30:00+00:00",
       "feed_id": "investor-economy",
       "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Софийският районен съд наложи мярка за неотклонение „задържане под стража“ на обвинените в блудство трима непълнолетни",
+      "summary": "Софийският районен съд наложи мярка за неотклонение „задържане под стража“ на обвинените в блудство три непълнолетни лица. Мярката беше разгледана при закрити врата. Трима непълнолетни на 14, 15 и 16 години са задържани за срок до 48 часа за блудствени действи",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251783-sofiyskiyat-rayonen-sad-nalozhi-myarka-za-neotklonenie-zadarzhane-pod-strazha-",
+      "published": "2026-11-21T17:34:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 23
     },
     {
       "section": "europe",
@@ -231,7 +221,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 20
+      "priority_score": 19
     },
     {
       "section": "bulgaria",
@@ -364,16 +354,6 @@
       "priority_score": 14
     },
     {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen on the assassination attempt against a US-Ukrainian citizen in Denmark",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 I strongly condemn the assassination attempt against a US-Ukrainian citizen in Denmark, orchestrated by Russian intelligence services. This was an attack on EU ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556",
-      "published": "2026-11-21T09:01:16+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 14
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Правителството определи таван на приходите на производителите на ток",
@@ -382,6 +362,86 @@
       "published": "2023-01-11T13:10:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 14
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement by President von der Leyen on the assassination attempt against a US-Ukrainian citizen in Denmark",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 I strongly condemn the assassination attempt against a US-Ukrainian citizen in Denmark, orchestrated by Russian intelligence services. This was an attack on EU ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556",
+      "published": "2026-11-21T09:01:16+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 13
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "\"Спартак контролираше почти целия двубой\", заяви треньорът на баскетболния Ботев Академик Давид Мазур",
+      "summary": "\"Спартак контролираше почти целия двубой\", каза след загубата в Плевен със 75:87 в мач от седмия кръг на Националната баскетболна лига за мъже старши треньорът на Ботев Академик от Пловдив Давид Мазур Той коментира още, че са започнали мача добре. След това са",
+      "url": "https://www.bta.bg/bg/news/sport/1251804--spartak-kontrolirashe-pochti-tseliya-dvuboy-zayavi-trenyorat-na-basketbolniya",
+      "published": "2026-11-21T19:36:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T19:33:49+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Russia-bound ship attacked in Gulf of Finland",
+      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T19:20:22+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "\"Като отбор можем да търсим шансове срещу всеки съперник\", каза треньорът на баскетболния Спартак Плевен Желко Лукаич",
+      "summary": "\"Като отбор можем да търсим шансове срещу всеки съперник и да играем за победа\", каза треньорът на баскетболния Спартак Плевен Желко Лукаич след домакинската победа над Ботев Академик от Пловдив с 87:75 в мач от седмия кръг на Националната баскетболна лига за",
+      "url": "https://www.bta.bg/bg/news/sport/1251800--kato-otbor-mozhem-da-tarsim-shansove-sreshtu-vseki-sapernik-kaza-trenyorat-na",
+      "published": "2026-11-21T19:16:22+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "‘Six, seven, maybe more preventable deaths’: Queensland’s LNP faces reckoning over broken health system",
+      "summary": "A government in office for more than two years is finally forced to take responsibility and seemingly no longer able to blame its Labor predecessors Get our daily political email , free app or daily news podcast At the beginning of another Queensland parliamen",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/queensland-health-ambulance-deaths-lnp-labor-ntwnfb",
+      "published": "2026-11-21T19:00:08+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
+      "summary": "Copini Beauty referred to New South Wales health regulators, while federal government says it is ‘deeply concerned’ Get our breaking news email , free app or daily news podcast An Australian beauty company that promotes “clean” ingredients “free from skin irri",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
+      "published": "2026-11-21T19:00:07+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian neo-Nazis among far-right groups raising hundreds of thousands via global crowdfunding platform",
+      "summary": "GiveSendGo has been accused of facilitating the financing of extremism, but the platform says it does not ‘condone racism, discrimination, hate speech, or violence of any kind’ Get our breaking news email , free app or daily news podcast Australian neo-Nazis h",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/australian-neo-nazis-among-far-right-groups-raising-hundreds-of-thousands-via-global-crowdfunding-platform-ntwnfb",
+      "published": "2026-11-21T19:00:06+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
     },
     {
       "section": "europe",
@@ -454,16 +514,6 @@
       "priority_score": 12
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Russia-bound ship attacked in Gulf of Finland",
-      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T18:22:09+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Историческият музей в Петрич отбеляза 60 години от създаването си с тържествена вечер",
@@ -485,12 +535,12 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Трябва да възпитаваме децата си в добродетелите на нашите предшественици, каза Видинският митрополит Пахомий",
-      "summary": "Трябва да възпитаваме децата си в добродетелите на нашите предшественици, каза Видинският митрополит Пахомий по време на празничен концерт, посветен на Въведение Богородично и Деня на християнското семейство. Събитието беше организирано от Видинската митрополи",
-      "url": "https://www.bta.bg/bg/news/lik/1251771-tryabva-da-vazpitavame-detsata-si-v-dobrodetelite-na-nashite-predshestvenitsi-k",
-      "published": "2026-11-21T17:27:57+00:00",
-      "feed_id": "bta-bulgaria",
+      "source": "Investor.bg – България",
+      "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/367399-predlagat-vrashtane-na-mesechnata-karta-za-edna-liniya-za-nazemen-transport-v-sofiya",
+      "published": "2023-01-12T09:49:00+00:00",
+      "feed_id": "investor-bg",
       "priority_score": 12
     },
     {
@@ -501,7 +551,7 @@
       "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-21T17:08:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -511,17 +561,7 @@
       "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
       "published": "2026-11-21T17:00:26+00:00",
       "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – България",
-      "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/367399-predlagat-vrashtane-na-mesechnata-karta-za-edna-liniya-za-nazemen-transport-v-sofiya",
-      "published": "2023-01-12T09:49:00+00:00",
-      "feed_id": "investor-bg",
-      "priority_score": 12
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -584,16 +624,6 @@
       "priority_score": 11
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-      "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T14:54:24+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Димитър Радев: ЕЦБ трябва да е готова за ново повишение на лихвите",
@@ -645,26 +675,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-      "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T13:17:38+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-      "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
-      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T13:15:21+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
       "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
@@ -692,21 +702,11 @@
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
       "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Factsheet EU-Indonesia - Agriculture",
-      "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Agriculture Factsheet EU-Indonesia - Agriculture",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2170",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 11
     }
   ],
   "feed_status": {
-    "ok": 17,
-    "total": 17,
+    "ok": 21,
+    "total": 21,
     "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
