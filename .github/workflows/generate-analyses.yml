@@ -60,6 +60,17 @@ jobs:
             LANE="${MANUAL_LANE:-bulgaria}"
           fi
           echo "lane=$LANE" >> "$GITHUB_OUTPUT"
+      - name: Report selected evidence
+        env:
+          LANE: ${{ steps.lane.outputs.lane }}
+        run: |
+          python - <<'PY'
+          import runpy
+          namespace = runpy.run_path("scripts/generate_analysis.py")
+          pack = namespace["get_evidence"](__import__("os").environ["LANE"])
+          for item in pack["sources"]:
+              print("SELECTED_SOURCE", item.get("source_id"), "|", item.get("publisher"), "|", item.get("published"), "|", item.get("title"), "|", item.get("url"))
+          PY
       - name: Free evidence and budget preflight
         run: python scripts/generate_analysis.py --lane "${{ steps.lane.outputs.lane }}" --dry-run
       - name: Check explicit publishing switch and API secret
