@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:30:00.255875+00:00",
-  "last_checked_at": "2026-11-21T08:30:00.255878+00:00",
+  "updated_at": "2026-11-21T09:16:00.499592+00:00",
+  "last_checked_at": "2026-11-21T09:16:00.499595+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "При 14 катастрофи през изминалото денонощие са ранени 16 души",
+      "summary": "През изминалото денонощие в страната са станали 14 катастрофи, при които са ранени 16 души. Това съобщават от Министерството на вътрешните работи на сайта си. В София са регистрирани 34 леки пътнотранспортни произшествия. От началото на месеца са станали 316 к",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251558-pri-14-katastrofi-prez-izminaloto-denonoshtie-sa-raneni-16-dushi",
+      "published": "2026-11-21T09:03:40+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 44
+    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -25,33 +35,13 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изборът на член на ВСС от квотата на следователите в Бургас започна нормално, право на глас имат 36 души",
-      "summary": "Изборният ден за избор на член на Висшия съдебен съвет (ВСС) от професионалната квота на следователите започна нормално в Бургас, без забавяне. Гласуването се провежда в секция, разкрита в Съдебната палата в крайморския град. Право на глас имат 36 следователи",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251542-izborat-na-chlen-na-vss-ot-kvotata-na-sledovatelite-v-burgas-zapochna-normalno-",
-      "published": "2026-11-21T07:22:24+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 38
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общо 43 следователи във Велико Търново имат право на глас за избор на свой представител във ВСС",
-      "summary": "Общо 43 следователи имат право на глас във Велико Търново в избора на член на новия състав на Висшия съдебен съвет (ВСС) от професионалната квота на следователите. Гласуването във Велико Търново започна тази сутрин в Съдебната палата и още в първите минути сле",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251536-obshto-43-sledovateli-vav-veliko-tarnovo-imat-pravo-na-glas-za-izbor-na-svoy-pre",
-      "published": "2026-11-21T07:17:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 38
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Къде точно ще бъдат новите метростанции към Симеоновския лифт и Околовръстното",
       "summary": "Две от линиите на софийското метро ще се свържат при бъдещ интермодален транспортен възел в района на IKEA и Sofia Ring Mall, до Околовръстния път. Там трябва да достигне продължението на първата метролиния от съществуващата станция „Бизнес парк София“ и откло",
       "url": "https://www.economic.bg/bg/a/view/kyde-tochno-shte-bydat-novite-metrostancii-kym-simeonovskija-lift-i-okolovrystnoto",
       "published": "2026-11-21T07:01:09+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "bulgaria",
@@ -62,6 +52,16 @@
       "published": "2026-11-13T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 34
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Дефицитът на Гърция се е увеличил с 2,5 млрд. евро за периода януари-септември",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
+      "published": "2026-11-21T09:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 30
     },
     {
       "section": "bulgaria",
@@ -96,6 +96,16 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Матраците извън употреба: проблем за сметищата, възможност за бизнеса",
+      "summary": "Матракът е сред малкото вещи в домакинството, за които човек рядко се замисля какво се случва след края на употребата им. Той се купува, използва се години наред и в един момент трябва да бъде заменен. Тогава обаче започва проблем, който не е толкова видим за",
+      "url": "https://www.bta.bg/bg/news/economy/1247765-matratsite-izvan-upotreba-problem-za-smetishtata-vazmozhnost-za-biznesa",
+      "published": "2026-11-21T09:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Babylon Genesis събира над 14 чуждестранни артисти на три сцени в София",
       "summary": "Над 14 чуждестранни артисти ще участват в първото издание на Babylon Genesis, съобщават организаторите от H.M.S.U. Събитието ще се състои тази вечер в „Интер експо център\" в София и ще включва три тематични сцени, представящи развитието на културите drum & bas",
       "url": "https://www.bta.bg/bg/news/lik/1251501-babylon-genesis-sabira-nad-14-chuzhdestranni-artisti-na-tri-stseni-v-sofiya",
@@ -124,6 +134,16 @@
       "priority_score": 26
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Варненски художници разказват в интервюта за присъствието и значението на родния град в творчеството им",
+      "summary": "Изданието „Нарисувай ми града“ ще бъде представено днес в 18:30 ч. в Градската художествена галерия „Борис Георгиев“ във Варна. То е дело на фондация „Град и посоки“ и съдържа интервюта с осем художници, свързани с Варна, както и текстове, рисунки и фотографии",
+      "url": "https://www.bta.bg/bg/news/lik/1251552-varnenski-hudozhnitsi-razkazvat-v-intervyuta-za-prisastvieto-i-znachenieto-na-ro",
+      "published": "2026-11-21T08:32:31+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
       "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Франция отново се изправя пред най-страховитата си задача - приемането на бюджета",
@@ -141,7 +161,7 @@
       "url": "https://www.investor.bg/a/461-bloomberg-tv/439866-prezapisvaneto-na-ipo-to-na-anthropic-mozhe-bi-shte-ubedi-pazarnite-uchastnitsi-da-nyamat-strah-ot-ai",
       "published": "2026-11-20T18:39:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 23
+      "priority_score": 22
     },
     {
       "section": "bulgaria",
@@ -161,26 +181,6 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Предложение на МЗХ: Земя да се наема дългосрочно, а аренди да се плащат по банков път",
-      "summary": "",
-      "url": "https://www.investor.bg/a/520-zemedelie/439857-predlozhenie-na-mzh-zemya-da-se-naema-dalgosrochno-a-arendi-da-se-plashtat-po-bankov-pat",
-      "published": "2026-11-20T15:09:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Колко от българските домакинства имат деца? (Графика)",
-      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
-      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
-      "published": "2026-11-20T14:42:23+00:00",
-      "feed_id": "economic-bg",
       "priority_score": 22
     },
     {
@@ -222,6 +222,26 @@
       "published": "2026-11-11T00:00:00+00:00",
       "feed_id": "bnb-news",
       "priority_score": 22
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Предложение на МЗХ: Земя да се наема дългосрочно, а аренди да се плащат по банков път",
+      "summary": "",
+      "url": "https://www.investor.bg/a/520-zemedelie/439857-predlozhenie-na-mzh-zemya-da-se-naema-dalgosrochno-a-arendi-da-se-plashtat-po-bankov-pat",
+      "published": "2026-11-20T15:09:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Колко от българските домакинства имат деца? (Графика)",
+      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
+      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
+      "published": "2026-11-20T14:42:23+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 21
     },
     {
       "section": "bulgaria",
@@ -364,6 +384,46 @@
       "priority_score": 13
     },
     {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Pentagon declassifies new UFO footage filmed by US military",
+      "summary": "The US Department of War has published its eighth release of declassified historical files on unidentified anomalous phenomena, with further documents expected to be made public.",
+      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
+      "published": "2026-11-21T09:01:41+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Fossil fuel row sees COP31 talks spill into overtime",
+      "summary": "A number of countries, including France and Panama, released a letter on Friday insisting that a deal include \"a clear transition away from fossil fuels.\"",
+      "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
+      "published": "2026-11-21T08:56:33+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В живописта на Михаил Камберов има място и за търпението, и за свободата, казва синът му Иван Камберов",
+      "summary": "В живописта на Михаил Камберов има място и за търпението, с което работеше с върха на игла, и за свободата на широката мазка. Това казва синът му Иван Камберов по повод откритата в петък вечер, в галерия „Михаил Камберов“ традиционната изложба, посветена на ро",
+      "url": "https://www.bta.bg/bg/news/lik/1251491-v-zhivopista-na-mihail-kamberov-ima-myasto-i-za-tarpenieto-i-za-svobodata-kazv",
+      "published": "2026-11-21T08:46:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Голям интерес към Деня на отворените врати в София отчете ръководството на НОИ, планира се кампанията да продължи и в други градове",
+      "summary": "Ден на отворените врати в Националния осигурителен институт (НОИ) в София събра граждани и ръководството на институцията. Учудващо голям е интересът към първия ден на отворените врати, каза управителят на института Весела Караиванова-Начева. Още в 8:30 ч. сутр",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251554-golyam-interes-kam-denya-na-otvorenite-vrati-v-sofiya-otchete-rakovodstvoto-na-n",
+      "published": "2026-11-21T08:44:30+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Над 200 участници събра деветият лекоатлетически турнир \"Децата на Плевен\"",
@@ -380,6 +440,16 @@
       "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
       "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T08:10:25+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Trafalgar Square Christmas tree felled in Norway",
+      "summary": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T08:10:03+00:00",
       "feed_id": "bbc-world",
       "priority_score": 12
     },
@@ -444,76 +514,6 @@
       "priority_score": 12
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Облачно и мъгливо е в планините, не се препоръчват разходки във високите части, съобщи Планинската спасителна служба на БЧК",
-      "summary": "В планините е облачно, мъгливо и със силен вятър по планинските била. Това съобщиха от Планинската спасителна служба (ПСС) на Българския \"ервен кръст. Спасителите казаха, че не се препоръчват разходки във високите части на планината. Температурите варират межд",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251540-oblachno-i-maglivo-e-v-planinite-ne-se-preporachvat-razhodki-vav-visokite-chast",
-      "published": "2026-11-21T07:19:17+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изкуствоведката Жени Дечева ще води обиколка на фотоизложба с творби на фотографа Улрих Вюрст в СГХГ",
-      "summary": "Изкуствоведката Жени Дечева ще води днес от 16:00 ч. обиколка на фотоизложба с творби на съвременния германски фотограф Улрих Вюрст в Софийската художествена градска галерия (СГХГ), съобщиха организаторите. Фотоизложбата „Странствания из историята. Фотографиит",
-      "url": "https://www.bta.bg/bg/news/lik/1251503-fotoizlozhba-s-tvorbi-na-savremenniya-germanski-fotograf-ulrih-vyurst-shte-bade-",
-      "published": "2026-11-21T07:15:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
-      "summary": "A 30-year-old man has been convicted of causing one of the most destructive wildfires in the history of Los Angeles. The verdict came after the case was retried.",
-      "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T07:10:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Putin a 'killer,' Zelenskyy says after Trump calls Russian leader his 'friend'",
-      "summary": "It comes after Russian forces launched a major wave of strikes against Ukraine from Thursday night into Friday morning, killing at least seven people in Kyiv and damaging key bridges across the Dnipro River.",
-      "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
-      "published": "2026-11-21T07:07:09+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Накъде ще движи геополитиката цената на златото?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/439833-nakade-shte-dvizhi-geopolitikata-tsenata-na-zlatoto",
-      "published": "2026-11-21T07:00:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Над 80 събития в 12 български града включва 14-ото издание на „Нощ на театрите“",
-      "summary": "Над 80 събития в 12 български града са част от 14-ото издание на „Нощ на театрите“, което ще се състои днес под мотото „Крале и шутове“, съобщават организаторите. Програмата обединява театрални спектакли, пърформанси, импровизационен и куклен театър, изложби,",
-      "url": "https://www.bta.bg/bg/news/lik/1251495-nad-80-sabitiya-v-12-balgarski-grada-vklyuchva-14-oto-izdanie-na-nosht-na-teatr",
-      "published": "2026-11-21T07:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Three El Salvador soldiers die in explosives accident in Haiti",
-      "summary": "The soldiers were part of a Salvadoran military contingent deployed to the violence-ridden Caribbean nation last month to rescue four missing airmen. The deployment has widened into an operation against Haiti's gangs.",
-      "url": "https://www.dw.com/en/three-el-salvador-soldiers-die-in-explosives-accident-in-haiti/a-80008005?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T06:58:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
@@ -544,16 +544,6 @@
       "priority_score": 12
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
-      "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/european-peace-facility-council-mobilises-additional-1-billion-in-new-military-aid-to-ukraine/",
-      "published": "2026-11-20T14:50:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 12
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
@@ -562,6 +552,46 @@
       "published": "2023-01-12T09:49:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+      "summary": "A 30-year-old man has been convicted of causing one of the most destructive wildfires in the history of Los Angeles. The verdict came after the case was retried.",
+      "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T07:10:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Putin a 'killer,' Zelenskyy says after Trump calls Russian leader his 'friend'",
+      "summary": "It comes after Russian forces launched a major wave of strikes against Ukraine from Thursday night into Friday morning, killing at least seven people in Kyiv and damaging key bridges across the Dnipro River.",
+      "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
+      "published": "2026-11-21T07:07:09+00:00",
+      "feed_id": "euronews",
+      "priority_score": 11
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Накъде ще движи геополитиката цената на златото?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/439833-nakade-shte-dvizhi-geopolitikata-tsenata-na-zlatoto",
+      "published": "2026-11-21T07:00:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Three El Salvador soldiers die in explosives accident in Haiti",
+      "summary": "The soldiers were part of a Salvadoran military contingent deployed to the violence-ridden Caribbean nation last month to rescue four missing airmen. The deployment has widened into an operation against Haiti's gangs.",
+      "url": "https://www.dw.com/en/three-el-salvador-soldiers-die-in-explosives-accident-in-haiti/a-80008005?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T06:58:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -645,26 +675,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain",
-      "summary": "Jair Bolsonaro has been hospitalized in Brasilia with intestinal obstruction. The former far-right Brazilian leader is receiving pain medications, his son Carlos said.",
-      "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T03:16:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "UK anti-migrant activist jailed for slashing Channel dinghy",
-      "summary": "Daniel Thomas, known as \"Danny Tommo,\" slashed a dinghy with a knife while a French rescue worker was on board. The incident was livestreamed to a large social media audience amid growing tensions over migrant crossings.",
-      "url": "https://www.dw.com/en/uk-anti-migrant-activist-jailed-for-slashing-channel-dinghy/a-80007576?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T02:47:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
       "summary": "",
@@ -676,30 +686,20 @@
     {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
+      "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
+      "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/european-peace-facility-council-mobilises-additional-1-billion-in-new-military-aid-to-ukraine/",
+      "published": "2026-11-20T14:50:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
       "title": "Media advisory - Agriculture and Fisheries Council of 23 November 2026",
       "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
       "published": "2026-11-20T14:30:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Council calls for action to safeguard Europe’s traditional sports and games for future generations",
-      "summary": "The Council has approved conclusions calling for greater efforts to preserve and promote traditional sports and games in the EU.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
-      "published": "2026-11-20T14:10:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - General Affairs Council (Cohesion) of 23 November 2026",
-      "summary": "Main agenda items, approximate timing and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-general-affairs-council-cohesion-of-23-november-2026/",
-      "published": "2026-11-20T13:54:00+00:00",
       "feed_id": "council-press",
       "priority_score": 11
     }
