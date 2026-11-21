@@ -111,6 +111,7 @@ jobs:
              else:facts={'reference_date':data.get('reference_date'),'values':data.get('values',{})}
              datasets.append({'source_id':sid,'period':data.get('latest_period') or data.get('reference_date'),'methodology':clean(data.get('methodology',''))[:700],'facts':facts})
            return {'lane':lane,'generated_at':dt.datetime.now(TZ).isoformat(),'feed_health':health,'sources':sources+items,'datasets':datasets,'chart_candidates':charts}
+          '''
           source = source[:start] + replacement + source[end:]
           path.write_text(source, encoding="utf-8")
           print("Applied world headline relevance, duplicate detection and seven-day freshness checks.")
