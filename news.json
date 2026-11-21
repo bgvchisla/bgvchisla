@@ -1,8 +1,28 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:40:12.744903+00:00",
-  "last_checked_at": "2026-11-21T07:40:12.744908+00:00",
+  "updated_at": "2026-11-21T08:30:00.255875+00:00",
+  "last_checked_at": "2026-11-21T08:30:00.255878+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Социалните разходи изпреварват икономиката",
+      "summary": "Разходите за пенсии и социални помощи растат много по-бързо от икономиката. Данъчните постъпления и приходите от осигуровки също се увеличават, но не успяват да догонят плащанията. По темата е и новият одит на Сметната палата за социалните плащания през период",
+      "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
+      "published": "2026-11-21T08:00:03+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 42
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Ще има широки консултации и нищо няма да бъде правено в ущърб на майките на деца с увреждания и на другите лични асистенти, каза министър Наталия Ефремова",
+      "summary": "Нищо няма да бъде направено в ущърб на майките на деца с увреждания и на другите лични асистенти. Ще бъдат направени широки консултации, ще бъдат отчетени всички интереси и ако няма необходимост или няма консенсус, нищо няма да се променя. Това заяви социалния",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251550-shte-ima-shiroki-konsultatsii-i-nishto-nyama-da-bade-praveno-v-ushtarb-na-maykit",
+      "published": "2026-11-21T08:27:34+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 38
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -35,26 +55,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общо 86 следователи от Апелативен район - Пловдив имат право на глас в изборите за свой представител във Висшия съдебен съвет",
-      "summary": "В Пловдив започна изборният ден, в който следователите ще изберат своя представител за член на Висшия съдебен съвет (ВСС). Право на глас имат 86 следователи, каза за БТА председателят на изборната секция Димитър Ралев. Във втора секция, намираща се в Съдебната",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251534-obshto-86-sledovateli-ot-apelativen-rayon-plovdiv-imat-pravo-na-glas-v-izborit",
-      "published": "2026-11-21T06:56:38+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 38
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Във Варна за членове на Висшия съдебен съвет имат право да гласуват 55 следователи",
-      "summary": "Във Варна за членове на Висшия съдебен съвет имат право да гласуват 55 следователи, каза председателят на избирателна секция номер четири Калин Владимиров – следовател в Окръжния следствен отдел в крайморския град. Той уточни, че изборният ден е започнал напъл",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251533-vav-varna-za-chlenove-na-visshiya-sadeben-savet-imat-pravo-da-glasuvat-55-sledov",
-      "published": "2026-11-21T06:37:41+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 38
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Ръководителят на делегацията на Народното събрание в Интерпарламентарния съюз Росица Кирова участва в Глобалната парламентарна конференция за правата на човека в Женева",
       "summary": "",
@@ -81,7 +81,7 @@
       "url": "https://www.economic.bg/bg/a/view/malkijat-biznes-v-sofijska-oblast-tyrsi-evrosredstva-za-start-i-modernizacija",
       "published": "2026-11-20T13:50:25+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 30
+      "priority_score": 29
     },
     {
       "section": "bulgaria",
@@ -96,12 +96,12 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общо 52 пожара са потушени в страната през изминалото денонощие",
-      "summary": "През изминалото денонощие в страната са потушени 52 пожара, съобщиха от Главна дирекция „Гранична полиция“ (ГДГП) на сайта си. Пожарникарите са реагирали на 147 сигнала за произшествия. Лъжливи повиквания са шест. При пожарите няма загинали и пострадали. Преки",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251529-obshto-52-pozhara-sa-potusheni-v-stranata-prez-izminaloto-denonoshtie",
-      "published": "2026-11-21T06:34:49+00:00",
+      "title": "Babylon Genesis събира над 14 чуждестранни артисти на три сцени в София",
+      "summary": "Над 14 чуждестранни артисти ще участват в първото издание на Babylon Genesis, съобщават организаторите от H.M.S.U. Събитието ще се състои тази вечер в „Интер експо център\" в София и ще включва три тематични сцени, представящи развитието на културите drum & bas",
+      "url": "https://www.bta.bg/bg/news/lik/1251501-babylon-genesis-sabira-nad-14-chuzhdestranni-artisti-na-tri-stseni-v-sofiya",
+      "published": "2026-11-21T07:45:00+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 27
+      "priority_score": 26
     },
     {
       "section": "europe",
@@ -131,7 +131,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439841-frantsiya-otnovo-se-izpravya-pred-nay-strahovitata-si-zadacha-priemaneto-na-byudzheta",
       "published": "2026-11-20T14:06:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 25
+      "priority_score": 24
     },
     {
       "section": "bulgaria",
@@ -151,7 +151,7 @@
       "url": "https://www.investor.bg/a/538-pazari/439874-evropeyskite-borsi-zatvoriha-tezhka-sedmitsa-sled-razprodazhbi-na-tehnologichnite-aktsii",
       "published": "2026-11-20T18:02:13+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 23
+      "priority_score": 22
     },
     {
       "section": "bulgaria",
@@ -180,16 +180,6 @@
       "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
       "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
       "published": "2026-11-20T14:42:23+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Българска инициатива с международно партньорство поставя основите за внедряване на малки модулни реактори",
-      "summary": "Българската енергийно-технологична компания Blue Bird Energy подписа споразумение за съвместно сътрудничество с полската Synthos Green Energy (SGE) и Националната електрическа компания (НЕК) за внедряване на малки модулни ядрени реактори (ММР) в България. Това",
-      "url": "https://www.economic.bg/bg/a/view/bylgarska-iniciativa-s-mejdunarodno-partniorstvo-postavja-osnovite-za-vnedrjavane-na-malki-modulni-reaktori",
-      "published": "2026-11-20T14:17:38+00:00",
       "feed_id": "economic-bg",
       "priority_score": 22
     },
@@ -235,6 +225,16 @@
     },
     {
       "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Българска инициатива с международно партньорство поставя основите за внедряване на малки модулни реактори",
+      "summary": "Българската енергийно-технологична компания Blue Bird Energy подписа споразумение за съвместно сътрудничество с полската Synthos Green Energy (SGE) и Националната електрическа компания (НЕК) за внедряване на малки модулни ядрени реактори (ММР) в България. Това",
+      "url": "https://www.economic.bg/bg/a/view/bylgarska-iniciativa-s-mejdunarodno-partniorstvo-postavja-osnovite-za-vnedrjavane-na-malki-modulni-reaktori",
+      "published": "2026-11-20T14:17:38+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "110 млн. евро ще бъдат насочени към предприятия във въглищните региони",
       "summary": "",
@@ -250,16 +250,6 @@
       "summary": "Монетният двор на Българската народна банка (БНБ) представи възпоменателен сребърен медал „Цар Самуил“, посветен на връщането на тленните останки на средновековния български владетел в страната. Колекционерското изделие е с ограничен тираж – 500 броя, като все",
       "url": "https://www.economic.bg/bg/a/view/monetnijat-dvor-puska-srebyren-medal-s-lika-na-car-samuil",
       "published": "2026-11-20T12:48:19+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 21
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "„Главболгарстрой“ пое ангажимент пред гръцки министър за ускорено завършване на магистрала „Струма“",
-      "summary": "В изказването си преди официалния старт на седмата министерска среща на P-TEC председателят на УС на „Главболгарстрой“ Калин Пешов потвърди поетия пред министъра на околната среда и енергетиката на Гърция Ставрос Папаставру ангажимент за ускорено завършване на",
-      "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-poe-angajiment-pred-grycki-ministyr-za-uskoreno-zavyrshvane-na-magistrala-struma",
-      "published": "2026-11-20T12:07:01+00:00",
       "feed_id": "economic-bg",
       "priority_score": 21
     },
@@ -374,6 +364,66 @@
       "priority_score": 13
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 200 участници събра деветият лекоатлетически турнир \"Децата на Плевен\"",
+      "summary": "Над 200 участници събра деветото издание на лекоатлетическия турнир \"Децата на Плевен\" . Възстановената след шестгодишно прекъсване спортна надпревара е в залата по лека атлетика. В турнира участват деца, родени през 2013, 2014, 2015, 2016, 2017, 2018 и 2019 г",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251553-nad-200-uchastnitsi-sabra-devetiyat-lekoatleticheski-turnir-detsata-na-pleven-",
+      "published": "2026-11-21T08:29:37+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T08:10:25+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Second judge blocks construction of Trump's massive 'triumphal arch'",
+      "summary": "Trump, who has embarked on a campaign to remodel Washington since his return to the White House in January 2025, has said the structure would be turned into a \"top grade military complex.\"",
+      "url": "https://www.euronews.com/2026/11/21/second-judge-blocks-construction-of-trumps-massive-triumphal-arch",
+      "published": "2026-11-21T08:01:28+00:00",
+      "feed_id": "euronews",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "ССБ: Пшеницата продължи да поевтинява на световните борси и тази седмица",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439878-ssb-pshenitsata-prodalzhi-da-poevtinyava-na-svetovnite-borsi-i-tazi-sedmitsa",
+      "published": "2026-11-21T08:00:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Майкъл Кълън ще разкаже в София историята на „Опакованият Райхстаг“",
+      "summary": "Американският историк на архитектурата Майкъл Кълън, който през 1971 г. предлага на Кристо и Жан-Клод да опаковат сградата на Райхстага в Берлин, ще гостува днес в София. В концептуално пространство „Дом“ той ще разкаже за историята на „Опакованият Райхстаг“ и",
+      "url": "https://www.bta.bg/bg/news/lik/1251506-maykal-kalan-shte-razkazhe-v-sofiya-istoriyata-na-opakovaniyat-rayhstag-",
+      "published": "2026-11-21T08:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "US judge jails Indian national in foiled Sikh separatist murder plot",
+      "summary": "New Delhi has denied any role in the plot to kill Sikh separatist Gurpatwant Singh Pannun in New York. Meanwhile, over 200 people have been hospitalized after consuming spurious liquor in Manipur state. DW has more.",
+      "url": "https://www.dw.com/en/us-judge-jails-indian-national-in-foiled-sikh-separatist-murder-plot/live-80008104?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T07:53:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 12
+    },
+    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
@@ -391,16 +441,6 @@
       "url": "https://www.bta.bg/bg/news/lik/1251496-tenorat-mario-nikolov-shte-gostuva-na-kontserta-na-meri-boys-bend-po-povod-25-",
       "published": "2026-11-21T07:30:00+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T07:24:45+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 12
     },
     {
@@ -474,46 +514,6 @@
       "priority_score": 12
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Ирина Флорин отбелязва с концерт 25 години от издаването на албума „В трето лице”",
-      "summary": "Певицата Ирина Флорин отбелязва с концерт 25 години от издаването на албума „В трето лице” тази вечер в столичния клуб Fomo, информират организаторите от Fest Team. Гости на събитието ще бъдат Момчил Колев, Ваня Щерева, Стенли, Георги Георгиев, Свилен Ноев, а",
-      "url": "https://www.bta.bg/bg/news/lik/1251502-irina-florin-otbelyazva-s-kontsert-25-godini-ot-izdavaneto-na-albuma-v-treto-li",
-      "published": "2026-11-21T06:45:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Срещата в Шънджън показа на Путин, че приятелствата му си имат граници",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439850-sreshtata-v-shandzhan-pokaza-na-putin-che-priyatelstvata-mu-si-imat-granitsi",
-      "published": "2026-11-21T06:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 21st, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-morning",
-      "published": "2026-11-21T06:00:32+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
-      "summary": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
-      "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T06:00:09+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
@@ -554,46 +554,6 @@
       "priority_score": 12
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - Agriculture and Fisheries Council of 23 November 2026",
-      "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
-      "published": "2026-11-20T14:30:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Council calls for action to safeguard Europe’s traditional sports and games for future generations",
-      "summary": "The Council has approved conclusions calling for greater efforts to preserve and promote traditional sports and games in the EU.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
-      "published": "2026-11-20T14:10:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - General Affairs Council (Cohesion) of 23 November 2026",
-      "summary": "Main agenda items, approximate timing and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-general-affairs-council-cohesion-of-23-november-2026/",
-      "published": "2026-11-20T13:54:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Remarks by President António Costa at the press conference following the EU-UK summit of 20 November 2026",
-      "summary": "During the press conference held after at the end of the EU-United Kingdom summit of 20 November 2026, President António Costa addressed the press.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/remarks-by-president-antonio-costa-at-the-press-conference-following-the-eu-uk-summit-of-20-november-2026/",
-      "published": "2026-11-20T13:54:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 12
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
@@ -602,6 +562,36 @@
       "published": "2023-01-12T09:49:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Срещата в Шънджън показа на Путин, че приятелствата му си имат граници",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439850-sreshtata-v-shandzhan-pokaza-na-putin-che-priyatelstvata-mu-si-imat-granitsi",
+      "published": "2026-11-21T06:30:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 21st, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-morning",
+      "published": "2026-11-21T06:00:32+00:00",
+      "feed_id": "euronews",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
+      "summary": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T06:00:09+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -646,7 +636,7 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Rohingya who escaped Myanmar’s genocide tell their stories",
+      "title": "When you see smoke, run: Rohingya who escaped Myanmar’s genocide tell their stories",
       "summary": "Survivors recount rivers red with blood and burning nearby villages serving as an urgent warning to flee their homes Smoke was often the signal to run – seen from a distance, it was the indication for Rohingya that a neighbouring village was under attack and t",
       "url": "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
       "published": "2026-11-21T04:00:47+00:00",
@@ -686,21 +676,31 @@
     {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
-      "title": "Joint statement EU-United Kingdom summit, 20 November 2026",
-      "summary": "The leaders of the European Union and United Kingdom held their second EU-UK summit in Brussels on 20 November 2026, and agreed on a joint statement.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/joint-statement-eu-united-kingdom-summit-20-november-2026/",
-      "published": "2026-11-20T13:07:00+00:00",
+      "title": "Media advisory - Agriculture and Fisheries Council of 23 November 2026",
+      "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
+      "published": "2026-11-20T14:30:00+00:00",
       "feed_id": "council-press",
       "priority_score": 11
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission partially greenlights Malta's final payment request for €61.7 million under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Malta's fifth and final payment request for €61.7 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2550",
-      "published": "2026-11-20T12:32:21+00:00",
-      "feed_id": "commission-press",
+      "source": "Съвет на Европейския съюз",
+      "title": "Council calls for action to safeguard Europe’s traditional sports and games for future generations",
+      "summary": "The Council has approved conclusions calling for greater efforts to preserve and promote traditional sports and games in the EU.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
+      "published": "2026-11-20T14:10:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - General Affairs Council (Cohesion) of 23 November 2026",
+      "summary": "Main agenda items, approximate timing and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-general-affairs-council-cohesion-of-23-november-2026/",
+      "published": "2026-11-20T13:54:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 11
     }
   ],
