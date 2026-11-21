@@ -48,16 +48,18 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          import re
           path = Path("scripts/generate_analysis.py")
           source = path.read_text(encoding="utf-8")
-          old_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
           new_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','fomc','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','financial','finance','fiscal','monetary','capital','productivity','employment','tax','lagarde','bis','wto','banking','bank','liquidity','payments','credit','federal','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
-          if old_world in source:
-              source = source.replace(old_world, new_world, 1)
-          elif new_world not in source:
+          source, count = re.subn(r"^WORLD=.*$", lambda _: new_world, source, count=1, flags=re.MULTILINE)
+          if count != 1:
               raise SystemExit("WORLD keyword definition not found")
-          if "def story_tokens(text):" not in source:
-              start = source.index("def get_evidence(lane):")
+          if "def term_match(text,term):" not in source:
+              try:
+                  start = source.index("def story_tokens(text):")
+              except ValueError:
+                  start = source.index("def get_evidence(lane):")
               end = source.index("def api(prompt,cfg):", start)
               replacement = r"""def story_tokens(text):
            words=set(re.findall(r"[a-z]{2,}|[а-яё]{2,}",str(text).casefold()))
@@ -121,7 +123,7 @@ jobs:
           """
               source = source[:start] + replacement + source[end:]
           path.write_text(source, encoding="utf-8")
-          print("Applied precise title matching, story deduplication and seven-day freshness checks.")
+          print("Applied exact-title matching, topic deduplication and freshness checks.")
           PY
       - name: Resolve editorial lane
         id: lane
