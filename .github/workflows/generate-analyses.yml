@@ -61,6 +61,7 @@ jobs:
         env:
           LANE: ${{ steps.lane.outputs.lane }}
         run: |
+          nl -ba scripts/generate_analysis.py | sed -n '45,75p;130,175p'
           python - <<'PY'
           import runpy
           import sys
