@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:27:27.117593+00:00",
-  "last_checked_at": "2026-11-21T04:27:27.117598+00:00",
+  "updated_at": "2026-11-21T05:24:26.106975+00:00",
+  "last_checked_at": "2026-11-21T05:24:26.106978+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -65,6 +65,16 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Медици от осем различни специалности ще преглеждат деца в Етрополе",
+      "summary": "Девет медици от специалности по уши, нос, гърло (УНГ), ортопедия и травматология; урология, кардиология, неврология; акушерство и гинекология; дерматология и офталмология ще преглеждат днес безплатно деца до 18-годишна възраст в Етрополе, съобщиха Община Етроп",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251477-meditsi-ot-osem-razlichni-spetsialnosti-shte-preglezhdat-detsa-v-etropole",
+      "published": "2026-11-21T04:40:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Заместник-председателят на Народното събрание Иван Ангелов разговаря с унгарския депутат, застъпник на българското национално малцинство в парламента на Унгария, Симеон Варга",
       "summary": "",
@@ -101,17 +111,7 @@
       "url": "https://www.investor.bg/a/461-bloomberg-tv/439866-prezapisvaneto-na-ipo-to-na-anthropic-mozhe-bi-shte-ubedi-pazarnite-uchastnitsi-da-nyamat-strah-ot-ai",
       "published": "2026-11-20T18:39:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Държавната опера - Стара Загора беше отличена с годишната награда „Съживено наследство“ на Института за изследване на изкуствата при БАН",
-      "summary": "Държавната опера - Стара Загора беше отличена с годишната награда „Съживено наследство“ на Института за изследване на изкуствата при Българската академия на науките (БАН). Отличието прие маестро Владимир Бошнаков по време на церемонията за откриването на 56-от",
-      "url": "https://www.bta.bg/bg/news/lik/1251451-darzhavnata-opera-stara-zagora-beshe-otlichena-s-godishnata-nagrada-sazhiveno",
-      "published": "2026-11-20T18:32:09+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 24
+      "priority_score": 23
     },
     {
       "section": "bulgaria",
@@ -131,26 +131,6 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
       "published": "2026-11-20T17:26:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 23
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Предложение на МЗХ: Земя да се наема дългосрочно, а аренди да се плащат по банков път",
-      "summary": "",
-      "url": "https://www.investor.bg/a/520-zemedelie/439857-predlozhenie-na-mzh-zemya-da-se-naema-dalgosrochno-a-arendi-da-se-plashtat-po-bankov-pat",
-      "published": "2026-11-20T15:09:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 23
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Колко от българските домакинства имат деца? (Графика)",
-      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
-      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
-      "published": "2026-11-20T14:42:23+00:00",
-      "feed_id": "economic-bg",
       "priority_score": 23
     },
     {
@@ -185,12 +165,22 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "След десетгодишна пауза международното студентско биенале „Рисунка“ събра в София творби на студенти от осем страни",
-      "summary": "Националната художествена академия (НХА) възобнови Международното студентско биенале „Рисунка“ десет години след последното му издание. Четвъртото биенале бе открито тази вечер в столичната галерия „Академия“ с изложба на 93-ма студенти от десет висши училища",
-      "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
-      "published": "2026-11-20T19:01:30+00:00",
-      "feed_id": "bta-bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Предложение на МЗХ: Земя да се наема дългосрочно, а аренди да се плащат по банков път",
+      "summary": "",
+      "url": "https://www.investor.bg/a/520-zemedelie/439857-predlozhenie-na-mzh-zemya-da-se-naema-dalgosrochno-a-arendi-da-se-plashtat-po-bankov-pat",
+      "published": "2026-11-20T15:09:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 22
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Колко от българските домакинства имат деца? (Графика)",
+      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
+      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
+      "published": "2026-11-20T14:42:23+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 22
     },
     {
@@ -245,16 +235,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "„Ай Ти Еф Груп“ набра 15 млн. евро от първото за компанията предлагане на облигации чрез БФБ",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439845-ay-ti-ef-grup-nabra-15-mln-evro-ot-parvoto-za-kompaniyata-predlagane-na-obligatsii-chrez-bfb",
-      "published": "2026-11-20T10:40:49+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "Считано от 19 ноември 2026 г. продажните цени на сребърните монети за колекционерски цели, продавани на каса на БНБ, са актуализирани",
       "summary": "",
@@ -272,6 +252,26 @@
       "published": "2026-11-11T00:00:00+00:00",
       "feed_id": "bnb-news",
       "priority_score": 22
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "След десетгодишна пауза международното студентско биенале „Рисунка“ събра в София творби на студенти от осем страни",
+      "summary": "Националната художествена академия (НХА) възобнови Международното студентско биенале „Рисунка“ десет години след последното му издание. Четвъртото биенале бе открито тази вечер в столичната галерия „Академия“ с изложба на 93-ма студенти от десет висши училища",
+      "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
+      "published": "2026-11-20T19:01:30+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 21
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "„Ай Ти Еф Груп“ набра 15 млн. евро от първото за компанията предлагане на облигации чрез БФБ",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439845-ay-ti-ef-grup-nabra-15-mln-evro-ot-parvoto-za-kompaniyata-predlagane-na-obligatsii-chrez-bfb",
+      "published": "2026-11-20T10:40:49+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 21
     },
     {
       "section": "bulgaria",
@@ -364,6 +364,16 @@
       "priority_score": 17
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Галина Де Фацио представя живопис в изложбата „Острови от време“",
+      "summary": "Самостоятелната изложба „Острови от време“ на Галина Де Фацио ще бъде открита днес в столичната One Gallery, съобщават домакините. „Островът в заглавието може да бъде прочетен като образ на съхранения миг. Сред движението на всекидневието определени места, усе",
+      "url": "https://www.bta.bg/bg/news/lik/1251507-galina-de-fatsio-predstavya-zhivopis-v-izlozhbata-ostrovi-ot-vreme-",
+      "published": "2026-11-21T05:22:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 15
+    },
+    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Weekly schedule of President António Costa",
@@ -415,23 +425,63 @@
     },
     {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
-      "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/european-peace-facility-council-mobilises-additional-1-billion-in-new-military-aid-to-ukraine/",
-      "published": "2026-11-20T14:50:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 13
+      "source": "BBC News – Свят",
+      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "summary": "Trump's comments came as Russia launched \"biggest attacks this year\" against Ukraine.",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T05:15:41+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Патриарх Даниил ще бъде възглави литургия в храма „Въведение Богородично\" в Самоков",
+      "summary": "Българският патриарх и Софийски митрополит Даниил ще бъде възглави литургия в храма „Въведение Богородично\" в Самоков за днешния празник Въведения Богородично, съобщиха от Софийската митрополия. Празникът е определен е и за Ден на православната християнска мла",
+      "url": "https://www.bta.bg/bg/news/lik/1251466-patriarh-daniil-shte-bade-vazglavi-liturgiya-v-hrama-vavedenie-bogorodichno-v-",
+      "published": "2026-11-21T05:02:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
     },
     {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - Agriculture and Fisheries Council of 23 November 2026",
-      "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
-      "published": "2026-11-20T14:30:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 13
+      "source": "The Guardian – World",
+      "title": "‘So what if there’s a hole? It hasn’t collapsed’: Kyiv residents unbothered by Russian attacks on city’s bridges",
+      "summary": "Despite dodging tears in the tarmac, people are confident in city’s infrastructure – and will not worry about what has not happened yet Mykola expects to drive his battered beige passenger minibus 20 to 24 times a day past the holes in the road on Kyiv’s damag",
+      "url": "https://www.theguardian.com/world/2026/nov/21/kyiv-russian-attacks-bridges",
+      "published": "2026-11-21T05:00:50+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Tourists are throwing fewer coins into Rome’s Trevi fountain – is €2 entry fee to blame?",
+      "summary": "Charity that collects the coins says donations are down by £200,000 after a barrier was put in place to restrict access When Jeff Clinton, an American visiting Rome with his wife for the first time, found a US one-cent coin on a street close to Termini train s",
+      "url": "https://www.theguardian.com/world/2026/nov/21/charity-hit-coin-throwing-rome-trevi-fountain-caritas-italy",
+      "published": "2026-11-21T05:00:49+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
+      "summary": "Victoria police say boy, 17, communicated with offenders under username ‘Onepercent’ Get our breaking news email , free app or daily news podcast Victorian police allege a 17-year-old boy tasked others to carry out a series of arsons, home invasions and a mist",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
+      "published": "2026-11-21T04:44:00+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "summary": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
+      "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T04:34:00+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
     },
     {
       "section": "europe",
@@ -465,32 +515,32 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Brazil ex-president Jair Bolsonaro taken to hospital over abdominal pain",
-      "summary": "Jair Bolsonaro has been hospitalized in Brasilia with intestinal obstruction. The former far-right Brazilian leader is receiving pain medications, his son Carlos said.",
-      "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T03:16:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "UK anti-migrant activist jailed for slashing Channel dinghy",
-      "summary": "Daniel Thomas, known as \"Danny Tommo,\" slashed a dinghy with a knife while a French rescue worker was on board. The incident was livestreamed to a large social media audience amid growing tensions over migrant crossings.",
-      "url": "https://www.dw.com/en/uk-anti-migrant-activist-jailed-for-slashing-channel-dinghy/a-80007576?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T02:47:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Москва опроверга САЩ - не приема гаранции \"тип НАТО\" за Киев, чака единение на Русия и Украйна*",
       "summary": "",
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
       "published": "2026-11-20T17:11:42+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
+      "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/european-peace-facility-council-mobilises-additional-1-billion-in-new-military-aid-to-ukraine/",
+      "published": "2026-11-20T14:50:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - Agriculture and Fisheries Council of 23 November 2026",
+      "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
+      "published": "2026-11-20T14:30:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 12
     },
     {
@@ -594,26 +644,6 @@
       "priority_score": 12
     },
     {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commissioner Tzitzikostas delivers a video address at 50th anniversary of the Hellenic Institute of Transportation Engineers",
-      "summary": "European Commission Ομιλία Brussels, 20 Nov 2026 Κύριε Πρόεδρε, Κυρίες και κύριοι, Το Ελληνικό Ινστιτούτο Συγκοινωνιολόγων ιδρύθηκε το 1976. Τον Ιούλιο της ίδιας χρονιάς, η Ελλάδα άνοιγε στις Βρυξέλλες τις δια...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/el/speech_26_2544",
-      "published": "2026-11-20T10:35:32+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Daily News 20 / 11 / 2026",
-      "summary": "European Commission Daily news Brussels, 20 Nov 2026 Commission greenlights over €16 billion in payment requests for Belgium, Bulgaria, Greece, Slovenia and the Netherlands Today, the European Commission approved...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2543",
-      "published": "2026-11-20T10:34:48+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 12
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
@@ -625,12 +655,22 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T02:09:46+00:00",
-      "feed_id": "bbc-world",
+      "source": "Deutsche Welle",
+      "title": "Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain",
+      "summary": "Jair Bolsonaro has been hospitalized in Brasilia with intestinal obstruction. The former far-right Brazilian leader is receiving pain medications, his son Carlos said.",
+      "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T03:16:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "UK anti-migrant activist jailed for slashing Channel dinghy",
+      "summary": "Daniel Thomas, known as \"Danny Tommo,\" slashed a dinghy with a knife while a French rescue worker was on board. The incident was livestreamed to a large social media audience amid growing tensions over migrant crossings.",
+      "url": "https://www.dw.com/en/uk-anti-migrant-activist-jailed-for-slashing-channel-dinghy/a-80007576?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T02:47:00+00:00",
+      "feed_id": "dw-world",
       "priority_score": 11
     },
     {
@@ -661,46 +701,6 @@
       "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
       "published": "2026-11-21T00:26:56+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "US judge approves Bayer's $7.25 billion cancer settlement",
-      "summary": "Bayer could end years of costly lawsuits in the US over claims that its Roundup weedkiller causes cancer. Tens of thousands of people could now receive compensation, although some lawyers say the payments are too low.",
-      "url": "https://www.dw.com/en/us-judge-approves-bayer-s-7-25-billion-cancer-settlement/a-80007474?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T00:03:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-      "summary": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
-      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T00:01:39+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "A new Nepal, an old neighbour - Balendra Shah's India test",
-      "summary": "Trade, connectivity and regional cooperation will be on top of the agenda when Nepal's PM meets his India counterpart.",
-      "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T23:28:17+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Dead pets were meant to be cremated - then their bodies appeared on a livestream",
-      "summary": "Grieving Filipinos confront a distressing reality: their dogs and cats may not have received the send-off they paid for.",
-      "url": "https://www.bbc.co.uk/news/articles/cmn502ek17yvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T23:20:33+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 11
     }
   ],
