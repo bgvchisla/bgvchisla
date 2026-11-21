@@ -1,6 +1,10 @@
 name: Generate weekly editorial analyses
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "analysis/DRY_RUN_TRIGGER"
   schedule:
     - cron: "0 7 * * 2"
     - cron: "0 7 * * 5"
