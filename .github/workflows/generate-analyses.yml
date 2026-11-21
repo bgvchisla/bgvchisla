@@ -51,24 +51,23 @@ jobs:
           import re
           path = Path("scripts/generate_analysis.py")
           source = path.read_text(encoding="utf-8")
-          new_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','fomc','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','financial','finance','fiscal','monetary','capital','productivity','employment','tax','lagarde','bis','wto','banking','bank','liquidity','payments','credit','federal','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
+          new_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','fomc','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','financial','finance','fiscal','monetary','capital','productivity','employment','tax','lagarde','banking','bank','liquidity','payments','credit','federal','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
           source, count = re.subn(r"^WORLD=.*$", lambda _: new_world, source, count=1, flags=re.MULTILINE)
           if count != 1:
               raise SystemExit("WORLD keyword definition not found")
-          if "def term_match(text,term):" not in source:
-              try:
-                  start = source.index("def story_tokens(text):")
-              except ValueError:
-                  start = source.index("def get_evidence(lane):")
+          if "budget_family" not in source:
+              start = source.index("def story_tokens(text):")
               end = source.index("def api(prompt,cfg):", start)
               replacement = r"""def story_tokens(text):
            words=set(re.findall(r"[a-z]{2,}|[а-яё]{2,}",str(text).casefold()))
            stop={'the','and','for','from','with','that','this','after','before','into','over','under','about','amid','their','they','have','has','will','would','could','should','its','his','her','are','was','were','been','being','new','says','said','say','proposes','proposal','announces','announcement','statement','today','latest','global','world','economy','market'}
            return words-stop
-          STORY_ENTITIES={'eu','indonesia','china','ukraine','russia','iran','israel','america','american','united','states','britain','british','germany','german','france','french','japan','india','fed','federal','reserve','ecb','bis','wto','imf','lagarde'}
-          STORY_EVENTS={'trade','investment','investments','agreement','agreements','partnership','tariff','tariffs','budget','framework','tax','taxes','monetary','interest','rates','inflation','banking','credit','debt','energy','oil','gas','growth','capital','productivity','employment','payments'}
+          STORY_ENTITIES={'eu','costa','indonesia','china','ukraine','russia','iran','israel','america','american','united','states','britain','british','germany','german','france','french','japan','india','fed','federal','reserve','ecb','bis','wto','imf','lagarde'}
+          STORY_EVENTS={'trade','investment','investments','agreement','agreements','partnership','tariff','tariffs','budget','framework','multiannual','mff','tax','taxes','monetary','interest','rates','inflation','banking','credit','debt','energy','oil','gas','growth','capital','productivity','employment','payments'}
           def duplicate_story(left,right):
            a=story_tokens(left);b=story_tokens(right);common=a&b
+           budget_family={'budget','framework','multiannual','mff'}
+           if (a&budget_family) and (b&budget_family) and (common&{'eu','costa','european','council','commission'}):return True
            if len(common)>=3 and len(common)/max(1,len(a|b))>=0.30:return True
            return bool(common&STORY_ENTITIES) and bool(common&STORY_EVENTS)
           def term_match(text,term):
@@ -93,12 +92,12 @@ jobs:
             if score:rank.append((score,d,x))
            rank.sort(key=lambda v:(v[0],v[1]),reverse=True);items=[];outlets=set();publisher_counts={}
            for _,d,x in rank:
-            outlet=clean(x.get('source','Източник'));title=clean(x.get('title',''))
+            outlet=clean(x.get('source','Източник'));title=clean(x.get('title',''));summary=clean(x.get('summary',''))[:650]
             if lane=='world':
              if publisher_counts.get(outlet,0)>=2:continue
-             if any(duplicate_story(title,chosen['title']) for chosen in items):continue
+             if any(duplicate_story(title+' '+summary,chosen['title']+' '+chosen['summary']) for chosen in items):continue
             elif outlet in outlets and len(items)>=3:continue
-            items.append({'source_id':f'N{len(items)+1:02d}','publisher':outlet,'title':title,'url':x['url'],'published':d.isoformat(),'summary':clean(x.get('summary',''))[:650]});outlets.add(outlet);publisher_counts[outlet]=publisher_counts.get(outlet,0)+1
+            items.append({'source_id':f'N{len(items)+1:02d}','publisher':outlet,'title':title,'url':x['url'],'published':d.isoformat(),'summary':summary});outlets.add(outlet);publisher_counts[outlet]=publisher_counts.get(outlet,0)+1
             if len(items)>=8:break
            if len(items)<4 or len(outlets)<3:raise RuntimeError('Need 4 recent relevant news items from at least 3 publishers')
            sources=[];datasets=[];charts=[]
@@ -123,7 +122,7 @@ jobs:
           """
               source = source[:start] + replacement + source[end:]
           path.write_text(source, encoding="utf-8")
-          print("Applied exact-title matching, topic deduplication and freshness checks.")
+          print("Applied precise title matching and duplicate-event suppression.")
           PY
       - name: Resolve editorial lane
         id: lane
