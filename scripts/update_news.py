@@ -563,7 +563,12 @@ def editorial_priority(item):
             "бюджет", "инфлац", "икономик", "бвп", "дефицит", "дълг",
             "данък", "данъц", "заплат", "пенси", "доход", "безработиц",
             "лихвен", "бнб", "евро", "инвестици", "бизнес", "енерги",
-            "цени", "пазар", "финанс"
+            "цени", "пазар", "финанс", "econom", "finance", "financial",
+            "fiscal", "inflation", "gdp", "trade", "tariff", "interest rate",
+            "central bank", "monetary", "reserve", "banking", "capital",
+            "liquidity", "investment", "export", "import", "tax", "debt",
+            "bond", "market", "oil", "gas", "productivity", "employment",
+            "wto", "bis", "imf", "fed", "fomc"
         ),
         "society": (
             "здрав", "болниц", "лекар", "образован", "училищ", "университет",
@@ -585,7 +590,7 @@ def editorial_priority(item):
         "загина", "ранени", "евакуац", "затваря", "блокира"
     )
     score += min(12, sum(3 for term in high_impact if term in text))
-    if item.get("feed_id") in {"parliament-news", "bnb-news", "ecb-press", "commission-press", "council-press", "eurostat-news"}:
+    if item.get("feed_id") in {"parliament-news", "bnb-news", "ecb-press", "commission-press", "council-press", "eurostat-news", "federal-reserve", "bis-press", "bis-research", "wto-news"}:
         score += 4
     published = item.get("published")
     if published:

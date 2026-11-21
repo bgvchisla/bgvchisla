@@ -56,6 +56,75 @@ jobs:
               raise SystemExit("WORLD keyword definition not found")
           source = source.replace(old_world, new_world, 1)
           start = source.index("def get_evidence(lane):")
+          end = source.index("\ndef api(prompt,cfg):", start)
+          replacement = r'''def story_tokens(text):
+           words=set(re.findall(r"[a-z]{3,}|[а-яё]{3,}",str(text).casefold()))
+           stop={'the','and','for','from','with','that','this','after','before','into','over','under','about','amid','their','they','have','has','will','would','could','should','its','his','her','are','was','were','been','being','new','says','said','say','proposes','proposal','announces','announcement','statement','today','latest','global','world','economy','market','eu','european'}
+           return words-stop
+          STORY_ENTITIES={'indonesia','china','ukraine','russia','iran','israel','america','american','united','states','britain','british','germany','german','france','french','japan','india','fed','federal','reserve','ecb','bis','wto','imf','lagarde'}
+          STORY_EVENTS={'trade','investment','investments','agreement','agreements','partnership','tariff','tariffs','budget','framework','tax','taxes','monetary','interest','rates','inflation','banking','credit','debt','energy','oil','gas','growth','capital','productivity','employment','payments'}
+          def duplicate_story(left,right):
+           a=story_tokens(left);b=story_tokens(right);common=a&b
+           if len(common)>=3 and len(common)/max(1,len(a|b))>=0.30:return True
+           return bool(common&STORY_ENTITIES) and bool(common&STORY_EVENTS)
+          def get_evidence(lane):
+           news=read('news');health=news.get('feed_status',{})
+           if health.get('ok',0)<max(8,(health.get('total',0)+1)//2):raise RuntimeError('News feed health below threshold')
+           old=read('articles',[]);used={u for a in old[-12:] for u in a.get('source_urls',[])}
+           sec='bulgaria' if lane=='bulgaria' else 'europe';terms=BG if lane=='bulgaria' else WORLD;now=dt.datetime.now(dt.timezone.utc);rank=[]
+           for x in news.get('items',[]):
+            d=date(x.get('published'));url=x.get('url','');title=str(x.get('title',''));title_l=title.casefold();summary=str(x.get('summary','')).casefold();body=title_l+' '+summary
+            if x.get('section')!=sec or not url.startswith('https://') or url in used or not d or (now-d).days>10 or d>now+dt.timedelta(hours=3):continue
+            title_hits=[t for t in terms if t in title_l]
+            if lane=='world' and not title_hits:continue
+            score=sum(3 if t in title_l else 1 for t in terms if t in body)
+            if score:rank.append((score,d,x))
+           rank.sort(key=lambda v:(v[0],v[1]),reverse=True);items=[];outlets=set();publisher_counts={}
+           for _,d,x in rank:
+            outlet=clean(x.get('source','Източник'));title=clean(x.get('title',''))
+            if lane=='world':
+             if publisher_counts.get(outlet,0)>=2:continue
+             if any(duplicate_story(title,chosen['title']) for chosen in items):continue
+            elif outlet in outlets and len(items)>=3:continue
+            items.append({'source_id':f'N{len(items)+1:02d}','publisher':outlet,'title':title,'url':x['url'],'published':d.isoformat(),'summary':clean(x.get('summary',''))[:650]});outlets.add(outlet);publisher_counts[outlet]=publisher_counts.get(outlet,0)+1
+            if len(items)>=8:break
+           if len(items)<4 or len(outlets)<3:raise RuntimeError('Need 4 recent relevant news items from at least 3 publishers')
+           sources=[];datasets=[];charts=[]
+           if lane=='bulgaria':
+            defs=[('D01','fiscal','Месечни фискални данни'),('D02','economy','Макроикономически показатели и Евростат'),('D03','bnb','Кредитна статистика на БНБ'),('D04','nssi','Статистика на НОИ'),('D05','business','Бизнес климат на НСИ')]
+            for sid,key,label in defs:
+             data=read(key);url=data.get('source_url','') or ('https://ec.europa.eu/eurostat/web/main/data/database' if key=='economy' else '')
+             if not url.startswith('https://'):raise RuntimeError('Missing official source URL: '+key)
+             publisher=data.get('source') or ('Евростат' if key=='economy' else '')
+             sources.append({'source_id':sid,'publisher':clean(publisher),'title':label,'url':url,'updated_at':data.get('updated_at','')})
+             if key in ('fiscal','bnb'):
+              facts=[{'id':x.get('id'),'label':clean(x.get('title') or x.get('label') or x.get('id')),'unit':x.get('unit'),'points':x.get('points',[])[-6:]} for x in (data.get('series',[]) if isinstance(data.get('series',[]),list) else [dict(v,id=k) for k,v in data.get('series',{}).items()])[:8] if x.get('points')]
+             elif key=='economy':
+              keep={'gdp_real_growth','gdp_per_capita_current_eur','employment_rate_20_64','unemployment_rate_15_74','gdp_pps_index','exports_goods_mio_eur','imports_goods_mio_eur','population_total'}
+              facts=[{'id':x.get('id'),'label':x.get('label',x.get('id')),'points':x.get('points',[])[-8:]} for x in data.get('series',[]) if x.get('id') in keep]
+              for x in data.get('series',[]):
+               if x.get('id') in keep and len(x.get('points',[]))>=4:charts.append({'id':x['id'],'label':x.get('label',x['id']),'unit':x.get('unit',''),'points':x['points'][-10:]})
+             elif key=='nssi':facts=data.get('metrics',{})
+             else:facts={'reference_date':data.get('reference_date'),'values':data.get('values',{})}
+             datasets.append({'source_id':sid,'period':data.get('latest_period') or data.get('reference_date'),'methodology':clean(data.get('methodology',''))[:700],'facts':facts})
+           return {'lane':lane,'generated_at':dt.datetime.now(TZ).isoformat(),'feed_health':health,'sources':sources+items,'datasets':datasets,'chart_candidates':charts}
+          '''
+          source = source[:start] + replacement + source[end:]
+          path.write_text(source, encoding="utf-8")
+          print("Applied world headline relevance and near-duplicate checks.")
+          PY
+      - name: Improve world evidence relevance and deduplication
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path("scripts/generate_analysis.py")
+          source = path.read_text(encoding="utf-8")
+          old_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
+          new_world = "WORLD=('econom','inflation','interest rate','central bank','ecb','fed','fomc','gdp','trade','tariff','budget','debt','bond','market','energy','oil','gas','investment','financial','finance','fiscal','monetary','capital','productivity','employment','tax','lagarde','bis','wto','imf','oecd','world bank','финанс','лихв','иконом','пазар','енерг','газ','петрол','облигац','търгов')"
+          if old_world not in source:
+              raise SystemExit("WORLD keyword definition not found")
+          source = source.replace(old_world, new_world, 1)
+          start = source.index("def get_evidence(lane):")
           end = source.index("\\ndef api(prompt,cfg):", start)
           replacement = r'''def story_tokens(text):
            words=set(re.findall(r"[a-z]{3,}|[а-яё]{3,}",str(text).casefold()))
