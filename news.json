@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:24:52.692906+00:00",
-  "last_checked_at": "2026-11-21T17:24:52.692909+00:00",
+  "updated_at": "2026-11-21T18:04:12.263704+00:00",
+  "last_checked_at": "2026-11-21T18:04:12.263707+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -21,7 +21,7 @@
       "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
       "published": "2026-11-21T11:35:11+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 41
+      "priority_score": 40
     },
     {
       "section": "bulgaria",
@@ -31,7 +31,7 @@
       "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 40
+      "priority_score": 39
     },
     {
       "section": "bulgaria",
@@ -111,7 +111,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
       "published": "2026-11-21T12:00:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 33
+      "priority_score": 32
     },
     {
       "section": "bulgaria",
@@ -165,16 +165,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Заради реконструкция на водопровод водата в Летница ще бъде спряна на 23 ноември",
-      "summary": "Заради реконструкция на водопровод в понеделник, 23 ноември, в Летница ще бъде прекъснато водоподаването, съобщават от общинската администрация. Водата ще бъде спряна в 8:00 ч. и ще бъде пусната след приключване на ремонтните дейности на водопровода на ул. „Ст",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251740-zaradi-rekonstruktsiya-na-vodoprovod-vodata-v-letnitsa-shte-bade-spryana-na-23-n",
-      "published": "2026-11-21T16:21:29+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Заместник-председателят на Народното събрание Иван Ангелов разговаря с унгарския депутат, застъпник на българското национално малцинство в парламента на Унгария, Симеон Варга",
       "summary": "",
@@ -182,6 +172,16 @@
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "parliament-news",
       "priority_score": 26
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Софийският районен съд наложи мярка за неотклонение „задържане под стража“ на обвинените в блудство трима непълнолетни",
+      "summary": "Софийският районен съд наложи мярка за неотклонение „задържане под стража“ на обвинените в блудство три непълнолетни лица. Трима непълнолетни на 14, 15 и 16 години са задържани за срок до 48 часа за блудствени действия спрямо непълнолетно момиче в София, съобщ",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251773-sofiyskiyat-rayonen-sad-nalozhi-myarka-za-neotklonenie-zadarzhane-pod-strazha-",
+      "published": "2026-11-21T17:34:22+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
     },
     {
       "section": "bulgaria",
@@ -221,7 +221,7 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 24
+      "priority_score": 23
     },
     {
       "section": "bulgaria",
@@ -285,13 +285,23 @@
     },
     {
       "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Колко от българските домакинства имат деца? (Графика)",
+      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
+      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
+      "published": "2026-11-20T14:42:23+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 19
+    },
+    {
+      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
       "url": "https://www.parliament.bg/bg/news/6682",
       "published": "2026-11-20T00:00:00+00:00",
       "feed_id": "parliament-news",
-      "priority_score": 20
+      "priority_score": 19
     },
     {
       "section": "bulgaria",
@@ -301,16 +311,6 @@
       "url": "https://www.parliament.bg/bg/news/6681",
       "published": "2026-11-20T00:00:00+00:00",
       "feed_id": "parliament-news",
-      "priority_score": 20
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Колко от българските домакинства имат деца? (Графика)",
-      "summary": "Двойките с деца в България са едва 13.1% от всички домакинства през 2025 г. Това показват публикуваните днес данни на европейския статистически институт Евростат, според които по този показател страната ни е под средното за Европейския съюз (ЕС) ниво от 14.7 н",
-      "url": "https://www.economic.bg/bg/a/view/kolko-ot-bylgarskite-domakinstva-imat-deca",
-      "published": "2026-11-20T14:42:23+00:00",
-      "feed_id": "economic-bg",
       "priority_score": 19
     },
     {
@@ -401,7 +401,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
       "published": "2026-11-21T11:28:47+00:00",
       "feed_id": "commission-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -432,6 +432,26 @@
       "published": "2023-01-11T13:10:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 14
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "summary": "Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade The Mexican military captured one of the FBI’s top 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night.",
+      "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+      "published": "2026-11-21T17:46:55+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Трябва да възпитаваме децата си в добродетелите на нашите предшественици, каза Видинският митрополит Пахомий",
+      "summary": "Трябва да възпитаваме децата си в добродетелите на нашите предшественици, каза Видинският митрополит Пахомий по време на празничен концерт, посветен на Въведение Богородично и Деня на християнското семейство. Събитието беше организирано от Видинската митрополи",
+      "url": "https://www.bta.bg/bg/news/lik/1251771-tryabva-da-vazpitavame-detsata-si-v-dobrodetelite-na-nashite-predshestvenitsi-k",
+      "published": "2026-11-21T17:27:57+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
     },
     {
       "section": "europe",
@@ -491,16 +511,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-21T16:35:15+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Служители от МВР ще участват в протестни действия в София на 28 ноември, съобщи Илия Кузманов",
-      "summary": "Служители от МВР ще участват в протестни действия в София на 28 ноември, идната събота, каза в ефира на БНТ председателят на Управителния съвет на Синдикалната федерация на служителите в МВР (СФСМВР) Илия Кузманов. Става въпрос за протестни действия. Колегите,",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251731-sluzhiteli-ot-mvr-shte-uchastvat-v-protestni-deystviya-v-sofiya-na-28-noemvri-s",
-      "published": "2026-11-21T16:15:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 12
     },
     {
@@ -655,26 +665,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Russian threats ‘less and less hybrid,’ Von der Leyen says after assassination plot in Denmark",
-      "summary": "Danish authorities said they thwarted a Russian plan to kill a Ukrainian rapper in September.",
-      "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-21T11:43:12+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
-      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
-      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
-      "published": "2026-11-21T11:33:01+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
       "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
@@ -699,6 +689,16 @@
       "title": "Factsheet EU-Indonesia - Main benefits",
       "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Main benefits Factsheet EU-Indonesia - Main benefits",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2169",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Factsheet EU-Indonesia - Agriculture",
+      "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Agriculture Factsheet EU-Indonesia - Agriculture",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2170",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
       "priority_score": 11
