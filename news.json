@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:28:52.995325+00:00",
-  "last_checked_at": "2026-11-21T13:28:52.995327+00:00",
+  "updated_at": "2026-11-21T14:20:36.525747+00:00",
+  "last_checked_at": "2026-11-21T14:20:36.525751+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Ева Майдел се присъедини към новата инициатива за технологична стратегия на Мюнхенската конференция по сигурността",
+      "summary": "Евродепутатът и заместник-председател на Делегацията за отношения със САЩ в Европейския парламент Ева Майдел (ЕНП/ГЕРБ – СДС) прие официална покана да се присъедини като ротационен член в новосъздадената Инициатива за технологична стратегия (Tech Strategy Init",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251684-eva-maydel-se-prisaedini-kam-novata-initsiativa-za-tehnologichna-strategiya-na-m",
+      "published": "2026-11-21T13:33:43+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 44
+    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -21,7 +31,7 @@
       "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
       "published": "2026-11-21T11:35:11+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "bulgaria",
@@ -31,17 +41,7 @@
       "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 41
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Казанлък предвижда над 5,6 млн. евро за дейности по поддържане на чистотата и сметосъбирането през 2027 година",
-      "summary": "Община Казанлък предвижда над 5,6 млн. евро за дейности по поддържане на чистотата и сметосъбирането през 2027 г. Най-голямата част от средствата - близо 2,7 млн. евро, са за събиране и транспортиране на битови отпадъци. Това се посочва в проекта на план-сметк",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251680-obshtina-kazanlak-predvizhda-nad-5-6-mln-evro-za-deynosti-po-poddarzhane-na-chi",
-      "published": "2026-11-21T13:14:14+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 38
+      "priority_score": 40
     },
     {
       "section": "bulgaria",
@@ -52,16 +52,6 @@
       "published": "2026-11-21T07:01:09+00:00",
       "feed_id": "economic-bg",
       "priority_score": 36
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
-      "published": "2026-11-21T12:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 34
     },
     {
       "section": "bulgaria",
@@ -76,21 +66,21 @@
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
+      "published": "2026-11-21T12:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 33
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
       "title": "Дефицитът на Гърция се е увеличил с 2,5 млрд. евро за периода януари-септември",
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
       "published": "2026-11-21T09:00:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 29
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
-      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
-      "published": "2026-11-20T16:10:40+00:00",
-      "feed_id": "economic-bg",
       "priority_score": 29
     },
     {
@@ -102,6 +92,16 @@
       "published": "2023-01-11T11:54:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 29
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
+      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
+      "published": "2026-11-20T16:10:40+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 28
     },
     {
       "section": "bulgaria",
@@ -122,16 +122,6 @@
       "published": "2026-11-21T13:23:17+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 27
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Връщането към вярата и църквата е важно за духовното възпитание на децата, каза Неврокопският митрополит Серафим в Благоевград",
-      "summary": "Децата трябва да бъдат възпитавани във вяра и християнски добродетели, а родителите и възрастните да им показват този път със собствения си пример. Това каза Неврокопският митрополит Серафим пред събралите се миряни в храма „Въведение Богородично“ в Благоевгра",
-      "url": "https://www.bta.bg/bg/news/lik/1251657-vrashtaneto-kam-vyarata-i-tsarkvata-e-vazhno-za-duhovnoto-vazpitanie-na-detsata-",
-      "published": "2026-11-21T13:04:20+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
     },
     {
       "section": "bulgaria",
@@ -161,16 +151,6 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Двадесет и две двойки от Враца празнуваха златна сватба на общо тържество",
-      "summary": "Общо 22 двойки, сключили брак през 1976 г., празнуваха златна сватба на общо тържество в ритуалната зала във Враца. Инициативата е на Общинско предприятие (ОП) „Обредни дейности“, а на празника присъстваха и децата и внуците на юбилярите. С поздрав към празнув",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251669-dvadeset-i-dve-dvoyki-ot-vratsa-praznuvaha-zlatna-svatba-na-obshto-tarzhestvo",
-      "published": "2026-11-21T13:09:44+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 24
     },
     {
@@ -225,26 +205,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6682",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 21
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6681",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 21
-    },
-    {
-      "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ взе решение за разрешаване на преобразуването на „Токуда Банк“ ЕАД чрез вливане по реда на чл. 262 от Търговския закон в „Българо-американска кредитна банка“ АД",
       "summary": "",
@@ -271,6 +231,26 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarska-iniciativa-s-mejdunarodno-partniorstvo-postavja-osnovite-za-vnedrjavane-na-malki-modulni-reaktori",
       "published": "2026-11-20T14:17:38+00:00",
       "feed_id": "economic-bg",
+      "priority_score": 20
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6682",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 20
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 20
     },
     {
@@ -354,16 +334,6 @@
       "priority_score": 17
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Доброволци събират хранителни дарения в Перник в рамките на коледната кампания „Не си сам“",
-      "summary": "Доброволци събират хранителни продукти за възрастни и нуждаещи се хора от област Перник в рамките на коледната благотворителна кампания на фондация „Не си сам“. Дарения се приемат днес и утре (21 и 22 ноември), от 10:00 до 18:00 часа, пред магазин на голяма тъ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251666-dobrovoltsi-sabirat-hranitelni-dareniya-v-pernik-v-ramkite-na-kolednata-kampaniy",
-      "published": "2026-11-21T13:11:48+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 15
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
@@ -406,6 +376,66 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Примерът на светите Йоаким и Анна и животът на Дева Мария бяха припомнени в църковните служби за Въведение Богородично",
+      "summary": "Примерът на светите Йоаким и Анна и животът на Дева Мария бяха припомнени в църковните служби за отбелязвания днес празник Въведение Богородично. Определен е от Църквата и за Ден на православната християнска младеж и семейство. Родителите да възпитават децата",
+      "url": "https://www.bta.bg/bg/news/lik/1251701-primerat-na-svetite-yoakim-i-anna-i-zhivotat-na-deva-mariya-byaha-pripomneni-v-t",
+      "published": "2026-11-21T14:18:49+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "За да защитят децата си, възрастните трябва да научат колкото може повече за изкуствения интелект, смята експерт",
+      "summary": "За да защитят децата си, възрастните трябва да научат колкото може повече за изкуствения интелект (ИИ), да разберат как могат да го ползват, а не да се плашат от него, каза във Варна Ивайло Петров, председател на Алианса за устойчиво развитие на изкуствения ин",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251697-za-da-zashtityat-detsata-si-vazrastnite-tryabva-da-nauchat-kolkoto-mozhe-povech",
+      "published": "2026-11-21T14:07:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+      "summary": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempted killing of",
+      "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+      "published": "2026-11-21T14:03:50+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Първият кулинарен конкурс в луковитското село Карлуково събра 20 участници",
+      "summary": "Първият кулинарен конкурс за традиционни български ястия в луковитското село Карлуково събра около 20 участници. Инициативата е организирана от Народно читалище „Дико Илиев – 1904 г.“ в населеното място и е по повод Деня на християнското семейство, а в нея бях",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251693-parviyat-kulinaren-konkurs-v-lukovitskoto-selo-karlukovo-sabra-20-uchastnitsi",
+      "published": "2026-11-21T13:52:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Жители на няколко населени места в област Велико Търново се оплакаха от проблеми с електрозахранването на среща с Мая Манолова в Шемшево",
+      "summary": "Председателят на Комисията за защита на потребителите (КЗП) Мая Манолова ще настоява за по-високи неустойки за електроразпределителните дружества при лошо качество на електрозахранването и за облекчаване на процедурите за обезщетяване на потърпевшите потребите",
+      "url": "https://www.bta.bg/bg/news/economy/1251686-zhiteli-na-nyakolko-naseleni-mesta-v-oblast-veliko-tarnovo-se-oplakaha-ot-proble",
+      "published": "2026-11-21T13:43:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "„Естествен филм“ представя по-различен, нестандартен портрет на Георги Господинов, каза за БТА режисьорът Калина Николова",
+      "summary": "„Естествен филм“ представя един по-различен и нестандартен портрет на писателя Георги Господинов, като дава възможност на зрителите да видят не само автора на книгите, но и човека зад тях. Това каза за БТА режисьорът Калина Николова при представянето на докуме",
+      "url": "https://www.bta.bg/bg/news/lik/1251677--estestven-film-predstavya-po-razlichen-nestandarten-portret-na-georgi-gospodi",
+      "published": "2026-11-21T13:31:21+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 12
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Личната информация за децата в интернет трябва да е абсолютно минимална, каза председателят на Комисията за защита на личните данни Борислав Божинов",
       "summary": "Личната информация за децата в интернет трябва да е абсолютно минимизирана, каза във Варна председателят на Комисията за защита на личните данни (КЗЛД) Борислав Божинов. По думите му, всеки възрастен би следвало да си даде сметка колко разрушителни последици з",
       "url": "https://www.bta.bg/bg/news/bulgaria/1251685-lichnata-informatsiya-za-detsata-v-internet-tryabva-da-e-absolyutno-minimalna-k",
@@ -434,36 +464,6 @@
       "priority_score": 12
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Доброволци и деца предложиха ръчно изработени изделия на благотворителен базар в Благоевград",
-      "summary": "Доброволци и деца предложиха ръчно изработени изделия, домашни сладкиши и постни храни на традиционен благотворителен базар в Благоевград. Инициативата се състоя в двора на храм „Въведение Богородично“, а събраните средства ще бъдат използвани за закупуване на",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251673-dobrovoltsi-i-detsa-predlozhiha-rachno-izraboteni-izdeliya-na-blagotvoritelen-ba",
-      "published": "2026-11-21T13:12:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Българският патриарх Даниил призова родителите да възпитават децата си във вяра и да ги водят в храма",
-      "summary": "Българският патриарх и Софийски митрополит Даниил призова родителите да възпитават децата си във вяра, да ги водят в храма и да ги учат на отговорност, честност и любов. Той възглави Света литургия в храм а„Въведение Богородично“ в Самоков по повод днешния пра",
-      "url": "https://www.bta.bg/bg/news/lik/1251665-balgarskiyat-patriarh-daniil-prizova-roditelite-da-vazpitavat-detsata-si-vav-vya",
-      "published": "2026-11-21T13:11:23+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper",
-      "summary": "Russian intelligence thought to be behind plan to kill US-Ukrainian musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempt",
-      "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-      "published": "2026-11-21T12:49:05+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 12
-    },
-    {
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
@@ -481,36 +481,6 @@
       "url": "https://www.dw.com/en/germany-s-religious-freedom-report-authoritarian-regimes-holy-wars-and-spies-abroad/a-79995216?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-21T12:31:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
-      "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war",
-      "url": "https://www.euronews.com/video/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll",
-      "published": "2026-11-21T12:18:40+00:00",
-      "feed_id": "euronews",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Russian threats ‘less and less hybrid,’ Von der Leyen says after assassination plot in Denmark",
-      "summary": "Danish authorities said they thwarted a Russian plan to kill a Ukrainian rapper in September.",
-      "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-21T11:43:12+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 12
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
-      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
-      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
-      "published": "2026-11-21T11:33:01+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 12
     },
     {
@@ -564,16 +534,6 @@
       "priority_score": 12
     },
     {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Weekly schedule of President António Costa",
-      "summary": "Weekly schedule of President António Costa, 21-29 November 2026.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/weekly-schedule-of-president-antonio-costa/",
-      "published": "2026-11-20T20:15:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 12
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – България",
       "title": "Предлагат връщане на месечната карта за една линия за наземен транспорт в София*",
@@ -582,6 +542,36 @@
       "published": "2023-01-12T09:49:00+00:00",
       "feed_id": "investor-bg",
       "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
+      "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war",
+      "url": "https://www.euronews.com/video/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll",
+      "published": "2026-11-21T12:18:40+00:00",
+      "feed_id": "euronews",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Russian threats ‘less and less hybrid,’ Von der Leyen says after assassination plot in Denmark",
+      "summary": "Danish authorities said they thwarted a Russian plan to kill a Ukrainian rapper in September.",
+      "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-21T11:43:12+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
+      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said",
+      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "published": "2026-11-21T11:33:01+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 11
     },
     {
       "section": "europe",
@@ -701,6 +691,16 @@
       "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
       "published": "2026-11-21T09:47:57+00:00",
       "feed_id": "guardian-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
+      "summary": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T09:40:55+00:00",
+      "feed_id": "bbc-world",
       "priority_score": 11
     }
   ],
