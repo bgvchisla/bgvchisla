@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "analizi/**"
       - "privacy.html"
       - "sitemap.xml"
       - "advertise.html"
@@ -73,6 +74,8 @@ jobs:
         run: |
           mkdir public
           cp index.html advertise.html data.json economy.json economy-charts.js privacy.html robots.txt sitemap.xml news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json _headers public/
+          mkdir -p public/analizi
+          cp -R analizi/. public/analizi/
 
       - name: Deploy production
         if: github.event_name != 'workflow_run' || steps.news_change.outputs.deploy == 'true'
