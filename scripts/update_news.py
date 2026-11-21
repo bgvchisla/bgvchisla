@@ -161,6 +161,38 @@ FEEDS = [
         "allowed_hosts": ["www.politico.eu", "politico.eu"],
         "keywords": [],
     },
+    {
+        "id": "federal-reserve",
+        "section": "europe",
+        "name": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "allowed_hosts": ["www.federalreserve.gov"],
+        "keywords": ["monetary", "FOMC", "financial", "bank", "credit", "interest rate", "reserve balances", "inflation", "capital", "liquidity"],
+    },
+    {
+        "id": "bis-press",
+        "section": "europe",
+        "name": "Bank for International Settlements (BIS)",
+        "url": "https://www.bis.org/doclist/all_pressrels.rss",
+        "allowed_hosts": ["www.bis.org", "bis.org"],
+        "keywords": ["banking", "financial", "payments", "capital", "credit", "liquidity", "monetary", "risk", "economic", "growth"],
+    },
+    {
+        "id": "bis-research",
+        "section": "europe",
+        "name": "BIS Research",
+        "url": "https://www.bis.org/doclist/bis_fsi_publs.rss",
+        "allowed_hosts": ["www.bis.org", "bis.org"],
+        "keywords": ["economic", "growth", "capital", "productivity", "digital payments", "inflation", "credit", "banking", "trade", "employment", "financial"],
+    },
+    {
+        "id": "wto-news",
+        "section": "europe",
+        "name": "World Trade Organization (WTO)",
+        "url": "https://www.wto.org/library/rss/latest_news_e.xml",
+        "allowed_hosts": ["www.wto.org", "wto.org"],
+        "keywords": ["trade", "tariff", "export", "import", "agreement", "supply chain", "services", "economic", "market", "investment"],
+    },
 ]
 
 class LinkFinder(HTMLParser):
