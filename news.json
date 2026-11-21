@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:54:37.385885+00:00",
-  "last_checked_at": "2026-11-21T01:54:37.385888+00:00",
+  "updated_at": "2026-11-21T02:40:17.806050+00:00",
+  "last_checked_at": "2026-11-21T02:40:17.806055+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -31,7 +31,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 32
+      "priority_score": 31
     },
     {
       "section": "bulgaria",
@@ -135,36 +135,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6682",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6681",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Първото издание на фестивала „Бургас – световна сцена на езиците и културите“ беше открито на 20 езика",
-      "summary": "С поздрави на 20 езика бе открито първото издание на фестивала „Бургас – световна сцена на езиците и културите“. Публиката в залатаа на Central Park, домакин на събитието, имаше възможност да чуе приветствия на азербайджански, арабски, арменски, виетнамски, гр",
-      "url": "https://www.bta.bg/bg/news/lik/1251485-parvoto-izdanie-na-festivala-burgas-svetovna-stsena-na-ezitsite-i-kulturite-",
-      "published": "2026-11-20T20:03:46+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 23
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Предложение на МЗХ: Земя да се наема дългосрочно, а аренди да се плащат по банков път",
       "summary": "",
@@ -215,13 +185,33 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "„Главболгарстрой“ пое ангажимент пред гръцки министър за ускорено завършване на магистрала „Струма“",
-      "summary": "В изказването си преди официалния старт на седмата министерска среща на P-TEC председателят на УС на „Главболгарстрой“ Калин Пешов потвърди поетия пред министъра на околната среда и енергетиката на Гърция Ставрос Папаставру ангажимент за ускорено завършване на",
-      "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-poe-angajiment-pred-grycki-ministyr-za-uskoreno-zavyrshvane-na-magistrala-struma",
-      "published": "2026-11-20T12:07:01+00:00",
-      "feed_id": "economic-bg",
+      "source": "Народно събрание",
+      "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6682",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
       "priority_score": 23
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "priority_score": 23
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Първото издание на фестивала „Бургас – световна сцена на езиците и културите“ беше открито на 20 езика",
+      "summary": "С поздрави на 20 езика бе открито първото издание на фестивала „Бургас – световна сцена на езиците и културите“. Публиката в залатаа на Central Park, домакин на събитието, имаше възможност да чуе приветствия на азербайджански, арабски, арменски, виетнамски, гр",
+      "url": "https://www.bta.bg/bg/news/lik/1251485-parvoto-izdanie-na-festivala-burgas-svetovna-stsena-na-ezitsite-i-kulturite-",
+      "published": "2026-11-20T20:03:46+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 22
     },
     {
       "section": "bulgaria",
@@ -231,6 +221,16 @@
       "url": "https://www.bta.bg/bg/news/lik/1251462-sled-desetgodishna-pauza-mezhdunarodnoto-studentsko-bienale-risunka-sabra-v-so",
       "published": "2026-11-20T19:01:30+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 22
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "„Главболгарстрой“ пое ангажимент пред гръцки министър за ускорено завършване на магистрала „Струма“",
+      "summary": "В изказването си преди официалния старт на седмата министерска среща на P-TEC председателят на УС на „Главболгарстрой“ Калин Пешов потвърди поетия пред министъра на околната среда и енергетиката на Гърция Ставрос Папаставру ангажимент за ускорено завършване на",
+      "url": "https://www.economic.bg/bg/a/view/glavbolgarstroj-poe-angajiment-pred-grycki-ministyr-za-uskoreno-zavyrshvane-na-magistrala-struma",
+      "published": "2026-11-20T12:07:01+00:00",
+      "feed_id": "economic-bg",
       "priority_score": 22
     },
     {
@@ -371,7 +371,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/weekly-schedule-of-president-antonio-costa/",
       "published": "2026-11-20T20:15:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 15
+      "priority_score": 14
     },
     {
       "section": "europe",
@@ -381,26 +381,6 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
       "published": "2026-11-20T17:17:57+00:00",
       "feed_id": "commission-press",
-      "priority_score": 14
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Statement by Eurogroup President Kyriakos Pierrakakis on the nominations for the post of ECB executive board members",
-      "summary": "Eurogroup President issued a statement on the nominations for the post of ECB executive board members.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/statement-by-the-eurogroup-president-on-the-nominations-for-the-post-of-ecb-executive-board-members/",
-      "published": "2026-11-20T16:35:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 14
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Forward look: 23 November - 6 December 2026",
-      "summary": "Overview of the main subjects to be discussed at meetings of the Council of the EU over the next two weeks and upcoming media events.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
-      "published": "2026-11-20T16:00:00+00:00",
-      "feed_id": "council-press",
       "priority_score": 14
     },
     {
@@ -421,6 +401,26 @@
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439873-moskva-oproverga-sasht-ne-priema-garantsii-tip-nato-za-kiev-chaka-edinenie-na-rusiya-i-ukrayna",
       "published": "2026-11-20T17:11:42+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 13
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Statement by Eurogroup President Kyriakos Pierrakakis on the nominations for the post of ECB executive board members",
+      "summary": "Eurogroup President issued a statement on the nominations for the post of ECB executive board members.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/statement-by-the-eurogroup-president-on-the-nominations-for-the-post-of-ecb-executive-board-members/",
+      "published": "2026-11-20T16:35:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 13
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Forward look: 23 November - 6 December 2026",
+      "summary": "Overview of the main subjects to be discussed at meetings of the Council of the EU over the next two weeks and upcoming media events.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/forward-look-2026/",
+      "published": "2026-11-20T16:00:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 13
     },
     {
@@ -485,63 +485,13 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission partially greenlights Malta's final payment request for €61.7 million under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Malta's fifth and final payment request for €61.7 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2550",
-      "published": "2026-11-20T12:32:21+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 13
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission greenlights Portugal's final payment request for €4.7 billion under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission positively assessed Portugal's tenth and final payment request of €4.7 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2549",
-      "published": "2026-11-20T12:30:50+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 13
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "MFF 2028-2034: Council agrees negotiating position on stronger civil protection mechanism and support for health preparedness",
-      "summary": "The Council agreed its partial negotiating position on the Union civil protection mechanism and Union support for health emergency preparedness and response.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/mff-2028-2034-council-agrees-negotiating-position-on-stronger-civil-protection-mechanism-and-support-for-health-preparedness/",
-      "published": "2026-11-20T12:30:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 13
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission greenlights Ireland's final payment request for €225 million under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Ireland's fifth and final payment request for €225 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2548",
-      "published": "2026-11-20T12:29:15+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 13
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission partially greenlights Poland's final payment request for €12.7 billion under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Poland's sixth and final payment request for €12.7 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2547",
-      "published": "2026-11-20T12:27:35+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 13
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission partially greenlights Hungary's first and final payment request for €10 billion under NextGenerationEU",
-      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Hungary's first and final payment request for €10 billion under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2546",
-      "published": "2026-11-20T12:24:37+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 13
+      "source": "BBC News – Свят",
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T02:09:46+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 12
     },
     {
       "section": "europe",
@@ -555,42 +505,62 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "ANC fights to keep control of South Africa's key cities after election setback",
-      "summary": "The ANC appears reluctant to replicate its national power-sharing deal with the pro-business DA at the local level.",
-      "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T00:34:51+00:00",
-      "feed_id": "bbc-world",
+      "source": "Европейска комисия",
+      "title": "Commission partially greenlights Malta's final payment request for €61.7 million under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Malta's fifth and final payment request for €61.7 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2550",
+      "published": "2026-11-20T12:32:21+00:00",
+      "feed_id": "commission-press",
       "priority_score": 12
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Victorian Greens seek urgent injunction over how-to-vote cards mimicking party’s branding but preferencing it last",
-      "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan’s cards instruct people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens are seeking an urgent injunction from the supreme",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
-      "published": "2026-11-21T00:26:56+00:00",
-      "feed_id": "guardian-world",
+      "source": "Европейска комисия",
+      "title": "Commission greenlights Portugal's final payment request for €4.7 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission positively assessed Portugal's tenth and final payment request of €4.7 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2549",
+      "published": "2026-11-20T12:30:50+00:00",
+      "feed_id": "commission-press",
       "priority_score": 12
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "US judge approves Bayer's $7.25 billion cancer settlement",
-      "summary": "Bayer could end years of costly lawsuits in the US over claims that its Roundup weedkiller causes cancer. Tens of thousands of people could now receive compensation, although some lawyers say the payments are too low.",
-      "url": "https://www.dw.com/en/us-judge-approves-bayer-s-7-25-billion-cancer-settlement/a-80007474?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T00:03:00+00:00",
-      "feed_id": "dw-world",
+      "source": "Съвет на Европейския съюз",
+      "title": "MFF 2028-2034: Council agrees negotiating position on stronger civil protection mechanism and support for health preparedness",
+      "summary": "The Council agreed its partial negotiating position on the Union civil protection mechanism and Union support for health emergency preparedness and response.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/mff-2028-2034-council-agrees-negotiating-position-on-stronger-civil-protection-mechanism-and-support-for-health-preparedness/",
+      "published": "2026-11-20T12:30:00+00:00",
+      "feed_id": "council-press",
       "priority_score": 12
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-      "summary": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
-      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T00:01:39+00:00",
-      "feed_id": "bbc-world",
+      "source": "Европейска комисия",
+      "title": "Commission greenlights Ireland's final payment request for €225 million under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Ireland's fifth and final payment request for €225 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2548",
+      "published": "2026-11-20T12:29:15+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission partially greenlights Poland's final payment request for €12.7 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Poland's sixth and final payment request for €12.7 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2547",
+      "published": "2026-11-20T12:27:35+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 12
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission partially greenlights Hungary's first and final payment request for €10 billion under NextGenerationEU",
+      "summary": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Hungary's first and final payment request for €10 billion under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2546",
+      "published": "2026-11-20T12:24:37+00:00",
+      "feed_id": "commission-press",
       "priority_score": 12
     },
     {
@@ -646,6 +616,46 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
+      "title": "ANC fights to keep control of South Africa's key cities after election setback",
+      "summary": "The ANC appears reluctant to replicate its national power-sharing deal with the pro-business DA at the local level.",
+      "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T00:34:51+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Victorian Greens seek urgent injunction over how-to-vote cards mimicking party’s branding but preferencing it last",
+      "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan’s cards instruct people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens are seeking an urgent injunction from the supreme",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
+      "published": "2026-11-21T00:26:56+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "US judge approves Bayer's $7.25 billion cancer settlement",
+      "summary": "Bayer could end years of costly lawsuits in the US over claims that its Roundup weedkiller causes cancer. Tens of thousands of people could now receive compensation, although some lawyers say the payments are too low.",
+      "url": "https://www.dw.com/en/us-judge-approves-bayer-s-7-25-billion-cancer-settlement/a-80007474?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T00:03:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+      "summary": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
+      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T00:01:39+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 11
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
       "title": "A new Nepal, an old neighbour - Balendra Shah's India test",
       "summary": "Trade, connectivity and regional cooperation will be on top of the agenda when Nepal's PM meets his India counterpart.",
       "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
@@ -691,16 +701,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-20T23:08:57+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 11
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Germany: Berlin student protest targets rearmament and compulsory service",
-      "summary": "Thousands of students marched through Berlin, on Friday 20 November 2026, protesting against the country's rapid military rearmament and fears of a return to compulsory military service. Their protest formed part of a wider wave of youth demonstrations across",
-      "url": "https://www.euronews.com/video/2026/11/20/germany-berlin-student-protest-targets-rearmament-and-compulsory-service",
-      "published": "2026-11-20T22:54:22+00:00",
-      "feed_id": "euronews",
       "priority_score": 11
     }
   ],
