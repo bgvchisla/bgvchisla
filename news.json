@@ -1,8 +1,58 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:13:32.620767+00:00",
-  "last_checked_at": "2026-11-22T08:13:32.620771+00:00",
+  "updated_at": "2026-11-22T08:41:03.336486+00:00",
+  "last_checked_at": "2026-11-22T08:41:03.336491+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Лекари, инженери и медицински специалисти са сред най-търсените кадри в област Търговище",
+      "summary": "Общо 58 свободни работни места са обявени в трите бюра по труда в област Търговище и района до 50 километра към 23 ноември. От тях 26 са за кандидати с висше образование, което представлява близо 45 процента от всички позиции. Това показва справка за обявените",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251873-lekari-inzheneri-i-meditsinski-spetsialisti-sa-sred-nay-tarsenite-kadri-v-oblas",
+      "published": "2026-11-22T08:32:30+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Митрополит Арсений ще отслужи вечерня за храмовия празник на черквата „Св. Александър Невски“ при Бакаджишкия манастир край Ямбол",
+      "summary": "Сливенският митрополит Арсений ще отслужи тържествена архиерейска вечерня по повод предстоящия на 23 ноември храмов празник на църквата „Св. Александър Невски“ при Бакаджишкия манастир „Възнесение Господне“ край Ямбол. За богослужението съобщиха от Сливенската",
+      "url": "https://www.bta.bg/bg/news/lik/1251863-mitropolit-arseniy-shte-otsluzhi-vechernya-za-hramoviya-praznik-na-cherkvata-sv",
+      "published": "2026-11-22T08:31:41+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Дунав няма какво да губи в Разград и ще излезе да се противопостави на Лудогорец, заяви за БТА Георги Чиликов",
+      "summary": "Дунав няма какво да губи в предстоящото гостуване на Лудогорец и ще излезе на терена в Разград с нагласата да се противопостави на 14-кратния шампион на България. Това каза за БТА старши треньорът на русенския футболен клуб Георги Чиликов. Двата отбора ще се с",
+      "url": "https://www.bta.bg/bg/news/sport/1251875-dunav-nyama-kakvo-da-gubi-v-razgrad-i-shte-izleze-da-se-protivopostavi-na-ludogo",
+      "published": "2026-11-22T08:26:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Контрабандни цигари за над 82 000 евро са задържани на граничния пункт „Лесово”",
+      "summary": "Контрабандни цигари на стойност над 82 000 евро са задържани на Граничния контролно-пропускателен пункт (ГКПП) „Лесово”, съобщиха от Агенция „Митници”. Откритото количество е от общо 415 200 къса (20 760 кутии), укрити в хладилни витрини в товарен автомобил. О",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251877-kontrabandni-tsigari-za-nad-82-000-evro-sa-zadarzhani-na-granichniya-punkt-leso",
+      "published": "2026-11-22T08:26:09+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Моторист, карал без книжка и след употреба на алкохол, бе задържан след гонка с полицията в Пловдив",
+      "summary": "Моторист без книжка, с четири предишни нарушения, бе задържан след гонка с полицията вчера в Пловдив, съобщиха от Областната дирекция на МВР в града. Мъжът е на 45 години, неправоспособен и е управлявал мотоциклет под въздействие на алкохол. Спрямо него е взет",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251868-motorist-karal-bez-knizhka-i-sled-upotreba-na-alkohol-be-zadarzhan-sled-gonka-",
+      "published": "2026-11-22T08:22:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "europe",
       "source": "Deutsche Welle",
@@ -77,7 +127,7 @@
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "Europeans dare to believe Trump could deliver security for Ukraine",
-      "summary": "After months of anxiety, some of Kyiv's allies now think the U.S will help deliver an acceptable peace.",
+      "summary": "After months of anxiety, some of Kyiv's allies now think the U.S will help them negotiate an acceptable peace.",
       "url": "https://www.politico.eu/article/europeans-dare-to-believe-trump-could-deliver-security-for-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T07:44:01+00:00",
       "feed_id": "politico-europe",
@@ -136,7 +186,7 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Fire at confectionary factory in Indonesia leaves at least three dead and dozens missing",
+      "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
       "summary": "Relatives of the missing victims flocked to the factory’s entrance, seeking updates about their loved ones A fire at a confectionery factory west of Jakarta has killed three people with 36 remaining missing, an Indonesian rescue official says. Drone footage sh",
       "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
       "published": "2026-11-22T07:11:17+00:00",
@@ -184,16 +234,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Нормален е трафикът на всички гранични пунктове и преходи",
-      "summary": "Нормален е трафикът на всички гранични пунктове и преходи, показва справка в сайта на Главна дирекция „Гранична полиция“ на МВР. Информацията е към 06:00 ч. На границата с Румъния трафикът е нормален на всички гранични преходи. Фериботната платформа Свищов - З",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251853-normalen-e-trafikat-na-vsichki-granichni-punktove-i-prehodi",
-      "published": "2026-11-22T06:48:53+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "Security Sunday: Der Kampf um die Arktis – mit Robert Habeck",
@@ -201,16 +241,6 @@
       "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-der-kampf-um-die-arktis-mit-robert-habeck/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T06:30:00+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общо 56 пожара са потушени през изминалото денонощие, един човек е пострадал",
-      "summary": "Общо 56 пожара са потушени през изминалото денонощие, един човек е пострадал, съобщиха от Главна дирекция „Пожарна безопасност и защита на населението“ на сайта си. Екипите са реагирали на 100 сигнала за произшествия. Материални щети има при 18 пожара. Извърше",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251849-obshto-56-pozhara-sa-potusheni-prez-izminaloto-denonoshtie-edin-chovek-e-postra",
-      "published": "2026-11-22T06:29:42+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -264,26 +294,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "От понеделник се очаква застудяване и заледявания, шофьорите да подготвят автомобилите си, съобщиха от АПИ",
-      "summary": "От понеделник, 23 ноември, предстои сериозно застудяване с валежи от дъжд, а в сутрешните часове се очакват отрицателни температури и условия за заледявания, съобщиха от пресцентъра на Агенция „Пътна инфраструктура“ (АПИ). От пътната агенция апелират шофьорите",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251719-ot-ponedelnik-se-ochakva-zastudyavane-i-zaledyavaniya-shofyorite-da-podgotvyat-",
-      "published": "2026-11-22T06:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Днес е последният ден на 61-вото Венецианско биенале на изкуствата",
-      "summary": "Сто деветдесет и осем дни продължи 61-вото издание на Венецианското биенале на изкуствата, което се превърна в историческо по няколко причини. То започна официално на 9 май, но без традиционната церемония по връчване на наградите „Златен лъв“ и „Сребърен лъв“.",
-      "url": "https://www.bta.bg/bg/news/lik/1249032-dnes-e-posledniyat-den-na-61-voto-venetsiansko-bienale-na-izkustvata",
-      "published": "2026-11-22T06:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "COP31: Fossil fuels still missing from draft deal at UN climate summit",
@@ -314,16 +324,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Ден на отворените врати, танцов пърформанс и концерт ще има в „Топлоцентрала“ за петата годишнина на центъра за съвременни изкуства",
-      "summary": "Регионалният център за съвременни изкуства „Топлоцентрала“ отбеляза своята пета годишнина с международни артистични гостувания, спектакли, концерти, изложби, информират от центъра. Събитията в програмата са между 20 и 24 ноември. Днес, 22 ноември, програмата в",
-      "url": "https://www.bta.bg/bg/news/lik/1251785--toplotsentrala-otbelyazva-pet-godini-prez-noemvri",
-      "published": "2026-11-22T04:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "FBI reportedly investigating apparent hack of its criminal database",
@@ -351,7 +351,7 @@
       "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
       "published": "2026-11-21T16:26:21+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 43
+      "priority_score": 42
     },
     {
       "section": "europe",
@@ -451,7 +451,7 @@
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439881-shveytsariya-prodalzhava-debata-za-neutraliteta-si-s-glasuvane-za-iznosa-na-orazhiya",
       "published": "2026-11-21T10:00:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "bulgaria",
@@ -541,7 +541,7 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "published": "2026-11-20T15:00:00+00:00",
       "feed_id": "federal-reserve",
-      "priority_score": 41
+      "priority_score": 40
     },
     {
       "section": "europe",
