@@ -35,6 +35,16 @@ class AutomatedWriterSecurityTests(unittest.TestCase):
                 self.assertIn("permission-contents: write", source)
                 self.assertIn("APP_SLUG=", source)
                 self.assertIn("actions: write", source)
+                self.assertEqual(
+                    source.count('git config user.name "github-actions[bot]"'),
+                    1,
+                    "The legacy identity may appear only in the explicit no-App fallback.",
+                )
+                self.assertEqual(
+                    source.count('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"'),
+                    1,
+                    "The legacy email may appear only in the explicit no-App fallback.",
+                )
                 self.assertIn(
                     "GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}",
                     source,
