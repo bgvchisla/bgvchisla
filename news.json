@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:33:58.567458+00:00",
-  "last_checked_at": "2026-11-22T03:33:58.567462+00:00",
+  "updated_at": "2026-11-22T04:40:23.395864+00:00",
+  "last_checked_at": "2026-11-22T04:40:23.395869+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -45,22 +45,22 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
-      "published": "2026-11-21T14:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 35
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
       "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
       "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
       "published": "2026-11-21T16:26:21+00:00",
       "feed_id": "economic-bg",
+      "priority_score": 34
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
+      "published": "2026-11-21T14:30:00+00:00",
+      "feed_id": "investor-economy",
       "priority_score": 34
     },
     {
@@ -334,16 +334,6 @@
       "priority_score": 22
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Спартак Плевен надви гостуващия Ботев Академик в седмия кръг на Националната баскетболна лига за мъже",
-      "summary": "Спартак Плевен надви гостуващия Ботев Академик (Пловдив) с 87:75 (24:22, 20:15, 24:20, 19:18) в мач от седмия кръг на Националната баскетболна лига за мъже (НБЛ). Срещата се игра в зала „Балканстрой“ в Плевен, а съдии на мача бяха Николай Цинцарски, Димитър Ге",
-      "url": "https://www.bta.bg/bg/news/sport/1251782-spartak-pleven-nadvi-gostuvashtiya-botev-akademik-v-sedmiya-krag-na-natsionalnat",
-      "published": "2026-11-21T18:09:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 22
-    },
-    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
@@ -371,26 +361,6 @@
       "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-21T10:44:05+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 22
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Дезинфлационната стратегия на Фед е обречена на провал",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
-      "published": "2026-11-21T10:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 22
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Japan: Autonomous air taxi completes passenger flight without a pilot",
-      "summary": "A pilotless electric flying taxi has carried a passenger during a demonstration, on Friday 20 November 2026, in Japan's Yamanashi Prefecture. The Chinese-built aircraft took off vertically and flew autonomously, offering a glimpse of a possible future for urba",
-      "url": "https://www.euronews.com/video/2026/11/21/japan-autonomous-air-taxi-completes-passenger-flight-without-a-pilot",
-      "published": "2026-11-21T10:20:25+00:00",
-      "feed_id": "euronews",
       "priority_score": 22
     },
     {
@@ -525,6 +495,16 @@
     },
     {
       "section": "europe",
+      "source": "BIS Research",
+      "title": "Inflation after the Iran war",
+      "summary": "An unexpected increase in energy costs raises inflation directly through flexibly-set prices. Whether that shock amplifies to a larger and persistent rise in inflation depends on its transmission through the economy.",
+      "url": "https://www.bis.org/publications/working-paper-1384-inflation-after-iran-war",
+      "published": "2026-10-19T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 22
+    },
+    {
+      "section": "europe",
       "source": "Federal Reserve",
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
@@ -544,6 +524,26 @@
       "priority_score": 22
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Дезинфлационната стратегия на Фед е обречена на провал",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
+      "published": "2026-11-21T10:30:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 21
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Japan: Autonomous air taxi completes passenger flight without a pilot",
+      "summary": "A pilotless electric flying taxi has carried a passenger during a demonstration, on Friday 20 November 2026, in Japan's Yamanashi Prefecture. The Chinese-built aircraft took off vertically and flew autonomously, offering a glimpse of a possible future for urba",
+      "url": "https://www.euronews.com/video/2026/11/21/japan-autonomous-air-taxi-completes-passenger-flight-without-a-pilot",
+      "published": "2026-11-21T10:20:25+00:00",
+      "feed_id": "euronews",
+      "priority_score": 21
+    },
+    {
       "section": "europe",
       "source": "Economic.bg",
       "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
@@ -551,16 +551,6 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 21
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Council calls for action to safeguard Europe’s traditional sports and games for future generations",
-      "summary": "The Council has approved conclusions calling for greater efforts to preserve and promote traditional sports and games in the EU.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
-      "published": "2026-11-20T14:10:00+00:00",
-      "feed_id": "council-press",
       "priority_score": 21
     },
     {
@@ -574,34 +564,14 @@
       "priority_score": 21
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Презаписването на IPO-то на Anthropic може би ще убеди пазарните участници да нямат страх от AI",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/439866-prezapisvaneto-na-ipo-to-na-anthropic-mozhe-bi-shte-ubedi-pazarnite-uchastnitsi-da-nyamat-strah-ot-ai",
-      "published": "2026-11-20T18:39:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Европейските борси затвориха тежка седмица след разпродажби на технологичните акции",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439874-evropeyskite-borsi-zatvoriha-tezhka-sedmitsa-sled-razprodazhbi-na-tehnologichnite-aktsii",
-      "published": "2026-11-20T18:02:13+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 18
-    },
-    {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "UK will take its time setting out Brexit options, says minister",
-      "summary": "Hamish Falconer tells POLITICO that discussions around the topic had proved “divisive” and were important to get right.",
-      "url": "https://www.politico.eu/article/uk-brexit-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T17:50:49+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 18
+      "source": "Съвет на Европейския съюз",
+      "title": "Council calls for action to safeguard Europe’s traditional sports and games for future generations",
+      "summary": "The Council has approved conclusions calling for greater efforts to preserve and promote traditional sports and games in the EU.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
+      "published": "2026-11-20T14:10:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 20
     },
     {
       "section": "bulgaria",
@@ -702,12 +672,47 @@
       "published": "2026-11-13T00:00:00+00:00",
       "feed_id": "bnb-news",
       "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Ireland contributes EUR 200,000 to strengthen trade opportunities in developing countries",
+      "summary": "Ireland is contributing EUR 200,000 (approximately CHF 185,000) to the Standards and Trade Development Facility (STDF) in 2026 to strengthen sanitary and phytosanitary capacity in developing and least-developed countries. The contribution will support STDF act",
+      "url": "https://www.wto.org/english/news_e/pres26_e/pr998_551_e.htm",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "The gig economy and digital payments",
+      "summary": "The growth of the “gig” economy could have far-reaching implications for payment systems. Gig work involves digital platforms that intermediate between workers and (retail or business) customers, in areas as diverse as ride-hailing and food delivery, freelance",
+      "url": "https://www.bis.org/publications/paper-177-gig-economy-and-digital-payments",
+      "published": "2026-11-12T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Members review LDC support, discuss public health and small business IP assistance",
+      "summary": "At a meeting of the Council for Trade-Related Aspects of Intellectual Property Rights (TRIPS) on 12-13 November, members reviewed special provisions for least developed countries (LDCs) and shared experiences on how governments can implement the TRIPS Agreemen",
+      "url": "https://www.wto.org/english/news_e/news26_e/trip_12nov26_553_e.htm",
+      "published": "2026-11-12T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 18
     }
   ],
   "feed_status": {
-    "ok": 21,
+    "ok": 20,
     "total": 21,
-    "failures": []
+    "failures": [
+      {
+        "feed": "parliament-news",
+        "error": "<urlopen error timed out>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
