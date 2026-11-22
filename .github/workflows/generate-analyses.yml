@@ -1,4 +1,4 @@
-name: Generate weekly editorial analyses
+name: Generate weekly editorial analysis drafts
 
 on:
   schedule:
@@ -17,10 +17,12 @@ on:
         required: true
         default: "dry-run"
         type: choice
-        options: [dry-run, publish]
+        options: [dry-run, draft]
 
 permissions:
   contents: write
+  pull-requests: write
+  actions: write
 
 concurrency:
   group: editorial-analysis
@@ -59,30 +61,77 @@ jobs:
           echo "lane=$LANE" >> "$GITHUB_OUTPUT"
       - name: Free evidence and budget preflight
         run: python scripts/generate_analysis.py --lane "${{ steps.lane.outputs.lane }}" --dry-run
-      - name: Check explicit publishing switch and API secret
+      - name: Check explicit paid auto-draft switch and API secret
         id: api
         env:
           API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          PUBLISH_ENABLED: ${{ vars.ANALYSES_PUBLISH_ENABLED }}
+          AUTO_DRAFT_ENABLED: ${{ vars.ANALYSES_AUTODRAFT_ENABLED }}
+          EVENT_NAME: ${{ github.event_name }}
+          MANUAL_MODE: ${{ inputs.mode }}
         run: |
-          if [ -z "$API_KEY" ]; then
+          REQUESTED_DRAFT=false
+          if [ "$EVENT_NAME" = "schedule" ] || [ "$MANUAL_MODE" = "draft" ]; then
+            REQUESTED_DRAFT=true
+          fi
+          if [ "$REQUESTED_DRAFT" != "true" ]; then
             echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "OPENAI_API_KEY is not configured. No paid generation will run."
-          elif [ "$PUBLISH_ENABLED" != "true" ]; then
+            echo "Dry-run selected. No paid model call will run."
+          elif [ -z "$API_KEY" ]; then
             echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "ANALYSES_PUBLISH_ENABLED is not true. The workflow remains in free dry-run mode."
+            echo "OPENAI_API_KEY is not configured. No paid model call will run."
+          elif [ "$AUTO_DRAFT_ENABLED" != "true" ]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "ANALYSES_AUTODRAFT_ENABLED is not true. Paid draft generation remains disabled."
           else
             echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "Paid generation is enabled for a review-only pull request. Direct publication is disabled."
           fi
-      - name: Generate and validate article
-        if: steps.api.outputs.enabled == 'true' && (github.event_name == 'schedule' || inputs.mode == 'publish')
+      - name: Generate and validate article draft
+        if: steps.api.outputs.enabled == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/generate_analysis.py --lane "${{ steps.lane.outputs.lane }}"
-      - name: Commit validated article and usage ledger
-        if: steps.api.outputs.enabled == 'true' && (github.event_name == 'schedule' || inputs.mode == 'publish')
+      - name: Open a review pull request instead of writing to main
+        if: steps.api.outputs.enabled == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          LANE: ${{ steps.lane.outputs.lane }}
         run: |
+          set -euo pipefail
+          BRANCH="analysis/draft-${LANE}-$(date -u +%Y%m%d-%H%M%S)"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
           git add analizi sitemap.xml analysis/monthly_usage.json
-          if git diff --cached --quiet; then echo "No validated article to publish."; else git commit -m "Publish validated editorial analysis" && git push origin HEAD:main; fi
+          if git diff --cached --quiet; then
+            echo "No validated article or archive changes were produced."
+            exit 0
+          fi
+          git commit -m "Draft editorial analysis for review"
+          git push --set-upstream origin "$BRANCH"
+          if [ "$LANE" = "bulgaria" ]; then
+            TITLE="Чернова: авторски анализ за България"
+          else
+            TITLE="Чернова: световна икономика и финансови пазари"
+          fi
+          cat > /tmp/pr-body.md <<'EOF'
+          ## Автоматично подготвена редакционна чернова
+
+          Този PR е етап за преглед и редакция. Той **не публикува** материала при създаването си.
+
+          - Доказателствената база е преминала безплатния предварителен подбор.
+          - Текстът и източниците са записани в отделен branch.
+          - Всеки commit по PR трябва да премине проверката `audit`.
+          - Редакторът може да редактира файловете директно в този PR; проверките се изпълняват отново.
+
+          **Публикуване:** след преглед напиши точно `/approve` в дискусията на този PR от собственика на хранилището. Workflow ще провери, че PR е към `main`, че branch-ът е редакционна чернова и че `audit` е успешно за точния commit. Едва тогава ще слее PR и ще стартира production deployment.
+
+          Не използвай директен merge, ако искаш да се изпълни автоматичната проверка за одобрение.
+          EOF
+          PR_URL="$(gh pr create --repo "$REPOSITORY" --base main --head "$BRANCH" --title "$TITLE" --body-file /tmp/pr-body.md)"
+          echo "Review PR created: $PR_URL"
+          # Pull requests created with GITHUB_TOKEN do not automatically trigger pull_request workflows.
+          # Dispatch the audit explicitly for this exact branch so its check is attached to the PR head SHA.
+          gh workflow run audit-analysis-evidence.yml --repo "$REPOSITORY" --ref "$BRANCH"
+          echo "Dispatched audit for $BRANCH"
