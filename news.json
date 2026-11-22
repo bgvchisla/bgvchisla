@@ -1,8 +1,68 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:07:51.648043+00:00",
-  "last_checked_at": "2026-11-22T11:07:51.648052+00:00",
+  "updated_at": "2026-11-22T11:49:32.764487+00:00",
+  "last_checked_at": "2026-11-22T11:49:32.764489+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Новозасадените дървета в София тази година ще бъдат над 4500",
+      "summary": "",
+      "url": "https://www.investor.bg/a/519-ekologiya/439893-novozasadenite-darveta-v-sofiya-tazi-godina-shte-badat-nad-4500",
+      "published": "2026-11-22T11:36:27+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "‘Brexit is done’: Theresa May tells Burnham to move on",
+      "summary": "The former British prime minister spent three years trying to negotiate a Brexit deal with the EU.",
+      "url": "https://www.politico.eu/article/brexit-is-done-theresa-may-tells-burnham-move-on/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T11:32:11+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Китай се завръща на петролните пазари, но очакванията са, че търсенето ще се промени",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439789-kitay-se-zavrashta-na-petrolnite-pazari-no-ochakvaniyata-sa-che-tarseneto-shte-se-promeni",
+      "published": "2026-11-22T11:31:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Bayern Munich bosses under fire over Jamal Musiala comments",
+      "summary": "Officials have publicly questioned whether Musiala will ever fully recover from a debilitating neurological condition and queried the validity of his contract, prompting criticism from fans, media and the FIFPRO union.",
+      "url": "https://www.dw.com/en/bayern-munich-bosses-under-fire-over-jamal-musiala-comments/a-80013187?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T11:30:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T11:25:14+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Дядо Гавриил беше пример и образец за архипастирско служение за всички нас, каза патриарх Даниил",
+      "summary": "Дядо Гавриил беше пример и образец за архипастирско служение за всички нас. По пътя на служението на Бога, в едно атеистично време, когато никак не беше лесно човек да се определи и не само да заяви принадлежността си към Църквата, не само да заяви, че е вярва",
+      "url": "https://www.bta.bg/bg/news/lik/1251929-dyado-gavriil-beshe-primer-i-obrazets-za-arhipastirsko-sluzhenie-za-vsichki-nas-",
+      "published": "2026-11-22T11:15:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "europe",
       "source": "Investor.bg – Икономика и политика",
@@ -12,6 +72,16 @@
       "published": "2026-11-22T11:06:37+00:00",
       "feed_id": "investor-economy",
       "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "UK-EU food deal hailed by British firms: ‘We’re pretty aligned anyway’",
+      "summary": "Exporters welcome end in sight for Brexit checks – but are frustrated that implementation will take so long British producers have broadly welcomed the UK’s deal with the EU, designed to remove the vast majority of physical checks on food, plants and animal pr",
+      "url": "https://www.theguardian.com/business/2026/nov/22/uk-eu-food-sps-deal-brexit-checks",
+      "published": "2026-11-22T11:00:24+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 39
     },
     {
       "section": "europe",
@@ -119,7 +189,7 @@
       "title": "Мотористи от цялата страна отправиха послание „Не бий, обичай!“ с шествие в София срещу домашното насилие",
       "summary": "Мотористи облякоха сигнални жилетки в оранжево – цвета на кампанията за борба с насилието, с надпис „Не бий, обичай!“ по време на мотошествието под надслов „Домът е обич, не страх!“ в София, което е по инициатива на омбудсмана Велислава Делчева и мотористи от",
       "url": "https://www.bta.bg/bg/news/bulgaria/1251905-motoristi-ot-tsyalata-strana-otpraviha-poslanie-ne-biy-obichay-s-shestvie-v-",
-      "published": "2026-11-22T10:20:27+00:00",
+      "published": "2026-11-22T10:20:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
@@ -162,16 +232,6 @@
       "published": "2026-11-22T09:54:50+00:00",
       "feed_id": "euronews",
       "priority_score": 44
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Смолян предвижда над 642 хил. евро за сметосъбиращи автомобили за общинското предприятие БКС",
-      "summary": "Община Смолян планира да закупи четири сметосъбиращи автомобила на стойност до 642 455 евро, с които да оборудва общинското предприятие „Благоустройство и комунално стопанство“ БКС за поемане на сметосъбирането и извозването на битовите отпадъци. Средствата ще",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251897-obshtina-smolyan-predvizhda-nad-642-hil-evro-za-smetosabirashti-avtomobili-za-o",
-      "published": "2026-11-22T09:52:31+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
     },
     {
       "section": "europe",
@@ -254,26 +314,6 @@
       "priority_score": 0
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Inspired by Bernie Sanders: A German agency is using US-Style campaigning to boost the left in 2029",
-      "summary": "\"The Goodforces\" wants to see a swing to the left in the 2029 German elections. The agency counts New York Mayor Zohran Mamdani and Bernie Sanders among its inspirations. Could it transform the political landscape?",
-      "url": "https://www.dw.com/en/inspired-by-bernie-sanders-a-german-agency-is-using-us-style-campaigning-to-boost-the-left-in-2029/a-80001443?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T08:39:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Germany news: IG Metall union calls for new 24-hour strike",
-      "summary": "Germany's biggest single union, IG Metall, is calling on car and shipyard workers to strike amid a pay row. Meanwhile, Germany's president is setting off on an Africa trip. DW has more.",
-      "url": "https://www.dw.com/en/germany-news-ig-metall-union-calls-for-new-24-hour-strike/live-80008430?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T08:07:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Акция на седмицата: „Първа инвестиционна банка“ АД",
@@ -281,7 +321,7 @@
       "url": "https://www.investor.bg/a/536-finansi/439889-aktsiya-na-sedmitsata-parva-investitsionna-banka-ad",
       "published": "2026-11-22T08:04:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 47
+      "priority_score": 46
     },
     {
       "section": "bulgaria",
@@ -291,47 +331,17 @@
       "url": "https://www.economic.bg/bg/a/view/poredica-ot-it-srivove-rodi-nova-ikonomika-na-apokalipsisa",
       "published": "2026-11-22T08:00:25+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Highly lucrative: Bank of England directors illegally profited from post-abolition enslavement in Cuba",
+      "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
       "summary": "New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people • Slave-trade wealth was embedded in Britain’s financial system, research finds British businesses run by long-serving",
       "url": "https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba",
       "published": "2026-11-22T08:00:22+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 44
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "New COP31 draft deal tabled as countries scramble to salvage climate talks",
-      "summary": "The latest draft again failed to mention fossil fuels, which have become a flashpoint at the talks.",
-      "url": "https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks",
-      "published": "2026-11-22T07:50:54+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Europeans dare to believe Trump could deliver security for Ukraine",
-      "summary": "After months of anxiety, some of Kyiv's allies now think the U.S will help them negotiate an acceptable peace.",
-      "url": "https://www.politico.eu/article/europeans-dare-to-believe-trump-could-deliver-security-for-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T07:44:01+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "US: ICE arrests 2 at Seattle airport in 'chilling' scenes — governor",
-      "summary": "Washington's governor has denounced the arrests made by ICE officers at Seattle's airport, calling the incident \"horrific.\"",
-      "url": "https://www.dw.com/en/us-ice-arrests-2-at-seattle-airport-in-chilling-scenes-governor/a-80012480?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T07:27:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 0
+      "priority_score": 43
     },
     {
       "section": "europe",
@@ -464,16 +474,6 @@
       "priority_score": 38
     },
     {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Швейцария продължава дебата за неутралитета си с гласуване за износа на оръжия",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439881-shveytsariya-prodalzhava-debata-za-neutraliteta-si-s-glasuvane-za-iznosa-na-orazhiya",
-      "published": "2026-11-21T10:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 38
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Социалните разходи изпреварват икономиката",
@@ -511,7 +511,7 @@
       "url": "https://www.politico.eu/article/uk-brexit-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-20T17:50:49+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 33
+      "priority_score": 32
     },
     {
       "section": "bulgaria",
