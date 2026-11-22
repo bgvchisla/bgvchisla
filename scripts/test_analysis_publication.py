@@ -80,6 +80,7 @@ class EditorialPublicationTests(unittest.TestCase):
             "OPENAI_API_KEY",
             "gh pr create",
             "gh workflow run audit-analysis-evidence.yml",
+            '-f pr_number="$PR_NUMBER" -f expected_sha="$EXPECTED_SHA"',
             "select(.name == \"audit\")",
             'select(.context == "editorial-approval")',
             "gh api --method PUT",
@@ -127,6 +128,10 @@ class EditorialPublicationTests(unittest.TestCase):
             "scripts/test_responsive.mjs",
             "scripts/analysis_evidence.py --lane bulgaria",
             "scripts/analysis_evidence.py --lane world",
+            "statuses: write",
+            "Record machine approval only for a validated internal automation PR",
+            "startsWith(github.head_ref, 'analysis/auto-')",
+            "inputs.expected_sha",
         ):
             self.assertIn(token, source)
 
