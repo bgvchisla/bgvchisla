@@ -248,37 +248,62 @@ GitHub Actions run `45000255907` завърши успешно на 22.11.2026 �
 
 ---
 
-## 14. Подготовка за защита на main и мобилен Lighthouse одит — 22.11.2026
+## 14. Защита на main и пълна мобилна проверка — 22.11.2026
 
-### Задължителен PR validation статус
-- `.github/workflows/audit-analysis-evidence.yml` вече се изпълнява и при `pull_request` към `main`.
-- При PR workflow-ът checkout-ва точния `github.event.pull_request.head.sha`, а не базовия `main`.
-- Проверява шестте регресионни теста за новини и НСИ, валидността на 10 JSON набора, синтаксиса на осем Python модула, редакционните доказателства за България и световната икономика и двата безплатни dry-run режима.
-- Условието за месечния разход остава: 0 API заявки, $0.00 и непроменен `analysis/monthly_usage.json`.
-- GitHub Actions run `45003076580` завърши успешно на 22.11.2026 г. Следващите PR-и към `main` трябва да изискват check context `audit`.
+### PR validation gate
+- `.github/workflows/audit-analysis-evidence.yml` се изпълнява при всеки PR към `main` и checkout-ва точния commit от PR.
+- Задължителният GitHub check context е `audit`.
+- Проверява 6 теста за новини, 3 теста за устойчивост на NSI importer-а, 3 frontend теста, JSON валидността на 10 набора, синтаксиса на 8 Python модула, синтаксиса на всички inline JavaScript блокове, редакционните доказателства и двата безплатни preflight режима.
+- Не прави платени API заявки; месечният ledger трябва да остане с 0 заявки и $0.00.
+- GitHub Actions run `45004345678` завърши успешно на 22.11.2026 г. на commit `66c407d0b8287b507f7c9a8ac1ad31579bb3bbe6`.
 
-### Предложена конфигурация на rulesets
-Хранилището е публично и лично (owner type User), а свързаната GitHub интеграция има repository permission `admin: true`, но няма Administration API scope. Затова настройката на rulesets изисква GitHub Settings през браузър сесия на собственика.
+### Предложена конфигурация на GitHub Rulesets
+Хранилището е публично и лично (owner type User). GitHub API потвърждава permission `admin: true` за потребителя, но свързаната GitHub интеграция няма Administration API scope. Следователно ruleset-ите трябва да се създадат през GitHub Settings с активна сесия на собственика.
 
-При създаването използвай два отделни ruleset-а, вместо един общ bypass:
-1. `main-require-pr-and-validation`: target branch `main`; enforcement `active`; изисква PR; изисква status check `audit` от GitHub Actions; използва squash/rebase; GitHub Actions App е единственият bypass actor с `always`. Не добавяй owner/admin bypass.
-2. `main-block-destructive-updates`: target branch `main`; enforcement `active`; правила `deletion` и `non_fast_forward`; без bypass actors. Това блокира force-push и изтриване и за Actions.
+Създай два отделни ruleset-а:
+1. `main-require-pr-and-validation`: target `main`; enforcement `active`; задължителен PR; задължителен статус `audit` от GitHub Actions; разрешени squash/rebase; единствен bypass actor — GitHub Actions App с режим `always`. Без owner/admin bypass.
+2. `main-block-destructive-updates`: target `main`; enforcement `active`; правила `deletion` и `non_fast_forward`; без bypass actors. Това забранява изтриване и force-push, включително от Actions.
 
-Не задавай задължително одобрение от друг човек, докато не е потвърден наличен независим reviewer. Това може да заключи самостоятелен maintainer извън възможност за merge. Не активирай правилата, преди GitHub Actions App да е избран в първия ruleset и да е проверено, че вторият ruleset няма bypass.
+Bypass за GitHub Actions е нужен, защото девет workflow-а валидират и записват новини, статистика и анализи директно в `main`. Не изисквай approval от втори reviewer, докато не е потвърден наличен независим reviewer.
 
-**Статус към този commit:** rulesets още не са създадени; GitHub API потвърждава `protected: false`. Не съобщавай, че main е защитен.
+**Проверен статус:** към 22.11.2026 г. GitHub връща `protected: false` и празен списък с repository rulesets. Правилата още не са създадени. Не съобщавай, че main е защитен, докато това не бъде проверено през GitHub.
 
-### Мобилен одит чрез Google PageSpeed Insights
-- Докладът е генериран на 22.11.2026 г. в mobile Lighthouse mode, устройство Moto G Power, Lighthouse 13.6.0, Slow 4G.
-- Performance 100, Accessibility 91, Best Practices 96, SEO 100.
-- FCP 1.1 s, LCP 1.1 s, TBT 0 ms, CLS 0, Speed Index 1.1 s, INP 1.1 s.
-- Mobile viewport audit преминава; PageSpeed не сигнализира проблем с мащабирането на viewport. Не е отчетен overflow или проблем с размера на шрифта.
-- Открити са accessibility проверки за невалидни ARIA стойности и недостатъчен контраст, както и browser console errors. Не променяй цветовата палитра без преглед на конкретните засегнати елементи.
-- Статичният CSS потвърждава: страничните новинарски колони се скриват под 1199 px; централната навигация е 4 колони под 1199 px, 3 колони под 767 px и 2 колони под 639 px; мобилният toggle управлява прибирането на менюто; hero CTA се подрежда под заглавието и става 100% ширина под 760 px.
-- Външният browser automation не може да задава и измерва конкретен CSS viewport с `innerWidth`, `clientWidth` и `scrollWidth`. Следователно Moto G Power Lighthouse е mobile emulation, не тест на конкретна физическа ширина 390×844 px. Точният viewport тест остава отворен.
+### Production корекции, свързани с мобилния изглед
+- `index.html`: оправени са атрибутите на 16-те навигационни бутона. `aria-pressed` вече е точно `true` или `false`, а `aria-current="page"` е отделен атрибут.
+- `.github/workflows/deploy-production.yml`: canonical `assets/design-system.css` вече се копира в `public/assets/`; добавен е `assets/**` path trigger. Това отстранява production отговора `text/html` за CSS URL.
+- Оправена е незатворената двойна кавичка в inline JavaScript шаблона за бизнес-климатичните карти.
+- Добавен е `scripts/test_frontend.py`, който проверява синтаксиса на всички inline JS блокове чрез `node --check`, ARIA шаблона и 16-те целеви section ID.
+- Production deployment run `45004029778` завърши успешно. Публичният CSS адрес `https://bgvchisla.com/assets/design-system.css?v=3` вече връща действителния CSS ресурс.
 
-### Следващи действия
-1. Собственикът трябва да потвърди активен GitHub вход в защитената браузърна сесия или да влезе през отделен защитен прозорец. Парола не се изпраща в чата.
-2. Създай и провери двата ruleset-а по-горе. Потвърди, че ежедневните workflow-и, които записват валидирани данни в `main`, продължават да минават.
-3. Завърши мобилния визуален тест на 390×844 px и 360×800 px с реални измервания и проверка на навигацията, CTA, news panel, секциите и хоризонталното преливане.
-4. Прегледай конкретните ARIA, контраст и console проблеми от подробния PageSpeed отчет; не променяй визуалната идентичност.
+### Точен responsive тест с Playwright
+`scripts/test_responsive.mjs` се изпълнява автоматично в audit workflow с Chromium. Проверява production сайта в четири CSS viewport размера, измерва `window.innerWidth`, `documentElement.clientWidth` и `scrollWidth`, проверява CSS зареждането, навигацията, CTA, страниците и browser page errors.
+
+GitHub Actions run `45004345678` завърши успешно. Измерените резултати са:
+
+| Viewport | innerWidth | clientWidth | scrollWidth | Nav grid | Sidebar | Заглавие/CTA |
+|---|---:|---:|---:|---:|---|---|
+| 390 × 844 | 390 | 390 | 390 | 2 колони | Скрит | Вертикално |
+| 360 × 800 | 360 | 360 | 360 | 2 колони | Скрит | Вертикално |
+| 768 × 1024 | 768 | 768 | 768 | 4 колони | Скрит | Хоризонтално |
+| 1440 × 900 | 1440 | 1440 | 1440 | 5 колони | Видим | Хоризонтално |
+
+- Няма хоризонтално преливане в четирите размера.
+- На 390 × 844 бутонът за авторските анализи е широк 358 px и е под заглавието; на 360 × 800 е широк 328 px.
+- CSS файлът се зарежда успешно във всички размери.
+- Всичките 16 навигационни бутона са налични; валидирани са `aria-pressed` и `aria-controls`.
+- При 390 px тестът натиска последователно всичките 16 секции и потвърждава, че панелът с мобилни новини се показва при избор на „Новини“.
+- Няма неприхванати JavaScript page errors във viewport теста.
+
+### Повторен Google PageSpeed Insights Mobile
+Доклад от 22.11.2026 г. 08:42:45, Moto G Power (2022), Chrome 157, Lighthouse mobile:
+- Performance 100, Accessibility 96, Best Practices 100, SEO 100.
+- FCP 1.1 s, LCP 1.1 s, TBT 0 ms, CLS 0, Speed Index 2.4 s.
+- Предишните проблеми с ARIA, CSS MIME и inline JavaScript вече не се откриват; viewport audit преминава.
+- Оставащ accessibility проблем: недостатъчен цветови контраст при `#mk-note`, `.fc-status`, бележки в `ul.src`, `#adli`, footer small и някои dashboard текстове. Не променяй цветовете без конкретна проверка на computed foreground/background и ratio.
+- Оставащи performance диагностики: около 100 ms render-blocking за CSS, forced reflow 37 ms, 10 KiB legacy JS и 4 KiB cache lifetime savings.
+- Agentic Browsing 2/4: `/ard-manifest.json` връща HTML вместо валиден JSON; `llms.txt` няма препоръчителния H1. Това не понижава основните Lighthouse категории.
+- CSP, HSTS, COOP, frame control и Trusted Types headers липсват. Това е отделен security-hardening backlog; не добавяй CSP без проверка на всички външни ресурси и consent flow.
+
+### Следваща оставаща стъпка
+1. За да създадеш двата ruleset-а, използвай GitHub Settings в защитената браузърна сесия на собственика; парола не се изпраща в чата.
+2. След активиране провери, че PR без `audit` не може да се слее, PR със зелен `audit` може да се слее, а валидираните GitHub Actions обновявания продължават да записват в `main`.
