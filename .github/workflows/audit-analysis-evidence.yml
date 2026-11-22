@@ -25,6 +25,7 @@ on:
       - "sitemap.xml"
       - "analysis/monthly_usage.json"
       - "analysis/README.md"
+      - "analysis/config.json"
       - "PROJECT_HANDOVER.md"
       - ".github/workflows/update-news.yml"
   workflow_dispatch:
