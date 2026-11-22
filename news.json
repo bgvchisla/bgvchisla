@@ -1,8 +1,68 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T18:54:33.205817+00:00",
-  "last_checked_at": "2026-11-22T18:54:33.205822+00:00",
+  "updated_at": "2026-11-22T19:41:14.610961+00:00",
+  "last_checked_at": "2026-11-22T19:41:14.610964+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T19:26:54+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Sudan: Drones hit UN building, residential area in Khartoum",
+      "summary": "The drones targeted Khartoum, damaging a UN building in the residential area. The UN agency deemed it unacceptable that humanitarian workers were exposed to such danger.",
+      "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T19:25:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
+      "summary": "Transparency International says Queensland’s David Crisafulli was ‘by far the most frequently accessed’ state leader, with 13 meetings Get our breaking news email , free app or daily news podcast Bosses at 10 datacentre companies secured almost 120 meetings wi",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
+      "published": "2026-11-22T19:00:34+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "What's next after no deal at COP31 climate talks?",
+      "summary": "The COP31 climate summit in Turkey has formally come to an end after countries failed to agree a deal.",
+      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T18:57:24+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Валентин Митев спечели открития турнир по ускорен шахмат за \"Купа Плевен 2026\"",
+      "summary": "Валентин Митев от Левски София спечели открития турнир по ускорен шахмат за \"Купа Плевен 2026\" със стопроцентов резултат от седем победи. Партиите се играха в хотел \"Ростов\". За БТА победителят каза, че турнирът е преминал при феърплей. По време на срещите той",
+      "url": "https://www.bta.bg/bg/news/sport/1252075-valentin-mitev-specheli-otkritiya-turnir-po-uskoren-shahmat-za-kupa-pleven-2026",
+      "published": "2026-11-22T18:57:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
+      "summary": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia A suspected Ukrainian drone attack caused an explosion on a Russian warship docked at the naval base in the Libyan port city of Benghazi, Libyan official",
+      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+      "published": "2026-11-22T18:50:56+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -24,6 +84,16 @@
       "priority_score": 0
     },
     {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+      "summary": "The Army says \"swift action\" is necessary to protect its personnel and nearby communities around its ammunition plant in Iowa.",
+      "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T18:29:46+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Общо 39 двойки подновиха брачните си клетви и отпразнуваха златна сватба в Самоков",
@@ -36,8 +106,8 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "COP31 climate talks fail to reach major deal amid deep divisions",
-      "summary": "COP31 climate talks fail to make breakthrough on tackling climate change after a row about mentioning fossil fuels.",
+      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
+      "summary": "The talks fail to make a breakthrough on tackling climate change after a row about mentioning fossil fuels.",
       "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-22T18:17:59+00:00",
       "feed_id": "bbc-world",
@@ -47,7 +117,7 @@
       "section": "europe",
       "source": "Euronews",
       "title": "Tanker incident “involving military forces” reported in Strait of Hormuz",
-      "summary": "Amid conflicting reports that an Iranian tanker departed Iran’s Kharg Island to Sunday to force the US military blockade in the Strait of Hormuz, an incident was reported near the US navy blockade line. Iran threatened that any US attempt to stop its tankers w",
+      "summary": "Amid conflicting reports that an Iranian tanker departed Iran’s Kharg Island on Sunday to force the US military blockade in the Strait of Hormuz, an incident was reported near the US navy blockade line. Iran threatened that any US attempt to stop its tankers w",
       "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz",
       "published": "2026-11-22T18:07:13+00:00",
       "feed_id": "euronews",
@@ -94,16 +164,6 @@
       "priority_score": 0
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-      "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T17:16:47+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Дроновете променят войната, но оръжията от \"старата школа\" все още носят короната при приходите",
@@ -132,16 +192,6 @@
       "published": "2026-11-22T17:00:26+00:00",
       "feed_id": "euronews",
       "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
-      "summary": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia An explosion on a Russian ship docked at the naval base in the Libyan port city of Benghazi was caused by a suspected drone attack, Libya’s eastern-based",
-      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-      "published": "2026-11-22T16:55:49+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
     },
     {
       "section": "europe",
@@ -201,7 +251,7 @@
       "url": "https://www.politico.eu/article/global-left-rallies-paris-make-not-so-radical-case-taxing-billionaires/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T16:21:57+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -241,16 +291,6 @@
       "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439900-germanskata-armiya-zapochva-izpitaniya-na-dronove-kamikadze-i-ai-instrument-za-nasochvane-v-litva",
       "published": "2026-11-22T16:05:16+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Родопският международен документален филмов фестивал RIFE гостува за първи път в София",
-      "summary": "Родопският международен документален филмов фестивал RIFE гостува за първи път в София от 30 ноември до 7 декември, информират от екипа на смолянския фестивал. Начало ще даде премиерният за България азербайджански документален филм „В търсене на Сатир Ефенди“",
-      "url": "https://www.bta.bg/bg/news/lik/1252037-rodopskiyat-mezhdunaroden-dokumentalen-filmov-festival-rife-gostuva-za-parvi-pat",
-      "published": "2026-11-22T15:58:45+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -301,16 +341,6 @@
       "url": "https://www.dw.com/en/israel-s-eisenkot-condemns-jewish-terrorism-in-west-bank/a-80013861?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T15:09:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Руските олигарси се надяват да се върнат на власт след края на управлението на Путин",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439608-ruskite-oligarsi-se-nadyavat-da-se-varnat-na-vlast-sled-kraya-na-upravlenieto-na-putin",
-      "published": "2026-11-22T14:31:00+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 0
     },
     {
@@ -381,7 +411,7 @@
       "url": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi",
       "published": "2026-11-22T09:54:50+00:00",
       "feed_id": "euronews",
-      "priority_score": 43
+      "priority_score": 42
     },
     {
       "section": "europe",
@@ -391,7 +421,7 @@
       "url": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T09:49:20+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "bulgaria",
@@ -414,26 +444,6 @@
       "priority_score": 40
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
-      "summary": "New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people • Slave-trade wealth was embedded in Britain’s financial system, research finds British businesses run by long-serving",
-      "url": "https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba",
-      "published": "2026-11-22T08:00:22+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 42
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "India: Nepal PM Balendra Shah heads to Delhi for first bilateral visit",
-      "summary": "Nepal's rapper-turned-prime minister Balendra Shah is in New Delhi for his first foreign bilateral trip since taking office. He is expected to discuss flood recovery, trade and energy in his talks with Modi. DW has more.",
-      "url": "https://www.dw.com/en/india-nepal-pm-balendra-shah-heads-to-delhi-for-first-bilateral-visit/live-80008104?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T07:20:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 37
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "България рискува бюджетна глоба от Брюксел",
@@ -442,16 +452,6 @@
       "published": "2026-11-22T07:01:04+00:00",
       "feed_id": "economic-bg",
       "priority_score": 45
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T00:10:44+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 36
     },
     {
       "section": "europe",
@@ -471,7 +471,7 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439888-dimitar-radev-etsb-tryabva-da-e-gotova-za-novo-povishenie-na-lihvite",
       "published": "2026-11-21T14:45:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -511,7 +511,7 @@
       "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 50
+      "priority_score": 49
     },
     {
       "section": "europe",
