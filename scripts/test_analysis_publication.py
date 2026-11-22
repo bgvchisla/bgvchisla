@@ -33,7 +33,7 @@ class EditorialPublicationTests(unittest.TestCase):
         source = ARTICLE.read_text(encoding="utf-8")
         references = set(re.findall(r'href="#source-(\d+)"', source))
         source_notes = set(re.findall(r'<li id="source-(\d+)"', source))
-        self.assertGreaterEqual(len(source_notes), 8)
+        self.assertGreaterEqual(len(source_notes), 10)
         self.assertTrue(references, "No inline source references found.")
         self.assertTrue(references.issubset(source_notes))
         for line in source.splitlines():
