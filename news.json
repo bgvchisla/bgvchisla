@@ -1,8 +1,128 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:49:32.764487+00:00",
-  "last_checked_at": "2026-11-22T11:49:32.764489+00:00",
+  "updated_at": "2026-11-22T12:37:35.195963+00:00",
+  "last_checked_at": "2026-11-22T12:37:35.195970+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Община Тунджа обяви конкурс за сценични изяви на деца „Заблестява звезда“",
+      "summary": "Община Тунджа, област Ямбол, набира участници за конкурса „Заблестява звезда“, насочен към сценична изява на деца от предучилищна възраст до 18 години. Заявки се приемат до 30 ноември, а самото представяне на участниците ще бъде на 3 декември в Народно читалищ",
+      "url": "https://www.bta.bg/bg/news/lik/1251957-obshtina-tundzha-obyavi-konkurs-za-stsenichni-izyavi-na-detsa-zablestyava-zvezd",
+      "published": "2026-11-22T12:32:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Правим всичко възможно общините да не бъдат рекетирани, ще победим на местните избори, заяви Бойко Борисов",
+      "summary": "Ще направим всичко възможно общините и кметовете да не бъдат рекетирани, заяви лидерът на ГЕРБ Бойко Борисов в Монтана, където се срещна с млади симпатизанти на партията в рамките на инициативата „Новите умове“. Борисов беше придружен от лидерите на “Синя Бълг",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251950-pravim-vsichko-vazmozhno-obshtinite-da-ne-badat-reketirani-shte-pobedim-na-mest",
+      "published": "2026-11-22T12:23:15+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Emergency workers recover at least six body bags after Indonesian factory fire",
+      "summary": "Video footage posted on social media by Indonesia's National Search and Rescue Agency (Basarnas), showed emergency crews looking through the charred remains of the building.",
+      "url": "https://www.euronews.com/2026/11/22/emergency-workers-recover-at-least-six-body-bags-after-indonesian-factory-fire",
+      "published": "2026-11-22T12:22:47+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Любителски театър „Будиловци“ в село Раковица ще отбележи 120-годишнината на читалището с премиера на „Протоколи и измислици“",
+      "summary": "С премиера на театралната постановка „Протоколи и измислици“ по Дончо Цончев Любителски театър „Будиловци“ ще отбележи 120-годишнината на Народно читалище (НЧ) „Надежда-1906“ в село Раковица, община Макреш. Спектакълът е под режисурата на Ирина Флорова, съобщи",
+      "url": "https://www.bta.bg/bg/news/lik/1251952-lyubitelski-teatar-budilovtsi-v-selo-rakovitsa-shte-otbelezhi-120-godishninata",
+      "published": "2026-11-22T12:22:15+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Драматично-поетичният спектакъл „Ботевата любов“ ще бъде представен в Радомир",
+      "summary": "Спектакълът „Ботевата любов“ на Драматично-кукления театър (ДКТ) във Враца ще бъде представен на 1 декември от 18:00 часа в Народно читалище „Напредък 1895“ в Радомир, съобщиха домакините. В анотацията си създателите на спектакъла определят „Ботевата любов“ ка",
+      "url": "https://www.bta.bg/bg/news/lik/1251948-dramatichno-poetichniyat-spektakal-botevata-lyubov-shte-bade-predstaven-v-rado",
+      "published": "2026-11-22T12:16:11+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Светият синод ще се събере утре на извънредно заседание",
+      "summary": "Светият синод ще се събере утре, 23 ноември, на извънредно заседание, за да се уточни кога ще бъде опелото на Ловчанския митрополит Гавриил, каза пред медии българският патриарх Даниил. По думите му най-вероятно то ще е във вторник в Ловеч. Светият синод ще бъ",
+      "url": "https://www.bta.bg/bg/news/lik/1251943-svetiyat-sinod-shte-se-sabere-utre-na-izvanredno-zasedanie",
+      "published": "2026-11-22T12:13:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+      "summary": "Choi Kyo-jin says he ‘failed to prepare adequately’ for entrance exams, which this year had phones banned and checks for cameras hidden in clothing South Korea’s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up",
+      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+      "published": "2026-11-22T12:12:08+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Очаквам този Висш съдебен съвет да бъде по-добър и отговорен от предишния, коментира народният представител Владислав Панев",
+      "summary": "Очаквам този Висш съдебен съвет (ВСС) да бъде по-добър и отговорен от предишния. Това коментира на пресконференция в Националния пресклуб на БТА в Пловдив народният представител Владислав Панев от ПГ на „Демократична България“. Той подчерта, че е нормално да и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251937-ochakvam-tozi-vissh-sadeben-savet-da-bade-po-dobar-i-otgovoren-ot-predishniya-k",
+      "published": "2026-11-22T12:10:40+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Движението по Софийския околовръстен път в участъка при „Симеоновско шосе“ е възстановено",
+      "summary": "Движението по Софийския околовръстен път в участъка от бул. „Александър Малинов“ към бул. „Черни връх“ вече е възстановено, съобщиха от пресцентъра на Министерството на вътрешните работи. Ограничението беше въведено заради установени повреди по дилатационните",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251936-dvizhenieto-po-sofiyskiya-okolovrasten-pat-v-uchastaka-pri-simeonovsko-shose-e",
+      "published": "2026-11-22T12:02:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Деня на християнското семейство специалистите от Програма „Детско здраве“ прегледаха близо 460 деца от Етрополе и района, съобщиха от болница „Пирогов“",
+      "summary": "Близо 460 деца от град Етрополе и близките населени места преминаха безплатни профилактични прегледи при специалистите от Програма „Детско здраве“ на 21 ноември в Деня на християнското семейство, съобщиха от пресцентъра на УМБАЛСМ \"Н. И. Пирогов\". Инициативата",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251922-v-denya-na-hristiyanskoto-semeystvo-spetsialistite-ot-programa-detsko-zdrave-p",
+      "published": "2026-11-22T12:00:04+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Външен асансьор ще улеснява достъпа до сградата на „ДКЦ-1 Ямбол” в квартал „Каргон”",
+      "summary": "Изграждане на външен асансьор за улесняване на достъпа до медицинските кабинети се предвижда за сградата на „Диагностично-консултативния център (ДКЦ) -1 Ямбол” в квартал „Каргон”. В момента пациентите се придвижват към втория и третия етаж единствено по вътреш",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251935-vanshen-asansyor-shte-ulesnyava-dostapa-do-sgradata-na-dkts-1-yambol-v-kvartal",
+      "published": "2026-11-22T11:55:28+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Всички наказателни съдии в Смолян си направиха отвод по делото за катастрофата с трима загинали край Неделино",
+      "summary": "Върховният касационен съд (ВКС) ще определи кой съд да разгледа делото за катастрофата с трима загинали младежи край Неделино, след като всички съдии от наказателното отделение на Окръжния съд в Смолян си направиха отвод, става известно от публикувания съдебен",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251925-vsichki-nakazatelni-sadii-v-smolyan-si-napraviha-otvod-po-deloto-za-katastrofata",
+      "published": "2026-11-22T11:53:12+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
@@ -54,16 +174,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Дядо Гавриил беше пример и образец за архипастирско служение за всички нас, каза патриарх Даниил",
-      "summary": "Дядо Гавриил беше пример и образец за архипастирско служение за всички нас. По пътя на служението на Бога, в едно атеистично време, когато никак не беше лесно човек да се определи и не само да заяви принадлежността си към Църквата, не само да заяви, че е вярва",
-      "url": "https://www.bta.bg/bg/news/lik/1251929-dyado-gavriil-beshe-primer-i-obrazets-za-arhipastirsko-sluzhenie-za-vsichki-nas-",
-      "published": "2026-11-22T11:15:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Собствениците на ресторанти в Киев се готвят за тежка зима заради засиления натиск от войната",
@@ -104,46 +214,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Прогноза за времето",
-      "summary": "През следващото денонощие ще бъде ветровито с умерен и силен югозападен вятър, който след обяд с преминаването на студен атмосферен фронт ще се ориентира от северозапад и още ще се усили, съобщиха от Националния институт по метеорология и хидрология (НИМХ). Об",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251918-prognoza-za-vremeto",
-      "published": "2026-11-22T10:59:08+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Новозасадените дървета в София тази година ще бъдат над 4500, съобщи кметът Васил Терзиев",
-      "summary": "До края на годината броят на новозасадените дървета в София през 2026 г. ще надхвърли 4500, съобщи кметът Васил Терзиев, цитиран от пресцентъра на Столичната община, след като започна есенното засаждане в столицата. Той уточни, че това са само градските засажд",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251911-novozasadenite-darveta-v-sofiya-tazi-godina-shte-badat-nad-4500-saobshti-kmetat",
-      "published": "2026-11-22T10:58:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "С мъдрите си слова и блага усмивка митрополит Гавриил се стремеше да посее у всеки вяра, смирение, любов, написа Илияна Йотова",
-      "summary": "\"Няма по-радостно служение и по-голямо щастие да служиш на Господ Иисус Христос и на Неговата света Църква\" – това дълбоко и искрено верую беляза целия земен път на Негово Високопреосвещенство митрополит Гавриил, написа президентът Илияна Йотова във Фейсбук по",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251910-s-madrite-si-slova-i-blaga-usmivka-mitropolit-gavriil-se-stremeshe-da-posee-u-vs",
-      "published": "2026-11-22T10:40:17+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Трябва да се стремим да трупаме духовни блага вместо земни придобивки, каза Видинският митрополит Пахомий",
-      "summary": "Трябва да се стремим да трупаме духовни блага вместо земни придобивки, каза Видинският митрополит Пахомий в словото си след литургията в храм „Свети Николай“ във Видин. Той обърна внимание на евангелския разказ за богатия човек, който, вместо да се замисли за",
-      "url": "https://www.bta.bg/bg/news/lik/1251904-tryabva-da-se-stremim-da-trupame-duhovni-blaga-vmesto-zemni-pridobivki-kaza-vid",
-      "published": "2026-11-22T10:39:36+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Ukraine: Up to seven feared trapped beneath rubble near Kyiv after Russian attack",
@@ -154,63 +224,13 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Писателят Георги Господинов получи във Франция наградата „Жан Моне\" за европейска литература за 2026 г.",
-      "summary": "Писателят Георги Господинов получи за книгата си „Градинарят и смъртта\", превод на френски език от Мари Врина-Николов, наградата „Жан Моне\" за европейска литература на церемония, състояла се снощи във френския град Коняк, съобщи авторът в профила си във Фейсбу",
-      "url": "https://www.bta.bg/bg/news/lik/1251916-pisatelyat-georgi-gospodinov-poluchi-vav-frantsiya-nagradata-zhan-mone-za-evro",
-      "published": "2026-11-22T10:33:59+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "POLITICO Europe",
-      "title": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
-      "summary": "Air traffic controllers will join a nationwide protest against government spending cuts, prompting anger from airport operators over the last-minute disruption.",
+      "title": "All flights to and from Brussels, Charleroi airports canceled Monday amid strike",
+      "summary": "Air traffic controllers will join a nationwide protest against government spending cuts.",
       "url": "https://www.politico.eu/article/brussels-charleroi-airports-cancel-most-flights-monday-belgian-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T10:30:54+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Тридневен траур от днес е обявен в Ловеч по повод кончината на Ловчанския митрополит Гавриил",
-      "summary": "Със заповед на кмета на Община Ловеч Страцимир Петков е обявен тридневен траур от днес по повод кончината на Ловчанския митрополит Гавриил, съобщиха от местната администрацията. „В продължение на четвърт век - от избирането му за Ловчански митрополит през 2001",
-      "url": "https://www.bta.bg/bg/news/lik/1251915-tridneven-traur-ot-dnes-e-obyaven-v-lovech-po-povod-konchinata-na-lovchanskiya-m",
-      "published": "2026-11-22T10:25:29+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Мотористи от цялата страна отправиха послание „Не бий, обичай!“ с шествие в София срещу домашното насилие",
-      "summary": "Мотористи облякоха сигнални жилетки в оранжево – цвета на кампанията за борба с насилието, с надпис „Не бий, обичай!“ по време на мотошествието под надслов „Домът е обич, не страх!“ в София, което е по инициатива на омбудсмана Велислава Делчева и мотористи от",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251905-motoristi-ot-tsyalata-strana-otpraviha-poslanie-ne-biy-obichay-s-shestvie-v-",
-      "published": "2026-11-22T10:20:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В катедралния храм „Св. св. Кирил и Методий“ в Ловеч бе отслужена панихида за Ловчанския митрополит Гавриил",
-      "summary": "След края на неделната литургия в катедралния храм „Св. св. Кирил и Методий“ в Ловеч бе отслужена панихида за Ловчанския митрополит Гавриил, който почина след кратко боледуване рано тази сутрин. Председателят на катедралния храм ставрофорен свещеноиконом Михаи",
-      "url": "https://www.bta.bg/bg/news/lik/1251907-v-katedralniya-hram-sv-sv-kiril-i-metodiy-v-lovech-be-otsluzhena-panihida-za",
-      "published": "2026-11-22T10:13:34+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Козлодуй отбелязва утре 149 години от освобождението си",
-      "summary": "Сто четиридесет и девет години от освобождението на Козлодуй от османско владичество ще се отбележи утре в крайдунавския град, съобщиха от общинската администрация на страницата си във Фейсбук. Тържеството ще е от 10:00 часа пред паметната плоча в двора на Сре",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251895-kozloduy-otbelyazva-utre-149-godini-ot-osvobozhdenieto-si",
-      "published": "2026-11-22T09:57:26+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -285,33 +305,13 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Indian opposition party’s youth wing warns of more Meta protests after police clashes",
-      "summary": "Members of Congress party clashed with police outside tech company’s offices on Friday The youth wing of India’s main opposition Congress party warned of more protests against Meta’s removal of some of its members’ ⁠accounts, ⁠a day after clashing with ​police",
-      "url": "https://www.theguardian.com/world/2026/nov/22/india-congress-meta-protests-police-hyderabad",
-      "published": "2026-11-22T09:14:27+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Reported FBI hack 'not good' but could have benefits, Trump says",
       "summary": "The reported breach comes amid a wave of tech outages in the US, which have impacted travel, communications and banking, as well as an internal system used by the National Security Agency.",
       "url": "https://www.euronews.com/2026/11/22/reported-fbi-hack-not-good-but-could-have-benefits-trump-says",
       "published": "2026-11-22T08:56:19+00:00",
       "feed_id": "euronews",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "China, ASEAN countries struggle over South China Sea code of conduct",
-      "summary": "The Philippines wanted a South China Sea code of conduct in place by 2026. But persistent disagreements between China and ASEAN countries are slowing progress toward a deal.",
-      "url": "https://www.dw.com/en/china-asean-countries-struggle-over-south-china-sea-code-of-conduct/a-80009799?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T08:45:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 0
+      "priority_score": 38
     },
     {
       "section": "bulgaria",
@@ -365,12 +365,12 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 22nd, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-morning",
-      "published": "2026-11-22T06:00:32+00:00",
-      "feed_id": "euronews",
+      "source": "Deutsche Welle",
+      "title": "COP31: Climate deal 'not adopted' as EU, others reject draft declaration over fossil fuels omission",
+      "summary": "The summit was extended as nations worked overtime to reach a deal, but they couldn't bridge their differences. European nations, small island states and activists have criticized oil-producing countries for the impasse.",
+      "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-as-eu-others-reject-draft-declaration-over-fossil-fuels-omission/live-79999516?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T05:50:00+00:00",
+      "feed_id": "dw-world",
       "priority_score": 38
     },
     {
