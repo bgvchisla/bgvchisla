@@ -42,8 +42,8 @@ jobs:
         run: gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
       - name: Apply checked editorial evidence selector
         run: python scripts/patch_analysis_evidence.py
-      - name: Compile generator
-        run: python -m py_compile scripts/generate_analysis.py
+      - name: Compile generator and evidence selector
+        run: python -m py_compile scripts/generate_analysis.py scripts/analysis_evidence.py
       - name: Resolve editorial lane
         id: lane
         env:
