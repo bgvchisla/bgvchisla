@@ -1,8 +1,118 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:57:12.321247+00:00",
-  "last_checked_at": "2026-11-22T15:57:12.321252+00:00",
+  "updated_at": "2026-11-22T16:37:37.156807+00:00",
+  "last_checked_at": "2026-11-22T16:37:37.156815+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Експерти обучаваха във Вършец доброволци да се грижат за хора с деменция по проект „Силни общности без възрастови бариери“",
+      "summary": "Експерти по социални политики и представители на неправителствения сектор обучаваха вчера и днес във Вършец доброволци как да се грижат за възрастни хора и хора с деменция, по проект „Силни общности без възрастови бариери“. В обученията са включиха над 20 добр",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252046-eksperti-obuchavaha-vav-varshets-dobrovoltsi-da-se-grizhat-za-hora-s-dementsiya-",
+      "published": "2026-11-22T16:34:42+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Трио Viva представя „Нищо няма да ме спре“",
+      "summary": "Viva прогонва есенната сивота със сингъла „Нищо няма да ме спре“, информират от екипа на триото. По думите им с „Нищо няма да ме спре“ певиците поставят финалния щрих на визуалната история на дебютния си албум Supernova и ни напомнят, че въображението може да",
+      "url": "https://www.bta.bg/bg/news/lik/1252054-trio-viva-predstavya-nishto-nyama-da-me-spre-",
+      "published": "2026-11-22T16:29:38+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Поклонението пред Ловчанския митрополит Гавриил ще бъде в понеделник следобед в катедралния храм в Ловеч",
+      "summary": "Поклонението пред Ловчанския митрополит Гавриил, който почина рано тази сутрин след кратко боледуване, ще бъде в понеделник, 23 ноември, от 16:00 до 20:00 ч., в катедралния храм „Св. св. Кирил и Методий“ в Ловеч. Това съобщават от Ловчанската епархия в официал",
+      "url": "https://www.bta.bg/bg/news/lik/1252047-poklonenieto-pred-lovchanskiya-mitropolit-gavriil-shte-bade-v-ponedelnik-sledobe",
+      "published": "2026-11-22T16:23:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Global left rallies in Paris to make ‘not so radical’ case for taxing billionaires",
+      "summary": "Politicians from Europe and the U.S. gathered at Gabriel Zucman's summit to challenge the power of the super-rich — but few are in a position to act.",
+      "url": "https://www.politico.eu/article/global-left-rallies-paris-make-not-so-radical-case-taxing-billionaires/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T16:21:57+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Cop31 climate talks break down as key deal rejected",
+      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels • Cop31 live blog: longest climate summit ever faces collapse The EU, the UK and allies in the developing world rejected what they called",
+      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "published": "2026-11-22T16:14:46+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "След преследване с полицията водач на 29 години се е сблъскал с патрулна кола в центъра на София",
+      "summary": "Водач на 29 години се е сблъскал със служебен полицейски автомобил в района на кръстовището на бул. „Мадрид“ и бул. „Евлоги и Христо Георгиеви“, след като по-рано днес не се е подчинил на подаден от полицаи звуков сигнал. Това съобщи на брифинг пред журналисти",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252041-sled-presledvane-s-politsiyata-vodach-na-29-godini-se-e-sblaskal-s-patrulna-kola",
+      "published": "2026-11-22T16:14:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Филип Буков играе в премиерната комедия „Грешката е вярна“, музиката е на Свилен от „Остава“",
+      "summary": "Романтичната комедия „Грешката е вярна“ ще бъде представена за първи път на 14 декември в „Театро отсам канала“, информират от Break a leg. По думите им това е едно истинско любовно разследване с таро карти, астрологични прогнози и изкуствен интелект. В истори",
+      "url": "https://www.bta.bg/bg/news/lik/1252042-filip-bukov-igrae-v-premiernata-komediya-greshkata-e-vyarna-muzikata-e-na-svi",
+      "published": "2026-11-22T16:13:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "summary": "Libya's eastern government says it is working with Russia to investigate the incident.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T16:05:25+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Германската армия започва изпитания на дронове камикадзе и AI инструмент за насочване в Литва",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439900-germanskata-armiya-zapochva-izpitaniya-na-dronove-kamikadze-i-ai-instrument-za-nasochvane-v-litva",
+      "published": "2026-11-22T16:05:16+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Родопският международен документален филмов фестивал RIFE гостува за първи път в София",
+      "summary": "Родопският международен документален филмов фестивал RIFE гостува за първи път в София от 30 ноември до 7 декември, информират от екипа на смолянския фестивал. Начало ще даде премиерният за България азербайджански документален филм „В търсене на Сатир Ефенди“",
+      "url": "https://www.bta.bg/bg/news/lik/1252037-rodopskiyat-mezhdunaroden-dokumentalen-filmov-festival-rife-gostuva-za-parvi-pat",
+      "published": "2026-11-22T15:58:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Cyprus expels Russian diplomats on suspicion of espionage",
+      "summary": "The two men were suspected of working for Russian intelligence services under diplomatic cover.",
+      "url": "https://www.politico.eu/article/cyprus-expels-russian-diplomats-on-suspicion-of-espionage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T15:56:12+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
     {
       "section": "europe",
       "source": "Euronews",
@@ -11,16 +121,6 @@
       "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks",
       "published": "2026-11-22T15:52:31+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Explosion on Russian ship at Libya port likely caused by drone attack, officials say",
-      "summary": "Libya's eastern rival government says it is working with Russia to investigate the incident.",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T15:50:13+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -77,7 +177,7 @@
       "section": "bulgaria",
       "source": "БТА",
       "title": "Ловчанският митрополит Гавриил почина след кратко боледуване, в община Ловеч е обявен тридневен траур",
-      "summary": "Ловчанският митрополит Гавриил почина днес, 22 ноември, след кратко боледуване, съобщиха от Българската православна църква – Българска патриаршия. Със заповед на кмета на Община Ловеч Страцимир Петков е обявен тридневен траур от днес. Митрополит Гавриил беше н",
+      "summary": "Ловчанският митрополит Гавриил почина днес, 22 ноември, след кратко боледуване, съобщиха от Българската православна църква – Българска патриаршия. Той беше настанен във Военномедицинската академия на 4 ноември с диагноза остър панкреатит. Със заповед на кмета",
       "url": "https://www.bta.bg/bg/news/lik/1252022-lovchanskiyat-mitropolit-gavriil-pochina-sled-kratko-boleduvane-v-obshtina-love",
       "published": "2026-11-22T15:13:00+00:00",
       "feed_id": "bta-bulgaria",
@@ -94,46 +194,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Дванайсет дни след катастрофите на магистрала „Тракия“ изписаха от бургаска болница петият приет там пациент",
-      "summary": "Дванайсет дни след тежките верижни катастрофи на автомагистрала „Тракия“ д-р Селахаттин Акча се прибира у дома след три сложни операции в Многопрофилната болница за активно лечение (МБАЛ) „Сърце и Мозък“ в Бургас. Трийсет и седем годишният лекар-инфекционист е",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252004-dvanayset-dni-sled-katastrofite-na-magistrala-trakiya-izpisaha-ot-burgaska-bol",
-      "published": "2026-11-22T15:08:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изложбата „Между“ представя керамика на Мария Йованович",
-      "summary": "Изложбата „Между“ представя керамика на Мария Йованович. Откриването е на 24 ноември в галерия „158“, съобщи на БТА авторката. „Какво има между нас? Между две пространства, две души, две мисли, два свята? Понякога разстояние. Понякога невидима нишка. Понякога",
-      "url": "https://www.bta.bg/bg/news/lik/1252011-izlozhbata-mezhdu-predstavya-keramika-na-mariya-yovanovich",
-      "published": "2026-11-22T15:03:12+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "МВнР предупреждава за национална стачка в Белгия и отмяна на полети утре",
-      "summary": "В понеделник в белгийската столица Брюксел ще има национална стачка, съпътствана от демонстрации. Отменени са всички планирани за същия ден пристигащи и заминаващи полети от летище Завентем, Брюксел. Възможна е отмяна на полети и от/до летище Шарлероа за същия",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252006-mvnr-preduprezhdava-za-natsionalna-stachka-v-belgiya-i-otmyana-na-poleti-utre",
-      "published": "2026-11-22T14:58:20+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Амбицията на правителството да модернизираме България чрез стратегически инвестиции има партньор в лицето на Саудитска Арабия, заяви Румен Радев",
-      "summary": "Амбицията на правителството да модернизираме България чрез привличане на стратегически инвестиции има вече своя партньор в лицето на Саудитска Арабия. Това заяви премиерът Румен Радев след срещата си в Рияд с престолонаследника и министър-председател на Кралст",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252002-ambitsiyata-na-pravitelstvoto-da-modernizirame-balgariya-chrez-strategicheski-in",
-      "published": "2026-11-22T14:50:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 43
-    },
-    {
       "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Руските олигарси се надяват да се върнат на власт след края на управлението на Путин",
@@ -145,32 +205,12 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Миряни и духовни лица се поклониха пред Ловчанския митрополит Гавриил в параклиса „Св. цар Борис“ в Синодалната палата",
-      "summary": "Десетки миряни и духовни лица се поклониха днес пред Ловчанския митрополит Гавриил в параклиса „Св. цар Борис“ в Синодалната палата. „Дядо Гавриил беше една одухотворена личност, духовно издигнат човек, както е редно за всички нас, християните, да се стараем д",
-      "url": "https://www.bta.bg/bg/news/lik/1252003-miryani-i-duhovni-litsa-se-pokloniha-pred-lovchanskiya-mitropolit-gavriil-v-para",
-      "published": "2026-11-22T14:30:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Директните полети между София и Рияд може да бъдат възстановени, обсъжда се нов жп коридор",
       "summary": "",
       "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439897-direktnite-poleti-mezhdu-sofiya-i-riyad-mozhe-da-badat-vazstanoveni-obsazhda-se-nov-zhp-koridor",
       "published": "2026-11-22T14:28:35+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Възможностите за възстановяване на директната въздушна линия между София и Рияд обсъди министър Георги Пеев със саудитския си колега",
-      "summary": "Възможностите за възстановяване на директната въздушна линия между София и Рияд обсъди министърът на транспорта и съобщенията Георги Пеев на среща с министъра на транспорта и логистичните услуги на Саудитска Арабия Салех ал Джасер, съобщиха от Министерството н",
-      "url": "https://www.bta.bg/bg/news/economy/1251997-vazmozhnostite-za-vazstanovyavane-na-direktnata-vazdushna-liniya-mezhdu-sofiya-i",
-      "published": "2026-11-22T14:15:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -231,7 +271,7 @@
       "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T13:18:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 44
+      "priority_score": 43
     },
     {
       "section": "bulgaria",
@@ -251,16 +291,6 @@
       "url": "https://www.politico.eu/article/climate-deal-collapses-amid-fossil-fuel-rows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T13:00:03+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Cop31 climate talks break down as key deal rejected",
-      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels • Cop31 live blog: longest climate summit ever faces collapse The EU, the UK and allies in the developing world rejected what they called",
-      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
-      "published": "2026-11-22T12:54:41+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
@@ -292,26 +322,6 @@
       "published": "2026-11-22T12:39:00+00:00",
       "feed_id": "dw-world",
       "priority_score": 38
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Emergency workers recover at least six body bags after Indonesian factory fire",
-      "summary": "Video footage posted on social media by Indonesia's National Search and Rescue Agency (Basarnas), showed emergency crews looking through the charred remains of the building.",
-      "url": "https://www.euronews.com/2026/11/22/emergency-workers-recover-at-least-six-body-bags-after-indonesian-factory-fire",
-      "published": "2026-11-22T12:22:47+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "South Korean minister quits after AI cheating scandal engulfs university exams",
-      "summary": "Choi Kyo-jin says he ‘failed to prepare adequately’ for entrance exams following last-minute scramble to tighten measures South Korea’s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up to key university entrance",
-      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
-      "published": "2026-11-22T12:12:08+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
     },
     {
       "section": "europe",
@@ -421,7 +431,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-riskuva-budjetna-globa-ot-bruksel",
       "published": "2026-11-22T07:01:04+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 46
+      "priority_score": 45
     },
     {
       "section": "europe",
@@ -431,7 +441,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-22T00:10:44+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 37
+      "priority_score": 36
     },
     {
       "section": "europe",
@@ -461,7 +471,7 @@
       "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
       "published": "2026-11-21T11:35:11+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -471,7 +481,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
       "published": "2026-11-21T11:28:47+00:00",
       "feed_id": "commission-press",
-      "priority_score": 40
+      "priority_score": 39
     },
     {
       "section": "europe",
@@ -501,7 +511,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -511,7 +521,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
-      "priority_score": 43
+      "priority_score": 42
     },
     {
       "section": "bulgaria",
@@ -521,7 +531,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -692,16 +702,6 @@
       "published": "2026-11-12T18:30:00+00:00",
       "feed_id": "federal-reserve",
       "priority_score": 32
-    },
-    {
-      "section": "europe",
-      "source": "Federal Reserve",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "published": "2026-11-12T16:00:00+00:00",
-      "feed_id": "federal-reserve",
-      "priority_score": 27
     }
   ],
   "feed_status": {
