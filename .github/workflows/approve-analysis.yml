@@ -1,0 +1,72 @@
+name: Approve and publish editorial analysis
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  actions: write
+
+jobs:
+  approve:
+    if: >-
+      github.event.issue.pull_request &&
+      github.event.comment.body == '/approve' &&
+      github.actor == 'bgvchisla'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate the requested editorial approval
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+          PR_JSON="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+          STATE="$(jq -r '.state' <<<"$PR_JSON")"
+          BASE_REF="$(jq -r '.base.ref' <<<"$PR_JSON")"
+          HEAD_REF="$(jq -r '.head.ref' <<<"$PR_JSON")"
+          HEAD_REPO="$(jq -r '.head.repo.full_name // empty' <<<"$PR_JSON")"
+          HEAD_SHA="$(jq -r '.head.sha' <<<"$PR_JSON")"
+
+          if [ "$STATE" != "open" ]; then
+            echo "Approval refused: the pull request is not open."
+            exit 1
+          fi
+          if [ "$BASE_REF" != "main" ]; then
+            echo "Approval refused: the pull request does not target main."
+            exit 1
+          fi
+          if [[ "$HEAD_REF" != analysis/draft-* ]]; then
+            echo "Approval refused: this is not an editorial draft branch."
+            exit 1
+          fi
+          if [ "$HEAD_REPO" != "$REPOSITORY" ]; then
+            echo "Approval refused: the draft branch is not in the canonical repository."
+            exit 1
+          fi
+
+          CHECKS="$(gh api "repos/$REPOSITORY/commits/$HEAD_SHA/check-runs")"
+          AUDIT_RESULT="$(jq -r '[.check_runs[] | select(.name == "audit") | .conclusion] | last // empty' <<<"$CHECKS")"
+          if [ "$AUDIT_RESULT" != "success" ]; then
+            gh pr comment "$PR_NUMBER" --repo "$REPOSITORY" --body "Публикуването е спряно: задължителната проверка `audit` за последния commit още не е успешна. Изчакай зелен резултат и повтори `/approve`."
+            echo "Approval refused: audit is not successful for $HEAD_SHA."
+            exit 1
+          fi
+
+          echo "Approval validated for $HEAD_REF at $HEAD_SHA."
+      - name: Merge the approved article and trigger production deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+          gh pr merge "$PR_NUMBER" --repo "$REPOSITORY" --squash --delete-branch
+          # A merge performed with GITHUB_TOKEN does not start a push-triggered workflow.
+          # Dispatch production deployment explicitly after the approved merge.
+          gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
+          echo "Approved pull request merged; production deployment dispatched."
