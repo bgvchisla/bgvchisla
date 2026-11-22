@@ -56,6 +56,10 @@ class HomepageOrderingTests(unittest.TestCase):
         self.assertIn("function sortNewsChronologically(items){", homepage)
         self.assertIn("items=sortNewsChronologically(items);", homepage)
         self.assertNotIn("sortNewsByEditorialPriority", homepage)
+        self.assertIn("var leadItem = items.reduce(function(best,item){", homepage)
+        self.assertIn('article.className = leadItem && item===leadItem.item ? "news-item news-lead" : "news-item";', homepage)
+        self.assertIn(".news-panel .news-item.news-lead:before", homepage)
+        self.assertNotIn(".news-panel .news-item:first-child:before", homepage)
 
 
 if __name__ == "__main__":

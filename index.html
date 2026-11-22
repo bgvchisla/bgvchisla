@@ -170,7 +170,7 @@ section.on{gap:16px}
 .news-item a:hover{color:#a94b46;text-decoration:none}
 .news-meta{font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;color:#8290a2;margin-top:6px}
 .news-summary{font-size:.72rem;line-height:1.5}
-.news-panel .news-item:first-child:before{content:"ВОДЕЩА НОВИНА";display:block;color:#b12f2b;font-size:.57rem;font-weight:800;letter-spacing:.13em;margin:0 0 6px}
+.news-panel .news-item.news-lead:before{content:"ВОДЕЩА НОВИНА";display:block;color:#b12f2b;font-size:.57rem;font-weight:800;letter-spacing:.13em;margin:0 0 6px}
 .src{line-height:1.6}
 @media(min-width:1200px){
  .dashboard-grid{align-items:start}
@@ -1714,8 +1714,16 @@ function renderNews(target,items){
   items=sortNewsChronologically(items);
   var root=$(target);if(!root)return;root.textContent="";
   if(!items.length){var empty=document.createElement("p");empty.className="news-empty";empty.textContent="Все още няма публикувани заглавия. Потокът се обновява автоматично.";root.appendChild(empty);return}
+  var leadItem = items.reduce(function(best,item){
+    var score = Number(item.priority_score);
+    if(!Number.isFinite(score))return best;
+    if(!best || score>best.score)return {item:item,score:score};
+    return best;
+  },null);
+  if(leadItem && leadItem.score<=0)leadItem=null;
   items.forEach(function(item){
-    var article=document.createElement("article");article.className="news-item";
+    var article=document.createElement("article");
+    article.className = leadItem && item===leadItem.item ? "news-item news-lead" : "news-item";
     var link=document.createElement("a");link.href=item.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=item.title;article.appendChild(link);
     var meta=document.createElement("div");meta.className="news-meta";
     var date=item.published?new Date(item.published):null;
