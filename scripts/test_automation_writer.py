@@ -35,9 +35,9 @@ class AutomatedWriterSecurityTests(unittest.TestCase):
                 self.assertIn("permission-contents: write", source)
                 self.assertIn("APP_SLUG=", source)
                 self.assertIn("actions: write", source)
-                self.assertRegex(
+                self.assertIn(
+                    "id: save\\n        env:\\n          GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}\\n        run:",
                     source,
-                    r"id: save\\n\\s+env:\\n\\s+GH_TOKEN: \\$\\{\\{ steps\\.automation_token\\.outputs\\.token \\|\\| github\\.token \\}\\}\\n\\s+run:",
                     "GitHub CLI must receive the same scoped token used for the checkout.",
                 )
 
