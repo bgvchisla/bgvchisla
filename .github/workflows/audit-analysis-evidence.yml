@@ -58,7 +58,23 @@ jobs:
         run: |
           npm install --no-save --no-package-lock playwright
           npx playwright install --with-deps chromium
-      - name: Test production layout at exact CSS viewport sizes
+      - name: Serve the checked-out commit for viewport tests
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/bgvchisla-test-server.log 2>&1 &
+          echo $! >/tmp/bgvchisla-test-server.pid
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then
+              echo "Local checkout server ready."
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/bgvchisla-test-server.log
+          exit 1
+
+      - name: Test checked-out commit at exact CSS viewport sizes
+        env:
+          SITE_URL: http://127.0.0.1:4173/
         run: node scripts/test_responsive.mjs
       - name: Validate checked-in datasets and Python syntax
         run: |
