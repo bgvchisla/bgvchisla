@@ -1,18 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:44:48.410335+00:00",
-  "last_checked_at": "2026-11-22T07:44:48.410340+00:00",
+  "updated_at": "2026-11-22T07:46:47.491603+00:00",
+  "last_checked_at": "2026-11-22T07:46:47.491608+00:00",
   "items": [
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "България рискува бюджетна глоба от Брюксел",
-      "summary": "България не е достатъчно смела в усилията си да овладее бюджетния дефицит и вече е изправена пред съвсем реален риск от финансова санкция. Предупрежденията от Брюксел стават все по-ясни, а последната кореспонденция между Европейската комисия и българското прав",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-riskuva-budjetna-globa-ot-bruksel",
-      "published": "2026-11-22T07:01:04+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 52
-    },
     {
       "section": "europe",
       "source": "Deutsche Welle",
@@ -32,6 +22,16 @@
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
       "priority_score": 51
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "България рискува бюджетна глоба от Брюксел",
+      "summary": "България не е достатъчно смела в усилията си да овладее бюджетния дефицит и вече е изправена пред съвсем реален риск от финансова санкция. Предупрежденията от Брюксел стават все по-ясни, а последната кореспонденция между Европейската комисия и българското прав",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-riskuva-budjetna-globa-ot-bruksel",
+      "published": "2026-11-22T07:01:04+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 47
     },
     {
       "section": "europe",
@@ -64,7 +64,7 @@
       "priority_score": 44
     },
     {
-      "section": "bulgaria",
+      "section": "europe",
       "source": "Economic.bg",
       "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
       "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
@@ -72,16 +72,6 @@
       "published": "2026-11-21T16:26:21+00:00",
       "feed_id": "economic-bg",
       "priority_score": 43
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Много хора имат дефицит на желязо. Ето защо това често се пропуска",
-      "summary": "Дефицитът на желязо е най-разпространеният хранителен дефицит в света, засягащ над един милиард души. Въпреки това много хора дори не подозират, че организмът им не получава достатъчно от този важен минерал, пише euronews. Желязото, което се съдържа в червенот",
-      "url": "https://www.economic.bg/bg/a/view/mnogo-hora-imat-deficit-na-jeljazo-eto-zashto-tova-chesto-se-propuska",
-      "published": "2026-11-21T13:00:42+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 42
     },
     {
       "section": "europe",
@@ -134,7 +124,7 @@
       "priority_score": 39
     },
     {
-      "section": "bulgaria",
+      "section": "europe",
       "source": "Investor.bg – Финанси",
       "title": "Димитър Радев: ЕЦБ трябва да е готова за ново повишение на лихвите",
       "summary": "",
@@ -154,7 +144,7 @@
       "priority_score": 39
     },
     {
-      "section": "bulgaria",
+      "section": "europe",
       "source": "Economic.bg",
       "title": "Колко болнични ползват работещите в Европа и колко струва това на икономиката?",
       "summary": "Средностатистическият европеец отсъства от работа близо три седмици годишно заради здравословни проблеми, показва нов доклад, цитиран от euronews. Това се равнява на около 6% от потенциалното работно време в Европейския съюз (ЕС) и води до загуби от приблизите",
@@ -164,7 +154,7 @@
       "priority_score": 39
     },
     {
-      "section": "bulgaria",
+      "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Дезинфлационната стратегия на Фед е обречена на провал",
       "summary": "",
@@ -201,16 +191,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-22T00:10:44+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 38
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Дефицитът на Гърция се е увеличил с 2,5 млрд. евро за периода януари-септември",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
-      "published": "2026-11-21T09:00:00+00:00",
-      "feed_id": "investor-economy",
       "priority_score": 38
     },
     {
@@ -452,6 +432,16 @@
       "published": "2026-11-13T17:48:28+00:00",
       "feed_id": "un-geneva-press",
       "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Добри са условията за туризъм в планините, съобщиха от Планинската спасителна служба на БЧК",
+      "summary": "Добри са условията за туризъм в планините, съобщиха за БТА от Планинската спасителна служба (ПСС) на Българския червен кръст (БЧК). Спасителите предупредиха обаче да се има предвид, че денят е къс и в планините вече са започнали зимните условия. Времето в план",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251865-dobri-sa-usloviyata-za-turizam-v-planinite-saobshtiha-ot-planinskata-spasitelna",
+      "published": "2026-11-22T07:44:57+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
     },
     {
       "section": "europe",
@@ -701,6 +691,16 @@
       "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
       "published": "2026-11-22T02:08:49+00:00",
       "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T01:25:03+00:00",
+      "feed_id": "bbc-world",
       "priority_score": 0
     }
   ],
