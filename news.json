@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:36:50.776427+00:00",
-  "last_checked_at": "2026-11-22T05:36:50.776429+00:00",
+  "updated_at": "2026-11-22T06:35:57.236122+00:00",
+  "last_checked_at": "2026-11-22T06:35:57.236127+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -31,17 +31,7 @@
       "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 37
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
-      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
-      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
-      "published": "2026-11-21T16:26:21+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 34
+      "priority_score": 36
     },
     {
       "section": "europe",
@@ -76,22 +66,22 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
+      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
+      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
+      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
+      "published": "2026-11-21T16:26:21+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 33
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
       "title": "Къде точно ще бъдат новите метростанции към Симеоновския лифт и Околовръстното",
       "summary": "Две от линиите на софийското метро ще се свържат при бъдещ интермодален транспортен възел в района на IKEA и Sofia Ring Mall, до Околовръстния път. Там трябва да достигне продължението на първата метролиния от съществуващата станция „Бизнес парк София“ и откло",
       "url": "https://www.economic.bg/bg/a/view/kyde-tochno-shte-bydat-novite-metrostancii-kym-simeonovskija-lift-i-okolovrystnoto",
       "published": "2026-11-21T07:01:09+00:00",
       "feed_id": "economic-bg",
       "priority_score": 32
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
-      "published": "2026-11-21T12:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 30
     },
     {
       "section": "europe",
@@ -134,6 +124,16 @@
       "priority_score": 30
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
+      "published": "2026-11-21T12:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 29
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
@@ -162,6 +162,16 @@
       "published": "2026-11-20T15:00:00+00:00",
       "feed_id": "federal-reserve",
       "priority_score": 28
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 22nd, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-morning",
+      "published": "2026-11-22T06:00:32+00:00",
+      "feed_id": "euronews",
+      "priority_score": 26
     },
     {
       "section": "europe",
@@ -245,26 +255,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T00:10:44+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 25
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
-      "summary": "Избирателната комисия на Общото събрание на следователите обяви Петко Петков за избран член на Висшия съдебен съвет (ВСС) след проведеното гласуване днес. Решението на комисията не е окончателно и може да се обжалва в седемдневен срок. Петков, следовател в Нац",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
-      "published": "2026-11-21T19:59:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 25
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Multiannual Financial Framework - President Costa’s proposal",
       "summary": "President of the European Council, António Costa, presented his proposal to reach an agreement on the 2028-2034 Multiannual Financial Framework during a press conference on 21 November 2026.",
@@ -295,13 +285,43 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общо 56 пожара са потушени през изминалото денонощие, един човек е пострадал",
+      "summary": "Общо 56 пожара са потушени през изминалото денонощие, един човек е пострадал, съобщиха от Главна дирекция „Пожарна безопасност и защита на населението“ на сайта си. Екипите са реагирали на 100 сигнала за произшествия. Материални щети има при 18 пожара. Извърше",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251849-obshto-56-pozhara-sa-potusheni-prez-izminaloto-denonoshtie-edin-chovek-e-postra",
+      "published": "2026-11-22T06:29:42+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T00:10:44+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
+      "summary": "Избирателната комисия на Общото събрание на следователите обяви Петко Петков за избран член на Висшия съдебен съвет (ВСС) след проведеното гласуване днес. Решението на комисията не е окончателно и може да се обжалва в седемдневен срок. Петков, следовател в Нац",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
+      "published": "2026-11-21T19:59:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 24
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
       "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 25
+      "priority_score": 24
     },
     {
       "section": "europe",
@@ -465,16 +485,6 @@
     },
     {
       "section": "europe",
-      "source": "BIS Research",
-      "title": "Inflation after the Iran war",
-      "summary": "An unexpected increase in energy costs raises inflation directly through flexibly-set prices. Whether that shock amplifies to a larger and persistent rise in inflation depends on its transmission through the economy.",
-      "url": "https://www.bis.org/publications/working-paper-1384-inflation-after-iran-war",
-      "published": "2026-10-19T00:00:00+00:00",
-      "feed_id": "bis-research",
-      "priority_score": 22
-    },
-    {
-      "section": "europe",
       "source": "Federal Reserve",
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
@@ -534,16 +544,6 @@
       "priority_score": 21
     },
     {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
-      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
-      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
-      "published": "2026-11-20T15:45:35+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 21
-    },
-    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ взе решение за разрешаване на преобразуването на „Токуда Банк“ ЕАД чрез вливане по реда на чл. 262 от Търговския закон в „Българо-американска кредитна банка“ АД",
@@ -552,6 +552,16 @@
       "published": "2026-10-09T00:00:00+00:00",
       "feed_id": "bnb-news",
       "priority_score": 21
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
+      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
+      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
+      "published": "2026-11-20T15:45:35+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 20
     },
     {
       "section": "europe",
@@ -691,16 +701,6 @@
       "url": "https://www.wto.org/english/news_e/news26_e/trip_12nov26_553_e.htm",
       "published": "2026-11-12T00:00:00+00:00",
       "feed_id": "wto-news",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "Днес Управителният съвет на Българската народна банка (БНБ) издаде лиценз за извършване на дейност като лице, обслужващо кредити, на „ФИН ЦЕНТЪР“ АД на основание чл. 9, ал. 11 от Закона за лицата, обслужващи кредити, и купувачите на кредити",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261111_3_BG",
-      "published": "2026-11-11T00:00:00+00:00",
-      "feed_id": "bnb-news",
       "priority_score": 18
     }
   ],
