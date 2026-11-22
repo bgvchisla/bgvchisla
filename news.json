@@ -1,8 +1,58 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T18:02:58.496366+00:00",
-  "last_checked_at": "2026-11-22T18:02:58.496372+00:00",
+  "updated_at": "2026-11-22T18:54:33.205817+00:00",
+  "last_checked_at": "2026-11-22T18:54:33.205822+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Първите осем фюжън биопсии на простатата бяха извършени в Университетската болница „Канев“ в Русе",
+      "summary": "Първите осем фюжън биопсии на простатата са извършени в Университетската болница „Канев“ в Русе с нова високотехнологична система за диагностика на рак на простатата. Това съобщи пиарът на лечебното заведение Стела Кръстева. Процедурите са осъществени с ултраз",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252083-parvite-osem-fyuzhan-biopsii-na-prostatata-byaha-izvarsheni-v-universitetskata-b",
+      "published": "2026-11-22T18:39:02+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Главиницкият епископ Макарий отслужи богослужение след ремонта на катедралния храм „Света Троица“ в Русе",
+      "summary": "Катедралният храм „Света Троица“ в Русе беше обновен и отново отворен за богослужения днес. Това съобщи на официалния си профил във Фейсбук Русенският митрополит Наум, с чието благословение неговият викарий Главиницкият епископ Макарий извърши чина на обновлен",
+      "url": "https://www.bta.bg/bg/news/lik/1252078-glavinitskiyat-episkop-makariy-otsluzhi-bogosluzhenie-sled-remonta-na-katedralni",
+      "published": "2026-11-22T18:31:23+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общо 39 двойки подновиха брачните си клетви и отпразнуваха златна сватба в Самоков",
+      "summary": "Общо 39 двойки подновиха брачните си клетви и отпразнуваха златна сватба в Самоков. Церемонията се състоя в ресторанта на хотел „Арена Самоков“. Двойките бяха поздравени от кмета на община Самоков Ангел Джоргов и секретаря на Общината Станислава Цветкова. Те и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252076-obshto-39-dvoyki-podnoviha-brachnite-si-kletvi-i-otpraznuvaha-zlatna-svatba-v-sa",
+      "published": "2026-11-22T18:28:21+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "COP31 climate talks fail to reach major deal amid deep divisions",
+      "summary": "COP31 climate talks fail to make breakthrough on tackling climate change after a row about mentioning fossil fuels.",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T18:17:59+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Tanker incident “involving military forces” reported in Strait of Hormuz",
+      "summary": "Amid conflicting reports that an Iranian tanker departed Iran’s Kharg Island to Sunday to force the US military blockade in the Strait of Hormuz, an incident was reported near the US navy blockade line. Iran threatened that any US attempt to stop its tankers w",
+      "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz",
+      "published": "2026-11-22T18:07:13+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
@@ -225,33 +275,13 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Концерт разкрива младостта, темперамента и вдъхновението на Бетовен и Шуберт",
-      "summary": "Как звучи Бетовен, преди да се превърне в легенда? Каква музика създава един 15-годишен младеж, който още не подозира, че ще промени музикалната история? И как една песен за малка пъстърва се превръща в едно от най-обичаните произведения на Франц Шуберт? На 1",
-      "url": "https://www.bta.bg/bg/news/lik/1252032-kontsert-razkriva-mladostta-temperamenta-i-vdahnovenieto-na-betoven-i-shubert",
-      "published": "2026-11-22T15:38:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Чешката икономика е изправена пред стагфлационен шок, предупреди централен банкер",
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439899-cheshkata-ikonomika-e-izpravena-pred-stagflatsionen-shok-predupredi-tsentralen-banker",
       "published": "2026-11-22T15:32:51+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 42
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Вечер под надслов „Гласът на светлината“ беше посветена на Анна Томова-Синтова в Държавна опера - Стара Загора",
-      "summary": "Вечер, посветена на оперната прима Анна Томова-Синтова под надслов „Гласът на светлината“, събра почитатели на оперното изкуство в Стара Загора. Събитието беше част от 56-ото издание на Фестивала на оперното и балетното изкуство. Водещ на срещата беше доц. д-р",
-      "url": "https://www.bta.bg/bg/news/lik/1252024-vecher-pod-nadslov-glasat-na-svetlinata-beshe-posvetena-na-anna-tomova-sintova",
-      "published": "2026-11-22T15:32:36+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
+      "priority_score": 41
     },
     {
       "section": "europe",
@@ -261,16 +291,6 @@
       "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
       "published": "2026-11-22T15:22:38+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Стефан Командарев за „Блокова вселена“: Това е най-сложният ми филм до момента",
-      "summary": "„Блокова вселена“, най-новият филм на режисьора Стефан Командарев, е копродукция между България („Арго филм“), Германия („42филм“) и Люксембург („Дийл продъкшънс“). Сценаристи са Павла Котова и Стефан Командарев, а оператор е Веселин Христов, информират от еки",
-      "url": "https://www.bta.bg/bg/news/lik/1252025-stefan-komandarev-za-blokova-vselena-tova-e-nay-slozhniyat-mi-film-do-momenta",
-      "published": "2026-11-22T15:17:15+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -290,16 +310,6 @@
       "summary": "",
       "url": "https://www.investor.bg/a/516-politika/439608-ruskite-oligarsi-se-nadyavat-da-se-varnat-na-vlast-sled-kraya-na-upravlenieto-na-putin",
       "published": "2026-11-22T14:31:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Директните полети между София и Рияд може да бъдат възстановени, обсъжда се нов жп коридор",
-      "summary": "",
-      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439897-direktnite-poleti-mezhdu-sofiya-i-riyad-mozhe-da-badat-vazstanoveni-obsazhda-se-nov-zhp-koridor",
-      "published": "2026-11-22T14:28:35+00:00",
       "feed_id": "investor-economy",
       "priority_score": 0
     },
@@ -692,16 +702,6 @@
       "published": "2026-11-13T00:00:00+00:00",
       "feed_id": "wto-news",
       "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "Federal Reserve",
-      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-      "published": "2026-11-12T18:30:00+00:00",
-      "feed_id": "federal-reserve",
-      "priority_score": 32
     }
   ],
   "feed_status": {
