@@ -19,6 +19,8 @@ on:
       - "PROJECT_HANDOVER.md"
       - ".github/workflows/update-news.yml"
   workflow_dispatch:
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: read
@@ -32,15 +34,47 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Checkout current main
+      - name: Checkout the exact commit under review
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Run regression tests for news and NSI availability
+        run: |
+          python scripts/test_update_news.py
+          python scripts/test_update_business_climate.py
+      - name: Validate checked-in datasets and Python syntax
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          required = [
+              "data.json", "economy.json", "news.json", "source_status.json",
+              "official_fiscal.json", "official_bnb.json", "official_nssi.json",
+              "official_business_climate.json", "analysis/monthly_usage.json",
+              "analizi/articles.json",
+          ]
+          for name in required:
+              path = Path(name)
+              if not path.is_file():
+                  raise SystemExit(f"Required dataset is missing: {name}")
+              json.loads(path.read_text(encoding="utf-8"))
+              print(f"JSON OK: {name}")
+          PY
+          python -m py_compile \\
+            scripts/update_news.py \\
+            scripts/update_business_climate.py \\
+            scripts/update_bnb_monetary.py \\
+            scripts/update_economy.py \\
+            scripts/update_nsi_fiscal.py \\
+            scripts/update_nssi_pensions.py \\
+            scripts/analysis_evidence.py \\
+            scripts/patch_analysis_evidence.py
       - name: Prepare the same runtime used by production
         run: |
           gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
