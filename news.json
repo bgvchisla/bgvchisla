@@ -1,8 +1,98 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T16:37:37.156807+00:00",
-  "last_checked_at": "2026-11-22T16:37:37.156815+00:00",
+  "updated_at": "2026-11-22T17:25:45.669893+00:00",
+  "last_checked_at": "2026-11-22T17:25:45.669899+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Global climate talks have collapsed. Here’s what just happened.",
+      "summary": "Two weeks of talks about protecting the planet from global warming ended without a deal.",
+      "url": "https://www.politico.eu/article/global-climate-talks-have-collapsed-here-is-what-just-happened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T17:21:50+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+      "summary": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T17:18:26+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T17:16:47+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Дроновете променят войната, но оръжията от \"старата школа\" все още носят короната при приходите",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439178-dronovete-promenyat-voynata-no-orazhiyata-ot-starata-shkola-vse-oshte-nosyat-koronata-pri-prihodite",
+      "published": "2026-11-22T17:16:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+      "summary": "A suspected drone strike on a Russian ship at Libya’s Benghazi port has raised concerns over the spread of the Russia-Ukraine conflict. Authorities are investigating the blast amid growing fears for regional security.",
+      "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+      "published": "2026-11-22T17:11:34+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 22nd, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-evening",
+      "published": "2026-11-22T17:00:26+00:00",
+      "feed_id": "euronews",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+      "summary": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia An explosion on a Russian ship docked at the naval base in the Libyan port city of Benghazi was caused by a suspected drone attack, Libya’s eastern-based",
+      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+      "published": "2026-11-22T16:55:49+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+      "summary": "A Russian vessel at an eastern Libyan naval base was hit by what is suspected to be a drone strike.",
+      "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T16:50:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Антон Котас прави завой в репертоара си с „Кажи ми да“",
+      "summary": "След сингли като „Компас“ и „Дяволски добра“, Антон Котас прави завой в репертоара си с „Кажи ми да“. Поп парчето с латино душа е резултат от наситено с пътешествия лято, в което младият изпълнител обикаля Европа, подновява участията си във филмови кастинги и",
+      "url": "https://www.bta.bg/bg/news/lik/1252056-anton-kotas-pravi-zavoy-v-repertoara-si-s-kazhi-mi-da-",
+      "published": "2026-11-22T16:39:33+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -47,7 +137,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Cop31 climate talks break down as key deal rejected",
-      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels • Cop31 live blog: longest climate summit ever faces collapse The EU, the UK and allies in the developing world rejected what they called",
+      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels The EU, the UK and allies in the developing world rejected what they called an unacceptable deal on the future of the climate, which faile",
       "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
       "published": "2026-11-22T16:14:46+00:00",
       "feed_id": "guardian-world",
@@ -71,16 +161,6 @@
       "url": "https://www.bta.bg/bg/news/lik/1252042-filip-bukov-igrae-v-premiernata-komediya-greshkata-e-vyarna-muzikata-e-na-svi",
       "published": "2026-11-22T16:13:00+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-      "summary": "Libya's eastern government says it is working with Russia to investigate the incident.",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T16:05:25+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -129,7 +209,7 @@
       "title": "Концерт разкрива младостта, темперамента и вдъхновението на Бетовен и Шуберт",
       "summary": "Как звучи Бетовен, преди да се превърне в легенда? Каква музика създава един 15-годишен младеж, който още не подозира, че ще промени музикалната история? И как една песен за малка пъстърва се превръща в едно от най-обичаните произведения на Франц Шуберт? На 1",
       "url": "https://www.bta.bg/bg/news/lik/1252032-kontsert-razkriva-mladostta-temperamenta-i-vdahnovenieto-na-betoven-i-shubert",
-      "published": "2026-11-22T15:38:39+00:00",
+      "published": "2026-11-22T15:38:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
@@ -156,7 +236,7 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Netanyahu rival condemns settler arson attacks on Palestinian villages in West Bank",
+      "title": "Netanyahu rival condemns ‘Jewish terrorism’ after settler attacks on Palestinian villages",
       "summary": "Dozens of militant Israeli settlers raided communities on Saturday night, setting fire to vehicles and several homes Arson attacks by militant Israeli settlers on Palestinian villages in the occupied West Bank have caused a political row in Israel, drawing con",
       "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
       "published": "2026-11-22T15:22:38+00:00",
@@ -170,16 +250,6 @@
       "summary": "„Блокова вселена“, най-новият филм на режисьора Стефан Командарев, е копродукция между България („Арго филм“), Германия („42филм“) и Люксембург („Дийл продъкшънс“). Сценаристи са Павла Котова и Стефан Командарев, а оператор е Веселин Христов, информират от еки",
       "url": "https://www.bta.bg/bg/news/lik/1252025-stefan-komandarev-za-blokova-vselena-tova-e-nay-slozhniyat-mi-film-do-momenta",
       "published": "2026-11-22T15:17:15+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Ловчанският митрополит Гавриил почина след кратко боледуване, в община Ловеч е обявен тридневен траур",
-      "summary": "Ловчанският митрополит Гавриил почина днес, 22 ноември, след кратко боледуване, съобщиха от Българската православна църква – Българска патриаршия. Той беше настанен във Военномедицинската академия на 4 ноември с диагноза остър панкреатит. Със заповед на кмета",
-      "url": "https://www.bta.bg/bg/news/lik/1252022-lovchanskiyat-mitropolit-gavriil-pochina-sled-kratko-boleduvane-v-obshtina-love",
-      "published": "2026-11-22T15:13:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
@@ -241,27 +311,7 @@
       "url": "https://www.theguardian.com/australia-news/2026/nov/23/australia-urged-to-wean-off-imported-fossil-fuels-amid-global-supply-shocks",
       "published": "2026-11-22T14:00:29+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 49
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "COP31 : l’accord capote sur fond de désaccord sur les énergies fossiles",
-      "summary": "Les négociations n’ont pas réussi à aboutir sur un accord malgré les avertissements concernant un réchauffement climatique galopant.",
-      "url": "https://www.politico.eu/article/cop31-laccord-capote-sur-fond-de-desaccord-sur-les-energies-fossiles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T13:54:46+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
-      "summary": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to highlight the environmental cost of the Iran war. Lewis",
-      "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
-      "published": "2026-11-22T13:36:01+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
+      "priority_score": 48
     },
     {
       "section": "europe",
@@ -272,46 +322,6 @@
       "published": "2026-11-22T13:18:00+00:00",
       "feed_id": "dw-world",
       "priority_score": 43
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Лошата година за златото става още по-мрачна",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439861-loshata-godina-za-zlatoto-stava-oshte-po-mrachna",
-      "published": "2026-11-22T13:07:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Climate deal collapses amid fossil fuel rows",
-      "summary": "Climate leaders failed to strike a deal despite warnings over runaway global warming.",
-      "url": "https://www.politico.eu/article/climate-deal-collapses-amid-fossil-fuel-rows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T13:00:03+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Обмудсманът: Все още голяма част от жалбите са свързани с \"Топлофикация\" и ВиК",
-      "summary": "",
-      "url": "https://www.investor.bg/a/526-pravosadie/439895-obmudsmanat-vse-oshte-golyama-chast-ot-zhalbite-sa-svarzani-s-toplofikatsiya-i-vik",
-      "published": "2026-11-22T12:49:30+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Климатичните преговори в COP31 се провалиха, ЕС и редица страни отхвърлиха споразумението",
-      "summary": "",
-      "url": "https://www.investor.bg/a/519-ekologiya/439894-klimatichnite-pregovori-v-cop31-se-provaliha-es-i-reditsa-strani-othvarliha-sporazumenieto",
-      "published": "2026-11-22T12:41:14+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
     },
     {
       "section": "europe",
@@ -374,16 +384,6 @@
       "priority_score": 38
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Reported FBI hack 'not good' but could have benefits, Trump says",
-      "summary": "The reported breach comes amid a wave of tech outages in the US, which have impacted travel, communications and banking, as well as an internal system used by the National Security Agency.",
-      "url": "https://www.euronews.com/2026/11/22/reported-fbi-hack-not-good-but-could-have-benefits-trump-says",
-      "published": "2026-11-22T08:56:19+00:00",
-      "feed_id": "euronews",
-      "priority_score": 38
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Акция на седмицата: „Първа инвестиционна банка“ АД",
@@ -421,7 +421,7 @@
       "url": "https://www.dw.com/en/india-nepal-pm-balendra-shah-heads-to-delhi-for-first-bilateral-visit/live-80008104?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T07:20:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "bulgaria",
