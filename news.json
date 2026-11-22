@@ -1,8 +1,128 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:15:37.176346+00:00",
-  "last_checked_at": "2026-11-22T10:15:37.176351+00:00",
+  "updated_at": "2026-11-22T11:07:51.648043+00:00",
+  "last_checked_at": "2026-11-22T11:07:51.648052+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Собствениците на ресторанти в Киев се готвят за тежка зима заради засиления натиск от войната",
+      "summary": "",
+      "url": "https://www.investor.bg/a/527-svyat/439892-sobstvenitsite-na-restoranti-v-kiev-se-gotvyat-za-tezhka-zima-zaradi-zasileniya-natisk-ot-voynata",
+      "published": "2026-11-22T11:06:37+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 22nd, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-midday",
+      "published": "2026-11-22T11:00:15+00:00",
+      "feed_id": "euronews",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Mongolia faces snap presidential vote as outgoing leader calls for constitutional reform",
+      "summary": "Mongolia is preparing for its first early presidential election after President Khurelsukh Ukhnaa resigned amid corruption allegations, having called for constitutional reform before leaving office.",
+      "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
+      "published": "2026-11-22T11:00:00+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Прогноза за времето",
+      "summary": "През следващото денонощие ще бъде ветровито с умерен и силен югозападен вятър, който след обяд с преминаването на студен атмосферен фронт ще се ориентира от северозапад и още ще се усили, съобщиха от Националния институт по метеорология и хидрология (НИМХ). Об",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251918-prognoza-za-vremeto",
+      "published": "2026-11-22T10:59:08+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Новозасадените дървета в София тази година ще бъдат над 4500, съобщи кметът Васил Терзиев",
+      "summary": "До края на годината броят на новозасадените дървета в София през 2026 г. ще надхвърли 4500, съобщи кметът Васил Терзиев, цитиран от пресцентъра на Столичната община, след като започна есенното засаждане в столицата. Той уточни, че това са само градските засажд",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251911-novozasadenite-darveta-v-sofiya-tazi-godina-shte-badat-nad-4500-saobshti-kmetat",
+      "published": "2026-11-22T10:58:11+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "С мъдрите си слова и блага усмивка митрополит Гавриил се стремеше да посее у всеки вяра, смирение, любов, написа Илияна Йотова",
+      "summary": "\"Няма по-радостно служение и по-голямо щастие да служиш на Господ Иисус Христос и на Неговата света Църква\" – това дълбоко и искрено верую беляза целия земен път на Негово Високопреосвещенство митрополит Гавриил, написа президентът Илияна Йотова във Фейсбук по",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251910-s-madrite-si-slova-i-blaga-usmivka-mitropolit-gavriil-se-stremeshe-da-posee-u-vs",
+      "published": "2026-11-22T10:40:17+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Трябва да се стремим да трупаме духовни блага вместо земни придобивки, каза Видинският митрополит Пахомий",
+      "summary": "Трябва да се стремим да трупаме духовни блага вместо земни придобивки, каза Видинският митрополит Пахомий в словото си след литургията в храм „Свети Николай“ във Видин. Той обърна внимание на евангелския разказ за богатия човек, който, вместо да се замисли за",
+      "url": "https://www.bta.bg/bg/news/lik/1251904-tryabva-da-se-stremim-da-trupame-duhovni-blaga-vmesto-zemni-pridobivki-kaza-vid",
+      "published": "2026-11-22T10:39:36+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Ukraine: Up to seven feared trapped beneath rubble near Kyiv after Russian attack",
+      "summary": "A Russian strike partially destroyed an apartment building in Dymer, north of Kyiv, on Sunday. Nine people, including a child, were evacuated as rescuers searched the rubble for up to seven others feared trapped.",
+      "url": "https://www.euronews.com/video/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack",
+      "published": "2026-11-22T10:39:01+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Писателят Георги Господинов получи във Франция наградата „Жан Моне\" за европейска литература за 2026 г.",
+      "summary": "Писателят Георги Господинов получи за книгата си „Градинарят и смъртта\", превод на френски език от Мари Врина-Николов, наградата „Жан Моне\" за европейска литература на церемония, състояла се снощи във френския град Коняк, съобщи авторът в профила си във Фейсбу",
+      "url": "https://www.bta.bg/bg/news/lik/1251916-pisatelyat-georgi-gospodinov-poluchi-vav-frantsiya-nagradata-zhan-mone-za-evro",
+      "published": "2026-11-22T10:33:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
+      "summary": "Air traffic controllers will join a nationwide protest against government spending cuts, prompting anger from airport operators over the last-minute disruption.",
+      "url": "https://www.politico.eu/article/brussels-charleroi-airports-cancel-most-flights-monday-belgian-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T10:30:54+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Тридневен траур от днес е обявен в Ловеч по повод кончината на Ловчанския митрополит Гавриил",
+      "summary": "Със заповед на кмета на Община Ловеч Страцимир Петков е обявен тридневен траур от днес по повод кончината на Ловчанския митрополит Гавриил, съобщиха от местната администрацията. „В продължение на четвърт век - от избирането му за Ловчански митрополит през 2001",
+      "url": "https://www.bta.bg/bg/news/lik/1251915-tridneven-traur-ot-dnes-e-obyaven-v-lovech-po-povod-konchinata-na-lovchanskiya-m",
+      "published": "2026-11-22T10:25:29+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Мотористи от цялата страна отправиха послание „Не бий, обичай!“ с шествие в София срещу домашното насилие",
+      "summary": "Мотористи облякоха сигнални жилетки в оранжево – цвета на кампанията за борба с насилието, с надпис „Не бий, обичай!“ по време на мотошествието под надслов „Домът е обич, не страх!“ в София, което е по инициатива на омбудсмана Велислава Делчева и мотористи от",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251905-motoristi-ot-tsyalata-strana-otpraviha-poslanie-ne-biy-obichay-s-shestvie-v-",
+      "published": "2026-11-22T10:20:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -65,16 +185,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Шофьорът, който загина при катастрофа в Мездра, не е спрял на знак \"Стоп\" и се е блъснал в минаващата линейка",
-      "summary": "Шофьорът, който загина при катастрофа в Мездра, не е спрял на знак \"Стоп\" и се е блъснал в минаващата линейка. Това съобщиха от Областната дирекция (ОД) на МВР във Враца по повод вчерашния тежък пътен инцидент между лек автомобил и линейка, при който загина 77",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251893-shofyorat-koyto-zagina-pri-katastrofa-v-mezdra-ne-e-spryal-na-znak-stop-i-se",
-      "published": "2026-11-22T09:48:33+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Основни хранителни стоки и повечето зеленчуци поскъпват на борсите у нас",
       "summary": "",
@@ -91,36 +201,6 @@
       "url": "https://www.euronews.com/video/2026/11/22/portugal-workers-brave-downpours-to-demand-a-more-affordable-life",
       "published": "2026-11-22T09:41:32+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Мъж на 38 години от Бургас е загинал при пътен инцидент на пътя между Ахелой и Поморие",
-      "summary": "Мъж на 38 години от Бургас е загинал при пътен инцидент на пътя между Ахелой и Поморие, съобщиха от Областната дирекция на МВР в Бургас. Сигналът за катастрофата е подаден късно снощи в Районното управление на полицията в Поморие. На място полицейските служите",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251891-mazh-na-38-godini-ot-burgas-e-zaginal-pri-paten-intsident-na-patya-mezhdu-aheloy",
-      "published": "2026-11-22T09:28:45+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Cпециален икономически режим за Странджа може да върне бизнеса и хората в пограничните села, заяви кметът на Бургас Димитър Николов",
-      "summary": "Създаване на специална икономическа зона \"Странджа\" със специфичен митнически и данъчен режим, която да стимулира местния бизнес, да привлече инвестиции и да противодейства на обезлюдяването на пограничните населени места, предлага кметът на Бургас Димитър Ник",
-      "url": "https://www.bta.bg/bg/news/economy/1251889-cpetsialen-ikonomicheski-rezhim-za-strandzha-mozhe-da-varne-biznesa-i-horata-v-p",
-      "published": "2026-11-22T09:27:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 39
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Борбата с насилието трябва да е кауза на цялото общество, каза омбудсманът",
-      "summary": "Борбата срещу агресията и насилието трябва да бъде кауза на всеки един от нас, а не само на институциите и мотористите. Това заяви омбудсманът Велислава Делчева преди началото на мотошествието „Домът е обич, не страх!“ в центъра на София, посветено на Междунар",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251887-borbata-s-nasilieto-tryabva-da-e-kauza-na-tsyaloto-obshtestvo-kaza-ombudsmanat",
-      "published": "2026-11-22T09:23:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -151,36 +231,6 @@
       "url": "https://www.theguardian.com/world/2026/nov/22/india-congress-meta-protests-police-hyderabad",
       "published": "2026-11-22T09:14:27+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Нека не трупаме големи иманета, а да трупаме в Божиите житници, призова отец Велико в храма „Св. Троица\" в Добрич",
-      "summary": "Нека не трупаме големи иманета, нека да имаме това, което ни е достатъчно, но да трупаме в Божиите житници, призова отец Велико в словото си след неделната литургия в храма „Света Троица“ в Добрич. Той говори за алчността и стремежа към материално богатство, к",
-      "url": "https://www.bta.bg/bg/news/lik/1251884-neka-ne-trupame-golemi-imaneta-a-da-trupame-v-bozhiite-zhitnitsi-prizova-otets",
-      "published": "2026-11-22T09:11:01+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Да се пазим от користолюбието, призова отец Йордан от плевенския храм „Света Параскева“",
-      "summary": "Да се пазим от користолюбието, да не поставяме материалното над духовното и да се стремим към богатство пред Бога, за да насладим на живот вечен, призова отец Йордан от плевенския храм „Света Параскева“, който отслужи днешната света литургия. В основата на про",
-      "url": "https://www.bta.bg/bg/news/lik/1251883-da-se-pazim-ot-koristolyubieto-prizova-otets-yordan-ot-plevenskiya-hram-sveta-",
-      "published": "2026-11-22T09:08:21+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Разликата между църковната и светската музика е в текста и в звученето, каза отец Петър в Дупница",
-      "summary": "Разликата между църковната и светската музика е не само в съдържанието на песните, но и в тяхното звучене, каза за БТА свещеник Петър от храм „Свети великомъченик Георги Победоносец“ в Дупница след празничния концерт в храма за празника Въведение Богородично.",
-      "url": "https://www.bta.bg/bg/news/lik/1251879-razlikata-mezhdu-tsarkovnata-i-svetskata-muzika-e-v-teksta-i-v-zvucheneto-kaza-",
-      "published": "2026-11-22T09:01:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -285,43 +335,13 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Дроновете от войната в Украйна създават нов застрахователен пазар по източния фланг на НАТО",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439064-dronovete-ot-voynata-v-ukrayna-sazdavat-nov-zastrahovatelen-pazar-po-iztochniya-flang-na-nato",
-      "published": "2026-11-22T07:20:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "India: Nepal PM Balendra Shah heads to Delhi for first bilateral visit",
       "summary": "Nepal's rapper-turned-prime minister Balendra Shah is in New Delhi for his first foreign bilateral trip since taking office. He is expected to discuss flood recovery, trade and energy in his talks with Modi. DW has more.",
       "url": "https://www.dw.com/en/india-nepal-pm-balendra-shah-heads-to-delhi-for-first-bilateral-visit/live-80008104?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T07:20:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
-      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T07:12:41+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
-      "summary": "Relatives of the missing victims flocked to the factory’s entrance, seeking updates about their loved ones A fire at a confectionery factory west of Jakarta has killed three people with 36 remaining missing, an Indonesian rescue official says. Drone footage sh",
-      "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
-      "published": "2026-11-22T07:11:17+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
+      "priority_score": 38
     },
     {
       "section": "bulgaria",
@@ -332,16 +352,6 @@
       "published": "2026-11-22T07:01:04+00:00",
       "feed_id": "economic-bg",
       "priority_score": 46
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
-      "summary": "Gadi Eisenkot has until early December to form a new government after both his and Netanyahu's blocs fell short of a majority in Israel's October legislative elections.",
-      "url": "https://www.euronews.com/2026/11/22/gadi-eisenkot-invites-netanyahus-likud-party-for-marathon-coalition-talks",
-      "published": "2026-11-22T06:58:01+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
     },
     {
       "section": "europe",
@@ -401,7 +411,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
       "published": "2026-11-21T12:00:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -500,16 +510,6 @@
       "summary": "Hamish Falconer tells POLITICO that discussions around the topic had proved “divisive” and were important to get right.",
       "url": "https://www.politico.eu/article/uk-brexit-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-20T17:50:49+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 33
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Andy Burnham discovers nothing in Brussels is ever easy",
-      "summary": "Britain’s prime minister is banking on a ‘brainstorm’ to decide Britain’s future with the EU. He just has to get through the spin wars first.",
-      "url": "https://www.politico.eu/article/andy-burnham-eu-uk-summit-reset-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T17:00:51+00:00",
       "feed_id": "politico-europe",
       "priority_score": 33
     },
