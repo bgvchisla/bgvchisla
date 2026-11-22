@@ -1,8 +1,118 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:41:03.336486+00:00",
-  "last_checked_at": "2026-11-22T08:41:03.336491+00:00",
+  "updated_at": "2026-11-22T09:28:06.573709+00:00",
+  "last_checked_at": "2026-11-22T09:28:06.573714+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Cпециален икономически режим за Странджа може да върне бизнеса и хората в пограничните села, заяви кметът на Бутргас Димитър Николов",
+      "summary": "Създаване на специална икономическа зона \"Странджа\" със специфичен митнически и данъчен режим, която да стимулира местния бизнес, да привлече инвестиции и да противодейства на обезлюдяването на пограничните населени места, предлага кметът на Бургас Димитър Ник",
+      "url": "https://www.bta.bg/bg/news/economy/1251889-cpetsialen-ikonomicheski-rezhim-za-strandzha-mozhe-da-varne-biznesa-i-horata-v-p",
+      "published": "2026-11-22T09:27:05+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Борбата с насилието трябва да е кауза на цялото общество, каза омбудсманът",
+      "summary": "Борбата срещу агресията и насилието трябва да бъде кауза на всеки един от нас, а не само на институциите и мотористите. Това заяви омбудсманът Велислава Делчева преди началото на мотошествието „Домът е обич, не страх!“ в центъра на София, посветено на Междунар",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251887-borbata-s-nasilieto-tryabva-da-e-kauza-na-tsyaloto-obshtestvo-kaza-ombudsmanat",
+      "published": "2026-11-22T09:23:58+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "South Korea education minister resigns over exam cheating scandal",
+      "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T09:20:45+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Руски товарен кораб пламна в Балтийско море след атака с дронове",
+      "summary": "",
+      "url": "https://www.investor.bg/a/527-svyat/439890-ruski-tovaren-korab-plamna-v-baltiysko-more-sled-ataka-s-dronove",
+      "published": "2026-11-22T09:15:30+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Нека не трупаме големи иманета, а да трупаме в Божиите житници, призова отец Велико в храма „Св. Троица\" в Добрич",
+      "summary": "Нека не трупаме големи иманета, нека да имаме това, което ни е достатъчно, но да трупаме в Божиите житници, призова отец Велико в словото си след неделната литургия в храма „Света Троица“ в Добрич. Той говори за алчността и стремежа към материално богатство, к",
+      "url": "https://www.bta.bg/bg/news/lik/1251884-neka-ne-trupame-golemi-imaneta-a-da-trupame-v-bozhiite-zhitnitsi-prizova-otets",
+      "published": "2026-11-22T09:11:01+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Да се пазим от користолюбието, призова отец Йордан от плевенския храм „Света Параскева“",
+      "summary": "Да се пазим от користолюбието, да не поставяме материалното над духовното и да се стремим към богатство пред Бога, за да насладим на живот вечен, призова отец Йордан от плевенския храм „Света Параскева“, който отслужи днешната света литургия. В основата на про",
+      "url": "https://www.bta.bg/bg/news/lik/1251883-da-se-pazim-ot-koristolyubieto-prizova-otets-yordan-ot-plevenskiya-hram-sveta-",
+      "published": "2026-11-22T09:08:21+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Разликата между църковната и светската музика е в текста и в звученето, каза отец Петър в Дупница",
+      "summary": "Разликата между църковната и светската музика е не само в съдържанието на песните, но и в тяхното звучене, каза за БТА свещеник Петър от храм „Свети великомъченик Георги Победоносец“ в Дупница след празничния концерт в храма за празника Въведение Богородично.",
+      "url": "https://www.bta.bg/bg/news/lik/1251879-razlikata-mezhdu-tsarkovnata-i-svetskata-muzika-e-v-teksta-i-v-zvucheneto-kaza-",
+      "published": "2026-11-22T09:01:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Reported FBI hack 'not good' but could have benefits, Trump says",
+      "summary": "The reported breach comes amid a wave of tech outages in the US, which have impacted travel, communications and banking, as well as an internal system used by the National Security Agency.",
+      "url": "https://www.euronews.com/2026/11/22/reported-fbi-hack-not-good-but-could-have-benefits-trump-says",
+      "published": "2026-11-22T08:56:19+00:00",
+      "feed_id": "euronews",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "China, ASEAN countries struggle over South China Sea code of conduct",
+      "summary": "The Philippines wanted a South China Sea code of conduct in place by 2026. But persistent disagreements between China and ASEAN countries are slowing progress toward a deal.",
+      "url": "https://www.dw.com/en/china-asean-countries-struggle-over-south-china-sea-code-of-conduct/a-80009799?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T08:45:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Документалeн филм за Руси Чанев ще бъде представен в Регионалната библиотека в Ловеч",
+      "summary": "Документалният филм за Руси Чанев „Душа на актьор“ ще бъде представен в Регионалната библиотека „Проф. Беню Цонев“ в Ловеч, съобщи Албена Йончева от културната институция. Специален гост на срещата на 24 ноември, вторник, ще бъде журналистът и сценарист Георги",
+      "url": "https://www.bta.bg/bg/news/lik/1251861-dokumentalen-film-za-rusi-chanev-shte-bade-predstaven-v-regionalnata-biblioteka-",
+      "published": "2026-11-22T08:40:56+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Inspired by Bernie Sanders: A German agency is using US-Style campaigning to boost the left in 2029",
+      "summary": "\"The Goodforces\" wants to see a swing to the left in the 2029 German elections. The agency counts New York Mayor Zohran Mamdani and Bernie Sanders among its inspirations. Could it transform the political landscape?",
+      "url": "https://www.dw.com/en/inspired-by-bernie-sanders-a-german-agency-is-using-us-style-campaigning-to-boost-the-left-in-2029/a-80001443?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T08:39:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -40,16 +150,6 @@
       "summary": "Контрабандни цигари на стойност над 82 000 евро са задържани на Граничния контролно-пропускателен пункт (ГКПП) „Лесово”, съобщиха от Агенция „Митници”. Откритото количество е от общо 415 200 къса (20 760 кутии), укрити в хладилни витрини в товарен автомобил. О",
       "url": "https://www.bta.bg/bg/news/bulgaria/1251877-kontrabandni-tsigari-za-nad-82-000-evro-sa-zadarzhani-na-granichniya-punkt-leso",
       "published": "2026-11-22T08:26:09+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Моторист, карал без книжка и след употреба на алкохол, бе задържан след гонка с полицията в Пловдив",
-      "summary": "Моторист без книжка, с четири предишни нарушения, бе задържан след гонка с полицията вчера в Пловдив, съобщиха от Областната дирекция на МВР в града. Мъжът е на 45 години, неправоспособен и е управлявал мотоциклет под въздействие на алкохол. Спрямо него е взет",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251868-motorist-karal-bez-knizhka-i-sled-upotreba-na-alkohol-be-zadarzhan-sled-gonka-",
-      "published": "2026-11-22T08:22:27+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
@@ -94,16 +194,6 @@
       "priority_score": 44
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Френският акордеонист Фредерик Виал ще гостува тази вечер в София",
-      "summary": "Френският акордеонист и композитор Фредерик Виал ще изнесе концерт със своето трио тази вечер в Дома на културата „Средец“ в София, съобщават домакините. „Музиката на Фредерик Виал е своеобразно пътешествие между различни култури, традиции и музикални светове.",
-      "url": "https://www.bta.bg/bg/news/lik/1251806-frenskiyat-akordeonist-frederik-vial-shte-gostuva-v-sofiya-na-22-noemvri",
-      "published": "2026-11-22T08:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "New COP31 draft deal tabled as countries scramble to salvage climate talks",
@@ -111,16 +201,6 @@
       "url": "https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks",
       "published": "2026-11-22T07:50:54+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Добри са условията за туризъм в планините, съобщиха от Планинската спасителна служба на БЧК",
-      "summary": "Добри са условията за туризъм в планините, съобщиха за БТА от Планинската спасителна служба (ПСС) на Българския червен кръст (БЧК). Спасителите предупредиха обаче да се има предвид, че денят е къс и в планините вече са започнали зимните условия. Времето в план",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251865-dobri-sa-usloviyata-za-turizam-v-planinite-saobshtiha-ot-planinskata-spasitelna",
-      "published": "2026-11-22T07:44:57+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -134,16 +214,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Ловчанският митрополит Гавриил почина след кратко боледуване",
-      "summary": "Ловчанският митрополит Гавриил почина днес, 22 ноември, след кратко боледуване, съобщиха от Българската православна църква – Българска патриаршия. „Негово Високопреосвещенство ще остане в историята на Българската православна църква – Българска патриаршия като",
-      "url": "https://www.bta.bg/bg/news/lik/1251864-lovchanskiyat-mitropolit-gavriil-pochina-sled-kratko-boleduvane",
-      "published": "2026-11-22T07:30:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "US: ICE arrests 2 at Seattle airport in 'chilling' scenes — governor",
@@ -151,16 +221,6 @@
       "url": "https://www.dw.com/en/us-ice-arrests-2-at-seattle-airport-in-chilling-scenes-governor/a-80012480?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T07:27:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "С благотворителен базар и запалване на празничните светлини на 3 декември ще започне коледната програма в община Раднево",
-      "summary": "Община Раднево организира коледна програма с благотворителен базар и тържествено запалване на празничните светлини на 3 декември, както и три конкурса за коледна украса и фотография с общ награден фонд от 850 евро. Това съобщават от общинската администрация на",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251858-s-blagotvoritelen-bazar-i-zapalvane-na-praznichnite-svetlini-na-3-dekemvri-shte-",
-      "published": "2026-11-22T07:20:11+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -185,6 +245,16 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
+      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T07:12:41+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
       "summary": "Relatives of the missing victims flocked to the factory’s entrance, seeking updates about their loved ones A fire at a confectionery factory west of Jakarta has killed three people with 36 remaining missing, an Indonesian rescue official says. Drone footage sh",
@@ -202,16 +272,6 @@
       "published": "2026-11-22T07:01:04+00:00",
       "feed_id": "economic-bg",
       "priority_score": 47
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Пианистът Александър Малофеев ще бъде солист на Софийската филхармония на 22 ноември",
-      "summary": "Пианистът Александър Малофеев ще бъде солист на Софийската филхармония днес в зала „България“, съобщават организаторите. Програмата на концерта включва произведения на Дмитрий Шостакович, а диригент ще е Найден Тодоров. В София Малофеев ще изпълни Първия конце",
-      "url": "https://www.bta.bg/bg/news/lik/1251803-pianistat-aleksandar-malofeev-shte-bade-solist-na-sofiyskata-filharmoniya-na-22-",
-      "published": "2026-11-22T07:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
     },
     {
       "section": "europe",
@@ -271,57 +331,7 @@
       "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-morning",
       "published": "2026-11-22T06:00:32+00:00",
       "feed_id": "euronews",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
-      "summary": "Kraftwerk Berlin, part of same development as techno club Tresor, transformed into ‘war room’ for arms firm event With their cavernous post-industrial venues, teeth-grinding four-by-four beats and bouncers that look like Blade Runner extras, Berlin’s nightclub",
-      "url": "https://www.theguardian.com/world/2026/nov/22/military-ai-event-berlin-kraftwerk-arts-complex",
-      "published": "2026-11-22T06:00:21+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Europe is entering a ‘supercycle’ of national elections. Their outcomes could shake the EU’s foundations",
-      "summary": "The effects of the continent’s coming polls will be felt far and wide – and could well turn into ‘key tests’ of the bloc’s resilience In late 1998, Tony Blair was prime minister of Britain, Lionel Jospin was prime minister of France, and Gerhard Schröder had j",
-      "url": "https://www.theguardian.com/world/2026/nov/22/europe-elections-supercycle-could-shake-eu-foundations",
-      "published": "2026-11-22T06:00:18+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP31: Fossil fuels still missing from draft deal at UN climate summit",
-      "summary": "The climate summit is in its second day of overtime, despite weeks of negotiations. Nations are now mulling over a new draft text that still doesn't mention fossil fuels, the main cause of global warming. DW has more.",
-      "url": "https://www.dw.com/en/cop31-fossil-fuels-still-missing-from-draft-deal-at-un-climate-summit/live-79999516?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T05:50:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Police say man whose body lay undiscovered in Sydney bushland for 12 days was killed in suspected hit-and-run",
-      "summary": "Joshua Howard, 31, is believed to have been struck by a car and thrown over the guardrail as he was walking home from a party in Rouse Hill Get our breaking news email , free app or daily news podcast The twin brother of a man whose body lay undiscovered for 1",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/police-say-man-whose-body-lay-undiscovered-in-sydney-bushland-for-12-days-was-killed-in-suspected-hit-and-run-ntwnfb",
-      "published": "2026-11-22T05:21:01+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
-      "summary": "Choi Kyo-jin said he ‘failed to prepare adequately’ for entrance exams, which this year had phones banned and checks for cameras hidden in clothing South Korea’s education minister resigned on Sunday after an AI-assisted cheating scandal that erupted in the le",
-      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
-      "published": "2026-11-22T05:04:39+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -341,7 +351,7 @@
       "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
       "published": "2026-11-21T17:00:26+00:00",
       "feed_id": "euronews",
-      "priority_score": 37
+      "priority_score": 36
     },
     {
       "section": "europe",
@@ -352,16 +362,6 @@
       "published": "2026-11-21T16:26:21+00:00",
       "feed_id": "economic-bg",
       "priority_score": 42
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU and Indonesia sign trade deal",
-      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
-      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T15:21:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 51
     },
     {
       "section": "europe",
@@ -421,7 +421,7 @@
       "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-21T10:44:05+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 36
+      "priority_score": 35
     },
     {
       "section": "europe",
@@ -431,7 +431,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
       "published": "2026-11-21T10:43:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 36
+      "priority_score": 35
     },
     {
       "section": "europe",
@@ -441,7 +441,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
       "published": "2026-11-21T10:30:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -531,7 +531,7 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 45
+      "priority_score": 44
     },
     {
       "section": "europe",
