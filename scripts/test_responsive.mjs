@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { chromium } from "playwright";
 
-const SITE_URL = "https://bgvchisla.com/";
+const SITE_URL = process.env.SITE_URL || "https://bgvchisla.com/";
 const VIEWPORTS = [
   { name: "mobile-390x844", width: 390, height: 844, mobile: true, navColumns: 2 },
   { name: "mobile-360x800", width: 360, height: 800, mobile: true, navColumns: 2 },
