@@ -44,6 +44,8 @@ jobs:
         run: python scripts/update_nsi_fiscal.py
       - name: Commit changed official data
         id: save
+        env:
+          GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}
         run: |
           APP_SLUG="${{ steps.automation_token.outputs.app-slug }}"
           if [ -n "$APP_SLUG" ]; then
