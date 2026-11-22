@@ -65,13 +65,49 @@ Workflow `.github/workflows/audit-analysis-evidence.yml` проверява и �
 
 ## Устойчивост на автоматичните данни
 
-Няколко проверени workflow-а обновяват директно машинно генерираните набори в `main` (новинарски поток и официални статистики). Те използват GitHub Actions token, ограничени до конкретни изходни файлове, и не се изпълняват с потребителски токен. Ruleset-ът за `main` ще предостави изключение само на официалното приложение GitHub Actions, за да не прекъсва автоматичните обновявания. Това изключение не се предоставя на потребители, администратори или други приложения.
+Осемте автоматизации за новини и официални статистически набори публикуват само предварително валидирани JSON резултати. Те използват общ concurrency group `production-data-refresh`, за да не записват едновременно в `main`, и преди push правят безопасен rebase върху последния commit. Не се използват force push или презаписване на отдалечената история.
+
+Записите се удостоверяват с отделно GitHub App приложение `BGVchisla Automation Bot`, което е инсталирано само в `bgvchisla/bgvchisla`. То има само Repository permission `Contents: read and write` (плюс задължителните Metadata read-only права). Временният installation token се създава за конкретното хранилище и се ограничава допълнително до `contents: write`. Token-ът се издава само в осемте workflow-а за данни и се отнема автоматично след приключване на задачата.
+
+Всеки workflow добавя към commit-а само един предварително определен машинно генериран файл:
+- `news.json`
+- `source_status.json`
+- `economy.json`
+- `official_bnb.json`
+- `official_business_climate.json`
+- `official_fiscal.json`
+- `official_nssi.json`
+
+И двата workflow-а за Евростат пишат в `economy.json`, но се сериализират от общия concurrency контрол. Статичният тест `scripts/test_automation_writer.py` проверява идентичността на приложението, обхвата на правата, конкретния файл за запис, липсата на force push и връзката към production deployment.
+
+След успешна промяна всеки updater изрично стартира `deploy-production.yml` чрез `workflow_dispatch`. Production workflow-ът валидира JSON файловете и публикува цялата текуща версия на сайта в Cloudflare Pages. Така деплойването не зависи от това дали push събитието е породено от `GITHUB_TOKEN` или от GitHub App. Сливането на редакторски PR също стартира същия production workflow след успешно `/approve`.
+
+При преходен период, докато Repository Variable `BGVCHISLA_AUTOMATION_APP_CLIENT_ID` не е зададена, workflow-ите използват стандартния `GITHUB_TOKEN`. Това поддържа текущото поведение, докато Ruleset-ът още не е активен. След активиране на защитата App променливата и private-key secret-ът трябва вече да са въведени и проверени; в противен случай директните автоматични записи ще бъдат отказани от GitHub.
+
+## Настройка на BGVchisla Automation Bot
+
+Това приложение е необходимо, защото вграденият `github-actions[bot]` не се предлага като валиден bypass actor в repository Rulesets. Не замества редакторското одобрение и не се използва за публикация на анализи.
+
+1. Създай GitHub App от личните настройки на GitHub: **Settings → Developer settings → GitHub Apps → New GitHub App**.
+2. Име: `BGVchisla Automation Bot`; Homepage URL: `https://bgvchisla.com/`; Webhook: изключен.
+3. В **Repository permissions** задай единствено `Contents: Read and write`. Остави `Metadata: Read-only` (задължително). Не давай права за Actions, Pull requests, Administration, Issues или Secrets.
+4. Инсталирай приложението само в акаунта `bgvchisla` и избери само хранилището `bgvchisla/bgvchisla`.
+5. От настройките на приложението копирай **Client ID** и генерирай private key. Не споделяй private key в чат, issue или код.
+6. В **Repository → Settings → Secrets and variables → Actions** създай:
+   - Repository Variable: `BGVCHISLA_AUTOMATION_APP_CLIENT_ID` = Client ID на приложението.
+   - Repository Secret: `BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY` = пълното съдържание на генерирания PEM private-key файл.
+
+След инсталация приложението ще се появява в **Rulesets → Bypass list → Apps**. Добавя се само в `main-require-pr-and-validation` с режим **Always allow**, защото автоматичните набори данни се записват директно в `main`. Не добавяй потребители, роли Administrator, други приложения или самия `github-actions[bot]` като bypass.
+
+Това изключение е целенасочено и има реална сила: App token-ът може да заобиколи PR и status-check изискванията на първия Ruleset. Затова приложението е инсталирано само в едно хранилище, има само Contents права, token-ът се създава само в осемте контролирани updater workflow-а, а всеки от тях stage-ва само конкретния си JSON изход. Вторият Ruleset `main-block-destructive-updates` задължително остава без bypass actors и независимо блокира force push и изтриването на `main`.
+
+Не активирай нито един Ruleset, преди Client ID и private key да са зададени, App да се вижда в списъка Apps и поне един тестов updater да завърши успешно с commit автор `bgvchisla-automation-bot[bot]` (или slug-а, генериран от GitHub).
 
 ## Автоматизиран цикъл за PR: проверка, изрично одобрение и публикация
 
 1. **Създаване.** Във вторник и петък в 07:00 UTC workflow-ът събира доказателства и винаги изпълнява безплатния `--dry-run`. Платено генериране на чернова е разрешено само ако едновременно съществуват Secret `OPENAI_API_KEY` и Repository Variable `ANALYSES_AUTODRAFT_ENABLED=true`. Новият workflow създава отделен branch и PR, никога директен push на статия към `main`.
 2. **Редакция.** Генерираният материал се записва в отделен branch `analysis/draft-*` и автоматично се отваря Pull Request към `main`. Редакторът може да променя текста, графиките, заглавието и източниците в същия PR. Всеки нов commit стартира отново `audit`.
-3. **Проверка.** Workflow `.github/workflows/audit-analysis-evidence.yml` трябва да приключи успешно за точния последен commit. Проверката се изисква за всички PR към `main`.
+3. **Проверка.** Workflow `.github/workflows/audit-analysis-evidence.yml` трябва да приключи успешно за точния последен commit. Проверката се изисква за всички PR към `main`, без path filter.
 4. **Одобрение.** За всеки PR към `main` собственикът публикува точно `/approve` в дискусията. Workflow `.github/workflows/approve-analysis.yml` проверява автора на коментара, състоянието на PR, целевия клон, каноничното хранилище, последния SHA и зеления `audit`. След това записва commit status `editorial-approval=success` за същия SHA. Без този статус GitHub Ruleset не позволява сливане през интерфейса.
 5. **Публикация.** Workflow-ът слива PR със squash при съвпадение на точния SHA и изрично стартира `deploy-production.yml`. Production deployment публикува статията, обновения архив и sitemap. Няма ръчно сливане без изричния одобрителен статус.
 
@@ -79,7 +115,7 @@ Workflow `.github/workflows/audit-analysis-evidence.yml` проверява и �
 
 Двата repository ruleset-а трябва да бъдат активни и да обхващат само `refs/heads/main`:
 
-- **main-require-pr-and-validation**: изисква Pull Request, успешни статуси `audit` и `editorial-approval`, актуална база (`strict required status checks`) и само squash merge. Единственото bypass изключение е GitHub Actions App (Integration ID `15368`) с режим `always`, необходимо за валидираните автоматични обновявания на данните. Не добавяй потребители, администратори или други интеграции като bypass актьори.
+- **main-require-pr-and-validation**: изисква Pull Request, успешни статуси `audit` и `editorial-approval`, актуална база (strict required status checks) и само squash merge. Единственото bypass изключение е инсталираното приложение `BGVchisla Automation Bot` с режим `Always allow`, за да могат контролираните автоматични актуализации на данните да записват директно. Не добавяй потребители, администратори, роли или други приложения като bypass актьори.
 - **main-block-destructive-updates**: забранява изтриване на `main` и non-fast-forward/force push. Не добавяй bypass актьори.
 
 Не включвай задължителен брой GitHub review approvals: собственикът е единственият редактор, а реалното човешко одобрение се удостоверява чрез защитения commit status `editorial-approval`. Branch ruleset-ите трябва да се проверят след създаване чрез GitHub Settings → Rules → Rulesets. Защитата не е активна, докато и двата ruleset-а не се виждат със статус Active.
