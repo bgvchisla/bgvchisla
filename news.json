@@ -1,8 +1,118 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:37:35.195963+00:00",
-  "last_checked_at": "2026-11-22T12:37:35.195970+00:00",
+  "updated_at": "2026-11-22T13:39:48.467774+00:00",
+  "last_checked_at": "2026-11-22T13:39:48.467778+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
+      "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world.",
+      "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T13:18:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 44
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "НИМХ предупреждава за силен вятър утре, обявени са оранжев и жълт код в цялата страна",
+      "summary": "Оранжев код за силен вятър е обявен в голяма част от Централна и Западна България за утре, 23 ноември, а в останалата част от страната има предупреждение за потенциално опасно време – жълт код, заради силен вятър. Това съобщи Националният институт по метеороло",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251966-nimh-preduprezhdava-za-silen-vyatar-utre-obyaveni-sa-oranzhev-i-zhalt-kod-v-tsy",
+      "published": "2026-11-22T13:14:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Община Луковит организира тематична седмица „Аз обичам България“ с дни на грамотността, математиката, изкуствата и спорта",
+      "summary": "Община Луковит организира от 23 до 30 ноември тематична седмица „Аз обичам България“, съобщават от администрацията. Инициативата ще се проведе с участието на клубовете към партниращите организации по проект „Аз обичам България“ и ще предложи поредица от образо",
+      "url": "https://www.bta.bg/bg/news/lik/1251968-obshtina-lukovit-organizira-tematichna-sedmitsa-az-obicham-balgariya-s-dni-na-",
+      "published": "2026-11-22T13:09:58+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Спектакълът „Малко се отплеснахме“ от Елин Рахнев е третата премиера за сезона на театъра в Хасково",
+      "summary": "Спектакълът „Малко се отплеснахме“ от Елин Рахнев е третото премиерно заглавие в афиша на Драматично-кукления театър (ДКТ) „Иван Димов“ – Хасково от началото на настоящия сезон, съобщиха от трупата. Премиерата ще бъде утре, 23 ноември. Постановката предлага ко",
+      "url": "https://www.bta.bg/bg/news/lik/1251969-spektakalat-malko-se-otplesnahme-ot-elin-rahnev-e-tretata-premiera-za-sezona-n",
+      "published": "2026-11-22T13:07:06+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Лошата година за златото става още по-мрачна",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439861-loshata-godina-za-zlatoto-stava-oshte-po-mrachna",
+      "published": "2026-11-22T13:07:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Climate deal collapses amid fossil fuel rows",
+      "summary": "Climate leaders failed to strike a deal despite warnings over runaway global warming.",
+      "url": "https://www.politico.eu/article/climate-deal-collapses-amid-fossil-fuel-rows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T13:00:03+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Обмудсманът: Все още голяма част от жалбите са свързани с \"Топлофикация\" и ВиК",
+      "summary": "",
+      "url": "https://www.investor.bg/a/526-pravosadie/439895-obmudsmanat-vse-oshte-golyama-chast-ot-zhalbite-sa-svarzani-s-toplofikatsiya-i-vik",
+      "published": "2026-11-22T12:49:30+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Администрации и кметове в област Ловеч изразяват почитта си към Ловчанския митрополит Гавриил",
+      "summary": "Областната администрация в Ловеч, общини и кметове в региона изразиха съболезнования по повод кончината на Ловчанския митрополит Гавриил, като отбелязаха приноса му за духовния и обществения живот в областта. От Областната администрация посочват, че десетилети",
+      "url": "https://www.bta.bg/bg/news/lik/1251962-administratsii-i-kmetove-v-oblast-lovech-izrazyavat-pochitta-si-kam-lovchanskiya",
+      "published": "2026-11-22T12:45:22+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Гражданското участие е ключово за демократичната устойчивост, заяви Габриела Караджонова-Малчева в Брюксел",
+      "summary": "Демокрацията не е просто политическа система, а начин на мислене, възприятие и отношение към обществото. Тя се проявява както чрез възможностите, които имаме като граждани, така и чрез отговорностите, които носим. Това каза Габриела Караджонова-Малчева, участн",
+      "url": "https://www.bta.bg/bg/news/world/1251940-grazhdanskoto-uchastie-e-klyuchovo-za-demokratichnata-ustoychivost-zayavi-gabri",
+      "published": "2026-11-22T12:42:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Климатичните преговори в COP31 се провалиха, ЕС и редица страни отхвърлиха споразумението",
+      "summary": "",
+      "url": "https://www.investor.bg/a/519-ekologiya/439894-klimatichnite-pregovori-v-cop31-se-provaliha-es-i-reditsa-strani-othvarliha-sporazumenieto",
+      "published": "2026-11-22T12:41:14+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP31: Climate deal 'not adopted,' summit president says",
+      "summary": "The summit was extended as nations worked to reach a deal, but they couldn't agree on including fossil fuels. European nations, small island states and activists have criticized oil-producing countries for the impasse.",
+      "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-summit-president-says/live-79999516?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T12:39:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 39
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -66,61 +176,11 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
-      "summary": "Choi Kyo-jin says he ‘failed to prepare adequately’ for entrance exams, which this year had phones banned and checks for cameras hidden in clothing South Korea’s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up",
+      "title": "South Korean minister quits after AI cheating scandal engulfs university exams",
+      "summary": "Choi Kyo-jin says he ‘failed to prepare adequately’ for entrance exams following last-minute scramble to tighten measures South Korea’s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up to key university entrance",
       "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
       "published": "2026-11-22T12:12:08+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Очаквам този Висш съдебен съвет да бъде по-добър и отговорен от предишния, коментира народният представител Владислав Панев",
-      "summary": "Очаквам този Висш съдебен съвет (ВСС) да бъде по-добър и отговорен от предишния. Това коментира на пресконференция в Националния пресклуб на БТА в Пловдив народният представител Владислав Панев от ПГ на „Демократична България“. Той подчерта, че е нормално да и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251937-ochakvam-tozi-vissh-sadeben-savet-da-bade-po-dobar-i-otgovoren-ot-predishniya-k",
-      "published": "2026-11-22T12:10:40+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Движението по Софийския околовръстен път в участъка при „Симеоновско шосе“ е възстановено",
-      "summary": "Движението по Софийския околовръстен път в участъка от бул. „Александър Малинов“ към бул. „Черни връх“ вече е възстановено, съобщиха от пресцентъра на Министерството на вътрешните работи. Ограничението беше въведено заради установени повреди по дилатационните",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251936-dvizhenieto-po-sofiyskiya-okolovrasten-pat-v-uchastaka-pri-simeonovsko-shose-e",
-      "published": "2026-11-22T12:02:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Деня на християнското семейство специалистите от Програма „Детско здраве“ прегледаха близо 460 деца от Етрополе и района, съобщиха от болница „Пирогов“",
-      "summary": "Близо 460 деца от град Етрополе и близките населени места преминаха безплатни профилактични прегледи при специалистите от Програма „Детско здраве“ на 21 ноември в Деня на християнското семейство, съобщиха от пресцентъра на УМБАЛСМ \"Н. И. Пирогов\". Инициативата",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251922-v-denya-na-hristiyanskoto-semeystvo-spetsialistite-ot-programa-detsko-zdrave-p",
-      "published": "2026-11-22T12:00:04+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Външен асансьор ще улеснява достъпа до сградата на „ДКЦ-1 Ямбол” в квартал „Каргон”",
-      "summary": "Изграждане на външен асансьор за улесняване на достъпа до медицинските кабинети се предвижда за сградата на „Диагностично-консултативния център (ДКЦ) -1 Ямбол” в квартал „Каргон”. В момента пациентите се придвижват към втория и третия етаж единствено по вътреш",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251935-vanshen-asansyor-shte-ulesnyava-dostapa-do-sgradata-na-dkts-1-yambol-v-kvartal",
-      "published": "2026-11-22T11:55:28+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Всички наказателни съдии в Смолян си направиха отвод по делото за катастрофата с трима загинали край Неделино",
-      "summary": "Върховният касационен съд (ВКС) ще определи кой съд да разгледа делото за катастрофата с трима загинали младежи край Неделино, след като всички съдии от наказателното отделение на Окръжния съд в Смолян си направиха отвод, става известно от публикувания съдебен",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251925-vsichki-nakazatelni-sadii-v-smolyan-si-napraviha-otvod-po-deloto-za-katastrofata",
-      "published": "2026-11-22T11:53:12+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -251,7 +311,7 @@
       "url": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi",
       "published": "2026-11-22T09:54:50+00:00",
       "feed_id": "euronews",
-      "priority_score": 44
+      "priority_score": 43
     },
     {
       "section": "europe",
@@ -261,7 +321,7 @@
       "url": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T09:49:20+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "bulgaria",
@@ -270,36 +330,6 @@
       "summary": "",
       "url": "https://www.investor.bg/a/520-zemedelie/439891-osnovni-hranitelni-stoki-i-povecheto-zelenchutsi-poskapvat-na-borsite-u-nas",
       "published": "2026-11-22T09:46:09+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Portugal: Workers brave downpours to demand a more affordable life",
-      "summary": "Thousands of people marched through Lisbon, Portugal, on Saturday 21 November 2026, braving heavy rain to demand higher wages, better pensions and measures to tackle the rising cost of living. The demonstration came just days before Portugal's parliamentary bu",
-      "url": "https://www.euronews.com/video/2026/11/22/portugal-workers-brave-downpours-to-demand-a-more-affordable-life",
-      "published": "2026-11-22T09:41:32+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "South Korea education minister resigns over exam cheating scandal",
-      "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
-      "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T09:20:45+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Руски товарен кораб пламна в Балтийско море след атака с дронове",
-      "summary": "",
-      "url": "https://www.investor.bg/a/527-svyat/439890-ruski-tovaren-korab-plamna-v-baltiysko-more-sled-ataka-s-dronove",
-      "published": "2026-11-22T09:15:30+00:00",
       "feed_id": "investor-economy",
       "priority_score": 0
     },
@@ -365,16 +395,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP31: Climate deal 'not adopted' as EU, others reject draft declaration over fossil fuels omission",
-      "summary": "The summit was extended as nations worked overtime to reach a deal, but they couldn't bridge their differences. European nations, small island states and activists have criticized oil-producing countries for the impasse.",
-      "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-as-eu-others-reject-draft-declaration-over-fossil-fuels-omission/live-79999516?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T05:50:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 38
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "FBI reportedly investigating apparent hack of its criminal database",
       "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
@@ -401,7 +421,7 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439888-dimitar-radev-etsb-tryabva-da-e-gotova-za-novo-povishenie-na-lihvite",
       "published": "2026-11-21T14:45:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -411,7 +431,7 @@
       "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
       "published": "2026-11-21T14:30:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 44
+      "priority_score": 43
     },
     {
       "section": "europe",
@@ -464,16 +484,6 @@
       "priority_score": 35
     },
     {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Дезинфлационната стратегия на Фед е обречена на провал",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
-      "published": "2026-11-21T10:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 38
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Социалните разходи изпреварват икономиката",
@@ -481,7 +491,7 @@
       "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 51
+      "priority_score": 50
     },
     {
       "section": "europe",
@@ -502,16 +512,6 @@
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
       "priority_score": 43
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "UK will take its time setting out Brexit options, says minister",
-      "summary": "Hamish Falconer tells POLITICO that discussions around the topic had proved “divisive” and were important to get right.",
-      "url": "https://www.politico.eu/article/uk-brexit-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T17:50:49+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 32
     },
     {
       "section": "bulgaria",
