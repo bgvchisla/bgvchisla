@@ -1,16 +1,46 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:27:39.263617+00:00",
-  "last_checked_at": "2026-11-22T20:27:39.263622+00:00",
+  "updated_at": "2026-11-22T21:14:13.747480+00:00",
+  "last_checked_at": "2026-11-22T21:14:13.747484+00:00",
   "items": [
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: small business carveout in digital duty of care; countdown to pass key legislation begins",
-      "summary": "Get our breaking news email , free app or daily news podcast Good morning, Krishani Dhanji here with you for the final sitting week of the year! (Don’t sound too excited.) It’s crunch time for Labor who have several key pieces of legislation they want to pass",
+      "title": "Australian politics live: Chris Bowen ‘frustrated’ by climate summit; countdown to pass key legislation begins",
+      "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-22T20:10:36+00:00",
+      "published": "2026-11-22T21:09:24+00:00",
       "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+      "summary": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a friend” during their",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
+      "published": "2026-11-22T20:55:33+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T20:28:09+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+      "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
+      "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T20:26:24+00:00",
+      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -21,16 +51,6 @@
       "url": "https://www.bta.bg/bg/news/lik/1251671-samokov-otbelyaza-230-godini-ot-rozhdenieto-na-dimitar-zograf-s-nauchna-konferen",
       "published": "2026-11-22T20:06:17+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-      "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T19:52:50+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -57,7 +77,7 @@
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "What's next after no deal at COP31 climate talks?",
-      "summary": "The COP31 climate summit in Turkey has formally come to an end after countries failed to agree a deal.",
+      "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
       "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-22T18:57:24+00:00",
       "feed_id": "bbc-world",
@@ -336,18 +356,8 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Netanyahu rival condemns ‘Jewish terrorism’ after settler attacks on Palestinian villages",
-      "summary": "Dozens of militant Israeli settlers raided communities on Saturday night, setting fire to vehicles and several homes Arson attacks by militant Israeli settlers on Palestinian villages in the occupied West Bank have caused a political row in Israel, drawing con",
-      "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
-      "published": "2026-11-22T15:22:38+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
       "title": "Australia urged to wean off imported fossil fuels amid global supply shocks",
-      "summary": "Grattan Institute report calls on government to ‘seize’ opportunity to cap diesel tax credits, introduce EV subsidies for less wealthy’ and build ‘clean’ refineries Get our daily political email , free app or daily news podcast Capping lucrative diesel tax han",
+      "summary": "Grattan Institute report calls on government to seize opportunity to cap diesel tax credits, introduce EV subsidies for less wealthy and build ‘clean’ refineries Get our daily political email , free app or daily news podcast Capping lucrative diesel tax handou",
       "url": "https://www.theguardian.com/australia-news/2026/nov/23/australia-urged-to-wean-off-imported-fossil-fuels-amid-global-supply-shocks",
       "published": "2026-11-22T14:00:29+00:00",
       "feed_id": "guardian-world",
@@ -375,23 +385,13 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "UK-EU food deal hailed by British firms: ‘We’re pretty aligned anyway’",
-      "summary": "Exporters welcome end in sight for Brexit checks – but are frustrated that implementation will take so long British producers have broadly welcomed the UK’s deal with the EU, designed to remove the vast majority of physical checks on food, plants and animal pr",
-      "url": "https://www.theguardian.com/business/2026/nov/22/uk-eu-food-sps-deal-brexit-checks",
-      "published": "2026-11-22T11:00:24+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 38
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 22nd, 2026 – Midday",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
       "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-midday",
       "published": "2026-11-22T11:00:15+00:00",
       "feed_id": "euronews",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -401,7 +401,7 @@
       "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
       "published": "2026-11-22T11:00:00+00:00",
       "feed_id": "euronews",
-      "priority_score": 43
+      "priority_score": 42
     },
     {
       "section": "europe",
@@ -571,7 +571,7 @@
       "url": "https://www.wto.org/english/news_e/news26_e/stud_19nov26_558_e.htm",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "wto-news",
-      "priority_score": 33
+      "priority_score": 32
     },
     {
       "section": "europe",
@@ -581,7 +581,7 @@
       "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "wto-news",
-      "priority_score": 28
+      "priority_score": 27
     },
     {
       "section": "europe",
@@ -591,7 +591,7 @@
       "url": "https://www.wto.org/english/news_e/news26_e/trip_19nov26_557_e.htm",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "wto-news",
-      "priority_score": 33
+      "priority_score": 32
     },
     {
       "section": "europe",
