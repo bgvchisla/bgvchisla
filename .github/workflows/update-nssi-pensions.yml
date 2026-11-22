@@ -74,13 +74,3 @@ jobs:
           echo "Production deployment requested for the validated data update."
 
 # Historical bulletin import validated against the official NSSI archive.
-
-      - name: Dispatch production deployment after data changes
-        if: steps.save.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          REPOSITORY: ${{ github.repository }}
-        run: |
-          set -euo pipefail
-          gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
-          echo "Production deployment requested for the validated data update."
