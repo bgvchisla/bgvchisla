@@ -35,6 +35,11 @@ class AutomatedWriterSecurityTests(unittest.TestCase):
                 self.assertIn("permission-contents: write", source)
                 self.assertIn("APP_SLUG=", source)
                 self.assertIn("actions: write", source)
+                self.assertIn(
+                    "GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}",
+                    source,
+                    "GitHub CLI must receive the same scoped token used for the checkout.",
+                )
 
     def test_data_writers_stage_only_their_designated_output(self):
         for workflow, output_file in WRITERS.items():
