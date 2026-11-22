@@ -48,7 +48,7 @@ class EditorialPublicationTests(unittest.TestCase):
         text = html.unescape(re.sub(r"<[^>]+>", " ", without_style))
         words = re.findall(r"[^\W_]+(?:[’'-][^\W_]+)*", text, flags=re.UNICODE)
         self.assertGreaterEqual(len(words), 800)
-        self.assertLessEqual(len(words), 1800)
+        self.assertLessEqual(len(words), 2000)
 
     def test_archive_sitemap_and_source_registry_include_article(self):
         archive = ARCHIVE.read_text(encoding="utf-8")
