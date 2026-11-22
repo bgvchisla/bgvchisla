@@ -106,10 +106,15 @@ def parse_date(value):
 def term_match(text, term):
     text = str(text or "").casefold()
     term = term.casefold()
-    if " " in term:
-        pattern = r"(?<!\w)" + re.escape(term) + r"(?!\w)"
-        return re.search(pattern, text, flags=re.UNICODE) is not None
     tokens = re.findall(r"[a-zа-яё]+", text, flags=re.IGNORECASE)
+    if " " in term:
+        parts = re.findall(r"[a-zа-яё]+", term, flags=re.IGNORECASE)
+        if not parts or len(parts) > len(tokens):
+            return False
+        return any(
+            all(tokens[index + offset].startswith(part) for offset, part in enumerate(parts))
+            for index in range(len(tokens) - len(parts) + 1)
+        )
     if len(term) <= 4:
         return term in tokens
     return any(token.startswith(term) for token in tokens)
@@ -146,6 +151,10 @@ def _context_category(title, summary):
     for label, score, terms in CONTEXT_RULES:
         if any(term_match(body, term) for term in terms):
             return label, score
+    # Инфлацията в еврозоната се представя в заглавия, където думите
+    # „инфлация“ и „еврозона“ не са непременно една до друга.
+    if term_match(body, "inflation") and term_match(body, "euro area"):
+        return "Инфлация в еврозоната", 29
     return None
 
 def _is_recent(item, now, days):
