@@ -1699,20 +1699,19 @@ fetch("official_nssi.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw n
 
 
 /* Новинарски поток: съдържанието идва от проверявания news.json */
-function sortNewsByEditorialPriority(items){
+function sortNewsChronologically(items){
   return items.slice().sort(function(a,b){
-    var pa=Number.isFinite(a.priority_score)?a.priority_score:0;
-    var pb=Number.isFinite(b.priority_score)?b.priority_score:0;
-    if(pb!==pa)return pb-pa;
     var ta=a.published?Date.parse(a.published):NaN;
     var tb=b.published?Date.parse(b.published):NaN;
-    var va=Number.isFinite(ta)?ta:-Infinity;
-    var vb=Number.isFinite(tb)?tb:-Infinity;
-    return vb-va;
+    var hasA=Number.isFinite(ta);
+    var hasB=Number.isFinite(tb);
+    if(!hasA)return hasB?1:0;
+    if(!hasB)return -1;
+    return tb-ta;
   });
 }
 function renderNews(target,items){
-  items=sortNewsByEditorialPriority(items);
+  items=sortNewsChronologically(items);
   var root=$(target);if(!root)return;root.textContent="";
   if(!items.length){var empty=document.createElement("p");empty.className="news-empty";empty.textContent="Все още няма публикувани заглавия. Потокът се обновява автоматично.";root.appendChild(empty);return}
   items.forEach(function(item){

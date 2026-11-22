@@ -638,6 +638,47 @@ def is_recent_article(item, now=None):
     return age <= timedelta(days=MAX_ITEM_AGE_DAYS)
 
 
+
+def publication_datetime(item):
+    """Връща датата на публикация като UTC, независимо от записаната часова зона."""
+    published = item.get("published")
+    if not isinstance(published, str) or not published.strip():
+        return datetime.min.replace(tzinfo=timezone.utc)
+    try:
+        dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except (TypeError, ValueError, OverflowError):
+        return datetime.min.replace(tzinfo=timezone.utc)
+
+
+def select_news_items(items, limit=70):
+    """Запазва редакционния подбор, но връща избраните новини по дата, най-новите първи."""
+    if limit <= 0:
+        return []
+
+    def priority(item):
+        try:
+            return float(item.get("priority_score", 0))
+        except (TypeError, ValueError):
+            return 0.0
+
+    selected = sorted(
+        items,
+        key=lambda item: (priority(item), publication_datetime(item)),
+        reverse=True,
+    )[:limit]
+
+    return sorted(
+        selected,
+        key=lambda item: (
+            publication_datetime(item),
+            str(item.get("title") or "").casefold(),
+        ),
+        reverse=True,
+    )
+
 def main():
     previous = {}
     if OUT.exists():
@@ -663,24 +704,20 @@ def main():
     dedup = {}
     for item in all_items:
         key = item["url"].split("#", 1)[0].rstrip("/")
-        if key not in dedup or (item["published"] or "") > (dedup[key]["published"] or ""):
+        if key not in dedup or publication_datetime(item) > publication_datetime(dedup[key]):
             dedup[key] = item
     # Limit each publisher's contribution so one prolific feed cannot dominate.
     balanced = []
     per_feed = {}
-    for item in sorted(dedup.values(), key=lambda x: x["published"] or "", reverse=True):
+    for item in sorted(dedup.values(), key=publication_datetime, reverse=True):
         feed_id = item.get("feed_id", "unknown")
         if per_feed.get(feed_id, 0) >= 10:
             continue
         per_feed[feed_id] = per_feed.get(feed_id, 0) + 1
         item["priority_score"] = editorial_priority(item)
         balanced.append(item)
-    # Editorial relevance first; publication time breaks ties and keeps the stream fresh.
-    items = sorted(
-        balanced,
-        key=lambda x: (x.get("priority_score", 0), x.get("published") or ""),
-        reverse=True,
-    )[:70]
+    # Подборът остава по редакционна значимост; показването е строго хронологично.
+    items = select_news_items(balanced, limit=70)
     result = {
         "schema_version": 1,
         "updated_at": datetime.now(timezone.utc).isoformat(),
