@@ -1,0 +1,94 @@
+name: Approve and publish editorial analysis
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  actions: write
+
+jobs:
+  approve:
+    if: >-
+      github.event.issue.pull_request &&
+      github.event.comment.body == '/approve' &&
+      github.actor == 'bgvchisla'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate and merge the exact approved article revision
+        id: approval
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+          PR_JSON="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+          STATE="$(jq -r '.state' <<<"$PR_JSON")"
+          BASE_REF="$(jq -r '.base.ref' <<<"$PR_JSON")"
+          HEAD_REF="$(jq -r '.head.ref' <<<"$PR_JSON")"
+          HEAD_REPO="$(jq -r '.head.repo.full_name // empty' <<<"$PR_JSON")"
+          HEAD_SHA="$(jq -r '.head.sha' <<<"$PR_JSON")"
+          MERGEABLE="$(jq -r '.mergeable' <<<"$PR_JSON")"
+
+          if [ "$STATE" != "open" ]; then
+            echo "Approval refused: the pull request is not open."
+            exit 1
+          fi
+          if [ "$BASE_REF" != "main" ]; then
+            echo "Approval refused: the pull request does not target main."
+            exit 1
+          fi
+          if [[ "$HEAD_REF" != analysis/draft-* ]]; then
+            echo "Approval refused: this is not an editorial draft branch."
+            exit 1
+          fi
+          if [ "$HEAD_REPO" != "$REPOSITORY" ]; then
+            echo "Approval refused: the draft branch is not in the canonical repository."
+            exit 1
+          fi
+          if [ "$MERGEABLE" != "true" ]; then
+            echo "Approval refused: GitHub does not currently consider this PR mergeable."
+            exit 1
+          fi
+
+          CHECKS="$(gh api "repos/$REPOSITORY/commits/$HEAD_SHA/check-runs?per_page=100")"
+          AUDIT_RESULT="$(jq -r '[.check_runs[] | select(.name == "audit") | select(.status == "completed") | {time:(.completed_at // .started_at // .created_at), conclusion:.conclusion}] | sort_by(.time) | last | .conclusion // empty' <<<"$CHECKS")"
+          if [ "$AUDIT_RESULT" != "success" ]; then
+            gh pr comment "$PR_NUMBER" --repo "$REPOSITORY" --body "Публикуването е спряно: задължителната проверка `audit` за последния commit още не е успешна. Изчакай зелен резултат и повтори `/approve`."
+            echo "Approval refused: audit is not successful for $HEAD_SHA."
+            exit 1
+          fi
+
+          # Check that no new edit arrived between the check-run query and the merge.
+          PR_REFRESH="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+          CURRENT_HEAD_SHA="$(jq -r '.head.sha' <<<"$PR_REFRESH")"
+          if [ "$CURRENT_HEAD_SHA" != "$HEAD_SHA" ]; then
+            echo "Approval refused: the PR changed while checks were being verified. Review and approve the newest revision."
+            exit 1
+          fi
+
+          # The SHA precondition prevents merging an untested newer revision.
+          MERGE_RESULT="$(gh api --method PUT "repos/$REPOSITORY/pulls/$PR_NUMBER/merge" -f sha="$HEAD_SHA" -f merge_method=squash)"
+          MERGED="$(jq -r '.merged' <<<"$MERGE_RESULT")"
+          if [ "$MERGED" != "true" ]; then
+            echo "Approval failed: GitHub did not confirm the merge."
+            exit 1
+          fi
+
+          echo "merged=true" >> "$GITHUB_OUTPUT"
+          echo "Approval and SHA-checked squash merge completed for $HEAD_SHA."
+      - name: Dispatch production deployment
+        if: steps.approval.outputs.merged == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          # A merge made with GITHUB_TOKEN does not start a push-triggered workflow.
+          # Dispatch production deployment explicitly after the approved merge.
+          gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
+          echo "Production deployment dispatched."
