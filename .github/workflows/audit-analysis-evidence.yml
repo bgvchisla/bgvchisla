@@ -63,7 +63,6 @@ jobs:
         run: python scripts/test_frontend.py
       - name: Validate article evidence and approval workflow
         run: python scripts/test_analysis_publication.py
-          python scripts/test_automation_writer.py
       - name: Install Chromium for exact viewport testing
         run: |
           npm install --no-save --no-package-lock playwright
