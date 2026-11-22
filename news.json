@@ -1,427 +1,47 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:56:01.312019+00:00",
-  "last_checked_at": "2026-11-22T07:56:01.312025+00:00",
+  "updated_at": "2026-11-22T08:12:46.181331+00:00",
+  "last_checked_at": "2026-11-22T08:12:46.181337+00:00",
   "items": [
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "EU and Indonesia sign trade deal",
-      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
-      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T15:21:00+00:00",
+      "title": "Germany news: IG Metall union calls for new 24-hour strike",
+      "summary": "Germany's biggest single union, IG Metall, is calling on car and shipyard workers to strike amid a pay row. Meanwhile, Germany's president is setting off on an Africa trip. DW has more.",
+      "url": "https://www.dw.com/en/germany-news-ig-metall-union-calls-for-new-24-hour-strike/live-80008430?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T08:07:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 51
+      "priority_score": 0
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Социалните разходи изпреварват икономиката",
-      "summary": "Разходите за пенсии и социални помощи растат много по-бързо от икономиката. Данъчните постъпления и приходите от осигуровки също се увеличават, но не успяват да догонят плащанията. По темата е и новият одит на Сметната палата за социалните плащания през период",
-      "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
-      "published": "2026-11-21T08:00:03+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 51
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "България рискува бюджетна глоба от Брюксел",
-      "summary": "България не е достатъчно смела в усилията си да овладее бюджетния дефицит и вече е изправена пред съвсем реален риск от финансова санкция. Предупрежденията от Брюксел стават все по-ясни, а последната кореспонденция между Европейската комисия и българското прав",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-riskuva-budjetna-globa-ot-bruksel",
-      "published": "2026-11-22T07:01:04+00:00",
-      "feed_id": "economic-bg",
+      "source": "Investor.bg – Финанси",
+      "title": "Акция на седмицата: „Първа инвестиционна банка“ АД",
+      "summary": "",
+      "url": "https://www.investor.bg/a/536-finansi/439889-aktsiya-na-sedmitsata-parva-investitsionna-banka-ad",
+      "published": "2026-11-22T08:04:00+00:00",
+      "feed_id": "investor-finance",
       "priority_score": 47
     },
     {
-      "section": "europe",
+      "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
-      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
-      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
-      "published": "2026-11-20T15:45:35+00:00",
+      "title": "Поредица от IT сривове роди нова „икономика на апокалипсиса“",
+      "summary": "Американците се запасяват с храна, вода, генератори и дори оръжия, а продажбите на стоки за оцеляване скачат с 400%. Причината – поредица от технологични сривове, която разпали страховете от мащабен дигитален блокаж. Докато властите успокояват, че няма данни з",
+      "url": "https://www.economic.bg/bg/a/view/poredica-ot-it-srivove-rodi-nova-ikonomika-na-apokalipsisa",
+      "published": "2026-11-22T08:00:25+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 45
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
-      "published": "2026-11-21T14:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 44
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "EU and Indonesia sign ambitious trade and investment agreements",
-      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 44
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
-      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
-      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
-      "published": "2026-11-21T16:26:21+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 43
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
-      "published": "2026-11-21T11:28:47+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 41
-    },
-    {
-      "section": "europe",
-      "source": "Federal Reserve",
-      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
-      "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
-      "published": "2026-11-20T15:00:00+00:00",
-      "feed_id": "federal-reserve",
-      "priority_score": 41
+      "priority_score": 42
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
-      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
-      "published": "2026-11-20T16:10:40+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 40
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "India: Nepal PM Balendra Shah heads to Delhi for first bilateral visit",
-      "summary": "Nepal's rapper-turned-prime minister Balendra Shah is in New Delhi for his first foreign bilateral trip since taking office. He is expected to discuss flood recovery, trade and energy in his talks with Modi. DW has more.",
-      "url": "https://www.dw.com/en/india-nepal-pm-balendra-shah-heads-to-delhi-for-first-bilateral-visit/live-80008104?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T07:20:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 22nd, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-morning",
-      "published": "2026-11-22T06:00:32+00:00",
-      "feed_id": "euronews",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Димитър Радев: ЕЦБ трябва да е готова за ново повишение на лихвите",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439888-dimitar-radev-etsb-tryabva-da-e-gotova-za-novo-povishenie-na-lihvite",
-      "published": "2026-11-21T14:45:00+00:00",
-      "feed_id": "investor-finance",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
-      "published": "2026-11-21T12:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Колко болнични ползват работещите в Европа и колко струва това на икономиката?",
-      "summary": "Средностатистическият европеец отсъства от работа близо три седмици годишно заради здравословни проблеми, показва нов доклад, цитиран от euronews. Това се равнява на около 6% от потенциалното работно време в Европейския съюз (ЕС) и води до загуби от приблизите",
-      "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
-      "published": "2026-11-21T11:35:11+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Дезинфлационната стратегия на Фед е обречена на провал",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
-      "published": "2026-11-21T10:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Швейцария продължава дебата за неутралитета си с гласуване за износа на оръжия",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439881-shveytsariya-prodalzhava-debata-za-neutraliteta-si-s-glasuvane-za-iznosa-na-orazhiya",
-      "published": "2026-11-21T10:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T00:10:44+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 38
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "France and Germany complete political deal for ECB leadership",
-      "summary": "Paris’ new market-operations portfolio at the European Central Bank could become pivotal in a French debt crisis.",
-      "url": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T16:50:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 38
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 21st, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
-      "published": "2026-11-21T17:00:26+00:00",
-      "feed_id": "euronews",
-      "priority_score": 37
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "New trade-restrictive measures surge but WTO members step up trade facilitation efforts",
-      "summary": "The pace of newly-introduced tariffs and other non-facilitating measures rose sharply in the first half of 2026, while the stockpile of such measures reached a record level, according to the WTO Director-General's latest annual overview of developments in the",
-      "url": "https://www.wto.org/english/news_e/news26_e/tmwto_17nov26_552_e.htm",
-      "published": "2026-11-17T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 37
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "New EU budget proposal aims at tax gobal tech giants",
-      "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
-      "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T14:58:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 36
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Costa cuts proposed EU budget by €44B",
-      "summary": "Brussels plans a tax on Big Tech to raise billions for the next budget cycle.",
-      "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-21T10:44:05+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 36
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Multiannual Financial Framework - President Costa’s proposal",
-      "summary": "President of the European Council, António Costa, presented his proposal to reach an agreement on the 2028-2034 Multiannual Financial Framework during a press conference on 21 November 2026.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
-      "published": "2026-11-21T10:43:00+00:00",
-      "feed_id": "council-press",
-      "priority_score": 36
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Applications open for WIPO-WTO Executive Programme on Intellectual Property Issues",
-      "summary": "The Secretariat of the World Intellectual Property Organization (WIPO) and the Secretariat of the World Trade Organization (WTO) are now accepting applications for the WIPO-WTO Executive Programme on Intellectual Property Issues for Senior Government Officials",
-      "url": "https://www.wto.org/english/news_e/news26_e/trip_19nov26_557_e.htm",
-      "published": "2026-11-19T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 35
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Spotlight on trade fundamentals at annual WTO student event",
-      "summary": "Over 200 students joined policymakers, executives and thought leaders on 18 November at the WTO to discuss trade fundamentals at the WTO's annual student-only event on trade, titled WTO 101: Trade Rules!. Now in its third year, the event saw spirited discussio",
-      "url": "https://www.wto.org/english/news_e/news26_e/stud_19nov26_558_e.htm",
-      "published": "2026-11-19T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 35
-    },
-    {
-      "section": "europe",
-      "source": "Европейска централна банка",
-      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-      "summary": "",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
-      "published": "2026-11-18T09:00:00+00:00",
-      "feed_id": "ecb-press",
-      "priority_score": 34
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "UK will take its time setting out Brexit options, says minister",
-      "summary": "Hamish Falconer tells POLITICO that discussions around the topic had proved “divisive” and were important to get right.",
-      "url": "https://www.politico.eu/article/uk-brexit-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T17:50:49+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 33
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Andy Burnham discovers nothing in Brussels is ever easy",
-      "summary": "Britain’s prime minister is banking on a ‘brainstorm’ to decide Britain’s future with the EU. He just has to get through the spin wars first.",
-      "url": "https://www.politico.eu/article/andy-burnham-eu-uk-summit-reset-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T17:00:51+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 33
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Trade Policy Review: Peru",
-      "summary": "The sixth review of the trade policies and practices of Peru takes place on 18 and 20 November 2026. The basis for the review is a report by the WTO Secretariat and a report by the Government of Peru.",
-      "url": "https://www.wto.org/english/tratop_e/tpr_e/tpr_per_18nov26_e.htm",
-      "published": "2026-11-18T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 32
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Goods Council agrees to modernize notification reporting, reviews trade concerns",
-      "summary": "The WTO's Council for Trade in Goods (CTG) adopted a decision to improve annual reporting on notifications and the WTO Notifications Portal. It also reviewed an updated Secretariat report indicating that 35% of the 241 trade concerns raised in the Council betw",
-      "url": "https://www.wto.org/english/news_e/news26_e/good_16nov26_556_e.htm",
-      "published": "2026-11-16T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 32
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "GDP up by 0.4% and employment stable in the euro area",
-      "summary": "In the third quarter of 2026, seasonally adjusted GDP increased by 0.4% in the euro area and by 0.5% in the EU, compared with the previous quarter, according to a flash estimate published by Eurostat, the statistical office of the European Union. In the second",
-      "url": "https://ec.europa.eu/eurostat/product?code=2-13112026-ap",
-      "published": "2026-11-13T10:00:00+00:00",
-      "feed_id": "eurostat-news",
-      "priority_score": 32
-    },
-    {
-      "section": "europe",
-      "source": "Federal Reserve",
-      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-      "published": "2026-11-12T18:30:00+00:00",
-      "feed_id": "federal-reserve",
-      "priority_score": 32
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Panama submits request to join Expansion of the Information Technology Agreement",
-      "summary": "Panama has submitted a request to join the 2015 Expansion of the Information Technology Agreement (ITA II), the Chair of the Committee of Participants on the Expansion of Trade in Information Technology Products, Mr Shih-Chun Weng of Chinese Taipei, informed m",
-      "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
-      "published": "2026-11-19T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 30
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Annual inflation up to 4.0% in the euro area",
-      "summary": "The euro area annual inflation rate was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.1%. European Union annual inflation was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.5%. These figures ar",
-      "url": "https://ec.europa.eu/eurostat/product?code=2-18112026-ap",
-      "published": "2026-11-18T10:00:00+00:00",
-      "feed_id": "eurostat-news",
-      "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "Bank for International Settlements (BIS)",
-      "title": "Basel Committee discusses risks and vulnerabilities faced by global banking system",
-      "summary": "The Basel Committee on Banking Supervision met in Basel on 18 November 2026 to discuss a range of analytical, supervisory and regulatory initiatives.",
-      "url": "https://www.bis.org/media-releases/20261118-basel-committee-discusses-risks-and-vulnerabilities-faced-global-banking-system",
-      "published": "2026-11-18T00:00:00+00:00",
-      "feed_id": "bis-press",
-      "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "DDG Nordquist: Global trade is adapting, not retreating",
-      "summary": "Global trade has demonstrated remarkable resilience despite geopolitical tensions, supply chain disruptions and trade restrictions, with businesses adapting through diversification and new trading partnerships, Deputy Director-General DJ Nordquist said at the",
-      "url": "https://www.wto.org/english/news_e/news26_e/ddgjn_16nov26_555_e.htm",
-      "published": "2026-11-16T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "Евростат",
-      "title": "Euro area international trade in goods deficit €10.3 bn",
-      "summary": "The first estimates of euro area balance showed a €10.3 bn deficit in trade in goods with the rest of the world in September 2026, compared with a surplus of €13.5 bn in September 2025.",
-      "url": "https://ec.europa.eu/eurostat/product?code=6-13112026-bp",
-      "published": "2026-11-13T10:00:00+00:00",
-      "feed_id": "eurostat-news",
-      "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Ireland contributes EUR 200,000 to strengthen trade opportunities in developing countries",
-      "summary": "Ireland is contributing EUR 200,000 (approximately CHF 185,000) to the Standards and Trade Development Facility (STDF) in 2026 to strengthen sanitary and phytosanitary capacity in developing and least-developed countries. The contribution will support STDF act",
-      "url": "https://www.wto.org/english/news_e/pres26_e/pr998_551_e.htm",
-      "published": "2026-11-13T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "Federal Reserve",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "published": "2026-11-12T16:00:00+00:00",
-      "feed_id": "federal-reserve",
-      "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "ООН – Женева",
-      "title": "Committee on Economic, Social and Cultural Rights Concludes Eightieth Session after Adopting Concluding Observations on Reports of Austria, Eswatini, Mexico and Pakistan",
-      "summary": "The Committee on Economic, Social and Cultural Rights this afternoon concluded its eightieth session after adopting concluding observations on the reports of Austria, Eswatini, Mexico and Pakistan under the International Covenant on Economic, Social and Cultur",
-      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/le-comite-des-droits-economiques-sociaux-et-culturels-acheve-sa",
-      "published": "2026-11-13T17:48:28+00:00",
-      "feed_id": "un-geneva-press",
-      "priority_score": 24
+      "source": "БТА",
+      "title": "Френският акордеонист Фредерик Виал ще гостува тази вечер в София",
+      "summary": "Френският акордеонист и композитор Фредерик Виал ще изнесе концерт със своето трио тази вечер в Дома на културата „Средец“ в София, съобщават домакините. „Музиката на Фредерик Виал е своеобразно пътешествие между различни култури, традиции и музикални светове.",
+      "url": "https://www.bta.bg/bg/news/lik/1251806-frenskiyat-akordeonist-frederik-vial-shte-gostuva-v-sofiya-na-22-noemvri",
+      "published": "2026-11-22T08:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
     },
     {
       "section": "europe",
@@ -495,6 +115,16 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "India: Nepal PM Balendra Shah heads to Delhi for first bilateral visit",
+      "summary": "Nepal's rapper-turned-prime minister Balendra Shah is in New Delhi for his first foreign bilateral trip since taking office. He is expected to discuss flood recovery, trade and energy in his talks with Modi. DW has more.",
+      "url": "https://www.dw.com/en/india-nepal-pm-balendra-shah-heads-to-delhi-for-first-bilateral-visit/live-80008104?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T07:20:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "Fire at confectionary factory in Indonesia leaves at least three dead and dozens missing",
       "summary": "Relatives of the missing victims flocked to the factory’s entrance, seeking updates about their loved ones A fire at a confectionery factory west of Jakarta has killed three people with 36 remaining missing, an Indonesian rescue official says. Drone footage sh",
@@ -502,6 +132,16 @@
       "published": "2026-11-22T07:11:17+00:00",
       "feed_id": "guardian-world",
       "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "България рискува бюджетна глоба от Брюксел",
+      "summary": "България не е достатъчно смела в усилията си да овладее бюджетния дефицит и вече е изправена пред съвсем реален риск от финансова санкция. Предупрежденията от Брюксел стават все по-ясни, а последната кореспонденция между Европейската комисия и българското прав",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-riskuva-budjetna-globa-ot-bruksel",
+      "published": "2026-11-22T07:01:04+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 47
     },
     {
       "section": "bulgaria",
@@ -585,6 +225,16 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 22nd, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-morning",
+      "published": "2026-11-22T06:00:32+00:00",
+      "feed_id": "euronews",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
       "summary": "Kraftwerk Berlin, part of same development as techno club Tresor, transformed into ‘war room’ for arms firm event With their cavernous post-industrial venues, teeth-grinding four-by-four beats and bouncers that look like Blade Runner extras, Berlin’s nightclub",
@@ -664,16 +314,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Заради ремонт на дилатационни фуги се променя движението при „Симеоновско шосе“ на Софийския околовръстен път",
-      "summary": "От 7:00 до 11:00 ч., за ремонт на дилатационни фуги на мостовото съоръжение над бул. „Симеоновско шосе“ на Софийския околовръстен път се въвежда временна организация на движение. Това съобщиха от пресцентъра на Агенция „Пътна инфраструктура“ (АПИ). Ремонтните",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251655-zaradi-remont-na-dilatatsionni-fugi-se-promenya-dvizhenieto-pri-simeonovsko-sho",
-      "published": "2026-11-22T04:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Man found dead on Flinders Island believed to have been shot by officer, police say",
@@ -685,23 +325,383 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Victorian Greens win injunction over how-to-vote cards mimicking party’s branding but preferencing it last",
-      "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan’s cards instructed people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens have won a supreme court injunction to stop an i",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
-      "published": "2026-11-22T02:08:49+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
+      "source": "BBC News – Свят",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T00:10:44+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 38
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-      "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
-      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T01:25:03+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 21st, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
+      "published": "2026-11-21T17:00:26+00:00",
+      "feed_id": "euronews",
+      "priority_score": 37
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
+      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
+      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
+      "published": "2026-11-21T16:26:21+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 43
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU and Indonesia sign trade deal",
+      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
+      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T15:21:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 51
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "Димитър Радев: ЕЦБ трябва да е готова за ново повишение на лихвите",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439888-dimitar-radev-etsb-tryabva-da-e-gotova-za-novo-povishenie-na-lihvite",
+      "published": "2026-11-21T14:45:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
+      "published": "2026-11-21T14:30:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 44
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
+      "published": "2026-11-21T12:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Колко болнични ползват работещите в Европа и колко струва това на икономиката?",
+      "summary": "Средностатистическият европеец отсъства от работа близо три седмици годишно заради здравословни проблеми, показва нов доклад, цитиран от euronews. Това се равнява на около 6% от потенциалното работно време в Европейския съюз (ЕС) и води до загуби от приблизите",
+      "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
+      "published": "2026-11-21T11:35:11+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
+      "published": "2026-11-21T11:28:47+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 41
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Costa cuts proposed EU budget by €44B",
+      "summary": "Brussels plans a tax on Big Tech to raise billions for the next budget cycle.",
+      "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-21T10:44:05+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 36
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Multiannual Financial Framework - President Costa’s proposal",
+      "summary": "President of the European Council, António Costa, presented his proposal to reach an agreement on the 2028-2034 Multiannual Financial Framework during a press conference on 21 November 2026.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
+      "published": "2026-11-21T10:43:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 36
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Дезинфлационната стратегия на Фед е обречена на провал",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
+      "published": "2026-11-21T10:30:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Швейцария продължава дебата за неутралитета си с гласуване за износа на оръжия",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439881-shveytsariya-prodalzhava-debata-za-neutraliteta-si-s-glasuvane-za-iznosa-na-orazhiya",
+      "published": "2026-11-21T10:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Социалните разходи изпреварват икономиката",
+      "summary": "Разходите за пенсии и социални помощи растат много по-бързо от икономиката. Данъчните постъпления и приходите от осигуровки също се увеличават, но не успяват да догонят плащанията. По темата е и новият одит на Сметната палата за социалните плащания през период",
+      "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
+      "published": "2026-11-21T08:00:03+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 51
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 39
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "EU and Indonesia sign ambitious trade and investment agreements",
+      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
+      "published": "2026-11-20T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "priority_score": 44
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "UK will take its time setting out Brexit options, says minister",
+      "summary": "Hamish Falconer tells POLITICO that discussions around the topic had proved “divisive” and were important to get right.",
+      "url": "https://www.politico.eu/article/uk-brexit-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T17:50:49+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 33
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Andy Burnham discovers nothing in Brussels is ever easy",
+      "summary": "Britain’s prime minister is banking on a ‘brainstorm’ to decide Britain’s future with the EU. He just has to get through the spin wars first.",
+      "url": "https://www.politico.eu/article/andy-burnham-eu-uk-summit-reset-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T17:00:51+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 33
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "France and Germany complete political deal for ECB leadership",
+      "summary": "Paris’ new market-operations portfolio at the European Central Bank could become pivotal in a French debt crisis.",
+      "url": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T16:50:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 38
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
+      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
+      "published": "2026-11-20T16:10:40+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 40
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
+      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
+      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
+      "published": "2026-11-20T15:45:35+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 45
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+      "published": "2026-11-20T15:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 41
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Spotlight on trade fundamentals at annual WTO student event",
+      "summary": "Over 200 students joined policymakers, executives and thought leaders on 18 November at the WTO to discuss trade fundamentals at the WTO's annual student-only event on trade, titled WTO 101: Trade Rules!. Now in its third year, the event saw spirited discussio",
+      "url": "https://www.wto.org/english/news_e/news26_e/stud_19nov26_558_e.htm",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 34
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Panama submits request to join Expansion of the Information Technology Agreement",
+      "summary": "Panama has submitted a request to join the 2015 Expansion of the Information Technology Agreement (ITA II), the Chair of the Committee of Participants on the Expansion of Trade in Information Technology Products, Mr Shih-Chun Weng of Chinese Taipei, informed m",
+      "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 29
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Applications open for WIPO-WTO Executive Programme on Intellectual Property Issues",
+      "summary": "The Secretariat of the World Intellectual Property Organization (WIPO) and the Secretariat of the World Trade Organization (WTO) are now accepting applications for the WIPO-WTO Executive Programme on Intellectual Property Issues for Senior Government Officials",
+      "url": "https://www.wto.org/english/news_e/news26_e/trip_19nov26_557_e.htm",
+      "published": "2026-11-19T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 34
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Annual inflation up to 4.0% in the euro area",
+      "summary": "The euro area annual inflation rate was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.1%. European Union annual inflation was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.5%. These figures ar",
+      "url": "https://ec.europa.eu/eurostat/product?code=2-18112026-ap",
+      "published": "2026-11-18T10:00:00+00:00",
+      "feed_id": "eurostat-news",
+      "priority_score": 27
+    },
+    {
+      "section": "europe",
+      "source": "Европейска централна банка",
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+      "published": "2026-11-18T09:00:00+00:00",
+      "feed_id": "ecb-press",
+      "priority_score": 34
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Trade Policy Review: Peru",
+      "summary": "The sixth review of the trade policies and practices of Peru takes place on 18 and 20 November 2026. The basis for the review is a report by the WTO Secretariat and a report by the Government of Peru.",
+      "url": "https://www.wto.org/english/tratop_e/tpr_e/tpr_per_18nov26_e.htm",
+      "published": "2026-11-18T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 32
+    },
+    {
+      "section": "europe",
+      "source": "Bank for International Settlements (BIS)",
+      "title": "Basel Committee discusses risks and vulnerabilities faced by global banking system",
+      "summary": "The Basel Committee on Banking Supervision met in Basel on 18 November 2026 to discuss a range of analytical, supervisory and regulatory initiatives.",
+      "url": "https://www.bis.org/media-releases/20261118-basel-committee-discusses-risks-and-vulnerabilities-faced-global-banking-system",
+      "published": "2026-11-18T00:00:00+00:00",
+      "feed_id": "bis-press",
+      "priority_score": 27
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "New trade-restrictive measures surge but WTO members step up trade facilitation efforts",
+      "summary": "The pace of newly-introduced tariffs and other non-facilitating measures rose sharply in the first half of 2026, while the stockpile of such measures reached a record level, according to the WTO Director-General's latest annual overview of developments in the",
+      "url": "https://www.wto.org/english/news_e/news26_e/tmwto_17nov26_552_e.htm",
+      "published": "2026-11-17T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 37
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Goods Council agrees to modernize notification reporting, reviews trade concerns",
+      "summary": "The WTO's Council for Trade in Goods (CTG) adopted a decision to improve annual reporting on notifications and the WTO Notifications Portal. It also reviewed an updated Secretariat report indicating that 35% of the 241 trade concerns raised in the Council betw",
+      "url": "https://www.wto.org/english/news_e/news26_e/good_16nov26_556_e.htm",
+      "published": "2026-11-16T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 32
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "DDG Nordquist: Global trade is adapting, not retreating",
+      "summary": "Global trade has demonstrated remarkable resilience despite geopolitical tensions, supply chain disruptions and trade restrictions, with businesses adapting through diversification and new trading partnerships, Deputy Director-General DJ Nordquist said at the",
+      "url": "https://www.wto.org/english/news_e/news26_e/ddgjn_16nov26_555_e.htm",
+      "published": "2026-11-16T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 27
+    },
+    {
+      "section": "europe",
+      "source": "ООН – Женева",
+      "title": "Committee on Economic, Social and Cultural Rights Concludes Eightieth Session after Adopting Concluding Observations on Reports of Austria, Eswatini, Mexico and Pakistan",
+      "summary": "The Committee on Economic, Social and Cultural Rights this afternoon concluded its eightieth session after adopting concluding observations on the reports of Austria, Eswatini, Mexico and Pakistan under the International Covenant on Economic, Social and Cultur",
+      "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/11/le-comite-des-droits-economiques-sociaux-et-culturels-acheve-sa",
+      "published": "2026-11-13T17:48:28+00:00",
+      "feed_id": "un-geneva-press",
+      "priority_score": 24
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "GDP up by 0.4% and employment stable in the euro area",
+      "summary": "In the third quarter of 2026, seasonally adjusted GDP increased by 0.4% in the euro area and by 0.5% in the EU, compared with the previous quarter, according to a flash estimate published by Eurostat, the statistical office of the European Union. In the second",
+      "url": "https://ec.europa.eu/eurostat/product?code=2-13112026-ap",
+      "published": "2026-11-13T10:00:00+00:00",
+      "feed_id": "eurostat-news",
+      "priority_score": 32
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Euro area international trade in goods deficit €10.3 bn",
+      "summary": "The first estimates of euro area balance showed a €10.3 bn deficit in trade in goods with the rest of the world in September 2026, compared with a surplus of €13.5 bn in September 2025.",
+      "url": "https://ec.europa.eu/eurostat/product?code=6-13112026-bp",
+      "published": "2026-11-13T10:00:00+00:00",
+      "feed_id": "eurostat-news",
+      "priority_score": 27
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Ireland contributes EUR 200,000 to strengthen trade opportunities in developing countries",
+      "summary": "Ireland is contributing EUR 200,000 (approximately CHF 185,000) to the Standards and Trade Development Facility (STDF) in 2026 to strengthen sanitary and phytosanitary capacity in developing and least-developed countries. The contribution will support STDF act",
+      "url": "https://www.wto.org/english/news_e/pres26_e/pr998_551_e.htm",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "priority_score": 27
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+      "published": "2026-11-12T18:30:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 32
+    },
+    {
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "published": "2026-11-12T16:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "priority_score": 27
     }
   ],
   "feed_status": {
