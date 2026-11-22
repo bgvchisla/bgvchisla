@@ -51,6 +51,8 @@ try {
         headingRect: rect(".page-heading"),
         headingRowRect: rect(".page-heading-row"),
         ctaRect: rect(".analysis-hero-cta"),
+        headingGap: rect(".analysis-hero-cta") && rect(".page-heading")
+          ? rect(".analysis-hero-cta").y - rect(".page-heading").bottom : null,
         cssLoaded: !!css?.sheet,
       };
     });
@@ -72,6 +74,10 @@ try {
         viewport.name + ": analysis CTA is not full-width");
       assert.ok(metrics.ctaRect.y >= metrics.headingRect.bottom - 1,
         viewport.name + ": analysis CTA is not below the heading");
+      assert.ok(metrics.headingRect.height <= 110,
+        viewport.name + ": mobile heading retained an oversized flex height");
+      assert.ok(metrics.headingGap >= 0 && metrics.headingGap <= 24,
+        viewport.name + ": excessive vertical gap between heading and analysis CTA (" + metrics.headingGap + "px)");
       const ariaState = await page.locator("#site-content nav#nav button[data-i]").evaluateAll(buttons =>
         buttons.every(button => {
           const pressed = button.getAttribute("aria-pressed");
