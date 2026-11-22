@@ -41,6 +41,8 @@ jobs:
         run: python scripts/update_nssi_pensions.py
       - name: Commit updated dataset
         id: save
+        env:
+          GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}
         run: |
           git add -f official_nssi.json
           if git diff --cached --quiet -- official_nssi.json; then
