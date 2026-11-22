@@ -115,6 +115,24 @@ try {
         "390px: mobile news panel did not become visible after selecting News");
     }
 
+    const articleUrl = new URL("analizi/budget-2027/", SITE_URL).toString();
+    const articleResponse = await page.goto(articleUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
+    assert.ok(articleResponse && articleResponse.ok(), viewport.name + ": article page did not load");
+    const articleMetrics = await page.evaluate(() => ({
+      innerWidth: window.innerWidth,
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      titleVisible: !!document.querySelector("article h1") || !!document.querySelector("h1"),
+      sourceCount: document.querySelectorAll(".source-list li").length,
+      articleWidth: document.querySelector("article")?.getBoundingClientRect().width ?? 0,
+    }));
+    assert.equal(articleMetrics.clientWidth, viewport.width,
+      viewport.name + ": article viewport width mismatch");
+    assert.ok(articleMetrics.scrollWidth <= articleMetrics.clientWidth + 1,
+      viewport.name + ": article has horizontal overflow");
+    assert.ok(articleMetrics.titleVisible, viewport.name + ": article title is missing");
+    assert.ok(articleMetrics.sourceCount >= 8, viewport.name + ": article source list is incomplete");
+
     assert.equal(pageErrors.length, 0,
       viewport.name + ": uncaught browser errors: " + pageErrors.join("; "));
     console.log(JSON.stringify({
@@ -130,6 +148,7 @@ try {
       ctaRect: metrics.ctaRect,
       cssLoaded: metrics.cssLoaded,
       navButtons: metrics.navButtonCount,
+      article: articleMetrics,
       pageErrors,
     }));
     await context.close();
