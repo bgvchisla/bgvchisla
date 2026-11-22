@@ -29,11 +29,21 @@ on:
       - "PROJECT_HANDOVER.md"
       - ".github/workflows/update-news.yml"
   workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Internal automated PR number"
+        required: false
+        type: string
+      expected_sha:
+        description: "Exact commit SHA to approve after audit"
+        required: false
+        type: string
   pull_request:
     branches: [main]
 
 permissions:
   contents: read
+  statuses: write
 
 concurrency:
   group: audit-editorial-evidence-${{ github.ref }}
@@ -134,3 +144,57 @@ jobs:
           assert spent <= config.get("monthly_budget_usd", 0), "Monthly analysis budget exceeded."
           print(f"Проверка на бюджетния регистър: {calls} заявки; {spent:.6f} USD; в зададените лимити.")
           PY
+
+      - name: Record machine approval only for a validated internal automation PR
+        if: >-
+          success() &&
+          (
+            (
+              github.event_name == 'pull_request' &&
+              github.event.pull_request.head.repo.full_name == github.repository &&
+              (
+                startsWith(github.head_ref, 'analysis/auto-') ||
+                startsWith(github.head_ref, 'automation/full-auto-editorial-pipeline-')
+              )
+            ) ||
+            (
+              github.event_name == 'workflow_dispatch' &&
+              inputs.pr_number != '' &&
+              inputs.expected_sha != '' &&
+              (
+                startsWith(github.ref_name, 'analysis/auto-') ||
+                startsWith(github.ref_name, 'automation/full-auto-editorial-pipeline-')
+              )
+            )
+          )
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          EVENT_NAME: ${{ github.event_name }}
+          PR_NUMBER: ${{ inputs.pr_number || github.event.pull_request.number }}
+          EXPECTED_SHA: ${{ inputs.expected_sha || github.event.pull_request.head.sha || github.sha }}
+          HEAD_BRANCH: ${{ github.head_ref || github.ref_name }}
+          HEAD_REPOSITORY: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+        run: |
+          set -euo pipefail
+          # The independent audit above must finish successfully before this step runs.
+          # Only exact in-repository automation branches may receive the machine status.
+          case "$HEAD_BRANCH" in
+            analysis/auto-*|automation/full-auto-editorial-pipeline-*) ;;
+            *) echo "No automatic editorial approval for this branch."; exit 0 ;;
+          esac
+          test "$HEAD_REPOSITORY" = "$REPOSITORY"
+
+          PR_JSON="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+          test "$(jq -r '.state' <<<"$PR_JSON")" = "open"
+          test "$(jq -r '.base.ref' <<<"$PR_JSON")" = "main"
+          test "$(jq -r '.head.ref' <<<"$PR_JSON")" = "$HEAD_BRANCH"
+          test "$(jq -r '.head.repo.full_name // empty' <<<"$PR_JSON")" = "$REPOSITORY"
+          test "$(jq -r '.head.sha' <<<"$PR_JSON")" = "$EXPECTED_SHA"
+          test "$(jq -r '.draft' <<<"$PR_JSON")" = "false"
+          test "$(jq -r '.mergeable' <<<"$PR_JSON")" = "true"
+
+          STATUS_RESULT="$(gh api --method POST "repos/$REPOSITORY/statuses/$EXPECTED_SHA" -f state=success -f context=editorial-approval -f description="Independent audit passed; internal automation PR validated for exact SHA" -f target_url="$GITHUB_SERVER_URL/$REPOSITORY/actions/runs/$GITHUB_RUN_ID")"
+          test "$(jq -r '.context' <<<"$STATUS_RESULT")" = "editorial-approval"
+          test "$(jq -r '.state' <<<"$STATUS_RESULT")" = "success"
+          echo "Machine editorial approval recorded for $EXPECTED_SHA after a successful audit."

@@ -94,10 +94,14 @@ class AutomatedWriterSecurityTests(unittest.TestCase):
             self.assertNotIn(f'"{output_file}"', push_section)
         self.assertIn("pages deploy public --project-name=bgvchisla --branch=main", source)
 
-    def test_editorial_merge_still_dispatches_the_same_production_pipeline(self):
-        source = (ROOT / ".github/workflows/approve-analysis.yml").read_text(encoding="utf-8")
+    def test_editorial_merge_dispatches_production_after_automated_approval(self):
+        source = (ROOT / ".github/workflows/generate-analyses.yml").read_text(encoding="utf-8")
+        self.assertIn('select(.context == "editorial-approval")', source)
+        self.assertIn("gh api --method PUT", source)
         self.assertIn("gh workflow run deploy-production.yml", source)
-        self.assertIn("github.actor == 'bgvchisla'", source)
+        self.assertLess(source.index("gh api --method PUT"), source.index("gh workflow run deploy-production.yml"))
+        self.assertNotIn("/approve", source)
+        self.assertFalse((ROOT / ".github/workflows/approve-analysis.yml").exists())
 
 
 if __name__ == "__main__":
