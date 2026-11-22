@@ -179,8 +179,18 @@ def publisher_key(value):
 def _context_category(title, summary):
     body = (title + " " + summary).casefold()
 
-    # Самото споменаване на ЕЦБ не е достатъчно. Нужна е тема за лихвите
-    # или паричната политика, а не например новина за кадрово назначение.
+    # Енергиен пазар: нужен е едновременно европейски обхват и енергийна тема.
+    europe_scope = any(term_match(body, term) for term in (
+        "европа", "европей", "eu", "europe", "european union",
+    ))
+    energy_topic = (
+        any(term_match(body, term) for term in ("енерг", "energy"))
+        and any(term_match(body, term) for term in ("пазар", "market"))
+    )
+    if europe_scope and energy_topic:
+        return "Енергиен пазар на ЕС", 38
+
+    # ЕЦБ: самото споменаване на институцията не е достатъчно.
     ecb_mentioned = any(term_match(body, term) for term in (
         "ецб", "европейска централна банка", "ecb",
     ))
@@ -191,13 +201,20 @@ def _context_category(title, summary):
     if ecb_mentioned and rate_topic:
         return "Парична политика на ЕЦБ", 35
 
-    for label, score, terms in CONTEXT_RULES:
-        if any(term_match(body, term) for term in terms):
-            return label, score
-    # Инфлацията в еврозоната се представя в заглавия, където думите
-    # „инфлация“ и „еврозона“ не са непременно една до друга.
+    # Бюджет на ЕС: трябва да присъстват и ЕС, и бюджетна тема.
+    budget_topic = any(term_match(body, term) for term in (
+        "бюджет", "budget", "multiannual financial framework",
+        "long-term budget",
+    ))
+    if europe_scope and budget_topic:
+        return "Дългосрочен бюджет на ЕС", 32
+
+    # Еврозона: едновременно инфлация и географски обхват на еврозоната.
     if term_match(body, "inflation") and term_match(body, "euro area"):
         return "Инфлация в еврозоната", 29
+    if term_match(body, "инфлац") and term_match(body, "еврозон"):
+        return "Инфлация в еврозоната", 29
+
     return None
 
 def _is_recent(item, now, days):
