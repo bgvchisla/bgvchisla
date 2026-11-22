@@ -4,9 +4,6 @@ name: Deploy production to Cloudflare Pages
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Update institutional news feeds"]
-    types: [completed]
   push:
     branches: [main]
     paths:
@@ -16,19 +13,11 @@ on:
       - "privacy.html"
       - "sitemap.xml"
       - "advertise.html"
-      - "news.json"
-      - "source_status.json"
-      - "official_fiscal.json"
-      - "official_bnb.json"
-      - "official_nssi.json"
-      - "official_business_climate.json"
       - ".github/workflows/update-business-climate.yml"
       - "scripts/update_nssi_pensions.py"
       - ".github/workflows/update-nssi-pensions.yml"
       - "scripts/update_bnb_monetary.py"
-      - "economy.json"
       - "economy-charts.js"
-      - "data.json"
       - ".github/workflows/deploy-production.yml"
 
 permissions:
@@ -46,20 +35,6 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-
-      - name: Check whether the news refresh changed news.json
-        id: news_change
-        if: github.event_name == 'workflow_run'
-        env:
-          NEWS_REFRESH_BASE: ${{ github.event.workflow_run.head_sha }}
-        run: |
-          if git diff --quiet "$NEWS_REFRESH_BASE" HEAD -- news.json; then
-            echo "deploy=false" >> "$GITHUB_OUTPUT"
-            echo "No published news changes; skipping deployment."
-          else
-            echo "deploy=true" >> "$GITHUB_OUTPUT"
-            echo "news.json changed after the scheduled news refresh; deployment required."
-          fi
 
       - name: Validate data files
         run: |
@@ -82,7 +57,6 @@ jobs:
           cp -R analizi/. public/analizi/
 
       - name: Deploy production
-        if: github.event_name != 'workflow_run' || steps.news_change.outputs.deploy == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
