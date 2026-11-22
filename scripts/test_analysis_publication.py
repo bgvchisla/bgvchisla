@@ -81,7 +81,7 @@ class EditorialPublicationTests(unittest.TestCase):
             "gh pr create",
             "gh workflow run audit-analysis-evidence.yml",
             "select(.name == \"audit\")",
-            "context=editorial-approval",
+            'select(.context == "editorial-approval")',
             "gh api --method PUT",
             'sha="$EXPECTED_SHA"',
             "merge_method=squash",
