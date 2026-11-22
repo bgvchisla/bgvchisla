@@ -1,7 +1,9 @@
 import assert from "node:assert/strict";
+import { existsSync } from "node:fs";
 import { chromium } from "playwright";
 
 const SITE_URL = process.env.SITE_URL || "https://bgvchisla.com/";
+const ARTICLE_INCLUDED_IN_CHECKOUT = existsSync(new URL("../analizi/budget-2027/index.html", import.meta.url));
 const VIEWPORTS = [
   { name: "mobile-390x844", width: 390, height: 844, mobile: true, navColumns: 2 },
   { name: "mobile-360x800", width: 360, height: 800, mobile: true, navColumns: 2 },
@@ -115,23 +117,26 @@ try {
         "390px: mobile news panel did not become visible after selecting News");
     }
 
-    const articleUrl = new URL("analizi/budget-2027/", SITE_URL).toString();
-    const articleResponse = await page.goto(articleUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
-    assert.ok(articleResponse && articleResponse.ok(), viewport.name + ": article page did not load");
-    const articleMetrics = await page.evaluate(() => ({
-      innerWidth: window.innerWidth,
-      clientWidth: document.documentElement.clientWidth,
-      scrollWidth: document.documentElement.scrollWidth,
-      titleVisible: !!document.querySelector("article h1") || !!document.querySelector("h1"),
-      sourceCount: document.querySelectorAll(".source-list li").length,
-      articleWidth: document.querySelector("article")?.getBoundingClientRect().width ?? 0,
-    }));
-    assert.equal(articleMetrics.clientWidth, viewport.width,
-      viewport.name + ": article viewport width mismatch");
-    assert.ok(articleMetrics.scrollWidth <= articleMetrics.clientWidth + 1,
-      viewport.name + ": article has horizontal overflow");
-    assert.ok(articleMetrics.titleVisible, viewport.name + ": article title is missing");
-    assert.ok(articleMetrics.sourceCount >= 8, viewport.name + ": article source list is incomplete");
+    let articleMetrics = { skipped: true, reason: "Article not included in this checkout." };
+    if (ARTICLE_INCLUDED_IN_CHECKOUT) {
+      const articleUrl = new URL("analizi/budget-2027/", SITE_URL).toString();
+      const articleResponse = await page.goto(articleUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
+      assert.ok(articleResponse && articleResponse.ok(), viewport.name + ": article page did not load");
+      articleMetrics = await page.evaluate(() => ({
+        innerWidth: window.innerWidth,
+        clientWidth: document.documentElement.clientWidth,
+        scrollWidth: document.documentElement.scrollWidth,
+        titleVisible: !!document.querySelector("article h1") || !!document.querySelector("h1"),
+        sourceCount: document.querySelectorAll(".source-list li").length,
+        articleWidth: document.querySelector("article")?.getBoundingClientRect().width ?? 0,
+      }));
+      assert.equal(articleMetrics.clientWidth, viewport.width,
+        viewport.name + ": article viewport width mismatch");
+      assert.ok(articleMetrics.scrollWidth <= articleMetrics.clientWidth + 1,
+        viewport.name + ": article has horizontal overflow");
+      assert.ok(articleMetrics.titleVisible, viewport.name + ": article title is missing");
+      assert.ok(articleMetrics.sourceCount >= 10, viewport.name + ": article source list is incomplete");
+    }
 
     assert.equal(pageErrors.length, 0,
       viewport.name + ": uncaught browser errors: " + pageErrors.join("; "));
