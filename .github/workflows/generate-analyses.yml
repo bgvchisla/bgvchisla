@@ -1,4 +1,4 @@
-name: Generate weekly editorial analysis drafts
+name: Generate and publish weekly editorial analyses
 
 on:
   schedule:
@@ -15,123 +15,349 @@ on:
       mode:
         description: "Режим"
         required: true
-        default: "dry-run"
+        default: "preflight"
         type: choice
-        options: [dry-run, draft]
+        options: [preflight, publish]
 
 permissions:
   contents: write
   pull-requests: write
   actions: write
+  checks: read
+  statuses: write
 
 concurrency:
   group: editorial-analysis
   cancel-in-progress: false
 
 jobs:
-  generate:
+  generate-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout current production baseline
+        uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Decompress checked-in generator
-        run: gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
-      - name: Apply checked editorial evidence selector
-        run: python scripts/patch_analysis_evidence.py
-      - name: Compile generator and evidence selector
-        run: python -m py_compile scripts/generate_analysis.py scripts/analysis_evidence.py
-      - name: Resolve editorial lane
-        id: lane
+
+      - name: Prepare generator and strict evidence selector
+        run: |
+          set -euo pipefail
+          gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
+          python scripts/patch_analysis_evidence.py
+          python -m py_compile scripts/generate_analysis.py scripts/analysis_evidence.py
+
+      - name: Resolve scheduled lane and execution mode
+        id: plan
         env:
           EVENT_NAME: ${{ github.event_name }}
           SCHEDULE: ${{ github.event.schedule }}
           MANUAL_LANE: ${{ inputs.lane }}
-        run: |
-          if [ "$EVENT_NAME" = "schedule" ]; then
-            if [ "$SCHEDULE" = "0 7 * * 2" ]; then LANE="bulgaria"; else LANE="world"; fi
-          else
-            LANE="${MANUAL_LANE:-bulgaria}"
-          fi
-          echo "lane=$LANE" >> "$GITHUB_OUTPUT"
-      - name: Free evidence and budget preflight
-        run: python scripts/generate_analysis.py --lane "${{ steps.lane.outputs.lane }}" --dry-run
-      - name: Check explicit paid auto-draft switch and API secret
-        id: api
-        env:
-          API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          AUTO_DRAFT_ENABLED: ${{ vars.ANALYSES_AUTODRAFT_ENABLED }}
-          EVENT_NAME: ${{ github.event_name }}
           MANUAL_MODE: ${{ inputs.mode }}
         run: |
-          REQUESTED_DRAFT=false
-          if [ "$EVENT_NAME" = "schedule" ] || [ "$MANUAL_MODE" = "draft" ]; then
-            REQUESTED_DRAFT=true
-          fi
-          if [ "$REQUESTED_DRAFT" != "true" ]; then
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "Dry-run selected. No paid model call will run."
-          elif [ -z "$API_KEY" ]; then
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "OPENAI_API_KEY is not configured. No paid model call will run."
-          elif [ "$AUTO_DRAFT_ENABLED" != "true" ]; then
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "ANALYSES_AUTODRAFT_ENABLED is not true. Paid draft generation remains disabled."
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            case "$SCHEDULE" in
+              "0 7 * * 2") LANE="bulgaria" ;;
+              "0 7 * * 5") LANE="world" ;;
+              *) echo "::error::Unknown schedule: $SCHEDULE"; exit 1 ;;
+            esac
+            MODE="publish"
           else
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-            echo "Paid generation is enabled for a review-only pull request. Direct publication is disabled."
+            LANE="${MANUAL_LANE:-bulgaria}"
+            MODE="${MANUAL_MODE:-preflight}"
           fi
-      - name: Generate and validate article draft
-        if: steps.api.outputs.enabled == 'true'
+          echo "lane=$LANE" >> "$GITHUB_OUTPUT"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+
+      - name: Capture article registry before generation
+        if: steps.plan.outputs.mode == 'publish'
+        run: cp analizi/articles.json /tmp/articles-before.json
+
+      - name: Free evidence and budget preflight
+        run: python scripts/generate_analysis.py --lane "${{ steps.plan.outputs.lane }}" --dry-run
+
+      - name: Require API key for scheduled publication
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$API_KEY" ]; then
+            echo "::error::Липсва Repository Secret OPENAI_API_KEY. Няма да се генерира или публикува материал."
+            exit 1
+          fi
+
+      - name: Generate the analysis with GPT-6 Luna
+        id: generation
+        if: steps.plan.outputs.mode == 'publish'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python scripts/generate_analysis.py --lane "${{ steps.lane.outputs.lane }}"
-      - name: Open a review pull request instead of writing to main
-        if: steps.api.outputs.enabled == 'true'
+          LANE: ${{ steps.plan.outputs.lane }}
+        run: |
+          set -euo pipefail
+          python scripts/generate_analysis.py --lane "$LANE"
+
+      - name: Validate the new article, its sources and its design
+        id: article
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          LANE: ${{ steps.plan.outputs.lane }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import html, json, os, re
+          from pathlib import Path
+
+          before = json.loads(Path("/tmp/articles-before.json").read_text(encoding="utf-8"))
+          rows = json.loads(Path("analizi/articles.json").read_text(encoding="utf-8"))
+          old = {str(x.get("slug", "")) for x in before}
+          lane = os.environ["LANE"]
+          new = [x for x in rows if str(x.get("slug", "")) not in old and x.get("lane") == lane]
+          if len(new) != 1:
+              raise SystemExit(f"Очаква се точно един нов анализ за {lane}; намерени: {len(new)}.")
+          row = new[0]
+          slug = str(row.get("slug", ""))
+          if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
+              raise SystemExit("Невалиден slug.")
+          urls = row.get("source_urls", [])
+          if len(urls) < 4 or any(not str(u).startswith("https://") for u in urls):
+              raise SystemExit("Недостатъчни или незащитени първоизточници.")
+          path = Path("analizi") / slug / "index.html"
+          if not path.is_file():
+              raise SystemExit(f"Липсва HTML страницата: {path}")
+          page = path.read_text(encoding="utf-8")
+          for token in (
+              '<html lang="bg">',
+              f'<link rel="canonical" href="https://bgvchisla.com/analizi/{slug}/">',
+              'property="og:title"', 'property="og:description"', "<h1>", "<article>",
+              "--navy:#24384f", "--blue:#315f91", "--risk:#b64b45", "@media(max-width:640px)",
+          ):
+              if token not in page:
+                  raise SystemExit(f"Липсва задължителен HTML/SEO/design елемент: {token}")
+          match = re.search(r"<article>([\s\S]*?)</article>", page, flags=re.I)
+          if not match:
+              raise SystemExit("Липсва основното тяло на анализа.")
+          body = html.unescape(re.sub(r"<[^>]+>", " ", match.group(1)))
+          words = re.findall(r"[^\W_]+(?:[’'-][^\W_]+)*", body, flags=re.UNICODE)
+          if not 900 <= len(words) <= 1800:
+              raise SystemExit(f"Дължината е извън стандарта: {len(words)} думи.")
+          refs = set(re.findall(r'href="#source-(\d+)"', page))
+          notes = set(re.findall(r'<li id="source-(\d+)"', page))
+          if not refs or not refs.issubset(notes) or len(notes) < 4:
+              raise SystemExit("Препратките към първоизточниците са непълни.")
+          if f'href="/analizi/{slug}/"' not in Path("analizi/index.html").read_text(encoding="utf-8"):
+              raise SystemExit("Новият материал липсва от архива.")
+          if f"https://bgvchisla.com/analizi/{slug}/" not in Path("sitemap.xml").read_text(encoding="utf-8"):
+              raise SystemExit("Новият материал липсва от sitemap.xml.")
+          for char in ("\u2012", "\u2013", "\u2014", "\u2015"):
+              if char in page:
+                  raise SystemExit("Открито е забранено дълго тире.")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
+              out.write(f"slug={slug}\n")
+              out.write(f"title={row['title'].replace(chr(10), ' ').strip()}\n")
+              out.write(f"words={len(words)}\n")
+              out.write(f"sources={len(urls)}\n")
+          print(f"Проверен материал: {row['title']} | {len(words)} думи | {len(urls)} източника")
+          PY
+          python scripts/test_analysis_publication.py
+          python scripts/analysis_evidence.py --lane "$LANE"
+          git diff --check
+          python -m json.tool analizi/articles.json >/dev/null
+          python -m json.tool analysis/monthly_usage.json >/dev/null
+
+      - name: Create a technical PR for the generated revision
+        id: pr
+        if: steps.plan.outputs.mode == 'publish'
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
-          LANE: ${{ steps.lane.outputs.lane }}
+          LANE: ${{ steps.plan.outputs.lane }}
+          SLUG: ${{ steps.article.outputs.slug }}
+          TITLE: ${{ steps.article.outputs.title }}
+          WORDS: ${{ steps.article.outputs.words }}
+          SOURCES: ${{ steps.article.outputs.sources }}
         run: |
           set -euo pipefail
-          BRANCH="analysis/draft-${LANE}-$(date -u +%Y%m%d-%H%M%S)"
+          BRANCH="analysis/auto-${LANE}-$(date -u +%Y%m%d-%H%M%S)"
+          git switch -c "$BRANCH"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git switch -c "$BRANCH"
           git add analizi sitemap.xml analysis/monthly_usage.json
           if git diff --cached --quiet; then
-            echo "No validated article or archive changes were produced."
-            exit 0
+            echo "::error::Няма промени за публикуване."
+            exit 1
           fi
-          git commit -m "Draft editorial analysis for review"
+          git commit -m "Publish automated editorial analysis: $SLUG"
           git push --set-upstream origin "$BRANCH"
-          if [ "$LANE" = "bulgaria" ]; then
-            TITLE="Чернова: авторски анализ за България"
-          else
-            TITLE="Чернова: световна икономика и финансови пазари"
-          fi
-          cat > /tmp/pr-body.md <<'EOF'
-          ## Автоматично подготвена редакционна чернова
+          cat > /tmp/pr-body.md <<EOF
+          ## Автоматично генериран редакционен анализ
 
-          Този PR е етап за преглед и редакция. Той **не публикува** материала при създаването си.
+          - Направление: **$LANE**
+          - Заглавие: **$TITLE**
+          - Дължина: **$WORDS думи**
+          - Първоизточници: **$SOURCES**
+          - Страница: https://bgvchisla.com/analizi/$SLUG/
 
-          - Доказателствената база е преминала безплатния предварителен подбор.
-          - Текстът и източниците са записани в отделен branch.
-          - Всеки commit по PR трябва да премине проверката `audit`.
-          - Редакторът може да редактира файловете директно в този PR; проверките се изпълняват отново.
-
-          **Публикуване:** след преглед напиши точно `/approve` в дискусията на този PR от собственика на хранилището. Workflow ще провери, че PR е към `main`, че branch-ът е редакционна чернова и че `audit` е успешно за точния commit. Едва тогава ще слее PR и ще стартира production deployment.
-
-          Не използвай директен merge, ако искаш да се изпълни автоматичната проверка за одобрение.
+          PR е техническа контролна точка. След успешен независим audit workflow-ът автоматично удостоверява точния commit, слива го и публикува сайта. Човешко одобрение не се изисква.
           EOF
-          PR_URL="$(gh pr create --repo "$REPOSITORY" --base main --head "$BRANCH" --title "$TITLE" --body-file /tmp/pr-body.md)"
-          echo "Review PR created: $PR_URL"
-          # Pull requests created with GITHUB_TOKEN do not automatically trigger pull_request workflows.
-          # Dispatch the audit explicitly for this exact branch so its check is attached to the PR head SHA.
-          gh workflow run audit-analysis-evidence.yml --repo "$REPOSITORY" --ref "$BRANCH"
-          echo "Dispatched audit for $BRANCH"
+          PR_URL="$(gh pr create --repo "$REPOSITORY" --base main --head "$BRANCH" --title "Автоматичен анализ: $TITLE" --body-file /tmp/pr-body.md)"
+          PR_NUMBER="$(gh pr view "$PR_URL" --repo "$REPOSITORY" --json number --jq .number)"
+          HEAD_SHA="$(git rev-parse HEAD)"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+          echo "number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$HEAD_SHA" >> "$GITHUB_OUTPUT"
+          echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
+
+      - name: Dispatch the independent audit for the exact PR commit
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          BRANCH: ${{ steps.pr.outputs.branch }}
+        run: gh workflow run audit-analysis-evidence.yml --repo "$REPOSITORY" --ref "$BRANCH"
+
+      - name: Wait for the audit check and block on any failure
+        id: audit
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          EXPECTED_SHA: ${{ steps.pr.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 60); do
+            PR_JSON="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+            CURRENT_SHA="$(jq -r '.head.sha' <<<"$PR_JSON")"
+            if [ "$CURRENT_SHA" != "$EXPECTED_SHA" ]; then
+              echo "::error::PR commit-ът е променен по време на проверката."
+              exit 1
+            fi
+            CHECKS="$(gh api "repos/$REPOSITORY/commits/$EXPECTED_SHA/check-runs?per_page=100")"
+            AUDIT="$(jq -r '[.check_runs[] | select(.name == "audit") | select(.app.slug == "github-actions") | {status, conclusion, time:(.completed_at // .started_at // .created_at)}] | sort_by(.time) | last | [.status, (.conclusion // "")] | @tsv' <<<"$CHECKS")"
+            STATUS="$(cut -f1 <<<"$AUDIT")"
+            CONCLUSION="$(cut -f2 <<<"$AUDIT")"
+            if [ "$STATUS" = "completed" ]; then
+              if [ "$CONCLUSION" = "success" ]; then
+                echo "audit_result=success" >> "$GITHUB_OUTPUT"
+                echo "Независимият audit е успешен за $EXPECTED_SHA."
+                exit 0
+              fi
+              echo "::error::Audit приключи с резултат '$CONCLUSION'. Публикацията е блокирана."
+              exit 1
+            fi
+            echo "Изчакване на audit: $attempt/60."
+            sleep 15
+          done
+          echo "::error::Audit не завърши в рамките на 15 минути."
+          exit 1
+
+      - name: Verify PR state and record machine editorial approval
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          EXPECTED_SHA: ${{ steps.pr.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          PR_JSON="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+          test "$(jq -r '.state' <<<"$PR_JSON")" = "open"
+          test "$(jq -r '.base.ref' <<<"$PR_JSON")" = "main"
+          test "$(jq -r '.head.sha' <<<"$PR_JSON")" = "$EXPECTED_SHA"
+          test "$(jq -r '.draft' <<<"$PR_JSON")" = "false"
+          test "$(jq -r '.mergeable' <<<"$PR_JSON")" = "true"
+          test "$(jq -r '.head.repo.full_name // empty' <<<"$PR_JSON")" = "$REPOSITORY"
+          STATUS_RESULT="$(gh api --method POST "repos/$REPOSITORY/statuses/$EXPECTED_SHA" -f state=success -f context=editorial-approval -f description="Automated editorial checks passed for this exact revision" -f target_url="$GITHUB_SERVER_URL/$REPOSITORY/actions/runs/$GITHUB_RUN_ID")"
+          test "$(jq -r '.context' <<<"$STATUS_RESULT")" = "editorial-approval"
+          test "$(jq -r '.state' <<<"$STATUS_RESULT")" = "success"
+
+      - name: Merge only the audited commit
+        id: merge
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          EXPECTED_SHA: ${{ steps.pr.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          RESULT="$(gh api --method PUT "repos/$REPOSITORY/pulls/$PR_NUMBER/merge" -f sha="$EXPECTED_SHA" -f merge_method=squash)"
+          test "$(jq -r '.merged' <<<"$RESULT")" = "true"
+          SHA="$(jq -r '.sha' <<<"$RESULT")"
+          echo "merge_sha=$SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Start production deployment
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
+
+      - name: Wait for successful Cloudflare Pages deployment
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          MERGE_SHA: ${{ steps.merge.outputs.merge_sha }}
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 60); do
+            RUNS="$(gh run list --repo "$REPOSITORY" --workflow deploy-production.yml --branch main --event workflow_dispatch --limit 20 --json databaseId,headSha,status,conclusion)"
+            RUN="$(jq -c --arg sha "$MERGE_SHA" '[.[] | select(.headSha == $sha)] | first // empty' <<<"$RUNS")"
+            if [ -n "$RUN" ]; then
+              STATUS="$(jq -r '.status' <<<"$RUN")"
+              CONCLUSION="$(jq -r '.conclusion // empty' <<<"$RUN")"
+              if [ "$STATUS" = "completed" ]; then
+                if [ "$CONCLUSION" = "success" ]; then
+                  echo "Production deployment е потвърден."
+                  exit 0
+                fi
+                echo "::error::Production deployment приключи с '$CONCLUSION'."
+                exit 1
+              fi
+            fi
+            sleep 10
+          done
+          echo "::error::Няма потвърждение за production deployment в рамките на 10 минути."
+          exit 1
+
+      - name: Write the execution report
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+          LANE: ${{ steps.plan.outputs.lane }}
+          MODE: ${{ steps.plan.outputs.mode }}
+          ARTICLE_TITLE: ${{ steps.article.outputs.title }}
+          ARTICLE_SLUG: ${{ steps.article.outputs.slug }}
+          WORDS: ${{ steps.article.outputs.words }}
+          SOURCES: ${{ steps.article.outputs.sources }}
+          PR_URL: ${{ steps.pr.outputs.url }}
+        run: |
+          {
+            echo "## Седмичен редакционен анализ"
+            echo
+            echo "- Резултат: **$JOB_STATUS**"
+            echo "- Направление: **${LANE:-неопределено}**"
+            echo "- Режим: **${MODE:-неопределен}**"
+            if [ -n "$ARTICLE_TITLE" ]; then
+              echo "- Заглавие: **$ARTICLE_TITLE**"
+              echo "- Страница: https://bgvchisla.com/analizi/$ARTICLE_SLUG/"
+              echo "- Дължина: $WORDS думи; първоизточници: $SOURCES"
+            fi
+            if [ -n "$PR_URL" ]; then echo "- Контролен PR: $PR_URL"; fi
+            echo
+            if [ "$JOB_STATUS" = "success" ] && [ "$MODE" = "publish" ]; then
+              echo "**Публикацията и production deployment са потвърдени.**"
+            elif [ "$JOB_STATUS" = "success" ]; then
+              echo "Безплатният предварителен тест приключи; няма платена заявка или публикация."
+            else
+              echo "**Публикацията е блокирана.** Виж логовете на неуспешната стъпка."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
