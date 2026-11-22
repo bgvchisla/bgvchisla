@@ -40,6 +40,8 @@ jobs:
           python-version: "3.12"
       - name: Decompress checked-in generator
         run: gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
+      - name: Apply checked editorial evidence selector
+        run: python scripts/patch_analysis_evidence.py
       - name: Compile generator
         run: python -m py_compile scripts/generate_analysis.py
       - name: Resolve editorial lane
