@@ -1,16 +1,56 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:17:14.938905+00:00",
-  "last_checked_at": "2026-11-22T21:17:14.938910+00:00",
+  "updated_at": "2026-11-22T21:54:48.416086+00:00",
+  "last_checked_at": "2026-11-22T21:54:48.416090+00:00",
   "items": [
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Chris Bowen ‘frustrated’ by climate summit; countdown to pass key legislation begins",
+      "title": "Australian politics live: Labor to extend PBS medicine freeze to 2030; Bowen ‘failed’ on Cop, Hume says",
       "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-22T21:11:47+00:00",
+      "published": "2026-11-22T21:37:11+00:00",
       "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+      "summary": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia A Russian warship docked in the Libyan port city of Benghazi was struck in the early hours of Sunday in a suspected Ukrainian sea drone attack, causing a",
+      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+      "published": "2026-11-22T21:33:44+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Turkey: Thousands protest closure of critical media outlets",
+      "summary": "Protesters gathered in Istanbul to show their support for press freedom in Turkey. The protest was called just days after the police raided Sozcu TV and arrested several senior staff members.",
+      "url": "https://www.dw.com/en/turkey-thousands-protest-closure-of-critical-media-outlets/a-80015347?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T21:31:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Midterms: US Democrats secure biggest House majority in decades",
+      "summary": "Democrats have secured their largest US House of Representatives majority in more than three decades, dealing a crushing blow to President Donald Trump and setting the stage for two years of divided government, political confrontation and ambitious legislative",
+      "url": "https://www.euronews.com/2026/11/22/midterms-us-democrats-secure-biggest-house-majority-in-decades",
+      "published": "2026-11-22T21:29:39+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Miley Cyrus marries Maxx Morando in California ceremony",
+      "summary": "The couple have been together for four years and were engaged in 2025.",
+      "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T21:22:40+00:00",
+      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -94,16 +134,6 @@
       "priority_score": 0
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
-      "summary": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia A suspected Ukrainian drone attack caused an explosion on a Russian warship docked at the naval base in the Libyan port city of Benghazi, Libyan official",
-      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-      "published": "2026-11-22T18:50:56+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Първите осем фюжън биопсии на простатата бяха извършени в Университетската болница „Канев“ в Русе",
@@ -157,7 +187,7 @@
       "section": "europe",
       "source": "Euronews",
       "title": "Tanker incident “involving military forces” reported in Strait of Hormuz",
-      "summary": "Amid conflicting reports that an Iranian tanker departed Iran’s Kharg Island to Sunday to force the US military blockade in the Strait of Hormuz, an incident was reported near the US navy blockade line. Iran threatened that any US attempt to stop its tankers w",
+      "summary": "Amid conflicting reports that an Iranian tanker departed Iran’s Kharg Island on Sunday to force the US military blockade in the Strait of Hormuz, an incident was reported near the US navy blockade line. Iran threatened that any US attempt to stop its tankers w",
       "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz",
       "published": "2026-11-22T18:07:13+00:00",
       "feed_id": "euronews",
@@ -324,26 +354,6 @@
       "priority_score": 0
     },
     {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Cyprus expels Russian diplomats on suspicion of espionage",
-      "summary": "The two men were suspected of working for Russian intelligence services under diplomatic cover.",
-      "url": "https://www.politico.eu/article/cyprus-expels-russian-diplomats-on-suspicion-of-espionage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T15:56:12+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
-      "summary": "Burnt-out cars, damaged trucks and anti-Arab graffiti were discovered in four Palestinian villages in the Israeli-occupied West Bank on Sunday 22 November 2026, following overnight attacks blamed by local activists on Israeli settlers.",
-      "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks",
-      "published": "2026-11-22T15:52:31+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Чешката икономика е изправена пред стагфлационен шок, предупреди централен банкер",
@@ -400,16 +410,6 @@
       "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
       "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
       "published": "2026-11-22T11:00:00+00:00",
-      "feed_id": "euronews",
-      "priority_score": 42
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Tracking site says Iranian tanker reportedly sailing through Strait of Hormuz does not exist",
-      "summary": "The US military said Saturday marked 130 consecutive days of its naval blockade against Iran, which it says is preventing the Islamic Revolutionary Guard Corps from exporting \"billions of dollars in crude oil.\"",
-      "url": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi",
-      "published": "2026-11-22T09:54:50+00:00",
       "feed_id": "euronews",
       "priority_score": 42
     },
@@ -561,7 +561,7 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "published": "2026-11-20T15:00:00+00:00",
       "feed_id": "federal-reserve",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
