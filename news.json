@@ -1,8 +1,88 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:39:48.467774+00:00",
-  "last_checked_at": "2026-11-22T13:39:48.467778+00:00",
+  "updated_at": "2026-11-22T14:29:02.975743+00:00",
+  "last_checked_at": "2026-11-22T14:29:02.975747+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Директните полети между София и Рияд може да бъдат възстановени, обсъжда се нов жп коридор",
+      "summary": "",
+      "url": "https://www.investor.bg/a/523-transport-i-infrastruktura/439897-direktnite-poleti-mezhdu-sofiya-i-riyad-mozhe-da-badat-vazstanoveni-obsazhda-se-nov-zhp-koridor",
+      "published": "2026-11-22T14:28:35+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Възможностите за възстановяване на директната въздушна линия между София и Рияд обсъди министър Георги Пеев със саудитския си колега",
+      "summary": "Възможностите за възстановяване на директната въздушна линия между София и Рияд обсъди министърът на транспорта и съобщенията Георги Пеев на среща с министъра на транспорта и логистичните услуги на Саудитска Арабия Салех ал Джасер, съобщиха от Министерството н",
+      "url": "https://www.bta.bg/bg/news/economy/1251997-vazmozhnostite-za-vazstanovyavane-na-direktnata-vazdushna-liniya-mezhdu-sofiya-i",
+      "published": "2026-11-22T14:15:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Three killed and dozens missing after fire at Indonesian factory",
+      "summary": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T14:05:20+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Potty-mouthed MPs ranked as Australian parliament sets new swearing record",
+      "summary": "One serial sweary offender, Jacqui Lambie, says it wouldn’t be an Australian parliament ‘without a few swear words thrown in’ Want to get more charts in your inbox every fortnight? Sign up for The Crunch here When Liberal MP Garth Hamilton stormed out of parli",
+      "url": "https://www.theguardian.com/news/2026/nov/23/potty-mouthed-mps-ranked-as-australian-parliament-sets-new-swearing-record",
+      "published": "2026-11-22T14:00:32+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australia urged to wean off imported fossil fuels amid global supply shocks",
+      "summary": "Grattan Institute report calls on government to ‘seize’ opportunity to cap diesel tax credits, introduce EV subsidies for less wealthy’ and build ‘clean’ refineries Get our daily political email , free app or daily news podcast Capping lucrative diesel tax han",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/australia-urged-to-wean-off-imported-fossil-fuels-amid-global-supply-shocks",
+      "published": "2026-11-22T14:00:29+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 49
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "COP31 : l’accord capote sur fond de désaccord sur les énergies fossiles",
+      "summary": "Les négociations n’ont pas réussi à aboutir sur un accord malgré les avertissements concernant un réchauffement climatique galopant.",
+      "url": "https://www.politico.eu/article/cop31-laccord-capote-sur-fond-de-desaccord-sur-les-energies-fossiles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T13:54:46+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Притчата за безумния богаташ, съсредоточил се върху земното богатство, беше припомнена на миряните на неделните църковни служби",
+      "summary": "Притчата за безумния богаташ, който вместо да се замисли за смисъла на живота и неговия край, се съсредоточил върху земното си богатство и опазване на имотите, беше припомнена на миряните в 9 Неделя след Неделя подир Въздвижение. Светата литургия в катедралния",
+      "url": "https://www.bta.bg/bg/news/lik/1251987-pritchata-za-bezumniya-bogatash-sasredotochil-se-varhu-zemnoto-bogatstvo-beshe",
+      "published": "2026-11-22T13:51:50+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
+      "summary": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to highlight the environmental cost of the Iran war. Lewis",
+      "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
+      "published": "2026-11-22T13:36:01+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
     {
       "section": "europe",
       "source": "Deutsche Welle",
@@ -61,6 +141,16 @@
       "url": "https://www.politico.eu/article/climate-deal-collapses-amid-fossil-fuel-rows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T13:00:03+00:00",
       "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Cop31 climate talks break down as key deal rejected",
+      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ after two weeks of fierce negotiations • Cop31 live blog: longest climate summit ever faces collapse The EU, the UK and allies in the developing world rejected what they c",
+      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "published": "2026-11-22T12:54:41+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
@@ -154,26 +244,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Драматично-поетичният спектакъл „Ботевата любов“ ще бъде представен в Радомир",
-      "summary": "Спектакълът „Ботевата любов“ на Драматично-кукления театър (ДКТ) във Враца ще бъде представен на 1 декември от 18:00 часа в Народно читалище „Напредък 1895“ в Радомир, съобщиха домакините. В анотацията си създателите на спектакъла определят „Ботевата любов“ ка",
-      "url": "https://www.bta.bg/bg/news/lik/1251948-dramatichno-poetichniyat-spektakal-botevata-lyubov-shte-bade-predstaven-v-rado",
-      "published": "2026-11-22T12:16:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Светият синод ще се събере утре на извънредно заседание",
-      "summary": "Светият синод ще се събере утре, 23 ноември, на извънредно заседание, за да се уточни кога ще бъде опелото на Ловчанския митрополит Гавриил, каза пред медии българският патриарх Даниил. По думите му най-вероятно то ще е във вторник в Ловеч. Светият синод ще бъ",
-      "url": "https://www.bta.bg/bg/news/lik/1251943-svetiyat-sinod-shte-se-sabere-utre-na-izvanredno-zasedanie",
-      "published": "2026-11-22T12:13:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "South Korean minister quits after AI cheating scandal engulfs university exams",
@@ -235,23 +305,13 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Собствениците на ресторанти в Киев се готвят за тежка зима заради засиления натиск от войната",
-      "summary": "",
-      "url": "https://www.investor.bg/a/527-svyat/439892-sobstvenitsite-na-restoranti-v-kiev-se-gotvyat-za-tezhka-zima-zaradi-zasileniya-natisk-ot-voynata",
-      "published": "2026-11-22T11:06:37+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "UK-EU food deal hailed by British firms: ‘We’re pretty aligned anyway’",
       "summary": "Exporters welcome end in sight for Brexit checks – but are frustrated that implementation will take so long British producers have broadly welcomed the UK’s deal with the EU, designed to remove the vast majority of physical checks on food, plants and animal pr",
       "url": "https://www.theguardian.com/business/2026/nov/22/uk-eu-food-sps-deal-brexit-checks",
       "published": "2026-11-22T11:00:24+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -261,47 +321,17 @@
       "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-midday",
       "published": "2026-11-22T11:00:15+00:00",
       "feed_id": "euronews",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Mongolia faces snap presidential vote as outgoing leader calls for constitutional reform",
-      "summary": "Mongolia is preparing for its first early presidential election after President Khurelsukh Ukhnaa resigned amid corruption allegations, having called for constitutional reform before leaving office.",
+      "title": "Mongolia's power struggle deepens as Parliament approves president's resignation",
+      "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
       "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
       "published": "2026-11-22T11:00:00+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Ukraine: Up to seven feared trapped beneath rubble near Kyiv after Russian attack",
-      "summary": "A Russian strike partially destroyed an apartment building in Dymer, north of Kyiv, on Sunday. Nine people, including a child, were evacuated as rescuers searched the rubble for up to seven others feared trapped.",
-      "url": "https://www.euronews.com/video/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack",
-      "published": "2026-11-22T10:39:01+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "All flights to and from Brussels, Charleroi airports canceled Monday amid strike",
-      "summary": "Air traffic controllers will join a nationwide protest against government spending cuts.",
-      "url": "https://www.politico.eu/article/brussels-charleroi-airports-cancel-most-flights-monday-belgian-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T10:30:54+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Japan: Mascot mania takes over Saitama with 200 colourful characters",
-      "summary": "More than 200 colourful mascots gathered in Saitama, Japan, delighting tens of thousands of fans with dancing, parades and photo opportunities. Among the stars was Kumamon, the country's famous black bear mascot.",
-      "url": "https://www.euronews.com/video/2026/11/22/japan-mascot-mania-takes-over-saitama-with-200-colourful-characters",
-      "published": "2026-11-22T09:55:23+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
+      "priority_score": 43
     },
     {
       "section": "europe",
@@ -322,16 +352,6 @@
       "published": "2026-11-22T09:49:20+00:00",
       "feed_id": "politico-europe",
       "priority_score": 38
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Основни хранителни стоки и повечето зеленчуци поскъпват на борсите у нас",
-      "summary": "",
-      "url": "https://www.investor.bg/a/520-zemedelie/439891-osnovni-hranitelni-stoki-i-povecheto-zelenchutsi-poskapvat-na-borsite-u-nas",
-      "published": "2026-11-22T09:46:09+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
     },
     {
       "section": "europe",
@@ -435,16 +455,6 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
-      "published": "2026-11-21T12:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 38
-    },
-    {
-      "section": "europe",
       "source": "Economic.bg",
       "title": "Колко болнични ползват работещите в Европа и колко струва това на икономиката?",
       "summary": "Средностатистическият европеец отсъства от работа близо три седмици годишно заради здравословни проблеми, показва нов доклад, цитиран от euronews. Това се равнява на около 6% от потенциалното работно време в Европейския съюз (ЕС) и води до загуби от приблизите",
@@ -462,16 +472,6 @@
       "published": "2026-11-21T11:28:47+00:00",
       "feed_id": "commission-press",
       "priority_score": 40
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Costa cuts proposed EU budget by €44B",
-      "summary": "Brussels plans a tax on Big Tech to raise billions for the next budget cycle.",
-      "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-21T10:44:05+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 35
     },
     {
       "section": "europe",
@@ -551,7 +551,7 @@
       "url": "https://www.wto.org/english/news_e/news26_e/stud_19nov26_558_e.htm",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "wto-news",
-      "priority_score": 34
+      "priority_score": 33
     },
     {
       "section": "europe",
@@ -561,7 +561,7 @@
       "url": "https://www.wto.org/english/news_e/news26_e/ita_19nov26_560_e.htm",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "wto-news",
-      "priority_score": 29
+      "priority_score": 28
     },
     {
       "section": "europe",
@@ -571,7 +571,7 @@
       "url": "https://www.wto.org/english/news_e/news26_e/trip_19nov26_557_e.htm",
       "published": "2026-11-19T00:00:00+00:00",
       "feed_id": "wto-news",
-      "priority_score": 34
+      "priority_score": 33
     },
     {
       "section": "europe",
