@@ -1,8 +1,88 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:29:02.975743+00:00",
-  "last_checked_at": "2026-11-22T14:29:02.975747+00:00",
+  "updated_at": "2026-11-22T15:14:57.543795+00:00",
+  "last_checked_at": "2026-11-22T15:14:57.543799+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Ловчанският митрополит Гавриил почина след кратко боледуване, в община Ловеч е обявен тридневен траур",
+      "summary": "Ловчанският митрополит Гавриил почина днес, 22 ноември, след кратко боледуване, съобщиха от Българската православна църква – Българска патриаршия. Със заповед на кмета на Община Ловеч Страцимир Петков е обявен тридневен траур от днес. Митрополит Гавриил беше н",
+      "url": "https://www.bta.bg/bg/news/lik/1252022-lovchanskiyat-mitropolit-gavriil-pochina-sled-kratko-boleduvane-v-obshtina-love",
+      "published": "2026-11-22T15:13:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Israel's Eisenkot condemns 'Jewish terrorism' in West Bank",
+      "summary": "Israeli opposition leader Gadi Eisenkot has condemned a recent series of arson attacks in the occupied West Bank as \"Jewish terrorism.\" Israeli authorities have opened an investigation into the incidents.",
+      "url": "https://www.dw.com/en/israel-s-eisenkot-condemns-jewish-terrorism-in-west-bank/a-80013861?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T15:09:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Дванайсет дни след катастрофите на магистрала „Тракия“ изписаха от бургаска болница петият приет там пациент",
+      "summary": "Дванайсет дни след тежките верижни катастрофи на автомагистрала „Тракия“ д-р Селахаттин Акча се прибира у дома след три сложни операции в Многопрофилната болница за активно лечение (МБАЛ) „Сърце и Мозък“ в Бургас. Трийсет и седем годишният лекар-инфекционист е",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252004-dvanayset-dni-sled-katastrofite-na-magistrala-trakiya-izpisaha-ot-burgaska-bol",
+      "published": "2026-11-22T15:08:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Изложбата „Между“ представя керамика на Мария Йованович",
+      "summary": "Изложбата „Между“ представя керамика на Мария Йованович. Откриването е на 24 ноември в галерия „158“, съобщи на БТА авторката. „Какво има между нас? Между две пространства, две души, две мисли, два свята? Понякога разстояние. Понякога невидима нишка. Понякога",
+      "url": "https://www.bta.bg/bg/news/lik/1252011-izlozhbata-mezhdu-predstavya-keramika-na-mariya-yovanovich",
+      "published": "2026-11-22T15:03:12+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "МВнР предупреждава за национална стачка в Белгия и отмяна на полети утре",
+      "summary": "В понеделник в белгийската столица Брюксел ще има национална стачка, съпътствана от демонстрации. Отменени са всички планирани за същия ден пристигащи и заминаващи полети от летище Завентем, Брюксел. Възможна е отмяна на полети и от/до летище Шарлероа за същия",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252006-mvnr-preduprezhdava-za-natsionalna-stachka-v-belgiya-i-otmyana-na-poleti-utre",
+      "published": "2026-11-22T14:58:20+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Амбицията на правителството да модернизираме България чрез стратегически инвестиции има партньор в лицето на Саудитска Арабия, заяви Румен Радев",
+      "summary": "Амбицията на правителството да модернизираме България чрез привличане на стратегически инвестиции има вече своя партньор в лицето на Саудитска Арабия. Това заяви премиерът Румен Радев след срещата си в Рияд с престолонаследника и министър-председател на Кралст",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252002-ambitsiyata-na-pravitelstvoto-da-modernizirame-balgariya-chrez-strategicheski-in",
+      "published": "2026-11-22T14:50:40+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 43
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Руските олигарси се надяват да се върнат на власт след края на управлението на Путин",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439608-ruskite-oligarsi-se-nadyavat-da-se-varnat-na-vlast-sled-kraya-na-upravlenieto-na-putin",
+      "published": "2026-11-22T14:31:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Миряни и духовни лица се поклониха пред Ловчанския митрополит Гавриил в параклиса „Св. цар Борис“ в Синодалната палата",
+      "summary": "Десетки миряни и духовни лица се поклониха днес пред Ловчанския митрополит Гавриил в параклиса „Св. цар Борис“ в Синодалната палата. „Дядо Гавриил беше една одухотворена личност, духовно издигнат човек, както е редно за всички нас, християните, да се стараем д",
+      "url": "https://www.bta.bg/bg/news/lik/1252003-miryani-i-duhovni-litsa-se-pokloniha-pred-lovchanskiya-mitropolit-gavriil-v-para",
+      "published": "2026-11-22T14:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
@@ -115,16 +195,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Спектакълът „Малко се отплеснахме“ от Елин Рахнев е третата премиера за сезона на театъра в Хасково",
-      "summary": "Спектакълът „Малко се отплеснахме“ от Елин Рахнев е третото премиерно заглавие в афиша на Драматично-кукления театър (ДКТ) „Иван Димов“ – Хасково от началото на настоящия сезон, съобщиха от трупата. Премиерата ще бъде утре, 23 ноември. Постановката предлага ко",
-      "url": "https://www.bta.bg/bg/news/lik/1251969-spektakalat-malko-se-otplesnahme-ot-elin-rahnev-e-tretata-premiera-za-sezona-n",
-      "published": "2026-11-22T13:07:06+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Лошата година за златото става още по-мрачна",
       "summary": "",
@@ -147,7 +217,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Cop31 climate talks break down as key deal rejected",
-      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ after two weeks of fierce negotiations • Cop31 live blog: longest climate summit ever faces collapse The EU, the UK and allies in the developing world rejected what they c",
+      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels • Cop31 live blog: longest climate summit ever faces collapse The EU, the UK and allies in the developing world rejected what they called",
       "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
       "published": "2026-11-22T12:54:41+00:00",
       "feed_id": "guardian-world",
@@ -161,26 +231,6 @@
       "url": "https://www.investor.bg/a/526-pravosadie/439895-obmudsmanat-vse-oshte-golyama-chast-ot-zhalbite-sa-svarzani-s-toplofikatsiya-i-vik",
       "published": "2026-11-22T12:49:30+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Администрации и кметове в област Ловеч изразяват почитта си към Ловчанския митрополит Гавриил",
-      "summary": "Областната администрация в Ловеч, общини и кметове в региона изразиха съболезнования по повод кончината на Ловчанския митрополит Гавриил, като отбелязаха приноса му за духовния и обществения живот в областта. От Областната администрация посочват, че десетилети",
-      "url": "https://www.bta.bg/bg/news/lik/1251962-administratsii-i-kmetove-v-oblast-lovech-izrazyavat-pochitta-si-kam-lovchanskiya",
-      "published": "2026-11-22T12:45:22+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Гражданското участие е ключово за демократичната устойчивост, заяви Габриела Караджонова-Малчева в Брюксел",
-      "summary": "Демокрацията не е просто политическа система, а начин на мислене, възприятие и отношение към обществото. Тя се проявява както чрез възможностите, които имаме като граждани, така и чрез отговорностите, които носим. Това каза Габриела Караджонова-Малчева, участн",
-      "url": "https://www.bta.bg/bg/news/world/1251940-grazhdanskoto-uchastie-e-klyuchovo-za-demokratichnata-ustoychivost-zayavi-gabri",
-      "published": "2026-11-22T12:42:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -204,26 +254,6 @@
       "priority_score": 39
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Тунджа обяви конкурс за сценични изяви на деца „Заблестява звезда“",
-      "summary": "Община Тунджа, област Ямбол, набира участници за конкурса „Заблестява звезда“, насочен към сценична изява на деца от предучилищна възраст до 18 години. Заявки се приемат до 30 ноември, а самото представяне на участниците ще бъде на 3 декември в Народно читалищ",
-      "url": "https://www.bta.bg/bg/news/lik/1251957-obshtina-tundzha-obyavi-konkurs-za-stsenichni-izyavi-na-detsa-zablestyava-zvezd",
-      "published": "2026-11-22T12:32:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Правим всичко възможно общините да не бъдат рекетирани, ще победим на местните избори, заяви Бойко Борисов",
-      "summary": "Ще направим всичко възможно общините и кметовете да не бъдат рекетирани, заяви лидерът на ГЕРБ Бойко Борисов в Монтана, където се срещна с млади симпатизанти на партията в рамките на инициативата „Новите умове“. Борисов беше придружен от лидерите на “Синя Бълг",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251950-pravim-vsichko-vazmozhno-obshtinite-da-ne-badat-reketirani-shte-pobedim-na-mest",
-      "published": "2026-11-22T12:23:15+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Emergency workers recover at least six body bags after Indonesian factory fire",
@@ -231,16 +261,6 @@
       "url": "https://www.euronews.com/2026/11/22/emergency-workers-recover-at-least-six-body-bags-after-indonesian-factory-fire",
       "published": "2026-11-22T12:22:47+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Любителски театър „Будиловци“ в село Раковица ще отбележи 120-годишнината на читалището с премиера на „Протоколи и измислици“",
-      "summary": "С премиера на театралната постановка „Протоколи и измислици“ по Дончо Цончев Любителски театър „Будиловци“ ще отбележи 120-годишнината на Народно читалище (НЧ) „Надежда-1906“ в село Раковица, община Макреш. Спектакълът е под режисурата на Ирина Флорова, съобщи",
-      "url": "https://www.bta.bg/bg/news/lik/1251952-lyubitelski-teatar-budilovtsi-v-selo-rakovitsa-shte-otbelezhi-120-godishninata",
-      "published": "2026-11-22T12:22:15+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -291,16 +311,6 @@
       "url": "https://www.dw.com/en/bayern-munich-bosses-under-fire-over-jamal-musiala-comments/a-80013187?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T11:30:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
-      "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T11:25:14+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -431,7 +441,7 @@
       "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
       "published": "2026-11-21T16:26:21+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "europe",
@@ -442,16 +452,6 @@
       "published": "2026-11-21T14:45:00+00:00",
       "feed_id": "investor-finance",
       "priority_score": 38
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
-      "published": "2026-11-21T14:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 43
     },
     {
       "section": "europe",
@@ -541,7 +541,7 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "published": "2026-11-20T15:00:00+00:00",
       "feed_id": "federal-reserve",
-      "priority_score": 40
+      "priority_score": 39
     },
     {
       "section": "europe",
