@@ -76,7 +76,30 @@ jobs:
           git add news.json
           if git diff --cached --quiet; then
             echo "No news changes to publish."
-          else
-            git commit -m "Update institutional news feeds"
-            git push origin HEAD:main
+            exit 0
           fi
+
+          git commit -m "Update institutional news feeds"
+
+          # Други автоматични задачи също могат да запишат в main.
+          # При отказ за fast-forward интегрираме техните commit-и чрез rebase.
+          # Не използваме force push и не презаписваме отдалечения клон.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "News update pushed successfully."
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 3 ]; then
+              echo "Push failed after 3 safe attempts."
+              exit 1
+            fi
+
+            echo "Push race detected. Fetching the latest main and rebasing (attempt $attempt/3)."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Rebase conflict detected. Refusing to overwrite concurrent changes."
+              exit 1
+            fi
+          done
