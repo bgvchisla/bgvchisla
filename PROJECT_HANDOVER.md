@@ -244,3 +244,41 @@ GitHub Actions run `45000255907` завърши успешно на 22.11.2026 �
 - `official_business_climate.json` остава с референтен период `2026-10`, общ бизнес климат 13,2%, промишленост 14,1%, строителство 9,7%, търговия на дребно 26,5% и услуги 1,5%. Промените спрямо предходния месец са съхранени отделно.
 - Не отбелязвай набора като ноемврийски, докато НСИ не публикува следващия бюлетин и стойностите не бъдат извлечени и валидирани.
 
+
+
+---
+
+## 14. Подготовка за защита на main и мобилен Lighthouse одит — 22.11.2026
+
+### Задължителен PR validation статус
+- `.github/workflows/audit-analysis-evidence.yml` вече се изпълнява и при `pull_request` към `main`.
+- При PR workflow-ът checkout-ва точния `github.event.pull_request.head.sha`, а не базовия `main`.
+- Проверява шестте регресионни теста за новини и НСИ, валидността на 10 JSON набора, синтаксиса на осем Python модула, редакционните доказателства за България и световната икономика и двата безплатни dry-run режима.
+- Условието за месечния разход остава: 0 API заявки, $0.00 и непроменен `analysis/monthly_usage.json`.
+- GitHub Actions run `45003076580` завърши успешно на 22.11.2026 г. Следващите PR-и към `main` трябва да изискват check context `audit`.
+
+### Предложена конфигурация на rulesets
+Хранилището е публично и лично (owner type User), а свързаната GitHub интеграция има repository permission `admin: true`, но няма Administration API scope. Затова настройката на rulesets изисква GitHub Settings през браузър сесия на собственика.
+
+При създаването използвай два отделни ruleset-а, вместо един общ bypass:
+1. `main-require-pr-and-validation`: target branch `main`; enforcement `active`; изисква PR; изисква status check `audit` от GitHub Actions; използва squash/rebase; GitHub Actions App е единственият bypass actor с `always`. Не добавяй owner/admin bypass.
+2. `main-block-destructive-updates`: target branch `main`; enforcement `active`; правила `deletion` и `non_fast_forward`; без bypass actors. Това блокира force-push и изтриване и за Actions.
+
+Не задавай задължително одобрение от друг човек, докато не е потвърден наличен независим reviewer. Това може да заключи самостоятелен maintainer извън възможност за merge. Не активирай правилата, преди GitHub Actions App да е избран в първия ruleset и да е проверено, че вторият ruleset няма bypass.
+
+**Статус към този commit:** rulesets още не са създадени; GitHub API потвърждава `protected: false`. Не съобщавай, че main е защитен.
+
+### Мобилен одит чрез Google PageSpeed Insights
+- Докладът е генериран на 22.11.2026 г. в mobile Lighthouse mode, устройство Moto G Power, Lighthouse 13.6.0, Slow 4G.
+- Performance 100, Accessibility 91, Best Practices 96, SEO 100.
+- FCP 1.1 s, LCP 1.1 s, TBT 0 ms, CLS 0, Speed Index 1.1 s, INP 1.1 s.
+- Mobile viewport audit преминава; PageSpeed не сигнализира проблем с мащабирането на viewport. Не е отчетен overflow или проблем с размера на шрифта.
+- Открити са accessibility проверки за невалидни ARIA стойности и недостатъчен контраст, както и browser console errors. Не променяй цветовата палитра без преглед на конкретните засегнати елементи.
+- Статичният CSS потвърждава: страничните новинарски колони се скриват под 1199 px; централната навигация е 4 колони под 1199 px, 3 колони под 767 px и 2 колони под 639 px; мобилният toggle управлява прибирането на менюто; hero CTA се подрежда под заглавието и става 100% ширина под 760 px.
+- Външният browser automation не може да задава и измерва конкретен CSS viewport с `innerWidth`, `clientWidth` и `scrollWidth`. Следователно Moto G Power Lighthouse е mobile emulation, не тест на конкретна физическа ширина 390×844 px. Точният viewport тест остава отворен.
+
+### Следващи действия
+1. Собственикът трябва да потвърди активен GitHub вход в защитената браузърна сесия или да влезе през отделен защитен прозорец. Парола не се изпраща в чата.
+2. Създай и провери двата ruleset-а по-горе. Потвърди, че ежедневните workflow-и, които записват валидирани данни в `main`, продължават да минават.
+3. Завърши мобилния визуален тест на 390×844 px и 360×800 px с реални измервания и проверка на навигацията, CTA, news panel, секциите и хоризонталното преливане.
+4. Прегледай конкретните ARIA, контраст и console проблеми от подробния PageSpeed отчет; не променяй визуалната идентичност.
