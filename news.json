@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:42:44.705033+00:00",
-  "last_checked_at": "2026-11-22T02:42:44.705038+00:00",
+  "updated_at": "2026-11-22T03:33:58.567458+00:00",
+  "last_checked_at": "2026-11-22T03:33:58.567462+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -11,7 +11,7 @@
       "url": "https://www.economic.bg/bg/a/view/mnogo-hora-imat-deficit-na-jeljazo-eto-zashto-tova-chesto-se-propuska",
       "published": "2026-11-21T13:00:42+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 41
+      "priority_score": 40
     },
     {
       "section": "bulgaria",
@@ -185,26 +185,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Дефицитът на Гърция се е увеличил с 2,5 млрд. евро за периода януари-септември",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
-      "published": "2026-11-21T09:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 26
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "France and Germany complete political deal for ECB leadership",
-      "summary": "Paris’ new market-operations portfolio at the European Central Bank could become pivotal in a French debt crisis.",
-      "url": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T16:50:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Заместник-председателят на Народното събрание Иван Ангелов разговаря с унгарския депутат, застъпник на българското национално малцинство в парламента на Унгария, Симеон Варга",
       "summary": "",
@@ -295,6 +275,26 @@
     },
     {
       "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Дефицитът на Гърция се е увеличил с 2,5 млрд. евро за периода януари-септември",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439880-defitsitat-na-gartsiya-se-e-uvelichil-s-25-mlrd-evro-za-perioda-yanuari-septemvri",
+      "published": "2026-11-21T09:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 25
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "France and Germany complete political deal for ECB leadership",
+      "summary": "Paris’ new market-operations portfolio at the European Central Bank could become pivotal in a French debt crisis.",
+      "url": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-20T16:50:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 25
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
       "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
@@ -311,16 +311,6 @@
       "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
       "published": "2026-11-21T17:00:26+00:00",
       "feed_id": "euronews",
-      "priority_score": 24
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изкуството на хор „Морски звуци“ оставя прекрасно културно наследство за Варна и България, каза Калин Чонев",
-      "summary": "Празничен концерт отбеляза в препълнената зала на Фестивалния и конгресен център 100-годишнината от създаването на музикалното дружество „Морски звуци“ и 70-годишнината от основаването на представителния смесен хор, носещ същото име. Във видео поздрав от САЩ К",
-      "url": "https://www.bta.bg/bg/news/lik/1251818-izkustvoto-na-hor-morski-zvutsi-ostavya-prekrasno-kulturno-nasledstvo-za-varna",
-      "published": "2026-11-21T21:05:00+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 23
     },
     {
@@ -332,6 +322,16 @@
       "published": "2026-11-21T14:58:00+00:00",
       "feed_id": "dw-world",
       "priority_score": 23
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Изкуството на хор „Морски звуци“ оставя прекрасно културно наследство за Варна и България, каза Калин Чонев",
+      "summary": "Празничен концерт отбеляза в препълнената зала на Фестивалния и конгресен център 100-годишнината от създаването на музикалното дружество „Морски звуци“ и 70-годишнината от основаването на представителния смесен хор, носещ същото име. Във видео поздрав от САЩ К",
+      "url": "https://www.bta.bg/bg/news/lik/1251818-izkustvoto-na-hor-morski-zvutsi-ostavya-prekrasno-kulturno-nasledstvo-za-varna",
+      "published": "2026-11-21T21:05:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 22
     },
     {
       "section": "bulgaria",
@@ -605,26 +605,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Потребителското доверие в САЩ расте през ноември на фона на спада на цените на бензина",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439869-potrebitelskoto-doverie-v-sasht-raste-prez-noemvri-na-fona-na-spada-na-tsenite-na-benzina",
-      "published": "2026-11-20T17:26:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 18
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Andy Burnham discovers nothing in Brussels is ever easy",
-      "summary": "Britain’s prime minister is banking on a ‘brainstorm’ to decide Britain’s future with the EU. He just has to get through the spin wars first.",
-      "url": "https://www.politico.eu/article/andy-burnham-eu-uk-summit-reset-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T17:00:51+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 18
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
       "summary": "",
@@ -701,6 +681,26 @@
       "url": "https://www.wto.org/english/news_e/news26_e/ddgjn_16nov26_555_e.htm",
       "published": "2026-11-16T00:00:00+00:00",
       "feed_id": "wto-news",
+      "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "Евростат",
+      "title": "Euro area international trade in goods deficit €10.3 bn",
+      "summary": "The first estimates of euro area balance showed a €10.3 bn deficit in trade in goods with the rest of the world in September 2026, compared with a surplus of €13.5 bn in September 2025.",
+      "url": "https://ec.europa.eu/eurostat/product?code=6-13112026-bp",
+      "published": "2026-11-13T10:00:00+00:00",
+      "feed_id": "eurostat-news",
+      "priority_score": 18
+    },
+    {
+      "section": "bulgaria",
+      "source": "Българска народна банка",
+      "title": "Считано от 16 ноември 2026 г., продажната цена на платинената монета „Десислава“, номинална стойност 10 000 лева, емисия 1993 г., продавана на каса на БНБ, е актуализирана",
+      "summary": "",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261113_BG",
+      "published": "2026-11-13T00:00:00+00:00",
+      "feed_id": "bnb-news",
       "priority_score": 18
     }
   ],
