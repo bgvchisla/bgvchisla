@@ -1904,7 +1904,7 @@ const label=new Date(Number(p[0]),Number(p[1])-1,1).toLocaleDateString("bg-BG",{
 document.querySelector("#s14>p.h").textContent="Оценки и очаквания на предприятията. Последни налични данни на НСИ — "+label+".";
 document.getElementById("business-kpis").innerHTML=keys.map((k,i)=>{
 const x=d.values[k],tone=x.change>0?"gr":x.change<0?"ac":"bl";
-return '<div class="c '+tone+'"><div class="n">'+fmt(x.value)+'</div><div class="l">'+names[i]+'</div><div class="s">'+(x.change>0?"+":"")+Number(x.change).toFixed(1).replace(".",",")+" пр. п. спрямо предходния месец</div></div>';
+return '<div class="c '+tone+'"><div class="n">'+fmt(x.value)+'</div><div class="l">'+names[i]+'</div><div class="s">'+(x.change>0?"+":"")+Number(x.change).toFixed(1).replace(".",",")+' пр. п. спрямо предходния месец</div></div>';
 }).join("");
 const max=Math.max(...keys.slice(1).map(k=>Math.abs(d.values[k].value)),1);
 document.getElementById("business-bars").innerHTML=keys.slice(1).map((k,i)=>{
