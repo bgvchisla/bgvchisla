@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:52:05.270786+00:00",
-  "last_checked_at": "2026-11-22T01:52:05.270790+00:00",
+  "updated_at": "2026-11-22T02:42:44.705033+00:00",
+  "last_checked_at": "2026-11-22T02:42:44.705038+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -31,17 +31,7 @@
       "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
       "published": "2026-11-21T08:00:03+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 38
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
-      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
-      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
-      "published": "2026-11-21T16:26:21+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 35
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -65,6 +55,16 @@
     },
     {
       "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
+      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
+      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
+      "published": "2026-11-21T16:26:21+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 34
+    },
+    {
+      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Ръководителят на делегацията на Народното събрание в Интерпарламентарния съюз Росица Кирова участва в Глобалната парламентарна конференция за правата на човека в Женева",
       "summary": "",
@@ -84,16 +84,6 @@
       "priority_score": 33
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
-      "published": "2026-11-21T12:00:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 31
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "EU and Indonesia sign ambitious trade and investment agreements",
@@ -102,6 +92,16 @@
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
       "priority_score": 31
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският съюз предлага нови съкращения в дългосрочния бюджет",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439886-evropeyskiyat-sayuz-predlaga-novi-sakrashteniya-v-dalgosrochniya-byudzhet",
+      "published": "2026-11-21T12:00:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 30
     },
     {
       "section": "europe",
@@ -165,16 +165,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
-      "summary": "Copini Beauty referred to New South Wales health regulators, while federal government says it is ‘deeply concerned’ Get our breaking news email , free app or daily news podcast An Australian beauty company that promotes “clean” ingredients “free from skin irri",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
-      "published": "2026-11-21T19:00:07+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 28
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
       "summary": "European Commission Statement Brussels, 21 Nov 2026 A warm welcome, dear Ministers. I am truly pleased to host you and your delegation. Because today, we seal a friendship and open a new chapter. After nine years...",
@@ -182,26 +172,6 @@
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
       "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T00:10:44+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
-      "summary": "Избирателната комисия на Общото събрание на следователите обяви Петко Петков за избран член на Висшия съдебен съвет (ВСС) след проведеното гласуване днес. Решението на комисията не е окончателно и може да се обжалва в седемдневен срок. Петков, следовател в Нац",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
-      "published": "2026-11-21T19:59:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 26
     },
     {
       "section": "europe",
@@ -231,16 +201,6 @@
       "url": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-20T16:50:00+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 26
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
-      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
-      "published": "2026-11-20T16:10:40+00:00",
-      "feed_id": "economic-bg",
       "priority_score": 26
     },
     {
@@ -312,6 +272,36 @@
       "published": "2026-10-02T20:45:00+00:00",
       "feed_id": "federal-reserve",
       "priority_score": 26
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T00:10:44+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 25
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
+      "summary": "Избирателната комисия на Общото събрание на следователите обяви Петко Петков за избран член на Висшия съдебен съвет (ВСС) след проведеното гласуване днес. Решението на комисията не е окончателно и може да се обжалва в седемдневен срок. Петков, следовател в Нац",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251795-petko-petkov-e-izbran-za-chlen-na-visshiya-sadeben-savet-ot-kvotata-na-sledovate",
+      "published": "2026-11-21T19:59:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 25
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
+      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
+      "published": "2026-11-20T16:10:40+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 25
     },
     {
       "section": "europe",
@@ -535,16 +525,6 @@
     },
     {
       "section": "europe",
-      "source": "BIS Research",
-      "title": "Inflation after the Iran war",
-      "summary": "An unexpected increase in energy costs raises inflation directly through flexibly-set prices. Whether that shock amplifies to a larger and persistent rise in inflation depends on its transmission through the economy.",
-      "url": "https://www.bis.org/publications/working-paper-1384-inflation-after-iran-war",
-      "published": "2026-10-19T00:00:00+00:00",
-      "feed_id": "bis-research",
-      "priority_score": 22
-    },
-    {
-      "section": "europe",
       "source": "Federal Reserve",
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
@@ -644,16 +624,6 @@
       "priority_score": 18
     },
     {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "French billionaire hunter takes fight global after California tax defeat",
-      "summary": "Gabriel Zucman is rallying politicians in Paris behind his campaign to tax the super-rich. But can he overcome the billionaires and political leaders standing in his way?",
-      "url": "https://www.politico.eu/article/gabriel-zucman-billionaires-california-taxes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T16:15:46+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 18
-    },
-    {
       "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Запазването на горите е важно за природата и промишлеността, заяви председателят на парламента Михаела Доцова",
@@ -701,6 +671,36 @@
       "url": "https://ec.europa.eu/eurostat/product?code=2-18112026-ap",
       "published": "2026-11-18T10:00:00+00:00",
       "feed_id": "eurostat-news",
+      "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "Bank for International Settlements (BIS)",
+      "title": "Basel Committee discusses risks and vulnerabilities faced by global banking system",
+      "summary": "The Basel Committee on Banking Supervision met in Basel on 18 November 2026 to discuss a range of analytical, supervisory and regulatory initiatives.",
+      "url": "https://www.bis.org/media-releases/20261118-basel-committee-discusses-risks-and-vulnerabilities-faced-global-banking-system",
+      "published": "2026-11-18T00:00:00+00:00",
+      "feed_id": "bis-press",
+      "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "Immigrants' skills and capital deepening: evidence from Chile",
+      "summary": "We study the effect of migration on firms’ capital deepening, leveraging a massive influx of immigrant workers with varying skill sets from Venezuela and Haiti in Chile between 2015 and 2019.",
+      "url": "https://www.bis.org/publications/working-paper-1397-immigrants-skills-and-capital-deepening-evidence-chile",
+      "published": "2026-11-17T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "priority_score": 18
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "DDG Nordquist: Global trade is adapting, not retreating",
+      "summary": "Global trade has demonstrated remarkable resilience despite geopolitical tensions, supply chain disruptions and trade restrictions, with businesses adapting through diversification and new trading partnerships, Deputy Director-General DJ Nordquist said at the",
+      "url": "https://www.wto.org/english/news_e/news26_e/ddgjn_16nov26_555_e.htm",
+      "published": "2026-11-16T00:00:00+00:00",
+      "feed_id": "wto-news",
       "priority_score": 18
     }
   ],
