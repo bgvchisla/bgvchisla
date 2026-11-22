@@ -51,9 +51,9 @@ jobs:
         run: |
           python scripts/test_update_news.py
           python scripts/test_update_business_climate.py
-      - name: Validate checked-in datasets and Python syntax
       - name: Validate mobile navigation and all inline JavaScript
         run: python scripts/test_frontend.py
+      - name: Validate checked-in datasets and Python syntax
         run: |
           python - <<'PY'
           import json

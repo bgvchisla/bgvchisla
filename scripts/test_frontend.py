@@ -13,12 +13,12 @@ HTML_PATH = ROOT / "index.html"
 
 
 def inline_scripts(source: str) -> list[str]:
-    blocks = re.findall(r"<script\\b([^>]*)>([\\s\\S]*?)</script\\s*>", source, flags=re.IGNORECASE)
+    blocks = re.findall(r"<script\b([^>]*)>([\s\S]*?)</script\s*>", source, flags=re.IGNORECASE)
     result = []
     for attrs, body in blocks:
-        if re.search(r"\\bsrc\\s*=", attrs, flags=re.IGNORECASE):
+        if re.search(r"\bsrc\s*=", attrs, flags=re.IGNORECASE):
             continue
-        if re.search(r'type\\s*=\\s*["\\']application/(?:ld\\+)?json["\\']', attrs, flags=re.IGNORECASE):
+        if "application/ld+json" in attrs.lower() or "application/json" in attrs.lower():
             continue
         if body.strip():
             result.append(body)
@@ -43,7 +43,7 @@ class FrontendIntegrityTests(unittest.TestCase):
                 self.assertEqual(
                     result.returncode,
                     0,
-                    f"Inline script {index} has a JavaScript syntax error:\\n{result.stderr}",
+                    f"Inline script {index} has a JavaScript syntax error:\n{result.stderr}",
                 )
 
     def test_navigation_aria_attributes_are_separate_and_valid(self):
