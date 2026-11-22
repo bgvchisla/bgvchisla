@@ -1,8 +1,78 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:14:57.543795+00:00",
-  "last_checked_at": "2026-11-22T15:14:57.543799+00:00",
+  "updated_at": "2026-11-22T15:57:12.321247+00:00",
+  "last_checked_at": "2026-11-22T15:57:12.321252+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
+      "summary": "Burnt-out cars, damaged trucks and anti-Arab graffiti were discovered in four Palestinian villages in the Israeli-occupied West Bank on Sunday 22 November 2026, following overnight attacks blamed by local activists on Israeli settlers.",
+      "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks",
+      "published": "2026-11-22T15:52:31+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Explosion on Russian ship at Libya port likely caused by drone attack, officials say",
+      "summary": "Libya's eastern rival government says it is working with Russia to investigate the incident.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T15:50:13+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Концерт разкрива младостта, темперамента и вдъхновението на Бетовен и Шуберт",
+      "summary": "Как звучи Бетовен, преди да се превърне в легенда? Каква музика създава един 15-годишен младеж, който още не подозира, че ще промени музикалната история? И как една песен за малка пъстърва се превръща в едно от най-обичаните произведения на Франц Шуберт? На 1",
+      "url": "https://www.bta.bg/bg/news/lik/1252032-kontsert-razkriva-mladostta-temperamenta-i-vdahnovenieto-na-betoven-i-shubert",
+      "published": "2026-11-22T15:38:39+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Чешката икономика е изправена пред стагфлационен шок, предупреди централен банкер",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439899-cheshkata-ikonomika-e-izpravena-pred-stagflatsionen-shok-predupredi-tsentralen-banker",
+      "published": "2026-11-22T15:32:51+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 42
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Вечер под надслов „Гласът на светлината“ беше посветена на Анна Томова-Синтова в Държавна опера - Стара Загора",
+      "summary": "Вечер, посветена на оперната прима Анна Томова-Синтова под надслов „Гласът на светлината“, събра почитатели на оперното изкуство в Стара Загора. Събитието беше част от 56-ото издание на Фестивала на оперното и балетното изкуство. Водещ на срещата беше доц. д-р",
+      "url": "https://www.bta.bg/bg/news/lik/1252024-vecher-pod-nadslov-glasat-na-svetlinata-beshe-posvetena-na-anna-tomova-sintova",
+      "published": "2026-11-22T15:32:36+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Netanyahu rival condemns settler arson attacks on Palestinian villages in West Bank",
+      "summary": "Dozens of militant Israeli settlers raided communities on Saturday night, setting fire to vehicles and several homes Arson attacks by militant Israeli settlers on Palestinian villages in the occupied West Bank have caused a political row in Israel, drawing con",
+      "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
+      "published": "2026-11-22T15:22:38+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Стефан Командарев за „Блокова вселена“: Това е най-сложният ми филм до момента",
+      "summary": "„Блокова вселена“, най-новият филм на режисьора Стефан Командарев, е копродукция между България („Арго филм“), Германия („42филм“) и Люксембург („Дийл продъкшънс“). Сценаристи са Павла Котова и Стефан Командарев, а оператор е Веселин Христов, информират от еки",
+      "url": "https://www.bta.bg/bg/news/lik/1252025-stefan-komandarev-za-blokova-vselena-tova-e-nay-slozhniyat-mi-film-do-momenta",
+      "published": "2026-11-22T15:17:15+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -59,7 +129,7 @@
       "title": "Амбицията на правителството да модернизираме България чрез стратегически инвестиции има партньор в лицето на Саудитска Арабия, заяви Румен Радев",
       "summary": "Амбицията на правителството да модернизираме България чрез привличане на стратегически инвестиции има вече своя партньор в лицето на Саудитска Арабия. Това заяви премиерът Румен Радев след срещата си в Рияд с престолонаследника и министър-председател на Кралст",
       "url": "https://www.bta.bg/bg/news/bulgaria/1252002-ambitsiyata-na-pravitelstvoto-da-modernizirame-balgariya-chrez-strategicheski-in",
-      "published": "2026-11-22T14:50:40+00:00",
+      "published": "2026-11-22T14:50:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 43
     },
@@ -144,16 +214,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Притчата за безумния богаташ, съсредоточил се върху земното богатство, беше припомнена на миряните на неделните църковни служби",
-      "summary": "Притчата за безумния богаташ, който вместо да се замисли за смисъла на живота и неговия край, се съсредоточил върху земното си богатство и опазване на имотите, беше припомнена на миряните в 9 Неделя след Неделя подир Въздвижение. Светата литургия в катедралния",
-      "url": "https://www.bta.bg/bg/news/lik/1251987-pritchata-za-bezumniya-bogatash-sasredotochil-se-varhu-zemnoto-bogatstvo-beshe",
-      "published": "2026-11-22T13:51:50+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
@@ -172,26 +232,6 @@
       "published": "2026-11-22T13:18:00+00:00",
       "feed_id": "dw-world",
       "priority_score": 44
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "НИМХ предупреждава за силен вятър утре, обявени са оранжев и жълт код в цялата страна",
-      "summary": "Оранжев код за силен вятър е обявен в голяма част от Централна и Западна България за утре, 23 ноември, а в останалата част от страната има предупреждение за потенциално опасно време – жълт код, заради силен вятър. Това съобщи Националният институт по метеороло",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251966-nimh-preduprezhdava-za-silen-vyatar-utre-obyaveni-sa-oranzhev-i-zhalt-kod-v-tsy",
-      "published": "2026-11-22T13:14:52+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Луковит организира тематична седмица „Аз обичам България“ с дни на грамотността, математиката, изкуствата и спорта",
-      "summary": "Община Луковит организира от 23 до 30 ноември тематична седмица „Аз обичам България“, съобщават от администрацията. Инициативата ще се проведе с участието на клубовете към партниращите организации по проект „Аз обичам България“ и ще предложи поредица от образо",
-      "url": "https://www.bta.bg/bg/news/lik/1251968-obshtina-lukovit-organizira-tematichna-sedmitsa-az-obicham-balgariya-s-dni-na-",
-      "published": "2026-11-22T13:09:58+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
     },
     {
       "section": "bulgaria",
@@ -251,7 +291,7 @@
       "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-summit-president-says/live-79999516?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T12:39:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -271,46 +311,6 @@
       "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
       "published": "2026-11-22T12:12:08+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Новозасадените дървета в София тази година ще бъдат над 4500",
-      "summary": "",
-      "url": "https://www.investor.bg/a/519-ekologiya/439893-novozasadenite-darveta-v-sofiya-tazi-godina-shte-badat-nad-4500",
-      "published": "2026-11-22T11:36:27+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "‘Brexit is done’: Theresa May tells Burnham to move on",
-      "summary": "The former British prime minister spent three years trying to negotiate a Brexit deal with the EU.",
-      "url": "https://www.politico.eu/article/brexit-is-done-theresa-may-tells-burnham-move-on/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T11:32:11+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Китай се завръща на петролните пазари, но очакванията са, че търсенето ще се промени",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439789-kitay-se-zavrashta-na-petrolnite-pazari-no-ochakvaniyata-sa-che-tarseneto-shte-se-promeni",
-      "published": "2026-11-22T11:31:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Bayern Munich bosses under fire over Jamal Musiala comments",
-      "summary": "Officials have publicly questioned whether Musiala will ever fully recover from a debilitating neurological condition and queried the validity of his contract, prompting criticism from fans, media and the FIFPRO union.",
-      "url": "https://www.dw.com/en/bayern-munich-bosses-under-fire-over-jamal-musiala-comments/a-80013187?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T11:30:00+00:00",
-      "feed_id": "dw-world",
       "priority_score": 0
     },
     {
@@ -481,7 +481,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
       "published": "2026-11-21T10:43:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 35
+      "priority_score": 34
     },
     {
       "section": "bulgaria",
@@ -531,7 +531,7 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 44
+      "priority_score": 43
     },
     {
       "section": "europe",
