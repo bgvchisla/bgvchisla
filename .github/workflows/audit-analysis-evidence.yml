@@ -66,15 +66,7 @@ jobs:
               json.loads(path.read_text(encoding="utf-8"))
               print(f"JSON OK: {name}")
           PY
-          python -m py_compile \\
-            scripts/update_news.py \\
-            scripts/update_business_climate.py \\
-            scripts/update_bnb_monetary.py \\
-            scripts/update_economy.py \\
-            scripts/update_nsi_fiscal.py \\
-            scripts/update_nssi_pensions.py \\
-            scripts/analysis_evidence.py \\
-            scripts/patch_analysis_evidence.py
+          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py
       - name: Prepare the same runtime used by production
         run: |
           gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
