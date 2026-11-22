@@ -128,23 +128,57 @@ def duplicate_story(left, right):
         "global", "world", "economy", "market", "европейски", "европейския",
         "съюз", "българия", "икономиката", "според",
     }
-    a = set(re.findall(r"[a-zа-яё]{3,}", str(left).casefold())) - stop
-    b = set(re.findall(r"[a-zа-яё]{3,}", str(right).casefold())) - stop
+    left_text = str(left).casefold()
+    right_text = str(right).casefold()
+    a = set(re.findall(r"[a-zа-яё]{2,}", left_text)) - stop
+    b = set(re.findall(r"[a-zа-яё]{2,}", right_text)) - stop
     common = a & b
+
+    # Едно и също събитие може да има различни заглавия в отделни медии.
+    if {"eu", "indonesia"}.issubset(common) and common & {"trade", "investment", "agreement", "agreements"}:
+        return True
+    if {"costa"}.issubset(common) and common & {"budget", "framework", "multiannual"}:
+        return True
     if len(common) >= 3 and len(common) / max(1, len(a | b)) >= 0.30:
         return True
+
     entities = {
         "eu", "china", "ukraine", "russia", "iran", "israel", "america",
         "britain", "germany", "france", "japan", "india", "fed", "ecb",
         "bis", "wto", "imf", "европа", "ецб", "фед", "китай", "русия",
     }
     events = {
-        "trade", "investment", "agreement", "tariff", "budget", "framework",
-        "tax", "monetary", "interest", "inflation", "banking", "credit",
-        "debt", "energy", "oil", "gas", "growth", "capital", "payments",
-        "бюджет", "търговия", "енергия", "лихви", "инфлация",
+        "trade", "investment", "agreement", "agreements", "tariff", "budget",
+        "framework", "tax", "monetary", "interest", "inflation", "banking",
+        "credit", "debt", "energy", "oil", "gas", "growth", "capital",
+        "payments", "бюджет", "търговия", "енергия", "лихви", "инфлация",
     }
     return bool(common & entities) and bool(common & events)
+
+
+def publisher_key(value):
+    """Обединява рубриките на един издател под общо име."""
+    text = clean(value, 200).casefold()
+    aliases = (
+        (("investor.bg", "investor"), "Investor.bg"),
+        (("economic.bg",), "Economic.bg"),
+        (("deutsche welle", "dw world"), "Deutsche Welle"),
+        (("европейска комисия", "european commission"), "Европейска комисия"),
+        (("европейска централна банка", "european central bank", "ecb"), "Европейска централна банка"),
+        (("евростат", "eurostat"), "Евростат"),
+        (("federal reserve",), "Federal Reserve"),
+        (("politico",), "POLITICO"),
+        (("world trade organization", "wto"), "WTO"),
+        (("bank for international settlements", "bis"), "BIS"),
+        (("българска народна банка", "bnb"), "БНБ"),
+        (("народно събрание", "parliament"), "Народно събрание"),
+        (("бта", "bta"), "БТА"),
+    )
+    for needles, canonical in aliases:
+        if any(needle in text for needle in needles):
+            return canonical
+    return text
+
 
 def _context_category(title, summary):
     body = (title + " " + summary).casefold()
@@ -328,9 +362,9 @@ def get_evidence(lane):
         # превръща един новинарски поток в привидно независимо покритие.
         domestic_counts = {}
         for score, published, item, publisher, title, summary in domestic_rank:
-            if domestic_counts.get(publisher, 0) >= 3:
+            if domestic_counts.get(publisher_key(publisher), 0) >= 3:
                 continue
-            domestic_counts[publisher] = domestic_counts.get(publisher, 0) + 1
+            domestic_counts[publisher_key(publisher)] = domestic_counts.get(publisher_key(publisher), 0) + 1
             selected.append({
                 "kind": "domestic",
                 "score": score,
@@ -341,14 +375,15 @@ def get_evidence(lane):
                 "summary": summary,
                 "context_label": "",
             })
-            publishers.add(publisher)
+            publishers.add(publisher_key(publisher))
             if sum(1 for row in selected if row["kind"] == "domestic") >= 3:
                 break
 
         context_publishers = set()
         context_labels = set()
         for score, published, item, publisher, title, summary, label in context_rank:
-            if publisher in context_publishers or label in context_labels:
+            publisher_id = publisher_key(publisher)
+            if publisher_id in context_publishers or label in context_labels:
                 continue
             selected.append({
                 "kind": "context",
@@ -360,9 +395,9 @@ def get_evidence(lane):
                 "summary": summary,
                 "context_label": label,
             })
-            context_publishers.add(publisher)
+            context_publishers.add(publisher_id)
             context_labels.add(label)
-            publishers.add(publisher)
+            publishers.add(publisher_id)
             if len(context_publishers) >= 2:
                 break
 
@@ -380,7 +415,8 @@ def get_evidence(lane):
         counts = {}
         picked = []
         for score, published, item, publisher, title, summary in world_rank:
-            if counts.get(publisher, 0) >= 2:
+            publisher_id = publisher_key(publisher)
+            if counts.get(publisher_id, 0) >= 2:
                 continue
             if any(duplicate_story(title + " " + summary, row["title"] + " " + row["summary"]) for row in picked):
                 continue
@@ -394,8 +430,8 @@ def get_evidence(lane):
                 "summary": summary,
                 "context_label": "",
             })
-            counts[publisher] = counts.get(publisher, 0) + 1
-            publishers.add(publisher)
+            counts[publisher_id] = counts.get(publisher_id, 0) + 1
+            publishers.add(publisher_id)
             if len(picked) >= 8:
                 break
         if len(picked) < 4 or len(publishers) < 3:
