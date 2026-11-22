@@ -1,15 +1,45 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:33:45.468313+00:00",
-  "last_checked_at": "2026-11-22T22:33:45.468317+00:00",
+  "updated_at": "2026-11-22T23:13:03.215147+00:00",
+  "last_checked_at": "2026-11-22T23:13:03.215152+00:00",
   "items": [
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Labor to extend PBS medicine freeze to 2030; Bowen ‘failed’ on Cop, Hume says",
+      "title": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
       "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-22T22:19:04+00:00",
+      "published": "2026-11-22T22:53:28+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+      "summary": "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
+      "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T22:37:43+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Morocco: A surreal sculpture park turns the world upside down",
+      "summary": "An upside-down house, giant furniture and vegetable-headed figures await visitors at Ramakech, an 11-hectare sculpture park near Marrakech, where French artist Jean-François Fourtou brings childhood memories to life through extraordinary, larger-than-life inst",
+      "url": "https://www.euronews.com/video/2026/11/22/morocco-a-surreal-sculpture-park-turns-the-world-upside-down",
+      "published": "2026-11-22T22:33:48+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
+      "summary": "Much-loved broadcaster played a critical role in exposing rest of the world to Australian music – and vice versa Ian ‘Molly’ Meldrum – obituary Molly Meldrum, the Australian music journalist, broadcaster and producer, has died at the age of 83. He died peacefu",
+      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
+      "published": "2026-11-22T22:24:56+00:00",
       "feed_id": "guardian-world",
       "priority_score": 0
     },
@@ -215,16 +245,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-      "summary": "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
-      "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T17:57:43+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "POLITICO Europe",
       "title": "Global climate talks have collapsed. Here’s what just happened.",
       "summary": "Two weeks of talks about protecting the planet from global warming ended without a deal.",
@@ -345,16 +365,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "След преследване с полицията водач на 29 години се е сблъскал с патрулна кола в центъра на София",
-      "summary": "Водач на 29 години се е сблъскал със служебен полицейски автомобил в района на кръстовището на бул. „Мадрид“ и бул. „Евлоги и Христо Георгиеви“, след като по-рано днес не се е подчинил на подаден от полицаи звуков сигнал. Това съобщи на брифинг пред журналисти",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252041-sled-presledvane-s-politsiyata-vodach-na-29-godini-se-e-sblaskal-s-patrulna-kola",
-      "published": "2026-11-22T16:14:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Чешката икономика е изправена пред стагфлационен шок, предупреди централен банкер",
       "summary": "",
@@ -365,23 +375,13 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australia urged to wean off imported fossil fuels amid global supply shocks",
-      "summary": "Grattan Institute report calls on government to seize opportunity to cap diesel tax credits, introduce EV subsidies for less wealthy and build ‘clean’ refineries Get our daily political email , free app or daily news podcast Capping lucrative diesel tax handou",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/australia-urged-to-wean-off-imported-fossil-fuels-amid-global-supply-shocks",
-      "published": "2026-11-22T14:00:29+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 48
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
       "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world.",
       "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T13:18:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 43
+      "priority_score": 42
     },
     {
       "section": "europe",
@@ -451,7 +451,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-riskuva-budjetna-globa-ot-bruksel",
       "published": "2026-11-22T07:01:04+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 45
+      "priority_score": 44
     },
     {
       "section": "europe",
@@ -481,7 +481,7 @@
       "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
       "published": "2026-11-21T11:35:11+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 37
+      "priority_score": 36
     },
     {
       "section": "europe",
@@ -491,7 +491,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
       "published": "2026-11-21T11:28:47+00:00",
       "feed_id": "commission-press",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -521,7 +521,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
-      "priority_score": 37
+      "priority_score": 36
     },
     {
       "section": "europe",
@@ -531,7 +531,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "bulgaria",
@@ -541,7 +541,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "europe",
