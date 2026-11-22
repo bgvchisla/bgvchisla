@@ -34,8 +34,8 @@ class EditorialPublicationTests(unittest.TestCase):
     @unittest.skipUnless(ARTICLE.exists(), "Article-specific check: skipped in pipeline-bootstrap PR.")
     def test_every_inline_source_reference_resolves_to_a_source_note(self):
         source = ARTICLE.read_text(encoding="utf-8")
-        references = set(re.findall(r'href="#source-(\\d+)"', source))
-        source_notes = set(re.findall(r'<li id="source-(\\d+)"', source))
+        references = set(re.findall(r'href="#source-(\d+)"', source))
+        source_notes = set(re.findall(r'<li id="source-(\d+)"', source))
         self.assertGreaterEqual(len(source_notes), 10)
         self.assertTrue(references, "No inline source references found.")
         self.assertTrue(references.issubset(source_notes))
@@ -46,12 +46,12 @@ class EditorialPublicationTests(unittest.TestCase):
     @unittest.skipUnless(ARTICLE.exists(), "Article-specific check: skipped in pipeline-bootstrap PR.")
     def test_article_length_and_no_forbidden_dash_characters(self):
         source = ARTICLE.read_text(encoding="utf-8")
-        for character in ("\\u2012", "\\u2013", "\\u2014", "\\u2015"):
+        for character in ("\u2012", "\u2013", "\u2014", "\u2015"):
             self.assertNotIn(character, source)
-        match = re.search(r"<article>([\\s\\S]*?)</article>", source, flags=re.I)
+        match = re.search(r"<article>([\s\S]*?)</article>", source, flags=re.I)
         self.assertIsNotNone(match, "Article body not found.")
         body = html.unescape(re.sub(r"<[^>]+>", " ", match.group(1)))
-        words = re.findall(r"[^\\W_]+(?:[’'-][^\\W_]+)*", body, flags=re.UNICODE)
+        words = re.findall(r"[^\W_]+(?:[’'-][^\W_]+)*", body, flags=re.UNICODE)
         self.assertGreaterEqual(len(words), 900)
         self.assertLessEqual(len(words), 1800)
 
@@ -102,7 +102,7 @@ class EditorialPublicationTests(unittest.TestCase):
 
     def test_audit_runs_for_every_pull_request_to_main(self):
         source = AUDIT_WORKFLOW.read_text(encoding="utf-8")
-        match = re.search(r"(?ms)^  pull_request:\\n(.*?)(?=^\\S|\\Z)", source)
+        match = re.search(r"(?ms)^  pull_request:\n(.*?)(?=^\S|\Z)", source)
         self.assertIsNotNone(match, "Audit workflow must listen to pull_request.")
         self.assertIn("branches: [main]", match.group(1))
         self.assertNotIn("paths:", match.group(1),
