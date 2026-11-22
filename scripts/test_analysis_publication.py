@@ -79,8 +79,19 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertIn('BASE_REF', source)
         self.assertIn('HEAD_SHA', source)
         self.assertIn('AUDIT_RESULT', source)
-        self.assertIn('gh pr merge', source)
+        self.assertIn('sort_by(.time)', source)
+        self.assertIn('CURRENT_HEAD_SHA', source)
+        self.assertIn('gh api --method PUT', source)
+        self.assertIn('sha="$HEAD_SHA"', source)
+        self.assertNotIn('gh pr merge', source)
         self.assertIn('gh workflow run deploy-production.yml', source)
+
+    def test_gpt_luna_budget_matches_the_approved_five_euro_cap(self):
+        config = json.loads((ROOT / "analysis" / "config.json").read_text(encoding="utf-8"))
+        self.assertEqual(config["model"], "gpt-6-luna")
+        self.assertEqual(config["monthly_budget_usd"], 5.5)
+        self.assertEqual(config["max_api_calls_per_month"], 12)
+        self.assertEqual(config["maximum_words"], 1800)
 
 
 if __name__ == "__main__":
