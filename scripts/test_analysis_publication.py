@@ -44,11 +44,12 @@ class EditorialPublicationTests(unittest.TestCase):
         source = ARTICLE.read_text(encoding="utf-8")
         for character in ("\u2012", "\u2013", "\u2014", "\u2015"):
             self.assertNotIn(character, source)
-        without_style = re.sub(r"<style\b[^>]*>[\s\S]*?</style>", " ", source, flags=re.I)
-        text = html.unescape(re.sub(r"<[^>]+>", " ", without_style))
-        words = re.findall(r"[^\W_]+(?:[’'-][^\W_]+)*", text, flags=re.UNICODE)
-        self.assertGreaterEqual(len(words), 800)
-        self.assertLessEqual(len(words), 2000)
+        match = re.search(r"<article>([\s\S]*?)</article>", source, flags=re.I)
+        self.assertIsNotNone(match, "Article body not found.")
+        body = html.unescape(re.sub(r"<[^>]+>", " ", match.group(1)))
+        words = re.findall(r"[^\W_]+(?:[’'-][^\W_]+)*", body, flags=re.UNICODE)
+        self.assertGreaterEqual(len(words), 900)
+        self.assertLessEqual(len(words), 1800)
 
     def test_archive_sitemap_and_source_registry_include_article(self):
         archive = ARCHIVE.read_text(encoding="utf-8")
