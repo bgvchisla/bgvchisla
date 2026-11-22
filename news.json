@@ -1,15 +1,35 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T19:41:14.610961+00:00",
-  "last_checked_at": "2026-11-22T19:41:14.610964+00:00",
+  "updated_at": "2026-11-22T20:27:39.263617+00:00",
+  "last_checked_at": "2026-11-22T20:27:39.263622+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: small business carveout in digital duty of care; countdown to pass key legislation begins",
+      "summary": "Get our breaking news email , free app or daily news podcast Good morning, Krishani Dhanji here with you for the final sitting week of the year! (Don’t sound too excited.) It’s crunch time for Labor who have several key pieces of legislation they want to pass",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
+      "published": "2026-11-22T20:10:36+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Самоков отбеляза 230 години от рождението на Димитър Зограф с научна конференция и музейни инициативи",
+      "summary": "Самоков отбеляза 230 години от рождението на Димитър Зограф с научна конференция, изложба и музейни инициативи, посветени на живота и творчеството на възрожденския художник и на културното наследство на града. Националната научна конференция „Димитър Зограф и",
+      "url": "https://www.bta.bg/bg/news/lik/1251671-samokov-otbelyaza-230-godini-ot-rozhdenieto-na-dimitar-zograf-s-nauchna-konferen",
+      "published": "2026-11-22T20:06:17+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
       "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T19:26:54+00:00",
+      "published": "2026-11-22T19:52:50+00:00",
       "feed_id": "bbc-world",
       "priority_score": 0
     },
@@ -191,7 +211,7 @@
       "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-evening",
       "published": "2026-11-22T17:00:26+00:00",
       "feed_id": "euronews",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -274,16 +294,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Филип Буков играе в премиерната комедия „Грешката е вярна“, музиката е на Свилен от „Остава“",
-      "summary": "Романтичната комедия „Грешката е вярна“ ще бъде представена за първи път на 14 декември в „Театро отсам канала“, информират от Break a leg. По думите им това е едно истинско любовно разследване с таро карти, астрологични прогнози и изкуствен интелект. В истори",
-      "url": "https://www.bta.bg/bg/news/lik/1252042-filip-bukov-igrae-v-premiernata-komediya-greshkata-e-vyarna-muzikata-e-na-svi",
-      "published": "2026-11-22T16:13:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Германската армия започва изпитания на дронове камикадзе и AI инструмент за насочване в Литва",
@@ -331,16 +341,6 @@
       "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
       "published": "2026-11-22T15:22:38+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Israel's Eisenkot condemns 'Jewish terrorism' in West Bank",
-      "summary": "Israeli opposition leader Gadi Eisenkot has condemned a recent series of arson attacks in the occupied West Bank as \"Jewish terrorism.\" Israeli authorities have opened an investigation into the incidents.",
-      "url": "https://www.dw.com/en/israel-s-eisenkot-condemns-jewish-terrorism-in-west-bank/a-80013861?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T15:09:00+00:00",
-      "feed_id": "dw-world",
       "priority_score": 0
     },
     {
