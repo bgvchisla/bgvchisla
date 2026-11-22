@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:45:27.245207+00:00",
-  "last_checked_at": "2026-11-21T23:45:27.245210+00:00",
+  "updated_at": "2026-11-22T00:33:25.359612+00:00",
+  "last_checked_at": "2026-11-22T00:33:25.359616+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -45,22 +45,22 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
-      "published": "2026-11-21T14:30:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 36
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
       "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
       "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
       "published": "2026-11-21T16:26:21+00:00",
       "feed_id": "economic-bg",
+      "priority_score": 35
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европейският енергиен пазар изпраща предупредителен сигнал за икономиката",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439884-evropeyskiyat-energien-pazar-izprashta-predupreditelen-signal-za-ikonomikata",
+      "published": "2026-11-21T14:30:00+00:00",
+      "feed_id": "investor-economy",
       "priority_score": 35
     },
     {
@@ -194,6 +194,16 @@
       "priority_score": 27
     },
     {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T00:10:44+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 26
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Петко Петков е избран за член на Висшия съдебен съвет от квотата на следователите",
@@ -315,16 +325,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-21T16:35:15+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 24
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "New EU budget proposal aims at tax gobal tech giants",
       "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
@@ -340,16 +340,6 @@
       "summary": "Празничен концерт отбеляза в препълнената зала на Фестивалния и конгресен център 100-годишнината от създаването на музикалното дружество „Морски звуци“ и 70-годишнината от основаването на представителния смесен хор, носещ същото име. Във видео поздрав от САЩ К",
       "url": "https://www.bta.bg/bg/news/lik/1251818-izkustvoto-na-hor-morski-zvutsi-ostavya-prekrasno-kulturno-nasledstvo-za-varna",
       "published": "2026-11-21T21:05:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 23
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Спартак Плевен надви гостуващия Ботев Академик в седмия кръг на Националната баскетболна лига за мъже",
-      "summary": "Спартак Плевен надви гостуващия Ботев Академик (Пловдив) с 87:75 (24:22, 20:15, 24:20, 19:18) в мач от седмия кръг на Националната баскетболна лига за мъже (НБЛ). Срещата се игра в зала „Балканстрой“ в Плевен, а съдии на мача бяха Николай Цинцарски, Димитър Ге",
-      "url": "https://www.bta.bg/bg/news/sport/1251782-spartak-pleven-nadvi-gostuvashtiya-botev-akademik-v-sedmiya-krag-na-natsionalnat",
-      "published": "2026-11-21T18:09:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 23
     },
@@ -385,13 +375,23 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Спартак Плевен надви гостуващия Ботев Академик в седмия кръг на Националната баскетболна лига за мъже",
+      "summary": "Спартак Плевен надви гостуващия Ботев Академик (Пловдив) с 87:75 (24:22, 20:15, 24:20, 19:18) в мач от седмия кръг на Националната баскетболна лига за мъже (НБЛ). Срещата се игра в зала „Балканстрой“ в Плевен, а съдии на мача бяха Николай Цинцарски, Димитър Ге",
+      "url": "https://www.bta.bg/bg/news/sport/1251782-spartak-pleven-nadvi-gostuvashtiya-botev-akademik-v-sedmiya-krag-na-natsionalnat",
+      "published": "2026-11-21T18:09:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 22
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Дезинфлационната стратегия на Фед е обречена на провал",
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439674-dezinflatsionnata-strategiya-na-fed-e-obrechena-na-proval",
       "published": "2026-11-21T10:30:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 23
+      "priority_score": 22
     },
     {
       "section": "europe",
@@ -401,7 +401,7 @@
       "url": "https://www.euronews.com/video/2026/11/21/japan-autonomous-air-taxi-completes-passenger-flight-without-a-pilot",
       "published": "2026-11-21T10:20:25+00:00",
       "feed_id": "euronews",
-      "priority_score": 23
+      "priority_score": 22
     },
     {
       "section": "europe",
@@ -411,16 +411,6 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 22
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Council calls for action to safeguard Europe’s traditional sports and games for future generations",
-      "summary": "The Council has approved conclusions calling for greater efforts to preserve and promote traditional sports and games in the EU.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
-      "published": "2026-11-20T14:10:00+00:00",
-      "feed_id": "council-press",
       "priority_score": 22
     },
     {
@@ -584,6 +574,16 @@
       "priority_score": 22
     },
     {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Council calls for action to safeguard Europe’s traditional sports and games for future generations",
+      "summary": "The Council has approved conclusions calling for greater efforts to preserve and promote traditional sports and games in the EU.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/council-calls-for-action-to-safeguard-europe-s-traditional-sports-and-games-for-future-generations/",
+      "published": "2026-11-20T14:10:00+00:00",
+      "feed_id": "council-press",
+      "priority_score": 21
+    },
+    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ взе решение за разрешаване на преобразуването на „Токуда Банк“ ЕАД чрез вливане по реда на чл. 262 от Търговския закон в „Българо-американска кредитна банка“ АД",
@@ -611,7 +611,7 @@
       "url": "https://www.investor.bg/a/538-pazari/439874-evropeyskite-borsi-zatvoriha-tezhka-sedmitsa-sled-razprodazhbi-na-tehnologichnite-aktsii",
       "published": "2026-11-20T18:02:13+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 19
+      "priority_score": 18
     },
     {
       "section": "europe",
@@ -621,7 +621,7 @@
       "url": "https://www.politico.eu/article/uk-brexit-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-20T17:50:49+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 19
+      "priority_score": 18
     },
     {
       "section": "bulgaria",
