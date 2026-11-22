@@ -15,6 +15,9 @@ on:
       - "official_business_climate.json"
       - "economy.json"
       - "analizi/articles.json"
+      - "analysis/README.md"
+      - "PROJECT_HANDOVER.md"
+      - ".github/workflows/update-news.yml"
   workflow_dispatch:
 
 permissions:
