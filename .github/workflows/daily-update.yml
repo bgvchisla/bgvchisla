@@ -5,9 +5,10 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
-  group: production-deploy
+  group: production-data-refresh
   cancel-in-progress: false
 
 jobs:
@@ -16,9 +17,18 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Create scoped automation App token
+        id: automation_token
+        if: vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID != ''
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc
+        with:
+          client-id: ${{ vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY }}
+          permission-contents: write
       - name: Download repository files
         uses: actions/checkout@v4
         with:
+          token: ${{ steps.automation_token.outputs.token || github.token }}
           ref: main
 
       - name: Set up Python
@@ -80,15 +90,32 @@ jobs:
       - name: Save updated data to main
         id: save
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          APP_SLUG="${{ steps.automation_token.outputs.app-slug }}"
+          if [ -n "$APP_SLUG" ]; then
+            BOT_USER_ID="$(gh api "/users/${APP_SLUG}[bot]" --jq .id)"
+            git config user.name "${APP_SLUG}[bot]"
+            git config user.email "${BOT_USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          fi
           git add economy.json
           if git diff --cached --quiet; then
             echo "No file changes to save."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Update official Eurostat series"
+            git pull --rebase origin main
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Dispatch production deployment after data changes
+        if: steps.save.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
+          echo "Production deployment requested for the validated data update."
