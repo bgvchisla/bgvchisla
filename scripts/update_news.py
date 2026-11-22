@@ -12,7 +12,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -21,6 +21,8 @@ OUT = Path("news.json")
 MAX_BYTES = 1_000_000
 TIMEOUT = 20
 MAX_PER_FEED = 35
+MAX_ITEM_AGE_DAYS = 10
+FUTURE_DATE_TOLERANCE_HOURS = 24
 USER_AGENT = "bgvchisla-news-aggregator/1.0 (+https://bgvchisla.com)"
 FEEDS = [
     {
@@ -538,7 +540,9 @@ def classify_investor_section(item):
         "франция", "френск", "британ", "великобритания", "италия", "испания",
         "полша", "унгария", "чехия", "сърбия", "турция", "япония", "индия",
         "корея", "саудитска арабия", "opec", "федералния резерв",
-        "американската борса", "азиатските пазари"
+        "американската борса", "азиатските пазари", "европей", "евросъюз",
+        "гърц", "гръц", "атин", "нискозем", "португал", "нидерланд", "австрия",
+        "швейцар", "румън", "словак", "хърват", "литва", "латвия", "естония"
     )
     if any(term in title for term in international_terms):
         item["section"] = "europe"
@@ -548,58 +552,90 @@ def classify_investor_section(item):
 
 
 def editorial_priority(item):
-    """Score public-interest relevance without judging political positions or sentiment."""
+    """Класира по конкретна икономическа значимост, а не по общи думи като „здраве“ или „парламент“."""
     title = item.get("title", "")
     summary = item.get("summary", "")
     text = (title + " " + summary).casefold()
-    score = 0
-    topic_hits = {
-        "politics": (
-            "правителств", "минист", "народното събрание", "парламент", "депутат",
-            "президент", "избор", "коалиц", "оставка", "вот на недоверие",
-            "законопроект", "конституц", "държавн"
-        ),
-        "economy": (
-            "бюджет", "инфлац", "икономик", "бвп", "дефицит", "дълг",
-            "данък", "данъц", "заплат", "пенси", "доход", "безработиц",
-            "лихвен", "бнб", "евро", "инвестици", "бизнес", "енерги",
-            "цени", "пазар", "финанс", "econom", "finance", "financial",
-            "fiscal", "inflation", "gdp", "trade", "tariff", "interest rate",
-            "central bank", "monetary", "reserve", "banking", "capital",
-            "liquidity", "investment", "export", "import", "tax", "debt",
-            "bond", "market", "oil", "gas", "productivity", "employment",
-            "wto", "bis", "imf", "fed", "fomc"
-        ),
-        "society": (
-            "здрав", "болниц", "лекар", "образован", "училищ", "университет",
-            "социал", "пенсион", "инцидент", "бедств", "пожар", "наводнен",
-            "земетрес", "катастроф", "транспорт", "съд", "прокуратур",
-            "корупц", "права", "обществен"
-        ),
-    }
-    matches = {topic: sum(1 for term in terms if term in text) for topic, terms in topic_hits.items()}
-    if matches["politics"]:
-        score += min(26, 14 + (matches["politics"] - 1) * 4)
-    if matches["economy"]:
-        score += min(26, 14 + (matches["economy"] - 1) * 4)
-    if matches["society"]:
-        score += min(24, 12 + (matches["society"] - 1) * 3)
-    high_impact = (
-        "извънредно", "спешно", "криза", "решение", "одобри", "приема",
-        "отхвърли", "влиза в сила", "рекорд", "милиард", "милиона",
-        "загина", "ранени", "евакуац", "затваря", "блокира"
+
+    economy_terms = (
+        "бюджет", "дефицит", "държавен дълг", "публичен дълг", "инфлац",
+        "икономик", "бвп", "данък", "данъц", "осигур", "заплат", "доход",
+        "пенси", "социални разход", "социални плащ", "безработиц", "заетост",
+        "лихв", "кредит", "депозит", "банка", "банков", "финанс", "инвестици",
+        "износ", "внос", "търговски дефицит", "търговски баланс", "енерги",
+        "електроенерг", "природен газ", "горив", "производителност",
+        "бизнес климат", "потребителски цени", "покупателна способност",
+        "разходи за труд", "пазар на труда", "икономически растеж",
+        "econom", "finance", "financial", "fiscal", "inflation", "gdp",
+        "trade", "tariff", "interest rate", "central bank", "monetary",
+        "banking", "credit", "liquidity", "investment", "export", "import",
+        "tax", "debt", "bond", "oil", "gas", "productivity", "employment",
+        "wto", "bis", "imf", "fed", "fomc"
     )
-    score += min(12, sum(3 for term in high_impact if term in text))
-    if item.get("feed_id") in {"parliament-news", "bnb-news", "ecb-press", "commission-press", "council-press", "eurostat-news", "federal-reserve", "bis-press", "bis-research", "wto-news"}:
-        score += 4
-    published = item.get("published")
-    if published:
-        try:
-            age_hours = max(0.0, (datetime.now(timezone.utc) - datetime.fromisoformat(published.replace("Z", "+00:00"))).total_seconds() / 3600)
-            score += max(0, round(12 * (1 - age_hours / 48)))
-        except (TypeError, ValueError):
-            pass
+    policy_terms = (
+        "правителств", "министерств", "парламент", "народното събрание",
+        "законопроект", "закон за", "регулац", "реформ", "решение на",
+        "централна банка", "надзор", "държавна помощ", "субсиди"
+    )
+    high_impact = (
+        "криза", "рекорд", "милиард", "милиона", "влиза в сила",
+        "повишава", "понижава", "намалява", "увеличава", "спира", "замразява"
+    )
+
+    economy_hits = sum(1 for term in economy_terms if term in text)
+    policy_hits = sum(1 for term in policy_terms if term in text)
+    impact_hits = sum(1 for term in high_impact if term in text)
+
+    score = 0
+    if economy_hits:
+        score += min(55, 24 + (economy_hits - 1) * 5)
+        score += min(12, policy_hits * 4)
+        score += min(9, impact_hits * 3)
+
+        if item.get("feed_id") in {
+            "investor-bg", "investor-economy", "investor-finance", "economic-bg",
+            "bnb-news", "parliament-news", "eurostat-news", "federal-reserve",
+            "bis-press", "bis-research", "wto-news"
+        }:
+            score += 3
+
+        published = item.get("published")
+        if published:
+            try:
+                dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
+                age_hours = max(0.0, (datetime.now(timezone.utc) - dt).total_seconds() / 3600)
+                score += max(0, round(15 * (1 - age_hours / 96)))
+            except (TypeError, ValueError):
+                pass
+
+    # Колекционерските цени на монети не са макроикономически индикатор.
+    collector_coin = ("монет" in text and any(term in text for term in ("колекционер", "емисия", "продавани на каса")))
+    monetary_policy = any(term in text for term in (
+        "основен лихвен процент", "парична политика", "лихвена политика",
+        "парично предлагане", "валутен резерв", "банкова ликвидност"
+    ))
+    if collector_coin and not monetary_policy:
+        score = 0
+
     return min(100, score)
+
+
+def is_recent_article(item, now=None):
+    """Изключва записи без надеждна дата, прекалено стари записи и бъдещи дати."""
+    now = now or datetime.now(timezone.utc)
+    published = item.get("published")
+    if not published:
+        return False
+    try:
+        dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        age = now - dt.astimezone(timezone.utc)
+    except (TypeError, ValueError, OverflowError):
+        return False
+    if age < -timedelta(hours=FUTURE_DATE_TOLERANCE_HOURS):
+        return False
+    return age <= timedelta(days=MAX_ITEM_AGE_DAYS)
 
 
 def main():
@@ -621,6 +657,9 @@ def main():
             # Keep the last known-good entries for this feed if a temporary outage occurs.
             all_items.extend(x for x in previous_items if x.get("feed_id") == feed["id"])
     all_items = [classify_investor_section(item) for item in all_items]
+    before_freshness = len(all_items)
+    all_items = [item for item in all_items if is_recent_article(item)]
+    print(f"Freshness gate: retained {len(all_items)}/{before_freshness} dated items within {MAX_ITEM_AGE_DAYS} days.")
     dedup = {}
     for item in all_items:
         key = item["url"].split("#", 1)[0].rstrip("/")
