@@ -96,7 +96,7 @@ class AutomatedWriterSecurityTests(unittest.TestCase):
 
     def test_editorial_merge_dispatches_production_after_automated_approval(self):
         source = (ROOT / ".github/workflows/generate-analyses.yml").read_text(encoding="utf-8")
-        self.assertIn("context=editorial-approval", source)
+        self.assertIn('select(.context == "editorial-approval")', source)
         self.assertIn("gh api --method PUT", source)
         self.assertIn("gh workflow run deploy-production.yml", source)
         self.assertLess(source.index("gh api --method PUT"), source.index("gh workflow run deploy-production.yml"))
