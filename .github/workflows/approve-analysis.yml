@@ -22,9 +22,9 @@ jobs:
       - name: Validate, record owner approval and merge the exact PR revision
         id: approval
         env:
-          GH_TOKEN: \${{ github.token }}
-          REPOSITORY: \${{ github.repository }}
-          PR_NUMBER: \${{ github.event.issue.number }}
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.issue.number }}
         run: |
           set -euo pipefail
           PR_JSON="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
@@ -64,7 +64,7 @@ jobs:
           CHECKS="$(gh api "repos/$REPOSITORY/commits/$HEAD_SHA/check-runs?per_page=100")"
           AUDIT_RESULT="$(jq -r '[.check_runs[] | select(.name == "audit") | select(.app.slug == "github-actions") | select(.status == "completed") | {time:(.completed_at // .started_at // .created_at), conclusion:.conclusion}] | sort_by(.time) | last | .conclusion // empty' <<<"$CHECKS")"
           if [ "$AUDIT_RESULT" != "success" ]; then
-            gh pr comment "$PR_NUMBER" --repo "$REPOSITORY" --body "Сливането е спряно: проверката \`audit\` за последния commit не е успешна. Изчакай зелен резултат и повтори \`/approve\`."
+            gh pr comment "$PR_NUMBER" --repo "$REPOSITORY" --body "Сливането е спряно: проверката audit за последния commit не е успешна. Изчакай зелен резултат и повтори /approve."
             echo "Approval refused: audit is not successful for $HEAD_SHA."
             exit 1
           fi
@@ -78,14 +78,9 @@ jobs:
             exit 1
           fi
 
-          # This status is a required ruleset check. It exists only after the owner
-          # comments /approve and the exact HEAD_SHA has passed the audit check.
+          # The required status is created only after owner approval and a green audit on this exact SHA.
           APPROVAL_URL="$GITHUB_SERVER_URL/$REPOSITORY/actions/runs/$GITHUB_RUN_ID"
-          STATUS_RESULT="$(gh api --method POST "repos/$REPOSITORY/statuses/$HEAD_SHA" \
-            -f state=success \
-            -f context=editorial-approval \
-            -f description="Owner approved this exact revision via /approve" \
-            -f target_url="$APPROVAL_URL")"
+          STATUS_RESULT="$(gh api --method POST "repos/$REPOSITORY/statuses/$HEAD_SHA" -f state=success -f context=editorial-approval -f description="Owner approved this exact revision via /approve" -f target_url="$APPROVAL_URL")"
           STATUS_CONTEXT="$(jq -r '.context' <<<"$STATUS_RESULT")"
           STATUS_STATE="$(jq -r '.state' <<<"$STATUS_RESULT")"
           if [ "$STATUS_CONTEXT" != "editorial-approval" ] || [ "$STATUS_STATE" != "success" ]; then
@@ -95,21 +90,13 @@ jobs:
 
           # The SHA precondition prevents merging an untested newer revision.
           if ! MERGE_RESULT="$(gh api --method PUT "repos/$REPOSITORY/pulls/$PR_NUMBER/merge" -f sha="$HEAD_SHA" -f merge_method=squash 2>/tmp/merge-error.txt)"; then
-            gh api --method POST "repos/$REPOSITORY/statuses/$HEAD_SHA" \
-              -f state=failure \
-              -f context=editorial-approval \
-              -f description="Approval recorded, but the protected merge did not complete" \
-              -f target_url="$APPROVAL_URL" >/dev/null || true
+            gh api --method POST "repos/$REPOSITORY/statuses/$HEAD_SHA" -f state=failure -f context=editorial-approval -f description="Approval recorded, but the protected merge did not complete" -f target_url="$APPROVAL_URL" >/dev/null || true
             cat /tmp/merge-error.txt >&2
             exit 1
           fi
           MERGED="$(jq -r '.merged' <<<"$MERGE_RESULT")"
           if [ "$MERGED" != "true" ]; then
-            gh api --method POST "repos/$REPOSITORY/statuses/$HEAD_SHA" \
-              -f state=failure \
-              -f context=editorial-approval \
-              -f description="GitHub did not confirm the merge" \
-              -f target_url="$APPROVAL_URL" >/dev/null || true
+            gh api --method POST "repos/$REPOSITORY/statuses/$HEAD_SHA" -f state=failure -f context=editorial-approval -f description="GitHub did not confirm the merge" -f target_url="$APPROVAL_URL" >/dev/null || true
             echo "Approval failed: GitHub did not confirm the merge."
             exit 1
           fi
@@ -119,8 +106,8 @@ jobs:
       - name: Dispatch production deployment
         if: steps.approval.outputs.merged == 'true'
         env:
-          GH_TOKEN: \${{ github.token }}
-          REPOSITORY: \${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
           # A merge made with GITHUB_TOKEN does not start a push-triggered workflow.
