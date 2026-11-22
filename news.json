@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:54:48.416086+00:00",
-  "last_checked_at": "2026-11-22T21:54:48.416090+00:00",
+  "updated_at": "2026-11-22T22:33:45.468313+00:00",
+  "last_checked_at": "2026-11-22T22:33:45.468317+00:00",
   "items": [
     {
       "section": "europe",
@@ -9,7 +9,17 @@
       "title": "Australian politics live: Labor to extend PBS medicine freeze to 2030; Bowen ‘failed’ on Cop, Hume says",
       "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-22T21:37:11+00:00",
+      "published": "2026-11-22T22:19:04+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the f-word failure is not his alone",
+      "summary": "Australia’s climate change minister will face a torrent of criticism over his role, but disagreement over fossil fuels proved an unbridgeable sticking point After delivering a major speech to the UN climate talks in Turkey last week, the Australian prime minis",
+      "url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
+      "published": "2026-11-22T21:46:40+00:00",
       "feed_id": "guardian-world",
       "priority_score": 0
     },
@@ -344,16 +354,6 @@
       "priority_score": 0
     },
     {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Германската армия започва изпитания на дронове камикадзе и AI инструмент за насочване в Литва",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439900-germanskata-armiya-zapochva-izpitaniya-na-dronove-kamikadze-i-ai-instrument-za-nasochvane-v-litva",
-      "published": "2026-11-22T16:05:16+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Чешката икономика е изправена пред стагфлационен шок, предупреди централен банкер",
@@ -391,7 +391,7 @@
       "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-summit-president-says/live-79999516?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T12:39:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -501,7 +501,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
       "published": "2026-11-21T10:43:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 34
+      "priority_score": 33
     },
     {
       "section": "bulgaria",
@@ -551,7 +551,7 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 43
+      "priority_score": 42
     },
     {
       "section": "europe",
