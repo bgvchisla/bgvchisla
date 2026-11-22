@@ -47,6 +47,10 @@ jobs:
         run: python scripts/analysis_evidence.py --lane bulgaria
       - name: Audit world analysis evidence without an API call
         run: python scripts/analysis_evidence.py --lane world
+      - name: Run the actual Bulgarian free preflight
+        run: python scripts/generate_analysis.py --lane bulgaria --dry-run
+      - name: Run the actual world free preflight
+        run: python scripts/generate_analysis.py --lane world --dry-run
       - name: Verify monthly spend ledger remains unchanged
         run: |
           python - <<'PY'
