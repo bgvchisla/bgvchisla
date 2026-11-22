@@ -6,6 +6,10 @@ on:
     paths:
       - "scripts/analysis_evidence.py"
       - "scripts/patch_analysis_evidence.py"
+      - "scripts/test_frontend.py"
+      - "index.html"
+      - "assets/**"
+      - ".github/workflows/deploy-production.yml"
       - ".github/workflows/generate-analyses.yml"
       - ".github/workflows/audit-analysis-evidence.yml"
       - "news.json"
@@ -48,6 +52,8 @@ jobs:
           python scripts/test_update_news.py
           python scripts/test_update_business_climate.py
       - name: Validate checked-in datasets and Python syntax
+      - name: Validate mobile navigation and all inline JavaScript
+        run: python scripts/test_frontend.py
         run: |
           python - <<'PY'
           import json

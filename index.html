@@ -1541,7 +1541,11 @@ window.addEventListener("scroll",function(){
   lastScrollY=currentY;
  });
 },{passive:true});
-navRoot.innerHTML=T.map(function(t,i){var m=NAV_META[i];return '<button type="button" data-i="'+i+'" aria-controls="s'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+' '+(i===0?'aria-current="page"':'')+'"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>'}).join("");
+navRoot.innerHTML=T.map(function(t,i){
+ var m=NAV_META[i];
+ var ariaCurrent=i===0?' aria-current="page"':'';
+ return '<button type="button" data-i="'+i+'" aria-controls="s'+i+'" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+'"'+ariaCurrent+'><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+m[2]+'"/></svg></span><span class="nav-copy"><span class="nav-title">'+t+'</span><span class="nav-sub">'+m[1]+'</span></span><span class="nav-arrow" aria-hidden="true">↗</span></button>';
+}).join("");
 measureNavRange();
 var navButtons=Array.from(navRoot.querySelectorAll("button[data-i]"));
 var pageSections=Array.from(document.querySelectorAll("#site-content section[id^='s']"));

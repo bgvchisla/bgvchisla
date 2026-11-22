@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "assets/**"
       - "analizi/**"
       - "privacy.html"
       - "sitemap.xml"
@@ -64,6 +65,7 @@ jobs:
         run: |
           python3 -c "import json; json.load(open('data.json', encoding='utf-8')); json.load(open('economy.json', encoding='utf-8')); print('JSON OK')"
           test -f index.html
+          test -f assets/design-system.css
           test -f economy-charts.js
           test -f privacy.html
           test -f source_status.json
@@ -72,7 +74,9 @@ jobs:
 
       - name: Prepare files
         run: |
-          mkdir public
+          mkdir -p public/assets
+          cp -R assets/. public/assets/
+          mkdir -p public
           cp index.html advertise.html data.json economy.json economy-charts.js privacy.html robots.txt sitemap.xml news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json _headers public/
           mkdir -p public/analizi
           cp -R analizi/. public/analizi/
