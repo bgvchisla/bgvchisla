@@ -53,6 +53,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Verify automated data writer security controls
+        run: python scripts/test_automation_writer.py
       - name: Run regression tests for news and NSI availability
         run: |
           python scripts/test_update_news.py
