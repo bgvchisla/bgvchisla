@@ -67,10 +67,6 @@ CONTEXT_RULES = (
         "европейски енергиен пазар", "енергиен пазар в европа",
         "european energy market", "енергийният пазар на ес",
     )),
-    ("Парична политика на ЕЦБ", 35, (
-        "ецб", "европейска централна банка", "ecb",
-        "monetary policy", "interest rates",
-    )),
     ("Дългосрочен бюджет на ЕС", 32, (
         "европейския съюз", "европейският съюз", "дългосрочния бюджет",
         "eu budget", "long-term budget", "multiannual financial framework",
@@ -182,6 +178,19 @@ def publisher_key(value):
 
 def _context_category(title, summary):
     body = (title + " " + summary).casefold()
+
+    # Самото споменаване на ЕЦБ не е достатъчно. Нужна е тема за лихвите
+    # или паричната политика, а не например новина за кадрово назначение.
+    ecb_mentioned = any(term_match(body, term) for term in (
+        "ецб", "европейска централна банка", "ecb",
+    ))
+    rate_topic = any(term_match(body, term) for term in (
+        "лихв", "повишение на лихвите", "основен лихвен процент",
+        "monetary policy", "interest rate", "rate hike", "policy rate",
+    ))
+    if ecb_mentioned and rate_topic:
+        return "Парична политика на ЕЦБ", 35
+
     for label, score, terms in CONTEXT_RULES:
         if any(term_match(body, term) for term in terms):
             return label, score
