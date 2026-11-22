@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Import monthly business-climate indicators from official NSI press releases."""
-import datetime as dt, html, json, re, urllib.request
+import datetime as dt, html, json, re, urllib.error, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -44,7 +44,20 @@ def parse_pair(text, label):
     return out
 
 def main():
-    page=Page(); page.feed(get(INDEX))
+    try:
+        index_html=get(INDEX)
+    except urllib.error.HTTPError as exc:
+        if exc.code == 403 and OUT.exists():
+            print(
+                "::warning title=NSI source temporarily restricted::"
+                "НСИ върна HTTP 403 при достъп до индекса. "
+                "Последният валидиран набор се запазва без промяна; "
+                "автоматичното обновяване ще опита отново при следващия график."
+            )
+            print("NSI business climate update skipped; existing validated data retained.")
+            return
+        raise
+    page=Page(); page.feed(index_html)
     links=[]
     for href,title in page.links:
         title=html.unescape(title)

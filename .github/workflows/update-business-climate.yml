@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "scripts/update_business_climate.py"
+      - "scripts/test_update_business_climate.py"
       - ".github/workflows/update-business-climate.yml"
 permissions:
   contents: write
@@ -24,6 +25,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Test safe handling of temporary NSI access restrictions
+        run: python scripts/test_update_business_climate.py
       - name: Import and validate official NSI indicators
         run: python scripts/update_business_climate.py
       - name: Commit changed dataset
