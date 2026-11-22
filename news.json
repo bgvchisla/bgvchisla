@@ -1,15 +1,115 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:28:06.573709+00:00",
-  "last_checked_at": "2026-11-22T09:28:06.573714+00:00",
+  "updated_at": "2026-11-22T10:15:37.176346+00:00",
+  "last_checked_at": "2026-11-22T10:15:37.176351+00:00",
   "items": [
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Cпециален икономически режим за Странджа може да върне бизнеса и хората в пограничните села, заяви кметът на Бутргас Димитър Николов",
+      "title": "В катедралния храм „Св. св. Кирил и Методий“ в Ловеч бе отслужена панихида за Ловчанския митрополит Гавриил",
+      "summary": "След края на неделната литургия в катедралния храм „Св. св. Кирил и Методий“ в Ловеч бе отслужена панихида за Ловчанския митрополит Гавриил, който почина след кратко боледуване рано тази сутрин. Председателят на катедралния храм ставрофорен свещеноиконом Михаи",
+      "url": "https://www.bta.bg/bg/news/lik/1251907-v-katedralniya-hram-sv-sv-kiril-i-metodiy-v-lovech-be-otsluzhena-panihida-za",
+      "published": "2026-11-22T10:13:34+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Козлодуй отбелязва утре 149 години от освобождението си",
+      "summary": "Сто четиридесет и девет години от освобождението на Козлодуй от османско владичество ще се отбележи утре в крайдунавския град, съобщиха от общинската администрация на страницата си във Фейсбук. Тържеството ще е от 10:00 часа пред паметната плоча в двора на Сре",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251895-kozloduy-otbelyazva-utre-149-godini-ot-osvobozhdenieto-si",
+      "published": "2026-11-22T09:57:26+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Japan: Mascot mania takes over Saitama with 200 colourful characters",
+      "summary": "More than 200 colourful mascots gathered in Saitama, Japan, delighting tens of thousands of fans with dancing, parades and photo opportunities. Among the stars was Kumamon, the country's famous black bear mascot.",
+      "url": "https://www.euronews.com/video/2026/11/22/japan-mascot-mania-takes-over-saitama-with-200-colourful-characters",
+      "published": "2026-11-22T09:55:23+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Tracking site says Iranian tanker reportedly sailing through Strait of Hormuz does not exist",
+      "summary": "The US military said Saturday marked 130 consecutive days of its naval blockade against Iran, which it says is preventing the Islamic Revolutionary Guard Corps from exporting \"billions of dollars in crude oil.\"",
+      "url": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi",
+      "published": "2026-11-22T09:54:50+00:00",
+      "feed_id": "euronews",
+      "priority_score": 44
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Община Смолян предвижда над 642 хил. евро за сметосъбиращи автомобили за общинското предприятие БКС",
+      "summary": "Община Смолян планира да закупи четири сметосъбиращи автомобила на стойност до 642 455 евро, с които да оборудва общинското предприятие „Благоустройство и комунално стопанство“ БКС за поемане на сметосъбирането и извозването на битовите отпадъци. Средствата ще",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251897-obshtina-smolyan-predvizhda-nad-642-hil-evro-za-smetosabirashti-avtomobili-za-o",
+      "published": "2026-11-22T09:52:31+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
+      "summary": "Following the attack near Kyiv, Ukraine's president issued a plea to Washington to authorize air defense missiles financed by allies.",
+      "url": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T09:49:20+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Шофьорът, който загина при катастрофа в Мездра, не е спрял на знак \"Стоп\" и се е блъснал в минаващата линейка",
+      "summary": "Шофьорът, който загина при катастрофа в Мездра, не е спрял на знак \"Стоп\" и се е блъснал в минаващата линейка. Това съобщиха от Областната дирекция (ОД) на МВР във Враца по повод вчерашния тежък пътен инцидент между лек автомобил и линейка, при който загина 77",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251893-shofyorat-koyto-zagina-pri-katastrofa-v-mezdra-ne-e-spryal-na-znak-stop-i-se",
+      "published": "2026-11-22T09:48:33+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Основни хранителни стоки и повечето зеленчуци поскъпват на борсите у нас",
+      "summary": "",
+      "url": "https://www.investor.bg/a/520-zemedelie/439891-osnovni-hranitelni-stoki-i-povecheto-zelenchutsi-poskapvat-na-borsite-u-nas",
+      "published": "2026-11-22T09:46:09+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Portugal: Workers brave downpours to demand a more affordable life",
+      "summary": "Thousands of people marched through Lisbon, Portugal, on Saturday 21 November 2026, braving heavy rain to demand higher wages, better pensions and measures to tackle the rising cost of living. The demonstration came just days before Portugal's parliamentary bu",
+      "url": "https://www.euronews.com/video/2026/11/22/portugal-workers-brave-downpours-to-demand-a-more-affordable-life",
+      "published": "2026-11-22T09:41:32+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Мъж на 38 години от Бургас е загинал при пътен инцидент на пътя между Ахелой и Поморие",
+      "summary": "Мъж на 38 години от Бургас е загинал при пътен инцидент на пътя между Ахелой и Поморие, съобщиха от Областната дирекция на МВР в Бургас. Сигналът за катастрофата е подаден късно снощи в Районното управление на полицията в Поморие. На място полицейските служите",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251891-mazh-na-38-godini-ot-burgas-e-zaginal-pri-paten-intsident-na-patya-mezhdu-aheloy",
+      "published": "2026-11-22T09:28:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Cпециален икономически режим за Странджа може да върне бизнеса и хората в пограничните села, заяви кметът на Бургас Димитър Николов",
       "summary": "Създаване на специална икономическа зона \"Странджа\" със специфичен митнически и данъчен режим, която да стимулира местния бизнес, да привлече инвестиции и да противодейства на обезлюдяването на пограничните населени места, предлага кметът на Бургас Димитър Ник",
       "url": "https://www.bta.bg/bg/news/economy/1251889-cpetsialen-ikonomicheski-rezhim-za-strandzha-mozhe-da-varne-biznesa-i-horata-v-p",
-      "published": "2026-11-22T09:27:05+00:00",
+      "published": "2026-11-22T09:27:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 39
     },
@@ -19,7 +119,7 @@
       "title": "Борбата с насилието трябва да е кауза на цялото общество, каза омбудсманът",
       "summary": "Борбата срещу агресията и насилието трябва да бъде кауза на всеки един от нас, а не само на институциите и мотористите. Това заяви омбудсманът Велислава Делчева преди началото на мотошествието „Домът е обич, не страх!“ в центъра на София, посветено на Междунар",
       "url": "https://www.bta.bg/bg/news/bulgaria/1251887-borbata-s-nasilieto-tryabva-da-e-kauza-na-tsyaloto-obshtestvo-kaza-ombudsmanat",
-      "published": "2026-11-22T09:23:58+00:00",
+      "published": "2026-11-22T09:23:00+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
@@ -41,6 +141,16 @@
       "url": "https://www.investor.bg/a/527-svyat/439890-ruski-tovaren-korab-plamna-v-baltiysko-more-sled-ataka-s-dronove",
       "published": "2026-11-22T09:15:30+00:00",
       "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Indian opposition party’s youth wing warns of more Meta protests after police clashes",
+      "summary": "Members of Congress party clashed with police outside tech company’s offices on Friday The youth wing of India’s main opposition Congress party warned of more protests against Meta’s removal of some of its members’ ⁠accounts, ⁠a day after clashing with ​police",
+      "url": "https://www.theguardian.com/world/2026/nov/22/india-congress-meta-protests-police-hyderabad",
+      "published": "2026-11-22T09:14:27+00:00",
+      "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
@@ -94,16 +204,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Документалeн филм за Руси Чанев ще бъде представен в Регионалната библиотека в Ловеч",
-      "summary": "Документалният филм за Руси Чанев „Душа на актьор“ ще бъде представен в Регионалната библиотека „Проф. Беню Цонев“ в Ловеч, съобщи Албена Йончева от културната институция. Специален гост на срещата на 24 ноември, вторник, ще бъде журналистът и сценарист Георги",
-      "url": "https://www.bta.bg/bg/news/lik/1251861-dokumentalen-film-za-rusi-chanev-shte-bade-predstaven-v-regionalnata-biblioteka-",
-      "published": "2026-11-22T08:40:56+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Inspired by Bernie Sanders: A German agency is using US-Style campaigning to boost the left in 2029",
@@ -111,46 +211,6 @@
       "url": "https://www.dw.com/en/inspired-by-bernie-sanders-a-german-agency-is-using-us-style-campaigning-to-boost-the-left-in-2029/a-80001443?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T08:39:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Лекари, инженери и медицински специалисти са сред най-търсените кадри в област Търговище",
-      "summary": "Общо 58 свободни работни места са обявени в трите бюра по труда в област Търговище и района до 50 километра към 23 ноември. От тях 26 са за кандидати с висше образование, което представлява близо 45 процента от всички позиции. Това показва справка за обявените",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251873-lekari-inzheneri-i-meditsinski-spetsialisti-sa-sred-nay-tarsenite-kadri-v-oblas",
-      "published": "2026-11-22T08:32:30+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Митрополит Арсений ще отслужи вечерня за храмовия празник на черквата „Св. Александър Невски“ при Бакаджишкия манастир край Ямбол",
-      "summary": "Сливенският митрополит Арсений ще отслужи тържествена архиерейска вечерня по повод предстоящия на 23 ноември храмов празник на църквата „Св. Александър Невски“ при Бакаджишкия манастир „Възнесение Господне“ край Ямбол. За богослужението съобщиха от Сливенската",
-      "url": "https://www.bta.bg/bg/news/lik/1251863-mitropolit-arseniy-shte-otsluzhi-vechernya-za-hramoviya-praznik-na-cherkvata-sv",
-      "published": "2026-11-22T08:31:41+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Дунав няма какво да губи в Разград и ще излезе да се противопостави на Лудогорец, заяви за БТА Георги Чиликов",
-      "summary": "Дунав няма какво да губи в предстоящото гостуване на Лудогорец и ще излезе на терена в Разград с нагласата да се противопостави на 14-кратния шампион на България. Това каза за БТА старши треньорът на русенския футболен клуб Георги Чиликов. Двата отбора ще се с",
-      "url": "https://www.bta.bg/bg/news/sport/1251875-dunav-nyama-kakvo-da-gubi-v-razgrad-i-shte-izleze-da-se-protivopostavi-na-ludogo",
-      "published": "2026-11-22T08:26:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Контрабандни цигари за над 82 000 евро са задържани на граничния пункт „Лесово”",
-      "summary": "Контрабандни цигари на стойност над 82 000 евро са задържани на Граничния контролно-пропускателен пункт (ГКПП) „Лесово”, съобщиха от Агенция „Митници”. Откритото количество е от общо 415 200 къса (20 760 кутии), укрити в хладилни витрини в товарен автомобил. О",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251877-kontrabandni-tsigari-za-nad-82-000-evro-sa-zadarzhani-na-granichniya-punkt-leso",
-      "published": "2026-11-22T08:26:09+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -271,7 +331,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-riskuva-budjetna-globa-ot-bruksel",
       "published": "2026-11-22T07:01:04+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 47
+      "priority_score": 46
     },
     {
       "section": "europe",
@@ -281,46 +341,6 @@
       "url": "https://www.euronews.com/2026/11/22/gadi-eisenkot-invites-netanyahus-likud-party-for-marathon-coalition-talks",
       "published": "2026-11-22T06:58:01+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
-      "summary": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
-      "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T06:54:06+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Security Sunday: Der Kampf um die Arktis – mit Robert Habeck",
-      "summary": "Zum ersten Mal in der Menschheitsgeschichte entsteht ein neuer Ozean und mit dem schmelzenden Eis der Arktis entbrennt ein Wettlauf der Großmächte. Es öffnet sich eine neue geopolitische Front. Im Gespräch mit POLITICO-Host Rixa Fürsen analysiert der ehemalige",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-der-kampf-um-die-arktis-mit-robert-habeck/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T06:30:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-      "summary": "A fire at a confectionery factory in Indonesia's Banten province has killed at least three people. Dozens are also unaccounted for after the blaze, which destroyed large parts of the facility.",
-      "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T06:14:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Three killed and dozens missing after fire at Indonesian factory",
-      "summary": "At least three people were killed and 36 are still missing after a fire at a confectionary factory.",
-      "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T06:05:00+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -341,17 +361,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-22T00:10:44+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 38
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 21st, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
-      "published": "2026-11-21T17:00:26+00:00",
-      "feed_id": "euronews",
-      "priority_score": 36
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -401,7 +411,7 @@
       "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
       "published": "2026-11-21T11:35:11+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -411,7 +421,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
       "published": "2026-11-21T11:28:47+00:00",
       "feed_id": "commission-press",
-      "priority_score": 41
+      "priority_score": 40
     },
     {
       "section": "europe",
@@ -471,7 +481,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -481,7 +491,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
-      "priority_score": 44
+      "priority_score": 43
     },
     {
       "section": "europe",
@@ -504,16 +514,6 @@
       "priority_score": 33
     },
     {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "France and Germany complete political deal for ECB leadership",
-      "summary": "Paris’ new market-operations portfolio at the European Central Bank could become pivotal in a French debt crisis.",
-      "url": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-20T16:50:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 38
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
@@ -521,7 +521,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 40
+      "priority_score": 39
     },
     {
       "section": "europe",
