@@ -7,11 +7,13 @@ on:
       - "scripts/analysis_evidence.py"
       - "scripts/patch_analysis_evidence.py"
       - "scripts/test_frontend.py"
+      - "scripts/test_analysis_publication.py"
       - "scripts/test_responsive.mjs"
       - "index.html"
       - "assets/**"
       - ".github/workflows/deploy-production.yml"
       - ".github/workflows/generate-analyses.yml"
+      - ".github/workflows/approve-analysis.yml"
       - ".github/workflows/audit-analysis-evidence.yml"
       - "news.json"
       - "official_fiscal.json"
@@ -19,8 +21,11 @@ on:
       - "official_nssi.json"
       - "official_business_climate.json"
       - "economy.json"
-      - "analizi/articles.json"
+      - "analizi/**"
+      - "sitemap.xml"
+      - "analysis/monthly_usage.json"
       - "analysis/README.md"
+      - "analysis/config.json"
       - "PROJECT_HANDOVER.md"
       - ".github/workflows/update-news.yml"
   workflow_dispatch:
@@ -31,7 +36,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: audit-editorial-evidence
+  group: audit-editorial-evidence-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -54,6 +59,8 @@ jobs:
           python scripts/test_update_business_climate.py
       - name: Validate mobile navigation and all inline JavaScript
         run: python scripts/test_frontend.py
+      - name: Validate article evidence and approval workflow
+        run: python scripts/test_analysis_publication.py
       - name: Install Chromium for exact viewport testing
         run: |
           npm install --no-save --no-package-lock playwright
@@ -95,7 +102,7 @@ jobs:
               json.loads(path.read_text(encoding="utf-8"))
               print(f"JSON OK: {name}")
           PY
-          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py
+          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/test_analysis_publication.py
       - name: Prepare the same runtime used by production
         run: |
           gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
@@ -116,7 +123,12 @@ jobs:
           from pathlib import Path
 
           usage = json.loads(Path("analysis/monthly_usage.json").read_text(encoding="utf-8"))
-          assert usage.get("calls", 0) == 0, "Audit workflow must not make model calls."
-          assert usage.get("spent_usd", 0) == 0, "Audit workflow must not incur model charges."
-          print("Проверка на разходите: 0 заявки, 0.00 USD.")
+          config = json.loads(Path("analysis/config.json").read_text(encoding="utf-8"))
+          calls = usage.get("calls", 0)
+          spent = usage.get("spent_usd", 0)
+          assert isinstance(calls, int) and calls >= 0, "Invalid monthly API call count."
+          assert isinstance(spent, (int, float)) and spent >= 0, "Invalid monthly spend value."
+          assert calls <= config.get("max_api_calls_per_month", 0), "Monthly API call limit exceeded."
+          assert spent <= config.get("monthly_budget_usd", 0), "Monthly analysis budget exceeded."
+          print(f"Проверка на бюджетния регистър: {calls} заявки; {spent:.6f} USD; в зададените лимити.")
           PY
