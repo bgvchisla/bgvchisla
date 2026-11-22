@@ -220,7 +220,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
           BRANCH: ${{ steps.pr.outputs.branch }}
-        run: gh workflow run audit-analysis-evidence.yml --repo "$REPOSITORY" --ref "$BRANCH"
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          EXPECTED_SHA: ${{ steps.pr.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          gh workflow run audit-analysis-evidence.yml --repo "$REPOSITORY" --ref "$BRANCH" -f pr_number="$PR_NUMBER" -f expected_sha="$EXPECTED_SHA"
 
       - name: Wait for the audit check and block on any failure
         id: audit
@@ -258,7 +262,7 @@ jobs:
           echo "::error::Audit не завърши в рамките на 15 минути."
           exit 1
 
-      - name: Verify PR state and record machine editorial approval
+      - name: Verify the audit-issued machine publication gate
         if: steps.plan.outputs.mode == 'publish'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -274,9 +278,13 @@ jobs:
           test "$(jq -r '.draft' <<<"$PR_JSON")" = "false"
           test "$(jq -r '.mergeable' <<<"$PR_JSON")" = "true"
           test "$(jq -r '.head.repo.full_name // empty' <<<"$PR_JSON")" = "$REPOSITORY"
-          STATUS_RESULT="$(gh api --method POST "repos/$REPOSITORY/statuses/$EXPECTED_SHA" -f state=success -f context=editorial-approval -f description="Automated editorial checks passed for this exact revision" -f target_url="$GITHUB_SERVER_URL/$REPOSITORY/actions/runs/$GITHUB_RUN_ID")"
-          test "$(jq -r '.context' <<<"$STATUS_RESULT")" = "editorial-approval"
-          test "$(jq -r '.state' <<<"$STATUS_RESULT")" = "success"
+          STATUSES="$(gh api "repos/$REPOSITORY/commits/$EXPECTED_SHA/statuses?per_page=100")"
+          APPROVAL_STATE="$(jq -r '[.[] | select(.context == "editorial-approval")] | sort_by(.created_at) | last | .state // empty' <<<"$STATUSES")"
+          if [ "$APPROVAL_STATE" != "success" ]; then
+            echo "::error::Независимият audit не е издал editorial-approval за точния commit."
+            exit 1
+          fi
+          echo "Независимият audit е издал editorial-approval=success за $EXPECTED_SHA."
 
       - name: Merge only the audited commit
         id: merge
