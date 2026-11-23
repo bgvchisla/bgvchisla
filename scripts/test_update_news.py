@@ -265,6 +265,7 @@ class HomepageOrderingTests(unittest.TestCase):
         self.assertIn("function isFreshLeadNews(item,now){", homepage)
         self.assertIn("var freshLead=ranked.find(function(item){return isFreshLeadNews(item,Date.now())});", homepage)
         self.assertIn("var leadItem=items.length&&isFreshLeadNews(items[0],Date.now())?items[0]:null;", homepage)
+        self.assertIn('article.className = leadItem && item===leadItem ? "news-item news-lead" : "news-item";', homepage)
 
     def test_homepage_orders_by_significance_then_publication_time(self):
         homepage = (ROOT / "index.html").read_text(encoding="utf-8")
