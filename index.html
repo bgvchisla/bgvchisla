@@ -1766,7 +1766,7 @@ fetch("official_nssi.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw n
 
 /* Новинарски поток: съдържанието идва от проверявания news.json */
 function sortNewsByEditorialPriority(items){
-  return items.slice().sort(function(a,b){
+  function compare(a,b){
     var pa=Number(a.priority_score);
     var pb=Number(b.priority_score);
     if(!Number.isFinite(pa))pa=0;
@@ -1779,7 +1779,19 @@ function sortNewsByEditorialPriority(items){
     if(!hasA)return hasB?1:0;
     if(!hasB)return -1;
     return tb-ta;
+  }
+  var ranked=items.slice().sort(compare);
+  var top=[],deferred=[],publisherCounts=Object.create(null);
+  ranked.forEach(function(item){
+    var publisher=String(item.publisher||item.source||"unknown").trim().toLowerCase();
+    if(top.length<10&&(publisherCounts[publisher]||0)<2){
+      top.push(item);
+      publisherCounts[publisher]=(publisherCounts[publisher]||0)+1;
+    }else{
+      deferred.push(item);
+    }
   });
+  return top.concat(deferred.sort(compare));
 }
 function renderNews(target,items){
   items=sortNewsByEditorialPriority(items);
