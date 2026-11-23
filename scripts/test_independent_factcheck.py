@@ -15,6 +15,8 @@ def validate_report(path):
     assert r.get("review_provider") == "Google" and r.get("review_model") == "gemini-3.8-flash"
     assert r.get("review_method") == "Gemini API with Google Search grounding"
     assert int(r.get("verified_claims", 0)) >= 8 and int(r.get("grounded_source_count", 0)) >= 4
+    assert int(r.get("official_grounding_domain_count", 0)) >= 2
+    assert 1 <= int(r.get("google_search_query_count", 0)) <= 4
     assert int(r.get("numeric_claims_found", 0)) > 0
     assert r.get("numeric_claims_verified") == r.get("numeric_claims_found")
     assert not r.get("blocking_reasons")
@@ -30,6 +32,11 @@ def validate_static():
     assert c["review_provider"] == "Google" and c["review_model"] == "gemini-3.8-flash"
     assert c["minimum_words"] == 900 and c["maximum_words"] == 1400
     assert c["monthly_total_budget_usd"] == 5.5 and c["max_factcheck_calls_per_month"] == 12
+    assert c["minimum_official_grounding_domains"] == 2
+    assert c["max_search_queries_per_call"] == 4
+    assert c["max_search_queries_per_month"] == 48
+    assert c["google_search_usd_per_1000_queries"] == 14
+    assert len(c["official_source_domains"]) >= 10
     assert "ANALYSES_PUBLISH_ENABLED" in w and "GEMINI_API_KEY" in w
     assert "steps.factcheck.outputs.verdict == 'PASS'" in w
     assert "fact_check_analysis.py" in w and "apply_ai_disclosure.py" in w
