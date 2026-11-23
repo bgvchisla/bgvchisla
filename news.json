@@ -1,27 +1,167 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:37:57.432770+00:00",
-  "last_checked_at": "2026-11-23T03:37:57.432774+00:00",
+  "updated_at": "2026-11-23T04:51:54.196446+00:00",
+  "last_checked_at": "2026-11-23T04:51:54.196451+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Семинар за представите на древните египтяни за смъртта и отвъдния живот ще се състои в ИЕФЕМ-БАН",
+      "summary": "Семинар на тема „Смъртта и отвъдният живот в Древен Египет“ с участието на проф. д-р Теодор Леков ще се състои днес, 23 ноември, в зала „Зимна градина“ на Националния етнографски музей в София. Събитието е първото от поредицата „Представи за смъртта и отвъдния",
+      "url": "https://www.bta.bg/bg/news/lik/1252088-seminar-za-predstavite-na-drevnite-egiptyani-za-smartta-i-otvadniya-zhivot-shte-",
+      "published": "2026-11-23T04:51:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Студентският съвет при УНСС ще отбележи своята 35-годишнина с тържество в София",
+      "summary": "Студентският съвет при Университета за национално и световно стопанство (УНСС) ще отбележи своята 35-годишнина с тържествено тази вечер в аула „Максима“ на висшето училище, съобщиха организаторите. Церемонията ще събере представители на държавната власт, акаде",
+      "url": "https://www.bta.bg/bg/news/lik/1252085-studentskiyat-savet-pri-unss-shte-otbelezhi-svoyata-35-godishnina-s-tarzhestveno",
+      "published": "2026-11-23T04:48:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "summary": "Ten people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building.",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T04:44:00+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Crossbenchers urge protection for political cartoons from AI; Singapore PM flying in via Western Sydney airport",
+      "title": "Australian politics live: Opposition hammers Labor over $150m ‘Cop flop’; Tehan kicked out of parliament for ‘taking mickey’ with Molly Meldrum catchphrase",
       "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-23T03:24:48+00:00",
+      "published": "2026-11-23T04:38:29+00:00",
       "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Beau Lamarre-Condon acted like a ‘poorly behaved boyfriend’ before alleged double murders, defence argues",
-      "summary": "Crown says accused developed ‘jealous obsession’ but defence says ‘love makes fools of us’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon acted like a “poorly behaved",
+      "title": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
+      "summary": "Crown says accused developed ‘jealous obsession’ but defence says ‘he was a poorly behaved boyfriend’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Love made a fool of Beau Lamarre-Condo",
       "url": "https://www.theguardian.com/australia-news/2026/nov/23/beau-lamarre-condon-trail-executed-jesse-baird-prosecution-argues-ntwnfb",
-      "published": "2026-11-23T03:07:31+00:00",
+      "published": "2026-11-23T04:34:11+00:00",
       "feed_id": "guardian-world",
       "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "„Оранжево зелено“, „Веща“ и „Огледало“ са сред заглавията, които ще имат премиери тази седмица",
+      "summary": "„Оранжево зелено“, „Веща“ и „Огледало“ са сред заглавията, които ще имат премиери тази седмица, съобщиха от издателствата. Дияна Кирилова, доктор на педагогическите науки, специализант по антропология и философия на образованието, ще представи книгата си „Смис",
+      "url": "https://www.bta.bg/bg/news/lik/1251487--oranzhevo-zeleno-veshta-i-ogledalo-sa-sred-zaglaviyata-koito-shte-imat-p",
+      "published": "2026-11-23T04:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Söders nächster Nadelstich gegen Merz",
+      "summary": "Präsentiert von YouTube.",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/soders-nachster-nadelstich-gegen-merz/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T04:30:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "‘Difficult geopolitical times’: Albanese defends Bowen after Cop31 deal failure",
+      "summary": "Coalition calls for climate change minister to resign immediately or be sacked over ‘catastrophic diplomatic disaster’, despite offering no alternatives on reducing emissions Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter he",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/difficult-geopolitical-times-albanese-defends-bowen-after-cop31-deal-failure",
+      "published": "2026-11-23T04:21:00+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Unemployment to surpass 5% and ‘things will get a bit harder’, treasurer Jim Chalmers warns",
+      "summary": "Economists flag rising recession risk as government forecasts economy will grow by less than 2% in 2027 and 2028 Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily news podcast Jim Chalmers has warned A",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/unemployment-to-surpass-5-and-things-will-get-a-bit-harder-treasurer-jim-chalmers-warns",
+      "published": "2026-11-23T04:17:27+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 44
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Документален филм за Стойчо Мазгалов ще има премиера в театър „Сълза и смях“",
+      "summary": "Софийската премиера на документалния филм „Мазгала – мускетар в лабиринта на времето“ ще се състои днес в театър „Сълза и смях“, съобщават от Съюза на артистите в България. На 1 ноември се навършиха 20 години от смъртта на актьора Стойчо Мазгалов, дългогодишен",
+      "url": "https://www.bta.bg/bg/news/lik/1252087-dokumentalen-film-za-stoycho-mazgalov-shte-ima-premiera-v-teatar-salza-i-smyah-",
+      "published": "2026-11-23T04:09:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Doula thought self-described birth keeper was clinically trained before NSW baby death, inquest hears",
+      "summary": "Inquest into the deaths of four babies after free and home births hears doula urged client to attend birth centre Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast A doula who supported a fr",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/doula-thought-self-described-birth-keeper-was-clinically-trained-before-nsw-baby-death-inquest-hears-ntwnfb",
+      "published": "2026-11-23T04:03:07+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+      "summary": "Scientific and satellite findings warn of widespread contamination in Gaza, posing grave threats to public health ‘for generations to come’ Israel’s destruction of Gaza has left a devastating environmental legacy with poisoned water, contaminated soil and toxi",
+      "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+      "published": "2026-11-23T04:00:45+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Патриарх Даниил ще отслужи литургия за празника на свети Александър Невски в патриаршеската катедрала „Св. Александър Невски“",
+      "summary": "Българският патриарх и Софийски митрополит Даниил ще отслужи днес света литургия за празника на свети Александър Невски в патриаршеската катедрала „Св. Александър Невски“. Литургията ще започне от 9:30 ч., а посрещането на патриарх Даниил пред катедралата се о",
+      "url": "https://www.bta.bg/bg/news/lik/1252055-patriarh-daniil-shte-otsluzhi-dnes-sveta-liturgiya-za-praznika-na-sveti-aleksand",
+      "published": "2026-11-23T04:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Using carbon footprint evidence to support better healthcare decisions",
+      "summary": "Measuring the carbon footprint of medicines across the entire product lifecycle means GSK can aim to reduce its environmental impact and transform patient care.",
+      "url": "https://www.politico.eu/sponsored-content/using-carbon-footprint-evidence-to-support-better-healthcare-decisions/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T04:00:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Europe recognizes refining’s strategic role: Now it must act",
+      "summary": "Europe faces a strategic choice: transform its refining industry for a low-carbon future or become increasingly dependent on production elsewhere.",
+      "url": "https://www.politico.eu/sponsored-content/europe-recognizes-refinings-strategic-role-now-it-must-act/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T04:00:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU ETS must finance European aviation’s transition to net zero",
+      "summary": "Passengers and airlines cannot be left to pay the full SAF bill the EU legislated in ReFuelEU Aviation.",
+      "url": "https://www.politico.eu/sponsored-content/eu-ets-must-finance-european-aviations-transition-to-net-zero/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T04:00:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 39
     },
     {
       "section": "europe",
@@ -75,42 +215,12 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Former Bachelor star Sam Wood seeking mediation amid DV charges for allegedly strangling wife",
-      "summary": "Lawyer Brad Hill seeks two-week adjournment on Monday for mediation, which can only occur if alleged victim consents Get our breaking news email , free app or daily news podcast Former reality TV star Sam Wood is seeking mediation amid his serious domestic vio",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/bachelor-sam-wood-domestic-violence-charges-mediation-ntwnfb",
-      "published": "2026-11-23T02:40:33+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-      "summary": "Nine people are dead in the attack, with rescue efforts ongoing to find those still missing from the residential building.",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T02:37:02+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
       "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
       "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-23T01:23:43+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Tributes flow for Molly Meldrum: Anthony Albanese, Jason Donovan and others remember music industry great",
-      "summary": "Peter Andre, Richard Wilkins and Kate Ceberano share memories of ‘a truly unique character’ and ‘the fan all artists wish to have’ Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83 Molly Meldrum – a life in pictures Ian ‘Molly’ Meldr",
-      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes",
-      "published": "2026-11-23T01:23:07+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
@@ -131,16 +241,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-23T00:33:36+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
-      "summary": "Much-loved broadcaster played a critical role in exposing rest of the world to Australian music – and vice versa Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly",
-      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
-      "published": "2026-11-23T00:25:40+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
@@ -275,112 +375,12 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "What's next after no deal at COP31 climate talks?",
-      "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
-      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T18:57:24+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Валентин Митев спечели открития турнир по ускорен шахмат за \"Купа Плевен 2026\"",
-      "summary": "Валентин Митев от Левски София спечели открития турнир по ускорен шахмат за \"Купа Плевен 2026\" със стопроцентов резултат от седем победи. Партиите се играха в хотел \"Ростов\". За БТА победителят каза, че турнирът е преминал при феърплей. По време на срещите той",
-      "url": "https://www.bta.bg/bg/news/sport/1252075-valentin-mitev-specheli-otkritiya-turnir-po-uskoren-shahmat-za-kupa-pleven-2026",
-      "published": "2026-11-22T18:57:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Първите осем фюжън биопсии на простатата бяха извършени в Университетската болница „Канев“ в Русе",
-      "summary": "Първите осем фюжън биопсии на простатата са извършени в Университетската болница „Канев“ в Русе с нова високотехнологична система за диагностика на рак на простатата. Това съобщи пиарът на лечебното заведение Стела Кръстева. Процедурите са осъществени с ултраз",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252083-parvite-osem-fyuzhan-biopsii-na-prostatata-byaha-izvarsheni-v-universitetskata-b",
-      "published": "2026-11-22T18:39:02+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Главиницкият епископ Макарий отслужи богослужение след ремонта на катедралния храм „Света Троица“ в Русе",
-      "summary": "Катедралният храм „Света Троица“ в Русе беше обновен и отново отворен за богослужения днес. Това съобщи на официалния си профил във Фейсбук Русенският митрополит Наум, с чието благословение неговият викарий Главиницкият епископ Макарий извърши чина на обновлен",
-      "url": "https://www.bta.bg/bg/news/lik/1252078-glavinitskiyat-episkop-makariy-otsluzhi-bogosluzhenie-sled-remonta-na-katedralni",
-      "published": "2026-11-22T18:31:23+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общо 39 двойки подновиха брачните си клетви и отпразнуваха златна сватба в Самоков",
-      "summary": "Общо 39 двойки подновиха брачните си клетви и отпразнуваха златна сватба в Самоков. Церемонията се състоя в ресторанта на хотел „Арена Самоков“. Двойките бяха поздравени от кмета на община Самоков Ангел Джоргов и секретаря на Общината Станислава Цветкова. Те и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252076-obshto-39-dvoyki-podnoviha-brachnite-si-kletvi-i-otpraznuvaha-zlatna-svatba-v-sa",
-      "published": "2026-11-22T18:28:21+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Tanker incident “involving military forces” reported in Strait of Hormuz",
-      "summary": "Amid conflicting reports that an Iranian tanker departed Iran’s Kharg Island on Sunday to force the US military blockade in the Strait of Hormuz, an incident was reported near the US navy blockade line. Iran threatened that any US attempt to stop its tankers w",
-      "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz",
-      "published": "2026-11-22T18:07:13+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Първата реална полза от квантовите изчисления може да дойде в неочаквана област",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439903-parvata-realna-polza-ot-kvantovite-izchisleniya-mozhe-da-doyde-v-neochakvana-oblast",
-      "published": "2026-11-22T17:58:49+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Global climate talks have collapsed. Here’s what just happened.",
-      "summary": "Two weeks of talks about protecting the planet from global warming ended without a deal.",
-      "url": "https://www.politico.eu/article/global-climate-talks-have-collapsed-here-is-what-just-happened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T17:21:50+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 22nd, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
       "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-evening",
       "published": "2026-11-22T17:00:26+00:00",
       "feed_id": "euronews",
-      "priority_score": 37
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Global left rallies in Paris to make ‘not so radical’ case for taxing billionaires",
-      "summary": "Politicians from Europe and the U.S. gathered at Gabriel Zucman's summit to challenge the power of the super-rich — but few are in a position to act.",
-      "url": "https://www.politico.eu/article/global-left-rallies-paris-make-not-so-radical-case-taxing-billionaires/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T16:21:57+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 37
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "How Big Oil and the Trump administration outwitted Brussels to delay an EU climate law",
-      "summary": "Intense lobbying prompted the EU to delay plans to force fossil fuel companies to report their methane emissions.",
-      "url": "https://www.politico.eu/article/how-big-oil-trump-administration-outwitted-brussels-delay-eu-climate-law/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T16:04:32+00:00",
-      "feed_id": "politico-europe",
       "priority_score": 37
     },
     {
@@ -411,7 +411,7 @@
       "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-summit-president-says/live-79999516?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T12:39:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 37
+      "priority_score": 36
     },
     {
       "section": "europe",
@@ -471,7 +471,7 @@
       "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
       "published": "2026-11-21T16:26:21+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 40
+      "priority_score": 39
     },
     {
       "section": "europe",
@@ -511,7 +511,7 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
       "published": "2026-11-21T10:43:00+00:00",
       "feed_id": "council-press",
-      "priority_score": 33
+      "priority_score": 32
     },
     {
       "section": "bulgaria",
@@ -561,7 +561,7 @@
       "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
       "published": "2026-11-20T15:45:35+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "europe",
@@ -571,7 +571,7 @@
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "published": "2026-11-20T15:00:00+00:00",
       "feed_id": "federal-reserve",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "europe",
