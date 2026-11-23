@@ -259,6 +259,6 @@ body > a.skip-link:focus-visible{
   word-break:normal;
   text-overflow:clip;
 }
-@media(min-width:1200px){
+@media(min-width:640px){
   #site-content nav#nav button[data-i="15"]{display:none!important}
 }
