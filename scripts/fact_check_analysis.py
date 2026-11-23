@@ -109,9 +109,9 @@ def article_fragment(page):
     )
 
 
-def extract_numeric_statements(page):
-    # Numeric coverage includes summary metrics before <article>, all article
-    # paragraphs/list items/table rows, and visual chart rows.
+def editorial_content_fragment(page):
+    # Include page-level metrics and the article, but exclude navigation and
+    # the bibliography so quotations can be matched against the actual content.
     main = re.search(r"<main\b[^>]*>(.*?)</main>", page, flags=re.I | re.S)
     content = main.group(1) if main else article_fragment(page)
     content = re.sub(r"<nav\b[^>]*>.*?</nav>", " ", content, flags=re.I | re.S)
@@ -121,6 +121,13 @@ def extract_numeric_statements(page):
         content,
         flags=re.I | re.S,
     )
+    return content
+
+
+def extract_numeric_statements(page):
+    # Numeric coverage includes summary metrics before <article>, all article
+    # paragraphs/list items/table rows, and visual chart rows.
+    content = editorial_content_fragment(page)
     blocks = []
     tag_group = "|".join(NUMERIC_BLOCK_TAGS)
     pattern = rf"<({tag_group})\b[^>]*>(.*?)</\1>"
@@ -190,7 +197,7 @@ def latest_article(slug):
     if not path.is_file():
         raise ValueError(f"Липсва HTML на анализа: {path}")
     page = path.read_text(encoding="utf-8")
-    text = plain_text(article_fragment(page))
+    text = plain_text(editorial_content_fragment(page))
     config = read_json(CONFIG_PATH, {})
     if len(text) < 2000:
         raise ValueError("Текстът на анализа е твърде кратък за независима проверка.")
