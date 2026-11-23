@@ -167,7 +167,8 @@ jobs:
               github.event.pull_request.head.repo.full_name == github.repository &&
               (
                 startsWith(github.head_ref, 'analysis/auto-') ||
-                startsWith(github.head_ref, 'automation/full-auto-editorial-pipeline-')
+                startsWith(github.head_ref, 'automation/full-auto-editorial-pipeline-') ||
+                startsWith(github.head_ref, 'automation/independent-ai-factcheck-')
               )
             ) ||
             (
@@ -176,7 +177,8 @@ jobs:
               inputs.expected_sha != '' &&
               (
                 startsWith(github.ref_name, 'analysis/auto-') ||
-                startsWith(github.ref_name, 'automation/full-auto-editorial-pipeline-')
+                startsWith(github.ref_name, 'automation/full-auto-editorial-pipeline-') ||
+                startsWith(github.ref_name, 'automation/independent-ai-factcheck-')
               )
             )
           )
@@ -193,7 +195,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            analysis/auto-*|automation/full-auto-editorial-pipeline-*) ;;
+            analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/independent-ai-factcheck-*) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
