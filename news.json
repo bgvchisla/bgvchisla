@@ -1,27 +1,8 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:15:08.207823+00:00",
-  "last_checked_at": "2026-11-23T14:15:08.207841+00:00",
+  "updated_at": "2026-11-23T14:47:37.040329+00:00",
+  "last_checked_at": "2026-11-23T14:47:37.040342+00:00",
   "items": [
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Седмични новини: България ще строи целия жп тунел „Деве баир“; ВАС потвърди пазарни манипулации от НЕК",
-      "summary": "Какво ще струва Бюджет 2027 на бизнеса и домакинствата? През седмицата 16–20 ноември кабинетът одобри проекта, а в парламента започна спорът за новите данъци и за парите за пенсии, пътища и инвестиции. Междувременно Евростат отчете 5,9% годишна инфлация в Бълг",
-      "url": "https://www.economic.bg/bg/a/view/sedmichni-novini-bylgarija-shte-stroi-celija-jp-tunel-deve-bair-vas-potvyrdi-pazarni-manipulacii-ot-nek",
-      "published": "2026-11-22T15:30:13+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 67,
-      "priority_breakdown": {
-        "economic_significance": 100,
-        "national_impact": 87,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -43,21 +24,21 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Саудитска Арабия обмисля инвестиции в индустриални паркове и производство на електромобили в България",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/439910-sauditska-arabiya-obmislya-investitsii-v-industrialni-parkove-i-proizvodstvo-na-elektromobili-v-balgariya",
-      "published": "2026-11-23T08:14:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 44,
+      "source": "Economic.bg",
+      "title": "Седмични новини: България ще строи целия жп тунел „Деве баир“; ВАС потвърди пазарни манипулации от НЕК",
+      "summary": "Какво ще струва Бюджет 2027 на бизнеса и домакинствата? През седмицата 16–20 ноември кабинетът одобри проекта, а в парламента започна спорът за новите данъци и за парите за пенсии, пътища и инвестиции. Междувременно Евростат отчете 5,9% годишна инфлация в Бълг",
+      "url": "https://www.economic.bg/bg/a/view/sedmichni-novini-bylgarija-shte-stroi-celija-jp-tunel-deve-bair-vas-potvyrdi-pazarni-manipulacii-ot-nek",
+      "published": "2026-11-22T15:30:13+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 67,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 87
+        "economic_significance": 100,
+        "national_impact": 87,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -118,25 +99,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Нетните активи на пенсионните фондове надхвърлят 17 млрд. евро в края на септември",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439929-netnite-aktivi-na-pensionnite-fondove-nadhvarlyat-17-mlrd-evro-v-kraya-na-septemvri",
-      "published": "2026-11-23T11:27:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 41,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU and Indonesia sign trade deal",
@@ -153,6 +115,25 @@
         "strategic_significance": 54,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Нетните активи на пенсионните фондове надхвърлят 17 млрд. евро в края на септември",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439929-netnite-aktivi-na-pensionnite-fondove-nadhvarlyat-17-mlrd-evro-v-kraya-na-septemvri",
+      "published": "2026-11-23T11:27:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
@@ -195,25 +176,6 @@
     },
     {
       "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "EU launches safeguard investigation into certain composite input materials",
-      "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
-      "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "publisher": "СТО",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
       "summary": "New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people • Slave-trade wealth was embedded in Britain’s financial system, research finds British businesses run by long-serving",
@@ -251,6 +213,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Община Тутракан обнови две улици и водопроводната мрежа в село Цар Самуил",
+      "summary": "Две улици и водопроводната мрежа в силистренското село Цар Самуил бяха обновени с инвестиция от близо 495 хил. евро. Проектите обхващат улиците „Черни връх“ и „Чавдар Войвода“ и са насочени към подобряване на пътната инфраструктура и водоснабдяването в населен",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252613-obshtina-tutrakan-obnovi-dve-ulitsi-i-vodoprovodnata-mrezha-v-selo-tsar-samuil",
+      "published": "2026-11-23T14:24:22+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "Grand Theft Auto VI backlash engulfs Greek leader Mitsotakis",
@@ -270,6 +251,44 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
+      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
+      "published": "2026-11-22T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Шимкус: Повишение на лихвите през декември може да се окаже недостатъчно",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439923-shimkus-povishenie-na-lihvite-prez-dekemvri-mozhe-da-se-okazhe-nedostatachno",
+      "published": "2026-11-23T10:20:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Катастрофа затруднява движението по Подбалканския път Казанлък-Сливен в района на Гурково",
@@ -284,25 +303,6 @@
         "national_impact": 22,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Немскоезичното издание на списание ЛИК, посветено на първия български вестник „Български орел“, ще бъде представено в Българския културен институт в Берлин",
-      "summary": "Ноемврийският брой на списание ЛИК, преведен на немски език, ще бъде представен в Българския културен институт (БКИ) в Берлин на 24 ноември, вторник. Изданието за литература, изкуство и култура на Българската телеграфна агенция (БТА) е посветено на 180-годишни",
-      "url": "https://www.bta.bg/bg/news/lik/1252549-nemskoezichnoto-izdanie-na-spisanie-lik-posveteno-na-parviya-balgarski-vestnik-",
-      "published": "2026-11-23T13:49:20+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
       }
@@ -556,25 +556,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 22nd, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-morning",
-      "published": "2026-11-22T06:00:32+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU takes aim at tech giants in tax proposal",
       "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
@@ -612,40 +593,21 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
-      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
-      "published": "2026-11-22T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
+      "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
-      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
-      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
-      "published": "2026-11-21T16:26:21+00:00",
+      "title": "БОРИКА подготвя blink eCommerce – нов начин за плащане в магазините",
+      "summary": "Пазаруване без банкова карта, а парите пристигат при търговеца за секунди. БОРИКА подготвя разширяването на blink към онлайн магазините, а впоследствие и към физическите търговски обекти.",
+      "url": "https://www.economic.bg/bg/a/view/borika-podgotvja-blink-e-commerce-nov-nachin-za-plashtane-v-magazinite",
+      "published": "2026-11-23T14:30:22+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 35,
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 42,
+        "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 68,
+        "timeliness": 100,
         "source_reliability": 85
       }
     },
@@ -669,25 +631,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Шимкус: Повишение на лихвите през декември може да се окаже недостатъчно",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439923-shimkus-povishenie-na-lihvite-prez-dekemvri-mozhe-da-se-okazhe-nedostatachno",
-      "published": "2026-11-23T10:20:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
       "section": "europe",
       "source": "Economic.bg",
       "title": "Европа навлиза в зимата с най-ниското ниво на газовите запаси",
@@ -704,25 +647,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "France gets an EU budget win — but wants more",
-      "summary": "Presented by Fusion for Energy.",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/france-gets-an-eu-budget-win-but-wants-more/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T05:05:00+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
       }
     },
     {
@@ -761,6 +685,25 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "At least 24 people killed in Indonesia factory fire, police say",
+      "summary": "Dozens of employees are still reported to be missing after a blaze broke out at a candy factory in Banten province at around 4:30 pm local time on Saturday.",
+      "url": "https://www.euronews.com/2026/11/23/at-least-24-people-killed-in-indonesia-factory-fire-police-say",
+      "published": "2026-11-23T14:39:22+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
       }
     },
     {
@@ -909,6 +852,25 @@
     {
       "section": "europe",
       "source": "POLITICO Europe",
+      "title": "Badenoch: Rejoining EU won’t fix Britain’s economic woes",
+      "summary": "Renewed membership of the EU \"is not going to solve our recurring problems,\" Tory leader told business chiefs.",
+      "url": "https://www.politico.eu/article/kemi-badenoch-rejoining-eu-wont-fix-britains-economic-woes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T14:31:56+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
       "title": "Macron moves to ‘trap’ successors with new budget rule",
       "summary": "The French president's opponents and allies aren't buying his rationale for new deficit spending legislation.",
       "url": "https://www.politico.eu/article/emmanuel-macron-trap-successors-budget-rule-france/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -966,10 +928,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Новогодишният музикален фестивал в НДК представя два концерта на 1 и 20 декември",
-      "summary": "Новогодишният музикален фестивал в НДК ще включва в програмата си два концерта в партньорство с Националната музикална академия „Проф. Панчо Владигеров“ (НМА), съобщават организаторите. Първият - „Фолклорни вариации“, е на 1 декември в зала 9 на НДК, а вторият",
-      "url": "https://www.bta.bg/bg/news/lik/1252532-novogodishniyat-muzikalen-festival-v-ndk-predstavya-dva-kontserta-na-1-i-20-deke",
-      "published": "2026-11-23T13:34:30+00:00",
+      "title": "Заключителна конференция за отворената наука ще се проведе в ИМИ–БАН",
+      "summary": "Заключителната конференция „Отворената наука в България – напредък и перспективи“ ще се проведе на 1 декември от 9:00 ч. в Института по математика и информатика при Българската академия на науките (ИМИ–БАН) в София, съобщиха организаторите. На нея ще бъдат пре",
+      "url": "https://www.bta.bg/bg/news/lik/1252612-zaklyuchitelna-konferentsiya-za-otvorenata-nauka-shte-se-provede-v-imi-ban",
+      "published": "2026-11-23T14:33:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1194,6 +1156,25 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
+      "title": "Moscow accuses Estonia of acting ‘on verge of unleashing open war with Russia’ – Europe live",
+      "summary": "Estonia has continued to deny it has allowed Ukrainian drones to operate from its territory despite repeated unsubstantiated claims from the Kremlin Turning to Ukraine, Nato’s Rutte stresses the need to secure the flow of “crucial supplies” or air defence weap",
+      "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
+      "published": "2026-11-23T14:35:49+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
       "title": "Domestic violence perpetrators are misusing smart car features to abuse, researchers warn",
       "summary": "Exclusive: Alarming report reveals how tracking and monitoring functions and digital key access have been used to facilitate abuse Get our breaking news email , free app or daily news podcast Earlier this year a man in Australia was found guilty of using a con",
       "url": "https://www.theguardian.com/society/2026/nov/23/smart-car-tracking-control-features-domestic-violence-warning-ntwnfb",
@@ -1227,25 +1208,6 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Kremlin warns of ‘escalation’ as Albania denies Ukrainian drones that sank Russian ships launched from its territory – Europe live",
-      "summary": "Zelenskyy says Ukraine responsible for sinking Merkury warship in Benghazi on Sunday and also drone attack on cargo vessel MV Angara Russian warship sinks in Benghazi after suspected Ukrainian drone attack Turning to Ukraine, Nato’s Rutte stresses the need to",
-      "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
-      "published": "2026-11-23T13:48:25+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
       }
     },
     {
@@ -1320,7 +1282,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 99
       }
     },
@@ -1331,6 +1293,44 @@
       "summary": "European Commission Daily news Brussels, 23 Nov 2026 Commission welcomes European Citizens' Panel recommendations on Democratic Resilience The European Citizens' Panel on Democratic Resilience concluded yesterday...",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2561",
       "published": "2026-11-23T10:24:10+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Allianz Trade: С 12% расте несъстоятелността в България през тази година",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439909-allianz-trade-s-12-raste-nesastoyatelnostta-v-balgariya-prez-tazi-godina",
+      "published": "2026-11-23T09:52:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Speech by Commissioner Lahbib at HERA Industry Days",
+      "summary": "European Commission Speech Brussels, 23 Nov 2026 This surgical mask only costs a few cents, but in April 2020 it was worth its weight in gold. Planes full of masks that European regions had already paid for we...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2559",
+      "published": "2026-11-23T09:20:27+00:00",
       "feed_id": "commission-press",
       "publisher": "Европейска комисия",
       "priority_score": 28,
