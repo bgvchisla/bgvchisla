@@ -66,7 +66,7 @@ class FrontendIntegrityTests(unittest.TestCase):
 
     def test_news_navigation_button_is_hidden_only_on_desktop(self):
         stylesheet = (ROOT / "assets" / "design-system.css").read_text(encoding="utf-8")
-        self.assertIn("@media(min-width:1200px)", stylesheet)
+        self.assertIn("@media(min-width:640px)", stylesheet)
         self.assertIn(
             '#site-content nav#nav button[data-i="15"]{display:none!important}',
             stylesheet,
