@@ -4,13 +4,44 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
+import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from fact_check_analysis import extract_numeric_statements
 CONFIG = ROOT / "analysis" / "config.json"
 WORKFLOW = ROOT / ".github" / "workflows" / "generate-analyses.yml"
 VERIFIER = ROOT / "scripts" / "fact_check_analysis.py"
 DISCLOSURE = ROOT / "scripts" / "apply_ai_disclosure.py"
+
+
+
+
+class NumericExtractionTests(unittest.TestCase):
+    def test_nested_kpi_and_chart_values_are_in_numeric_audit(self):
+        page = """<!doctype html><html lang="bg"><body>
+        <main>
+          <div class="metric"><strong>4,2%</strong><span>Дефицит за 2027 г.</span></div>
+          <article>
+            <p>Растежът на БВП е 2,5% през 2026 г.</p>
+            <div class="chart"><div class="bars">
+              <div class="bar-row"><span>2025</span>
+                <div class="bar-track"><div class="bar-fill" style="width:36%"></div></div>
+                <span class="bar-value">908 млн.</span>
+              </div>
+            </div></div>
+            <div class="table-wrap"><table><tr><td>2027</td><td>3,5%</td></tr></table></div>
+          </article>
+        </main></body></html>"""
+        statements = extract_numeric_statements(page)
+        joined = " | ".join(item["statement"] for item in statements)
+        self.assertIn("4,2%", joined)
+        self.assertIn("2,5%", joined)
+        self.assertIn("2025", joined)
+        self.assertIn("908 млн.", joined)
+        self.assertIn("3,5%", joined)
 
 
 def validate_report(path: Path) -> None:
@@ -64,6 +95,7 @@ def validate_static() -> None:
     assert config["maximum_review_output_tokens"] == 5000
     assert len(config["official_source_domains"]) >= 10
 
+    assert "automation/fix-chart-numeric-" in (ROOT / ".github" / "workflows" / "audit-analysis-evidence.yml").read_text(encoding="utf-8")
     assert "ANALYSES_PUBLISH_ENABLED" in workflow
     assert "GEMINI_API_KEY" in workflow and "OPENAI_API_KEY" in workflow
     assert "steps.factcheck.outputs.verdict == 'PASS'" in workflow
@@ -101,6 +133,10 @@ def main() -> int:
     args = parser.parse_args()
     if args.static:
         validate_static()
+    suite = unittest.defaultTestLoader.loadTestsFromTestCase(NumericExtractionTests)
+    result = unittest.TextTestRunner(verbosity=2).run(suite)
+    if not result.wasSuccessful():
+        return 1
     if args.report:
         validate_report(Path(args.report))
     return 0
