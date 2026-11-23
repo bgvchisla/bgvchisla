@@ -91,6 +91,11 @@ def plain_text(fragment):
     fragment = re.sub(r"<[^>]+>", " ", fragment)
     return re.sub(r"\s+", " ", html.unescape(fragment)).strip()
 
+def normalized_quote(value):
+    """Normalize punctuation/spacing so a checker quote can be matched to article text."""
+    words = re.findall(r"[^\W_]+", str(value or "").casefold(), flags=re.UNICODE)
+    return " ".join(words)
+
 
 def article_fragment(page):
     match = re.search(r"<article\b[^>]*>(.*?)</article>", page, flags=re.I | re.S)
@@ -274,7 +279,7 @@ def build_prompt(row, article_text, source_urls, numeric_statements, official_ev
  "overall_verdict":"PASS | REVIEW | FAIL",
  "summary":"резюме на български",
  "claims_checked":[{{"claim_id":"C1","claim_text":"точен кратък цитат","claim_type":"numeric | date | comparison | forecast | causal | qualitative","severity":"critical | major | minor","verdict":"verified | partially_verified | contradicted | unverifiable","evidence_urls":["точен URL от успешно извлечените URL Context източници"],"evidence_summary":"доказателство и период","correction":""}}],
- "numerical_audit":{{"items":[{{"item_id":"N01","verdict":"verified | partially_verified | contradicted | unverifiable","evidence_urls":["точен URL от успешно извлечените URL Context източници"],"evidence_summary":"стойности, период, единица и методология"}}],"issues":[]}},
+ "numerical_audit":{{"items":[{{"item_id":"N01","statement":"точният текст от съответния подаден числов блок, без перифразиране","verdict":"verified | partially_verified | contradicted | unverifiable","evidence_urls":["точен URL от успешно извлечените URL Context източници"],"evidence_summary":"стойности, период, единица и методология"}}],"issues":[]}},
  "methodology_issues":[],
  "limitations":[]
 }}
@@ -329,11 +334,12 @@ def response_schema():
                             "type": "OBJECT",
                             "properties": {
                                 "item_id": {"type": "STRING"},
+                                "statement": {"type": "STRING"},
                                 "verdict": {"type": "STRING", "enum": ["verified", "partially_verified", "contradicted", "unverifiable"]},
                                 "evidence_urls": {"type": "ARRAY", "items": {"type": "STRING"}},
                                 "evidence_summary": {"type": "STRING"},
                             },
-                            "required": ["item_id", "verdict", "evidence_urls", "evidence_summary"],
+                            "required": ["item_id", "statement", "verdict", "evidence_urls", "evidence_summary"],
                         },
                     },
                     "issues": {"type": "ARRAY", "items": {"type": "STRING"}},
@@ -527,10 +533,27 @@ def main():
 
     claims = report.get("claims_checked") or []
     accepted_claims = 0
+    normalized_article = normalized_quote(article_text)
+    claim_ids = [str(claim.get("claim_id", "")) for claim in claims]
+    if len(claim_ids) != len(set(claim_ids)) or any(not claim_id for claim_id in claim_ids):
+        problems.append("Идентификаторите на проверените твърдения липсват или се повтарят.")
     for index, claim in enumerate(claims, 1):
+        claim_quote = normalized_quote(claim.get("claim_text", ""))
+        quote_matches_article = (
+            len(claim_quote.split()) >= 4
+            and claim_quote in normalized_article
+        )
         urls = {canonical_url(url) for url in claim.get("evidence_urls", [])}
         valid_evidence = bool(urls) and urls.issubset(retrieved_set)
-        if str(claim.get("verdict", "")).lower() == "verified" and valid_evidence:
+        if not quote_matches_article:
+            problems.append(
+                f"Цитатът за твърдение {claim.get('claim_id', index)} не съвпада с точен откъс от статията."
+            )
+        if (
+            str(claim.get("verdict", "")).lower() == "verified"
+            and valid_evidence
+            and quote_matches_article
+        ):
             accepted_claims += 1
         else:
             problems.append(f"Твърдение {claim.get('claim_id', index)} няма пълно независимо потвърждение от извлечен първичен документ.")
@@ -547,13 +570,27 @@ def main():
     numeric_verified = 0
     if len(returned_ids) != len(expected_ids) or returned_set != expected_ids:
         problems.append("Числовият одит не покрива точно всички предварително извлечени числови блокове.")
+    expected_by_id = {item["item_id"]: item["statement"] for item in numeric_statements}
     for item in numeric_items:
+        item_id = str(item.get("item_id", ""))
         evidence = {canonical_url(url) for url in item.get("evidence_urls", [])}
         valid_evidence = bool(evidence) and evidence.issubset(retrieved_set)
-        if str(item.get("verdict", "")).lower() == "verified" and valid_evidence:
+        statement_matches = (
+            item_id in expected_by_id
+            and normalized_quote(item.get("statement", "")) == normalized_quote(expected_by_id[item_id])
+        )
+        if not statement_matches:
+            problems.append(
+                f"Текстът на числовия блок {item_id or '?'} не съвпада с точния блок, подаден за проверка."
+            )
+        if (
+            str(item.get("verdict", "")).lower() == "verified"
+            and valid_evidence
+            and statement_matches
+        ):
             numeric_verified += 1
         else:
-            problems.append(f"Числовият блок {item.get('item_id', '?')} не е потвърден от успешно извлечен първичен документ.")
+            problems.append(f"Числовият блок {item_id or '?'} не е потвърден от успешно извлечен първичен документ.")
     if numeric_audit.get("issues"):
         problems.append("Числовият одит съдържа нерешени проблеми.")
     if len(numeric_items) != len(expected_ids) or numeric_verified != len(expected_ids):
