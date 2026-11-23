@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T19:28:45.655794+00:00",
-  "last_checked_at": "2026-11-23T19:28:45.655805+00:00",
+  "updated_at": "2026-11-23T20:21:06.950906+00:00",
+  "last_checked_at": "2026-11-23T20:21:06.950917+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -50,13 +50,13 @@
       "published": "2026-11-23T07:42:01+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 44,
+      "priority_score": 43,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -99,21 +99,40 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "България е страната с най-голямо неравенство в доходите в ЕС",
+      "summary": "",
+      "url": "https://www.investor.bg/a/517-pazar-na-truda/439966-balgariya-e-stranata-s-nay-golyamo-neravenstvo-v-dohodite-v-es",
+      "published": "2026-11-23T19:55:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
-      "published": "2026-11-23T17:00:26+00:00",
+      "title": "Mongolia's power struggle deepens as Parliament approves president's resignation",
+      "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
+      "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
+      "published": "2026-11-22T11:00:00+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 68,
         "source_reliability": 91
       }
     },
@@ -234,25 +253,6 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Закрит е затворът в Бобов дол, съобщиха от Министерството на правосъдието, затворниците ще бъдат преместени в затвора в Самораново",
-      "summary": "Считано от 20 ноември затворът в Бобов дол е официално закрит поради силно амортизираната сграда и нецелесъобразност на бъдещи инвестиции. Мярката включва и преместването на лишените от свобода в затвора в Самораново. Окончателното преместване на лишените от с",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252740-zakrit-e-zatvorat-v-bobov-dol-saobshtiha-ot-ministerstvoto-na-pravosadieto-zat",
-      "published": "2026-11-23T16:14:30+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
       "title": "Усилията на България за сигурността в региона подчерта премиерът Румен Радев на среща с постоянния представител на САЩ в НАТО Матю Уитакър",
       "summary": "Последователните усилия на България за укрепване и развитие на отбранителните си способности и за принос към гарантирането на сигурността в региона в условията на финансови ограничения бяха подчертани от министър-председателя Румен Радев по време на срещата му",
       "url": "https://www.bta.bg/bg/news/bulgaria/1252819-usiliyata-na-balgariya-za-sigurnostta-v-regiona-podcherta-premierat-rumen-radev-",
@@ -290,21 +290,21 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
-      "published": "2026-11-23T16:58:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 34,
+      "source": "БТА",
+      "title": "Целта ни е да трансформираме здравната система към повече профилактика, заяви премиерът Румен Радев на среща с БЛС",
+      "summary": "Целта ни е да трансформираме здравната система така, че акцентът в нея да премине от болнично лечение към повече профилактика, заяви министър-председателят Румен Радев по време на среща с ръководството на Българския лекарски съюз (БЛС), съобщиха от правителств",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252811-tselta-ni-e-da-transformirame-zdravnata-sistema-kam-poveche-profilaktika-zayavi",
+      "published": "2026-11-23T18:04:16+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 74,
         "household_business_impact": 0,
-        "strategic_significance": 32,
+        "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 87
+        "source_reliability": 90
       }
     },
     {
@@ -373,13 +373,13 @@
       "published": "2026-11-23T16:46:26+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 46,
+      "priority_score": 45,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -424,19 +424,19 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Mongolia's power struggle deepens as Parliament approves president's resignation",
-      "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
-      "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
-      "published": "2026-11-22T11:00:00+00:00",
+      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
+      "published": "2026-11-23T17:00:26+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 40,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 68,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
         "source_reliability": 91
       }
     },
@@ -556,25 +556,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
-      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warnin",
-      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
-      "published": "2026-11-23T16:42:09+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
       "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
@@ -609,6 +590,44 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
+      "published": "2026-11-23T16:58:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
+      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warnin",
+      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
+      "published": "2026-11-23T16:42:09+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -747,25 +766,6 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Целта ни е да трансформираме здравната система към повече профилактика, заяви премиерът Румен Радев на среща с БЛС",
-      "summary": "Целта ни е да трансформираме здравната система така, че акцентът в нея да премине от болнично лечение към повече профилактика, заяви министър-председателят Румен Радев по време на среща с ръководството на Българския лекарски съюз (БЛС), съобщиха от правителств",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252811-tselta-ni-e-da-transformirame-zdravnata-sistema-kam-poveche-profilaktika-zayavi",
-      "published": "2026-11-23T18:04:16+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
       "title": "Регионалните екоинспекции са извършили над 2100 проверки и са издали 601 предписания за отстраняване на нарушения през октомври",
       "summary": "Петнадесетте регионални инспекции по околната среда и водите (РИОСВ) са извършили 2115 проверки на 1838 обекта в страната през изминалия месец. Това съобщиха от пресцентъра на Министерството на околната среда и водите (МОСВ). След проверките инспекциите са изд",
       "url": "https://www.bta.bg/bg/news/bulgaria/1252783-regionalnite-ekoinspektsii-sa-izvarshili-nad-2100-proverki-i-sa-izdali-601-predp",
@@ -854,7 +854,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 54,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 94
       }
     },
@@ -874,25 +874,6 @@
         "household_business_impact": 0,
         "strategic_significance": 54,
         "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Lib Dem leader claims he could negotiate EU single market access ‘within a year’",
-      "summary": "Leader Ed Davey says deals struck on agrifood, energy and youth mobility at landmark summit are quite \"timid.\"",
-      "url": "https://www.politico.eu/article/lib-dem-leader-ed-davey-claims-he-could-negotiate-eu-single-market-access-within-a-year/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T16:35:36+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
         "source_reliability": 92
       }
     },
@@ -918,6 +899,25 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "С тържествена церемония Студентският съвет при УНСС отбеляза 35-ата годишнина от създаването си",
+      "summary": "С тържествена церемония Студентският съвет при Университета за национално и световно стопанство (УНСС) отбеляза 35-ата годишнина от създаването си. По повод юбилея ректорът на университета връчи на Студентския съвет почетния медал на висшето училище. Събитието",
+      "url": "https://www.bta.bg/bg/news/lik/1252837-s-tarzhestvena-tseremoniya-studentskiyat-savet-pri-unss-otbelyaza-35-ata-godishn",
+      "published": "2026-11-23T19:44:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Изложба, посветена на 100-годишнината от рождението на скулптора Цвятко Йорданов, бе открита във Враца",
       "summary": "Изложба, посветена на 100-годишнината от рождението на българския скулптор Цвятко Йорданов, бе открита в Регионалния исторически музей във Враца. Инициативата е на Народно читалище „Просвета 1927“ – с. Вировско, откъдето е родом творецът, и е реализирана по пр",
       "url": "https://www.bta.bg/bg/news/lik/1252789-izlozhba-posvetena-na-100-godishninata-ot-rozhdenieto-na-skulptora-tsvyatko-yor",
@@ -932,6 +932,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Lib Dem leader claims he could negotiate EU single market access ‘within a year’",
+      "summary": "Leader Ed Davey says deals struck on agrifood, energy and youth mobility at landmark summit are quite \"timid.\"",
+      "url": "https://www.politico.eu/article/lib-dem-leader-ed-davey-claims-he-could-negotiate-eu-single-market-access-within-a-year/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T16:35:36+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -975,7 +994,7 @@
     {
       "section": "europe",
       "source": "POLITICO Europe",
-      "title": "EU countries pile pressure on Brussels to simplify fishing sector rules",
+      "title": "EU countries pile pressure on Brussels to simplify fishing rules",
       "summary": "Ministers say Brussels’ fisheries plan falls short as the industry grapples with high energy costs and an aging workforce.",
       "url": "https://www.politico.eu/article/governments-pile-pressure-on-brussels-to-simplify-fishing-sector-rules/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-23T13:47:41+00:00",
@@ -1046,25 +1065,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Up to 1.1m people eligible to join class action against Jetstar over alleged failure to refund Covid flights",
-      "summary": "Jetstar accused of issuing customers credits instead of cash refunds for flights cancelled between 2020 and late 2022 Get our breaking news email , free app or daily news podcast More than 1 million Jetstar customers could be eligible to join a class action al",
-      "url": "https://www.theguardian.com/business/2026/nov/23/up-to-11m-people-eligible-to-join-class-action-against-jetstar-over-alleged-failure-to-refund-covid-flights-ntwnfb",
-      "published": "2026-11-23T08:24:12+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 94
       }
     },
     {
@@ -1160,63 +1160,6 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
-      "summary": "The impersonator, Canadian comedian Mark Critch, poked fun at the US president's search for a new press secretary and US-Canada trade talks.",
-      "url": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T17:14:50+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-      "summary": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
-      "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T17:07:25+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Водоподаването в град Кнежа е прекъснато аварийно, паднало дърво е нанесло щети върху инженерната инфраструктура",
-      "summary": "Водоподаването в град Кнежа е прекъснато аварийно заради паднало дърво, което е нанесло сериозни щети върху инженерната инфраструктура в района на ул. „Опълченска“. Това съобщиха от „Водоснабдяване и канализация“ (ВиК) ЕООД – Плевен. При падането си дървото е",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252758-vodopodavaneto-v-grad-knezha-e-prekasnato-avariyno-padnalo-darvo-e-naneslo-shte",
-      "published": "2026-11-23T16:29:08+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1332,17 +1275,69 @@
         "timeliness": 92,
         "source_reliability": 99
       }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Taiwan warns Canada against deeper China trade ties as Carney seeks to diversify",
+      "summary": "The warning came days after Carney met Chinese President Xi Jinping in Shenzhen, where the two sides agreed further tariff cuts as Canada looks for new markets as Trump's trade war continues.",
+      "url": "https://www.euronews.com/2026/11/23/taiwan-warns-canada-against-deeper-china-trade-ties-as-carney-seeks-to-diversify",
+      "published": "2026-11-23T05:27:13+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+      "summary": "Scientific and satellite findings warn of widespread contamination in Gaza, posing grave threats to public health ‘for generations to come’ Israel’s destruction of Gaza has left a devastating environmental legacy with poisoned water, contaminated soil and toxi",
+      "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+      "published": "2026-11-23T04:00:45+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
+      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T00:33:36+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
     }
   ],
   "feed_status": {
-    "ok": 20,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "eurostat-news",
-        "error": "Feed redirected outside its host allowlist"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
