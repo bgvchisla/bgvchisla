@@ -57,6 +57,21 @@ class FrontendIntegrityTests(unittest.TestCase):
         for index in range(16):
             self.assertIn(f'id="s{index}"', source)
 
+    def test_navigation_titles_are_not_forced_into_clipped_single_lines(self):
+        stylesheet = (ROOT / "assets" / "design-system.css").read_text(encoding="utf-8")
+        self.assertRegex(
+            stylesheet,
+            r"#site-content nav#nav \.nav-title\s*\{[^}]*white-space:\s*normal\s*!important",
+        )
+
+    def test_news_navigation_button_is_hidden_only_on_desktop(self):
+        stylesheet = (ROOT / "assets" / "design-system.css").read_text(encoding="utf-8")
+        self.assertIn("@media(min-width:1200px)", stylesheet)
+        self.assertIn(
+            '#site-content nav#nav button[data-i="15"]{display:none!important}',
+            stylesheet,
+        )
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
