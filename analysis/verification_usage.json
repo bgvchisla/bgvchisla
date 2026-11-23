@@ -3,5 +3,8 @@
   "calls": 0,
   "spent_usd": 0,
   "reserved_usd": 0,
-  "history": []
+  "history": [],
+  "retrieved_urls": 0,
+  "billed_input_tokens": 0,
+  "billed_output_tokens": 0
 }
