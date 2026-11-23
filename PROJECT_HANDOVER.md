@@ -114,7 +114,7 @@
 - Вътрешният лимит в GitHub workflow не представлява платежен лимит на OpenAI акаунта.
 - Не твърди, че има гарантиран account-level лимит, освен ако такъв не е проверен и конфигуриран отделно в OpenAI Platform.
 - API ключът не трябва да се записва в код, HTML, commit, issue или разговор.
-- Платено генериране е защитено с два независими превключвателя: GitHub Secret `OPENAI_API_KEY` и Repository Variable `ANALYSES_PUBLISH_ENABLED=true`.
+- Платеното изпълнение изисква Repository Variable `ANALYSES_PUBLISH_ENABLED=true` и двата GitHub Secrets `OPENAI_API_KEY` и `GEMINI_API_KEY`.
 - Добавянето само на OPENAI_API_KEY не активира публикуване: необходими са ANALYSES_PUBLISH_ENABLED=true и GEMINI_API_KEY.
 - Към 21.11.2026 не е добавян API ключ и не е правена платена заявка според наличната информация. Не приемай това за актуално състояние, без да провериш настройките.
 - Workflow-ът има безплатна предварителна проверка (dry-run). Платено генериране трябва да остане изключено до изрично решение и успешни тестове.
@@ -352,8 +352,8 @@ GitHub Actions run `45004345678` завърши успешно. Измерени
 ### Проверки и оставащи ограничения
 - Добавен е scripts/test_analysis_publication.py за български metadata, canonical URL, source footnotes, source registry, архив, sitemap и approval workflow.
 - scripts/test_responsive.mjs е разширен да тества и статията при 390×844, 360×800, 768×1024 и 1440×900.
-- Не активирай ANALYSES_AUTODRAFT_ENABLED преди да провериш валидния API model ID и отделния usage/billing limit в OpenAI Platform.
-- GitHub API последно отчита main protected: false. /approve е проверен от workflow, но branch ruleset-ите за забрана на bypass и force-push все още трябва да бъдат активирани през GitHub Settings.
+- Не активирай `ANALYSES_PUBLISH_ENABLED` преди да провериш валидните model ID, двата API ключа и отделните billing/usage лимити при OpenAI и Google.
+- GitHub ruleset-ите `main-block-destructive-updates` и `main-require-pr-and-validation` са активни. Branch protection endpoint не може да бъде прочетен през текущата интеграция; провери в Settings дали изискваните проверки не допускат заобикаляне.
 
 ### Статус на първия PR
-Този раздел се финализира след създаване на PR, завършване на audit и проверка на всички файлове. PR merge означава публикация; до изричен /approve материалът трябва да остане в branch за преглед.
+Този исторически статус е заменен от актуалната архитектура в началото на документа: независим Gemini fact-check + отделен CI audit. Публикацията се блокира при REVIEW/FAIL, а автоматично сливане е позволено само при PASS и успешен одит на същия commit SHA.
