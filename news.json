@@ -1,16 +1,96 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:31:14.105648+00:00",
-  "last_checked_at": "2026-11-23T02:31:14.105652+00:00",
+  "updated_at": "2026-11-23T03:37:57.432770+00:00",
+  "last_checked_at": "2026-11-23T03:37:57.432774+00:00",
   "items": [
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: PM’s staff numbers exceed crossbench’s allocation combined; Minns ends presser after heckling",
+      "title": "Australian politics live: Crossbenchers urge protection for political cartoons from AI; Singapore PM flying in via Western Sydney airport",
       "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-23T02:13:49+00:00",
+      "published": "2026-11-23T03:24:48+00:00",
       "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Beau Lamarre-Condon acted like a ‘poorly behaved boyfriend’ before alleged double murders, defence argues",
+      "summary": "Crown says accused developed ‘jealous obsession’ but defence says ‘love makes fools of us’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon acted like a “poorly behaved",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/beau-lamarre-condon-trail-executed-jesse-baird-prosecution-argues-ntwnfb",
+      "published": "2026-11-23T03:07:31+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Surging left-wing Basque separatists brace for showdown with Spain’s right",
+      "summary": "The left-wing EH Bildu coalition is set to perform strongly in the Basque Country — setting it on a potential collision course with a right-wing government in Madrid.",
+      "url": "https://www.politico.eu/article/basque-country-separatist-eh-bildu-showdown-spain/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T03:00:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "In the new world order, Europe doesn’t have a seat at the table",
+      "summary": "The meeting between Trump, Putin and Xi in Shenzhen last week offered few concrete results, but its symbolism underscored the continent’s waning influence.",
+      "url": "https://www.politico.eu/article/new-world-order-europe-seat-table/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T03:00:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Far right wants to transform the EU after big national election wins",
+      "summary": "Patriots’ co-president Kinga Gál says her political family’s immediate mission is helping its parties win national elections.",
+      "url": "https://www.politico.eu/article/far-right-patriots-for-europe-national-election-wins-transform-eu/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T03:00:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Congo warns that EU countries’ Rwanda deportation deal could fund armed militia",
+      "summary": "EU countries are \"making an informed choice to look the other way,\" Kinshasa's foreign affairs minister tells POLITICO.",
+      "url": "https://www.politico.eu/article/congo-eu-rwanda-deportation-deal-armed-militia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T03:00:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T02:59:35+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Former Bachelor star Sam Wood seeking mediation amid DV charges for allegedly strangling wife",
+      "summary": "Lawyer Brad Hill seeks two-week adjournment on Monday for mediation, which can only occur if alleged victim consents Get our breaking news email , free app or daily news podcast Former reality TV star Sam Wood is seeking mediation amid his serious domestic vio",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/bachelor-sam-wood-domestic-violence-charges-mediation-ntwnfb",
+      "published": "2026-11-23T02:40:33+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "summary": "Nine people are dead in the attack, with rescue efforts ongoing to find those still missing from the residential building.",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T02:37:02+00:00",
+      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -30,16 +110,6 @@
       "summary": "Peter Andre, Richard Wilkins and Kate Ceberano share memories of ‘a truly unique character’ and ‘the fan all artists wish to have’ Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83 Molly Meldrum – a life in pictures Ian ‘Molly’ Meldr",
       "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes",
       "published": "2026-11-23T01:23:07+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Beau Lamarre-Condon ‘executed’ Jesse Baird and Luke Davies then lied about it, prosecution argues",
-      "summary": "Crown urges jury to reject accused’s claim of self-defence and find him guilty of murdering Sydney couple Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon is a “proven a",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/beau-lamarre-condon-trail-executed-jesse-baird-prosecution-argues-ntwnfb",
-      "published": "2026-11-23T00:54:02+00:00",
       "feed_id": "guardian-world",
       "priority_score": 0
     },
@@ -75,12 +145,32 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+      "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
+      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T00:08:00+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
       "source": "POLITICO Europe",
       "title": "Lucy Powell promotes UK education in China despite risks",
       "summary": "The U.K. education secretary's visit to Beijing comes days after Wes Streeting praised the government for stepping up its interaction with China.",
       "url": "https://www.politico.eu/article/lucy-powell-promotes-uk-education-in-china-despite-risks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-23T00:01:00+00:00",
       "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+      "summary": "The prime minister will tell MPs the deal agreed on Friday is a \"choice between a broken status quo or change\".",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-22T22:49:10+00:00",
+      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -101,16 +191,6 @@
       "url": "https://www.euronews.com/video/2026/11/22/morocco-a-surreal-sculpture-park-turns-the-world-upside-down",
       "published": "2026-11-22T22:33:48+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the f-word failure is not his alone",
-      "summary": "Australia’s climate change minister will face a torrent of criticism over his role, but disagreement over fossil fuels proved an unbridgeable sticking point After delivering a major speech to the UN climate talks in Turkey last week, the Australian prime minis",
-      "url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
-      "published": "2026-11-22T21:46:40+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
@@ -155,22 +235,22 @@
     },
     {
       "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Costa gives Macron early Christmas present on EU budget",
+      "summary": "Governments have criticized European Council President António Costa's proposal on the bloc's 7-year budget for leaning toward France.",
+      "url": "https://www.politico.eu/article/antonio-costa-emmanuel-macron-early-christmas-present-eu-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T21:14:19+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
       "summary": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a friend” during their",
       "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
       "published": "2026-11-22T20:55:33+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-      "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T20:28:09+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -234,16 +314,6 @@
       "priority_score": 0
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-      "summary": "The Army says \"swift action\" is necessary to protect its personnel and nearby communities around its ammunition plant in Iowa.",
-      "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T18:29:46+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Общо 39 двойки подновиха брачните си клетви и отпразнуваха златна сватба в Самоков",
@@ -285,83 +355,13 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-      "summary": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T17:18:26+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Дроновете променят войната, но оръжията от \"старата школа\" все още носят короната при приходите",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439178-dronovete-promenyat-voynata-no-orazhiyata-ot-starata-shkola-vse-oshte-nosyat-koronata-pri-prihodite",
-      "published": "2026-11-22T17:16:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
-      "summary": "A suspected drone strike on a Russian ship at Libya’s Benghazi port has raised concerns over the spread of the Russia-Ukraine conflict. Authorities are investigating the blast amid growing fears for regional security.",
-      "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
-      "published": "2026-11-22T17:11:34+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 22nd, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
       "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-evening",
       "published": "2026-11-22T17:00:26+00:00",
       "feed_id": "euronews",
-      "priority_score": 38
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
-      "summary": "A Russian vessel at an eastern Libyan naval base was hit by what is suspected to be a drone strike.",
-      "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T16:50:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Антон Котас прави завой в репертоара си с „Кажи ми да“",
-      "summary": "След сингли като „Компас“ и „Дяволски добра“, Антон Котас прави завой в репертоара си с „Кажи ми да“. Поп парчето с латино душа е резултат от наситено с пътешествия лято, в което младият изпълнител обикаля Европа, подновява участията си във филмови кастинги и",
-      "url": "https://www.bta.bg/bg/news/lik/1252056-anton-kotas-pravi-zavoy-v-repertoara-si-s-kazhi-mi-da-",
-      "published": "2026-11-22T16:39:33+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Експерти обучаваха във Вършец доброволци да се грижат за хора с деменция по проект „Силни общности без възрастови бариери“",
-      "summary": "Експерти по социални политики и представители на неправителствения сектор обучаваха вчера и днес във Вършец доброволци как да се грижат за възрастни хора и хора с деменция, по проект „Силни общности без възрастови бариери“. В обученията са включиха над 20 добр",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252046-eksperti-obuchavaha-vav-varshets-dobrovoltsi-da-se-grizhat-za-hora-s-dementsiya-",
-      "published": "2026-11-22T16:34:42+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Трио Viva представя „Нищо няма да ме спре“",
-      "summary": "Viva прогонва есенната сивота със сингъла „Нищо няма да ме спре“, информират от екипа на триото. По думите им с „Нищо няма да ме спре“ певиците поставят финалния щрих на визуалната история на дебютния си албум Supernova и ни напомнят, че въображението може да",
-      "url": "https://www.bta.bg/bg/news/lik/1252054-trio-viva-predstavya-nishto-nyama-da-me-spre-",
-      "published": "2026-11-22T16:29:38+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -370,6 +370,16 @@
       "summary": "Politicians from Europe and the U.S. gathered at Gabriel Zucman's summit to challenge the power of the super-rich — but few are in a position to act.",
       "url": "https://www.politico.eu/article/global-left-rallies-paris-make-not-so-radical-case-taxing-billionaires/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-22T16:21:57+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 37
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "How Big Oil and the Trump administration outwitted Brussels to delay an EU climate law",
+      "summary": "Intense lobbying prompted the EU to delay plans to force fossil fuel companies to report their methane emissions.",
+      "url": "https://www.politico.eu/article/how-big-oil-trump-administration-outwitted-brussels-delay-eu-climate-law/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-22T16:04:32+00:00",
       "feed_id": "politico-europe",
       "priority_score": 37
     },
@@ -411,7 +421,7 @@
       "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-midday",
       "published": "2026-11-22T11:00:15+00:00",
       "feed_id": "euronews",
-      "priority_score": 37
+      "priority_score": 36
     },
     {
       "section": "europe",
@@ -421,17 +431,7 @@
       "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
       "published": "2026-11-22T11:00:00+00:00",
       "feed_id": "euronews",
-      "priority_score": 42
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
-      "summary": "Following the attack near Kyiv, Ukraine's president issued a plea to Washington to authorize air defense missiles financed by allies.",
-      "url": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T09:49:20+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 36
+      "priority_score": 41
     },
     {
       "section": "bulgaria",
