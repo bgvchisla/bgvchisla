@@ -81,6 +81,7 @@ def validate_static() -> None:
     assert "numeric_audit_items" in verifier
     assert "toolUsePromptTokenCount" in verifier
     assert "thoughtsTokenCount" in verifier
+    assert "thinkingConfig" in verifier and "thinkingLevel" in verifier
     assert '"google_search"' not in verifier and '"googleSearch"' not in verifier
     assert "ANALYSES_PUBLISH_ENABLED" in verifier
     assert "official_source_domains" in verifier and "is_official_domain" in verifier
