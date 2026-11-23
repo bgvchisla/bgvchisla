@@ -1246,6 +1246,11 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 }
 </style>
 
+<style id="news-editorial-ranking-style">
+.news-related{margin-top:7px;color:#748397;font-size:.68rem;line-height:1.5}
+.news-related a{display:inline;color:#426f9b;font-weight:700;text-decoration:underline;text-underline-offset:2px}
+.news-related a:hover{color:#a64d48}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Към основното съдържание</a>
@@ -1760,8 +1765,13 @@ fetch("official_nssi.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw n
 
 
 /* Новинарски поток: съдържанието идва от проверявания news.json */
-function sortNewsChronologically(items){
+function sortNewsByEditorialPriority(items){
   return items.slice().sort(function(a,b){
+    var pa=Number(a.priority_score);
+    var pb=Number(b.priority_score);
+    if(!Number.isFinite(pa))pa=0;
+    if(!Number.isFinite(pb))pb=0;
+    if(pb!==pa)return pb-pa;
     var ta=a.published?Date.parse(a.published):NaN;
     var tb=b.published?Date.parse(b.published):NaN;
     var hasA=Number.isFinite(ta);
@@ -1772,7 +1782,7 @@ function sortNewsChronologically(items){
   });
 }
 function renderNews(target,items){
-  items=sortNewsChronologically(items);
+  items=sortNewsByEditorialPriority(items);
   var root=$(target);if(!root)return;root.textContent="";
   if(!items.length){var empty=document.createElement("p");empty.className="news-empty";empty.textContent="Все още няма публикувани заглавия. Потокът се обновява автоматично.";root.appendChild(empty);return}
   var leadItem = items.reduce(function(best,item){
@@ -1791,6 +1801,19 @@ function renderNews(target,items){
     meta.textContent=item.source+(date&&!isNaN(date.getTime())?" · "+date.toLocaleString("bg-BG",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/Sofia"}):"");
     article.appendChild(meta);
     if(item.summary){var summary=document.createElement("p");summary.className="news-summary";summary.textContent=item.summary;article.appendChild(summary)}
+    if(Array.isArray(item.related_items)&&item.related_items.length){
+      var related=document.createElement("div");related.className="news-related";
+      var relatedLabel=document.createElement("span");relatedLabel.textContent="Още отразявания: ";related.appendChild(relatedLabel);
+      item.related_items.slice(0,4).forEach(function(entry,index){
+        if(index)related.appendChild(document.createTextNode(" · "));
+        var relatedLink=document.createElement("a");
+        relatedLink.href=entry.url;relatedLink.target="_blank";relatedLink.rel="noopener noreferrer";
+        relatedLink.textContent=entry.source||entry.publisher||"Друг източник";
+        relatedLink.title=entry.title||"Свързана публикация";
+        related.appendChild(relatedLink);
+      });
+      article.appendChild(related);
+    }
     root.appendChild(article)
   })
 }

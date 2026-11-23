@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Fetch approved institutional RSS/Atom headlines for bgvchisla.com.
+"""Collect, score, diversify and group RSS/Atom headlines for bgvchisla.com.
 
 Only titles, short feed descriptions, source names, dates and canonical links are
-stored. Article bodies and images are never copied.
+stored. Article bodies and images are never copied. Ranking is significance-first,
+with recency as the secondary sort key.
 """
 import html
 import json
@@ -531,7 +532,7 @@ def classify_investor_section(item):
     international_terms = (
         "русия", "руски", "москва", "путин", "украйна", "украин", "киев",
         "съединените щати", "саш", "американ", "трамп", "китай", "пекин",
-        "иран", "израел", "газа", "близкия изток", "нато", "wall street",
+        "иран", "израел", "газа", "близкия изток", "нато", "wall street", "уолстрийт", "уол стрийт", "азия", "азиатск",
         "nvidia", "apple", "microsoft", "google", "amazon", "tesla",
         "deutsche bank", "lagarde", "лагард", "европейската комисия",
         "еврокомис", "европейския съюз", "еврозон", "европейската централна банка",
@@ -551,73 +552,303 @@ def classify_investor_section(item):
     return item
 
 
-def editorial_priority(item):
-    """Класира по конкретна икономическа значимост, а не по общи думи като „здраве“ или „парламент“."""
-    title = item.get("title", "")
-    summary = item.get("summary", "")
+def _term_group_hits(text, groups):
+    """Брой различни тематични групи, за да не се надценяват повтарящи се думи."""
+    return sum(1 for group in groups if any(term in text for term in group))
+
+
+ECONOMIC_GROUPS = (
+    ("бюджет", "фискален дефицит", "държавен дълг", "публичен дълг", "budget", "public debt"),
+    ("инфлац", "потребителски цени", "цени на храните", "inflation", "consumer prices"),
+    ("бвп", "икономически растеж", "рецес", "производителност", "gdp", "economic growth", "recession", "productivity"),
+    ("лихв", "парична политика", "централна банка", "банкова ликвидност", "interest rate", "monetary policy", "central bank"),
+    ("кредит", "депозит", "банков", "ипотеч", "credit", "deposit", "banking", "mortgage"),
+    ("данък", "данъц", "осигур", "приходи в бюджета", "tax", "social security"),
+    ("инвестици", "капиталов разход", "индустриален парк", "investment", "capital expenditure"),
+    ("износ", "внос", "търговски баланс", "мито", "export", "import", "trade balance", "tariff"),
+    ("заплат", "доход", "пенси", "безработиц", "заетост", "работни места", "wage", "salary", "pension", "unemployment", "employment", "jobs"),
+    ("енерги", "електроенерг", "природен газ", "петрол", "горив", "energy", "electricity", "natural gas", "oil", "fuel"),
+    ("бизнес", "предприят", "пазар на труда", "бизнес климат", "company", "business", "labour market"),
+)
+NATIONAL_GROUPS = (
+    ("българия", "български", "в страната", "за страната", "национал", "в цялата страна"),
+    ("правителств", "министерств", "народното събрание", "парламент", "кабинет"),
+    ("държавен бюджет", "държавна политика", "законопроект", "закон за", "национална стратегия"),
+    ("нси", "бнб", "мф", "нои", "фискален съвет", "национален статистически"),
+    ("всички общини", "общините в страната", "публичния сектор", "държавната администрация"),
+)
+HOUSEHOLD_BUSINESS_GROUPS = (
+    ("цени", "инфлац", "покупателна способност", "price", "inflation", "purchasing power"),
+    ("заплат", "доход", "пенси", "социални плащ", "wage", "income", "pension", "benefit"),
+    ("данък", "осигур", "такс", "сметк", "tax", "social security", "fee", "bill"),
+    ("лихв", "кредит", "ипотеч", "депозит", "interest", "loan", "mortgage", "deposit"),
+    ("работни места", "заетост", "безработиц", "работодател", "employee", "employment", "job", "employer"),
+    ("енерги", "ток", "газ", "горив", "транспорт", "electricity", "gas", "fuel", "transport"),
+    ("малък бизнес", "предприят", "инвеститор", "производител", "small business", "enterprise", "investor", "manufacturer"),
+    ("здравеопаз", "образован", "социално подпомаган", "обществена услуга", "healthcare", "education", "public service"),
+)
+STRATEGIC_GROUPS = (
+    ("стратегическ", "национална сигурност", "отбран", "военн", "nato", "defence", "defense", "national security"),
+    ("индустриален парк", "електромобил", "производствен капацитет", "чип", "изкуствен интелект", "industrial park", "electric vehicle", "semiconductor", "artificial intelligence"),
+    ("чуждестранни инвестици", "стратегическа инвестици", "саудитска арабия", "foreign investment", "strategic investment"),
+    ("енергийна сигурност", "ядрен", "електропренос", "газопровод", "energy security", "nuclear", "power grid", "pipeline"),
+    ("инфраструктур", "железопът", "магистрал", "пристанищ", "коридор", "infrastructure", "railway", "highway", "port", "corridor"),
+    ("европейски съюз", "еврозон", "европейска комисия", "санкци", "търговско споразумение", "european union", "eurozone", "european commission", "sanction", "trade agreement"),
+    ("верига на достав", "критична суровина", "ключова технология", "supply chain", "critical raw material", "key technology"),
+)
+LOCALITY_TERMS = (
+    "монтана", "благоевград", "русе", "пловдив", "варна", "бургас", "стара загора",
+    "велико търново", "горна оряховица", "перник", "дупница", "сливен", "шумен",
+    "добрич", "пазарджик", "хасково", "кърджали", "виден", "ямбол", "разград",
+    "софия", "столичния", "столична община",
+)
+PUBLISHER_BY_FEED = {
+    "investor-bg": "investor.bg",
+    "investor-economy": "investor.bg",
+    "investor-finance": "investor.bg",
+    "bta-bulgaria": "БТА",
+    "economic-bg": "Economic.bg",
+    "parliament-news": "Народно събрание",
+    "bnb-news": "БНБ",
+    "ecb-press": "ЕЦБ",
+    "commission-press": "Европейска комисия",
+    "council-press": "Съвет на ЕС",
+    "eurostat-news": "Евростат",
+    "un-geneva-press": "ООН",
+    "bbc-world": "BBC",
+    "dw-world": "Deutsche Welle",
+    "euronews": "Euronews",
+    "guardian-world": "The Guardian",
+    "politico-europe": "POLITICO",
+    "federal-reserve": "Федерален резерв",
+    "bis-press": "BIS",
+    "bis-research": "BIS",
+    "wto-news": "СТО",
+}
+SOURCE_RELIABILITY = {
+    "parliament-news": 98,
+    "bnb-news": 99,
+    "ecb-press": 99,
+    "commission-press": 99,
+    "council-press": 99,
+    "eurostat-news": 99,
+    "federal-reserve": 99,
+    "bis-press": 99,
+    "bis-research": 99,
+    "wto-news": 98,
+    "un-geneva-press": 96,
+    "bta-bulgaria": 90,
+    "investor-bg": 87,
+    "investor-economy": 87,
+    "investor-finance": 87,
+    "economic-bg": 85,
+    "bbc-world": 95,
+    "dw-world": 95,
+    "euronews": 91,
+    "guardian-world": 94,
+    "politico-europe": 92,
+}
+
+
+def publisher_key(item):
+    """Групира отделните RSS категории под един реален издател."""
+    feed_id = str(item.get("feed_id") or "")
+    if feed_id in PUBLISHER_BY_FEED:
+        return PUBLISHER_BY_FEED[feed_id]
+    source = re.sub(r"\s*[–-]\s*.*$", "", str(item.get("source") or "")).strip().casefold()
+    return source or feed_id or "unknown"
+
+
+def _recency_score(item, now=None):
+    now = now or datetime.now(timezone.utc)
+    published = publication_datetime(item)
+    if published == datetime.min.replace(tzinfo=timezone.utc):
+        return 0
+    age_hours = max(0.0, (now - published).total_seconds() / 3600)
+    if age_hours <= 3:
+        return 100
+    if age_hours <= 12:
+        return 92
+    if age_hours <= 24:
+        return 82
+    if age_hours <= 48:
+        return 68
+    if age_hours <= 96:
+        return 50
+    if age_hours <= 168:
+        return 30
+    return 10
+
+
+def editorial_priority_components(item, now=None):
+    """Оценява 6 отделни измерения; свежестта е само един от факторите."""
+    now = now or datetime.now(timezone.utc)
+    title = str(item.get("title") or "")
+    summary = str(item.get("summary") or "")
     text = (title + " " + summary).casefold()
 
-    economy_terms = (
-        "бюджет", "бюджетен дефицит", "фискален дефицит", "държавен дълг", "публичен дълг", "инфлац",
-        "икономик", "бвп", "данък", "данъц", "осигур", "заплат", "доход",
-        "пенси", "социални разход", "социални плащ", "безработиц", "заетост",
-        "лихв", "кредит", "депозит", "банка", "банков", "финанс", "инвестици",
-        "износ", "внос", "търговски дефицит", "търговски баланс", "енерги",
-        "електроенерг", "природен газ", "горив", "производителност",
-        "бизнес климат", "потребителски цени", "покупателна способност",
-        "разходи за труд", "пазар на труда", "икономически растеж",
-        "econom", "finance", "financial", "fiscal", "inflation", "gdp",
-        "trade", "tariff", "interest rate", "central bank", "monetary",
-        "banking", "credit", "liquidity", "investment", "export", "import",
-        "tax", "debt", "bond", "oil", "gas", "productivity", "employment",
-        "wto", "bis", "imf", "fed", "fomc"
-    )
-    policy_terms = (
-        "правителств", "министерств", "парламент", "народното събрание",
-        "законопроект", "закон за", "регулац", "реформ", "решение на",
-        "централна банка", "надзор", "държавна помощ", "субсиди"
-    )
-    high_impact = (
-        "криза", "рекорд", "милиард", "милиона", "влиза в сила",
-        "повишава", "понижава", "намалява", "увеличава", "спира", "замразява"
-    )
+    economic_hits = _term_group_hits(text, ECONOMIC_GROUPS)
+    economic = min(100, economic_hits * 20 + (8 if economic_hits else 0))
 
-    economy_hits = sum(1 for term in economy_terms if term in text)
-    policy_hits = sum(1 for term in policy_terms if term in text)
-    impact_hits = sum(1 for term in high_impact if term in text)
+    national_hits = _term_group_hits(text, NATIONAL_GROUPS)
+    has_locality = any(term in text for term in LOCALITY_TERMS)
+    if national_hits:
+        national = min(100, 48 + national_hits * 13)
+    elif has_locality:
+        national = 22
+    else:
+        national = 34
 
-    score = 0
-    if economy_hits:
-        score += min(55, 24 + (economy_hits - 1) * 5)
-        score += min(12, policy_hits * 4)
-        score += min(9, impact_hits * 3)
+    household_hits = _term_group_hits(text, HOUSEHOLD_BUSINESS_GROUPS)
+    household_business = min(100, household_hits * 17 + (8 if household_hits else 0))
 
-        if item.get("feed_id") in {
-            "investor-bg", "investor-economy", "investor-finance", "economic-bg",
-            "bnb-news", "parliament-news", "eurostat-news", "federal-reserve",
-            "bis-press", "bis-research", "wto-news"
-        }:
-            score += 3
+    strategic_hits = _term_group_hits(text, STRATEGIC_GROUPS)
+    strategic = min(100, strategic_hits * 22 + (10 if strategic_hits else 0))
 
-        published = item.get("published")
-        if published:
-            try:
-                dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
-                age_hours = max(0.0, (datetime.now(timezone.utc) - dt).total_seconds() / 3600)
-                score += max(0, round(15 * (1 - age_hours / 96)))
-            except (TypeError, ValueError):
-                pass
+    recency = _recency_score(item, now)
+    reliability = SOURCE_RELIABILITY.get(str(item.get("feed_id") or ""), 65)
 
-    # Колекционерските цени на монети не са макроикономически индикатор.
-    collector_coin = ("монет" in text and any(term in text for term in ("колекционер", "емисия", "продавани на каса")))
-    monetary_policy = any(term in text for term in (
-        "основен лихвен процент", "парична политика", "лихвена политика",
-        "парично предлагане", "валутен резерв", "банкова ликвидност"
-    ))
-    if collector_coin and not monetary_policy:
-        score = 0
+    weights = {
+        "economic_significance": 0.25,
+        "national_impact": 0.24,
+        "household_business_impact": 0.20,
+        "strategic_significance": 0.16,
+        "timeliness": 0.09,
+        "source_reliability": 0.06,
+    }
+    dimensions = {
+        "economic_significance": economic,
+        "national_impact": national,
+        "household_business_impact": household_business,
+        "strategic_significance": strategic,
+        "timeliness": recency,
+        "source_reliability": reliability,
+    }
+    score = round(sum(dimensions[key] * weight for key, weight in weights.items()))
+    return {**dimensions, "weights": weights, "score": max(0, min(100, score))}
 
-    return min(100, score)
+
+def editorial_priority(item, now=None):
+    """Композитна редакционна оценка от 0 до 100."""
+    return editorial_priority_components(item, now)["score"]
+
+
+def _event_type(item):
+    text = (str(item.get("title") or "") + " " + str(item.get("summary") or "")).casefold()
+    if any(term in text for term in ("стачк", "протест", "бойкот", "strike", "walkout")):
+        return "labour_action"
+    if any(term in text for term in ("повреда", "авари", "прекъсва", "спира движението", "outage", "disruption")):
+        return "service_disruption"
+    if any(term in text for term in ("инвестици", "открива завод", "нов завод", "investment", "factory")):
+        return "investment"
+    if any(term in text for term in ("бюджет", "дефицит", "държавен дълг", "budget", "fiscal")):
+        return "public_finance"
+    if any(term in text for term in ("лихвен процент", "парична политика", "interest rate", "monetary policy")):
+        return "monetary_policy"
+    return ""
+
+
+EVENT_ACTOR_ANCHORS = (
+    "подкрепа", "кнсб", "социално подпомагане", "регионална дирекция за социално подпомагане",
+    "народно събрание", "европейска комисия", "европейска централна банка",
+    "българска народна банка", "федерален резерв", "фискален съвет",
+    "саудитска арабия", "лукойл", "булгаргаз", "енергийна система",
+)
+
+
+def _event_anchors(item):
+    text = (str(item.get("title") or "") + " " + str(item.get("summary") or "")).casefold()
+    return {anchor for anchor in EVENT_ACTOR_ANCHORS if anchor in text}
+
+
+def _event_tokens(item):
+    stop = {
+        "това", "този", "тази", "тези", "които", "която", "което", "както", "заради",
+        "след", "преди", "между", "около", "относно", "съобщи", "каза", "обяви", "според",
+        "the", "and", "for", "from", "with", "that", "this", "have", "has", "will", "after",
+        "нови", "нова", "ново", "днес", "утре", "вчера", "българия", "български",
+    }
+    text = (str(item.get("title") or "") + " " + str(item.get("summary") or "")).casefold()
+    return {
+        token for token in re.findall(r"[a-zа-яё]{3,}", text, flags=re.I)
+        if token not in stop
+    }
+
+
+def _same_event(left, right, hours=48):
+    left_date = publication_datetime(left)
+    right_date = publication_datetime(right)
+    if left_date == datetime.min.replace(tzinfo=timezone.utc) or right_date == datetime.min.replace(tzinfo=timezone.utc):
+        return False
+    if abs((left_date - right_date).total_seconds()) > hours * 3600:
+        return False
+
+    left_type, right_type = _event_type(left), _event_type(right)
+    if not left_type or left_type != right_type:
+        return False
+
+    common_anchors = _event_anchors(left) & _event_anchors(right)
+    if common_anchors:
+        return True
+
+    left_tokens = _event_tokens(left)
+    right_tokens = _event_tokens(right)
+    if not left_tokens or not right_tokens:
+        return False
+    overlap = len(left_tokens & right_tokens)
+    union = len(left_tokens | right_tokens)
+    jaccard = overlap / union if union else 0
+    title_left = " ".join(re.findall(r"[a-zа-яё]{3,}", str(left.get("title") or "").casefold(), flags=re.I))
+    title_right = " ".join(re.findall(r"[a-zа-яё]{3,}", str(right.get("title") or "").casefold(), flags=re.I))
+    from difflib import SequenceMatcher
+    title_similarity = SequenceMatcher(None, title_left, title_right).ratio()
+    return jaccard >= 0.58 or title_similarity >= 0.76
+
+
+def deduplicate_related_events(items):
+    """Групира свързани отразявания на едно събитие, без да губи източниците."""
+    ranked = sorted(items, key=lambda item: (
+        float(item.get("priority_score", 0) or 0),
+        publication_datetime(item),
+    ), reverse=True)
+    clusters = []
+    for item in ranked:
+        match = None
+        for cluster in clusters:
+            if any(_same_event(item, member) for member in cluster):
+                match = cluster
+                break
+        if match is None:
+            clusters.append([item])
+        else:
+            match.append(item)
+
+    merged = []
+    for cluster in clusters:
+        representative = dict(cluster[0])
+        related = list(representative.get("related_items") or [])
+        for other in cluster[1:]:
+            related.append({
+                "source": other.get("source", ""),
+                "publisher": other.get("publisher") or publisher_key(other),
+                "title": other.get("title", ""),
+                "url": other.get("url", ""),
+                "published": other.get("published"),
+            })
+            related.extend(other.get("related_items") or [])
+        unique_related = []
+        seen_urls = {str(representative.get("url") or "")}
+        for entry in related:
+            url = str(entry.get("url") or "")
+            if not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            unique_related.append(entry)
+        if unique_related:
+            representative["related_items"] = unique_related
+            representative["related_count"] = len(unique_related)
+        merged.append(representative)
+    return merged
 
 
 def is_recent_article(item, now=None):
@@ -653,31 +884,44 @@ def publication_datetime(item):
         return datetime.min.replace(tzinfo=timezone.utc)
 
 
-def select_news_items(items, limit=70):
-    """Запазва редакционния подбор, но връща избраните новини по дата, най-новите първи."""
+def _rank_key(item):
+    try:
+        score = float(item.get("priority_score", 0) or 0)
+    except (TypeError, ValueError):
+        score = 0.0
+    return score, publication_datetime(item), str(item.get("title") or "").casefold()
+
+
+def select_news_items(items, limit=70, top_window=10, max_per_publisher=2):
+    """Подрежда по значимост, после по дата; балансира издателите в първите 10 на всяка секция."""
     if limit <= 0:
         return []
 
-    def priority(item):
-        try:
-            return float(item.get("priority_score", 0))
-        except (TypeError, ValueError):
-            return 0.0
+    sections = {}
+    for item in items:
+        sections.setdefault(item.get("section") or "other", []).append(item)
 
-    selected = sorted(
-        items,
-        key=lambda item: (priority(item), publication_datetime(item)),
-        reverse=True,
-    )[:limit]
+    protected = []
+    remaining = []
+    for section_items in sections.values():
+        ranked = sorted(section_items, key=_rank_key, reverse=True)
+        top = []
+        deferred = []
+        publisher_counts = {}
+        for item in ranked:
+            publisher = item.get("publisher") or publisher_key(item)
+            if len(top) < top_window and publisher_counts.get(publisher, 0) < max_per_publisher:
+                top.append(item)
+                publisher_counts[publisher] = publisher_counts.get(publisher, 0) + 1
+            else:
+                deferred.append(item)
+        protected.extend(top)
+        remaining.extend(deferred)
 
-    return sorted(
-        selected,
-        key=lambda item: (
-            publication_datetime(item),
-            str(item.get("title") or "").casefold(),
-        ),
-        reverse=True,
-    )
+    ordered = sorted(protected, key=_rank_key, reverse=True)
+    ordered.extend(sorted(remaining, key=_rank_key, reverse=True))
+    return ordered[:limit]
+
 
 def main():
     previous = {}
@@ -701,25 +945,34 @@ def main():
     before_freshness = len(all_items)
     all_items = [item for item in all_items if is_recent_article(item)]
     print(f"Freshness gate: retained {len(all_items)}/{before_freshness} dated items within {MAX_ITEM_AGE_DAYS} days.")
+
+    # Дедупликация по каноничен URL.
     dedup = {}
     for item in all_items:
         key = item["url"].split("#", 1)[0].rstrip("/")
         if key not in dedup or publication_datetime(item) > publication_datetime(dedup[key]):
             dedup[key] = item
-    # Limit each publisher's contribution so one prolific feed cannot dominate.
-    balanced = []
-    per_feed = {}
-    for item in sorted(dedup.values(), key=publication_datetime, reverse=True):
-        feed_id = item.get("feed_id", "unknown")
-        if per_feed.get(feed_id, 0) >= 10:
-            continue
-        per_feed[feed_id] = per_feed.get(feed_id, 0) + 1
-        item["priority_score"] = editorial_priority(item)
-        balanced.append(item)
-    # Подборът остава по редакционна значимост; показването е строго хронологично.
-    items = select_news_items(balanced, limit=70)
+
+    # Оценка по 6 измерения: икономика, национален обхват, домакинства/бизнес,
+    # стратегическо значение, актуалност и надеждност на издателя.
+    scored = []
+    for item in dedup.values():
+        item["publisher"] = publisher_key(item)
+        components = editorial_priority_components(item)
+        item["priority_score"] = components["score"]
+        item["priority_breakdown"] = {
+            key: value for key, value in components.items() if key not in {"weights", "score"}
+        }
+        scored.append(item)
+
+    # Свързаните публикации се групират в една новина с допълнителни линкове.
+    grouped = deduplicate_related_events(scored)
+
+    # Първите 10 във всяка новинарска секция: максимум 2 материала от един издател.
+    # След това останалите позиции се запълват по значимост и актуалност.
+    items = select_news_items(grouped, limit=70, top_window=10, max_per_publisher=2)
     result = {
-        "schema_version": 1,
+        "schema_version": 2,
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "last_checked_at": datetime.now(timezone.utc).isoformat(),
         "items": items,

@@ -48,6 +48,7 @@ on:
 permissions:
   contents: read
   statuses: write
+  checks: write
 
 concurrency:
   group: audit-editorial-evidence-${{ github.ref }}
@@ -216,4 +217,18 @@ jobs:
           STATUS_RESULT="$(gh api --method POST "repos/$REPOSITORY/statuses/$EXPECTED_SHA" -f state=success -f context=editorial-approval -f description="Independent audit passed; internal automation PR validated for exact SHA" -f target_url="$GITHUB_SERVER_URL/$REPOSITORY/actions/runs/$GITHUB_RUN_ID")"
           test "$(jq -r '.context' <<<"$STATUS_RESULT")" = "editorial-approval"
           test "$(jq -r '.state' <<<"$STATUS_RESULT")" = "success"
-          echo "Machine editorial approval recorded for $EXPECTED_SHA after a successful audit."
+
+          # Rulesets that pin a required status check to the GitHub Actions
+          # integration consume a native Check Run. Publish the same exact-SHA
+          # approval as a Check Run as well as the legacy commit status.
+          CHECK_RESULT="$(gh api --method POST "repos/$REPOSITORY/check-runs" \
+            -f name=editorial-approval \
+            -f head_sha="$EXPECTED_SHA" \
+            -f status=completed \
+            -f conclusion=success \
+            -f "output[title]=Independent editorial approval" \
+            -f "output[summary]=The separate audit job passed for this exact commit SHA. No human editorial review is implied.")"
+          test "$(jq -r '.name' <<<"$CHECK_RESULT")" = "editorial-approval"
+          test "$(jq -r '.head_sha' <<<"$CHECK_RESULT")" = "$EXPECTED_SHA"
+          test "$(jq -r '.conclusion' <<<"$CHECK_RESULT")" = "success"
+          echo "Machine editorial approval recorded as both a commit status and a native Check Run for $EXPECTED_SHA."
