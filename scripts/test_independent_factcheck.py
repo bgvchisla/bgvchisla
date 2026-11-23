@@ -10,13 +10,55 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from fact_check_analysis import extract_numeric_statements
+from fact_check_analysis import calculate_billable_usage, extract_numeric_statements
 CONFIG = ROOT / "analysis" / "config.json"
 WORKFLOW = ROOT / ".github" / "workflows" / "generate-analyses.yml"
 VERIFIER = ROOT / "scripts" / "fact_check_analysis.py"
 DISCLOSURE = ROOT / "scripts" / "apply_ai_disclosure.py"
 
 
+
+
+class BillingAccountingTests(unittest.TestCase):
+    def test_thinking_and_tool_tokens_are_included_in_billable_cost(self):
+        usage = {
+            "promptTokenCount": 100,
+            "toolUsePromptTokenCount": 40,
+            "candidatesTokenCount": 200,
+            "thoughtsTokenCount": 60,
+            "totalTokenCount": 400,
+        }
+        result = calculate_billable_usage(
+            usage,
+            input_price=0.75,
+            output_price=1.875,
+            fallback_cost=0.02,
+        )
+        self.assertEqual(result["billed_input_tokens"], 140)
+        self.assertEqual(result["billed_output_tokens"], 260)
+        self.assertEqual(result["prompt_tokens"], 100)
+        self.assertEqual(result["tool_input_tokens"], 40)
+        self.assertEqual(result["candidate_output_tokens"], 200)
+        self.assertEqual(result["thinking_output_tokens"], 60)
+        self.assertEqual(result["actual_cost_usd"], 0.0005925)
+
+    def test_missing_thinking_metadata_defaults_to_zero_without_overcharging(self):
+        result = calculate_billable_usage(
+            {"promptTokenCount": 100, "toolUsePromptTokenCount": 20, "candidatesTokenCount": 80},
+            input_price=0.75,
+            output_price=1.875,
+            fallback_cost=0.02,
+        )
+        self.assertEqual(result["billed_input_tokens"], 120)
+        self.assertEqual(result["billed_output_tokens"], 80)
+        self.assertEqual(result["thinking_output_tokens"], 0)
+        self.assertEqual(result["actual_cost_usd"], 0.00024)
+
+    def test_empty_usage_metadata_uses_reserved_cost_fallback(self):
+        result = calculate_billable_usage({}, 0.75, 1.875, fallback_cost=0.01234567)
+        self.assertEqual(result["billed_input_tokens"], 0)
+        self.assertEqual(result["billed_output_tokens"], 0)
+        self.assertEqual(result["actual_cost_usd"], 0.01234567)
 
 
 class NumericExtractionTests(unittest.TestCase):
@@ -85,6 +127,7 @@ def validate_static() -> None:
 
     assert config["review_provider"] == "Google"
     assert config["review_model"] == "gemini-3.8-flash"
+    assert config["review_reasoning_effort"] == "high"
     assert config["minimum_words"] == 900 and config["maximum_words"] == 1400
     assert config["monthly_total_budget_usd"] == 5.5
     assert config["max_factcheck_calls_per_month"] == 10
@@ -120,6 +163,8 @@ def validate_static() -> None:
     assert "numeric_audit_items" in verifier
     assert "toolUsePromptTokenCount" in verifier
     assert "thoughtsTokenCount" in verifier
+    assert "calculate_billable_usage" in verifier
+    assert "billed_output_tokens = candidate_output_tokens + thinking_output_tokens" in verifier
     assert "thinkingConfig" in verifier and "thinkingLevel" in verifier
     assert '"google_search"' not in verifier and '"googleSearch"' not in verifier
     assert "ANALYSES_PUBLISH_ENABLED" in verifier
