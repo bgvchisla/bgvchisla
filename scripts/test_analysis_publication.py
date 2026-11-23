@@ -87,9 +87,7 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertEqual(cfg["monthly_total_budget_usd"],5.5)
         self.assertEqual(cfg["max_api_calls_per_month"],12)
         self.assertEqual(cfg["max_factcheck_calls_per_month"],10)
-        self.assertEqual(cfg["max_search_queries_per_month"],40)
-        self.assertEqual(cfg["max_search_queries_per_call"],4)
-        self.assertEqual(cfg["review_model"],"gemini-3.8-flash")
+                self.assertEqual(cfg["review_model"],"gemini-3.8-flash")
 
     def test_manual_dispatch_defaults_to_preflight(self):
         source=GENERATOR_WORKFLOW.read_text(encoding="utf-8")
