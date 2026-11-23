@@ -1,59 +1,110 @@
 #!/usr/bin/env python3
-"""Static and report-integrity tests for the independent fact-check gate."""
+"""Static and report-integrity tests for independent direct-URL fact checking."""
 from __future__ import annotations
-import argparse, json
+
+import argparse
+import json
 from pathlib import Path
+
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "analysis" / "config.json"
 WORKFLOW = ROOT / ".github" / "workflows" / "generate-analyses.yml"
 VERIFIER = ROOT / "scripts" / "fact_check_analysis.py"
 DISCLOSURE = ROOT / "scripts" / "apply_ai_disclosure.py"
 
-def validate_report(path):
-    r = json.loads(path.read_text(encoding="utf-8"))
-    assert r.get("overall_verdict") == "PASS", "Независимият fact-check не е PASS."
-    assert r.get("review_provider") == "Google" and r.get("review_model") == "gemini-3.8-flash"
-    assert r.get("review_method") == "Gemini API with Google Search grounding"
-    assert int(r.get("verified_claims", 0)) >= 8 and int(r.get("grounded_source_count", 0)) >= 4
-    assert int(r.get("official_grounding_domain_count", 0)) >= 2
-    assert 1 <= int(r.get("google_search_query_count", 0)) <= 4
-    assert int(r.get("numeric_claims_found", 0)) > 0
-    assert r.get("numeric_claims_verified") == r.get("numeric_claims_found")
-    assert not r.get("blocking_reasons")
-    grounded, claims = set(r.get("grounded_sources", [])), r.get("claims_checked", [])
+
+def validate_report(path: Path) -> None:
+    report = json.loads(path.read_text(encoding="utf-8"))
+    assert report.get("overall_verdict") == "PASS", "Независимият fact-check не е PASS."
+    assert report.get("review_provider") == "Google"
+    assert report.get("review_model") == "gemini-3.8-flash"
+    assert report.get("review_method") == (
+        "Gemini API URL Context; direct retrieval of cited primary-source URLs; no Google Search grounding"
+    )
+    assert int(report.get("verified_claims", 0)) >= 8
+    assert int(report.get("retrieved_source_count", 0)) >= 4
+    assert int(report.get("official_retrieved_domain_count", 0)) >= 2
+    assert int(report.get("numeric_blocks_found", 0)) > 0
+    assert report.get("numeric_blocks_verified") == report.get("numeric_blocks_found")
+    assert not report.get("retrieval_failures")
+    assert not report.get("blocking_reasons")
+
+    retrieved = set(report.get("retrieved_sources", []))
+    claims = report.get("claims_checked", [])
     assert len(claims) >= 8
     for claim in claims:
         assert claim.get("verdict") == "verified"
-        assert any(url in grounded for url in claim.get("grounding_match_urls", [])), "Липсва независим grounding URL за конкретното твърдение."
+        evidence = set(claim.get("evidence_urls", []))
+        assert evidence and evidence.issubset(retrieved), "Твърдението няма доказателство от извлечен първичен URL."
 
-def validate_static():
-    c = json.loads(CONFIG.read_text(encoding="utf-8"))
-    w, v, d = WORKFLOW.read_text(encoding="utf-8"), VERIFIER.read_text(encoding="utf-8"), DISCLOSURE.read_text(encoding="utf-8")
-    assert c["review_provider"] == "Google" and c["review_model"] == "gemini-3.8-flash"
-    assert c["minimum_words"] == 900 and c["maximum_words"] == 1400
-    assert c["monthly_total_budget_usd"] == 5.5 and c["max_factcheck_calls_per_month"] == 10
-    assert c["minimum_official_grounding_domains"] == 2
-    assert c["max_search_queries_per_call"] == 4
-    assert c["max_search_queries_per_month"] == 40
-    assert c["google_search_usd_per_1000_queries"] == 14
-    assert len(c["official_source_domains"]) >= 10
-    assert "ANALYSES_PUBLISH_ENABLED" in w and "GEMINI_API_KEY" in w
-    assert "steps.factcheck.outputs.verdict == 'PASS'" in w
-    assert "fact_check_analysis.py" in w and "apply_ai_disclosure.py" in w
-    assert "gemini-3.8-flash" in v and "googleSearch" in v and "groundingMetadata" in v
-    assert "ANALYSES_PUBLISH_ENABLED" in v and "ai-disclosure" in d
-    assert "official_source_domains" in v and "is_official_domain" in v
-    assert "google_search_usd_per_1000_queries" in v and "google_search_queries" in v
-    assert "Не е преминал човешка редакционна проверка" in d
-    assert "ANALYSES_AUTODRAFT_ENABLED" not in w and "/approve" not in w
-    print("Статичните проверки за независима фактологична верификация са успешни.")
+    numeric_items = report.get("numeric_audit_items", [])
+    assert len(numeric_items) == report.get("numeric_blocks_found")
+    for item in numeric_items:
+        assert item.get("verdict") == "verified"
+        assert item.get("statement"), "Липсва точният числов блок, върнат от проверяващия."
+        evidence = set(item.get("evidence_urls", []))
+        assert evidence and evidence.issubset(retrieved)
 
-def main():
-    p = argparse.ArgumentParser()
-    p.add_argument("--static", action="store_true")
-    p.add_argument("--report")
-    a = p.parse_args()
-    if a.static: validate_static()
-    if a.report: validate_report(Path(a.report))
+
+def validate_static() -> None:
+    config = json.loads(CONFIG.read_text(encoding="utf-8"))
+    workflow = WORKFLOW.read_text(encoding="utf-8")
+    verifier = VERIFIER.read_text(encoding="utf-8")
+    disclosure = DISCLOSURE.read_text(encoding="utf-8")
+
+    assert config["review_provider"] == "Google"
+    assert config["review_model"] == "gemini-3.8-flash"
+    assert config["minimum_words"] == 900 and config["maximum_words"] == 1400
+    assert config["monthly_total_budget_usd"] == 5.5
+    assert config["max_factcheck_calls_per_month"] == 10
+    assert config["minimum_retrieved_sources"] >= 4
+    assert config["minimum_official_retrieved_domains"] >= 2
+    assert config["maximum_source_urls_per_call"] <= 20
+    assert config["maximum_review_input_tokens"] == 70000
+    assert config["maximum_review_output_tokens"] == 5000
+    assert len(config["official_source_domains"]) >= 10
+
+    assert "ANALYSES_PUBLISH_ENABLED" in workflow
+    assert "GEMINI_API_KEY" in workflow and "OPENAI_API_KEY" in workflow
+    assert "steps.factcheck.outputs.verdict == 'PASS'" in workflow
+    assert "fact_check_analysis.py" in workflow and "apply_ai_disclosure.py" in workflow
+    assert "URL Context" in workflow
+    assert '"google_search"' not in workflow
+
+    assert '"url_context": {}' in verifier
+    assert "urlContextMetadata" in verifier
+    assert "URL_RETRIEVAL_STATUS_SUCCESS" in verifier
+    assert "numeric_statements" in verifier
+    assert "normalized_quote" in verifier
+    assert "quote_matches_article" in verifier
+    assert "statement_matches" in verifier
+    assert "numeric_audit_items" in verifier
+    assert "toolUsePromptTokenCount" in verifier
+    assert "thoughtsTokenCount" in verifier
+    assert "thinkingConfig" in verifier and "thinkingLevel" in verifier
+    assert '"google_search"' not in verifier and '"googleSearch"' not in verifier
+    assert "ANALYSES_PUBLISH_ENABLED" in verifier
+    assert "official_source_domains" in verifier and "is_official_domain" in verifier
+    assert "retrieved_sources" in verifier
+    assert "URL Context" in disclosure
+    assert "Не е преминал човешка редакционна проверка" in disclosure
+    assert "Google Search" not in disclosure
+    assert "ANALYSES_AUTODRAFT_ENABLED" not in workflow
+    assert "/approve" not in workflow
+    print("Статичните проверки за независима проверка чрез директни първични URL адреси са успешни.")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--static", action="store_true")
+    parser.add_argument("--report")
+    args = parser.parse_args()
+    if args.static:
+        validate_static()
+    if args.report:
+        validate_report(Path(args.report))
     return 0
-if __name__ == "__main__": raise SystemExit(main())
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
