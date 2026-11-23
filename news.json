@@ -1,25 +1,25 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T18:18:36.332052+00:00",
-  "last_checked_at": "2026-11-23T18:18:36.332079+00:00",
+  "updated_at": "2026-11-23T19:28:45.655794+00:00",
+  "last_checked_at": "2026-11-23T19:28:45.655805+00:00",
   "items": [
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Възможностите за осигуряване на финансиране на мащабни транспортни проекти обсъдиха премиерът Румен Радев и представители на Световната банка",
-      "summary": "Възможности за осигуряване на финансиране за мащабни транспортни инфраструктурни проекти обсъди премиерът Румен Радев с представители на Световната банка, съобщиха от правителствената пресслужба. Във връзка с това беше обсъдена и възможността Световната банка",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252723-vazmozhnostite-za-osiguryavane-na-finansirane-na-mashtabni-transportni-proekti-o",
-      "published": "2026-11-23T16:09:03+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "source": "Economic.bg",
+      "title": "Бизнесът има достъп до 81.5 млн. евро за иновации и развитие на технологии",
+      "summary": "Българският бизнес получава достъп до 81.5 млн. евро за реализация на иновативни проекти, разработване на нови технологии и изграждане на модерни технологични инфраструктури. Финансирането ще бъде осигурено по Програма „Научни изследвания, иновации и дигитализ",
+      "url": "https://www.economic.bg/bg/a/view/biznesyt-ima-dostyp-do-81-5-mln-evro-za-inovacii-i-razvitie-na-tehnologii",
+      "published": "2026-11-23T13:04:47+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 53,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 74,
-        "household_business_impact": 42,
+        "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -38,25 +38,6 @@
         "household_business_impact": 42,
         "strategic_significance": 0,
         "timeliness": 68,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Бизнесът има достъп до 81.5 млн. евро за иновации и развитие на технологии",
-      "summary": "Българският бизнес получава достъп до 81.5 млн. евро за реализация на иновативни проекти, разработване на нови технологии и изграждане на модерни технологични инфраструктури. Финансирането ще бъде осигурено по Програма „Научни изследвания, иновации и дигитализ",
-      "url": "https://www.economic.bg/bg/a/view/biznesyt-ima-dostyp-do-81-5-mln-evro-za-inovacii-i-razvitie-na-tehnologii",
-      "published": "2026-11-23T13:04:47+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 53,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -137,22 +118,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Нетните активи на пенсионните фондове надхвърлят 17 млрд. евро в края на септември",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439929-netnite-aktivi-na-pensionnite-fondove-nadhvarlyat-17-mlrd-evro-v-kraya-na-septemvri",
-      "published": "2026-11-23T11:27:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 40,
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Opening remarks by Commissioner Serafin during the debate on the EU Anti-fraud Architecture Review (INI Report) at the European Parliament in Strasbourg",
+      "summary": "European Commission Speech Strasbourg, 23 Nov 2026 I would like to thank the rapporteurs Mr Zdechovsky and Mr Erixon and the Members of the Committee on Budgetary Control for their own-initiative report on the f...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2566",
+      "published": "2026-11-23T17:35:56+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 100,
+        "source_reliability": 99
       }
     },
     {
@@ -232,25 +213,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Закрит е затворът в Бобов дол, съобщиха от Министерството на правосъдието, затворниците ще бъдат преместени в затвора в Самораново",
-      "summary": "Считано от 20 ноември затворът в Бобов дол е официално закрит поради силно амортизираната сграда и нецелесъобразност на бъдещи инвестиции. Мярката включва и преместването на лишените от свобода в затвора в Самораново. Окончателното преместване на лишените от с",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252740-zakrit-e-zatvorat-v-bobov-dol-saobshtiha-ot-ministerstvoto-na-pravosadieto-zat",
-      "published": "2026-11-23T16:14:30+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "What failure of COP31 reveals about a divided world",
@@ -270,22 +232,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
-      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warnin",
-      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
-      "published": "2026-11-23T16:42:09+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Закрит е затворът в Бобов дол, съобщиха от Министерството на правосъдието, затворниците ще бъдат преместени в затвора в Самораново",
+      "summary": "Считано от 20 ноември затворът в Бобов дол е официално закрит поради силно амортизираната сграда и нецелесъобразност на бъдещи инвестиции. Мярката включва и преместването на лишените от свобода в затвора в Самораново. Окончателното преместване на лишените от с",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252740-zakrit-e-zatvorat-v-bobov-dol-saobshtiha-ot-ministerstvoto-na-pravosadieto-zat",
+      "published": "2026-11-23T16:14:30+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Усилията на България за сигурността в региона подчерта премиерът Румен Радев на среща с постоянния представител на САЩ в НАТО Матю Уитакър",
+      "summary": "Последователните усилия на България за укрепване и развитие на отбранителните си способности и за принос към гарантирането на сигурността в региона в условията на финансови ограничения бяха подчертани от министър-председателя Румен Радев по време на срещата му",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252819-usiliyata-na-balgariya-za-sigurnostta-v-regiona-podcherta-premierat-rumen-radev-",
+      "published": "2026-11-23T19:22:24+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 90
       }
     },
     {
@@ -303,6 +284,25 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
+      "published": "2026-11-23T16:58:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 87
       }
@@ -392,13 +392,13 @@
       "published": "2026-11-23T15:38:23+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 45,
+      "priority_score": 44,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 87,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -481,25 +481,6 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "South Korea’s education minister resigns after backlash over AI exam cheating rules",
-      "summary": "South Korea’s university entrance exam can shape a student’s future. Hidden cameras and smart glasses have fuelled fears of AI-assisted cheating, prompting last-minute security measures that drew criticism and led to the education minister’s resignation.",
-      "url": "https://www.euronews.com/2026/11/23/south-koreas-education-minister-resigns-after-backlash-over-ai-exam-cheating-rules",
-      "published": "2026-11-23T15:35:18+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
       "title": "Latest news bulletin | November 23rd, 2026 – Morning",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
       "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-morning",
@@ -513,6 +494,25 @@
         "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 82,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "South Korea’s education minister resigns after backlash over AI exam cheating rules",
+      "summary": "South Korea’s university entrance exam can shape a student’s future. Hidden cameras and smart glasses have fuelled fears of AI-assisted cheating, prompting last-minute security measures that drew criticism and led to the education minister’s resignation.",
+      "url": "https://www.euronews.com/2026/11/23/south-koreas-education-minister-resigns-after-backlash-over-ai-exam-cheating-rules",
+      "published": "2026-11-23T15:35:18+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 92,
         "source_reliability": 91
       }
     },
@@ -556,21 +556,21 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Portugal: Workers brave downpours to demand a more affordable life",
-      "summary": "Thousands of people marched through Lisbon, Portugal, on Saturday 21 November 2026, braving heavy rain to demand higher wages, better pensions and measures to tackle the rising cost of living. The demonstration came just days before Portugal's parliamentary bu",
-      "url": "https://www.euronews.com/video/2026/11/22/portugal-workers-brave-downpours-to-demand-a-more-affordable-life",
-      "published": "2026-11-22T09:41:32+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 37,
+      "source": "The Guardian – World",
+      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
+      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warnin",
+      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
+      "published": "2026-11-23T16:42:09+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -614,25 +614,6 @@
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
-      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
-      "published": "2026-11-23T16:58:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
       "title": "Бизнес активността в САЩ се разширява с най-бавния темп за последните четири месеца",
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439951-biznes-aktivnostta-v-sasht-se-razshiryava-s-nay-bavniya-temp-za-poslednite-chetiri-mesetsa",
@@ -645,7 +626,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -704,25 +685,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Шимкус: Повишение на лихвите през декември може да се окаже недостатъчно",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439923-shimkus-povishenie-na-lihvite-prez-dekemvri-mozhe-da-se-okazhe-nedostatachno",
-      "published": "2026-11-23T10:20:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
       }
     },
     {
@@ -911,7 +873,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 54,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 92
       }
     },
@@ -1164,6 +1126,25 @@
     },
     {
       "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Ще използва ли Русия ядрено оръжие в космоса, с което може да унищожи и свои сателити?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439947-shte-izpolzva-li-rusiya-yadreno-orazhie-v-kosmosa-s-koeto-mozhe-da-unishtozhi-i-svoi-sateliti",
+      "published": "2026-11-23T18:40:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
       "summary": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
@@ -1239,44 +1220,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Сигурността в Черно море обсъдиха президентът Илияна Йотова и постоянният представител на САЩ в НАТО Матю Уитакър",
-      "summary": "Сигурността в Черно море обсъдиха на среща президентът Илияна Йотова с постоянния представител на САЩ в НАТО Матю Уитакър. Той е на посещение у нас по покана на министъра на отбраната Димитър Стоянов, който също участва в разговора на „Дондуков“ 2, съобщиха от",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252733-sigurnostta-v-cherno-more-obsadiha-prezidentat-iliyana-yotova-i-postoyanniyat-pr",
-      "published": "2026-11-23T16:27:34+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Ukraine releases footage of strikes on two Russian vessels off Libya",
-      "summary": "Ukraine has released footage showing what it says are strikes against two Russian vessels off the Libyan port of Benghazi.",
-      "url": "https://www.euronews.com/2026/11/23/ukraine-releases-footage-of-strikes-on-two-russian-vessels-off-libya",
-      "published": "2026-11-23T15:56:16+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "EU sanctions against terrorism: Council lists the founder of 'The Base'",
@@ -1332,12 +1275,74 @@
         "timeliness": 92,
         "source_reliability": 99
       }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Daily News 23 / 11 / 2026",
+      "summary": "European Commission Daily news Brussels, 23 Nov 2026 Commission welcomes European Citizens' Panel recommendations on Democratic Resilience The European Citizens' Panel on Democratic Resilience concluded yesterday...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2561",
+      "published": "2026-11-23T10:24:10+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Speech by Commissioner Lahbib at HERA Industry Days",
+      "summary": "European Commission Speech Brussels, 23 Nov 2026 This surgical mask only costs a few cents, but in April 2020 it was worth its weight in gold. Planes full of masks that European regions had already paid for we...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2559",
+      "published": "2026-11-23T09:20:27+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Keynote speech by Commissioner Albuquerque at the launch of the 6th European Retirement Week at the European Fund and Asset Management Association",
+      "summary": "European Commission Speech Brussels, 23 Nov 2026 Good morning, ladies and gentlemen. My thanks to Tanguy for the invitation to take part in today's event, and I would like to commend all fourteen associations ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2558",
+      "published": "2026-11-23T08:50:45+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
     }
   ],
   "feed_status": {
-    "ok": 21,
+    "ok": 20,
     "total": 21,
-    "failures": []
+    "failures": [
+      {
+        "feed": "eurostat-news",
+        "error": "Feed redirected outside its host allowlist"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
