@@ -8,6 +8,9 @@ on:
       - "scripts/patch_analysis_evidence.py"
       - "scripts/test_frontend.py"
       - "scripts/test_analysis_publication.py"
+      - "scripts/test_independent_factcheck.py"
+      - "scripts/fact_check_analysis.py"
+      - "scripts/apply_ai_disclosure.py"
       - "scripts/test_responsive.mjs"
       - "index.html"
       - "assets/**"
@@ -24,6 +27,7 @@ on:
       - "analizi/**"
       - "sitemap.xml"
       - "analysis/monthly_usage.json"
+      - "analysis/verification_usage.json"
       - "analysis/README.md"
       - "analysis/config.json"
       - "PROJECT_HANDOVER.md"
@@ -71,8 +75,10 @@ jobs:
           python scripts/test_update_business_climate.py
       - name: Validate mobile navigation and all inline JavaScript
         run: python scripts/test_frontend.py
-      - name: Validate article evidence and approval workflow
+      - name: Validate article evidence and publication workflow
         run: python scripts/test_analysis_publication.py
+      - name: Compile independent fact-check modules
+        run: python -m py_compile scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
       - name: Install Chromium for exact viewport testing
         run: |
           npm install --no-save --no-package-lock playwright
@@ -105,7 +111,7 @@ jobs:
               "data.json", "economy.json", "news.json", "source_status.json",
               "official_fiscal.json", "official_bnb.json", "official_nssi.json",
               "official_business_climate.json", "analysis/monthly_usage.json",
-              "analizi/articles.json",
+              "analysis/verification_usage.json", "analizi/articles.json",
           ]
           for name in required:
               path = Path(name)
@@ -114,7 +120,7 @@ jobs:
               json.loads(path.read_text(encoding="utf-8"))
               print(f"JSON OK: {name}")
           PY
-          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/test_analysis_publication.py
+          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/test_analysis_publication.py scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
       - name: Prepare the same runtime used by production
         run: |
           gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
@@ -124,6 +130,13 @@ jobs:
         run: python scripts/analysis_evidence.py --lane bulgaria
       - name: Audit world analysis evidence without an API call
         run: python scripts/analysis_evidence.py --lane world
+      - name: Run independent fact-check integrity tests
+        run: python scripts/test_independent_factcheck.py --static
+      - name: Validate external fact-check report when present
+        run: |
+          if [ -f analysis/factcheck_report.json ]; then
+            python scripts/test_independent_factcheck.py --report analysis/factcheck_report.json
+          fi
       - name: Run the actual Bulgarian free preflight
         run: python scripts/generate_analysis.py --lane bulgaria --dry-run
       - name: Run the actual world free preflight
@@ -154,7 +167,8 @@ jobs:
               github.event.pull_request.head.repo.full_name == github.repository &&
               (
                 startsWith(github.head_ref, 'analysis/auto-') ||
-                startsWith(github.head_ref, 'automation/full-auto-editorial-pipeline-')
+                startsWith(github.head_ref, 'automation/full-auto-editorial-pipeline-') ||
+                startsWith(github.head_ref, 'automation/independent-ai-factcheck-')
               )
             ) ||
             (
@@ -163,7 +177,8 @@ jobs:
               inputs.expected_sha != '' &&
               (
                 startsWith(github.ref_name, 'analysis/auto-') ||
-                startsWith(github.ref_name, 'automation/full-auto-editorial-pipeline-')
+                startsWith(github.ref_name, 'automation/full-auto-editorial-pipeline-') ||
+                startsWith(github.ref_name, 'automation/independent-ai-factcheck-')
               )
             )
           )
@@ -180,7 +195,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            analysis/auto-*|automation/full-auto-editorial-pipeline-*) ;;
+            analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/independent-ai-factcheck-*) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
