@@ -1189,6 +1189,63 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 
 </style>
 <link rel="stylesheet" href="/assets/design-system.css?v=3">
+
+<style id="debt-counter-one-line-typography">
+/* Четлив брояч на държавния дълг: сумата остава на един ред. */
+#site-content .hero{
+  container-type:inline-size;
+}
+#site-content .hero .n{
+  display:block;
+  width:100%;
+  white-space:nowrap;
+  word-break:normal;
+  overflow-wrap:normal;
+  font-size:clamp(1.2rem,4.6cqi,3.15rem);
+  line-height:1.1;
+  letter-spacing:-.055em;
+  font-variant-numeric:tabular-nums;
+}
+#site-content .hero>small{
+  display:block;
+  margin-bottom:4px;
+  color:#536981;
+  font-size:clamp(1rem,2.6cqi,1.18rem);
+  line-height:1.45;
+  font-weight:650;
+}
+#site-content .hero .r{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px clamp(12px,1.7cqi,20px);
+  font-size:clamp(.94rem,2.55cqi,1.04rem);
+  line-height:1.45;
+}
+#site-content .hero .r span{
+  flex:0 0 auto;
+  padding-left:12px;
+  white-space:nowrap;
+  line-height:1.45;
+}
+#site-content .hero .r b{
+  font-size:1.04em;
+  font-weight:800;
+}
+#site-content .hero>label.sw{
+  font-size:clamp(.85rem,2.25cqi,.94rem);
+  line-height:1.5;
+}
+@media(max-width:639px){
+  #site-content .hero .r{
+    gap:9px 12px;
+  }
+  #site-content .hero .r span{
+    padding-left:9px;
+  }
+}
+</style>
+
 </head>
 <body>
 <a class="skip-link" href="#main-content">Към основното съдържание</a>
