@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T21:15:46.471466+00:00",
-  "last_checked_at": "2026-11-23T21:15:46.471480+00:00",
+  "updated_at": "2026-11-23T22:16:05.430847+00:00",
+  "last_checked_at": "2026-11-23T22:16:05.430859+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -139,25 +139,6 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "Germany's Early Start Pension: Can child investment accounts help?",
-      "summary": "Germany plans to pay €10 a month into investment accounts for children to encourage long-term retirement saving. Economists say the measure may help build wealth but won't solve the country's pension funding challenge.",
-      "url": "https://www.dw.com/en/germany-s-early-start-pension-can-child-investment-accounts-help/a-79852185?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T09:26:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
       "title": "EU and Indonesia sign trade deal",
       "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
       "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
@@ -191,6 +172,25 @@
         "strategic_significance": 54,
         "timeliness": 92,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Germany's Early Start Pension: Can child investment accounts help?",
+      "summary": "Germany plans to pay €10 a month into investment accounts for children to encourage long-term retirement saving. Economists say the measure may help build wealth but won't solve the country's pension funding challenge.",
+      "url": "https://www.dw.com/en/germany-s-early-start-pension-can-child-investment-accounts-help/a-79852185?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T09:26:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -422,25 +422,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "India pledges €1.4bn to help Nepal rebuild after deadly glacier flood",
-      "summary": "Balendra Shah's first visit to a neighbouring country since becoming prime minister also brought agreements on a railway, a hydropower plant and fuel infrastructure.",
-      "url": "https://www.euronews.com/2026/11/23/india-pledges-14bn-to-help-nepal-rebuild-after-deadly-glacier-flood",
-      "published": "2026-11-23T10:06:44+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "„Особено тревожно“: Фалитите в България ще продължат да се увеличават и през 2027 г.",
@@ -457,6 +438,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "India pledges €1.4bn to help Nepal rebuild after deadly glacier flood",
+      "summary": "Balendra Shah's first visit to a neighbouring country since becoming prime minister also brought agreements on a railway, a hydropower plant and fuel infrastructure.",
+      "url": "https://www.euronews.com/2026/11/23/india-pledges-14bn-to-help-nepal-rebuild-after-deadly-glacier-flood",
+      "published": "2026-11-23T10:06:44+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -708,25 +708,6 @@
     },
     {
       "section": "europe",
-      "source": "Economic.bg",
-      "title": "Европа навлиза в зимата с най-ниското ниво на газовите запаси",
-      "summary": "Европа навлезе в зимния сезон 2026/2027 с необичайно ниски запаси от природен газ. Към края на септември газохранилищата в Европейския съюз (ЕС) са били запълнени на около 72% – най-ниското ниво към този месец от 2011 г., когато започва събирането на данни за",
-      "url": "https://www.economic.bg/bg/a/view/evropa-navliza-v-zimata-s-naj-niskoto-nivo-na-gazovite-zapasi",
-      "published": "2026-11-23T09:27:57+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
       "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
@@ -761,6 +742,25 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Европа навлиза в зимата с най-ниското ниво на газовите запаси",
+      "summary": "Европа навлезе в зимния сезон 2026/2027 с необичайно ниски запаси от природен газ. Към края на септември газохранилищата в Европейския съюз (ЕС) са били запълнени на около 72% – най-ниското ниво към този месец от 2011 г., когато започва събирането на данни за",
+      "url": "https://www.economic.bg/bg/a/view/evropa-navliza-v-zimata-s-naj-niskoto-nivo-na-gazovite-zapasi",
+      "published": "2026-11-23T09:27:57+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -899,10 +899,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Penny Wong to defend US alliance; rental affordability plummets to 14-year low",
-      "summary": "Get our breaking news email , free app or daily news podcast Labor will ‘save more than we spend’ in budget update: Chalmers The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. There’s still a fai",
+      "title": "Australian politics live: Labor to ‘save more than we spend’ in budget update, Chalmers says; rental affordability plummets to 14-year low",
+      "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
-      "published": "2026-11-23T20:52:18+00:00",
+      "published": "2026-11-23T21:58:35+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 30,
@@ -1163,25 +1163,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Ще използва ли Русия ядрено оръжие в космоса, с което може да унищожи и свои сателити?",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439947-shte-izpolzva-li-rusiya-yadreno-orazhie-v-kosmosa-s-koeto-mozhe-da-unishtozhi-i-svoi-sateliti",
-      "published": "2026-11-23T18:40:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Изложба, посветена на 100-годишнината от рождението на скулптора Цвятко Йорданов, бе открита във Враца",
@@ -1278,25 +1259,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Speech by Commissioner Lahbib at HERA Industry Days",
-      "summary": "European Commission Speech Brussels, 23 Nov 2026 This surgical mask only costs a few cents, but in April 2020 it was worth its weight in gold. Planes full of masks that European regions had already paid for we...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2559",
-      "published": "2026-11-23T09:20:27+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Taiwan warns Canada against deeper China trade ties as Carney seeks to diversify",
       "summary": "The warning came days after Carney met Chinese President Xi Jinping in Shenzhen, where the two sides agreed further tariff cuts as Canada looks for new markets as Trump's trade war continues.",
@@ -1331,6 +1293,44 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
+      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T00:33:36+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Няма нанесени щети от бурния вятър в Сливен, всички институции са в готовност за реакция при необходимост, каза областният управител",
+      "summary": "Над 100 км/ч достигат поривите на вятъра в Сливен. Обстановката към момента е спокойна, няма постъпили сигнали за нанесени щети. Всички институции са в готовност за реакция при необходимост, а системата за ранно предупреждение BG-ALERT е задействана превантивн",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252833-nyama-naneseni-shteti-ot-burniya-vyatar-v-sliven-vsichki-institutsii-sa-v-gotov",
+      "published": "2026-11-23T19:17:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 27,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     }
   ],
