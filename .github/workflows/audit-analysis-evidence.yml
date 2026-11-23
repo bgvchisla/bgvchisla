@@ -76,7 +76,8 @@ jobs:
       - name: Validate mobile navigation and all inline JavaScript
         run: python scripts/test_frontend.py
       - name: Validate article evidence and approval workflow
-        run: python scripts/test_analysis_publication.py
+        run: python scripts/test_analysis_publication.py scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
+          python scripts/test_independent_factcheck.py --static
       - name: Install Chromium for exact viewport testing
         run: |
           npm install --no-save --no-package-lock playwright
@@ -109,7 +110,7 @@ jobs:
               "data.json", "economy.json", "news.json", "source_status.json",
               "official_fiscal.json", "official_bnb.json", "official_nssi.json",
               "official_business_climate.json", "analysis/monthly_usage.json",
-              "analizi/articles.json",
+              "analysis/verification_usage.json", "analizi/articles.json",
           ]
           for name in required:
               path = Path(name)
