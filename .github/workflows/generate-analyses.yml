@@ -161,7 +161,7 @@ jobs:
               raise SystemExit(f"Липсва HTML страницата: {path}")
           page = path.read_text(encoding="utf-8")
           for token in (
-              '<html lang="bg">',
+              '<html lang="bg"',
               f'<link rel="canonical" href="https://bgvchisla.com/analizi/{slug}/">',
               'property="og:title"', 'property="og:description"', "<h1>", "<article>",
               "--navy:#24384f", "--blue:#315f91", "--risk:#b64b45", "@media(max-width:640px)",
