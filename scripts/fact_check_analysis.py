@@ -443,6 +443,9 @@ def main():
         "generationConfig": {
             "temperature": 0,
             "maxOutputTokens": int(config["maximum_review_output_tokens"]),
+            "thinkingConfig": {
+                "thinkingLevel": str(config.get("review_reasoning_effort", "high")).upper()
+            },
             "responseMimeType": "application/json",
             "responseSchema": response_schema(),
         },
