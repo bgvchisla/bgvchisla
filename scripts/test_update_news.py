@@ -217,6 +217,17 @@ class HomepageOrderingTests(unittest.TestCase):
         self.assertIn("if(pb!==pa)return pb-pa;", homepage)
         self.assertIn("return tb-ta;", homepage)
 
+    def test_homepage_enforces_publisher_diversity_in_visible_first_ten(self):
+        homepage = (ROOT / "index.html").read_text(encoding="utf-8")
+        function = homepage.split("function sortNewsByEditorialPriority(items){", 1)[1].split(
+            "function renderNews(target,items){", 1
+        )[0]
+        self.assertIn("var ranked=items.slice().sort(compare);", function)
+        self.assertIn("var top=[],deferred=[],publisherCounts=Object.create(null);", function)
+        self.assertIn('String(item.publisher||item.source||"unknown")', function)
+        self.assertIn("top.length<10&&(publisherCounts[publisher]||0)<2", function)
+        self.assertIn("return top.concat(deferred.sort(compare));", function)
+
     def test_homepage_renders_related_coverage_links(self):
         homepage = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("item.related_items.length", homepage)

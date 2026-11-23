@@ -101,6 +101,7 @@ def validate_static() -> None:
     assert "checks: write" in audit_workflow
     assert 'check-runs' in audit_workflow
     assert "name=editorial-approval" in audit_workflow
+    assert "fix/news-ui-enforces-publisher-diversity-" in (ROOT / ".github" / "workflows" / "audit-analysis-evidence.yml").read_text(encoding="utf-8")
     assert "ANALYSES_PUBLISH_ENABLED" in workflow
     assert "GEMINI_API_KEY" in workflow and "OPENAI_API_KEY" in workflow
     assert "steps.factcheck.outputs.verdict == 'PASS'" in workflow
