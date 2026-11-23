@@ -27,7 +27,11 @@ try {
     const response = await page.goto(SITE_URL, { waitUntil: "domcontentloaded", timeout: 45000 });
     assert.ok(response && response.ok(), viewport.name + ": homepage HTTP response failed");
     await page.waitForSelector("#site-content nav#nav button[data-i='15']", { timeout: 20000 });
-    await page.waitForTimeout(500);
+    await page.waitForFunction(() => {
+      const counter = document.querySelector("#debt");
+      return !!counter && /^€/.test((counter.textContent || "").trim());
+    }, null, { timeout: 15000 });
+    await page.waitForTimeout(250);
 
     const metrics = await page.evaluate(() => {
       const get = selector => document.querySelector(selector);
@@ -56,6 +60,13 @@ try {
         headingGap: rect(".analysis-hero-cta") && rect(".page-heading")
           ? rect(".analysis-hero-cta").y - rect(".page-heading").bottom : null,
         cssLoaded: !!css?.sheet,
+        debtText: get("#debt")?.textContent?.trim() ?? "",
+        debtWhiteSpace: style("#debt")?.whiteSpace ?? null,
+        debtFontSize: Number.parseFloat(style("#debt")?.fontSize ?? "0"),
+        debtClientWidth: get("#debt")?.clientWidth ?? 0,
+        debtScrollWidth: get("#debt")?.scrollWidth ?? 0,
+        debtTitleFontSize: Number.parseFloat(style(".hero > small")?.fontSize ?? "0"),
+        debtMetricsFontSize: Number.parseFloat(style(".hero .r")?.fontSize ?? "0"),
       };
     });
 
@@ -67,6 +78,16 @@ try {
     assert.equal(metrics.navColumns, viewport.navColumns,
       viewport.name + ": unexpected navigation grid column count");
     assert.ok(metrics.cssLoaded, viewport.name + ": design-system.css failed to load");
+    assert.equal(metrics.debtWhiteSpace, "nowrap",
+      viewport.name + ": debt counter must stay on one line");
+    assert.ok(metrics.debtFontSize >= 18,
+      viewport.name + ": debt counter font is too small (" + metrics.debtFontSize + "px)");
+    assert.ok(metrics.debtClientWidth > 0 && metrics.debtScrollWidth <= metrics.debtClientWidth + 1,
+      viewport.name + ": debt counter content overflows its line");
+    assert.ok(metrics.debtTitleFontSize >= 15,
+      viewport.name + ": debt title is too small (" + metrics.debtTitleFontSize + "px)");
+    assert.ok(metrics.debtMetricsFontSize >= 14,
+      viewport.name + ": debt supporting metrics are too small (" + metrics.debtMetricsFontSize + "px)");
 
     if (viewport.mobile) {
       assert.equal(metrics.sideNewsDisplay, "none", viewport.name + ": desktop news sidebars should be hidden");
