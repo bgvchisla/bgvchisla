@@ -84,7 +84,17 @@ try {
         debtMetricsFontSize: Number.parseFloat(style(".hero .r")?.fontSize ?? "0"),
         newsLeadStats: ["news-left-list", "news-right-list"].map(id => {
           const root = get("#" + id);
-          if (!root) return { id, dividerPresent:false, leadCount:0, publisherCounts:{} };
+          if (!root) return { id, dividerPresent:false, leadCount:0, publisherCounts:{}, leadAgeHours:null, freshCandidateCount:0 };
+          const articles = Array.from(root.querySelectorAll("article.news-item"));
+          const lead = root.querySelector("article.news-lead");
+          const now = Date.now();
+          const freshCandidates = articles.filter(element => {
+            const published = Date.parse(element.dataset.published || "");
+            const ageHours = (now - published) / 3600000;
+            return Number.isFinite(published) && ageHours >= -24 && ageHours <= 18;
+          });
+          const leadPublished = lead ? Date.parse(lead.dataset.published || "") : NaN;
+          const leadAgeHours = Number.isFinite(leadPublished) ? (now - leadPublished) / 3600000 : null;
           const children = Array.from(root.children);
           const dividerIndex = children.findIndex(element => element.classList.contains("news-more-divider"));
           const leadChildren = children.slice(0, dividerIndex >= 0 ? dividerIndex : children.length)
@@ -99,6 +109,9 @@ try {
             dividerPresent: dividerIndex >= 0,
             leadCount: leadChildren.length,
             publisherCounts,
+            leadAgeHours,
+            freshCandidateCount: freshCandidates.length,
+            freshnessNotePresent: !!root.querySelector(".news-stale-note"),
           };
         }),
       };
@@ -138,6 +151,17 @@ try {
     assert.ok(metrics.debtMetricsFontSize >= 14,
       viewport.name + ": debt supporting metrics are too small (" + metrics.debtMetricsFontSize + "px)");
     for (const section of metrics.newsLeadStats) {
+      if (section.freshCandidateCount > 0) {
+        assert.ok(section.leadAgeHours !== null && section.leadAgeHours >= -24 && section.leadAgeHours <= 18,
+          viewport.name + ": lead story must be published within the last 18 hours when fresh candidates exist");
+        assert.equal(section.freshnessNotePresent, false,
+          viewport.name + ": fresh lead candidates exist but stale-news notice was rendered");
+      } else {
+        assert.equal(section.leadAgeHours, null,
+          viewport.name + ": an old story must not be styled as a fresh lead");
+        assert.equal(section.freshnessNotePresent, true,
+          viewport.name + ": missing notice when there is no story within the 18-hour lead window");
+      }
       assert.ok(section.dividerPresent,
         viewport.name + ": " + section.id + " must visibly separate additional headlines");
       assert.ok(section.leadCount > 0 && section.leadCount <= 10,
