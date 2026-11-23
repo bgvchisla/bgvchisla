@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T10:57:31.722947+00:00",
-  "last_checked_at": "2026-11-23T10:57:31.722964+00:00",
+  "updated_at": "2026-11-23T11:47:32.788578+00:00",
+  "last_checked_at": "2026-11-23T11:47:32.788593+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -20,6 +20,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "„Демократична България“ предлага до 100 евро необлагаеми работодателски вноски за допълнително осигуряване и застраховки",
+      "summary": "„Демократична България“ (ДБ) предлага до 100 евро необлагаеми работодателски вноски за допълнително осигуряване и застраховки, съобщава пресцентърът на коалицията. Целта е да се насърчават спестяванията, инвестициите и личната отговорност за здравето и доходит",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252426--demokratichna-balgariya-predlaga-do-100-evro-neoblagaemi-rabotodatelski-vnoski",
+      "published": "2026-11-23T11:44:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 63,
+      "priority_breakdown": {
+        "economic_significance": 88,
+        "national_impact": 61,
+        "household_business_impact": 59,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -56,7 +75,7 @@
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 54,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -81,25 +100,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Gas prices in Europe surge as forecast cold snap feeds supply shortage fears",
-      "summary": "Jump in price follows slowdown in Qatar supplies and depleted summer stocks due to heatwaves Business live – latest updates European gas prices surged on Monday as a forecast cold snap in the coming weeks fed fears across the continent’s over depleted supply t",
-      "url": "https://www.theguardian.com/business/2026/nov/23/gas-prices-in-europe-surge-as-forecast-cold-snap-feeds-supply-shortage-fears",
-      "published": "2026-11-23T08:45:13+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 42,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 59,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Tracking site says Iranian tanker reportedly sailing through Strait of Hormuz does not exist",
       "summary": "The US military said Saturday marked 130 consecutive days of its naval blockade against Iran, which it says is preventing the Islamic Revolutionary Guard Corps from exporting \"billions of dollars in crude oil.\"",
@@ -118,22 +118,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Mongolia's power struggle deepens as Parliament approves president's resignation",
-      "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
-      "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
-      "published": "2026-11-22T11:00:00+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Нетните активи на пенсионните фондове надхвърлят 17 млрд. евро в края на септември",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439929-netnite-aktivi-na-pensionnite-fondove-nadhvarlyat-17-mlrd-evro-v-kraya-na-septemvri",
+      "published": "2026-11-23T11:27:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
       "priority_score": 41,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 91
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Gas prices in Europe surge as forecast cold snap feeds supply shortage fears",
+      "summary": "Jump in price follows slowdown in Qatar supplies and depleted summer stocks due to heatwaves Business live – latest updates European gas prices surged on Monday as a forecast cold snap in the coming weeks fed fears across the continent’s over depleted supply t",
+      "url": "https://www.theguardian.com/business/2026/nov/23/gas-prices-in-europe-surge-as-forecast-cold-snap-feeds-supply-shortage-fears",
+      "published": "2026-11-23T08:45:13+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 59,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -153,6 +172,25 @@
         "strategic_significance": 54,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 23rd, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-midday",
+      "published": "2026-11-23T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
       }
     },
     {
@@ -213,69 +251,12 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Приемната грижа изисква съпричастност, лична ангажираност и готовност да отворим дома и сърцето си, каза областният управител на Враца",
-      "summary": "Не е необходимо да си герой, за да промениш нечий живот, каза областният управител на Враца Росен Михайлов на конференция по проект „Приеми ме“, свързан с популяризирането на приемната грижа в България, която се провежда в Националния пресклуб на БТА във Враца",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252318-priemnata-grizha-iziskva-saprichastnost-lichna-angazhiranost-i-gotovnost-da-otv",
-      "published": "2026-11-23T10:50:42+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
-      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
-      "published": "2026-11-22T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "През третото тримесечие на 2026 г. общият брой на заетите лица в област Шумен е 64 600, от които 32 500 мъже и 32 100 - жени",
-      "summary": "Общият брой на заетите лица в област Шумен е 64 600 през третото тримесечие на 2026 г., от които 32 500 са мъже и 32 100 - жени, съобщиха от отдел \"Статистически изследвания - Шумен\" към Териториално статистическо бюро - Североизток. Коефициентът на заетост за",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252346-prez-tretoto-trimesechie-na-2026-g-obshtiyat-broy-na-zaetite-litsa-v-oblast-shu",
-      "published": "2026-11-23T10:37:41+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
       "summary": "Libya's eastern government says a sunken warship had stopped for fuel and supplies on its way back to Russia.",
       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T08:36:57+00:00",
+      "published": "2026-11-23T11:40:01+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 35,
@@ -289,22 +270,60 @@
       }
     },
     {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "UK appoints energy boss to drive reindustrialization",
+      "summary": "LONDON — Great British Energy Chair Jürgen Maier has been appointed the government’s new northern economy and reindustrialisation commissioner, in a move aimed at attracting private investment and accelerating growth across the North. The appointment was annou",
+      "url": "https://www.politico.eu/article/jurgen-maier-uk-reindustrialization-tsar/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T11:05:45+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Шимкус: Повишение на лихвите през декември може да се окаже недостатъчно",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439923-shimkus-povishenie-na-lihvite-prez-dekemvri-mozhe-da-se-okazhe-nedostatachno",
-      "published": "2026-11-23T10:20:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
+      "source": "БТА",
+      "title": "Приемната грижа осигурява сигурна семейна среда за деца в риск, каза Александрина Иванова във Враца",
+      "summary": "Приемната грижа осигурява на децата, лишени от възможността да растат в биологичното си семейство, сигурна и безопасна среда за определен период от време. Това обясни Александрина Иванова, началник на Областния екип по приемна грижа, по време на дискусия, посв",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252377-priemnata-grizha-osiguryava-sigurna-semeyna-sreda-za-detsa-v-risk-kaza-aleksand",
+      "published": "2026-11-23T11:01:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 87
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Бащите на съвременната Конституция са създали изключително зрял основен закон, който успя да отговори на предизвикателствата на времето, заяви председателят на Народното събрание Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6683",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "publisher": "Народно събрание",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 98
       }
     },
     {
@@ -347,25 +366,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Заместник-председателят на Народното събрание Иван Ангелов разговаря с унгарския депутат, застъпник на българското национално малцинство в парламента на Унгария, Симеон Варга",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6679",
-      "published": "2026-11-19T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "publisher": "Народно събрание",
-      "priority_score": 26,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 30,
-        "source_reliability": 98
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "„Особено тревожно“: Фалитите в България ще продължат да се увеличават и през 2027 г.",
       "summary": "Фалитите в България ще се увеличат с 12% през тази година, като тенденцията ще продължи и през следващата. Това прогнозират в свой доклад от компанията по застраховане на търговски кредити Allianz Trade. Според анализаторите, очакваният ръст през 2026 г. ще е",
@@ -399,6 +399,25 @@
         "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Mongolia's power struggle deepens as Parliament approves president's resignation",
+      "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
+      "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
+      "published": "2026-11-22T11:00:00+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 68,
         "source_reliability": 91
       }
     },
@@ -460,25 +479,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 22nd, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-midday",
-      "published": "2026-11-22T11:00:15+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "България рискува бюджетна глоба от Брюксел",
@@ -495,6 +495,25 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 22nd, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-midday",
+      "published": "2026-11-22T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 91
       }
     },
     {
@@ -556,25 +575,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 21st, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 21st, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/21/latest-news-bulletin-november-21st-2026-evening",
-      "published": "2026-11-21T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "New EU budget proposal aims at tax gobal tech giants",
       "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
@@ -607,27 +607,27 @@
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 94
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Служители от Агенцията за социално подпомагане в Бургас излязоха на едночасова ефективна стачка с искане за увеличение на заплатите",
-      "summary": "Служители от Агенцията за социално подпомагане в Бургас участваха в едночасова ефективна стачка с искане за увеличение на заплатите. Протестът се проведе пред Центъра за административно обслужване \"Приморие\" под надслов \"Справедливост и равни права\". Председат",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252311-sluzhiteli-ot-agentsiyata-za-sotsialno-podpomagane-v-burgas-izlyazoha-na-ednocha",
-      "published": "2026-11-23T10:11:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
+      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
+      "published": "2026-11-22T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
       "priority_score": 35,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -650,22 +650,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
-      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
-      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
-      "published": "2026-11-20T15:45:35+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 35,
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Шимкус: Повишение на лихвите през декември може да се окаже недостатъчно",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439923-shimkus-povishenie-na-lihvite-prez-dekemvri-mozhe-da-se-okazhe-nedostatachno",
+      "published": "2026-11-23T10:20:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 48,
+        "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 85
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -694,25 +694,6 @@
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439902-parichnata-i-lihvenata-statistika-shte-sa-na-fokus-prez-sedmitsata",
       "published": "2026-11-23T06:38:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Европа се отказа от руското гориво - и стана зависима от китайските зелени технологии",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439787-evropa-se-otkaza-ot-ruskoto-gorivo-i-stana-zavisima-ot-kitayskite-zeleni-tehnologii",
-      "published": "2026-11-23T05:31:00+00:00",
       "feed_id": "investor-economy",
       "publisher": "investor.bg",
       "priority_score": 34,
@@ -783,25 +764,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
-      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
-      "published": "2026-11-20T16:10:40+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 50,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Евростат",
       "title": "Annual inflation up to 4.0% in the euro area",
@@ -859,63 +821,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Филмът „Остайница“ по едноименния роман на Рене Карабаш излиза по кината в България от 27 ноември",
-      "summary": "Филмът „Остайница“ по едноименния роман на Рене Карабаш излиза по кината в България от 27 ноември. Копродукцията на България, Италия и Албания е режисирана от Костадин Бонев, а сценарият е написан от Рене Карабаш и Костадин Бонев. На 16 октомври лентата бе пре",
-      "url": "https://www.bta.bg/bg/news/lik/1252359-filmat-ostaynitsa-po-ednoimenniya-roman-na-rene-karabash-izliza-po-kinata-v-ba",
-      "published": "2026-11-23T10:49:44+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Председателят на Народното събрание Михаела Доцова откри изложбата \"35 години Конституция на Република България\" в Русе",
-      "summary": "Председателят на Народното събрание Михаела Доцова откри фотодокументалната изложба \"35 години Конституция на Република България\" в Регионалната библиотека \"Любен Каравелов\" в Русе. Експозицията е подготвена от Народното събрание, а инициативата е на Михаела Д",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252305-predsedatelyat-na-narodnoto-sabranie-mihaela-dotsova-otkri-izlozhbata-35-godini",
-      "published": "2026-11-23T10:21:25+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Using carbon footprint evidence to support better healthcare decisions",
-      "summary": "Measuring the carbon footprint of medicines across the entire product lifecycle means GSK can aim to reduce its environmental impact and transform patient care.",
-      "url": "https://www.politico.eu/sponsored-content/using-carbon-footprint-evidence-to-support-better-healthcare-decisions/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T04:00:00+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
       "section": "europe",
       "source": "Investor.bg – Финанси",
       "title": "Димитър Радев: ЕЦБ трябва да е готова за ново повишение на лихвите",
@@ -936,35 +841,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
-      "published": "2026-11-21T11:28:47+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 99
-      },
-      "related_items": [
-        {
-          "source": "Европейска комисия",
-          "publisher": "Европейска комисия",
-          "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-          "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
-          "published": "2026-11-20T23:00:00+00:00"
-        }
-      ],
-      "related_count": 1
-    },
-    {
-      "section": "europe",
       "source": "POLITICO Europe",
       "title": "How industrial cooperation strengthens Europe’s defense readiness",
       "summary": "European and North American defense companies are strengthening industrial cooperation through the Patriot® program, supporting manufacturing capacity, technical expertise, and long-term defense readiness across Europe.",
@@ -981,6 +857,35 @@
         "timeliness": 100,
         "source_reliability": 92
       }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
+      "published": "2026-11-21T11:28:47+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 50,
+        "source_reliability": 99
+      },
+      "related_items": [
+        {
+          "source": "Европейска комисия",
+          "publisher": "Европейска комисия",
+          "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
+          "published": "2026-11-20T23:00:00+00:00"
+        }
+      ],
+      "related_count": 1
     },
     {
       "section": "europe",
@@ -1018,6 +923,44 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Flights grounded in Belgium due to strike against austerity measures",
+      "summary": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
+      "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T11:26:12+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Belgium’s De Wever visits the king (again) with no budget deal in sight",
+      "summary": "The five-party coalition government is on the brink due to a deadlock over how to shrink the deficit.",
+      "url": "https://www.politico.eu/article/belgium-bart-de-wever-heads-to-king-with-no-budget-deal-in-sight/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T11:11:49+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
       }
     },
     {
@@ -1060,44 +1003,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Badenoch and Farage: The battle for business",
-      "summary": "Presented by TikTok",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/badenoch-and-farage-the-battle-for-business/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T08:27:02+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Up to 1.1m people eligible to join class action against Jetstar over alleged failure to refund Covid flights",
-      "summary": "Jetstar accused of issuing customers credits instead of cash refunds for flights cancelled between 2020 and late 2022 Get our breaking news email , free app or daily news podcast More than 1 million Jetstar customers could be eligible to join a class action al",
-      "url": "https://www.theguardian.com/business/2026/nov/23/up-to-11m-people-eligible-to-join-class-action-against-jetstar-over-alleged-failure-to-refund-covid-flights-ntwnfb",
-      "published": "2026-11-23T08:24:12+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "China commits to low-carbon electrification and help for others to improve",
       "summary": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the same, a senior member of the",
@@ -1116,31 +1021,12 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Race to replant five South African baobabs after export blocked",
-      "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
-      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
-      "published": "2026-11-19T11:03:24+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 94
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Слабо земетресение е регистрирано в района на Смолян, трусът е част от поредица с роев тип сеизмичност",
-      "summary": "Слабо земетресение с магнитуд 2,1 с епицентър североизточно от Смолян е регистрирано днес в 4:02 минути, според данни на Националния институт по геофизика, геодезия и география при БАН. Днешният по-слаб трус е част от поредица, която може да се характеризира с",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252354-slabo-zemetresenie-e-registrirano-v-rayona-na-smolyan-trusat-e-chast-ot-poredit",
-      "published": "2026-11-23T10:44:00+00:00",
+      "title": "Кметът на район \"Панчарево\" Евгения Алексиева бе удостоена от БЧК със златен медал за заслуги",
+      "summary": "Кметът на столичния район „Панчарево“ Евгения Алексиева беше удостоена с медал за заслуги „БЧК“ – златен, съобщиха от Българския Червен кръст (БЧК). Отличието е признание за последователната ѝ подкрепа и съдействие за дейността на организацията и по-специално",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252432-kmetat-na-rayon-pancharevo-evgeniya-aleksieva-be-udostoena-ot-bchk-sas-zlaten-",
+      "published": "2026-11-23T11:39:29+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1156,10 +1042,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Тленните останки на цар Самуил може да бъдат изпратени за ДНК анализ в Германия до края на годината",
-      "summary": "Тленните останки на цар Самуил и на негови предполагаеми родственици може да бъдат изпратени за генетични изследвания в Института „Макс Планк“ в Германия до края на годината. Това съобщи за БТА проф. д-р Людмил Вагалински от Националния археологически институт",
-      "url": "https://www.bta.bg/bg/news/lik/1252326-tlennite-ostanki-na-tsar-samuil-mozhe-da-badat-izprateni-za-dnk-analiz-v-germani",
-      "published": "2026-11-23T10:39:51+00:00",
+      "title": "Munly & The Lupercalians ще свири за първи път в България на 25 ноември",
+      "summary": "Американската група Munly & The Lupercalians ще изнесе първия си концерт в България на 25 ноември в зала B-Side на клуб Mixtape 5 в София, съобщават организаторите от „Аларма пънк джаз“. Групата свири готик американа, алтърнатив кънтри и пънк-блус. Преди нея н",
+      "url": "https://www.bta.bg/bg/news/lik/1252374-munly-the-lupercalians-shte-sviri-za-parvi-pat-v-balgariya-na-25-noemvri",
+      "published": "2026-11-23T11:34:14+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1175,10 +1061,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "ЦИК ще връчи удостоверенията на избраните за президент и вицепрезидент утре",
-      "summary": "Централната избирателна комисия (ЦИК) ще връчи удостоверенията на избраните за президент Илияна Йотова и вицепрезидент Кирил Вълчев на официална церемония, която ще се проведе утре от 14:00 часа в сградата на Народното събрание. Това съобщиха от пресцентъра на",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252344-tsik-shte-vrachi-udostovereniyata-na-izbranite-za-prezident-i-vitseprezident-utr",
-      "published": "2026-11-23T10:36:53+00:00",
+      "title": "В Техническия университет във Варна ще има студентски авариен екип за действие при бедствия и кризи",
+      "summary": "В Техническия университет (ТУ) във Варна ще бъде изграден студентски авариен екип, който да помага при възникване на евентуални бедствия и кризи. Това е заложено в споразумението за сътрудничество между висшето училище и Българския червен кръст, което бе подпи",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252420-v-tehnicheskiya-universitet-vav-varna-shte-ima-studentski-avarien-ekip-za-deystv",
+      "published": "2026-11-23T11:23:58+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1194,10 +1080,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Прогноза за времето",
-      "summary": "През нощта валежите ще отслабват и спират, а от северозапад и облачността ще се разкъсва и ще намалява, съобщиха от Националния институт по хидрология и метеорология. Значителна ще се задържи облачността през по-голямата част от нощта над югоизточната половина",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252322-prognoza-za-vremeto",
-      "published": "2026-11-23T10:18:53+00:00",
+      "title": "Ученици от свищовското училище „Николай Катранов“ са сред призьорите на Националния исторически конкурс „Родолюбие“",
+      "summary": "За поредна година ученици от Средно училище (СУ) „Николай Катранов“ в Свищов бяха удостоени с награди от Националния исторически конкурс „Родолюбие“, съобщиха от ръководството на учебната институция. Събитието се организира от Националния клуб „Родолюбие“ със",
+      "url": "https://www.bta.bg/bg/news/lik/1252406-uchenitsi-ot-svishtovskoto-uchilishte-nikolay-katranov-sa-sred-prizyorite-na-n",
+      "published": "2026-11-23T11:23:45+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1227,6 +1113,44 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Badenoch and Farage: The battle for business",
+      "summary": "Presented by TikTok",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/badenoch-and-farage-the-battle-for-business/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T08:27:02+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Up to 1.1m people eligible to join class action against Jetstar over alleged failure to refund Covid flights",
+      "summary": "Jetstar accused of issuing customers credits instead of cash refunds for flights cancelled between 2020 and late 2022 Get our breaking news email , free app or daily news podcast More than 1 million Jetstar customers could be eligible to join a class action al",
+      "url": "https://www.theguardian.com/business/2026/nov/23/up-to-11m-people-eligible-to-join-class-action-against-jetstar-over-alleged-failure-to-refund-covid-flights-ntwnfb",
+      "published": "2026-11-23T08:24:12+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -1341,6 +1265,82 @@
         "strategic_significance": 32,
         "timeliness": 50,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Race to replant five South African baobabs after export blocked",
+      "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
+      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
+      "published": "2026-11-19T11:03:24+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 30,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Tajikistan: Statement by the High Representative on behalf of the European Union on Tajikistan’s withdrawal from the Rome Statute of the International Criminal Court",
+      "summary": "The High Representative issued a statement on behalf of the European Union on Tajikistan’s withdrawal from the Rome Statute of the International Criminal Court.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/tajikistan-statement-by-the-high-representative-on-behalf-of-the-european-union-on-tajikistan-s-withdrawal-from-the-rome-statute-of-the-international-criminal-court/",
+      "published": "2026-11-23T11:35:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Zelenskyy says Ukraine responsible for sinking Russian warship in Libya – Europe live",
+      "summary": "President says Kyiv responsible for sinking Merkury warship in Benghazi on Sunday and also drone attack on cargo vessel MV Angara Russian warship sinks in Benghazi after suspected Ukrainian drone attack Turning to Ukraine, Nato’s Rutte stresses the need to sec",
+      "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
+      "published": "2026-11-23T11:29:42+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Приемната грижа е временна мярка, чиято цел е детето да се върне в биологичното си семейство, каза Незабравка Костова",
+      "summary": "Приемната грижа е временна мярка за закрила на детето, като основната цел е то да се върне в биологичното си семейство, когато това е възможно. Това каза началникът на отдел „Закрила на детето“ в дирекция „Социално подпомагане“ – Враца Незабравка Костова по вр",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252416-priemnata-grizha-e-vremenna-myarka-chiyato-tsel-e-deteto-da-se-varne-v-biologic",
+      "published": "2026-11-23T11:26:51+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     }
   ],
