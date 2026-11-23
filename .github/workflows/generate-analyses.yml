@@ -200,7 +200,7 @@ jobs:
           python -m json.tool analizi/articles.json >/dev/null
           python -m json.tool analysis/monthly_usage.json >/dev/null
 
-      - name: Run independent Gemini fact-check with Google Search
+      - name: Run independent Gemini fact-check against primary-source URLs (URL Context)
         id: factcheck
         if: steps.plan.outputs.mode == 'publish'
         env:
@@ -223,7 +223,7 @@ jobs:
           SOURCES: ${{ steps.article.outputs.sources }}
           FACTCHECK_VERDICT: ${{ steps.factcheck.outputs.verdict }}
           VERIFIED_CLAIMS: ${{ steps.factcheck.outputs.verified_claims }}
-          GROUNDED_SOURCES: ${{ steps.factcheck.outputs.grounded_sources }}
+          RETRIEVED_SOURCES: ${{ steps.factcheck.outputs.retrieved_sources }}
         run: |
           set -euo pipefail
           BRANCH="analysis/auto-${LANE}-$(date -u +%Y%m%d-%H%M%S)"
@@ -246,10 +246,10 @@ jobs:
           - Първоизточници в материала: **$SOURCES**
           - Независим fact-check: **$FACTCHECK_VERDICT**
           - Потвърдени твърдения: **$VERIFIED_CLAIMS**
-          - Google Search източници: **$GROUNDED_SOURCES**
+          - Директно извлечени първични URL адреси: **$RETRIEVED_SOURCES**
           - Страница: https://bgvchisla.com/analizi/$SLUG/
 
-          Статията е генерирана с GPT-6 Luna и проверена от отделния Google Gemini 3.8 Flash с Google Search grounding. PR може да се слее автоматично само при PASS на независимата проверка и успешен отделен CI audit. REVIEW/FAIL оставя PR отворен за редакционна намеса.
+          Статията е генерирана с GPT-6 Luna и проверена от отделния Google Gemini 3.8 Flash чрез директно извличане на посочените първични URL адреси (URL Context); Google Search grounding не се използва. PR може да се слее автоматично само при PASS на независимата проверка и успешен отделен CI audit. REVIEW/FAIL оставя PR отворен за редакционна намеса.
           EOF
           PR_URL="$(gh pr create --repo "$REPOSITORY" --base main --head "$BRANCH" --title "Автоматичен анализ: $TITLE" --body-file /tmp/pr-body.md)"
           PR_NUMBER="$(gh pr view "$PR_URL" --repo "$REPOSITORY" --json number --jq .number)"
