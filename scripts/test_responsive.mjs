@@ -26,7 +26,7 @@ try {
 
     const response = await page.goto(SITE_URL, { waitUntil: "domcontentloaded", timeout: 45000 });
     assert.ok(response && response.ok(), viewport.name + ": homepage HTTP response failed");
-    await page.waitForSelector("#site-content nav#nav button[data-i='15']", { timeout: 20000 });
+    await page.waitForSelector("#site-content nav#nav button[data-i='15']", { state: "attached", timeout: 20000 });
     await page.waitForFunction(() => {
       const counter = document.querySelector("#debt");
       return !!counter && /^€/.test((counter.textContent || "").trim());
