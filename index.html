@@ -1250,6 +1250,8 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 .news-related{margin-top:7px;color:#748397;font-size:.68rem;line-height:1.5}
 .news-related a{display:inline;color:#426f9b;font-weight:700;text-decoration:underline;text-underline-offset:2px}
 .news-related a:hover{color:#a64d48}
+.news-more-divider{display:flex;align-items:center;gap:10px;margin:15px 0 10px;color:#536981;font-size:.76rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.news-more-divider:after{content:"";height:1px;flex:1;background:#d9e1ea}
 </style>
 </head>
 <body>
@@ -1791,10 +1793,13 @@ function sortNewsByEditorialPriority(items){
       deferred.push(item);
     }
   });
-  return top.concat(deferred.sort(compare));
+  var result=top.concat(deferred.sort(compare));
+  result.editorialTopCount=top.length;
+  return result;
 }
 function renderNews(target,items){
   items=sortNewsByEditorialPriority(items);
+  var editorialTopCount=items.editorialTopCount;
   var root=$(target);if(!root)return;root.textContent="";
   if(!items.length){var empty=document.createElement("p");empty.className="news-empty";empty.textContent="Все още няма публикувани заглавия. Потокът се обновява автоматично.";root.appendChild(empty);return}
   var leadItem = items.reduce(function(best,item){
@@ -1804,9 +1809,19 @@ function renderNews(target,items){
     return best;
   },null);
   if(leadItem && leadItem.score<=0)leadItem=null;
-  items.forEach(function(item){
+  items.forEach(function(item,index){
+    if(index===editorialTopCount&&index<items.length){
+      var more=document.createElement("div");
+      more.className="news-more-divider";
+      more.setAttribute("role","separator");
+      var moreLabel=document.createElement("span");
+      moreLabel.textContent="Още новини";
+      more.appendChild(moreLabel);
+      root.appendChild(more);
+    }
     var article=document.createElement("article");
     article.className = leadItem && item===leadItem.item ? "news-item news-lead" : "news-item";
+    article.dataset.publisher=String(item.publisher||item.source||"unknown").trim().toLowerCase();
     var link=document.createElement("a");link.href=item.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=item.title;article.appendChild(link);
     var meta=document.createElement("div");meta.className="news-meta";
     var date=item.published?new Date(item.published):null;

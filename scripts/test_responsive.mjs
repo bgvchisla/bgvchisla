@@ -67,6 +67,25 @@ try {
         debtScrollWidth: get("#debt")?.scrollWidth ?? 0,
         debtTitleFontSize: Number.parseFloat(style(".hero > small")?.fontSize ?? "0"),
         debtMetricsFontSize: Number.parseFloat(style(".hero .r")?.fontSize ?? "0"),
+        newsLeadStats: ["news-left-list", "news-right-list"].map(id => {
+          const root = get("#" + id);
+          if (!root) return { id, dividerPresent:false, leadCount:0, publisherCounts:{} };
+          const children = Array.from(root.children);
+          const dividerIndex = children.findIndex(element => element.classList.contains("news-more-divider"));
+          const leadChildren = children.slice(0, dividerIndex >= 0 ? dividerIndex : children.length)
+            .filter(element => element.matches("article.news-item"));
+          const publisherCounts = {};
+          leadChildren.forEach(element => {
+            const publisher = element.dataset.publisher || "unknown";
+            publisherCounts[publisher] = (publisherCounts[publisher] || 0) + 1;
+          });
+          return {
+            id,
+            dividerPresent: dividerIndex >= 0,
+            leadCount: leadChildren.length,
+            publisherCounts,
+          };
+        }),
       };
     });
 
@@ -88,6 +107,16 @@ try {
       viewport.name + ": debt title is too small (" + metrics.debtTitleFontSize + "px)");
     assert.ok(metrics.debtMetricsFontSize >= 14,
       viewport.name + ": debt supporting metrics are too small (" + metrics.debtMetricsFontSize + "px)");
+    for (const section of metrics.newsLeadStats) {
+      assert.ok(section.dividerPresent,
+        viewport.name + ": " + section.id + " must visibly separate additional headlines");
+      assert.ok(section.leadCount > 0 && section.leadCount <= 10,
+        viewport.name + ": " + section.id + " has an invalid lead-headline count");
+      for (const [publisher, count] of Object.entries(section.publisherCounts)) {
+        assert.ok(count <= 2,
+          viewport.name + ": " + section.id + " has more than two lead headlines from " + publisher);
+      }
+    }
 
     if (viewport.mobile) {
       assert.equal(metrics.sideNewsDisplay, "none", viewport.name + ": desktop news sidebars should be hidden");
@@ -174,6 +203,7 @@ try {
       ctaRect: metrics.ctaRect,
       cssLoaded: metrics.cssLoaded,
       navButtons: metrics.navButtonCount,
+      newsLeadStats: metrics.newsLeadStats,
       article: articleMetrics,
       pageErrors,
     }));
