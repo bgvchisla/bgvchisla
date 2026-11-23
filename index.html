@@ -1821,6 +1821,7 @@ function renderNews(target,items){
     }
     var article=document.createElement("article");
     article.className = leadItem && item===leadItem.item ? "news-item news-lead" : "news-item";
+    article.dataset.publisher=String(item.publisher||item.source||"unknown").trim().toLowerCase();
     var link=document.createElement("a");link.href=item.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=item.title;article.appendChild(link);
     var meta=document.createElement("div");meta.className="news-meta";
     var date=item.published?new Date(item.published):null;
