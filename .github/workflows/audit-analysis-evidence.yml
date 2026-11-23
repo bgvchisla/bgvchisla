@@ -8,6 +8,9 @@ on:
       - "scripts/patch_analysis_evidence.py"
       - "scripts/test_frontend.py"
       - "scripts/test_analysis_publication.py"
+      - "scripts/test_independent_factcheck.py"
+      - "scripts/fact_check_analysis.py"
+      - "scripts/apply_ai_disclosure.py"
       - "scripts/test_responsive.mjs"
       - "index.html"
       - "assets/**"
@@ -24,6 +27,7 @@ on:
       - "analizi/**"
       - "sitemap.xml"
       - "analysis/monthly_usage.json"
+      - "analysis/verification_usage.json"
       - "analysis/README.md"
       - "analysis/config.json"
       - "PROJECT_HANDOVER.md"
@@ -124,6 +128,13 @@ jobs:
         run: python scripts/analysis_evidence.py --lane bulgaria
       - name: Audit world analysis evidence without an API call
         run: python scripts/analysis_evidence.py --lane world
+      - name: Run independent fact-check integrity tests
+        run: python scripts/test_independent_factcheck.py --static
+      - name: Validate external fact-check report when present
+        run: |
+          if [ -f analysis/factcheck_report.json ]; then
+            python scripts/test_independent_factcheck.py --report analysis/factcheck_report.json
+          fi
       - name: Run the actual Bulgarian free preflight
         run: python scripts/generate_analysis.py --lane bulgaria --dry-run
       - name: Run the actual world free preflight
