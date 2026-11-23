@@ -23,6 +23,7 @@ MAX_BYTES = 1_000_000
 TIMEOUT = 20
 MAX_PER_FEED = 35
 MAX_ITEM_AGE_DAYS = 10
+MAX_LEAD_AGE_HOURS = 18
 FUTURE_DATE_TOLERANCE_HOURS = 24
 USER_AGENT = "bgvchisla-news-aggregator/1.0 (+https://bgvchisla.com)"
 FEEDS = [
@@ -892,19 +893,36 @@ def _rank_key(item):
     return score, publication_datetime(item), str(item.get("title") or "").casefold()
 
 
-def select_news_items(items, limit=70, top_window=10, max_per_publisher=2):
-    """Подрежда по значимост, после по дата; балансира издателите в първите 10 на всяка секция."""
+def is_lead_eligible(item, now=None):
+    """Връща True само за новина с надеждна дата в последните 18 часа."""
+    now = now or datetime.now(timezone.utc)
+    published = publication_datetime(item)
+    if published == datetime.min.replace(tzinfo=timezone.utc):
+        return False
+    age_hours = (now - published).total_seconds() / 3600
+    return -FUTURE_DATE_TOLERANCE_HOURS <= age_hours <= MAX_LEAD_AGE_HOURS
+
+
+def select_news_items(items, limit=70, top_window=10, max_per_publisher=2, now=None):
+    """Подрежда по значимост; водещата позиция се запазва за новина до 18 часа."""
     if limit <= 0:
         return []
 
+    now = now or datetime.now(timezone.utc)
     sections = {}
     for item in items:
         sections.setdefault(item.get("section") or "other", []).append(item)
 
     protected = []
     remaining = []
-    for section_items in sections.values():
+    lead_by_section = {}
+    for section, section_items in sections.items():
         ranked = sorted(section_items, key=_rank_key, reverse=True)
+        lead = next((item for item in ranked if is_lead_eligible(item, now)), None)
+        if lead is not None:
+            lead_by_section[section] = lead
+            ranked = [lead] + [item for item in ranked if item is not lead]
+
         top = []
         deferred = []
         publisher_counts = {}
@@ -920,7 +938,23 @@ def select_news_items(items, limit=70, top_window=10, max_per_publisher=2):
 
     ordered = sorted(protected, key=_rank_key, reverse=True)
     ordered.extend(sorted(remaining, key=_rank_key, reverse=True))
-    return ordered[:limit]
+    selected = ordered[:limit]
+
+    # Подреждаме най-значимата публикация от последните 18 часа първа във
+    # всяка секция, без да променяме оценките и реда на останалите материали.
+    for section, lead in lead_by_section.items():
+        lead_index = next((i for i, item in enumerate(selected) if item is lead), None)
+        if lead_index is None:
+            continue
+        first_section_index = next(
+            (i for i, item in enumerate(selected) if (item.get("section") or "other") == section),
+            None,
+        )
+        if first_section_index is not None and lead_index != first_section_index:
+            selected.pop(lead_index)
+            selected.insert(first_section_index, lead)
+
+    return selected
 
 
 def main():
