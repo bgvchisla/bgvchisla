@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T10:14:38.587101+00:00",
-  "last_checked_at": "2026-11-23T10:14:38.587116+00:00",
+  "updated_at": "2026-11-23T10:21:08.610597+00:00",
+  "last_checked_at": "2026-11-23T10:21:08.610614+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -177,25 +177,6 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "ПТИ: Индия и България обсъдиха двустранните отношения, проекта за нов транспортен коридор от Южна Азия до Европа и ситуацията в Черно море",
-      "summary": "Индия и България направиха преглед на двустранното си сътрудничество в областта на търговията, сигурността, технологиите и други сфери, а също така обсъдиха проекта за Икономически коридор Индия - Близък изток - Европа (IMEC), ситуацията в Черно море и конфлик",
-      "url": "https://www.bta.bg/bg/news/world/1252257-pti-indiya-i-balgariya-obsadiha-dvustrannite-otnosheniya-proekta-za-nov-transp",
-      "published": "2026-11-23T09:30:15+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
       "title": "Служители на Дирекция „Социално подпомагане“ във Видин настояват за увеличение на заплатите с 350 евро",
       "summary": "Служители на Дирекция „Социално подпомагане“ във Видин излязоха на едночасова предупредителна стачка с искане за увеличение на трудовите възнаграждения с 350 евро, възстановяване на допълнителното заплащане за прослужено време и подобряване на условията на тру",
       "url": "https://www.bta.bg/bg/news/bulgaria/1252255-sluzhiteli-na-direktsiya-sotsialno-podpomagane-vav-vidin-nastoyavat-za-uvelich",
@@ -229,23 +210,9 @@
         {
           "source": "БТА",
           "publisher": "БТА",
-          "title": "Социални работници във Велико Търново протестираха с искане за увеличение на заплатите",
-          "url": "https://www.bta.bg/bg/news/bulgaria/1252241-sotsialni-rabotnitsi-vav-veliko-tarnovo-protestiraha-s-iskane-za-uvelichenie-na-",
-          "published": "2026-11-23T09:38:33+00:00"
-        },
-        {
-          "source": "БТА",
-          "publisher": "БТА",
           "title": "Служители на Дирекция „Социално подпомагане“ в Добрич настояват за достойно възнаграждение на труда",
           "url": "https://www.bta.bg/bg/news/bulgaria/1252264-sluzhiteli-na-direktsiya-sotsialno-podpomagane-v-dobrich-nastoyavat-za-dostoyn",
           "published": "2026-11-23T09:56:04+00:00"
-        },
-        {
-          "source": "БТА",
-          "publisher": "БТА",
-          "title": "Служители на Дирекция „Социално подпомагане“ в Перник настояха за достойно заплащане и увеличение на възнагражденията",
-          "url": "https://www.bta.bg/bg/news/bulgaria/1252246-sluzhiteli-na-direktsiya-sotsialno-podpomagane-v-pernik-nastoyaha-za-dostoyno-",
-          "published": "2026-11-23T09:35:00+00:00"
         },
         {
           "source": "БТА",
@@ -262,7 +229,7 @@
           "published": "2026-11-23T09:50:01+00:00"
         }
       ],
-      "related_count": 7
+      "related_count": 5
     },
     {
       "section": "europe",
@@ -342,12 +309,12 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Паричната и лихвената статистика ще са на фокус през седмицата",
+      "source": "Investor.bg – Финанси",
+      "title": "Шимкус: Повишение на лихвите през декември може да се окаже недостатъчно",
       "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439902-parichnata-i-lihvenata-statistika-shte-sa-na-fokus-prez-sedmitsata",
-      "published": "2026-11-23T06:38:00+00:00",
-      "feed_id": "investor-economy",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439923-shimkus-povishenie-na-lihvite-prez-dekemvri-mozhe-da-se-okazhe-nedostatachno",
+      "published": "2026-11-23T10:20:00+00:00",
+      "feed_id": "investor-finance",
       "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
@@ -355,8 +322,27 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 100,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Прогноза за времето",
+      "summary": "През нощта валежите ще отслабват и спират, а от северозапад и облачността ще се разкъсва и ще намалява, съобщиха от Националния институт по хидрология и метеорология. Значителна ще се задържи облачността през по-голямата част от нощта над югоизточната половина",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252322-prognoza-za-vremeto",
+      "published": "2026-11-23T10:18:53+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -702,6 +688,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Паричната и лихвената статистика ще са на фокус през седмицата",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439902-parichnata-i-lihvenata-statistika-shte-sa-na-fokus-prez-sedmitsata",
+      "published": "2026-11-23T06:38:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Европа се отказа от руското гориво - и стана зависима от китайските зелени технологии",
@@ -851,25 +856,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Училището в троянското село Черни Осъм ще развива дуално обучение по професията „Планински водач“ с проектно финансиране",
-      "summary": "Средно училище „Васил Левски“ в троянското село Черни Осъм, известно като Националното училище за планински водачи, е одобрено за финансиране на проект за развитие на дуално обучение по професия „Планински водач“, съобщи за БТА директорът Румяна Велешка. Той щ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252254-uchilishteto-v-troyanskoto-selo-cherni-osam-shte-razviva-dualno-obuchenie-po-pro",
-      "published": "2026-11-23T09:31:19+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
