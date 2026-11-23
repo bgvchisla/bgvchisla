@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T22:16:05.430847+00:00",
-  "last_checked_at": "2026-11-23T22:16:05.430859+00:00",
+  "updated_at": "2026-11-23T23:18:26.626566+00:00",
+  "last_checked_at": "2026-11-23T23:18:26.626578+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -88,13 +88,13 @@
       "published": "2026-11-23T19:55:00+00:00",
       "feed_id": "investor-economy",
       "publisher": "investor.bg",
-      "priority_score": 41,
+      "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -232,44 +232,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
-      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
-      "published": "2026-11-22T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Усилията на България за сигурността в региона подчерта премиерът Румен Радев на среща с постоянния представител на САЩ в НАТО Матю Уитакър",
-      "summary": "Последователните усилия на България за укрепване и развитие на отбранителните си способности и за принос към гарантирането на сигурността в региона в условията на финансови ограничения бяха подчертани от министър-председателя Румен Радев по време на срещата му",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252819-usiliyata-na-balgariya-za-sigurnostta-v-regiona-podcherta-premierat-rumen-radev-",
-      "published": "2026-11-23T19:22:24+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "УниКредит Булбанк отвори мобилното си приложение за всички потребители",
@@ -286,6 +248,44 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "What failure of COP31 reveals about a divided world",
+      "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
+      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T17:24:25+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Усилията на България за сигурността в региона подчерта премиерът Румен Радев на среща с постоянния представител на САЩ в НАТО Матю Уитакър",
+      "summary": "Последователните усилия на България за укрепване и развитие на отбранителните си способности и за принос към гарантирането на сигурността в региона в условията на финансови ограничения бяха подчертани от министър-председателя Румен Радев по време на срещата му",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252819-usiliyata-na-balgariya-za-sigurnostta-v-regiona-podcherta-premierat-rumen-radev-",
+      "published": "2026-11-23T19:22:24+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -403,25 +403,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-midday",
-      "published": "2026-11-23T11:00:15+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "„Особено тревожно“: Фалитите в България ще продължат да се увеличават и през 2027 г.",
@@ -438,6 +419,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 23rd, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-midday",
+      "published": "2026-11-23T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -570,25 +570,6 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 50,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "What failure of COP31 reveals about a divided world",
-      "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
-      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T17:24:25+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
         "source_reliability": 95
       }
     },
@@ -727,6 +708,25 @@
     },
     {
       "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
+      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
+      "published": "2026-11-22T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 54,
+        "timeliness": 68,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
       "source": "Евростат",
       "title": "Annual inflation up to 4.0% in the euro area",
       "summary": "The euro area annual inflation rate was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.1%. European Union annual inflation was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.5%. These figures ar",
@@ -742,6 +742,25 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
+      "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
+      "url": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner",
+      "published": "2026-11-23T22:41:48+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -899,10 +918,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Labor to ‘save more than we spend’ in budget update, Chalmers says; rental affordability plummets to 14-year low",
+      "title": "Australian politics live: Chalmers to ‘save more than we spend’ in budget update; King Charles ‘deeply saddened’ by Meldrum’s death",
       "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
-      "published": "2026-11-23T21:58:35+00:00",
+      "published": "2026-11-23T23:11:27+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 30,
@@ -941,25 +960,6 @@
       "summary": "Финалният концерт от тазгодишното национално турне на Лили Иванова изпълни до краен предел спортната зала „Диана“ в Ямбол. Бурни и нестихващи аплодисменти и публика, станала на крака – така Ямбол посрещна примата на българската музика. Тя излезе на сцената зае",
       "url": "https://www.bta.bg/bg/news/bulgaria/1252850-finalniyat-kontsert-ot-natsionalnoto-turne-na-lili-ivanova-v-yambol-izpalni-do-k",
       "published": "2026-11-23T20:34:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "С тържествена церемония Студентският съвет при УНСС отбеляза 35-ата годишнина от създаването си",
-      "summary": "С тържествена церемония Студентският съвет при Университета за национално и световно стопанство (УНСС) отбеляза 35-ата годишнина от създаването си. По повод юбилея ректорът на университета връчи на Студентския съвет почетния медал на висшето училище. Събитието",
-      "url": "https://www.bta.bg/bg/news/lik/1252837-s-tarzhestvena-tseremoniya-studentskiyat-savet-pri-unss-otbelyaza-35-ata-godishn",
-      "published": "2026-11-23T19:44:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1050,44 +1050,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Budget cuts threaten Germany's fight against antisemitism and racism",
-      "summary": "Numerous grassroots initiatives in Germany are facing funding cuts. Affected organizations are sounding the alarm, pointing to growing challenges posed by far-right extremism.",
-      "url": "https://www.dw.com/en/budget-cuts-threaten-germany-s-fight-against-antisemitism-and-racism/a-80018644?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T10:55:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "EU budget for 2027: Council gives final green light",
-      "summary": "The Council gave its final green light to the EU’s annual budget for 2027 - the seventh and final annual budget of the current multiannual financial framework (MFF) 2021-2027.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/eu-budget-for-2027-council-gives-final-green-light/",
-      "published": "2026-11-23T10:40:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
       "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
@@ -1146,6 +1108,44 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
+      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T23:16:08+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "US adds Megaspeed, at center of Nvidia scandal, to a trade blacklist",
+      "summary": "The Trump administration has added Megaspeed to a trade blacklist after tensions over its failure to do so raised questions. The news came the same day that Jensen Huang was reinstated as Nvidia's CEO.",
+      "url": "https://www.dw.com/en/us-adds-megaspeed-at-center-of-nvidia-scandal-to-a-trade-blacklist/a-80026849?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T22:35:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
       "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
       "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
       "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
@@ -1160,6 +1160,25 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "С тържествена церемония Студентският съвет при УНСС отбеляза 35-ата годишнина от създаването си",
+      "summary": "С тържествена церемония Студентският съвет при Университета за национално и световно стопанство (УНСС) отбеляза 35-ата годишнина от създаването си. По повод юбилея ректорът на университета връчи на Студентския съвет почетния медал на висшето училище. Събитието",
+      "url": "https://www.bta.bg/bg/news/lik/1252837-s-tarzhestvena-tseremoniya-studentskiyat-savet-pri-unss-otbelyaza-35-ata-godishn",
+      "published": "2026-11-23T19:44:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -1240,20 +1259,39 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Daily News 23 / 11 / 2026",
-      "summary": "European Commission Daily news Brussels, 23 Nov 2026 Commission welcomes European Citizens' Panel recommendations on Democratic Resilience The European Citizens' Panel on Democratic Resilience concluded yesterday...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2561",
-      "published": "2026-11-23T10:24:10+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
+      "source": "Deutsche Welle",
+      "title": "Budget cuts threaten Germany's fight against antisemitism and racism",
+      "summary": "Numerous grassroots initiatives in Germany are facing funding cuts. Affected organizations are sounding the alarm, pointing to growing challenges posed by far-right extremism.",
+      "url": "https://www.dw.com/en/budget-cuts-threaten-germany-s-fight-against-antisemitism-and-racism/a-80018644?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T10:55:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
       "priority_score": 28,
       "priority_breakdown": {
-        "economic_significance": 0,
+        "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "EU budget for 2027: Council gives final green light",
+      "summary": "The Council gave its final green light to the EU’s annual budget for 2027 - the seventh and final annual budget of the current multiannual financial framework (MFF) 2021-2027.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/eu-budget-for-2027-council-gives-final-green-light/",
+      "published": "2026-11-23T10:40:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
         "source_reliability": 99
       }
     },
@@ -1293,44 +1331,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
-      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T00:33:36+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Няма нанесени щети от бурния вятър в Сливен, всички институции са в готовност за реакция при необходимост, каза областният управител",
-      "summary": "Над 100 км/ч достигат поривите на вятъра в Сливен. Обстановката към момента е спокойна, няма постъпили сигнали за нанесени щети. Всички институции са в готовност за реакция при необходимост, а системата за ранно предупреждение BG-ALERT е задействана превантивн",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252833-nyama-naneseni-shteti-ot-burniya-vyatar-v-sliven-vsichki-institutsii-sa-v-gotov",
-      "published": "2026-11-23T19:17:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     }
   ],
