@@ -40,6 +40,16 @@ def canonical_url(value):
         return f"{p.scheme.lower()}://{p.hostname.lower()}{port}{p.path.rstrip('/')}"
     except Exception: return ""
 
+def normalized_domain(value):
+    try:
+        host = str(value or "").strip().lower().split("/")[0].split(":")[0].strip(".")
+        return host[4:] if host.startswith("www.") else host
+    except Exception:
+        return ""
+
+def is_official_domain(host, approved):
+    return any(host == domain or host.endswith("." + domain) for domain in approved)
+
 def extract_page_text(page):
     match = re.search(r"<main\b[^>]*>(.*?)</main>", page, flags=re.I | re.S)
     source = match.group(1) if match else page
@@ -68,7 +78,7 @@ def load_ledger(now):
     ledger = read_json(LEDGER_PATH, {})
     if ledger.get("month") != month_key(now):
         ledger = {"month": month_key(now), "calls": 0, "spent_usd": 0.0, "reserved_usd": 0.0, "history": []}
-    for k, v in {"history": [], "calls": 0, "spent_usd": 0.0, "reserved_usd": 0.0}.items(): ledger.setdefault(k, v)
+    for k, v in {"history": [], "calls": 0, "spent_usd": 0.0, "reserved_usd": 0.0, "google_search_queries": 0}.items(): ledger.setdefault(k, v)
     return ledger
 
 def reserve_budget(config, ledger, now):
@@ -78,15 +88,18 @@ def reserve_budget(config, ledger, now):
     openai_spend = float(openai.get("spent_usd", 0.0)) if openai.get("month") == month_key(now) else 0.0
     review_spend, review_reserved = float(ledger["spent_usd"]), float(ledger["reserved_usd"])
     in_price, out_price = prices(config, now)
-    reserve = (int(config["maximum_review_input_tokens"]) * in_price + int(config["maximum_review_output_tokens"]) * out_price) / 1_000_000
+    token_reserve = (int(config["maximum_review_input_tokens"]) * in_price + int(config["maximum_review_output_tokens"]) * out_price) / 1_000_000
+    search_reserve = int(config["max_search_queries_per_call"]) * float(config["google_search_usd_per_1000_queries"]) / 1000
+    reserve = token_reserve + search_reserve
     if review_spend + review_reserved + reserve > float(config["review_monthly_budget_usd"]):
         raise RuntimeError("Проверката би превишила отделния си месечен бюджет.")
     if openai_spend + review_spend + review_reserved + reserve > float(config["monthly_total_budget_usd"]):
         raise RuntimeError("Проверката би превишила общия бюджет на двата модела.")
     return round(reserve, 8)
 
-def build_prompt(row, article_text):
+def build_prompt(row, article_text, config):
     sources = json.dumps(row.get("source_urls", []), ensure_ascii=False, indent=2)
+    official_domains = json.dumps(config.get("official_source_domains", []), ensure_ascii=False)
     return f"""РОЛЯ: Ти си независим външен проверяващ на факти за българско финансово-икономическо издание. Не си авторът. Авторът е GPT-6 Luna (OpenAI). Провери текста чрез Google Search и първични източници.
 
 ЗАДЪЛЖИТЕЛНА МЕТОДИКА:
@@ -97,8 +110,9 @@ def build_prompt(row, article_text):
 5. За всяко твърдение върни кратък цитат от статията, тип, важност, verdict, точен URL от реалните Google Search grounding резултати и кратка обосновка.
 6. Не измисляй източници или проверки. При липса на доказателство върни unverifiable.
 7. Съществено противоречие/грешна числова стойност означава FAIL. Липсващо доказателство, непълно покритие или методологична неяснота означава REVIEW. PASS само когато всички съществени твърдения са потвърдени и числовият одит е пълен.
-8. Минимум 8 съществени проверени твърдения и 4 различни grounding източника. Ако няма достатъчно — REVIEW.
-9. Върни САМО валиден JSON, без Markdown.
+8. Минимум 8 съществени проверени твърдения, 4 различни grounding източника и минимум 2 различни официални първични домейна от списъка: {official_domains}. Ако няма достатъчно — REVIEW.
+9. Ограничѝ Google Search до максимум 4 конкретни заявки; групирай темите, без да пропускаш съществените твърдения. Ако е нужна по-широка проверка, върни REVIEW и посочи ограниченията.
+10. Върни САМО валиден JSON, без Markdown.
 
 ФОРМАТ:
 {{
@@ -140,7 +154,7 @@ def main():
     entry = {"attempt": ledger["calls"], "slug": args.slug, "model": model, "timestamp_utc": now.isoformat(), "reserved_usd": reserve, "status": "reserved"}
     ledger["history"].append(entry); write_json_atomic(LEDGER_PATH, ledger)
     payload = {
-        "contents": [{"role": "user", "parts": [{"text": build_prompt(row, article_text)}]}],
+        "contents": [{"role": "user", "parts": [{"text": build_prompt(row, article_text, config)}]}],
         "tools": [{"googleSearch": {}}],
         "generationConfig": {"temperature": 0, "maxOutputTokens": int(config["maximum_review_output_tokens"])}
     }
@@ -158,16 +172,24 @@ def main():
         candidate = (response_payload.get("candidates") or [{}])[0]
         parts = (candidate.get("content") or {}).get("parts") or []
         response_text = "\n".join(str(p.get("text", "")) for p in parts if p.get("text"))
-        grounding = (candidate.get("groundingMetadata") or {}).get("groundingChunks") or []
+        grounding_metadata = candidate.get("groundingMetadata") or {}
+        grounding = grounding_metadata.get("groundingChunks") or []
+        web_search_queries = grounding_metadata.get("webSearchQueries") or []
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError, IndexError) as exc:
         ledger["reserved_usd"] = round(max(0.0, float(ledger["reserved_usd"]) - reserve), 8)
         ledger["spent_usd"] = round(float(ledger["spent_usd"]) + reserve, 8)
         entry.update({"status": "error_unknown_cost", "estimated_cost_usd": reserve, "error": type(exc).__name__})
         write_json_atomic(LEDGER_PATH, ledger)
         raise SystemExit(f"Независимата проверка не завърши. Публикацията е блокирана. Тип грешка: {type(exc).__name__}") from exc
+    search_query_count = len(web_search_queries)
+    search_cost = search_query_count * float(config["google_search_usd_per_1000_queries"]) / 1000
+    actual_cost = round(actual_cost + search_cost, 8)
     ledger["reserved_usd"] = round(max(0.0, float(ledger["reserved_usd"]) - reserve), 8)
     ledger["spent_usd"] = round(float(ledger["spent_usd"]) + actual_cost, 8)
-    entry.update({"status": "response_received", "prompt_tokens": prompt_tokens, "output_tokens": output_tokens, "actual_cost_usd": actual_cost})
+    ledger["google_search_queries"] = int(ledger.get("google_search_queries", 0)) + search_query_count
+    entry.update({"status": "response_received", "prompt_tokens": prompt_tokens, "output_tokens": output_tokens,
+                  "google_search_queries": search_query_count, "google_search_cost_usd": round(search_cost, 8),
+                  "actual_cost_usd": actual_cost})
     write_json_atomic(LEDGER_PATH, ledger)
 
     try:
@@ -177,15 +199,28 @@ def main():
     except (ValueError, json.JSONDecodeError) as exc:
         raise SystemExit("Проверяващият модел не върна валиден JSON. Публикацията е блокирана.") from exc
 
-    grounded_urls = set()
+    grounded_urls, official_domains_found = set(), set()
+    approved_domains = [normalized_domain(d) for d in config.get("official_source_domains", [])]
     for chunk in grounding:
-        uri = canonical_url(str((chunk.get("web") or {}).get("uri", "")))
+        web = chunk.get("web") or {}
+        uri = canonical_url(str(web.get("uri", "")))
+        domain = normalized_domain(web.get("domain") or (urlsplit(uri).hostname if uri else ""))
         if uri: grounded_urls.add(uri)
+        if domain and is_official_domain(domain, approved_domains):
+            official_domains_found.add(domain)
     claims = report.get("claims_checked", [])
     problems = []
-    min_claims, min_sources = int(config["minimum_verified_claims"]), int(config["minimum_grounding_sources"])
+    min_claims = int(config["minimum_verified_claims"])
+    min_sources = int(config["minimum_grounding_sources"])
+    min_official = int(config["minimum_official_grounding_domains"])
+    max_search_call = int(config["max_search_queries_per_call"])
+    max_search_month = int(config["max_search_queries_per_month"])
     if len(claims) < min_claims: problems.append(f"Твърденията са {len(claims)}; минимумът е {min_claims}.")
     if len(grounded_urls) < min_sources: problems.append(f"Google grounding източниците са {len(grounded_urls)}; минимумът е {min_sources}.")
+    if len(official_domains_found) < min_official: problems.append(f"Официалните първични домейни са {len(official_domains_found)}; минимумът е {min_official}.")
+    if search_query_count <= 0: problems.append("Google Search не е изпълнил проверимо търсене.")
+    if search_query_count > max_search_call: problems.append(f"Google Search заявките са {search_query_count}; максимумът за една проверка е {max_search_call}.")
+    if int(ledger.get("google_search_queries", 0)) > max_search_month: problems.append("Достигнат е месечният лимит за Google Search заявки.")
     if not claims: problems.append("Липсва списък с твърдения.")
     accepted = 0
     for i, claim in enumerate(claims, 1):
@@ -213,15 +248,18 @@ def main():
         "timestamp_utc":now.isoformat(), "overall_verdict":final_verdict, "model_verdict":raw_verdict,
         "summary":str(report.get("summary","")), "claims_checked":claims, "verified_claims":accepted,
         "numeric_claims_found":found, "numeric_claims_verified":verified, "grounded_sources":sorted(grounded_urls),
-        "grounded_source_count":len(grounded_urls), "methodology_issues":report.get("methodology_issues",[]),
+        "grounded_source_count":len(grounded_urls), "official_grounding_domains":sorted(official_domains_found),
+        "official_grounding_domain_count":len(official_domains_found), "google_search_queries":web_search_queries,
+        "google_search_query_count":search_query_count, "google_search_cost_usd":round(search_cost,8),
+        "methodology_issues":report.get("methodology_issues",[]),
         "limitations":report.get("limitations",[]), "blocking_reasons":problems,
         "cost_usd":actual_cost, "usage":response_payload.get("usageMetadata",{})
     }
     write_json_atomic(ROOT / args.report, output)
-    print(f"Независима проверка: {final_verdict}; твърдения: {accepted}/{len(claims)}; числа: {verified}/{found}; grounding източници: {len(grounded_urls)}; цена USD: {actual_cost:.6f}.")
+    print(f"Независима проверка: {final_verdict}; твърдения: {accepted}/{len(claims)}; числа: {verified}/{found}; grounding източници: {len(grounded_urls)}; официални домейни: {len(official_domains_found)}; Google Search заявки: {search_query_count}; обща цена USD: {actual_cost:.6f}.")
     print(f"Отчет: {args.report}")
     with open(os.environ.get("GITHUB_OUTPUT", "/dev/null"), "a", encoding="utf-8") as handle:
-        handle.write(f"verdict={final_verdict}\nverified_claims={accepted}\ngrounded_sources={len(grounded_urls)}\ncost_usd={actual_cost:.8f}\n")
+        handle.write(f"verdict={final_verdict}\nverified_claims={accepted}\ngrounded_sources={len(grounded_urls)}\nofficial_domains={len(official_domains_found)}\ngoogle_search_queries={search_query_count}\ncost_usd={actual_cost:.8f}\n")
     return 0
 
 if __name__ == "__main__":
