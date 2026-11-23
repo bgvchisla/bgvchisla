@@ -124,28 +124,39 @@ def editorial_content_fragment(page):
     return content
 
 
+def extract_div_class_blocks(fragment, class_name):
+    """Extract the complete inner HTML of divs with a class, respecting nesting."""
+    blocks = []
+    opening_tags = re.finditer(r"<div\b[^>]*>", fragment, flags=re.I | re.S)
+    div_tokens = re.compile(r"</?div\b[^>]*>", flags=re.I | re.S)
+    for opening in opening_tags:
+        class_match = re.search(r'\bclass\s*=\s*["\']([^"\']*)["\']', opening.group(0), flags=re.I)
+        if not class_match or class_name not in class_match.group(1).split():
+            continue
+        depth = 1
+        tail = fragment[opening.end():]
+        for token in div_tokens.finditer(tail):
+            if token.group(0).startswith("</"):
+                depth -= 1
+                if depth == 0:
+                    blocks.append(tail[:token.start()])
+                    break
+            else:
+                depth += 1
+    return blocks
+
+
 def extract_numeric_statements(page):
     # Numeric coverage includes summary metrics before <article>, all article
-    # paragraphs/list items/table rows, and visual chart rows.
+    # paragraphs/list items/table rows, and complete nested visual chart rows.
     content = editorial_content_fragment(page)
     blocks = []
     tag_group = "|".join(NUMERIC_BLOCK_TAGS)
     pattern = rf"<({tag_group})\b[^>]*>(.*?)</\1>"
     for match in re.finditer(pattern, content, flags=re.I | re.S):
         blocks.append(plain_text(match.group(2)))
-    for match in re.finditer(
-        r'<div\b[^>]*class=["\'][^"\']*\bmetric\b[^"\']*["\'][^>]*>(.*?)</div>',
-        content,
-        flags=re.I | re.S,
-    ):
-        blocks.append(plain_text(match.group(1)))
-    # Each chart bar-row contains two nested div elements (track and fill).
-    for match in re.finditer(
-        r'<div\b[^>]*class=["\'][^"\']*\bbar-row\b[^"\']*["\'][^>]*>(.*?)</div>\s*</div>\s*</div>',
-        content,
-        flags=re.I | re.S,
-    ):
-        blocks.append(plain_text(match.group(1)))
+    for class_name in ("metric", "bar-row"):
+        blocks.extend(plain_text(block) for block in extract_div_class_blocks(content, class_name))
 
     statements = []
     seen = set()
