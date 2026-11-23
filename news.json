@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T16:27:39.192225+00:00",
-  "last_checked_at": "2026-11-23T16:27:39.192238+00:00",
+  "updated_at": "2026-11-23T17:27:04.286165+00:00",
+  "last_checked_at": "2026-11-23T17:27:04.286179+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -88,13 +88,13 @@
       "published": "2026-11-23T13:59:17+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 43,
+      "priority_score": 42,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -118,6 +118,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
+      "published": "2026-11-23T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Нетните активи на пенсионните фондове надхвърлят 17 млрд. евро в края на септември",
@@ -134,25 +153,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Mongolia's power struggle deepens as Parliament approves president's resignation",
-      "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
-      "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
-      "published": "2026-11-22T11:00:00+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 91
       }
     },
     {
@@ -291,18 +291,18 @@
     {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
-      "title": "Бизнес активността в САЩ се разширява с най-бавния темп за последните четири месеца",
+      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
       "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439951-biznes-aktivnostta-v-sasht-se-razshiryava-s-nay-bavniya-temp-za-poslednite-chetiri-mesetsa",
-      "published": "2026-11-23T16:14:00+00:00",
+      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
+      "published": "2026-11-23T16:58:00+00:00",
       "feed_id": "investor-economy",
       "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 48,
+        "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 87
       }
@@ -367,6 +367,25 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
+      "title": "Вечерни новини: Фалитите в България ще се увеличават; Разрешение за строеж на още 1.1 км от обхода на Кресна",
+      "summary": "Плащания без карта, нови инфраструктурни проекти и повече средства за иновации са сред водещите теми на 23 ноември. БОРИКА подготвя blink eCommerce за директни плащания от банкова сметка, а мобилното банкиране все по-ясно се превръща в основен канал за ежеднев",
+      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-falitite-v-bylgarija-shte-se-uvelichavat-razreshenie-za-stroej-na-oshte-1-1-km-ot-obhoda-na-kresna",
+      "published": "2026-11-23T16:46:26+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 46,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
       "title": "България търси подкрепа от Световната банка за големи транспортни проекти",
       "summary": "Българското правителство търси възможности за сътрудничество със Световната банка при финансирането и реализацията на мащабни транспортни инфраструктурни проекти. Темата е обсъдена на среща между премиера Румен Радев и представители на международната финансова",
       "url": "https://www.economic.bg/bg/a/view/bylgarija-tyrsi-podkrepa-ot-svetovnata-banka-za-golemi-transportni-proekti",
@@ -405,18 +424,18 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Reported FBI hack 'not good' but could have benefits, Trump says",
-      "summary": "The reported breach comes amid a wave of tech outages in the US, which have impacted travel, communications and banking, as well as an internal system used by the National Security Agency.",
-      "url": "https://www.euronews.com/2026/11/22/reported-fbi-hack-not-good-but-could-have-benefits-trump-says",
-      "published": "2026-11-22T08:56:19+00:00",
+      "title": "Mongolia's power struggle deepens as Parliament approves president's resignation",
+      "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
+      "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
+      "published": "2026-11-22T11:00:00+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 40,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 54,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 91
       }
@@ -506,13 +525,13 @@
       "published": "2026-11-22T17:00:26+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 91
       }
     },
@@ -556,32 +575,13 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "COP31 climate deal in doubt after European Union rejects draft",
-      "summary": "The latest draft again failed to mention fossil fuels, which have become a flashpoint at the talks.",
-      "url": "https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks",
-      "published": "2026-11-22T07:50:54+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Социалната икономика и предприятия могат да бъдат стабилен и устойчив партньор на конвенционалния бизнес, заяви министър Наталия Ефремова",
-      "summary": "Икономиката в лицето на социалните предприятия може да бъде един много стабилен, предвидим и устойчив партньор на конвенционалния бизнес, заяви министър Наталия Ефремова при откриването на форума „Партньорства с въздействие“. Това съобщиха от пресцентъра на Ми",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252662-sotsialnata-ikonomika-i-predpriyatiya-mogat-da-badat-stabilen-i-ustoychiv-partny",
-      "published": "2026-11-23T15:24:24+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "source": "The Guardian – World",
+      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
+      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warnin",
+      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
+      "published": "2026-11-23T16:42:09+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -589,26 +589,7 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Борово прие предложение за кандидатстване по проект за изграждане на втора клетка на регионалното депо за отпадъци",
-      "summary": "Общинският съвет в Борово даде съгласие Община Бяла като водещ партньор в Регионалното сдружение за управление на отпадъците да подаде заявление за кандидатстване пред Предприятието за управление на дейностите по опазване на околната среда (ПУДООС) за отпускан",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252681-obshtinskiyat-savet-v-borovo-prie-predlozhenie-za-kandidatstvane-po-proekt-za-iz",
-      "published": "2026-11-23T15:23:48+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "source_reliability": 94
       }
     },
     {
@@ -628,6 +609,25 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Бизнес активността в САЩ се разширява с най-бавния темп за последните четири месеца",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439951-biznes-aktivnostta-v-sasht-se-razshiryava-s-nay-bavniya-temp-za-poslednite-chetiri-mesetsa",
+      "published": "2026-11-23T16:14:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -835,7 +835,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -860,8 +860,27 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "EU sanctions package intended to ‘keep pressure’ on Russia and ‘strike harder’ at its ability to fund Ukraine war – as it happened",
+      "summary": "European Commission president Ursula von der Leyen sets out 22nd package of sanctions Turning to Ukraine, Nato’s Rutte stresses the need to secure the flow of “crucial supplies” or air defence weapons and ammunition to Ukraine. “ It helps Ukraine to defend its",
+      "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
+      "published": "2026-11-23T16:42:56+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
       "source": "POLITICO Europe",
-      "title": "EU to target Russian ex-soldiers, banks and sports in new sanctions push",
+      "title": "EU targets Russian ex-soldiers, banks and sports in new sanctions push",
       "summary": "Brussels wants to restrict visas for former Russian soldiers, target banks and crypto platforms and bar Russian athletes from competing in the EU.",
       "url": "https://www.politico.eu/article/eu-to-target-russian-ex-soldiers-banks-and-sports-in-new-sanctions-push/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-23T16:15:10+00:00",
@@ -879,21 +898,21 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "EU sanctions package intended to ‘keep pressure’ on Russia and ‘strike harder’ at its ability to fund Ukraine war – Europe live",
-      "summary": "European Commission president Ursula von der Leyen sets out 22nd package of sanctions Turning to Ukraine, Nato’s Rutte stresses the need to secure the flow of “crucial supplies” or air defence weapons and ammunition to Ukraine. “ It helps Ukraine to defend its",
-      "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
-      "published": "2026-11-23T15:46:40+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 31,
+      "source": "POLITICO Europe",
+      "title": "Lib Dem leader claims he could negotiate EU single market access ‘within a year’",
+      "summary": "Leader Ed Davey says deals struck on agrifood, energy and youth mobility at landmark summit are quite \"timid.\"",
+      "url": "https://www.politico.eu/article/lib-dem-leader-ed-davey-claims-he-could-negotiate-eu-single-market-access-within-a-year/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T16:35:36+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
       "priority_breakdown": {
-        "economic_significance": 0,
+        "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 54,
+        "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 92
       }
     },
     {
@@ -913,44 +932,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Macron moves to ‘trap’ successors with new budget rule",
-      "summary": "The French president's opponents and allies aren't buying his rationale for new deficit spending legislation.",
-      "url": "https://www.politico.eu/article/emmanuel-macron-trap-successors-budget-rule-france/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T13:53:21+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Flights cancelled in Belgium due to cost-of-living strike",
-      "summary": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
-      "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T13:34:02+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
       }
     },
     {
@@ -1011,22 +992,41 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Борис Илиев е на първо място в „БНР топ 20“ с песента „Смей се“",
-      "summary": "Борис Илиев и песента му „Смей се“ остават на първото място в Националната седмична класация за българска поп и рок музика „БНР топ 20“. Двете нови предложения в чарта са „Ръка за ръка“ на Графа и „Мълчиш“ на Деница. От музикалната надпревара отпадат „Любовта“",
-      "url": "https://www.bta.bg/bg/news/lik/1252596-boris-iliev-e-na-parvo-myasto-v-bnr-top-20-s-pesenta-smey-se-",
-      "published": "2026-11-23T15:27:59+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Macron moves to ‘trap’ successors with new budget rule",
+      "summary": "The French president's opponents and allies aren't buying his rationale for new deficit spending legislation.",
+      "url": "https://www.politico.eu/article/emmanuel-macron-trap-successors-budget-rule-france/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T13:53:21+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Flights cancelled in Belgium due to cost-of-living strike",
+      "summary": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
+      "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T13:34:02+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 95
       }
     },
     {
@@ -1145,25 +1145,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Russian helicopter suspected of violating Finnish airspace",
-      "summary": "Finland's Defense Ministry thinks the incursion is linked to a drone strike earlier Saturday on a Russian cargo ship, which is on a US sanctions list.",
-      "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T17:08:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
       "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
@@ -1221,13 +1202,13 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Domestic violence perpetrators are misusing smart car features to abuse, researchers warn",
-      "summary": "Exclusive: Alarming report reveals how tracking and monitoring functions and digital key access have been used to facilitate abuse Get our breaking news email , free app or daily news podcast Earlier this year a man in Australia was found guilty of using a con",
-      "url": "https://www.theguardian.com/society/2026/nov/23/smart-car-tracking-control-features-domestic-violence-warning-ntwnfb",
-      "published": "2026-11-23T13:57:45+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "source": "BBC News – Свят",
+      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+      "summary": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
+      "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T17:07:25+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
@@ -1235,7 +1216,64 @@
         "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Водоподаването в град Кнежа е прекъснато аварийно, паднало дърво е нанесло щети върху инженерната инфраструктура",
+      "summary": "Водоподаването в град Кнежа е прекъснато аварийно заради паднало дърво, което е нанесло сериозни щети върху инженерната инфраструктура в района на ул. „Опълченска“. Това съобщиха от „Водоснабдяване и канализация“ (ВиК) ЕООД – Плевен. При падането си дървото е",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252758-vodopodavaneto-v-grad-knezha-e-prekasnato-avariyno-padnalo-darvo-e-naneslo-shte",
+      "published": "2026-11-23T16:29:08+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Сигурността в Черно море обсъдиха президентът Илияна Йотова и постоянният представител на САЩ в НАТО Матю Уитакър",
+      "summary": "Сигурността в Черно море обсъдиха на среща президентът Илияна Йотова с постоянния представител на САЩ в НАТО Матю Уитакър. Той е на посещение у нас по покана на министъра на отбраната Димитър Стоянов, който също участва в разговора на „Дондуков“ 2, съобщиха от",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252733-sigurnostta-v-cherno-more-obsadiha-prezidentat-iliyana-yotova-i-postoyanniyat-pr",
+      "published": "2026-11-23T16:27:34+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Ukraine releases footage of strikes on two Russian vessels off Libya",
+      "summary": "Ukraine has released footage showing what it says are strikes against two Russian vessels off the Libyan port of Benghazi.",
+      "url": "https://www.euronews.com/2026/11/23/ukraine-releases-footage-of-strikes-on-two-russian-vessels-off-libya",
+      "published": "2026-11-23T15:56:16+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
       }
     },
     {
@@ -1253,7 +1291,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 99
       }
     },
@@ -1294,50 +1332,17 @@
         "timeliness": 92,
         "source_reliability": 99
       }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Daily News 23 / 11 / 2026",
-      "summary": "European Commission Daily news Brussels, 23 Nov 2026 Commission welcomes European Citizens' Panel recommendations on Democratic Resilience The European Citizens' Panel on Democratic Resilience concluded yesterday...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2561",
-      "published": "2026-11-23T10:24:10+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Speech by Commissioner Lahbib at HERA Industry Days",
-      "summary": "European Commission Speech Brussels, 23 Nov 2026 This surgical mask only costs a few cents, but in April 2020 it was worth its weight in gold. Planes full of masks that European regions had already paid for we...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2559",
-      "published": "2026-11-23T09:20:27+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
     }
   ],
   "feed_status": {
-    "ok": 21,
+    "ok": 20,
     "total": 21,
-    "failures": []
+    "failures": [
+      {
+        "feed": "parliament-news",
+        "error": "<urlopen error timed out>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
