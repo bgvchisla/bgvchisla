@@ -122,7 +122,14 @@ def extract_numeric_statements(page):
     for match in re.finditer(pattern, content, flags=re.I | re.S):
         blocks.append(plain_text(match.group(2)))
     for match in re.finditer(
-        r'<div\b[^>]*class=["\'][^"\']*\b(?:metric|bar-row)\b[^"\']*["\'][^>]*>(.*?)</div>',
+        r'<div\b[^>]*class=["\'][^"\']*\bmetric\b[^"\']*["\'][^>]*>(.*?)</div>',
+        content,
+        flags=re.I | re.S,
+    ):
+        blocks.append(plain_text(match.group(1)))
+    # Each chart bar-row contains two nested div elements (track and fill).
+    for match in re.finditer(
+        r'<div\b[^>]*class=["\'][^"\']*\bbar-row\b[^"\']*["\'][^>]*>(.*?)</div>\s*</div>\s*</div>',
         content,
         flags=re.I | re.S,
     ):
