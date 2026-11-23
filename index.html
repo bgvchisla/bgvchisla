@@ -1767,6 +1767,13 @@ fetch("official_nssi.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw n
 
 
 /* Новинарски поток: съдържанието идва от проверявания news.json */
+var NEWS_LEAD_MAX_AGE_HOURS=18;
+function isFreshLeadNews(item,now){
+  var published=item&&item.published?Date.parse(item.published):NaN;
+  if(!Number.isFinite(published))return false;
+  var ageHours=((now===undefined?Date.now():now)-published)/3600000;
+  return ageHours>=-FUTURE_DATE_TOLERANCE_HOURS&&ageHours<=NEWS_LEAD_MAX_AGE_HOURS;
+}
 function sortNewsByEditorialPriority(items){
   function compare(a,b){
     var pa=Number(a.priority_score);
@@ -1783,6 +1790,8 @@ function sortNewsByEditorialPriority(items){
     return tb-ta;
   }
   var ranked=items.slice().sort(compare);
+  var freshLead=ranked.find(function(item){return isFreshLeadNews(item,Date.now())});
+  if(freshLead)ranked=[freshLead].concat(ranked.filter(function(item){return item!==freshLead}));
   var top=[],deferred=[],publisherCounts=Object.create(null);
   ranked.forEach(function(item){
     var publisher=String(item.publisher||item.source||"unknown").trim().toLowerCase();
@@ -1802,13 +1811,13 @@ function renderNews(target,items){
   var editorialTopCount=items.editorialTopCount;
   var root=$(target);if(!root)return;root.textContent="";
   if(!items.length){var empty=document.createElement("p");empty.className="news-empty";empty.textContent="Все още няма публикувани заглавия. Потокът се обновява автоматично.";root.appendChild(empty);return}
-  var leadItem = items.reduce(function(best,item){
-    var score = Number(item.priority_score);
-    if(!Number.isFinite(score))return best;
-    if(!best || score>best.score)return {item:item,score:score};
-    return best;
-  },null);
-  if(leadItem && leadItem.score<=0)leadItem=null;
+  var leadItem=items.length&&isFreshLeadNews(items[0],Date.now())?items[0]:null;
+  if(!leadItem){
+    var freshnessNote=document.createElement("p");
+    freshnessNote.className="news-stale-note";
+    freshnessNote.textContent="Няма публикация за водеща новина през последните 18 часа. Показваме последните проверени материали по значимост.";
+    root.appendChild(freshnessNote);
+  }
   items.forEach(function(item,index){
     if(index===editorialTopCount&&index<items.length){
       var more=document.createElement("div");
@@ -1822,6 +1831,7 @@ function renderNews(target,items){
     var article=document.createElement("article");
     article.className = leadItem && item===leadItem.item ? "news-item news-lead" : "news-item";
     article.dataset.publisher=String(item.publisher||item.source||"unknown").trim().toLowerCase();
+    article.dataset.published=item.published||"";
     var link=document.createElement("a");link.href=item.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=item.title;article.appendChild(link);
     var meta=document.createElement("div");meta.className="news-meta";
     var date=item.published?new Date(item.published):null;
