@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T10:27:59.072610+00:00",
-  "last_checked_at": "2026-11-23T10:27:59.072628+00:00",
+  "updated_at": "2026-11-23T10:57:31.722947+00:00",
+  "last_checked_at": "2026-11-23T10:57:31.722964+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -75,7 +75,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -215,10 +215,48 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Служители от Агенцията за социално подпомагане в Бургас излязоха на едночасова ефективна стачка с искане за увеличение на заплатите",
-      "summary": "Служители от Агенцията за социално подпомагане в Бургас участваха в едночасова ефективна стачка с искане за увеличение на заплатите. Протестът се проведе пред Центъра за административно обслужване \"Приморие\" под надслов \"Справедливост и равни права\". Председат",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252311-sluzhiteli-ot-agentsiyata-za-sotsialno-podpomagane-v-burgas-izlyazoha-na-ednocha",
-      "published": "2026-11-23T10:11:11+00:00",
+      "title": "Приемната грижа изисква съпричастност, лична ангажираност и готовност да отворим дома и сърцето си, каза областният управител на Враца",
+      "summary": "Не е необходимо да си герой, за да промениш нечий живот, каза областният управител на Враца Росен Михайлов на конференция по проект „Приеми ме“, свързан с популяризирането на приемната грижа в България, която се провежда в Националния пресклуб на БТА във Враца",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252318-priemnata-grizha-iziskva-saprichastnost-lichna-angazhiranost-i-gotovnost-da-otv",
+      "published": "2026-11-23T10:50:42+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
+      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
+      "published": "2026-11-22T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 54,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "През третото тримесечие на 2026 г. общият брой на заетите лица в област Шумен е 64 600, от които 32 500 мъже и 32 100 - жени",
+      "summary": "Общият брой на заетите лица в област Шумен е 64 600 през третото тримесечие на 2026 г., от които 32 500 са мъже и 32 100 - жени, съобщиха от отдел \"Статистически изследвания - Шумен\" към Териториално статистическо бюро - Североизток. Коефициентът на заетост за",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252346-prez-tretoto-trimesechie-na-2026-g-obshtiyat-broy-na-zaetite-litsa-v-oblast-shu",
+      "published": "2026-11-23T10:37:41+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 35,
@@ -229,43 +267,12 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
-      },
-      "related_items": [
-        {
-          "source": "БТА",
-          "publisher": "БТА",
-          "title": "Служители на Агенция \"Социално подпомагане\" в Пловдив излязоха на мирен протест с искания за увеличение на заплатите",
-          "url": "https://www.bta.bg/bg/news/bulgaria/1252243-sluzhiteli-na-agentsiya-sotsialno-podpomagane-v-plovdiv-izlyazoha-na-miren-pro",
-          "published": "2026-11-23T10:05:24+00:00"
-        },
-        {
-          "source": "БТА",
-          "publisher": "БТА",
-          "title": "Служители на Дирекция „Социално подпомагане“ в Добрич настояват за достойно възнаграждение на труда",
-          "url": "https://www.bta.bg/bg/news/bulgaria/1252264-sluzhiteli-na-direktsiya-sotsialno-podpomagane-v-dobrich-nastoyavat-za-dostoyn",
-          "published": "2026-11-23T09:56:04+00:00"
-        },
-        {
-          "source": "БТА",
-          "publisher": "БТА",
-          "title": "Служители на Дирекция „Социално подпомагане“ в Плевен излязоха на протест за по-високо заплащане и достойна оценка на труда им",
-          "url": "https://www.bta.bg/bg/news/bulgaria/1252256-sluzhiteli-na-direktsiya-sotsialno-podpomagane-v-pleven-izlyazoha-na-protest-z",
-          "published": "2026-11-23T09:54:12+00:00"
-        },
-        {
-          "source": "БТА",
-          "publisher": "БТА",
-          "title": "Служители в регионалните структури на Агенцията за социално подпомагане в Шумен участваха в едночасова ефективна стачка",
-          "url": "https://www.bta.bg/bg/news/bulgaria/1252280-sluzhiteli-v-regionalnite-strukturi-na-agentsiyata-za-sotsialno-podpomagane-v-sh",
-          "published": "2026-11-23T09:50:01+00:00"
-        }
-      ],
-      "related_count": 4
+      }
     },
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
       "summary": "Libya's eastern government says a sunken warship had stopped for fuel and supplies on its way back to Russia.",
       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-23T08:36:57+00:00",
@@ -279,25 +286,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
-      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
-      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
-      "published": "2026-11-21T16:26:21+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
       }
     },
     {
@@ -317,25 +305,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Председателят на Народното събрание Михаела Доцова откри изложбата \"35 години Конституция на Република България\" в Русе",
-      "summary": "Председателят на Народното събрание Михаела Доцова откри фотодокументалната изложба \"35 години Конституция на Република България\" в Регионалната библиотека \"Любен Каравелов\" в Русе. Експозицията е подготвена от Народното събрание, а инициативата е на Михаела Д",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252305-predsedatelyat-na-narodnoto-sabranie-mihaela-dotsova-otkri-izlozhbata-35-godini",
-      "published": "2026-11-23T10:21:25+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -643,6 +612,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Служители от Агенцията за социално подпомагане в Бургас излязоха на едночасова ефективна стачка с искане за увеличение на заплатите",
+      "summary": "Служители от Агенцията за социално подпомагане в Бургас участваха в едночасова ефективна стачка с искане за увеличение на заплатите. Протестът се проведе пред Центъра за административно обслужване \"Приморие\" под надслов \"Справедливост и равни права\". Председат",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252311-sluzhiteli-ot-agentsiyata-za-sotsialno-podpomagane-v-burgas-izlyazoha-na-ednocha",
+      "published": "2026-11-23T10:11:11+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Жилищната криза в Европа: Какви решения търсят осем държави?",
+      "summary": "Цените на жилищата в Европейския съюз са скочили с почти 70% от 2015 г. насам, а наемите са се повишили с 25%, значително изпреварвайки ръста на доходите, показват данни на статистическата служба Евростат. Най-силно са нараснали разходите в Португалия, следван",
+      "url": "https://www.economic.bg/bg/a/view/jilishtnata-kriza-v-evropa-kakvi-reshenija-tyrsjat-osem-dyrjavi",
+      "published": "2026-11-21T16:26:21+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 85
+      }
+    },
+    {
       "section": "europe",
       "source": "Economic.bg",
       "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
@@ -852,6 +859,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Филмът „Остайница“ по едноименния роман на Рене Карабаш излиза по кината в България от 27 ноември",
+      "summary": "Филмът „Остайница“ по едноименния роман на Рене Карабаш излиза по кината в България от 27 ноември. Копродукцията на България, Италия и Албания е режисирана от Костадин Бонев, а сценарият е написан от Рене Карабаш и Костадин Бонев. На 16 октомври лентата бе пре",
+      "url": "https://www.bta.bg/bg/news/lik/1252359-filmat-ostaynitsa-po-ednoimenniya-roman-na-rene-karabash-izliza-po-kinata-v-ba",
+      "published": "2026-11-23T10:49:44+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Председателят на Народното събрание Михаела Доцова откри изложбата \"35 години Конституция на Република България\" в Русе",
+      "summary": "Председателят на Народното събрание Михаела Доцова откри фотодокументалната изложба \"35 години Конституция на Република България\" в Регионалната библиотека \"Любен Каравелов\" в Русе. Експозицията е подготвена от Народното събрание, а инициативата е на Михаела Д",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252305-predsedatelyat-na-narodnoto-sabranie-mihaela-dotsova-otkri-izlozhbata-35-godini",
+      "published": "2026-11-23T10:21:25+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "Using carbon footprint evidence to support better healthcare decisions",
@@ -977,6 +1022,44 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "'On the verge of collapse': Germany's budget cuts threaten anti-racism and democracy work",
+      "summary": "Numerous grassroots initiatives in Germany are facing funding cuts. Affected organizations are sounding the alarm, pointing to growing challenges posed by far-right extremism.",
+      "url": "https://www.dw.com/en/on-the-verge-of-collapse-germany-s-budget-cuts-threaten-anti-racism-and-democracy-work/a-80018644?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T10:55:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "EU budget for 2027: Council gives final green light",
+      "summary": "The Council gave its final green light to the EU’s annual budget for 2027 - the seventh and final annual budget of the current multiannual financial framework (MFF) 2021-2027.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/eu-budget-for-2027-council-gives-final-green-light/",
+      "published": "2026-11-23T10:40:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
       "source": "POLITICO Europe",
       "title": "Badenoch and Farage: The battle for business",
       "summary": "Presented by TikTok",
@@ -1054,10 +1137,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Прогноза за времето",
-      "summary": "През нощта валежите ще отслабват и спират, а от северозапад и облачността ще се разкъсва и ще намалява, съобщиха от Националния институт по хидрология и метеорология. Значителна ще се задържи облачността през по-голямата част от нощта над югоизточната половина",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252322-prognoza-za-vremeto",
-      "published": "2026-11-23T10:18:53+00:00",
+      "title": "Слабо земетресение е регистрирано в района на Смолян, трусът е част от поредица с роев тип сеизмичност",
+      "summary": "Слабо земетресение с магнитуд 2,1 с епицентър североизточно от Смолян е регистрирано днес в 4:02 минути, според данни на Националния институт по геофизика, геодезия и география при БАН. Днешният по-слаб трус е част от поредица, която може да се характеризира с",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252354-slabo-zemetresenie-e-registrirano-v-rayona-na-smolyan-trusat-e-chast-ot-poredit",
+      "published": "2026-11-23T10:44:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1073,10 +1156,48 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Националният литературен музей ще връчи за първи път наградата за литературна история и памет „Славослов“",
-      "summary": "Националният литературен музей (НЛМ) ще връчи за първи път Националната награда за литературна история и памет „Славослов“ на 26 ноември от 16:30 ч. в къщата музей „Иван Вазов“ в София. Отличието се учредява в годината на 50-годишнината от създаването на музея",
-      "url": "https://www.bta.bg/bg/news/lik/1252297-natsionalniyat-literaturen-muzey-shte-vrachi-za-parvi-pat-nagradata-za-literatur",
-      "published": "2026-11-23T10:05:09+00:00",
+      "title": "Тленните останки на цар Самуил може да бъдат изпратени за ДНК анализ в Германия до края на годината",
+      "summary": "Тленните останки на цар Самуил и на негови предполагаеми родственици може да бъдат изпратени за генетични изследвания в Института „Макс Планк“ в Германия до края на годината. Това съобщи за БТА проф. д-р Людмил Вагалински от Националния археологически институт",
+      "url": "https://www.bta.bg/bg/news/lik/1252326-tlennite-ostanki-na-tsar-samuil-mozhe-da-badat-izprateni-za-dnk-analiz-v-germani",
+      "published": "2026-11-23T10:39:51+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "ЦИК ще връчи удостоверенията на избраните за президент и вицепрезидент утре",
+      "summary": "Централната избирателна комисия (ЦИК) ще връчи удостоверенията на избраните за президент Илияна Йотова и вицепрезидент Кирил Вълчев на официална церемония, която ще се проведе утре от 14:00 часа в сградата на Народното събрание. Това съобщиха от пресцентъра на",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252344-tsik-shte-vrachi-udostovereniyata-na-izbranite-za-prezident-i-vitseprezident-utr",
+      "published": "2026-11-23T10:36:53+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Прогноза за времето",
+      "summary": "През нощта валежите ще отслабват и спират, а от северозапад и облачността ще се разкъсва и ще намалява, съобщиха от Националния институт по хидрология и метеорология. Значителна ще се задържи облачността през по-голямата част от нощта над югоизточната половина",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252322-prognoza-za-vremeto",
+      "published": "2026-11-23T10:18:53+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1205,25 +1326,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Factsheet EU-Indonesia - Main benefits",
-      "summary": "European Commission Factsheet Brussels, 23 Sep 2025 Factsheet EU-Indonesia - Main benefits Factsheet EU-Indonesia - Main benefits",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2169",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
       "summary": "The Council has adopted two decisions mobilising €1 billion of European Peace Facility funds in support of the Armed Forces of Ukraine through the joint procurement of both lethal and non-lethal equipment.",
@@ -1238,139 +1340,6 @@
         "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 50,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Мерки за по-добра поддръжка на електропреносната мрежа в горските територии на Кюстендилско са обсъдени на среща при областният управител",
-      "summary": "Работна среща за подобряване на координацията при поддръжката на електропреносната мрежа в горските територии се състоя в Областната администрация в Кюстендил по инициатива на областния управител Атанас Гергинов, съобщиха от администрацията. В срещата са участ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252314-merki-za-po-dobra-poddrazhka-na-elektroprenosnata-mrezha-v-gorskite-teritorii-na",
-      "published": "2026-11-23T10:09:06+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Растежът в еврозоната е стабилен, но ситуацията във Франция помрачава перспективите",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439918-rastezhat-v-evrozonata-e-stabilen-no-situatsiyata-vav-frantsiya-pomrachava-perspektivite",
-      "published": "2026-11-23T10:01:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Агенцията за социално подпомагане свика Координационния механизъм за насилие над деца по случая с пострадалото от блудствени действия момиче",
-      "summary": "Агенцията за социално подпомагане (АСП) свика Координационния механизъм за насилие над деца по случая с пострадалото от блудствени действия момиче, съобщиха от ведомството. В заседанието са участвали представители на дирекция \"Социално подпомагане\" – Сердика,",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252266-agentsiyata-za-sotsialno-podpomagane-svika-koordinatsionniya-mehanizam-za-nasili",
-      "published": "2026-11-23T09:58:49+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Speech by Commissioner Lahbib at HERA Industry Days",
-      "summary": "European Commission Speech Brussels, 23 Nov 2026 This surgical mask only costs a few cents, but in April 2020 it was worth its weight in gold. Planes full of masks that European regions had already paid for we...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2559",
-      "published": "2026-11-23T09:20:27+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Indonesia: Rescuers recover 24 body bags from burnt-out factory",
-      "summary": "A devastating fire has gutted a confectionery factory near Jakarta, with authorities recovering 24 body bags from the wreckage. Rescue workers continue searching for missing employees as investigators examine the cause.",
-      "url": "https://www.euronews.com/video/2026/11/23/indonesia-rescuers-recover-24-body-bags-from-burnt-out-factory",
-      "published": "2026-11-23T09:09:53+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "NATO Parliamentary Assembly convenes amid Russian airspace violations",
-      "summary": "Ukrainian President Zelenskyy and German Foreign Minister Wadephul are set to address the NATO Parliamentary Assembly in Berlin while NATO representatives discuss Russian airspace violations in Brussels. DW has more.",
-      "url": "https://www.dw.com/en/nato-parliamentary-assembly-convenes-amid-russian-airspace-violations/live-80016415?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T09:01:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Keynote speech by Commissioner Albuquerque at the launch of the 6th European Retirement Week at the European Fund and Asset Management Association",
-      "summary": "European Commission Speech Brussels, 23 Nov 2026 Good morning, ladies and gentlemen. My thanks to Tanguy for the invitation to take part in today's event, and I would like to commend all fourteen associations ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2558",
-      "published": "2026-11-23T08:50:45+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
         "source_reliability": 99
       }
     }
