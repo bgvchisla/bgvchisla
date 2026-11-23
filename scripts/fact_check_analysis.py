@@ -45,6 +45,8 @@ def extract_page_text(page):
     source = match.group(1) if match else page
     source = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", source, flags=re.I | re.S)
     source = re.sub(r"<(nav|footer)\b[^>]*>.*?</\1>", " ", source, flags=re.I | re.S)
+    source = re.sub(r"<ol\b[^>]*class=["']source-list["'][^>]*>.*?</ol>", " ", source, flags=re.I | re.S)
+    source = re.sub(r"<sup\b[^>]*>.*?</sup>", " ", source, flags=re.I | re.S)
     source = re.sub(r"<[^>]+>", " ", source)
     return re.sub(r"\s+", " ", html.unescape(source)).strip()
 
