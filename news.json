@@ -1,8 +1,68 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:06:47.797247+00:00",
-  "last_checked_at": "2026-11-23T00:06:47.797253+00:00",
+  "updated_at": "2026-11-23T01:18:14.719865+00:00",
+  "last_checked_at": "2026-11-23T01:18:14.719868+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: Hanson calls Coalition and Labor a ‘uni’ party; Minns ends presser after heckling from Greens candidate",
+      "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
+      "published": "2026-11-23T01:06:51+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Beau Lamarre-Condon ‘executed’ Jesse Baird and Luke Davies then lied about it, prosecution argues",
+      "summary": "Crown urges jury to reject accused’s claim of self-defence and find him guilty of murdering Sydney couple Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon is a “proven a",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/beau-lamarre-condon-trail-executed-jesse-baird-prosecution-argues-ntwnfb",
+      "published": "2026-11-23T00:54:02+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
+      "summary": "Hopes for an agreement on tackling climate change collapsed after a row about mentioning fossil fuels",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T00:50:35+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Tributes flow for Molly Meldrum: Anthony Albanese, Jason Donovan and others remember music industry great",
+      "summary": "Peter Andre, Richard Wilkins and Kate Ceberano share memories of ‘a truly unique character’ and ‘the fan all artists wish to have’ Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83 Molly Meldrum – a life in pictures Ian ‘Molly’ Meldr",
+      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes",
+      "published": "2026-11-23T00:48:37+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
+      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T00:33:36+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
+      "summary": "Much-loved broadcaster played a critical role in exposing rest of the world to Australian music – and vice versa Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly",
+      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
+      "published": "2026-11-23T00:25:40+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
     {
       "section": "europe",
       "source": "POLITICO Europe",
@@ -11,26 +71,6 @@
       "url": "https://www.politico.eu/article/lucy-powell-promotes-uk-education-in-china-despite-risks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-23T00:01:00+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
-      "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-22T23:51:38+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and more remember music industry great",
-      "summary": "Friends and fans share memories of a man Donovan described as ‘a truly unique character’ and ‘a great Australian’ Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83 Ian ‘Molly’ Meldrum – obituary Friends and fans of Molly Meldrum have",
-      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes",
-      "published": "2026-11-22T23:17:16+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
@@ -51,16 +91,6 @@
       "url": "https://www.euronews.com/video/2026/11/22/morocco-a-surreal-sculpture-park-turns-the-world-upside-down",
       "published": "2026-11-22T22:33:48+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
-      "summary": "Much-loved broadcaster played a critical role in exposing rest of the world to Australian music – and vice versa Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly",
-      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
-      "published": "2026-11-22T22:24:56+00:00",
-      "feed_id": "guardian-world",
       "priority_score": 0
     },
     {
@@ -165,16 +195,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
-      "summary": "Transparency International says Queensland’s David Crisafulli was ‘by far the most frequently accessed’ state leader, with 13 meetings Get our breaking news email , free app or daily news podcast Bosses at 10 datacentre companies secured almost 120 meetings wi",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
-      "published": "2026-11-22T19:00:34+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "What's next after no deal at COP31 climate talks?",
       "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
@@ -231,16 +251,6 @@
       "url": "https://www.bta.bg/bg/news/bulgaria/1252076-obshto-39-dvoyki-podnoviha-brachnite-si-kletvi-i-otpraznuvaha-zlatna-svatba-v-sa",
       "published": "2026-11-22T18:28:21+00:00",
       "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-      "summary": "The talks fail to make a breakthrough on tackling climate change after a row about mentioning fossil fuels.",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T18:17:59+00:00",
-      "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
@@ -354,16 +364,6 @@
       "priority_score": 0
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Поклонението пред Ловчанския митрополит Гавриил ще бъде в понеделник следобед в катедралния храм в Ловеч",
-      "summary": "Поклонението пред Ловчанския митрополит Гавриил, който почина рано тази сутрин след кратко боледуване, ще бъде в понеделник, 23 ноември, от 16:00 до 20:00 ч., в катедралния храм „Св. св. Кирил и Методий“ в Ловеч. Това съобщават от Ловчанската епархия в официал",
-      "url": "https://www.bta.bg/bg/news/lik/1252047-poklonenieto-pred-lovchanskiya-mitropolit-gavriil-shte-bade-v-ponedelnik-sledobe",
-      "published": "2026-11-22T16:23:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "Global left rallies in Paris to make ‘not so radical’ case for taxing billionaires",
@@ -381,7 +381,7 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439899-cheshkata-ikonomika-e-izpravena-pred-stagflatsionen-shok-predupredi-tsentralen-banker",
       "published": "2026-11-22T15:32:51+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 41
+      "priority_score": 40
     },
     {
       "section": "europe",
@@ -705,18 +705,9 @@
     }
   ],
   "feed_status": {
-    "ok": 19,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "investor-bg",
-        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-      },
-      {
-        "feed": "investor-economy",
-        "error": "<urlopen error [Errno -2] Name or service not known>"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
