@@ -60,21 +60,40 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
           MANUAL_LANE: ${{ inputs.lane }}
           MANUAL_MODE: ${{ inputs.mode }}
+          PUBLISH_ENABLED: ${{ vars.ANALYSES_PUBLISH_ENABLED }}
+          OPENAI_KEY_PRESENT: ${{ secrets.OPENAI_API_KEY != '' }}
+          GEMINI_KEY_PRESENT: ${{ secrets.GEMINI_API_KEY != '' }}
         run: |
           set -euo pipefail
+          REASON=""
           if [ "$EVENT_NAME" = "schedule" ]; then
             case "$SCHEDULE" in
               "0 7 * * 2") LANE="bulgaria" ;;
               "0 7 * * 5") LANE="world" ;;
               *) echo "::error::Unknown schedule: $SCHEDULE"; exit 1 ;;
             esac
-            MODE="publish"
+            if [ "$PUBLISH_ENABLED" = "true" ] && [ "$OPENAI_KEY_PRESENT" = "true" ] && [ "$GEMINI_KEY_PRESENT" = "true" ]; then
+              MODE="publish"
+            else
+              MODE="preflight"
+              REASON="Платеното публикуване е изключено или липсва някой от двата API ключа."
+            fi
           else
             LANE="${MANUAL_LANE:-bulgaria}"
-            MODE="${MANUAL_MODE:-preflight}"
+            REQUESTED_MODE="${MANUAL_MODE:-preflight}"
+            if [ "$REQUESTED_MODE" = "publish" ]; then
+              if [ "$PUBLISH_ENABLED" != "true" ] || [ "$OPENAI_KEY_PRESENT" != "true" ] || [ "$GEMINI_KEY_PRESENT" != "true" ]; then
+                echo "::error::За платен режим са необходими ANALYSES_PUBLISH_ENABLED=true и двата ключа OPENAI_API_KEY и GEMINI_API_KEY."
+                exit 1
+              fi
+              MODE="publish"
+            else
+              MODE="preflight"
+            fi
           fi
           echo "lane=$LANE" >> "$GITHUB_OUTPUT"
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
 
       - name: Capture article registry before generation
         if: steps.plan.outputs.mode == 'publish'
@@ -83,15 +102,18 @@ jobs:
       - name: Free evidence and budget preflight
         run: python scripts/generate_analysis.py --lane "${{ steps.plan.outputs.lane }}" --dry-run
 
-      - name: Require API key for scheduled publication
+      - name: Require both API keys and explicit publishing gate
         if: steps.plan.outputs.mode == 'publish'
         env:
-          API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PUBLISH_ENABLED: ${{ vars.ANALYSES_PUBLISH_ENABLED }}
         run: |
-          if [ -z "$API_KEY" ]; then
-            echo "::error::Липсва Repository Secret OPENAI_API_KEY. Няма да се генерира или публикува материал."
-            exit 1
-          fi
+          set -euo pipefail
+          test -n "$OPENAI_API_KEY"
+          test -n "$GEMINI_API_KEY"
+          test "$PUBLISH_ENABLED" = "true"
+          echo "Изричният издателски флаг и двата независими API ключа са налични."
 
       - name: Generate the analysis with GPT-6 Luna
         id: generation
@@ -102,6 +124,12 @@ jobs:
         run: |
           set -euo pipefail
           python scripts/generate_analysis.py --lane "$LANE"
+
+      - name: Apply the visible AI transparency disclosure
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          LANE: ${{ steps.plan.outputs.lane }}
+        run: python scripts/apply_ai_disclosure.py --lane "$LANE" --before /tmp/articles-before.json
 
       - name: Validate the new article, its sources and its design
         id: article
@@ -137,6 +165,7 @@ jobs:
               f'<link rel="canonical" href="https://bgvchisla.com/analizi/{slug}/">',
               'property="og:title"', 'property="og:description"', "<h1>", "<article>",
               "--navy:#24384f", "--blue:#315f91", "--risk:#b64b45", "@media(max-width:640px)",
+              'class="ai-disclosure"', "data-ai-generated=\"true\"",
           ):
               if token not in page:
                   raise SystemExit(f"Липсва задължителен HTML/SEO/design елемент: {token}")
@@ -145,7 +174,7 @@ jobs:
               raise SystemExit("Липсва основното тяло на анализа.")
           body = html.unescape(re.sub(r"<[^>]+>", " ", match.group(1)))
           words = re.findall(r"[^\W_]+(?:[’'-][^\W_]+)*", body, flags=re.UNICODE)
-          if not 900 <= len(words) <= 1800:
+          if not 900 <= len(words) <= 1400:
               raise SystemExit(f"Дължината е извън стандарта: {len(words)} думи.")
           refs = set(re.findall(r'href="#source-(\d+)"', page))
           notes = set(re.findall(r'<li id="source-(\d+)"', page))
@@ -171,6 +200,16 @@ jobs:
           python -m json.tool analizi/articles.json >/dev/null
           python -m json.tool analysis/monthly_usage.json >/dev/null
 
+      - name: Run independent Gemini fact-check with Google Search
+        id: factcheck
+        if: steps.plan.outputs.mode == 'publish'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANALYSES_PUBLISH_ENABLED: ${{ vars.ANALYSES_PUBLISH_ENABLED }}
+          LANE: ${{ steps.plan.outputs.lane }}
+          SLUG: ${{ steps.article.outputs.slug }}
+        run: python scripts/fact_check_analysis.py --slug "$SLUG" --report analysis/factcheck_report.json
+
       - name: Create a technical PR for the generated revision
         id: pr
         if: steps.plan.outputs.mode == 'publish'
@@ -182,13 +221,16 @@ jobs:
           TITLE: ${{ steps.article.outputs.title }}
           WORDS: ${{ steps.article.outputs.words }}
           SOURCES: ${{ steps.article.outputs.sources }}
+          FACTCHECK_VERDICT: ${{ steps.factcheck.outputs.verdict }}
+          VERIFIED_CLAIMS: ${{ steps.factcheck.outputs.verified_claims }}
+          GROUNDED_SOURCES: ${{ steps.factcheck.outputs.grounded_sources }}
         run: |
           set -euo pipefail
           BRANCH="analysis/auto-${LANE}-$(date -u +%Y%m%d-%H%M%S)"
           git switch -c "$BRANCH"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add analizi sitemap.xml analysis/monthly_usage.json
+          git add analizi sitemap.xml analysis/monthly_usage.json analysis/verification_usage.json analysis/factcheck_report.json
           if git diff --cached --quiet; then
             echo "::error::Няма промени за публикуване."
             exit 1
@@ -201,10 +243,13 @@ jobs:
           - Направление: **$LANE**
           - Заглавие: **$TITLE**
           - Дължина: **$WORDS думи**
-          - Първоизточници: **$SOURCES**
+          - Първоизточници в материала: **$SOURCES**
+          - Независим fact-check: **$FACTCHECK_VERDICT**
+          - Потвърдени твърдения: **$VERIFIED_CLAIMS**
+          - Google Search източници: **$GROUNDED_SOURCES**
           - Страница: https://bgvchisla.com/analizi/$SLUG/
 
-          PR е техническа контролна точка. След успешен независим audit workflow-ът автоматично удостоверява точния commit, слива го и публикува сайта. Човешко одобрение не се изисква.
+          Статията е генерирана с GPT-6 Luna и проверена от отделния Google Gemini 3.8 Flash с Google Search grounding. PR може да се слее автоматично само при PASS на независимата проверка и успешен отделен CI audit. REVIEW/FAIL оставя PR отворен за редакционна намеса.
           EOF
           PR_URL="$(gh pr create --repo "$REPOSITORY" --base main --head "$BRANCH" --title "Автоматичен анализ: $TITLE" --body-file /tmp/pr-body.md)"
           PR_NUMBER="$(gh pr view "$PR_URL" --repo "$REPOSITORY" --json number --jq .number)"
@@ -214,8 +259,18 @@ jobs:
           echo "head_sha=$HEAD_SHA" >> "$GITHUB_OUTPUT"
           echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
 
-      - name: Dispatch the independent audit for the exact PR commit
+      - name: Block publication unless the independent fact-check passes
         if: steps.plan.outputs.mode == 'publish'
+        env:
+          FACTCHECK_VERDICT: ${{ steps.factcheck.outputs.verdict }}
+        run: |
+          if [ "$FACTCHECK_VERDICT" != "PASS" ]; then
+            echo "::error::Независимата проверка върна $FACTCHECK_VERDICT. PR остава отворен; сливане и публикуване са забранени."
+            exit 1
+          fi
+
+      - name: Dispatch the independent audit for the exact PR commit
+        if: steps.plan.outputs.mode == 'publish' && steps.factcheck.outputs.verdict == 'PASS'
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -228,7 +283,7 @@ jobs:
 
       - name: Wait for the audit check and block on any failure
         id: audit
-        if: steps.plan.outputs.mode == 'publish'
+        if: steps.plan.outputs.mode == 'publish' && steps.factcheck.outputs.verdict == 'PASS'
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -263,7 +318,7 @@ jobs:
           exit 1
 
       - name: Verify the audit-issued machine publication gate
-        if: steps.plan.outputs.mode == 'publish'
+        if: steps.plan.outputs.mode == 'publish' && steps.factcheck.outputs.verdict == 'PASS'
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -288,7 +343,7 @@ jobs:
 
       - name: Merge only the audited commit
         id: merge
-        if: steps.plan.outputs.mode == 'publish'
+        if: steps.plan.outputs.mode == 'publish' && steps.factcheck.outputs.verdict == 'PASS'
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -302,14 +357,14 @@ jobs:
           echo "merge_sha=$SHA" >> "$GITHUB_OUTPUT"
 
       - name: Start production deployment
-        if: steps.plan.outputs.mode == 'publish'
+        if: steps.plan.outputs.mode == 'publish' && steps.factcheck.outputs.verdict == 'PASS'
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
         run: gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
 
       - name: Wait for successful Cloudflare Pages deployment
-        if: steps.plan.outputs.mode == 'publish'
+        if: steps.plan.outputs.mode == 'publish' && steps.factcheck.outputs.verdict == 'PASS'
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -346,6 +401,9 @@ jobs:
           ARTICLE_SLUG: ${{ steps.article.outputs.slug }}
           WORDS: ${{ steps.article.outputs.words }}
           SOURCES: ${{ steps.article.outputs.sources }}
+          FACTCHECK_VERDICT: ${{ steps.factcheck.outputs.verdict }}
+          VERIFIED_CLAIMS: ${{ steps.factcheck.outputs.verified_claims }}
+          FACTCHECK_COST: ${{ steps.factcheck.outputs.cost_usd }}
           PR_URL: ${{ steps.pr.outputs.url }}
         run: |
           {
@@ -354,6 +412,11 @@ jobs:
             echo "- Резултат: **$JOB_STATUS**"
             echo "- Направление: **${LANE:-неопределено}**"
             echo "- Режим: **${MODE:-неопределен}**"
+            if [ -n "$FACTCHECK_VERDICT" ]; then
+              echo "- Независима фактологична проверка: **$FACTCHECK_VERDICT**"
+              echo "- Потвърдени твърдения: ${VERIFIED_CLAIMS:-0}"
+              echo "- Разход за проверката: ${FACTCHECK_COST:-неизвестен} USD"
+            fi
             if [ -n "$ARTICLE_TITLE" ]; then
               echo "- Заглавие: **$ARTICLE_TITLE**"
               echo "- Страница: https://bgvchisla.com/analizi/$ARTICLE_SLUG/"
@@ -365,6 +428,7 @@ jobs:
               echo "**Публикацията и production deployment са потвърдени.**"
             elif [ "$JOB_STATUS" = "success" ]; then
               echo "Безплатният предварителен тест приключи; няма платена заявка или публикация."
+              if [ -n "${{ steps.plan.outputs.reason }}" ]; then echo "Причина: ${{ steps.plan.outputs.reason }}"; fi
             else
               echo "**Публикацията е блокирана.** Виж логовете на неуспешната стъпка."
             fi
