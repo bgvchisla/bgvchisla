@@ -44,6 +44,8 @@ def validate_static():
     assert "ANALYSES_PUBLISH_ENABLED" in v and "ai-disclosure" in d
     assert "official_source_domains" in v and "is_official_domain" in v
     assert "google_search_usd_per_1000_queries" in v and "google_search_queries" in v
+    assert '"thinkingConfig"' in v and '"thinkingLevel"' in v
+    assert 'thoughtsTokenCount' in v and 'billable_output_tokens = output_tokens + thinking_tokens' in v
     assert "Не е преминал човешка редакционна проверка" in d
     assert "ANALYSES_AUTODRAFT_ENABLED" not in w and "/approve" not in w
     print("Статичните проверки за независима фактологична верификация са успешни.")
