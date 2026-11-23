@@ -15,7 +15,7 @@
   "review_provider": "Google",
   "review_model": "gemini-3.8-flash",
   "review_reasoning_effort": "high",
-  "maximum_review_input_tokens": 30000,
+  "maximum_review_input_tokens": 70000,
   "maximum_review_output_tokens": 5000,
   "maximum_review_characters": 50000,
   "review_input_usd_per_million_until_2026_12_31": 0.75,
@@ -25,8 +25,6 @@
   "review_monthly_budget_usd": 1.5,
   "max_factcheck_calls_per_month": 10,
   "minimum_verified_claims": 8,
-  "minimum_grounding_sources": 4,
-  "minimum_official_grounding_domains": 2,
   "official_source_domains": [
     "nsi.bg",
     "bnb.bg",
@@ -52,7 +50,7 @@
     "bankofjapan.or.jp",
     "ons.gov.uk"
   ],
-  "google_search_usd_per_1000_queries": 14,
-  "max_search_queries_per_call": 4,
-  "max_search_queries_per_month": 40
+  "minimum_retrieved_sources": 4,
+  "minimum_official_retrieved_domains": 2,
+  "maximum_source_urls_per_call": 15
 }
