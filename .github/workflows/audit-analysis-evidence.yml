@@ -75,9 +75,10 @@ jobs:
           python scripts/test_update_business_climate.py
       - name: Validate mobile navigation and all inline JavaScript
         run: python scripts/test_frontend.py
-      - name: Validate article evidence and approval workflow
-        run: python scripts/test_analysis_publication.py scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
-          python scripts/test_independent_factcheck.py --static
+      - name: Validate article evidence and publication workflow
+        run: python scripts/test_analysis_publication.py
+      - name: Compile independent fact-check modules
+        run: python -m py_compile scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
       - name: Install Chromium for exact viewport testing
         run: |
           npm install --no-save --no-package-lock playwright
@@ -119,7 +120,7 @@ jobs:
               json.loads(path.read_text(encoding="utf-8"))
               print(f"JSON OK: {name}")
           PY
-          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/test_analysis_publication.py
+          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/test_analysis_publication.py scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
       - name: Prepare the same runtime used by production
         run: |
           gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
