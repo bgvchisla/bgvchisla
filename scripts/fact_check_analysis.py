@@ -59,6 +59,36 @@ def prices(config, now):
     )
 
 
+def calculate_billable_usage(usage, input_price, output_price, fallback_cost):
+    """Calculate billed Gemini tokens and cost from GenerateContent usageMetadata.
+
+    Gemini's total is composed of prompt, tool-use prompt, candidate output and
+    thinking output tokens. Thinking tokens are billed at the output rate.
+    """
+    if not isinstance(usage, dict):
+        usage = {}
+    prompt_tokens = int(usage.get("promptTokenCount", 0) or 0)
+    tool_input_tokens = int(usage.get("toolUsePromptTokenCount", 0) or 0)
+    candidate_output_tokens = int(usage.get("candidatesTokenCount", 0) or 0)
+    thinking_output_tokens = int(usage.get("thoughtsTokenCount", 0) or 0)
+    billed_input_tokens = prompt_tokens + tool_input_tokens
+    billed_output_tokens = candidate_output_tokens + thinking_output_tokens
+    actual_cost = (
+        round((billed_input_tokens * float(input_price) + billed_output_tokens * float(output_price)) / 1_000_000, 8)
+        if (billed_input_tokens or billed_output_tokens)
+        else round(float(fallback_cost), 8)
+    )
+    return {
+        "prompt_tokens": prompt_tokens,
+        "tool_input_tokens": tool_input_tokens,
+        "candidate_output_tokens": candidate_output_tokens,
+        "thinking_output_tokens": thinking_output_tokens,
+        "billed_input_tokens": billed_input_tokens,
+        "billed_output_tokens": billed_output_tokens,
+        "actual_cost_usd": actual_cost,
+    }
+
+
 def canonical_url(value):
     try:
         parsed = urlsplit(str(value).strip())
@@ -473,18 +503,15 @@ def main():
         with urllib.request.urlopen(request, timeout=240) as response:
             response_payload = json.loads(response.read().decode("utf-8"))
         usage = response_payload.get("usageMetadata", {})
-        prompt_tokens = int(usage.get("promptTokenCount", 0) or 0)
-        tool_input_tokens = int(usage.get("toolUsePromptTokenCount", 0) or 0)
-        candidate_output_tokens = int(usage.get("candidatesTokenCount", 0) or 0)
-        thinking_output_tokens = int(usage.get("thoughtsTokenCount", 0) or 0)
-        billed_input_tokens = prompt_tokens + tool_input_tokens
-        billed_output_tokens = candidate_output_tokens + thinking_output_tokens
         in_price, out_price = prices(config, now)
-        actual_cost = (
-            round((billed_input_tokens * in_price + billed_output_tokens * out_price) / 1_000_000, 8)
-            if (billed_input_tokens or billed_output_tokens)
-            else reserve
-        )
+        billing = calculate_billable_usage(usage, in_price, out_price, reserve)
+        prompt_tokens = billing["prompt_tokens"]
+        tool_input_tokens = billing["tool_input_tokens"]
+        candidate_output_tokens = billing["candidate_output_tokens"]
+        thinking_output_tokens = billing["thinking_output_tokens"]
+        billed_input_tokens = billing["billed_input_tokens"]
+        billed_output_tokens = billing["billed_output_tokens"]
+        actual_cost = billing["actual_cost_usd"]
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError) as exc:
         ledger["reserved_usd"] = round(max(0.0, float(ledger["reserved_usd"]) - reserve), 8)
         ledger["spent_usd"] = round(float(ledger["spent_usd"]) + reserve, 8)
