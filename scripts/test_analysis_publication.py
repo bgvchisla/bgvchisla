@@ -59,7 +59,7 @@ class EditorialPublicationTests(unittest.TestCase):
                     body = re.search(r"<article>([\s\S]*?)</article>", page, re.I)
                     self.assertIsNotNone(body)
                     words = re.findall(
-                        r"[^\\W_]+(?:[’'-][^\\W_]+)*",
+                        r"[^\W_]+(?:[’'-][^\W_]+)*",
                         html.unescape(re.sub(r"<[^>]+>", " ", body.group(1))),
                         re.UNICODE,
                     )
