@@ -71,6 +71,9 @@ def validate_static() -> None:
     assert "URL_RETRIEVAL_STATUS_SUCCESS" in verifier
     assert "numeric_statements" in verifier
     assert "numeric_blocks_verified" in verifier
+    assert "numeric_audit_items" in verifier
+    assert "toolUsePromptTokenCount" in verifier
+    assert "thoughtsTokenCount" in verifier
     assert "Google Search" not in verifier
     assert "ANALYSES_PUBLISH_ENABLED" in verifier
     assert "official_source_domains" in verifier and "is_official_domain" in verifier
