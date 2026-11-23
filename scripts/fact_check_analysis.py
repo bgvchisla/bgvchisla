@@ -105,13 +105,32 @@ def article_fragment(page):
 
 
 def extract_numeric_statements(page):
-    fragment = article_fragment(page)
-    statements = []
-    seen = set()
+    # Numeric coverage includes summary metrics before <article>, all article
+    # paragraphs/list items/table rows, and visual chart rows.
+    main = re.search(r"<main\b[^>]*>(.*?)</main>", page, flags=re.I | re.S)
+    content = main.group(1) if main else article_fragment(page)
+    content = re.sub(r"<nav\b[^>]*>.*?</nav>", " ", content, flags=re.I | re.S)
+    content = re.sub(
+        r'<ol\b[^>]*class=["\']source-list["\'][^>]*>.*?</ol>',
+        " ",
+        content,
+        flags=re.I | re.S,
+    )
+    blocks = []
     tag_group = "|".join(NUMERIC_BLOCK_TAGS)
     pattern = rf"<({tag_group})\b[^>]*>(.*?)</\1>"
-    for match in re.finditer(pattern, fragment, flags=re.I | re.S):
-        text = plain_text(match.group(2))
+    for match in re.finditer(pattern, content, flags=re.I | re.S):
+        blocks.append(plain_text(match.group(2)))
+    for match in re.finditer(
+        r'<div\b[^>]*class=["\'][^"\']*\b(?:metric|bar-row)\b[^"\']*["\'][^>]*>(.*?)</div>',
+        content,
+        flags=re.I | re.S,
+    ):
+        blocks.append(plain_text(match.group(1)))
+
+    statements = []
+    seen = set()
+    for text in blocks:
         if not text or not re.search(r"\d", text):
             continue
         key = re.sub(r"\s+", " ", text).casefold()
@@ -421,11 +440,15 @@ def main():
             response_payload = json.loads(response.read().decode("utf-8"))
         usage = response_payload.get("usageMetadata", {})
         prompt_tokens = int(usage.get("promptTokenCount", 0) or 0)
-        output_tokens = int(usage.get("candidatesTokenCount", 0) or 0)
+        tool_input_tokens = int(usage.get("toolUsePromptTokenCount", 0) or 0)
+        candidate_output_tokens = int(usage.get("candidatesTokenCount", 0) or 0)
+        thinking_output_tokens = int(usage.get("thoughtsTokenCount", 0) or 0)
+        billed_input_tokens = prompt_tokens + tool_input_tokens
+        billed_output_tokens = candidate_output_tokens + thinking_output_tokens
         in_price, out_price = prices(config, now)
         actual_cost = (
-            round((prompt_tokens * in_price + output_tokens * out_price) / 1_000_000, 8)
-            if (prompt_tokens or output_tokens)
+            round((billed_input_tokens * in_price + billed_output_tokens * out_price) / 1_000_000, 8)
+            if (billed_input_tokens or billed_output_tokens)
             else reserve
         )
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError) as exc:
@@ -443,7 +466,11 @@ def main():
     entry.update({
         "status": "response_received",
         "prompt_tokens": prompt_tokens,
-        "output_tokens": output_tokens,
+        "tool_input_tokens": tool_input_tokens,
+        "candidate_output_tokens": candidate_output_tokens,
+        "thinking_output_tokens": thinking_output_tokens,
+        "billed_input_tokens": billed_input_tokens,
+        "billed_output_tokens": billed_output_tokens,
         "actual_cost_usd": actual_cost,
     })
     write_json_atomic(LEDGER_PATH, ledger)
@@ -463,6 +490,24 @@ def main():
     })
 
     problems = []
+    maximum_input_tokens = int(config["maximum_review_input_tokens"])
+    maximum_output_tokens = int(config["maximum_review_output_tokens"])
+    if billed_input_tokens > maximum_input_tokens:
+        problems.append(
+            f"Реално използваните входящи токени ({billed_input_tokens}) надхвърлят лимита "
+            f"({maximum_input_tokens})."
+        )
+    if billed_output_tokens > maximum_output_tokens:
+        problems.append(
+            f"Реално използваните изходящи токени ({billed_output_tokens}) надхвърлят лимита "
+            f"({maximum_output_tokens})."
+        )
+    openai_usage = read_json(OPENAI_LEDGER_PATH, {})
+    openai_actual = float(openai_usage.get("spent_usd", 0.0)) if openai_usage.get("month") == month_key(now) else 0.0
+    if float(ledger["spent_usd"]) > float(config["review_monthly_budget_usd"]):
+        problems.append("Реалният разход за независимия проверяващ е над месечния му лимит.")
+    if openai_actual + float(ledger["spent_usd"]) > float(config["monthly_total_budget_usd"]):
+        problems.append("Реалният общ разход на двата модела е над общия месечен лимит.")
     minimum_sources = int(config["minimum_retrieved_sources"])
     minimum_official = int(config["minimum_official_retrieved_domains"])
     minimum_claims = int(config["minimum_verified_claims"])
@@ -538,6 +583,7 @@ def main():
         "verified_claims": accepted_claims,
         "numeric_blocks_found": len(expected_ids),
         "numeric_blocks_verified": numeric_verified,
+        "numeric_audit_items": numeric_items,
         "retrieved_sources": retrieved_urls,
         "retrieved_source_count": len(retrieved_urls),
         "retrieval_failures": retrieval_failures,
@@ -548,6 +594,8 @@ def main():
         "blocking_reasons": problems,
         "cost_usd": actual_cost,
         "usage": usage,
+        "billed_input_tokens": billed_input_tokens,
+        "billed_output_tokens": billed_output_tokens,
     }
     write_json_atomic(ROOT / args.report, output)
     entry.update({
