@@ -1188,7 +1188,7 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 @media(prefers-reduced-motion:reduce){.analysis-hero-cta,.analysis-hero-action{transition:none}.analysis-hero-cta:hover{transform:none}}
 
 </style>
-<link rel="stylesheet" href="/assets/design-system.css?v=4">
+<link rel="stylesheet" href="/assets/design-system.css?v=5">
 
 <style id="debt-counter-one-line-typography">
 /* Четлив брояч на държавния дълг: сумата остава на един ред. */
@@ -1768,11 +1768,12 @@ fetch("official_nssi.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw n
 
 /* Новинарски поток: съдържанието идва от проверявания news.json */
 var NEWS_LEAD_MAX_AGE_HOURS=18;
+var NEWS_LEAD_FUTURE_TOLERANCE_HOURS=24;
 function isFreshLeadNews(item,now){
   var published=item&&item.published?Date.parse(item.published):NaN;
   if(!Number.isFinite(published))return false;
   var ageHours=((now===undefined?Date.now():now)-published)/3600000;
-  return ageHours>=-FUTURE_DATE_TOLERANCE_HOURS&&ageHours<=NEWS_LEAD_MAX_AGE_HOURS;
+  return ageHours>=-NEWS_LEAD_FUTURE_TOLERANCE_HOURS&&ageHours<=NEWS_LEAD_MAX_AGE_HOURS;
 }
 function sortNewsByEditorialPriority(items){
   function compare(a,b){
