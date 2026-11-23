@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:06:09.407966+00:00",
-  "last_checked_at": "2026-11-23T07:06:09.407974+00:00",
+  "updated_at": "2026-11-23T08:43:17.490041+00:00",
+  "last_checked_at": "2026-11-23T08:43:17.490045+00:00",
   "items": [
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Заради кончината на митрополит Гавриил ВМА отменя насроченото за утре освещаване на храм-параклиса на територията на лечебното заведение",
-      "summary": "Във връзка с кончината на Ловчанския митрополит Гавриил Военномедицинската академия (ВМА) отменя насроченото за 24 ноември освещаване на храм-параклиса „Св. Николай, архиепископ Мирликийски Чудотворец“, разположен на територията на лечебното заведение. Това съ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252145-zaradi-konchinata-na-mitropolit-gavriil-vma-otmenya-nasrochenoto-za-utre-osvesht",
-      "published": "2026-11-23T07:02:16+00:00",
+      "title": "Общо 13 свободни работни места за специалисти с висше образование обяви Бюрото по труда в Монтана",
+      "summary": "Общо 13 свободни работни места за специалисти с висше образование обявиха от Дирекция „Бюрото по труда в Монтана“. Всичките свободни работни места са за лекари и медицински лаборант в Многопрофилната болница за активно лечение „Д-р Стамен Илиев“ в Монтана, съо",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252214-obshto-13-svobodni-rabotni-mesta-za-spetsialisti-s-visshe-obrazovanie-obyavi-byu",
+      "published": "2026-11-23T08:42:26+00:00",
       "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
@@ -19,18 +19,228 @@
       "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
       "summary": "The prime minister will tell MPs the deal agreed on Friday is a \"choice between a broken status quo or change\".",
       "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T07:01:31+00:00",
+      "published": "2026-11-23T08:41:08+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+      "summary": "Libya's eastern government says a sunken warship had stopped for fuel and supplies on its way back to Russia.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T08:36:57+00:00",
       "feed_id": "bbc-world",
       "priority_score": 0
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Край язовир между бургаските села Миролюбово и Изворище са намерени убити две кучета, има задържан",
-      "summary": "Две кучета от породата \"Кане Корсо\" са били простреляни и убити в района на язовир между бургаските села Миролюбово и Изворище. Сигналът за инцидента е получен във Второ районно управление – Бургас, съобщиха от Областната дирекция на МВР. От полицията са откри",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252141-kray-yazovir-mezhdu-burgaskite-sela-mirolyubovo-i-izvorishte-sa-namereni-ubiti-d",
-      "published": "2026-11-23T07:00:14+00:00",
+      "title": "Социални работници в Благоевград стачкуваха предупредително с искания, свързани с правата на работещите в сферата",
+      "summary": "Социални работници в Благоевград се включиха в организираните от Синдиката на административните служители „Подкрепа“ едночасови ефективни стачки. Служители на Регионална дирекция за социално подпомагане участват с едночасово спиране на прием на граждани до 11:",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252208-sotsialni-rabotnitsi-v-blagoevgrad-stachkuvaha-predupreditelno-s-iskaniya-svarz",
+      "published": "2026-11-23T08:34:33+00:00",
       "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "От 24 ноември започва нов етап от реконструкцията на трамвайния релсов път по столичния бул. „Княгиня Мария Луиза“",
+      "summary": "Утре, 24 ноември, започва нов етап от реконструкцията на трамвайния релсов път по бул. „Княгиня Мария Луиза“, който се изпълнява в участъка от ул. „Опълченска“ до ул. „Козлодуй“, информираха от пресцентъра на Столичната община. Продължават строително-монтажнит",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252196-ot-24-noemvri-zapochva-nov-etap-ot-rekonstruktsiyata-na-tramvayniya-relsov-pat-p",
+      "published": "2026-11-23T08:33:02+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Скърбим за упокоението на митрополит Гавриил, един от достойните митрополити на Българската православна църква, каза патриарх Даниил",
+      "summary": "Днес е празник на патриаршеската ни катедрала „Св. Александър Невски“ и това е празник, който повече от 100 години е важен за цялата ни църква. Виждаме как в живота на църквата се съчетават радост и скръб, защото този празник винаги е събирал Светия синод тук",
+      "url": "https://www.bta.bg/bg/news/lik/1252190-skarbim-za-upokoenieto-na-mitropolit-gavriil-edin-ot-dostoynite-mitropoliti-na-",
+      "published": "2026-11-23T08:28:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Badenoch and Farage: The battle for business",
+      "summary": "Presented by TikTok",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/badenoch-and-farage-the-battle-for-business/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T08:27:02+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Constitutional law expert brands defence bill allowing secret security rules ‘lazy and irresponsible’",
+      "summary": "Anne Twomey says lack of proper debate around bill is ‘flabbergasting’ amid concerns over extension of ministerial powers Labor’s new defence bill is “lazy and irresponsible” lawmaking, one of Australia’s leading constitutional scholars has warned, claiming pr",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/constitutional-law-expert-brands-defence-bill-allowing-secret-security-rules-lazy-and-irresponsible",
+      "published": "2026-11-23T08:23:55+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Служители от Регионална дирекция \"Социално подпомагане\" излязоха на протест в Русе с искане за по-високи заплати",
+      "summary": "Служители от Регионална дирекция \"Социално подпомагане\" излязоха на протест в Русе с искане за по-високи заплати. Стачката е организирана от Конфедерацията на труда \"Подкрепа\", съобщи председателят на синдикалната структура в крайдунавския град Кирил Черкезов.",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252191-sluzhiteli-ot-regionalna-direktsiya-sotsialno-podpomagane-izlyazoha-na-protest",
+      "published": "2026-11-23T08:14:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Саудитска Арабия обмисля инвестиции в индустриални паркове и производство на електромобили в България",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439910-sauditska-arabiya-obmislya-investitsii-v-industrialni-parkove-i-proizvodstvo-na-elektromobili-v-balgariya",
+      "published": "2026-11-23T08:14:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 42
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Спектакълът \"Тяло в лед\", вдъхновен от живота на Вацлав Нижински, ще бъде представен в Стара Загора",
+      "summary": "Поетичният танцов спектакъл, вдъхновен от живота и дневниците на легендарния Вацлав Нижински, „Тяло в лед“ на русенския театър „Сава Огнянов“ ще бъде представен днес пред старозагорска публика. Това е посочено в програмата на 56-ото издание на Фестивала за опе",
+      "url": "https://www.bta.bg/bg/news/lik/1252174-spektakalat-tyalo-v-led-vdahnoven-ot-zhivota-na-vatslav-nizhinski-shte-bade-",
+      "published": "2026-11-23T08:13:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Община Монтана монтира още камери за видеонаблюдение около местата с коледна украса в града",
+      "summary": "Община Монтана ще монтира още камери за видеонаблюдение около местата, на които тези дни ще бъде поставена коледна украса или вече има такава, съобщи пред журналисти кметът Златко Живков. Мярката се предприема, за да се предотвратят вандалски прояви, каквито е",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252187-obshtina-montana-montira-oshte-kameri-za-videonablyudenie-okolo-mestata-s-koledn",
+      "published": "2026-11-23T08:11:10+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Полицията разследва 30-годишен мъж, прокарал фалшиви евро банкноти в Горна Оряховица и Велико Търново",
+      "summary": "Служители на Районното управление във Велико Търново установиха 30-годишен мъж от Горна Оряховица, съпричастен към прокарването в обращение на неистински евробанкноти. Това съобщиха от Областната дирекция на МВР във Велико Търново. В началото на ноември таксим",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252181-politsiyata-razsledva-30-godishen-mazh-prokaral-falshivi-evro-banknoti-v-gorna-",
+      "published": "2026-11-23T08:08:17+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "Азиатските пазари започнаха седмицата на отрицателна територия",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439911-aziatskite-pazari-zapochnaha-sedmitsata-na-otritsatelna-teritoriya",
+      "published": "2026-11-23T08:06:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Brazil: Colourful costumes and dancing take over Copacabana Pride",
+      "summary": "Thousands of people filled Copacabana's beachfront in Rio de Janeiro, Brazil, on Sunday 22 November 2026, for the city's 31st Pride Parade, celebrating LGBT+ diversity and calling for greater equality.",
+      "url": "https://www.euronews.com/video/2026/11/23/brazil-colourful-costumes-and-dancing-take-over-copacabana-pride",
+      "published": "2026-11-23T08:02:54+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Камен Донев представя в Разград спектакъла си „С най-голямо уважение“",
+      "summary": "Камен Донев ще представи в Разград спектакъла си „С най-голямо уважение“. Представлението ще бъде на 4 декември в Общинския културен център, съобщиха от екипа на актьора. Автор и режисьор на спектакъла е Камен Донев, който участва в него заедно с Албена Колева",
+      "url": "https://www.bta.bg/bg/news/lik/1252166-kamen-donev-predstavya-v-razgrad-spektakala-si-s-nay-golyamo-uvazhenie-",
+      "published": "2026-11-23T07:53:48+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Turkish authorities search for lion spotted on outskirts of Istanbul",
+      "summary": "The National Parks Directorate said specialist veterinarians and teams equipped with thermal imaging cameras were assisting the search, which was focused on a wooded area.",
+      "url": "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul",
+      "published": "2026-11-23T07:48:49+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Фондация „За Нашите Деца“ стартира нова дигитална платформа \"Родителник\"",
+      "summary": "Фондация „За Нашите Деца“ стартира нова дигитална платформа „Родителник“, създадена в подкрепа на бъдещи и настоящи родители, съобщават от организацията. Платформата събира на едно място проверена информация, практически насоки и възможност за индивидуални кон",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252172-fondatsiya-za-nashite-detsa-startira-nova-digitalna-platforma-roditelnik-",
+      "published": "2026-11-23T07:46:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Сривът на Уолстрийт потопи и технологичните компании в Азия",
+      "summary": "Стабилното възстановяване на фючърсите в САЩ не успя да стимулира покупките на акции на фона на опасенията около инвестициите в изкуствен интелект (AI), перспективата за нови повишения на лихвените проценти от Федералния резерв и затягането на регулациите при",
+      "url": "https://www.economic.bg/bg/a/view/srivyt-na-uolstrijt-potopi-i-tehnologichnite-kompanii-v-azija",
+      "published": "2026-11-23T07:42:01+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 51
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Ukraine updates: Russian strikes kill several in Kyiv region",
+      "summary": "Overnight attacks claimed the lives of civilians in the Kyiv region. Also, NATO is set to discuss Russian violations of Polish airspace. Follow live.",
+      "url": "https://www.dw.com/en/ukraine-updates-russian-strikes-kill-several-in-kyiv-region/live-80015859?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T07:42:00+00:00",
+      "feed_id": "dw-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Clubs and families revolt as Football Queensland charges $5 a head to watch children play",
+      "summary": "Gate fee comes on top of annual cost of between $300 and $700 per family Get our breaking news email , free app or daily news podcast Football clubs representing hundreds of thousands of players are preparing to break away from Football Queensland this week, s",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/football-queensland-gate-fee-kids-soccer-outrage",
+      "published": "2026-11-23T07:30:57+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Sanctions, summits and strikes: The war in Ukraine shows no sign of slowing",
+      "summary": "Good morning. Leo Cendrowicz here, bringing you the Monday newsletter. This week, we’re dealing with more bombing of Ukraine, and the metaphorical bombing of the COP31 climate talks in Turkey.",
+      "url": "https://www.euronews.com/2026/11/23/sanctions-summits-and-strikes-the-war-in-ukraine-shows-no-sign-of-slowing",
+      "published": "2026-11-23T07:26:44+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Цената на петрола спада под натиска на изобилното предлагане*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439907-tsenata-na-petrola-spada-pod-natiska-na-izobilnoto-predlagane",
+      "published": "2026-11-23T07:25:00+00:00",
+      "feed_id": "investor-finance",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Germany news: Metalworkers go on strike as pay dispute heats up",
+      "summary": "Germany's biggest union is calling for more strikes over heated pay disputes with car makers like Mercedes and shipyards among the companies impacted. Meanwhile, a Berlin hospital fire leaves many injured. Follow DW.",
+      "url": "https://www.dw.com/en/germany-news-metalworkers-go-on-strike-as-pay-dispute-heats-up/live-80015633?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T07:11:00+00:00",
+      "feed_id": "dw-world",
       "priority_score": 0
     },
     {
@@ -41,16 +251,6 @@
       "url": "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st",
       "published": "2026-11-23T07:00:06+00:00",
       "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Документален филм за създаването на спектакъла „НевиДимото дете“ ще бъде представен в Стара Загора",
-      "summary": "Документален филм за създаването на спектакъла „НевиДимото дете“ на Кукления театър в Стара Загора в копродукция с габровския театър ще бъде представен днес в града на липите, съобщиха от пресцентъра на културната институция. Прожекцията ще бъде в залата на Ку",
-      "url": "https://www.bta.bg/bg/news/lik/1252135-dokumentalen-film-za-sazdavaneto-na-spektakala-nevidimoto-dete-shte-bade-preds",
-      "published": "2026-11-23T06:49:42+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -85,42 +285,22 @@
     },
     {
       "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Five takeaways from the failed climate talks COP31",
+      "summary": "The COP31 summit in Antalya was the longest-running climate talks in UN history.",
+      "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T06:33:50+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Is rule-breaking contagious? The bad apple effect explained",
       "summary": "Seeing someone break a rule makes people more likely to break it too, a new study finds, especially when the rule-breaker is on their side politically. Watching others behave well barely made a difference.",
       "url": "https://www.dw.com/en/is-rule-breaking-contagious-the-bad-apple-effect-explained/a-79980025?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-23T06:33:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Във Враца отбелязват 200 години от рождението на писателя Карло Колоди с инициативата „Страната на приключенията“",
-      "summary": "Библиотеката към Народно читалище „Развитие – 1869“ във Враца ще отбележи 200 години от рождението на италианския писател и създател на „Пинокио“ Карло Колоди с инициативата „Страната на приключенията“. Това каза за БТА главният библиотекар Владислава Иванчева",
-      "url": "https://www.bta.bg/bg/news/lik/1252026-vav-vratsa-otbelyazvat-200-godini-ot-rozhdenieto-na-pisatelya-karlo-kolodi-s-ini",
-      "published": "2026-11-23T06:32:22+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Майстор грънчар представя изложба с реплики на праисторическа керамика във Враца",
-      "summary": "Майсторът грънчар и председател на Северозападната задруга на майсторите Куман Жеков ще представи самостоятелна изложба с реплики на праисторическа керамика под наслов „Богините на Враца“ в 16:30 ч. във фоайето на централната сграда на Регионалния исторически",
-      "url": "https://www.bta.bg/bg/news/lik/1252019-maystor-granchar-predstavya-izlozhba-s-repliki-na-praistoricheska-keramika-vav-v",
-      "published": "2026-11-23T06:22:54+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изложба „Изкуство без граници“ се открива днес във Враца",
-      "summary": "Съвместна изложба „Изкуство без граници“ ще бъде открита днес в 17:00 часа в Регионалния исторически музей (РИМ) – Враца и ще може да бъде разгледана до 27 ноември, каза за БТА един от организаторите Гергана Живкова. Експозицията се организира за първи път във",
-      "url": "https://www.bta.bg/bg/news/lik/1252016-izlozhba-izkustvo-bez-granitsi-se-otkriva-dnes-vav-vratsa",
-      "published": "2026-11-23T06:17:41+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -131,16 +311,6 @@
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
       "published": "2026-11-23T06:13:21+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "При 13 катастрофи през изминалото денонощие в страната са ранени 15 души, един човек е загинал",
-      "summary": "През изминалото денонощие в страната са станали 13 катастрофи, при които са ранени 15 души. Загинал е един човек, съобщиха от Министерството на вътрешните работи. В София са регистрирани 16 леки и две тежки пътнотранспортни произшествия, ранени са двама. От на",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252133-pri-13-katastrofi-prez-izminaloto-denonoshtie-v-stranata-sa-raneni-15-dushi-edi",
-      "published": "2026-11-23T06:10:02+00:00",
-      "feed_id": "bta-bulgaria",
       "priority_score": 0
     },
     {
@@ -164,39 +334,9 @@
       "priority_score": 39
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Синдикатът на административните служители „Подкрепа“ започва едночасови стачки в държавни институции с искане за по-високо заплащане",
-      "summary": "От днес Синдикатът на административните служители (САС) „Подкрепа“ организира едночасови ефективни стачки в ключови държавни институции заради несправедливото заплащане, диспропорциите във възнагражденията и неравнопоставеното третиране на работещите в държавн",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251538-sindikatat-na-administrativnite-sluzhiteli-podkrepa-zapochva-ednochasovi-stach",
-      "published": "2026-11-23T06:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Борово ще разгледа предложение за кандидатстване по проект за изграждане на втора клетка на регионалното депо за отпадъци",
-      "summary": "Общинският съвет в Борово ще реши днес дали да даде съгласие Община Бяла като водещ партньор в Регионалното сдружение за управление на отпадъците да подаде заявление за кандидатстване пред Предприятието за управление на дейностите по опазване на околната среда",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251140-obshtinskiyat-savet-v-borovo-shte-razgleda-predlozhenie-za-kandidatstvane-po-pro",
-      "published": "2026-11-23T06:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Националният пресклуб на БТА във Враца ще бъде домакин на дискусия, посветена на приемната грижа",
-      "summary": "Националният пресклуб на Българската телеграфна агенция (БТА) във Враца ще бъде домакин на дискусия, посветена на приемната грижа. Срещата е част от съвместната инициатива на БТА и Агенцията за социално подпомагане (АСП) „Приеми ме“ и ще бъде излъчвана на живо",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251054-natsionalniyat-presklub-na-bta-vav-vratsa-shte-bade-domakin-na-diskusiya-posvet",
-      "published": "2026-11-23T06:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
       "section": "europe",
       "source": "Euronews",
-      "title": "UN mission in Libya urges probe after Russian ship hit by drones off Benghazi",
+      "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
       "summary": "The attacks came after a drone hit a Russian cargo ship in the eastern Baltic Sea on Saturday, close to the waters of Finland, whose border guard said the strike was Ukrainian.",
       "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
       "published": "2026-11-23T05:58:22+00:00",
@@ -236,42 +376,12 @@
     {
       "section": "europe",
       "source": "Investor.bg – Икономика и политика",
-      "title": "В Русия виждат заплахи за Калининград от дронове, а не танкове, Украйна затяга \"Кримски котел\"",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439904-v-rusiya-vizhdat-zaplahi-za-kaliningrad-ot-dronove-a-ne-tankove-ukrayna-zatyaga-krimski-kotel",
-      "published": "2026-11-23T05:38:00+00:00",
-      "feed_id": "investor-economy",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "What's next after no deal at COP31 climate talks?",
-      "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
-      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T05:34:39+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-      "summary": "Eleven people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building.",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T05:33:17+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
       "title": "Европа се отказа от руското гориво - и стана зависима от китайските зелени технологии",
       "summary": "",
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439787-evropa-se-otkaza-ot-ruskoto-gorivo-i-stana-zavisima-ot-kitayskite-zeleni-tehnologii",
       "published": "2026-11-23T05:31:00+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "europe",
@@ -281,37 +391,7 @@
       "url": "https://www.euronews.com/2026/11/23/taiwan-warns-canada-against-deeper-china-trade-ties-as-carney-seeks-to-diversify",
       "published": "2026-11-23T05:27:13+00:00",
       "feed_id": "euronews",
-      "priority_score": 44
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
-      "summary": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\".",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T05:15:06+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "France gets an EU budget win — but wants more",
-      "summary": "Presented by Fusion for Energy.",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/france-gets-an-eu-budget-win-but-wants-more/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T05:05:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Nine people injured after gunfire at central California concert",
-      "summary": "The sheriff's department said it believes the shooting \"may be gang-related\" but gave no further detail.",
-      "url": "https://www.euronews.com/2026/11/23/nine-people-injured-after-gunfire-at-central-california-concert",
-      "published": "2026-11-23T05:00:18+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
+      "priority_score": 43
     },
     {
       "section": "europe",
@@ -321,57 +401,7 @@
       "url": "https://www.politico.eu/article/faire-des-milliardaires-les-mechants-de-lhistoire-a-paris-les-gauches-occidentales-tachent-de-faire-front-commun/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-23T05:00:00+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
-      "summary": "Crown says accused former officer developed ‘jealous obsession’ but defence says ‘he was a poorly behaved boyfriend’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Love made a fool of Bea",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/beau-lamarre-condon-trail-executed-jesse-baird-prosecution-argues-ntwnfb",
-      "published": "2026-11-23T04:34:11+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Söders nächster Nadelstich gegen Merz",
-      "summary": "Präsentiert von YouTube.",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/soders-nachster-nadelstich-gegen-merz/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T04:30:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘Difficult geopolitical times’: Albanese defends Bowen after Cop31 deal failure",
-      "summary": "Coalition calls for climate change minister to resign immediately or be sacked over ‘catastrophic diplomatic disaster’, despite offering no alternatives on reducing emissions Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter he",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/difficult-geopolitical-times-albanese-defends-bowen-after-cop31-deal-failure",
-      "published": "2026-11-23T04:21:00+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Unemployment to surpass 5% and ‘things will get a bit harder’, treasurer Jim Chalmers warns",
-      "summary": "Economists flag rising recession risk as government forecasts economy will grow by less than 2% in 2027 and 2028 Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily news podcast Jim Chalmers has warned A",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/unemployment-to-surpass-5-and-things-will-get-a-bit-harder-treasurer-jim-chalmers-warns",
-      "published": "2026-11-23T04:17:27+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 44
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Doula thought self-described birth keeper was clinically trained before NSW baby death, inquest hears",
-      "summary": "Inquest into the deaths of four babies after free and home births hears doula urged client to attend birth centre Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast A doula who supported a fr",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/doula-thought-self-described-birth-keeper-was-clinically-trained-before-nsw-baby-death-inquest-hears-ntwnfb",
-      "published": "2026-11-23T04:03:07+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -381,17 +411,7 @@
       "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
       "published": "2026-11-23T04:00:45+00:00",
       "feed_id": "guardian-world",
-      "priority_score": 39
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Using carbon footprint evidence to support better healthcare decisions",
-      "summary": "Measuring the carbon footprint of medicines across the entire product lifecycle means GSK can aim to reduce its environmental impact and transform patient care.",
-      "url": "https://www.politico.eu/sponsored-content/using-carbon-footprint-evidence-to-support-better-healthcare-decisions/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T04:00:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
+      "priority_score": 38
     },
     {
       "section": "europe",
@@ -401,7 +421,7 @@
       "url": "https://www.politico.eu/sponsored-content/eu-ets-must-finance-european-aviations-transition-to-net-zero/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-23T04:00:00+00:00",
       "feed_id": "politico-europe",
-      "priority_score": 39
+      "priority_score": 38
     },
     {
       "section": "bulgaria",
@@ -411,7 +431,17 @@
       "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439899-cheshkata-ikonomika-e-izpravena-pred-stagflatsionen-shok-predupredi-tsentralen-banker",
       "published": "2026-11-22T15:32:51+00:00",
       "feed_id": "investor-economy",
-      "priority_score": 40
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Седмични новини: България ще строи целия жп тунел „Деве баир“; ВАС потвърди пазарни манипулации от НЕК",
+      "summary": "Какво ще струва Бюджет 2027 на бизнеса и домакинствата? През седмицата 16–20 ноември кабинетът одобри проекта, а в парламента започна спорът за новите данъци и за парите за пенсии, пътища и инвестиции. Междувременно Евростат отчете 5,9% годишна инфлация в Бълг",
+      "url": "https://www.economic.bg/bg/a/view/sedmichni-novini-bylgarija-shte-stroi-celija-jp-tunel-deve-bair-vas-potvyrdi-pazarni-manipulacii-ot-nek",
+      "published": "2026-11-22T15:30:13+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 63
     },
     {
       "section": "europe",
@@ -432,6 +462,16 @@
       "published": "2026-11-22T12:39:00+00:00",
       "feed_id": "dw-world",
       "priority_score": 36
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "CEBR: Българската икономика ще загуби позиции в света до 2040 г.",
+      "summary": "Българската икономика ще расте, но това няма да е достатъчно, за да запази позициите си в света. Според прогнозите на Cebr до 2040 г. страната ни ще загуби седем места в глобалната класация по БВП. Как ще се промени икономическата карта на света и къде ще бъде",
+      "url": "https://www.economic.bg/bg/a/view/cebr-bylgarskata-ikonomika-shte-zagubi-pozicii-v-sveta-do-2040-g",
+      "published": "2026-11-22T11:00:38+00:00",
+      "feed_id": "economic-bg",
+      "priority_score": 44
     },
     {
       "section": "bulgaria",
@@ -481,16 +521,6 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439888-dimitar-radev-etsb-tryabva-da-e-gotova-za-novo-povishenie-na-lihvite",
       "published": "2026-11-21T14:45:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 36
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Колко болнични ползват работещите в Европа и колко струва това на икономиката?",
-      "summary": "Средностатистическият европеец отсъства от работа близо три седмици годишно заради здравословни проблеми, показва нов доклад, цитиран от euronews. Това се равнява на около 6% от потенциалното работно време в Европейския съюз (ЕС) и води до загуби от приблизите",
-      "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
-      "published": "2026-11-21T11:35:11+00:00",
-      "feed_id": "economic-bg",
       "priority_score": 35
     },
     {
@@ -514,16 +544,6 @@
       "priority_score": 32
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Социалните разходи изпреварват икономиката",
-      "summary": "Разходите за пенсии и социални помощи растат много по-бързо от икономиката. Данъчните постъпления и приходите от осигуровки също се увеличават, но не успяват да догонят плащанията. По темата е и новият одит на Сметната палата за социалните плащания през период",
-      "url": "https://www.economic.bg/bg/a/view/socialnite-razhodi-izprevarvat-ikonomikata",
-      "published": "2026-11-21T08:00:03+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 48
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
@@ -542,26 +562,6 @@
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
       "priority_score": 40
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: България усвои 99% от ПВУ; Още 110 млн. евро за справедлив преход",
-      "summary": "България е на път да усвои почти всички средства по Плана за възстановяване и устойчивост, но част от финансирането остава удържана заради недовършени реформи. В същото време нови 110 млн. евро се насочват към бизнеса във въглищните региони, а още 30 млн. евро",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
-      "published": "2026-11-20T16:10:40+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 36
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Лагард предлага ЕС да плаща първоначалните загуби от инвестициите в AI",
-      "summary": "Председателят на Европейската централна банка (ЕЦБ) Кристин Лагард призова публичните средства на Европейския съюз да поемат първоначалните загуби при големи проекти за заводи за чипове и центрове за данни. Според нея това би помогнало за привличането на частн",
-      "url": "https://www.economic.bg/bg/a/view/lagard-predlaga-es-da-plashta-pyrvonachalnite-zagubi-ot-investiciite-v-ai",
-      "published": "2026-11-20T15:45:35+00:00",
-      "feed_id": "economic-bg",
-      "priority_score": 41
     },
     {
       "section": "europe",
