@@ -262,3 +262,16 @@ body > a.skip-link:focus-visible{
 @media(min-width:640px){
   #site-content nav#nav button[data-i="15"]{display:none!important}
 }
+
+
+/* Ясно обозначаваме липсата на достатъчно скорошна водеща публикация. */
+#site-content .news-stale-note{
+  margin:0 0 10px;
+  padding:8px 10px;
+  border-left:2px solid var(--brand-gold);
+  border-radius:6px;
+  background:#F8F6F1;
+  color:var(--muted);
+  font-size:.72rem;
+  line-height:1.45;
+}
