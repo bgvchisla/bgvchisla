@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Fetch approved institutional RSS/Atom headlines for bgvchisla.com.
+"""Collect, score, diversify and group RSS/Atom headlines for bgvchisla.com.
 
 Only titles, short feed descriptions, source names, dates and canonical links are
-stored. Article bodies and images are never copied.
+stored. Article bodies and images are never copied. Ranking is significance-first,
+with recency as the secondary sort key.
 """
 import html
 import json
@@ -971,7 +972,7 @@ def main():
     # След това останалите позиции се запълват по значимост и актуалност.
     items = select_news_items(grouped, limit=70, top_window=10, max_per_publisher=2)
     result = {
-        "schema_version": 1,
+        "schema_version": 2,
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "last_checked_at": datetime.now(timezone.utc).isoformat(),
         "items": items,
