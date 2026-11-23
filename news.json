@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T17:27:04.286165+00:00",
-  "last_checked_at": "2026-11-23T17:27:04.286179+00:00",
+  "updated_at": "2026-11-23T18:18:36.332052+00:00",
+  "last_checked_at": "2026-11-23T18:18:36.332079+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -252,57 +252,57 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Constitutional law expert brands defence bill allowing secret security rules ‘lazy and irresponsible’",
-      "summary": "Anne Twomey says lack of proper debate around bill is ‘flabbergasting’ amid concerns over extension of ministerial powers Get our daily political email , free app or daily news podcast Labor’s new defence bill is “lazy and irresponsible” lawmaking, one of Aust",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/constitutional-law-expert-brands-defence-bill-allowing-secret-security-rules-lazy-and-irresponsible",
-      "published": "2026-11-23T08:23:55+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 36,
+      "source": "BBC News – Свят",
+      "title": "What failure of COP31 reveals about a divided world",
+      "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
+      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T17:24:25+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 35,
       "priority_breakdown": {
-        "economic_significance": 0,
+        "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
-      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
-      "published": "2026-11-22T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
+      "source": "The Guardian – World",
+      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
+      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warnin",
+      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
+      "published": "2026-11-23T16:42:09+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 35,
       "priority_breakdown": {
-        "economic_significance": 0,
+        "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 99
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
+      "source": "Investor.bg – Финанси",
+      "title": "УниКредит Булбанк отвори мобилното си приложение за всички потребители",
       "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
-      "published": "2026-11-23T16:58:00+00:00",
-      "feed_id": "investor-economy",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439948-unikredit-bulbank-otvori-mobilnoto-si-prilozhenie-za-vsichki-potrebiteli",
+      "published": "2026-11-23T17:28:00+00:00",
+      "feed_id": "investor-finance",
       "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
       }
@@ -481,25 +481,6 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-morning",
-      "published": "2026-11-23T06:00:32+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
       "title": "South Korea’s education minister resigns after backlash over AI exam cheating rules",
       "summary": "South Korea’s university entrance exam can shape a student’s future. Hidden cameras and smart glasses have fuelled fears of AI-assisted cheating, prompting last-minute security measures that drew criticism and led to the education minister’s resignation.",
       "url": "https://www.euronews.com/2026/11/23/south-koreas-education-minister-resigns-after-backlash-over-ai-exam-cheating-rules",
@@ -513,6 +494,25 @@
         "household_business_impact": 42,
         "strategic_significance": 0,
         "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 23rd, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-morning",
+      "published": "2026-11-23T06:00:32+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
         "source_reliability": 91
       }
     },
@@ -575,21 +575,21 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
-      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warnin",
-      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
-      "published": "2026-11-23T16:42:09+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "source": "Европейска комисия",
+      "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
+      "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
+      "published": "2026-11-22T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
       "priority_score": 35,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -609,6 +609,25 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
+      "published": "2026-11-23T16:58:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -645,7 +664,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -685,44 +704,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Grand Theft Auto VI backlash engulfs Greek leader Mitsotakis",
-      "summary": "Opposition chiefs hit out at Greece's prime minister after he suggested that pensioners buy their grandchildren the violent video game.",
-      "url": "https://www.politico.eu/article/greece-grand-theft-auto-vi-backlash-kyriakos-mitsotakis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T12:18:04+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "UK appoints energy boss to drive reindustrialization",
-      "summary": "LONDON — Great British Energy Chair Jürgen Maier has been appointed the government’s new northern economy and reindustrialisation commissioner, in a move aimed at attracting private investment and accelerating growth across the North. The appointment was annou",
-      "url": "https://www.politico.eu/article/jurgen-maier-uk-reindustrialization-tsar/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T11:05:45+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
       }
     },
     {
@@ -802,6 +783,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Целта ни е да трансформираме здравната система към повече профилактика, заяви премиерът Румен Радев на среща с БЛС",
+      "summary": "Целта ни е да трансформираме здравната система така, че акцентът в нея да премине от болнично лечение към повече профилактика, заяви министър-председателят Румен Радев по време на среща с ръководството на Българския лекарски съюз (БЛС), съобщиха от правителств",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252811-tselta-ni-e-da-transformirame-zdravnata-sistema-kam-poveche-profilaktika-zayavi",
+      "published": "2026-11-23T18:04:16+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Регионалните екоинспекции са извършили над 2100 проверки и са издали 601 предписания за отстраняване на нарушения през октомври",
+      "summary": "Петнадесетте регионални инспекции по околната среда и водите (РИОСВ) са извършили 2115 проверки на 1838 обекта в страната през изминалия месец. Това съобщиха от пресцентъра на Министерството на околната среда и водите (МОСВ). След проверките инспекциите са изд",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252783-regionalnite-ekoinspektsii-sa-izvarshili-nad-2100-proverki-i-sa-izdali-601-predp",
+      "published": "2026-11-23T17:39:42+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "At least 24 people killed in Indonesia factory fire, police say",
@@ -810,13 +829,13 @@
       "published": "2026-11-23T14:39:22+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 33,
+      "priority_score": 32,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 91
       }
     },
@@ -917,25 +936,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Badenoch: Rejoining EU won’t fix Britain’s economic woes",
-      "summary": "Renewed membership of the EU \"is not going to solve our recurring problems,\" Tory leader told business chiefs.",
-      "url": "https://www.politico.eu/article/kemi-badenoch-rejoining-eu-wont-fix-britains-economic-woes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T14:31:56+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "China commits to low-carbon electrification and help for others to improve",
       "summary": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the same, a senior member of the",
@@ -956,29 +956,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Ученици от Попово се запознаха с работата на полицията след отличаването на свои съученици за доблестна постъпка",
-      "summary": "Над 40 ученици от Основно училище „Никола Й. Вапцаров“ в Попово посетиха Районното управление (РУ) в града и се запознаха с работата на полицейските служители. Инициативата е във връзка с кампанията на Министерството на вътрешните работи (МВР) „Малките големи",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252630-uchenitsi-ot-popovo-se-zapoznaha-s-rabotata-na-politsiyata-sled-otlichavaneto-na",
-      "published": "2026-11-23T15:43:45+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Приютът за безстопанствени кучета в Свищов отправи призив за даряване на средства за ремонт на основната сграда и за ежедневни разходи",
-      "summary": "Приютът за безстопанствени кучета в Свищов, който се стопанисва от неправителствената организация (НПО) „Живот без риск за бездомните животни“, отправи призив за даряване на средства за ремонт на основната сграда и ежедневни разходи за храна, консерви за болни",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252658-priyutat-za-bezstopanstveni-kucheta-v-svishtov-otpravi-priziv-za-daryavane-na-sr",
-      "published": "2026-11-23T15:35:00+00:00",
+      "title": "Изложба, посветена на 100-годишнината от рождението на скулптора Цвятко Йорданов, бе открита във Враца",
+      "summary": "Изложба, посветена на 100-годишнината от рождението на българския скулптор Цвятко Йорданов, бе открита в Регионалния исторически музей във Враца. Инициативата е на Народно читалище „Просвета 1927“ – с. Вировско, откъдето е родом творецът, и е реализирана по пр",
+      "url": "https://www.bta.bg/bg/news/lik/1252789-izlozhba-posvetena-na-100-godishninata-ot-rozhdenieto-na-skulptora-tsvyatko-yor",
+      "published": "2026-11-23T17:47:04+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -994,10 +975,48 @@
     {
       "section": "europe",
       "source": "POLITICO Europe",
+      "title": "Badenoch: Rejoining EU won’t fix Britain’s economic woes",
+      "summary": "Renewed membership of the EU \"is not going to solve our recurring problems,\" Tory leader told business chiefs.",
+      "url": "https://www.politico.eu/article/kemi-badenoch-rejoining-eu-wont-fix-britains-economic-woes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T14:31:56+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
       "title": "Macron moves to ‘trap’ successors with new budget rule",
       "summary": "The French president's opponents and allies aren't buying his rationale for new deficit spending legislation.",
       "url": "https://www.politico.eu/article/emmanuel-macron-trap-successors-budget-rule-france/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "2026-11-23T13:53:21+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU countries pile pressure on Brussels to simplify fishing sector rules",
+      "summary": "Ministers say Brussels’ fisheries plan falls short as the industry grapples with high energy costs and an aging workforce.",
+      "url": "https://www.politico.eu/article/governments-pile-pressure-on-brussels-to-simplify-fishing-sector-rules/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T13:47:41+00:00",
       "feed_id": "politico-europe",
       "publisher": "POLITICO",
       "priority_score": 29,
@@ -1027,25 +1046,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "De Wever sets year-end deadline for Belgian budget deal",
-      "summary": "The five-party coalition government is deadlocked over how to shrink the deficit.",
-      "url": "https://www.politico.eu/article/belgium-bart-de-wever-heads-to-king-with-no-budget-deal-in-sight/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T11:11:49+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
       }
     },
     {
@@ -1106,44 +1106,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Цената на петрола спада под натиска на изобилното предлагане*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439907-tsenata-na-petrola-spada-pod-natiska-na-izobilnoto-predlagane",
-      "published": "2026-11-23T07:25:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Taiwan warns Canada against deeper China trade ties as Carney seeks to diversify",
-      "summary": "The warning came days after Carney met Chinese President Xi Jinping in Shenzhen, where the two sides agreed further tariff cuts as Canada looks for new markets as Trump's trade war continues.",
-      "url": "https://www.euronews.com/2026/11/23/taiwan-warns-canada-against-deeper-china-trade-ties-as-carney-seeks-to-diversify",
-      "published": "2026-11-23T05:27:13+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
@@ -1198,6 +1160,44 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+      "summary": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
+      "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T18:04:20+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
+      "summary": "The impersonator, Canadian comedian Mark Critch, poked fun at the US president's search for a new press secretary and US-Canada trade talks.",
+      "url": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T17:14:50+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     },
     {
@@ -1335,14 +1335,9 @@
     }
   ],
   "feed_status": {
-    "ok": 20,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "parliament-news",
-        "error": "<urlopen error timed out>"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
