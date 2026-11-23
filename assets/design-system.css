@@ -251,3 +251,14 @@ body > a.skip-link:focus-visible{
   outline:3px solid #A8732E!important;
   outline-offset:3px!important;
 }
+
+/* Навигация: пълни заглавия и „Новини“ само в мобилния интерфейс */
+#site-content nav#nav .nav-title{
+  white-space:normal!important;
+  overflow-wrap:normal;
+  word-break:normal;
+  text-overflow:clip;
+}
+@media(min-width:640px){
+  #site-content nav#nav button[data-i="15"]{display:none!important}
+}
