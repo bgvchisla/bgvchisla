@@ -1,15 +1,35 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:24:37.651911+00:00",
-  "last_checked_at": "2026-11-22T23:24:37.651915+00:00",
+  "updated_at": "2026-11-23T00:06:47.797247+00:00",
+  "last_checked_at": "2026-11-23T00:06:47.797253+00:00",
   "items": [
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Lucy Powell promotes UK education in China despite risks",
+      "summary": "The U.K. education secretary's visit to Beijing comes days after Wes Streeting praised the government for stepping up its interaction with China.",
+      "url": "https://www.politico.eu/article/lucy-powell-promotes-uk-education-in-china-despite-risks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T00:01:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
     {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
       "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-22T22:53:28+00:00",
+      "published": "2026-11-22T23:51:38+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and more remember music industry great",
+      "summary": "Friends and fans share memories of a man Donovan described as ‘a truly unique character’ and ‘a great Australian’ Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83 Ian ‘Molly’ Meldrum – obituary Friends and fans of Molly Meldrum have",
+      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes",
+      "published": "2026-11-22T23:17:16+00:00",
       "feed_id": "guardian-world",
       "priority_score": 0
     },
@@ -37,7 +57,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
-      "summary": "Much-loved broadcaster played a critical role in exposing rest of the world to Australian music – and vice versa Ian ‘Molly’ Meldrum – obituary Molly Meldrum, the Australian music journalist, broadcaster and producer, has died at the age of 83. He died peacefu",
+      "summary": "Much-loved broadcaster played a critical role in exposing rest of the world to Australian music – and vice versa Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly",
       "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
       "published": "2026-11-22T22:24:56+00:00",
       "feed_id": "guardian-world",
@@ -354,16 +374,6 @@
       "priority_score": 38
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Cop31 climate talks break down as key deal rejected",
-      "summary": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels The EU, the UK and allies in the developing world rejected what they called an unacceptable deal on the future of the climate, which faile",
-      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
-      "published": "2026-11-22T16:14:46+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Чешката икономика е изправена пред стагфлационен шок, предупреди централен банкер",
@@ -431,7 +441,7 @@
       "url": "https://www.investor.bg/a/536-finansi/439889-aktsiya-na-sedmitsata-parva-investitsionna-banka-ad",
       "published": "2026-11-22T08:04:00+00:00",
       "feed_id": "investor-finance",
-      "priority_score": 45
+      "priority_score": 44
     },
     {
       "section": "bulgaria",
@@ -441,7 +451,7 @@
       "url": "https://www.economic.bg/bg/a/view/poredica-ot-it-srivove-rodi-nova-ikonomika-na-apokalipsisa",
       "published": "2026-11-22T08:00:25+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 40
+      "priority_score": 39
     },
     {
       "section": "bulgaria",
@@ -692,22 +702,21 @@
       "published": "2026-11-13T10:00:00+00:00",
       "feed_id": "eurostat-news",
       "priority_score": 27
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Ireland contributes EUR 200,000 to strengthen trade opportunities in developing countries",
-      "summary": "Ireland is contributing EUR 200,000 (approximately CHF 185,000) to the Standards and Trade Development Facility (STDF) in 2026 to strengthen sanitary and phytosanitary capacity in developing and least-developed countries. The contribution will support STDF act",
-      "url": "https://www.wto.org/english/news_e/pres26_e/pr998_551_e.htm",
-      "published": "2026-11-13T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "priority_score": 27
     }
   ],
   "feed_status": {
-    "ok": 21,
+    "ok": 19,
     "total": 21,
-    "failures": []
+    "failures": [
+      {
+        "feed": "investor-bg",
+        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      {
+        "feed": "investor-economy",
+        "error": "<urlopen error [Errno -2] Name or service not known>"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
