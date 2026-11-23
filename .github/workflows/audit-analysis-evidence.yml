@@ -172,7 +172,8 @@ jobs:
                 startsWith(github.head_ref, 'automation/independent-ai-factcheck-') ||
                 startsWith(github.head_ref, 'automation/fix-chart-numeric-') ||
                 startsWith(github.head_ref, 'fix/debt-counter-') ||
-                startsWith(github.head_ref, 'fix/news-ui-enforces-publisher-diversity-')
+                startsWith(github.head_ref, 'fix/news-ui-enforces-publisher-diversity-') ||
+                startsWith(github.head_ref, 'fix/news-more-divider-')
               )
             ) ||
             (
@@ -185,7 +186,8 @@ jobs:
                 startsWith(github.ref_name, 'automation/independent-ai-factcheck-') ||
                 startsWith(github.ref_name, 'automation/fix-chart-numeric-') ||
                 startsWith(github.ref_name, 'fix/debt-counter-') ||
-                startsWith(github.ref_name, 'fix/news-ui-enforces-publisher-diversity-')
+                startsWith(github.ref_name, 'fix/news-ui-enforces-publisher-diversity-') ||
+                startsWith(github.ref_name, 'fix/news-more-divider-')
               )
             )
           )
@@ -202,7 +204,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/independent-ai-factcheck-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*) ;;
+            analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/independent-ai-factcheck-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
