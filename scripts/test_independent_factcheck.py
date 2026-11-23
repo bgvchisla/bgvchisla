@@ -41,6 +41,7 @@ def validate_report(path: Path) -> None:
     assert len(numeric_items) == report.get("numeric_blocks_found")
     for item in numeric_items:
         assert item.get("verdict") == "verified"
+        assert item.get("statement"), "Липсва точният числов блок, върнат от проверяващия."
         evidence = set(item.get("evidence_urls", []))
         assert evidence and evidence.issubset(retrieved)
 
@@ -74,6 +75,9 @@ def validate_static() -> None:
     assert "urlContextMetadata" in verifier
     assert "URL_RETRIEVAL_STATUS_SUCCESS" in verifier
     assert "numeric_statements" in verifier
+    assert "normalized_quote" in verifier
+    assert "quote_matches_article" in verifier
+    assert "statement_matches" in verifier
     assert "numeric_audit_items" in verifier
     assert "toolUsePromptTokenCount" in verifier
     assert "thoughtsTokenCount" in verifier
