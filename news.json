@@ -1,8 +1,178 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:51:54.196446+00:00",
-  "last_checked_at": "2026-11-23T04:51:54.196451+00:00",
+  "updated_at": "2026-11-23T05:53:57.829826+00:00",
+  "last_checked_at": "2026-11-23T05:53:57.829829+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "„Суперцикъл“ от национални избори могат да поставят под заплаха основите на ЕС",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/439905-supertsikal-ot-natsionalni-izbori-mogat-da-postavyat-pod-zaplaha-osnovite-na-es",
+      "published": "2026-11-23T05:47:41+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: NSW MP Alex Greenwich drops support for Fred Nile state funeral after blowback from LGBTQ+ community",
+      "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
+      "published": "2026-11-23T05:45:00+00:00",
+      "feed_id": "guardian-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "US intelligence chief warns of more tech outages as Delta suffers fresh Atlanta failure",
+      "summary": "The warning comes as Americans face a growing run of failures affecting air travel, Microsoft email services, major banks and the National Security Agency's network.",
+      "url": "https://www.euronews.com/2026/11/23/us-intelligence-chief-warns-of-more-tech-outages-as-delta-suffers-fresh-atlanta-failure",
+      "published": "2026-11-23T05:42:49+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Финалният концерт от националното турне за 2026 г. на Лили Иванова е тази вечер в Ямбол",
+      "summary": "Лили Иванова ще се срещне с публиката в Ямбол днес от 19:00 часа в спортната зала „Диана“, съобщиха от екипа ѝ. Това е финалният концерт от тазгодишното национално турне на певицата, преминало през 13 града в страната. Примата на българската музика ще излезе н",
+      "url": "https://www.bta.bg/bg/news/lik/1251847-finalniyat-kontsert-ot-natsionalnoto-si-turne-za-2026-g-na-lili-ivanova-e-tazi-",
+      "published": "2026-11-23T05:40:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "В Русия виждат заплахи за Калининград от дронове, а не танкове, Украйна затяга \"Кримски котел\"",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439904-v-rusiya-vizhdat-zaplahi-za-kaliningrad-ot-dronove-a-ne-tankove-ukrayna-zatyaga-krimski-kotel",
+      "published": "2026-11-23T05:38:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "What's next after no deal at COP31 climate talks?",
+      "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
+      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T05:34:39+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "summary": "Eleven people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building.",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T05:33:17+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Европа се отказа от руското гориво - и стана зависима от китайските зелени технологии",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439787-evropa-se-otkaza-ot-ruskoto-gorivo-i-stana-zavisima-ot-kitayskite-zeleni-tehnologii",
+      "published": "2026-11-23T05:31:00+00:00",
+      "feed_id": "investor-economy",
+      "priority_score": 42
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Изложбата \"35 години Конституция на Република България\" ще бъде представена в Русе",
+      "summary": "Фотодокументалната изложба \"35 години Конституция на Република България\", подготвена от Народното събрание, ще бъде представена на днес в Регионалната библиотека \"Любен Каравелов\" в Русе. Това съобщи Татяна Савова от културната институция. Инициативата за експ",
+      "url": "https://www.bta.bg/bg/news/lik/1251971-izlozhbata-35-godini-konstitutsiya-na-republika-balgariya-shte-bade-predstaven",
+      "published": "2026-11-23T05:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Taiwan warns Canada against deeper China trade ties as Carney seeks to diversify",
+      "summary": "The warning came days after Carney met Chinese President Xi Jinping in Shenzhen, where the two sides agreed further tariff cuts as Canada looks for new markets as Trump's trade war continues.",
+      "url": "https://www.euronews.com/2026/11/23/taiwan-warns-canada-against-deeper-china-trade-ties-as-carney-seeks-to-diversify",
+      "published": "2026-11-23T05:27:13+00:00",
+      "feed_id": "euronews",
+      "priority_score": 44
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Нормално е движението на всички гранични преходи и пунктове в страната, съобщиха от „Гранична полиция“",
+      "summary": "Нормален е трафикът на всички гранични контролно-пропускателни пунктове и преходи, съобщиха от „Гранична полиция“ за движението по българските граници към 6:00 ч. Нормален е трафикът на границата с Република Румъния. Фериботната платформа „Свищов – Зимнич“ не",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252125-normalno-e-dvizhenieto-na-vsichki-granichni-prehodi-i-punktove-v-stranata-saobs",
+      "published": "2026-11-23T05:23:07+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+      "summary": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\".",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T05:15:06+00:00",
+      "feed_id": "bbc-world",
+      "priority_score": 0
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Очаква се на заседание Светият синод да определи наместник-предстоятел на Ловчанската епархия, който да я ръководи до избора на митрополит",
+      "summary": "Светият синод на Българската православна църква - Българска патриаршия (БПЦ-БП) ще има днес извънредно заседание в Синодалната палата. Очаква се на него да бъде решено кога ще се състои опелото на Ловчанския митрополит Гавриил, което вероятно ще е на 24 ноемвр",
+      "url": "https://www.bta.bg/bg/news/lik/1252061-ochakva-se-na-zasedanie-svetiyat-sinod-da-opredeli-namestnik-predstoyatel-na-lov",
+      "published": "2026-11-23T05:10:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "France gets an EU budget win — but wants more",
+      "summary": "Presented by Fusion for Energy.",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/france-gets-an-eu-budget-win-but-wants-more/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T05:05:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Nine people injured after gunfire at central California concert",
+      "summary": "The sheriff's department said it believes the shooting \"may be gang-related\" but gave no further detail.",
+      "url": "https://www.euronews.com/2026/11/23/nine-people-injured-after-gunfire-at-central-california-concert",
+      "published": "2026-11-23T05:00:18+00:00",
+      "feed_id": "euronews",
+      "priority_score": 0
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "“Faire des milliardaires les méchants de l’histoire” : à Paris, les gauches occidentales tâchent de faire front commun",
+      "summary": "L'économiste Gabriel Zucman a rassemblé les partisans d'une taxation des plus riches, lors d'un premier sommet parisien dédié à la cause. Mais la gauche française n'apparaît pas unie à ce stade.",
+      "url": "https://www.politico.eu/article/faire-des-milliardaires-les-mechants-de-lhistoire-a-paris-les-gauches-occidentales-tachent-de-faire-front-commun/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T05:00:00+00:00",
+      "feed_id": "politico-europe",
+      "priority_score": 39
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Оранжев и жълт код за силен вятър са обявени за страната днес",
+      "summary": "Оранжев код за силен вятър е обявен в голяма част от Централна и Западна България за днес, а в останалата част от страната има предупреждение за потенциално опасно време – жълт код, заради силен вятър. Това съобщиха от Националния институт по метеорология и хи",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1251978-oranzhev-i-zhalt-kod-za-silen-vyatar-sa-obyaveni-za-stranata-dnes",
+      "published": "2026-11-23T05:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "priority_score": 0
+    },
     {
       "section": "bulgaria",
       "source": "БТА",
@@ -25,29 +195,9 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-      "summary": "Ten people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building.",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T04:44:00+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian politics live: Opposition hammers Labor over $150m ‘Cop flop’; Tehan kicked out of parliament for ‘taking mickey’ with Molly Meldrum catchphrase",
-      "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "published": "2026-11-23T04:38:29+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
-      "summary": "Crown says accused developed ‘jealous obsession’ but defence says ‘he was a poorly behaved boyfriend’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Love made a fool of Beau Lamarre-Condo",
+      "summary": "Crown says accused former officer developed ‘jealous obsession’ but defence says ‘he was a poorly behaved boyfriend’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Love made a fool of Bea",
       "url": "https://www.theguardian.com/australia-news/2026/nov/23/beau-lamarre-condon-trail-executed-jesse-baird-prosecution-argues-ntwnfb",
       "published": "2026-11-23T04:34:11+00:00",
       "feed_id": "guardian-world",
@@ -226,16 +376,6 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-      "summary": "Hopes for an agreement on tackling climate change collapsed after a row about mentioning fossil fuels",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T00:50:35+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
       "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
       "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
       "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
@@ -251,126 +391,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-23T00:08:00+00:00",
       "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Lucy Powell promotes UK education in China despite risks",
-      "summary": "The U.K. education secretary's visit to Beijing comes days after Wes Streeting praised the government for stepping up its interaction with China.",
-      "url": "https://www.politico.eu/article/lucy-powell-promotes-uk-education-in-china-despite-risks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T00:01:00+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
-      "summary": "The prime minister will tell MPs the deal agreed on Friday is a \"choice between a broken status quo or change\".",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T22:49:10+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-      "summary": "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
-      "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T22:37:43+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Morocco: A surreal sculpture park turns the world upside down",
-      "summary": "An upside-down house, giant furniture and vegetable-headed figures await visitors at Ramakech, an 11-hectare sculpture park near Marrakech, where French artist Jean-François Fourtou brings childhood memories to life through extraordinary, larger-than-life inst",
-      "url": "https://www.euronews.com/video/2026/11/22/morocco-a-surreal-sculpture-park-turns-the-world-upside-down",
-      "published": "2026-11-22T22:33:48+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-      "summary": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia A Russian warship docked in the Libyan port city of Benghazi was struck in the early hours of Sunday in a suspected Ukrainian sea drone attack, causing a",
-      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-      "published": "2026-11-22T21:33:44+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Turkey: Thousands protest closure of critical media outlets",
-      "summary": "Protesters gathered in Istanbul to show their support for press freedom in Turkey. The protest was called just days after the police raided Sozcu TV and arrested several senior staff members.",
-      "url": "https://www.dw.com/en/turkey-thousands-protest-closure-of-critical-media-outlets/a-80015347?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T21:31:00+00:00",
-      "feed_id": "dw-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Midterms: US Democrats secure biggest House majority in decades",
-      "summary": "Democrats have secured their largest US House of Representatives majority in more than three decades, dealing a crushing blow to President Donald Trump and setting the stage for two years of divided government, political confrontation and ambitious legislative",
-      "url": "https://www.euronews.com/2026/11/22/midterms-us-democrats-secure-biggest-house-majority-in-decades",
-      "published": "2026-11-22T21:29:39+00:00",
-      "feed_id": "euronews",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Miley Cyrus marries Maxx Morando in California ceremony",
-      "summary": "The couple have been together for four years and were engaged in 2025.",
-      "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-22T21:22:40+00:00",
-      "feed_id": "bbc-world",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Costa gives Macron early Christmas present on EU budget",
-      "summary": "Governments have criticized European Council President António Costa's proposal on the bloc's 7-year budget for leaning toward France.",
-      "url": "https://www.politico.eu/article/antonio-costa-emmanuel-macron-early-christmas-present-eu-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-22T21:14:19+00:00",
-      "feed_id": "politico-europe",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
-      "summary": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a friend” during their",
-      "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
-      "published": "2026-11-22T20:55:33+00:00",
-      "feed_id": "guardian-world",
-      "priority_score": 0
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Самоков отбеляза 230 години от рождението на Димитър Зограф с научна конференция и музейни инициативи",
-      "summary": "Самоков отбеляза 230 години от рождението на Димитър Зограф с научна конференция, изложба и музейни инициативи, посветени на живота и творчеството на възрожденския художник и на културното наследство на града. Националната научна конференция „Димитър Зограф и",
-      "url": "https://www.bta.bg/bg/news/lik/1251671-samokov-otbelyaza-230-godini-ot-rozhdenieto-na-dimitar-zograf-s-nauchna-konferen",
-      "published": "2026-11-22T20:06:17+00:00",
-      "feed_id": "bta-bulgaria",
-      "priority_score": 0
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Sudan: Drones hit UN building, residential area in Khartoum",
-      "summary": "The drones targeted Khartoum, damaging a UN building in the residential area. The UN agency deemed it unacceptable that humanitarian workers were exposed to such danger.",
-      "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T19:25:00+00:00",
-      "feed_id": "dw-world",
       "priority_score": 0
     },
     {
@@ -401,7 +421,7 @@
       "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-22T13:18:00+00:00",
       "feed_id": "dw-world",
-      "priority_score": 42
+      "priority_score": 41
     },
     {
       "section": "europe",
@@ -412,26 +432,6 @@
       "published": "2026-11-22T12:39:00+00:00",
       "feed_id": "dw-world",
       "priority_score": 36
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 22nd, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 22nd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/22/latest-news-bulletin-november-22nd-2026-midday",
-      "published": "2026-11-22T11:00:15+00:00",
-      "feed_id": "euronews",
-      "priority_score": 36
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Mongolia's power struggle deepens as Parliament approves president's resignation",
-      "summary": "Mongolia is facing growing political and economic uncertainty after Parliament approved the resignation of president Khurelsukh Ukhnaa. Rising inflation and fuel shortages are adding to economic pressures, while rival factions within the ruling People's Party",
-      "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
-      "published": "2026-11-22T11:00:00+00:00",
-      "feed_id": "euronews",
-      "priority_score": 41
     },
     {
       "section": "bulgaria",
@@ -461,7 +461,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-riskuva-budjetna-globa-ot-bruksel",
       "published": "2026-11-22T07:01:04+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 44
+      "priority_score": 43
     },
     {
       "section": "europe",
@@ -491,7 +491,7 @@
       "url": "https://www.economic.bg/bg/a/view/kolko-bolnichni-polzvat-raboteshtite-v-evropa-i-kolko-struva-tova-na-ikonomikata",
       "published": "2026-11-21T11:35:11+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 36
+      "priority_score": 35
     },
     {
       "section": "europe",
@@ -501,7 +501,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
       "published": "2026-11-21T11:28:47+00:00",
       "feed_id": "commission-press",
-      "priority_score": 38
+      "priority_score": 37
     },
     {
       "section": "europe",
@@ -531,7 +531,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
-      "priority_score": 36
+      "priority_score": 35
     },
     {
       "section": "europe",
@@ -541,7 +541,7 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
       "published": "2026-11-20T23:00:00+00:00",
       "feed_id": "commission-press",
-      "priority_score": 41
+      "priority_score": 40
     },
     {
       "section": "bulgaria",
@@ -551,7 +551,7 @@
       "url": "https://www.economic.bg/bg/a/view/bylgarija-usvoi-99-ot-pvu-oshte-110-mln-evro-za-spravedliv-prehod",
       "published": "2026-11-20T16:10:40+00:00",
       "feed_id": "economic-bg",
-      "priority_score": 37
+      "priority_score": 36
     },
     {
       "section": "europe",
