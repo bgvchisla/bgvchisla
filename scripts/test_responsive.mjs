@@ -52,6 +52,21 @@ try {
         scrollWidth: document.documentElement.scrollWidth,
         navColumns: style("#site-content nav#nav")?.gridTemplateColumns.split(" ").length ?? 0,
         navButtonCount: get("#site-content nav#nav")?.querySelectorAll("button[data-i]").length ?? 0,
+        navVisibleButtonCount: Array.from(get("#site-content nav#nav")?.querySelectorAll("button[data-i]") ?? [])
+          .filter(button => getComputedStyle(button).display !== "none").length,
+        newsNavButtonDisplay: style('#site-content nav#nav button[data-i="15"]')?.display ?? null,
+        longNavLabels: ["Фискални данни", "Кредити и банки"].map(label => {
+          const button = Array.from(get("#site-content nav#nav")?.querySelectorAll("button[data-i]") ?? [])
+            .find(item => item.querySelector(".nav-title")?.textContent?.trim() === label);
+          const title = button?.querySelector(".nav-title");
+          return {
+            label,
+            text: title?.textContent?.trim() ?? "",
+            clientWidth: title?.clientWidth ?? 0,
+            scrollWidth: title?.scrollWidth ?? 0,
+            whiteSpace: title ? getComputedStyle(title).whiteSpace : "",
+          };
+        }),
         sideNewsDisplay: style(".news-side")?.display ?? null,
         headingDirection: style(".page-heading-row")?.flexDirection ?? null,
         headingRect: rect(".page-heading"),
@@ -94,6 +109,21 @@ try {
     assert.ok(metrics.scrollWidth <= metrics.clientWidth + 1,
       viewport.name + ": horizontal overflow (" + metrics.scrollWidth + " > " + metrics.clientWidth + ")");
     assert.equal(metrics.navButtonCount, 16, viewport.name + ": expected 16 navigation buttons");
+    assert.equal(metrics.navVisibleButtonCount, viewport.width >= 1200 ? 15 : 16,
+      viewport.name + ": unexpected number of visible navigation buttons");
+    if (viewport.width >= 1200) {
+      assert.equal(metrics.newsNavButtonDisplay, "none",
+        viewport.name + ": News navigation button must be hidden on desktop");
+    } else {
+      assert.notEqual(metrics.newsNavButtonDisplay, "none",
+        viewport.name + ": News navigation button must remain available below desktop width");
+    }
+    for (const label of metrics.longNavLabels) {
+      assert.equal(label.text, label.label, viewport.name + ": navigation label text changed");
+      assert.ok(label.clientWidth > 0, viewport.name + ": " + label.label + " has no visible text width");
+      assert.ok(label.scrollWidth <= label.clientWidth + 1,
+        viewport.name + ": " + label.label + " is clipped instead of wrapping");
+    }
     assert.equal(metrics.navColumns, viewport.navColumns,
       viewport.name + ": unexpected navigation grid column count");
     assert.ok(metrics.cssLoaded, viewport.name + ": design-system.css failed to load");
