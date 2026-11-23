@@ -97,15 +97,23 @@ class PublisherDiversityTests(unittest.TestCase):
                 "source": f"Investor.bg – {feed_id}",
                 "section": "bulgaria",
             })
-        for i in range(8):
-            items.append({
-                "title": f"Other publisher headline {i}",
-                "published": f"2026-11-23T{10 - (i // 2):02d}:{(i % 2) * 20:02d}:00+00:00",
-                "priority_score": 60 - i,
-                "feed_id": "bta-bulgaria" if i % 2 == 0 else "economic-bg",
-                "source": "БТА" if i % 2 == 0 else "Economic.bg",
-                "section": "bulgaria",
-            })
+        other_publishers = [
+            ("bta-bulgaria", "БТА"),
+            ("economic-bg", "Economic.bg"),
+            ("parliament-news", "Народно събрание"),
+            ("bnb-news", "БНБ"),
+        ]
+        for index, (feed_id, source) in enumerate(other_publishers):
+            for sequence in range(3):
+                i = index * 3 + sequence
+                items.append({
+                    "title": f"{source} headline {i}",
+                    "published": f"2026-11-23T{10 - (i // 2):02d}:{(i % 2) * 20:02d}:00+00:00",
+                    "priority_score": 70 - i,
+                    "feed_id": feed_id,
+                    "source": source,
+                    "section": "bulgaria",
+                })
 
         selected = update_news.select_news_items(items, limit=20, top_window=10, max_per_publisher=2)
         first_ten_counts = {}
@@ -125,25 +133,24 @@ class PublisherDiversityTests(unittest.TestCase):
 
     def test_each_news_section_gets_its_own_diversified_top_ten(self):
         items = []
+        publisher_specs = [
+            ("investor-economy", "Investor.bg – Икономика и политика", 12, 100),
+            ("bta-bulgaria", "БТА", 3, 70),
+            ("economic-bg", "Economic.bg", 3, 60),
+            ("parliament-news", "Народно събрание", 3, 50),
+            ("bnb-news", "БНБ", 3, 40),
+        ]
         for section in ("bulgaria", "europe"):
-            for i in range(12):
-                items.append({
-                    "title": f"{section} Investor story {i}",
-                    "published": f"2026-11-23T{11 - i:02d}:00:00+00:00",
-                    "priority_score": 100 - i,
-                    "feed_id": "investor-economy",
-                    "source": "Investor.bg – Икономика и политика",
-                    "section": section,
-                })
-            for i in range(8):
-                items.append({
-                    "title": f"{section} BTA story {i}",
-                    "published": f"2026-11-23T{10 - i:02d}:00:00+00:00",
-                    "priority_score": 70 - i,
-                    "feed_id": "bta-bulgaria",
-                    "source": "БТА",
-                    "section": section,
-                })
+            for feed_id, source, count, base_score in publisher_specs:
+                for i in range(count):
+                    items.append({
+                        "title": f"{section} {source} story {i}",
+                        "published": f"2026-11-23T{11 - (i % 12):02d}:{i:02d}:00+00:00",
+                        "priority_score": base_score - i,
+                        "feed_id": feed_id,
+                        "source": source,
+                        "section": section,
+                    })
         selected = update_news.select_news_items(items, limit=40)
         for section in ("bulgaria", "europe"):
             section_items = [item for item in selected if item["section"] == section]
