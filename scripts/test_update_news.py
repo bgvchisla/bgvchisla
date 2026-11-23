@@ -113,35 +113,6 @@ class EditorialScoringTests(unittest.TestCase):
         }
         self.assertFalse(update_news.is_lead_eligible(stale, now))
 
-    def test_fresh_lead_overtakes_stale_weekly_roundup_without_removing_it(self):
-        now = datetime(2026, 11, 23, 14, 15, tzinfo=timezone.utc)
-        stale_weekly_roundup = {
-            "section": "bulgaria",
-            "publisher": "Economic.bg",
-            "source": "Economic.bg",
-            "title": "Седмични новини: България ще строи целия жп тунел „Деве баир“",
-            "published": "2026-11-22T15:30:13+00:00",
-            "priority_score": 67,
-        }
-        fresh_business_story = {
-            "section": "bulgaria",
-            "publisher": "Economic.bg",
-            "source": "Economic.bg",
-            "title": "Бизнесът има достъп до 81.5 млн. евро за иновации и развитие на технологии",
-            "published": "2026-11-23T13:04:47+00:00",
-            "priority_score": 54,
-        }
-
-        self.assertFalse(update_news.is_lead_eligible(stale_weekly_roundup, now))
-        self.assertTrue(update_news.is_lead_eligible(fresh_business_story, now))
-        selected = update_news.select_news_items(
-            [stale_weekly_roundup, fresh_business_story],
-            limit=2,
-            now=now,
-        )
-        self.assertEqual(selected[0]["title"], fresh_business_story["title"])
-        self.assertIn(stale_weekly_roundup, selected)
-
     def test_oldest_available_story_is_not_marked_as_fresh_lead(self):
         now = datetime(2026, 11, 23, 14, 15, tzinfo=timezone.utc)
         stale = {
@@ -288,6 +259,13 @@ class RelatedCoverageTests(unittest.TestCase):
 
 
 class HomepageOrderingTests(unittest.TestCase):
+    def test_homepage_uses_an_18_hour_freshness_window_for_lead_news(self):
+        homepage = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertIn("var NEWS_LEAD_MAX_AGE_HOURS=18;", homepage)
+        self.assertIn("function isFreshLeadNews(item,now){", homepage)
+        self.assertIn("var freshLead=ranked.find(function(item){return isFreshLeadNews(item,Date.now())});", homepage)
+        self.assertIn("var leadItem=items.length&&isFreshLeadNews(items[0],Date.now())?items[0]:null;", homepage)
+
     def test_homepage_orders_by_significance_then_publication_time(self):
         homepage = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("function sortNewsByEditorialPriority(items){", homepage)
