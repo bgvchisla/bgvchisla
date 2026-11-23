@@ -226,7 +226,9 @@ class HomepageOrderingTests(unittest.TestCase):
         self.assertIn("var top=[],deferred=[],publisherCounts=Object.create(null);", function)
         self.assertIn('String(item.publisher||item.source||"unknown")', function)
         self.assertIn("top.length<10&&(publisherCounts[publisher]||0)<2", function)
-        self.assertIn("return top.concat(deferred.sort(compare));", function)
+        self.assertIn("var result=top.concat(deferred.sort(compare));", function)
+        self.assertIn("result.editorialTopCount=top.length;", function)
+        self.assertIn("return result;", function)
 
     def test_homepage_marks_more_news_after_diverse_lead_window(self):
         homepage = (ROOT / "index.html").read_text(encoding="utf-8")
