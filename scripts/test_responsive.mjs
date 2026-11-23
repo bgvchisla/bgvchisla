@@ -109,9 +109,9 @@ try {
     assert.ok(metrics.scrollWidth <= metrics.clientWidth + 1,
       viewport.name + ": horizontal overflow (" + metrics.scrollWidth + " > " + metrics.clientWidth + ")");
     assert.equal(metrics.navButtonCount, 16, viewport.name + ": expected 16 navigation buttons");
-    assert.equal(metrics.navVisibleButtonCount, viewport.width >= 1200 ? 15 : 16,
+    assert.equal(metrics.navVisibleButtonCount, viewport.width >= 640 ? 15 : 16,
       viewport.name + ": unexpected number of visible navigation buttons");
-    if (viewport.width >= 1200) {
+    if (viewport.width >= 640) {
       assert.equal(metrics.newsNavButtonDisplay, "none",
         viewport.name + ": News navigation button must be hidden on desktop");
     } else {
