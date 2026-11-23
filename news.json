@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:47:37.040329+00:00",
-  "last_checked_at": "2026-11-23T14:47:37.040342+00:00",
+  "updated_at": "2026-11-23T15:22:06.921571+00:00",
+  "last_checked_at": "2026-11-23T15:22:06.921588+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -99,25 +99,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU and Indonesia sign trade deal",
-      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
-      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T15:21:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 41,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Нетните активи на пенсионните фондове надхвърлят 17 млрд. евро в края на септември",
@@ -171,6 +152,25 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 92,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU and Indonesia sign trade deal",
+      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
+      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T15:21:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 50,
         "source_reliability": 95
       }
     },
@@ -233,25 +233,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Grand Theft Auto VI backlash engulfs Greek leader Mitsotakis",
-      "summary": "Opposition chiefs hit out at Greece's prime minister after he suggested that pensioners buy their grandchildren the violent video game.",
-      "url": "https://www.politico.eu/article/greece-grand-theft-auto-vi-backlash-kyriakos-mitsotakis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-23T12:18:04+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
       "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
@@ -271,6 +252,44 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Доц. Тонка Върлева е новият главен държавен здравен инспектор",
+      "summary": "Доц. Тонка Върлева е новият главен държавен здравен инспектор. Тя е лекар с над 35 години професионален опит в здравеопазването, здравната политика, глобалното здраве и научно-преподавателската дейност, съобщиха от Министерство на здравеопазването (МЗ). Доц. В",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252666-dots-tonka-varleva-e-noviyat-glaven-darzhaven-zdraven-inspektor",
+      "published": "2026-11-23T15:08:49+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Grand Theft Auto VI backlash engulfs Greek leader Mitsotakis",
+      "summary": "Opposition chiefs hit out at Greece's prime minister after he suggested that pensioners buy their grandchildren the violent video game.",
+      "url": "https://www.politico.eu/article/greece-grand-theft-auto-vi-backlash-kyriakos-mitsotakis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-23T12:18:04+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Шимкус: Повишение на лихвите през декември може да се окаже недостатъчно",
       "summary": "",
@@ -286,25 +305,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Катастрофа затруднява движението по Подбалканския път Казанлък-Сливен в района на Гурково",
-      "summary": "Временно движението на Подбалканския път Казанлък-Сливен в района на Гурково се осъществява двупосочно в една лента поради пътнотранспортно произшествие. Това съобщиха от Агенция „Пътна инфраструктура\". Трафикът се регулира с пътни знаци и временна организация",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252582-katastrofa-zatrudnyava-dvizhenieto-po-podbalkanskiya-pat-kazanlak-sliven-v-rayon",
-      "published": "2026-11-23T13:57:50+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -557,25 +557,6 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "EU takes aim at tech giants in tax proposal",
-      "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
-      "url": "https://www.dw.com/en/eu-takes-aim-at-tech-giants-in-tax-proposal/a-80009255?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T14:58:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
       "title": "Uganda minister at COP31: 'We need a just transition'",
       "summary": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
       "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
@@ -589,6 +570,44 @@
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP deadlock prompts calls for a reset of climate diplomacy",
+      "summary": "COP31 has been branded a failure after countries couldn't reach a final agreement, divided over a reference to \"fossil fuels.\" But was the decision to walk away from a watered-down text actually a show of strength?",
+      "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T13:03:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU takes aim at tech giants in tax proposal",
+      "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
+      "url": "https://www.dw.com/en/eu-takes-aim-at-tech-giants-in-tax-proposal/a-80009255?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-21T14:58:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 50,
         "source_reliability": 95
       }
     },
@@ -746,25 +765,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP31: Climate deal 'not adopted,' summit president says",
-      "summary": "The summit was extended as nations worked to reach a deal, but they couldn't agree on including fossil fuels. European nations, small island states and activists have criticized oil-producing countries for the impasse.",
-      "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-summit-president-says/live-79999516?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T12:39:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
       "source": "POLITICO Europe",
       "title": "How industrial cooperation strengthens Europe’s defense readiness",
       "summary": "European and North American defense companies are strengthening industrial cooperation through the Patriot® program, supporting manufacturing capacity, technical expertise, and long-term defense readiness across Europe.",
@@ -780,54 +780,6 @@
         "strategic_significance": 54,
         "timeliness": 92,
         "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "summary": "European Commission Statement Brussels, 21 Nov 2026 Ladies and Gentlemen, I have just spoken to President Prabowo to mark this momentous day for the European Union and Indonesia. Today we sign our Comprehensive E...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
-      "published": "2026-11-21T11:28:47+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 99
-      },
-      "related_items": [
-        {
-          "source": "Европейска комисия",
-          "publisher": "Европейска комисия",
-          "title": "Remarks by Commissioner Šefčovič at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-          "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
-          "published": "2026-11-20T23:00:00+00:00"
-        }
-      ],
-      "related_count": 1
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "EU and Indonesia sign ambitious trade and investment agreements",
-      "summary": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
-      "published": "2026-11-20T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 99
       }
     },
     {
@@ -923,6 +875,25 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Светият синод реши, че наместник на Ловчанската епархия ще е Врачанският митрополит Григорий, който ще ръководи избирането на нов митрополит",
+      "summary": "Днес на своето извънредно заседание по повод кончината на новопреставилия се Ловчански митрополит Гавриил, Свeтият синод на Българската православна църква - Българска патриаршия (БПЦ-БП), под председателството на българския патриарх Даниил, на основание член 8",
+      "url": "https://www.bta.bg/bg/news/lik/1252619-svetiyat-sinod-reshi-che-namestnik-na-lovchanskata-eparhiya-shte-e-vrachanskiya",
+      "published": "2026-11-23T15:09:39+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1159,7 +1130,7 @@
       "title": "Moscow accuses Estonia of acting ‘on verge of unleashing open war with Russia’ – Europe live",
       "summary": "Estonia has continued to deny it has allowed Ukrainian drones to operate from its territory despite repeated unsubstantiated claims from the Kremlin Turning to Ukraine, Nato’s Rutte stresses the need to secure the flow of “crucial supplies” or air defence weap",
       "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
-      "published": "2026-11-23T14:35:49+00:00",
+      "published": "2026-11-23T15:09:09+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 28,
@@ -1231,40 +1202,21 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-      "summary": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
-      "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T11:57:33+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "source": "Европейска комисия",
+      "title": "Statement by President von der Leyen on the 22nd package of sanctions against Russia",
+      "summary": "European Commission Statement Strasbourg, 23 Nov 2026 Good afternoon. Today, we present our 22nd package of sanctions. The aim is to keep pressure on Russia to end their war of aggression in Ukraine. And we will co...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2563",
+      "published": "2026-11-23T11:51:34+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "EU military chief warns of escalating hybrid threats as Europe races to strengthen defences",
-      "summary": "General Seán Clancy says Europe is better prepared to defend itself but must speed up efforts to close critical military gaps, amid growing threats from Russia and uncertainty over US military commitments.",
-      "url": "https://www.euronews.com/2026/11/23/eu-military-chief-warns-of-escalating-hybrid-threats-as-europe-races-to-strengthen-defence",
-      "published": "2026-11-23T11:52:08+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
+        "timeliness": 92,
+        "source_reliability": 99
       }
     },
     {
@@ -1341,6 +1293,44 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Keynote speech by Commissioner Albuquerque at the launch of the 6th European Retirement Week at the European Fund and Asset Management Association",
+      "summary": "European Commission Speech Brussels, 23 Nov 2026 Good morning, ladies and gentlemen. My thanks to Tanguy for the invitation to take part in today's event, and I would like to commend all fourteen associations ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2558",
+      "published": "2026-11-23T08:50:45+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
+      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T00:33:36+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     }
   ],
