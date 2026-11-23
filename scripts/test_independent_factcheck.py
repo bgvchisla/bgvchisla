@@ -64,7 +64,7 @@ def validate_static() -> None:
     assert "steps.factcheck.outputs.verdict == 'PASS'" in workflow
     assert "fact_check_analysis.py" in workflow and "apply_ai_disclosure.py" in workflow
     assert "URL Context" in workflow
-    assert "Google Search grounding" not in workflow
+    assert '"google_search"' not in workflow and "Google Search grounding не се използва" in workflow
 
     assert '"url_context": {}' in verifier
     assert "urlContextMetadata" in verifier
@@ -74,7 +74,7 @@ def validate_static() -> None:
     assert "numeric_audit_items" in verifier
     assert "toolUsePromptTokenCount" in verifier
     assert "thoughtsTokenCount" in verifier
-    assert "Google Search" not in verifier
+    assert '"google_search"' not in verifier and '"googleSearch"' not in verifier
     assert "ANALYSES_PUBLISH_ENABLED" in verifier
     assert "official_source_domains" in verifier and "is_official_domain" in verifier
     assert "retrieved_sources" in verifier
