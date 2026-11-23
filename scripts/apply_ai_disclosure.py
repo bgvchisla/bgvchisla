@@ -23,7 +23,7 @@ def main():
 .ai-disclosure{margin:0 0 22px;padding:13px 16px;background:#e8edf3;border:1px solid #cbd6e1;border-left:4px solid #315f91;border-radius:9px;color:#24384f;font-size:.82rem;line-height:1.5}
 .ai-disclosure strong{color:#24384f}
 """
-    disclosure = """<div class="ai-disclosure" role="note" aria-label="Прозрачност относно изкуствения интелект"><strong>Прозрачност:</strong> Този анализ е генериран с помощта на изкуствен интелект (GPT-6 Luna). За публикуване се изисква успешна независима автоматизирана фактологична проверка с Google Gemini 3.8 Flash и Google Search, включително съпоставка с първични източници. Не е преминал човешка редакционна проверка.</div>"""
+    disclosure = """<div class="ai-disclosure" role="note" aria-label="Прозрачност относно изкуствения интелект"><strong>Прозрачност:</strong> Този анализ е генериран с помощта на изкуствен интелект (GPT-6 Luna). За публикуване се изисква успешна независима автоматизирана фактологична проверка с Google Gemini 3.8 Flash чрез директно извличане и съпоставка с посочените първични източници (URL Context). Не е преминал човешка редакционна проверка.</div>"""
     if "</style>" not in page: raise SystemExit("Липсва style блок.")
     page = page.replace("</style>", css + "\n</style>", 1)
     byline = re.search(r'(<div class="byline"[^>]*>[\s\S]*?</div>)', page, flags=re.I)
