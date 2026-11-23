@@ -156,7 +156,11 @@ def main():
     payload = {
         "contents": [{"role": "user", "parts": [{"text": build_prompt(row, article_text, config)}]}],
         "tools": [{"googleSearch": {}}],
-        "generationConfig": {"temperature": 0, "maxOutputTokens": int(config["maximum_review_output_tokens"])}
+        "generationConfig": {
+            "temperature": 0,
+            "maxOutputTokens": int(config["maximum_review_output_tokens"]),
+            "thinkingConfig": {"thinkingLevel": str(config.get("review_reasoning_effort", "medium")).upper()}
+        }
     }
     endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     request = urllib.request.Request(endpoint, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
@@ -167,8 +171,10 @@ def main():
         usage = response_payload.get("usageMetadata", {})
         prompt_tokens = int(usage.get("promptTokenCount", 0) or 0)
         output_tokens = int(usage.get("candidatesTokenCount", 0) or 0)
+        thinking_tokens = int(usage.get("thoughtsTokenCount", 0) or 0)
+        billable_output_tokens = output_tokens + thinking_tokens
         in_price, out_price = prices(config, now)
-        actual_cost = round((prompt_tokens * in_price + output_tokens * out_price) / 1_000_000, 8) if (prompt_tokens or output_tokens) else reserve
+        actual_cost = round((prompt_tokens * in_price + billable_output_tokens * out_price) / 1_000_000, 8) if (prompt_tokens or billable_output_tokens) else reserve
         candidate = (response_payload.get("candidates") or [{}])[0]
         parts = (candidate.get("content") or {}).get("parts") or []
         response_text = "\n".join(str(p.get("text", "")) for p in parts if p.get("text"))
@@ -188,6 +194,7 @@ def main():
     ledger["spent_usd"] = round(float(ledger["spent_usd"]) + actual_cost, 8)
     ledger["google_search_queries"] = int(ledger.get("google_search_queries", 0)) + search_query_count
     entry.update({"status": "response_received", "prompt_tokens": prompt_tokens, "output_tokens": output_tokens,
+                  "thinking_tokens": thinking_tokens, "billable_output_tokens": billable_output_tokens,
                   "google_search_queries": search_query_count, "google_search_cost_usd": round(search_cost, 8),
                   "actual_cost_usd": actual_cost})
     write_json_atomic(LEDGER_PATH, ledger)
@@ -253,10 +260,12 @@ def main():
         "google_search_query_count":search_query_count, "google_search_cost_usd":round(search_cost,8),
         "methodology_issues":report.get("methodology_issues",[]),
         "limitations":report.get("limitations",[]), "blocking_reasons":problems,
-        "cost_usd":actual_cost, "usage":response_payload.get("usageMetadata",{})
+        "cost_usd":actual_cost, "billable_output_tokens":billable_output_tokens, "thinking_tokens":thinking_tokens,
+        "reasoning_effort":str(config.get("review_reasoning_effort","medium")).upper(),
+        "usage":response_payload.get("usageMetadata",{})
     }
     write_json_atomic(ROOT / args.report, output)
-    print(f"Независима проверка: {final_verdict}; твърдения: {accepted}/{len(claims)}; числа: {verified}/{found}; grounding източници: {len(grounded_urls)}; официални домейни: {len(official_domains_found)}; Google Search заявки: {search_query_count}; обща цена USD: {actual_cost:.6f}.")
+    print(f"Независима проверка: {final_verdict}; твърдения: {accepted}/{len(claims)}; числа: {verified}/{found}; grounding източници: {len(grounded_urls)}; официални домейни: {len(official_domains_found)}; Google Search заявки: {search_query_count}; reasoning tokens: {thinking_tokens}; обща цена USD: {actual_cost:.6f}.")
     print(f"Отчет: {args.report}")
     with open(os.environ.get("GITHUB_OUTPUT", "/dev/null"), "a", encoding="utf-8") as handle:
         handle.write(f"verdict={final_verdict}\nverified_claims={accepted}\ngrounded_sources={len(grounded_urls)}\nofficial_domains={len(official_domains_found)}\ngoogle_search_queries={search_query_count}\ncost_usd={actual_cost:.8f}\n")
