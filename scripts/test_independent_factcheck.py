@@ -96,6 +96,7 @@ def validate_static() -> None:
     assert len(config["official_source_domains"]) >= 10
 
     assert "automation/fix-chart-numeric-" in (ROOT / ".github" / "workflows" / "audit-analysis-evidence.yml").read_text(encoding="utf-8")
+        assert "fix/debt-counter-" in (ROOT / ".github" / "workflows" / "audit-analysis-evidence.yml").read_text(encoding="utf-8")
     assert "ANALYSES_PUBLISH_ENABLED" in workflow
     assert "GEMINI_API_KEY" in workflow and "OPENAI_API_KEY" in workflow
     assert "steps.factcheck.outputs.verdict == 'PASS'" in workflow
