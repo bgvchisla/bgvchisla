@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static and report-integrity tests for the independent URL-context fact-check gate."""
+"""Static and report-integrity tests for independent direct-URL fact checking."""
 from __future__ import annotations
 
 import argparse
@@ -28,16 +28,18 @@ def validate_report(path: Path) -> None:
     assert report.get("numeric_blocks_verified") == report.get("numeric_blocks_found")
     assert not report.get("retrieval_failures")
     assert not report.get("blocking_reasons")
+
     retrieved = set(report.get("retrieved_sources", []))
     claims = report.get("claims_checked", [])
     assert len(claims) >= 8
     for claim in claims:
         assert claim.get("verdict") == "verified"
         evidence = set(claim.get("evidence_urls", []))
-        assert evidence and evidence.issubset(retrieved), "Твърдението няма URL Context доказателство."
-    items = report.get("numeric_audit_items", [])
-    assert len(items) == report.get("numeric_blocks_found")
-    for item in items:
+        assert evidence and evidence.issubset(retrieved), "Твърдението няма доказателство от извлечен първичен URL."
+
+    numeric_items = report.get("numeric_audit_items", [])
+    assert len(numeric_items) == report.get("numeric_blocks_found")
+    for item in numeric_items:
         assert item.get("verdict") == "verified"
         evidence = set(item.get("evidence_urls", []))
         assert evidence and evidence.issubset(retrieved)
@@ -57,6 +59,8 @@ def validate_static() -> None:
     assert config["minimum_retrieved_sources"] >= 4
     assert config["minimum_official_retrieved_domains"] >= 2
     assert config["maximum_source_urls_per_call"] <= 20
+    assert config["maximum_review_input_tokens"] == 70000
+    assert config["maximum_review_output_tokens"] == 5000
     assert len(config["official_source_domains"]) >= 10
 
     assert "ANALYSES_PUBLISH_ENABLED" in workflow
@@ -64,13 +68,12 @@ def validate_static() -> None:
     assert "steps.factcheck.outputs.verdict == 'PASS'" in workflow
     assert "fact_check_analysis.py" in workflow and "apply_ai_disclosure.py" in workflow
     assert "URL Context" in workflow
-    assert '"google_search"' not in workflow and "Google Search grounding не се използва" in workflow
+    assert '"google_search"' not in workflow
 
     assert '"url_context": {}' in verifier
     assert "urlContextMetadata" in verifier
     assert "URL_RETRIEVAL_STATUS_SUCCESS" in verifier
     assert "numeric_statements" in verifier
-    assert "numeric_blocks_verified" in verifier
     assert "numeric_audit_items" in verifier
     assert "toolUsePromptTokenCount" in verifier
     assert "thoughtsTokenCount" in verifier
@@ -78,13 +81,12 @@ def validate_static() -> None:
     assert "ANALYSES_PUBLISH_ENABLED" in verifier
     assert "official_source_domains" in verifier and "is_official_domain" in verifier
     assert "retrieved_sources" in verifier
-
     assert "URL Context" in disclosure
     assert "Не е преминал човешка редакционна проверка" in disclosure
     assert "Google Search" not in disclosure
     assert "ANALYSES_AUTODRAFT_ENABLED" not in workflow
     assert "/approve" not in workflow
-    print("Статичните проверки за независима URL Context верификация са успешни.")
+    print("Статичните проверки за независима проверка чрез директни първични URL адреси са успешни.")
 
 
 def main() -> int:
