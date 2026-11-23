@@ -24,17 +24,17 @@ def validate_report(path):
     assert len(claims) >= 8
     for claim in claims:
         assert claim.get("verdict") == "verified"
-        assert any(url in grounded for url in claim.get("evidence_urls", [])), "Липсва независим grounding URL."
+        assert any(url in grounded for url in claim.get("grounding_match_urls", [])), "Липсва независим grounding URL за конкретното твърдение."
 
 def validate_static():
     c = json.loads(CONFIG.read_text(encoding="utf-8"))
     w, v, d = WORKFLOW.read_text(encoding="utf-8"), VERIFIER.read_text(encoding="utf-8"), DISCLOSURE.read_text(encoding="utf-8")
     assert c["review_provider"] == "Google" and c["review_model"] == "gemini-3.8-flash"
     assert c["minimum_words"] == 900 and c["maximum_words"] == 1400
-    assert c["monthly_total_budget_usd"] == 5.5 and c["max_factcheck_calls_per_month"] == 12
+    assert c["monthly_total_budget_usd"] == 5.5 and c["max_factcheck_calls_per_month"] == 10
     assert c["minimum_official_grounding_domains"] == 2
     assert c["max_search_queries_per_call"] == 4
-    assert c["max_search_queries_per_month"] == 48
+    assert c["max_search_queries_per_month"] == 40
     assert c["google_search_usd_per_1000_queries"] == 14
     assert len(c["official_source_domains"]) >= 10
     assert "ANALYSES_PUBLISH_ENABLED" in w and "GEMINI_API_KEY" in w
@@ -42,6 +42,8 @@ def validate_static():
     assert "fact_check_analysis.py" in w and "apply_ai_disclosure.py" in w
     assert "gemini-3.8-flash" in v and "googleSearch" in v and "groundingMetadata" in v
     assert "ANALYSES_PUBLISH_ENABLED" in v and "ai-disclosure" in d
+    assert "official_source_domains" in v and "is_official_domain" in v
+    assert "google_search_usd_per_1000_queries" in v and "google_search_queries" in v
     assert "Не е преминал човешка редакционна проверка" in d
     assert "ANALYSES_AUTODRAFT_ENABLED" not in w and "/approve" not in w
     print("Статичните проверки за независима фактологична верификация са успешни.")
