@@ -181,8 +181,8 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertIn('"analysis/monthly_usage.json"', source)
         self.assertIn('"analysis/verification_usage.json"', source)
         self.assertIn('"scripts/test_analysis_publication.py"', source)
-        self.assertIn('"Run the actual Bulgarian free preflight"', source)
-        self.assertIn('"Run the actual world free preflight"', source)
+        self.assertIn('- name: Run the actual Bulgarian free preflight', source)
+        self.assertIn('- name: Run the actual world free preflight', source)
 
     def test_audit_runs_every_pr_and_checks_factcheck_report(self):
         source = AUDIT_WORKFLOW.read_text(encoding="utf-8")
