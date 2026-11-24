@@ -173,6 +173,17 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertIn("options: [preflight, publish]", source)
         self.assertIn("--dry-run", source)
 
+    def test_ledger_only_pr_does_not_require_unused_generation_budget(self):
+        source = AUDIT_WORKFLOW.read_text(encoding="utf-8")
+        self.assertIn("Identify a ledger-only change set for budget preflight", source)
+        self.assertIn('steps.change_scope.outputs.ledger_only != \'true\'', source)
+        self.assertIn('git diff", "--name-only", "origin/main...HEAD', source)
+        self.assertIn('"analysis/monthly_usage.json"', source)
+        self.assertIn('"analysis/verification_usage.json"', source)
+        self.assertIn('"scripts/test_analysis_publication.py"', source)
+        self.assertIn('"Run the actual Bulgarian free preflight"', source)
+        self.assertIn('"Run the actual world free preflight"', source)
+
     def test_audit_runs_every_pr_and_checks_factcheck_report(self):
         source = AUDIT_WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("scripts/test_independent_factcheck.py --static", source)
