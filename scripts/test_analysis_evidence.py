@@ -38,6 +38,14 @@ class PermanentDeadLinkTests(unittest.TestCase):
         self.assertEqual(seen["method"], "GET")
         self.assertEqual(seen["range"], "bytes=0-0")
 
+    def test_independently_confirmed_dead_article_is_blocklisted_without_network_probe(self):
+        with patch.object(
+            analysis_evidence.urllib.request,
+            "urlopen",
+            side_effect=AssertionError("Known-dead URL should not be probed again"),
+        ):
+            self.assertTrue(analysis_evidence._is_permanently_unavailable(DEAD_URL))
+
     def test_410_is_treated_as_permanently_unavailable(self):
         error = HTTPError(DEAD_URL, 410, "Gone", None, None)
         with patch.object(analysis_evidence.urllib.request, "urlopen", side_effect=error):
