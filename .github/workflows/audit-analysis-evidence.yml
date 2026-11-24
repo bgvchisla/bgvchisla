@@ -8,6 +8,7 @@ on:
       - "scripts/patch_analysis_evidence.py"
       - "scripts/test_frontend.py"
       - "scripts/test_analysis_publication.py"
+      - "scripts/test_analysis_evidence.py"
       - "scripts/test_independent_factcheck.py"
       - "scripts/fact_check_analysis.py"
       - "scripts/apply_ai_disclosure.py"
@@ -121,12 +122,14 @@ jobs:
               json.loads(path.read_text(encoding="utf-8"))
               print(f"JSON OK: {name}")
           PY
-          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/test_analysis_publication.py scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
+          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/test_analysis_publication.py scripts/test_analysis_evidence.py scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
       - name: Prepare the same runtime used by production
         run: |
           gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
           python scripts/patch_analysis_evidence.py
           python -m py_compile scripts/generate_analysis.py scripts/analysis_evidence.py
+      - name: Run regression tests for strict editorial evidence selection
+        run: python scripts/test_analysis_evidence.py
       - name: Audit Bulgarian analysis evidence without an API call
         run: python scripts/analysis_evidence.py --lane bulgaria
       - name: Audit world analysis evidence without an API call
