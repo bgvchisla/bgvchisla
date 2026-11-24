@@ -48,8 +48,8 @@ class EditorialPublicationTests(unittest.TestCase):
                 self.assertIn("--blue:#315f91", page)
                 self.assertIn("@media(max-width:640px)", page)
 
-                refs = set(re.findall(r'href="#source-(\d+)"', page))
-                notes = set(re.findall(r'<li id="source-(\d+)"', page))
+                refs = set(re.findall(r'href="#source-([A-Za-z][A-Za-z0-9_-]*)"', page))
+                notes = set(re.findall(r'<li id="source-([A-Za-z][A-Za-z0-9_-]*)"', page))
                 self.assertTrue(refs and refs.issubset(notes))
                 self.assertGreaterEqual(len(notes), 4)
                 self.assertIn(f'href="/analizi/{slug}/"', archive)
@@ -65,6 +65,20 @@ class EditorialPublicationTests(unittest.TestCase):
                     )
                     self.assertGreaterEqual(len(words), 900)
                     self.assertLessEqual(len(words), 1400)
+
+    def test_source_reference_ids_accept_prefixed_identifiers(self):
+        page = (
+            '<a href="#source-N01">[N01]</a>'
+            '<a href="#source-D01">[D01]</a>'
+            '<li id="source-N01">N01</li>'
+            '<li id="source-D01">D01</li>'
+        )
+        refs = set(re.findall(r'href="#source-([A-Za-z][A-Za-z0-9_-]*)"', page))
+        notes = set(re.findall(r'<li id="source-([A-Za-z][A-Za-z0-9_-]*)"', page))
+        self.assertEqual(refs, {"N01", "D01"})
+        self.assertEqual(notes, {"N01", "D01"})
+        self.assertTrue(refs.issubset(notes))
+        self.assertGreaterEqual(len(notes), 2)
 
     def test_weekly_schedule_and_lane_mapping(self):
         source = GENERATOR_WORKFLOW.read_text(encoding="utf-8")
