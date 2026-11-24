@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T05:40:49.256209+00:00",
-  "last_checked_at": "2026-11-24T05:40:49.256217+00:00",
+  "updated_at": "2026-11-24T06:36:37.439079+00:00",
+  "last_checked_at": "2026-11-24T06:36:37.439092+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -118,6 +118,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 24th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-morning",
+      "published": "2026-11-24T06:00:33+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "България е страната с най-голямо неравенство в доходите в ЕС",
@@ -172,25 +191,6 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
-      "published": "2026-11-23T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 91
       }
     },
     {
@@ -404,25 +404,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Дулово ще разгледа социален проект и предложения за разпореждане с общински имоти",
-      "summary": "Общинският съвет в Дулово ще разгледа предложение за кандидатстване на общината с проект за насърчаване на активния живот и социалното включване на хората в пенсионна възраст. Проектът предвижда създаване на възможности за здравословен начин на живот, придобив",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252242-obshtinskiyat-savet-v-dulovo-shte-razgleda-sotsialen-proekt-i-predlozheniya-za-r",
-      "published": "2026-11-24T04:02:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 41,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "„Особено тревожно“: Фалитите в България ще продължат да се увеличават и през 2027 г.",
       "summary": "Фалитите в България ще се увеличат с 12% през тази година, като тенденцията ще продължи и през следващата. Това прогнозират в свой доклад от компанията по застраховане на търговски кредити Allianz Trade. Според анализаторите, очакваният ръст през 2026 г. ще е",
@@ -438,6 +419,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
+      "published": "2026-11-23T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -487,13 +487,13 @@
       "published": "2026-11-23T06:00:32+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 91
       }
     },
@@ -552,25 +552,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Смущения на електрозахранването може да има в части от шест общини в Софийска област на 24 и 25 ноември заради ремонт, съобщиха от ЕРМ Запад",
-      "summary": "Смущения на електрозахранването може да има в части от шест общини в Софийска област на 24 и 25 ноември заради ремонт, съобщиха от \"Електроразпределителни мрежи Запад\" EАД (ЕРМ Запад) на официалната си интернет страница. Държавният Електроенергиен системен опе",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1251998-smushteniya-na-elektrozahranvaneto-mozhe-da-ima-v-chasti-ot-shest-obshtini-v-sof",
-      "published": "2026-11-24T04:01:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -647,6 +628,25 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Sports whistleblowers protected under proposed laws amid Australian cricket ball tampering saga",
+      "summary": "Amendments to government bill by Coalition and Greens would establish protections for those reporting wrongdoing in sport Whistleblowers coming forward to report corruption or misconduct in sports would be protected under draft laws put forward by the Coalitio",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/24/sports-whistleblowers-protected-proposed-laws-australian-cricket-ball-tampering-sandpapergate-ntwnfb",
+      "published": "2026-11-24T06:20:10+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -802,6 +802,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Сборникът „100 години опера в Стара Загора – равносметка“ и каталог с интерактивно приложение ще бъдат представени в Старозагорската опера",
+      "summary": "Сборникът „100 години опера в Стара Загора – равносметка“ и каталог с интерактивно аудиовизуално приложение ще бъдат представени днес във фоайето на Държавна опера-Стара Загора, сочи програмата с предстоящи събития на 56-ото издание на Фестивала на оперното и",
+      "url": "https://www.bta.bg/bg/news/lik/1252901-sbornikat-100-godini-opera-v-stara-zagora-ravnosmetka-i-katalog-s-interaktiv",
+      "published": "2026-11-24T06:28:34+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общо 17 души са ранени при 14 тежки произшествия през изминалото денонощие в страната",
+      "summary": "Общо 17 души са ранени при 14 тежки произшествия през изминалото денонощие в страната, съобщиха от Министерството на вътрешните работи на сайта си. В София са регистрирани едно тежко и 31 леки произшествия. Има един пострадал. От началото на месеца в страната",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252889-obshto-17-dushi-sa-raneni-pri-14-tezhki-proizshestviya-prez-izminaloto-denonosht",
+      "published": "2026-11-24T05:48:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
@@ -899,10 +937,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Government lacks ‘moral authority’ on decarbonisation, Monique Ryan says; eight teens arrested over alleged schoolies assault",
+      "title": "Australian politics live: ‘Private tycoons’ shouldn’t have their own AI arsenals, Andrew Hastie says",
       "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
-      "published": "2026-11-24T05:22:20+00:00",
+      "published": "2026-11-24T06:24:16+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 30,
@@ -1013,6 +1051,44 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Немскоезичното издание на списание ЛИК, посветено на първия български вестник „Български орел“, ще бъде представено в Българския културен институт в Берлин",
+      "summary": "Ноемврийският брой на списание ЛИК, преведен на немски език, ще бъде представен в Българския културен институт (БКИ) в Берлин днес. Изданието за литература, изкуство и култура на Българската телеграфна агенция (БТА) е посветено на 180-годишнината от излизането",
+      "url": "https://www.bta.bg/bg/news/lik/1252851-nemskoezichnoto-izdanie-na-spisanie-lik-posveteno-na-parviya-balgarski-vestnik-",
+      "published": "2026-11-24T06:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Студенти от НХА представят изложбата „Лични територии“ в галерия „Сердика“",
+      "summary": "Изложбата „Лични територии“, която представя тъкан текстил и живопис на 12 студенти от специалност „Текстил – изкуство и дизайн“ на Националната художествена академия (НХА), ще бъде открита днес в галерия „Сердика“ в София, съобщават организаторите. Куратори с",
+      "url": "https://www.bta.bg/bg/news/lik/1252749-studenti-ot-nha-predstavyat-izlozhbata-lichni-teritorii-v-galeriya-serdika-",
+      "published": "2026-11-24T05:45:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Пожарните екипи са реагирали на 188 сигнала за произшествия в страната за последното денонощие",
       "summary": "Пожарните екипи са реагирали на 188 сигнала за произшествия в страната за последното денонощие. Това съобщиха на сайта си от Главна дирекция „Пожарна безопасност и защита на населението”. Потушени са 64 пожара, няма загинали и пострадали. С материални щети са",
       "url": "https://www.bta.bg/bg/news/bulgaria/1252883-pozharnite-ekipi-sa-reagirali-na-188-signala-za-proizshestviya-v-stranata-za-pos",
@@ -1036,25 +1112,6 @@
       "summary": "Централната избирателна комисия (ЦИК) ще връчи удостоверенията на избраните за президент - Илияна Йотова, и вицепрезидент - Кирил Вълчев, на официална церемония от 14:00 часа в сградата на Народното събрание. Това съобщиха от пресцентъра на ЦИК. ЦИК обяви Илия",
       "url": "https://www.bta.bg/bg/news/bulgaria/1252352-tsentralnata-izbiratelna-komisiya-shte-vrachi-udostovereniyata-na-izbranite-za-p",
       "published": "2026-11-24T05:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Жълт код за силен вятър е обявен за 18 области в страната, съобщиха от НИМХ",
-      "summary": "Жълт код за силен вятър е обявен в 18 области в страната днес, съобщи Националният институт по метеорология и хидрология (НИМХ) на сайта си. Предупредителният жълт код за потенциално опасно време е в сила за областите - Благоевград, Варна, Велико Търново, Види",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252670-zhalt-kod-za-silen-vyatar-e-obyaven-za-18-oblasti-v-stranata-saobshtiha-ot-nimh",
-      "published": "2026-11-24T04:00:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1126,6 +1183,63 @@
     },
     {
       "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Русия е струпала 320 хил. военни, но буксува в Донецка област, идва отговор на авиобомбите",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439972-rusiya-e-strupala-320-hil-voenni-no-buksuva-v-donetska-oblast-idva-otgovor-na-aviobombite",
+      "published": "2026-11-24T06:16:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Beau Lamarre-Condon could have told crown ‘do your worst’ and not given evidence, defence says",
+      "summary": "Former police officer has pleaded not guilty to murders of Jesse Baird and Luke Davies in Baird’s Paddington home in February 2024 Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon could have sat in silence and told the crown “do",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/24/beau-lamarre-condon-trial-barrister-closing-statement-ntwnfb",
+      "published": "2026-11-24T05:49:34+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
+      "summary": "Saurav Das said that immigration authorities at Delhi airport told him that his passport had been \"flagged\".",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T05:33:07+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "Ebikes, screens and failing manners pose challenge for Dutch cycling culture",
       "summary": "Awareness campaign reminds public ‘traffic is a team sport’ amid less civility and more collisions on roads For decades the Netherlands has been famed for its proud cycling culture, with a network of 23,000 miles of bike paths used by everyone from children un",
@@ -1182,25 +1296,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Разград предстои да определи нови минимални и максимални цени за таксиметров превоз",
-      "summary": "Общинският съвет в Разград предстои да определи нови минимални и максимални цени за таксиметров превоз на пътници през 2027 г. Предложението на превозвачите е минималната дневна тарифа да бъде 0,80 евро, а нощната – 1 евро на километър. Максималните цени се пр",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252205-obshtinskiyat-savet-v-razgrad-predstoi-da-opredeli-novi-minimalni-i-maksimalni-t",
-      "published": "2026-11-24T04:12:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 22,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Budget cuts threaten Germany's fight against antisemitism and racism",
@@ -1236,101 +1331,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Френската комедия „Тя спи гола“ ще има премиера в София днес",
-      "summary": "Френската комедия „Тя спи гола“ ще има премиера в София днес, а след това гостува във Варна – на 2 декември, и в Русе – на 20 декември, информират от театър „Артвент“. По думите им това е комедия за доверието, ревността и тайните в семейните отношения, която с",
-      "url": "https://www.bta.bg/bg/news/lik/1252784-frenskata-komediya-tya-spi-gola-shte-ima-premiera-v-sofiya-na-24-noemvri",
-      "published": "2026-11-24T04:15:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "How Nvidia is reacting to Jensen Huang's return as CEO",
-      "summary": "BBC's Lily Jamali reports from Nvidia's headquarters, where she gauges the reaction to Huang's return after Trump says he brokered a deal.",
-      "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T01:21:41+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Dad who discovered daughter's murder on Facebook feels ignored by South African police",
-      "summary": "South African communities tell the BBC of measures they're taking to keep women safe after a wave of horrific killings.",
-      "url": "https://www.bbc.co.uk/news/articles/cqglr0d5jejxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T00:02:15+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
-      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T23:16:08+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Outrage after ICE arrest father and daughter at Seattle airport",
-      "summary": "ICE officers arrested two passengers, a father and daughter, as they were boarding a flight in Seattle on Saturday.",
-      "url": "https://www.bbc.co.uk/news/videos/crd910g5x882o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T22:59:07+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
       }
     }
   ],
