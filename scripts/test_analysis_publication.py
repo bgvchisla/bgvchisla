@@ -161,7 +161,7 @@ class EditorialPublicationTests(unittest.TestCase):
     def test_failed_paid_runs_have_an_audited_usage_ledger_persistence_path(self):
         source = GENERATOR_WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("Persist usage ledgers after unsuccessful paid run", source)
-        self.assertIn("job.status == 'failure'", source)
+        self.assertIn("failure()", source)
         self.assertIn("analysis/monthly_usage.json", source)
         self.assertIn("analysis/verification_usage.json", source)
         self.assertIn("automation/analysis-usage-ledger-", AUDIT_WORKFLOW.read_text(encoding="utf-8"))
