@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T22:37:48.466358+00:00",
-  "last_checked_at": "2026-11-24T22:37:48.466370+00:00",
+  "updated_at": "2026-11-24T23:29:36.453769+00:00",
+  "last_checked_at": "2026-11-24T23:29:36.453782+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -82,10 +82,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Coalition would look to repeal digital duty of care, Hastie says; inflation expected to climb",
+      "title": "Australian politics live: Steggall and Spender change party name after community consultation; inflation set to climb",
       "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-24T22:16:05+00:00",
+      "published": "2026-11-24T23:14:14+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 40,
@@ -145,13 +145,13 @@
       "published": "2026-11-24T11:00:15+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 39,
+      "priority_score": 38,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 91
       }
     },
@@ -164,13 +164,13 @@
       "published": "2026-11-24T11:00:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 39,
+      "priority_score": 38,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 95
       }
     },
@@ -183,13 +183,13 @@
       "published": "2026-11-24T10:42:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 39,
+      "priority_score": 38,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 95
       }
     },
@@ -202,13 +202,13 @@
       "published": "2026-11-24T10:59:40+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 54,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 94
       }
     },
@@ -322,7 +322,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -423,63 +423,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission sets out key EU policy priorities for 2027 in its European Semester Autumn Package",
-      "summary": "European Commission Press release Strasbourg, 24 Nov 2026 The European Commission today adopted the 2027 European Semester Autumn Package, setting out economic, social and employment policy priorities.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2553",
-      "published": "2026-11-23T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission calls for joint EU efforts to reduce tax gaps and boost public finances",
-      "summary": "European Commission Press release Brussels, 24 Nov 2026 Today, the European Commission published its Mind the Gap 2026 Communication, showing how enhanced tax compliance, improved governance of tax expenditures, better tax collection and more effective tax adm",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2562",
-      "published": "2026-11-23T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Новите данъчни облекчения за деца ще включват и медицински прегледи",
-      "summary": "Новите данъчни облекчения за детско развитие да важат за културни дейности и за медицински прегледи, в т.ч. профилактика, диагностика, лечение, дентална помощ и пр. Това приеха депутатите в парламентарната Комисия по бюджет и финанси при разглеждането на второ",
-      "url": "https://www.economic.bg/bg/a/view/novite-danychni-oblekchenija-za-deca-shte-vkluchvat-i-medicinski-pregledi",
-      "published": "2026-11-24T10:59:50+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 24th, 2026 – Morning",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
@@ -495,6 +438,25 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Новите данъчни облекчения за деца ще включват и медицински прегледи",
+      "summary": "Новите данъчни облекчения за детско развитие да важат за културни дейности и за медицински прегледи, в т.ч. профилактика, диагностика, лечение, дентална помощ и пр. Това приеха депутатите в парламентарната Комисия по бюджет и финанси при разглеждането на второ",
+      "url": "https://www.economic.bg/bg/a/view/novite-danychni-oblekchenija-za-deca-shte-vkluchvat-i-medicinski-pregledi",
+      "published": "2026-11-24T10:59:50+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -519,9 +481,9 @@
     {
       "section": "europe",
       "source": "Европейска комисия",
-      "title": "Commission imposes provisional import quotas on hybrid passenger vehicles",
-      "summary": "European Commission Press release Brussels, 24 Nov 2026 The European Commission today published provisional safeguard measures setting import quotas for certain hybrid vehicles. These restrictions are needed to protect EU industry against a sharp recent increa",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2564",
+      "title": "Commission sets out key EU policy priorities for 2027 in its European Semester Autumn Package",
+      "summary": "European Commission Press release Strasbourg, 24 Nov 2026 The European Commission today adopted the 2027 European Semester Autumn Package, setting out economic, social and employment policy priorities.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2553",
       "published": "2026-11-23T23:00:00+00:00",
       "feed_id": "commission-press",
       "publisher": "Европейска комисия",
@@ -529,9 +491,28 @@
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission calls for joint EU efforts to reduce tax gaps and boost public finances",
+      "summary": "European Commission Press release Brussels, 24 Nov 2026 Today, the European Commission published its Mind the Gap 2026 Communication, showing how enhanced tax compliance, improved governance of tax expenditures, better tax collection and more effective tax adm",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2562",
+      "published": "2026-11-23T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 68,
         "source_reliability": 99
       }
     },
@@ -590,6 +571,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission imposes provisional import quotas on hybrid passenger vehicles",
+      "summary": "European Commission Press release Brussels, 24 Nov 2026 The European Commission today published provisional safeguard measures setting import quotas for certain hybrid vehicles. These restrictions are needed to protect EU industry against a sharp recent increa",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2564",
+      "published": "2026-11-23T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 68,
+        "source_reliability": 99
       }
     },
     {
@@ -803,44 +803,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
-      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T10:58:51+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 76,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
-      "summary": "Nvidia employees cheered and applauded CEO Jensen Huang as he returned to the company's headquarters in Santa Clara, California, on Monday, 11 days after stepping down.",
-      "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
-      "published": "2026-11-24T10:56:22+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Евростат",
       "title": "Annual inflation up to 4.0% in the euro area",
       "summary": "The euro area annual inflation rate was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.1%. European Union annual inflation was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.5%. These figures ar",
@@ -856,6 +818,44 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T10:58:51+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 76,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
+      "summary": "Nvidia employees cheered and applauded CEO Jensen Huang as he returned to the company's headquarters in Santa Clara, California, on Monday, 11 days after stepping down.",
+      "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
+      "published": "2026-11-24T10:56:22+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -1012,25 +1012,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
-      "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
-      "url": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner",
-      "published": "2026-11-23T22:41:48+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Speech by Executive Vice-President Teresa Ribera at College of Europe, Natolin, Poland",
       "summary": "European Commission Speech Warsaw, 24 Nov 2026 Dear Vice-Rector, dear professors, dear students of the Johannes Gutenberg Promotion, This campus opened in 1992. The Berlin Wall had just fallen, and Europe wa...",
@@ -1050,6 +1031,25 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
+      "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
+      "url": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner",
+      "published": "2026-11-23T22:41:48+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "At least 24 people killed in Indonesia factory fire, police say",
       "summary": "Dozens of employees are still reported to be missing after a blaze broke out at a candy factory in Banten province at around 4:30 pm local time on Saturday.",
@@ -1065,6 +1065,25 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Берлин се проведе вечер, посветена на 180-годишнината от излизането на първия български вестник „Български орел“ и на неговия създател Иван Богоров",
+      "summary": "В Българския културен институт (БКИ) в Берлин беше представен немскоезичния брой на списание ЛИК, посветена на 180-годишнината от излизането на първия български вестник „Български орел“ и на неговия създател Иван Богоров. Ноемврийското изданието за литература,",
+      "url": "https://www.bta.bg/bg/news/lik/1253678-v-berlin-se-provede-vecher-posvetena-na-180-godishninata-ot-izlizaneto-na-parvi",
+      "published": "2026-11-24T23:12:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1304,25 +1323,6 @@
       "published": "2026-11-24T17:49:10+00:00",
       "feed_id": "commission-press",
       "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - EU-Western Balkans summit of 25 November 2026",
-      "summary": "Approximate timings and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/24/media-advisory-eu-western-balkans-summit-of-25-november-2026/",
-      "published": "2026-11-24T17:45:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
