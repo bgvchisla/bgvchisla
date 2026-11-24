@@ -1,44 +1,82 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T15:42:50.746848+00:00",
-  "last_checked_at": "2026-11-24T15:42:50.746862+00:00",
+  "updated_at": "2026-11-24T16:44:32.378292+00:00",
+  "last_checked_at": "2026-11-24T16:44:32.378303+00:00",
   "items": [
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Управляващите пощадиха по-малките търговци от новия данък „Свръхпечалба“",
-      "summary": "Управляващите от „Прогресивна България“ се смилиха над по-малките търговци, които няма да бъдат облагани през 2027 г. с новия данък „Свръхпечалба“. Това става ясно от внесените между първо и второ четене предложения за изменение на данъчните закони за догодина",
-      "url": "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-po-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
-      "published": "2026-11-24T07:20:19+00:00",
+      "title": "Вечерни новини: Брюксел затяга мерките срещу България; Рафинерията в Бургас е на загуба",
+      "summary": "Брюксел затяга процедурата по прекомерен дефицит срещу България, а управляващите предлагат да ограничат обхвата на новия данък „Свръхпечалба“ за търговците на храни. Министерството на финансите подготвя преглед на данъчните преференции, докато бюджетната комис",
+      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-bruksel-zatjaga-merkite-sreshtu-bylgarija-rafinerijata-v-burgas-e-na-zaguba",
+      "published": "2026-11-24T16:44:14+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 40,
+      "priority_score": 52,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
+        "economic_significance": 48,
+        "national_impact": 87,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 100,
         "source_reliability": 85
       }
     },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Бизнесът има достъп до 81.5 млн. евро за иновации и развитие на технологии",
-      "summary": "Българският бизнес получава достъп до 81.5 млн. евро за реализация на иновативни проекти, разработване на нови технологии и изграждане на модерни технологични инфраструктури. Финансирането ще бъде осигурено по Програма „Научни изследвания, иновации и дигитализ",
-      "url": "https://www.economic.bg/bg/a/view/biznesyt-ima-dostyp-do-81-5-mln-evro-za-inovacii-i-razvitie-na-tehnologii",
-      "published": "2026-11-23T13:04:47+00:00",
+      "title": "Българите трупат по около 60 евро месечно за втора пенсия",
+      "summary": "Общият размер на нетните активи във фондовете, управлявани от пенсионноосигурителните дружества, е около 17.3 млрд. евро към края на септември 2026 г., сочат данни на Комисията за финансов надзор (КФН). Българите, участващи в тези фондове са около 5.2 млн. Най",
+      "url": "https://www.economic.bg/bg/a/view/bylgarite-trupat-po-okolo-60-evro-mesechno-za-vtora-pensija",
+      "published": "2026-11-24T15:55:01+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 51,
+      "priority_score": 49,
       "priority_breakdown": {
         "economic_significance": 48,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
+        "national_impact": 61,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Executive Vice-President Mînzatu and Commissioner Dombrovskis on the 2027 European Semester Autumn package",
+      "summary": "European Commission Statement Strasbourg, 24 Nov 2026 \"Check against delivery\" Executive Vice-President Mînzatu Today, we present the Joint Employment Report and the Human Capital Recommendation. We also launch th...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2572",
+      "published": "2026-11-24T12:14:45+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 43,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 54,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Irish plan offers Burnham breakthrough on Made in Europe",
+      "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations Business live – latest updates The UK wwould not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that",
+      "url": "https://www.theguardian.com/business/2026/nov/24/uk-eu-made-in-europe-trade-cars-tariffs",
+      "published": "2026-11-24T16:09:12+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -58,25 +96,6 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Мобилното банкиране става основен канал за плащане на битови сметки и данъци",
-      "summary": "Мобилното банкиране в момента е основният канал, през който хората оперират с парите си. Това стана ясно по време на медийно събитие на УниКредит Булбанк, на което експерти обявиха, че се наблюдава все по-голям интерес към онлайн плащането на битови сметки и д",
-      "url": "https://www.economic.bg/bg/a/view/mobilnoto-bankirane-stava-osnoven-kanal-za-plashtane-na-bitovi-smetki-i-danyci",
-      "published": "2026-11-23T13:59:17+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
       }
     },
     {
@@ -195,25 +214,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission sets out key EU policy priorities for 2027 in its European Semester Autumn Package",
-      "summary": "European Commission Press release Strasbourg, 24 Nov 2026 The European Commission today adopted the 2027 European Semester Autumn Package, setting out economic, social and employment policy priorities.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2553",
-      "published": "2026-11-23T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "Economic.bg",
       "title": "LEGO строи четвърта фабрика в Европа заради растящото търсене",
       "summary": "LEGO обяви в понеделник плановете си да инвестира около 1 млрд. евро в нова фабрика в Ещарежа, Португалия, за да отговори на нарастващото търсене в Европа, Близкия изток и Африка. След като заработи с пълен капацитет, фабриката ще осигури работа на повече от 1",
@@ -248,25 +248,6 @@
         "strategic_significance": 54,
         "timeliness": 68,
         "source_reliability": 98
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинските съветници във Враца приеха информация за направени инвестиции във ВиК инфраструктура за над 141 хил. евро",
-      "summary": "Инвестиции във ВиК инфраструктура на стойност над 141 хил. евро са направени през 2025 г. в община Враца се посочва в доклад на заместник-кмета Петя Долапчиева. На редовно заседание общинските съветници приеха инвестициите, извършени от „Водоснабдяване и канал",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253115-obshtinskite-savetnitsi-vav-vratsa-prieha-informatsiya-za-napraveni-investitsii-",
-      "published": "2026-11-24T15:19:49+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -309,12 +290,31 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "ЕК поиска глоба за България за неизпълнение на процедурата за свръхдефицит",
+      "source": "БТА",
+      "title": "Одобрена е втората концепция на Община Свищов за Интегрирано териториално развитие на стойност над 12 милиона евро",
+      "summary": "Министерството на регионалното развитие и благоустройство одобри финансирането на втората концепция на Община Свищов за „Интегрирана подкрепа за развитието на здравни, социални и образователни услуги“. Общата стойност на проекта възлиза на 12 191 746 евро, съо",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253536-odobrena-e-vtorata-kontseptsiya-na-obshtina-svishtov-za-integrirano-teritorialno",
+      "published": "2026-11-24T16:29:44+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "България е на второ място в ЕС по нетни приходи от NextGenerationEU за 2025 г.",
       "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440019-ek-poiska-globa-za-balgariya-za-neizpalnenie-na-protsedurata-za-svrahdefitsit",
-      "published": "2026-11-24T15:40:00+00:00",
-      "feed_id": "investor-finance",
+      "url": "https://www.investor.bg/a/527-svyat/440009-balgariya-e-na-vtoro-myasto-v-es-po-netni-prihodi-ot-nextgenerationeu-za-2025-g",
+      "published": "2026-11-24T16:09:00+00:00",
+      "feed_id": "investor-economy",
       "publisher": "investor.bg",
       "priority_score": 29,
       "priority_breakdown": {
@@ -422,22 +422,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Germany news: Volkswagen begins wage talks with IG Metall union",
-      "summary": "Germany's largest labor union IG Metall and automaker Volkswagen are holding wage negotiations, as the company looks to embark on cost-cutting measures. Meanwhile, Germany's president is in Ghana. DW has more.",
-      "url": "https://www.dw.com/en/germany-news-volkswagen-begins-wage-talks-with-ig-metall-union/live-80028306?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T08:15:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 39,
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Управляващите пощадиха по-малките търговци от новия данък „Свръхпечалба“",
+      "summary": "Управляващите от „Прогресивна България“ се смилиха над по-малките търговци, които няма да бъдат облагани през 2027 г. с новия данък „Свръхпечалба“. Това става ясно от внесените между първо и второ четене предложения за изменение на данъчните закони за догодина",
+      "url": "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-po-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
+      "published": "2026-11-24T07:20:19+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 40,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
+        "economic_significance": 28,
+        "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 92,
-        "source_reliability": 95
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission sets out key EU policy priorities for 2027 in its European Semester Autumn Package",
+      "summary": "European Commission Press release Strasbourg, 24 Nov 2026 The European Commission today adopted the 2027 European Semester Autumn Package, setting out economic, social and employment policy priorities.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2553",
+      "published": "2026-11-23T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -609,6 +628,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Неочакваният икономически ефект на GTA VI в България",
+      "summary": "Какво общо има премиерата на една видеоигра с бизнеса на ресторантите в България? Данни на Revolut разкриват любопитна промяна в потребителските навици покрай излизането на GTA VI – включително изненадваща тенденция при разходите на жените",
+      "url": "https://www.economic.bg/bg/a/view/neochakvanijat-ikonomicheski-efekt-na-gta-vi-v-bylgarija",
+      "published": "2026-11-24T16:14:47+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
       }
     },
     {
@@ -802,6 +840,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Налагането на глоба от ЕК заради големия дефицит показва недоверие към правителството, коментира Ивайло Мирчев",
+      "summary": "Налагането на глоба от Европейската комисия (ЕК) заради големия дефицит показва недоверие към правителството, заяви съпредседателят на „Да, България“ Ивайло Мирчев по повод информацията, че ЕК е препоръчала налагането на глоба на България заради неизпълнение н",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253519-nalaganeto-na-globa-ot-ek-zaradi-golemiya-defitsit-pokazva-nedoverie-kam-pravite",
+      "published": "2026-11-24T16:07:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
@@ -810,13 +867,13 @@
       "published": "2026-11-23T16:42:09+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
-      "priority_score": 33,
+      "priority_score": 32,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 94
       }
     },
@@ -956,6 +1013,25 @@
     {
       "section": "europe",
       "source": "Euronews",
+      "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
+      "summary": "At least 25 people were injured in a bombing in Villavicencio, damaging government buildings, businesses and vehicles. Meanwhile, hundreds of residents marched with candles in Cúcuta following a separate attack, amid a resurgence of armed violence in Colombia.",
+      "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
+      "published": "2026-11-24T15:54:58+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
       "title": "Italy develops 'ambitious' business with 'strategic partner' Azerbaijan, Tajani tells Euronews",
       "summary": "Italy's Deputy Prime Minister and Foreign Minister Antonio Tajani told Euronews that Rome has sought to expand its business relations with Baku now that peace has brought stability and improved connectivity to the region.",
       "url": "https://www.euronews.com/2026/11/24/italy-develops-ambitious-business-with-strategic-partner-azerbaijan-tajani-tells-euronews",
@@ -1032,6 +1108,82 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "България вече е пълноправен член на Европейската лаборатория по молекулярна биология",
+      "summary": "България вече е пълноправен член на Европейската лаборатория по молекулярна биология (European Molecular Biology Laboratory - EMBL). Това е важна стъпка в развитието на българската научна общност в сферата на науките за живота и утвърждаването на страната ни к",
+      "url": "https://www.bta.bg/bg/news/lik/1253527-balgariya-veche-e-palnopraven-chlen-na-evropeyskata-laboratoriya-po-molekulyarna",
+      "published": "2026-11-24T16:16:13+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Специализираният експертен съвет към Министерството на културата дава положително становище за паметник на светите Седмочисленици във Варна",
+      "summary": "Специализираният експертен съвет по изобразителни изкуства към Министерството на културата даде положително становище за изграждането на паметник на светите Седмочисленици във Варна, съобщиха от Варненския свободен университет. На свое заседание експертите са",
+      "url": "https://www.bta.bg/bg/news/lik/1253510-spetsializiraniyat-eksperten-savet-kam-ministerstvoto-na-kulturata-dava-polozhit",
+      "published": "2026-11-24T16:08:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Книгата „Архитектурни портрети: арх. Пенчо Койчев“ бе представена в София",
+      "summary": "Книгата „Архитектурни портрети: арх. Пенчо Койчев“ бе представена в книжарницата на Новия български университет (НБУ). Участваха още съставителят на изданието доц. д-р арх. Мария Давчева, д-р арх. Весела Попова и внучката на арх. Койчев, доц. д-р Невена Койчев",
+      "url": "https://www.bta.bg/bg/news/lik/1253486-knigata-arhitekturni-portreti-arh-pencho-koychev-be-predstavena-v-sofiya",
+      "published": "2026-11-24T15:57:13+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "ЕК поиска глоба за България за неизпълнение на процедурата за свръхдефицит",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440019-ek-poiska-globa-za-balgariya-za-neizpalnenie-na-protsedurata-za-svrahdefitsit",
+      "published": "2026-11-24T15:40:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Прекратяване на кметски мандат следва да се прилага при безспорно установени законови основания и принцип на пропорционалност, заявяват от НСОРБ",
       "summary": "Управителният съвет на Националното сдружение на общините в Република България (НСОРБ) изразява сериозна загриженост във връзка с решението на Общинската избирателна комисия – Варна от 23 ноември 2026 г. за предсрочно прекратяване на пълномощията на кмета на о",
       "url": "https://www.bta.bg/bg/news/bulgaria/1253478-prekratyavane-na-kmetski-mandat-sledva-da-se-prilaga-pri-bezsporno-ustanoveni-za",
@@ -1069,44 +1221,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Показваме българския мъж по смислен начин за хубава кауза, казаха авторите на календара „Героите в сянка“",
-      "summary": "Показваме българския мъж по един разумен, смислен и силен начин за хубава кауза. Това каза фотографът Деян Недялков, който е автор на повечето изображения в календара за 2027 г. „Героите в сянка“, сниман и представен във Варна. Инициативата е на Синдикалната ф",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253398-pokazvame-balgarskiya-mazh-po-smislen-nachin-za-hubava-kauza-kazaha-avtorite-na",
-      "published": "2026-11-24T14:50:09+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Окръжният съд в Хасково остави в ареста двама обвинени в трафик на марихуана за над 180 000 евро през граничен пункт \"Капитан Андреево\"",
-      "summary": "Окръжният съд в Хасково определи най-тежката мярка за неотклонение - \"Задържане под стража\", спрямо двама български граждани, обвинени в опит за контрабанда на 22,160 килограма марихуана на стойност 181 283,65 евро, съобщиха от пресслужбата на съда. Даниел Сви",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253443-okrazhniyat-sad-v-haskovo-ostavi-v-aresta-dvama-obvineni-v-trafik-na-marihuana-z",
-      "published": "2026-11-24T14:43:54+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Акционерите на „Телелинк Бизнес Сървисис Груп“ ще гласуват промяна на името",
       "summary": "",
@@ -1120,27 +1234,8 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Само една държава в Европа има по-бърз мобилен интернет от България",
-      "summary": "ългария заема девето място в света и второ в ЕС по скорост на мобилния интернет според октомврийските данни на Ookla за 2026 г.",
-      "url": "https://www.economic.bg/bg/a/view/samo-edna-dyrjava-v-evropa-ima-po-byrz-mobilen-internet-ot-bylgarija",
-      "published": "2026-11-24T13:26:50+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
       }
     },
     {
@@ -1237,107 +1332,17 @@
         "timeliness": 30,
         "source_reliability": 99
       }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Race to replant five South African baobabs after export blocked",
-      "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
-      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
-      "published": "2026-11-19T11:03:24+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 30,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-      "summary": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T15:35:53+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "World Chess Championship 2026 Game 1: Gukesh Dommaraju v Javokhir Sindarov – live",
-      "summary": "Youngest title match in chess history starts Tuesday Sindarov and Gukesh open Game 1 with Berlin defense Explainer: all your pre-match questions, answered Preview: Gukesh vows to win title ‘all over again’ Sindarov interview: ‘I can’t play games just for fun’",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/24/chess-world-championship-gukesh-sindarov-game-1-updates",
-      "published": "2026-11-24T15:26:42+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Gaza issues meningitis epidemic alert after steep rise in cases",
-      "summary": "Health ministry records 272 new infections in October, more than eight times the normal monthly rate Gaza’s health ministry has issued an epidemic alert after a sharp rise in meningitis infections, with more than 270 new cases reported in October. Dr Nidal Gho",
-      "url": "https://www.theguardian.com/world/2026/nov/24/gaza-meningitis-epidemic-alert",
-      "published": "2026-11-24T14:51:18+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "CAS reinstates Senegal as 2025 AFCON champions",
-      "summary": "The Court of Arbitration for Sport has reinstated Senegal as 2025 AFCON champions, overturning a CAF decision that stripped them of the title. Morocco, previously declared winners, are confirmed runners-up.",
-      "url": "https://www.dw.com/en/cas-reinstates-senegal-as-2025-afcon-champions/a-80021027?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T14:42:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
     }
   ],
   "feed_status": {
-    "ok": 21,
+    "ok": 20,
     "total": 21,
-    "failures": []
+    "failures": [
+      {
+        "feed": "federal-reserve",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
