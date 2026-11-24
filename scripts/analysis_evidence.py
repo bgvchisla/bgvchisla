@@ -233,14 +233,20 @@ def _is_permanently_unavailable(url):
     if url in _URL_STATUS_CACHE:
         return _URL_STATUS_CACHE[url]
 
+    # Some publishers return 200 for HEAD while the article GET is 404.
+    # Use a one-byte ranged GET so the check follows the same HTTP method
+    # as the downstream source validator without downloading the article body.
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": URL_CHECK_USER_AGENT},
-        method="HEAD",
+        headers={
+            "User-Agent": URL_CHECK_USER_AGENT,
+            "Range": "bytes=0-0",
+        },
     )
     try:
         with urllib.request.urlopen(request, timeout=URL_CHECK_TIMEOUT_SECONDS) as response:
             status = response.getcode()
+            response.read(1)
     except urllib.error.HTTPError as exc:
         status = exc.code
     except (urllib.error.URLError, TimeoutError, OSError):
