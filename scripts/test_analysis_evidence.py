@@ -24,10 +24,19 @@ class PermanentDeadLinkTests(unittest.TestCase):
     def setUp(self):
         analysis_evidence._URL_STATUS_CACHE.clear()
 
-    def test_404_is_treated_as_permanently_unavailable(self):
-        error = HTTPError(DEAD_URL, 404, "Not Found", None, None)
-        with patch.object(analysis_evidence.urllib.request, "urlopen", side_effect=error):
+    def test_404_is_treated_as_permanently_unavailable_using_ranged_get(self):
+        seen = {}
+
+        def respond(request, timeout):
+            seen["method"] = request.get_method()
+            seen["range"] = request.get_header("Range")
+            raise HTTPError(request.full_url, 404, "Not Found", None, None)
+
+        with patch.object(analysis_evidence.urllib.request, "urlopen", side_effect=respond):
             self.assertTrue(analysis_evidence._is_permanently_unavailable(DEAD_URL))
+
+        self.assertEqual(seen["method"], "GET")
+        self.assertEqual(seen["range"], "bytes=0-0")
 
     def test_410_is_treated_as_permanently_unavailable(self):
         error = HTTPError(DEAD_URL, 410, "Gone", None, None)
