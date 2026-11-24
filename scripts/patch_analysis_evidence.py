@@ -115,9 +115,13 @@ def get_evidence(lane):
   first_words=underlength_word_count(exc,cfg['minimum_words'])
   source_count=insufficient_source_count(exc,cfg['minimum_sources'])
   if first_words is not None:
+   if not retry_allowed:
+    raise RuntimeError('Няма бюджетен резерв за второ API извикване; черновата остава непубликувана.')
    print(f'ЕДИН ПОВТОРЕН ОПИТ: първата чернова е {first_words} думи; минимумът е {cfg["minimum_words"]}.')
    retry_prompt=build_retry_prompt(pack,a,first_words,cfg)
   elif source_count is not None:
+   if not retry_allowed:
+    raise RuntimeError('Няма бюджетен резерв за второ API извикване; черновата остава непубликувана.')
    print(f'ЕДИН ПОВТОРЕН ОПИТ: черновата цитира {source_count} различни източника; минимумът е {cfg["minimum_sources"]}.')
    retry_prompt=build_source_coverage_retry_prompt(pack,a,source_count,cfg)
   else:raise
@@ -139,7 +143,7 @@ def get_evidence(lane):
             raise RuntimeError("Не е намерено еднозначно място за предварителния бюджетен резерв.")
         patched = patched.replace(
             estimate_needle,
-            "from analysis_retry import maximum_retry_reserve\n estimate=maximum_retry_reserve(cfg)",
+            "from analysis_retry import maximum_retry_reserve, maximum_single_call_reserve\\n retry_allowed=calls+2<=cfg['max_api_calls_per_month']\\n estimate=maximum_retry_reserve(cfg) if retry_allowed else maximum_single_call_reserve(cfg)",
             1,
         )
         calls_needle = (
@@ -147,11 +151,8 @@ def get_evidence(lane):
         )
         if patched.count(calls_needle) != 1:
             raise RuntimeError("Не е намерена бюджетната проверка за броя заявки.")
-        patched = patched.replace(
-            calls_needle,
-            "if spent+estimate>cfg['monthly_budget_usd'] or calls+2>cfg['max_api_calls_per_month']:",
-            1,
-        )
+        # The one-call case is allowed, but retry_allowed remains false and
+        # the validation handler above blocks any second paid API request.
 
     # Заменяме legacy single-file output с модерния сайт договор:
     # /analizi/{slug}/index.html, published_at registry, архивна карта и sitemap.
