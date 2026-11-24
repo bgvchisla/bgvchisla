@@ -65,7 +65,8 @@ def get_evidence(lane):
     source_instruction_extra = (
         source_instruction
         + " Полето used_source_ids трябва да съдържа всички различни source_id, "
-        "използвани в параграфите и ключовите изводи, без други идентификатори."
+        "използвани в параграфите и ключовите изводи, без други идентификатори. "
+        "Използвай съдържателно поне 4 различни source_id от evidence пакета; не добавяй несъществуващи цитати."
     )
     if source_instruction_extra not in patched:
         if patched.count(source_instruction) != 1:
@@ -110,11 +111,16 @@ def get_evidence(lane):
  try:
   a=validate(a,pack,cfg)
  except RuntimeError as exc:
-  from analysis_retry import build_retry_prompt, underlength_word_count
+  from analysis_retry import (build_retry_prompt, build_source_coverage_retry_prompt, underlength_word_count, insufficient_source_count)
   first_words=underlength_word_count(exc,cfg['minimum_words'])
-  if first_words is None:raise
-  print(f'ЕДИН ПОВТОРЕН ОПИТ: първата чернова е {first_words} думи; минимумът е {cfg["minimum_words"]}.')
-  retry_prompt=build_retry_prompt(pack,a,first_words,cfg)
+  source_count=insufficient_source_count(exc,cfg['minimum_sources'])
+  if first_words is not None:
+   print(f'ЕДИН ПОВТОРЕН ОПИТ: първата чернова е {first_words} думи; минимумът е {cfg["minimum_words"]}.')
+   retry_prompt=build_retry_prompt(pack,a,first_words,cfg)
+  elif source_count is not None:
+   print(f'ЕДИН ПОВТОРЕН ОПИТ: черновата цитира {source_count} различни източника; минимумът е {cfg["minimum_sources"]}.')
+   retry_prompt=build_source_coverage_retry_prompt(pack,a,source_count,cfg)
+  else:raise
   retry_a,retry_u,retry_cost=api(retry_prompt,cfg)
   record_usage(retry_u,retry_cost,cfg)
   cost+=retry_cost
