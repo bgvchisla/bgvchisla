@@ -176,8 +176,8 @@ jobs:
           words = re.findall(r"[^\W_]+(?:[’'-][^\W_]+)*", body, flags=re.UNICODE)
           if not 900 <= len(words) <= 1400:
               raise SystemExit(f"Дължината е извън стандарта: {len(words)} думи.")
-          refs = set(re.findall(r'href="#source-([A-Za-z][A-Za-z0-9_-]*)"', page))
-          notes = set(re.findall(r'<li id="source-([A-Za-z][A-Za-z0-9_-]*)"', page))
+          refs = set(re.findall(r'href="#source-([A-Za-z0-9][A-Za-z0-9_-]*)"', page))
+          notes = set(re.findall(r'<li id="source-([A-Za-z0-9][A-Za-z0-9_-]*)"', page))
           if not refs or not refs.issubset(notes) or len(notes) < 4:
               raise SystemExit("Препратките към първоизточниците са непълни.")
           if f'href="/analizi/{slug}/"' not in Path("analizi/index.html").read_text(encoding="utf-8"):
