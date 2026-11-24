@@ -433,3 +433,126 @@ jobs:
               echo "**Публикацията е блокирана.** Виж логовете на неуспешната стъпка."
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Persist usage ledgers after unsuccessful paid run
+        if: always() && steps.plan.outputs.mode == 'publish' && job.status == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          LEDGER_FILES=(analysis/monthly_usage.json analysis/verification_usage.json)
+          if git diff --quiet -- "${LEDGER_FILES[@]}"; then
+            echo "Няма промени във финансовите регистри за съхраняване."
+            exit 0
+          fi
+
+          mkdir -p /tmp/analysis-ledgers-from-failed-run
+          cp analysis/monthly_usage.json /tmp/analysis-ledgers-from-failed-run/monthly_usage.json
+          cp analysis/verification_usage.json /tmp/analysis-ledgers-from-failed-run/verification_usage.json
+          git fetch origin main
+          BRANCH="automation/analysis-usage-ledger-${GITHUB_RUN_ID}"
+          git switch --discard-changes --force-create "$BRANCH" origin/main
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          snapshots = {
+              "analysis/monthly_usage.json": Path("/tmp/analysis-ledgers-from-failed-run/monthly_usage.json"),
+              "analysis/verification_usage.json": Path("/tmp/analysis-ledgers-from-failed-run/verification_usage.json"),
+          }
+
+          def record_key(item, verification):
+              if verification:
+                  return (
+                      item.get("attempt"),
+                      item.get("timestamp_utc"),
+                      item.get("slug"),
+                      item.get("model"),
+                  )
+              return (
+                  item.get("workflow_run_id"),
+                  item.get("timestamp"),
+                  item.get("model"),
+              )
+
+          def merge_ledger(path, snapshot_path, verification):
+              current = json.loads(Path(path).read_text(encoding="utf-8"))
+              incoming = json.loads(snapshot_path.read_text(encoding="utf-8"))
+              if current.get("month") != incoming.get("month"):
+                  raise SystemExit(f"Month mismatch while merging {path}; manual accounting is required.")
+              merged = {}
+              for item in current.get("history", []):
+                  merged[record_key(item, verification)] = item
+              for item in incoming.get("history", []):
+                  key = record_key(item, verification)
+                  previous = merged.get(key)
+                  if previous is None or item.get("status") not in {"reserved"}:
+                      merged[key] = item
+              history = list(merged.values())
+              history.sort(key=lambda item: str(item.get("timestamp_utc") or item.get("timestamp") or ""))
+              result = dict(current)
+              result.update({key: value for key, value in incoming.items() if key not in {"history"}})
+              result["history"] = history
+              result["calls"] = max(int(current.get("calls", 0)), int(incoming.get("calls", 0)), len(history))
+              if verification:
+                  known_spend = sum(
+                      float(item.get("actual_cost_usd", item.get("estimated_cost_usd", 0)) or 0)
+                      for item in history
+                  )
+                  pending_reserve = sum(
+                      float(item.get("reserved_usd", 0) or 0)
+                      for item in history if item.get("status") == "reserved"
+                  )
+                  result["spent_usd"] = round(max(float(current.get("spent_usd", 0)), float(incoming.get("spent_usd", 0)), known_spend), 8)
+                  result["reserved_usd"] = round(max(float(current.get("reserved_usd", 0)), float(incoming.get("reserved_usd", 0)), pending_reserve), 8)
+              else:
+                  known_spend = sum(float(item.get("cost_usd", 0) or 0) for item in history)
+                  result["spent_usd"] = round(max(float(current.get("spent_usd", 0)), float(incoming.get("spent_usd", 0)), known_spend), 8)
+              Path(path).write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+
+          for path, snapshot in snapshots.items():
+              merge_ledger(path, snapshot, verification=path.endswith("verification_usage.json"))
+          PY
+
+          if git diff --quiet -- "${LEDGER_FILES[@]}"; then
+            echo "Финансовите регистри вече са актуални в main."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${LEDGER_FILES[@]}"
+          git commit -m "Persist API usage after failed analysis run ${GITHUB_RUN_ID}"
+          EXPECTED_SHA="$(git rev-parse HEAD)"
+          git push --set-upstream origin "$BRANCH"
+          PR_URL="$(gh pr create --repo "$REPOSITORY" --base main --head "$BRANCH" --title "Финансов регистър: неуспешно изпълнение ${GITHUB_RUN_ID}" --body "Автоматично съхраняване на API употребата от неуспешно платено изпълнение. Променени са само analysis/monthly_usage.json и analysis/verification_usage.json; статията не се публикува.")"
+          PR_NUMBER="$(gh pr view "$PR_URL" --repo "$REPOSITORY" --json number --jq .number)"
+          echo "Счетоводен PR: $PR_URL; точен commit: $EXPECTED_SHA"
+
+          CHECK_STATUS=""
+          CHECK_CONCLUSION=""
+          for attempt in $(seq 1 60); do
+            CHECKS="$(gh api "repos/$REPOSITORY/commits/$EXPECTED_SHA/check-runs?per_page=100")"
+            AUDIT_STATE="$(jq -r '[.check_runs[] | select(.name == "audit") | select(.app.slug == "github-actions")] | sort_by(.completed_at // .started_at // .created_at) | last | [.status // "", (.conclusion // "")] | @tsv' <<<"$CHECKS")"
+            CHECK_STATUS="$(cut -f1 <<<"$AUDIT_STATE")"
+            CHECK_CONCLUSION="$(cut -f2 <<<"$AUDIT_STATE")"
+            if [ "$CHECK_STATUS" = "completed" ]; then break; fi
+            sleep 15
+          done
+          if [ "$CHECK_STATUS" != "completed" ] || [ "$CHECK_CONCLUSION" != "success" ]; then
+            echo "::error::Одитът на счетоводния PR не приключи успешно; регистрите остават в PR за преглед."
+            exit 1
+          fi
+
+          APPROVAL="$(gh api "repos/$REPOSITORY/commits/$EXPECTED_SHA/check-runs?per_page=100" | jq -r '[.check_runs[] | select(.name == "editorial-approval") | select(.app.slug == "github-actions")] | sort_by(.completed_at // .created_at) | last | .conclusion // ""')"
+          if [ "$APPROVAL" != "success" ]; then
+            echo "::error::Липсва editorial-approval за точния счетоводен commit."
+            exit 1
+          fi
+          PR_JSON="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+          test "$(jq -r '.state' <<<"$PR_JSON")" = "open"
+          test "$(jq -r '.head.sha' <<<"$PR_JSON")" = "$EXPECTED_SHA"
+          MERGED="$(gh api --method PUT "repos/$REPOSITORY/pulls/$PR_NUMBER/merge" -f sha="$EXPECTED_SHA" -f merge_method=squash)"
+          test "$(jq -r '.merged' <<<"$MERGED")" = "true"
+          echo "Финансовите регистри са съхранени след неуспешното платено изпълнение."
