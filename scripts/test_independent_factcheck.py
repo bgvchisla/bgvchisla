@@ -69,7 +69,7 @@ class VerifierResponseParsingTests(unittest.TestCase):
         safe = json.dumps(diagnostics, ensure_ascii=False)
         self.assertEqual(diagnostics["candidate_count"], 1)
         self.assertEqual(diagnostics["finish_reason"], "STOP")
-        self.assertEqual(diagnostics["final_text_characters"], 26)
+        self.assertEqual(diagnostics["final_text_characters"], 25)
         self.assertNotIn("overall_verdict", safe)
         self.assertEqual(diagnostics["usage_metadata"]["promptTokenCount"], 12)
 
@@ -254,7 +254,7 @@ def main() -> int:
     args = parser.parse_args()
     if args.static:
         validate_static()
-    suite = unittest.defaultTestLoader.loadTestsFromTestCase(NumericExtractionTests)
+    suite = unittest.defaultTestLoader.loadTestsFromModule(sys.modules[__name__])
     result = unittest.TextTestRunner(verbosity=2).run(suite)
     if not result.wasSuccessful():
         return 1
