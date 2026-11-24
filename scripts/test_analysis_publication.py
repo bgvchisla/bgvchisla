@@ -165,6 +165,7 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertIn("analysis/monthly_usage.json", source)
         self.assertIn("analysis/verification_usage.json", source)
         self.assertIn("automation/analysis-usage-ledger-", AUDIT_WORKFLOW.read_text(encoding="utf-8"))
+        self.assertIn("automation/gemini-output-capacity-", AUDIT_WORKFLOW.read_text(encoding="utf-8"))
 
     def test_manual_dispatch_defaults_to_preflight(self):
         source = GENERATOR_WORKFLOW.read_text(encoding="utf-8")
