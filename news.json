@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T23:18:26.626566+00:00",
-  "last_checked_at": "2026-11-23T23:18:26.626578+00:00",
+  "updated_at": "2026-11-24T00:13:34.816430+00:00",
+  "last_checked_at": "2026-11-24T00:13:34.816438+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -195,25 +195,6 @@
     },
     {
       "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "EU launches safeguard investigation into certain composite input materials",
-      "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
-      "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "publisher": "СТО",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
       "summary": "New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people • Slave-trade wealth was embedded in Britain’s financial system, research finds British businesses run by long-serving",
@@ -229,6 +210,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "EU launches safeguard investigation into certain composite input materials",
+      "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
+      "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "publisher": "СТО",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 68,
+        "source_reliability": 98
       }
     },
     {
@@ -297,52 +297,14 @@
       "published": "2026-11-23T20:39:14+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 32,
+      "priority_score": 31,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 74,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Бащите на съвременната Конституция са създали изключително зрял основен закон, който успя да отговори на предизвикателствата на времето, заяви председателят на Народното събрание Михаела Доцова",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6683",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "publisher": "Народно събрание",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 98
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6681",
-      "published": "2026-11-20T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "publisher": "Народно събрание",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 50,
-        "source_reliability": 98
       }
     },
     {
@@ -362,6 +324,44 @@
         "strategic_significance": 0,
         "timeliness": 30,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Бащите на съвременната Конституция са създали изключително зрял основен закон, който успя да отговори на предизвикателствата на времето, заяви председателят на Народното събрание Михаела Доцова",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6683",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "publisher": "Народно събрание",
+      "priority_score": 27,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 98
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Историческата сграда на Народното събрание беше осветена в синьо в знак на подкрепа към Националната кампания срещу насилието над и между деца „Бъди смел, бъди добър“",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6681",
+      "published": "2026-11-20T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "publisher": "Народно събрание",
+      "priority_score": 26,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 30,
+        "source_reliability": 98
       }
     },
     {
@@ -537,25 +537,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Belgium: Workers march against spending cuts as living costs rise",
-      "summary": "Thousands marched through Brussels, on Monday 23 November 2026, against proposed austerity measures, with some clashes prompting police to deploy tear gas and water cannons. The protests came as Belgium's government struggled to agree on its budget for 2027.",
-      "url": "https://www.euronews.com/video/2026/11/23/belgium-workers-march-against-spending-cuts-as-living-costs-rise",
-      "published": "2026-11-23T21:09:46+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU takes aim at tech giants in tax proposal",
       "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
@@ -571,6 +552,25 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Belgium: Workers march against spending cuts as living costs rise",
+      "summary": "Thousands marched through Brussels, on Monday 23 November 2026, against proposed austerity measures, with some clashes prompting police to deploy tear gas and water cannons. The protests came as Belgium's government struggled to agree on its budget for 2027.",
+      "url": "https://www.euronews.com/video/2026/11/23/belgium-workers-march-against-spending-cuts-as-living-costs-rise",
+      "published": "2026-11-23T21:09:46+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -689,25 +689,6 @@
     },
     {
       "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
-      "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
-      "url": "https://www.wto.org/english/news_e/news26_e/tmg20_23nov26_559_e.htm",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "publisher": "СТО",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
       "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
@@ -822,6 +803,25 @@
     },
     {
       "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
+      "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
+      "url": "https://www.wto.org/english/news_e/news26_e/tmg20_23nov26_559_e.htm",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "publisher": "СТО",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 98
+      }
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
       "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world.",
@@ -918,10 +918,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Chalmers to ‘save more than we spend’ in budget update; King Charles ‘deeply saddened’ by Meldrum’s death",
+      "title": "Australian politics live: Taylor notes ‘tough year’ for Coalition party room; King Charles ‘deeply saddened’ by Meldrum’s death",
       "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
-      "published": "2026-11-23T23:11:27+00:00",
+      "published": "2026-11-23T23:58:07+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 30,
@@ -951,25 +951,6 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Финалният концерт от националното турне на Лили Иванова в Ямбол изпълни до краен предел зала „Диана“",
-      "summary": "Финалният концерт от тазгодишното национално турне на Лили Иванова изпълни до краен предел спортната зала „Диана“ в Ямбол. Бурни и нестихващи аплодисменти и публика, станала на крака – така Ямбол посрещна примата на българската музика. Тя излезе на сцената зае",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252850-finalniyat-kontsert-ot-natsionalnoto-turne-na-lili-ivanova-v-yambol-izpalni-do-k",
-      "published": "2026-11-23T20:34:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1144,22 +1125,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T20:48:35+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Финалният концерт от националното турне на Лили Иванова в Ямбол изпълни до краен предел зала „Диана“",
+      "summary": "Финалният концерт от тазгодишното национално турне на Лили Иванова изпълни до краен предел спортната зала „Диана“ в Ямбол. Бурни и нестихващи аплодисменти и публика, станала на крака – така Ямбол посрещна примата на българската музика. Тя излезе на сцената зае",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252850-finalniyat-kontsert-ot-natsionalnoto-turne-na-lili-ivanova-v-yambol-izpalni-do-k",
+      "published": "2026-11-23T20:34:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -1207,44 +1188,6 @@
       "summary": "The Council expands its sanctions list to combat terrorism by designating the founder and leader of the EU-sanctioned organisation 'The Base'.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/eu-sanctions-against-terrorism-council-lists-the-founder-of-the-base/",
       "published": "2026-11-23T13:50:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen on the 22nd package of sanctions against Russia",
-      "summary": "European Commission Statement Strasbourg, 23 Nov 2026 Good afternoon. Today, we present our 22nd package of sanctions. The aim is to keep pressure on Russia to end their war of aggression in Ukraine. And we will co...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2563",
-      "published": "2026-11-23T11:51:34+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Tajikistan: Statement by the High Representative on behalf of the European Union on Tajikistan’s withdrawal from the Rome Statute of the International Criminal Court",
-      "summary": "The High Representative issued a statement on behalf of the European Union on Tajikistan’s withdrawal from the Rome Statute of the International Criminal Court.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/tajikistan-statement-by-the-high-representative-on-behalf-of-the-european-union-on-tajikistan-s-withdrawal-from-the-rome-statute-of-the-international-criminal-court/",
-      "published": "2026-11-23T11:35:00+00:00",
       "feed_id": "council-press",
       "publisher": "Съвет на ЕС",
       "priority_score": 28,
@@ -1331,6 +1274,63 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "summary": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
+      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T00:33:36+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
+      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T20:48:35+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 27,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Ще използва ли Русия ядрено оръжие в космоса, с което може да унищожи и свои сателити?",
+      "summary": "",
+      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/439947-shte-izpolzva-li-rusiya-yadreno-orazhie-v-kosmosa-s-koeto-mozhe-da-unishtozhi-i-svoi-sateliti",
+      "published": "2026-11-23T18:40:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 27,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 87
       }
     }
   ],
