@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T04:44:01.634538+00:00",
-  "last_checked_at": "2026-11-24T04:44:01.634550+00:00",
+  "updated_at": "2026-11-24T05:40:49.256209+00:00",
+  "last_checked_at": "2026-11-24T05:40:49.256217+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -157,25 +157,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
-      "published": "2026-11-23T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU and Indonesia sign trade deal",
       "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
@@ -195,21 +176,21 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Opening remarks by Commissioner Serafin during the debate on the EU Anti-fraud Architecture Review (INI Report) at the European Parliament in Strasbourg",
-      "summary": "European Commission Speech Strasbourg, 23 Nov 2026 I would like to thank the rapporteurs Mr Zdechovsky and Mr Erixon and the Members of the Committee on Budgetary Control for their own-initiative report on the f...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2566",
-      "published": "2026-11-23T17:35:56+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
+      "published": "2026-11-23T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 38,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -229,6 +210,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Opening remarks by Commissioner Serafin during the debate on the EU Anti-fraud Architecture Review (INI Report) at the European Parliament in Strasbourg",
+      "summary": "European Commission Speech Strasbourg, 23 Nov 2026 I would like to thank the rapporteurs Mr Zdechovsky and Mr Erixon and the Members of the Committee on Budgetary Control for their own-initiative report on the f...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2566",
+      "published": "2026-11-23T17:35:56+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -278,13 +278,13 @@
       "published": "2026-11-24T02:15:59+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
-      "priority_score": 35,
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 76,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 95
       }
     },
@@ -297,13 +297,13 @@
       "published": "2026-11-23T17:28:00+00:00",
       "feed_id": "investor-finance",
       "publisher": "investor.bg",
-      "priority_score": 34,
+      "priority_score": 33,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 87
       }
     },
@@ -373,13 +373,13 @@
       "published": "2026-11-23T16:46:26+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 45,
+      "priority_score": 44,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -613,44 +613,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "What failure of COP31 reveals about a divided world",
-      "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
-      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-23T17:24:25+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
-      "published": "2026-11-23T16:58:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission approves €1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
       "summary": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has approved, under EU State aid rules, a €1 billion Slovenian measure to cover exceptional costs related to the closure of the Premogovnik Velenje coal mine.",
@@ -688,22 +650,41 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Усилията на България за сигурността в региона подчерта премиерът Румен Радев на среща с постоянния представител на САЩ в НАТО Матю Уитакър",
-      "summary": "Последователните усилия на България за укрепване и развитие на отбранителните си способности и за принос към гарантирането на сигурността в региона в условията на финансови ограничения бяха подчертани от министър-председателя Румен Радев по време на срещата му",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252819-usiliyata-na-balgariya-za-sigurnostta-v-regiona-podcherta-premierat-rumen-radev-",
-      "published": "2026-11-23T19:22:24+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "What failure of COP31 reveals about a divided world",
+      "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
+      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-23T17:24:25+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 33,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Руската петролна индустрия се сблъсква с още санкции, конкуренция, дронове и лошо време",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/439958-ruskata-petrolna-industriya-se-sblaskva-s-oshte-sanktsii-konkurentsiya-dronove-i-losho-vreme",
+      "published": "2026-11-23T16:58:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 90
+        "timeliness": 82,
+        "source_reliability": 87
       }
     },
     {
@@ -878,25 +859,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Това е опит за заличаване на избора на хората, заявиха от „Да, България“ по повод отстраняването на Благомир Коцев",
-      "summary": "Това е нов опит за заличаване на избора на хората, написаха в позиция от парламентарната група на „Да, България“ във връзка с решението за прекратяване на правомощията на кмета на Варна Благомир Коцев. „Ако държавата те е задържала незаконно, прокуратурата се",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252849-tova-e-opit-za-zalichavane-na-izbora-na-horata-zayaviha-ot-da-balgariya-po-p",
-      "published": "2026-11-23T20:39:14+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "At least 24 people killed in Indonesia factory fire, police say",
@@ -936,6 +898,82 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: Government lacks ‘moral authority’ on decarbonisation, Monique Ryan says; eight teens arrested over alleged schoolies assault",
+      "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
+      "published": "2026-11-24T05:22:20+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Макреш ще обсъди предсрочно прекратяване на правомощията на председателя Саня Кирилова",
+      "summary": "На извънредно заседание Общинският съвет в Макреш ще разгледа предсрочно прекратяване на правомощията на председателя на съвета Саня Кирилова. Това е единствената точка в дневния ред, публикуван на сайта на Общината. Вносители на искането са петима общински съ",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252379-obshtinskiyat-savet-v-makresh-shte-obsadi-predsrochno-prekratyavane-na-pravomosh",
+      "published": "2026-11-24T05:21:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Can Europe stop Trump putting world leaders above the law?",
+      "summary": "Presented by Fusion for Energy.",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-stop-trump-putting-world-leaders-above-the-law/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-24T05:05:00+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Budget de l’UE : c’est Noël avant l’heure pour Emmanuel Macron",
+      "summary": "Plusieurs Etats membres accusent António Costa, le président du Conseil européen, de favoriser la France dans sa nouvelle proposition budgétaire.",
+      "url": "https://www.politico.eu/article/budget-de-lue-cest-noel-avant-lheure-pour-emmanuel-macron/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-24T04:57:52+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
       "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
@@ -956,25 +994,6 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Government lacks ‘moral authority’ on decarbonisation, Monique Ryan says",
-      "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
-      "published": "2026-11-24T04:23:59+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
       "title": "EU sanctions package intended to ‘keep pressure’ on Russia and ‘strike harder’ at its ability to fund Ukraine war – as it happened",
       "summary": "European Commission president Ursula von der Leyen sets out 22nd package of sanctions Turning to Ukraine, Nato’s Rutte stresses the need to secure the flow of “crucial supplies” or air defence weapons and ammunition to Ukraine. “ It helps Ukraine to defend its",
       "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
@@ -989,6 +1008,44 @@
         "strategic_significance": 54,
         "timeliness": 82,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Пожарните екипи са реагирали на 188 сигнала за произшествия в страната за последното денонощие",
+      "summary": "Пожарните екипи са реагирали на 188 сигнала за произшествия в страната за последното денонощие. Това съобщиха на сайта си от Главна дирекция „Пожарна безопасност и защита на населението”. Потушени са 64 пожара, няма загинали и пострадали. С материални щети са",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252883-pozharnite-ekipi-sa-reagirali-na-188-signala-za-proizshestviya-v-stranata-za-pos",
+      "published": "2026-11-24T05:25:55+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Централната избирателна комисия ще връчи удостоверенията на избраните за президент и вицепрезидент",
+      "summary": "Централната избирателна комисия (ЦИК) ще връчи удостоверенията на избраните за президент - Илияна Йотова, и вицепрезидент - Кирил Вълчев, на официална церемония от 14:00 часа в сградата на Народното събрание. Това съобщиха от пресцентъра на ЦИК. ЦИК обяви Илия",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252352-tsentralnata-izbiratelna-komisiya-shte-vrachi-udostovereniyata-na-izbranite-za-p",
+      "published": "2026-11-24T05:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1069,6 +1126,25 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Ebikes, screens and failing manners pose challenge for Dutch cycling culture",
+      "summary": "Awareness campaign reminds public ‘traffic is a team sport’ amid less civility and more collisions on roads For decades the Netherlands has been famed for its proud cycling culture, with a network of 23,000 miles of bike paths used by everyone from children un",
+      "url": "https://www.theguardian.com/world/2026/nov/24/ebikes-screens-and-failing-manners-pose-challenge-for-dutch-cycling-culture",
+      "published": "2026-11-24T05:00:07+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "India: Report warns of deepening authoritarianism under Modi",
       "summary": "A Human Rights Watch report found that Modi's rule in India has eroded the rule of law and \"systematically weakened institutions\" meant to protect freedoms. Also, in Delhi a man injured nine police with a knife.",
@@ -1125,44 +1201,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Финалният концерт от националното турне на Лили Иванова в Ямбол изпълни до краен предел зала „Диана“",
-      "summary": "Финалният концерт от тазгодишното национално турне на Лили Иванова изпълни до краен предел спортната зала „Диана“ в Ямбол. Бурни и нестихващи аплодисменти и публика, станала на крака – така Ямбол посрещна примата на българската музика. Тя излезе на сцената зае",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1252850-finalniyat-kontsert-ot-natsionalnoto-turne-na-lili-ivanova-v-yambol-izpalni-do-k",
-      "published": "2026-11-23T20:34:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "С тържествена церемония Студентският съвет при УНСС отбеляза 35-ата годишнина от създаването си",
-      "summary": "С тържествена церемония Студентският съвет при Университета за национално и световно стопанство (УНСС) отбеляза 35-ата годишнина от създаването си. По повод юбилея ректорът на университета връчи на Студентския съвет почетния медал на висшето училище. Събитието",
-      "url": "https://www.bta.bg/bg/news/lik/1252837-s-tarzhestvena-tseremoniya-studentskiyat-savet-pri-unss-otbelyaza-35-ata-godishn",
-      "published": "2026-11-23T19:44:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Budget cuts threaten Germany's fight against antisemitism and racism",
@@ -1198,25 +1236,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Taiwan warns Canada against deeper China trade ties as Carney seeks to diversify",
-      "summary": "The warning came days after Carney met Chinese President Xi Jinping in Shenzhen, where the two sides agreed further tariff cuts as Canada looks for new markets as Trump's trade war continues.",
-      "url": "https://www.euronews.com/2026/11/23/taiwan-warns-canada-against-deeper-china-trade-ties-as-carney-seeks-to-diversify",
-      "published": "2026-11-23T05:27:13+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 91
       }
     },
     {
@@ -1310,25 +1329,6 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "US adds Megaspeed, at center of Nvidia scandal, to a trade blacklist",
-      "summary": "The Trump administration has added Megaspeed to a trade blacklist after tensions over its failure to do so raised questions. The news came the same day that Jensen Huang was reinstated as Nvidia's CEO.",
-      "url": "https://www.dw.com/en/us-adds-megaspeed-at-center-of-nvidia-scandal-to-a-trade-blacklist/a-80026849?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T22:35:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 95
       }
