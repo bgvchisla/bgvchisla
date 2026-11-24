@@ -223,11 +223,18 @@ def _context_category(title, summary):
 # access restrictions and rate limits are left for the later strict validator.
 URL_CHECK_TIMEOUT_SECONDS = 6
 URL_CHECK_USER_AGENT = "bgvchisla-editorial-source-check/1.0"
+# Independently confirmed with an HTTP 404 on 2026-11-24. Some upstream
+# proxies return a misleading 200 to the GitHub runner for this retired URL.
+CONFIRMED_DEAD_SOURCE_URLS = {
+    "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
+}
 _URL_STATUS_CACHE = {}
 
 
 def _is_permanently_unavailable(url):
     url = str(url or "")
+    if url in CONFIRMED_DEAD_SOURCE_URLS:
+        return True
     if not url.startswith("https://"):
         return True
     if url in _URL_STATUS_CACHE:
