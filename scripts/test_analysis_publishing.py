@@ -12,10 +12,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from analysis_publishing import publish_article  # noqa: E402
+from analysis_publishing import normalize_slug, publish_article  # noqa: E402
 
 
 class ModernPublishingTests(unittest.TestCase):
+    def test_slug_normalization_removes_trailing_hyphen_after_truncation(self):
+        self.assertEqual(normalize_slug("budget-for-2027-analysis-"), "budget-for-2027-analysis")
+        self.assertEqual(normalize_slug("budget--for---2027"), "budget-for-2027")
+        self.assertEqual(len(normalize_slug("a" * 58 + "-tail-")), 58)
+        with self.assertRaisesRegex(RuntimeError, "не може да бъде преобразувано"):
+            normalize_slug("— — —")
+
     def test_publishes_modern_page_registry_archive_and_sitemap_with_published_at(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
