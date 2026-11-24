@@ -176,7 +176,10 @@ class EditorialPublicationTests(unittest.TestCase):
     def test_ledger_only_pr_does_not_require_unused_generation_budget(self):
         source = AUDIT_WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("Identify a ledger-only change set for budget preflight", source)
-        self.assertIn('steps.change_scope.outputs.ledger_only != \'true\'', source)
+        self.assertIn("outputs.skip_preflight", source)
+        self.assertIn("github.event_name != 'push'", source)
+        self.assertIn('event_name == "push" or ledger_only or audit_policy_only', source)
+        self.assertIn('audit_policy_only = audit_control.issubset(changed)', source)
         self.assertIn('"--name-only", "origin/main...HEAD"', source)
         self.assertIn('"analysis/monthly_usage.json"', source)
         self.assertIn('"analysis/verification_usage.json"', source)
