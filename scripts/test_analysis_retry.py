@@ -27,6 +27,7 @@ class AnalysisRetryTests(unittest.TestCase):
         self.config = {
             "minimum_words": 900,
             "maximum_words": 1400,
+            "minimum_sources": 4,
             "maximum_prompt_characters": 65000,
             "max_output_tokens": 5500,
             "input_usd_per_million": 0.1,
