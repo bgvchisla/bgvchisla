@@ -7,6 +7,8 @@ import datetime as dt
 import html
 import json
 import re
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -217,6 +219,41 @@ def _context_category(title, summary):
 
     return None
 
+# Only permanently missing article URLs are excluded. Temporary network errors,
+# access restrictions and rate limits are left for the later strict validator.
+URL_CHECK_TIMEOUT_SECONDS = 6
+URL_CHECK_USER_AGENT = "bgvchisla-editorial-source-check/1.0"
+_URL_STATUS_CACHE = {}
+
+
+def _is_permanently_unavailable(url):
+    url = str(url or "")
+    if not url.startswith("https://"):
+        return True
+    if url in _URL_STATUS_CACHE:
+        return _URL_STATUS_CACHE[url]
+
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": URL_CHECK_USER_AGENT},
+        method="HEAD",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=URL_CHECK_TIMEOUT_SECONDS) as response:
+            status = response.getcode()
+    except urllib.error.HTTPError as exc:
+        status = exc.code
+    except (urllib.error.URLError, TimeoutError, OSError):
+        # Fail open on transient failures. The generator's strict source
+        # validator still decides whether the source can be used.
+        _URL_STATUS_CACHE[url] = False
+        return False
+
+    unavailable = status in {404, 410}
+    _URL_STATUS_CACHE[url] = unavailable
+    return unavailable
+
+
 def _is_recent(item, now, days):
     published = parse_date(item.get("published"))
     if not published:
@@ -390,6 +427,16 @@ def get_evidence(lane):
         for score, published, item, publisher, title, summary in domestic_rank:
             if domestic_counts.get(publisher_key(publisher), 0) >= 3:
                 continue
+            if _is_permanently_unavailable(item.get("url")):
+                print(
+                    "ИЗКЛЮЧЕН НЕДОСТЪПЕН ИЗТОЧНИК (HTTP 404/410) |",
+                    publisher,
+                    "|",
+                    title,
+                    "|",
+                    item.get("url", ""),
+                )
+                continue
             domestic_counts[publisher_key(publisher)] = domestic_counts.get(publisher_key(publisher), 0) + 1
             selected.append({
                 "kind": "domestic",
@@ -410,6 +457,16 @@ def get_evidence(lane):
         for score, published, item, publisher, title, summary, label in context_rank:
             publisher_id = publisher_key(publisher)
             if publisher_id in context_publishers or label in context_labels:
+                continue
+            if _is_permanently_unavailable(item.get("url")):
+                print(
+                    "ИЗКЛЮЧЕН НЕДОСТЪПЕН КОНТЕКСТЕН ИЗТОЧНИК (HTTP 404/410) |",
+                    publisher,
+                    "|",
+                    title,
+                    "|",
+                    item.get("url", ""),
+                )
                 continue
             selected.append({
                 "kind": "context",
@@ -443,6 +500,16 @@ def get_evidence(lane):
         for score, published, item, publisher, title, summary in world_rank:
             publisher_id = publisher_key(publisher)
             if counts.get(publisher_id, 0) >= 2:
+                continue
+            if _is_permanently_unavailable(item.get("url")):
+                print(
+                    "ИЗКЛЮЧЕН НЕДОСТЪПЕН СВЕТОВЕН ИЗТОЧНИК (HTTP 404/410) |",
+                    publisher,
+                    "|",
+                    title,
+                    "|",
+                    item.get("url", ""),
+                )
                 continue
             if any(duplicate_story(title + " " + summary, row["title"] + " " + row["summary"]) for row in picked):
                 continue
