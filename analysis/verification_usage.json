@@ -84,6 +84,7 @@
   "retrieval_count_complete": false,
   "notes": [
     "The second URL Context verification attempt recorded full token metadata. The first attempt's token and retrieval metadata remain unavailable, so the aggregate metadata is intentionally marked incomplete.",
-    "Workflow run 45420458512 (2026-11-24): GPT generation failed before the independent verifier; Gemini URL Context was skipped and no Gemini API request or charge occurred."
+    "Workflow run 45420458512 (2026-11-24): GPT generation failed before the independent verifier; Gemini URL Context was skipped and no Gemini API request or charge occurred.",
+    "Workflow run 45427494672 (2026-11-24): GPT generation stopped at the minimum-section validation (Too few sections); independent Gemini URL Context was skipped and no Gemini API request or charge occurred."
   ]
 }
