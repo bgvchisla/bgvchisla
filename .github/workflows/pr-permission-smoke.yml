@@ -1,0 +1,128 @@
+name: Test GitHub Actions pull request permissions (no paid calls)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+  checks: read
+  statuses: read
+
+concurrency:
+  group: pr-permission-smoke
+  cancel-in-progress: false
+
+jobs:
+  create-and-cleanup-smoke-pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Create PR with GITHUB_TOKEN, audit it, and clean up
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -Eeuo pipefail
+          BRANCH="automation/gemini-output-capacity-pr-smoke-${GITHUB_RUN_ID}"
+          PR_NUMBER=""
+          EXPECTED_SHA=""
+
+          cleanup() {
+            local exit_code=$?
+            if [ -n "$PR_NUMBER" ]; then
+              gh pr close "$PR_NUMBER" --repo "$REPOSITORY" \
+                --comment "Автоматичният smoke test за PR permissions приключи. Временният PR се затваря без сливане и без промени в main." || true
+            fi
+            git push origin --delete "$BRANCH" >/dev/null 2>&1 || true
+            exit "$exit_code"
+          }
+          trap cleanup EXIT
+
+          git fetch origin main
+          git switch --create "$BRANCH" origin/main
+          mkdir -p .github/pr-permission-smoke
+          TEST_FILE=".github/pr-permission-smoke/${GITHUB_RUN_ID}.md"
+          cat > "$TEST_FILE" <<EOF
+          # Temporary GitHub Actions PR permission smoke test
+
+          - Workflow run: ${GITHUB_RUN_ID}
+          - Commit: created only to test pull-request creation with GITHUB_TOKEN.
+          - No editorial analysis, OpenAI API, Gemini API, or production deployment is involved.
+          - This branch and pull request are closed and deleted automatically after verification.
+          EOF
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$TEST_FILE"
+          git commit -m "Test GitHub Actions pull request permissions"
+          EXPECTED_SHA="$(git rev-parse HEAD)"
+          git push --set-upstream origin "$BRANCH"
+
+          PR_URL="$(gh pr create --repo "$REPOSITORY" --base main --head "$BRANCH" \
+            --title "Smoke test: GitHub Actions PR permissions" \
+            --body "Временен технически PR за проверка на разрешението GitHub Actions да създава и одобрява pull requests с GITHUB_TOKEN. Съдържа само един безвреден тестов Markdown файл. След независим audit ще бъде затворен без сливане и branch-ът ще бъде изтрит. Няма генерация, платени API заявки или deployment.")"
+          PR_NUMBER="$(gh pr view "$PR_URL" --repo "$REPOSITORY" --json number --jq .number)"
+
+          PR_JSON="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+          test "$(jq -r '.state' <<<"$PR_JSON")" = "open"
+          test "$(jq -r '.base.ref' <<<"$PR_JSON")" = "main"
+          test "$(jq -r '.head.ref' <<<"$PR_JSON")" = "$BRANCH"
+          test "$(jq -r '.head.sha' <<<"$PR_JSON")" = "$EXPECTED_SHA"
+          test "$(jq -r '.head.repo.full_name' <<<"$PR_JSON")" = "$REPOSITORY"
+          echo "PR_CREATE_OK number=$PR_NUMBER head=$EXPECTED_SHA"
+
+          # GITHUB_TOKEN does not automatically trigger pull_request workflows.
+          # Explicitly dispatch the existing no-paid-call audit against this exact PR SHA.
+          gh workflow run audit-analysis-evidence.yml --repo "$REPOSITORY" --ref "$BRANCH" \
+            -f pr_number="$PR_NUMBER" -f expected_sha="$EXPECTED_SHA"
+
+          AUDIT_RUN_ID=""
+          for attempt in $(seq 1 40); do
+            RUNS="$(gh run list --repo "$REPOSITORY" --workflow audit-analysis-evidence.yml \
+              --branch "$BRANCH" --event workflow_dispatch --limit 10 \
+              --json databaseId,headSha,status,conclusion)"
+            AUDIT_RUN_ID="$(jq -r --arg sha "$EXPECTED_SHA" \
+              '[.[] | select(.headSha == $sha)] | sort_by(.databaseId) | last | .databaseId // empty' \
+              <<<"$RUNS")"
+            if [ -n "$AUDIT_RUN_ID" ]; then break; fi
+            sleep 5
+          done
+          test -n "$AUDIT_RUN_ID"
+
+          gh run watch "$AUDIT_RUN_ID" --repo "$REPOSITORY" --exit-status
+
+          CHECKS="$(gh api "repos/$REPOSITORY/commits/$EXPECTED_SHA/check-runs?per_page=100")"
+          for required_check in audit editorial-approval; do
+            CONCLUSION="$(jq -r --arg name "$required_check" --arg sha "$EXPECTED_SHA" \
+              '[.check_runs[] | select(.name == $name) | select(.head_sha == $sha)] | \
+              sort_by(.completed_at // .started_at // .created_at) | last | .conclusion // empty' \
+              <<<"$CHECKS")"
+            test "$CONCLUSION" = "success"
+            echo "CHECK_OK name=$required_check sha=$EXPECTED_SHA"
+          done
+
+          PR_AFTER_AUDIT="$(gh api "repos/$REPOSITORY/pulls/$PR_NUMBER")"
+          test "$(jq -r '.state' <<<"$PR_AFTER_AUDIT")" = "open"
+          test "$(jq -r '.head.sha' <<<"$PR_AFTER_AUDIT")" = "$EXPECTED_SHA"
+
+          {
+            echo "## GitHub Actions PR permission smoke test"
+            echo
+            echo "- Result: **PASS**"
+            echo "- Temporary PR: #$PR_NUMBER"
+            echo "- Exact commit: `$EXPECTED_SHA`"
+            echo "- Independent audit: **success**"
+            echo "- Machine editorial approval: **success**"
+            echo "- Paid APIs: **not called**"
+            echo "- Publication and deployment: **not performed**"
+            echo "- Cleanup: closing the PR and deleting the temporary branch."
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "SMOKE_TEST_PASS pr=$PR_NUMBER audit_run=$AUDIT_RUN_ID sha=$EXPECTED_SHA"
