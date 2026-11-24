@@ -182,6 +182,7 @@ jobs:
                 startsWith(github.head_ref, 'automation/full-auto-editorial-pipeline-') ||
                 startsWith(github.head_ref, 'automation/full-auto-editorial-modern-publish-') ||
                 startsWith(github.head_ref, 'automation/analysis-usage-ledger-') ||
+                startsWith(github.head_ref, 'automation/gemini-output-capacity-') ||
                 startsWith(github.head_ref, 'automation/independent-ai-factcheck-') ||
                 startsWith(github.head_ref, 'automation/gemini-billing-regression-') ||
                 startsWith(github.head_ref, 'automation/fix-chart-numeric-') ||
@@ -203,6 +204,7 @@ jobs:
                 startsWith(github.ref_name, 'automation/full-auto-editorial-pipeline-') ||
                 startsWith(github.ref_name, 'automation/full-auto-editorial-modern-publish-') ||
                 startsWith(github.ref_name, 'automation/analysis-usage-ledger-') ||
+                startsWith(github.ref_name, 'automation/gemini-output-capacity-') ||
                 startsWith(github.ref_name, 'automation/independent-ai-factcheck-') ||
                 startsWith(github.ref_name, 'automation/gemini-billing-regression-') ||
                 startsWith(github.ref_name, 'automation/fix-chart-numeric-') ||
@@ -229,7 +231,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*) ;;
+            analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
