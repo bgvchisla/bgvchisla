@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T19:42:49.137839+00:00",
-  "last_checked_at": "2026-11-24T19:42:49.137852+00:00",
+  "updated_at": "2026-11-24T20:32:16.719161+00:00",
+  "last_checked_at": "2026-11-24T20:32:16.719175+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -12,13 +12,13 @@
       "published": "2026-11-24T16:44:14+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 52,
+      "priority_score": 51,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 87,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -62,25 +62,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 24th, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening",
-      "published": "2026-11-24T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Daily News 24/ 11 / 2026",
       "summary": "European Commission Daily news Brussels, 24 Nov 2026 Commission calls for joint EU efforts to reduce tax gaps and boost public finances Today, the European Commission published its Mind the Gap 2026 Communication,...",
@@ -99,41 +80,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Депутати коментираха в парламента представените днес бюджетни препоръки на Европейската комисия за България",
-      "summary": "Депутати коментираха в парламента представения днес от Европейската комисия Есенен пакет на Европейския семестър за 2027 г. По отношение на България и Унгария ЕК отчита, че предприетите действия в отговор на препоръките за коригиране на прекомерния дефицит не",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253550-deputati-komentiraha-v-parlamenta-predstavenite-dnes-byudzhetni-preporaki-na-evr",
-      "published": "2026-11-24T16:57:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 24th, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening",
+      "published": "2026-11-24T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 39,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
+        "economic_significance": 48,
+        "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Правителството дължи отговори, а не оправдания, заяви Бойко Борисов относно възможна глоба от ЕК за неизпълнени бюджетни ангажименти",
-      "summary": "ЕК препоръчва глоба за България заради неизпълнени бюджетни ангажименти. Правителството дължи отговори, а не оправдания, коментира лидерът на ГЕРБ Бойко Борисов във Фейсбук. „Кой взе решенията, довели до тази ситуация, за която от ГЕРБ предупреждавахме?! Как и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253558-pravitelstvoto-dalzhi-otgovori-a-ne-opravdaniya-zayavi-boyko-borisov-otnosno-v",
-      "published": "2026-11-24T16:54:12+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -177,9 +139,9 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "Bombed factories, billion-dollar opportunity: Why German companies keep investing in Ukraine",
+      "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
       "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
-      "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-keep-investing-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
+      "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-are-staying-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-24T11:00:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
@@ -210,6 +172,44 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Депутати коментираха в парламента представените днес бюджетни препоръки на Европейската комисия за България",
+      "summary": "Депутати коментираха в парламента представения днес от Европейската комисия Есенен пакет на Европейския семестър за 2027 г. По отношение на България и Унгария ЕК отчита, че предприетите действия в отговор на препоръките за коригиране на прекомерния дефицит не",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253550-deputati-komentiraha-v-parlamenta-predstavenite-dnes-byudzhetni-preporaki-na-evr",
+      "published": "2026-11-24T16:57:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Правителството дължи отговори, а не оправдания, заяви Бойко Борисов относно възможна глоба от ЕК за неизпълнени бюджетни ангажименти",
+      "summary": "ЕК препоръчва глоба за България заради неизпълнени бюджетни ангажименти. Правителството дължи отговори, а не оправдания, коментира лидерът на ГЕРБ Бойко Борисов във Фейсбук. „Кой взе решенията, довели до тази ситуация, за която от ГЕРБ предупреждавахме?! Как и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253558-pravitelstvoto-dalzhi-otgovori-a-ne-opravdaniya-zayavi-boyko-borisov-otnosno-v",
+      "published": "2026-11-24T16:54:12+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -272,10 +272,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
-      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
-      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
-      "published": "2026-11-24T19:07:26+00:00",
+      "title": "Australian politics live: Chalmers notes ‘serious moment for our economy’; inflation expected to jump to 4.8%",
+      "summary": "Get our daily political email , free app or daily news podcast Coalition welcomes Solomon Islands dropping China pact Liberal leader, Angus Taylor , has welcomed the Solomon Islands scrapping its pact with Beijing and signing a treaty with Australia – with the",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
+      "published": "2026-11-24T20:20:46+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 35,
@@ -322,7 +322,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -517,44 +517,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Гърция утре е обявена 24-часова общонационална стачка, която се очаква да засегне морския, въздушния и сухопътния транспорт, съобщи МВнР",
-      "summary": "В Гърция за утре е обявена 24-часова общонационална стачка, която се очаква да засегне публичните услуги в страната, в т.ч. морски, въздушен и сухопътен транспорт, съобщават от Ситуационния център на Министерството на външните работи (МВнР) на Република Българ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253570-v-gartsiya-utre-e-obyavena-24-chasova-obshtonatsionalna-stachka-koyato-se-ochak",
-      "published": "2026-11-24T17:05:55+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Петролът е близо до тримесечно дъно заради растящото предлагане",
-      "summary": "Цените на петрола се понижиха във вторник, задържайки се близо до тримесечно дъно на фона на опасенията от нарастващото предлагане на суров петрол и потенциален излишък на пазара, докато рисковете за корабоплаването през Ормузкия проток остават. Фючърсите върх",
-      "url": "https://www.economic.bg/bg/a/view/petrolyt-e-blizo-do-trimesechno-dyno-zaradi-rastjashtoto-predlagane",
-      "published": "2026-11-24T07:44:05+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission imposes provisional import quotas on hybrid passenger vehicles",
@@ -666,6 +628,63 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Гърция утре е обявена 24-часова общонационална стачка, която се очаква да засегне морския, въздушния и сухопътния транспорт, съобщи МВнР",
+      "summary": "В Гърция за утре е обявена 24-часова общонационална стачка, която се очаква да засегне публичните услуги в страната, в т.ч. морски, въздушен и сухопътен транспорт, съобщават от Ситуационния център на Министерството на външните работи (МВнР) на Република Българ",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253570-v-gartsiya-utre-e-obyavena-24-chasova-obshtonatsionalna-stachka-koyato-se-ochak",
+      "published": "2026-11-24T17:05:55+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Петролът е близо до тримесечно дъно заради растящото предлагане",
+      "summary": "Цените на петрола се понижиха във вторник, задържайки се близо до тримесечно дъно на фона на опасенията от нарастващото предлагане на суров петрол и потенциален излишък на пазара, докато рисковете за корабоплаването през Ормузкия проток остават. Фючърсите върх",
+      "url": "https://www.economic.bg/bg/a/view/petrolyt-e-blizo-do-trimesechno-dyno-zaradi-rastjashtoto-predlagane",
+      "published": "2026-11-24T07:44:05+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
+      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
+      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
+      "published": "2026-11-24T19:07:26+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -1050,6 +1069,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Бюджетната комисия одобри по-високите данъчни оценки от 2027 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440027-byudzhetnata-komisiya-odobri-po-visokite-danachni-otsenki-ot-2027-g",
+      "published": "2026-11-24T20:08:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Йотова: България ще играе сериозна роля за развитието на Югоизточна Европа",
       "summary": "България има огромни възможности и в следващите години ще играе сериозна роля не само за развитието на Югоизточна Европа, но ще бъде и гарант за сигурността на Средна, Западна и Северна Европа. Това каза президентът Илияна Йотова по време на тазгодишните прест",
@@ -1125,44 +1163,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изложба за художника Кирил Цонев и неговия артистичен кръг беше открита в Софийската градска художествена галерия",
-      "summary": "Изложбата „Кирил Цонев и неговият артистичен кръг“, посветена на 130 години от рождението на художника, беше открита тази вечер в Софийската градска художествена галерия (СГХГ). Експозицията е част от общ проект с Националната галерия, където след два дни ще б",
-      "url": "https://www.bta.bg/bg/news/lik/1253568-izlozhba-za-hudozhnika-kiril-tsonev-i-negoviya-artistichen-krag-beshe-otkrita-v-",
-      "published": "2026-11-24T17:25:12+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общо 98,16% от населението на България попада в обхвата на моделирано време за достъп на наземната спешна помощ до 30 минути, каза доц. Леонид Тодоров",
-      "summary": "Общо 98,16% от населението на България попада в обхвата на моделирано време за достъп на наземната спешна помощ до 30 минути, каза доц. д-р Леонид Тодоров при представяне на монографията „Атлас на спешната медицинска помощ в България“ в Софийския университет (",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253554-obshto-98-16-ot-naselenieto-na-balgariya-popada-v-obhvata-na-modelirano-vreme-z",
-      "published": "2026-11-24T17:08:59+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
@@ -1198,25 +1198,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Акционерите на „Телелинк Бизнес Сървисис Груп“ ще гласуват промяна на името",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/439998-aktsionerite-na-telelink-biznes-sarvisis-grup-shte-glasuvat-promyana-na-imeto",
-      "published": "2026-11-24T13:33:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
       }
     },
     {
@@ -1331,6 +1312,25 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "The good, the bad and the French: EU countries get fiscal report cards",
+      "summary": "The EU executive arm rapped Bulgaria and Hungary across the knuckles for ignoring the bloc’s fiscal rules.",
+      "url": "https://www.politico.eu/article/good-bad-france-eu-countries-fiscal-report-cards/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-24T18:06:06+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 92
       }
     }
   ],
