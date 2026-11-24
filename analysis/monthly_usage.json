@@ -1,7 +1,7 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.004707,
-  "calls": 1,
+  "spent_usd": 0.013957,
+  "calls": 2,
   "history": [
     {
       "timestamp": "2026-11-24T09:17:23Z",
@@ -13,6 +13,17 @@
       "cost_basis": "conservative_maximum_reservation",
       "token_usage_persisted": false,
       "note": "The failed run's monthly ledger was not committed. Record one API call and its logged maximum reservation to avoid undercounting."
+    },
+    {
+      "timestamp": "2026-11-24T09:32:50Z",
+      "model": "gpt-6-luna",
+      "workflow_run_id": 45366101852,
+      "status": "failed_validation",
+      "reason": "Source validation failed: used_source_ids did not contain at least four valid source IDs.",
+      "cost_usd": 0.00925,
+      "cost_basis": "conservative_maximum_per_call_reservation",
+      "token_usage_persisted": false,
+      "note": "One API response was received and then rejected by strict source validation. The run's working-tree usage record was not committed because the job failed; actual token metadata was not preserved. Recorded the full per-call maximum reservation based on the configured prompt and output limits."
     }
   ]
 }
