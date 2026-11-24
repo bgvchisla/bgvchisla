@@ -1,6 +1,18 @@
 {
   "month": "2026-11",
-  "spent_usd": 0,
-  "calls": 0,
-  "history": []
+  "spent_usd": 0.004707,
+  "calls": 1,
+  "history": [
+    {
+      "timestamp": "2026-11-24T09:17:23Z",
+      "model": "gpt-6-luna",
+      "workflow_run_id": 45363732913,
+      "status": "failed_validation",
+      "reason": "Word count out of range: 871",
+      "cost_usd": 0.004707,
+      "cost_basis": "conservative_maximum_reservation",
+      "token_usage_persisted": false,
+      "note": "The failed run's monthly ledger was not committed. Record one API call and its logged maximum reservation to avoid undercounting."
+    }
+  ]
 }
