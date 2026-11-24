@@ -1,24 +1,24 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T10:20:26.155229+00:00",
-  "last_checked_at": "2026-11-24T10:20:26.155242+00:00",
+  "updated_at": "2026-11-24T11:18:29.634911+00:00",
+  "last_checked_at": "2026-11-24T11:18:29.634921+00:00",
   "items": [
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Вечерни новини: Фалитите в България ще се увеличават; Разрешение за строеж на още 1.1 км от обхода на Кресна",
-      "summary": "Плащания без карта, нови инфраструктурни проекти и повече средства за иновации са сред водещите теми на 23 ноември. БОРИКА подготвя blink eCommerce за директни плащания от банкова сметка, а мобилното банкиране все по-ясно се превръща в основен канал за ежеднев",
-      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-falitite-v-bylgarija-shte-se-uvelichavat-razreshenie-za-stroej-na-oshte-1-1-km-ot-obhoda-na-kresna",
-      "published": "2026-11-23T16:46:26+00:00",
+      "title": "Управляващите пощадиха по-малките търговци от новия данък „Свръхпечалба“",
+      "summary": "Управляващите от „Прогресивна България“ се смилиха над по-малките търговци, които няма да бъдат облагани през 2027 г. с новия данък „Свръхпечалба“. Това става ясно от внесените между първо и второ четене предложения за изменение на данъчните закони за догодина",
+      "url": "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-po-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
+      "published": "2026-11-24T07:20:19+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 44,
+      "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
+        "strategic_significance": 0,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -42,60 +42,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "\"Прогресивна България“ сами махнаха спирачките на камиона, заяви Мартин Димитров от „Демократична България“ за бюджета за 2027 г.",
-      "summary": "Правителството на „Прогресивна България“ само е махнало спирачките на камиона, като с действията си създава предпоставки за перфектната буря в публичните финанси на страната. Това заяви Мартин Димитров от „Демократична България“ в кулоарите на парламента преди",
-      "url": "https://www.bta.bg/bg/news/economy/1253074--progresivna-balgariya-sami-mahnaha-spirachkite-na-kamiona-zayavi-martin-dimit",
-      "published": "2026-11-24T09:45:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 42,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 87,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Дулово ще кандидатства с два проекта за активен живот и социално включване на възрастните хора",
-      "summary": "Общинският съвет в Дулово даде съгласие общината да кандидатства с два проекта, насочени към насърчаване на активния начин на живот, подобряване на здравето и социалното включване на хората в пенсионна възраст. Предложенията са по процедура на Програмата „Разв",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253081-obshtina-dulovo-shte-kandidatstva-s-dva-proekta-za-aktiven-zhivot-i-sotsialno-vk",
-      "published": "2026-11-24T09:47:18+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 41,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Germany news: Volkswagen begins wage talks with IG Metall union",
-      "summary": "Germany's largest labor union IG Metall and automaker Volkswagen are holding wage negotiations, as the company looks to embark on cost-cutting measures. Meanwhile, Germany's president is in Ghana. DW has more.",
-      "url": "https://www.dw.com/en/germany-news-volkswagen-begins-wage-talks-with-ig-metall-union/live-80028306?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T08:15:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 24th, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-midday",
+      "published": "2026-11-24T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 95
+        "source_reliability": 91
       }
     },
     {
@@ -115,6 +77,63 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Bombed factories, billion-dollar opportunity: Why German companies keep investing in Ukraine",
+      "summary": "Million-dollar losses, an unreliable energy supply, and a shortage of skilled workers: despite these challenges, German companies remain committed to Ukraine. They are betting on new markets and long-term growth.",
+      "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-keep-investing-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-24T11:00:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "EU to impose cap on Chinese hybrid EV imports next month",
+      "summary": "Temporary quotas on vehicles entering the bloc tariff-free will also apply to cars from the UK, Japan and Turkey Business live – latest updates The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the",
+      "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
+      "published": "2026-11-24T10:59:40+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU imposes import quotas for hybrid vehicles from China",
+      "summary": "The EU is trying to protect its own car manufacturers from what it called \"overcapacity\" in China. Carmakers in the bloc, especially in Germany, have been lagging behind their Chinese rivals.",
+      "url": "https://www.dw.com/en/eu-imposes-import-quotas-for-hybrid-vehicles-from-china/a-80029981?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-24T10:42:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     },
     {
@@ -157,25 +176,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU and Indonesia sign trade deal",
-      "summary": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
-      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T15:21:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 50,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
       "source": "Economic.bg",
       "title": "LEGO строи четвърта фабрика в Европа заради растящото търсене",
       "summary": "LEGO обяви в понеделник плановете си да инвестира около 1 млрд. евро в нова фабрика в Ещарежа, Португалия, за да отговори на нарастващото търсене в Европа, Близкия изток и Африка. След като заработи с пълен капацитет, фабриката ще осигури работа на повече от 1",
@@ -194,6 +194,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 13 600 артикула с обозначения на световни марки задържаха митническите служители на граничен пункт „Лесово“",
+      "summary": "Над 13 600 облекла, обувки и други артикули с обозначения на световноизвестни марки са задържани при две проверки на товарни автомобили на граничния контролно-пропускателен пункт (ГКПП) „Лесово“. Стоките са пътували от Турция през България към държави от Европ",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253166-nad-13-600-artikula-s-oboznacheniya-na-svetovni-marki-zadarzhaha-mitnicheskite-s",
+      "published": "2026-11-24T11:10:11+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission imposes provisional import quotas on hybrid passenger vehicles",
@@ -202,33 +221,14 @@
       "published": "2026-11-23T23:00:00+00:00",
       "feed_id": "commission-press",
       "publisher": "Европейска комисия",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
-      "published": "2026-11-23T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
         "timeliness": 82,
-        "source_reliability": 91
+        "source_reliability": 99
       }
     },
     {
@@ -270,22 +270,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘State-sanctioned theft’: Australian news outlets demand content is protected from AI scraping – as it happened",
-      "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
-      "published": "2026-11-24T07:21:53+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Служители от Бюрото по труда в Русе стачкуваха за по-високи възнаграждения",
+      "summary": "Служители от Бюрото по труда в Русе се включиха в едночасова стачка с искане за по-високи заплати. Тя е организирана от Конфедерацията на труда \"Подкрепа\", съобщи председателят на синдикалната структура в крайдунавския град Кирил Черкезов. Той обясни, че част",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253099-sluzhiteli-ot-byuroto-po-truda-v-ruse-stachkuvaha-za-po-visoki-vaznagrazhdeniya",
+      "published": "2026-11-24T10:17:01+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 90
       }
     },
     {
@@ -386,6 +386,25 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
+      "title": "Вечерни новини: Фалитите в България ще се увеличават; Разрешение за строеж на още 1.1 км от обхода на Кресна",
+      "summary": "Плащания без карта, нови инфраструктурни проекти и повече средства за иновации са сред водещите теми на 23 ноември. БОРИКА подготвя blink eCommerce за директни плащания от банкова сметка, а мобилното банкиране все по-ясно се превръща в основен канал за ежеднев",
+      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-falitite-v-bylgarija-shte-se-uvelichavat-razreshenie-za-stroej-na-oshte-1-1-km-ot-obhoda-na-kresna",
+      "published": "2026-11-23T16:46:26+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 44,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
       "title": "България търси подкрепа от Световната банка за големи транспортни проекти",
       "summary": "Българското правителство търси възможности за сътрудничество със Световната банка при финансирането и реализацията на мащабни транспортни инфраструктурни проекти. Темата е обсъдена на среща между премиера Румен Радев и представители на международната финансова",
       "url": "https://www.economic.bg/bg/a/view/bylgarija-tyrsi-podkrepa-ot-svetovnata-banka-za-golemi-transportni-proekti",
@@ -405,36 +424,36 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Управляващите пощадиха по-малките търговци от новия данък „Свръхпечалба“",
-      "summary": "Управляващите от „Прогресивна България“ се смилиха над по-малките търговци, които няма да бъдат облагани през 2027 г. с новия данък „Свръхпечалба“. Това става ясно от внесените между първо и второ четене предложения за изменение на данъчните закони за догодина",
-      "url": "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-po-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
-      "published": "2026-11-24T07:20:19+00:00",
+      "title": "Новите данъчни облекчения за деца ще включват и медицински прегледи",
+      "summary": "Новите данъчни облекчения за детско развитие да важат за културни дейности и за медицински прегледи, в т.ч. профилактика, диагностика, лечение, дентална помощ и пр. Това приеха депутатите в парламентарната Комисия по бюджет и финанси при разглеждането на второ",
+      "url": "https://www.economic.bg/bg/a/view/novite-danychni-oblekchenija-za-deca-shte-vkluchvat-i-medicinski-pregledi",
+      "published": "2026-11-24T10:59:50+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 40,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
+        "national_impact": 74,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 100,
         "source_reliability": 85
       }
     },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Петролът е близо до тримесечно дъно заради растящото предлагане",
-      "summary": "Цените на петрола се понижиха във вторник, задържайки се близо до тримесечно дъно на фона на опасенията от нарастващото предлагане на суров петрол и потенциален излишък на пазара, докато рисковете за корабоплаването през Ормузкия проток остават. Фючърсите върх",
-      "url": "https://www.economic.bg/bg/a/view/petrolyt-e-blizo-do-trimesechno-dyno-zaradi-rastjashtoto-predlagane",
-      "published": "2026-11-24T07:44:05+00:00",
+      "title": "МФ подготвя актуализация на данъчните преференции",
+      "summary": "Министерството на финансите (МФ) подготвя цялостна актуализация на данъчните преференции. Това стана ясно по време на второто четене на промените в данъчните закони за 2027 г. в парламентарната Комисия по бюджет и финанси. На него заместник-министърът на финан",
+      "url": "https://www.economic.bg/bg/a/view/mf-podgotvja-aktualizacija-na-danychnite-preferencii",
+      "published": "2026-11-24T10:30:35+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 38,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
+        "national_impact": 74,
+        "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 85
@@ -442,11 +461,30 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Germany news: Volkswagen begins wage talks with IG Metall union",
+      "summary": "Germany's largest labor union IG Metall and automaker Volkswagen are holding wage negotiations, as the company looks to embark on cost-cutting measures. Meanwhile, Germany's president is in Ghana. DW has more.",
+      "url": "https://www.dw.com/en/germany-news-volkswagen-begins-wage-talks-with-ig-metall-union/live-80028306?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-24T08:15:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Midday",
+      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-midday",
-      "published": "2026-11-23T11:00:15+00:00",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
+      "published": "2026-11-23T17:00:26+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 38,
@@ -462,20 +500,39 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "„Особено тревожно“: Фалитите в България ще продължат да се увеличават и през 2027 г.",
-      "summary": "Фалитите в България ще се увеличат с 12% през тази година, като тенденцията ще продължи и през следващата. Това прогнозират в свой доклад от компанията по застраховане на търговски кредити Allianz Trade. Според анализаторите, очакваният ръст през 2026 г. ще е",
-      "url": "https://www.economic.bg/bg/a/view/falitite-v-bylgarija-shte-prodyljat-da-se-uvelichavat-i-prez-2027-g",
-      "published": "2026-11-23T08:58:39+00:00",
+      "title": "Петролът е близо до тримесечно дъно заради растящото предлагане",
+      "summary": "Цените на петрола се понижиха във вторник, задържайки се близо до тримесечно дъно на фона на опасенията от нарастващото предлагане на суров петрол и потенциален излишък на пазара, докато рисковете за корабоплаването през Ормузкия проток остават. Фючърсите върх",
+      "url": "https://www.economic.bg/bg/a/view/petrolyt-e-blizo-do-trimesechno-dyno-zaradi-rastjashtoto-predlagane",
+      "published": "2026-11-24T07:44:05+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
+        "national_impact": 34,
+        "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 68,
+        "timeliness": 92,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 23rd, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-midday",
+      "published": "2026-11-23T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 91
       }
     },
     {
@@ -574,39 +631,39 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Приключи изпълнението на два инфраструктурни проекта в тутраканското село Нова Черна",
-      "summary": "Община Тутракан приключи изпълнението на два проекта за подобряване на уличната и водопроводната инфраструктура на ул. „Райна Княгиня“ в село Нова Черна. Инвестициите са на обща стойност 87 501,64 евро без ДДС и включват изграждане на ново улично платно и реко",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253066-priklyuchi-izpalnenieto-na-dva-infrastrukturni-proekta-v-tutrakanskoto-selo-nova",
-      "published": "2026-11-24T09:45:24+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T10:58:51+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 35,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 32,
+        "strategic_significance": 76,
         "timeliness": 100,
-        "source_reliability": 90
+        "source_reliability": 95
       }
     },
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "The EU’s increasingly impossible budget arithmetic",
-      "summary": "Good morning. Leo Cendrowicz here with your Tuesday newsletter. Today, ominous signs for the EU’s budget negotiations, a breakdown of the latest Russia sanctions package, and Chinese spies and hackers back in the news.",
-      "url": "https://www.euronews.com/2026/11/24/the-eus-increasingly-impossible-budget-arithmetic",
-      "published": "2026-11-24T07:27:37+00:00",
+      "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
+      "summary": "Nvidia employees cheered and applauded CEO Jensen Huang as he returned to the company's headquarters in Santa Clara, California, on Monday, 11 days after stepping down.",
+      "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
+      "published": "2026-11-24T10:56:22+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 91
       }
@@ -631,44 +688,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU takes aim at tech giants in tax proposal",
-      "summary": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
-      "url": "https://www.dw.com/en/eu-takes-aim-at-tech-giants-in-tax-proposal/a-80009255?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-21T14:58:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 50,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Министерството на образованието призовава Столичната община да обяви сроковете за възстановяване на топлоподаването в студентските общежития",
-      "summary": "Министерството на образованието и науката (МОН) определя като безотговорно поведението на Столичната община и на „Топлофикация София“ ЕАД, които оставят стотици студенти без парно и топла вода през отоплителния сезон. Въпреки отправените от МОН запитвания, Сто",
-      "url": "https://www.bta.bg/bg/news/lik/1253088-ministerstvoto-na-obrazovanieto-prizovava-stolichnata-obshtina-da-obyavi-srokove",
-      "published": "2026-11-24T10:00:39+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Електромобилите и хибридите в България са близо 30% от новите коли през октомври",
@@ -689,21 +708,40 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
-      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T02:15:59+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "source": "Euronews",
+      "title": "The EU’s increasingly impossible budget arithmetic",
+      "summary": "Good morning. Leo Cendrowicz here with your Tuesday newsletter. Today, ominous signs for the EU’s budget negotiations, a breakdown of the latest Russia sanctions package, and Chinese spies and hackers back in the news.",
+      "url": "https://www.euronews.com/2026/11/24/the-eus-increasingly-impossible-budget-arithmetic",
+      "published": "2026-11-24T07:27:37+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 0,
+        "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 76,
+        "strategic_significance": 32,
         "timeliness": 92,
-        "source_reliability": 95
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "‘State-sanctioned theft’: Australian news outlets demand content is protected from AI scraping – as it happened",
+      "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
+      "published": "2026-11-24T07:21:53+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -840,44 +878,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Служители от Бюрото по труда в Русе стачкуваха за по-високи възнаграждения",
-      "summary": "Служители от Бюрото по труда в Русе се включиха в едночасова стачка с искане за по-високи заплати. Тя е организирана от Конфедерацията на труда \"Подкрепа\", съобщи председателят на синдикалната структура в крайдунавския град Кирил Черкезов. Той обясни, че част",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253099-sluzhiteli-ot-byuroto-po-truda-v-ruse-stachkuvaha-za-po-visoki-vaznagrazhdeniya",
-      "published": "2026-11-24T10:17:01+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Втори ден продължава щафетният протест на работещите в държавни институции, днес недолоство изразиха от Агенцията по заетостта",
-      "summary": "С едночасов протест на служителите от Агенцията по заетостта в София продължи днес щафетният протест в ключови държавни институции заради несправедливото заплащане, диспропорции във възнагражденията и неравнопоставено третиране на работещите в държавната админ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253060-vtori-den-prodalzhava-shtafetniyat-protest-na-raboteshtite-v-darzhavni-instituts",
-      "published": "2026-11-24T10:08:10+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Speech by Executive Vice-President Teresa Ribera at College of Europe, Natolin, Poland",
@@ -897,50 +897,12 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Служители на Агенцията по заетостта протестираха във Варна с искане за увеличение на възнагражденията им",
-      "summary": "Служители на Агенцията по заетостта във Варна излязоха на едночасов протест пред Бюрото по труда в града с искане за увеличение на възнагражденията им. „Исканията ни са за увеличение на основното месечно възнаграждение за всеки работник и служител с еднаква су",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253076-sluzhiteli-na-agentsiyata-po-zaetostta-protestiraha-vav-varna-s-iskane-za-uvelic",
-      "published": "2026-11-24T09:42:23+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Sports whistleblowers protected under proposed laws amid Australian cricket ball tampering saga",
       "summary": "Amendments to government bill by Coalition and Greens would establish protections for those reporting wrongdoing in sport Get our daily political email , free app or daily news podcast Whistleblowers reporting corruption or misconduct in sport would be protect",
       "url": "https://www.theguardian.com/australia-news/2026/nov/24/sports-whistleblowers-protected-proposed-laws-australian-cricket-ball-tampering-sandpapergate-ntwnfb",
       "published": "2026-11-24T06:20:10+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
-      "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
-      "url": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner",
-      "published": "2026-11-23T22:41:48+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 32,
@@ -993,6 +955,25 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
+      "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
+      "url": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner",
+      "published": "2026-11-23T22:41:48+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "At least 24 people killed in Indonesia factory fire, police say",
       "summary": "Dozens of employees are still reported to be missing after a blaze broke out at a candy factory in Banten province at around 4:30 pm local time on Saturday.",
@@ -1031,49 +1012,11 @@
     },
     {
       "section": "europe",
-      "source": "Economic.bg",
-      "title": "Европа навлиза в зимата с най-ниското ниво на газовите запаси",
-      "summary": "Европа навлезе в зимния сезон 2026/2027 с необичайно ниски запаси от природен газ. Към края на септември газохранилищата в Европейския съюз (ЕС) са били запълнени на около 72% – най-ниското ниво към този месец от 2011 г., когато започва събирането на данни за",
-      "url": "https://www.economic.bg/bg/a/view/evropa-navliza-v-zimata-s-naj-niskoto-nivo-na-gazovite-zapasi",
-      "published": "2026-11-23T09:27:57+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинските съветници одобриха промени за над 161 хиляди евро в разходната част на бюджета на Враца",
-      "summary": "Промени в разходната част на бюджета на Община Враца за 2026 г. на обща стойност 161 172 евро одобриха общинските съветници. Документът предвижда преразпределение на средства между различни обекти и дейности, без промяна на общия размер на бюджета. Най-голямот",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253096-obshtinskite-savetnitsi-odobriha-promeni-za-nad-161-hilyadi-evro-v-razhodnata-ch",
-      "published": "2026-11-24T10:07:30+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
       "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
       "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T09:42:54+00:00",
+      "published": "2026-11-24T10:53:37+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 30,
@@ -1089,10 +1032,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет във Враца подкрепи наредба за финансиране на малки граждански инициативи, насрочено е обществено обсъждане през януари",
-      "summary": "Проект на наредба за финансиране на малки граждански инициативи на територията на община Враца подкрепиха на първо четене общинските съветници. Целта е да се създадат ясни правила за подкрепа на общественополезни проекти за благоустрояване на общодостъпни прос",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253087-obshtinskiyat-savet-vav-vratsa-podkrepi-naredba-za-finansirane-na-malki-grazhdan",
-      "published": "2026-11-24T10:07:14+00:00",
+      "title": "За шеста поредна година Регионалната библиотека във Велико Търново обявява национален конкурс за криминален разказ „(Не)разкритият случай”",
+      "summary": "За шеста поредна година Регионалната библиотека във Велико Търново обявява национален конкурс за криминален разказ „(Не)разкритият случай”, съобщиха от библиотеката. В конкурса няма ограничения за възраст или професия. Всеки участник може да представи само по",
+      "url": "https://www.bta.bg/bg/news/lik/1253170-za-shesta-poredna-godina-regionalnata-biblioteka-vav-veliko-tarnovo-obyavyava-na",
+      "published": "2026-11-24T11:03:52+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1108,10 +1051,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Акцията срещу фалшиви ТЕЛК-ове беше в три области и има задържани лекари, но прокуратурата можеше да ни помогне повече, каза министър Демерджиев",
-      "summary": "Акцията срещу фалшиви ТЕЛК решения протече в три области в страната и има задържани лекари. Целта е да бъдат спрени течовете на огромен публичен ресурс, каза министърът на вътрешните работи Иван Демерджиев на брифинг пред медиите. Той присъства на международна",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253089-aktsiyata-sreshtu-falshivi-telk-ove-beshe-v-tri-oblasti-i-ima-zadarzhani-lekari-",
-      "published": "2026-11-24T09:58:21+00:00",
+      "title": "Прогноза за времето",
+      "summary": "През нощта ще е ясно, ще бъде почти тихо, в североизточните райони със слаб вятър от запад. Минимални температури: между минус 5° и 0°; по Черноморието до 3°-4°; в района на София – около минус 5°, съобщиха от Националния институт по метеорология и хидрология",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253124-prognoza-za-vremeto",
+      "published": "2026-11-24T10:35:53+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1127,10 +1070,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Български и сръбски млади музиканти ще изнесат съвместен концерт в Кюстендил",
-      "summary": "Съвместен концерт под надслов „Музика без граници“ ще се състои на 26 ноември от 18:00 часа в Голямата зала на читалище „Братство 1869“ в Кюстендил, съобщи председателят на читалището Иван Андонов. В концерта ще участват ученици от Основно музикално училище „Д",
-      "url": "https://www.bta.bg/bg/news/lik/1253050-balgarski-i-srabski-mladi-muzikanti-shte-iznesat-savmesten-kontsert-v-kyustendil",
-      "published": "2026-11-24T09:45:00+00:00",
+      "title": "Вторият том на „Годишник на Регионалния исторически музей – Видин“ събира изследвания на 20 автори",
+      "summary": "Вторият том на „Годишник на Регионалния исторически музей – Видин“ беше представен днес в Националния пресклуб на БТА във Видин. Изданието съдържа научни изследвания и доклади на 20 автори, посветени на археологията, историята и културното наследство. Това съо",
+      "url": "https://www.bta.bg/bg/news/lik/1253121-vtoriyat-tom-na-godishnik-na-regionalniya-istoricheski-muzey-vidin-sabira-iz",
+      "published": "2026-11-24T10:28:27+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1158,7 +1101,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -1258,12 +1201,69 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Община Враца ще организира среща с лични лекари и училищни директори заради отсъствия на ученици по медицински причини",
+      "summary": "Среща с представители на общопрактикуващите лекари, Регионалното управление на образованието и училищните директори ще организира Община Враца за обсъждане на ученически отсъствия и броя на децата с ТЕЛК. Това съобщи кметът Калин Каменов по време на редовното",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253141-obshtina-vratsa-shte-organizira-sreshta-s-lichni-lekari-i-uchilishtni-direktori-",
+      "published": "2026-11-24T11:06:32+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Five women killed every hour by family members or partners — UN report",
+      "summary": "On average, 129 women or girls were killed every day in 2025 by someone in their close social circle, UN data showed.",
+      "url": "https://www.dw.com/en/five-women-killed-every-hour-by-family-members-or-partners-un-report/a-80030010?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-24T11:03:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "How the AI trade could trap even cautious investors",
+      "summary": "From Nvidia to Coreweave, AI and tech stocks have swung sharply in recent months. Some investors still see plenty of room to run, while others are trying to diversify — and finding it harder than expected.",
+      "url": "https://www.dw.com/en/how-the-ai-trade-could-trap-even-cautious-investors/a-80016412?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-24T10:59:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Russian drone violates Polish airspace days after cruise missiles fell on country – Europe live",
-      "summary": "Authorities investigating ‘intentional activity’ amid growing tensions between Moscow and countries on Nato’s eastern flank Back to Ukraine, the country’s president Volodymyr Zelenskyy has warned that “the situation with power supply is difficult” amid continu",
+      "summary": "Authorities investigating ‘intentional activity’ amid growing tensions between Moscow and countries on Nato’s eastern flank Meanwhile, Nato’s secretary general Mark Rutte will travel to Florida to meet the US president, Donald Trump, at Mar-a-Lago on Wednesday",
       "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
-      "published": "2026-11-24T09:53:26+00:00",
+      "published": "2026-11-24T10:51:29+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 28,
@@ -1274,6 +1274,25 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
+      "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
+      "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T10:48:27+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     },
     {
@@ -1313,36 +1332,12 @@
         "timeliness": 100,
         "source_reliability": 95
       }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "DR Congo says aircraft missing as rebels claim to shoot down plane",
-      "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
-      "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T08:35:41+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
     }
   ],
   "feed_status": {
-    "ok": 20,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "federal-reserve",
-        "error": "HTTP Error 404: Not Found"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
