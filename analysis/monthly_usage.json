@@ -1,7 +1,7 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.032457,
-  "calls": 4,
+  "spent_usd": 0.041707,
+  "calls": 5,
   "history": [
     {
       "timestamp": "2026-11-24T09:17:23Z",
@@ -46,6 +46,17 @@
       "cost_basis": "conservative_maximum_per_call_reservation",
       "token_usage_persisted": false,
       "note": "A GPT-6 Luna response was received, but the generation process failed while writing the legacy date-based registry. No Gemini fact-check or publication occurred. Actual token metadata was not preserved, so the configured maximum per-call reservation is recorded to avoid undercounting."
+    },
+    {
+      "timestamp": "2026-11-24T10:43:02Z",
+      "model": "gpt-6-luna",
+      "workflow_run_id": 45377277739,
+      "status": "failed_validation",
+      "reason": "Final article validation regex accepted numeric source IDs only; generated source IDs use prefixes such as N01 and D01.",
+      "cost_usd": 0.00925,
+      "cost_basis": "conservative_maximum_per_call_reservation",
+      "token_usage_persisted": false,
+      "note": "GPT-6 Luna generated a 1,014-word draft using six source IDs and the modern publisher plus AI disclosure succeeded. Final validation rejected its prefixed citation IDs because the regex matched digits only. Token usage metadata was not persisted, so the configured maximum per-call reservation is recorded to avoid undercounting."
     }
   ]
 }
