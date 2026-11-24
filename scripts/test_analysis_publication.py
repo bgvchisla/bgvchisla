@@ -153,8 +153,8 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertEqual(config["monthly_total_budget_usd"], 5.5)
         self.assertEqual(config["max_api_calls_per_month"], 12)
         self.assertEqual(config["max_factcheck_calls_per_month"], 10)
-        self.assertEqual(config["maximum_review_input_tokens"], 70000)
-        self.assertEqual(config["maximum_review_output_tokens"], 5000)
+        self.assertEqual(config["maximum_review_input_tokens"], 250000)
+        self.assertEqual(config["maximum_review_output_tokens"], 24000)
         self.assertEqual(config["maximum_source_urls_per_call"], 15)
         self.assertEqual(config["review_model"], "gemini-3.8-flash")
 
@@ -165,6 +165,7 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertIn("analysis/monthly_usage.json", source)
         self.assertIn("analysis/verification_usage.json", source)
         self.assertIn("automation/analysis-usage-ledger-", AUDIT_WORKFLOW.read_text(encoding="utf-8"))
+        self.assertIn("automation/gemini-output-capacity-", AUDIT_WORKFLOW.read_text(encoding="utf-8"))
 
     def test_manual_dispatch_defaults_to_preflight(self):
         source = GENERATOR_WORKFLOW.read_text(encoding="utf-8")

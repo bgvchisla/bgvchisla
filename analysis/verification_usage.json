@@ -2,7 +2,7 @@
   "month": "2026-11",
   "calls": 2,
   "spent_usd": 0.274983,
-  "reserved_usd": 0.0,
+  "reserved_usd": 0,
   "history": [
     {
       "attempt": 1,
@@ -57,8 +57,11 @@
     }
   ],
   "retrieved_urls": 0,
-  "billed_input_tokens": 0,
-  "billed_output_tokens": 0,
+  "billed_input_tokens": 195304,
+  "billed_output_tokens": 15268,
   "usage_metadata_complete": false,
-  "retrieval_count_complete": false
+  "retrieval_count_complete": false,
+  "notes": [
+    "The second URL Context verification attempt recorded full token metadata. The first attempt's token and retrieval metadata remain unavailable, so the aggregate metadata is intentionally marked incomplete."
+  ]
 }
