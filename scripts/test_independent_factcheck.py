@@ -13,7 +13,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from fact_check_analysis import (
-    accumulate_usage_totals, calculate_billable_usage, extract_numeric_statements,
+    accumulate_usage_totals, calculate_billable_usage, evidence_urls_are_retrieved,
+    extract_numeric_statements, extract_retrieval_metadata, normalized_domain,
     parse_json_response, response_diagnostics, reserve_budget,
 )
 CONFIG = ROOT / "analysis" / "config.json"
@@ -140,18 +141,62 @@ class BillingAccountingTests(unittest.TestCase):
 
     def test_reservation_covers_observed_url_context_input_and_high_reasoning_output(self):
         config = json.loads(CONFIG.read_text(encoding="utf-8"))
-        ledger = {"calls": 2, "spent_usd": 0.274983, "reserved_usd": 0.0}
+        ledger = {"calls": 3, "spent_usd": 0.62260725, "reserved_usd": 0.0}
         now = dt.datetime(2026, 11, 24, tzinfo=dt.timezone.utc)
         with patch("fact_check_analysis.read_json", return_value={
-            "month": "2026-11", "spent_usd": 0.07203
+            "month": "2026-11", "spent_usd": 0.077601
         }):
             reserve = reserve_budget(config, ledger, now)
-        self.assertEqual(reserve, 0.2775)
+        self.assertEqual(reserve, 0.48)
+        self.assertGreater(reserve, 0.34762425)
         self.assertLess(ledger["spent_usd"] + reserve, config["review_monthly_budget_usd"])
         self.assertLess(
-            0.07203 + ledger["spent_usd"] + reserve,
+            0.077601 + ledger["spent_usd"] + reserve,
             config["monthly_total_budget_usd"],
         )
+
+
+class RetrievalMetadataTests(unittest.TestCase):
+    def test_normalized_domain_accepts_bare_allowlist_hosts_and_full_urls(self):
+        self.assertEqual(normalized_domain("nsi.bg"), "nsi.bg")
+        self.assertEqual(normalized_domain("www.nsi.bg"), "nsi.bg")
+        self.assertEqual(normalized_domain("https://www.bnb.bg/Statistics/"), "bnb.bg")
+        self.assertEqual(normalized_domain(""), "")
+
+    def test_redirected_candidate_urls_are_valid_when_every_source_retrieved(self):
+        candidate = "https://www.nsi.bg/press-release/business-tendencies-9194"
+        redirected = "https://www.nsi.bg/press-release/business-tendencies-october-2026-9194"
+        self.assertTrue(evidence_urls_are_retrieved([candidate], [candidate], [redirected], [], 1))
+        self.assertTrue(evidence_urls_are_retrieved([redirected], [candidate], [redirected], [], 1))
+
+    def test_evidence_from_unprovided_source_is_rejected(self):
+        candidate = "https://www.nsi.bg/statistics/table"
+        other = "https://example.org/unprovided-source"
+        self.assertFalse(evidence_urls_are_retrieved([other], [candidate], [candidate], [], 1))
+
+    def test_partial_retrieval_coverage_is_rejected(self):
+        first = "https://www.nsi.bg/statistics/table"
+        second = "https://www.bnb.bg/statistics"
+        self.assertFalse(evidence_urls_are_retrieved([first], [first, second], [first], [], 1))
+
+    def test_retrieval_failures_are_never_treated_as_complete(self):
+        first = "https://www.nsi.bg/statistics/table"
+        second = "https://www.bnb.bg/statistics"
+        failure = [{"url": second, "status": "URL_RETRIEVAL_STATUS_FAILED"}]
+        self.assertFalse(evidence_urls_are_retrieved([first], [first, second], [first], failure, 1))
+
+    def test_extract_retrieval_metadata_preserves_successful_attempt_count(self):
+        payload = {"candidates": [{
+            "urlContextMetadata": {"urlMetadata": [
+                {"retrievedUrl": "https://www.nsi.bg/redirected", "urlRetrievalStatus": "URL_RETRIEVAL_STATUS_SUCCESS"},
+                {"retrievedUrl": "https://www.bnb.bg/statistics", "urlRetrievalStatus": "URL_RETRIEVAL_STATUS_SUCCESS"},
+                {"retrievedUrl": "https://example.org/unavailable", "urlRetrievalStatus": "URL_RETRIEVAL_STATUS_FAILED"},
+            ]}
+        }]}
+        urls, failures, successful_count = extract_retrieval_metadata(payload)
+        self.assertEqual(successful_count, 2)
+        self.assertEqual(len(urls), 2)
+        self.assertEqual(len(failures), 1)
 
 
 class NumericExtractionTests(unittest.TestCase):
@@ -196,12 +241,15 @@ def validate_report(path: Path) -> None:
     assert not report.get("blocking_reasons")
 
     retrieved = set(report.get("retrieved_sources", []))
+    candidates = set(report.get("candidate_source_urls", []))
+    assert report.get("all_candidate_sources_retrieved") is True
+    assert report.get("successful_source_retrieval_count") == len(candidates)
     claims = report.get("claims_checked", [])
     assert len(claims) >= 8
     for claim in claims:
         assert claim.get("verdict") == "verified"
         evidence = set(claim.get("evidence_urls", []))
-        assert evidence and evidence.issubset(retrieved), "Твърдението няма доказателство от извлечен първичен URL."
+        assert evidence and evidence.issubset(candidates | retrieved), "Твърдението няма доказателство от извлечен първичен URL."
 
     numeric_items = report.get("numeric_audit_items", [])
     assert len(numeric_items) == report.get("numeric_blocks_found")
@@ -209,7 +257,7 @@ def validate_report(path: Path) -> None:
         assert item.get("verdict") == "verified"
         assert item.get("statement"), "Липсва точният числов блок, върнат от проверяващия."
         evidence = set(item.get("evidence_urls", []))
-        assert evidence and evidence.issubset(retrieved)
+        assert evidence and evidence.issubset(candidates | retrieved)
 
 
 def validate_static() -> None:
@@ -227,8 +275,8 @@ def validate_static() -> None:
     assert config["minimum_retrieved_sources"] >= 4
     assert config["minimum_official_retrieved_domains"] >= 2
     assert config["maximum_source_urls_per_call"] <= 20
-    assert config["maximum_review_input_tokens"] == 250000
-    assert config["maximum_review_output_tokens"] == 24000
+    assert config["maximum_review_input_tokens"] == 400000
+    assert config["maximum_review_output_tokens"] == 48000
     assert len(config["official_source_domains"]) >= 10
 
     assert "automation/fix-chart-numeric-" in (ROOT / ".github" / "workflows" / "audit-analysis-evidence.yml").read_text(encoding="utf-8")
@@ -262,6 +310,8 @@ def validate_static() -> None:
     assert '"google_search"' not in verifier and '"googleSearch"' not in verifier
     assert "ANALYSES_PUBLISH_ENABLED" in verifier
     assert "official_source_domains" in verifier and "is_official_domain" in verifier
+    assert "evidence_urls_are_retrieved" in verifier
+    assert "successful_retrieval_count" in verifier
     assert "retrieved_sources" in verifier
     assert "URL Context" in disclosure
     assert "Не е преминал човешка редакционна проверка" in disclosure
