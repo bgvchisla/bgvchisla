@@ -6,13 +6,15 @@ import argparse
 import json
 import sys
 import unittest
+import datetime as dt
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from fact_check_analysis import (
-    calculate_billable_usage, extract_numeric_statements,
-    parse_json_response, response_diagnostics,
+    accumulate_usage_totals, calculate_billable_usage, extract_numeric_statements,
+    parse_json_response, response_diagnostics, reserve_budget,
 )
 CONFIG = ROOT / "analysis" / "config.json"
 WORKFLOW = ROOT / ".github" / "workflows" / "generate-analyses.yml"
@@ -129,6 +131,28 @@ class BillingAccountingTests(unittest.TestCase):
         self.assertEqual(result["billed_output_tokens"], 0)
         self.assertEqual(result["actual_cost_usd"], 0.01234567)
 
+    def test_usage_totals_are_accumulated_even_when_json_parsing_later_fails(self):
+        ledger = {"billed_input_tokens": 100, "billed_output_tokens": 200}
+        billing = {"billed_input_tokens": 195304, "billed_output_tokens": 15268}
+        accumulate_usage_totals(ledger, billing)
+        self.assertEqual(ledger["billed_input_tokens"], 195404)
+        self.assertEqual(ledger["billed_output_tokens"], 15468)
+
+    def test_reservation_covers_observed_url_context_input_and_high_reasoning_output(self):
+        config = json.loads(CONFIG.read_text(encoding="utf-8"))
+        ledger = {"calls": 2, "spent_usd": 0.274983, "reserved_usd": 0.0}
+        now = dt.datetime(2026, 11, 24, tzinfo=dt.timezone.utc)
+        with patch("fact_check_analysis.read_json", return_value={
+            "month": "2026-11", "spent_usd": 0.07203
+        }):
+            reserve = reserve_budget(config, ledger, now)
+        self.assertEqual(reserve, 0.2775)
+        self.assertLess(ledger["spent_usd"] + reserve, config["review_monthly_budget_usd"])
+        self.assertLess(
+            0.07203 + ledger["spent_usd"] + reserve,
+            config["monthly_total_budget_usd"],
+        )
+
 
 class NumericExtractionTests(unittest.TestCase):
     def test_nested_kpi_and_chart_values_are_in_numeric_audit(self):
@@ -203,8 +227,8 @@ def validate_static() -> None:
     assert config["minimum_retrieved_sources"] >= 4
     assert config["minimum_official_retrieved_domains"] >= 2
     assert config["maximum_source_urls_per_call"] <= 20
-    assert config["maximum_review_input_tokens"] == 70000
-    assert config["maximum_review_output_tokens"] == 5000
+    assert config["maximum_review_input_tokens"] == 250000
+    assert config["maximum_review_output_tokens"] == 24000
     assert len(config["official_source_domains"]) >= 10
 
     assert "automation/fix-chart-numeric-" in (ROOT / ".github" / "workflows" / "audit-analysis-evidence.yml").read_text(encoding="utf-8")
