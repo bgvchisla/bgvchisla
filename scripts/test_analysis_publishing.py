@@ -19,7 +19,7 @@ class ModernPublishingTests(unittest.TestCase):
     def test_slug_normalization_removes_trailing_hyphen_after_truncation(self):
         self.assertEqual(normalize_slug("budget-for-2027-analysis-"), "budget-for-2027-analysis")
         self.assertEqual(normalize_slug("budget--for---2027"), "budget-for-2027")
-        self.assertEqual(len(normalize_slug("a" * 58 + "-tail-")), 58)
+        self.assertEqual(normalize_slug("a" * 59 + "-tail"), "a" * 59)
         with self.assertRaisesRegex(RuntimeError, "не може да бъде преобразувано"):
             normalize_slug("— — —")
 
