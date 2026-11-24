@@ -1,7 +1,7 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.07203,
-  "calls": 9,
+  "spent_usd": 0.077601,
+  "calls": 11,
   "history": [
     {
       "date": "2026-11-24T15:42:23.381257+02:00",
@@ -96,6 +96,18 @@
       "cost_basis": "conservative_maximum_per_call_reservation",
       "token_usage_persisted": false,
       "note": "The GPT call returned a complete draft. Exact token metadata was not preserved after the failed workflow; recorded the configured maximum per-call reservation to avoid undercounting."
+    },
+    {
+      "date": "2026-11-24T16:16:38.442086+02:00",
+      "cost_usd": 0.002495,
+      "input_tokens": 7952,
+      "output_tokens": 3399
+    },
+    {
+      "date": "2026-11-24T16:17:24.365068+02:00",
+      "cost_usd": 0.003076,
+      "input_tokens": 9607,
+      "output_tokens": 4230
     }
   ]
 }

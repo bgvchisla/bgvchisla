@@ -1,8 +1,8 @@
 {
   "month": "2026-11",
-  "calls": 2,
-  "spent_usd": 0.274983,
-  "reserved_usd": 0,
+  "calls": 3,
+  "spent_usd": 0.62260725,
+  "reserved_usd": 0.0,
   "history": [
     {
       "attempt": 1,
@@ -54,11 +54,32 @@
         }
       },
       "usage_metadata_persisted": true
+    },
+    {
+      "attempt": 3,
+      "slug": "septemvriyskiyat-defitsit-postavya-vaprosi-no-ne-dava-godish",
+      "model": "gemini-3.8-flash",
+      "method": "URL Context direct retrieval",
+      "timestamp_utc": "2026-11-24T14:17:27.827630+00:00",
+      "reserved_usd": 0.2775,
+      "status": "completed",
+      "prompt_tokens": 28063,
+      "tool_input_tokens": 309906,
+      "candidate_output_tokens": 9941,
+      "thinking_output_tokens": 15165,
+      "billed_input_tokens": 337969,
+      "billed_output_tokens": 25106,
+      "actual_cost_usd": 0.34762425,
+      "verdict": "REVIEW",
+      "retrieved_source_count": 8,
+      "official_domain_count": 0,
+      "verified_claims": 7,
+      "numeric_blocks_verified": 11
     }
   ],
   "retrieved_urls": 0,
-  "billed_input_tokens": 195304,
-  "billed_output_tokens": 15268,
+  "billed_input_tokens": 533273,
+  "billed_output_tokens": 40374,
   "usage_metadata_complete": false,
   "retrieval_count_complete": false,
   "notes": [
