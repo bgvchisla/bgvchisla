@@ -164,12 +164,16 @@ def get_evidence(lane):
 
     publish_start = " target.parent.mkdir(parents=True,exist_ok=True);target.write_text(page,encoding='utf-8');src=a['_src'];ids=a['used_source_ids']"
     if publish_start in patched:
-        publish_end = patched.find("\n if __name__=='__main__':", patched.index(publish_start))
+        publish_start_index = patched.index(publish_start)
+        guard_index = patched.find("if __name__=='__main__':", publish_start_index)
+        if guard_index < 0:
+            raise RuntimeError("Не е намерен край на legacy publishing блока.")
+        publish_end = patched.rfind("\\n", publish_start_index, guard_index)
         if publish_end < 0:
-            raise RuntimeError("Не е намерен краят на legacy publishing блока.")
+            raise RuntimeError("Не е намерена граница на реда преди main guard.")
         patched = (
-            patched[:patched.index(publish_start)]
-            + " from analysis_publishing import publish_article\n publish_article(R,a,args.lane,now,label,page,slug)"
+            patched[:publish_start_index]
+            + " from analysis_publishing import publish_article\\n publish_article(R,a,args.lane,now,label,page,slug)"
             + patched[publish_end:]
         )
     elif "publish_article(R,a,args.lane,now,label,page,slug)" not in patched:
