@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T21:35:36.810151+00:00",
-  "last_checked_at": "2026-11-24T21:35:36.810165+00:00",
+  "updated_at": "2026-11-24T22:37:48.466358+00:00",
+  "last_checked_at": "2026-11-24T22:37:48.466370+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -77,25 +77,15 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 90
-      },
-      "related_items": [
-        {
-          "source": "БТА",
-          "publisher": "БТА",
-          "title": "Депутати коментираха в парламента представените днес бюджетни препоръки на Европейската комисия за България",
-          "url": "https://www.bta.bg/bg/news/bulgaria/1253550-deputati-komentiraha-v-parlamenta-predstavenite-dnes-byudzhetni-preporaki-na-evr",
-          "published": "2026-11-24T16:57:00+00:00"
-        }
-      ],
-      "related_count": 1
+      }
     },
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: US ambassador criticises digital duty of care bill; Chalmers downplays recession fears",
+      "title": "Australian politics live: Coalition would look to repeal digital duty of care, Hastie says; inflation expected to climb",
       "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-24T21:23:33+00:00",
+      "published": "2026-11-24T22:16:05+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 40,
@@ -144,25 +134,6 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Бюджетната комисия одобри на второ четене данък „свръхпечалба“",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440007-byudzhetnata-komisiya-odobri-na-vtoro-chetene-danak-svrahpechalba",
-      "published": "2026-11-24T14:02:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
       }
     },
     {
@@ -242,25 +213,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Гърция утре е обявена 24-часова общонационална стачка, която се очаква да засегне морския, въздушния и сухопътния транспорт, съобщи МВнР",
-      "summary": "В Гърция за утре е обявена 24-часова общонационална стачка, която се очаква да засегне публичните услуги в страната, в т.ч. морски, въздушен и сухопътен транспорт, съобщават от Ситуационния център на Министерството на външните работи (МВнР) на Република Българ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253570-v-gartsiya-utre-e-obyavena-24-chasova-obshtonatsionalna-stachka-koyato-se-ochak",
-      "published": "2026-11-24T17:05:55+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Economic.bg",
       "title": "LEGO строи четвърта фабрика в Европа заради растящото търсене",
@@ -300,6 +252,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Депутати от парламентарната бюджетна комисия коментираха промените в данъчното законодателство за 2027 г., внесени от Министерски съвет",
+      "summary": "Депутати от бюджетната комисия коментираха предложенията за промени в данъчното законодателство за 2027 г. На извънредно заседание днес комисията разглежда на второ четене промените в пакета данъчни закони, които бяха внесени от Министерския съвет и предвиждат",
+      "url": "https://www.bta.bg/bg/news/economy/1253580-deputati-ot-parlamentarnata-byudzhetna-komisiya-komentiraha-promenite-v-danachno",
+      "published": "2026-11-24T17:53:01+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Михаела Доцова: Убедена съм, че между 52-рото Народно събрание и президентството ще се осъществява конструктивен диалог в защита на държавността и на интересите на България",
       "summary": "",
@@ -333,6 +304,25 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Бюджетната комисия одобри по-високите данъчни оценки от 2027 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440027-byudzhetnata-komisiya-odobri-po-visokite-danachni-otsenki-ot-2027-g",
+      "published": "2026-11-24T20:08:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 87
       }
     },
@@ -489,25 +479,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "МФ подготвя актуализация на данъчните преференции",
-      "summary": "Министерството на финансите (МФ) подготвя цялостна актуализация на данъчните преференции. Това стана ясно по време на второто четене на промените в данъчните закони за 2027 г. в парламентарната Комисия по бюджет и финанси. На него заместник-министърът на финан",
-      "url": "https://www.economic.bg/bg/a/view/mf-podgotvja-aktualizacija-na-danychnite-preferencii",
-      "published": "2026-11-24T10:30:35+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 24th, 2026 – Morning",
@@ -524,6 +495,25 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "МФ подготвя актуализация на данъчните преференции",
+      "summary": "Министерството на финансите (МФ) подготвя цялостна актуализация на данъчните преференции. Това стана ясно по време на второто четене на промените в данъчните закони за 2027 г. в парламентарната Комисия по бюджет и финанси. На него заместник-министърът на финан",
+      "url": "https://www.economic.bg/bg/a/view/mf-podgotvja-aktualizacija-na-danychnite-preferencii",
+      "published": "2026-11-24T10:30:35+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -586,44 +576,6 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Боян Томов: Бизнесът иска предвидимост, за да може да работи",
-      "summary": "Предвидимостта и възможността за дългосрочно планиране остават сред най-важните условия за развитието на българския бизнес. Това посочи Боян Томов, издател на „Бранд Медия България“ и съорганизатор на конкурса „Мистър и Мисис Икономика“, по време на официалнат",
-      "url": "https://www.economic.bg/bg/a/view/bojan-tomov-biznesyt-iska-predvidimost-za-da-moje-da-raboti",
-      "published": "2026-11-24T19:28:43+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Домусчиев: Чака ни тежка 2027-а, но бизнесът ще остане стабилен",
-      "summary": "Въпреки трудностите, пред които е изправен през 2026 г., българският бизнес остава стабилен, продължава да се развива и да инвестира. Следващата година се очертава да бъде още по-тежка, но с подкрепата на държавата бизнесът ще успее да преодолее предизвикателс",
-      "url": "https://www.economic.bg/bg/a/view/domuschiev-chaka-ni-tejka-2027-a-no-biznesyt-shte-ostane-stabilen",
-      "published": "2026-11-24T18:51:57+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
       "title": "Петролът е близо до тримесечно дъно заради растящото предлагане",
       "summary": "Цените на петрола се понижиха във вторник, задържайки се близо до тримесечно дъно на фона на опасенията от нарастващото предлагане на суров петрол и потенциален излишък на пазара, докато рисковете за корабоплаването през Ормузкия проток остават. Фючърсите върх",
       "url": "https://www.economic.bg/bg/a/view/petrolyt-e-blizo-do-trimesechno-dyno-zaradi-rastjashtoto-predlagane",
@@ -641,33 +593,14 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
-      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
-      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
-      "published": "2026-11-24T19:07:26+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Депутати от парламентарната бюджетна комисия коментираха промените в данъчното законодателство за 2027 г., внесени от Министерски съвет",
-      "summary": "Депутати от бюджетната комисия коментираха предложенията за промени в данъчното законодателство за 2027 г. На извънредно заседание днес комисията разглежда на второ четене промените в пакета данъчни закони, които бяха внесени от Министерския съвет и предвиждат",
-      "url": "https://www.bta.bg/bg/news/economy/1253580-deputati-ot-parlamentarnata-byudzhetna-komisiya-komentiraha-promenite-v-danachno",
-      "published": "2026-11-24T17:53:01+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "source": "Economic.bg",
+      "title": "Боян Томов: Бизнесът иска предвидимост, за да може да работи",
+      "summary": "Предвидимостта и възможността за дългосрочно планиране остават сред най-важните условия за развитието на българския бизнес. Това посочи Боян Томов, издател на „Бранд Медия България“ и съорганизатор на конкурса „Мистър и Мисис Икономика“, по време на официалнат",
+      "url": "https://www.economic.bg/bg/a/view/bojan-tomov-biznesyt-iska-predvidimost-za-da-moje-da-raboti",
+      "published": "2026-11-24T19:28:43+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -675,7 +608,26 @@
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 92,
-        "source_reliability": 90
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Домусчиев: Чака ни тежка 2027-а, но бизнесът ще остане стабилен",
+      "summary": "Въпреки трудностите, пред които е изправен през 2026 г., българският бизнес остава стабилен, продължава да се развива и да инвестира. Следващата година се очертава да бъде още по-тежка, но с подкрепата на държавата бизнесът ще успее да преодолее предизвикателс",
+      "url": "https://www.economic.bg/bg/a/view/domuschiev-chaka-ni-tejka-2027-a-no-biznesyt-shte-ostane-stabilen",
+      "published": "2026-11-24T18:51:57+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -790,6 +742,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
+      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
+      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
+      "published": "2026-11-24T19:07:26+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -1041,25 +1012,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Speech by Executive Vice-President Teresa Ribera at College of Europe, Natolin, Poland",
-      "summary": "European Commission Speech Warsaw, 24 Nov 2026 Dear Vice-Rector, dear professors, dear students of the Johannes Gutenberg Promotion, This campus opened in 1992. The Berlin Wall had just fallen, and Europe wa...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2570",
-      "published": "2026-11-24T09:42:38+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
       "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
@@ -1075,6 +1027,25 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Speech by Executive Vice-President Teresa Ribera at College of Europe, Natolin, Poland",
+      "summary": "European Commission Speech Warsaw, 24 Nov 2026 Dear Vice-Rector, dear professors, dear students of the Johannes Gutenberg Promotion, This campus opened in 1992. The Berlin Wall had just fallen, and Europe wa...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2570",
+      "published": "2026-11-24T09:42:38+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -1099,10 +1070,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов",
-      "summary": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов. Той бе специален гост на представянето на немскоезичния брой на ЛИК „Печатът – 180 г. от „Български орел“. Премиерата на изданието за литература, изкуство и култура на Бъ",
-      "url": "https://www.bta.bg/bg/news/lik/1253666-ivan-bogorov-e-entsiklopedichna-lichnost-kaza-kmetat-na-obshtina-karlovo-d-r-em",
-      "published": "2026-11-24T21:06:00+00:00",
+      "title": "Иван Богоров ще остане в историята до големите имена на българските държавници и общественици, каза отговорният редактор на сп. ЛИК Яница Христова",
+      "summary": "Иван Богоров е пример за човек, който също ще остане в историята до големите имена на наши държавници и общественици, каза отговорният редактор на списание ЛИК Яница Христова. Тя се включи в представянето на немскоезичния брой на списанието на тема „Печатът –",
+      "url": "https://www.bta.bg/bg/news/lik/1253669-ivan-bogorov-shte-ostane-v-istoriyata-do-golemite-imena-na-balgarskite-darzhavni",
+      "published": "2026-11-24T21:43:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1117,49 +1088,11 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Бюджетната комисия одобри по-високите данъчни оценки от 2027 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440027-byudzhetnata-komisiya-odobri-po-visokite-danachni-otsenki-ot-2027-g",
-      "published": "2026-11-24T20:08:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Йотова: България ще играе сериозна роля за развитието на Югоизточна Европа",
-      "summary": "България има огромни възможности и в следващите години ще играе сериозна роля не само за развитието на Югоизточна Европа, но ще бъде и гарант за сигурността на Средна, Западна и Северна Европа. Това каза президентът Илияна Йотова по време на тазгодишните прест",
-      "url": "https://www.economic.bg/bg/a/view/jotova-bylgarija-shte-igrae-seriozna-rolja-za-razvitieto-na-ugoiztochna-evropa",
-      "published": "2026-11-24T19:14:10+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "БТА",
-      "title": "Студенти от специалност „Текстил – изкуство и дизайн“ на НХА подредиха изложба в галерия „Сердика\"",
-      "summary": "Изложбата „Лични територии“, съчетаваща живопис и тъкан, бе открита тази вечер в столичната галерия „Сердика“. Тя представя вижданията на студенти от първи до четвърти курс в специалност „Текстил – изкуство и дизайн“ на Националната художествена академия (НХА)",
-      "url": "https://www.bta.bg/bg/news/lik/1253616-studenti-ot-spetsialnost-tekstil-izkustvo-i-dizayn-na-nha-podrediha-izlozhba",
-      "published": "2026-11-24T19:13:59+00:00",
+      "title": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов",
+      "summary": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов. Той бе специален гост на представянето на немскоезичния брой на ЛИК „Печатът – 180 г. от „Български орел“. Премиерата на изданието за литература, изкуство и култура на Бъ",
+      "url": "https://www.bta.bg/bg/news/lik/1253666-ivan-bogorov-e-entsiklopedichna-lichnost-kaza-kmetat-na-obshtina-karlovo-d-r-em",
+      "published": "2026-11-24T21:06:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1250,6 +1183,25 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Scientists discover quasar formed 630 million years after the Big Bang",
+      "summary": "Scientists are seeing the quasar as it was 13.1 billion years ago — when the universe was less than 5% of its current age.",
+      "url": "https://www.dw.com/en/scientists-discover-quasar-formed-630-million-years-after-the-big-bang/a-80041882?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-24T22:34:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "US attorney general dodges questions about Nvidia investigation",
       "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
@@ -1268,41 +1220,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
-      "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
-      "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T19:27:23+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Йотова: България ще играе сериозна роля за развитието на Югоизточна Европа",
+      "summary": "България има огромни възможности и в следващите години ще играе сериозна роля не само за развитието на Югоизточна Европа, но ще бъде и гарант за сигурността на Средна, Западна и Северна Европа. Това каза президентът Илияна Йотова по време на тазгодишните прест",
+      "url": "https://www.economic.bg/bg/a/view/jotova-bylgarija-shte-igrae-seriozna-rolja-za-razvitieto-na-ugoiztochna-evropa",
+      "published": "2026-11-24T19:14:10+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Nigerian monarch, 92, suspended after sexual assault claims",
-      "summary": "The Emir of Daura is one of Nigeria's best-known monarchs, with politicians often trying to gain his support.",
-      "url": "https://www.bbc.co.uk/news/articles/cmglrz462nn6o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T19:10:31+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Студенти от специалност „Текстил – изкуство и дизайн“ на НХА подредиха изложба в галерия „Сердика\"",
+      "summary": "Изложбата „Лични територии“, съчетаваща живопис и тъкан, бе открита тази вечер в столичната галерия „Сердика“. Тя представя вижданията на студенти от първи до четвърти курс в специалност „Текстил – изкуство и дизайн“ на Националната художествена академия (НХА)",
+      "url": "https://www.bta.bg/bg/news/lik/1253616-studenti-ot-spetsialnost-tekstil-izkustvo-i-dizayn-na-nha-podrediha-izlozhba",
+      "published": "2026-11-24T19:13:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -1341,6 +1293,44 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Speech by Commissioner Lahbib on the Humanitarian Situation in Gaza at the European Parliament",
+      "summary": "European Commission Speech Strasbourg, 24 Nov 2026 I would like to start by paying tribute to the humanitarian workers, UN agencies, international NGOs and local organisations who continue to deliver assistance ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2581",
+      "published": "2026-11-24T17:49:10+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - EU-Western Balkans summit of 25 November 2026",
+      "summary": "Approximate timings and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/24/media-advisory-eu-western-balkans-summit-of-25-november-2026/",
+      "published": "2026-11-24T17:45:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
       }
     }
   ],
