@@ -69,7 +69,12 @@ class ModernPublishingTests(unittest.TestCase):
                 '<body><main><h1>Българската икономика</h1>'
                 '<div class="meta">Редакция БЪЛГАРИЯ В ЧИСЛА / 24.11.2026 / 1020 думи</div>'
                 '<article><section><h2>Основни тенденции</h2><p>Съдържание с проверими доказателства.</p></section></article>'
-                '</main></body></html>'
+                '<div class="sources"><h2>Източници</h2><ol>'
+                '<li><a href="https://example.org/source-1">Източник 1</a></li>'
+                '<li><a href="https://example.org/source-2">Източник 2</a></li>'
+                '<li><a href="https://example.org/source-3">Източник 3</a></li>'
+                '<li><a href="https://example.org/source-4">Източник 4</a></li>'
+                '</ol></div></main></body></html>'
             )
 
             page_path = publish_article(
@@ -99,6 +104,7 @@ class ModernPublishingTests(unittest.TestCase):
                 "--risk:#b64b45",
                 "@media(max-width:640px)",
                 "<article>",
+                '<ol class="source-list">',
             ):
                 self.assertIn(token, page)
 

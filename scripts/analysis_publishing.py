@@ -43,6 +43,26 @@ def modernize_page(page: str, slug: str, title: str, summary: str) -> str:
         )
         page = page[:head_end] + social + page[head_end:]
 
+    # The independent Gemini URL Context verifier extracts only the visible,
+    # reader-facing primary-source list. Mark the actual list explicitly.
+    source_list = re.search(
+        r'(<div class="sources"[^>]*>[\s\S]*?<ol)([^>]*)>',
+        page,
+        flags=re.I,
+    )
+    if not source_list:
+        raise RuntimeError("Липсва видимият списък с първоизточници.")
+    attrs = source_list.group(2)
+    class_match = re.search(r"""class=["']([^"']*)["']""", attrs, flags=re.I)
+    if class_match:
+        classes = class_match.group(1).split()
+        if "source-list" not in classes:
+            classes.append("source-list")
+        attrs = attrs[:class_match.start()] + 'class="' + " ".join(classes) + '"' + attrs[class_match.end():]
+    else:
+        attrs += ' class="source-list"'
+    page = page[:source_list.start()] + source_list.group(1) + attrs + ">" + page[source_list.end():]
+
     css = """
 :root{--navy:#24384f;--blue:#315f91;--risk:#b64b45}
 .byline{color:#718096;font-size:.8rem;margin:12px 0 20px}
@@ -64,6 +84,7 @@ def modernize_page(page: str, slug: str, title: str, summary: str) -> str:
         "@media(max-width:640px)",
         "<article>",
         "</article>",
+        '<ol class="source-list">',
     )
     missing = [token for token in required if token not in page]
     if missing:
