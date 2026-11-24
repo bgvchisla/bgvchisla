@@ -1,13 +1,13 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.080045,
-  "calls": 12,
+  "spent_usd": 0.082473,
+  "calls": 13,
   "history": [
     {
-      "date": "2026-11-24T17:01:28.143797+02:00",
-      "cost_usd": 0.002444,
+      "date": "2026-11-24T17:37:26.578020+02:00",
+      "cost_usd": 0.002428,
       "input_tokens": 7952,
-      "output_tokens": 3297
+      "output_tokens": 3266
     },
     {
       "timestamp": "2026-11-24T09:17:23Z",
