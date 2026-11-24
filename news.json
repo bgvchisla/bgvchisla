@@ -1,25 +1,25 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T11:18:29.634911+00:00",
-  "last_checked_at": "2026-11-24T11:18:29.634921+00:00",
+  "updated_at": "2026-11-24T12:24:37.477739+00:00",
+  "last_checked_at": "2026-11-24T12:24:37.477750+00:00",
   "items": [
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Управляващите пощадиха по-малките търговци от новия данък „Свръхпечалба“",
-      "summary": "Управляващите от „Прогресивна България“ се смилиха над по-малките търговци, които няма да бъдат облагани през 2027 г. с новия данък „Свръхпечалба“. Това става ясно от внесените между първо и второ четене предложения за изменение на данъчните закони за догодина",
-      "url": "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-po-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
-      "published": "2026-11-24T07:20:19+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 40,
+      "source": "БТА",
+      "title": "Заместник-министърът на външните работи Христо Дикански и новият посланик на Унгария Балинт Цекуш обсъдиха перспективите за сътрудничество",
+      "summary": "Заместник-министърът на външните работи Христо Дикански прие копията на акредитивните писма на новоназначения посланик на Унгария в България Балинт Цекуш, съобщават от пресцентъра на Министерството на външните работи (МВнР). По време на срещата е подчертано зн",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253223-zamestnik-ministarat-na-vanshnite-raboti-hristo-dikanski-i-noviyat-poslanik-na-u",
+      "published": "2026-11-24T11:47:31+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 44,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
+        "national_impact": 74,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -39,6 +39,44 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Вечерни новини: Фалитите в България ще се увеличават; Разрешение за строеж на още 1.1 км от обхода на Кресна",
+      "summary": "Плащания без карта, нови инфраструктурни проекти и повече средства за иновации са сред водещите теми на 23 ноември. БОРИКА подготвя blink eCommerce за директни плащания от банкова сметка, а мобилното банкиране все по-ясно се превръща в основен канал за ежеднев",
+      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-falitite-v-bylgarija-shte-se-uvelichavat-razreshenie-za-stroej-na-oshte-1-1-km-ot-obhoda-na-kresna",
+      "published": "2026-11-23T16:46:26+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 44,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "По-високи данъчни облекчения за деца и ново данъчно облекчение за детско развитие, включващо и заниманията в областта на културата, одобри на второ четене бюджетната комисия",
+      "summary": "По-високи данъчни облекчения за деца и ново данъчно облекчение за детско развитие, включващо и заниманията в областта на културата и изкуството, прие на второ четене бюджетната комисия със Законопроекта за изменение и допълнение на Закона за данъците върху дох",
+      "url": "https://www.bta.bg/bg/news/economy/1253205-po-visoki-danachni-oblekcheniya-za-detsa-i-novo-danachno-oblekchenie-za-detsko-r",
+      "published": "2026-11-24T11:33:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -83,7 +121,7 @@
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Bombed factories, billion-dollar opportunity: Why German companies keep investing in Ukraine",
-      "summary": "Million-dollar losses, an unreliable energy supply, and a shortage of skilled workers: despite these challenges, German companies remain committed to Ukraine. They are betting on new markets and long-term growth.",
+      "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
       "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-keep-investing-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-24T11:00:00+00:00",
       "feed_id": "dw-world",
@@ -156,25 +194,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "България е страната с най-голямо неравенство в доходите в ЕС",
-      "summary": "",
-      "url": "https://www.investor.bg/a/517-pazar-na-truda/439966-balgariya-e-stranata-s-nay-golyamo-neravenstvo-v-dohodite-v-es",
-      "published": "2026-11-23T19:55:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 87
-      }
-    },
-    {
       "section": "europe",
       "source": "Economic.bg",
       "title": "LEGO строи четвърта фабрика в Европа заради растящото търсене",
@@ -183,33 +202,14 @@
       "published": "2026-11-24T08:44:43+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Над 13 600 артикула с обозначения на световни марки задържаха митническите служители на граничен пункт „Лесово“",
-      "summary": "Над 13 600 облекла, обувки и други артикули с обозначения на световноизвестни марки са задържани при две проверки на товарни автомобили на граничния контролно-пропускателен пункт (ГКПП) „Лесово“. Стоките са пътували от Турция през България към държави от Европ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253166-nad-13-600-artikula-s-oboznacheniya-na-svetovni-marki-zadarzhaha-mitnicheskite-s",
-      "published": "2026-11-24T11:10:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -271,25 +271,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Служители от Бюрото по труда в Русе стачкуваха за по-високи възнаграждения",
-      "summary": "Служители от Бюрото по труда в Русе се включиха в едночасова стачка с искане за по-високи заплати. Тя е организирана от Конфедерацията на труда \"Подкрепа\", съобщи председателят на синдикалната структура в крайдунавския град Кирил Черкезов. Той обясни, че част",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253099-sluzhiteli-ot-byuroto-po-truda-v-ruse-stachkuvaha-za-po-visoki-vaznagrazhdeniya",
-      "published": "2026-11-24T10:17:01+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "„Маркет линкс“: „Прогресивна България“ запазва подкрепата на една трета от избирателите",
       "summary": "",
@@ -297,13 +278,13 @@
       "published": "2026-11-24T08:23:00+00:00",
       "feed_id": "investor-economy",
       "publisher": "investor.bg",
-      "priority_score": 29,
+      "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -316,13 +297,13 @@
       "published": "2026-11-24T00:00:00+00:00",
       "feed_id": "bnb-news",
       "publisher": "БНБ",
-      "priority_score": 29,
+      "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 99
       }
     },
@@ -335,14 +316,33 @@
       "published": "2026-11-24T00:00:00+00:00",
       "feed_id": "bnb-news",
       "publisher": "БНБ",
-      "priority_score": 29,
+      "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Intesa отваря за инвеститори оферта за 36 млрд. долара за най-старата банка в света",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439992-intesa-otvarya-za-investitori-oferta-za-36-mlrd-dolara-za-nay-starata-banka-v-sveta",
+      "published": "2026-11-24T11:02:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 27,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -386,25 +386,6 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Вечерни новини: Фалитите в България ще се увеличават; Разрешение за строеж на още 1.1 км от обхода на Кресна",
-      "summary": "Плащания без карта, нови инфраструктурни проекти и повече средства за иновации са сред водещите теми на 23 ноември. БОРИКА подготвя blink eCommerce за директни плащания от банкова сметка, а мобилното банкиране все по-ясно се превръща в основен канал за ежеднев",
-      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-falitite-v-bylgarija-shte-se-uvelichavat-razreshenie-za-stroej-na-oshte-1-1-km-ot-obhoda-na-kresna",
-      "published": "2026-11-23T16:46:26+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 44,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
       "title": "България търси подкрепа от Световната банка за големи транспортни проекти",
       "summary": "Българското правителство търси възможности за сътрудничество със Световната банка при финансирането и реализацията на мащабни транспортни инфраструктурни проекти. Темата е обсъдена на среща между премиера Румен Радев и представители на международната финансова",
       "url": "https://www.economic.bg/bg/a/view/bylgarija-tyrsi-podkrepa-ot-svetovnata-banka-za-golemi-transportni-proekti",
@@ -418,6 +399,25 @@
         "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Управляващите пощадиха по-малките търговци от новия данък „Свръхпечалба“",
+      "summary": "Управляващите от „Прогресивна България“ се смилиха над по-малките търговци, които няма да бъдат облагани през 2027 г. с новия данък „Свръхпечалба“. Това става ясно от внесените между първо и второ четене предложения за изменение на данъчните закони за догодина",
+      "url": "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-po-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
+      "published": "2026-11-24T07:20:19+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -593,6 +593,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Община Бургас ще поеме дългосрочен дълг от близо 15 млн. евро за съфинансиране на проекти",
+      "summary": "Общинският съвет в Бургас одобри Община Бургас да поеме дългосрочен общински дълг в размер до 14 878 798 евро от \"Фонд ФЛАГ\" за финансиране и съфинансиране на девет инвестиционни проекта. Предложението бе внесено от кмета Димитър Николов. Средствата ще бъдат и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253277-obshtina-burgas-shte-poeme-dalgosrochen-dalg-ot-blizo-15-mln-evro-za-safinansir",
+      "published": "2026-11-24T12:23:30+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Russia to build Kaliningrad exclave rail ferries, citing transport 'blockade'",
@@ -688,25 +707,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Електромобилите и хибридите в България са близо 30% от новите коли през октомври",
-      "summary": "Пазарът на нови автомобили в България продължава да расте през октомври 2026 г., като най-съществената промяна е увеличаването на дела на автомобилите с електрифицирано задвижване. Изцяло електрическите автомобили (BEV), плъгин хибридите (PHEV) и хибридите (HE",
-      "url": "https://www.economic.bg/bg/a/view/elektromobilite-i-hibridite-v-bylgarija-sa-blizo-30-ot-novite-koli-prez-oktomvri",
-      "published": "2026-11-24T09:23:56+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "The EU’s increasingly impossible budget arithmetic",
@@ -780,6 +780,25 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Електромобилите и хибридите в България са близо 30% от новите коли през октомври",
+      "summary": "Пазарът на нови автомобили в България продължава да расте през октомври 2026 г., като най-съществената промяна е увеличаването на дела на автомобилите с електрифицирано задвижване. Изцяло електрическите автомобили (BEV), плъгин хибридите (PHEV) и хибридите (HE",
+      "url": "https://www.economic.bg/bg/a/view/elektromobilite-i-hibridite-v-bylgarija-sa-blizo-30-ot-novite-koli-prez-oktomvri",
+      "published": "2026-11-24T09:23:56+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -878,6 +897,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Добрич прие увеличение с 20% на данъка върху превозните средства",
+      "summary": "Общинският съвет в Добрич прие увеличение с 20% на данъка върху превозните средства. Решението беше взето след продължителен дебат и промяна в първоначалното предложение на общинската администрация, което предвиждаше повишение на данъчните ставки с около 30%.",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253233-obshtinskiyat-savet-v-dobrich-prie-uvelichenie-s-20-na-danaka-varhu-prevoznite-",
+      "published": "2026-11-24T11:52:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Speech by Executive Vice-President Teresa Ribera at College of Europe, Natolin, Poland",
@@ -955,6 +993,25 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Israeli strike kills Hamas internal security chief in Gaza, source tells AFP",
+      "summary": "Naeem Abu Nahal died in a strike earlier reported by Gaza's civil defence agency, the Palestinian security source told AFP.",
+      "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
+      "published": "2026-11-24T12:16:18+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
       "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
@@ -1012,6 +1069,44 @@
     },
     {
       "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Right-wing revolt threatens to bog down EU budget",
+      "summary": "A Patriots for Europe official said several other delegations could back a challenge that would slow down budget talks in the European Parliament.",
+      "url": "https://www.politico.eu/article/right-wing-revolt-threatens-to-bog-down-eu-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-24T11:41:01+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Женска организация в Свищов събра средства в подкрепа на благотворителна инициатива за деца и семейства в неравностойно положение",
+      "summary": "Членовете на женската организация „Инър Уийл клуб\" (Inner Wheel club) в Свищов събраха средства в подкрепа на благородна кауза, озаглавена „Щастливи деца днес – светло бъдеще утре“, съобщи за БТА президентът на клуба Диана Стоилова. Тя разказа, че „Инър Уийл к",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253084-zhenska-organizatsiya-v-svishtov-sabra-sredstva-v-podkrepa-na-blagotvoritelna-in",
+      "published": "2026-11-24T11:40:49+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
       "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
@@ -1032,10 +1127,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "За шеста поредна година Регионалната библиотека във Велико Търново обявява национален конкурс за криминален разказ „(Не)разкритият случай”",
-      "summary": "За шеста поредна година Регионалната библиотека във Велико Търново обявява национален конкурс за криминален разказ „(Не)разкритият случай”, съобщиха от библиотеката. В конкурса няма ограничения за възраст или професия. Всеки участник може да представи само по",
-      "url": "https://www.bta.bg/bg/news/lik/1253170-za-shesta-poredna-godina-regionalnata-biblioteka-vav-veliko-tarnovo-obyavyava-na",
-      "published": "2026-11-24T11:03:52+00:00",
+      "title": "Стоян Динков е носителят на Националната литературна награда \"Богдан Овесянин\" за 2026 година",
+      "summary": "Стоян Динков е носителят на Националната литературна награда „Богдан Овесянин“ за 2026 година, съобщават от Община Стрелча, която е учредител на отличието. Решението е взето единодушно от експертна комисия, ръководена от председателя на Съюза на българските пи",
+      "url": "https://www.bta.bg/bg/news/lik/1253267-stoyan-dinkov-e-nositelyat-na-natsionalnata-literaturna-nagrada-bogdan-ovesyani",
+      "published": "2026-11-24T12:24:05+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1051,10 +1146,48 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Прогноза за времето",
-      "summary": "През нощта ще е ясно, ще бъде почти тихо, в североизточните райони със слаб вятър от запад. Минимални температури: между минус 5° и 0°; по Черноморието до 3°-4°; в района на София – около минус 5°, съобщиха от Националния институт по метеорология и хидрология",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253124-prognoza-za-vremeto",
-      "published": "2026-11-24T10:35:53+00:00",
+      "title": "От ЦИК връчиха удостоверенията на избраните за президент и вицепрезидент Илияна Йотова и Кирил Вълчев",
+      "summary": "Председателят на Централната избирателна комисия (ЦИК) Георги Хорозов връчи удостоверенията на избраните за президент и вицепрезидент - Илияна Йотова и Кирил Вълчев на официална церемония в Мраморното фоайе на Народното събрание. С това се удостоверява изборни",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253269-ot-tsik-vrachiha-udostovereniyata-na-izbranite-za-prezident-i-vitseprezident-ili",
+      "published": "2026-11-24T12:15:07+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Еврокомисията налага квоти за внос на хибридни автомобили в ЕС",
+      "summary": "Европейската комисия обяви, че активира временни защитни мерки за ограничаване на вноса на хибридни автомобили от трети страни. Според Комисията това е необходимо, за да защити европейската индустрия от резкия ръст на вноса на такива превозни средства през пос",
+      "url": "https://www.economic.bg/bg/a/view/evrokomisijata-nalaga-kvoti-za-vnos-na-hibridni-avtomobili-v-es",
+      "published": "2026-11-24T12:00:24+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Националният музикален театър „Стефан Македонски“ ще представи в Стара Загора оперетата от Франц Лехар „Веселата вдовица“",
+      "summary": "Националният музикален театър „Стефан Македонски“ ще представи пред старозагорската публика оперетата от Франц Лехар „Веселата вдовица“, сочи програмата на 56-ото издание на Фестивала на оперното и балетно изкуство (ФОБИ). Зрителите ще могат да гледат постанов",
+      "url": "https://www.bta.bg/bg/news/lik/1253230-natsionalniyat-muzikalen-teatar-stefan-makedonski-shte-predstavi-v-stara-zagor",
+      "published": "2026-11-24T11:54:32+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1070,10 +1203,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Вторият том на „Годишник на Регионалния исторически музей – Видин“ събира изследвания на 20 автори",
-      "summary": "Вторият том на „Годишник на Регионалния исторически музей – Видин“ беше представен днес в Националния пресклуб на БТА във Видин. Изданието съдържа научни изследвания и доклади на 20 автори, посветени на археологията, историята и културното наследство. Това съо",
-      "url": "https://www.bta.bg/bg/news/lik/1253121-vtoriyat-tom-na-godishnik-na-regionalniya-istoricheski-muzey-vidin-sabira-iz",
-      "published": "2026-11-24T10:28:27+00:00",
+      "title": "Два документални филма в Русе ще разкажат за българските занаяти",
+      "summary": "Прожекция на два филма от документалната поредица „Легенда за майстори\" ще се състои на 26 ноември (четвъртък) във „Фабрика Култура\" в Русе. Това съобщи Симона Георгиева от организаторите от фондация „Ято\". Филмите разказват историите на двама майстори, посвет",
+      "url": "https://www.bta.bg/bg/news/lik/1253224-dva-dokumentalni-filma-v-ruse-shte-razkazhat-za-balgarskite-zanayati",
+      "published": "2026-11-24T11:50:11+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1084,6 +1217,44 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Ако днес земната църква осиротява, небесната се обогатява, каза патриарх Даниил в словото си след опелото на Ловчанския митрополит Гавриил",
+      "summary": "С думите „Ако днес земната църква осиротява, небесната се обогатява“ българският патриарх Даниил се обърна към присъстващите на опелото на Ловчанския митрополит Гавриил в катедралния храм „Св. св. Кирил и Методий“ в Ловеч. В словото си след траурната служба то",
+      "url": "https://www.bta.bg/bg/news/lik/1253209-ako-dnes-zemnata-tsarkva-osirotyava-nebesnata-se-obogatyava-kaza-patriarh-dani",
+      "published": "2026-11-24T11:48:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Бизнес нагласите в Германия се подобряват за седми пореден месец",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439995-biznes-naglasite-v-germaniya-se-podobryavat-za-sedmi-poreden-mesets",
+      "published": "2026-11-24T11:34:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -1160,177 +1331,6 @@
         "strategic_significance": 32,
         "timeliness": 50,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Enlargement: EU and Montenegro close accession negotiations on taxation and regional policy",
-      "summary": "The EU and Montenegro provisionally closed accession negotiations on taxation (chapter 16) and regional policy and coordination of structural instruments (chapter 22).",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/enlargement-eu-and-montenegro-close-accession-negotiations-on-taxation-and-regional-policy/",
-      "published": "2026-11-19T15:58:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 30,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Race to replant five South African baobabs after export blocked",
-      "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
-      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
-      "published": "2026-11-19T11:03:24+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 30,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Враца ще организира среща с лични лекари и училищни директори заради отсъствия на ученици по медицински причини",
-      "summary": "Среща с представители на общопрактикуващите лекари, Регионалното управление на образованието и училищните директори ще организира Община Враца за обсъждане на ученически отсъствия и броя на децата с ТЕЛК. Това съобщи кметът Калин Каменов по време на редовното",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253141-obshtina-vratsa-shte-organizira-sreshta-s-lichni-lekari-i-uchilishtni-direktori-",
-      "published": "2026-11-24T11:06:32+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Five women killed every hour by family members or partners — UN report",
-      "summary": "On average, 129 women or girls were killed every day in 2025 by someone in their close social circle, UN data showed.",
-      "url": "https://www.dw.com/en/five-women-killed-every-hour-by-family-members-or-partners-un-report/a-80030010?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T11:03:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "How the AI trade could trap even cautious investors",
-      "summary": "From Nvidia to Coreweave, AI and tech stocks have swung sharply in recent months. Some investors still see plenty of room to run, while others are trying to diversify — and finding it harder than expected.",
-      "url": "https://www.dw.com/en/how-the-ai-trade-could-trap-even-cautious-investors/a-80016412?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T10:59:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Russian drone violates Polish airspace days after cruise missiles fell on country – Europe live",
-      "summary": "Authorities investigating ‘intentional activity’ amid growing tensions between Moscow and countries on Nato’s eastern flank Meanwhile, Nato’s secretary general Mark Rutte will travel to Florida to meet the US president, Donald Trump, at Mar-a-Lago on Wednesday",
-      "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
-      "published": "2026-11-24T10:51:29+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
-      "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
-      "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T10:48:27+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Повечето германци вече са против военна подкрепа за Украйна",
-      "summary": "",
-      "url": "https://www.investor.bg/a/527-svyat/439973-povecheto-germantsi-veche-sa-protiv-voenna-podkrepa-za-ukrayna",
-      "published": "2026-11-24T09:03:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Chinese official gets death sentence in spy case, report says",
-      "summary": "A Chinese official recruited while working abroad was paid more than a million yuan to leak secrets, state-affiliated media reported.",
-      "url": "https://www.dw.com/en/chinese-official-gets-death-sentence-in-spy-case-report-says/a-80028393?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T08:41:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
       }
     }
   ],
