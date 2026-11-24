@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T16:44:32.378292+00:00",
-  "last_checked_at": "2026-11-24T16:44:32.378303+00:00",
+  "updated_at": "2026-11-24T17:33:55.781872+00:00",
+  "last_checked_at": "2026-11-24T17:33:55.781884+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -62,6 +62,25 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 24th, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening",
+      "published": "2026-11-24T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "Irish plan offers Burnham breakthrough on Made in Europe",
       "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations Business live – latest updates The UK wwould not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that",
@@ -94,8 +113,46 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Депутати коментираха в парламента представените днес бюджетни препоръки на Европейската комисия за България",
+      "summary": "Депутати коментираха в парламента представения днес от Европейската комисия Есенен пакет на Европейския семестър за 2027 г. По отношение на България и Унгария ЕК отчита, че предприетите действия в отговор на препоръките за коригиране на прекомерния дефицит не",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253550-deputati-komentiraha-v-parlamenta-predstavenite-dnes-byudzhetni-preporaki-na-evr",
+      "published": "2026-11-24T16:57:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Правителството дължи отговори, а не оправдания, заяви Бойко Борисов относно възможна глоба от ЕК за неизпълнени бюджетни ангажименти",
+      "summary": "ЕК препоръчва глоба за България заради неизпълнени бюджетни ангажименти. Правителството дължи отговори, а не оправдания, коментира лидерът на ГЕРБ Бойко Борисов във Фейсбук. „Кой взе решенията, довели до тази ситуация, за която от ГЕРБ предупреждавахме?! Как и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253558-pravitelstvoto-dalzhi-otgovori-a-ne-opravdaniya-zayavi-boyko-borisov-otnosno-v",
+      "published": "2026-11-24T16:54:12+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -113,7 +170,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -195,25 +252,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 24th, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-morning",
-      "published": "2026-11-24T06:00:33+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Economic.bg",
       "title": "LEGO строи четвърта фабрика в Европа заради растящото търсене",
       "summary": "LEGO обяви в понеделник плановете си да инвестира около 1 млрд. евро в нова фабрика в Ещарежа, Португалия, за да отговори на нарастващото търсене в Европа, Близкия изток и Африка. След като заработи с пълен капацитет, фабриката ще осигури работа на повече от 1",
@@ -271,56 +309,18 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Стратегически документи разгледаха общинските съветници във Враца по време на редовно заседание",
-      "summary": "Стратегически документи, финансови и устройствени въпроси бяха част от дневния ред на редовно заседание на Общински съвет (ОбС) - Враца. Проект на наредба за финансиране на малки граждански инициативи на територията на община Враца подкрепиха на първо четене о",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253364-strategicheski-dokumenti-razgledaha-obshtinskite-savetnitsi-vav-vratsa-po-vreme-",
-      "published": "2026-11-24T15:32:17+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Одобрена е втората концепция на Община Свищов за Интегрирано териториално развитие на стойност над 12 милиона евро",
-      "summary": "Министерството на регионалното развитие и благоустройство одобри финансирането на втората концепция на Община Свищов за „Интегрирана подкрепа за развитието на здравни, социални и образователни услуги“. Общата стойност на проекта възлиза на 12 191 746 евро, съо",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253536-odobrena-e-vtorata-kontseptsiya-na-obshtina-svishtov-za-integrirano-teritorialno",
-      "published": "2026-11-24T16:29:44+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
-      "title": "България е на второ място в ЕС по нетни приходи от NextGenerationEU за 2025 г.",
+      "title": "Изкуственият интелект навлиза в управлението на енергийните мрежи и у нас",
       "summary": "",
-      "url": "https://www.investor.bg/a/527-svyat/440009-balgariya-e-na-vtoro-myasto-v-es-po-netni-prihodi-ot-nextgenerationeu-za-2025-g",
-      "published": "2026-11-24T16:09:00+00:00",
+      "url": "https://www.investor.bg/a/518-energetika/440023-izkustveniyat-intelekt-navliza-v-upravlenieto-na-energiynite-mrezhi-i-u-nas",
+      "published": "2026-11-24T17:22:00+00:00",
       "feed_id": "investor-economy",
       "publisher": "investor.bg",
-      "priority_score": 29,
+      "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
@@ -392,13 +392,13 @@
       "published": "2026-11-23T16:46:26+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 44,
+      "priority_score": 43,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 85
       }
     },
@@ -438,6 +438,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 24th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-morning",
+      "published": "2026-11-24T06:00:33+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -517,22 +536,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
-      "published": "2026-11-23T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Гърция утре е обявена 24-часова общонационална стачка, която се очаква да засегне морския, въздушния и сухопътния транспорт, съобщи МВнР",
+      "summary": "В Гърция за утре е обявена 24-часова общонационална стачка, която се очаква да засегне публичните услуги в страната, в т.ч. морски, въздушен и сухопътен транспорт, съобщават от Ситуационния център на Министерството на външните работи (МВнР) на Република Българ",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253570-v-gartsiya-utre-e-obyavena-24-chasova-obshtonatsionalna-stachka-koyato-se-ochak",
+      "published": "2026-11-24T17:05:55+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 91
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -595,10 +614,10 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Latest news bulletin | November 23rd, 2026 – Midday",
+      "title": "Latest news bulletin | November 23rd, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-midday",
-      "published": "2026-11-23T11:00:15+00:00",
+      "url": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
+      "published": "2026-11-23T17:00:26+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 37,
@@ -658,13 +677,13 @@
       "published": "2026-11-24T14:12:14+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 36,
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -837,6 +856,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Одобрена е втората концепция на Община Свищов за Интегрирано териториално развитие на стойност над 12 милиона евро",
+      "summary": "Министерството на регионалното развитие и благоустройство одобри финансирането на втората концепция на Община Свищов за „Интегрирана подкрепа за развитието на здравни, социални и образователни услуги“. Общата стойност на проекта възлиза на 12 191 746 евро, съо",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253536-odobrena-e-vtorata-kontseptsiya-na-obshtina-svishtov-za-integrirano-teritorialno",
+      "published": "2026-11-24T16:29:44+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1108,6 +1146,44 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Изложба за художника Кирил Цонев и неговия артистичен кръг беше открита в Софийската градска художествена галерия",
+      "summary": "Изложбата „Кирил Цонев и неговият артистичен кръг“, посветена на 130 години от рождението на художника, беше открита тази вечер в Софийската градска художествена галерия (СГХГ). Експозицията е част от общ проект с Националната галерия, където след два дни ще б",
+      "url": "https://www.bta.bg/bg/news/lik/1253568-izlozhba-za-hudozhnika-kiril-tsonev-i-negoviya-artistichen-krag-beshe-otkrita-v-",
+      "published": "2026-11-24T17:25:12+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общо 98,16% от населението на България попада в обхвата на моделирано време за достъп на наземната спешна помощ до 30 минути, каза доц. Леонид Тодоров",
+      "summary": "Общо 98,16% от населението на България попада в обхвата на моделирано време за достъп на наземната спешна помощ до 30 минути, каза доц. д-р Леонид Тодоров при представяне на монографията „Атлас на спешната медицинска помощ в България“ в Софийския университет (",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253554-obshto-98-16-ot-naselenieto-na-balgariya-popada-v-obhvata-na-modelirano-vreme-z",
+      "published": "2026-11-24T17:08:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "България вече е пълноправен член на Европейската лаборатория по молекулярна биология",
       "summary": "България вече е пълноправен член на Европейската лаборатория по молекулярна биология (European Molecular Biology Laboratory - EMBL). Това е важна стъпка в развитието на българската научна общност в сферата на науките за живота и утвърждаването на страната ни к",
       "url": "https://www.bta.bg/bg/news/lik/1253527-balgariya-veche-e-palnopraven-chlen-na-evropeyskata-laboratoriya-po-molekulyarna",
@@ -1122,6 +1198,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "България е на второ място в ЕС по нетни приходи от NextGenerationEU за 2025 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/527-svyat/440009-balgariya-e-na-vtoro-myasto-v-es-po-netni-prihodi-ot-nextgenerationeu-za-2025-g",
+      "published": "2026-11-24T16:09:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -1165,7 +1260,7 @@
     {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
-      "title": "ЕК поиска глоба за България за неизпълнение на процедурата за свръхдефицит",
+      "title": "ЕК поиска глоба за България за неизпълнение на процедурата за свръхдефицит*",
       "summary": "",
       "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440019-ek-poiska-globa-za-balgariya-za-neizpalnenie-na-protsedurata-za-svrahdefitsit",
       "published": "2026-11-24T15:40:00+00:00",
@@ -1179,25 +1274,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Прекратяване на кметски мандат следва да се прилага при безспорно установени законови основания и принцип на пропорционалност, заявяват от НСОРБ",
-      "summary": "Управителният съвет на Националното сдружение на общините в Република България (НСОРБ) изразява сериозна загриженост във връзка с решението на Общинската избирателна комисия – Варна от 23 ноември 2026 г. за предсрочно прекратяване на пълномощията на кмета на о",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253478-prekratyavane-na-kmetski-mandat-sledva-da-se-prilaga-pri-bezsporno-ustanoveni-za",
-      "published": "2026-11-24T15:28:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1256,93 +1332,12 @@
         "timeliness": 92,
         "source_reliability": 85
       }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Right-wing revolt threatens to bog down EU budget",
-      "summary": "A Patriots for Europe official said several other delegations could back a challenge that would slow down budget talks in the European Parliament.",
-      "url": "https://www.politico.eu/article/right-wing-revolt-threatens-to-bog-down-eu-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-24T11:41:01+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Бизнес нагласите в Германия се подобряват за седми пореден месец",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439995-biznes-naglasite-v-germaniya-se-podobryavat-za-sedmi-poreden-mesets",
-      "published": "2026-11-24T11:34:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-      "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T10:53:37+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Enlargement: EU and Montenegro close accession negotiations on taxation and regional policy",
-      "summary": "The EU and Montenegro provisionally closed accession negotiations on taxation (chapter 16) and regional policy and coordination of structural instruments (chapter 22).",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/enlargement-eu-and-montenegro-close-accession-negotiations-on-taxation-and-regional-policy/",
-      "published": "2026-11-19T15:58:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 30,
-        "source_reliability": 99
-      }
     }
   ],
   "feed_status": {
-    "ok": 20,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "federal-reserve",
-        "error": "HTTP Error 404: Not Found"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
