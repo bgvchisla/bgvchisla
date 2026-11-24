@@ -171,7 +171,7 @@ jobs:
           }
           ledger_only = required.issubset(changed) and changed.issubset(allowed)
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
-              output.write(f"ledger_only={'true' if ledger_only else 'false'}\\n")
+              output.write(f"ledger_only={'true' if ledger_only else 'false'}\n")
           print(f"Променени файлове: {sorted(changed)}")
           print(f"Изолиран счетоводен PR: {ledger_only}")
           PY
