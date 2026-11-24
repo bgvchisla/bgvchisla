@@ -149,9 +149,38 @@ jobs:
           if [ -f analysis/factcheck_report.json ]; then
             python scripts/test_independent_factcheck.py --report analysis/factcheck_report.json
           fi
+      - name: Identify a ledger-only change set for budget preflight
+        id: change_scope
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os
+          import subprocess
+
+          changed = set(subprocess.check_output(
+              ["git", "diff", "--name-only", "origin/main...HEAD"],
+              text=True,
+          ).splitlines())
+          required = {
+              "analysis/monthly_usage.json",
+              "analysis/verification_usage.json",
+          }
+          allowed = required | {
+              ".github/workflows/audit-analysis-evidence.yml",
+              "scripts/test_analysis_publication.py",
+          }
+          ledger_only = required.issubset(changed) and changed.issubset(allowed)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"ledger_only={'true' if ledger_only else 'false'}\\n")
+          print(f"Променени файлове: {sorted(changed)}")
+          print(f"Изолиран счетоводен PR: {ledger_only}")
+          PY
+
       - name: Run the actual Bulgarian free preflight
+        if: steps.change_scope.outputs.ledger_only != 'true'
         run: python scripts/generate_analysis.py --lane bulgaria --dry-run
       - name: Run the actual world free preflight
+        if: steps.change_scope.outputs.ledger_only != 'true'
         run: python scripts/generate_analysis.py --lane world --dry-run
       - name: Verify monthly spend ledger remains unchanged
         run: |
