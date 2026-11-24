@@ -13,7 +13,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from analysis_retry import (  # noqa: E402
     build_retry_prompt,
+    build_source_coverage_retry_prompt,
     canonical_used_source_ids,
+    insufficient_source_count,
     maximum_retry_reserve,
     underlength_word_count,
 )
@@ -38,6 +40,38 @@ class AnalysisRetryTests(unittest.TestCase):
         self.assertIsNone(underlength_word_count("Word count out of range: 1401", 900))
         self.assertIsNone(underlength_word_count("Paragraph evidence validation failed", 900))
         self.assertIsNone(underlength_word_count("OpenAI API HTTP 429", 900))
+
+    def test_only_exact_insufficient_source_count_error_is_retryable(self):
+        error = "Source validation failed: only 3 distinct valid sources are cited; minimum is 4."
+        self.assertEqual(insufficient_source_count(error, 4), 3)
+        self.assertIsNone(insufficient_source_count("Source validation failed", 4))
+        self.assertIsNone(insufficient_source_count("Paragraph evidence validation failed", 4))
+        self.assertIsNone(insufficient_source_count(
+            "Source validation failed: only 4 distinct valid sources are cited; minimum is 4.", 4
+        ))
+        self.assertIsNone(insufficient_source_count(error, 5))
+
+    def test_source_coverage_retry_uses_same_evidence_and_draft(self):
+        evidence = {"sources": [{"source_id": "D01"}, {"source_id": "N01"}]}
+        draft = {"title": "Тест", "sections": [{"paragraphs": [{"text": "Чернова"}]}]}
+        prompt = build_source_coverage_retry_prompt(evidence, draft, 3, self.config)
+        payload = json.loads(prompt)
+        self.assertEqual(payload["evidence"], evidence)
+        self.assertEqual(payload["previous_draft"], draft)
+        self.assertIn("поне 4 различни source_id", payload["assignment"])
+        self.assertIn("не го използвай", payload["assignment"])
+        self.assertIn("1050-1150 думи", payload["assignment"])
+        self.assertIn("не измисляй факти", payload["assignment"])
+        self.assertLessEqual(len(prompt), self.config["maximum_prompt_characters"])
+
+    def test_source_coverage_retry_is_refused_when_minimum_is_met(self):
+        with self.assertRaises(ValueError):
+            build_source_coverage_retry_prompt({}, {}, 4, self.config)
+
+    def test_source_coverage_retry_prompt_size_guard_blocks_second_call(self):
+        config = dict(self.config, maximum_prompt_characters=80)
+        with self.assertRaisesRegex(RuntimeError, "source-coverage retry was not made"):
+            build_source_coverage_retry_prompt({"sources": ["x" * 200]}, {}, 3, config)
 
     def test_retry_prompt_keeps_original_evidence_and_draft(self):
         evidence = {"sources": [{"source_id": "N01", "url": "https://example.com"}]}
@@ -84,7 +118,7 @@ class AnalysisRetryTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "unknown cited source_id"):
             canonical_used_source_ids({"N01", "N02", "N03", "N04", "N99"}, index, 4)
 
-    def test_runtime_patcher_adds_exactly_one_retry_and_is_idempotent(self):
+    def test_runtime_patcher_adds_both_bounded_retries_and_is_idempotent(self):
         compressed = ROOT / "scripts" / "generate_analysis.py.gz"
         original = gzip.decompress(compressed.read_bytes()).decode("utf-8")
         patched = patch_source(original)
@@ -95,6 +129,8 @@ class AnalysisRetryTests(unittest.TestCase):
         self.assertIn("maximum_retry_reserve(cfg)", patched)
         self.assertIn("canonical_used_source_ids(cited,src,cfg['minimum_sources'])", patched)
         self.assertIn("used_source_ids трябва да съдържа всички различни source_id", patched)
+        self.assertIn("build_source_coverage_retry_prompt(pack,a,source_count,cfg)", patched)
+        self.assertIn("Използвай съдържателно поне 4 различни source_id", patched)
         self.assertEqual(patch_source(patched), patched)
 
 
