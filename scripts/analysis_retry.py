@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Single, budget-bounded correction attempt for underlength editorial drafts."""
+"""Single, budget-bounded correction retry and canonical source-ID validation."""
 from __future__ import annotations
 
 import json
 import re
-from typing import Any
+from typing import Any, Iterable, Mapping
 
 
 def underlength_word_count(error: BaseException | str, minimum_words: int) -> int | None:
@@ -14,6 +14,26 @@ def underlength_word_count(error: BaseException | str, minimum_words: int) -> in
         return None
     words = int(match.group(1))
     return words if words < int(minimum_words) else None
+
+
+def canonical_used_source_ids(
+    cited_source_ids: Iterable[str],
+    source_index: Mapping[str, Any],
+    minimum_sources: int,
+) -> list[str]:
+    """Derive the canonical source list from citations actually present in the draft."""
+    cited = {str(value) for value in cited_source_ids}
+    invalid = sorted(value for value in cited if value not in source_index)
+    if invalid:
+        raise RuntimeError(
+            "Source validation failed: unknown cited source_id(s): " + ", ".join(invalid)
+        )
+    if len(cited) < int(minimum_sources):
+        raise RuntimeError(
+            f"Source validation failed: only {len(cited)} distinct valid sources are cited; "
+            f"minimum is {int(minimum_sources)}."
+        )
+    return sorted(cited)
 
 
 def maximum_retry_reserve(config: dict[str, Any]) -> float:
@@ -52,6 +72,7 @@ def build_retry_prompt(
         "Използвай само фактите, числата, датите и URL адресите от предоставения evidence пакет. "
         "Не измисляй липсващи стойности и не представяй международен контекст като доказан ефект върху България. "
         "Всеки параграф трябва да съдържа поне 24 думи и да цитира точните source_ids, които го подкрепят. "
+        "Полето used_source_ids трябва да съдържа всички различни source_id, използвани в параграфите и ключовите изводи. "
         "Запази задължителната JSON схема, валидните source_ids, методологичната бележка и ключовите изводи. "
         "Не добавяй нови източници и не променяй доказателствената основа. "
         "Върни пълния анализ, а не само допълнителни абзаци."
