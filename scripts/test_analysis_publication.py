@@ -177,7 +177,7 @@ class EditorialPublicationTests(unittest.TestCase):
         source = AUDIT_WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("Identify a ledger-only change set for budget preflight", source)
         self.assertIn('steps.change_scope.outputs.ledger_only != \'true\'', source)
-        self.assertIn('git diff", "--name-only", "origin/main...HEAD', source)
+        self.assertIn('"--name-only", "origin/main...HEAD"', source)
         self.assertIn('"analysis/monthly_usage.json"', source)
         self.assertIn('"analysis/verification_usage.json"', source)
         self.assertIn('"scripts/test_analysis_publication.py"', source)
