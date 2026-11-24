@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T18:32:35.370735+00:00",
-  "last_checked_at": "2026-11-24T18:32:35.370746+00:00",
+  "updated_at": "2026-11-24T19:42:49.137839+00:00",
+  "last_checked_at": "2026-11-24T19:42:49.137852+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -31,13 +31,13 @@
       "published": "2026-11-24T15:55:01+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 49,
+      "priority_score": 48,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 61,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -77,25 +77,6 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Irish plan offers Burnham breakthrough on Made in Europe",
-      "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations Business live – latest updates The UK would not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that c",
-      "url": "https://www.theguardian.com/business/2026/nov/24/uk-eu-made-in-europe-trade-cars-tariffs",
-      "published": "2026-11-24T16:09:12+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
       }
     },
     {
@@ -214,25 +195,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "EU to impose cap on Chinese hybrid EV imports next month",
-      "summary": "Temporary quotas on vehicles entering the bloc will also apply to cars from the UK, Japan and Turkey Business live – latest updates The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the bloc, the E",
-      "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
-      "published": "2026-11-24T10:59:40+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU imposes import quotas for hybrid vehicles from China",
       "summary": "The EU is trying to protect its own car manufacturers from what it called \"overcapacity\" in China. Carmakers in the bloc, especially in Germany, have been lagging behind their Chinese rivals.",
@@ -248,6 +210,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "EU to impose cap on Chinese hybrid EV imports next month",
+      "summary": "Temporary quotas on vehicles entering the bloc will also apply to cars from the UK, Japan and Turkey The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the bloc, the European Commission has announce",
+      "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
+      "published": "2026-11-24T10:59:40+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -286,6 +267,25 @@
         "strategic_significance": 54,
         "timeliness": 68,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
+      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
+      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
+      "published": "2026-11-24T19:07:26+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -405,38 +405,19 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "България търси подкрепа от Световната банка за големи транспортни проекти",
-      "summary": "Българското правителство търси възможности за сътрудничество със Световната банка при финансирането и реализацията на мащабни транспортни инфраструктурни проекти. Темата е обсъдена на среща между премиера Румен Радев и представители на международната финансова",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-tyrsi-podkrepa-ot-svetovnata-banka-za-golemi-transportni-proekti",
-      "published": "2026-11-23T15:38:23+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 42,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 87,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
       "title": "Управляващите пощадиха по-малките търговци от новия данък „Свръхпечалба“",
       "summary": "Управляващите от „Прогресивна България“ се смилиха над по-малките търговци, които няма да бъдат облагани през 2027 г. с новия данък „Свръхпечалба“. Това става ясно от внесените между първо и второ четене предложения за изменение на данъчните закони за догодина",
       "url": "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-po-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
       "published": "2026-11-24T07:20:19+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 40,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -632,6 +613,44 @@
     },
     {
       "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Боян Томов: Бизнесът иска предвидимост, за да може да работи",
+      "summary": "Предвидимостта и възможността за дългосрочно планиране остават сред най-важните условия за развитието на българския бизнес. Това посочи Боян Томов, издател на „Бранд Медия България“ и съорганизатор на конкурса „Мистър и Мисис Икономика“, по време на официалнат",
+      "url": "https://www.economic.bg/bg/a/view/bojan-tomov-biznesyt-iska-predvidimost-za-da-moje-da-raboti",
+      "published": "2026-11-24T19:28:43+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Домусчиев: Чака ни тежка 2027-а, но бизнесът ще остане стабилен",
+      "summary": "Въпреки трудностите, пред които е изправен през 2026 г., българският бизнес остава стабилен, продължава да се развива и да инвестира. Следващата година се очертава да бъде още по-тежка, но с подкрепата на държавата бизнесът ще успее да преодолее предизвикателс",
+      "url": "https://www.economic.bg/bg/a/view/domuschiev-chaka-ni-tejka-2027-a-no-biznesyt-shte-ostane-stabilen",
+      "published": "2026-11-24T18:51:57+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "БТА",
       "title": "Депутати от парламентарната бюджетна комисия коментираха промените в данъчното законодателство за 2027 г., внесени от Министерски съвет",
       "summary": "Депутати от бюджетната комисия коментираха предложенията за промени в данъчното законодателство за 2027 г. На извънредно заседание днес комисията разглежда на второ четене промените в пакета данъчни закони, които бяха внесени от Министерския съвет и предвиждат",
@@ -658,13 +677,13 @@
       "published": "2026-11-24T16:14:47+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 36,
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -727,25 +746,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
-      "summary": "New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people • Slave-trade wealth was embedded in Britain’s financial system, research finds British businesses run by long-serving",
-      "url": "https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba",
-      "published": "2026-11-22T08:00:22+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 50,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Investor.bg – Финанси",
       "title": "Китай и Индия се насочват към рекорден внос на руски петрол през 2026 г.",
       "summary": "",
@@ -761,6 +761,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Irish plan offers Burnham breakthrough on Made in Europe",
+      "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations The UK would not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that could prove another breakthrough",
+      "url": "https://www.theguardian.com/business/2026/nov/24/uk-eu-made-in-europe-trade-cars-tariffs",
+      "published": "2026-11-24T16:09:12+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -797,25 +816,6 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "The EU’s increasingly impossible budget arithmetic",
-      "summary": "Good morning. Leo Cendrowicz here with your Tuesday newsletter. Today, ominous signs for the EU’s budget negotiations, a breakdown of the latest Russia sanctions package, and Chinese spies and hackers back in the news.",
-      "url": "https://www.euronews.com/2026/11/24/the-eus-increasingly-impossible-budget-arithmetic",
-      "published": "2026-11-24T07:27:37+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 91
       }
@@ -861,6 +861,25 @@
     {
       "section": "europe",
       "source": "Euronews",
+      "title": "The EU’s increasingly impossible budget arithmetic",
+      "summary": "Good morning. Leo Cendrowicz here with your Tuesday newsletter. Today, ominous signs for the EU’s budget negotiations, a breakdown of the latest Russia sanctions package, and Chinese spies and hackers back in the news.",
+      "url": "https://www.euronews.com/2026/11/24/the-eus-increasingly-impossible-budget-arithmetic",
+      "published": "2026-11-24T07:27:37+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
       "title": "Belgium: Workers march against spending cuts as living costs rise",
       "summary": "Thousands marched through Brussels, on Monday 23 November 2026, against proposed austerity measures, with some clashes prompting police to deploy tear gas and water cannons. The protests came as Belgium's government struggled to agree on its budget for 2027.",
       "url": "https://www.euronews.com/video/2026/11/23/belgium-workers-march-against-spending-cuts-as-living-costs-rise",
@@ -875,25 +894,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Одобрена е втората концепция на Община Свищов за Интегрирано териториално развитие на стойност над 12 милиона евро",
-      "summary": "Министерството на регионалното развитие и благоустройство одобри финансирането на втората концепция на Община Свищов за „Интегрирана подкрепа за развитието на здравни, социални и образователни услуги“. Общата стойност на проекта възлиза на 12 191 746 евро, съо",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253536-odobrena-e-vtorata-kontseptsiya-na-obshtina-svishtov-za-integrirano-teritorialno",
-      "published": "2026-11-24T16:29:44+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1030,63 +1030,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "БОРИКА подготвя blink eCommerce – нов начин за плащане в магазините",
-      "summary": "Пазаруване без банкова карта, а парите пристигат при търговеца за секунди. БОРИКА подготвя разширяването на blink към онлайн магазините, а впоследствие и към физическите търговски обекти.",
-      "url": "https://www.economic.bg/bg/a/view/borika-podgotvja-blink-e-commerce-nov-nachin-za-plashtane-v-magazinite",
-      "published": "2026-11-23T14:30:22+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
-      "summary": "At least 25 people were injured in a bombing in Villavicencio, damaging government buildings, businesses and vehicles. Meanwhile, hundreds of residents marched with candles in Cúcuta following a separate attack, amid a resurgence of armed violence in Colombia.",
-      "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
-      "published": "2026-11-24T15:54:58+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Italy develops 'ambitious' business with 'strategic partner' Azerbaijan, Tajani tells Euronews",
-      "summary": "Italy's Deputy Prime Minister and Foreign Minister Antonio Tajani told Euronews that Rome has sought to expand its business relations with Baku now that peace has brought stability and improved connectivity to the region.",
-      "url": "https://www.euronews.com/2026/11/24/italy-develops-ambitious-business-with-strategic-partner-azerbaijan-tajani-tells-euronews",
-      "published": "2026-11-24T15:40:54+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "At least 24 people killed in Indonesia factory fire, police say",
@@ -1106,22 +1049,60 @@
       }
     },
     {
-      "section": "europe",
+      "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Обрат в Nvidia: Дженсън Хуанг се връща на директорския пост",
-      "summary": "Дженсън Хуанг се завръща начело на Nvidia, след като в понеделник компанията обяви, че го възстановява на поста главен изпълнителен директор с незабавно действие. Новината предизвика рязък скок на акциите на производителя на чипове, които поскъпнаха с над 29%",
-      "url": "https://www.economic.bg/bg/a/view/obrat-v-nvidia-djensyn-huang-se-vryshta-na-direktorskija-post",
-      "published": "2026-11-23T14:14:43+00:00",
+      "title": "Йотова: България ще играе сериозна роля за развитието на Югоизточна Европа",
+      "summary": "България има огромни възможности и в следващите години ще играе сериозна роля не само за развитието на Югоизточна Европа, но ще бъде и гарант за сигурността на Средна, Западна и Северна Европа. Това каза президентът Илияна Йотова по време на тазгодишните прест",
+      "url": "https://www.economic.bg/bg/a/view/jotova-bylgarija-shte-igrae-seriozna-rolja-za-razvitieto-na-ugoiztochna-evropa",
+      "published": "2026-11-24T19:14:10+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 30,
+      "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Студенти от специалност „Текстил – изкуство и дизайн“ на НХА подредиха изложба в галерия „Сердика\"",
+      "summary": "Изложбата „Лични територии“, съчетаваща живопис и тъкан, бе открита тази вечер в столичната галерия „Сердика“. Тя представя вижданията на студенти от първи до четвърти курс в специалност „Текстил – изкуство и дизайн“ на Националната художествена академия (НХА)",
+      "url": "https://www.bta.bg/bg/news/lik/1253616-studenti-ot-spetsialnost-tekstil-izkustvo-i-dizayn-na-nha-podrediha-izlozhba",
+      "published": "2026-11-24T19:13:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Икономисти: България се деиндустриализира",
+      "summary": "",
+      "url": "https://www.investor.bg/a/524-industriya/440016-ikonomisti-balgariya-se-deindustrializira",
+      "published": "2026-11-24T18:33:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -1130,7 +1111,7 @@
       "title": "В Стара Загора бе представена изложба, посветена на историята на детските организации в България",
       "summary": "Пътуващата изложба „150 години детски организации в България – история, уроци и бъдеще“ гостува днес в Регионалния исторически музей в Стара Загора. Тя е част от националната инициатива на Националната мрежа за децата (НМД) „150 години детски организации в Бъл",
       "url": "https://www.bta.bg/bg/news/lik/1253605-v-stara-zagora-be-predstavena-izlozhba-posvetena-na-istoriyata-na-detskite-orga",
-      "published": "2026-11-24T18:06:20+00:00",
+      "published": "2026-11-24T18:06:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1182,41 +1163,41 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "България е на второ място в ЕС по нетни приходи от NextGenerationEU за 2025 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/527-svyat/440009-balgariya-e-na-vtoro-myasto-v-es-po-netni-prihodi-ot-nextgenerationeu-za-2025-g",
-      "published": "2026-11-24T16:09:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
+      "summary": "At least 25 people were injured in a bombing in Villavicencio, damaging government buildings, businesses and vehicles. Meanwhile, hundreds of residents marched with candles in Cúcuta following a separate attack, amid a resurgence of armed violence in Colombia.",
+      "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
+      "published": "2026-11-24T15:54:58+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "ЕК поиска глоба за България за неизпълнение на процедурата за свръхдефицит*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440019-ek-poiska-globa-za-balgariya-za-neizpalnenie-na-protsedurata-za-svrahdefitsit",
-      "published": "2026-11-24T15:40:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Italy develops 'ambitious' business with 'strategic partner' Azerbaijan, Tajani tells Euronews",
+      "summary": "Italy's Deputy Prime Minister and Foreign Minister Antonio Tajani told Euronews that Rome has sought to expand its business relations with Baku now that peace has brought stability and improved connectivity to the region.",
+      "url": "https://www.euronews.com/2026/11/24/italy-develops-ambitious-business-with-strategic-partner-azerbaijan-tajani-tells-euronews",
+      "published": "2026-11-24T15:40:54+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -1259,25 +1240,6 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Бизнес нагласите в Германия се подобряват за седми пореден месец",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439995-biznes-naglasite-v-germaniya-se-podobryavat-za-sedmi-poreden-mesets",
-      "published": "2026-11-24T11:34:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Race to replant five South African baobabs after export blocked",
       "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
@@ -1298,10 +1260,10 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-      "summary": "Saurav Das says immigration authorities at Delhi airport told him his passport had been flagged.",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T18:07:46+00:00",
+      "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
+      "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
+      "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T19:27:23+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 28,
@@ -1316,13 +1278,13 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "The good, the bad and the French: EU countries get fiscal report cards",
-      "summary": "The EU executive arm rapped Bulgaria and Hungary across the knuckles for ignoring the bloc’s fiscal rules.",
-      "url": "https://www.politico.eu/article/good-bad-france-eu-countries-fiscal-report-cards/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-24T18:06:06+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
+      "source": "BBC News – Свят",
+      "title": "Nigerian monarch, 92, suspended after sexual assault claims",
+      "summary": "The Emir of Daura is one of Nigeria's best-known monarchs, with politicians often trying to gain his support.",
+      "url": "https://www.bbc.co.uk/news/articles/cmglrz462nn6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T19:10:31+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
@@ -1330,7 +1292,45 @@
         "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 92
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T18:55:59+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
+      "summary": "Saurav Das says immigration authorities at Delhi airport told him his passport had been flagged.",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T18:07:46+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     }
   ],
