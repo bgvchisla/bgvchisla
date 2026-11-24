@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from analysis_retry import (  # noqa: E402
     build_retry_prompt,
+    canonical_used_source_ids,
     maximum_retry_reserve,
     underlength_word_count,
 )
@@ -68,6 +69,21 @@ class AnalysisRetryTests(unittest.TestCase):
         self.assertAlmostEqual(reserve, one_call * 2, places=6)
         self.assertGreater(reserve, one_call)
 
+    def test_source_ids_are_derived_from_actual_valid_citations(self):
+        index = {f"N{i:02d}": {"source_id": f"N{i:02d}"} for i in range(1, 6)}
+        cited = {"N01", "N03", "N04", "N05"}
+        self.assertEqual(canonical_used_source_ids(cited, index, 4), ["N01", "N03", "N04", "N05"])
+
+    def test_source_ids_require_four_distinct_citations(self):
+        index = {f"N{i:02d}": {} for i in range(1, 6)}
+        with self.assertRaisesRegex(RuntimeError, "only 3 distinct valid sources"):
+            canonical_used_source_ids({"N01", "N02", "N03"}, index, 4)
+
+    def test_source_ids_reject_any_unknown_citation(self):
+        index = {"N01": {}, "N02": {}, "N03": {}, "N04": {}}
+        with self.assertRaisesRegex(RuntimeError, "unknown cited source_id"):
+            canonical_used_source_ids({"N01", "N02", "N03", "N04", "N99"}, index, 4)
+
     def test_runtime_patcher_adds_exactly_one_retry_and_is_idempotent(self):
         compressed = ROOT / "scripts" / "generate_analysis.py.gz"
         original = gzip.decompress(compressed.read_bytes()).decode("utf-8")
@@ -77,6 +93,8 @@ class AnalysisRetryTests(unittest.TestCase):
         self.assertEqual(patched.count("retry_a,retry_u,retry_cost=api(retry_prompt,cfg)"), 1)
         self.assertIn("calls+2>cfg['max_api_calls_per_month']", patched)
         self.assertIn("maximum_retry_reserve(cfg)", patched)
+        self.assertIn("canonical_used_source_ids(cited,src,cfg['minimum_sources'])", patched)
+        self.assertIn("used_source_ids трябва да съдържа всички различни source_id", patched)
         self.assertEqual(patch_source(patched), patched)
 
 
