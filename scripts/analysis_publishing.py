@@ -128,6 +128,15 @@ def update_sitemap(path: Path, canonical_url: str) -> None:
     path.write_text(sitemap, encoding="utf-8")
 
 
+def normalize_slug(value: str) -> str:
+    """Normalize legacy generator slugs after truncation, preserving safe URL characters."""
+    slug = re.sub(r"[^a-z0-9]+", "-", str(value).lower()).strip("-")
+    slug = slug[:60].strip("-")
+    if not slug:
+        raise RuntimeError("Заглавието не може да бъде преобразувано във валиден slug.")
+    return slug
+
+
 def publish_article(
     root: Path,
     article: dict[str, Any],
@@ -139,8 +148,7 @@ def publish_article(
 ) -> Path:
     if lane not in {"bulgaria", "world"}:
         raise ValueError("Непознато редакционно направление.")
-    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
-        raise RuntimeError("Невалиден slug.")
+    slug = normalize_slug(slug)
     analysis_dir = root / "analizi"
     page_path = analysis_dir / slug / "index.html"
     registry_path = analysis_dir / "articles.json"

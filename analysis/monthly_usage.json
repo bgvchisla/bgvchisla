@@ -1,7 +1,7 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.050957,
-  "calls": 6,
+  "spent_usd": 0.060207,
+  "calls": 7,
   "history": [
     {
       "timestamp": "2026-11-24T09:17:23Z",
@@ -68,6 +68,17 @@
       "cost_basis": "conservative_maximum_per_call_reservation",
       "token_usage_persisted": false,
       "note": "GPT-6 Luna generated a 1,241-word analysis with eight sources; article validation and AI disclosure passed. The Gemini verifier stopped before making an API request because the rendered HTML source list lacked class=\"source-list\". Exact GPT token metadata was not persisted. Recorded the configured maximum per-call reservation to avoid undercounting; Gemini API call count remains zero."
+    },
+    {
+      "timestamp": "2026-11-24T11:04:53Z",
+      "model": "gpt-6-luna",
+      "workflow_run_id": 45380698097,
+      "status": "failed_publication_pipeline",
+      "reason": "Generated slug failed strict validation because truncation left a trailing hyphen.",
+      "cost_usd": 0.00925,
+      "cost_basis": "conservative_maximum_per_call_reservation",
+      "token_usage_persisted": false,
+      "note": "The generator returned a response but publishing stopped while validating the slug. The failed run did not persist its usage ledger and exact token metadata was not present in the logs; recorded the configured maximum per-call reservation to avoid undercounting. No Gemini request was made."
     }
   ]
 }
