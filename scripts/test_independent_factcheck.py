@@ -10,13 +10,82 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from fact_check_analysis import calculate_billable_usage, extract_numeric_statements
+from fact_check_analysis import (
+    calculate_billable_usage, extract_numeric_statements,
+    parse_json_response, response_diagnostics,
+)
 CONFIG = ROOT / "analysis" / "config.json"
 WORKFLOW = ROOT / ".github" / "workflows" / "generate-analyses.yml"
 VERIFIER = ROOT / "scripts" / "fact_check_analysis.py"
 DISCLOSURE = ROOT / "scripts" / "apply_ai_disclosure.py"
 
 
+
+
+class VerifierResponseParsingTests(unittest.TestCase):
+    def setUp(self):
+        self.report = {
+            "overall_verdict": "REVIEW",
+            "summary": "Тестов резултат",
+            "claims_checked": [],
+            "numerical_audit": {"items": [], "issues": []},
+            "methodology_issues": [],
+            "limitations": [],
+        }
+
+    def payload(self, parts, finish_reason="STOP", usage=None):
+        return {
+            "candidates": [{
+                "finishReason": finish_reason,
+                "content": {"role": "model", "parts": parts},
+                "safetyRatings": [],
+            }],
+            "usageMetadata": usage or {"promptTokenCount": 12, "candidatesTokenCount": 30},
+        }
+
+    def test_internal_thought_parts_are_not_parsed_as_final_answer(self):
+        payload = self.payload([
+            {"text": "internal reasoning, not JSON", "thought": True},
+            {"text": json.dumps(self.report, ensure_ascii=False)},
+        ])
+        self.assertEqual(parse_json_response(payload), self.report)
+
+    def test_parser_accepts_json_with_a_text_prefix(self):
+        payload = self.payload([
+            {"text": "Проверка на данните:\n" + json.dumps(self.report, ensure_ascii=False)}
+        ])
+        self.assertEqual(parse_json_response(payload), self.report)
+
+    def test_parser_rejects_non_stop_finish_reason(self):
+        payload = self.payload([{"text": "{\"overall_verdict\":"}], finish_reason="MAX_TOKENS")
+        with self.assertRaisesRegex(ValueError, "MAX_TOKENS"):
+            parse_json_response(payload)
+
+    def test_parser_rejects_truncated_json_without_exposing_content(self):
+        payload = self.payload([{"text": "{\"overall_verdict\":\"PASS\""}])
+        with self.assertRaisesRegex(ValueError, "incomplete or invalid JSON"):
+            parse_json_response(payload)
+        diagnostics = response_diagnostics(payload)
+        safe = json.dumps(diagnostics, ensure_ascii=False)
+        self.assertEqual(diagnostics["candidate_count"], 1)
+        self.assertEqual(diagnostics["finish_reason"], "STOP")
+        self.assertEqual(diagnostics["final_text_characters"], 25)
+        self.assertNotIn("overall_verdict", safe)
+        self.assertEqual(diagnostics["usage_metadata"]["promptTokenCount"], 12)
+
+    def test_parser_rejects_incomplete_schema(self):
+        with self.assertRaisesRegex(ValueError, "missing required fields"):
+            parse_json_response(self.payload([{"text": "{\"overall_verdict\":\"PASS\"}"}]))
+
+    def test_diagnostics_distinguish_thought_and_final_parts(self):
+        payload = self.payload([
+            {"text": "hidden", "thought": True},
+            {"text": "{\"x\":1}"},
+        ])
+        diagnostics = response_diagnostics(payload)
+        self.assertEqual(diagnostics["thought_text_part_count"], 1)
+        self.assertEqual(diagnostics["final_text_part_count"], 1)
+        self.assertEqual(diagnostics["final_text_characters"], 7)
 
 
 class BillingAccountingTests(unittest.TestCase):
@@ -185,7 +254,7 @@ def main() -> int:
     args = parser.parse_args()
     if args.static:
         validate_static()
-    suite = unittest.defaultTestLoader.loadTestsFromTestCase(NumericExtractionTests)
+    suite = unittest.defaultTestLoader.loadTestsFromModule(sys.modules[__name__])
     result = unittest.TextTestRunner(verbosity=2).run(suite)
     if not result.wasSuccessful():
         return 1

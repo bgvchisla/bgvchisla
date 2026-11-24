@@ -1,7 +1,7 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.060207,
-  "calls": 7,
+  "spent_usd": 0.069457,
+  "calls": 8,
   "history": [
     {
       "timestamp": "2026-11-24T09:17:23Z",
@@ -79,6 +79,17 @@
       "cost_basis": "conservative_maximum_per_call_reservation",
       "token_usage_persisted": false,
       "note": "The generator returned a response but publishing stopped while validating the slug. The failed run did not persist its usage ledger and exact token metadata was not present in the logs; recorded the configured maximum per-call reservation to avoid undercounting. No Gemini request was made."
+    },
+    {
+      "timestamp": "2026-11-24T11:13:07Z",
+      "model": "gpt-6-luna",
+      "workflow_run_id": 45381985935,
+      "status": "generated_factcheck_invalid_json",
+      "reason": "A 1,057-word draft with five sources was generated and passed article validation, but the independent Gemini response was rejected as invalid JSON. No PR, merge, or publication followed.",
+      "cost_usd": 0.00925,
+      "cost_basis": "conservative_maximum_per_call_reservation",
+      "token_usage_persisted": false,
+      "note": "The GPT call returned a complete draft. Exact token metadata was not preserved after the failed workflow; recorded the configured maximum per-call reservation to avoid undercounting."
     }
   ]
 }

@@ -401,22 +401,111 @@ def response_schema():
     }
 
 
-def parse_json_response(response_payload):
+def response_diagnostics(response_payload):
+    """Return safe structural metadata; never persist response text or secrets."""
+    if not isinstance(response_payload, dict):
+        response_payload = {}
     candidates = response_payload.get("candidates") or []
-    if not candidates:
-        raise ValueError("Gemini не върна кандидат-отговор.")
+    candidate = candidates[0] if candidates and isinstance(candidates[0], dict) else {}
+    content = candidate.get("content") or {}
+    parts = content.get("parts") or []
+    text_parts = [
+        part for part in parts
+        if isinstance(part, dict) and isinstance(part.get("text"), str)
+    ]
+    final_parts = [part for part in text_parts if part.get("thought") is not True]
+    usage = response_payload.get("usageMetadata") or {}
+    if not isinstance(usage, dict):
+        usage = {}
+    prompt_feedback = response_payload.get("promptFeedback") or {}
+    if not isinstance(prompt_feedback, dict):
+        prompt_feedback = {}
+    return {
+        "candidate_count": len(candidates),
+        "finish_reason": str(candidate.get("finishReason") or ""),
+        "candidate_block_reason": str(candidate.get("blockReason") or ""),
+        "prompt_block_reason": str(prompt_feedback.get("blockReason") or ""),
+        "part_count": len(parts),
+        "text_part_count": len(text_parts),
+        "final_text_part_count": len(final_parts),
+        "thought_text_part_count": len(text_parts) - len(final_parts),
+        "final_text_characters": sum(len(part["text"]) for part in final_parts),
+        "safety_rating_count": len(candidate.get("safetyRatings") or []),
+        "usage_metadata": {
+            key: int(usage.get(key, 0) or 0)
+            for key in (
+                "promptTokenCount",
+                "toolUsePromptTokenCount",
+                "candidatesTokenCount",
+                "thoughtsTokenCount",
+                "totalTokenCount",
+            )
+        },
+    }
+
+
+def parse_json_response(response_payload):
+    diagnostics = response_diagnostics(response_payload)
+    diagnostic_text = json.dumps(diagnostics, ensure_ascii=False, separators=(",", ":"))
+    if diagnostics["prompt_block_reason"]:
+        raise ValueError(
+            "Gemini blocked the request: " + diagnostics["prompt_block_reason"]
+            + "; diagnostics=" + diagnostic_text
+        )
+    finish_reason = diagnostics["finish_reason"]
+    if finish_reason and finish_reason != "STOP":
+        raise ValueError(
+            f"Gemini candidate did not finish normally ({finish_reason}); diagnostics={diagnostic_text}"
+        )
+    candidates = response_payload.get("candidates") or []
+    if not candidates or not isinstance(candidates[0], dict):
+        raise ValueError("Gemini did not return a candidate; diagnostics=" + diagnostic_text)
     parts = (candidates[0].get("content") or {}).get("parts") or []
-    response_text = "\n".join(str(part.get("text", "")) for part in parts if part.get("text"))
+    # Thinking models may return separate internal thought parts. Parse only final text.
+    final_parts = [
+        part for part in parts
+        if isinstance(part, dict)
+        and isinstance(part.get("text"), str)
+        and part.get("thought") is not True
+    ]
+    response_text = "\n".join(part["text"] for part in final_parts).strip()
     if not response_text:
-        raise ValueError("Gemini не върна JSON текст.")
+        raise ValueError("Gemini returned no final JSON text; diagnostics=" + diagnostic_text)
     try:
-        return json.loads(response_text)
-    except json.JSONDecodeError:
+        report = json.loads(response_text)
+    except json.JSONDecodeError as original_error:
         start = response_text.find("{")
         if start < 0:
-            raise
-        return json.JSONDecoder().raw_decode(response_text[start:])[0]
-
+            raise ValueError(
+                "Gemini final text contains no JSON object; diagnostics=" + diagnostic_text
+            ) from original_error
+        try:
+            report = json.JSONDecoder().raw_decode(response_text[start:])[0]
+        except json.JSONDecodeError as exc:
+            raise ValueError(
+                "Gemini final text contains incomplete or invalid JSON; diagnostics=" + diagnostic_text
+            ) from exc
+    if not isinstance(report, dict):
+        raise ValueError("Gemini JSON root must be an object; diagnostics=" + diagnostic_text)
+    required = {
+        "overall_verdict", "summary", "claims_checked",
+        "numerical_audit", "methodology_issues", "limitations",
+    }
+    missing = sorted(required - set(report))
+    if missing:
+        raise ValueError(
+            "Gemini JSON object is missing required fields "
+            + ", ".join(missing) + "; diagnostics=" + diagnostic_text
+        )
+    if report.get("overall_verdict") not in {"PASS", "REVIEW", "FAIL"}:
+        raise ValueError("Gemini overall_verdict is invalid; diagnostics=" + diagnostic_text)
+    if not isinstance(report.get("claims_checked"), list):
+        raise ValueError("Gemini claims_checked must be an array; diagnostics=" + diagnostic_text)
+    if not isinstance(report.get("numerical_audit"), dict):
+        raise ValueError("Gemini numerical_audit must be an object; diagnostics=" + diagnostic_text)
+    if not isinstance(report["numerical_audit"].get("items"), list):
+        raise ValueError("Gemini numerical_audit.items must be an array; diagnostics=" + diagnostic_text)
+    return report
 
 def extract_retrieval_metadata(response_payload):
     candidates = response_payload.get("candidates") or []
@@ -539,7 +628,23 @@ def main():
     try:
         report = parse_json_response(response_payload)
     except (ValueError, json.JSONDecodeError) as exc:
-        raise SystemExit("Проверяващият модел не върна валиден JSON. Публикацията е блокирана.") from exc
+        diagnostics = response_diagnostics(response_payload)
+        entry.update({
+            "status": "invalid_response_json",
+            "failure_reason": str(exc)[:600],
+            "response_diagnostics": diagnostics,
+            "usage_metadata_persisted": True,
+            "actual_cost_usd": actual_cost,
+        })
+        write_json_atomic(LEDGER_PATH, ledger)
+        print(
+            "Gemini response parse failure; safe diagnostics="
+            + json.dumps(diagnostics, ensure_ascii=False, separators=(",", ":"))
+        )
+        raise SystemExit(
+            "Проверяващият модел не върна валиден JSON. Публикацията е блокирана. "
+            "Безопасната структурна диагностика е записана във финансовия регистър."
+        ) from exc
 
     retrieved_urls, retrieval_failures = extract_retrieval_metadata(response_payload)
     retrieved_set = set(retrieved_urls)
