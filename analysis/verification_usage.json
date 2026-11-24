@@ -1,9 +1,24 @@
 {
   "month": "2026-11",
-  "calls": 0,
-  "spent_usd": 0,
+  "calls": 1,
+  "spent_usd": 0.07125,
   "reserved_usd": 0,
-  "history": [],
+  "history": [
+    {
+      "attempt": 1,
+      "workflow_run_id": 45381985935,
+      "slug": "byudzhetat-pod-natisk-kakvo-pokazva-mesechniyat-defitsit-i-k",
+      "model": "gemini-3.8-flash",
+      "method": "URL Context direct retrieval",
+      "timestamp_utc": "2026-11-24T11:16:46Z",
+      "reserved_usd": 0.07125,
+      "actual_cost_usd": 0.07125,
+      "cost_basis": "conservative_maximum_reservation",
+      "status": "invalid_response_json",
+      "usage_metadata_persisted": false,
+      "note": "The Gemini API returned a response but JSON parsing failed. Exact billed-token metadata and retrieval counts were lost with the failed workflow workspace. Recorded the configured maximum reservation (70,000 input and 5,000 output tokens at the Nov-Dec 2026 rates) conservatively; this is an estimate, not the exact provider charge."
+    }
+  ],
   "retrieved_urls": 0,
   "billed_input_tokens": 0,
   "billed_output_tokens": 0
