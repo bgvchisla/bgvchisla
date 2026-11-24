@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T12:24:37.477739+00:00",
-  "last_checked_at": "2026-11-24T12:24:37.477750+00:00",
+  "updated_at": "2026-11-24T13:44:42.602272+00:00",
+  "last_checked_at": "2026-11-24T13:44:42.602291+00:00",
   "items": [
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Заместник-министърът на външните работи Христо Дикански и новият посланик на Унгария Балинт Цекуш обсъдиха перспективите за сътрудничество",
-      "summary": "Заместник-министърът на външните работи Христо Дикански прие копията на акредитивните писма на новоназначения посланик на Унгария в България Балинт Цекуш, съобщават от пресцентъра на Министерството на външните работи (МВнР). По време на срещата е подчертано зн",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253223-zamestnik-ministarat-na-vanshnite-raboti-hristo-dikanski-i-noviyat-poslanik-na-u",
-      "published": "2026-11-24T11:47:31+00:00",
+      "title": "Имаме енергията, амбицията и вярата, че можем да градим една справедлива България, заяви президентът Илияна Йотова",
+      "summary": "Днес съм убедена, че имаме енергията, амбицията, куража и вярата, че можем да се справим с всички трудности и да градим онази България, която всеки един от нас иска - справедлива, с еднакви правила и закони за всички, с връщането на държавността и с перспектив",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253292-imame-energiyata-ambitsiyata-i-vyarata-che-mozhem-da-gradim-edna-spravedliva-b",
+      "published": "2026-11-24T13:25:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 44,
+      "priority_score": 46,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
+        "economic_significance": 48,
+        "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
@@ -31,13 +31,13 @@
       "published": "2026-11-23T13:04:47+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 52,
+      "priority_score": 51,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 74,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 85
       }
     },
@@ -58,25 +58,6 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "По-високи данъчни облекчения за деца и ново данъчно облекчение за детско развитие, включващо и заниманията в областта на културата, одобри на второ четене бюджетната комисия",
-      "summary": "По-високи данъчни облекчения за деца и ново данъчно облекчение за детско развитие, включващо и заниманията в областта на културата и изкуството, прие на второ четене бюджетната комисия със Законопроекта за изменение и допълнение на Закона за данъците върху дох",
-      "url": "https://www.bta.bg/bg/news/economy/1253205-po-visoki-danachni-oblekcheniya-za-detsa-i-novo-danachno-oblekchenie-za-detsko-r",
-      "published": "2026-11-24T11:33:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 41,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -164,13 +145,13 @@
       "published": "2026-11-24T10:42:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 40,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 95
       }
     },
@@ -271,6 +252,44 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 26 хил. евро е приходът от туристически данък в община Враца от януари до края на септември",
+      "summary": "Над 26 хил. евро е приходът от туристически данък в община Враца от януари до края на септември на тази година, каза кметът Калин Каменов. Той отговори на въпрос, зададен от общинския съветник Томас Петров за събираемостта на туристическия данък. В началото на",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253316-nad-26-hil-evro-e-prihodat-ot-turisticheski-danak-v-obshtina-vratsa-ot-yanuari-",
+      "published": "2026-11-24T13:29:56+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Акционерите на „Телелинк Бизнес Сървисис Груп“ ще гласуват промяна на името",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/439998-aktsionerite-na-telelink-biznes-sarvisis-grup-shte-glasuvat-promyana-na-imeto",
+      "published": "2026-11-24T13:33:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "„Маркет линкс“: „Прогресивна България“ запазва подкрепата на една трета от избирателите",
       "summary": "",
@@ -324,25 +343,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Intesa отваря за инвеститори оферта за 36 млрд. долара за най-старата банка в света",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/439992-intesa-otvarya-za-investitori-oferta-za-36-mlrd-dolara-za-nay-starata-banka-v-sveta",
-      "published": "2026-11-24T11:02:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
       }
     },
     {
@@ -441,25 +441,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "МФ подготвя актуализация на данъчните преференции",
-      "summary": "Министерството на финансите (МФ) подготвя цялостна актуализация на данъчните преференции. Това стана ясно по време на второто четене на промените в данъчните закони за 2027 г. в парламентарната Комисия по бюджет и финанси. На него заместник-министърът на финан",
-      "url": "https://www.economic.bg/bg/a/view/mf-podgotvja-aktualizacija-na-danychnite-preferencii",
-      "published": "2026-11-24T10:30:35+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Germany news: Volkswagen begins wage talks with IG Metall union",
@@ -476,6 +457,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "МФ подготвя актуализация на данъчните преференции",
+      "summary": "Министерството на финансите (МФ) подготвя цялостна актуализация на данъчните преференции. Това стана ясно по време на второто четене на промените в данъчните закони за 2027 г. в парламентарната Комисия по бюджет и финанси. На него заместник-министърът на финан",
+      "url": "https://www.economic.bg/bg/a/view/mf-podgotvja-aktualizacija-na-danychnite-preferencii",
+      "published": "2026-11-24T10:30:35+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -593,44 +593,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Бургас ще поеме дългосрочен дълг от близо 15 млн. евро за съфинансиране на проекти",
-      "summary": "Общинският съвет в Бургас одобри Община Бургас да поеме дългосрочен общински дълг в размер до 14 878 798 евро от \"Фонд ФЛАГ\" за финансиране и съфинансиране на девет инвестиционни проекта. Предложението бе внесено от кмета Димитър Николов. Средствата ще бъдат и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253277-obshtina-burgas-shte-poeme-dalgosrochen-dalg-ot-blizo-15-mln-evro-za-safinansir",
-      "published": "2026-11-24T12:23:30+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Russia to build Kaliningrad exclave rail ferries, citing transport 'blockade'",
-      "summary": "The ferries, due in 2030 and costing around 50 billion roubles, will run between Baltiysk and Ust-Luga and be built in occupied Crimea. Most freight to Kaliningrad has already moved to sea routes, since Lithuania and Poland restricted transit after the 2022 in",
-      "url": "https://www.euronews.com/2026/11/24/russia-to-build-kaliningrad-exclave-rail-ferries-citing-transport-blockade",
-      "published": "2026-11-24T09:26:10+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "South Korea’s education minister resigns after backlash over AI exam cheating rules",
@@ -647,6 +609,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Обновена комбинирана детска и спортна площадка беше открита в жилищен комплекс „Бонония“ във Видин",
+      "summary": "Обновена комбинирана детска и спортна площадка беше открита в жилищен комплекс „Бонония“ във Видин. Средствата за реновирането ѝ са осигурени от капиталовата програма на Община Видин за 2026 година, съобщи при откриването началникът на отдел „Хуманитарни дейно",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253318-obnovena-kombinirana-detska-i-sportna-ploshtadka-beshe-otkrita-v-zhilishten-komp",
+      "published": "2026-11-24T13:25:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -689,6 +670,25 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Russia to build Kaliningrad exclave rail ferries, citing transport 'blockade'",
+      "summary": "The ferries, due in 2030 and costing around 50 billion roubles, will run between Baltiysk and Ust-Luga and be built in occupied Crimea. Most freight to Kaliningrad has already moved to sea routes, since Lithuania and Poland restricted transit after the 2022 in",
+      "url": "https://www.euronews.com/2026/11/24/russia-to-build-kaliningrad-exclave-rail-ferries-citing-transport-blockade",
+      "published": "2026-11-24T09:26:10+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
       "summary": "New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people • Slave-trade wealth was embedded in Britain’s financial system, research finds British businesses run by long-serving",
@@ -704,6 +704,25 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Научна конференция по повод 80-годишнината на проф. Иван Газдов се състоя в галерия „Академия“",
+      "summary": "Макар вече да е на 81 години, които навърши на 2 ноември, проф. Иван Газдов отбеляза своя 80-годишен юбилей с научна конференция, посветена на творческата и педагогическата му дейност. Домакин на събитието е галерия „Академия“ на Националната художествена акад",
+      "url": "https://www.bta.bg/bg/news/lik/1253328-nauchna-konferentsiya-po-povod-80-godishninata-na-prof-ivan-gazdov-se-sastoya-v",
+      "published": "2026-11-24T13:30:50+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -859,50 +878,12 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Uganda minister at COP31: 'We need a just transition'",
-      "summary": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
-      "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T13:18:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP deadlock prompts calls for a reset of climate diplomacy",
-      "summary": "COP31 has been branded a failure after countries couldn't reach a final agreement, divided over a reference to \"fossil fuels.\" But was the decision to walk away from a watered-down text actually a show of strength?",
-      "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T13:03:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Добрич прие увеличение с 20% на данъка върху превозните средства",
-      "summary": "Общинският съвет в Добрич прие увеличение с 20% на данъка върху превозните средства. Решението беше взето след продължителен дебат и промяна в първоначалното предложение на общинската администрация, което предвиждаше повишение на данъчните ставки с около 30%.",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253233-obshtinskiyat-savet-v-dobrich-prie-uvelichenie-s-20-na-danaka-varhu-prevoznite-",
-      "published": "2026-11-24T11:52:27+00:00",
+      "title": "Общинският съвет в Добрич отложи за декември обсъждането на план-сметката „Чистота“ за 2027 г.",
+      "summary": "Общинският съвет в Добрич отложи за декември обсъждането на план-сметката „Чистота“ за 2027 г. Предложението за 30-процентно увеличение на таксата за битови отпадъци предизвика продължителен дебат по време на днешната сесия. След многократни призиви към вносит",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253344-obshtinskiyat-savet-v-dobrich-otlozhi-za-dekemvri-obsazhdaneto-na-plan-smetkata-",
+      "published": "2026-11-24T13:30:25+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 32,
@@ -913,25 +894,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Speech by Executive Vice-President Teresa Ribera at College of Europe, Natolin, Poland",
-      "summary": "European Commission Speech Warsaw, 24 Nov 2026 Dear Vice-Rector, dear professors, dear students of the Johannes Gutenberg Promotion, This campus opened in 1992. The Berlin Wall had just fallen, and Europe wa...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2570",
-      "published": "2026-11-24T09:42:38+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 100,
-        "source_reliability": 99
       }
     },
     {
@@ -955,6 +917,44 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Uganda minister at COP31: 'We need a just transition'",
+      "summary": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
+      "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T13:18:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP deadlock prompts calls for a reset of climate diplomacy",
+      "summary": "COP31 has been branded a failure after countries couldn't reach a final agreement, divided over a reference to \"fossil fuels.\" But was the decision to walk away from a watered-down text actually a show of strength?",
+      "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T13:03:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
       "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
@@ -974,40 +974,21 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
-      "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world.",
-      "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T13:18:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Israeli strike kills Hamas internal security chief in Gaza, source tells AFP",
-      "summary": "Naeem Abu Nahal died in a strike earlier reported by Gaza's civil defence agency, the Palestinian security source told AFP.",
-      "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
-      "published": "2026-11-24T12:16:18+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
+      "source": "Европейска комисия",
+      "title": "Speech by Executive Vice-President Teresa Ribera at College of Europe, Natolin, Poland",
+      "summary": "European Commission Speech Warsaw, 24 Nov 2026 Dear Vice-Rector, dear professors, dear students of the Johannes Gutenberg Promotion, This campus opened in 1992. The Berlin Wall had just fallen, and Europe wa...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2570",
+      "published": "2026-11-24T09:42:38+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
       "priority_score": 31,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 54,
-        "timeliness": 100,
-        "source_reliability": 91
+        "timeliness": 92,
+        "source_reliability": 99
       }
     },
     {
@@ -1087,25 +1068,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Женска организация в Свищов събра средства в подкрепа на благотворителна инициатива за деца и семейства в неравностойно положение",
-      "summary": "Членовете на женската организация „Инър Уийл клуб\" (Inner Wheel club) в Свищов събраха средства в подкрепа на благородна кауза, озаглавена „Щастливи деца днес – светло бъдеще утре“, съобщи за БТА президентът на клуба Диана Стоилова. Тя разказа, че „Инър Уийл к",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253084-zhenska-organizatsiya-v-svishtov-sabra-sredstva-v-podkrepa-na-blagotvoritelna-in",
-      "published": "2026-11-24T11:40:49+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
@@ -1125,12 +1087,107 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
+      "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world.",
+      "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-22T13:18:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 50,
+        "source_reliability": 95
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Стоян Динков е носителят на Националната литературна награда \"Богдан Овесянин\" за 2026 година",
-      "summary": "Стоян Динков е носителят на Националната литературна награда „Богдан Овесянин“ за 2026 година, съобщават от Община Стрелча, която е учредител на отличието. Решението е взето единодушно от експертна комисия, ръководена от председателя на Съюза на българските пи",
-      "url": "https://www.bta.bg/bg/news/lik/1253267-stoyan-dinkov-e-nositelyat-na-natsionalnata-literaturna-nagrada-bogdan-ovesyani",
-      "published": "2026-11-24T12:24:05+00:00",
+      "title": "Американският колеж в София ще представи проект за дигитализиране и съхраняване на историческия си архив",
+      "summary": "Американският колеж в София ще представи проект за съхраняване на 166-годишната история на училището и ролята му в образователните и културните връзки между България и САЩ, съобщават организаторите. Проектът „Училището на Америка в България“, реализиран с подк",
+      "url": "https://www.bta.bg/bg/news/lik/1253336-amerikanskiyat-kolezh-v-sofiya-shte-predstavi-proekt-za-digitalizirane-i-sahrany",
+      "published": "2026-11-24T13:26:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Само една държава в Европа има по-бърз мобилен интернет от България",
+      "summary": "ългария заема девето място в света и второ в ЕС по скорост на мобилния интернет според октомврийските данни на Ookla за 2026 г.",
+      "url": "https://www.economic.bg/bg/a/view/samo-edna-dyrjava-v-evropa-ima-po-byrz-mobilen-internet-ot-bylgarija",
+      "published": "2026-11-24T13:26:50+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Кирил Вълчев депозира оставката си като генерален директор на БТА",
+      "summary": "Избраният за вицепрезидент Кирил Вълчев депозира оставката си като генерален директор на Българската телеграфна агенция (БТА). Това съобщи той за БТА. Кирил Вълчев е внесъл писменото си заявление до председателя на Народното събрание, а към него е приложил удо",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253308-kiril-valchev-depozira-ostavkata-si-kato-generalen-direktor-na-bta",
+      "published": "2026-11-24T13:14:07+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Групата на „Обнови Европа“ категорично осъжда решението на ОИК-Варна да прекрати пълномощията на Благомир Коцев",
+      "summary": "Групата на „Обнови Европа“ в Европейския парламент категорично осъжда решението на Общинската избирателна комисия (ОИК) във Варна да прекрати предсрочно пълномощията на Благомир Коцев. Това пише в официална позиция на „Обнови Европа“, съобщават от пресцентъра",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253313-grupata-na-obnovi-evropa-kategorichno-osazhda-reshenieto-na-oik-varna-da-prekr",
+      "published": "2026-11-24T13:10:20+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общо 35% от гражданите имат доверие в кабинета „Радев“, показва проучване на „Маркет Линкс\"",
+      "summary": "Общо 35% от гражданите имат доверие в кабинета „Радев“, а 40% са негативно настроени. Тенденцията на спад на доверието в кабинета, която продължаваше с по около три пункта при всяко проучване от лятото насам, спира през ноември. Това показва проучване на общес",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253261-obshto-35-ot-grazhdanite-imat-doverie-v-kabineta-radev-pokazva-prouchvane-na",
+      "published": "2026-11-24T12:45:55+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1147,9 +1204,9 @@
       "section": "bulgaria",
       "source": "БТА",
       "title": "От ЦИК връчиха удостоверенията на избраните за президент и вицепрезидент Илияна Йотова и Кирил Вълчев",
-      "summary": "Председателят на Централната избирателна комисия (ЦИК) Георги Хорозов връчи удостоверенията на избраните за президент и вицепрезидент - Илияна Йотова и Кирил Вълчев на официална церемония в Мраморното фоайе на Народното събрание. С това се удостоверява изборни",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253269-ot-tsik-vrachiha-udostovereniyata-na-izbranite-za-prezident-i-vitseprezident-ili",
-      "published": "2026-11-24T12:15:07+00:00",
+      "summary": "Председателят на Централната избирателна комисия (ЦИК) Георги Хорозов връчи удостоверенията на избраните за президент и вицепрезидент - Илияна Йотова и Кирил Вълчев на официална церемония в Мраморното фоайе на Народното събрание. С връчването се удостоверява и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253287-ot-tsik-vrachiha-udostovereniyata-na-izbranite-za-prezident-i-vitseprezident-ili",
+      "published": "2026-11-24T12:15:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1179,63 +1236,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Националният музикален театър „Стефан Македонски“ ще представи в Стара Загора оперетата от Франц Лехар „Веселата вдовица“",
-      "summary": "Националният музикален театър „Стефан Македонски“ ще представи пред старозагорската публика оперетата от Франц Лехар „Веселата вдовица“, сочи програмата на 56-ото издание на Фестивала на оперното и балетно изкуство (ФОБИ). Зрителите ще могат да гледат постанов",
-      "url": "https://www.bta.bg/bg/news/lik/1253230-natsionalniyat-muzikalen-teatar-stefan-makedonski-shte-predstavi-v-stara-zagor",
-      "published": "2026-11-24T11:54:32+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Два документални филма в Русе ще разкажат за българските занаяти",
-      "summary": "Прожекция на два филма от документалната поредица „Легенда за майстори\" ще се състои на 26 ноември (четвъртък) във „Фабрика Култура\" в Русе. Това съобщи Симона Георгиева от организаторите от фондация „Ято\". Филмите разказват историите на двама майстори, посвет",
-      "url": "https://www.bta.bg/bg/news/lik/1253224-dva-dokumentalni-filma-v-ruse-shte-razkazhat-za-balgarskite-zanayati",
-      "published": "2026-11-24T11:50:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Ако днес земната църква осиротява, небесната се обогатява, каза патриарх Даниил в словото си след опелото на Ловчанския митрополит Гавриил",
-      "summary": "С думите „Ако днес земната църква осиротява, небесната се обогатява“ българският патриарх Даниил се обърна към присъстващите на опелото на Ловчанския митрополит Гавриил в катедралния храм „Св. св. Кирил и Методий“ в Ловеч. В словото си след траурната служба то",
-      "url": "https://www.bta.bg/bg/news/lik/1253209-ako-dnes-zemnata-tsarkva-osirotyava-nebesnata-se-obogatyava-kaza-patriarh-dani",
-      "published": "2026-11-24T11:48:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
