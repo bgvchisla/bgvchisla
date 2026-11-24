@@ -1,7 +1,7 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.041707,
-  "calls": 5,
+  "spent_usd": 0.050957,
+  "calls": 6,
   "history": [
     {
       "timestamp": "2026-11-24T09:17:23Z",
@@ -57,6 +57,17 @@
       "cost_basis": "conservative_maximum_per_call_reservation",
       "token_usage_persisted": false,
       "note": "GPT-6 Luna generated a 1,014-word draft using six source IDs and the modern publisher plus AI disclosure succeeded. Final validation rejected its prefixed citation IDs because the regex matched digits only. Token usage metadata was not persisted, so the configured maximum per-call reservation is recorded to avoid undercounting."
+    },
+    {
+      "timestamp": "2026-11-24T10:55:08Z",
+      "model": "gpt-6-luna",
+      "workflow_run_id": 45379132586,
+      "status": "generated_factcheck_preflight_failed",
+      "reason": "Gemini URL Context verifier could not find a visible <ol class=\"source-list\">; the rendered source list lacked the required class.",
+      "cost_usd": 0.00925,
+      "cost_basis": "conservative_maximum_per_call_reservation",
+      "token_usage_persisted": false,
+      "note": "GPT-6 Luna generated a 1,241-word analysis with eight sources; article validation and AI disclosure passed. The Gemini verifier stopped before making an API request because the rendered HTML source list lacked class=\"source-list\". Exact GPT token metadata was not persisted. Recorded the configured maximum per-call reservation to avoid undercounting; Gemini API call count remains zero."
     }
   ]
 }
