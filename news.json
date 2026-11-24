@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T20:32:16.719161+00:00",
-  "last_checked_at": "2026-11-24T20:32:16.719175+00:00",
+  "updated_at": "2026-11-24T21:35:36.810151+00:00",
+  "last_checked_at": "2026-11-24T21:35:36.810165+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -58,6 +58,54 @@
         "strategic_significance": 54,
         "timeliness": 92,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Депутати коментираха в парламента представените днес бюджетни препоръки на Европейската комисия за България, МФ излезе с позиция",
+      "summary": "Депутати коментираха в парламента представения днес от Европейската комисия Есенен пакет на Европейския семестър за 2027 г. По отношение на България и Унгария ЕК отчита, че предприетите действия в отговор на препоръките за коригиране на прекомерния дефицит не",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253668-deputati-komentiraha-v-parlamenta-predstavenite-dnes-byudzhetni-preporaki-na-evr",
+      "published": "2026-11-24T16:57:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 42,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 87,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      },
+      "related_items": [
+        {
+          "source": "БТА",
+          "publisher": "БТА",
+          "title": "Депутати коментираха в парламента представените днес бюджетни препоръки на Европейската комисия за България",
+          "url": "https://www.bta.bg/bg/news/bulgaria/1253550-deputati-komentiraha-v-parlamenta-predstavenite-dnes-byudzhetni-preporaki-na-evr",
+          "published": "2026-11-24T16:57:00+00:00"
+        }
+      ],
+      "related_count": 1
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: US ambassador criticises digital duty of care bill; Chalmers downplays recession fears",
+      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
+      "published": "2026-11-24T21:23:33+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -175,44 +223,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Депутати коментираха в парламента представените днес бюджетни препоръки на Европейската комисия за България",
-      "summary": "Депутати коментираха в парламента представения днес от Европейската комисия Есенен пакет на Европейския семестър за 2027 г. По отношение на България и Унгария ЕК отчита, че предприетите действия в отговор на препоръките за коригиране на прекомерния дефицит не",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253550-deputati-komentiraha-v-parlamenta-predstavenite-dnes-byudzhetni-preporaki-na-evr",
-      "published": "2026-11-24T16:57:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Правителството дължи отговори, а не оправдания, заяви Бойко Борисов относно възможна глоба от ЕК за неизпълнени бюджетни ангажименти",
-      "summary": "ЕК препоръчва глоба за България заради неизпълнени бюджетни ангажименти. Правителството дължи отговори, а не оправдания, коментира лидерът на ГЕРБ Бойко Борисов във Фейсбук. „Кой взе решенията, довели до тази ситуация, за която от ГЕРБ предупреждавахме?! Как и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253558-pravitelstvoto-dalzhi-otgovori-a-ne-opravdaniya-zayavi-boyko-borisov-otnosno-v",
-      "published": "2026-11-24T16:54:12+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "EU to impose cap on Chinese hybrid EV imports next month",
@@ -232,6 +242,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Гърция утре е обявена 24-часова общонационална стачка, която се очаква да засегне морския, въздушния и сухопътния транспорт, съобщи МВнР",
+      "summary": "В Гърция за утре е обявена 24-часова общонационална стачка, която се очаква да засегне публичните услуги в страната, в т.ч. морски, въздушен и сухопътен транспорт, съобщават от Ситуационния център на Министерството на външните работи (МВнР) на Република Българ",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253570-v-gartsiya-utre-e-obyavena-24-chasova-obshtonatsionalna-stachka-koyato-se-ochak",
+      "published": "2026-11-24T17:05:55+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Economic.bg",
       "title": "LEGO строи четвърта фабрика в Европа заради растящото търсене",
@@ -240,13 +269,13 @@
       "published": "2026-11-24T08:44:43+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 37,
+      "priority_score": 36,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -267,25 +296,6 @@
         "strategic_significance": 54,
         "timeliness": 68,
         "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian politics live: Chalmers notes ‘serious moment for our economy’; inflation expected to jump to 4.8%",
-      "summary": "Get our daily political email , free app or daily news podcast Coalition welcomes Solomon Islands dropping China pact Liberal leader, Angus Taylor , has welcomed the Solomon Islands scrapping its pact with Beijing and signing a treaty with Australia – with the",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-24T20:20:46+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
       }
     },
     {
@@ -613,44 +623,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Депутати от парламентарната бюджетна комисия коментираха промените в данъчното законодателство за 2027 г., внесени от Министерски съвет",
-      "summary": "Депутати от бюджетната комисия коментираха предложенията за промени в данъчното законодателство за 2027 г. На извънредно заседание днес комисията разглежда на второ четене промените в пакета данъчни закони, които бяха внесени от Министерския съвет и предвиждат",
-      "url": "https://www.bta.bg/bg/news/economy/1253580-deputati-ot-parlamentarnata-byudzhetna-komisiya-komentiraha-promenite-v-danachno",
-      "published": "2026-11-24T17:53:01+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Гърция утре е обявена 24-часова общонационална стачка, която се очаква да засегне морския, въздушния и сухопътния транспорт, съобщи МВнР",
-      "summary": "В Гърция за утре е обявена 24-часова общонационална стачка, която се очаква да засегне публичните услуги в страната, в т.ч. морски, въздушен и сухопътен транспорт, съобщават от Ситуационния център на Министерството на външните работи (МВнР) на Република Българ",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253570-v-gartsiya-utre-e-obyavena-24-chasova-obshtonatsionalna-stachka-koyato-se-ochak",
-      "published": "2026-11-24T17:05:55+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Петролът е близо до тримесечно дъно заради растящото предлагане",
       "summary": "Цените на петрола се понижиха във вторник, задържайки се близо до тримесечно дъно на фона на опасенията от нарастващото предлагане на суров петрол и потенциален излишък на пазара, докато рисковете за корабоплаването през Ормузкия проток остават. Фючърсите върх",
@@ -685,6 +657,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Депутати от парламентарната бюджетна комисия коментираха промените в данъчното законодателство за 2027 г., внесени от Министерски съвет",
+      "summary": "Депутати от бюджетната комисия коментираха предложенията за промени в данъчното законодателство за 2027 г. На извънредно заседание днес комисията разглежда на второ четене промените в пакета данъчни закони, които бяха внесени от Министерския съвет и предвиждат",
+      "url": "https://www.bta.bg/bg/news/economy/1253580-deputati-ot-parlamentarnata-byudzhetna-komisiya-komentiraha-promenite-v-danachno",
+      "published": "2026-11-24T17:53:01+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -740,7 +731,7 @@
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 91
       }
     },
@@ -766,6 +757,44 @@
     {
       "section": "europe",
       "source": "Investor.bg – Финанси",
+      "title": "Испания удължава срока на данъка върху извънредните печалби на банките до 2027 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440014-ispaniya-udalzhava-sroka-na-danaka-varhu-izvanrednite-pechalbi-na-bankite-do-2027-g",
+      "published": "2026-11-24T20:48:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Трябва да помним приноса на другите народи за това, което сме сътворили в националната си култура, каза министърът на образованието проф. Георги Вълчев",
+      "summary": "Трябва да помним приноса на другите народи за това, което сме сътворили в националната си култура с тяхна помощ, каза министърът на образованието и науката проф. Георги Вълчев на представянето на немскоезичния брой на сп. ЛИК „Печатът – 180 г. от „Български ор",
+      "url": "https://www.bta.bg/bg/news/lik/1253660-tryabva-da-pomnim-prinosa-na-drugite-narodi-za-tova-koeto-sme-satvorili-v-natsi",
+      "published": "2026-11-24T20:44:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
       "title": "Китай и Индия се насочват към рекорден внос на руски петрол през 2026 г.",
       "summary": "",
       "url": "https://www.investor.bg/a/538-pazari/440024-kitay-i-indiya-se-nasochvat-kam-rekorden-vnos-na-ruski-petrol-prez-2026-g",
@@ -778,7 +807,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -859,25 +888,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Електромобилите и хибридите в България са близо 30% от новите коли през октомври",
-      "summary": "Пазарът на нови автомобили в България продължава да расте през октомври 2026 г., като най-съществената промяна е увеличаването на дела на автомобилите с електрифицирано задвижване. Изцяло електрическите автомобили (BEV), плъгин хибридите (PHEV) и хибридите (HE",
-      "url": "https://www.economic.bg/bg/a/view/elektromobilite-i-hibridite-v-bylgarija-sa-blizo-30-ot-novite-koli-prez-oktomvri",
-      "published": "2026-11-24T09:23:56+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "The EU’s increasingly impossible budget arithmetic",
@@ -897,6 +907,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Електромобилите и хибридите в България са близо 30% от новите коли през октомври",
+      "summary": "Пазарът на нови автомобили в България продължава да расте през октомври 2026 г., като най-съществената промяна е увеличаването на дела на автомобилите с електрифицирано задвижване. Изцяло електрическите автомобили (BEV), плъгин хибридите (PHEV) и хибридите (HE",
+      "url": "https://www.economic.bg/bg/a/view/elektromobilite-i-hibridite-v-bylgarija-sa-blizo-30-ot-novite-koli-prez-oktomvri",
+      "published": "2026-11-24T09:23:56+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Belgium: Workers march against spending cuts as living costs rise",
@@ -905,13 +934,13 @@
       "published": "2026-11-23T21:09:46+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 33,
+      "priority_score": 32,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 91
       }
     },
@@ -1069,6 +1098,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов",
+      "summary": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов. Той бе специален гост на представянето на немскоезичния брой на ЛИК „Печатът – 180 г. от „Български орел“. Премиерата на изданието за литература, изкуство и култура на Бъ",
+      "url": "https://www.bta.bg/bg/news/lik/1253666-ivan-bogorov-e-entsiklopedichna-lichnost-kaza-kmetat-na-obshtina-karlovo-d-r-em",
+      "published": "2026-11-24T21:06:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Бюджетната комисия одобри по-високите данъчни оценки от 2027 г.",
       "summary": "",
@@ -1112,44 +1160,6 @@
       "summary": "Изложбата „Лични територии“, съчетаваща живопис и тъкан, бе открита тази вечер в столичната галерия „Сердика“. Тя представя вижданията на студенти от първи до четвърти курс в специалност „Текстил – изкуство и дизайн“ на Националната художествена академия (НХА)",
       "url": "https://www.bta.bg/bg/news/lik/1253616-studenti-ot-spetsialnost-tekstil-izkustvo-i-dizayn-na-nha-podrediha-izlozhba",
       "published": "2026-11-24T19:13:59+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Икономисти: България се деиндустриализира",
-      "summary": "",
-      "url": "https://www.investor.bg/a/524-industriya/440016-ikonomisti-balgariya-se-deindustrializira",
-      "published": "2026-11-24T18:33:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Стара Загора бе представена изложба, посветена на историята на детските организации в България",
-      "summary": "Пътуващата изложба „150 години детски организации в България – история, уроци и бъдеще“ гостува днес в Регионалния исторически музей в Стара Загора. Тя е част от националната инициатива на Националната мрежа за децата (НМД) „150 години детски организации в Бъл",
-      "url": "https://www.bta.bg/bg/news/lik/1253605-v-stara-zagora-be-predstavena-izlozhba-posvetena-na-istoriyata-na-detskite-orga",
-      "published": "2026-11-24T18:06:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1241,6 +1251,25 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T21:19:42+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
       "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
       "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
       "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
@@ -1277,60 +1306,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
-      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T18:55:59+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Икономисти: България се деиндустриализира",
+      "summary": "",
+      "url": "https://www.investor.bg/a/524-industriya/440016-ikonomisti-balgariya-se-deindustrializira",
+      "published": "2026-11-24T18:33:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-      "summary": "Saurav Das says immigration authorities at Delhi airport told him his passport had been flagged.",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T18:07:46+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Стара Загора бе представена изложба, посветена на историята на детските организации в България",
+      "summary": "Пътуващата изложба „150 години детски организации в България – история, уроци и бъдеще“ гостува днес в Регионалния исторически музей в Стара Загора. Тя е част от националната инициатива на Националната мрежа за децата (НМД) „150 години детски организации в Бъл",
+      "url": "https://www.bta.bg/bg/news/lik/1253605-v-stara-zagora-be-predstavena-izlozhba-posvetena-na-istoriyata-na-detskite-orga",
+      "published": "2026-11-24T18:06:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "The good, the bad and the French: EU countries get fiscal report cards",
-      "summary": "The EU executive arm rapped Bulgaria and Hungary across the knuckles for ignoring the bloc’s fiscal rules.",
-      "url": "https://www.politico.eu/article/good-bad-france-eu-countries-fiscal-report-cards/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-24T18:06:06+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 92
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     }
   ],
