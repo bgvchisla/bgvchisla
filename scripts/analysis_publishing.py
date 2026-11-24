@@ -46,14 +46,14 @@ def modernize_page(page: str, slug: str, title: str, summary: str) -> str:
     # The independent Gemini URL Context verifier extracts only the visible,
     # reader-facing primary-source list. Mark the actual list explicitly.
     source_list = re.search(
-        r'(<div class="sources"[^>]*>[\\s\\S]*?<ol)([^>]*)>',
+        r'(<div class="sources"[^>]*>[\s\S]*?<ol)([^>]*)>',
         page,
         flags=re.I,
     )
     if not source_list:
         raise RuntimeError("Липсва видимият списък с първоизточници.")
     attrs = source_list.group(2)
-    class_match = re.search(r'class=["\\']([^"\\']*)["\\']', attrs, flags=re.I)
+    class_match = re.search(r"""class=["']([^"']*)["']""", attrs, flags=re.I)
     if class_match:
         classes = class_match.group(1).split()
         if "source-list" not in classes:
