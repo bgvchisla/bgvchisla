@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install strict evidence selection and a single bounded underlength retry."""
+"""Install strict evidence selection, source-ID normalization and one bounded retry."""
 from __future__ import annotations
 
 import ast
@@ -59,6 +59,43 @@ def get_evidence(lane):
         if patched.count(needle) != 1:
             raise RuntimeError("Не е намерено еднозначно място за контрола на международния контекст.")
         patched = patched.replace(needle, context_guard, 1)
+
+    # Указваме на модела точния агрегат от реално цитираните източници.
+    source_instruction = "Всеки абзац и всеки основен извод трябва да цитира source_ids."
+    source_instruction_extra = (
+        source_instruction
+        + " Полето used_source_ids трябва да съдържа всички различни source_id, "
+        "използвани в параграфите и ключовите изводи, без други идентификатори."
+    )
+    if source_instruction_extra not in patched:
+        if patched.count(source_instruction) != 1:
+            raise RuntimeError("Не е намерена еднозначна инструкция за source_ids.")
+        patched = patched.replace(source_instruction, source_instruction_extra, 1)
+
+    # used_source_ids дублира цитатите в абзаците/ключовите изводи.
+    # Изчисляваме го от тях, но пазим строгата проверка за минимум 4 валидни източника.
+    normalization_marker = "canonical_used_source_ids(cited,src,cfg['minimum_sources'])"
+    if normalization_marker not in patched:
+        initial_guard = (
+            "if len(set(used))<cfg['minimum_sources'] or any(x not in src for x in used):"
+            "raise RuntimeError('Source validation failed')"
+        )
+        if patched.count(initial_guard) != 1:
+            raise RuntimeError("Не е намерена еднозначна първоначална проверка за source IDs.")
+        patched = patched.replace(
+            initial_guard,
+            "if not isinstance(used,list):raise RuntimeError('Source validation failed: used_source_ids is not a list')",
+            1,
+        )
+        consistency_guard = "if set(used)!=cited:raise RuntimeError('Every cited source must appear in the source list, and every listed source must be cited')"
+        if patched.count(consistency_guard) != 1:
+            raise RuntimeError("Не е намерена еднозначна финална проверка за съвпадение на source IDs.")
+        patched = patched.replace(
+            consistency_guard,
+            "from analysis_retry import canonical_used_source_ids\n "
+            "a['used_source_ids']=canonical_used_source_ids(cited,src,cfg['minimum_sources'])",
+            1,
+        )
 
     # Само една повторна заявка е разрешена и само при точна грешка за под 900 думи.
     retry_marker = "retry_prompt=build_retry_prompt(pack,a,first_words,cfg)"
@@ -120,7 +157,7 @@ def main() -> None:
     source = GENERATOR.read_text(encoding="utf-8")
     patched = patch_source(source)
     GENERATOR.write_text(patched, encoding="utf-8")
-    print("Включени са строгият редакционен селектор, защитата срещу неподкрепени изводи и еднократният бюджетно ограничен повторен опит.")
+    print("Включени са строгият редакционен селектор, контекстната защита, канонизирането на source IDs и еднократният бюджетно ограничен повторен опит.")
 
 
 if __name__ == "__main__":
