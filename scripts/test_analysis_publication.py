@@ -48,8 +48,8 @@ class EditorialPublicationTests(unittest.TestCase):
                 self.assertIn("--blue:#315f91", page)
                 self.assertIn("@media(max-width:640px)", page)
 
-                refs = set(re.findall(r'href="#source-([A-Za-z][A-Za-z0-9_-]*)"', page))
-                notes = set(re.findall(r'<li id="source-([A-Za-z][A-Za-z0-9_-]*)"', page))
+                refs = set(re.findall(r'href="#source-([A-Za-z0-9][A-Za-z0-9_-]*)"', page))
+                notes = set(re.findall(r'<li id="source-([A-Za-z0-9][A-Za-z0-9_-]*)"', page))
                 self.assertTrue(refs and refs.issubset(notes))
                 self.assertGreaterEqual(len(notes), 4)
                 self.assertIn(f'href="/analizi/{slug}/"', archive)
@@ -73,12 +73,23 @@ class EditorialPublicationTests(unittest.TestCase):
             '<li id="source-N01">N01</li>'
             '<li id="source-D01">D01</li>'
         )
-        refs = set(re.findall(r'href="#source-([A-Za-z][A-Za-z0-9_-]*)"', page))
-        notes = set(re.findall(r'<li id="source-([A-Za-z][A-Za-z0-9_-]*)"', page))
+        refs = set(re.findall(r'href="#source-([A-Za-z0-9][A-Za-z0-9_-]*)"', page))
+        notes = set(re.findall(r'<li id="source-([A-Za-z0-9][A-Za-z0-9_-]*)"', page))
         self.assertEqual(refs, {"N01", "D01"})
         self.assertEqual(notes, {"N01", "D01"})
         self.assertTrue(refs.issubset(notes))
         self.assertGreaterEqual(len(notes), 2)
+        legacy_page = (
+            '<a href="#source-1">[1]</a>'
+            '<li id="source-1">1</li>'
+            '<a href="#source-02">[02]</a>'
+            '<li id="source-02">02</li>'
+        )
+        legacy_refs = set(re.findall(r'href="#source-([A-Za-z0-9][A-Za-z0-9_-]*)"', legacy_page))
+        legacy_notes = set(re.findall(r'<li id="source-([A-Za-z0-9][A-Za-z0-9_-]*)"', legacy_page))
+        self.assertEqual(legacy_refs, {"1", "02"})
+        self.assertEqual(legacy_notes, {"1", "02"})
+        self.assertTrue(legacy_refs.issubset(legacy_notes))
 
     def test_weekly_schedule_and_lane_mapping(self):
         source = GENERATOR_WORKFLOW.read_text(encoding="utf-8")
