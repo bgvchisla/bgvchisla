@@ -435,7 +435,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Persist usage ledgers after unsuccessful paid run
-        if: always() && steps.plan.outputs.mode == 'publish' && job.status == 'failure'
+        if: always() && steps.plan.outputs.mode == 'publish' && failure()
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -510,7 +510,7 @@ jobs:
               else:
                   known_spend = sum(float(item.get("cost_usd", 0) or 0) for item in history)
                   result["spent_usd"] = round(max(float(current.get("spent_usd", 0)), float(incoming.get("spent_usd", 0)), known_spend), 8)
-              Path(path).write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+              Path(path).write_text(json.dumps(result, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 
           for path, snapshot in snapshots.items():
               merge_ledger(path, snapshot, verification=path.endswith("verification_usage.json"))
