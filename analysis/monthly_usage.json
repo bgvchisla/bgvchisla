@@ -1,8 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.069457,
-  "calls": 8,
+  "spent_usd": 0.07203,
+  "calls": 9,
   "history": [
+    {
+      "date": "2026-11-24T15:42:23.381257+02:00",
+      "cost_usd": 0.002573,
+      "input_tokens": 7952,
+      "output_tokens": 3556
+    },
     {
       "timestamp": "2026-11-24T09:17:23Z",
       "model": "gpt-6-luna",
