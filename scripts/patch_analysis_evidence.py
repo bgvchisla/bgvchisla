@@ -143,7 +143,7 @@ def get_evidence(lane):
             raise RuntimeError("Не е намерено еднозначно място за предварителния бюджетен резерв.")
         patched = patched.replace(
             estimate_needle,
-            "from analysis_retry import maximum_retry_reserve, maximum_single_call_reserve\\n retry_allowed=calls+2<=cfg['max_api_calls_per_month']\\n estimate=maximum_retry_reserve(cfg) if retry_allowed else maximum_single_call_reserve(cfg)",
+            "from analysis_retry import maximum_retry_reserve, maximum_single_call_reserve\n retry_allowed=calls+2<=cfg['max_api_calls_per_month']\n estimate=maximum_retry_reserve(cfg) if retry_allowed else maximum_single_call_reserve(cfg)",
             1,
         )
         calls_needle = (
