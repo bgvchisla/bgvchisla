@@ -18,6 +18,8 @@ DEAD_URL = (
     "https://www.economic.bg/bg/a/view/"
     "upravljavashtite-poshtadiha-malkite-tyrgovci-ot-novija-danyk-svryhpechalba"
 )
+# Separate URL for mocked HTTP behavior tests. It must not be in the confirmed-dead denylist.
+TEST_URL = "https://example.invalid/editorial-source-test"
 
 
 class PermanentDeadLinkTests(unittest.TestCase):
@@ -33,7 +35,7 @@ class PermanentDeadLinkTests(unittest.TestCase):
             raise HTTPError(request.full_url, 404, "Not Found", None, None)
 
         with patch.object(analysis_evidence.urllib.request, "urlopen", side_effect=respond):
-            self.assertTrue(analysis_evidence._is_permanently_unavailable(DEAD_URL))
+            self.assertTrue(analysis_evidence._is_permanently_unavailable(TEST_URL))
 
         self.assertEqual(seen["method"], "GET")
         self.assertEqual(seen["range"], "bytes=0-0")
@@ -47,14 +49,14 @@ class PermanentDeadLinkTests(unittest.TestCase):
             self.assertTrue(analysis_evidence._is_permanently_unavailable(DEAD_URL))
 
     def test_410_is_treated_as_permanently_unavailable(self):
-        error = HTTPError(DEAD_URL, 410, "Gone", None, None)
+        error = HTTPError(TEST_URL, 410, "Gone", None, None)
         with patch.object(analysis_evidence.urllib.request, "urlopen", side_effect=error):
-            self.assertTrue(analysis_evidence._is_permanently_unavailable(DEAD_URL))
+            self.assertTrue(analysis_evidence._is_permanently_unavailable(TEST_URL))
 
     def test_403_is_not_assumed_to_be_a_dead_link(self):
-        error = HTTPError(DEAD_URL, 403, "Forbidden", None, None)
+        error = HTTPError(TEST_URL, 403, "Forbidden", None, None)
         with patch.object(analysis_evidence.urllib.request, "urlopen", side_effect=error):
-            self.assertFalse(analysis_evidence._is_permanently_unavailable(DEAD_URL))
+            self.assertFalse(analysis_evidence._is_permanently_unavailable(TEST_URL))
 
     def test_temporary_network_error_fails_open(self):
         with patch.object(
@@ -62,17 +64,17 @@ class PermanentDeadLinkTests(unittest.TestCase):
             "urlopen",
             side_effect=URLError("temporary network error"),
         ):
-            self.assertFalse(analysis_evidence._is_permanently_unavailable(DEAD_URL))
+            self.assertFalse(analysis_evidence._is_permanently_unavailable(TEST_URL))
 
     def test_dead_link_result_is_cached(self):
-        error = HTTPError(DEAD_URL, 404, "Not Found", None, None)
+        error = HTTPError(TEST_URL, 404, "Not Found", None, None)
         with patch.object(
             analysis_evidence.urllib.request,
             "urlopen",
             side_effect=error,
         ) as urlopen:
-            self.assertTrue(analysis_evidence._is_permanently_unavailable(DEAD_URL))
-            self.assertTrue(analysis_evidence._is_permanently_unavailable(DEAD_URL))
+            self.assertTrue(analysis_evidence._is_permanently_unavailable(TEST_URL))
+            self.assertTrue(analysis_evidence._is_permanently_unavailable(TEST_URL))
             self.assertEqual(urlopen.call_count, 1)
 
 
