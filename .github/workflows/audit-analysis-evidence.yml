@@ -6,6 +6,8 @@ on:
     paths:
       - "scripts/analysis_evidence.py"
       - "scripts/patch_analysis_evidence.py"
+      - "scripts/analysis_retry.py"
+      - "scripts/test_analysis_retry.py"
       - "scripts/test_frontend.py"
       - "scripts/test_analysis_publication.py"
       - "scripts/test_analysis_evidence.py"
@@ -80,7 +82,7 @@ jobs:
       - name: Validate article evidence and publication workflow
         run: python scripts/test_analysis_publication.py
       - name: Compile independent fact-check modules
-        run: python -m py_compile scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
+        run: python -m py_compile scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py scripts/analysis_retry.py scripts/test_analysis_retry.py
       - name: Install Chromium for exact viewport testing
         run: |
           npm install --no-save --no-package-lock playwright
@@ -128,6 +130,8 @@ jobs:
           gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py
           python scripts/patch_analysis_evidence.py
           python -m py_compile scripts/generate_analysis.py scripts/analysis_evidence.py
+      - name: Test the single budget-bounded underlength retry
+        run: python scripts/test_analysis_retry.py
       - name: Run regression tests for strict editorial evidence selection
         run: python scripts/test_analysis_evidence.py
       - name: Audit Bulgarian analysis evidence without an API call
