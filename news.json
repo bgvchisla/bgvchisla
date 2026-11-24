@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T17:33:55.781872+00:00",
-  "last_checked_at": "2026-11-24T17:33:55.781884+00:00",
+  "updated_at": "2026-11-24T18:32:35.370735+00:00",
+  "last_checked_at": "2026-11-24T18:32:35.370746+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -83,7 +83,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Irish plan offers Burnham breakthrough on Made in Europe",
-      "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations Business live – latest updates The UK wwould not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that",
+      "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations Business live – latest updates The UK would not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that c",
       "url": "https://www.theguardian.com/business/2026/nov/24/uk-eu-made-in-europe-trade-cars-tariffs",
       "published": "2026-11-24T16:09:12+00:00",
       "feed_id": "guardian-world",
@@ -216,7 +216,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "EU to impose cap on Chinese hybrid EV imports next month",
-      "summary": "Temporary quotas on vehicles entering the bloc tariff-free will also apply to cars from the UK, Japan and Turkey Business live – latest updates The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the",
+      "summary": "Temporary quotas on vehicles entering the bloc will also apply to cars from the UK, Japan and Turkey Business live – latest updates The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the bloc, the E",
       "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
       "published": "2026-11-24T10:59:40+00:00",
       "feed_id": "guardian-world",
@@ -442,25 +442,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 24th, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-morning",
-      "published": "2026-11-24T06:00:33+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Commission sets out key EU policy priorities for 2027 in its European Semester Autumn Package",
       "summary": "European Commission Press release Strasbourg, 24 Nov 2026 The European Commission today adopted the 2027 European Semester Autumn Package, setting out economic, social and employment policy priorities.",
@@ -536,6 +517,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 24th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-morning",
+      "published": "2026-11-24T06:00:33+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "В Гърция утре е обявена 24-часова общонационална стачка, която се очаква да засегне морския, въздушния и сухопътния транспорт, съобщи МВнР",
@@ -594,25 +594,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Opening remarks by Commissioner Serafin during the debate on the EU Anti-fraud Architecture Review (INI Report) at the European Parliament in Strasbourg",
-      "summary": "European Commission Speech Strasbourg, 23 Nov 2026 I would like to thank the rapporteurs Mr Zdechovsky and Mr Erixon and the Members of the Committee on Budgetary Control for their own-initiative report on the f...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2566",
-      "published": "2026-11-23T17:35:56+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 23rd, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 23rd, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
@@ -647,6 +628,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Депутати от парламентарната бюджетна комисия коментираха промените в данъчното законодателство за 2027 г., внесени от Министерски съвет",
+      "summary": "Депутати от бюджетната комисия коментираха предложенията за промени в данъчното законодателство за 2027 г. На извънредно заседание днес комисията разглежда на второ четене промените в пакета данъчни закони, които бяха внесени от Министерския съвет и предвиждат",
+      "url": "https://www.bta.bg/bg/news/economy/1253580-deputati-ot-parlamentarnata-byudzhetna-komisiya-komentiraha-promenite-v-danachno",
+      "published": "2026-11-24T17:53:01+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -742,6 +742,25 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "Китай и Индия се насочват към рекорден внос на руски петрол през 2026 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/440024-kitay-i-indiya-se-nasochvat-kam-rekorden-vnos-na-ruski-petrol-prez-2026-g",
+      "published": "2026-11-24T17:37:53+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -865,25 +884,6 @@
       "summary": "Министерството на регионалното развитие и благоустройство одобри финансирането на втората концепция на Община Свищов за „Интегрирана подкрепа за развитието на здравни, социални и образователни услуги“. Общата стойност на проекта възлиза на 12 191 746 евро, съо",
       "url": "https://www.bta.bg/bg/news/bulgaria/1253536-odobrena-e-vtorata-kontseptsiya-na-obshtina-svishtov-za-integrirano-teritorialno",
       "published": "2026-11-24T16:29:44+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Налагането на глоба от ЕК заради големия дефицит показва недоверие към правителството, коментира Ивайло Мирчев",
-      "summary": "Налагането на глоба от Европейската комисия (ЕК) заради големия дефицит показва недоверие към правителството, заяви съпредседателят на „Да, България“ Ивайло Мирчев по повод информацията, че ЕК е препоръчала налагането на глоба на България заради неизпълнение н",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253519-nalaganeto-na-globa-ot-ek-zaradi-golemiya-defitsit-pokazva-nedoverie-kam-pravite",
-      "published": "2026-11-24T16:07:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 32,
@@ -1125,22 +1125,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
-      "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world.",
-      "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-22T13:18:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 30,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Стара Загора бе представена изложба, посветена на историята на детските организации в България",
+      "summary": "Пътуващата изложба „150 години детски организации в България – история, уроци и бъдеще“ гостува днес в Регионалния исторически музей в Стара Загора. Тя е част от националната инициатива на Националната мрежа за децата (НМД) „150 години детски организации в Бъл",
+      "url": "https://www.bta.bg/bg/news/lik/1253605-v-stara-zagora-be-predstavena-izlozhba-posvetena-na-istoriyata-na-detskite-orga",
+      "published": "2026-11-24T18:06:20+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 50,
-        "source_reliability": 95
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1183,25 +1183,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "България вече е пълноправен член на Европейската лаборатория по молекулярна биология",
-      "summary": "България вече е пълноправен член на Европейската лаборатория по молекулярна биология (European Molecular Biology Laboratory - EMBL). Това е важна стъпка в развитието на българската научна общност в сферата на науките за живота и утвърждаването на страната ни к",
-      "url": "https://www.bta.bg/bg/news/lik/1253527-balgariya-veche-e-palnopraven-chlen-na-evropeyskata-laboratoriya-po-molekulyarna",
-      "published": "2026-11-24T16:16:13+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "България е на второ място в ЕС по нетни приходи от NextGenerationEU за 2025 г.",
       "summary": "",
@@ -1221,44 +1202,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Специализираният експертен съвет към Министерството на културата дава положително становище за паметник на светите Седмочисленици във Варна",
-      "summary": "Специализираният експертен съвет по изобразителни изкуства към Министерството на културата даде положително становище за изграждането на паметник на светите Седмочисленици във Варна, съобщиха от Варненския свободен университет. На свое заседание експертите са",
-      "url": "https://www.bta.bg/bg/news/lik/1253510-spetsializiraniyat-eksperten-savet-kam-ministerstvoto-na-kulturata-dava-polozhit",
-      "published": "2026-11-24T16:08:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Книгата „Архитектурни портрети: арх. Пенчо Койчев“ бе представена в София",
-      "summary": "Книгата „Архитектурни портрети: арх. Пенчо Койчев“ бе представена в книжарницата на Новия български университет (НБУ). Участваха още съставителят на изданието доц. д-р арх. Мария Давчева, д-р арх. Весела Попова и внучката на арх. Койчев, доц. д-р Невена Койчев",
-      "url": "https://www.bta.bg/bg/news/lik/1253486-knigata-arhitekturni-portreti-arh-pencho-koychev-be-predstavena-v-sofiya",
-      "published": "2026-11-24T15:57:13+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "ЕК поиска глоба за България за неизпълнение на процедурата за свръхдефицит*",
       "summary": "",
@@ -1274,25 +1217,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Брюксел затяга процедурата по свръхдефицит срещу България",
-      "summary": "Европейската комисия препоръча преминаване към следващия етап от процедурата при прекомерен дефицит срещу България, след като установи, че страната не е предприела ефективни действия в изпълнение на отправените през юли препоръки за оздравяване на публичните ф",
-      "url": "https://www.economic.bg/bg/a/view/bruksel-zatjaga-procedurata-po-svryhdeficit-sreshtu-bylgarija",
-      "published": "2026-11-24T15:12:44+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
       }
     },
     {
@@ -1331,6 +1255,82 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Бизнес нагласите в Германия се подобряват за седми пореден месец",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/439995-biznes-naglasite-v-germaniya-se-podobryavat-za-sedmi-poreden-mesets",
+      "published": "2026-11-24T11:34:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Race to replant five South African baobabs after export blocked",
+      "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
+      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
+      "published": "2026-11-19T11:03:24+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 30,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
+      "summary": "Saurav Das says immigration authorities at Delhi airport told him his passport had been flagged.",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T18:07:46+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "The good, the bad and the French: EU countries get fiscal report cards",
+      "summary": "The EU executive arm rapped Bulgaria and Hungary across the knuckles for ignoring the bloc’s fiscal rules.",
+      "url": "https://www.politico.eu/article/good-bad-france-eu-countries-fiscal-report-cards/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-24T18:06:06+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 92
       }
     }
   ],
