@@ -151,7 +151,7 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertEqual(config["monthly_budget_usd"], 3.5)
         self.assertEqual(config["review_monthly_budget_usd"], 1.5)
         self.assertEqual(config["monthly_total_budget_usd"], 5.5)
-        self.assertEqual(config["max_api_calls_per_month"], 12)
+        self.assertEqual(config["max_api_calls_per_month"], 14)
         self.assertEqual(config["max_factcheck_calls_per_month"], 10)
         self.assertEqual(config["maximum_review_input_tokens"], 400000)
         self.assertEqual(config["maximum_review_output_tokens"], 48000)

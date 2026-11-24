@@ -4,7 +4,7 @@
   "input_usd_per_million": 0.1,
   "output_usd_per_million": 0.5,
   "monthly_budget_usd": 3.5,
-  "max_api_calls_per_month": 12,
+  "max_api_calls_per_month": 14,
   "max_output_tokens": 5500,
   "maximum_prompt_characters": 65000,
   "minimum_words": 900,
