@@ -153,6 +153,32 @@ def get_evidence(lane):
             1,
         )
 
+    # Заменяме legacy single-file output с модерния сайт договор:
+    # /analizi/{slug}/index.html, published_at registry, архивна карта и sitemap.
+    target_old = "name=f'{now:%Y-%m-%d}-{slug}.html';target=R/'analizi'/name"
+    target_new = "name=f'{now:%Y-%m-%d}-{slug}.html';target=R/'analizi'/slug/'index.html'"
+    if target_old in patched:
+        patched = patched.replace(target_old, target_new, 1)
+    elif target_new not in patched:
+        raise RuntimeError("Не е намерена еднозначна legacy цел за HTML страницата.")
+
+    publish_start = " target.parent.mkdir(parents=True,exist_ok=True);target.write_text(page,encoding='utf-8');src=a['_src'];ids=a['used_source_ids']"
+    if publish_start in patched:
+        publish_start_index = patched.index(publish_start)
+        guard_index = patched.find("if __name__=='__main__':", publish_start_index)
+        if guard_index < 0:
+            raise RuntimeError("Не е намерен край на legacy publishing блока.")
+        publish_end = patched.rfind("\n", publish_start_index, guard_index)
+        if publish_end < 0:
+            raise RuntimeError("Не е намерена граница на реда преди main guard.")
+        patched = (
+            patched[:publish_start_index]
+            + " from analysis_publishing import publish_article\n publish_article(R,a,args.lane,now,label,page,slug)"
+            + patched[publish_end:]
+        )
+    elif "publish_article(R,a,args.lane,now,label,page,slug)" not in patched:
+        raise RuntimeError("Не е намерен еднозначен legacy publishing блок.")
+
     ast.parse(patched, filename=str(GENERATOR))
     return patched
 

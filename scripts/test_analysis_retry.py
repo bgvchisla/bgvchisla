@@ -131,7 +131,12 @@ class AnalysisRetryTests(unittest.TestCase):
         self.assertIn("canonical_used_source_ids(cited,src,cfg['minimum_sources'])", patched)
         self.assertIn("used_source_ids трябва да съдържа всички различни source_id", patched)
         self.assertIn("build_source_coverage_retry_prompt(pack,a,source_count,cfg)", patched)
+        self.assertIn("target=R/'analizi'/slug/'index.html'", patched)
+        self.assertIn("publish_article(R,a,args.lane,now,label,page,slug)", patched)
+        self.assertNotIn("key=lambda x:x['date']", patched)
         self.assertIn("Използвай съдържателно поне 4 различни source_id", patched)
+        self.assertIn("publish_article(R,a,args.lane,now,label,page,slug)", patched)
+        self.assertNotIn("key=lambda x:x['date']", patched)
         self.assertEqual(patch_source(patched), patched)
 
 
