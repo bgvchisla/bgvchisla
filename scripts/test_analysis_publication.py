@@ -153,8 +153,8 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertEqual(config["monthly_total_budget_usd"], 5.5)
         self.assertEqual(config["max_api_calls_per_month"], 12)
         self.assertEqual(config["max_factcheck_calls_per_month"], 10)
-        self.assertEqual(config["maximum_review_input_tokens"], 250000)
-        self.assertEqual(config["maximum_review_output_tokens"], 24000)
+        self.assertEqual(config["maximum_review_input_tokens"], 400000)
+        self.assertEqual(config["maximum_review_output_tokens"], 48000)
         self.assertEqual(config["maximum_source_urls_per_call"], 15)
         self.assertEqual(config["review_model"], "gemini-3.8-flash")
 

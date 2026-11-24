@@ -50,13 +50,20 @@ def canonical_used_source_ids(
     return sorted(cited)
 
 
+def maximum_single_call_reserve(config: dict[str, Any]) -> float:
+    """Reserve the configured worst-case prompt/output allowance for one call."""
+    return round(
+        (
+            int(config["maximum_prompt_characters"]) * float(config["input_usd_per_million"])
+            + int(config["max_output_tokens"]) * float(config["output_usd_per_million"])
+        ) / 1_000_000,
+        6,
+    )
+
+
 def maximum_retry_reserve(config: dict[str, Any]) -> float:
     """Reserve the configured worst-case prompt/output allowance for two calls."""
-    one_call = (
-        int(config["maximum_prompt_characters"]) * float(config["input_usd_per_million"])
-        + int(config["max_output_tokens"]) * float(config["output_usd_per_million"])
-    ) / 1_000_000
-    return round(one_call * 2, 6)
+    return round(maximum_single_call_reserve(config) * 2, 6)
 
 
 def build_retry_prompt(

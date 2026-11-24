@@ -15,8 +15,8 @@
   "review_provider": "Google",
   "review_model": "gemini-3.8-flash",
   "review_reasoning_effort": "high",
-  "maximum_review_input_tokens": 250000,
-  "maximum_review_output_tokens": 24000,
+  "maximum_review_input_tokens": 400000,
+  "maximum_review_output_tokens": 48000,
   "maximum_review_characters": 50000,
   "review_input_usd_per_million_until_2026_12_31": 0.75,
   "review_output_usd_per_million_until_2026_12_31": 3.75,
@@ -48,7 +48,8 @@
     "cbo.gov",
     "bankofengland.co.uk",
     "bankofjapan.or.jp",
-    "ons.gov.uk"
+    "ons.gov.uk",
+    "nssi.bg"
   ],
   "minimum_retrieved_sources": 4,
   "minimum_official_retrieved_domains": 2,

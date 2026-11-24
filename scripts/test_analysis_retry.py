@@ -17,6 +17,7 @@ from analysis_retry import (  # noqa: E402
     canonical_used_source_ids,
     insufficient_source_count,
     maximum_retry_reserve,
+    maximum_single_call_reserve,
     underlength_word_count,
 )
 from patch_analysis_evidence import patch_source  # noqa: E402
@@ -95,14 +96,16 @@ class AnalysisRetryTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "Retry prompt size guard"):
             build_retry_prompt({"evidence": "x" * 200}, {"draft": "y"}, 871, config)
 
-    def test_budget_reserves_two_worst_case_calls(self):
-        reserve = maximum_retry_reserve(self.config)
-        one_call = (
+    def test_budget_reserves_one_or_two_worst_case_calls(self):
+        one_call = maximum_single_call_reserve(self.config)
+        two_calls = maximum_retry_reserve(self.config)
+        expected_one_call = (
             self.config["maximum_prompt_characters"] * self.config["input_usd_per_million"]
             + self.config["max_output_tokens"] * self.config["output_usd_per_million"]
         ) / 1_000_000
-        self.assertAlmostEqual(reserve, one_call * 2, places=6)
-        self.assertGreater(reserve, one_call)
+        self.assertAlmostEqual(one_call, expected_one_call, places=6)
+        self.assertAlmostEqual(two_calls, one_call * 2, places=6)
+        self.assertGreater(two_calls, one_call)
 
     def test_source_ids_are_derived_from_actual_valid_citations(self):
         index = {f"N{i:02d}": {"source_id": f"N{i:02d}"} for i in range(1, 6)}
@@ -126,8 +129,11 @@ class AnalysisRetryTests(unittest.TestCase):
         compile(patched, "generate_analysis.py", "exec")
         self.assertEqual(patched.count("retry_prompt=build_retry_prompt(pack,a,first_words,cfg)"), 1)
         self.assertEqual(patched.count("retry_a,retry_u,retry_cost=api(retry_prompt,cfg)"), 1)
-        self.assertIn("calls+2>cfg['max_api_calls_per_month']", patched)
+        self.assertIn("retry_allowed=calls+2<=cfg['max_api_calls_per_month']", patched)
         self.assertIn("maximum_retry_reserve(cfg)", patched)
+        self.assertIn("maximum_single_call_reserve(cfg)", patched)
+        self.assertIn("if not retry_allowed:", patched)
+        self.assertIn("calls>=cfg['max_api_calls_per_month']", patched)
         self.assertIn("canonical_used_source_ids(cited,src,cfg['minimum_sources'])", patched)
         self.assertIn("used_source_ids трябва да съдържа всички различни source_id", patched)
         self.assertIn("build_source_coverage_retry_prompt(pack,a,source_count,cfg)", patched)
