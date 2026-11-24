@@ -223,24 +223,37 @@ def _context_category(title, summary):
 # access restrictions and rate limits are left for the later strict validator.
 URL_CHECK_TIMEOUT_SECONDS = 6
 URL_CHECK_USER_AGENT = "bgvchisla-editorial-source-check/1.0"
+# Independently confirmed with an HTTP 404 on 2026-11-24. Some upstream
+# proxies return a misleading 200 to the GitHub runner for this retired URL.
+CONFIRMED_DEAD_SOURCE_URLS = {
+    "https://www.economic.bg/bg/a/view/upravljavashtite-poshtadiha-malkite-tyrgovci-ot-novija-danyk-svryhpechalba",
+}
 _URL_STATUS_CACHE = {}
 
 
 def _is_permanently_unavailable(url):
     url = str(url or "")
+    if url in CONFIRMED_DEAD_SOURCE_URLS:
+        return True
     if not url.startswith("https://"):
         return True
     if url in _URL_STATUS_CACHE:
         return _URL_STATUS_CACHE[url]
 
+    # Some publishers return 200 for HEAD while the article GET is 404.
+    # Use a one-byte ranged GET so the check follows the same HTTP method
+    # as the downstream source validator without downloading the article body.
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": URL_CHECK_USER_AGENT},
-        method="HEAD",
+        headers={
+            "User-Agent": URL_CHECK_USER_AGENT,
+            "Range": "bytes=0-0",
+        },
     )
     try:
         with urllib.request.urlopen(request, timeout=URL_CHECK_TIMEOUT_SECONDS) as response:
             status = response.getcode()
+            response.read(1)
     except urllib.error.HTTPError as exc:
         status = exc.code
     except (urllib.error.URLError, TimeoutError, OSError):
