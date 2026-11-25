@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T23:29:36.453769+00:00",
-  "last_checked_at": "2026-11-24T23:29:36.453782+00:00",
+  "updated_at": "2026-11-25T00:16:16.666684+00:00",
+  "last_checked_at": "2026-11-25T00:16:16.666697+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -43,21 +43,21 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Executive Vice-President Mînzatu and Commissioner Dombrovskis on the 2027 European Semester Autumn package",
-      "summary": "European Commission Statement Strasbourg, 24 Nov 2026 \"Check against delivery\" Executive Vice-President Mînzatu Today, we present the Joint Employment Report and the Human Capital Recommendation. We also launch th...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2572",
-      "published": "2026-11-24T12:14:45+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: Labor exempts pensioners from bill cutting private health rebates for over-65s; Steggall changes party name",
+      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
+      "published": "2026-11-25T00:12:44+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 43,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -81,21 +81,21 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian politics live: Steggall and Spender change party name after community consultation; inflation set to climb",
-      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-24T23:14:14+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 40,
+      "source": "Европейска комисия",
+      "title": "Remarks by Executive Vice-President Mînzatu and Commissioner Dombrovskis on the 2027 European Semester Autumn package",
+      "summary": "European Commission Statement Strasbourg, 24 Nov 2026 \"Check against delivery\" Executive Vice-President Mînzatu Today, we present the Joint Employment Report and the Human Capital Recommendation. We also launch th...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2572",
+      "published": "2026-11-24T12:14:45+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 42,
       "priority_breakdown": {
-        "economic_significance": 48,
+        "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -232,25 +232,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "EU launches safeguard investigation into certain composite input materials",
-      "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
-      "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "publisher": "СТО",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 68,
-        "source_reliability": 98
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Депутати от парламентарната бюджетна комисия коментираха промените в данъчното законодателство за 2027 г., внесени от Министерски съвет",
@@ -270,22 +251,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Михаела Доцова: Убедена съм, че между 52-рото Народно събрание и президентството ще се осъществява конструктивен диалог в защита на държавността и на интересите на България",
+      "section": "europe",
+      "source": "Investor.bg – Финанси",
+      "title": "Испания удължава срока на данъка върху извънредните печалби на банките до 2027 г.",
       "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6684",
-      "published": "2026-11-24T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "publisher": "Народно събрание",
-      "priority_score": 35,
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440014-ispaniya-udalzhava-sroka-na-danaka-varhu-izvanrednite-pechalbi-na-bankite-do-2027-g",
+      "published": "2026-11-24T20:48:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 98
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
@@ -305,6 +286,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Михаела Доцова: Убедена съм, че между 52-рото Народно събрание и президентството ще се осъществява конструктивен диалог в защита на държавността и на интересите на България",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6684",
+      "published": "2026-11-24T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "publisher": "Народно събрание",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 98
       }
     },
     {
@@ -335,13 +335,13 @@
       "published": "2026-11-24T00:00:00+00:00",
       "feed_id": "bnb-news",
       "publisher": "БНБ",
-      "priority_score": 28,
+      "priority_score": 27,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 99
       }
     },
@@ -354,13 +354,13 @@
       "published": "2026-11-24T00:00:00+00:00",
       "feed_id": "bnb-news",
       "publisher": "БНБ",
-      "priority_score": 28,
+      "priority_score": 27,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 99
       }
     },
@@ -708,44 +708,6 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Испания удължава срока на данъка върху извънредните печалби на банките до 2027 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440014-ispaniya-udalzhava-sroka-na-danaka-varhu-izvanrednite-pechalbi-na-bankite-do-2027-g",
-      "published": "2026-11-24T20:48:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Трябва да помним приноса на другите народи за това, което сме сътворили в националната си култура, каза министърът на образованието проф. Георги Вълчев",
-      "summary": "Трябва да помним приноса на другите народи за това, което сме сътворили в националната си култура с тяхна помощ, каза министърът на образованието и науката проф. Георги Вълчев на представянето на немскоезичния брой на сп. ЛИК „Печатът – 180 г. от „Български ор",
-      "url": "https://www.bta.bg/bg/news/lik/1253660-tryabva-da-pomnim-prinosa-na-drugite-narodi-za-tova-koeto-sme-satvorili-v-natsi",
-      "published": "2026-11-24T20:44:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
       "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
@@ -803,6 +765,25 @@
     },
     {
       "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "EU launches safeguard investigation into certain composite input materials",
+      "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
+      "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "publisher": "СТО",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 50,
+        "source_reliability": 98
+      }
+    },
+    {
+      "section": "europe",
       "source": "Евростат",
       "title": "Annual inflation up to 4.0% in the euro area",
       "summary": "The euro area annual inflation rate was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.1%. European Union annual inflation was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.5%. These figures ar",
@@ -818,6 +799,25 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Трябва да помним приноса на другите народи за това, което сме сътворили в националната си култура, каза министърът на образованието проф. Георги Вълчев",
+      "summary": "Трябва да помним приноса на другите народи за това, което сме сътворили в националната си култура с тяхна помощ, каза министърът на образованието и науката проф. Георги Вълчев на представянето на немскоезичния брой на сп. ЛИК „Печатът – 180 г. от „Български ор",
+      "url": "https://www.bta.bg/bg/news/lik/1253660-tryabva-da-pomnim-prinosa-na-drugite-narodi-za-tova-koeto-sme-satvorili-v-natsi",
+      "published": "2026-11-24T20:44:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -974,25 +974,6 @@
     },
     {
       "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
-      "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
-      "url": "https://www.wto.org/english/news_e/news26_e/tmg20_23nov26_559_e.htm",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "publisher": "СТО",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Statement by Commissioner Dombrovskis presenting the European Semester Autumn Package at the European Parliament",
       "summary": "European Commission Statement Strasbourg, 24 Nov 2026 Madame Chair, honourable Members. Thank you for the opportunity to join you today to present the main elements of the European Semester Autumn Package, adopted ...",
@@ -1008,6 +989,25 @@
         "strategic_significance": 54,
         "timeliness": 92,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
+      "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
+      "url": "https://www.wto.org/english/news_e/news26_e/tmg20_23nov26_559_e.htm",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "publisher": "СТО",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 50,
+        "source_reliability": 98
       }
     },
     {
@@ -1070,9 +1070,9 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "В Берлин се проведе вечер, посветена на 180-годишнината от излизането на първия български вестник „Български орел“ и на неговия създател Иван Богоров",
+      "title": "В Берлин се проведе вечер, посветена на 180-годишнината на първия български вестник „Български орел“ и на неговия създател Иван Богоров",
       "summary": "В Българския културен институт (БКИ) в Берлин беше представен немскоезичния брой на списание ЛИК, посветена на 180-годишнината от излизането на първия български вестник „Български орел“ и на неговия създател Иван Богоров. Ноемврийското изданието за литература,",
-      "url": "https://www.bta.bg/bg/news/lik/1253678-v-berlin-se-provede-vecher-posvetena-na-180-godishninata-ot-izlizaneto-na-parvi",
+      "url": "https://www.bta.bg/bg/news/lik/1253678-v-berlin-se-provede-vecher-posvetena-na-180-godishninata-na-parviya-balgarski-v",
       "published": "2026-11-24T23:12:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
@@ -1093,25 +1093,6 @@
       "summary": "Иван Богоров е пример за човек, който също ще остане в историята до големите имена на наши държавници и общественици, каза отговорният редактор на списание ЛИК Яница Христова. Тя се включи в представянето на немскоезичния брой на списанието на тема „Печатът –",
       "url": "https://www.bta.bg/bg/news/lik/1253669-ivan-bogorov-shte-ostane-v-istoriyata-do-golemite-imena-na-balgarskite-darzhavni",
       "published": "2026-11-24T21:43:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов",
-      "summary": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов. Той бе специален гост на представянето на немскоезичния брой на ЛИК „Печатът – 180 г. от „Български орел“. Премиерата на изданието за литература, изкуство и култура на Бъ",
-      "url": "https://www.bta.bg/bg/news/lik/1253666-ivan-bogorov-e-entsiklopedichna-lichnost-kaza-kmetat-na-obshtina-karlovo-d-r-em",
-      "published": "2026-11-24T21:06:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1164,25 +1145,6 @@
     },
     {
       "section": "europe",
-      "source": "Economic.bg",
-      "title": "Еврокомисията налага квоти за внос на хибридни автомобили в ЕС",
-      "summary": "Европейската комисия обяви, че активира временни защитни мерки за ограничаване на вноса на хибридни автомобили от трети страни. Според Комисията това е необходимо, за да защити европейската индустрия от резкия ръст на вноса на такива превозни средства през пос",
-      "url": "https://www.economic.bg/bg/a/view/evrokomisijata-nalaga-kvoti-za-vnos-na-hibridni-avtomobili-v-es",
-      "published": "2026-11-24T12:00:24+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
       "source": "The Guardian – World",
       "title": "Race to replant five South African baobabs after export blocked",
       "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
@@ -1197,6 +1159,25 @@
         "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 30,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaving US",
+      "summary": "Salvadorian man, who was deported in March 2025 and returned to US after supreme court ruling, leaving of own volition for Spain Kilmar Ábrego García is leaving the United States of his own volition, his lawyers confirmed on Tuesday. Ábrego is leaving the US f",
+      "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+      "published": "2026-11-24T23:50:31+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
         "source_reliability": 94
       }
     },
@@ -1236,6 +1217,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов",
+      "summary": "Иван Богоров е енциклопедична личност, каза кметът на община Карлово д-р Емил Кабаиванов. Той бе специален гост на представянето на немскоезичния брой на ЛИК „Печатът – 180 г. от „Български орел“. Премиерата на изданието за литература, изкуство и култура на Бъ",
+      "url": "https://www.bta.bg/bg/news/lik/1253666-ivan-bogorov-e-entsiklopedichna-lichnost-kaza-kmetat-na-obshtina-karlovo-d-r-em",
+      "published": "2026-11-24T21:06:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
