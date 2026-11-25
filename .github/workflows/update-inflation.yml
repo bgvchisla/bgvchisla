@@ -27,7 +27,7 @@ jobs:
       - name: Create scoped automation App token
         id: automation_token
         if: vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID != ''
-        uses: actions/create-github-app-token@f418cff399f7aef2c4f0a2d5e2a7f6aabbdd6fc
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc
         with:
           client-id: ${{ vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID }}
           private-key: ${{ secrets.BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY }}
