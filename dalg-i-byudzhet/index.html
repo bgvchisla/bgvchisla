@@ -182,7 +182,7 @@ td.emph{font-weight:800;color:var(--navy)}
    <thead><tr><th>Показател</th><th>Януари–септември 2026 г.</th><th>Статус</th></tr></thead>
    <tbody id="kfp-table">
     <tr><td>Приходи, помощи и дарения</td><td>33 898,5 млн. €</td><td>Отчет</td></tr>
-    <tr><td>Разходи и вноска в бюджета на ЕС</td><td>37 567,7 млн. €</td><td>Отчет</td></tr>
+    <tr><td>Разходи и вноска в бюджета на ЕС</td><td>37 567,6 млн. €</td><td>Отчет</td></tr>
     <tr><td>Бюджетно салдо</td><td class="delta-negative">−3 669,2 млн. €</td><td>Отчет</td></tr>
     <tr><td>Салдо като дял от прогнозния БВП</td><td class="delta-negative">−2,8%</td><td>Отчет</td></tr>
     <tr><td>Фискален резерв</td><td>8 478,6 млн. €</td><td>Към 30.09.2026 г.</td></tr>
@@ -449,8 +449,25 @@ function barChart(hostId,rows,series,unit){
  });
 }
 function fmtBn(v){return fmt(v/1000,3)+" млрд. €";}
+function renderKfpChart(kfp){
+ var svg=svgBase("kfp-chart","Приходи, разходи и дефицит по КФП към септември 2026 г.");
+ var rows=[
+  {label:"Приходи",value:kfp.revenue_mio_eur,color:"#315f91"},
+  {label:"Разходи",value:kfp.expenditure_mio_eur,color:"#b64b45"},
+  {label:"Дефицит",value:Math.abs(kfp.balance_mio_eur),color:"#a8732e"}
+ ];
+ var W=720,L=145,R=30,max=42000,scale=(W-L-R)/max;
+ rows.forEach(function(row,i){
+  var y=32+i*64;
+  $svg(svg,"text",{x:12,y:y+22},row.label);
+  $svg(svg,"rect",{x:L,y:y,width:Math.max(2,row.value*scale),height:28,rx:4,fill:row.color});
+  $svg(svg,"text",{x:Math.min(W-R,L+row.value*scale+9),y:y+20},fmt(row.value,1));
+ });
+ $svg(svg,"text",{x:L,y:242},"Млн. евро · кумулативно от началото на годината");
+}
 function renderBudget(data){
  var k=data.latest.kfp_reported,oct=data.latest.kfp_preliminary,debt=data.latest.state_debt,central=data.latest.central_government_subsector_debt,guaranteed=data.latest.guaranteed_debt;
+ renderKfpChart(k);
  $("state-debt").textContent=fmtBn(debt.nominal_mio_eur);
  $("oct-deficit").textContent="−"+fmtBn(Math.abs(oct.balance_mio_eur));
  $("sep-deficit").textContent="−"+fmtBn(Math.abs(k.balance_mio_eur));
