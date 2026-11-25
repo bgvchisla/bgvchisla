@@ -18,6 +18,7 @@ from fact_check_analysis import (
     parse_json_response, response_diagnostics, reserve_budget, build_prompt,
 )
 CONFIG = ROOT / "analysis" / "config.json"
+MANUAL_WORKFLOW = ROOT / ".github" / "workflows" / "verify-manual-analysis.yml"
 WORKFLOW = ROOT / ".github" / "workflows" / "generate-analyses.yml"
 VERIFIER = ROOT / "scripts" / "fact_check_analysis.py"
 DISCLOSURE = ROOT / "scripts" / "apply_ai_disclosure.py"
@@ -350,6 +351,23 @@ class VerifierPromptProvenanceTests(unittest.TestCase):
         )
         self.assertIn("Авторският текст е подготвен с помощта на генеративен модел.", prompt)
         self.assertNotIn("GPT-6 Luna", prompt)
+
+
+
+
+class ManualVerifierBudgetProfileTests(unittest.TestCase):
+    def test_single_attempt_profile_reserve_is_exactly_03525_usd(self):
+        config = json.loads(CONFIG.read_text(encoding="utf-8"))
+        workflow = MANUAL_WORKFLOW.read_text(encoding="utf-8")
+        self.assertIn('"maximum_review_input_tokens"] = 350000', workflow)
+        self.assertIn('"maximum_review_output_tokens"] = 24000', workflow)
+        self.assertIn('"review_reasoning_effort"] = "medium"', workflow)
+        reserve = (
+            350000 * float(config["review_input_usd_per_million_until_2026_12_31"])
+            + 24000 * float(config["review_output_usd_per_million_until_2026_12_31"])
+        ) / 1_000_000
+        self.assertAlmostEqual(reserve, 0.3525, places=8)
+        self.assertLessEqual(reserve, 0.3525)
 
 
 if __name__ == "__main__":
