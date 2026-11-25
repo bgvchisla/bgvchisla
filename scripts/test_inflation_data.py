@@ -119,7 +119,7 @@ class InflationImporterTests(unittest.TestCase):
         self.assertEqual(transport["annual_change"], 26.2)
 
     def test_failed_download_does_not_overwrite_last_valid_file(self):
-        original = '{"latest_period":"2026-10","sentinel":"keep"}\\n'
+        original = '{"latest_period":"2026-10","sentinel":"keep"}' + "\n"
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / "inflation.json"
             target.write_text(original, encoding="utf-8")
