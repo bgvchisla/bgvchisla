@@ -1,8 +1,8 @@
 {
   "month": "2026-11",
-  "calls": 3,
-  "spent_usd": 0.62260725,
-  "reserved_usd": 0,
+  "calls": 4,
+  "spent_usd": 1.10260725,
+  "reserved_usd": 0.0,
   "history": [
     {
       "attempt": 1,
@@ -75,6 +75,17 @@
       "official_domain_count": 0,
       "verified_claims": 7,
       "numeric_blocks_verified": 11
+    },
+    {
+      "attempt": 4,
+      "slug": "komisiyata-zatyaga-fiskalniya-natisk-defitsit-5-procenta",
+      "model": "gemini-3.8-flash",
+      "method": "URL Context direct retrieval",
+      "timestamp_utc": "2026-11-25T07:46:08.566320+00:00",
+      "reserved_usd": 0.48,
+      "status": "error_unknown_cost",
+      "estimated_cost_usd": 0.48,
+      "error": "TimeoutError"
     }
   ],
   "retrieved_urls": 0,
