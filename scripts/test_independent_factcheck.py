@@ -15,7 +15,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from fact_check_analysis import (
     accumulate_usage_totals, calculate_billable_usage, evidence_urls_are_retrieved,
     extract_numeric_statements, extract_retrieval_metadata, normalized_domain,
-    parse_json_response, response_diagnostics, reserve_budget,
+    parse_json_response, response_diagnostics, reserve_budget, build_prompt,
 )
 CONFIG = ROOT / "analysis" / "config.json"
 WORKFLOW = ROOT / ".github" / "workflows" / "generate-analyses.yml"
@@ -335,6 +335,21 @@ def main() -> int:
     if args.report:
         validate_report(Path(args.report))
     return 0
+
+
+
+
+class VerifierPromptProvenanceTests(unittest.TestCase):
+    def test_prompt_does_not_assume_gpt6_luna_authoring(self):
+        prompt = build_prompt(
+            {"title": "Тестов анализ", "lane": "bulgaria"},
+            "Кратък примерен текст за независима проверка.",
+            ["https://example.com/primary-source"],
+            [{"item_id": "N01", "statement": "2.5% ръст през третото тримесечие"}],
+            [],
+        )
+        self.assertIn("Авторският текст е подготвен с помощта на генеративен модел.", prompt)
+        self.assertNotIn("GPT-6 Luna", prompt)
 
 
 if __name__ == "__main__":

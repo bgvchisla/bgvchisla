@@ -23,6 +23,7 @@ on:
       - ".github/workflows/generate-analyses.yml"
       - ".github/workflows/approve-analysis.yml"
       - ".github/workflows/audit-analysis-evidence.yml"
+      - ".github/workflows/verify-manual-analysis.yml"
       - "news.json"
       - "official_fiscal.json"
       - "official_bnb.json"
@@ -170,17 +171,46 @@ jobs:
           }
           audit_control = {
               ".github/workflows/audit-analysis-evidence.yml",
+              ".github/workflows/verify-manual-analysis.yml",
               "scripts/test_analysis_publication.py",
+              "scripts/test_independent_factcheck.py",
+              "scripts/fact_check_analysis.py",
           }
           allowed = required | audit_control
           ledger_only = required.issubset(changed) and changed.issubset(allowed)
+          verification_ledger_only = changed == {"analysis/verification_usage.json"}
           audit_policy_only = audit_control.issubset(changed) and changed.issubset(audit_control)
-          skip_preflight = event_name == "push" or ledger_only or audit_policy_only
+
+          manual_branch = os.environ.get("GITHUB_HEAD_REF", "")
+          article_pages = {
+              path for path in changed
+              if path.startswith("analizi/") and path.endswith("/index.html") and path.count("/") == 2
+          }
+          manual_article_files = {
+              "analizi/articles.json",
+              "analizi/index.html",
+              "sitemap.xml",
+              "analysis/factcheck_report.json",
+              "analysis/verification_usage.json",
+          }
+          manual_article_only = (
+              event_name == "pull_request"
+              and manual_branch.startswith("editorial/manual-bulgaria-")
+              and len(article_pages) == 1
+              and manual_article_files.issubset(changed)
+              and changed.issubset(manual_article_files | article_pages)
+          )
+          skip_preflight = (
+              event_name == "push" or ledger_only or verification_ledger_only
+              or audit_policy_only or manual_article_only
+          )
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip_preflight={'true' if skip_preflight else 'false'}\n")
           print(f"Променени файлове: {sorted(changed)}")
           print(f"Изолиран счетоводен PR: {ledger_only}")
           print(f"Промяна само в одитната политика: {audit_policy_only}")
+          print(f"Само проверен ръчен анализ: {manual_article_only}")
+          print(f"Само счетоводен Gemini ledger: {verification_ledger_only}")
           print(f"Пропускане на preflight: {skip_preflight}")
           PY
 
@@ -221,6 +251,7 @@ jobs:
                 startsWith(github.head_ref, 'automation/analysis-usage-ledger-') ||
                 startsWith(github.head_ref, 'automation/gemini-output-capacity-') ||
                 startsWith(github.head_ref, 'automation/independent-ai-factcheck-') ||
+                startsWith(github.head_ref, 'editorial/manual-bulgaria-') ||
                 startsWith(github.head_ref, 'automation/gemini-billing-regression-') ||
                 startsWith(github.head_ref, 'automation/fix-chart-numeric-') ||
                 startsWith(github.head_ref, 'fix/debt-counter-') ||
@@ -243,6 +274,7 @@ jobs:
                 startsWith(github.ref_name, 'automation/analysis-usage-ledger-') ||
                 startsWith(github.ref_name, 'automation/gemini-output-capacity-') ||
                 startsWith(github.ref_name, 'automation/independent-ai-factcheck-') ||
+                startsWith(github.ref_name, 'editorial/manual-bulgaria-') ||
                 startsWith(github.ref_name, 'automation/gemini-billing-regression-') ||
                 startsWith(github.ref_name, 'automation/fix-chart-numeric-') ||
                 startsWith(github.ref_name, 'fix/debt-counter-') ||
@@ -268,7 +300,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*) ;;
+            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
