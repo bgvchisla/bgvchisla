@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T12:44:29.077547+00:00",
-  "last_checked_at": "2026-11-25T12:44:29.077560+00:00",
+  "updated_at": "2026-11-25T14:00:44.105535+00:00",
+  "last_checked_at": "2026-11-25T14:00:44.105548+00:00",
   "items": [
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Бюджетът на ДОО за 2027 г. повишава пенсии и осигурителни плащания, подкрепя безработните и семействата с деца, каза министър Наталия Ефремова",
-      "summary": "Бюджетът на държавното обществено осигуряване (ДОО) за 2027 г. няма да реши всички проблеми в осигурителната система, но той прави важни стъпки - повишава пенсиите и осигурителните плащания, подкрепя безработните и семействата с деца, създава по-добри условия",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254108-byudzhetat-na-doo-za-2027-g-povishava-pensii-i-osiguritelni-plashtaniya-podkre",
-      "published": "2026-11-25T12:11:00+00:00",
+      "title": "Парламентът прие на първо четене проектобюджета на държавното обществено осигуряване за 2027 г.",
+      "summary": "Парламентът прие на първо четене Законопроекта за бюджета на държавното обществено осигуряване (ДОО) за 2027 г. със 123 гласа \"за\", 46 \"против\" и 32 гласа \"въздържал се\". Проектобюджета на ДОО подкрепиха само управляващите от \"Прогресивна България\". От групата",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254260-parlamentat-prie-na-parvo-chetene-proektobyudzheta-na-darzhavnoto-obshtestveno-o",
+      "published": "2026-11-25T13:49:03+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 54,
+      "priority_score": 52,
       "priority_breakdown": {
-        "economic_significance": 68,
-        "national_impact": 61,
-        "household_business_impact": 42,
+        "economic_significance": 48,
+        "national_impact": 87,
+        "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -81,6 +81,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Меморандум за сътрудничество с Албания в областта на енергетиката прие правителството",
+      "summary": "Меморандум за разбирателство между енергийните министерства на България и Албания прие на редовно заседание Министерският съвет, съобщиха от правителствената информационна пресслужба. Меморандумът предвижда насърчаване на енергийната свързаност между двете стр",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254265-memorandum-za-satrudnichestvo-s-albaniya-v-oblastta-na-energetikata-prie-pravite",
+      "published": "2026-11-25T13:57:20+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 44,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Скъпият ток засега компенсира увеличените разходи за газ на топлофикациите",
       "summary": "",
@@ -96,25 +115,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 25th, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-midday",
-      "published": "2026-11-25T11:00:15+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
       }
     },
     {
@@ -157,6 +157,25 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 25th, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-midday",
+      "published": "2026-11-25T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Germany news: 'We can no longer afford everything,' Merz says",
       "summary": "The German chancellor has warned tax revenue means a tighter budget for 2027 and beyond. Meanwhile, President Steinmeier is in Kenya for the final leg of his Africa tour. DW has more.",
@@ -195,25 +214,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "The rising cost of putting food on the table in India",
-      "summary": "India's food inflation is broadening, squeezing household budgets.",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T01:02:13+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Daily News 24/ 11 / 2026",
       "summary": "European Commission Daily news Brussels, 24 Nov 2026 Commission calls for joint EU efforts to reduce tax gaps and boost public finances Today, the European Commission published its Mind the Gap 2026 Communication,...",
@@ -229,6 +229,25 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "The rising cost of putting food on the table in India",
+      "summary": "India's food inflation is broadening, squeezing household budgets.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T01:02:13+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -251,25 +270,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Близо 530 000 души от уязвимите групи подкрепя държавата за коледните празници",
-      "summary": "Правителството прие постановление за одобряване на допълнителни разходи до 30 млн. евро по бюджета на Министерството на труда и социалната политика за 2026 г., съобщиха от пресслужбата на Министерския съвет. Средствата ще се използват за изплащане на новата це",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254143-blizo-530-000-dushi-ot-uyazvimite-grupi-podkrepya-darzhavata-za-kolednite-prazni",
-      "published": "2026-11-25T12:38:53+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "Von der Leyen: Energy ceasefire would show Putin is serious about peace talks",
@@ -286,6 +286,25 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 92
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Инфлацията в САЩ се е ускорила до 3,8% през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440070-inflatsiyata-v-sasht-se-e-uskorila-do-38-prez-oktomvri",
+      "published": "2026-11-25T13:54:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -322,7 +341,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -347,25 +366,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Със спор има ли пари за профилактика бюджетът на НЗОК мина на първо четене",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440057-sas-spor-ima-li-pari-za-profilaktika-byudzhetat-na-nzok-mina-na-parvo-chetene",
-      "published": "2026-11-25T11:30:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Благотворителна изложба-живопис на художника Георги Василев беше открита в Народното събрание",
       "summary": "",
@@ -381,6 +381,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет на Община Добричка одобри промени в програмата за капиталови разходи за 2026 година",
+      "summary": "Вътрешни компенсирани промени в разпределението на целевата субсидия и в програмата за капиталови разходи на oбщина Добричка за 2026 година, актуализации на програмата за управление на общинската собственост и приемане на Етичен кодекс на общинския съветник бя",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254239-obshtinskiyat-savet-na-obshtina-dobrichka-odobri-promeni-v-programata-za-kapital",
+      "published": "2026-11-25T13:36:03+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -443,17 +462,17 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Производството на авиационни двигатели в Пловдив е първата голяма инвестиция на \"Тусаш\" в чужбина, обяви посланикът на Турция в България Мехмет Саит Уянък",
-      "summary": "Производството на авиационни двигатели в Пловдив е първата голяма и много важна инвестиция на \"Тусаш\" в чужбина. Това каза посланикът на Турция в България Мехмет Саит Уянък на брифинг в Министерския съвет, след като вицепремиерът и министър на икономиката Алек",
-      "url": "https://www.bta.bg/bg/news/economy/1254071-proizvodstvoto-na-aviatsionni-dvigateli-v-plovdiv-e-parvata-golyama-investitsiya",
-      "published": "2026-11-25T11:59:00+00:00",
+      "title": "Общо 34 свободни работни места за висшисти обяви Бюрото по труда в Пазарджик",
+      "summary": "Общо 34 са обявените свободни работни места за специалисти с висше образование в Пазарджик. Вакантните позиции са в различни професионални направления, сред които медицина, образование, социални дейности, счетоводство и инженерни специалности. Това съобщиха от",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254268-obshto-34-svobodni-rabotni-mesta-za-visshisti-obyavi-byuroto-po-truda-v-pazardzh",
+      "published": "2026-11-25T13:55:22+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 36,
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
+        "national_impact": 22,
+        "household_business_impact": 42,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -461,40 +480,40 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Новите данъчни облекчения за деца ще включват и медицински прегледи",
-      "summary": "Новите данъчни облекчения за детско развитие да важат за културни дейности и за медицински прегледи, в т.ч. профилактика, диагностика, лечение, дентална помощ и пр. Това приеха депутатите в парламентарната Комисия по бюджет и финанси при разглеждането на второ",
-      "url": "https://www.economic.bg/bg/a/view/novite-danychni-oblekchenija-za-deca-shte-vkluchvat-i-medicinski-pregledi",
-      "published": "2026-11-24T10:59:50+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 36,
+      "source": "БТА",
+      "title": "На Никулден Община Ловеч по традиция ще осигури на гражданите безплатна рибена чорба",
+      "summary": "На Никулден – 6 декември, Община Ловеч по традиция ще осигури на гражданите безплатна рибена чорба, съобщи кметът Страцимир Петков. Тя ще бъде осветена от отец Михаил Ковачев след светата литургия за празника и раздадена пред катедралния храм „Св. св. Кирил и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254259-na-nikulden-obshtina-lovech-po-traditsiya-shte-osiguri-na-grazhdanite-bezplatna-",
+      "published": "2026-11-25T13:48:21+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "МФ подготвя актуализация на данъчните преференции",
-      "summary": "Министерството на финансите (МФ) подготвя цялостна актуализация на данъчните преференции. Това стана ясно по време на второто четене на промените в данъчните закони за 2027 г. в парламентарната Комисия по бюджет и финанси. На него заместник-министърът на финан",
-      "url": "https://www.economic.bg/bg/a/view/mf-podgotvja-aktualizacija-na-danychnite-preferencii",
-      "published": "2026-11-24T10:30:35+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 36,
+      "source": "БТА",
+      "title": "Русенският университет организира състезание по финансова грамотност за ученици",
+      "summary": "Национално състезание по финансова грамотност за ученици „Анализирай това\" организира катедра „Приложна математика и статистика\" към факултет „Природни науки и образование\" на Русенския университет. Това съобщи Виктория Иванова от висшето училище в крайдунавск",
+      "url": "https://www.bta.bg/bg/news/lik/1254263-rusenskiyat-universitet-organizira-sastezanie-po-finansova-gramotnost-za-uchenit",
+      "published": "2026-11-25T13:58:48+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -506,13 +525,13 @@
       "published": "2026-11-25T10:35:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 35,
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 95
       }
     },
@@ -580,25 +599,6 @@
       "summary": "The United States is reportedly readying fresh tariffs on India and 15 other economies under a trade probe. Also, a woman was allegedly gangraped by her colleagues in the national capital. Follow live.",
       "url": "https://www.dw.com/en/india-news-us-prepares-new-tariffs-after-trade-probe/live-80042306?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-25T04:44:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
-      "summary": "Huawei was found guilty of 10 out of 12 charges levelled against it. The company said it plans to appeal the verdict.",
-      "url": "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T02:01:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
       "priority_score": 34,
@@ -708,6 +708,25 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU plans €50 billion sovereign tech equity fund to boost quantum technology",
+      "summary": "The European Commission proposed a tech fund with a target size of €50 billion to boost quantum computing efforts. The bloc aims to keep up with the US and China in the global race.",
+      "url": "https://www.dw.com/en/eu-plans-€50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology/a-80047569?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T13:44:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "Investor.bg – Финанси",
       "title": "Испания удължава срока на данъка върху извънредните печалби на банките до 2027 г.",
       "summary": "",
@@ -746,25 +765,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Irish plan offers Burnham breakthrough on Made in Europe",
-      "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations The UK would not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that could prove another breakthrough",
-      "url": "https://www.theguardian.com/business/2026/nov/24/uk-eu-made-in-europe-trade-cars-tariffs",
-      "published": "2026-11-24T16:09:12+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Russia to build Kaliningrad exclave rail ferries, citing transport 'blockade'",
       "summary": "The ferries, due in 2030 and costing around 50 billion roubles, will run between Baltiysk and Ust-Luga and be built in occupied Crimea. Most freight to Kaliningrad has already moved to sea routes, since Lithuania and Poland restricted transit after the 2022 in",
@@ -780,6 +780,101 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 20 000 тона RDF са предадени за оползотворяване за три месеца от столичното предприятие за отпадъци, предстои модернизация на завода",
+      "summary": "Над 20 000 тона RDF са предадени за оползотворяване от август до 29 октомври, стана ясно при направена от кмета на София Васил Терзиев инспекция в Столичното предприятие за третиране на отпадъци (СПТО), съобщават от пресцентъра на Столичната община. Целта на п",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254190-nad-20-000-tona-rdf-sa-predadeni-za-opolzotvoryavane-za-tri-mesetsa-ot-stolichno",
+      "published": "2026-11-25T13:46:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Меморандум с Турция за нов съвместен граничен контролно-пропускателен пункт „Капитан Андреево - Капъкуле - Север“ одобри правителството",
+      "summary": "Министерският съвет одобри проект на Меморандум за разбирателство между правителството на България и правителството на Турция за решаване на въпросите, свързани с граничните контролно-пропускателни пунктове между двете държави и откриване на нов граничен контр",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254241-memorandum-s-turtsiya-za-nov-savmesten-granichen-kontrolno-propuskatelen-punkt-",
+      "published": "2026-11-25T13:36:26+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "България ще участва в специалното заседание на Европейския съвет в Брюксел на 26 и 27 ноември",
+      "summary": "Министерският съвет одобри позицията на България за участие в специалното заседание на Европейския съвет, което ще се състои на 26 и 27 ноември 2026 г. в гр. Брюксел, Кралство Белгия, съобщиха от пресслужбата на кабинета. Лидерите ще обменят виждания по Многог",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254213-balgariya-shte-uchastva-v-spetsialnoto-zasedanie-na-evropeyskiya-savet-v-bryukse",
+      "published": "2026-11-25T13:19:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Принудителният брак и сурогатното майчинство да се включат във формите на експлоатация при трафика на хора, предвиждат одобрени от кабинета промени в НК",
+      "summary": "Принудителният брак, сурогатното майчинство и незаконното осиновяване се включват сред формите на експлоатация при трафика на хора в законопроекта за промени в Наказателния кодекс (НК), приет от Министерския съвет днес. Това съобщиха от правителствената прессл",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254174-prinuditelniyat-brak-i-surogatnoto-maychinstvo-da-se-vklyuchat-vav-formite-na-ek",
+      "published": "2026-11-25T13:16:44+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "\"Булгаргаз\" поиска \"Топлофикация София\" да признае 302 млн. евро дълг с изтичаща давност",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/440062-bulgargaz-poiska-toplofikatsiya-sofiya-da-priznae-302-mln-evro-dalg-s-iztichashta-davnost",
+      "published": "2026-11-25T13:00:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -802,44 +897,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Комисията по околната среда гласува да бъдат обединени в общ проект за второ четене трите законопроекта за промени в Закона за водите",
-      "summary": "Парламентарната комисия по околната среда и водите гласува да бъдат обединени в общ проект за второ четене три законопроекта за промени в Закона за водите, приети на първо четене от парламента. Става въпрос за два законопроекта, внесени от Министерския съвет н",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254021-komisiyata-po-okolnata-sreda-glasuva-da-badat-obedineni-v-obsht-proekt-za-vtoro-",
-      "published": "2026-11-25T11:56:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Serafin during the European Parliament debate Unlocking the 2028–2034 MFF negotiations including new own resources following the revised negotiating box in Strasbourg",
-      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Opening remarks Honourable members, dear rapporteurs, Many thanks for organising this debate at very timely moment. Let me start by stressing that the Commissio...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2585",
-      "published": "2026-11-25T10:31:44+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 100,
-        "source_reliability": 99
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
@@ -856,63 +913,6 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "The EU’s increasingly impossible budget arithmetic",
-      "summary": "Good morning. Leo Cendrowicz here with your Tuesday newsletter. Today, ominous signs for the EU’s budget negotiations, a breakdown of the latest Russia sanctions package, and Chinese spies and hackers back in the news.",
-      "url": "https://www.euronews.com/2026/11/24/the-eus-increasingly-impossible-budget-arithmetic",
-      "published": "2026-11-24T07:27:37+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Uganda minister at COP31: 'We need a just transition'",
-      "summary": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
-      "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T13:18:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP deadlock prompts calls for a reset of climate diplomacy",
-      "summary": "COP31 has been branded a failure after countries couldn't reach a final agreement, divided over a reference to \"fossil fuels.\" But was the decision to walk away from a watered-down text actually a show of strength?",
-      "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T13:03:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 95
       }
     },
     {
@@ -949,8 +949,27 @@
         "national_impact": 22,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Serafin during the European Parliament debate Unlocking the 2028–2034 MFF negotiations including new own resources following the revised negotiating box in Strasbourg",
+      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Opening remarks Honourable members, dear rapporteurs, Many thanks for organising this debate at very timely moment. Let me start by stressing that the Commissio...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2585",
+      "published": "2026-11-25T10:31:44+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 92,
+        "source_reliability": 99
       }
     },
     {
@@ -1013,6 +1032,44 @@
     {
       "section": "europe",
       "source": "POLITICO Europe",
+      "title": "The EU’s showdown over next big budget — live updates",
+      "summary": "Governments are divided over the size of the long-term budget, and on how to spend the money.",
+      "url": "https://www.politico.eu/article/the-eus-showdown-over-next-big-budget-live-updates/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T13:33:28+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Трудно ще се прецизира бюджетът между двете четения, най-добре е да се изтегли, каза Георги Георгиев от \"Възраждане\"",
+      "summary": "Доста трудно може да се прецизира бюджетът между първо и второ четене, най-добре е да се изтегли и да се покажат политики на реални реформи в него, а не просто да се правят същите политики, които правеха ГЕРБ и ДПС години наред. Това каза Георги Георгиев от „В",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254229-trudno-shte-se-pretsizira-byudzhetat-mezhdu-dvete-cheteniya-nay-dobre-e-da-se-i",
+      "published": "2026-11-25T13:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
       "title": "Parliament clears 7 EU budget files for negotiations",
       "summary": "The vote headed off a possible challenge from the far right.",
       "url": "https://www.politico.eu/article/parliament-clears-seven-eu-budget-files-for-negotiations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1046,44 +1103,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Дарителската кампания „От дом на дом, от сърце на сърце“ започва за осма поредна година в Шабла",
-      "summary": "За осма поредна година в Шабла се организира дарителската кампания „От дом на дом, от сърце на сърце“, насочена към хора в неравностойно положение, които ще получат хранителни продукти и подкрепа за предстоящите коледни и новогодишни празници, съобщиха от общи",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254087-daritelskata-kampaniya-ot-dom-na-dom-ot-sartse-na-sartse-zapochva-za-osma-por",
-      "published": "2026-11-25T11:54:31+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU Commission warns budget cuts will leave governments worse off",
-      "summary": "Budget Commissioner Piotr Serafin said the proposal on the table is lower than the current budget.",
-      "url": "https://www.politico.eu/article/eu-commission-warns-budget-cuts-will-leave-governments-worse-off/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T10:24:30+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
       }
     },
     {
@@ -1125,12 +1144,107 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Uganda minister at COP31: 'We need a just transition'",
+      "summary": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
+      "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T13:18:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 50,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "COP deadlock prompts calls for a reset of climate diplomacy",
+      "summary": "COP31 has been branded a failure after countries couldn't reach a final agreement, divided over a reference to \"fossil fuels.\" But was the decision to walk away from a watered-down text actually a show of strength?",
+      "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T13:03:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 50,
+        "source_reliability": 95
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Млади театрали с ръководител Мая Кулева ще представят в Общинския младежки дом в Шумен премиерно спектакъла „Сако от велур“",
-      "summary": "Неформалната младежка група за театрално творчество „Слънчеви усмивки“ и едноименната театрална работилница, ръководени от Мая Кулева, ще представят на 30 ноември в Шумен премиерата на спектакъла си по пиесата на Станислав Стратиев „Сако от велур“. Това съобщи",
-      "url": "https://www.bta.bg/bg/news/lik/1254137-mladi-teatrali-s-rakovoditel-maya-kuleva-shte-predstavyat-v-obshtinskiya-mladezh",
-      "published": "2026-11-25T12:39:33+00:00",
+      "title": "Фестивалът „Сурва“ беше представен на форум за маскарадните традиции в Мексико",
+      "summary": "Международният фестивал на маскарадните игри „Сурва“ в Перник е бил представен в рамките на шестото издание на Националния фестивал на танцуващите маски (Festival Nacional Máscaras Danzantes), състояло се от 13 до 15 ноември в град Орисаба, в мексиканския щат",
+      "url": "https://www.bta.bg/bg/news/lik/1254222-festivalat-surva-beshe-predstaven-na-forum-za-maskaradnite-traditsii-v-meksiko",
+      "published": "2026-11-25T13:58:24+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Книгата на Георги Прохаски „Отворено общество в България“ разказва от първо лице за началните години на прехода",
+      "summary": "Книгата „Отворено общество в България“ от Георги Прохаски разказва от първо лице за началните години на прехода, съобщиха издателите от „Книгомания“. Мемоарното издание проследява създаването на фондация „Отворено общество“ у нас и ролята ѝ в демократичните пр",
+      "url": "https://www.bta.bg/bg/news/lik/1254208-knigata-na-georgi-prohaski-otvoreno-obshtestvo-v-balgariya-razkazva-ot-parvo-l",
+      "published": "2026-11-25T13:30:23+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "САЩ предлагат нови мита за 14 търговски партньори, включително Китай и ЕС",
+      "summary": "САЩ предложиха нови, по-високи мита за вноса от 14 търговски партньори, сред които Китай, Европейският съюз, Япония и Индия. Президентът Доналд Тръмп продължава да залага на тарифната си политика, въпреки че значителна част от въведените по-рано от него мита б",
+      "url": "https://www.economic.bg/bg/a/view/sa-sht-predlagat-novi-mita-za-14-tyrgovski-partniori-vkluchitelno-kitaj-i-es",
+      "published": "2026-11-25T13:28:02+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в община Добричка даде съгласие паметникът на Стефан Караджа в едноименното село да бъде обновен",
+      "summary": "Общинският съвет в община Добричка даде съгласие съществуващият паметник на Стефан Караджа в едноименното село да бъде обновен, като бюстът бъде заменен със скулптурна фигура в цял ръст. Предвижда се тя да бъде поставена върху съществуващия постамент. Предложе",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254217-obshtinskiyat-savet-v-obshtina-dobrichka-dade-saglasie-pametnikat-na-stefan-kara",
+      "published": "2026-11-25T13:21:12+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1164,40 +1278,21 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Симфониета Шумен отбелязва годишнина от рождението на Моцарт с изпълнение на неговия „Реквием“ и концерт",
-      "summary": "Симфониета Шумен ще изнесе концерт, посветен на Волфганг Амадеус Моцарт, на 28 ноември от 18:35 ч. в зала \"Проф. Венета Вичева\". Солисти ще бъдат Стефани Кръстева - сопран, Биляна Михайлова - мецосопран, Георги Султанов - тенор и Георги Бейков – бас, съобщиха",
-      "url": "https://www.bta.bg/bg/news/lik/1254107-simfonieta-shumen-otbelyazva-godishnina-ot-rozhdenieto-na-motsart-s-izpalnenie-n",
-      "published": "2026-11-25T12:20:16+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "source": "Investor.bg – Финанси",
+      "title": "Със спор има ли пари за профилактика бюджетът на НЗОК мина на първо четене",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440057-sas-spor-ima-li-pari-za-profilaktika-byudzhetat-na-nzok-mina-na-parvo-chetene",
+      "published": "2026-11-25T11:30:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Пианистът Петер Бенце ще гостува в НДК през май 2027 г.",
-      "summary": "Унгарският пианист и композитор Петер Бенце ще изнесе концерт в зала 1 на Националния дворец на културата в София на 17 май 2027 г., съобщават организаторите. Бенце започва да композира на седемгодишна възраст, вдъхновен от Моцарт и Шопен. На 11 години издава",
-      "url": "https://www.bta.bg/bg/news/lik/1254099-pianistat-peter-bentse-shte-gostuva-v-ndk-prez-may-2027-g-",
-      "published": "2026-11-25T12:12:20+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "source_reliability": 87
       }
     },
     {
@@ -1215,19 +1310,19 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Петролът поевтинява с над 1% заради покачването на предлагането*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/440037-petrolat-poevtinyava-s-nad-1-zaradi-pokachvaneto-na-predlaganeto",
-      "published": "2026-11-25T07:32:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU Commission warns budget cuts will leave governments worse off",
+      "summary": "Budget Commissioner Piotr Serafin said the proposal on the table is lower than the current budget.",
+      "url": "https://www.politico.eu/article/eu-commission-warns-budget-cuts-will-leave-governments-worse-off/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T10:24:30+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
       "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -1235,109 +1330,19 @@
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
-      "summary": "Ábrego García's deportation to El Salvador and return to the US became a flashpoint in the debate over President Donald Trump's immigration agenda.",
-      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T12:42:11+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
-      "summary": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm.",
-      "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T12:20:17+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
-      "summary": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
-      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T11:45:16+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Indian Cockroach movement leader asks court for permission to fly to UK",
-      "summary": "Officials at Delhi airport stopped Saurav Das from boarding flight to Britain, where students have invited him to speak A leader of India’s youth-led Cockroach movement has asked the Delhi high court to give him permission to fly to the UK after immigration of",
-      "url": "https://www.theguardian.com/world/2026/nov/25/indian-cockroach-movement-leader-asks-court-for-permission-to-fly-to-uk",
-      "published": "2026-11-25T11:15:35+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU Commission failed to deliver cage ban, court finds",
-      "summary": "The European Commission must now set a timeline for phasing out cages for calves, rabbits, ducks and other farmed animals.",
-      "url": "https://www.politico.eu/article/european-commission-fail-cage-ban-general-court/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T11:13:10+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
         "source_reliability": 92
       }
     }
   ],
   "feed_status": {
-    "ok": 21,
+    "ok": 20,
     "total": 21,
-    "failures": []
+    "failures": [
+      {
+        "feed": "commission-press",
+        "error": "The read operation timed out"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
