@@ -1,8 +1,8 @@
 {
   "month": "2026-11",
-  "calls": 4,
-  "spent_usd": 1.10260725,
-  "reserved_usd": 0.0,
+  "calls": 6,
+  "spent_usd": 1.35872925,
+  "reserved_usd": 0,
   "history": [
     {
       "attempt": 1,
@@ -86,6 +86,52 @@
       "status": "error_unknown_cost",
       "estimated_cost_usd": 0.48,
       "error": "TimeoutError"
+    },
+    {
+      "attempt": 5,
+      "workflow_run_id": 45577157414,
+      "slug": "komisiyata-zatyaga-fiskalniya-natisk-defitsit-5-procenta",
+      "model": "gemini-3.8-flash",
+      "method": "URL Context direct retrieval",
+      "timestamp_utc": "2026-11-25T08:32:25.713+00:00",
+      "reserved_usd": 0.3525,
+      "status": "completed",
+      "actual_cost_usd": 0.1479045,
+      "cost_basis": "provider usage metadata summarized by verifier output; per-token fields were not persisted",
+      "verdict": "REVIEW",
+      "model_verdict": "REVIEW",
+      "retrieved_source_count": 4,
+      "candidate_source_count": 5,
+      "official_domain_count": 2,
+      "verified_claims": 0,
+      "claims_reported": 8,
+      "numeric_blocks_found": 17,
+      "numeric_blocks_verified": 0,
+      "usage_metadata_available": false,
+      "retrieval_details_available": false,
+      "ledger_persistence": "The run printed its exact cost and REVIEW summary, but its attempt to push the ledger/report failed with a non-fast-forward rejection after a concurrent branch update. This reconciliation records the charge from the verifier's output; per-token metadata and its full report were not retained by the workflow."
+    },
+    {
+      "attempt": 6,
+      "slug": "komisiyata-zatyaga-fiskalniya-natisk-defitsit-5-procenta",
+      "model": "gemini-3.8-flash",
+      "method": "URL Context direct retrieval",
+      "timestamp_utc": "2026-11-25T08:34:40.589023+00:00",
+      "reserved_usd": 0.3525,
+      "status": "completed",
+      "prompt_tokens": 11108,
+      "tool_input_tokens": 40752,
+      "candidate_output_tokens": 8125,
+      "thinking_output_tokens": 10361,
+      "billed_input_tokens": 51860,
+      "billed_output_tokens": 18486,
+      "actual_cost_usd": 0.1082175,
+      "verdict": "REVIEW",
+      "retrieved_source_count": 4,
+      "official_domain_count": 2,
+      "verified_claims": 0,
+      "numeric_blocks_verified": 0,
+      "workflow_run_id": 45577241594
     }
   ],
   "retrieved_urls": 0,
@@ -94,6 +140,7 @@
   "usage_metadata_complete": false,
   "retrieval_count_complete": false,
   "notes": [
+    "Two Gemini URL Context runs were started for the 2026-11-25 Bulgarian analysis due to a queued duplicate workflow. Run 45577157414 cost USD 0.1479045 and returned REVIEW (0/8 accepted claims, 0/17 numeric blocks, 4/5 sources, 2 official domains); its ledger/report push was rejected by a non-fast-forward update, so token-level details were not retained. Run 45577241594 cost USD 0.1082175 and recorded full usage metadata; it also returned REVIEW because the Ministry of Finance URL was unavailable. Both calls are recorded separately. Combined actual cost for these two runs was USD 0.256122, below the approved USD 0.3525 cap, but the second run was an unintended duplicate.",
     "The second URL Context verification attempt recorded full token metadata. The first attempt's token and retrieval metadata remain unavailable, so the aggregate metadata is intentionally marked incomplete.",
     "Workflow run 45420458512 (2026-11-24): GPT generation failed before the independent verifier; Gemini URL Context was skipped and no Gemini API request or charge occurred.",
     "Workflow run 45427494672 (2026-11-24): GPT generation stopped at the minimum-section validation (Too few sections); independent Gemini URL Context was skipped and no Gemini API request or charge occurred."
