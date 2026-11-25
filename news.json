@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T16:56:07.928725+00:00",
-  "last_checked_at": "2026-11-25T16:56:07.928737+00:00",
+  "updated_at": "2026-11-25T17:42:12.241948+00:00",
+  "last_checked_at": "2026-11-25T17:42:12.241960+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -20,6 +20,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Вечерни новини: „Ивкони“ наема имоти и жп коловози от БДЖ; Кой стои зад поредния завод за барут?",
+      "summary": "Нова високотехнологична инвестиция идва в България – турската TEI ще вложи 90 млн. долара в завод за авиочасти в Пловдив, който ще осигури 170 работни места. Междувременно страната прави поредна стъпка към изграждането на втори граничен пункт при Капитан Андре",
+      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-ivkoni-naema-imoti-i-jp-kolovozi-ot-bdj-koj-stoi-zad-porednija-zavod-za-barut",
+      "published": "2026-11-25T16:30:24+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 54,
+      "priority_breakdown": {
+        "economic_significance": 68,
+        "national_impact": 61,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
       }
     },
     {
@@ -81,25 +100,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вятърната енергия има потенциал да свали цените на тока в България",
-      "summary": "По-ниски и предвидими цени на електроенергията, по-конкурентоспособна индустрия, по-висока енергийна независимост и по-балансирана електроенергийна система. Около тези основни ползи от развитието на вятърната енергия в България се обединиха представители на би",
-      "url": "https://www.economic.bg/bg/a/view/vjatyrnata-energija-ima-potencial-da-svali-cenite-na-toka-v-bylgarija",
-      "published": "2026-11-25T14:09:19+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 47,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "БТА",
       "title": "Необходимостта от всеобхватен подход към сигурността, каза заместник-министърът на външните работи Иванка Ташева на конференция в Берлин",
       "summary": "Необходимостта от всеобхватен подход към сигурността, който наред с инвестициите в отбраната включва укрепване на обществената устойчивост, защита на критичната инфраструктура и повишаване на институционалната готовност за реакция при кризи, подчерта заместник",
@@ -115,6 +115,25 @@
         "strategic_significance": 54,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 25th, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-evening",
+      "published": "2026-11-25T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
       }
     },
     {
@@ -252,25 +271,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 25th, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-morning",
-      "published": "2026-11-25T06:00:33+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "The rising cost of putting food on the table in India",
       "summary": "India's food inflation is broadening, squeezing household budgets.",
@@ -286,6 +286,44 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Bank for International Settlements (BIS)",
+      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
+      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bis-press",
+      "publisher": "BIS",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Don’t ‘backslide’ on defense spending, senior US lawmaker tells Europe",
+      "summary": "Brendan Boyle said the EU needs to keep investing in defense amid fraught seven-year budget talks.",
+      "url": "https://www.politico.eu/article/dont-backslide-on-defense-spending-senior-us-lawmaker-tells-europe-brendan-boyle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T17:25:37+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 92
       }
     },
     {
@@ -305,44 +343,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "С нов фонд за €50 млрд. Европа ще опита да навакса технологичното си изоставане",
-      "summary": "Европа разполага с една трета от квантовите компании в света, но привлича над шест пъти по-малко частен капитал в сектора от САЩ. Брюксел опитва да промени това с нов инвестиционен фонд и преференции за европейския бизнес",
-      "url": "https://www.economic.bg/bg/a/view/s-nov-fond-za-50-mlrd-evropa-shte-opita-da-navaksa-tehnologichnoto-si-izostavane",
-      "published": "2026-11-25T11:59:41+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "EС няма да се върне към руските енергийни ресурси",
-      "summary": "ЕС никога няма да се върне към руските енергийни ресурси, независимо от резултата от преговорите между Вашингтон и Москва, заяви пред Euronews еврокомисарят по енергетиката Дан Йоргенсен. В предаването On the Record with Maria Tadeo Йоргенсен определи Русия ка",
-      "url": "https://www.economic.bg/bg/a/view/es-njama-da-se-vyrne-kym-ruskite-energijni-resursi",
-      "published": "2026-11-25T09:46:06+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
       }
     },
     {
@@ -386,19 +386,38 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Българите трупат по около 60 евро месечно за втора пенсия",
-      "summary": "Общият размер на нетните активи във фондовете, управлявани от пенсионноосигурителните дружества, е около 17.3 млрд. евро към края на септември 2026 г., сочат данни на Комисията за финансов надзор (КФН). Българите, участващи в тези фондове са около 5.2 млн. Най",
-      "url": "https://www.economic.bg/bg/a/view/bylgarite-trupat-po-okolo-60-evro-mesechno-za-vtora-pensija",
-      "published": "2026-11-24T15:55:01+00:00",
+      "title": "Вятърната енергия има потенциал да свали цените на тока в България",
+      "summary": "По-ниски и предвидими цени на електроенергията, по-конкурентоспособна индустрия, по-висока енергийна независимост и по-балансирана електроенергийна система. Около тези основни ползи от развитието на вятърната енергия в България се обединиха представители на би",
+      "url": "https://www.economic.bg/bg/a/view/vjatyrnata-energija-ima-potencial-da-svali-cenite-na-toka-v-bylgarija",
+      "published": "2026-11-25T14:09:19+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 46,
+      "priority_score": 47,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 74,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 68,
+        "timeliness": 92,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
+      "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
+      "url": "https://www.economic.bg/bg/a/view/ima-sdelka-za-lukojl-kojato-vkluchva-i-burgaskata-rafinerija",
+      "published": "2026-11-25T17:41:12+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 85
       }
     },
@@ -424,19 +443,19 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Latest news bulletin | November 24th, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening",
-      "published": "2026-11-24T17:00:26+00:00",
+      "title": "Latest news bulletin | November 25th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-morning",
+      "published": "2026-11-25T06:00:33+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 38,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 92,
         "source_reliability": 91
       }
     },
@@ -457,6 +476,25 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 24th, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening",
+      "published": "2026-11-24T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 91
       }
     },
     {
@@ -495,6 +533,44 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В препоръката на ЕК за глоба заради свръхдефицит в бюджета за 2026 г. няма и следа от липса на доверие, заяви вицепремиерът Гълъб Донев",
+      "summary": "В препоръката на Европейската комисия за глоба заради свръхдефицит в бюджета за 2026 г. няма и следа от липса на доверие, заяви вицепремиерът и финансов министър Гълъб Донев при представяне на първо четене в Народното събрание на проектобюджета на държавата за",
+      "url": "https://www.bta.bg/bg/news/economy/1254519-v-preporakata-na-ek-za-globa-zaradi-svrahdefitsit-v-byudzheta-za-2026-g-nyama-i",
+      "published": "2026-11-25T17:10:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Съобразете с някои наши реформаторски предложения, поиска Владислав Панев от \"Демократична България\" при дебата по бюджета за 2027 г.",
+      "summary": "Ще направим нашите предложения между първо и второ четене, надявам се да се съобразите с някои от тях, тъй като те са реформаторски и ще дадат отговор на въпроса как да рестартираме двигателя на икономиката в дългосрочен план. Това каза Владислав Панев от „Дем",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254530-saobrazete-s-nyakoi-nashi-reformatorski-predlozheniya-poiska-vladislav-panev-ot",
+      "published": "2026-11-25T17:01:37+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -544,33 +620,33 @@
       "published": "2026-11-25T14:38:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 35,
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 95
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "НУМСИ в Бургас получи като дарение две цигулки, принадлежали на концертмайсторката Мила Козева",
-      "summary": "Две цигулки, принадлежали на бургаската музикантка и дългогодишна концертмайсторка Мила Козева, бяха дарени на Националното училище за музикално и сценично изкуство (НУМСИ) „Проф. Панчо Владигеров“ в Бургас. Инструментите са предоставени от нейния син - музика",
-      "url": "https://www.bta.bg/bg/news/lik/1254449-numsi-v-burgas-poluchi-kato-darenie-dve-tsigulki-prinadlezhali-na-kontsertmayst",
-      "published": "2026-11-25T16:03:50+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "С нов фонд за €50 млрд. Европа ще опита да навакса технологичното си изоставане",
+      "summary": "Европа разполага с една трета от квантовите компании в света, но привлича над шест пъти по-малко частен капитал в сектора от САЩ. Брюксел опитва да промени това с нов инвестиционен фонд и преференции за европейския бизнес",
+      "url": "https://www.economic.bg/bg/a/view/s-nov-fond-za-50-mlrd-evropa-shte-opita-da-navaksa-tehnologichnoto-si-izostavane",
+      "published": "2026-11-25T11:59:41+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -590,6 +666,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "EС няма да се върне към руските енергийни ресурси",
+      "summary": "ЕС никога няма да се върне към руските енергийни ресурси, независимо от резултата от преговорите между Вашингтон и Москва, заяви пред Euronews еврокомисарят по енергетиката Дан Йоргенсен. В предаването On the Record with Maria Tadeo Йоргенсен определи Русия ка",
+      "url": "https://www.economic.bg/bg/a/view/es-njama-da-se-vyrne-kym-ruskite-energijni-resursi",
+      "published": "2026-11-25T09:46:06+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -1013,19 +1108,19 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
-      "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
-      "url": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner",
-      "published": "2026-11-23T22:41:48+00:00",
+      "title": "Canada says it ‘does not report to the US’ after Pentagon criticizes military spending",
+      "summary": "Scathing US document memo supposedly ‘atrophied’ defence capabilities of its northern neighbour Canada is a “sovereign nation” that does not “report” to the United States, the country’s defense minister said after the Pentagon released a scathing memo that cri",
+      "url": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo",
+      "published": "2026-11-24T22:02:13+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 30,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
         "source_reliability": 94
       }
     },
@@ -1070,67 +1165,48 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "В Пловдив се проведе протест срещу насилието над жени и момичета под надслов “Нито една повече“",
+      "summary": "В Пловдив на площад „Съединение“ се проведе протест срещу насилието над жени и момичета под надслов “Нито една повече“. Той е организиран от Български фонд за жените и Фондация в помощ на жени, претърпели насилие. Подобни протести се провеждат също в София, Ст",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254553-v-plovdiv-se-provede-protest-sreshtu-nasilieto-nad-zheni-i-momicheta-pod-nadslov",
+      "published": "2026-11-25T17:34:41+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Шествие под надслов \"Нито една жена или момиче не трябва да живее в страх\" се състоя в Стара Загора",
+      "summary": "По повод 25 ноември - Международният ден за премахване на насилието срещу жени и момичета в Стара Загора, се проведе шествие, организирано от седем неправителствени организации, обединени в каузата да се противопоставят на насилието над жени. Шествието тръгна",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254496-shestvie-pod-nadslov-nito-edna-zhena-ili-momiche-ne-tryabva-da-zhivee-v-strah-",
+      "published": "2026-11-25T17:09:15+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Нова онлайн галерия за съвременно българско визуално изкуство ще подкрепя български творци и обществени каузи",
       "summary": "Онлайн галерията за съвременно българско визуално изкуство Causa ще бъде представена на 3 декември с поп-ъп изложба в културен център „Вход Б“ в София. Проектът на Ваньо Димитров и Асен Величков обединява произведения на 13 български автори и подкрепя четири о",
       "url": "https://www.bta.bg/bg/news/lik/1254514-nova-onlayn-galeriya-za-savremenno-balgarsko-vizualno-izkustvo-shte-podkrepya-ba",
       "published": "2026-11-25T16:45:15+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Кариерен форум в Националната художествена академия срещна млади художници с издатели",
-      "summary": "Студенти и възпитаници на Националната художествена академия (НХА) представиха свои проекти пред представители на български издателства в рамките на кариерния форум „Първи стъпки в Книгата“. Събитието се състоя днес в галерия „Академия“ в София. Инициативата е",
-      "url": "https://www.bta.bg/bg/news/lik/1254460-karieren-forum-v-natsionalnata-hudozhestvena-akademiya-sreshtna-mladi-hudozhnits",
-      "published": "2026-11-25T16:02:09+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Паметна плоча бе поставена в Лайпциг на мястото, където е създаден първият български вестник",
-      "summary": "Тържествено днес бе открита паметна плоча на журналиста и общественик Иван Богоров в Лайпциг. Тя е поставена по инициатива на Българската телеграфна агенция (БТА) и съвместно с Посолството на България в Берлин, Германия, в центъра на града – на Nikolaistraße 1",
-      "url": "https://www.bta.bg/bg/news/lik/1254454-pametna-plocha-be-postavena-v-layptsig-na-myastoto-kadeto-e-sazdaden-parviyat-b",
-      "published": "2026-11-25T15:58:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Български фонд за жените изпрати становище до институциите за промяна на дефиницията за изнасилване в Наказателния кодекс",
-      "summary": "Българският фонд за жените (БФЖ) изпрати становище за промяна на дефиницията за изнасилване в Наказателния кодекс до президента Илияна Йотова, Министерския съвет, министъра на правосъдието Николай Найденов, министъра на вътрешните работи Иван Демерджиев, минис",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254437-balgarski-fond-za-zhenite-izprati-stanovishte-do-institutsiite-za-promyana-na-de",
-      "published": "2026-11-25T15:52:13+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1179,25 +1255,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Parliament clears 7 EU budget files for negotiations",
-      "summary": "The vote headed off a possible challenge from the far right.",
-      "url": "https://www.politico.eu/article/parliament-clears-seven-eu-budget-files-for-negotiations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T12:17:58+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
       }
     },
     {
@@ -1259,78 +1316,21 @@
     },
     {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - Special European Council meeting of 26-27 November 2026",
-      "summary": "Approximate timings and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/media-advisory-special-european-council-meeting-of-26-27-november-2026/",
-      "published": "2026-11-25T16:45:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
-      "summary": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
-      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T16:20:14+00:00",
+      "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+      "summary": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T17:30:16+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Speech by Commissioner Lahbib at the European Parliament on Combating Gender-Based Violence in the Age of Digital Technology",
-      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Digital technologies are transforming every part of our lives. They are changing how we work, communicate and participate in public life. But while this digital...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2590",
-      "published": "2026-11-25T16:18:22+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "UK will not offer equal tuition fees for EU students, says Burnham",
-      "summary": "Negotiations with the European bloc on students fees are \"ongoing,\" according to the British prime minister.",
-      "url": "https://www.politico.eu/article/uk-will-not-offer-equal-tuition-fees-for-eu-students-says-andy-burnham/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T16:04:33+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
+        "source_reliability": 95
       }
     }
   ],
