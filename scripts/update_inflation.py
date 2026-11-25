@@ -32,6 +32,10 @@ MONTH_LABELS = {
     1: "Яну", 2: "Фев", 3: "Мар", 4: "Апр", 5: "Май", 6: "Юни",
     7: "Юли", 8: "Авг", 9: "Сеп", 10: "Окт", 11: "Ное", 12: "Дек",
 }
+MONTH_NAMES = {
+    1: "януари", 2: "февруари", 3: "март", 4: "април", 5: "май", 6: "юни",
+    7: "юли", 8: "август", 9: "септември", 10: "октомври", 11: "ноември", 12: "декември",
+}
 
 
 class LinkParser(HTMLParser):
@@ -201,11 +205,7 @@ def find_percent(pattern: str, text: str, label: str, required: bool = True):
 
 
 def extract_metric_block(block: str, label: str) -> dict:
-    monthly = find_percent(
-        r"месечната инфлация\s*(?:,\s*измерена с [^,]{1,50},)?\s*е\s*(минус\s+)?([−\-]?\d+(?:[.,]\d+)?)\s*%",
-        block, label + " месечна"
-    )
-    # The regular expression above has an optional word group; normalize the two capture groups.
+    # This sentence can include an optional "минус" word, so parse both groups explicitly.
     m = re.search(
         r"месечната инфлация\s*(?:,\s*измерена с [^,]{1,50},)?\s*е\s*(минус\s+)?([−\-]?\d+(?:[.,]\d+)?)\s*%",
         block, flags=re.I
@@ -373,19 +373,30 @@ def parse_release(period: str, source_url: str, label: str, page_html: str, old:
     })
     if payload["latest"]["small_basket"] is None:
         raise RuntimeError("Липсват данни за индекса на малката кошница; запазва се последният валиден набор")
-    if payload["latest"]["cpi"]["accumulated_3y"] is None or payload["latest"]["hicp"]["accumulated_3y"] is None:
-        raise RuntimeError("Липсват натрупаните показатели за 3 и 5 години")
+    for indicator in ("cpi", "hicp"):
+        for horizon in ("accumulated_3y", "accumulated_5y"):
+            if payload["latest"][indicator][horizon] is None:
+                raise RuntimeError(f"Липсва натрупан показател: {indicator} / {horizon}")
     if not payload.get("source_history"):
         payload["source_history"] = []
     source_history = {r["period"]: r for r in payload["source_history"] if r.get("period")}
     source_history[period] = {"period": period, "url": source_url}
     payload["source_history"] = [source_history[key] for key in sorted(source_history)]
+    source_links = list(payload.get("source_links", []))
+    if source_links:
+        source_links[0] = {
+            "title": f"НСИ: Инфлация и индекси на потребителските цени — {MONTHS_BG(period)}",
+            "url": source_url,
+        }
+    else:
+        source_links = [{"title": f"НСИ: Инфлация и индекси на потребителските цени — {MONTHS_BG(period)}", "url": source_url}]
+    payload["source_links"] = source_links
     return payload
 
 
 def MONTHS_BG(period: str) -> str:
     month = int(period.split("-")[1])
-    return f"{MONTHS[month] if isinstance(month, int) else ''} {period[:4]} г."
+    return f"{MONTH_NAMES[month]} {period[:4]} г."
 
 
 def main():
