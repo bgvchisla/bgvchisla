@@ -326,7 +326,7 @@ def build_prompt(row, article_text, source_urls, numeric_statements, official_ev
     sources = json.dumps(source_urls, ensure_ascii=False, indent=2)
     numeric = json.dumps(numeric_statements, ensure_ascii=False, indent=2)
     datasets = json.dumps(official_evidence, ensure_ascii=False, separators=(",", ":"))
-    return f"""РОЛЯ: Ти си независим външен проверяващ на факти за българско финансово-икономическо издание. Авторът е GPT-6 Luna (OpenAI). Ти си друг доставчик и нямаш достъп до вътрешните разсъждения на автора.
+    return f"""РОЛЯ: Ти си независим външен проверяващ на факти за българско финансово-икономическо издание. Авторският текст е подготвен с помощта на генеративен модел. Ти си независим проверяващ от друг доставчик и нямаш достъп до вътрешните разсъждения на автора.
 
 ИЗТОЧНИЦИ И МЕТОД:
 1. Използвай URL Context, за да извлечеш директно всеки URL от списъка по-долу. Не използвай Google Search или резултати от търсачка. Не приемай URL за доказателство, докато съдържанието му не е извлечено успешно.
