@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T21:24:57.031960+00:00",
-  "last_checked_at": "2026-11-25T21:24:57.031973+00:00",
+  "updated_at": "2026-11-25T22:22:52.274663+00:00",
+  "last_checked_at": "2026-11-25T22:22:52.274673+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -43,25 +43,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Не можем да подкрепим закон за бюджет, който предвижда много висока инфлация, по-високи цени, обедняване, заявиха от ГЕРБ-СДС",
-      "summary": "ПГ ГЕРБ-СДС няма как да подкрепи такъв закон за бюджета, защото на първо място той предвижда много висока инфлация, съответно много по-високи цени, обедняване на българските граждани, води до увеличаване на данъчната тежест, до много по-висок дефицит и нов дъл",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254576-ne-mozhem-da-podkrepim-zakon-za-byudzhet-koyto-predvizhda-mnogo-visoka-inflatsi",
-      "published": "2026-11-25T18:41:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 49,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Вечерни новини: Брюксел затяга мерките срещу България; Рафинерията в Бургас е на загуба",
       "summary": "Брюксел затяга процедурата по прекомерен дефицит срещу България, а управляващите предлагат да ограничат обхвата на новия данък „Свръхпечалба“ за търговците на храни. Министерството на финансите подготвя преглед на данъчните преференции, докато бюджетната комис",
@@ -77,6 +58,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Не можем да подкрепим закон за бюджет, който предвижда много висока инфлация, по-високи цени, обедняване, заявиха от ГЕРБ-СДС",
+      "summary": "ПГ ГЕРБ-СДС няма как да подкрепи такъв закон за бюджета, защото на първо място той предвижда много висока инфлация, съответно много по-високи цени, обедняване на българските граждани, води до увеличаване на данъчната тежест, до много по-висок дефицит и нов дъл",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254576-ne-mozhem-da-podkrepim-zakon-za-byudzhet-koyto-predvizhda-mnogo-visoka-inflatsi",
+      "published": "2026-11-25T18:41:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 48,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -113,27 +113,65 @@
         "national_impact": 100,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 90
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "ЕЦБ: Данъкът върху свръхпечалбите на банките може да засегне финансовата стабилност на България",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440089-etsb-danakat-varhu-svrahpechalbite-na-bankite-mozhe-da-zasegne-finansovata-stabilnost-na-balgariya",
-      "published": "2026-11-25T18:45:58+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 41,
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T22:18:06+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
+        "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 87
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "At least 30 killed as fuel tanker crash ignites large fire on Cairo highway",
+      "summary": "Blaze on ring road surrounding Egyptian capital injures at least 25 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 30 people, Egyptian authorities",
+      "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+      "published": "2026-11-25T22:10:12+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
+      "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances are responding to the crash, and Egyptian health authorities say the death toll could rise.",
+      "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T21:37:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     },
     {
@@ -153,6 +191,25 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "ЕЦБ: Данъкът върху свръхпечалбите на банките може да засегне финансовата стабилност на България",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440089-etsb-danakat-varhu-svrahpechalbite-na-bankite-mozhe-da-zasegne-finansovata-stabilnost-na-balgariya",
+      "published": "2026-11-25T18:45:58+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
@@ -286,63 +343,6 @@
         "strategic_significance": 54,
         "timeliness": 82,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
-      "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
-      "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-are-staying-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T11:00:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Lululemon founder stuns Canadian women’s leadership conference with sexist comments",
-      "summary": "Chip Wilson said men importing brides from Thailand was due to women waiting too long to have children The controversial founder of Lululemon suggested women in Canada are having too few children and this could lead some men to bring in brides from Thailand ,",
-      "url": "https://www.theguardian.com/world/2026/nov/25/lululemon-founder-comments-canada-womens-leadership-conference",
-      "published": "2026-11-25T19:57:49+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Don’t ‘backslide’ on defense spending, senior US lawmaker tells Europe",
-      "summary": "Brendan Boyle said the EU needs to keep investing in defense amid fraught seven-year budget talks.",
-      "url": "https://www.politico.eu/article/dont-backslide-on-defense-spending-senior-us-lawmaker-tells-europe-brendan-boyle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T17:25:37+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 92
       }
     },
     {
@@ -536,60 +536,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Народното събрание одобри на първо четене бюджета за 2027 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440090-narodnoto-sabranie-odobri-na-parvo-chetene-byudzheta-za-2027-g",
-      "published": "2026-11-25T19:06:54+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 36,
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
+      "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
+      "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-are-staying-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-24T11:00:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство",
-      "summary": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство. По време на дебата на първо четене в пленарната зала той посочи, че премиерът е сравнил бюджета за 2027 г. с камион без спирачки,",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254583-martin-dimitrov-ot-demokratichna-balgariya-prochete-parametrite-na-proektobyud",
-      "published": "2026-11-25T18:47:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Осем задържани в България заради предполагаема схема за измама с европейски субсидии, се казва в съобщение на Европейската прокуратура",
-      "summary": "По искане на офиса на Европейската прокуратура в София, днес са задържани осем души, сред които петима представители на публичната власт, по подозрение за участие в организирана престъпна група с цел измама с финансови средства от бюджета на ЕС, отпуснати на о",
-      "url": "https://www.bta.bg/bg/news/world/1254586-osem-zadarzhani-v-balgariya-zaradi-predpolagaema-shema-za-izmama-s-evropeyski-su",
-      "published": "2026-11-25T18:33:35+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 95
       }
     },
     {
@@ -632,6 +594,82 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Lululemon founder stuns Canadian women’s leadership conference with sexist comments",
+      "summary": "Chip Wilson said men importing brides from Thailand was due to women waiting too long to have children The controversial founder of Lululemon suggested women in Canada are having too few children and this could lead some men to bring in brides from Thailand ,",
+      "url": "https://www.theguardian.com/world/2026/nov/25/lululemon-founder-comments-canada-womens-leadership-conference",
+      "published": "2026-11-25T19:57:49+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Народното събрание одобри на първо четене бюджета за 2027 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440090-narodnoto-sabranie-odobri-na-parvo-chetene-byudzheta-za-2027-g",
+      "published": "2026-11-25T19:06:54+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство",
+      "summary": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство. По време на дебата на първо четене в пленарната зала той посочи, че премиерът е сравнил бюджета за 2027 г. с камион без спирачки,",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254583-martin-dimitrov-ot-demokratichna-balgariya-prochete-parametrite-na-proektobyud",
+      "published": "2026-11-25T18:47:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Осем задържани в България заради предполагаема схема за измама с европейски субсидии, се казва в съобщение на Европейската прокуратура",
+      "summary": "По искане на офиса на Европейската прокуратура в София, днес са задържани осем души, сред които петима представители на публичната власт, по подозрение за участие в организирана престъпна група с цел измама с финансови средства от бюджета на ЕС, отпуснати на о",
+      "url": "https://www.bta.bg/bg/news/world/1254586-osem-zadarzhani-v-balgariya-zaradi-predpolagaema-shema-za-izmama-s-evropeyski-su",
+      "published": "2026-11-25T18:33:35+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
       "summary": "Jamie Shea, former NATO spokesperson joined Euronews' new evening show Europe Tonight to discuss how Satellite systems could be affected and what would it mean for the world.",
@@ -639,33 +677,33 @@
       "published": "2026-11-25T19:20:03+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 35,
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 76,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 91
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинските съветници в Момчилград приеха актуализация на разпределение на капиталовите разходи през 2026 г.",
-      "summary": "Последна за годината актуализация на разчета за поименно разпределение на капиталовите разходи на Община Момчилград приеха на заседание общинските съветници. То включва обекти, финансирани от различни източници, сред които инфраструктурни и социални. Годишна п",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254581-obshtinskite-savetnitsi-v-momchilgrad-prieha-aktualizatsiya-na-razpredelenie-na-",
-      "published": "2026-11-25T19:00:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Don’t ‘backslide’ on defense spending, senior US lawmaker tells Europe",
+      "summary": "Brendan Boyle said the EU needs to keep investing in defense amid fraught seven-year budget talks.",
+      "url": "https://www.politico.eu/article/dont-backslide-on-defense-spending-senior-us-lawmaker-tells-europe-brendan-boyle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T17:25:37+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -765,25 +803,6 @@
     },
     {
       "section": "europe",
-      "source": "Economic.bg",
-      "title": "EС няма да се върне към руските енергийни ресурси",
-      "summary": "ЕС никога няма да се върне към руските енергийни ресурси, независимо от резултата от преговорите между Вашингтон и Москва, заяви пред Euronews еврокомисарят по енергетиката Дан Йоргенсен. В предаването On the Record with Maria Tadeo Йоргенсен определи Русия ка",
-      "url": "https://www.economic.bg/bg/a/view/es-njama-da-se-vyrne-kym-ruskite-energijni-resursi",
-      "published": "2026-11-25T09:46:06+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
       "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
@@ -799,6 +818,44 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинските съветници в Момчилград приеха актуализация на разпределение на капиталовите разходи през 2026 г.",
+      "summary": "Последна за годината актуализация на разчета за поименно разпределение на капиталовите разходи на Община Момчилград приеха на заседание общинските съветници. То включва обекти, финансирани от различни източници, сред които инфраструктурни и социални. Годишна п",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254581-obshtinskite-savetnitsi-v-momchilgrad-prieha-aktualizatsiya-na-razpredelenie-na-",
+      "published": "2026-11-25T19:00:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "EС няма да се върне към руските енергийни ресурси",
+      "summary": "ЕС никога няма да се върне към руските енергийни ресурси, независимо от резултата от преговорите между Вашингтон и Москва, заяви пред Euronews еврокомисарят по енергетиката Дан Йоргенсен. В предаването On the Record with Maria Tadeo Йоргенсен определи Русия ка",
+      "url": "https://www.economic.bg/bg/a/view/es-njama-da-se-vyrne-kym-ruskite-energijni-resursi",
+      "published": "2026-11-25T09:46:06+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -1125,25 +1182,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Canada says it ‘does not report to the US’ after Pentagon criticizes military spending",
-      "summary": "Scathing US document memo supposedly ‘atrophied’ defence capabilities of its northern neighbour Canada is a “sovereign nation” that does not “report” to the United States, the country’s defense minister said after the Pentagon released a scathing memo that cri",
-      "url": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo",
-      "published": "2026-11-24T22:02:13+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 94
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Най-новата композиция на проф. Нева Кръстева Polyhedron беше представена премиерно в зала „България“",
@@ -1294,50 +1332,17 @@
         "timeliness": 92,
         "source_reliability": 94
       }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian politics live: Hanson ‘delighted’ as Liberal senator defects to One Nation; Bowen says global tensions ‘infected’ Cop31",
-      "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation –",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
-      "published": "2026-11-25T21:15:53+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Liberal senator Leah Blyth announces defection to One Nation",
-      "summary": "South Australian senator labels One Nation the ‘only party with the bold ideas needed to turn this country around’ Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily news podcast Leah Blyth, federal Lib",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-senator-leah-blyth-defection-to-one-nation-ntwnfb",
-      "published": "2026-11-25T20:50:15+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
     }
   ],
   "feed_status": {
-    "ok": 21,
+    "ok": 20,
     "total": 21,
-    "failures": []
+    "failures": [
+      {
+        "feed": "parliament-news",
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    ]
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
