@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Дълг и бюджет на България – дефицит, приходи и прогнози</title>
+<meta name="description" content="Официални данни за държавния дълг, бюджетното салдо, приходите, разходите, лихвите и прогнозите на МФ и Европейската комисия.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://bgvchisla.com/dalg-i-byudzhet/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="bg_BG">
+<meta property="og:site_name" content="БЪЛГАРИЯ В ЧИСЛА">
+<meta property="og:title" content="Дълг и бюджет на България – дефицит, приходи и прогнози">
+<meta property="og:description" content="Държавен дълг, изпълнение на КФП, касови салда, лихви и средносрочни прогнози от официални източници.">
+<link rel="stylesheet" href="/assets/design-system.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"Дълг и бюджет на България",
+  "description":"Официални данни и анализ на държавния дълг, бюджетното изпълнение и фискалните прогнози.",
+  "inLanguage":"bg",
+  "url":"https://bgvchisla.com/dalg-i-byudzhet/",
+  "isPartOf":{"@type":"WebSite","name":"БЪЛГАРИЯ В ЧИСЛА","url":"https://bgvchisla.com/"}
+}
+</script>
+<style>
+:root{--navy:#24384f;--blue:#315f91;--green:#24765f;--red:#b64b45;--gold:#a8732e;--paper:#e8edf3;--ink:#263548;--muted:#607187;--line:#d7e0e9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--blue);text-underline-offset:3px}
+a:hover{color:var(--navy)}
+.site-header{background:var(--navy);border-bottom:3px solid var(--gold);padding:16px max(18px,calc((100% - 1120px)/2))}
+.site-header a{color:#fff;text-decoration:none;font-size:.78rem;font-weight:850;letter-spacing:.1em}
+.shell{max-width:1120px;margin:0 auto;padding:26px 18px 64px}
+.breadcrumb{font-size:.76rem;color:var(--muted);margin:0 0 18px}
+.breadcrumb a{color:var(--muted)}
+.hero{background:#fff;border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:15px;padding:clamp(22px,4vw,38px);box-shadow:0 4px 18px rgba(36,56,79,.055)}
+.kicker{color:var(--gold);font-size:.67rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+h1{margin:9px 0 12px;color:var(--navy);font-size:clamp(2rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.045em}
+.hero-lead{max-width:900px;margin:0;color:#52677e;font-size:1.04rem;line-height:1.65}
+.meta-line{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:20px;color:var(--muted);font-size:.73rem}
+.status{display:inline-flex;align-items:center;gap:7px;border:1px solid #c7d9d0;background:#f2f8f4;color:#26634f;padding:5px 9px;border-radius:99px;font-weight:750}
+.status:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green)}
+.status.warning{border-color:#e7d8b8;background:#faf6ed;color:#80551f}
+.status.warning:before{background:var(--gold)}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:17px 18px;min-width:0;box-shadow:0 2px 9px rgba(36,56,79,.04)}
+.kpi .value{display:block;color:var(--navy);font-size:clamp(1.55rem,3.3vw,2.25rem);font-weight:820;line-height:1.1;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.kpi.red .value{color:var(--red)}.kpi.blue .value{color:var(--blue)}.kpi.green .value{color:var(--green)}.kpi.gold .value{color:var(--gold)}
+.kpi .label{display:block;color:#40556d;font-size:.82rem;font-weight:700;line-height:1.4;margin-top:9px}
+.kpi .note{display:block;color:var(--muted);font-size:.7rem;line-height:1.4;margin-top:5px}
+.section{margin-top:30px}
+.section-heading{margin:0 0 14px;color:var(--navy);font-size:1.35rem;letter-spacing:-.025em;line-height:1.25}
+.section-intro{max-width:870px;color:var(--muted);font-size:.89rem;margin:-5px 0 14px}
+.insight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.insight{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 19px}
+.insight h3{font-size:.9rem;color:var(--navy);line-height:1.35;margin:0 0 8px}
+.insight p{font-size:.82rem;color:#53677d;margin:0;line-height:1.6}
+.insight strong{color:var(--navy)}
+.chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;min-width:0;box-shadow:0 2px 9px rgba(36,56,79,.035)}
+.panel h3{font-size:.92rem;color:var(--navy);margin:0 0 4px}
+.panel .sub{font-size:.73rem;color:var(--muted);margin:0 0 13px}
+.chart{min-height:220px;width:100%;overflow:hidden}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font-family:Inter,system-ui,sans-serif;fill:#65778b;font-size:11px}
+.chart .gridline{stroke:#e3e9ef;stroke-width:1}
+.chart .axisline{stroke:#aebdcb;stroke-width:1}
+.chart .navy-line{stroke:var(--navy);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .blue-line{stroke:var(--blue);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .green-line{stroke:var(--green);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .red-line{stroke:var(--red);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .navy-dot{fill:var(--navy)}.chart .blue-dot{fill:var(--blue)}.chart .green-dot{fill:var(--green)}.chart .red-dot{fill:var(--red)}.chart .gold-line{stroke:var(--gold);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.chart .gold-dot{fill:var(--gold)}
+.chart .navy-bar{fill:var(--navy)}.chart .blue-bar{fill:var(--blue)}.chart .red-bar{fill:var(--red)}.chart .green-bar{fill:var(--green)}
+.legend{display:flex;flex-wrap:wrap;gap:12px 15px;margin-top:4px;color:#53677d;font-size:.71rem}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:17px;height:3px;border-radius:3px}
+.legend .navy{background:var(--navy)}.legend .blue{background:var(--blue)}.legend .green{background:var(--green)}.legend .red{background:var(--red)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.79rem;min-width:620px}
+th,td{padding:11px 13px;border-bottom:1px solid #e8edf2;text-align:right;white-space:nowrap}
+th{background:#eff3f7;color:#40556c;font-size:.7rem;letter-spacing:.02em;font-weight:800}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+td{font-variant-numeric:tabular-nums;color:#394d63}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#f7f9fb}
+td.emph{font-weight:800;color:var(--navy)}
+.note{font-size:.72rem;color:var(--muted);line-height:1.6;margin:8px 1px 0}
+.delta-negative{color:#a74540;font-weight:750}.delta-positive{color:var(--green);font-weight:750}
+.callout{background:#f6f3ec;border:1px solid #e6ddca;border-left:4px solid var(--gold);border-radius:9px;padding:15px 17px;color:#5f5038;font-size:.8rem;line-height:1.6}
+.callout strong{color:#4d402d}
+.definition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.definition{background:#fff;border:1px solid var(--line);border-radius:11px;padding:16px 17px}
+.definition h3{font-size:.86rem;color:var(--navy);margin:0 0 7px}
+.definition p{font-size:.77rem;color:#53677d;line-height:1.6;margin:0}
+.forecast-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.sources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 20px;padding:0;margin:0;list-style:none}
+.sources li{font-size:.78rem;line-height:1.5}
+.sources a{font-weight:650}
+.related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.related a{display:block;background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:16px 18px;color:var(--navy);text-decoration:none;font-weight:750}
+.related a small{display:block;color:var(--muted);font-weight:500;font-size:.72rem;margin-top:6px}
+.footer{margin-top:34px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:.7rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+@media(max-width:820px){.kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.insight-grid{grid-template-columns:1fr}.forecast-grid{grid-template-columns:1fr}}
+@media(max-width:680px){.shell{padding:18px 12px 42px}.chart-grid{grid-template-columns:1fr}.sources,.related,.definition-grid{grid-template-columns:1fr}.hero{padding:21px 18px}.kpi{padding:14px}.panel{padding:15px 13px}.section{margin-top:25px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="site-header"><a href="/">БЪЛГАРИЯ В ЧИСЛА <span aria-hidden="true">/</span> ФАКТИТЕ. БЕЗ ШУМ.</a></header>
+<main class="shell">
+<nav class="breadcrumb" aria-label="Навигация"><a href="/">Начало</a> / Дълг и бюджет</nav>
+
+<section class="hero">
+ <div class="kicker">ПУБЛИЧНИ ФИНАНСИ · БЪЛГАРИЯ</div>
+ <h1>Дълг и бюджет на България</h1>
+ <p class="hero-lead">Колко дължи държавата, как се изпълнява бюджетът и какви са средносрочните фискални планове. Разделяме касовото изпълнение на консолидираната фискална програма от начисления дефицит по ESA 2010, както и държавния дълг от по-широките показатели за подсектор „Централно управление“ и сектор „Държавно управление“.</p>
+ <div class="meta-line">
+  <span class="status" id="reported-status">Отчет: септември 2026 г.</span>
+  <span class="status warning">Октомври: предварителна оценка</span>
+  <span>Последен отчетен период: <strong id="period-label">септември 2026 г.</strong></span>
+  <span>Данни за дълга: <strong>30.09.2026 г.</strong></span>
+ </div>
+</section>
+
+<section class="kpi-grid" aria-label="Основни показатели">
+ <article class="kpi blue"><span class="value" id="state-debt">35,255 млрд. €</span><span class="label">Държавен дълг · МФ</span><span class="note">30.09.2026 г. · 27,0% от БВП</span></article>
+ <article class="kpi red"><span class="value" id="oct-deficit">−5,2 млрд. €</span><span class="label">Салдо по КФП · октомври</span><span class="note">Предварителна оценка · 4,0% от прогнозния БВП</span></article>
+ <article class="kpi red"><span class="value" id="sep-deficit">−3,669 млрд. €</span><span class="label">Салдо по КФП · септември</span><span class="note">Отчетни данни · 2,8% от прогнозния БВП</span></article>
+ <article class="kpi gold"><span class="value" id="interest-paid">974,5 млн. €</span><span class="label">Лихвени плащания по КФП</span><span class="note">Януари–септември · 92,0% от годишния план</span></article>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Какво показват последните данни</h2>
+ <div class="insight-grid">
+  <article class="insight">
+   <h3>Държавният дълг е 35,25 млрд. евро</h3>
+   <p id="insight-debt">По официалния регистър на МФ към 30 септември 2026 г. държавният дълг е 35,2548 млрд. евро, или 27,0% от БВП. Това е различно от 37,4163 млрд. евро за целия подсектор „Централно управление“.</p>
+  </article>
+  <article class="insight">
+   <h3>Октомврийският дефицит е предварителен</h3>
+   <p id="insight-deficit">МФ оценява отрицателното салдо по КФП към октомври на 5,2 млрд. евро. Подробният отчет за октомври следва да се разглежда отделно от тази предварителна оценка.</p>
+  </article>
+  <article class="insight">
+   <h3>Лихвеният натиск вече е видим</h3>
+   <p id="insight-interest">Лихвените плащания по КФП достигат 974,5 млн. евро за деветте месеца на 2026 г. и 92,0% от годишния план.</p>
+  </article>
+ </div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Изпълнение на консолидираната фискална програма</h2>
+ <p class="section-intro">Съпоставими отчетни стойности за януари–септември 2026 г. и отделно предварителна оценка за октомври. Стойностите за септември са кумулативни от началото на годината, а не само за един месец.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>КФП към 30 септември 2026 г.</h3>
+   <p class="sub">Отчетни данни на Министерството на финансите · млрд. евро</p>
+   <div class="chart" id="kfp-chart" aria-live="polite">
+    <svg viewBox="0 0 640 238" role="img" aria-label="Приходи, разходи и дефицит по КФП към септември 2026">
+     <line x1="130" x2="590" y1="42" y2="42" stroke="#e3e9ef"/><line x1="130" x2="590" y1="98" y2="98" stroke="#e3e9ef"/><line x1="130" x2="590" y1="154" y2="154" stroke="#e3e9ef"/>
+     <text x="10" y="47">Приходи</text><rect x="130" y="27" width="355" height="25" rx="4" fill="#315f91"/><text x="495" y="45">33,90</text>
+     <text x="10" y="103">Разходи</text><rect x="130" y="83" width="394" height="25" rx="4" fill="#b64b45"/><text x="534" y="101">37,57</text>
+     <text x="10" y="159">Дефицит</text><rect x="130" y="139" width="38" height="25" rx="4" fill="#a8732e"/><text x="178" y="157">−3,67</text>
+     <text x="130" y="207" font-size="11">Млрд. евро · кумулативно от началото на 2026 г.</text>
+    </svg>
+   </div>
+   <div class="legend"><span><i class="blue"></i>Приходи</span><span><i class="red"></i>Разходи</span><span><i style="background:var(--gold)"></i>Дефицит</span></div>
+  </article>
+  <article class="panel">
+   <h3>Предварителна оценка към октомври 2026 г.</h3>
+   <p class="sub">Публикация на МФ от 2 ноември 2026 г.</p>
+   <div class="kpi-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));margin:8px 0 12px">
+    <div class="kpi red"><span class="value" id="oct-deficit-panel">−5,2 млрд. €</span><span class="label">Отрицателно салдо</span><span class="note">4,0% от прогнозния БВП</span></div>
+    <div class="kpi"><span class="value" id="oct-expenses">42,7 млрд. €</span><span class="label">Разходи по КФП</span><span class="note">75,1% от годишните разчети</span></div>
+   </div>
+   <div class="callout"><strong>Важно:</strong> това е предварителна оценка на салдото и разходите. Не показваме приходите за октомври като потвърдена отчетна стойност и не смесваме оценката с окончателния отчет за септември.</div>
+  </article>
+ </div>
+ <div class="table-wrap" style="margin-top:14px">
+  <table>
+   <thead><tr><th>Показател</th><th>Януари–септември 2026 г.</th><th>Статус</th></tr></thead>
+   <tbody id="kfp-table">
+    <tr><td>Приходи, помощи и дарения</td><td>33 898,5 млн. €</td><td>Отчет</td></tr>
+    <tr><td>Разходи и вноска в бюджета на ЕС</td><td>37 567,6 млн. €</td><td>Отчет</td></tr>
+    <tr><td>Бюджетно салдо</td><td class="delta-negative">−3 669,2 млн. €</td><td>Отчет</td></tr>
+    <tr><td>Салдо като дял от прогнозния БВП</td><td class="delta-negative">−2,8%</td><td>Отчет</td></tr>
+    <tr><td>Фискален резерв</td><td>8 478,6 млн. €</td><td>Към 30.09.2026 г.</td></tr>
+    <tr><td>Лихвени плащания по КФП</td><td>974,5 млн. €</td><td>92,0% от годишния план</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <p class="note">Фискалният резерв включва 6 565,9 млн. евро депозити в БНБ и банки и 1 912,7 млн. евро вземания от фондовете на ЕС за сертифицирани разходи, аванси и други. Лихвените плащания по държавния бюджет към същата дата са 950,7 млн. евро — по-тесен обхват от лихвите по КФП.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Месечни фискални потоци по подсектори</h2>
+ <p class="section-intro">Месечни некумулативни наблюдения от НСИ за централното управление и фондовете за социална сигурност. Това не е общото салдо на КФП: обхватът и счетоводната основа са различни. Наборът се обновява автоматично при публикуване на нови данни на НСИ.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>Месечно бюджетно салдо</h3>
+   <p class="sub">Централно управление и фондове за социална сигурност · млн. евро</p>
+   <div class="chart" id="monthly-balance-chart" aria-live="polite">
+    <p class="note">Зареждане на месечните серии от НСИ…</p>
+   </div>
+   <div class="legend"><span><i class="navy"></i>Централно управление</span><span><i class="green"></i>Социалноосигурителни фондове</span></div>
+  </article>
+  <article class="panel">
+   <h3>Приходи и разходи по подсектори</h3>
+   <p class="sub">Месечни потоци през 2026 г. · млн. евро</p>
+   <div class="chart" id="monthly-flows-chart" aria-live="polite">
+    <p class="note">Зареждане на месечните серии от НСИ…</p>
+   </div>
+   <div class="legend"><span><i class="blue"></i>Приходи · централно управление</span><span><i class="red"></i>Разходи · централно управление</span><span><i class="green"></i>Приходи · социални фондове</span><span><i class="navy"></i>Разходи · социални фондове</span></div>
+  </article>
+ </div>
+ <div class="table-wrap" style="margin-top:14px">
+  <table id="monthly-fiscal-table">
+   <thead><tr><th>Показател · <span id="monthly-fiscal-period">септември 2026 г.</span></th><th>Централно управление</th><th>Социалноосигурителни фондове</th></tr></thead>
+   <tbody>
+    <tr><td>Приходи</td><td>2 843,1 млн. €</td><td>1 772,2 млн. €</td></tr>
+    <tr><td>Разходи</td><td>3 874,1 млн. €</td><td>1 745,8 млн. €</td></tr>
+    <tr><td>Бюджетно салдо</td><td>−1 031,0 млн. €</td><td>+26,4 млн. €</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <p class="note" id="nsi-update-note">Източник: НСИ, месечни данни по ESA 2010. Стойностите са за конкретния месец, без натрупване от началото на годината.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Държавен дълг: различни обхвати, различни числа</h2>
+ <p class="section-intro">Към 30 септември 2026 г. МФ публикува едновременно дълга по официалния регистър и дълга на по-широкия подсектор „Централно управление“. Двете стойности не трябва да се използват като взаимозаменяеми.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>Държавен дълг по официалния регистър</h3>
+   <p class="sub">35 254,8 млн. евро · 27,0% от БВП · 30.09.2026 г.</p>
+   <div class="chart" id="state-debt-structure">
+    <svg viewBox="0 0 640 188" role="img" aria-label="Вътрешен и външен държавен дълг">
+     <text x="10" y="32">Вътрешен</text><rect x="125" y="13" width="86" height="27" rx="4" fill="#315f91"/><text x="220" y="32">6 530,4 млн. €</text>
+     <text x="10" y="86">Външен</text><rect x="125" y="67" width="378" height="27" rx="4" fill="#24384f"/><text x="512" y="86">28 724,4 млн. €</text>
+     <text x="10" y="145">Общо</text><text x="125" y="145" font-weight="bold">35 254,8 млн. €</text>
+    </svg>
+   </div>
+   <p class="note">Вътрешни задължения: 18,5% от държавния дълг. Външни: 81,5%.</p>
+  </article>
+  <article class="panel">
+   <h3>Дълг на подсектор „Централно управление“</h3>
+   <p class="sub">37 416,3 млн. евро · 28,7% от БВП · 30.09.2026 г.</p>
+   <div class="chart">
+    <div class="kpi-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));margin:8px 0">
+     <div class="kpi blue"><span class="value">8,761 млрд. €</span><span class="label">Вътрешни задължения</span><span class="note">23,4% от подсекторния дълг</span></div>
+     <div class="kpi"><span class="value">28,655 млрд. €</span><span class="label">Външни задължения</span><span class="note">76,6% от подсекторния дълг</span></div>
+    </div>
+    <p class="note">Този показател включва държавния дълг и дълга на други институционални единици в подсектора, включително определени държавни предприятия и публични организации.</p>
+   </div>
+  </article>
+ </div>
+ <div class="insight-grid" style="margin-top:14px">
+  <article class="insight"><h3>Държавногарантиран дълг</h3><p><strong id="guaranteed-debt">746,8 млн. евро</strong> или 0,6% от БВП към 30.09.2026 г. Това са гарантирани задължения и се показват отделно.</p></article>
+  <article class="insight"><h3>Дългът по Маастрихт</h3><p>За 2025 г. консолидираният брутен дълг на сектор „Държавно управление“ е <strong>34,797 млрд. евро</strong>, или 29,9% от БВП според последните нотификационни таблици на НСИ.</p></article>
+  <article class="insight"><h3>Защо стойностите са различни</h3><p>Държавният дълг, дългът на централното управление и консолидираният дълг по Маастрихт имат различен институционален обхват и правила за консолидация.</p></article>
+ </div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Дългът по Маастрихт: историческа динамика</h2>
+ <p class="section-intro">Консолидиран брутен дълг и дефицит на сектор „Държавно управление“ по ESA 2010. Това е съпоставимият европейски показател, а не регистърът на държавния дълг на МФ.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>Дълг на сектор „Държавно управление“</h3>
+   <p class="sub">Млрд. евро · отчетни годишни данни</p>
+   <div class="chart" id="maastricht-debt-chart" aria-live="polite">
+    <p class="note">Зареждане на историческите данни…</p>
+   </div>
+  </article>
+  <article class="panel">
+   <h3>Дефицит на сектор „Държавно управление“</h3>
+   <p class="sub">Процент от БВП · отрицателното салдо е дефицит</p>
+   <div class="chart" id="maastricht-deficit-chart" aria-live="polite">
+    <p class="note">Зареждане на историческите данни…</p>
+   </div>
+  </article>
+ </div>
+ <div class="table-wrap" style="margin-top:14px">
+  <table id="maastricht-table">
+   <thead><tr><th>Година</th><th>Дефицит</th><th>Дефицит / БВП</th><th>Дълг</th><th>Дълг / БВП</th></tr></thead>
+   <tbody>
+    <tr><td>2022</td><td>−2 528 млн. €</td><td>−2,9%</td><td>19 355 млн. €</td><td>22,5%</td></tr>
+    <tr><td>2023</td><td>−1 884 млн. €</td><td>−2,0%</td><td>21 675 млн. €</td><td>22,9%</td></tr>
+    <tr><td>2024</td><td>−3 191 млн. €</td><td>−3,0%</td><td>24 977 млн. €</td><td>23,8%</td></tr>
+    <tr><td>2025</td><td>−4 664 млн. €</td><td>−4,0%</td><td>34 797 млн. €</td><td>29,9%</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <p class="note">2025 г. е по последните нотификационни таблици, публикувани от НСИ на 21.10.2026 г. Данните може да бъдат ревизирани при следваща нотификация.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Средносрочна прогноза за държавния дълг</h2>
+ <p class="section-intro">Прогнозата на Министерството на финансите в мотивите към проекта на бюджет за 2027 г. Представени са отчет, очакване, проект и прогнози — не са всички реализирани стойности.</p>
+ <article class="panel">
+  <h3>Номинален държавен дълг</h3>
+  <p class="sub">2025–2029 г. · млрд. евро · Министерство на финансите</p>
+  <div class="chart" id="state-debt-forecast-chart" aria-live="polite">
+   <p class="note">Зареждане на прогнозата…</p>
+  </div>
+  <div class="legend"><span><i class="navy"></i>Размер на държавния дълг</span></div>
+ </article>
+ <article class="panel">
+  <h3>Държавен дълг като дял от БВП</h3>
+  <p class="sub">2025–2029 г. · процент от БВП · Министерство на финансите</p>
+  <div class="chart" id="state-debt-gdp-forecast-chart" aria-live="polite">
+   <p class="note">Зареждане на прогнозата…</p>
+  </div>
+  <div class="legend"><span><i class="gold" style="background:var(--gold)"></i>Дълг / БВП</span></div>
+ </article>
+ <div class="table-wrap" style="margin-top:14px">
+  <table id="state-debt-forecast-table">
+   <thead><tr><th>Година</th><th>Статус</th><th>Дълг</th><th>Дълг / БВП</th></tr></thead>
+   <tbody>
+    <tr><td>2025</td><td>Отчет</td><td>31,4 млрд. €</td><td>27,0%</td></tr>
+    <tr><td>2026</td><td>Очакване</td><td>37,7 млрд. €</td><td>28,9%</td></tr>
+    <tr><td>2027</td><td>Проект</td><td>44,3 млрд. €</td><td>31,4%</td></tr>
+    <tr><td>2028</td><td>Прогноза</td><td>50,7 млрд. €</td><td>33,6%</td></tr>
+    <tr><td>2029</td><td>Прогноза</td><td>56,7 млрд. €</td><td>35,5%</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <div class="callout" style="margin-top:13px"><strong>Прочит на прогнозата:</strong> проектът на МФ предвижда дългът да нарасне от 31,4 млрд. евро в края на 2025 г. до 56,7 млрд. евро през 2029 г. Това е сценарий, зависещ от планираните дефицити, новото финансиране и рефинансирането на падежиращ дълг — не е предварително реализиран резултат.</div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Бюджетни прогнози: КФП и сектор „Държавно управление“</h2>
+ <p class="section-intro">КФП на МФ и дефицитът на сектор „Държавно управление“ по ESA 2010 са различни фискални показатели. Съпоставяме ги като отделни прогнози, а не като една обща серия.</p>
+ <div class="forecast-grid">
+  <article class="panel">
+   <h3>Салдо по КФП · прогноза на МФ</h3>
+   <p class="sub">Процент от БВП · 2026–2029 г.</p>
+   <div class="chart" id="kfp-forecast-chart" aria-live="polite">
+    <p class="note">Зареждане на прогнозата…</p>
+   </div>
+  </article>
+  <article class="panel">
+   <h3>Дефицит на сектор „Държавно управление“</h3>
+   <p class="sub">МФ и Европейска комисия · ESA 2010 · % от БВП</p>
+   <div class="chart" id="general-government-forecast-chart" aria-live="polite">
+    <p class="note">Зареждане на прогнозите…</p>
+   </div>
+  </article>
+ </div>
+ <div class="table-wrap" style="margin-top:14px">
+  <table id="forecast-comparison-table">
+   <thead><tr><th>Година</th><th>КФП · МФ</th><th>Сектор „ДУ“ · МФ</th><th>Сектор „ДУ“ · ЕК</th></tr></thead>
+   <tbody>
+    <tr><td>2026</td><td>−5,5%</td><td>—</td><td>−5,0%</td></tr>
+    <tr><td>2027</td><td>−3,5%</td><td>−4,2%</td><td>−4,0%</td></tr>
+    <tr><td>2028</td><td>−3,1%</td><td>−3,5%</td><td>−4,8%</td></tr>
+    <tr><td>2029</td><td>−2,4%</td><td>−2,8%</td><td>—</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <p class="note">Прогнозите са от различни институции и бюджетни рамки. Разминаването не е непременно аритметична грешка: различават се методология, времеви хоризонт, допускания и обхват. За оценка на изпълнението използвайте отчетните данни и актуалната официална прогноза.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Методология: какво точно измерваме</h2>
+ <div class="definition-grid">
+  <article class="definition"><h3>Консолидирана фискална програма · КФП</h3><p>Касов отчет за приходите, помощите, даренията, разходите и салдото на бюджетите и сметките в обхвата на КФП. Месечният отчет обикновено показва натрупаното от началото на годината. Това не е същото като дефицита по ESA 2010.</p></article>
+  <article class="definition"><h3>Дефицит на сектор „Държавно управление“</h3><p>Показател по ESA 2010, който отчита нетното предоставяне или получаване на заеми от сектор S.13 на начислена основа. Използва се при европейската фискална нотификация и процедурата при прекомерен дефицит.</p></article>
+  <article class="definition"><h3>Държавен дълг и подсектор „Централно управление“</h3><p>Държавният дълг е задължението по официалния регистър на МФ. Дългът на подсектора е по-широк и включва и дълга на други институционални единици, класифицирани в централното управление.</p></article>
+  <article class="definition"><h3>Консолидиран брутен дълг по Маастрихт</h3><p>Обхваща сектор „Държавно управление“ — централно и местно управление и социалноосигурителни фондове — след консолидация. Използва се за съпоставка между страните от ЕС.</p></article>
+  <article class="definition"><h3>Държавногарантиран дълг</h3><p>Задължения, за които държавата е предоставила гаранция. Това е условно задължение и се отчита отделно от дълга, поет пряко от държавата.</p></article>
+  <article class="definition"><h3>Лихвени плащания и лихвен разход</h3><p>Касовите плащания от бюджета са парични потоци за периода. Лихвеният разход по ESA 2010 е начислен разход. Поради различното време на признаване и обхват сумите могат да не съвпадат.</p></article>
+ </div>
+ <div class="callout" style="margin-top:13px"><strong>Правило за четене:</strong> не сравнявайте механично касовия дефицит на КФП с дефицита по ESA 2010 и не събирайте държавния дълг с дълга на подсектор „Централно управление“. Преди сравнение проверявайте институционалния обхват, отчетната основа, периода и статуса — отчет, предварителна оценка или прогноза.</div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Първични източници</h2>
+ <ul class="sources" id="source-list">
+  <li><a href="https://www.minfin.bg/bg/news/880-9/13559">МФ: отчет за изпълнението на КФП към септември 2026 г.</a></li>
+  <li><a href="https://www.minfin.bg/bg/news/955-3/13563">МФ: предварителна оценка на КФП към октомври 2026 г.</a></li>
+  <li><a href="https://www.minfin.bg/bg/news/983-5/13557">МФ: месечен бюлетин за държавния дълг — септември 2026 г.</a></li>
+  <li><a href="https://www.minfin.bg/upload/65608/UMTBF-2027-2029-motivi.pdf">МФ: средносрочна бюджетна прогноза 2027–2029 г.</a></li>
+  <li><a href="https://www.nsi.bg/index.php/statistical-data/130/407">НСИ: нотификационни таблици за дълга и дефицита по ESA 2010</a></li>
+  <li><a href="https://www.nsi.bg/en/statistical-data/128/405">НСИ: месечни фискални данни</a></li>
+  <li><a href="https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/bulgaria/economic-forecast-bulgaria_en">Европейска комисия: есенна прогноза за България, 2026 г.</a></li>
+  <li><a href="https://www.fiscal-council.bg/bg/publikacii/preporyki-na-fs-otnosno-biudgetnata-procedura-za-2027">Фискален съвет: препоръки за бюджетната процедура 2027 г.</a></li>
+ </ul>
+ <p class="note">Източниците са първични институционални публикации. При ревизия на отчетните стойности се запазват периодът, методологията и статусът на съответната серия.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Свързани материали</h2>
+ <div class="related">
+  <a href="/analizi/budget-2027/">Бюджет 2027: дефицитът и фискалните рискове<small>Задълбочен анализ на приходните мерки, разходите, дълга и средносрочната устойчивост.</small></a>
+  <a href="/analizi/">Всички задълбочени анализи<small>Редакционни анализи за публичните финанси, икономиката и политиките.</small></a>
+ </div>
+</section>
+
+<footer class="footer">
+ <span>БЪЛГАРИЯ В ЧИСЛА · ФАКТИТЕ. БЕЗ ШУМ.</span>
+ <span><a href="/">Начална страница</a> · <a href="/privacy">Поверителност</a></span>
+</footer>
+</main>
+
+<script>
+(function(){
+"use strict";
+var nf=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:1});
+var nf0=new Intl.NumberFormat("bg-BG",{maximumFractionDigits:0});
+var nf2=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:2,maximumFractionDigits:2});
+var $=function(id){return document.getElementById(id);};
+var fmt=function(v,d){return new Intl.NumberFormat("bg-BG",{minimumFractionDigits:d||0,maximumFractionDigits:d===undefined?1:d}).format(v);};
+var signed=function(v,d){return (v>0?"+":v<0?"−":"")+fmt(Math.abs(v),d)+"%";};
+var $svg=function(svg,tag,attrs,text){var e=document.createElementNS("http://www.w3.org/2000/svg",tag);Object.keys(attrs).forEach(function(k){e.setAttribute(k,attrs[k]);});if(text!==undefined)e.textContent=text;svg.appendChild(e);return e;};
+function svgBase(hostId,aria){var host=$(hostId);if(!host)return null;host.textContent="";var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.setAttribute("viewBox","0 0 720 260");svg.setAttribute("role","img");svg.setAttribute("aria-label",aria);host.appendChild(svg);return svg;}
+function lineChart(hostId,rows,series,minOverride,maxOverride,unit){
+ if(!rows||rows.length<2){if($(hostId))$(hostId).textContent="Недостатъчно налични наблюдения.";return;}
+ var svg=svgBase(hostId,"Историческа динамика на "+series.map(x=>x.label).join(" и "));
+ var W=720,H=260,L=62,R=18,T=22,B=43,values=[];
+ rows.forEach(p=>series.forEach(s=>{if(Number.isFinite(p[s.key]))values.push(p[s.key]);}));
+ var min=minOverride===undefined?Math.min.apply(null,values):minOverride;
+ var max=maxOverride===undefined?Math.max.apply(null,values):maxOverride;
+ var pad=(max-min||1)*.14;min-=pad;max+=pad;
+ var x=i=>L+i*(W-L-R)/(rows.length-1),y=v=>T+(max-v)*(H-T-B)/(max-min);
+ for(var g=0;g<=4;g++){var val=min+(max-min)*g/4;$svg(svg,"line",{x1:L,x2:W-R,y1:y(val),y2:y(val),class:"gridline"});$svg(svg,"text",{x:L-9,y:y(val)+4,"text-anchor":"end"},fmt(val,1)+(unit||""));}
+ $svg(svg,"line",{x1:L,x2:W-R,y1:H-B,y2:H-B,class:"axisline"});
+ series.forEach(function(s){
+  var points=rows.filter(p=>Number.isFinite(p[s.key]));
+  var path=points.map(function(p){var i=rows.indexOf(p);return (i?"L":"M")+x(i)+" "+y(p[s.key]);}).join(" ");
+  $svg(svg,"path",{d:path,class:s.line});
+  points.forEach(function(p){var i=rows.indexOf(p);var c=$svg(svg,"circle",{cx:x(i),cy:y(p[s.key]),r:3.7,class:s.dot});var title=document.createElementNS(svg.namespaceURI,"title");title.textContent=p.label+": "+fmt(p[s.key],1)+(unit||"");c.appendChild(title);});
+ });
+ var step=Math.max(1,Math.ceil(rows.length/10));rows.forEach(function(p,i){if(i%step===0||i===rows.length-1)$svg(svg,"text",{x:x(i),y:H-12,"text-anchor":"middle"},p.label);});
+}
+function barChart(hostId,rows,series,unit){
+ if(!rows||!rows.length){if($(hostId))$(hostId).textContent="Няма налични данни.";return;}
+ var svg=svgBase(hostId,"Месечни стойности: "+series.map(x=>x.label).join(", "));
+ var W=720,H=258,L=52,R=20,T=20,B=42,vals=[];
+ rows.forEach(p=>series.forEach(s=>{if(Number.isFinite(p[s.key]))vals.push(p[s.key]);}));
+ var min=Math.min(0,Math.min.apply(null,vals)*1.12),max=Math.max(0,Math.max.apply(null,vals)*1.15);
+ if(max===min){max=min+1;}
+ var y=v=>T+(max-v)*(H-T-B)/(max-min),group=(W-L-R)/rows.length,bar=Math.min(20,group/(series.length+1));
+ for(var g=0;g<=4;g++){var v=min+(max-min)*g/4;$svg(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),class:v===0?"axisline":"gridline"});$svg(svg,"text",{x:L-8,y:y(v)+4,"text-anchor":"end"},fmt(v,0)+(unit||""));}
+ rows.forEach(function(p,i){
+  series.forEach(function(s,j){var v=p[s.key];if(!Number.isFinite(v))return;var x=L+i*group+group*.5-(series.length*bar+(series.length-1)*3)/2+j*(bar+3),top=Math.min(y(0),y(v)),height=Math.max(1,Math.abs(y(v)-y(0)));var rect=$svg(svg,"rect",{x:x,y:top,width:bar,height:height,rx:3,class:s.bar});var title=document.createElementNS(svg.namespaceURI,"title");title.textContent=p.label+" · "+s.label+": "+fmt(v,1)+(unit||"");rect.appendChild(title);});
+  $svg(svg,"text",{x:L+i*group+group/2,y:H-12,"text-anchor":"middle"},p.label);
+ });
+}
+function fmtBn(v){return fmt(v/1000,3)+" млрд. €";}
+function renderKfpChart(kfp){
+ var svg=svgBase("kfp-chart","Приходи, разходи и дефицит по КФП към септември 2026 г.");
+ var rows=[
+  {label:"Приходи",value:kfp.revenue_mio_eur,color:"#315f91"},
+  {label:"Разходи",value:kfp.expenditure_mio_eur,color:"#b64b45"},
+  {label:"Дефицит",value:Math.abs(kfp.balance_mio_eur),color:"#a8732e"}
+ ];
+ var W=720,L=145,R=30,max=42000,scale=(W-L-R)/max;
+ rows.forEach(function(row,i){
+  var y=32+i*64;
+  $svg(svg,"text",{x:12,y:y+22},row.label);
+  $svg(svg,"rect",{x:L,y:y,width:Math.max(2,row.value*scale),height:28,rx:4,fill:row.color});
+  $svg(svg,"text",{x:Math.min(W-R,L+row.value*scale+9),y:y+20},fmt(row.value,1));
+ });
+ $svg(svg,"text",{x:L,y:242},"Млн. евро · кумулативно от началото на годината");
+}
+function renderBudget(data){
+ var k=data.latest.kfp_reported,oct=data.latest.kfp_preliminary,debt=data.latest.state_debt,central=data.latest.central_government_subsector_debt,guaranteed=data.latest.guaranteed_debt;
+ renderKfpChart(k);
+ $("state-debt").textContent=fmtBn(debt.nominal_mio_eur);
+ $("oct-deficit").textContent="−"+fmtBn(Math.abs(oct.balance_mio_eur));
+ $("sep-deficit").textContent="−"+fmtBn(Math.abs(k.balance_mio_eur));
+ $("interest-paid").textContent=fmt(k.interest_payments_kfp_mio_eur,1)+" млн. €";
+ $("oct-deficit-panel").textContent="−"+fmtBn(Math.abs(oct.balance_mio_eur));
+ $("oct-expenses").textContent=fmtBn(oct.expenditure_mio_eur);
+ $("guaranteed-debt").textContent=fmt(guaranteed.nominal_mio_eur,1)+" млн. евро";
+ $("insight-debt").textContent="По официалния регистър на МФ към 30 септември 2026 г. държавният дълг е "+fmt(debt.nominal_mio_eur,1)+" млн. евро, или "+fmt(debt.gdp_pct,1)+"% от БВП. Това е различно от "+fmt(central.nominal_mio_eur,1)+" млн. евро за целия подсектор „Централно управление“.";
+ $("insight-deficit").textContent="МФ оценява отрицателното салдо по КФП към октомври на "+fmt(Math.abs(oct.balance_mio_eur),0)+" млн. евро ("+fmt(Math.abs(oct.balance_pct_forecast_gdp),1)+"% от прогнозния БВП). Разходите са "+fmt(oct.expenditure_mio_eur,0)+" млн. евро или "+fmt(oct.expenditure_pct_annual_plan,1)+"% от годишните разчети. Това е предварителна оценка.";
+ $("insight-interest").textContent="Лихвените плащания по КФП достигат "+fmt(k.interest_payments_kfp_mio_eur,1)+" млн. евро за деветте месеца на 2026 г. — "+fmt(k.interest_payments_pct_annual_plan,1)+"% от годишния план. Само по държавния бюджет сумата е "+fmt(k.interest_payments_state_budget_mio_eur,1)+" млн. евро.";
+ $("period-label").textContent="септември 2026 г.";
+ var table=$("kfp-table");table.textContent="";
+ [
+  ["Приходи, помощи и дарения",fmt(k.revenue_mio_eur,1)+" млн. €","Отчет"],
+  ["Разходи и вноска в бюджета на ЕС",fmt(k.expenditure_mio_eur,1)+" млн. €","Отчет"],
+  ["Бюджетно салдо","−"+fmt(Math.abs(k.balance_mio_eur),1)+" млн. €","Отчет"],
+  ["Салдо като дял от прогнозния БВП",signed(k.balance_pct_forecast_gdp,1),"Отчет"],
+  ["Фискален резерв",fmt(k.fiscal_reserve_mio_eur,1)+" млн. €","Към 30.09.2026 г."],
+  ["Лихвени плащания по КФП",fmt(k.interest_payments_kfp_mio_eur,1)+" млн. €",fmt(k.interest_payments_pct_annual_plan,1)+"% от годишния план"]
+ ].forEach(function(r){var row=document.createElement("tr");r.forEach(function(v,i){var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";if(i===1&&String(v).startsWith("−"))td.className="delta-negative";row.appendChild(td);});table.appendChild(row);});
+ var ma=data.maastricht_history;
+ var dRows=ma.map(p=>({label:String(p.year),debt:p.debt_mio_eur/1000}));
+ lineChart("maastricht-debt-chart",dRows,[{key:"debt",label:"Дълг",line:"navy-line",dot:"navy-dot"}],0,40," млрд.");
+ var bRows=ma.map(p=>({label:String(p.year),deficit:p.deficit_pct_gdp}));
+ barChart("maastricht-deficit-chart",bRows,[{key:"deficit",label:"Дефицит / БВП",bar:"red-bar"}],"%");
+ var t=$("maastricht-table").querySelector("tbody");t.textContent="";
+ ma.forEach(p=>{var row=document.createElement("tr");[String(p.year), "−"+fmt(Math.abs(p.deficit_mio_eur),0)+" млн. €",signed(p.deficit_pct_gdp,1),fmt(p.debt_mio_eur,0)+" млн. €",fmt(p.debt_pct_gdp,1)+"%"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";if(i===1||i===2)td.className="delta-negative";row.appendChild(td);});t.appendChild(row);});
+ var debtRows=data.state_debt_forecast;
+ var debtHost=$("state-debt-forecast-chart");debtHost.textContent="";
+ var debtBarRows=debtRows.map(p=>({label:String(p.year),value:p.debt_bn_eur}));
+ barChart("state-debt-forecast-chart",debtBarRows,[{key:"value",label:"Държавен дълг",bar:"navy-bar"}]," млрд.");
+ var debtGdpRows=debtRows.map(p=>({label:String(p.year),ratio:p.debt_pct_gdp}));
+ lineChart("state-debt-gdp-forecast-chart",debtGdpRows,[{key:"ratio",label:"Дълг / БВП",line:"gold-line",dot:"gold-dot"}],0,40,"%");
+ var tf=$("state-debt-forecast-table").querySelector("tbody");tf.textContent="";
+ debtRows.forEach(p=>{var row=document.createElement("tr");[String(p.year),p.status,fmt(p.debt_bn_eur,1)+" млрд. €",fmt(p.debt_pct_gdp,1)+"%"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});tf.appendChild(row);});
+ var kfp=data.kfp_balance_forecast.map(p=>({label:String(p.year),value:p.balance_pct_gdp}));
+ barChart("kfp-forecast-chart",kfp,[{key:"value",label:"КФП / БВП",bar:"red-bar"}],"%");
+ var ggHost=$("general-government-forecast-chart");
+ var mf=data.general_government_forecast.ministry,ec=data.general_government_forecast.commission;
+ var union=[...new Set(mf.map(p=>p.year).concat(ec.map(p=>p.year)))].sort();
+ var gg=union.map(y=>({label:String(y),mf:mf.find(p=>p.year===y)?.balance_pct_gdp,ec:ec.find(p=>p.year===y)?.balance_pct_gdp}));
+ lineChart("general-government-forecast-chart",gg,[{key:"mf",label:"МФ",line:"blue-line",dot:"blue-dot"},{key:"ec",label:"ЕК",line:"red-line",dot:"red-dot"}],-6,0,"%");
+ var ft=$("forecast-comparison-table").querySelector("tbody");ft.textContent="";
+ union.forEach(y=>{var kfpVal=data.kfp_balance_forecast.find(p=>p.year===y)?.balance_pct_gdp,mfVal=mf.find(p=>p.year===y)?.balance_pct_gdp,ecVal=ec.find(p=>p.year===y)?.balance_pct_gdp;var row=document.createElement("tr");[String(y),kfpVal===undefined?"—":signed(kfpVal,1),mfVal===undefined?"—":signed(mfVal,1),ecVal===undefined?"—":signed(ecVal,1)].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";if(v!=="—"&&i>0)td.className="delta-negative";row.appendChild(td);});ft.appendChild(row);});
+}
+function renderNsi(data){
+ var byId=Object.fromEntries(data.series.map(s=>[s.id,s]));
+ var ids=["central_government_balance","central_government_revenue","central_government_expenditure","social_security_funds_balance","social_security_funds_revenue","social_security_funds_expenditure"];
+ var missing=ids.filter(id=>!byId[id]);if(missing.length)throw Error("Липсват серии: "+missing.join(", "));
+ var periods=byId.central_government_balance.points.filter(p=>p.year===2026).map(p=>p.period);
+ var rows=periods.map(period=>{
+  var read=id=>{var p=byId[id].points.find(x=>x.period===period);return p?p.value:null;};
+  var monthLabels=["ян","фев","мар","апр","май","юни","юли","авг","сеп","окт","ное","дек"];return {period:period,label:monthLabels[Number(period.slice(5,7))-1],central_balance:read(ids[0]),central_revenue:read(ids[1]),central_expense:read(ids[2]),social_balance:read(ids[3]),social_revenue:read(ids[4]),social_expense:read(ids[5])};
+ });
+ if(!rows.length)throw Error("Няма месечни наблюдения за 2026 г.");
+ barChart("monthly-balance-chart",rows,[{key:"central_balance",label:"Централно управление",bar:"navy-bar"},{key:"social_balance",label:"Социални фондове",bar:"green-bar"}]," млн.");
+ lineChart("monthly-flows-chart",rows,[
+  {key:"central_revenue",label:"Приходи · ЦУ",line:"blue-line",dot:"blue-dot"},
+  {key:"central_expense",label:"Разходи · ЦУ",line:"red-line",dot:"red-dot"},
+  {key:"social_revenue",label:"Приходи · СОФ",line:"green-line",dot:"green-dot"},
+  {key:"social_expense",label:"Разходи · СОФ",line:"navy-line",dot:"navy-dot"}
+ ],0,5000," млн.");
+ var last=rows[rows.length-1],td=$("monthly-fiscal-table").querySelector("tbody");td.textContent="";
+ var monthNames=["януари","февруари","март","април","май","юни","юли","август","септември","октомври","ноември","декември"];
+ $("monthly-fiscal-period").textContent=monthNames[Number(last.period.slice(5,7))-1]+" "+last.period.slice(0,4)+" г.";
+ [
+  ["Приходи",last.central_revenue,last.social_revenue],
+  ["Разходи",last.central_expense,last.social_expense],
+  ["Бюджетно салдо",last.central_balance,last.social_balance]
+ ].forEach(r=>{var row=document.createElement("tr");r.forEach((v,i)=>{var cell=document.createElement("td");cell.textContent=i===0?r[0]:fmt(v,1)+" млн. €";if(i===0)cell.className="emph";if(i>0&&r[0]==="Бюджетно салдо")cell.className=v<0?"delta-negative":"delta-positive";row.appendChild(cell);});td.appendChild(row);});
+ var updated=data.updated_at?new Date(data.updated_at).toLocaleString("bg-BG",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"}):"няма посочен час";
+ $("nsi-update-note").textContent="Източник: НСИ, месечни данни по ESA 2010. Последна успешна актуализация на набора: "+updated+". Наблюденията са за конкретния месец, без натрупване от началото на годината.";
+}
+Promise.all([
+ fetch("/debt-budget.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("debt-budget HTTP "+r.status);return r.json();}),
+ fetch("/official_fiscal.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("official-fiscal HTTP "+r.status);return r.json();})
+]).then(function(results){renderBudget(results[0]);renderNsi(results[1]);}).catch(function(e){console.error("Неуспешно зареждане на фискалните данни",e);$("reported-status").textContent="Последни вградени отчетни стойности";$("nsi-update-note").textContent="Месечните серии на НСИ временно не могат да бъдат заредени. Показват се последните отчетни показатели и исторически стойности, вградени в страницата.";});
+})();
+</script>
+</body>
+</html>

@@ -19,6 +19,40 @@ CONFIG = ROOT / "analysis" / "config.json"
 
 class EditorialPublicationTests(unittest.TestCase):
 
+    def test_debt_budget_resource_has_scope_controls_and_primary_sources(self):
+        page_path = ROOT / "dalg-i-byudzhet" / "index.html"
+        data_path = ROOT / "debt-budget.json"
+        fiscal_path = ROOT / "official_fiscal.json"
+        page = page_path.read_text(encoding="utf-8")
+        data = json.loads(data_path.read_text(encoding="utf-8"))
+        fiscal = json.loads(fiscal_path.read_text(encoding="utf-8"))
+        sitemap = SITEMAP.read_text(encoding="utf-8")
+        homepage = (ROOT / "index.html").read_text(encoding="utf-8")
+
+        title = re.search(r"<title>(.*?)</title>", page, re.I | re.S)
+        description = re.search(r'<meta name="description" content="([^"]+)"', page, re.I)
+        self.assertIsNotNone(title)
+        self.assertIsNotNone(description)
+        self.assertLessEqual(len(title.group(1)), 60)
+        self.assertLessEqual(len(description.group(1)), 160)
+        self.assertIn('rel="canonical" href="https://bgvchisla.com/dalg-i-byudzhet/"', page)
+        self.assertIn('type="application/ld+json"', page)
+        self.assertIn('fetch("/debt-budget.json"', page)
+        self.assertIn('fetch("/official_fiscal.json"', page)
+        self.assertIn('href="/dalg-i-byudzhet/"', homepage)
+        self.assertIn("<loc>https://bgvchisla.com/dalg-i-byudzhet/</loc>", sitemap)
+
+        self.assertEqual(data["latest"]["state_debt"]["nominal_mio_eur"], 35254.8)
+        self.assertEqual(data["latest"]["central_government_subsector_debt"]["nominal_mio_eur"], 37416.3)
+        self.assertEqual(data["latest"]["guaranteed_debt"]["nominal_mio_eur"], 746.8)
+        self.assertEqual(data["latest"]["kfp_preliminary"]["balance_mio_eur"], -5200.0)
+        self.assertIn("central_government_balance", [row["id"] for row in fiscal["series"]])
+        self.assertIn("social_security_funds_balance", [row["id"] for row in fiscal["series"]])
+        self.assertIn("касов", data["definitions"]["kfp"])
+        self.assertIn("ESA 2010", data["definitions"]["maastricht"])
+        self.assertGreaterEqual(len(data["source_links"]), 7)
+
+
     def test_inflation_resource_has_official_data_and_canonical_url(self):
         page_path = ROOT / "tseni-i-inflatsia" / "index.html"
         data_path = ROOT / "inflation.json"

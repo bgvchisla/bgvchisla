@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "title": "Дълг и бюджет на България",
+  "last_updated": "2026-11-25T15:10:00Z",
+  "latest_period": "2026-09",
+  "latest_label": "Септември 2026 г. — последен пълен месечен отчет",
+  "latest": {
+    "kfp_reported": {
+      "period": "2026-09",
+      "status": "Отчетни данни на МФ",
+      "revenue_mio_eur": 33898.5,
+      "expenditure_mio_eur": 37567.6,
+      "balance_mio_eur": -3669.2,
+      "balance_pct_forecast_gdp": -2.8,
+      "interest_payments_kfp_mio_eur": 974.5,
+      "interest_payments_pct_annual_plan": 92,
+      "interest_payments_state_budget_mio_eur": 950.7,
+      "fiscal_reserve_mio_eur": 8478.6,
+      "fiscal_reserve_deposits_mio_eur": 6565.9,
+      "fiscal_reserve_eu_receivables_mio_eur": 1912.7,
+      "source_url": "https://www.minfin.bg/bg/news/880-9/13559"
+    },
+    "kfp_preliminary": {
+      "period": "2026-10",
+      "status": "Предварителна оценка на МФ",
+      "balance_mio_eur": -5200,
+      "balance_pct_forecast_gdp": -4,
+      "expenditure_mio_eur": 42700,
+      "expenditure_pct_annual_plan": 75.1,
+      "revenue_mio_eur": null,
+      "source_url": "https://www.minfin.bg/bg/news/955-3/13563",
+      "note": "Пълният отчет за касовото изпълнение към октомври не е заменен с тази предварителна оценка."
+    },
+    "state_debt": {
+      "reference_date": "2026-09-30",
+      "nominal_mio_eur": 35254.8,
+      "gdp_pct": 27,
+      "domestic_mio_eur": 6530.4,
+      "external_mio_eur": 28724.4,
+      "source_url": "https://www.minfin.bg/bg/news/983-5/13557",
+      "definition": "Държавен дълг по официалния регистър на МФ; без държавногарантирания дълг."
+    },
+    "central_government_subsector_debt": {
+      "reference_date": "2026-09-30",
+      "nominal_mio_eur": 37416.3,
+      "gdp_pct": 28.7,
+      "domestic_mio_eur": 8761,
+      "external_mio_eur": 28655.4,
+      "source_url": "https://www.minfin.bg/bg/news/983-5/13557",
+      "definition": "По-широк обхват: държавен дълг плюс дълг на институционални единици, класифицирани в подсектор „Централно управление“."
+    },
+    "guaranteed_debt": {
+      "reference_date": "2026-09-30",
+      "nominal_mio_eur": 746.8,
+      "gdp_pct": 0.6,
+      "source_url": "https://www.minfin.bg/bg/news/983-5/13557",
+      "definition": "Държавногарантиран дълг; условно задължение, отделно от държавния дълг."
+    }
+  },
+  "maastricht_history": [
+    {
+      "year": 2022,
+      "gdp_mio_eur": 86078,
+      "deficit_mio_eur": -2528,
+      "deficit_pct_gdp": -2.9,
+      "debt_mio_eur": 19355,
+      "debt_pct_gdp": 22.5
+    },
+    {
+      "year": 2023,
+      "gdp_mio_eur": 94525,
+      "deficit_mio_eur": -1884,
+      "deficit_pct_gdp": -2,
+      "debt_mio_eur": 21675,
+      "debt_pct_gdp": 22.9
+    },
+    {
+      "year": 2024,
+      "gdp_mio_eur": 104767,
+      "deficit_mio_eur": -3191,
+      "deficit_pct_gdp": -3,
+      "debt_mio_eur": 24977,
+      "debt_pct_gdp": 23.8
+    },
+    {
+      "year": 2025,
+      "gdp_mio_eur": 116018,
+      "deficit_mio_eur": -4664,
+      "deficit_pct_gdp": -4,
+      "debt_mio_eur": 34797,
+      "debt_pct_gdp": 29.9
+    }
+  ],
+  "state_debt_forecast": [
+    {
+      "year": 2025,
+      "status": "Отчет",
+      "debt_bn_eur": 31.4,
+      "debt_pct_gdp": 27
+    },
+    {
+      "year": 2026,
+      "status": "Очакване",
+      "debt_bn_eur": 37.7,
+      "debt_pct_gdp": 28.9
+    },
+    {
+      "year": 2027,
+      "status": "Проект",
+      "debt_bn_eur": 44.3,
+      "debt_pct_gdp": 31.4
+    },
+    {
+      "year": 2028,
+      "status": "Прогноза",
+      "debt_bn_eur": 50.7,
+      "debt_pct_gdp": 33.6
+    },
+    {
+      "year": 2029,
+      "status": "Прогноза",
+      "debt_bn_eur": 56.7,
+      "debt_pct_gdp": 35.5
+    }
+  ],
+  "kfp_balance_forecast": [
+    {
+      "year": 2026,
+      "status": "Оценка на МФ",
+      "balance_pct_gdp": -5.5
+    },
+    {
+      "year": 2027,
+      "status": "Проект на бюджетна рамка",
+      "balance_pct_gdp": -3.5
+    },
+    {
+      "year": 2028,
+      "status": "Средносрочна прогноза",
+      "balance_pct_gdp": -3.1
+    },
+    {
+      "year": 2029,
+      "status": "Средносрочна прогноза",
+      "balance_pct_gdp": -2.4
+    }
+  ],
+  "general_government_forecast": {
+    "ministry": [
+      {
+        "year": 2027,
+        "balance_pct_gdp": -4.2
+      },
+      {
+        "year": 2028,
+        "balance_pct_gdp": -3.5
+      },
+      {
+        "year": 2029,
+        "balance_pct_gdp": -2.8
+      }
+    ],
+    "commission": [
+      {
+        "year": 2025,
+        "balance_pct_gdp": -4,
+        "debt_pct_gdp": 29.9
+      },
+      {
+        "year": 2026,
+        "balance_pct_gdp": -5,
+        "debt_pct_gdp": 33
+      },
+      {
+        "year": 2027,
+        "balance_pct_gdp": -4,
+        "debt_pct_gdp": 35
+      },
+      {
+        "year": 2028,
+        "balance_pct_gdp": -4.8,
+        "debt_pct_gdp": 37.7
+      }
+    ]
+  },
+  "definitions": {
+    "kfp": "Консолидираната фискална програма е касовият консолидиран отчет на бюджетите и сметките в нейния обхват. Салдото ѝ не е идентично с дефицита на сектор „Държавно управление“ по ESA 2010.",
+    "state_debt": "Държавният дълг е задължението, вписано в официалния регистър на държавния дълг на МФ по Закона за държавния дълг.",
+    "central_subsector": "Дългът на подсектор „Централно управление“ е по-широк показател: включва държавния дълг и дълга на институционални единици, класифицирани в този подсектор, например държавни болници и други публични единици.",
+    "maastricht": "Консолидираният брутен дълг на сектор „Държавно управление“ по ESA 2010/Маастрихт включва централно, местно управление и социалноосигурителни фондове след консолидация на вътрешните вземания и задължения.",
+    "guaranteed": "Държавногарантираният дълг е отделен показател за задължения, гарантирани от държавата; не се прибавя механично към държавния дълг без уточняване на обхвата.",
+    "interest": "Лихвените плащания по КФП/държавния бюджет са касови потоци за периода. Лихвеният разход по ESA 2010 е начислен разход; те могат да се различават поради времето на плащане и обхвата.",
+    "nsi_monthly": "Месечните серии от НСИ за централното управление и фондовете за социална сигурност са отделни некумулативни наблюдения по месеци. Те не са общото салдо на КФП и не включват самостоятелно целия обхват на местните бюджети и европейските сметки."
+  },
+  "source_links": [
+    {
+      "title": "МФ: отчет за изпълнението на КФП към септември 2026 г.",
+      "url": "https://www.minfin.bg/bg/news/880-9/13559"
+    },
+    {
+      "title": "МФ: предварителна оценка за КФП към октомври 2026 г.",
+      "url": "https://www.minfin.bg/bg/news/955-3/13563"
+    },
+    {
+      "title": "МФ: държавен дълг и дълг на подсектор „Централно управление“, септември 2026 г.",
+      "url": "https://www.minfin.bg/bg/news/983-5/13557"
+    },
+    {
+      "title": "МФ: Актуализирана средносрочна бюджетна прогноза 2027–2029 г.",
+      "url": "https://www.minfin.bg/upload/65608/UMTBF-2027-2029-motivi.pdf"
+    },
+    {
+      "title": "НСИ: дефицит и дълг на сектор „Държавно управление“ — нотификационни таблици",
+      "url": "https://www.nsi.bg/index.php/statistical-data/130/407"
+    },
+    {
+      "title": "НСИ: месечни фискални данни за централното управление и социалноосигурителните фондове",
+      "url": "https://www.nsi.bg/en/statistical-data/128/405"
+    },
+    {
+      "title": "Европейска комисия: есенна икономическа прогноза за България, 2026 г.",
+      "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/bulgaria/economic-forecast-bulgaria_en"
+    },
+    {
+      "title": "Фискален съвет: препоръки относно бюджетната процедура за 2027 г.",
+      "url": "https://www.fiscal-council.bg/bg/publikacii/preporyki-na-fs-otnosno-biudgetnata-procedura-za-2027"
+    }
+  ]
+}
