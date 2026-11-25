@@ -55,7 +55,7 @@ class DebtBudgetResourceTests(unittest.TestCase):
         self.assertEqual(guaranteed["nominal_mio_eur"], 746.8)
         self.assertIn("официалния регистър", self.data["definitions"]["state_debt"])
         self.assertIn("по-широк", self.data["definitions"]["central_subsector"])
-        self.assertIn("условно", self.data["definitions"]["guaranteed"])
+        self.assertIn("гарантирани", self.data["definitions"]["guaranteed"])
 
     def test_kfp_reported_values_reconcile_and_are_separate_from_october_estimate(self):
         latest = self.data["latest"]
