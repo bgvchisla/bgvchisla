@@ -95,6 +95,35 @@ jobs:
           print(f"Проверен е анализът {slug}: {len(words)} думи; {len(urls)} URL източника.")
           PY
 
+      - name: Apply the explicitly approved single-attempt Gemini budget
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("analysis/config.json")
+          config = json.loads(path.read_text(encoding="utf-8"))
+          if config.get("review_model") != "gemini-3.8-flash":
+              raise SystemExit("Неочакван модел за последната разрешена проверка.")
+          config["maximum_review_input_tokens"] = 350000
+          config["maximum_review_output_tokens"] = 24000
+          config["review_reasoning_effort"] = "medium"
+
+          input_rate = float(config["review_input_usd_per_million_until_2026_12_31"])
+          output_rate = float(config["review_output_usd_per_million_until_2026_12_31"])
+          reserve = (350000 * input_rate + 24000 * output_rate) / 1000000
+          if abs(reserve - 0.3525) > 0.00000001:
+              raise SystemExit(f"Изчисленият резерв е {reserve:.8f} USD, очаквани са 0.35250000 USD.")
+          ledger = json.loads(Path("analysis/verification_usage.json").read_text(encoding="utf-8"))
+          available = float(config["review_monthly_budget_usd"]) - float(ledger.get("spent_usd", 0)) - float(ledger.get("reserved_usd", 0))
+          if available + 1e-9 < reserve:
+              raise SystemExit(f"Недостатъчен свободен Gemini бюджет: {available:.8f} USD.")
+          path.write_text(json.dumps(config, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+          print(f"Еднократен Gemini профил: 350000 входни / 24000 изходни токена; Medium; максимум {reserve:.4f} USD.")
+          print(f"Свободен Gemini бюджет преди резерва: {available:.8f} USD.")
+          PY
+
       - name: Run independent Gemini URL Context verification
         id: factcheck
         env:
