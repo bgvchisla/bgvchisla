@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T22:22:52.274663+00:00",
-  "last_checked_at": "2026-11-25T22:22:52.274673+00:00",
+  "updated_at": "2026-11-25T23:18:30.663214+00:00",
+  "last_checked_at": "2026-11-25T23:18:30.663227+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -159,7 +159,7 @@
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
-      "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances are responding to the crash, and Egyptian health authorities say the death toll could rise.",
+      "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances responded to the crash, and Egyptian health authorities say the death toll could rise.",
       "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-25T21:37:00+00:00",
       "feed_id": "dw-world",
@@ -172,25 +172,6 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "At least 30 killed in highway fire in Cairo district",
-      "summary": "A truck carrying fuel reportedly overturned on a busy highway, setting vehicles ablaze and prompting a major emergency response. Authorities warned that the death toll could rise.",
-      "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
-      "published": "2026-11-25T19:56:45+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
       }
     },
     {
@@ -267,6 +248,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "At least 30 killed in highway fire in Cairo district",
+      "summary": "A truck carrying fuel reportedly overturned on a busy highway, setting vehicles ablaze and prompting a major emergency response. Authorities warned that the death toll could rise.",
+      "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
+      "published": "2026-11-25T19:56:45+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -487,13 +487,13 @@
       "published": "2026-11-25T11:00:15+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 39,
+      "priority_score": 38,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 91
       }
     },
@@ -593,25 +593,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Lululemon founder stuns Canadian women’s leadership conference with sexist comments",
-      "summary": "Chip Wilson said men importing brides from Thailand was due to women waiting too long to have children The controversial founder of Lululemon suggested women in Canada are having too few children and this could lead some men to bring in brides from Thailand ,",
-      "url": "https://www.theguardian.com/world/2026/nov/25/lululemon-founder-comments-canada-womens-leadership-conference",
-      "published": "2026-11-25T19:57:49+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Народното събрание одобри на първо четене бюджета за 2027 г.",
@@ -666,6 +647,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Lululemon founder stuns Canadian women’s leadership conference with sexist comments",
+      "summary": "Chip Wilson said men importing brides from Thailand was due to women waiting too long to have children The controversial founder of Lululemon suggested women in Canada are having too few children and this could lead some men to bring in brides from Thailand ,",
+      "url": "https://www.theguardian.com/world/2026/nov/25/lululemon-founder-comments-canada-womens-leadership-conference",
+      "published": "2026-11-25T19:57:49+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -784,25 +784,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Houthis claim attacks on Saudi refinery, financial district",
-      "summary": "Iran-backed Yemeni Houthis say they carried out fresh retaliatory attacks in Saudi Arabia. A fire was reported at Ras Tanura oil refinery and Riyadh's financial district was attacked for the second time in a week.",
-      "url": "https://www.dw.com/en/houthis-claim-attacks-on-saudi-refinery-financial-district/a-80043632?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T10:35:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
       "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
@@ -818,6 +799,25 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: Greens say Liberal-One Nation defector just ‘changing billionaire donor’; spoof parliamentary tool spreads cheer",
+      "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation –",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
+      "published": "2026-11-25T23:00:11+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -1049,63 +1049,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Турска компания ще инвестира 90 млн. долара в завод за авиочасти в Пловдив",
-      "summary": "Турската компания TUSAŞ Engine Industries (TEI) ще инвестира 90 млн. долара в изграждането на завод за компоненти за авиационни двигатели в Пловдив. Проектът предвижда разкриването на 170 висококвалифицирани работни места, а очакванията са производството да за",
-      "url": "https://www.economic.bg/bg/a/view/turska-kompanija-shte-investira-90-mln-dolara-v-zavod-za-aviochasti-v-plovdiv",
-      "published": "2026-11-25T10:56:00+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Keynote speech by Commissioner Kubilius on Defence Readiness in the EU Military Committee meeting at the level of Chiefs of Defence",
-      "summary": "European Commission Speech Brussels, 25 Nov 2026 Good to be together again with all of you! You asked us to elaborate on several questions. I am going to do that right away. My major message: we need to intens...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2586",
-      "published": "2026-11-25T10:53:53+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Serafin during the European Parliament debate Unlocking the 2028–2034 MFF negotiations including new own resources following the revised negotiating box in Strasbourg",
-      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Opening remarks Honourable members, dear rapporteurs, Many thanks for organising this debate at very timely moment. Let me start by stressing that the Commissio...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2585",
-      "published": "2026-11-25T10:31:44+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
       "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
@@ -1125,21 +1068,59 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Federal Reserve",
-      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-      "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
-      "published": "2026-11-25T20:00:00+00:00",
-      "feed_id": "federal-reserve",
-      "publisher": "Федерален резерв",
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Турска компания ще инвестира 90 млн. долара в завод за авиочасти в Пловдив",
+      "summary": "Турската компания TUSAŞ Engine Industries (TEI) ще инвестира 90 млн. долара в изграждането на завод за компоненти за авиационни двигатели в Пловдив. Проектът предвижда разкриването на 170 висококвалифицирани работни места, а очакванията са производството да за",
+      "url": "https://www.economic.bg/bg/a/view/turska-kompanija-shte-investira-90-mln-dolara-v-zavod-za-aviochasti-v-plovdiv",
+      "published": "2026-11-25T10:56:00+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 30,
       "priority_breakdown": {
         "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Keynote speech by Commissioner Kubilius on Defence Readiness in the EU Military Committee meeting at the level of Chiefs of Defence",
+      "summary": "European Commission Speech Brussels, 25 Nov 2026 Good to be together again with all of you! You asked us to elaborate on several questions. I am going to do that right away. My major message: we need to intens...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2586",
+      "published": "2026-11-25T10:53:53+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Serafin during the European Parliament debate Unlocking the 2028–2034 MFF negotiations including new own resources following the revised negotiating box in Strasbourg",
+      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Opening remarks Honourable members, dear rapporteurs, Many thanks for organising this debate at very timely moment. Let me start by stressing that the Commissio...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2585",
+      "published": "2026-11-25T10:31:44+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
         "source_reliability": 99
       }
     },
@@ -1201,41 +1182,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Пред Министерския съвет и Народното събрание приключи протестното шествие срещу насилието над жени в София",
-      "summary": "В пространството пред Министерския съвет и Народното събрание приключи протестното шествие в София срещу насилието над жени и момичета. Протестът под надслов „Нито една повече!“ започна около 18:30 часа пред Съдебната палата. Оттам тръгна шествието през булева",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254608-pred-ministerskiya-savet-i-narodnoto-sabranie-priklyuchi-protestnoto-shestvie-sr",
-      "published": "2026-11-25T19:36:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+      "published": "2026-11-25T20:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "publisher": "Федерален резерв",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Доц. Бойко Великов ще представи втори том на книгата си „Политическа психология в България\"",
-      "summary": "Доц. Бойко Великов ще представи втори том на книгата си „Политическа психология в България\" на 26 ноември от 18:00 часа в зала „Шипка\" на столичния хотел „Кристъл палас\", съобщи авторът. Подзаглавието на изданието е „Исторически събития и личности през Българс",
-      "url": "https://www.bta.bg/bg/news/lik/1254600-dots-boyko-velikov-shte-predstavi-vtori-tom-na-knigata-si-politicheska-psiholo",
-      "published": "2026-11-25T19:25:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 99
       }
     },
     {
@@ -1332,17 +1294,50 @@
         "timeliness": 92,
         "source_reliability": 94
       }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Canada says it ‘does not report to the US’ after Pentagon criticizes military spending",
+      "summary": "Scathing US document memo supposedly ‘atrophied’ defence capabilities of its northern neighbour Canada is a “sovereign nation” that does not “report” to the United States, the country’s defense minister said after the Pentagon released a scathing memo that cri",
+      "url": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo",
+      "published": "2026-11-24T22:02:13+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 68,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "North Korea expels Swiss diplomat in sanctions row",
+      "summary": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing.",
+      "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T21:51:17+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
     }
   ],
   "feed_status": {
-    "ok": 20,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "parliament-news",
-        "error": "HTTP Error 429: Too Many Requests"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
