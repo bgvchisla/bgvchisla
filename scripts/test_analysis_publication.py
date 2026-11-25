@@ -48,7 +48,7 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertEqual(data["latest"]["kfp_preliminary"]["balance_mio_eur"], -5200.0)
         self.assertIn("central_government_balance", [row["id"] for row in fiscal["series"]])
         self.assertIn("social_security_funds_balance", [row["id"] for row in fiscal["series"]])
-        self.assertIn("КФП", data["definitions"]["kfp"])
+        self.assertIn("касов", data["definitions"]["kfp"])
         self.assertIn("ESA 2010", data["definitions"]["maastricht"])
         self.assertGreaterEqual(len(data["source_links"]), 7)
 
