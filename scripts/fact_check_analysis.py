@@ -100,6 +100,84 @@ def accumulate_usage_totals(ledger, billing):
     return ledger
 
 
+
+def sanitize_diagnostic_text(value, max_chars=320):
+    """Keep bounded HTTP diagnostics while removing common credential formats."""
+    text = re.sub(r"\s+", " ", str(value or "")).strip()
+    text = re.sub(
+        r"(?i)(\b(?:x-goog-api-key|api[_-]?key|access[_-]?token|refresh[_-]?token|authorization|secret|password)\b\s*[:=]\s*['\"]?)[^'\"]+",
+        r"\1[REDACTED]",
+        text,
+    )
+    text = re.sub(r"(?i)\bBearer\s+[A-Za-z0-9._~+/=-]+", "Bearer [REDACTED]", text)
+    text = re.sub(r"(?i)\bAIza[0-9A-Za-z_-]{20,}\b", "[REDACTED_API_KEY]", text)
+    text = re.sub(
+        r"(?i)([?&](?:key|api_key|access_token|refresh_token|token)=)[^&\s]+",
+        r"\1[REDACTED]",
+        text,
+    )
+    return text[:max_chars]
+
+
+def http_error_diagnostics(exc):
+    """Extract a compact, sanitized diagnostic summary from urllib HTTPError."""
+    try:
+        status_code = int(exc.code)
+    except (TypeError, ValueError):
+        status_code = None
+
+    status_reason = sanitize_diagnostic_text(exc.reason, 160)
+    headers = getattr(exc, "headers", None)
+    content_type = ""
+    if headers is not None:
+        try:
+            content_type = sanitize_diagnostic_text(headers.get("Content-Type", ""), 120)
+        except (AttributeError, TypeError):
+            content_type = ""
+
+    try:
+        raw_body = exc.read(2048)
+    except (OSError, ValueError, AttributeError):
+        raw_body = b""
+    if isinstance(raw_body, bytes):
+        body_text = raw_body.decode("utf-8", errors="replace")
+    else:
+        body_text = str(raw_body or "")
+    body_text = body_text[:2048]
+
+    api_error = {}
+    if body_text:
+        try:
+            payload = json.loads(body_text)
+        except (json.JSONDecodeError, TypeError):
+            payload = {}
+        if isinstance(payload, dict):
+            candidate = payload.get("error")
+            if isinstance(candidate, dict):
+                api_error = candidate
+
+    api_error_status = sanitize_diagnostic_text(api_error.get("status", ""), 120)
+    api_error_message = sanitize_diagnostic_text(api_error.get("message", ""), 320)
+    if api_error:
+        # Persist only Google's safe status/message fields, never arbitrary details.
+        body_prefix = json.dumps(
+            {"status": api_error_status, "message": api_error_message},
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )[:480]
+    else:
+        body_prefix = sanitize_diagnostic_text(body_text, 320)
+
+    return {
+        "http_status_code": status_code,
+        "http_status_reason": status_reason,
+        "api_error_status": api_error_status,
+        "api_error_message": api_error_message,
+        "response_content_type": content_type,
+        "response_body_prefix": body_prefix,
+    }
+
+
 def canonical_url(value):
     try:
         parsed = urlsplit(str(value).strip())
@@ -655,10 +733,37 @@ def main():
         billed_output_tokens = billing["billed_output_tokens"]
         actual_cost = billing["actual_cost_usd"]
         accumulate_usage_totals(ledger, billing)
+    except urllib.error.HTTPError as exc:
+        diagnostics = http_error_diagnostics(exc)
+        ledger["reserved_usd"] = round(max(0.0, float(ledger["reserved_usd"]) - reserve), 8)
+        ledger["spent_usd"] = round(float(ledger["spent_usd"]) + reserve, 8)
+        entry.update({
+            "status": "error_http",
+            "estimated_cost_usd": reserve,
+            "cost_basis": "full_reserved_budget_fallback; provider usage metadata unavailable",
+            "error": type(exc).__name__,
+            **diagnostics,
+        })
+        write_json_atomic(LEDGER_PATH, ledger)
+        print(
+            "Gemini HTTP request failure; safe diagnostics="
+            + json.dumps(diagnostics, ensure_ascii=False, separators=(",", ":"))
+        )
+        status_code = diagnostics.get("http_status_code")
+        reason = diagnostics.get("http_status_reason") or "неизвестна причина"
+        raise SystemExit(
+            "Независимата проверка не завърши. Публикацията е блокирана. "
+            f"HTTP статус: {status_code or 'неизвестен'}; причина: {reason}"
+        ) from exc
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError) as exc:
         ledger["reserved_usd"] = round(max(0.0, float(ledger["reserved_usd"]) - reserve), 8)
         ledger["spent_usd"] = round(float(ledger["spent_usd"]) + reserve, 8)
-        entry.update({"status": "error_unknown_cost", "estimated_cost_usd": reserve, "error": type(exc).__name__})
+        entry.update({
+            "status": "error_unknown_cost",
+            "estimated_cost_usd": reserve,
+            "cost_basis": "full_reserved_budget_fallback; provider usage metadata unavailable",
+            "error": type(exc).__name__,
+        })
         write_json_atomic(LEDGER_PATH, ledger)
         raise SystemExit(
             "Независимата проверка не завърши. Публикацията е блокирана. "
