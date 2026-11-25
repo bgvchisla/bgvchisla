@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T15:56:46.237243+00:00",
-  "last_checked_at": "2026-11-25T15:56:46.237252+00:00",
+  "updated_at": "2026-11-25T16:56:07.928725+00:00",
+  "last_checked_at": "2026-11-25T16:56:07.928737+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -31,14 +31,33 @@
       "published": "2026-11-24T16:44:14+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 50,
+      "priority_score": 49,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 87,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "€561 Billion and Still Not Enough: Germany's 2027 Budget Exposes a Coalition on the Brink",
+      "summary": "The budget for 2027 has reached new highs, and pension funds, defense spending and a weak economy are increasing the pressure. At the same time, tensions are mounting within the government.",
+      "url": "https://www.dw.com/en/€561-billion-and-still-not-enough-germany-s-2027-budget-exposes-a-coalition-on-the-brink/a-80052664?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T16:06:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 48,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     },
     {
@@ -81,21 +100,40 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Скъпият ток засега компенсира увеличените разходи за газ на топлофикациите",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/440033-skapiyat-tok-zasega-kompensira-uvelichenite-razhodi-za-gaz-na-toplofikatsiite",
-      "published": "2026-11-25T05:54:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 44,
+      "source": "БТА",
+      "title": "Необходимостта от всеобхватен подход към сигурността, каза заместник-министърът на външните работи Иванка Ташева на конференция в Берлин",
+      "summary": "Необходимостта от всеобхватен подход към сигурността, който наред с инвестициите в отбраната включва укрепване на обществената устойчивост, защита на критичната инфраструктура и повишаване на институционалната готовност за реакция при кризи, подчерта заместник",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254506-neobhodimostta-ot-vseobhvaten-podhod-kam-sigurnostta-kaza-zamestnik-ministarat-",
+      "published": "2026-11-25T16:53:40+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 43,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Press briefing - Transport, Telecommunications and Energy Council (Transport and Telecommunications) of 30 November and 1 December 2026",
+      "summary": "The press briefing ahead of the Transport, Telecommunications and Energy Council will take place on Friday, 27 November 2026 at 14:00.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/press-briefing-transport-telecommunications-and-energy-council-transport-and-telecommunications-of-30-november-and-1-december-2026/",
+      "published": "2026-11-25T16:00:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
+      "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 99
       }
     },
     {
@@ -153,6 +191,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Проектът на държавен бюджет за 2027 г. не става, заяви лидерът на ПП Асен Василев и призова управляващите да го изтеглят и преработят",
+      "summary": "Проектът на държавен бюджет за 2027 г. не става, заяви председателят на \"Продължаваме промяната\" Асен Василев по време на дебатите на първо четене в парламента и призова да бъде изтеглен и преработен из основи. \"Г-н Донев, проектът Ви за бюджет не става. Не го",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254518-proektat-na-darzhaven-byudzhet-za-2027-g-ne-stava-zayavi-liderat-na-pp-asen-va",
+      "published": "2026-11-25T16:51:11+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -232,79 +289,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
-      "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
-      "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-are-staying-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T11:00:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 37,
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Инфлацията в САЩ се е ускорила до 3,8% през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440070-inflatsiyata-v-sasht-se-e-uskorila-do-38-prez-oktomvri",
+      "published": "2026-11-25T13:54:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Второто регионално STEM състезание през 2027 г. се подготвя от РУО в София-град и от Националния STEM център",
-      "summary": "Началникът на Регионалното управление на образованието (РУО) в София-град д-р Елеонора Лилова и експерти от РУО посетиха Националния STEM център, където имаха работна среща с директора му проф. д-р Найден Шиваров и с екипа на институцията. По време на посещени",
-      "url": "https://www.bta.bg/bg/news/lik/1254407-vtoroto-regionalno-stem-sastezanie-prez-2027-g-se-podgotvya-ot-ruo-v-sofiya-gra",
-      "published": "2026-11-25T15:45:25+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Всеки български ученик чува името Лайпциг, когато стане дума за първия български вестник, каза министърът на образованието проф. Георги Вълчев",
-      "summary": "Всеки български ученик чува името Лайпциг, когато стане дума за първия български вестник, каза министърът на образованието и науката проф. Георги Вълчев при тържествено откриване на паметна плоча на журналиста и общественик Иван Богоров в Лайпциг. Тя е поставе",
-      "url": "https://www.bta.bg/bg/news/lik/1254408-vseki-balgarski-uchenik-chuva-imeto-layptsig-kogato-stane-duma-za-parviya-balga",
-      "published": "2026-11-25T15:40:47+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Von der Leyen: Energy ceasefire would show Putin is serious about peace talks",
-      "summary": "“A strong European team will participate in the next round of talks” on Ukraine, the European Commission chief tells lawmakers.",
-      "url": "https://www.politico.eu/article/von-der-leyen-energy-ceasefire-would-show-putin-is-serious-about-peace-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T12:09:47+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
         "timeliness": 92,
-        "source_reliability": 92
+        "source_reliability": 87
       }
     },
     {
@@ -481,6 +481,44 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
+      "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
+      "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
+      "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-are-staying-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-24T11:00:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Кой стои зад проекта за завод за барут край Хасково?",
+      "summary": "Семейни бизнеси с дългогодишен опит в международната търговия с оръжие и турски компании от отбранителната индустрия стоят зад проекта за изграждане на завод за барут край хасковското село Бодрово. Инвестицията е на стойност над 250 млн. евро, а за реализацият",
+      "url": "https://www.economic.bg/bg/a/view/koj-stoi-zad-proekta-za-zavod-za-barut-kraj-haskovo",
+      "published": "2026-11-25T16:00:17+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 22,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
       "title": "US plans new tariffs on EU, China and 12 others",
       "summary": "The Trump administration is planning new import duties of up to 20% to counter excessive manufacturing abroad. The measures could put further pressure on US consumers already struggling with high living costs.",
       "url": "https://www.dw.com/en/us-plans-new-tariffs-on-eu-china-and-12-others/a-80050872?maca=en-rss-en-all-1573-rdf",
@@ -518,21 +556,21 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Инфлацията в САЩ се е ускорила до 3,8% през октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440070-inflatsiyata-v-sasht-se-e-uskorila-do-38-prez-oktomvri",
-      "published": "2026-11-25T13:54:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
+      "source": "БТА",
+      "title": "НУМСИ в Бургас получи като дарение две цигулки, принадлежали на концертмайсторката Мила Козева",
+      "summary": "Две цигулки, принадлежали на бургаската музикантка и дългогодишна концертмайсторка Мила Козева, бяха дарени на Националното училище за музикално и сценично изкуство (НУМСИ) „Проф. Панчо Владигеров“ в Бургас. Инструментите са предоставени от нейния син - музика",
+      "url": "https://www.bta.bg/bg/news/lik/1254449-numsi-v-burgas-poluchi-kato-darenie-dve-tsigulki-prinadlezhali-na-kontsertmayst",
+      "published": "2026-11-25T16:03:50+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 87
+        "source_reliability": 90
       }
     },
     {
@@ -650,25 +688,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Неочакваният икономически ефект на GTA VI в България",
-      "summary": "Какво общо има премиерата на една видеоигра с бизнеса на ресторантите в България? Данни на Revolut разкриват любопитна промяна в потребителските навици покрай излизането на GTA VI – включително изненадваща тенденция при разходите на жените",
-      "url": "https://www.economic.bg/bg/a/view/neochakvanijat-ikonomicheski-efekt-na-gta-vi-v-bylgarija",
-      "published": "2026-11-24T16:14:47+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
@@ -685,25 +704,6 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU plans €50 billion sovereign tech equity fund to boost quantum technology",
-      "summary": "The European Commission proposed a tech fund with a target size of €50 billion to boost quantum computing efforts. The bloc aims to keep up with the US and China in the global race.",
-      "url": "https://www.dw.com/en/eu-plans-€50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology/a-80047569?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T13:44:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
       }
     },
     {
@@ -728,10 +728,10 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "„Без ефект за бюджета“: Рафинерията в Бургас е на загуба",
-      "summary": "Бургаската рафинерия „Лукойл Нефтохим“, която е руска собственост, но се управлява от държавно назначен особен търговски управител, е на загуба. Това потвърди заместник-министърът на финансите Людмила Петкова по време на извънредното заседание на Комисията по",
-      "url": "https://www.economic.bg/bg/a/view/bez-efekt-za-budjeta-rafinerijata-v-burgas-e-na-zaguba",
-      "published": "2026-11-24T14:12:14+00:00",
+      "title": "Неочакваният икономически ефект на GTA VI в България",
+      "summary": "Какво общо има премиерата на една видеоигра с бизнеса на ресторантите в България? Данни на Revolut разкриват любопитна промяна в потребителските навици покрай излизането на GTA VI – включително изненадваща тенденция при разходите на жените",
+      "url": "https://www.economic.bg/bg/a/view/neochakvanijat-ikonomicheski-efekt-na-gta-vi-v-bylgarija",
+      "published": "2026-11-24T16:14:47+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
       "priority_score": 33,
@@ -784,25 +784,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Китайското посолство изпратило протестна нота до парламента заради изказване на Божидар Божанов",
-      "summary": "Китайското посолство в София е изпратило протестна нота до парламента заради допускането на депутата и съпредседател на „Да, България“ Божидар Божанов, че държавно спонсорирани от Пекин хакерски групи може да стоят зад кибершпионажа срещу български институции.",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254395-kitayskoto-posolstvo-izpratilo-protestna-nota-do-parlamenta-zaradi-izkazvane-na-",
-      "published": "2026-11-25T15:24:09+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "България промени споразумението с Турция за втори граничен пункт при Капитан Андреево",
       "summary": "Правителството одобри нов вариант на документа, с който България и Турция планират изграждането на допълнителен граничен контролно-пропускателен пункт северно от съществуващия „Капитан Андреево – Капъкуле“. Промяната е направена по предложение на турската стра",
@@ -821,22 +802,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "\"Булгаргаз\" поиска \"Топлофикация София\" да признае 302 млн. евро дълг с изтичаща давност",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/440062-bulgargaz-poiska-toplofikatsiya-sofiya-da-priznae-302-mln-evro-dalg-s-iztichashta-davnost",
-      "published": "2026-11-25T13:00:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU plans €50 billion sovereign tech equity fund to boost quantum technology",
+      "summary": "The European Commission proposed a tech fund with a target size of €50 billion to boost quantum computing efforts. The bloc aims to keep up with the US and China in the global race.",
+      "url": "https://www.dw.com/en/eu-plans-€50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology/a-80047569?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T13:44:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
       "priority_score": 32,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
+        "economic_significance": 0,
+        "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 95
       }
     },
     {
@@ -875,6 +856,25 @@
         "strategic_significance": 32,
         "timeliness": 10,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "\"Булгаргаз\" поиска \"Топлофикация София\" да признае 302 млн. евро дълг с изтичаща давност",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/440062-bulgargaz-poiska-toplofikatsiya-sofiya-da-priznae-302-mln-evro-dalg-s-iztichashta-davnost",
+      "published": "2026-11-25T13:00:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
@@ -994,10 +994,10 @@
     {
       "section": "europe",
       "source": "POLITICO Europe",
-      "title": "The EU’s showdown over next big budget — live updates",
-      "summary": "Governments are divided over the size of the long-term budget, and on how to spend the money.",
-      "url": "https://www.politico.eu/article/the-eus-showdown-over-next-big-budget-live-updates/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T13:33:28+00:00",
+      "title": "Macron threatens to stop negotiating EU budget after December",
+      "summary": "The French president's ultimatum ramps up pressure on negotiators ahead of a budget-focused European Council meeting.",
+      "url": "https://www.politico.eu/article/emmanuel-macron-threatens-stop-negotiating-eu-budget-after-december/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T16:40:20+00:00",
       "feed_id": "politico-europe",
       "publisher": "POLITICO",
       "priority_score": 30,
@@ -1008,44 +1008,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
-      "summary": "European Commission Press release Strasbourg, 25 Nov 2026 The European Commission today proposed the Quantum Act, a new framework to help turn Europe's quantum research into products and services, strengthen supply chains and prepare Europe's digital systems f",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2567",
-      "published": "2026-11-24T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Commission prolongs State aid framework to support sectors affected by Middle East crisis until June 2027",
-      "summary": "European Commission Press release Brussels, 25 Nov 2026 The European Commission has prolonged the Middle East Crisis Temporary State aid Framework (METSAF) by six months until 30 June 2027.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2576",
-      "published": "2026-11-24T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 99
       }
     },
     {
@@ -1108,6 +1070,63 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Нова онлайн галерия за съвременно българско визуално изкуство ще подкрепя български творци и обществени каузи",
+      "summary": "Онлайн галерията за съвременно българско визуално изкуство Causa ще бъде представена на 3 декември с поп-ъп изложба в културен център „Вход Б“ в София. Проектът на Ваньо Димитров и Асен Величков обединява произведения на 13 български автори и подкрепя четири о",
+      "url": "https://www.bta.bg/bg/news/lik/1254514-nova-onlayn-galeriya-za-savremenno-balgarsko-vizualno-izkustvo-shte-podkrepya-ba",
+      "published": "2026-11-25T16:45:15+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Кариерен форум в Националната художествена академия срещна млади художници с издатели",
+      "summary": "Студенти и възпитаници на Националната художествена академия (НХА) представиха свои проекти пред представители на български издателства в рамките на кариерния форум „Първи стъпки в Книгата“. Събитието се състоя днес в галерия „Академия“ в София. Инициативата е",
+      "url": "https://www.bta.bg/bg/news/lik/1254460-karieren-forum-v-natsionalnata-hudozhestvena-akademiya-sreshtna-mladi-hudozhnits",
+      "published": "2026-11-25T16:02:09+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Паметна плоча бе поставена в Лайпциг на мястото, където е създаден първият български вестник",
+      "summary": "Тържествено днес бе открита паметна плоча на журналиста и общественик Иван Богоров в Лайпциг. Тя е поставена по инициатива на Българската телеграфна агенция (БТА) и съвместно с Посолството на България в Берлин, Германия, в центъра на града – на Nikolaistraße 1",
+      "url": "https://www.bta.bg/bg/news/lik/1254454-pametna-plocha-be-postavena-v-layptsig-na-myastoto-kadeto-e-sazdaden-parviyat-b",
+      "published": "2026-11-25T15:58:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Български фонд за жените изпрати становище до институциите за промяна на дефиницията за изнасилване в Наказателния кодекс",
       "summary": "Българският фонд за жените (БФЖ) изпрати становище за промяна на дефиницията за изнасилване в Наказателния кодекс до президента Илияна Йотова, Министерския съвет, министъра на правосъдието Николай Найденов, министъра на вътрешните работи Иван Демерджиев, минис",
       "url": "https://www.bta.bg/bg/news/bulgaria/1254437-balgarski-fond-za-zhenite-izprati-stanovishte-do-institutsiite-za-promyana-na-de",
@@ -1125,98 +1144,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Родопският драматичен театър в Смолян отстранява счетоводни пропуски от предходни години, каза директорът Мариан Бозуков",
-      "summary": "Ръководството на Родопския драматичен театър (РДТ) „Николай Хайтов“ в Смолян продължава да работи по отстраняването на заварените пропуски в счетоводната отчетност и ще оказва пълно съдействие на Министерството на културата и компетентните контролни органи. То",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254421-rodopskiyat-dramatichen-teatar-v-smolyan-otstranyava-schetovodni-propuski-ot-pre",
-      "published": "2026-11-25T15:49:16+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "The EU’s showdown over next big budget — live updates",
+      "summary": "Governments are divided over the size of the long-term budget, and on how to spend the money.",
+      "url": "https://www.politico.eu/article/the-eus-showdown-over-next-big-budget-live-updates/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T13:33:28+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Има исторически предпоставки първият български вестник да е издаван именно тук, каза първият заместник-кмет на Лайпциг Торстен Бонев",
-      "summary": "Има исторически предпоставки първият български вестник да е издаван именно тук, каза първият заместник-кмет на Лайпциг Торстен Бонев на тържественото откриване на паметната плоча на журналиста и общественик Иван Богоров в Лайпциг. Тя бе поставена по инициатива",
-      "url": "https://www.bta.bg/bg/news/lik/1254390-ima-istoricheski-predpostavki-parviyat-balgarski-vestnik-da-e-izdavan-imenno-tuk",
-      "published": "2026-11-25T15:43:44+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Омбудсманът Велислава Делчева проведе изнесена приемна с граждани в Монтана",
-      "summary": "Омбудсманът на България Велислава Делчева и експерти от институцията проведоха изнесена приемна за граждани в Монтана. Срещата се състоя в сградата на Общинската администрация. От началото на годината до 23 ноември в институцията на омбудсмана са постъпили 146",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254389-ombudsmanat-velislava-delcheva-provede-iznesena-priemna-s-grazhdani-v-montana",
-      "published": "2026-11-25T15:28:22+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Институциите в Лайпциг проявяват уважение към българските традиции, история и култура, каза посланик на България в Германия Григор Порожанов",
-      "summary": "Институциите в Лайпциг проявяват уважение към българските традиции, история и култура, каза извънредният и пълномощен посланик на Република България в Германия Григор Порожанов при тържественото откриване на паметна плоча на журналиста и общественик Иван Богор",
-      "url": "https://www.bta.bg/bg/news/lik/1254383-institutsiite-v-layptsig-proyavyavat-uvazhenie-kam-balgarskite-traditsii-istori",
-      "published": "2026-11-25T15:27:09+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Изключителна чест е да почетем паметта на българина Иван Богоров, каза почетният консул на България в Саксония Хайко Шмидт",
-      "summary": "„Днес за нас е изключителна чест да почетем паметта на българина Иван Богоров“, каза почетният консул на Република България във Федерална провинция Саксония Хайко Шмидт на тържественото откриване на паметната плоча на журналиста и общественик Иван Богоров в Ла",
-      "url": "https://www.bta.bg/bg/news/lik/1254377-izklyuchitelna-chest-e-da-pochetem-pametta-na-balgarina-ivan-bogorov-kaza-poche",
-      "published": "2026-11-25T15:24:14+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -1234,7 +1177,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -1316,11 +1259,30 @@
     },
     {
       "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - Special European Council meeting of 26-27 November 2026",
+      "summary": "Approximate timings and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/media-advisory-special-european-council-meeting-of-26-27-november-2026/",
+      "published": "2026-11-25T16:45:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
-      "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
-      "summary": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm.",
-      "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T15:42:50+00:00",
+      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+      "summary": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T16:20:14+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 28,
@@ -1331,6 +1293,44 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Speech by Commissioner Lahbib at the European Parliament on Combating Gender-Based Violence in the Age of Digital Technology",
+      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Digital technologies are transforming every part of our lives. They are changing how we work, communicate and participate in public life. But while this digital...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2590",
+      "published": "2026-11-25T16:18:22+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "UK will not offer equal tuition fees for EU students, says Burnham",
+      "summary": "Negotiations with the European bloc on students fees are \"ongoing,\" according to the British prime minister.",
+      "url": "https://www.politico.eu/article/uk-will-not-offer-equal-tuition-fees-for-eu-students-says-andy-burnham/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T16:04:33+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
       }
     }
   ],
