@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T19:28:02.734772+00:00",
-  "last_checked_at": "2026-11-25T19:28:02.734782+00:00",
+  "updated_at": "2026-11-25T20:21:58.090634+00:00",
+  "last_checked_at": "2026-11-25T20:21:58.090646+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -31,13 +31,13 @@
       "published": "2026-11-25T16:30:24+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 54,
+      "priority_score": 53,
       "priority_breakdown": {
         "economic_significance": 68,
         "national_impact": 61,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -47,7 +47,7 @@
       "title": "Не можем да подкрепим закон за бюджет, който предвижда много висока инфлация, по-високи цени, обедняване, заявиха от ГЕРБ-СДС",
       "summary": "ПГ ГЕРБ-СДС няма как да подкрепи такъв закон за бюджета, защото на първо място той предвижда много висока инфлация, съответно много по-високи цени, обедняване на българските граждани, води до увеличаване на данъчната тежест, до много по-висок дефицит и нов дъл",
       "url": "https://www.bta.bg/bg/news/bulgaria/1254576-ne-mozhem-da-podkrepim-zakon-za-byudzhet-koyto-predvizhda-mnogo-visoka-inflatsi",
-      "published": "2026-11-25T18:41:58+00:00",
+      "published": "2026-11-25T18:41:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 49,
@@ -99,31 +99,12 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Labor wins Greens support for trust changes in exchange for scrapping jet fuel subsidies for the wealthy",
-      "summary": "Government also agrees to carve out pensioners from cuts to private health insurance rebates in return for minor party’s support in Senate Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily news podcast",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/25/labor-greens-deal-discretionary-trust-changes-jet-fuel-subsidies-scrapped-for-private-jet-owners",
-      "published": "2026-11-25T07:16:33+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 47,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 94
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Парламентът прие на първо четене Законопроекта за държавния бюджет за 2027 г.",
       "summary": "Парламентът прие на първо четене Законопроекта за държавния бюджет за 2027 г. със 126 гласа \"за\", 81 \"против\" и без въздържали се. Подкрепиха го единствено от \"Прогресивна България\", а останалите парламентарни групи гласуваха \"против\". Министърът на финансите",
       "url": "https://www.bta.bg/bg/news/bulgaria/1254587-parlamentat-prie-na-parvo-chetene-zakonoproekta-za-darzhavniya-byudzhet-za-2027-",
-      "published": "2026-11-25T18:49:33+00:00",
+      "published": "2026-11-25T18:49:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 45,
@@ -158,10 +139,10 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Greece: 14,000 march in Athens against rising living costs",
-      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
-      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
-      "published": "2026-11-25T18:20:44+00:00",
+      "title": "At least 30 killed in highway fire in Cairo district",
+      "summary": "A truck carrying fuel reportedly overturned on a busy highway, setting vehicles ablaze and prompting a major emergency response. Authorities warned that the death toll could rise.",
+      "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
+      "published": "2026-11-25T19:56:45+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 40,
@@ -177,17 +158,17 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Latest news bulletin | November 25th, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-evening",
-      "published": "2026-11-25T17:00:26+00:00",
+      "title": "Greece: 14,000 march in Athens against rising living costs",
+      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
+      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
+      "published": "2026-11-25T18:20:44+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 40,
       "priority_breakdown": {
-        "economic_significance": 48,
+        "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
+        "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 91
@@ -328,6 +309,25 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Lululemon founder stuns Canadian women’s leadership conference with sexist comments",
+      "summary": "Chip Wilson said men importing brides from Thailand was due to women waiting too long to have children The controversial founder of Lululemon suggested women in Canada are having too few children and this could lead some men to bring in brides from Thailand ,",
+      "url": "https://www.theguardian.com/world/2026/nov/25/lululemon-founder-comments-canada-womens-leadership-conference",
+      "published": "2026-11-25T19:57:49+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
       "source": "POLITICO Europe",
       "title": "Don’t ‘backslide’ on defense spending, senior US lawmaker tells Europe",
       "summary": "Brendan Boyle said the EU needs to keep investing in defense amid fraught seven-year budget talks.",
@@ -408,7 +408,7 @@
       "title": "Няма нужда да изтегляме бюджет 2027 и да го преработваме, заяви Константин Проданов от \"Прогресивна България\"",
       "summary": "Няма нужда да изтегляме бюджет 2027 и да го преработваме, заяви председателят на парламентарната комисия по бюджет и финанси Константин Проданов (\"Прогресивна България\") по време на дебата по проектобюджета за следващата година в пленарната зала. Преди това ли",
       "url": "https://www.bta.bg/bg/news/bulgaria/1254540-nyama-nuzhda-da-izteglyame-byudzhet-2027-i-da-go-prerabotvame-zayavi-konstantin",
-      "published": "2026-11-25T17:47:28+00:00",
+      "published": "2026-11-25T17:47:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 42,
@@ -446,7 +446,7 @@
       "title": "\"Възраждане\" е категорично против този бюджет, който ни загробва, вдига данъците, обяви Цончо Ганев",
       "summary": "„Възраждане“ е категорично против този бюджет, който ни загробва, вдига данъците поголовно и не прави нищо за най-бедната част от населението, която е над 60%, заяви Цончо Ганев при обсъждането на план-сметката на държавата за следващата година. По думите му б",
       "url": "https://www.bta.bg/bg/news/bulgaria/1254545--vazrazhdane-e-kategorichno-protiv-tozi-byudzhet-koyto-ni-zagrobva-vdiga-dana",
-      "published": "2026-11-25T17:51:52+00:00",
+      "published": "2026-11-25T17:51:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 40,
@@ -476,6 +476,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 25th, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-evening",
+      "published": "2026-11-25T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -536,25 +555,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 24th, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-midday",
-      "published": "2026-11-24T11:00:15+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Народното събрание одобри на първо четене бюджета за 2027 г.",
@@ -579,7 +579,7 @@
       "title": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство",
       "summary": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство. По време на дебата на първо четене в пленарната зала той посочи, че премиерът е сравнил бюджета за 2027 г. с камион без спирачки,",
       "url": "https://www.bta.bg/bg/news/bulgaria/1254583-martin-dimitrov-ot-demokratichna-balgariya-prochete-parametrite-na-proektobyud",
-      "published": "2026-11-25T18:47:31+00:00",
+      "published": "2026-11-25T18:47:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 36,
@@ -822,44 +822,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘You’re protecting Trump’: Hanson-Young clashes with Liberal senator before digital duty of care legislation passes – as it happened",
-      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-25T07:34:44+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Боян Томов: Бизнесът иска предвидимост, за да може да работи",
-      "summary": "Предвидимостта и възможността за дългосрочно планиране остават сред най-важните условия за развитието на българския бизнес. Това посочи Боян Томов, издател на „Бранд Медия България“ и съорганизатор на конкурса „Мистър и Мисис Икономика“, по време на официалнат",
-      "url": "https://www.economic.bg/bg/a/view/bojan-tomov-biznesyt-iska-predvidimost-za-da-moje-da-raboti",
-      "published": "2026-11-24T19:28:43+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
       "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
@@ -879,6 +841,25 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "‘You’re protecting Trump’: Hanson-Young clashes with Liberal senator before digital duty of care legislation passes – as it happened",
+      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
+      "published": "2026-11-25T07:34:44+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "Teachers clash with police during nationwide strike over education cuts in Chile",
       "summary": "Thousands of teachers marched in Santiago during a nationwide strike against proposed budget cuts to public and higher education, with some protesters clashing with police.",
@@ -894,6 +875,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Боян Томов: Бизнесът иска предвидимост, за да може да работи",
+      "summary": "Предвидимостта и възможността за дългосрочно планиране остават сред най-важните условия за развитието на българския бизнес. Това посочи Боян Томов, издател на „Бранд Медия България“ и съорганизатор на конкурса „Мистър и Мисис Икономика“, по време на официалнат",
+      "url": "https://www.economic.bg/bg/a/view/bojan-tomov-biznesyt-iska-predvidimost-za-da-moje-da-raboti",
+      "published": "2026-11-24T19:28:43+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 85
       }
     },
     {
@@ -951,44 +951,6 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
-      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
-      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
-      "published": "2026-11-24T19:07:26+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
-      "summary": "Nvidia employees cheered and applauded CEO Jensen Huang as he returned to the company's headquarters in Santa Clara, California, on Monday, 11 days after stepping down.",
-      "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
-      "published": "2026-11-24T10:56:22+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 91
       }
     },
     {
@@ -1126,44 +1088,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by Commissioner Dombrovskis at the European Parliament on the EU's support for Ukraine",
-      "summary": "European Commission Statement Strasbourg, 25 Nov 2026 Madam Chair, Minister, honourable Members, Allow me to conclude on behalf of the Commission by reiterating some key points. As President von der Leyen has alrea...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2583",
-      "published": "2026-11-25T08:05:35+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Dombrovskis at Eurochambres meeting",
-      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Good morning. It is a pleasure to join you this morning. Because Eurochambres doesn't just tell us that our rules are too complicated. You come back with report...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2582",
-      "published": "2026-11-25T07:51:26+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
       "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
@@ -1183,13 +1107,13 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Macron threatens to stop negotiating EU budget after December",
-      "summary": "The French president's ultimatum ramps up pressure on negotiators ahead of a budget-focused European Council meeting.",
-      "url": "https://www.politico.eu/article/emmanuel-macron-threatens-stop-negotiating-eu-budget-after-december/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T16:40:20+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
+      "source": "Federal Reserve",
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+      "published": "2026-11-25T20:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "publisher": "Федерален резерв",
       "priority_score": 30,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -1197,7 +1121,45 @@
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 92
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement by Commissioner Dombrovskis at the European Parliament on the EU's support for Ukraine",
+      "summary": "European Commission Statement Strasbourg, 25 Nov 2026 Madam Chair, Minister, honourable Members, Allow me to conclude on behalf of the Commission by reiterating some key points. As President von der Leyen has alrea...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2583",
+      "published": "2026-11-25T08:05:35+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Dombrovskis at Eurochambres meeting",
+      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Good morning. It is a pleasure to join you this morning. Because Eurochambres doesn't just tell us that our rules are too complicated. You come back with report...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2582",
+      "published": "2026-11-25T07:51:26+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -1236,6 +1198,25 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Пред Министерския съвет и Народното събрание приключи протестното шествие срещу насилието над жени в София",
+      "summary": "В пространството пред Министерския съвет и Народното събрание приключи протестното шествие в София срещу насилието над жени и момичета. Протестът под надслов „Нито една повече!“ започна около 18:30 часа пред Съдебната палата. Оттам тръгна шествието през булева",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254608-pred-ministerskiya-savet-i-narodnoto-sabranie-priklyuchi-protestnoto-shestvie-sr",
+      "published": "2026-11-25T19:36:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1296,22 +1277,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Проф. Мартин Иванов представи във Видин изследването си за Народния съд в България",
-      "summary": "Проф. Мартин Иванов представи във Видин книгата си „Народният съд в България (1944–1945) – Герои и антигерои“ на среща в аулата на Частното начално училище „Митрополит Неофит Видински“. Събитието беше организирано от Видинската митрополия с благословението на",
-      "url": "https://www.bta.bg/bg/news/lik/1254537-prof-martin-ivanov-predstavi-vav-vidin-izsledvaneto-si-za-narodniya-sad-v-balga",
-      "published": "2026-11-25T17:44:47+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Macron threatens to stop negotiating EU budget after December",
+      "summary": "The French president's ultimatum ramps up pressure on negotiators ahead of a budget-focused European Council meeting.",
+      "url": "https://www.politico.eu/article/emmanuel-macron-threatens-stop-negotiating-eu-budget-after-december/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T16:40:20+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -1331,6 +1312,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "САЩ предлагат нови мита за 14 търговски партньори, включително Китай и ЕС",
+      "summary": "САЩ предложиха нови, по-високи мита за вноса от 14 търговски партньори, сред които Китай, Европейският съюз, Япония и Индия. Президентът Доналд Тръмп продължава да залага на тарифната си политика, въпреки че значителна част от въведените по-рано от него мита б",
+      "url": "https://www.economic.bg/bg/a/view/sa-sht-predlagat-novi-mita-za-14-tyrgovski-partniori-vkluchitelno-kitaj-i-es",
+      "published": "2026-11-25T13:28:02+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     }
   ],
