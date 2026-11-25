@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T01:50:17.222446+00:00",
-  "last_checked_at": "2026-11-25T01:50:17.222456+00:00",
+  "updated_at": "2026-11-25T02:47:24.543615+00:00",
+  "last_checked_at": "2026-11-25T02:47:24.543625+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -45,7 +45,7 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Inflation rate jumps to 4.9% as Australia’s cost-of-living crisis intensifies",
-      "summary": "Figure up from 4.3% annual rate in September and nearly double Reserve Bank’s official target of 2.5% Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Surging fuel costs and the end of elec",
+      "summary": "Figure up from 4.3% annual rate in September and nearly double Reserve Bank’s official target of 2.5% Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily news podcast Surging fuel costs and the end of el",
       "url": "https://www.theguardian.com/business/2026/nov/25/inflation-rate-australia-october-figures",
       "published": "2026-11-25T01:42:07+00:00",
       "feed_id": "guardian-world",
@@ -101,10 +101,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Politics live: Chalmers calls inflation data ‘unwelcome but unsurprising’; government faces rally in parliament over home births",
+      "title": "Politics live: Chalmers says economy faces ‘serious moment’ amid inflation; NSW ‘scaling up’ response after fire ants found in Sydney",
       "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-25T01:37:31+00:00",
+      "published": "2026-11-25T02:29:26+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 40,
@@ -115,25 +115,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Daily News 24/ 11 / 2026",
-      "summary": "European Commission Daily news Brussels, 24 Nov 2026 Commission calls for joint EU efforts to reduce tax gaps and boost public finances Today, the European Commission published its Mind the Gap 2026 Communication,...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2578",
-      "published": "2026-11-24T14:25:28+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
       }
     },
     {
@@ -153,6 +134,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Daily News 24/ 11 / 2026",
+      "summary": "European Commission Daily news Brussels, 24 Nov 2026 Commission calls for joint EU efforts to reduce tax gaps and boost public finances Today, the European Commission published its Mind the Gap 2026 Communication,...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2578",
+      "published": "2026-11-24T14:25:28+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -613,6 +613,25 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
+      "summary": "Huawei was found guilty of 10 out of 12 charges levelled against it. The company said it plans to appeal the verdict.",
+      "url": "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T02:01:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "What will Victoria’s election result mean for nine datacentre projects awaiting approval?",
       "summary": "Despite community backlash, some firms are confident they will get the green light as Coalition says datacentres ‘will be an important part of Victoria’s future’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app",
@@ -675,25 +694,6 @@
       "summary": "Какво общо има премиерата на една видеоигра с бизнеса на ресторантите в България? Данни на Revolut разкриват любопитна промяна в потребителските навици покрай излизането на GTA VI – включително изненадваща тенденция при разходите на жените",
       "url": "https://www.economic.bg/bg/a/view/neochakvanijat-ikonomicheski-efekt-na-gta-vi-v-bylgarija",
       "published": "2026-11-24T16:14:47+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "„Без ефект за бюджета“: Рафинерията в Бургас е на загуба",
-      "summary": "Бургаската рафинерия „Лукойл Нефтохим“, която е руска собственост, но се управлява от държавно назначен особен търговски управител, е на загуба. Това потвърди заместник-министърът на финансите Людмила Петкова по време на извънредното заседание на Комисията по",
-      "url": "https://www.economic.bg/bg/a/view/bez-efekt-za-budjeta-rafinerijata-v-burgas-e-na-zaguba",
-      "published": "2026-11-24T14:12:14+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
       "priority_score": 35,
@@ -799,6 +799,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "„Без ефект за бюджета“: Рафинерията в Бургас е на загуба",
+      "summary": "Бургаската рафинерия „Лукойл Нефтохим“, която е руска собственост, но се управлява от държавно назначен особен търговски управител, е на загуба. Това потвърди заместник-министърът на финансите Людмила Петкова по време на извънредното заседание на Комисията по",
+      "url": "https://www.economic.bg/bg/a/view/bez-efekt-za-budjeta-rafinerijata-v-burgas-e-na-zaguba",
+      "published": "2026-11-24T14:12:14+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -1087,25 +1106,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Берлин се проведе вечер, посветена на 180-годишнината на първия български вестник „Български орел“ и на неговия създател Иван Богоров",
-      "summary": "В Българския културен институт (БКИ) в Берлин беше представен немскоезичния брой на списание ЛИК, посветена на 180-годишнината от излизането на първия български вестник „Български орел“ и на неговия създател Иван Богоров. Ноемврийското изданието за литература,",
-      "url": "https://www.bta.bg/bg/news/lik/1253678-v-berlin-se-provede-vecher-posvetena-na-180-godishninata-na-parviya-balgarski-v",
-      "published": "2026-11-24T23:12:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
@@ -1179,6 +1179,25 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Берлин се проведе вечер, посветена на 180-годишнината на първия български вестник „Български орел“ и на неговия създател Иван Богоров",
+      "summary": "В Българския културен институт (БКИ) в Берлин беше представен немскоезичния брой на списание ЛИК, посветена на 180-годишнината от излизането на първия български вестник „Български орел“ и на неговия създател Иван Богоров. Ноемврийското изданието за литература,",
+      "url": "https://www.bta.bg/bg/news/lik/1253678-v-berlin-se-provede-vecher-posvetena-na-180-godishninata-na-parviya-balgarski-v",
+      "published": "2026-11-24T23:12:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -1304,25 +1323,6 @@
       "published": "2026-11-24T17:49:10+00:00",
       "feed_id": "commission-press",
       "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Media advisory - EU-Western Balkans summit of 25 November 2026",
-      "summary": "Approximate timings and press opportunities.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/24/media-advisory-eu-western-balkans-summit-of-25-november-2026/",
-      "published": "2026-11-24T17:45:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
