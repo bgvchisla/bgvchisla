@@ -362,6 +362,7 @@ class ManualVerifierBudgetProfileTests(unittest.TestCase):
         self.assertIn('"maximum_review_input_tokens"] = 350000', workflow)
         self.assertIn('"maximum_review_output_tokens"] = 24000', workflow)
         self.assertIn('"review_reasoning_effort"] = "medium"', workflow)
+        self.assertIn("Apply the explicitly approved single-attempt Gemini budget", workflow)
         reserve = (
             350000 * float(config["review_input_usd_per_million_until_2026_12_31"])
             + 24000 * float(config["review_output_usd_per_million_until_2026_12_31"])
