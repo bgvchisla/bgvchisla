@@ -19,6 +19,38 @@ CONFIG = ROOT / "analysis" / "config.json"
 
 class EditorialPublicationTests(unittest.TestCase):
 
+    def test_inflation_resource_has_official_data_and_canonical_url(self):
+        page_path = ROOT / "tseni-i-inflatsia" / "index.html"
+        data_path = ROOT / "inflation.json"
+        page = page_path.read_text(encoding="utf-8")
+        data = json.loads(data_path.read_text(encoding="utf-8"))
+        sitemap = SITEMAP.read_text(encoding="utf-8")
+        homepage = (ROOT / "index.html").read_text(encoding="utf-8")
+
+        title = re.search(r"<title>(.*?)</title>", page, re.I | re.S)
+        description = re.search(r'<meta name="description" content="([^"]+)"', page, re.I)
+        self.assertIsNotNone(title)
+        self.assertIsNotNone(description)
+        self.assertLessEqual(len(title.group(1)), 60)
+        self.assertLessEqual(len(description.group(1)), 160)
+        self.assertIn('rel="canonical" href="https://bgvchisla.com/tseni-i-inflatsia/"', page)
+        self.assertIn('type="application/ld+json"', page)
+        self.assertIn('fetch("/inflation.json"', page)
+        self.assertIn('href="/tseni-i-inflatsia/"', homepage)
+        self.assertIn("<loc>https://bgvchisla.com/tseni-i-inflatsia/</loc>", sitemap)
+
+        self.assertEqual(data["latest_period"], "2026-10")
+        self.assertEqual(data["latest"]["cpi"]["annual"], 6.0)
+        self.assertEqual(data["latest"]["hicp"]["annual"], 5.9)
+        self.assertEqual(len(data["history"]), 10)
+        self.assertEqual(data["history"][-1]["period"], data["latest_period"])
+        self.assertGreaterEqual(len(data["cpi_categories"]), 10)
+        self.assertIn("cpi", data["methodology"])
+        self.assertIn("hicp", data["methodology"])
+        self.assertGreaterEqual(len(data["source_links"]), 5)
+        self.assertTrue(all(item["url"].startswith("https://") for item in data["source_links"]))
+
+
     def test_sitemap_uses_the_canonical_advertising_url(self):
         sitemap = SITEMAP.read_text(encoding="utf-8")
         self.assertIn("<loc>https://bgvchisla.com/advertise</loc>", sitemap)

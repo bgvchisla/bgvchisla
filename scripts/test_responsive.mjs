@@ -242,6 +242,46 @@ try {
       assert.ok(articleMetrics.sourceCount >= 10, viewport.name + ": article source list is incomplete");
     }
 
+    const inflationUrl = new URL("tseni-i-inflatsia/", SITE_URL).toString();
+    const inflationResponse = await page.goto(inflationUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
+    assert.ok(inflationResponse && inflationResponse.ok(), viewport.name + ": inflation resource did not load");
+    await page.waitForSelector("#annual-chart svg", { timeout: 10000 });
+    await page.waitForFunction(() => {
+      const rows = document.querySelectorAll("#history-table tbody tr");
+      const categories = document.querySelectorAll("#category-table tbody tr");
+      return rows.length >= 10 && categories.length >= 10 &&
+        document.querySelector("#cpi-annual")?.textContent?.trim() === "6,0%";
+    }, null, { timeout: 10000 });
+    const inflationMetrics = await page.evaluate(() => ({
+      innerWidth: window.innerWidth,
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      title: document.querySelector("h1")?.textContent?.trim() ?? "",
+      cpiAnnual: document.querySelector("#cpi-annual")?.textContent?.trim() ?? "",
+      hicpAnnual: document.querySelector("#hicp-annual")?.textContent?.trim() ?? "",
+      annualChart: !!document.querySelector("#annual-chart svg"),
+      monthlyChart: !!document.querySelector("#monthly-chart svg"),
+      historyRows: document.querySelectorAll("#history-table tbody tr").length,
+      categoryRows: document.querySelectorAll("#category-table tbody tr").length,
+      sources: document.querySelectorAll("#source-list a").length,
+    }));
+    assert.equal(inflationMetrics.clientWidth, viewport.width,
+      viewport.name + ": inflation viewport width mismatch");
+    assert.ok(inflationMetrics.scrollWidth <= inflationMetrics.clientWidth + 1,
+      viewport.name + ": inflation page has horizontal overflow");
+    assert.ok(inflationMetrics.title.includes("Цени и инфлация"),
+      viewport.name + ": inflation page title is missing");
+    assert.equal(inflationMetrics.cpiAnnual, "6,0%",
+      viewport.name + ": official CPI annual value did not load");
+    assert.equal(inflationMetrics.hicpAnnual, "5,9%",
+      viewport.name + ": official HICP annual value did not load");
+    assert.ok(inflationMetrics.annualChart && inflationMetrics.monthlyChart,
+      viewport.name + ": inflation charts failed to render");
+    assert.ok(inflationMetrics.historyRows >= 10 && inflationMetrics.categoryRows >= 10,
+      viewport.name + ": inflation tables are incomplete");
+    assert.ok(inflationMetrics.sources >= 5,
+      viewport.name + ": primary-source list is incomplete");
+
     assert.equal(pageErrors.length, 0,
       viewport.name + ": uncaught browser errors: " + pageErrors.join("; "));
     console.log(JSON.stringify({

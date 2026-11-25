@@ -30,6 +30,10 @@ on:
       - "official_nssi.json"
       - "official_business_climate.json"
       - "economy.json"
+      - "inflation.json"
+      - "scripts/update_inflation.py"
+      - "scripts/test_inflation_data.py"
+      - ".github/workflows/update-inflation.yml"
       - "analizi/**"
       - "sitemap.xml"
       - "analysis/monthly_usage.json"
@@ -80,6 +84,8 @@ jobs:
         run: |
           python scripts/test_update_news.py
           python scripts/test_update_business_climate.py
+      - name: Run offline NSI inflation regression tests
+        run: python scripts/test_inflation_data.py
       - name: Validate mobile navigation and all inline JavaScript
         run: python scripts/test_frontend.py
       - name: Validate article evidence and publication workflow
@@ -117,7 +123,7 @@ jobs:
           required = [
               "data.json", "economy.json", "news.json", "source_status.json",
               "official_fiscal.json", "official_bnb.json", "official_nssi.json",
-              "official_business_climate.json", "analysis/monthly_usage.json",
+              "official_business_climate.json", "inflation.json", "analysis/monthly_usage.json",
               "analysis/verification_usage.json", "analizi/articles.json",
           ]
           for name in required:
@@ -127,7 +133,7 @@ jobs:
               json.loads(path.read_text(encoding="utf-8"))
               print(f"JSON OK: {name}")
           PY
-          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/analysis_publishing.py scripts/test_analysis_publishing.py scripts/test_analysis_publication.py scripts/test_analysis_evidence.py scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
+          python -m py_compile scripts/update_news.py scripts/update_business_climate.py scripts/update_bnb_monetary.py scripts/update_economy.py scripts/update_nsi_fiscal.py scripts/update_inflation.py scripts/test_inflation_data.py scripts/update_nssi_pensions.py scripts/analysis_evidence.py scripts/patch_analysis_evidence.py scripts/analysis_publishing.py scripts/test_analysis_publishing.py scripts/test_analysis_publication.py scripts/test_analysis_evidence.py scripts/test_independent_factcheck.py scripts/fact_check_analysis.py scripts/apply_ai_disclosure.py
       - name: Prepare the same runtime used by production
         run: |
           gzip -dc scripts/generate_analysis.py.gz > scripts/generate_analysis.py

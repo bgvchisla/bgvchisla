@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "title": "Цени и инфлация в България",
+  "source": "Национален статистически институт (НСИ)",
+  "source_url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9216",
+  "last_updated": "2026-11-25T14:20:00Z",
+  "latest_period": "2026-10",
+  "latest_label": "Октомври 2026 г.",
+  "latest_status": "Окончателни данни на НСИ",
+  "latest": {
+    "cpi": {
+      "monthly": 1.2,
+      "annual": 6,
+      "ytd": 5.4,
+      "annual_average": 5.1,
+      "accumulated_3y": 13.7,
+      "accumulated_5y": 41.5
+    },
+    "hicp": {
+      "monthly": 0.7,
+      "annual": 5.9,
+      "ytd": 5.6,
+      "annual_average": 4.4,
+      "accumulated_3y": 12.2,
+      "accumulated_5y": 36.4
+    },
+    "small_basket": {
+      "monthly": 0.7,
+      "annual": 2.4
+    }
+  },
+  "history": [
+    {
+      "period": "2026-01",
+      "label": "Яну",
+      "cpi_monthly": 0.6,
+      "cpi_yoy": 3.5,
+      "hicp_monthly": 0.6,
+      "hicp_yoy": 2.3
+    },
+    {
+      "period": "2026-02",
+      "label": "Фев",
+      "cpi_monthly": 0.4,
+      "cpi_yoy": 3.3,
+      "hicp_monthly": 0.2,
+      "hicp_yoy": 2.1
+    },
+    {
+      "period": "2026-03",
+      "label": "Мар",
+      "cpi_monthly": 0.9,
+      "cpi_yoy": 4.1,
+      "hicp_monthly": 1,
+      "hicp_yoy": 2.8
+    },
+    {
+      "period": "2026-04",
+      "label": "Апр",
+      "cpi_monthly": 1.8,
+      "cpi_yoy": 6.8,
+      "hicp_monthly": 1.8,
+      "hicp_yoy": 6
+    },
+    {
+      "period": "2026-05",
+      "label": "Май",
+      "cpi_monthly": 0,
+      "cpi_yoy": 6.9,
+      "hicp_monthly": 0.3,
+      "hicp_yoy": 6.3
+    },
+    {
+      "period": "2026-06",
+      "label": "Юни",
+      "cpi_monthly": -0.9,
+      "cpi_yoy": 5.4,
+      "hicp_monthly": -0.5,
+      "hicp_yoy": 5.2
+    },
+    {
+      "period": "2026-07",
+      "label": "Юли",
+      "cpi_monthly": 0.8,
+      "cpi_yoy": 4.5,
+      "hicp_monthly": 0.6,
+      "hicp_yoy": 4.4
+    },
+    {
+      "period": "2026-08",
+      "label": "Авг",
+      "cpi_monthly": 0.6,
+      "cpi_yoy": 5.1,
+      "hicp_monthly": 0.8,
+      "hicp_yoy": 5
+    },
+    {
+      "period": "2026-09",
+      "label": "Сеп",
+      "cpi_monthly": -0.2,
+      "cpi_yoy": 5.7,
+      "hicp_monthly": 0,
+      "hicp_yoy": 5.6
+    },
+    {
+      "period": "2026-10",
+      "label": "Окт",
+      "cpi_monthly": 1.2,
+      "cpi_yoy": 6,
+      "hicp_monthly": 0.7,
+      "hicp_yoy": 5.9
+    }
+  ],
+  "cpi_categories": [
+    {
+      "category": "Хранителни продукти и безалкохолни напитки",
+      "monthly_change": 0.6,
+      "ytd_change": 1.8,
+      "annual_change": 2
+    },
+    {
+      "category": "Алкохолни напитки и тютюневи изделия",
+      "monthly_change": 1.1,
+      "ytd_change": 7.1,
+      "annual_change": 7.5
+    },
+    {
+      "category": "Облекло и обувки",
+      "monthly_change": 7.4,
+      "ytd_change": 2.7,
+      "annual_change": 0.3
+    },
+    {
+      "category": "Жилища, вода, електроенергия, газ и други горива",
+      "monthly_change": 0.3,
+      "ytd_change": 5.6,
+      "annual_change": 5.6
+    },
+    {
+      "category": "Жилищно обзавеждане и поддържане на дома",
+      "monthly_change": 0.4,
+      "ytd_change": 0.1,
+      "annual_change": 0.1
+    },
+    {
+      "category": "Здравеопазване",
+      "monthly_change": 0.4,
+      "ytd_change": 2.9,
+      "annual_change": 3.2
+    },
+    {
+      "category": "Транспорт",
+      "monthly_change": 0,
+      "ytd_change": 23.8,
+      "annual_change": 26.2
+    },
+    {
+      "category": "Информация и комуникация",
+      "monthly_change": 0.4,
+      "ytd_change": 4.2,
+      "annual_change": 1.9
+    },
+    {
+      "category": "Развлечения, спорт и култура",
+      "monthly_change": 7,
+      "ytd_change": 2.2,
+      "annual_change": 9.1
+    },
+    {
+      "category": "Образователни услуги",
+      "monthly_change": 2.5,
+      "ytd_change": 9.1,
+      "annual_change": 9.2
+    },
+    {
+      "category": "Услуги на ресторанти и хотели",
+      "monthly_change": 0.3,
+      "ytd_change": 8.8,
+      "annual_change": 9.8
+    },
+    {
+      "category": "Застрахователни и финансови услуги",
+      "monthly_change": 0.7,
+      "ytd_change": 0.8,
+      "annual_change": 1.9
+    },
+    {
+      "category": "Лични грижи, социална защита и разни стоки и услуги",
+      "monthly_change": 0.4,
+      "ytd_change": 5.2,
+      "annual_change": 5.3
+    }
+  ],
+  "category_aggregates": [
+    {
+      "category": "Хранителни стоки",
+      "monthly_change": 0.7,
+      "ytd_change": 1.8,
+      "annual_change": 2
+    },
+    {
+      "category": "Нехранителни стоки",
+      "monthly_change": 1.1,
+      "ytd_change": 8.1,
+      "annual_change": 8.1
+    },
+    {
+      "category": "Обществено хранене",
+      "monthly_change": 0.6,
+      "ytd_change": 8.6,
+      "annual_change": 9.7
+    },
+    {
+      "category": "Услуги",
+      "monthly_change": 1.9,
+      "ytd_change": 5.6,
+      "annual_change": 7.3
+    }
+  ],
+  "international_comparison": {
+    "period": "2026-10",
+    "label": "Октомври 2026 г.",
+    "bulgaria_hicp_annual": 5.9,
+    "eu27_hicp_annual": 4,
+    "euro_area_hicp_annual": 4,
+    "difference_vs_eu_pp": 1.9,
+    "bulgaria_rank_eu": "3-то най-високо равнище",
+    "comparison_note": "България е след Румъния (7,0%) и Литва (6,1%) сред държавите от ЕС.",
+    "source": "Евростат",
+    "source_url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap",
+    "published_on": "2026-11-18"
+  },
+  "source_history": [
+    {
+      "period": "2026-10",
+      "url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9216"
+    }
+  ],
+  "methodology": {
+    "cpi": "ИПЦ е официалният национален измерител на инфлацията. Той следи цените на стоките и услугите за лично потребление на резидентните български домакинства в страната и използва структурата на разходите им.",
+    "hicp": "ХИПЦ е хармонизираната мярка за сравнение между държавите от ЕС. Обхватът и теглата му се различават от тези на националния ИПЦ, затова двата показателя не трябва да се смесват.",
+    "small_basket": "ИЦМК измерва изменението на цените на потребителската кошница за най-нискодоходните 20% от резидентните български домакинства. Той не е взаимозаменяем с общия ИПЦ.",
+    "2026_note": "От януари 2026 г. НСИ публикува ИПЦ, ХИПЦ и ИЦМК с базисна 2025=100 и новата класификация ECOICOP v2. В обхвата на „Развлечения, спорт и култура“ са включени и хазартните игри. При сравнения с по-ранни години трябва да се отчита методологичната промяна."
+  },
+  "source_links": [
+    {
+      "title": "НСИ: Инфлация и индекси на потребителските цени — октомври 2026",
+      "url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9216"
+    },
+    {
+      "title": "НСИ: Методология на ИПЦ (март 2026)",
+      "url": "https://www.nsi.bg/sites/default/files/files/metadata/CPI_methodology_2026-BG.pdf"
+    },
+    {
+      "title": "НСИ: Методология на ХИПЦ (март 2026)",
+      "url": "https://www.nsi.bg/sites/default/files/files/metadata/HICP_methodology_2026_BG.pdf"
+    },
+    {
+      "title": "НСИ: Метаданни за индексите на потребителските цени",
+      "url": "https://www.nsi.bg/metadata/indeksi-na-potrebitelskite-ceni-ipc-57"
+    },
+    {
+      "title": "НСИ: ИНФОСТАТ — потребителски цени",
+      "url": "https://infostat.nsi.bg/infostat/pages/module.jsf?x_2=68"
+    },
+    {
+      "title": "Евростат: Годишна инфлация през октомври 2026",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap"
+    }
+  ]
+}
