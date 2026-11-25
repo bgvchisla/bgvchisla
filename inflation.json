@@ -2,15 +2,15 @@
   "schema_version": 1,
   "title": "Цени и инфлация в България",
   "source": "Национален статистически институт (НСИ)",
-  "source_url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9216",
-  "last_updated": "2026-11-25T14:20:00Z",
+  "source_url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-oktomvri-2026-godina-9216",
+  "last_updated": "2026-11-25T14:29:13Z",
   "latest_period": "2026-10",
-  "latest_label": "Октомври 2026 г.",
+  "latest_label": "октомври 2026 г.",
   "latest_status": "Окончателни данни на НСИ",
   "latest": {
     "cpi": {
       "monthly": 1.2,
-      "annual": 6,
+      "annual": 6.0,
       "ytd": 5.4,
       "annual_average": 5.1,
       "accumulated_3y": 13.7,
@@ -106,85 +106,99 @@
       "period": "2026-10",
       "label": "Окт",
       "cpi_monthly": 1.2,
-      "cpi_yoy": 6,
+      "cpi_yoy": 6.0,
       "hicp_monthly": 0.7,
-      "hicp_yoy": 5.9
+      "hicp_yoy": 5.9,
+      "source_url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-oktomvri-2026-godina-9216"
     }
   ],
   "cpi_categories": [
     {
+      "code": "01",
       "category": "Хранителни продукти и безалкохолни напитки",
       "monthly_change": 0.6,
       "ytd_change": 1.8,
-      "annual_change": 2
+      "annual_change": 2.0
     },
     {
-      "category": "Алкохолни напитки и тютюневи изделия",
+      "code": "02",
+      "category": "Алкохолни напитки, тютюневи изделия",
       "monthly_change": 1.1,
       "ytd_change": 7.1,
       "annual_change": 7.5
     },
     {
+      "code": "03",
       "category": "Облекло и обувки",
       "monthly_change": 7.4,
       "ytd_change": 2.7,
       "annual_change": 0.3
     },
     {
+      "code": "04",
       "category": "Жилища, вода, електроенергия, газ и други горива",
       "monthly_change": 0.3,
       "ytd_change": 5.6,
       "annual_change": 5.6
     },
     {
-      "category": "Жилищно обзавеждане и поддържане на дома",
+      "code": "05",
+      "category": "Жилищно обзавеждане, стоки и услуги за домакинството и за обичайно поддържане на дома",
       "monthly_change": 0.4,
       "ytd_change": 0.1,
       "annual_change": 0.1
     },
     {
+      "code": "06",
       "category": "Здравеопазване",
       "monthly_change": 0.4,
       "ytd_change": 2.9,
       "annual_change": 3.2
     },
     {
+      "code": "07",
       "category": "Транспорт",
-      "monthly_change": 0,
+      "monthly_change": 0.0,
       "ytd_change": 23.8,
       "annual_change": 26.2
     },
     {
+      "code": "08",
       "category": "Информация и комуникация",
       "monthly_change": 0.4,
       "ytd_change": 4.2,
       "annual_change": 1.9
     },
     {
+      "code": "09",
       "category": "Развлечения, спорт и култура",
-      "monthly_change": 7,
+      "monthly_change": 7.0,
       "ytd_change": 2.2,
       "annual_change": 9.1
     },
     {
+      "code": "10",
       "category": "Образователни услуги",
       "monthly_change": 2.5,
       "ytd_change": 9.1,
       "annual_change": 9.2
     },
     {
+      "code": "11",
       "category": "Услуги на ресторанти и хотели",
       "monthly_change": 0.3,
       "ytd_change": 8.8,
       "annual_change": 9.8
     },
     {
+      "code": "12",
       "category": "Застрахователни и финансови услуги",
       "monthly_change": 0.7,
       "ytd_change": 0.8,
       "annual_change": 1.9
     },
     {
+      "code": "13",
       "category": "Лични грижи, социална защита и разни стоки и услуги",
       "monthly_change": 0.4,
       "ytd_change": 5.2,
@@ -233,7 +247,7 @@
   "source_history": [
     {
       "period": "2026-10",
-      "url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9216"
+      "url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-oktomvri-2026-godina-9216"
     }
   ],
   "methodology": {
@@ -244,8 +258,8 @@
   },
   "source_links": [
     {
-      "title": "НСИ: Инфлация и индекси на потребителските цени — октомври 2026",
-      "url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9216"
+      "title": "НСИ: Инфлация и индекси на потребителските цени — октомври 2026 г.",
+      "url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-oktomvri-2026-godina-9216"
     },
     {
       "title": "НСИ: Методология на ИПЦ (март 2026)",
