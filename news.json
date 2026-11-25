@@ -1,8 +1,27 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T10:40:38.681654+00:00",
-  "last_checked_at": "2026-11-25T10:40:38.681666+00:00",
+  "updated_at": "2026-11-25T11:37:32.870574+00:00",
+  "last_checked_at": "2026-11-25T11:37:32.870586+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Опака прие решения за етичните правила, управлението на отпадъците и бюджета, но отхвърли промени в местните данъци",
+      "summary": "Общинските съветници в Опака приеха решения по въпроси, свързани с общинските финанси, образованието, културната дейност и управлението на отпадъците. Единствено неподкрепено остана предложението за промени в Наредбата за местните данъци и такси, отнасящи се д",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254044-obshtinskiyat-savet-v-opaka-prie-resheniya-za-etichnite-pravila-upravlenieto-na",
+      "published": "2026-11-25T11:22:28+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 49,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 61,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -20,6 +39,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Парламентът прие на първо четене проектобюджета на НЗОК за 2027 г., разходите са 5,68 млрд. евро",
+      "summary": "Със 125 гласа \"за\" от \"Прогресивна България\" и един от \"Продължаваме промяната\" парламентът прие на първо четене проектобюджета на Националната здравноосигурителна каса (НЗОК) за 2027 г. Против бяха 60 депутати - петима от ГЕРБ-СДС и депутатите от ДПС, \"Демокр",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254014-parlamentat-prie-na-parvo-chetene-proektobyudzheta-na-nzok-za-2027-g-razhodite",
+      "published": "2026-11-25T10:50:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 49,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -58,44 +96,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Оттеглете бюджета за 2027 г. и приемете нашия план, поиска Ивайло Мирчев от ДБ от премиера Румен Радев",
-      "summary": "Оттеглете бюджета за 2027 г., приемете нашия план и нека бюджетният дефицит бъде под 3% от БВП, поиска Ивайло Мирчев, съпредседател на \"Да, България\" и член на ПГ на \"Демократична България\", от премиера Румен Радев. Пред медиите в кулоарите на парламента Мирче",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253924-otteglete-byudzheta-za-2027-g-i-priemete-nashiya-plan-poiska-ivaylo-mirchev-ot",
-      "published": "2026-11-25T10:05:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 44,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Наетите в област Плевен към края на септември са 58 400, средната брутна заплата за третото тримесечие е 1151 евро",
-      "summary": "Наетите по трудово и служебно правоотношение в област Плевен към края на септември 2026 г. намаляват с 1,1 процента спрямо края на юни 2026 г. и са 58 400 по предварителни данни на Националния статистически институт (НСИ). Това съобщи за БТА Пламен Енчев, стар",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253923-naetite-v-oblast-pleven-kam-kraya-na-septemvri-sa-58-400-srednata-brutna-zaplat",
-      "published": "2026-11-25T10:02:14+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 44,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -157,6 +157,25 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 25th, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-midday",
+      "published": "2026-11-25T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Germany news: 'We can no longer afford everything,' Merz says",
       "summary": "The German chancellor has warned tax revenue means a tighter budget for 2027 and beyond. Meanwhile, President Steinmeier is in Kenya for the final leg of his Africa tour. DW has more.",
@@ -164,13 +183,13 @@
       "published": "2026-11-25T08:35:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 40,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 95
       }
     },
@@ -233,25 +252,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 24th, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening",
-      "published": "2026-11-24T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
       "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
@@ -259,33 +259,14 @@
       "published": "2026-11-24T11:00:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "LEGO строи четвърта фабрика в Европа заради растящото търсене",
-      "summary": "LEGO обяви в понеделник плановете си да инвестира около 1 млрд. евро в нова фабрика в Ещарежа, Португалия, за да отговори на нарастващото търсене в Европа, Близкия изток и Африка. След като заработи с пълен капацитет, фабриката ще осигури работа на повече от 1",
-      "url": "https://www.economic.bg/bg/a/view/lego-stroi-chetvyrta-fabrika-v-evropa-zaradi-rastjashtoto-tyrsene",
-      "published": "2026-11-24T08:44:43+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
         "timeliness": 68,
-        "source_reliability": 85
+        "source_reliability": 95
       }
     },
     {
@@ -295,6 +276,25 @@
       "summary": "ЕС никога няма да се върне към руските енергийни ресурси, независимо от резултата от преговорите между Вашингтон и Москва, заяви пред Euronews еврокомисарят по енергетиката Дан Йоргенсен. В предаването On the Record with Maria Tadeo Йоргенсен определи Русия ка",
       "url": "https://www.economic.bg/bg/a/view/es-njama-da-se-vyrne-kym-ruskite-energijni-resursi",
       "published": "2026-11-25T09:46:06+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "„Булгаргаз“ обеща по-малко поскъпване на газа",
+      "summary": "„Булгаргаз“ ще предложи по-ниска цена на природния газ от предложената в първоначалното си заявление, съобщи изпълнителният директор на дружеството Георги Татарски по време на открито заседание на Комисията за енергийно и водно регулиране (КЕВР). На 10 ноември",
+      "url": "https://www.economic.bg/bg/a/view/bulgargaz-obeshta-po-malko-poskypvane-na-gaza",
+      "published": "2026-11-25T09:08:45+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
       "priority_score": 34,
@@ -386,17 +386,36 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Кюстендил ще обсъди актуализация на бюджета, енергийно обновяване на сгради и регионален център за устойчиви производства",
-      "summary": "Общинският съвет в Кюстендил ще проведе редовно заседание днес в заседателната зала на общината. В предварителния дневен ред са включени 19 точки, свързани с бюджета, европейски проекти, общинската собственост, транспорта, образованието и горските територии, п",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253947-obshtinskiyat-savet-v-kyustendil-shte-obsadi-aktualizatsiya-na-byudzheta-energi",
-      "published": "2026-11-25T10:11:03+00:00",
+      "title": "Депутатите удължиха заседанието си до приемането на първо четене на законопроекта за държавния бюджет за 2027 г.",
+      "summary": "Депутатите удължиха работното време на днешното пленарно заседание до приемането на точка три от дневния ред - първо четене на Законопроекта за държавния бюджет на Република България за 2027 г. В момента парламентът обсъжда на първо четене Законопроекта за бюд",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254065-deputatite-udalzhiha-zasedanieto-si-do-priemaneto-na-parvo-chetene-na-zakonoproe",
+      "published": "2026-11-25T11:28:39+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 43,
+      "priority_score": 42,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
+        "economic_significance": 28,
+        "national_impact": 87,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Община Опака подкрепи предложение за кандидатстване за финансиране на нова клетка на регионалното депо за отпадъци край Бяла",
+      "summary": "Общинските съветници в Опака подкрепиха единодушно докладната записка на кмета Гюнер Ашимов, с която се дава съгласие Община Бяла да кандидатства пред Предприятието за управление на дейностите по опазване на околната среда (ПУДООС) за безвъзмездно финансиране",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253829-obshtina-opaka-podkrepi-predlozhenie-za-kandidatstvane-za-finansirane-na-nova-kl",
+      "published": "2026-11-25T11:01:56+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -422,31 +441,12 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Работници и служители на „ТЕРЕМ – Хан Крум“ в Търговище получиха предколедна подкрепа от свои колеги синдикалисти",
-      "summary": "В навечерието на коледните празници синдикалистите в Търговище са събрали и предоставили по 50 евро за всеки член на Конфедерацията на труда (КТ) „Подкрепа“ от предприятието „ТЕРЕМ – Хан Крум“ в града. Средствата са събрани от членски внос на синдикалисти от р",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253921-rabotnitsi-i-sluzhiteli-na-terem-han-krum-v-targovishte-poluchiha-predkoledn",
-      "published": "2026-11-25T10:23:19+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
-      "title": "Latest news bulletin | November 24th, 2026 – Midday",
+      "title": "Latest news bulletin | November 24th, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-midday",
-      "published": "2026-11-24T11:00:15+00:00",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening",
+      "published": "2026-11-24T17:00:26+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 38,
@@ -460,6 +460,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 24th, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-midday",
+      "published": "2026-11-24T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 91
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Новите данъчни облекчения за деца ще включват и медицински прегледи",
@@ -468,33 +487,14 @@
       "published": "2026-11-24T10:59:50+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 37,
+      "priority_score": 36,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 74,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Православната вяра ни е запазила и съхранила като народ, каза архимандрит Никифор на празника на храм \"Св. Климент Охридски\" в Добрич",
-      "summary": "Православната вяра е опора в изпитанията и трудностите и е съхранила духовността, културата и просветата на българския народ, а делото на светите братя Кирил и Методий, на техните ученици, на свети Климент Охридски и свети княз Борис продължава да оставя своят",
-      "url": "https://www.bta.bg/bg/news/lik/1253894-pravoslavnata-vyara-ni-e-zapazila-i-sahranila-kato-narod-kaza-arhimandrit-nikif",
-      "published": "2026-11-25T10:10:24+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -533,44 +533,6 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Омбудсманът Велислава Делчева поиска спешна прокурорска проверка за насилие над дете с увреждания в център в Кюстендил",
-      "summary": "Омбудсманът Велислава Делчева настоява Районната прокуратура в Кюстендил да извърши спешна проверка по случай на физическо насилие над дете с увреждания в държавна здравно-социална услуга. Тя призовава и Министерството на здравеопазването да провери дейността",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253912-ombudsmanat-velislava-delcheva-poiska-speshna-prokurorska-proverka-za-nasilie-na",
-      "published": "2026-11-25T10:05:38+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "„Булгаргаз“ обеща по-малко поскъпване на газа",
-      "summary": "„Булгаргаз“ ще предложи по-ниска цена на природния газ от предложената в първоначалното си заявление, съобщи изпълнителният директор на дружеството Георги Татарски по време на открито заседание на Комисията за енергийно и водно регулиране (КЕВР). На 10 ноември",
-      "url": "https://www.economic.bg/bg/a/view/bulgargaz-obeshta-po-malko-poskypvane-na-gaza",
-      "published": "2026-11-25T09:08:45+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
       }
     },
     {
@@ -785,25 +747,6 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
-      "summary": "Nvidia employees cheered and applauded CEO Jensen Huang as he returned to the company's headquarters in Santa Clara, California, on Monday, 11 days after stepping down.",
-      "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
-      "published": "2026-11-24T10:56:22+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
       "title": "Russia to build Kaliningrad exclave rail ferries, citing transport 'blockade'",
       "summary": "The ferries, due in 2030 and costing around 50 billion roubles, will run between Baltiysk and Ust-Luga and be built in occupied Crimea. Most freight to Kaliningrad has already moved to sea routes, since Lithuania and Poland restricted transit after the 2022 in",
       "url": "https://www.euronews.com/2026/11/24/russia-to-build-kaliningrad-exclave-rail-ferries-citing-transport-blockade",
@@ -823,17 +766,17 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Медицинските специалисти са сред търсените висококвалифицирани кадри в област Стара Загора",
-      "summary": "Общо 396 свободни работни места са обявени в град Стара Загора, от които 19 са за висококвалифицирани специалисти. Сред търсените кадри в областта са лекари, медицински сестри, инженери, учители и технолози. Това съобщиха за БТА от Дирекция „Бюро по труда“ в С",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253980-meditsinskite-spetsialisti-sa-sred-tarsenite-visokokvalifitsirani-kadri-v-oblast",
-      "published": "2026-11-25T10:34:34+00:00",
+      "title": "Картини на волейболната легенда Георги Василев са показани в благотворителна изложба в Народното събрание",
+      "summary": "Изложба живопис на волейболната легенда Георги Василев беше открита в Мраморното фоайе на Народното събрание. Депутатът от \"Продължаваме промяната\" Свилен Трифонов посочи, че Георги Василев е човек, успял най-малко в две неща - прославил България по целия свят",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254051-kartini-na-voleybolnata-legenda-georgi-vasilev-sa-pokazani-v-blagotvoritelna-izl",
+      "published": "2026-11-25T11:27:31+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 32,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -860,40 +803,21 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by Commissioner Dombrovskis at the European Parliament on the EU's support for Ukraine",
-      "summary": "European Commission Statement Strasbourg, 25 Nov 2026 Madam Chair, Minister, honourable Members, Allow me to conclude on behalf of the Commission by reiterating some key points. As President von der Leyen has alrea...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2583",
-      "published": "2026-11-25T08:05:35+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
+      "source": "Euronews",
+      "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
+      "summary": "Nvidia employees cheered and applauded CEO Jensen Huang as he returned to the company's headquarters in Santa Clara, California, on Monday, 11 days after stepping down.",
+      "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
+      "published": "2026-11-24T10:56:22+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 32,
       "priority_breakdown": {
-        "economic_significance": 0,
+        "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 100,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Remarks by Commissioner Dombrovskis at Eurochambres meeting",
-      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Good morning. It is a pleasure to join you this morning. Because Eurochambres doesn't just tell us that our rules are too complicated. You come back with report...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2582",
-      "published": "2026-11-25T07:51:26+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 100,
-        "source_reliability": 99
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 91
       }
     },
     {
@@ -973,12 +897,50 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Турска компания ще инвестира 90 млн. долара в завод за авиочасти в Пловдив",
+      "summary": "Турската компания TUSAŞ Engine Industries (TEI) ще инвестира 90 млн. долара в изграждането на завод за компоненти за авиационни двигатели в Пловдив. Проектът предвижда разкриването на 170 висококвалифицирани работни места, а очакванията са производството да за",
+      "url": "https://www.economic.bg/bg/a/view/turska-kompanija-shte-investira-90-mln-dolara-v-zavod-za-aviochasti-v-plovdiv",
+      "published": "2026-11-25T10:56:00+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
-      "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
-      "summary": "European Commission Press release Strasbourg, 25 Nov 2026 The European Commission today proposed the Quantum Act, a new framework to help turn Europe's quantum research into products and services, strengthen supply chains and prepare Europe's digital systems f",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2567",
-      "published": "2026-11-24T23:00:00+00:00",
+      "title": "Statement by Commissioner Dombrovskis at the European Parliament on the EU's support for Ukraine",
+      "summary": "European Commission Statement Strasbourg, 25 Nov 2026 Madam Chair, Minister, honourable Members, Allow me to conclude on behalf of the Commission by reiterating some key points. As President von der Leyen has alrea...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2583",
+      "published": "2026-11-25T08:05:35+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Remarks by Commissioner Dombrovskis at Eurochambres meeting",
+      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Good morning. It is a pleasure to join you this morning. Because Eurochambres doesn't just tell us that our rules are too complicated. You come back with report...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2582",
+      "published": "2026-11-25T07:51:26+00:00",
       "feed_id": "commission-press",
       "publisher": "Европейска комисия",
       "priority_score": 31,
@@ -1069,6 +1031,25 @@
     },
     {
       "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
+      "summary": "European Commission Press release Strasbourg, 25 Nov 2026 The European Commission today proposed the Quantum Act, a new framework to help turn Europe's quantum research into products and services, strengthen supply chains and prepare Europe's digital systems f",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2567",
+      "published": "2026-11-24T23:00:00+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
       "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laugh",
@@ -1089,10 +1070,10 @@
     {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
-      "title": "ЕК предлага фонд за 50 млрд. евро за инвестиции в технологични компании и квантови технологии",
+      "title": "С критики има ли пари за профилактика бюджетът на НЗОК мина на първо четене",
       "summary": "",
-      "url": "https://www.investor.bg/a/566-novini-i-analizi/440055-ek-predlaga-fond-za-50-mlrd-evro-za-investitsii-v-tehnologichni-kompanii-i-kvantovi-tehnologii",
-      "published": "2026-11-25T10:31:28+00:00",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440057-s-kritiki-ima-li-pari-za-profilaktika-byudzhetat-na-nzok-mina-na-parvo-chetene",
+      "published": "2026-11-25T11:30:00+00:00",
       "feed_id": "investor-finance",
       "publisher": "investor.bg",
       "priority_score": 29,
@@ -1108,10 +1089,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Живописецът Юрий Калоферов ще представи самостоятелна изложба в пловдивска галерия",
-      "summary": "Изложбата „Одухотворени пространства“ на съвременния български живописец Юрий Калоферов ще бъде открита на 27 ноември в музейната галерия „Димитър Георгиев“ в Пловдив, съобщават от артпространството. По думите им авторът рядко организира самостоятелни изложби",
-      "url": "https://www.bta.bg/bg/news/lik/1253925-zhivopisetsat-yuriy-kaloferov-shte-predstavi-samostoyatelna-izlozhba-v-plovdivsk",
-      "published": "2026-11-25T10:24:00+00:00",
+      "title": "Служители на Инспекцията по труда в Ямбол стачкуваха с искане за достойно заплащане",
+      "summary": "Служители на Инспекцията по труда в Ямбол излязоха на протест с искане за достойно заплащане. Те стачкуваха ефективно в рамките на един час. Недоволството е част от националния протест, организиран от Конфедерацията на труда (КТ) „Подкрепа“. Трудовите инспекто",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254047-sluzhiteli-na-inspektsiyata-po-truda-v-yambol-stachkuvaha-s-iskane-za-dostoyno-z",
+      "published": "2026-11-25T11:20:51+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1127,10 +1108,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Близо една трета от жените и момичетата в света са преживели физическо, сексуално или психическо насилие, показват последните оценки на ООН",
-      "summary": "Близо една трета от жените и момичетата в света са преживели физическо, сексуално или психическо насилие, показват последните оценки на ООН-Жени. Това съобщиха от пресцентъра на Министерството на външните работи (МВнР). Обезпокоителен е фактът, че мнозинството",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253910-blizo-edna-treta-ot-zhenite-i-momichetata-v-sveta-sa-prezhiveli-fizichesko-seks",
-      "published": "2026-11-25T10:04:24+00:00",
+      "title": "Политиците не отдават необходимото значение на децата в днешно време, смята изпълнителният директор на Национална мрежа за децата Георги Богданов",
+      "summary": "Политиците не отдават необходимото значение на децата в днешно време, каза пред БТА изпълнителният директор на Национална мрежа за децата Георги Богданов, който представи пред старозагорска публика книгата си „Енциклопедията на детските организации в България“",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254028-polititsite-ne-otdavat-neobhodimoto-znachenie-na-detsata-v-dneshno-vreme-smyata",
+      "published": "2026-11-25T11:10:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1141,6 +1122,44 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Ученици от Самоков се включиха в инициативата „Картичка на надеждата 2026“ в подкрепа на недоносените деца",
+      "summary": "Ученици от втори „Б“ клас на Основно училище \"Св. св. Кирил и Методий\" - гр. Самоков се включиха в националната инициатива „Картичка на надеждата 2026“ в подкрепа на недоносените деца и техните семейства. По повод Световния ден на недоносените деца те изработи",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254020-uchenitsi-ot-samokov-se-vklyuchiha-v-initsiativata-kartichka-na-nadezhdata-2026",
+      "published": "2026-11-25T11:05:15+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "ЕК предлага фонд за 50 млрд. евро за инвестиции в технологични компании и квантови технологии",
+      "summary": "",
+      "url": "https://www.investor.bg/a/566-novini-i-analizi/440055-ek-predlaga-fond-za-50-mlrd-evro-za-investitsii-v-tehnologichni-kompanii-i-kvantovi-tehnologii",
+      "published": "2026-11-25T10:31:28+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -1202,106 +1221,68 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Race to replant five South African baobabs after export blocked",
-      "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who tried to ship",
-      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
-      "published": "2026-11-19T11:03:24+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 30,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "„Син Карс“ временно спира производството на електромобилите L CITY заради технически проблеми",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/440049-sin-kars-vremenno-spira-proizvodstvoto-na-elektromobilite-l-city-zaradi-tehnicheski-problemi",
-      "published": "2026-11-25T10:35:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Fact check: Deepfakes and 'US abandons Taiwan' claims spread ahead of vote",
-      "summary": "Ahead of local elections, AI-generated falsehoods targeting Democratic Progressive Party mayoral candidate Puma Shen have surged in Taiwan, alongside disinformation claiming the US is pulling back support for the island.",
-      "url": "https://www.dw.com/en/fact-check-deepfakes-and-us-abandons-taiwan-claims-spread-ahead-of-vote/a-80004834?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T10:35:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Russia’s war of aggression against Ukraine: EU restricts trade with 15 entities linked to Russia’s military and industrial complex",
-      "summary": "The Council has imposed restrictive measures on 15 Russian entities for their role in and support for Russia’s military and industrial complex in the context of Russia’s war of aggression against Ukraine.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/russia-s-war-of-aggression-against-ukraine-eu-restricts-trade-with-15-entities-linked-to-russia-s-military-and-industrial-complex/",
-      "published": "2026-11-25T10:09:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
-      "summary": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
-      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T09:56:19+00:00",
+      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+      "summary": "Ábrego García's deportation to El Salvador and return to the US became a flashpoint in the debate over President Donald Trump's immigration agenda.",
+      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T11:29:40+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 95
       }
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Indian Cockroach movement leader asks court for permission to fly to UK",
+      "summary": "Officials at Delhi airport stopped Saurav Das from boarding flight to Britain, where students have invited him to speak A leader of India’s youth-led Cockroach movement has asked the Delhi high court to give him permission to fly to the UK after immigration of",
+      "url": "https://www.theguardian.com/world/2026/nov/25/indian-cockroach-movement-leader-asks-court-for-permission-to-fly-to-uk",
+      "published": "2026-11-25T11:15:35+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU Commission failed to deliver cage ban, court finds",
+      "summary": "The European Commission must now set a timeline for phasing out cages for calves, rabbits, ducks and other farmed animals.",
+      "url": "https://www.politico.eu/article/european-commission-fail-cage-ban-general-court/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T11:13:10+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
-      "title": "The loss and damage fund exists, but the money doesn't",
-      "summary": "Climate-vulnerable countries fought for years to create a loss and damage fund. Four years on, demand far outstrips funding, pledges are scarce, and disaster-hit nations are still waiting for support.",
-      "url": "https://www.dw.com/en/the-loss-and-damage-fund-exists-but-the-money-doesn-t/a-80035620?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T09:49:00+00:00",
+      "title": "North Korea expels Swiss envoy over sanctions on camp accused of indoctrinating Ukrainian children",
+      "summary": "North Korea has ordered Switzerland to close its newly reopened diplomatic office. The dispute centers on Swiss sanctions against a camp accused of indoctrinating Ukrainian children from Russian-occupied territories.",
+      "url": "https://www.dw.com/en/north-korea-expels-swiss-envoy-over-sanctions-on-camp-accused-of-indoctrinating-ukrainian-children/a-80043648?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T11:12:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
       "priority_score": 28,
@@ -1316,33 +1297,47 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "US tells citizens to leave Iran, warns hostilities could escalate fast",
-      "summary": "The US Virtual Embassy in Iran said Tehran, Yemen's Houthis and other aligned groups may target US interests and citizens in the region, including companies and institutions. The alert followed Iranian attacks on US assets in Bahrain and Kuwait and a Houthi st",
-      "url": "https://www.euronews.com/2026/11/25/us-tells-citizens-to-leave-iran-warns-hostilities-could-escalate-fast",
-      "published": "2026-11-25T09:13:03+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
+      "source": "The Guardian – World",
+      "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns – Europe live",
+      "summary": "German chancellor, in wide-ranging speech, says Moscow is ‘escalating on a massive scale’ The Kremlin also declined to comment on reports that up to 700,000 Russian soldiers have been killed in its almost five-year-long offensive on Ukraine. After analysing a",
+      "url": "https://www.theguardian.com/world/live/2026/nov/25/ukraine-russia-energy-strikes-mark-rutte-donald-trump-friedrich-merz-germany-latest-news-updates",
+      "published": "2026-11-25T10:59:54+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 91
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Australia, Solomon Islands sign sweeping pact seen as countering China",
+      "summary": "Australia will become the Solomon Islands' primary security partner, while the archipelago will reject any foreign power trying to \"interfere\" on its \"sensitive\" infrastructure.",
+      "url": "https://www.dw.com/en/australia-solomon-islands-sign-sweeping-pact-seen-as-countering-china/a-80043646?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T10:51:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     }
   ],
   "feed_status": {
-    "ok": 20,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "investor-bg",
-        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
