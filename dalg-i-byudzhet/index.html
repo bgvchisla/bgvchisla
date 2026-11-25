@@ -71,7 +71,7 @@ h1{margin:9px 0 12px;color:var(--navy);font-size:clamp(2rem,5vw,3.5rem);line-hei
 .chart .blue-line{stroke:var(--blue);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
 .chart .green-line{stroke:var(--green);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
 .chart .red-line{stroke:var(--red);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
-.chart .navy-dot{fill:var(--navy)}.chart .blue-dot{fill:var(--blue)}.chart .green-dot{fill:var(--green)}.chart .red-dot{fill:var(--red)}
+.chart .navy-dot{fill:var(--navy)}.chart .blue-dot{fill:var(--blue)}.chart .green-dot{fill:var(--green)}.chart .red-dot{fill:var(--red)}.chart .gold-line{stroke:var(--gold);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.chart .gold-dot{fill:var(--gold)}
 .chart .navy-bar{fill:var(--navy)}.chart .blue-bar{fill:var(--blue)}.chart .red-bar{fill:var(--red)}.chart .green-bar{fill:var(--green)}
 .legend{display:flex;flex-wrap:wrap;gap:12px 15px;margin-top:4px;color:#53677d;font-size:.71rem}
 .legend span{display:inline-flex;align-items:center;gap:6px}
@@ -483,7 +483,7 @@ function renderBudget(data){
  var debtBarRows=debtRows.map(p=>({label:String(p.year),value:p.debt_bn_eur}));
  barChart("state-debt-forecast-chart",debtBarRows,[{key:"value",label:"Държавен дълг",bar:"navy-bar"}]," млрд.");
  var debtGdpRows=debtRows.map(p=>({label:String(p.year),ratio:p.debt_pct_gdp}));
- lineChart("state-debt-gdp-forecast-chart",debtGdpRows,[{key:"ratio",label:"Дълг / БВП",line:"red-line",dot:"red-dot"}],0,40,"%");
+ lineChart("state-debt-gdp-forecast-chart",debtGdpRows,[{key:"ratio",label:"Дълг / БВП",line:"gold-line",dot:"gold-dot"}],0,40,"%");
  var tf=$("state-debt-forecast-table").querySelector("tbody");tf.textContent="";
  debtRows.forEach(p=>{var row=document.createElement("tr");[String(p.year),p.status,fmt(p.debt_bn_eur,1)+" млрд. €",fmt(p.debt_pct_gdp,1)+"%"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});tf.appendChild(row);});
  var kfp=data.kfp_balance_forecast.map(p=>({label:String(p.year),value:p.balance_pct_gdp}));
