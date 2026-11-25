@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import argparse
+import io
 import json
+import urllib.error
 import sys
 import unittest
 import datetime as dt
@@ -15,7 +17,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from fact_check_analysis import (
     accumulate_usage_totals, calculate_billable_usage, evidence_urls_are_retrieved,
     extract_numeric_statements, extract_retrieval_metadata, normalized_domain,
-    parse_json_response, response_diagnostics, reserve_budget, build_prompt,
+    parse_json_response, response_diagnostics, reserve_budget, build_prompt, http_error_diagnostics,
 )
 CONFIG = ROOT / "analysis" / "config.json"
 MANUAL_WORKFLOW = ROOT / ".github" / "workflows" / "verify-manual-analysis.yml"
@@ -24,6 +26,57 @@ VERIFIER = ROOT / "scripts" / "fact_check_analysis.py"
 DISCLOSURE = ROOT / "scripts" / "apply_ai_disclosure.py"
 
 
+
+
+
+class HTTPErrorDiagnosticsTests(unittest.TestCase):
+    def test_http_error_captures_status_reason_and_sanitized_google_error(self):
+        secret_key = "AIzaSyDUMMYSECRETKEY1234567890123456789"
+        body = json.dumps({
+            "error": {
+                "code": 429,
+                "status": "RESOURCE_EXHAUSTED",
+                "message": f"Quota exceeded for key {secret_key}",
+                "details": [{"private": "must not be persisted"}],
+            }
+        }).encode("utf-8")
+        error = urllib.error.HTTPError(
+            "https://generativelanguage.googleapis.com/v1beta/models/test:generateContent",
+            429,
+            "Too Many Requests",
+            {"Content-Type": "application/json"},
+            io.BytesIO(body),
+        )
+
+        diagnostics = http_error_diagnostics(error)
+        serialized = json.dumps(diagnostics, ensure_ascii=False)
+
+        self.assertEqual(diagnostics["http_status_code"], 429)
+        self.assertEqual(diagnostics["http_status_reason"], "Too Many Requests")
+        self.assertEqual(diagnostics["api_error_status"], "RESOURCE_EXHAUSTED")
+        self.assertIn("[REDACTED_API_KEY]", diagnostics["api_error_message"])
+        self.assertNotIn(secret_key, serialized)
+        self.assertNotIn("must not be persisted", serialized)
+        self.assertIn("application/json", diagnostics["response_content_type"])
+
+    def test_unstructured_http_body_redacts_api_keys_and_bearer_tokens(self):
+        api_key = "AIzaSyANOTHERDUMMYSECRETKEY123456789012345"
+        bearer = "Bearer abcdefghijklmnopqrstuvwxyz012345"
+        error = urllib.error.HTTPError(
+            "https://example.invalid",
+            503,
+            "Service Unavailable",
+            {"Content-Type": "text/plain"},
+            io.BytesIO(f"API_KEY={api_key}; {bearer}".encode("utf-8")),
+        )
+
+        diagnostics = http_error_diagnostics(error)
+        serialized = json.dumps(diagnostics, ensure_ascii=False)
+
+        self.assertEqual(diagnostics["http_status_code"], 503)
+        self.assertIn("[REDACTED]", serialized)
+        self.assertNotIn(api_key, serialized)
+        self.assertNotIn(bearer.split(" ", 1)[1], serialized)
 
 
 class VerifierResponseParsingTests(unittest.TestCase):
@@ -297,6 +350,11 @@ def validate_static() -> None:
 
     assert '"url_context": {}' in verifier
     assert "urlContextMetadata" in verifier
+    assert "except urllib.error.HTTPError as exc:" in verifier
+    assert "http_error_diagnostics" in verifier
+    assert "http_status_code" in verifier and "api_error_message" in verifier
+    assert '"status": "error_http"' in verifier
+    assert verifier.index("except urllib.error.HTTPError as exc:") < verifier.index("except (urllib.error.URLError")
     assert "URL_RETRIEVAL_STATUS_SUCCESS" in verifier
     assert "numeric_statements" in verifier
     assert "normalized_quote" in verifier
