@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T20:21:58.090634+00:00",
-  "last_checked_at": "2026-11-25T20:21:58.090646+00:00",
+  "updated_at": "2026-11-25T21:24:57.031960+00:00",
+  "last_checked_at": "2026-11-25T21:24:57.031973+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -157,25 +157,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Greece: 14,000 march in Athens against rising living costs",
-      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
-      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
-      "published": "2026-11-25T18:20:44+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Press briefing - Transport, Telecommunications and Energy Council (Transport and Telecommunications) of 30 November and 1 December 2026",
       "summary": "The press briefing ahead of the Transport, Telecommunications and Energy Council will take place on Friday, 27 November 2026 at 14:00.",
@@ -229,6 +210,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Greece: 14,000 march in Athens against rising living costs",
+      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
+      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
+      "published": "2026-11-25T18:20:44+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -335,13 +335,13 @@
       "published": "2026-11-25T17:25:37+00:00",
       "feed_id": "politico-europe",
       "publisher": "POLITICO",
-      "priority_score": 35,
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 92
       }
     },
@@ -404,25 +404,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Няма нужда да изтегляме бюджет 2027 и да го преработваме, заяви Константин Проданов от \"Прогресивна България\"",
-      "summary": "Няма нужда да изтегляме бюджет 2027 и да го преработваме, заяви председателят на парламентарната комисия по бюджет и финанси Константин Проданов (\"Прогресивна България\") по време на дебата по проектобюджета за следващата година в пленарната зала. Преди това ли",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254540-nyama-nuzhda-da-izteglyame-byudzhet-2027-i-da-go-prerabotvame-zayavi-konstantin",
-      "published": "2026-11-25T17:47:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 42,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 87,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
       "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
@@ -430,33 +411,14 @@
       "published": "2026-11-25T17:41:12+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 41,
+      "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "\"Възраждане\" е категорично против този бюджет, който ни загробва, вдига данъците, обяви Цончо Ганев",
-      "summary": "„Възраждане“ е категорично против този бюджет, който ни загробва, вдига данъците поголовно и не прави нищо за най-бедната част от населението, която е над 60%, заяви Цончо Ганев при обсъждането на план-сметката на държавата за следващата година. По думите му б",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254545--vazrazhdane-e-kategorichno-protiv-tozi-byudzhet-koyto-ni-zagrobva-vdiga-dana",
-      "published": "2026-11-25T17:51:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -476,6 +438,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "\"Възраждане\" е категорично против този бюджет, който ни загробва, вдига данъците, обяви Цончо Ганев",
+      "summary": "„Възраждане“ е категорично против този бюджет, който ни загробва, вдига данъците поголовно и не прави нищо за най-бедната част от населението, която е над 60%, заяви Цончо Ганев при обсъждането на план-сметката на държавата за следващата година. По думите му б",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254545--vazrazhdane-e-kategorichno-protiv-tozi-byudzhet-koyto-ni-zagrobva-vdiga-dana",
+      "published": "2026-11-25T17:51:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -803,25 +784,6 @@
     },
     {
       "section": "europe",
-      "source": "Economic.bg",
-      "title": "„Булгаргаз“ обеща по-малко поскъпване на газа",
-      "summary": "„Булгаргаз“ ще предложи по-ниска цена на природния газ от предложената в първоначалното си заявление, съобщи изпълнителният директор на дружеството Георги Татарски по време на открито заседание на Комисията за енергийно и водно регулиране (КЕВР). На 10 ноември",
-      "url": "https://www.economic.bg/bg/a/view/bulgargaz-obeshta-po-malko-poskypvane-na-gaza",
-      "published": "2026-11-25T09:08:45+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
       "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
@@ -841,21 +803,21 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘You’re protecting Trump’: Hanson-Young clashes with Liberal senator before digital duty of care legislation passes – as it happened",
-      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-25T07:34:44+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "source": "Economic.bg",
+      "title": "„Булгаргаз“ обеща по-малко поскъпване на газа",
+      "summary": "„Булгаргаз“ ще предложи по-ниска цена на природния газ от предложената в първоначалното си заявление, съобщи изпълнителният директор на дружеството Георги Татарски по време на открито заседание на Комисията за енергийно и водно регулиране (КЕВР). На 10 ноември",
+      "url": "https://www.economic.bg/bg/a/view/bulgargaz-obeshta-po-malko-poskypvane-na-gaza",
+      "published": "2026-11-25T09:08:45+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 33,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
         "timeliness": 82,
-        "source_reliability": 94
+        "source_reliability": 85
       }
     },
     {
@@ -1182,22 +1144,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Uganda minister at COP31: 'We need a just transition'",
-      "summary": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
-      "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T13:18:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 30,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Най-новата композиция на проф. Нева Кръстева Polyhedron беше представена премиерно в зала „България“",
+      "summary": "Премиерата на балета Polyhedron за оркестър, хор, орган и солисти се състоя тази вечер в изпълнение на Genesis Orchestra под палката на маестро Йордан Камджалов и хора на „Музикална лаборатория за Човека“ с диригент Мая Василева. По думите на организаторите от",
+      "url": "https://www.bta.bg/bg/news/lik/1254611-nay-novata-kompozitsiya-na-prof-neva-krasteva-polyhedron-beshe-predstavena-prem",
+      "published": "2026-11-25T20:27:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 50,
-        "source_reliability": 95
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1239,25 +1201,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Проф. Хитко Вачев представи новата си книга „Арбанаси в колелото на живота“ във Велико Търново",
-      "summary": "Проф. Хитко Вачев в новата си книга показва Арбанаси като исторически, духовен и културен център със значение, надхвърлящо пределите на българските земи. Около това мнение се обединиха учените проф. Пламен Павлов и проф. Миглена Прашкова при представянето на и",
-      "url": "https://www.bta.bg/bg/news/lik/1254567-prof-hitko-vachev-predstavi-novata-si-kniga-arbanasi-v-koleloto-na-zhivota-va",
-      "published": "2026-11-25T18:11:26+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Investor.bg – Икономика и политика",
       "title": "Гърция предлага пилотен план за сухопътен маршрут за износ на украинско зърно",
@@ -1272,7 +1215,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -1331,6 +1274,63 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "UK embassy in Japan warns of rise in drink spiking and credit card fraud at Tokyo bars",
+      "summary": "Social media campaign fronted by British rapper Shao Dow advises tourists not to let their guard down The British embassy in Tokyo has launched a social media campaign warning visitors to exercise caution after a rise in cases of drink-spiking and credit card",
+      "url": "https://www.theguardian.com/world/2026/nov/25/british-embassy-tokyo-warning-tourists-drink-spiking-credit-card-fraud",
+      "published": "2026-11-25T11:59:22+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: Hanson ‘delighted’ as Liberal senator defects to One Nation; Bowen says global tensions ‘infected’ Cop31",
+      "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation –",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
+      "published": "2026-11-25T21:15:53+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Liberal senator Leah Blyth announces defection to One Nation",
+      "summary": "South Australian senator labels One Nation the ‘only party with the bold ideas needed to turn this country around’ Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily news podcast Leah Blyth, federal Lib",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-senator-leah-blyth-defection-to-one-nation-ntwnfb",
+      "published": "2026-11-25T20:50:15+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     }
   ],
