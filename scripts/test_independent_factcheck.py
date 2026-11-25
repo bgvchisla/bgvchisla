@@ -356,19 +356,24 @@ class VerifierPromptProvenanceTests(unittest.TestCase):
 
 
 class ManualVerifierBudgetProfileTests(unittest.TestCase):
-    def test_single_attempt_profile_reserve_is_exactly_03525_usd(self):
+    def test_standard_and_one_time_profiles_respect_their_exact_reservations(self):
         config = json.loads(CONFIG.read_text(encoding="utf-8"))
         workflow = MANUAL_WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn('"maximum_review_input_tokens"] = 350000', workflow)
-        self.assertIn('"maximum_review_output_tokens"] = 24000', workflow)
+        self.assertIn('"maximum_review_input_tokens"] = max_input_tokens', workflow)
+        self.assertIn('"maximum_review_output_tokens"] = max_output_tokens', workflow)
         self.assertIn('"review_reasoning_effort"] = "medium"', workflow)
         self.assertIn("Apply the explicitly approved single-attempt Gemini budget", workflow)
-        reserve = (
-            350000 * float(config["review_input_usd_per_million_until_2026_12_31"])
-            + 24000 * float(config["review_output_usd_per_million_until_2026_12_31"])
-        ) / 1_000_000
-        self.assertAlmostEqual(reserve, 0.3525, places=8)
-        self.assertLessEqual(reserve, 0.3525)
+        self.assertIn('branch == "editorial/manual-bulgaria-capped-20261125"', workflow)
+        self.assertIn('ledger.get("calls", -1)) != 6', workflow)
+        self.assertIn('ledger.get("spent_usd", 0)) - 1.35872925', workflow)
+
+        input_rate = float(config["review_input_usd_per_million_until_2026_12_31"])
+        output_rate = float(config["review_output_usd_per_million_until_2026_12_31"])
+        capped_reserve = (70000 * input_rate + 20000 * output_rate) / 1_000_000
+        standard_reserve = (350000 * input_rate + 24000 * output_rate) / 1_000_000
+        self.assertAlmostEqual(capped_reserve, 0.1275, places=8)
+        self.assertLessEqual(capped_reserve, 0.135)
+        self.assertAlmostEqual(standard_reserve, 0.3525, places=8)
 
 
 if __name__ == "__main__":
