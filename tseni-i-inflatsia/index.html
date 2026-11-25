@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Цени и инфлация в България – актуални данни и графики</title>
+<meta name="description" content="Актуални данни за инфлацията в България: ИПЦ, ХИПЦ, месечно и годишно изменение, цени по групи, методология и официални източници на НСИ и Евростат.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://bgvchisla.com/tseni-i-inflatsia/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="bg_BG">
+<meta property="og:site_name" content="БЪЛГАРИЯ В ЧИСЛА">
+<meta property="og:title" content="Цени и инфлация в България – актуални данни и графики">
+<meta property="og:description" content="ИПЦ, ХИПЦ, цени по потребителски групи, сравнение с ЕС и методология от НСИ и Евростат.">
+<link rel="stylesheet" href="/assets/design-system.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"Цени и инфлация в България",
+  "description":"Актуални официални данни и анализ на потребителските цени в България.",
+  "inLanguage":"bg",
+  "url":"https://bgvchisla.com/tseni-i-inflatsia/",
+  "isPartOf":{"@type":"WebSite","name":"БЪЛГАРИЯ В ЧИСЛА","url":"https://bgvchisla.com/"}
+}
+</script>
+<style>
+:root{--navy:#24384f;--blue:#315f91;--green:#24765f;--red:#b64b45;--gold:#a8732e;--paper:#e8edf3;--card:#fff;--ink:#263548;--muted:#607187;--line:#d7e0e9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--blue);text-underline-offset:3px}
+a:hover{color:var(--navy)}
+.site-header{background:var(--navy);border-bottom:3px solid var(--gold);padding:16px max(18px,calc((100% - 1120px)/2))}
+.site-header a{color:#fff;text-decoration:none;font-size:.78rem;font-weight:850;letter-spacing:.1em}
+.shell{max-width:1120px;margin:0 auto;padding:26px 18px 64px}
+.breadcrumb{font-size:.76rem;color:var(--muted);margin:0 0 18px}
+.breadcrumb a{color:var(--muted)}
+.hero{background:#fff;border:1px solid var(--line);border-top:4px solid var(--red);border-radius:15px;padding:clamp(22px,4vw,38px);box-shadow:0 4px 18px rgba(36,56,79,.055)}
+.kicker{color:var(--gold);font-size:.67rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+h1{margin:9px 0 12px;color:var(--navy);font-size:clamp(2rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.045em}
+.hero-lead{max-width:850px;margin:0;color:#52677e;font-size:1.04rem;line-height:1.65}
+.meta-line{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:20px;color:var(--muted);font-size:.73rem}
+.status{display:inline-flex;align-items:center;gap:7px;border:1px solid #c7d9d0;background:#f2f8f4;color:#26634f;padding:5px 9px;border-radius:99px;font-weight:750}
+.status:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green)}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:17px 18px;min-width:0;box-shadow:0 2px 9px rgba(36,56,79,.04)}
+.kpi .value{display:block;color:var(--navy);font-size:clamp(1.65rem,3.3vw,2.35rem);font-weight:820;line-height:1.1;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.kpi.red .value{color:var(--red)}.kpi.blue .value{color:var(--blue)}.kpi.green .value{color:var(--green)}.kpi.gold .value{color:var(--gold)}
+.kpi .label{display:block;color:#40556d;font-size:.82rem;font-weight:700;line-height:1.4;margin-top:9px}
+.kpi .note{display:block;color:var(--muted);font-size:.7rem;line-height:1.4;margin-top:5px}
+.section{margin-top:30px}
+.section-heading{margin:0 0 14px;color:var(--navy);font-size:1.35rem;letter-spacing:-.025em;line-height:1.25}
+.section-intro{max-width:820px;color:var(--muted);font-size:.89rem;margin:-5px 0 14px}
+.insight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.insight{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 19px}
+.insight h3{font-size:.9rem;color:var(--navy);line-height:1.35;margin:0 0 8px}
+.insight p{font-size:.82rem;color:#53677d;margin:0;line-height:1.6}
+.insight strong{color:var(--navy)}
+.chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;min-width:0;box-shadow:0 2px 9px rgba(36,56,79,.035)}
+.panel h3{font-size:.92rem;color:var(--navy);margin:0 0 4px}
+.panel .sub{font-size:.73rem;color:var(--muted);margin:0 0 13px}
+.chart{min-height:240px;width:100%;overflow:hidden}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font-family:Inter,system-ui,sans-serif;fill:#65778b;font-size:11px}
+.chart .gridline{stroke:#e3e9ef;stroke-width:1}
+.chart .axisline{stroke:#aebdcb;stroke-width:1}
+.chart .cpi-line{stroke:var(--red);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .hicp-line{stroke:var(--blue);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .cpi-dot{fill:var(--red)}.chart .hicp-dot{fill:var(--blue)}
+.chart .pos-bar{fill:var(--red);opacity:.85}.chart .neg-bar{fill:var(--green);opacity:.85}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:4px;color:#53677d;font-size:.71rem}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:18px;height:3px;border-radius:3px}
+.legend .red{background:var(--red)}.legend .blue{background:var(--blue)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.79rem;min-width:620px}
+th,td{padding:11px 13px;border-bottom:1px solid #e8edf2;text-align:right;white-space:nowrap}
+th{background:#eff3f7;color:#40556c;font-size:.7rem;letter-spacing:.02em;font-weight:800}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+td{font-variant-numeric:tabular-nums;color:#394d63}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#f7f9fb}
+td.emph{font-weight:800;color:var(--navy)}
+.delta-up{color:#a74540;font-weight:750}.delta-down{color:var(--green);font-weight:750}
+.table-note{font-size:.72rem;color:var(--muted);margin:8px 1px 0}
+.comparison{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;align-items:stretch}
+.comparison .panel{padding:20px}
+.compare-bars{display:grid;gap:13px;margin-top:15px}
+.compare-row{display:grid;grid-template-columns:135px 1fr 48px;gap:10px;align-items:center;font-size:.76rem;color:#4c6076}
+.compare-track{height:11px;background:#e9eef3;border-radius:50px;overflow:hidden}
+.compare-fill{height:100%;background:var(--blue);border-radius:50px}
+.compare-fill.bulgaria{background:var(--red)}
+.method-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.method{background:#fff;border:1px solid var(--line);border-radius:12px;padding:17px 18px}
+.method h3{color:var(--navy);font-size:.88rem;margin:0 0 7px}
+.method p{font-size:.78rem;color:#53677d;margin:0;line-height:1.6}
+.callout{background:#f6f3ec;border:1px solid #e6ddca;border-left:4px solid var(--gold);border-radius:9px;padding:15px 17px;color:#5f5038;font-size:.8rem;line-height:1.6}
+.callout strong{color:#4d402d}
+.sources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 20px;padding:0;margin:0;list-style:none}
+.sources li{font-size:.78rem;line-height:1.5}
+.sources a{font-weight:650}
+.related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.related a{display:block;background:#fff;border:1px solid var(--line);border-left:4px solid var(--red);border-radius:10px;padding:16px 18px;color:var(--navy);text-decoration:none;font-weight:750}
+.related a small{display:block;color:var(--muted);font-weight:500;font-size:.72rem;margin-top:6px}
+.footer{margin-top:34px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:.7rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+@media(max-width:820px){.kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.insight-grid,.method-grid{grid-template-columns:1fr}.comparison{grid-template-columns:1fr}}
+@media(max-width:680px){.shell{padding:18px 12px 42px}.chart-grid{grid-template-columns:1fr}.sources,.related{grid-template-columns:1fr}.hero{padding:21px 18px}.kpi{padding:14px}.panel{padding:15px 13px}.section{margin-top:25px}.compare-row{grid-template-columns:112px 1fr 42px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="site-header"><a href="/">БЪЛГАРИЯ В ЧИСЛА <span aria-hidden="true">/</span> ФАКТИТЕ. БЕЗ ШУМ.</a></header>
+<main class="shell">
+<nav class="breadcrumb" aria-label="Навигация"><a href="/">Начало</a> / Цени и инфлация</nav>
+
+<section class="hero">
+ <div class="kicker">СТАТИСТИЧЕСКИ ОБЗОР · БЪЛГАРИЯ</div>
+ <h1>Цени и инфлация в България</h1>
+ <p class="hero-lead">Колко се променят потребителските цени, кои групи движат инфлацията и как националният индекс се различава от хармонизирания показател за сравнение в ЕС. Страницата използва официални данни на НСИ и Евростат, с ясно посочени периоди и методология.</p>
+ <div class="meta-line">
+  <span class="status" id="data-status">Окончателни данни на НСИ</span>
+  <span>Последен отчетен период: <strong id="period-label">октомври 2026 г.</strong></span>
+  <span>Обновено: <time id="last-updated" datetime="2026-11-25">25 ноември 2026 г.</time></span>
+ </div>
+</section>
+
+<section class="kpi-grid" aria-label="Основни показатели за октомври 2026 г.">
+ <article class="kpi red"><span class="value" id="cpi-annual">6,0%</span><span class="label">Годишна инфлация · ИПЦ</span><span class="note">Октомври 2026 спрямо октомври 2025</span></article>
+ <article class="kpi red"><span class="value" id="cpi-monthly">+1,2%</span><span class="label">Месечна инфлация · ИПЦ</span><span class="note">Октомври спрямо септември 2026</span></article>
+ <article class="kpi blue"><span class="value" id="hicp-annual">5,9%</span><span class="label">Годишна инфлация · ХИПЦ</span><span class="note">Хармонизиран показател за ЕС</span></article>
+ <article class="kpi blue"><span class="value" id="hicp-monthly">+0,7%</span><span class="label">Месечна инфлация · ХИПЦ</span><span class="note">Октомври спрямо септември 2026</span></article>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Какво показват последните данни</h2>
+ <div class="insight-grid">
+  <article class="insight">
+   <h3>Поскъпването се ускорява през октомври</h3>
+   <p id="insight-monthly">Месечният ИПЦ нараства с 1,2%. Най-силни увеличения са отчетени при облеклото и обувките (7,4%), развлеченията, спорта и културата (7,0%) и образователните услуги (2,5%).</p>
+  </article>
+  <article class="insight">
+   <h3>Годишният ръст остава над този в ЕС</h3>
+   <p id="insight-eu">ХИПЦ в България е 5,9% спрямо 4,0% средно за ЕС през октомври 2026 г. Разликата е 1,9 процентни пункта.</p>
+  </article>
+  <article class="insight">
+   <h3>Храните се движат по-умерено</h3>
+   <p id="insight-food">Хранителните продукти и безалкохолните напитки поскъпват с 0,6% за месеца и с 2,0% на годишна база по ИПЦ.</p>
+  </article>
+ </div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Динамика на инфлацията през 2026 г.</h2>
+ <p class="section-intro">Месечните и годишните темпове са различни измерители. Годишната инфлация сравнява ценовото равнище със същия месец на предходната година; месечната показва промяната спрямо непосредствено предходния месец.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>Годишна инфлация (%)</h3>
+   <p class="sub">ИПЦ и ХИПЦ · януари–октомври 2026 г.</p>
+   <div class="chart" id="annual-chart" aria-live="polite"></div>
+   <div class="legend"><span><i class="red"></i>ИПЦ</span><span><i class="blue"></i>ХИПЦ</span></div>
+  </article>
+  <article class="panel">
+   <h3>Месечна инфлация (%)</h3>
+   <p class="sub">Изменение спрямо предходния месец</p>
+   <div class="chart" id="monthly-chart" aria-live="polite"></div>
+   <div class="legend"><span><i class="red"></i>ИПЦ</span><span><i class="blue"></i>ХИПЦ</span></div>
+  </article>
+ </div>
+ <div class="table-wrap" style="margin-top:14px">
+  <table id="history-table">
+   <thead><tr><th>Месец 2026</th><th>ИПЦ месечно</th><th>ИПЦ годишно</th><th>ХИПЦ месечно</th><th>ХИПЦ годишно</th></tr></thead>
+   <tbody>
+    <tr><td>Януари</td><td>+0,6%</td><td>3,5%</td><td>+0,6%</td><td>2,3%</td></tr>
+    <tr><td>Февруари</td><td>+0,4%</td><td>3,3%</td><td>+0,2%</td><td>2,1%</td></tr>
+    <tr><td>Март</td><td>+0,9%</td><td>4,1%</td><td>+1,0%</td><td>2,8%</td></tr>
+    <tr><td>Април</td><td>+1,8%</td><td>6,8%</td><td>+1,8%</td><td>6,0%</td></tr>
+    <tr><td>Май</td><td>0,0%</td><td>6,9%</td><td>+0,3%</td><td>6,3%</td></tr>
+    <tr><td>Юни</td><td>−0,9%</td><td>5,4%</td><td>−0,5%</td><td>5,2%</td></tr>
+    <tr><td>Юли</td><td>+0,8%</td><td>4,5%</td><td>+0,6%</td><td>4,4%</td></tr>
+    <tr><td>Август</td><td>+0,6%</td><td>5,1%</td><td>+0,8%</td><td>5,0%</td></tr>
+    <tr><td>Септември</td><td>−0,2%</td><td>5,7%</td><td>0,0%</td><td>5,6%</td></tr>
+    <tr><td>Октомври</td><td>+1,2%</td><td>6,0%</td><td>+0,7%</td><td>5,9%</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <p class="table-note">Източник: НСИ. Стойностите са проценти на изменение. Серията за 2026 г. е публикувана при базисна 2025=100 и класификация ECOICOP v2.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Кои потребителски групи поскъпват най-много</h2>
+ <p class="section-intro">Разбивка на националния ИПЦ за октомври 2026 г. Показателят „от началото на годината“ сравнява октомври с декември 2025 г., а годишният — октомври 2026 г. с октомври 2025 г.</p>
+ <div class="table-wrap">
+  <table id="category-table">
+   <thead><tr><th>Потребителска група</th><th>Месечно</th><th>От началото на 2026 г.</th><th>Годишно</th></tr></thead>
+   <tbody>
+    <tr><td>Хранителни продукти и безалкохолни напитки</td><td>+0,6%</td><td>+1,8%</td><td>+2,0%</td></tr>
+    <tr><td>Алкохолни напитки и тютюневи изделия</td><td>+1,1%</td><td>+7,1%</td><td>+7,5%</td></tr>
+    <tr><td>Облекло и обувки</td><td>+7,4%</td><td>+2,7%</td><td>+0,3%</td></tr>
+    <tr><td>Жилища, вода, електроенергия, газ и други горива</td><td>+0,3%</td><td>+5,6%</td><td>+5,6%</td></tr>
+    <tr><td>Жилищно обзавеждане и поддържане на дома</td><td>+0,4%</td><td>+0,1%</td><td>+0,1%</td></tr>
+    <tr><td>Здравеопазване</td><td>+0,4%</td><td>+2,9%</td><td>+3,2%</td></tr>
+    <tr><td>Транспорт</td><td>0,0%</td><td>+23,8%</td><td>+26,2%</td></tr>
+    <tr><td>Информация и комуникация</td><td>+0,4%</td><td>+4,2%</td><td>+1,9%</td></tr>
+    <tr><td>Развлечения, спорт и култура</td><td>+7,0%</td><td>+2,2%</td><td>+9,1%</td></tr>
+    <tr><td>Образователни услуги</td><td>+2,5%</td><td>+9,1%</td><td>+9,2%</td></tr>
+    <tr><td>Услуги на ресторанти и хотели</td><td>+0,3%</td><td>+8,8%</td><td>+9,8%</td></tr>
+    <tr><td>Застрахователни и финансови услуги</td><td>+0,7%</td><td>+0,8%</td><td>+1,9%</td></tr>
+    <tr><td>Лични грижи, социална защита и разни стоки и услуги</td><td>+0,4%</td><td>+5,2%</td><td>+5,3%</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <p class="table-note">Източник: НСИ, Таблица 1 — индекси на потребителските цени за октомври 2026 г. Изменението в таблицата е изчислено като публикувания индекс минус 100.</p>
+</section>
+
+<section class="section comparison">
+ <article class="panel">
+  <h2 class="section-heading" style="font-size:1.12rem;margin-bottom:6px">България спрямо ЕС</h2>
+  <p class="section-intro" style="margin:0">Годишна инфлация по ХИПЦ · октомври 2026 г.</p>
+  <div class="compare-bars" id="comparison-bars">
+   <div class="compare-row"><span>България</span><div class="compare-track"><div class="compare-fill bulgaria" style="width:73.75%"></div></div><strong>5,9%</strong></div>
+   <div class="compare-row"><span>ЕС (27)</span><div class="compare-track"><div class="compare-fill" style="width:50%"></div></div><strong>4,0%</strong></div>
+   <div class="compare-row"><span>Еврозона</span><div class="compare-track"><div class="compare-fill" style="width:50%"></div></div><strong>4,0%</strong></div>
+  </div>
+  <p class="table-note" id="comparison-note">България е с 1,9 процентни пункта над средното за ЕС и е с третото най-високо годишно равнище сред държавите членки през октомври 2026 г.</p>
+ </article>
+ <article class="panel">
+  <h2 class="section-heading" style="font-size:1.12rem;margin-bottom:6px">Натрупано поскъпване</h2>
+  <p class="section-intro" style="margin:0 0 12px">Изменение на общия ценови индекс за посочения период.</p>
+  <div class="kpi-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));margin:0">
+   <div class="kpi"><span class="value" id="cpi-3y">13,7%</span><span class="label">ИПЦ · последните 3 години</span><span class="note">Октомври 2026 спрямо октомври 2023</span></div>
+   <div class="kpi"><span class="value" id="cpi-5y">41,5%</span><span class="label">ИПЦ · последните 5 години</span><span class="note">Октомври 2026 спрямо октомври 2021</span></div>
+   <div class="kpi"><span class="value" id="hicp-3y">12,2%</span><span class="label">ХИПЦ · последните 3 години</span><span class="note">Октомври 2026 спрямо октомври 2023</span></div>
+   <div class="kpi"><span class="value" id="hicp-5y">36,4%</span><span class="label">ХИПЦ · последните 5 години</span><span class="note">Октомври 2026 спрямо октомври 2021</span></div>
+  </div>
+ </article>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">ИПЦ, ХИПЦ и малката кошница: каква е разликата</h2>
+ <div class="method-grid">
+  <article class="method"><h3>Индекс на потребителските цени · ИПЦ</h3><p>Официалният национален измерител на инфлацията. Отразява паричните потребителски разходи на резидентните български домакинства на територията на страната. Теглата следват структурата на разходите на домакинствата.</p></article>
+  <article class="method"><h3>Хармонизиран индекс · ХИПЦ</h3><p>Сравнима мярка за инфлацията в държавите от ЕС. Използва хармонизирани определения и обхват, включително разходите на нерезидентни и институционални домакинства на територията на страната.</p></article>
+  <article class="method"><h3>Индекс на малката кошница · ИЦМК</h3><p>Проследява ценовото изменение на потребителската кошница за най-нискодоходните 20% от резидентните български домакинства. За октомври 2026 г. годишното изменение е 2,4%.</p></article>
+ </div>
+ <div class="callout" style="margin-top:13px">
+  <strong>Методологична промяна от 2026 г.</strong> От януари 2026 г. НСИ използва базисна 2025=100 и новата класификация ECOICOP v2 за ИПЦ, ХИПЦ и ИЦМК. Хазартните игри са включени в група „Развлечения, спорт и култура“. При сравнения с по-ранни периоди трябва да се отчита тази промяна.
+ </div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Как да четем инфлационните показатели</h2>
+ <div class="insight-grid">
+  <article class="insight"><h3>Месечна инфлация</h3><p>Сравнява цените с непосредствено предходния месец. Може да бъде отрицателна, без това да означава, че цените са се върнали на равнище от предходни години.</p></article>
+  <article class="insight"><h3>Годишна инфлация</h3><p>Сравнява ценовото равнище със същия месец на предходната година. Положителен процент означава, че средното равнище на цените е по-високо, а не че всички стоки са поскъпнали еднакво.</p></article>
+  <article class="insight"><h3>Натрупана инфлация</h3><p>Сравнява текущия месец с избран начален период — например декември на предходната година или същия месец преди три или пет години. Не е сбор от месечните проценти.</p></article>
+ </div>
+ <p class="section-intro" style="margin-top:12px">Намаляването на годишната инфлация означава по-бавен темп на поскъпване. То не означава автоматично спад на общото ценово равнище.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Първични източници и методология</h2>
+ <ul class="sources" id="source-list">
+  <li><a href="https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9216">НСИ: окончателни данни за октомври 2026 г.</a></li>
+  <li><a href="https://www.nsi.bg/sites/default/files/files/metadata/CPI_methodology_2026-BG.pdf">НСИ: методология на ИПЦ, актуализирана март 2026 г.</a></li>
+  <li><a href="https://www.nsi.bg/sites/default/files/files/metadata/HICP_methodology_2026_BG.pdf">НСИ: методология на ХИПЦ, актуализирана март 2026 г.</a></li>
+  <li><a href="https://www.nsi.bg/metadata/indeksi-na-potrebitelskite-ceni-ipc-57">НСИ: метаданни за индексите на потребителските цени</a></li>
+  <li><a href="https://infostat.nsi.bg/infostat/pages/module.jsf?x_2=68">НСИ: ИНФОСТАТ — потребителски цени</a></li>
+  <li><a href="https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap">Евростат: годишна инфлация през октомври 2026 г.</a></li>
+ </ul>
+ <p class="table-note">Приоритет са първичните статистически публикации. Предварителните оценки се обозначават отделно и не заместват окончателните данни.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Свързани материали</h2>
+ <div class="related">
+  <a href="/analizi/budget-2027/">Бюджет 2027: дефицитът и фискалните рискове<small>Как бюджетната рамка, разходите и приходите влияят върху икономическата среда.</small></a>
+  <a href="/analizi/">Всички задълбочени анализи<small>Редакционни анализи за икономиката, финансите и политиките.</small></a>
+ </div>
+</section>
+
+<footer class="footer">
+ <span>БЪЛГАРИЯ В ЧИСЛА · ФАКТИТЕ. БЕЗ ШУМ.</span>
+ <span><a href="/">Начална страница</a> · <a href="/privacy">Поверителност</a></span>
+</footer>
+</main>
+
+<script>
+(function(){
+"use strict";
+var nf=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:1});
+var $=function(id){return document.getElementById(id);};
+var pct=function(v,sign){var n=nf.format(v)+"%";return sign&&v>0?"+"+n:n;};
+var monthName=function(period){var p=period.split("-");var names=["","януари","февруари","март","април","май","юни","юли","август","септември","октомври","ноември","декември"];return names[Number(p[1])]+" "+p[0]+" г.";};
+function node(tag,text,parent,cls){var e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(parent)parent.appendChild(e);if(cls)e.className=cls;return e;}
+function svgEl(svg,tag,attrs,text){var e=document.createElementNS("http://www.w3.org/2000/svg",tag);Object.keys(attrs).forEach(function(k){e.setAttribute(k,attrs[k]);});if(text!==undefined)e.textContent=text;svg.appendChild(e);return e;}
+function lineChart(hostId,points,keyA,keyB,labelA,labelB,minValue,maxValue){
+ var host=$(hostId);if(!host||!points||points.length<2)return;
+ host.textContent="";
+ var W=720,H=258,L=52,R=18,T=22,B=43;
+ var values=[];points.forEach(function(p){values.push(p[keyA],p[keyB]);});
+ var min=minValue===undefined?Math.min.apply(null,values):minValue;
+ var max=maxValue===undefined?Math.max.apply(null,values):maxValue;
+ var pad=(max-min||1)*.14;min-=pad;max+=pad;
+ var x=function(i){return L+i*(W-L-R)/(points.length-1);};
+ var y=function(v){return T+(max-v)*(H-T-B)/(max-min);};
+ var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
+ svg.setAttribute("viewBox","0 0 "+W+" "+H);svg.setAttribute("role","img");
+ svg.setAttribute("aria-label",labelA+" и "+labelB+" по месеци");
+ for(var g=0;g<=4;g++){var v=min+(max-min)*g/4;svgEl(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),class:"gridline"});svgEl(svg,"text",{x:L-9,y:y(v)+4,"text-anchor":"end"},nf.format(v)+"%");}
+ svgEl(svg,"line",{x1:L,x2:W-R,y1:H-B,y2:H-B,class:"axisline"});
+ [[keyA,"cpi-line","cpi-dot"],[keyB,"hicp-line","hicp-dot"]].forEach(function(s){
+  var d=points.map(function(p,i){return (i?"L":"M")+x(i)+" "+y(p[s[0]]);}).join(" ");
+  svgEl(svg,"path",{d:d,class:s[1]});
+  points.forEach(function(p,i){var circle=svgEl(svg,"circle",{cx:x(i),cy:y(p[s[0]]),r:3.7,class:s[2]});var title=document.createElementNS(svg.namespaceURI,"title");title.textContent=p.label+": "+nf.format(p[s[0]])+"%";circle.appendChild(title);});
+ });
+ var step=Math.max(1,Math.ceil(points.length/10));
+ points.forEach(function(p,i){if(i%step===0||i===points.length-1)svgEl(svg,"text",{x:x(i),y:H-12,"text-anchor":"middle"},p.label);});
+ host.appendChild(svg);
+}
+function monthlyChart(hostId,points){
+ var host=$(hostId);if(!host||!points||!points.length)return;
+ host.textContent="";
+ var W=720,H=258,L=44,R=16,T=20,B=42,zeroY=156;
+ var values=[];points.forEach(function(p){values.push(p.cpi_monthly,p.hicp_monthly);});
+ var min=Math.min(-1,Math.min.apply(null,values)-.2),max=Math.max(2,Math.max.apply(null,values)+.2);
+ var y=function(v){return T+(max-v)*(H-T-B)/(max-min);};
+ var x=function(i){return L+i*(W-L-R)/points.length;};
+ var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
+ svg.setAttribute("viewBox","0 0 "+W+" "+H);svg.setAttribute("role","img");
+ svg.setAttribute("aria-label","Месечна инфлация по ИПЦ и ХИПЦ");
+ [min,0,max].forEach(function(v){svgEl(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),class:v===0?"axisline":"gridline"});svgEl(svg,"text",{x:L-8,y:y(v)+4,"text-anchor":"end"},nf.format(v)+"%");});
+ points.forEach(function(p,i){
+  var group=x(i)+8,base=y(0),barW=Math.min(18,(W-L-R)/points.length*.28);
+  [[p.cpi_monthly,"pos-bar"],[p.hicp_monthly,"neg-bar"]].forEach(function(item,j){
+   var val=item[0],top=Math.min(base,y(val)),height=Math.max(1,Math.abs(y(val)-base));
+   var rect=svgEl(svg,"rect",{x:group+j*(barW+3),y:top,width:barW,height:height,rx:3,class:j===0?(val>=0?"pos-bar":"neg-bar"):(val>=0?"neg-bar":"pos-bar")});
+   var title=document.createElementNS(svg.namespaceURI,"title");title.textContent=p.label+": "+(j===0?"ИПЦ ":"ХИПЦ ")+nf.format(val)+"%";rect.appendChild(title);
+  });
+  svgEl(svg,"text",{x:x(i)+(W-L-R)/points.length/2,y:H-12,"text-anchor":"middle"},p.label);
+ });
+ host.appendChild(svg);
+}
+function render(data){
+ var latest=data.latest,period=monthName(data.latest_period);
+ $("period-label").textContent=period;
+ $("cpi-annual").textContent=pct(latest.cpi.annual,false);
+ $("cpi-monthly").textContent=pct(latest.cpi.monthly,true);
+ $("hicp-annual").textContent=pct(latest.hicp.annual,false);
+ $("hicp-monthly").textContent=pct(latest.hicp.monthly,true);
+ $("cpi-3y").textContent=pct(latest.cpi.accumulated_3y,false);
+ $("cpi-5y").textContent=pct(latest.cpi.accumulated_5y,false);
+ $("hicp-3y").textContent=pct(latest.hicp.accumulated_3y,false);
+ $("hicp-5y").textContent=pct(latest.hicp.accumulated_5y,false);
+ $("data-status").textContent=data.latest_status||"Официални данни";
+ if(data.last_updated){var date=new Date(data.last_updated);$("last-updated").textContent=date.toLocaleDateString("bg-BG",{day:"numeric",month:"long",year:"numeric"});}
+ var topMonthly=(data.cpi_categories||[]).slice().sort(function(a,b){return b.monthly_change-a.monthly_change;}).slice(0,3);
+ var topAnnual=(data.cpi_categories||[]).slice().sort(function(a,b){return b.annual_change-a.annual_change;}).slice(0,3);
+ var food=(data.cpi_categories||[]).find(function(r){return r.category.indexOf("Хранителни")===0;});
+ $("insight-monthly").textContent="Месечният ИПЦ нараства с "+pct(latest.cpi.monthly,false)+". Най-силни увеличения са отчетени при "+topMonthly.map(function(r){return r.category.toLowerCase()+" ("+pct(r.monthly_change,false)+")";}).join(", ")+".";
+ $("insight-food").textContent=food?"Хранителните продукти и безалкохолните напитки се променят с "+pct(food.monthly_change,true)+" за месеца и "+pct(food.annual_change,false)+" на годишна база по ИПЦ.":"Публикуваната разбивка по потребителски групи не е налична.";
+ var cmp=data.international_comparison;
+ if(cmp){$("insight-eu").textContent="ХИПЦ в България е "+pct(cmp.bulgaria_hicp_annual,false)+" спрямо "+pct(cmp.eu27_hicp_annual,false)+" средно за ЕС през "+cmp.label+". Разликата е "+nf.format(cmp.difference_vs_eu_pp)+" процентни пункта.";
+  $("comparison-note").textContent="България е с "+nf.format(cmp.difference_vs_eu_pp)+" процентни пункта над средното за ЕС и е с "+cmp.bulgaria_rank_eu+" през "+cmp.label+". "+(cmp.comparison_note||"");
+  var compareHost=$("comparison-bars");compareHost.textContent="";
+  [[ "България",cmp.bulgaria_hicp_annual,"bulgaria"],["ЕС (27)",cmp.eu27_hicp_annual,""],["Еврозона",cmp.euro_area_hicp_annual,""]].forEach(function(row){
+   var line=node("div",undefined,compareHost,"compare-row");node("span",row[0],line);var track=node("div",undefined,line,"compare-track");var fill=node("div",undefined,track,"compare-fill "+row[2]);fill.style.width=(row[1]/8*100)+"%";node("strong",pct(row[1],false),line);
+  });
+ }
+ var rowsHost=$("history-table").querySelector("tbody");rowsHost.textContent="";
+ (data.history||[]).forEach(function(p){var row=node("tr",undefined,rowsHost);[p.label,pct(p.cpi_monthly,true),pct(p.cpi_yoy,false),pct(p.hicp_monthly,true),pct(p.hicp_yoy,false)].forEach(function(v,i){node("td",v,row,i===0?"emph":"");});});
+ var catHost=$("category-table").querySelector("tbody");catHost.textContent="";
+ (data.cpi_categories||[]).forEach(function(p){var row=node("tr",undefined,catHost);[p.category,pct(p.monthly_change,true),pct(p.ytd_change,true),pct(p.annual_change,true)].forEach(function(v,i){node("td",v,row,i===0?"":"");});});
+ var points=data.history||[];
+ lineChart("annual-chart",points,"cpi_yoy","hicp_yoy","ИПЦ","ХИПЦ",0,8);
+ monthlyChart("monthly-chart",points);
+ var sources=$("source-list");if(data.source_links&&data.source_links.length){sources.textContent="";data.source_links.forEach(function(item){var li=node("li",undefined,sources);var a=node("a",item.title,li);a.href=item.url;a.target="_blank";a.rel="noopener noreferrer";});}
+}
+fetch("/inflation.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(render).catch(function(e){console.warn("Официалният набор за инфлацията не можа да се обнови; показва се последният публикуван HTML.",e);});
+})();
+</script>
+</body>
+</html>
