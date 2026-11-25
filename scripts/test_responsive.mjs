@@ -282,6 +282,61 @@ try {
     assert.ok(inflationMetrics.sources >= 5,
       viewport.name + ": primary-source list is incomplete");
 
+    const debtUrl = new URL("dalg-i-byudzhet/", SITE_URL).toString();
+    const debtResponse = await page.goto(debtUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
+    assert.ok(debtResponse && debtResponse.ok(), viewport.name + ": debt and budget resource did not load");
+    await page.waitForSelector("#state-debt-gdp-forecast-chart svg", { timeout: 10000 });
+    await page.waitForFunction(() => {
+      const reportedRows = document.querySelectorAll("#maastricht-table tbody tr");
+      const forecastRows = document.querySelectorAll("#state-debt-forecast-table tbody tr");
+      const nsiRows = document.querySelectorAll("#monthly-fiscal-table tbody tr");
+      return reportedRows.length >= 4 && forecastRows.length >= 5 && nsiRows.length >= 3 &&
+        document.querySelector("#state-debt")?.textContent?.includes("35,255");
+    }, null, { timeout: 10000 });
+    const debtMetrics = await page.evaluate(() => ({
+      innerWidth: window.innerWidth,
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      title: document.querySelector("h1")?.textContent?.trim() ?? "",
+      stateDebt: document.querySelector("#state-debt")?.textContent?.trim() ?? "",
+      octoberDeficit: document.querySelector("#oct-deficit")?.textContent?.trim() ?? "",
+      kfpChart: !!document.querySelector("#kfp-chart svg"),
+      monthlyBalanceChart: !!document.querySelector("#monthly-balance-chart svg"),
+      monthlyFlowsChart: !!document.querySelector("#monthly-flows-chart svg"),
+      maastrichtDebtChart: !!document.querySelector("#maastricht-debt-chart svg"),
+      debtForecastChart: !!document.querySelector("#state-debt-forecast-chart svg"),
+      debtGdpChart: !!document.querySelector("#state-debt-gdp-forecast-chart svg"),
+      kfpForecastChart: !!document.querySelector("#kfp-forecast-chart svg"),
+      generalGovernmentForecastChart: !!document.querySelector("#general-government-forecast-chart svg"),
+      kfpRows: document.querySelectorAll("#kfp-table tr").length,
+      monthlyRows: document.querySelectorAll("#monthly-fiscal-table tbody tr").length,
+      maastrichtRows: document.querySelectorAll("#maastricht-table tbody tr").length,
+      forecastRows: document.querySelectorAll("#state-debt-forecast-table tbody tr").length,
+      sources: document.querySelectorAll("#source-list a").length,
+    }));
+    assert.equal(debtMetrics.clientWidth, viewport.width,
+      viewport.name + ": debt and budget viewport width mismatch");
+    assert.ok(debtMetrics.scrollWidth <= debtMetrics.clientWidth + 1,
+      viewport.name + ": debt and budget page has horizontal overflow");
+    assert.ok(debtMetrics.title.includes("Дълг и бюджет"),
+      viewport.name + ": debt and budget page title is missing");
+    assert.ok(debtMetrics.stateDebt.includes("35,255"),
+      viewport.name + ": official state debt value did not load");
+    assert.ok(debtMetrics.octoberDeficit.includes("5,200"),
+      viewport.name + ": preliminary October KFP deficit did not load");
+    for (const chart of [
+      "kfpChart", "monthlyBalanceChart", "monthlyFlowsChart", "maastrichtDebtChart",
+      "debtForecastChart", "debtGdpChart", "kfpForecastChart", "generalGovernmentForecastChart"
+    ]) {
+      assert.ok(debtMetrics[chart], viewport.name + ": missing rendered debt chart " + chart);
+    }
+    assert.ok(debtMetrics.kfpRows >= 6 && debtMetrics.monthlyRows >= 3,
+      viewport.name + ": debt or monthly fiscal table is incomplete");
+    assert.ok(debtMetrics.maastrichtRows >= 4 && debtMetrics.forecastRows >= 5,
+      viewport.name + ": debt history or forecast table is incomplete");
+    assert.ok(debtMetrics.sources >= 7,
+      viewport.name + ": primary-source list is incomplete");
+
     assert.equal(pageErrors.length, 0,
       viewport.name + ": uncaught browser errors: " + pageErrors.join("; "));
     console.log(JSON.stringify({
