@@ -520,7 +520,7 @@ function renderNsi(data){
  var periods=byId.central_government_balance.points.filter(p=>p.year===2026).map(p=>p.period);
  var rows=periods.map(period=>{
   var read=id=>{var p=byId[id].points.find(x=>x.period===period);return p?p.value:null;};
-  return {period:period,label:period.slice(5,7),central_balance:read(ids[0]),central_revenue:read(ids[1]),central_expense:read(ids[2]),social_balance:read(ids[3]),social_revenue:read(ids[4]),social_expense:read(ids[5])};
+  var monthLabels=["ян","фев","мар","апр","май","юни","юли","авг","сеп","окт","ное","дек"];return {period:period,label:monthLabels[Number(period.slice(5,7))-1],central_balance:read(ids[0]),central_revenue:read(ids[1]),central_expense:read(ids[2]),social_balance:read(ids[3]),social_revenue:read(ids[4]),social_expense:read(ids[5])};
  });
  if(!rows.length)throw Error("Няма месечни наблюдения за 2026 г.");
  barChart("monthly-balance-chart",rows,[{key:"central_balance",label:"Централно управление",bar:"navy-bar"},{key:"social_balance",label:"Социални фондове",bar:"green-bar"}]," млн.");
