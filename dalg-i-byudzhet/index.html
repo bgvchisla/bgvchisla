@@ -216,7 +216,7 @@ td.emph{font-weight:800;color:var(--navy)}
  </div>
  <div class="table-wrap" style="margin-top:14px">
   <table id="monthly-fiscal-table">
-   <thead><tr><th>Показател · септември 2026 г.</th><th>Централно управление</th><th>Социалноосигурителни фондове</th></tr></thead>
+   <thead><tr><th>Показател · <span id="monthly-fiscal-period">септември 2026 г.</span></th><th>Централно управление</th><th>Социалноосигурителни фондове</th></tr></thead>
    <tbody>
     <tr><td>Приходи</td><td>2 843,1 млн. €</td><td>1 772,2 млн. €</td></tr>
     <tr><td>Разходи</td><td>3 874,1 млн. €</td><td>1 745,8 млн. €</td></tr>
@@ -531,6 +531,8 @@ function renderNsi(data){
   {key:"social_expense",label:"Разходи · СОФ",line:"navy-line",dot:"navy-dot"}
  ],0,5000," млн.");
  var last=rows[rows.length-1],td=$("monthly-fiscal-table").querySelector("tbody");td.textContent="";
+ var monthNames=["януари","февруари","март","април","май","юни","юли","август","септември","октомври","ноември","декември"];
+ $("monthly-fiscal-period").textContent=monthNames[Number(last.period.slice(5,7))-1]+" "+last.period.slice(0,4)+" г.";
  [
   ["Приходи",last.central_revenue,last.social_revenue],
   ["Разходи",last.central_expense,last.social_expense],
