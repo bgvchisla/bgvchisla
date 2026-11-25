@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T18:29:34.985396+00:00",
-  "last_checked_at": "2026-11-25T18:29:34.985407+00:00",
+  "updated_at": "2026-11-25T19:28:02.734772+00:00",
+  "last_checked_at": "2026-11-25T19:28:02.734782+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -43,6 +43,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Не можем да подкрепим закон за бюджет, който предвижда много висока инфлация, по-високи цени, обедняване, заявиха от ГЕРБ-СДС",
+      "summary": "ПГ ГЕРБ-СДС няма как да подкрепи такъв закон за бюджета, защото на първо място той предвижда много висока инфлация, съответно много по-високи цени, обедняване на българските граждани, води до увеличаване на данъчната тежест, до много по-висок дефицит и нов дъл",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254576-ne-mozhem-da-podkrepim-zakon-za-byudzhet-koyto-predvizhda-mnogo-visoka-inflatsi",
+      "published": "2026-11-25T18:41:58+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 49,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Вечерни новини: Брюксел затяга мерките срещу България; Рафинерията в Бургас е на загуба",
       "summary": "Брюксел затяга процедурата по прекомерен дефицит срещу България, а управляващите предлагат да ограничат обхвата на новия данък „Свръхпечалба“ за търговците на храни. Министерството на финансите подготвя преглед на данъчните преференции, докато бюджетната комис",
@@ -75,7 +94,7 @@
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 95
       }
     },
@@ -88,33 +107,52 @@
       "published": "2026-11-25T07:16:33+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
-      "priority_score": 48,
+      "priority_score": 47,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 94
       }
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Няма нужда да изтегляме бюджет 2027 и да го преработваме, заяви Константин Проданов от \"Прогресивна България\"",
-      "summary": "Няма нужда да изтегляме бюджет 2027 и да го преработваме, заяви председателят на парламентарната комисия по бюджет и финанси Константин Проданов (\"Прогресивна България\") по време на дебата по проектобюджета за следващата година в пленарната зала. Преди това ли",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254540-nyama-nuzhda-da-izteglyame-byudzhet-2027-i-da-go-prerabotvame-zayavi-konstantin",
-      "published": "2026-11-25T17:47:28+00:00",
+      "title": "Парламентът прие на първо четене Законопроекта за държавния бюджет за 2027 г.",
+      "summary": "Парламентът прие на първо четене Законопроекта за държавния бюджет за 2027 г. със 126 гласа \"за\", 81 \"против\" и без въздържали се. Подкрепиха го единствено от \"Прогресивна България\", а останалите парламентарни групи гласуваха \"против\". Министърът на финансите",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254587-parlamentat-prie-na-parvo-chetene-zakonoproekta-za-darzhavniya-byudzhet-za-2027-",
+      "published": "2026-11-25T18:49:33+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 42,
+      "priority_score": 45,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 87,
+        "national_impact": 100,
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "ЕЦБ: Данъкът върху свръхпечалбите на банките може да засегне финансовата стабилност на България",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440089-etsb-danakat-varhu-svrahpechalbite-na-bankite-mozhe-da-zasegne-finansovata-stabilnost-na-balgariya",
+      "published": "2026-11-25T18:45:58+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -134,25 +172,6 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "\"Възраждане\" е категорично против този бюджет, който ни загробва, вдига данъците, обяви Цончо Ганев",
-      "summary": "„Възраждане“ е категорично против този бюджет, който ни загробва, вдига данъците поголовно и не прави нищо за най-бедната част от населението, която е над 60%, заяви Цончо Ганев при обсъждането на план-сметката на държавата за следващата година. По думите му б",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254545--vazrazhdane-e-kategorichno-protiv-tozi-byudzhet-koyto-ni-zagrobva-vdiga-dana",
-      "published": "2026-11-25T17:51:52+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -189,27 +208,8 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU rejects Trump’s case for new tariffs",
-      "summary": "Brussels disputes Washington’s finding that Europe is fueling global industrial overcapacity as the U.S. proposes a 15% levy.",
-      "url": "https://www.politico.eu/article/eu-rejects-donald-trump-case-for-new-tariffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T15:48:14+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
       }
     },
     {
@@ -248,6 +248,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU rejects Trump’s case for new tariffs",
+      "summary": "Brussels disputes Washington’s finding that Europe is fueling global industrial overcapacity as the U.S. proposes a 15% levy.",
+      "url": "https://www.politico.eu/article/eu-rejects-donald-trump-case-for-new-tariffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T15:48:14+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -328,25 +347,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Инфлацията в САЩ се е ускорила до 3,8% през октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440070-inflatsiyata-v-sasht-se-e-uskorila-do-38-prez-oktomvri",
-      "published": "2026-11-25T13:54:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Михаела Доцова: Убедена съм, че между 52-рото Народно събрание и президентството ще се осъществява конструктивен диалог в защита на държавността и на интересите на България",
       "summary": "",
@@ -404,6 +404,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Няма нужда да изтегляме бюджет 2027 и да го преработваме, заяви Константин Проданов от \"Прогресивна България\"",
+      "summary": "Няма нужда да изтегляме бюджет 2027 и да го преработваме, заяви председателят на парламентарната комисия по бюджет и финанси Константин Проданов (\"Прогресивна България\") по време на дебата по проектобюджета за следващата година в пленарната зала. Преди това ли",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254540-nyama-nuzhda-da-izteglyame-byudzhet-2027-i-da-go-prerabotvame-zayavi-konstantin",
+      "published": "2026-11-25T17:47:28+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 42,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 87,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
       "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
@@ -419,6 +438,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "\"Възраждане\" е категорично против този бюджет, който ни загробва, вдига данъците, обяви Цончо Ганев",
+      "summary": "„Възраждане“ е категорично против този бюджет, който ни загробва, вдига данъците поголовно и не прави нищо за най-бедната част от населението, която е над 60%, заяви Цончо Ганев при обсъждането на план-сметката на държавата за следващата година. По думите му б",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254545--vazrazhdane-e-kategorichno-protiv-tozi-byudzhet-koyto-ni-zagrobva-vdiga-dana",
+      "published": "2026-11-25T17:51:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -518,11 +556,30 @@
     },
     {
       "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Народното събрание одобри на първо четене бюджета за 2027 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440090-narodnoto-sabranie-odobri-na-parvo-chetene-byudzheta-za-2027-g",
+      "published": "2026-11-25T19:06:54+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "БТА",
-      "title": "Няма да подкрепим бюджета за 2027 г. на първо четене, в него няма воля за цялостна реформа, каза Атидже Алиева-Вели от ДПС",
-      "summary": "Ние ще направим предложенията между първо и второ четене, надявам се на конструктивен диалог и на разум, за да бъдат подкрепени те и да бъдат приети, но днес на първо четене няма да подкрепим проекта на Закона за държавния бюджет на Република България за 2027",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254559-nyama-da-podkrepim-byudzheta-za-2027-g-na-parvo-chetene-v-nego-nyama-volya-za-",
-      "published": "2026-11-25T17:42:56+00:00",
+      "title": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство",
+      "summary": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство. По време на дебата на първо четене в пленарната зала той посочи, че премиерът е сравнил бюджета за 2027 г. с камион без спирачки,",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254583-martin-dimitrov-ot-demokratichna-balgariya-prochete-parametrite-na-proektobyud",
+      "published": "2026-11-25T18:47:31+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 36,
@@ -538,10 +595,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "В препоръката на ЕК за глоба заради свръхдефицит в бюджета за 2026 г. няма и следа от липса на доверие, заяви вицепремиерът Гълъб Донев",
-      "summary": "В препоръката на Европейската комисия за глоба заради свръхдефицит в бюджета за 2026 г. няма и следа от липса на доверие, заяви вицепремиерът и финансов министър Гълъб Донев при представяне на първо четене в Народното събрание на проектобюджета на държавата за",
-      "url": "https://www.bta.bg/bg/news/economy/1254519-v-preporakata-na-ek-za-globa-zaradi-svrahdefitsit-v-byudzheta-za-2026-g-nyama-i",
-      "published": "2026-11-25T17:10:52+00:00",
+      "title": "Осем задържани в България заради предполагаема схема за измама с европейски субсидии, се казва в съобщение на Европейската прокуратура",
+      "summary": "По искане на офиса на Европейската прокуратура в София, днес са задържани осем души, сред които петима представители на публичната власт, по подозрение за участие в организирана престъпна група с цел измама с финансови средства от бюджета на ЕС, отпуснати на о",
+      "url": "https://www.bta.bg/bg/news/world/1254586-osem-zadarzhani-v-balgariya-zaradi-predpolagaema-shema-za-izmama-s-evropeyski-su",
+      "published": "2026-11-25T18:33:35+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 36,
@@ -569,7 +626,7 @@
         "national_impact": 22,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -590,6 +647,44 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
+      "summary": "Jamie Shea, former NATO spokesperson joined Euronews' new evening show Europe Tonight to discuss how Satellite systems could be affected and what would it mean for the world.",
+      "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
+      "published": "2026-11-25T19:20:03+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 76,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинските съветници в Момчилград приеха актуализация на разпределение на капиталовите разходи през 2026 г.",
+      "summary": "Последна за годината актуализация на разчета за поименно разпределение на капиталовите разходи на Община Момчилград приеха на заседание общинските съветници. То включва обекти, финансирани от различни източници, сред които инфраструктурни и социални. Годишна п",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254581-obshtinskite-savetnitsi-v-momchilgrad-prieha-aktualizatsiya-na-razpredelenie-na-",
+      "published": "2026-11-25T19:00:27+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -628,6 +723,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Инфлацията в САЩ се е ускорила до 3,8% през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440070-inflatsiyata-v-sasht-se-e-uskorila-do-38-prez-oktomvri",
+      "published": "2026-11-25T13:54:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
@@ -745,25 +859,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Домусчиев: Чака ни тежка 2027-а, но бизнесът ще остане стабилен",
-      "summary": "Въпреки трудностите, пред които е изправен през 2026 г., българският бизнес остава стабилен, продължава да се развива и да инвестира. Следващата година се очертава да бъде още по-тежка, но с подкрепата на държавата бизнесът ще успее да преодолее предизвикателс",
-      "url": "https://www.economic.bg/bg/a/view/domuschiev-chaka-ni-tejka-2027-a-no-biznesyt-shte-ostane-stabilen",
-      "published": "2026-11-24T18:51:57+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
@@ -802,22 +897,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
-      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
-      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
-      "published": "2026-11-24T19:07:26+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Домусчиев: Чака ни тежка 2027-а, но бизнесът ще остане стабилен",
+      "summary": "Въпреки трудностите, пред които е изправен през 2026 г., българският бизнес остава стабилен, продължава да се развива и да инвестира. Следващата година се очертава да бъде още по-тежка, но с подкрепата на държавата бизнесът ще успее да преодолее предизвикателс",
+      "url": "https://www.economic.bg/bg/a/view/domuschiev-chaka-ni-tejka-2027-a-no-biznesyt-shte-ostane-stabilen",
+      "published": "2026-11-24T18:51:57+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 33,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 94
+        "timeliness": 68,
+        "source_reliability": 85
       }
     },
     {
@@ -841,25 +936,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
-      "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much. Allow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
-      "published": "2026-11-25T15:42:36+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 100,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU plans €50 billion sovereign tech equity fund to boost quantum technology",
       "summary": "The European Commission proposed a tech fund with a target size of €50 billion to boost quantum computing efforts. The bloc aims to keep up with the US and China in the global race.",
@@ -875,6 +951,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
+      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World H",
+      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
+      "published": "2026-11-24T19:07:26+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 94
       }
     },
     {
@@ -912,6 +1007,25 @@
         "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 10,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
+      "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much. Allow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
+      "published": "2026-11-25T15:42:36+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 92,
         "source_reliability": 99
       }
     },
@@ -1125,22 +1239,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "COP deadlock prompts calls for a reset of climate diplomacy",
-      "summary": "COP31 has been branded a failure after countries couldn't reach a final agreement, divided over a reference to \"fossil fuels.\" But was the decision to walk away from a watered-down text actually a show of strength?",
-      "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T13:03:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 30,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Доц. Бойко Великов ще представи втори том на книгата си „Политическа психология в България\"",
+      "summary": "Доц. Бойко Великов ще представи втори том на книгата си „Политическа психология в България\" на 26 ноември от 18:00 часа в зала „Шипка\" на столичния хотел „Кристъл палас\", съобщи авторът. Подзаглавието на изданието е „Исторически събития и личности през Българс",
+      "url": "https://www.bta.bg/bg/news/lik/1254600-dots-boyko-velikov-shte-predstavi-vtori-tom-na-knigata-si-politicheska-psiholo",
+      "published": "2026-11-25T19:25:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 50,
-        "source_reliability": 95
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1201,52 +1315,14 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Пловдив се проведе протест срещу насилието над жени и момичета под надслов “Нито една повече“",
-      "summary": "В Пловдив на площад „Съединение“ се проведе протест срещу насилието над жени и момичета под надслов “Нито една повече“. Той е организиран от Български фонд за жените и Фондация в помощ на жени, претърпели насилие. Подобни протести се провеждат също в София, Ст",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254553-v-plovdiv-se-provede-protest-sreshtu-nasilieto-nad-zheni-i-momicheta-pod-nadslov",
-      "published": "2026-11-25T17:34:41+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Шествие под надслов \"Нито една жена или момиче не трябва да живее в страх\" се състоя в Стара Загора",
-      "summary": "По повод 25 ноември - Международният ден за премахване на насилието срещу жени и момичета в Стара Загора, се проведе шествие, организирано от седем неправителствени организации, обединени в каузата да се противопоставят на насилието над жени. Шествието тръгна",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254496-shestvie-pod-nadslov-nito-edna-zhena-ili-momiche-ne-tryabva-da-zhivee-v-strah-",
-      "published": "2026-11-25T17:09:15+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "The EU’s showdown over next big budget — live updates",
-      "summary": "Governments are divided over the size of the long-term budget, and on how to spend the money.",
-      "url": "https://www.politico.eu/article/the-eus-showdown-over-next-big-budget-live-updates/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T13:33:28+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
+      "source": "BBC News – Свят",
+      "title": "US announces new tariffs on host of countries including China",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T16:21:34+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -1254,83 +1330,7 @@
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "САЩ предлагат нови мита за 14 търговски партньори, включително Китай и ЕС",
-      "summary": "САЩ предложиха нови, по-високи мита за вноса от 14 търговски партньори, сред които Китай, Европейският съюз, Япония и Индия. Президентът Доналд Тръмп продължава да залага на тарифната си политика, въпреки че значителна част от въведените по-рано от него мита б",
-      "url": "https://www.economic.bg/bg/a/view/sa-sht-predlagat-novi-mita-za-14-tyrgovski-partniori-vkluchitelno-kitaj-i-es",
-      "published": "2026-11-25T13:28:02+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "UK embassy in Japan warns of rise in drink spiking and credit card fraud at Tokyo bars",
-      "summary": "Social media campaign fronted by British rapper Shao Dow advises tourists not to let their guard down The British embassy in Tokyo has launched a social media campaign warning visitors to exercise caution after a rise in cases of drink-spiking and credit card",
-      "url": "https://www.theguardian.com/world/2026/nov/25/british-embassy-tokyo-warning-tourists-drink-spiking-credit-card-fraud",
-      "published": "2026-11-25T11:59:22+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Със спор има ли пари за профилактика бюджетът на НЗОК мина на първо четене",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440057-sas-spor-ima-li-pari-za-profilaktika-byudzhetat-na-nzok-mina-na-parvo-chetene",
-      "published": "2026-11-25T11:30:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "ЕК предлага фонд за 50 млрд. евро за инвестиции в технологични компании и квантови технологии",
-      "summary": "",
-      "url": "https://www.investor.bg/a/566-novini-i-analizi/440055-ek-predlaga-fond-za-50-mlrd-evro-za-investitsii-v-tehnologichni-kompanii-i-kvantovi-tehnologii",
-      "published": "2026-11-25T10:31:28+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "source_reliability": 95
       }
     }
   ],
