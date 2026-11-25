@@ -337,6 +337,61 @@ try {
     assert.ok(debtMetrics.sources >= 7,
       viewport.name + ": primary-source list is incomplete");
 
+    const bankUrl = new URL("banki/", SITE_URL).toString();
+    const bankResponse = await page.goto(bankUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
+    assert.ok(bankResponse && bankResponse.ok(), viewport.name + ": banking resource did not load");
+    await page.waitForSelector("#sector-loans-chart svg", { timeout: 10000 });
+    await page.waitForSelector("#household-loans-chart svg", { timeout: 10000 });
+    await page.waitForFunction(() => {
+      const rows = document.querySelectorAll("#sector-table tbody tr");
+      const rates = document.querySelectorAll("#interest-table tbody tr");
+      return rows.length >= 4 && rates.length >= 6 &&
+        document.querySelector("#assets")?.textContent?.includes("124,4") &&
+        document.querySelector("#npl-ratio")?.textContent?.trim() === "2,59%";
+    }, null, { timeout: 10000 });
+    const bankMetrics = await page.evaluate(() => ({
+      innerWidth: window.innerWidth,
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      title: document.querySelector("h1")?.textContent?.trim() ?? "",
+      assets: document.querySelector("#assets")?.textContent?.trim() ?? "",
+      loans: document.querySelector("#loans")?.textContent?.trim() ?? "",
+      deposits: document.querySelector("#deposits")?.textContent?.trim() ?? "",
+      nplRatio: document.querySelector("#npl-ratio")?.textContent?.trim() ?? "",
+      sectorLoansChart: !!document.querySelector("#sector-loans-chart svg"),
+      sectorDepositsChart: !!document.querySelector("#sector-deposits-chart svg"),
+      householdLoansChart: !!document.querySelector("#household-loans-chart svg"),
+      loanRatesChart: !!document.querySelector("#loan-rates-chart svg"),
+      depositRatesChart: !!document.querySelector("#deposit-rates-chart svg"),
+      sectorRows: document.querySelectorAll("#sector-table tbody tr").length,
+      interestRows: document.querySelectorAll("#interest-table tbody tr").length,
+      sources: document.querySelectorAll("#source-list a").length,
+    }));
+    assert.equal(bankMetrics.clientWidth, viewport.width,
+      viewport.name + ": banking viewport width mismatch");
+    assert.ok(bankMetrics.scrollWidth <= bankMetrics.clientWidth + 1,
+      viewport.name + ": banking page has horizontal overflow");
+    assert.ok(bankMetrics.title.includes("Банки"),
+      viewport.name + ": banking page title is missing");
+    assert.ok(bankMetrics.assets.includes("124,4"),
+      viewport.name + ": banking assets value did not load");
+    assert.ok(bankMetrics.loans.includes("67,693"),
+      viewport.name + ": monetary credit aggregate did not load");
+    assert.ok(bankMetrics.deposits.includes("87,590"),
+      viewport.name + ": monetary deposit aggregate did not load");
+    assert.equal(bankMetrics.nplRatio, "2,59%",
+      viewport.name + ": supervisory NPL ratio did not load");
+    for (const chart of [
+      "sectorLoansChart", "sectorDepositsChart", "householdLoansChart",
+      "loanRatesChart", "depositRatesChart"
+    ]) {
+      assert.ok(bankMetrics[chart], viewport.name + ": missing rendered banking chart " + chart);
+    }
+    assert.ok(bankMetrics.sectorRows >= 4 && bankMetrics.interestRows >= 6,
+      viewport.name + ": banking data tables are incomplete");
+    assert.ok(bankMetrics.sources >= 8,
+      viewport.name + ": primary-source list is incomplete");
+
     assert.equal(pageErrors.length, 0,
       viewport.name + ": uncaught browser errors: " + pageErrors.join("; "));
     console.log(JSON.stringify({
