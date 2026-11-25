@@ -18,6 +18,39 @@ CONFIG = ROOT / "analysis" / "config.json"
 
 
 class EditorialPublicationTests(unittest.TestCase):
+
+    def test_sitemap_uses_the_canonical_advertising_url(self):
+        sitemap = SITEMAP.read_text(encoding="utf-8")
+        self.assertIn("<loc>https://bgvchisla.com/advertise</loc>", sitemap)
+        self.assertNotIn("<loc>https://bgvchisla.com/advertise.html</loc>", sitemap)
+
+    def test_analysis_archive_has_substantive_editorial_content(self):
+        archive = ARCHIVE.read_text(encoding="utf-8")
+        text = html.unescape(re.sub(r"<[^>]+>", " ", archive))
+        self.assertGreaterEqual(len(text.split()), 250)
+        for heading in (
+            "Какво анализираме",
+            "Как работим с данните",
+            "Факти, прогнози и интерпретация",
+            "Проверка и редакционен стандарт",
+            "Как да четете анализите",
+        ):
+            self.assertIn(heading, text)
+        self.assertIn('rel="canonical" href="https://bgvchisla.com/analizi/"', archive)
+
+    def test_article_and_privacy_metadata_fit_search_snippets(self):
+        article = (ROOT / "analizi" / "budget-2027" / "index.html").read_text(encoding="utf-8")
+        privacy = (ROOT / "privacy.html").read_text(encoding="utf-8")
+        title_match = re.search(r"<title>(.*?)</title>", article, re.I | re.S)
+        description_match = re.search(r'<meta name="description" content="([^"]+)"', article, re.I)
+        privacy_match = re.search(r'<meta name="description" content="([^"]+)"', privacy, re.I)
+        self.assertIsNotNone(title_match)
+        self.assertIsNotNone(description_match)
+        self.assertIsNotNone(privacy_match)
+        self.assertLessEqual(len(title_match.group(1)), 60)
+        self.assertLessEqual(len(description_match.group(1)), 160)
+        self.assertTrue(70 <= len(privacy_match.group(1)) <= 160)
+
     def test_every_registered_article_is_indexed_and_styled(self):
         articles = json.loads(REGISTRY.read_text(encoding="utf-8"))
         archive = ARCHIVE.read_text(encoding="utf-8")
@@ -197,6 +230,8 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertIn("scripts/test_independent_factcheck.py --report analysis/factcheck_report.json", source)
         self.assertIn("pull_request:", source)
         self.assertIn("branches: [main]", source)
+        self.assertIn("seo/stage1-", source)
+        self.assertIn("seo/stage1-*", source)
 
 
 if __name__ == "__main__":
