@@ -68,7 +68,7 @@ h1{margin:9px 0 12px;color:var(--navy);font-size:clamp(2rem,5vw,3.5rem);line-hei
 .chart .cpi-line{stroke:var(--red);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
 .chart .hicp-line{stroke:var(--blue);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
 .chart .cpi-dot{fill:var(--red)}.chart .hicp-dot{fill:var(--blue)}
-.chart .pos-bar{fill:var(--red);opacity:.85}.chart .neg-bar{fill:var(--green);opacity:.85}
+.chart .cpi-bar{fill:var(--red);opacity:.9}.chart .hicp-bar{fill:var(--blue);opacity:.9}.chart .negative{opacity:.55}
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:4px;color:#53677d;font-size:.71rem}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 .legend i{display:inline-block;width:18px;height:3px;border-radius:3px}
@@ -146,6 +146,10 @@ td.emph{font-weight:800;color:var(--navy)}
   <article class="insight">
    <h3>Храните се движат по-умерено</h3>
    <p id="insight-food">Хранителните продукти и безалкохолните напитки поскъпват с 0,6% за месеца и с 2,0% на годишна база по ИПЦ.</p>
+  </article>
+  <article class="insight">
+   <h3>Малката потребителска кошница</h3>
+   <p id="insight-small-basket">Индексът на малката кошница се увеличава с 0,7% за месеца и с 2,4% на годишна база. Той следи кошницата на най-нискодоходните 20% от домакинствата.</p>
   </article>
  </div>
 </section>
@@ -332,9 +336,9 @@ function monthlyChart(hostId,points){
  [min,0,max].forEach(function(v){svgEl(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),class:v===0?"axisline":"gridline"});svgEl(svg,"text",{x:L-8,y:y(v)+4,"text-anchor":"end"},nf.format(v)+"%");});
  points.forEach(function(p,i){
   var group=x(i)+8,base=y(0),barW=Math.min(18,(W-L-R)/points.length*.28);
-  [[p.cpi_monthly,"pos-bar"],[p.hicp_monthly,"neg-bar"]].forEach(function(item,j){
+  [[p.cpi_monthly,"cpi-bar"],[p.hicp_monthly,"hicp-bar"]].forEach(function(item,j){
    var val=item[0],top=Math.min(base,y(val)),height=Math.max(1,Math.abs(y(val)-base));
-   var rect=svgEl(svg,"rect",{x:group+j*(barW+3),y:top,width:barW,height:height,rx:3,class:j===0?(val>=0?"pos-bar":"neg-bar"):(val>=0?"neg-bar":"pos-bar")});
+   var rect=svgEl(svg,"rect",{x:group+j*(barW+3),y:top,width:barW,height:height,rx:3,class:item[1]+(val<0?" negative":"")});
    var title=document.createElementNS(svg.namespaceURI,"title");title.textContent=p.label+": "+(j===0?"ИПЦ ":"ХИПЦ ")+nf.format(val)+"%";rect.appendChild(title);
   });
   svgEl(svg,"text",{x:x(i)+(W-L-R)/points.length/2,y:H-12,"text-anchor":"middle"},p.label);
@@ -359,6 +363,8 @@ function render(data){
  var food=(data.cpi_categories||[]).find(function(r){return r.category.indexOf("Хранителни")===0;});
  $("insight-monthly").textContent="Месечният ИПЦ нараства с "+pct(latest.cpi.monthly,false)+". Най-силни увеличения са отчетени при "+topMonthly.map(function(r){return r.category.toLowerCase()+" ("+pct(r.monthly_change,false)+")";}).join(", ")+".";
  $("insight-food").textContent=food?"Хранителните продукти и безалкохолните напитки се променят с "+pct(food.monthly_change,true)+" за месеца и "+pct(food.annual_change,false)+" на годишна база по ИПЦ.":"Публикуваната разбивка по потребителски групи не е налична.";
+ var basket=latest.small_basket;
+ if(basket)$("insight-small-basket").textContent="Индексът на малката кошница се увеличава с "+pct(basket.monthly,true)+" за месеца и с "+pct(basket.annual,false)+" на годишна база. Той следи кошницата на най-нискодоходните 20% от домакинствата.";
  var cmp=data.international_comparison;
  if(cmp){$("insight-eu").textContent="ХИПЦ в България е "+pct(cmp.bulgaria_hicp_annual,false)+" спрямо "+pct(cmp.eu27_hicp_annual,false)+" средно за ЕС през "+cmp.label+". Разликата е "+nf.format(cmp.difference_vs_eu_pp)+" процентни пункта.";
   $("comparison-note").textContent="България е с "+nf.format(cmp.difference_vs_eu_pp)+" процентни пункта над средното за ЕС и е с "+cmp.bulgaria_rank_eu+" през "+cmp.label+". "+(cmp.comparison_note||"");
