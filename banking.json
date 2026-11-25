@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "title": "Банкова система на България",
+  "last_updated": "2026-11-25T14:55:00Z",
+  "latest_period": "2026-09",
+  "latest_label": "Септември 2026 г.",
+  "monetary_statistics": {
+    "period": "2026-09",
+    "published_on": "2026-10-27",
+    "m3_mio_eur": 107450,
+    "m3_yoy_pct": 19.5,
+    "m3_gdp_pct": 83.7,
+    "non_government_loans_mio_eur": 67693,
+    "non_government_loans_yoy_pct": 15.8,
+    "non_government_loans_gdp_pct": 52.7,
+    "non_government_deposits_mio_eur": 87590,
+    "non_government_deposits_yoy_pct": 12.9,
+    "non_government_deposits_gdp_pct": 68.2,
+    "source_url": "https://www.bnb.bg/AboutUs/PressOffice/POStatisticalPressReleases/POPRSMonetarySurvey/202609_S_MS_PRESS_BG",
+    "note": "Месечната парична статистика на ПФИ. Кредитите/депозитите на неправителствения сектор следват паричностатистическия обхват на БНБ и не са взаимозаменяеми с всички балансови кредити/депозити на банковата система."
+  },
+  "sector_quarterly": {
+    "period": "2026-09",
+    "published_on": "2026-11-09",
+    "unit": "млн. евро",
+    "points_periods": [
+      "2025-09",
+      "2025-12",
+      "2026-03",
+      "2026-06",
+      "2026-09"
+    ],
+    "loans": {
+      "nonfinancial_enterprises": [
+        {
+          "period": "2025-09",
+          "value": 26481.982
+        },
+        {
+          "period": "2025-12",
+          "value": 27592.758
+        },
+        {
+          "period": "2026-03",
+          "value": 28504.799
+        },
+        {
+          "period": "2026-06",
+          "value": 29054.692
+        },
+        {
+          "period": "2026-09",
+          "value": 29647.216
+        }
+      ],
+      "financial_enterprises": [
+        {
+          "period": "2025-09",
+          "value": 4827.203
+        },
+        {
+          "period": "2025-12",
+          "value": 4960.16
+        },
+        {
+          "period": "2026-03",
+          "value": 4988.676
+        },
+        {
+          "period": "2026-06",
+          "value": 5155.74
+        },
+        {
+          "period": "2026-09",
+          "value": 5256.605
+        }
+      ],
+      "households_npish": [
+        {
+          "period": "2025-09",
+          "value": 27443.83
+        },
+        {
+          "period": "2025-12",
+          "value": 28703.383
+        },
+        {
+          "period": "2026-03",
+          "value": 29866.435
+        },
+        {
+          "period": "2026-06",
+          "value": 31544.893
+        },
+        {
+          "period": "2026-09",
+          "value": 33115.495
+        }
+      ],
+      "total": [
+        {
+          "period": "2025-09",
+          "value": 58753.015
+        },
+        {
+          "period": "2025-12",
+          "value": 61256.301
+        },
+        {
+          "period": "2026-03",
+          "value": 63359.91
+        },
+        {
+          "period": "2026-06",
+          "value": 65755.325
+        },
+        {
+          "period": "2026-09",
+          "value": 68019.316
+        }
+      ]
+    },
+    "deposits": {
+      "nonfinancial_enterprises": [
+        {
+          "period": "2025-09",
+          "value": 26138.732
+        },
+        {
+          "period": "2025-12",
+          "value": 26443.27
+        },
+        {
+          "period": "2026-03",
+          "value": 26744.468
+        },
+        {
+          "period": "2026-06",
+          "value": 26639.233
+        },
+        {
+          "period": "2026-09",
+          "value": 27958.958
+        }
+      ],
+      "financial_enterprises": [
+        {
+          "period": "2025-09",
+          "value": 2204.25
+        },
+        {
+          "period": "2025-12",
+          "value": 2402.2
+        },
+        {
+          "period": "2026-03",
+          "value": 2070.726
+        },
+        {
+          "period": "2026-06",
+          "value": 2363.746
+        },
+        {
+          "period": "2026-09",
+          "value": 2409.926
+        }
+      ],
+      "households_npish": [
+        {
+          "period": "2025-09",
+          "value": 49222.888
+        },
+        {
+          "period": "2025-12",
+          "value": 54747.041
+        },
+        {
+          "period": "2026-03",
+          "value": 55702.134
+        },
+        {
+          "period": "2026-06",
+          "value": 56472.611
+        },
+        {
+          "period": "2026-09",
+          "value": 57221.514
+        }
+      ],
+      "total": [
+        {
+          "period": "2025-09",
+          "value": 77565.871
+        },
+        {
+          "period": "2025-12",
+          "value": 83592.51
+        },
+        {
+          "period": "2026-03",
+          "value": 84517.328
+        },
+        {
+          "period": "2026-06",
+          "value": 85475.59
+        },
+        {
+          "period": "2026-09",
+          "value": 87590.398
+        }
+      ]
+    },
+    "annual_growth_pct": {
+      "loans": {
+        "nonfinancial_enterprises": 12,
+        "financial_enterprises": 8.9,
+        "households_npish": 20.7,
+        "total": 15.8
+      },
+      "deposits": {
+        "nonfinancial_enterprises": 7,
+        "financial_enterprises": 9.3,
+        "households_npish": 16.2,
+        "total": 12.9
+      }
+    },
+    "source_url": "https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/202609_s_dep_cr_press_a1_bg.pdf",
+    "note": "Тримесечни салда по сектори и количествени категории, към края на съответното тримесечие. Данните са от отделната публикация на БНБ за кредити и депозити по количествени категории и икономически дейности."
+  },
+  "household_loan_breakdown": {
+    "period": "2026-09",
+    "consumer_mio_eur": 12418.958,
+    "consumer_yoy_pct": 16,
+    "housing_mio_eur": 19645.626,
+    "housing_yoy_pct": 24.8,
+    "other_mio_eur": 296.223,
+    "other_yoy_pct": 10.1,
+    "source": "БНБ, месечна парична статистика",
+    "source_url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StMonetaryStatistics/index.htm",
+    "dataset_url": "https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/s_monetarystatistics_all_bg.xlsx",
+    "note": "Показани са три отделни категории от автоматизираната месечна серия за домакинства и НТООД. Те не са сборът на целия кредитен портфейл на домакинствата."
+  },
+  "banking_system": {
+    "period": "2026-Q3",
+    "reference_date": "2026-09-30",
+    "published_on": "2026-10-30",
+    "assets_bn_eur": 124.4,
+    "assets_qoq_pct": 2.8,
+    "gross_loans_advances_bn_eur": 83.8,
+    "gross_loans_advances_qoq_pct": 0.9,
+    "gross_loan_portfolio_bn_eur": 72.5,
+    "gross_loan_portfolio_qoq_pct": 3.1,
+    "deposits_bn_eur": 103.6,
+    "deposits_qoq_pct": 2.3,
+    "liquidity_coverage_ratio_pct": 263.1,
+    "liquidity_coverage_ratio_june_pct": 261.2,
+    "liquidity_buffer_bn_eur": 34.3,
+    "liquidity_buffer_june_bn_eur": 33.4,
+    "net_liquidity_outflows_bn_eur": 13,
+    "net_liquidity_outflows_june_bn_eur": 12.8,
+    "balance_sheet_equity_bn_eur": 16.1,
+    "profit_bn_eur": 1.6,
+    "profit_yoy_growth_pct": 12.3,
+    "impairment_costs_mio_eur": 382,
+    "impairment_yoy_growth_pct": 54,
+    "npl_gross_bn_eur": 2.2,
+    "npl_gross_ratio_pct": 2.59,
+    "npl_gross_ratio_june_pct": 2.65,
+    "npl_net_bn_eur": 1,
+    "npl_net_ratio_pct": 1.24,
+    "npl_net_ratio_june_pct": 1.26,
+    "source_url": "https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/bs_202609_a7_bg.pdf",
+    "source_page_url": "https://www.bnb.bg/BankSupervision/BSCreditInstitution/BSCIFinansReports/BSCIFRBankingSystem/index.htm",
+    "note": "Балансовите данни са на индивидуална основа от месечната отчетност на банките и клоновете на чуждестранни банки. Кредитният портфейл включва нефинансови предприятия, домакинства, други финансови предприятия и държавно управление."
+  },
+  "interest_rates": {
+    "period": "2026-09",
+    "published_on": "2026-10-27",
+    "household": {
+      "consumer_loan_rate_pct": 8.83,
+      "consumer_apr_pct": 9.11,
+      "housing_loan_rate_pct": 2.41,
+      "housing_apr_pct": 2.76,
+      "other_loan_rate_pct": 4.41,
+      "other_loan_rate_employers_selfemployed_pct": 4.54,
+      "overdraft_rate_pct": 13.52,
+      "credit_card_rate_excluding_grace_pct": 21.52,
+      "time_deposit_rate_pct": 1.42,
+      "overnight_deposit_rate_pct": 0.01,
+      "notice_deposit_rate_pct": 0.43,
+      "new_consumer_loan_business_mio_eur": 627.3,
+      "new_housing_loan_business_mio_eur": 643.6,
+      "new_time_deposit_business_mio_eur": 332.6
+    },
+    "nonfinancial_enterprises": {
+      "loan_rate_up_to_1m_eur_pct": 4.25,
+      "loan_rate_above_1m_eur_pct": 4.66,
+      "overdraft_rate_pct": 3.59,
+      "time_deposit_rate_pct": 1.79,
+      "overnight_deposit_rate_pct": 0.1,
+      "new_loan_business_up_to_1m_eur_mio": 213.8,
+      "new_loan_business_above_1m_eur_mio": 691.6,
+      "restructured_refinanced_loans_business_mio_eur": 347.2,
+      "time_deposit_new_business_mio_eur": 749.3
+    },
+    "source_url": "https://www.bnb.bg/AboutUs/PressOffice/POStatisticalPressReleases/POPRSInterestRate/202609_S_IRS_PRESS_BG",
+    "note": "Среднопретеглени лихвени проценти по нов бизнес/салда според съответния показател. Лихвеният процент и ГПР са различни мерки; ГПР включва допълнителните разходи по кредита."
+  },
+  "capital_adequacy": {
+    "reference_date": "2025-12-31",
+    "cet1_ratio_pct": 24.89,
+    "tier1_ratio_pct": 25.14,
+    "total_capital_ratio_pct": 26.56,
+    "leverage_ratio_pct": 11.26,
+    "net_stable_funding_ratio_pct": 167,
+    "source_url": "https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/bs_202601_a7_bg.pdf",
+    "note": "Последните проверени капиталови съотношения в използваната публикация са към 31.12.2025 г. Не се представят като показатели към септември 2026 г. Минималното изискване за ОНСФ е 100%."
+  },
+  "methodology": {
+    "monetary": "Паричната статистика на ПФИ се съставя по методологията на ЕЦБ. В България сектор ПФИ включва БНБ и кредитните институции. От 1 януари 2026 г. след присъединяването към еврозоната в част от сериите има промени в статистическите концепции и историческите редове в евро.",
+    "sector_credit_deposit": "Тримесечната статистика по количествени категории представя броя и размера на кредитите и депозитите на резидентните сектори нефинансови предприятия, финансови предприятия и домакинства и НТООД към края на тримесечието.",
+    "banking_system": "Балансовите показатели на банковата система са от надзорната/месечната отчетност на банките и клоновете на чуждестранни банки. Обхватът им може да се различава от паричната статистика на ПФИ.",
+    "npl": "Необслужваните кредити за надзорни цели се определят по условията на чл. 178 от Регламент (ЕС) № 575/2013. Съотношението е изчислено върху брутните кредити и аванси в обхвата на надзорния отчет.",
+    "interest": "Лихвената статистика отчита среднопретеглени лихви по нов бизнес и/или салда според конкретния ред. ГПР включва лихвата и другите разходи по кредита и не трябва да се смесва с номиналния лихвен процент.",
+    "capital": "CET1, Tier 1 и общата капиталова адекватност се изчисляват спрямо общия размер на рисковите експозиции. Капиталовите съотношения от 2025 г. са отделени от балансовия собствен капитал към септември 2026 г.",
+    "euro_2026": "С приемането на еврото от 1 януари 2026 г. БНБ въвежда нови категории и конструира исторически редове в евро за редица показатели. При сравнения с периоди преди 2026 г. трябва да се ползват съпоставимите серии и методологичните бележки на БНБ."
+  },
+  "source_links": [
+    {
+      "title": "БНБ: Парични, кредитни и депозитни показатели — септември 2026 г.",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POStatisticalPressReleases/POPRSMonetarySurvey/202609_S_MS_PRESS_BG"
+    },
+    {
+      "title": "БНБ: Лихвена статистика — септември 2026 г.",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POStatisticalPressReleases/POPRSInterestRate/202609_S_IRS_PRESS_BG"
+    },
+    {
+      "title": "БНБ: Кредити и депозити по количествени категории — септември 2026 г.",
+      "url": "https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/202609_s_dep_cr_press_a1_bg.pdf"
+    },
+    {
+      "title": "БНБ: Състояние на банковата система — 30 септември 2026 г.",
+      "url": "https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/bs_202609_a7_bg.pdf"
+    },
+    {
+      "title": "БНБ: Данни за банковата система и банките по групи",
+      "url": "https://www.bnb.bg/BankSupervision/BSCreditInstitution/BSCIFinansReports/BSCIFRBankingSystem/index.htm"
+    },
+    {
+      "title": "БНБ: Парична статистика и методологически бележки",
+      "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StMonetaryStatistics/index.htm"
+    },
+    {
+      "title": "БНБ: Лихвена статистика и методологически бележки",
+      "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StInterestRate/StIRInterestRate/index.htm"
+    },
+    {
+      "title": "БНБ: Капиталова адекватност — правна и надзорна рамка",
+      "url": "https://www.bnb.bg/BankSupervision/BSCapitalAdequacy/index.htm"
+    }
+  ]
+}

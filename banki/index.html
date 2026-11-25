@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Банки в България – кредити, депозити и лихви</title>
+<meta name="description" content="Актуални данни за банките в България: кредити, депозити, лихвени проценти, необслужвани кредити, ликвидност и капиталова адекватност от БНБ.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://bgvchisla.com/banki/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="bg_BG">
+<meta property="og:site_name" content="БЪЛГАРИЯ В ЧИСЛА">
+<meta property="og:title" content="Банки в България – кредити, депозити и лихви">
+<meta property="og:description" content="Кредитиране, спестявания, цени на банковото финансиране, качество на активите и стабилност на банковата система.">
+<link rel="stylesheet" href="/assets/design-system.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"Банки в България",
+  "description":"Официални данни и анализ на банковата система, кредитите, депозитите и лихвените проценти.",
+  "inLanguage":"bg",
+  "url":"https://bgvchisla.com/banki/",
+  "isPartOf":{"@type":"WebSite","name":"БЪЛГАРИЯ В ЧИСЛА","url":"https://bgvchisla.com/"}
+}
+</script>
+<style>
+:root{--navy:#24384f;--blue:#315f91;--green:#24765f;--red:#b64b45;--gold:#a8732e;--paper:#e8edf3;--ink:#263548;--muted:#607187;--line:#d7e0e9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--blue);text-underline-offset:3px}
+a:hover{color:var(--navy)}
+.site-header{background:var(--navy);border-bottom:3px solid var(--green);padding:16px max(18px,calc((100% - 1120px)/2))}
+.site-header a{color:#fff;text-decoration:none;font-size:.78rem;font-weight:850;letter-spacing:.1em}
+.shell{max-width:1120px;margin:0 auto;padding:26px 18px 64px}
+.breadcrumb{font-size:.76rem;color:var(--muted);margin:0 0 18px}
+.breadcrumb a{color:var(--muted)}
+.hero{background:#fff;border:1px solid var(--line);border-top:4px solid var(--green);border-radius:15px;padding:clamp(22px,4vw,38px);box-shadow:0 4px 18px rgba(36,56,79,.055)}
+.kicker{color:var(--green);font-size:.67rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+h1{margin:9px 0 12px;color:var(--navy);font-size:clamp(2rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.045em}
+.hero-lead{max-width:900px;margin:0;color:#52677e;font-size:1.04rem;line-height:1.65}
+.meta-line{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:20px;color:var(--muted);font-size:.73rem}
+.status{display:inline-flex;align-items:center;gap:7px;border:1px solid #c7d9d0;background:#f2f8f4;color:#26634f;padding:5px 9px;border-radius:99px;font-weight:750}
+.status:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green)}
+.status.warning{border-color:#e7d8b8;background:#faf6ed;color:#80551f}
+.status.warning:before{background:var(--gold)}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:17px 18px;min-width:0;box-shadow:0 2px 9px rgba(36,56,79,.04)}
+.kpi .value{display:block;color:var(--navy);font-size:clamp(1.5rem,3.2vw,2.25rem);font-weight:820;line-height:1.1;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.kpi.red .value{color:var(--red)}.kpi.blue .value{color:var(--blue)}.kpi.green .value{color:var(--green)}.kpi.gold .value{color:var(--gold)}
+.kpi .label{display:block;color:#40556d;font-size:.82rem;font-weight:700;line-height:1.4;margin-top:9px}
+.kpi .note{display:block;color:var(--muted);font-size:.7rem;line-height:1.4;margin-top:5px}
+.section{margin-top:30px}
+.section-heading{margin:0 0 14px;color:var(--navy);font-size:1.35rem;letter-spacing:-.025em;line-height:1.25}
+.section-intro{max-width:900px;color:var(--muted);font-size:.89rem;margin:-5px 0 14px}
+.insight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.insight{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 19px}
+.insight h3{font-size:.9rem;color:var(--navy);line-height:1.35;margin:0 0 8px}
+.insight p{font-size:.82rem;color:#53677d;margin:0;line-height:1.6}
+.chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;min-width:0;box-shadow:0 2px 9px rgba(36,56,79,.035)}
+.panel h3{font-size:.92rem;color:var(--navy);margin:0 0 4px}
+.panel .sub{font-size:.73rem;color:var(--muted);margin:0 0 13px}
+.chart{min-height:220px;width:100%;overflow:hidden}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font-family:Inter,system-ui,sans-serif;fill:#65778b;font-size:11px}
+.chart .gridline{stroke:#e3e9ef;stroke-width:1}
+.chart .axisline{stroke:#aebdcb;stroke-width:1}
+.chart .navy-line{stroke:var(--navy);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .blue-line{stroke:var(--blue);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .green-line{stroke:var(--green);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .red-line{stroke:var(--red);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .gold-line{stroke:var(--gold);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .navy-dot{fill:var(--navy)}.chart .blue-dot{fill:var(--blue)}.chart .green-dot{fill:var(--green)}.chart .red-dot{fill:var(--red)}.chart .gold-dot{fill:var(--gold)}
+.chart .navy-bar{fill:var(--navy)}.chart .blue-bar{fill:var(--blue)}.chart .red-bar{fill:var(--red)}.chart .green-bar{fill:var(--green)}.chart .gold-bar{fill:var(--gold)}
+.legend{display:flex;flex-wrap:wrap;gap:12px 15px;margin-top:4px;color:#53677d;font-size:.71rem}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:17px;height:3px;border-radius:3px}
+.legend .navy{background:var(--navy)}.legend .blue{background:var(--blue)}.legend .green{background:var(--green)}.legend .red{background:var(--red)}.legend .gold{background:var(--gold)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.79rem;min-width:620px}
+th,td{padding:11px 13px;border-bottom:1px solid #e8edf2;text-align:right;white-space:nowrap}
+th{background:#eff3f7;color:#40556c;font-size:.7rem;letter-spacing:.02em;font-weight:800}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+td{font-variant-numeric:tabular-nums;color:#394d63}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#f7f9fb}
+td.emph{font-weight:800;color:var(--navy)}
+.note{font-size:.72rem;color:var(--muted);line-height:1.6;margin:8px 1px 0}
+.callout{background:#f6f3ec;border:1px solid #e6ddca;border-left:4px solid var(--gold);border-radius:9px;padding:15px 17px;color:#5f5038;font-size:.8rem;line-height:1.6}
+.callout strong{color:#4d402d}
+.rates-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.rate-card{background:#fff;border:1px solid var(--line);border-radius:11px;padding:15px 16px}
+.rate-card h3{font-size:.82rem;color:var(--navy);margin:0 0 7px}
+.rate-card .rate{font-size:1.7rem;color:var(--blue);font-weight:820;line-height:1.15;font-variant-numeric:tabular-nums}
+.rate-card .apr{font-size:.72rem;color:var(--muted);margin-top:4px}
+.rate-card .detail{font-size:.72rem;color:#52677e;margin-top:8px}
+.definition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.definition{background:#fff;border:1px solid var(--line);border-radius:11px;padding:16px 17px}
+.definition h3{font-size:.86rem;color:var(--navy);margin:0 0 7px}
+.definition p{font-size:.77rem;color:#53677d;line-height:1.6;margin:0}
+.sources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 20px;padding:0;margin:0;list-style:none}
+.sources li{font-size:.78rem;line-height:1.5}
+.sources a{font-weight:650}
+.related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.related a{display:block;background:#fff;border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;color:var(--navy);text-decoration:none;font-weight:750}
+.related a small{display:block;color:var(--muted);font-weight:500;font-size:.72rem;margin-top:6px}
+.footer{margin-top:34px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:.7rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+@media(max-width:900px){.kpi-grid,.rates-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.insight-grid{grid-template-columns:1fr}}
+@media(max-width:680px){.shell{padding:18px 12px 42px}.chart-grid,.sources,.related,.definition-grid{grid-template-columns:1fr}.hero{padding:21px 18px}.kpi,.rate-card{padding:14px}.panel{padding:15px 13px}.section{margin-top:25px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="site-header"><a href="/">БЪЛГАРИЯ В ЧИСЛА <span aria-hidden="true">/</span> ФАКТИТЕ. БЕЗ ШУМ.</a></header>
+<main class="shell">
+<nav class="breadcrumb" aria-label="Навигация"><a href="/">Начало</a> / Банки</nav>
+
+<section class="hero">
+ <div class="kicker">ФИНАНСОВ СЕКТОР · БЪЛГАРИЯ</div>
+ <h1>Банки в България</h1>
+ <p class="hero-lead">Колко кредитират банките, колко спестяват домакинствата и фирмите, каква е цената на новото кредитиране и как се променя качеството на активите. Данните на БНБ са разделени по статистически обхват: парична статистика, тримесечни салда по сектори и надзорни показатели за банковата система.</p>
+ <div class="meta-line">
+  <span class="status" id="monetary-status">Официални данни на БНБ</span>
+  <span>Парична и лихвена статистика: <strong>септември 2026 г.</strong></span>
+  <span>Надзорни данни: <strong>30.09.2026 г.</strong></span>
+  <span>Последно обновяване на месечния набор: <time id="last-updated">25.11.2026 г.</time></span>
+ </div>
+</section>
+
+<section class="kpi-grid" aria-label="Основни показатели за банковата система">
+ <article class="kpi blue"><span class="value" id="assets">124,4 млрд. €</span><span class="label">Активи на банковата система</span><span class="note">Към 30.09.2026 г. · +2,8% за тримесечие</span></article>
+ <article class="kpi"><span class="value" id="loans">67,693 млрд. €</span><span class="label">Кредити към неправителствения сектор</span><span class="note">Парична статистика · +15,8% на годишна база</span></article>
+ <article class="kpi green"><span class="value" id="deposits">87,590 млрд. €</span><span class="label">Депозити на неправителствения сектор</span><span class="note">Парична статистика · +12,9% на годишна база</span></article>
+ <article class="kpi gold"><span class="value" id="npl-ratio">2,59%</span><span class="label">Брутни необслужвани кредити</span><span class="note">Дял от брутните кредити и аванси · −0,06 пр. п. за тримесечие</span></article>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Какво показват последните данни</h2>
+ <div class="insight-grid">
+  <article class="insight">
+   <h3>Кредитите на домакинствата растат най-бързо</h3>
+   <p id="insight-households">Кредитите на домакинствата и НТООД достигат 33,115 млрд. евро в края на септември, с годишен растеж 20,7%. Жилищните кредити са 19,646 млрд. евро и нарастват с 24,8%.</p>
+  </article>
+  <article class="insight">
+   <h3>Депозитите остават основен източник на финансиране</h3>
+   <p id="insight-deposits">Депозитите на неправителствения сектор са 87,590 млрд. евро, а депозитите на домакинствата и НТООД достигат 57,222 млрд. евро.</p>
+  </article>
+  <article class="insight">
+   <h3>Качеството на кредитния портфейл се подобрява</h3>
+   <p id="insight-npl">Делът на брутните необслужвани кредити се понижава до 2,59% от 2,65% в края на юни 2026 г. Нетният дял е 1,24%.</p>
+  </article>
+ </div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Кредити и депозити по сектори</h2>
+ <p class="section-intro">Тримесечни салда към края на периода. Показани са нефинансови предприятия, финансови предприятия и домакинства с НТООД. Тази публикация на БНБ е отделна от месечната парична статистика.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>Кредитиране по сектори</h3>
+   <p class="sub">Салда към края на тримесечието · млрд. евро</p>
+   <div class="chart" id="sector-loans-chart" aria-live="polite">
+    <svg viewBox="0 0 720 260" role="img" aria-label="Кредити по сектори, септември 2025 до септември 2026">
+     <line x1="60" x2="700" y1="25" y2="25" stroke="#e3e9ef"/><line x1="60" x2="700" y1="82" y2="82" stroke="#e3e9ef"/><line x1="60" x2="700" y1="139" y2="139" stroke="#e3e9ef"/><line x1="60" x2="700" y1="196" y2="196" stroke="#e3e9ef"/>
+     <polyline points="60,145 220,135 380,124 540,119 700,112" fill="none" stroke="#315f91" stroke-width="3"/>
+     <polyline points="60,207 220,204 380,203 540,201 700,199" fill="none" stroke="#a8732e" stroke-width="3"/>
+     <polyline points="60,143 220,130 380,118 540,100 700,88" fill="none" stroke="#24765f" stroke-width="3"/>
+     <text x="60" y="245">09.25</text><text x="220" y="245">12.25</text><text x="380" y="245">03.26</text><text x="540" y="245">06.26</text><text x="700" y="245">09.26</text>
+    </svg>
+   </div>
+   <div class="legend"><span><i class="blue"></i>Нефинансови предприятия</span><span><i class="gold"></i>Финансови предприятия</span><span><i class="green"></i>Домакинства и НТООД</span></div>
+  </article>
+  <article class="panel">
+   <h3>Депозити по сектори</h3>
+   <p class="sub">Салда към края на тримесечието · млрд. евро</p>
+   <div class="chart" id="sector-deposits-chart" aria-live="polite">
+    <svg viewBox="0 0 720 260" role="img" aria-label="Депозити по сектори, септември 2025 до септември 2026">
+     <line x1="60" x2="700" y1="25" y2="25" stroke="#e3e9ef"/><line x1="60" x2="700" y1="82" y2="82" stroke="#e3e9ef"/><line x1="60" x2="700" y1="139" y2="139" stroke="#e3e9ef"/><line x1="60" x2="700" y1="196" y2="196" stroke="#e3e9ef"/>
+     <polyline points="60,169 220,166 380,163 540,164 700,155" fill="none" stroke="#315f91" stroke-width="3"/>
+     <polyline points="60,226 220,223 380,228 540,224 700,223" fill="none" stroke="#a8732e" stroke-width="3"/>
+     <polyline points="60,122 220,106 380,103 540,100 700,95" fill="none" stroke="#24765f" stroke-width="3"/>
+     <text x="60" y="245">09.25</text><text x="220" y="245">12.25</text><text x="380" y="245">03.26</text><text x="540" y="245">06.26</text><text x="700" y="245">09.26</text>
+    </svg>
+   </div>
+   <div class="legend"><span><i class="blue"></i>Нефинансови предприятия</span><span><i class="gold"></i>Финансови предприятия</span><span><i class="green"></i>Домакинства и НТООД</span></div>
+  </article>
+ </div>
+ <div class="table-wrap" style="margin-top:14px">
+  <table id="sector-table">
+   <thead><tr><th>Сектор · септември 2026 г.</th><th>Кредити</th><th>Годишен растеж</th><th>Депозити</th><th>Годишен растеж</th></tr></thead>
+   <tbody>
+    <tr><td>Нефинансови предприятия</td><td>29,647 млрд. €</td><td>+12,0%</td><td>27,959 млрд. €</td><td>+7,0%</td></tr>
+    <tr><td>Финансови предприятия</td><td>5,257 млрд. €</td><td>+8,9%</td><td>2,410 млрд. €</td><td>+9,3%</td></tr>
+    <tr><td>Домакинства и НТООД</td><td>33,115 млрд. €</td><td>+20,7%</td><td>57,222 млрд. €</td><td>+16,2%</td></tr>
+    <tr><td>Общо</td><td>68,019 млрд. €</td><td>+15,8%</td><td>87,590 млрд. €</td><td>+12,9%</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <p class="note">Източник: БНБ, „Кредити и депозити по количествени категории и икономически дейности“, септември 2026 г. Данните са тримесечни и са закръглени в таблицата. <a href="https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/202609_s_dep_cr_press_a1_bg.pdf">Пълна публикация и таблици</a>.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Кредити на домакинствата: дългосрочна динамика</h2>
+ <p class="section-intro">Месечни салда на потребителски, жилищни и други кредити за домакинствата и НТООД. Използва се автоматично обновяваната серия на БНБ; показваме последните 24 месеца, а пълната история е налична в изходния набор.</p>
+ <article class="panel">
+  <h3>Потребителски и жилищни кредити</h3>
+  <p class="sub">Месечни салда · млн. евро</p>
+  <div class="chart" id="household-loans-chart" aria-live="polite">
+   <p class="note">Зареждане на месечните серии от БНБ…</p>
+  </div>
+  <div class="legend"><span><i class="blue"></i>Жилищни кредити</span><span><i class="green"></i>Потребителски кредити</span><span><i class="gold"></i>Други кредити</span></div>
+ </article>
+ <div class="kpi-grid" style="grid-template-columns:repeat(3,minmax(0,1fr));margin-top:13px">
+  <div class="kpi blue"><span class="value" id="housing-loans">19,646 млрд. €</span><span class="label">Жилищни кредити</span><span class="note">+24,8% на годишна база</span></div>
+  <div class="kpi green"><span class="value" id="consumer-loans">12,419 млрд. €</span><span class="label">Потребителски кредити</span><span class="note">+16,0% на годишна база</span></div>
+  <div class="kpi gold"><span class="value" id="other-loans">296,2 млн. €</span><span class="label">Други кредити</span><span class="note">+10,1% на годишна база</span></div>
+ </div>
+ <p class="note">Трите категории са отделни серии и не изчерпват всички кредити на домакинствата и НТООД. Не ги сумираме като общ портфейл.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Лихвени проценти по нов бизнес</h2>
+ <p class="section-intro">Среднопретеглени лихвени проценти на БНБ за септември 2026 г. Номиналният лихвен процент и годишният процент на разходите (ГПР) са различни показатели.</p>
+ <div class="rates-grid" id="household-rate-cards">
+  <article class="rate-card"><h3>Жилищен кредит</h3><div class="rate">2,41%</div><div class="apr">ГПР: 2,76%</div><div class="detail">Среден лихвен процент по нов бизнес</div></article>
+  <article class="rate-card"><h3>Потребителски кредит</h3><div class="rate">8,83%</div><div class="apr">ГПР: 9,11%</div><div class="detail">Среден лихвен процент по нов бизнес</div></article>
+  <article class="rate-card"><h3>Срочен депозит · домакинства</h3><div class="rate">1,42%</div><div class="apr">Нов бизнес</div><div class="detail">Договорен матуритет</div></article>
+  <article class="rate-card"><h3>Срочен депозит · предприятия</h3><div class="rate">1,79%</div><div class="apr">Нов бизнес</div><div class="detail">Договорен матуритет</div></article>
+ </div>
+ <div class="chart-grid" style="margin-top:14px">
+  <article class="panel">
+   <h3>Лихви по нови кредити</h3>
+   <p class="sub">Среден лихвен процент · септември 2026 г.</p>
+   <div class="chart" id="loan-rates-chart" aria-live="polite">
+    <svg viewBox="0 0 640 240" role="img" aria-label="Лихви по нов бизнес кредити">
+     <text x="8" y="42">Жилищни</text><rect x="130" y="23" width="72" height="25" rx="4" fill="#315f91"/><text x="212" y="42">2,41%</text>
+     <text x="8" y="92">Потребителски</text><rect x="130" y="73" width="264" height="25" rx="4" fill="#24765f"/><text x="404" y="92">8,83%</text>
+     <text x="8" y="142">Фирми до 1 млн.</text><rect x="130" y="123" width="127" height="25" rx="4" fill="#a8732e"/><text x="267" y="142">4,25%</text>
+     <text x="8" y="192">Фирми над 1 млн.</text><rect x="130" y="173" width="140" height="25" rx="4" fill="#b64b45"/><text x="280" y="192">4,66%</text>
+    </svg>
+   </div>
+  </article>
+  <article class="panel">
+   <h3>Лихви по нови депозити</h3>
+   <p class="sub">Договорен матуритет · септември 2026 г.</p>
+   <div class="chart" id="deposit-rates-chart" aria-live="polite">
+    <svg viewBox="0 0 640 240" role="img" aria-label="Лихви по нов бизнес депозити">
+     <text x="8" y="52">Домакинства</text><rect x="130" y="33" width="142" height="26" rx="4" fill="#315f91"/><text x="282" y="52">1,42%</text>
+     <text x="8" y="112">Предприятия</text><rect x="130" y="93" width="179" height="26" rx="4" fill="#24765f"/><text x="319" y="112">1,79%</text>
+     <text x="8" y="182">Овърнайт · домакинства</text><rect x="130" y="163" width="2" height="26" rx="2" fill="#a8732e"/><text x="143" y="182">0,01%</text>
+    </svg>
+   </div>
+  </article>
+ </div>
+ <div class="table-wrap" style="margin-top:14px">
+  <table id="interest-table">
+   <thead><tr><th>Продукт</th><th>Среден лихвен процент</th><th>ГПР</th><th>Нов бизнес</th></tr></thead>
+   <tbody>
+    <tr><td>Жилищни кредити · домакинства</td><td>2,41%</td><td>2,76%</td><td>643,6 млн. €</td></tr>
+    <tr><td>Потребителски кредити · домакинства</td><td>8,83%</td><td>9,11%</td><td>627,3 млн. €</td></tr>
+    <tr><td>Кредити за фирми до 1 млн. €</td><td>4,25%</td><td>—</td><td>213,8 млн. €</td></tr>
+    <tr><td>Кредити за фирми над 1 млн. €</td><td>4,66%</td><td>—</td><td>691,6 млн. €</td></tr>
+    <tr><td>Срочни депозити · домакинства</td><td>1,42%</td><td>—</td><td>332,6 млн. €</td></tr>
+    <tr><td>Срочни депозити · предприятия</td><td>1,79%</td><td>—</td><td>749,3 млн. €</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <p class="note">БНБ публикува отделно лихви за овърдрафт, кредитни карти, други кредити и депозити с предизвестие. Лихвите са среднопретеглени по обема на новия бизнес/салда според конкретния показател.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Качество на активите и ликвидност</h2>
+ <p class="section-intro">Надзорните показатели за банковата система към 30 септември 2026 г. се отнасят до отчетността на банките и клоновете на чуждестранни банки. Общата балансовa позиция „депозити“ на банковата система е 103,6 млрд. евро; тя е с по-широк обхват от депозитите на неправителствения сектор в паричната статистика (87,590 млрд. евро).</p>
+ <div class="kpi-grid">
+  <article class="kpi red"><span class="value">2,2 млрд. €</span><span class="label">Брутни необслужвани кредити и аванси</span><span class="note">2,59% от брутните кредити и аванси</span></article>
+  <article class="kpi green"><span class="value">263,1%</span><span class="label">Коефициент на ликвидно покритие</span><span class="note">Регулаторен минимум: 100%</span></article>
+  <article class="kpi blue"><span class="value">34,3 млрд. €</span><span class="label">Ликвиден буфер</span><span class="note">Нетни изходящи потоци: 13,0 млрд. €</span></article>
+  <article class="kpi gold"><span class="value">1,6 млрд. €</span><span class="label">Печалба към 30.09.2026 г.</span><span class="note">+12,3% спрямо деветмесечието на 2025 г.</span></article>
+ </div>
+ <div class="insight-grid">
+  <article class="insight"><h3>Необслужвани кредити</h3><p>Брутният размер е 2,2 млрд. евро, а нетният след приспадане на обезценките — 1,0 млрд. евро. Нетният дял е 1,24%.</p></article>
+  <article class="insight"><h3>Обезценки</h3><p>Разходите за обезценка на финансови активи са 382 млн. евро за деветте месеца и са с 54,0% над начислените към септември 2025 г.</p></article>
+  <article class="insight"><h3>Капитал в баланса</h3><p>Собственият капитал в баланса на банковата система е 16,1 млрд. евро към 30.09.2026 г. Това не е същото като регулаторния капитал.</p></article>
+ </div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Капиталова адекватност: последен публикуван набор</h2>
+ <p class="section-intro">Последните проверени съотношения в използвания източник са към 31 декември 2025 г. Те са показани отделно от надзорните данни за септември 2026 г., за да не се създава впечатление, че са от един и същ отчетен период.</p>
+ <div class="rates-grid" id="capital-ratios">
+  <article class="rate-card"><h3>Базов собствен капитал от първи ред · CET1</h3><div class="rate">24,89%</div><div class="detail">31.12.2025 г.</div></article>
+  <article class="rate-card"><h3>Капитал от първи ред · Tier 1</h3><div class="rate">25,14%</div><div class="detail">31.12.2025 г.</div></article>
+  <article class="rate-card"><h3>Обща капиталова адекватност</h3><div class="rate">26,56%</div><div class="detail">31.12.2025 г.</div></article>
+  <article class="rate-card"><h3>Отношение на ливъридж</h3><div class="rate">11,26%</div><div class="detail">Минимум: 3,0% · 31.12.2025 г.</div></article>
+ </div>
+ <p class="note">Капиталовите съотношения са спрямо общия размер на рисковите експозиции. ОНСФ е 167,0% при минимално регулаторно изискване от 100% към 31.12.2025 г.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Методология: различни статистически обхвати</h2>
+ <div class="definition-grid">
+  <article class="definition"><h3>Парична статистика на ПФИ</h3><p>Месечните данни следват методологията на ЕЦБ. В България секторът на парично-финансовите институции включва БНБ и кредитните институции. „Кредити към неправителствения сектор“ не означава всички брутни кредити в баланса на банковата система.</p></article>
+  <article class="definition"><h3>Кредити и депозити по сектори</h3><p>Тримесечната статистика по количествени категории обхваща нефинансови предприятия, финансови предприятия и домакинства и НТООД към края на съответното тримесечие. Тя е отделна публикация на БНБ.</p></article>
+  <article class="definition"><h3>Балансови данни на банковата система</h3><p>Активите, брутните кредити и аванси, депозитите и печалбата са от надзорната/месечната отчетност на банките и клоновете на чуждестранни банки. Обхватът може да включва позиции, които не са в паричностатистическия агрегат на неправителствения сектор.</p></article>
+  <article class="definition"><h3>Необслужвани кредити · NPL</h3><p>Надзорният показател обхваща експозиции, които отговарят на условията по чл. 178 от Регламент (ЕС) № 575/2013. Делът се изчислява спрямо брутните кредити и аванси в съответния надзорен отчет.</p></article>
+  <article class="definition"><h3>Лихвен процент и ГПР</h3><p>Лихвените проценти на БНБ са среднопретеглени по нов бизнес/салда в зависимост от серията. ГПР включва лихвата и другите разходи по кредита и не трябва да се приравнява към номиналния лихвен процент.</p></article>
+  <article class="definition"><h3>Капиталова адекватност</h3><p>CET1, Tier 1 и общата капиталова адекватност са спрямо рисково претеглените експозиции. Собственият капитал в баланса е различен от регулаторния капитал и не замества капиталовите съотношения.</p></article>
+ </div>
+ <div class="callout" style="margin-top:13px"><strong>Методологична промяна от 2026 г.</strong> След приемането на еврото БНБ променя някои статистически концепции и въвежда нови категории. За сравнения с периоди преди 01.01.2026 г. трябва да се използват конструираните съпоставими редове в евро и методологическите бележки на БНБ.</div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Първични източници и данни</h2>
+ <ul class="sources" id="source-list">
+  <li><a href="https://www.bnb.bg/AboutUs/PressOffice/POStatisticalPressReleases/POPRSMonetarySurvey/202609_S_MS_PRESS_BG">БНБ: парични, кредитни и депозитни показатели — септември 2026 г.</a></li>
+  <li><a href="https://www.bnb.bg/AboutUs/PressOffice/POStatisticalPressReleases/POPRSInterestRate/202609_S_IRS_PRESS_BG">БНБ: лихвена статистика — септември 2026 г.</a></li>
+  <li><a href="https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/202609_s_dep_cr_press_a1_bg.pdf">БНБ: кредити и депозити по количествени категории — септември 2026 г.</a></li>
+  <li><a href="https://www.bnb.bg/bnbweb/groups/public/documents/bnb_download/bs_202609_a7_bg.pdf">БНБ: състояние на банковата система — септември 2026 г.</a></li>
+  <li><a href="https://www.bnb.bg/BankSupervision/BSCreditInstitution/BSCIFinansReports/BSCIFRBankingSystem/index.htm">БНБ: данни за банковата система и банките по групи</a></li>
+  <li><a href="https://www.bnb.bg/Statistics/StMonetaryInterestRate/StMonetaryStatistics/index.htm">БНБ: парична статистика и методологически бележки</a></li>
+  <li><a href="https://www.bnb.bg/Statistics/StMonetaryInterestRate/StInterestRate/StIRInterestRate/index.htm">БНБ: лихвена статистика и методологически бележки</a></li>
+  <li><a href="https://www.bnb.bg/BankSupervision/BSCapitalAdequacy/index.htm">БНБ: капиталова адекватност и надзорна рамка</a></li>
+ </ul>
+ <p class="note">Източниците са официални публикации на БНБ. Показателите са придружени с дата, статус и обхват, когато те се различават.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Свързани материали</h2>
+ <div class="related">
+  <a href="/dalg-i-byudzhet/">Дълг и бюджет на България<small>Държавен дълг, бюджетни салда, лихвени плащания и фискални прогнози.</small></a>
+  <a href="/analizi/">Всички задълбочени анализи<small>Редакционни анализи за финансовата система, икономиката и публичните политики.</small></a>
+ </div>
+</section>
+
+<footer class="footer">
+ <span>БЪЛГАРИЯ В ЧИСЛА · ФАКТИТЕ. БЕЗ ШУМ.</span>
+ <span><a href="/">Начална страница</a> · <a href="/privacy">Поверителност</a></span>
+</footer>
+</main>
+
+<script>
+(function(){
+"use strict";
+var fmt1=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:1,maximumFractionDigits:1});
+var fmt2=new Intl.NumberFormat("bg-BG",{minimumFractionDigits:2,maximumFractionDigits:2});
+var fm0=new Intl.NumberFormat("bg-BG",{maximumFractionDigits:0});
+var $=function(id){return document.getElementById(id);};
+var fmt=function(v,d){return new Intl.NumberFormat("bg-BG",{minimumFractionDigits:d||0,maximumFractionDigits:d===undefined?1:d}).format(v);};
+var signedPct=function(v){return (v>0?"+":v<0?"−":"")+fmt(Math.abs(v),1)+"%";};
+var svgAdd=function(svg,tag,attrs,text){var e=document.createElementNS("http://www.w3.org/2000/svg",tag);Object.keys(attrs).forEach(k=>e.setAttribute(k,attrs[k]));if(text!==undefined)e.textContent=text;svg.appendChild(e);return e;};
+function base(hostId,aria){var host=$(hostId);if(!host)return null;host.textContent="";var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.setAttribute("viewBox","0 0 720 260");svg.setAttribute("role","img");svg.setAttribute("aria-label",aria);host.appendChild(svg);return svg;}
+function lineChart(hostId,rows,series,minOverride,maxOverride,unit){
+ if(!rows||rows.length<2){if($(hostId))$(hostId).textContent="Недостатъчно налични наблюдения.";return;}
+ var svg=base(hostId,series.map(s=>s.label).join(", "));
+ var W=720,H=260,L=65,R=18,T=22,B=42,vals=[];
+ rows.forEach(p=>series.forEach(s=>{if(Number.isFinite(p[s.key]))vals.push(p[s.key]);}));
+ var min=minOverride===undefined?Math.min.apply(null,vals):minOverride,max=maxOverride===undefined?Math.max.apply(null,vals):maxOverride;
+ var pad=(max-min||1)*.12;min-=pad;max+=pad;
+ var x=i=>L+i*(W-L-R)/(rows.length-1),y=v=>T+(max-v)*(H-T-B)/(max-min);
+ for(var g=0;g<=4;g++){var v=min+(max-min)*g/4;svgAdd(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),class:"gridline"});svgAdd(svg,"text",{x:L-9,y:y(v)+4,"text-anchor":"end"},fmt(v,0)+(unit||""));}
+ svgAdd(svg,"line",{x1:L,x2:W-R,y1:H-B,y2:H-B,class:"axisline"});
+ series.forEach(s=>{var points=rows.filter(p=>Number.isFinite(p[s.key]));var path=points.map(p=>{var i=rows.indexOf(p);return (i?"L":"M")+x(i)+" "+y(p[s.key]);}).join(" ");svgAdd(svg,"path",{d:path,class:s.line});points.forEach(p=>{var c=svgAdd(svg,"circle",{cx:x(rows.indexOf(p)),cy:y(p[s.key]),r:3.5,class:s.dot});var title=document.createElementNS(svg.namespaceURI,"title");title.textContent=p.label+": "+fmt(p[s.key],1)+(unit||"");c.appendChild(title);});});
+ var step=Math.max(1,Math.ceil(rows.length/10));rows.forEach((p,i)=>{if(i%step===0||i===rows.length-1)svgAdd(svg,"text",{x:x(i),y:H-12,"text-anchor":"middle"},p.label);});
+}
+function barChart(hostId,rows,series,unit){
+ if(!rows||!rows.length)return;
+ var svg=base(hostId,series.map(s=>s.label).join(", "));
+ var W=720,H=260,L=55,R=18,T=20,B=42,vals=[];rows.forEach(p=>series.forEach(s=>{if(Number.isFinite(p[s.key]))vals.push(p[s.key]);}));
+ var min=Math.min(0,Math.min.apply(null,vals)),max=Math.max(0,Math.max.apply(null,vals)*1.14);if(max===min)max=min+1;
+ var y=v=>T+(max-v)*(H-T-B)/(max-min),group=(W-L-R)/rows.length,bar=Math.min(18,group/(series.length+1));
+ for(var g=0;g<=4;g++){var v=min+(max-min)*g/4;svgAdd(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),class:v===0?"axisline":"gridline"});svgAdd(svg,"text",{x:L-8,y:y(v)+4,"text-anchor":"end"},fmt(v,0)+(unit||""));}
+ rows.forEach((p,i)=>{series.forEach((s,j)=>{var v=p[s.key];if(!Number.isFinite(v))return;var xx=L+i*group+group/2-(series.length*bar+(series.length-1)*3)/2+j*(bar+3),top=Math.min(y(0),y(v)),height=Math.max(1,Math.abs(y(v)-y(0)));var rect=svgAdd(svg,"rect",{x:xx,y:top,width:bar,height:height,rx:3,class:s.bar});var title=document.createElementNS(svg.namespaceURI,"title");title.textContent=p.label+" · "+s.label+": "+fmt(v,1)+(unit||"");rect.appendChild(title);});svgAdd(svg,"text",{x:L+i*group+group/2,y:H-12,"text-anchor":"middle"},p.label);});
+}
+function fmtBn(v){return fmt(v/1000,3)+" млрд. €";}
+function renderSnapshot(data){
+ var m=data.monetary_statistics,sys=data.banking_system,house=data.household_loan_breakdown;
+ $("assets").textContent=fmt(sys.assets_bn_eur,1)+" млрд. €";
+ $("loans").textContent=fmtBn(m.non_government_loans_mio_eur);
+ $("deposits").textContent=fmtBn(m.non_government_deposits_mio_eur);
+ $("npl-ratio").textContent=fmt(sys.npl_gross_ratio_pct,2)+"%";
+ $("insight-households").textContent="Кредитите на домакинствата и НТООД достигат "+fmtBn(data.sector_quarterly.loans.households_npish.at(-1).value)+" в края на септември, с годишен растеж "+fmt(data.sector_quarterly.annual_growth_pct.loans.households_npish,1)+"%. Жилищните кредити са "+fmtBn(house.housing_mio_eur)+" и нарастват с "+fmt(house.housing_yoy_pct,1)+"%.";
+ $("insight-deposits").textContent="Депозитите на неправителствения сектор са "+fmtBn(m.non_government_deposits_mio_eur)+", а депозитите на домакинствата и НТООД достигат "+fmtBn(data.sector_quarterly.deposits.households_npish.at(-1).value)+".";
+ $("insight-npl").textContent="Делът на брутните необслужвани кредити се понижава до "+fmt(sys.npl_gross_ratio_pct,2)+"% от "+fmt(sys.npl_gross_ratio_june_pct,2)+"% в края на юни 2026 г. Нетният дял е "+fmt(sys.npl_net_ratio_pct,2)+"%.";
+ $("housing-loans").textContent=fmtBn(house.housing_mio_eur);
+ $("consumer-loans").textContent=fmtBn(house.consumer_mio_eur);
+ $("other-loans").textContent=fmt(house.other_mio_eur,1)+" млн. €";
+ $("last-updated").textContent=new Date(data.last_updated).toLocaleDateString("bg-BG",{day:"numeric",month:"long",year:"numeric"});
+ var periods=data.sector_quarterly.points_periods;
+ var makeRows=(obj)=>periods.map((p,i)=>({period:p,label:p.slice(5,7)+"/"+p.slice(2,4),nf:obj.nonfinancial_enterprises[i]/1000,fin:obj.financial_enterprises[i]/1000,hh:obj.households_npish[i]/1000,total:obj.total[i]/1000}));
+ var loanRows=makeRows(data.sector_quarterly.loans),depRows=makeRows(data.sector_quarterly.deposits);
+ lineChart("sector-loans-chart",loanRows,[{key:"nf",label:"Нефинансови предприятия",line:"blue-line",dot:"blue-dot"},{key:"fin",label:"Финансови предприятия",line:"gold-line",dot:"gold-dot"},{key:"hh",label:"Домакинства и НТООД",line:"green-line",dot:"green-dot"}],0,40," млрд.");
+ lineChart("sector-deposits-chart",depRows,[{key:"nf",label:"Нефинансови предприятия",line:"blue-line",dot:"blue-dot"},{key:"fin",label:"Финансови предприятия",line:"gold-line",dot:"gold-dot"},{key:"hh",label:"Домакинства и НТООД",line:"green-line",dot:"green-dot"}],0,65," млрд.");
+ var table=$("sector-table").querySelector("tbody");table.textContent="";
+ var sec=[
+  ["Нефинансови предприятия","nonfinancial_enterprises"],
+  ["Финансови предприятия","financial_enterprises"],
+  ["Домакинства и НТООД","households_npish"],
+  ["Общо","total"]
+ ];
+ sec.forEach(([label,key])=>{var row=document.createElement("tr");var growth=data.sector_quarterly.annual_growth_pct;var vals=[label,fmtBn(data.sector_quarterly.loans[key].at(-1).value),signedPct(growth.loans[key]),fmtBn(data.sector_quarterly.deposits[key].at(-1).value),signedPct(growth.deposits[key])];vals.forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});table.appendChild(row);});
+ var rates=data.interest_rates;
+ var loanHost=$("loan-rates-chart");loanHost.textContent="";
+ barChart("loan-rates-chart",[
+  {label:"Жилищни",v:rates.household.housing_loan_rate_pct},
+  {label:"Потребителски",v:rates.household.consumer_loan_rate_pct},
+  {label:"Фирми до 1м",v:rates.nonfinancial_enterprises.loan_rate_up_to_1m_eur_pct},
+  {label:"Фирми над 1м",v:rates.nonfinancial_enterprises.loan_rate_above_1m_eur_pct}
+ ].map(p=>({label:p.label,value:p.v})),[{key:"value",label:"Лихва",bar:"blue-bar"}],"%");
+ barChart("deposit-rates-chart",[
+  {label:"Домакинства",value:rates.household.time_deposit_rate_pct},
+  {label:"Предприятия",value:rates.nonfinancial_enterprises.time_deposit_rate_pct},
+  {label:"Овърнайт · домакинства",value:rates.household.overnight_deposit_rate_pct},
+  {label:"Овърнайт · фирми",value:rates.nonfinancial_enterprises.overnight_deposit_rate_pct}
+ ],[{key:"value",label:"Лихва",bar:"green-bar"}],"%");
+ var it=$("interest-table").querySelector("tbody");it.textContent="";
+ [
+  ["Жилищни кредити · домакинства",rates.household.housing_loan_rate_pct,rates.household.housing_apr_pct,rates.household.new_housing_loan_business_mio_eur],
+  ["Потребителски кредити · домакинства",rates.household.consumer_loan_rate_pct,rates.household.consumer_apr_pct,rates.household.new_consumer_loan_business_mio_eur],
+  ["Кредити за фирми до 1 млн. €",rates.nonfinancial_enterprises.loan_rate_up_to_1m_eur_pct,null,rates.nonfinancial_enterprises.new_loan_business_up_to_1m_eur_mio],
+  ["Кредити за фирми над 1 млн. €",rates.nonfinancial_enterprises.loan_rate_above_1m_eur_pct,null,rates.nonfinancial_enterprises.new_loan_business_above_1m_eur_mio],
+  ["Срочни депозити · домакинства",rates.household.time_deposit_rate_pct,null,rates.household.new_time_deposit_business_mio_eur],
+  ["Срочни депозити · предприятия",rates.nonfinancial_enterprises.time_deposit_rate_pct,null,rates.nonfinancial_enterprises.time_deposit_new_business_mio_eur]
+ ].forEach(r=>{var row=document.createElement("tr");[r[0],fmt(r[1],2)+"%",r[2]===null?"—":fmt(r[2],2)+"%",fmt(r[3],1)+" млн. €"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});it.appendChild(row);});
+}
+function renderHouseholdSeries(data){
+ var rows=data.series.household_housing_loans.points.map((p,i)=>({
+  period:p.period,
+  housing:p.value/1000,
+  consumer:data.series.household_consumer_loans.points[i]?.value/1000,
+  other:data.series.household_other_loans.points[i]?.value/1000
+ })).filter(p=>p.period>="2024-10");
+ rows=rows.map(p=>({label:p.period.slice(5,7)+"/"+p.period.slice(2,4),housing:p.housing,consumer:p.consumer,other:p.other}));
+ lineChart("household-loans-chart",rows,[
+  {key:"housing",label:"Жилищни кредити",line:"blue-line",dot:"blue-dot"},
+  {key:"consumer",label:"Потребителски кредити",line:"green-line",dot:"green-dot"},
+  {key:"other",label:"Други кредити",line:"gold-line",dot:"gold-dot"}
+ ],0,25," млрд.");
+ $("last-updated").textContent=new Date(data.updated_at).toLocaleDateString("bg-BG",{day:"numeric",month:"long",year:"numeric"});
+}
+Promise.all([
+ fetch("/banking.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("banking.json HTTP "+r.status);return r.json();}),
+ fetch("/official_bnb.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("official_bnb.json HTTP "+r.status);return r.json();})
+]).then(function(data){renderSnapshot(data[0]);renderHouseholdSeries(data[1]);}).catch(function(e){console.error("Неуспешно зареждане на данните на БНБ",e);$("monetary-status").textContent="Последни публикувани стойности";});
+})();
+</script>
+</body>
+</html>

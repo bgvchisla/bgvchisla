@@ -19,6 +19,43 @@ CONFIG = ROOT / "analysis" / "config.json"
 
 class EditorialPublicationTests(unittest.TestCase):
 
+    def test_banking_resource_has_data_scope_sources_and_canonical_url(self):
+        page_path = ROOT / "banki" / "index.html"
+        data_path = ROOT / "banking.json"
+        bnb_path = ROOT / "official_bnb.json"
+        page = page_path.read_text(encoding="utf-8")
+        data = json.loads(data_path.read_text(encoding="utf-8"))
+        bnb = json.loads(bnb_path.read_text(encoding="utf-8"))
+        sitemap = SITEMAP.read_text(encoding="utf-8")
+        homepage = (ROOT / "index.html").read_text(encoding="utf-8")
+
+        title = re.search(r"<title>(.*?)</title>", page, re.I | re.S)
+        description = re.search(r'<meta name="description" content="([^"]+)"', page, re.I)
+        self.assertIsNotNone(title)
+        self.assertIsNotNone(description)
+        self.assertLessEqual(len(title.group(1)), 60)
+        self.assertLessEqual(len(description.group(1)), 160)
+        self.assertIn('rel="canonical" href="https://bgvchisla.com/banki/"', page)
+        self.assertIn('type="application/ld+json"', page)
+        self.assertIn('fetch("/banking.json"', page)
+        self.assertIn('fetch("/official_bnb.json"', page)
+        self.assertIn('href="/banki/"', homepage)
+        self.assertIn("<loc>https://bgvchisla.com/banki/</loc>", sitemap)
+
+        self.assertEqual(data["latest_period"], "2026-09")
+        self.assertEqual(data["monetary_statistics"]["non_government_loans_mio_eur"], 67693)
+        self.assertEqual(data["monetary_statistics"]["non_government_deposits_mio_eur"], 87590)
+        self.assertEqual(data["banking_system"]["assets_bn_eur"], 124.4)
+        self.assertEqual(data["banking_system"]["npl_gross_ratio_pct"], 2.59)
+        self.assertEqual(data["interest_rates"]["household"]["housing_loan_rate_pct"], 2.41)
+        self.assertEqual(data["interest_rates"]["household"]["consumer_loan_rate_pct"], 8.83)
+        self.assertEqual(data["capital_adequacy"]["reference_date"], "2025-12-31")
+        self.assertEqual(bnb["latest_period"], "2026-09")
+        self.assertEqual(len(bnb["series"]["household_housing_loans"]["points"]), 237)
+        self.assertGreaterEqual(len(data["source_links"]), 8)
+        self.assertIn("различ", data["methodology"]["banking_system"].lower())
+
+
     def test_debt_budget_resource_has_scope_controls_and_primary_sources(self):
         page_path = ROOT / "dalg-i-byudzhet" / "index.html"
         data_path = ROOT / "debt-budget.json"
