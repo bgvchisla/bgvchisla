@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T00:16:16.666684+00:00",
-  "last_checked_at": "2026-11-25T00:16:16.666697+00:00",
+  "updated_at": "2026-11-25T01:50:17.222446+00:00",
+  "last_checked_at": "2026-11-25T01:50:17.222456+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -44,10 +44,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Labor exempts pensioners from bill cutting private health rebates for over-65s; Steggall changes party name",
-      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-25T00:12:44+00:00",
+      "title": "Inflation rate jumps to 4.9% as Australia’s cost-of-living crisis intensifies",
+      "summary": "Figure up from 4.3% annual rate in September and nearly double Reserve Bank’s official target of 2.5% Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Surging fuel costs and the end of elec",
+      "url": "https://www.theguardian.com/business/2026/nov/25/inflation-rate-australia-october-figures",
+      "published": "2026-11-25T01:42:07+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 43,
@@ -96,6 +96,25 @@
         "strategic_significance": 54,
         "timeliness": 82,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Politics live: Chalmers calls inflation data ‘unwelcome but unsurprising’; government faces rally in parliament over home births",
+      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
+      "published": "2026-11-25T01:37:31+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -191,25 +210,6 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "EU to impose cap on Chinese hybrid EV imports next month",
-      "summary": "Temporary quotas on vehicles entering the bloc will also apply to cars from the UK, Japan and Turkey The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the bloc, the European Commission has announce",
-      "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
-      "published": "2026-11-24T10:59:40+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 94
       }
     },
     {
@@ -460,6 +460,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "EU to impose cap on Chinese hybrid EV imports next month",
+      "summary": "Temporary quotas on vehicles entering the bloc will also apply to cars from the UK, Japan and Turkey The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the bloc, the European Commission has announce",
+      "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
+      "published": "2026-11-24T10:59:40+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 94
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "МФ подготвя актуализация на данъчните преференции",
@@ -590,6 +609,25 @@
         "strategic_significance": 54,
         "timeliness": 68,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "What will Victoria’s election result mean for nine datacentre projects awaiting approval?",
+      "summary": "Despite community backlash, some firms are confident they will get the green light as Coalition says datacentres ‘will be an important part of Victoria’s future’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/24/nine-datacentre-projects-awaiting-approval-victoria-election",
+      "published": "2026-11-25T00:42:17+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -917,25 +955,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
-      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warnin",
-      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
-      "published": "2026-11-23T16:42:09+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Uganda minister at COP31: 'We need a just transition'",
       "summary": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
@@ -974,25 +993,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by Commissioner Dombrovskis presenting the European Semester Autumn Package at the European Parliament",
-      "summary": "European Commission Statement Strasbourg, 24 Nov 2026 Madame Chair, honourable Members. Thank you for the opportunity to join you today to present the main elements of the European Semester Autumn Package, adopted ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2571",
-      "published": "2026-11-24T12:26:20+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
       "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
@@ -1008,6 +1008,25 @@
         "strategic_significance": 32,
         "timeliness": 50,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Statement by Commissioner Dombrovskis presenting the European Semester Autumn Package at the European Parliament",
+      "summary": "European Commission Statement Strasbourg, 24 Nov 2026 Madame Chair, honourable Members. Thank you for the opportunity to join you today to present the main elements of the European Semester Autumn Package, adopted ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2571",
+      "published": "2026-11-24T12:26:20+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -1074,25 +1093,6 @@
       "summary": "В Българския културен институт (БКИ) в Берлин беше представен немскоезичния брой на списание ЛИК, посветена на 180-годишнината от излизането на първия български вестник „Български орел“ и на неговия създател Иван Богоров. Ноемврийското изданието за литература,",
       "url": "https://www.bta.bg/bg/news/lik/1253678-v-berlin-se-provede-vecher-posvetena-na-180-godishninata-na-parviya-balgarski-v",
       "published": "2026-11-24T23:12:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Иван Богоров ще остане в историята до големите имена на българските държавници и общественици, каза отговорният редактор на сп. ЛИК Яница Христова",
-      "summary": "Иван Богоров е пример за човек, който също ще остане в историята до големите имена на наши държавници и общественици, каза отговорният редактор на списание ЛИК Яница Христова. Тя се включи в представянето на немскоезичния брой на списанието на тема „Печатът –",
-      "url": "https://www.bta.bg/bg/news/lik/1253669-ivan-bogorov-shte-ostane-v-istoriyata-do-golemite-imena-na-balgarskite-darzhavni",
-      "published": "2026-11-24T21:43:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1182,41 +1182,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Scientists discover quasar formed 630 million years after the Big Bang",
-      "summary": "Scientists are seeing the quasar as it was 13.1 billion years ago — when the universe was less than 5% of its current age.",
-      "url": "https://www.dw.com/en/scientists-discover-quasar-formed-630-million-years-after-the-big-bang/a-80041882?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T22:34:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Иван Богоров ще остане в историята до големите имена на българските държавници и общественици, каза отговорният редактор на сп. ЛИК Яница Христова",
+      "summary": "Иван Богоров е пример за човек, който също ще остане в историята до големите имена на наши държавници и общественици, каза отговорният редактор на списание ЛИК Яница Христова. Тя се включи в представянето на немскоезичния брой на списанието на тема „Печатът –",
+      "url": "https://www.bta.bg/bg/news/lik/1253669-ivan-bogorov-shte-ostane-v-istoriyata-do-golemite-imena-na-balgarskite-darzhavni",
+      "published": "2026-11-24T21:43:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
-      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-24T21:19:42+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -1323,6 +1304,25 @@
       "published": "2026-11-24T17:49:10+00:00",
       "feed_id": "commission-press",
       "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Media advisory - EU-Western Balkans summit of 25 November 2026",
+      "summary": "Approximate timings and press opportunities.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/24/media-advisory-eu-western-balkans-summit-of-25-november-2026/",
+      "published": "2026-11-24T17:45:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
