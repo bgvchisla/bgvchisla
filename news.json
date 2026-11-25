@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T03:50:19.972251+00:00",
-  "last_checked_at": "2026-11-25T03:50:19.972263+00:00",
+  "updated_at": "2026-11-25T04:56:30.251878+00:00",
+  "last_checked_at": "2026-11-25T04:56:30.251892+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -12,13 +12,13 @@
       "published": "2026-11-24T16:44:14+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 51,
+      "priority_score": 50,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 87,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -37,46 +37,8 @@
         "national_impact": 61,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Inflation rate jumps to 4.9% as Australia’s cost-of-living crisis intensifies",
-      "summary": "Figure up from 4.3% annual rate in September and nearly double Reserve Bank’s official target of 2.5% Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily news podcast Surging fuel costs and the end of el",
-      "url": "https://www.theguardian.com/business/2026/nov/25/inflation-rate-australia-october-figures",
-      "published": "2026-11-25T01:42:07+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 43,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Депутати коментираха в парламента представените днес бюджетни препоръки на Европейската комисия за България, МФ излезе с позиция",
-      "summary": "Депутати коментираха в парламента представения днес от Европейската комисия Есенен пакет на Европейския семестър за 2027 г. По отношение на България и Унгария ЕК отчита, че предприетите действия в отговор на препоръките за коригиране на прекомерния дефицит не",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253668-deputati-komentiraha-v-parlamenta-predstavenite-dnes-byudzhetni-preporaki-na-evr",
-      "published": "2026-11-24T16:57:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 42,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 87,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
       }
     },
     {
@@ -99,14 +61,14 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian politics live: Taylor announces two new jobs for Hastie as Duniam departs; NSW ‘scaling up’ response after fire ants found in Sydney",
-      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "published": "2026-11-25T03:42:36+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Актуализация на бюджета и предложение за промени в наредбата за местните данъци и такси ще обсъдят съветниците в Опака",
+      "summary": "Актуализация на бюджета за 2026 г., промени в наредбата за местните данъци и такси и решения, свързани с управлението на общинската собственост, ще обсъдят съветниците в Опака. Днес членовете на Общинския съвет (ОбС) в Опака ще проведат редовно заседание от 10",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253228-aktualizatsiya-na-byudzheta-i-predlozhenie-za-promeni-v-naredbata-za-mestnite-da",
+      "published": "2026-11-25T04:03:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 48,
@@ -114,7 +76,26 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "The rising cost of putting food on the table in India",
+      "summary": "India's food inflation is broadening, squeezing household budgets.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T01:02:13+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 95
       }
     },
     {
@@ -194,21 +175,59 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Позицията на България за специалното заседание на Европейския съвет и Срещата на върха на държавите от еврозоната в Брюксел ще обсъди кабинетът",
+      "summary": "Проект на Решение за одобряване позицията на България за участие в специалното заседание на Европейския съвет и Срещата на върха на държавите от еврозоната, които ще се състоят на 26 и 27 ноември в Брюксел, ще обсъди Министерският съвет на редовното си заседан",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253622-pozitsiyata-na-balgariya-za-spetsialnoto-zasedanie-na-evropeyskiya-savet-i-sresh",
+      "published": "2026-11-25T04:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU imposes import quotas for hybrid vehicles from China",
-      "summary": "The EU is trying to protect its own car manufacturers from what it called \"overcapacity\" in China. Carmakers in the bloc, especially in Germany, have been lagging behind their Chinese rivals.",
-      "url": "https://www.dw.com/en/eu-imposes-import-quotas-for-hybrid-vehicles-from-china/a-80029981?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T10:42:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 38,
+      "source": "The Guardian – World",
+      "title": "EU to impose cap on Chinese hybrid EV imports next month",
+      "summary": "Temporary quotas on vehicles entering the bloc will also apply to cars from the UK, Japan and Turkey The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the bloc, the European Commission has announce",
+      "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
+      "published": "2026-11-24T10:59:40+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
         "timeliness": 82,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Germany's Early Start Pension: Can child investment accounts help?",
+      "summary": "Germany plans to pay €10 a month into investment accounts for children to encourage long-term retirement saving. Economists say the measure may help build wealth but won't solve the country's pension funding challenge.",
+      "url": "https://www.dw.com/en/germany-s-early-start-pension-can-child-investment-accounts-help/a-79852185?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-23T09:26:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
         "source_reliability": 95
       }
     },
@@ -232,41 +251,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Депутати от парламентарната бюджетна комисия коментираха промените в данъчното законодателство за 2027 г., внесени от Министерски съвет",
-      "summary": "Депутати от бюджетната комисия коментираха предложенията за промени в данъчното законодателство за 2027 г. На извънредно заседание днес комисията разглежда на второ четене промените в пакета данъчни закони, които бяха внесени от Министерския съвет и предвиждат",
-      "url": "https://www.bta.bg/bg/news/economy/1253580-deputati-ot-parlamentarnata-byudzhetna-komisiya-komentiraha-promenite-v-danachno",
-      "published": "2026-11-24T17:53:01+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Испания удължава срока на данъка върху извънредните печалби на банките до 2027 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440014-ispaniya-udalzhava-sroka-na-danaka-varhu-izvanrednite-pechalbi-na-bankite-do-2027-g",
-      "published": "2026-11-24T20:48:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
+      "source": "The Guardian – World",
+      "title": "Australia’s inflation rate jumping to 4.9% a ‘very serious moment’ for economy, Chalmers declares",
+      "summary": "Figure up from 4.3% annual rate in September and nearly double Reserve Bank’s official target of 2.5% as Australia’s cost-of-living crisis intensifies Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily",
+      "url": "https://www.theguardian.com/business/2026/nov/25/inflation-rate-australia-october-figures",
+      "published": "2026-11-25T03:55:50+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -460,25 +460,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "EU to impose cap on Chinese hybrid EV imports next month",
-      "summary": "Temporary quotas on vehicles entering the bloc will also apply to cars from the UK, Japan and Turkey The EU will next month impose its threatened caps on the number of Chinese hybrid cars that can be imported into the bloc, the European Commission has announce",
-      "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
-      "published": "2026-11-24T10:59:40+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 94
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "МФ подготвя актуализация на данъчните преференции",
@@ -555,25 +536,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Germany's Early Start Pension: Can child investment accounts help?",
-      "summary": "Germany plans to pay €10 a month into investment accounts for children to encourage long-term retirement saving. Economists say the measure may help build wealth but won't solve the country's pension funding challenge.",
-      "url": "https://www.dw.com/en/germany-s-early-start-pension-can-child-investment-accounts-help/a-79852185?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-23T09:26:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 95
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Петролът е близо до тримесечно дъно заради растящото предлагане",
@@ -609,6 +571,25 @@
         "strategic_significance": 54,
         "timeliness": 68,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "India news: US prepares new tariffs after trade probe",
+      "summary": "The United States is reportedly readying fresh tariffs on India and 15 other economies under a trade probe. Also, a woman was allegedly gangraped by her colleagues in the national capital. Follow live.",
+      "url": "https://www.dw.com/en/india-news-us-prepares-new-tariffs-after-trade-probe/live-80042306?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T04:44:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
       }
     },
     {
@@ -669,25 +650,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Неочакваният икономически ефект на GTA VI в България",
-      "summary": "Какво общо има премиерата на една видеоигра с бизнеса на ресторантите в България? Данни на Revolut разкриват любопитна промяна в потребителските навици покрай излизането на GTA VI – включително изненадваща тенденция при разходите на жените",
-      "url": "https://www.economic.bg/bg/a/view/neochakvanijat-ikonomicheski-efekt-na-gta-vi-v-bylgarija",
-      "published": "2026-11-24T16:14:47+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Russia to build Kaliningrad exclave rail ferries, citing transport 'blockade'",
@@ -726,22 +688,41 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Началникът на отбраната адмирал Емил Ефтимов ще участва в заседание на Военния комитет на ЕС в Брюксел",
+      "summary": "Началникът на отбраната адмирал Емил Ефтимов ще участва във второто заседание на Военния комитет на Европейския съюз (ЕС), съобщиха от пресцентъра на Министерството на отбраната. Заседанието ще се състои в Брюксел. В рамките на форума ще бъдат обсъдени актуалн",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253198-nachalnikat-na-otbranata-admiral-emil-eftimov-shte-uchastva-v-zasedanie-na-voenn",
+      "published": "2026-11-25T04:45:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "What will Victoria’s election result mean for nine datacentre projects awaiting approval?",
-      "summary": "Despite community backlash, some firms are confident they will get the green light as Coalition says datacentres ‘will be an important part of Victoria’s future’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/24/nine-datacentre-projects-awaiting-approval-victoria-election",
-      "published": "2026-11-25T00:42:17+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "source": "Investor.bg – Финанси",
+      "title": "Испания удължава срока на данъка върху извънредните печалби на банките до 2027 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440014-ispaniya-udalzhava-sroka-na-danaka-varhu-izvanrednite-pechalbi-na-bankite-do-2027-g",
+      "published": "2026-11-24T20:48:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
         "timeliness": 92,
-        "source_reliability": 94
+        "source_reliability": 87
       }
     },
     {
@@ -783,22 +764,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Irish plan offers Burnham breakthrough on Made in Europe",
-      "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations The UK would not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that could prove another breakthrough",
-      "url": "https://www.theguardian.com/business/2026/nov/24/uk-eu-made-in-europe-trade-cars-tariffs",
-      "published": "2026-11-24T16:09:12+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Неочакваният икономически ефект на GTA VI в България",
+      "summary": "Какво общо има премиерата на една видеоигра с бизнеса на ресторантите в България? Данни на Revolut разкриват любопитна промяна в потребителските навици покрай излизането на GTA VI – включително изненадваща тенденция при разходите на жените",
+      "url": "https://www.economic.bg/bg/a/view/neochakvanijat-ikonomicheski-efekt-na-gta-vi-v-bylgarija",
+      "published": "2026-11-24T16:14:47+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -875,6 +856,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Irish plan offers Burnham breakthrough on Made in Europe",
+      "summary": "Irish presidency of EU proposes giving UK ‘partner’ status on assembly of cars in possible boost to reset of relations The UK would not have to follow the EU and apply tariffs on Chinese car imports under an Irish proposal that could prove another breakthrough",
+      "url": "https://www.theguardian.com/business/2026/nov/24/uk-eu-made-in-europe-trade-cars-tariffs",
+      "published": "2026-11-24T16:09:12+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 94
       }
     },
     {
@@ -1030,6 +1030,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Луковит ще разгледа върнато от областния управител на Ловеч предложение за наредбата за управление на отпадъците",
+      "summary": "Общинският съвет в Луковит ще разгледа върнато от областния управител на Ловеч предложение за наредбата за управление на отпадъците. Докладната е част от проекта за дневен ред за заседанието, публикуван на сайта на администрацията. Вносителят – председателят н",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1252924-obshtinskiyat-savet-v-lukovit-shte-razgleda-varnato-ot-oblastniya-upravitel-na-l",
+      "published": "2026-11-25T04:44:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: Two Nationals kicked out of question time as Taylor slams ‘dirty deal’ with Greens; NSW responds to fire ant threat in Sydney",
+      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
+      "published": "2026-11-25T04:41:09+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Statement by Commissioner Dombrovskis presenting the European Semester Autumn Package at the European Parliament",
@@ -1106,22 +1144,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
-      "summary": "At least 25 people were injured in a bombing in Villavicencio, damaging government buildings, businesses and vehicles. Meanwhile, hundreds of residents marched with candles in Cúcuta following a separate attack, amid a resurgence of armed violence in Colombia.",
-      "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
-      "published": "2026-11-24T15:54:58+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Последната композиция на проф. Нева Кръстева Polyhedron ще бъде представена премиерно в зала „България“",
+      "summary": "Последната композиция на проф. Нева Кръстева Polyhedron ще бъде представена премиерно в зала „България“. Премиерата на балета Polyhedron за оркестър, хор, орган и солисти ще се състои днес, 25 ноември, от 19:30 ч. под диригентството на маестро Йордан Камджалов",
+      "url": "https://www.bta.bg/bg/news/lik/1253640-poslednata-kompozitsiya-na-prof-neva-krasteva-polyhedron-shte-bade-predstavena-",
+      "published": "2026-11-25T04:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 91
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1140,6 +1178,44 @@
         "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 30,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
+      "summary": "His deportation to El Salvador and return to the US became a flash point in the debate over President Donald Trump's immigration agenda.",
+      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T04:49:55+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Breakaway group of 110 clubs deliberately misses Football Queensland registration as revolt over $5 gate fees builds",
+      "summary": "Clubs fail to sign up for 2027 season as disquiet over governing body’s executive grips football community About 100 football clubs, representing hundreds of thousands of players, have deliberately missed the deadline to sign up for next season amid a dispute",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/25/breakaway-clubs-miss-football-queensland-registration-gate-fee-dispute",
+      "published": "2026-11-25T04:29:29+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 94
       }
     },
@@ -1255,82 +1331,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Студенти от специалност „Текстил – изкуство и дизайн“ на НХА подредиха изложба в галерия „Сердика\"",
-      "summary": "Изложбата „Лични територии“, съчетаваща живопис и тъкан, бе открита тази вечер в столичната галерия „Сердика“. Тя представя вижданията на студенти от първи до четвърти курс в специалност „Текстил – изкуство и дизайн“ на Националната художествена академия (НХА)",
-      "url": "https://www.bta.bg/bg/news/lik/1253616-studenti-ot-spetsialnost-tekstil-izkustvo-i-dizayn-na-nha-podrediha-izlozhba",
-      "published": "2026-11-24T19:13:59+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Икономисти: България се деиндустриализира",
-      "summary": "",
-      "url": "https://www.investor.bg/a/524-industriya/440016-ikonomisti-balgariya-se-deindustrializira",
-      "published": "2026-11-24T18:33:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Стара Загора бе представена изложба, посветена на историята на детските организации в България",
-      "summary": "Пътуващата изложба „150 години детски организации в България – история, уроци и бъдеще“ гостува днес в Регионалния исторически музей в Стара Загора. Тя е част от националната инициатива на Националната мрежа за децата (НМД) „150 години детски организации в Бъл",
-      "url": "https://www.bta.bg/bg/news/lik/1253605-v-stara-zagora-be-predstavena-izlozhba-posvetena-na-istoriyata-na-detskite-orga",
-      "published": "2026-11-24T18:06:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Speech by Commissioner Lahbib on the Humanitarian Situation in Gaza at the European Parliament",
-      "summary": "European Commission Speech Strasbourg, 24 Nov 2026 I would like to start by paying tribute to the humanitarian workers, UN agencies, international NGOs and local organisations who continue to deliver assistance ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2581",
-      "published": "2026-11-24T17:49:10+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
       }
     }
   ],
