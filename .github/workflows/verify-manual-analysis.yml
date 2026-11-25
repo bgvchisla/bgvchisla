@@ -96,10 +96,13 @@ jobs:
           PY
 
       - name: Apply the explicitly approved single-attempt Gemini budget
+        env:
+          EDITORIAL_BRANCH: ${{ github.ref_name }}
         run: |
           set -euo pipefail
           python - <<'PY'
           import json
+          import os
           from pathlib import Path
 
           path = Path("analysis/config.json")
