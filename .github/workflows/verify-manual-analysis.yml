@@ -1,0 +1,161 @@
+name: Verify manually prepared Bulgarian analysis
+
+on:
+  push:
+    branches:
+      - "editorial/manual-bulgaria-*"
+    paths:
+      - "analizi/**"
+      - "analizi/articles.json"
+      - "sitemap.xml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manual-bulgarian-verification-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout the exact editorial branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate exactly one new Bulgarian article
+        id: article
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          python - <<'PY'
+          import json
+          import os
+          import re
+          import subprocess
+          from pathlib import Path
+
+          before = json.loads(subprocess.check_output(
+              ["git", "show", "origin/main:analizi/articles.json"], text=True
+          ))
+          current = json.loads(Path("analizi/articles.json").read_text(encoding="utf-8"))
+          old = {str(row.get("slug", "")) for row in before}
+          added = [row for row in current if str(row.get("slug", "")) not in old]
+          if len(added) != 1 or added[0].get("lane") != "bulgaria":
+              raise SystemExit("Очаква се точно един нов български анализ.")
+          row = added[0]
+          slug = str(row.get("slug", ""))
+          if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
+              raise SystemExit("Невалиден slug.")
+          if row.get("published_at") != "2026-11-25":
+              raise SystemExit("Ръчният анализ трябва да бъде датиран 25.11.2026 г.")
+          urls = row.get("source_urls", [])
+          if len(set(urls)) < 4 or any(not str(url).startswith("https://") for url in urls):
+              raise SystemExit("Недостатъчни или незащитени първични източници.")
+          page_path = Path("analizi") / slug / "index.html"
+          if not page_path.is_file():
+              raise SystemExit("Липсва HTML страницата на анализа.")
+          page = page_path.read_text(encoding="utf-8")
+          required = (
+              '<html lang="bg" data-ai-generated="true"',
+              f'<link rel="canonical" href="https://bgvchisla.com/analizi/{slug}/">',
+              'property="og:title"',
+              'property="og:description"',
+              'class="ai-disclosure"',
+              "ChatGPT (GPT-6)",
+              '<ol class="source-list">',
+          )
+          for token in required:
+              if token not in page:
+                  raise SystemExit(f"Липсва задължителен елемент: {token}")
+          article = re.search(r"<article>(.*?)</article>", page, re.I | re.S)
+          if not article:
+              raise SystemExit("Липсва основното тяло.")
+          body = re.sub(r"<[^>]+>", " ", article.group(1))
+          words = re.findall(r"[A-Za-zА-Яа-яЁё0-9]+(?:[’'-][A-Za-zА-Яа-яЁё0-9]+)*", body, re.UNICODE)
+          if not 900 <= len(words) <= 1400:
+              raise SystemExit(f"Дължината е {len(words)} думи; стандартът е 900–1400.")
+          if article.group(1).lower().count("<h2") < 4:
+              raise SystemExit("Нужни са поне четири основни секции.")
+          if f'href="/analizi/{slug}/"' not in Path("analizi/index.html").read_text(encoding="utf-8"):
+              raise SystemExit("Анализът липсва от архива.")
+          if f"https://bgvchisla.com/analizi/{slug}/" not in Path("sitemap.xml").read_text(encoding="utf-8"):
+              raise SystemExit("Анализът липсва от sitemap.xml.")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write("slug=" + slug + chr(10))
+          print(f"Проверен е анализът {slug}: {len(words)} думи; {len(urls)} URL източника.")
+          PY
+
+      - name: Run independent Gemini URL Context verification
+        id: factcheck
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANALYSES_PUBLISH_ENABLED: ${{ vars.ANALYSES_PUBLISH_ENABLED }}
+        run: |
+          set -euo pipefail
+          python scripts/fact_check_analysis.py --slug "${{ steps.article.outputs.slug }}" --report analysis/factcheck_report.json
+
+      - name: Require a complete independent PASS
+        if: steps.factcheck.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("analysis/factcheck_report.json").read_text(encoding="utf-8"))
+          if report.get("overall_verdict") != "PASS":
+              raise SystemExit(f"Независимата проверка върна {report.get('overall_verdict')}; публикацията е блокирана.")
+          if int(report.get("verified_claims", 0)) < 8:
+              raise SystemExit("Недостатъчно независимо потвърдени съществени твърдения.")
+          if int(report.get("numeric_blocks_found", -1)) != int(report.get("numeric_blocks_verified", -2)):
+              raise SystemExit("Не всички числови блокове са независимо потвърдени.")
+          if not report.get("all_candidate_sources_retrieved"):
+              raise SystemExit("Не всички подадени първични източници са извлечени.")
+          if int(report.get("official_retrieved_domain_count", 0)) < 2:
+              raise SystemExit("Недостатъчно независимо извлечени официални домейни.")
+          print("Независимата Gemini проверка премина всички издателски критерии.")
+          PY
+
+      - name: Persist verification report and usage ledger
+        if: always()
+        run: |
+          set -euo pipefail
+          files=()
+          [ -f analysis/factcheck_report.json ] && files+=(analysis/factcheck_report.json)
+          [ -f analysis/verification_usage.json ] && files+=(analysis/verification_usage.json)
+          if [ "${#files[@]}" -eq 0 ]; then
+            echo "Няма отчет или финансов регистър за съхраняване."
+            exit 0
+          fi
+          git add "${files[@]}"
+          if git diff --cached --quiet; then
+            echo "Отчетът и финансовият регистър вече са актуални."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Record independent verification for manual analysis"
+          git push origin "${GITHUB_REF_NAME}"
+
+      - name: Publish verification summary
+        if: always() && steps.factcheck.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("analysis/factcheck_report.json").read_text(encoding="utf-8"))
+          print("Gemini verdict:", report.get("overall_verdict"))
+          print("Verified claims:", report.get("verified_claims"))
+          print("Numeric blocks:", report.get("numeric_blocks_verified"), "/", report.get("numeric_blocks_found"))
+          print("Retrieved sources:", report.get("successful_source_retrieval_count"))
+          print("Official domains:", report.get("official_retrieved_domain_count"))
+          print("Actual cost USD:", report.get("cost_usd"))
+          PY
