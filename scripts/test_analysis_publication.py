@@ -35,7 +35,7 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertLessEqual(len(description.group(1)), 160)
         self.assertIn('rel="canonical" href="https://bgvchisla.com/tseni-i-inflatsia/"', page)
         self.assertIn('type="application/ld+json"', page)
-        self.assertIn('href="/inflation.json"', page)
+        self.assertIn('fetch("/inflation.json"', page)
         self.assertIn('href="/tseni-i-inflatsia/"', homepage)
         self.assertIn("<loc>https://bgvchisla.com/tseni-i-inflatsia/</loc>", sitemap)
 
