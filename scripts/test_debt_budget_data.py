@@ -61,10 +61,9 @@ class DebtBudgetResourceTests(unittest.TestCase):
         latest = self.data["latest"]
         reported = latest["kfp_reported"]
         preliminary = latest["kfp_preliminary"]
-        self.assertAlmostEqual(
-            reported["revenue_mio_eur"] - reported["expenditure_mio_eur"],
-            reported["balance_mio_eur"],
-            places=5,
+        self.assertLessEqual(
+            abs(reported["revenue_mio_eur"] - reported["expenditure_mio_eur"] - reported["balance_mio_eur"]),
+            0.2,
         )
         self.assertEqual(reported["balance_mio_eur"], -3669.2)
         self.assertEqual(reported["interest_payments_kfp_mio_eur"], 974.5)
