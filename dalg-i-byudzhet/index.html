@@ -299,12 +299,20 @@ td.emph{font-weight:800;color:var(--navy)}
  <h2 class="section-heading">Средносрочна прогноза за държавния дълг</h2>
  <p class="section-intro">Прогнозата на Министерството на финансите в мотивите към проекта на бюджет за 2027 г. Представени са отчет, очакване, проект и прогнози — не са всички реализирани стойности.</p>
  <article class="panel">
-  <h3>Държавен дълг по номинал и като дял от БВП</h3>
-  <p class="sub">2025–2029 г. · Министерство на финансите</p>
+  <h3>Номинален държавен дълг</h3>
+  <p class="sub">2025–2029 г. · млрд. евро · Министерство на финансите</p>
   <div class="chart" id="state-debt-forecast-chart" aria-live="polite">
    <p class="note">Зареждане на прогнозата…</p>
   </div>
-  <div class="legend"><span><i class="navy"></i>Номинален държавен дълг · млрд. евро</span><span><i class="gold" style="background:var(--gold)"></i>Дълг / БВП</span></div>
+  <div class="legend"><span><i class="navy"></i>Размер на държавния дълг</span></div>
+ </article>
+ <article class="panel">
+  <h3>Държавен дълг като дял от БВП</h3>
+  <p class="sub">2025–2029 г. · процент от БВП · Министерство на финансите</p>
+  <div class="chart" id="state-debt-gdp-forecast-chart" aria-live="polite">
+   <p class="note">Зареждане на прогнозата…</p>
+  </div>
+  <div class="legend"><span><i class="gold" style="background:var(--gold)"></i>Дълг / БВП</span></div>
  </article>
  <div class="table-wrap" style="margin-top:14px">
   <table id="state-debt-forecast-table">
@@ -474,6 +482,8 @@ function renderBudget(data){
  var debtHost=$("state-debt-forecast-chart");debtHost.textContent="";
  var debtBarRows=debtRows.map(p=>({label:String(p.year),value:p.debt_bn_eur}));
  barChart("state-debt-forecast-chart",debtBarRows,[{key:"value",label:"Държавен дълг",bar:"navy-bar"}]," млрд.");
+ var debtGdpRows=debtRows.map(p=>({label:String(p.year),ratio:p.debt_pct_gdp}));
+ lineChart("state-debt-gdp-forecast-chart",debtGdpRows,[{key:"ratio",label:"Дълг / БВП",line:"red-line",dot:"red-dot"}],0,40,"%");
  var tf=$("state-debt-forecast-table").querySelector("tbody");tf.textContent="";
  debtRows.forEach(p=>{var row=document.createElement("tr");[String(p.year),p.status,fmt(p.debt_bn_eur,1)+" млрд. €",fmt(p.debt_pct_gdp,1)+"%"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});tf.appendChild(row);});
  var kfp=data.kfp_balance_forecast.map(p=>({label:String(p.year),value:p.balance_pct_gdp}));
