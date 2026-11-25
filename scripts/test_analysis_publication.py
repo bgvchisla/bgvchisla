@@ -230,6 +230,8 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertIn("scripts/test_independent_factcheck.py --report analysis/factcheck_report.json", source)
         self.assertIn("pull_request:", source)
         self.assertIn("branches: [main]", source)
+        self.assertIn("seo/stage1-", source)
+        self.assertIn("seo/stage1-*", source)
 
 
 if __name__ == "__main__":
