@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T23:18:30.663214+00:00",
-  "last_checked_at": "2026-11-25T23:18:30.663227+00:00",
+  "updated_at": "2026-11-26T00:13:30.351709+00:00",
+  "last_checked_at": "2026-11-26T00:13:30.351724+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -213,44 +213,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на регистрираните одитори",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_1_BG",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "publisher": "БНБ",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_3_BG",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "publisher": "БНБ",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "At least 30 killed in highway fire in Cairo district",
@@ -308,6 +270,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "Българска народна банка",
+      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на регистрираните одитори",
+      "summary": "",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_1_BG",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bnb-news",
+      "publisher": "БНБ",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Българска народна банка",
+      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
+      "summary": "",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_3_BG",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bnb-news",
+      "publisher": "БНБ",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 99
+      }
+    },
+    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "The rising cost of putting food on the table in India",
@@ -335,13 +335,13 @@
       "published": "2026-11-25T00:00:00+00:00",
       "feed_id": "bis-press",
       "publisher": "BIS",
-      "priority_score": 37,
+      "priority_score": 36,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 54,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 99
       }
     },
@@ -354,13 +354,13 @@
       "published": "2026-11-24T00:00:00+00:00",
       "feed_id": "parliament-news",
       "publisher": "Народно събрание",
-      "priority_score": 34,
+      "priority_score": 32,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 68,
+        "timeliness": 50,
         "source_reliability": 98
       }
     },
@@ -373,13 +373,13 @@
       "published": "2026-11-25T00:00:00+00:00",
       "feed_id": "parliament-news",
       "publisher": "Народно събрание",
-      "priority_score": 28,
+      "priority_score": 27,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 98
       }
     },
@@ -423,25 +423,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_2_BG",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "publisher": "БНБ",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "БТА",
       "title": "\"Възраждане\" е категорично против този бюджет, който ни загробва, вдига данъците, обяви Цончо Ганев",
       "summary": "„Възраждане“ е категорично против този бюджет, който ни загробва, вдига данъците поголовно и не прави нищо за най-бедната част от населението, която е над 60%, заяви Цончо Ганев при обсъждането на план-сметката на държавата за следващата година. По думите му б",
@@ -476,6 +457,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Българска народна банка",
+      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
+      "summary": "",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_2_BG",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bnb-news",
+      "publisher": "БНБ",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 99
       }
     },
     {
@@ -765,25 +765,6 @@
     },
     {
       "section": "europe",
-      "source": "Economic.bg",
-      "title": "С нов фонд за €50 млрд. Европа ще опита да навакса технологичното си изоставане",
-      "summary": "Европа разполага с една трета от квантовите компании в света, но привлича над шест пъти по-малко частен капитал в сектора от САЩ. Брюксел опитва да промени това с нов инвестиционен фонд и преференции за европейския бизнес",
-      "url": "https://www.economic.bg/bg/a/view/s-nov-fond-za-50-mlrd-evropa-shte-opita-da-navaksa-tehnologichnoto-si-izostavane",
-      "published": "2026-11-25T11:59:41+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
       "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
@@ -799,25 +780,6 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian politics live: Greens say Liberal-One Nation defector just ‘changing billionaire donor’; spoof parliamentary tool spreads cheer",
-      "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation –",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
-      "published": "2026-11-25T23:00:11+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
       }
     },
     {
@@ -837,6 +799,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "С нов фонд за €50 млрд. Европа ще опита да навакса технологичното си изоставане",
+      "summary": "Европа разполага с една трета от квантовите компании в света, но привлича над шест пъти по-малко частен капитал в сектора от САЩ. Брюксел опитва да промени това с нов инвестиционен фонд и преференции за европейския бизнес",
+      "url": "https://www.economic.bg/bg/a/view/s-nov-fond-za-50-mlrd-evropa-shte-opita-da-navaksa-tehnologichnoto-si-izostavane",
+      "published": "2026-11-25T11:59:41+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -1163,25 +1144,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Най-новата композиция на проф. Нева Кръстева Polyhedron беше представена премиерно в зала „България“",
-      "summary": "Премиерата на балета Polyhedron за оркестър, хор, орган и солисти се състоя тази вечер в изпълнение на Genesis Orchestra под палката на маестро Йордан Камджалов и хора на „Музикална лаборатория за Човека“ с диригент Мая Василева. По думите на организаторите от",
-      "url": "https://www.bta.bg/bg/news/lik/1254611-nay-novata-kompozitsiya-na-prof-neva-krasteva-polyhedron-beshe-predstavena-prem",
-      "published": "2026-11-25T20:27:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Federal Reserve",
       "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
@@ -1279,25 +1241,6 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "UK embassy in Japan warns of rise in drink spiking and credit card fraud at Tokyo bars",
-      "summary": "Social media campaign fronted by British rapper Shao Dow advises tourists not to let their guard down The British embassy in Tokyo has launched a social media campaign warning visitors to exercise caution after a rise in cases of drink-spiking and credit card",
-      "url": "https://www.theguardian.com/world/2026/nov/25/british-embassy-tokyo-warning-tourists-drink-spiking-credit-card-fraud",
-      "published": "2026-11-25T11:59:22+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
       "title": "Canada says it ‘does not report to the US’ after Pentagon criticizes military spending",
       "summary": "Scathing US document memo supposedly ‘atrophied’ defence capabilities of its northern neighbour Canada is a “sovereign nation” that does not “report” to the United States, the country’s defense minister said after the Pentagon released a scathing memo that cri",
       "url": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo",
@@ -1311,6 +1254,25 @@
         "household_business_impact": 0,
         "strategic_significance": 54,
         "timeliness": 68,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Australian politics live: Hanson says she ‘never approached’ Liberal defector; spoof parliamentary tool spreads cheer",
+      "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation –",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
+      "published": "2026-11-26T00:03:52+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
         "source_reliability": 94
       }
     },
@@ -1331,6 +1293,44 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Най-новата композиция на проф. Нева Кръстева Polyhedron беше представена премиерно в зала „България“",
+      "summary": "Премиерата на балета Polyhedron за оркестър, хор, орган и солисти се състоя тази вечер в изпълнение на Genesis Orchestra под палката на маестро Йордан Камджалов и хора на „Музикална лаборатория за Човека“ с диригент Мая Василева. По думите на организаторите от",
+      "url": "https://www.bta.bg/bg/news/lik/1254611-nay-novata-kompozitsiya-na-prof-neva-krasteva-polyhedron-beshe-predstavena-prem",
+      "published": "2026-11-25T20:27:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Пред Министерския съвет и Народното събрание приключи протестното шествие срещу насилието над жени в София",
+      "summary": "В пространството пред Министерския съвет и Народното събрание приключи протестното шествие в София срещу насилието над жени и момичета. Протестът под надслов „Нито една повече!“ започна около 18:30 часа пред Съдебната палата. Оттам тръгна шествието през булева",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254608-pred-ministerskiya-savet-i-narodnoto-sabranie-priklyuchi-protestnoto-shestvie-sr",
+      "published": "2026-11-25T19:36:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     }
   ],
