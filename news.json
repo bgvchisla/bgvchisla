@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T21:33:20.371420+00:00",
-  "last_checked_at": "2026-11-26T21:33:20.371433+00:00",
+  "updated_at": "2026-11-26T22:35:38.131292+00:00",
+  "last_checked_at": "2026-11-26T22:35:38.131303+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -308,25 +308,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
-      "published": "2026-11-26T19:30:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Лихвите при потребителските и жилищните заеми намаляват на годишна база през октомври",
@@ -343,6 +324,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
+      "summary": "Madrid's victory came after the Netherlands threw in the towel for the central bank's top job.",
+      "url": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T14:57:34+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -613,21 +613,21 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Greece: 14,000 march in Athens against rising living costs",
-      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
-      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
-      "published": "2026-11-25T18:20:44+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 37,
+      "source": "The Guardian – World",
+      "title": "Southern and central Australia face summer of heightened bushfire risk and heatwaves",
+      "summary": "Fire chiefs say large swathes of the country are at risk from fires driven by high fuel loads, dry soil and hot weather Get our breaking news email , free app or daily news podcast Large parts of southern and central Australia face elevated fire risk this summ",
+      "url": "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
+      "published": "2026-11-26T21:33:36+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -704,25 +704,6 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
-      "summary": "Madrid's victory came after the Netherlands threw in the towel for the central bank's top job.",
-      "url": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T14:57:34+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
       }
     },
     {
@@ -878,6 +859,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
+      "published": "2026-11-26T19:30:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Българският електромобил L CITY затъва в технически и финансови проблеми",
@@ -916,22 +916,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Politics and peek-a-boo in Australian parliament as senator brings baby to work",
-      "summary": "Senator Lidia Thorpe kept 6-month-old Aaliyah entertained, as her mum Senator Fatima Payman, participated in an online safety bill debate.",
-      "url": "https://www.bbc.co.uk/news/videos/cmvg23djw8v9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T09:49:42+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "МВнР да поиска обяснение от френското посолство в София и да гарантира безопасното завръщане на привържениците на „Левски” у нас, призова Ивайло Мирчев",
+      "summary": "Министерството на външните работи трябва незабавно да поиска обяснение от френското посолство в София, както и да гарантира безопасното завръщане на привържениците на „Левски” у нас. България е длъжна да се погрижи за сигурността и достойнството на гражданите",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255578-mvnr-da-poiska-obyasnenie-ot-frenskoto-posolstvo-v-sofiya-i-da-garantira-bezopas",
+      "published": "2026-11-26T21:53:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 32,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Френските власти да изяснят обстоятелствата около инцидентите с български граждани в Марсилия, настояват в позиция от външното министерство",
+      "summary": "Министерството на външните работи категорично осъжда нападенията срещу български граждани в Марсилия. Насилието и посегателствата срещу личната неприкосновеност са недопустими. Настояваме компетентните френски власти да изяснят в пълнота обстоятелствата около",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255576-frenskite-vlasti-da-izyasnyat-obstoyatelstvata-okolo-intsidentite-s-balgarski-gr",
+      "published": "2026-11-26T21:42:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -951,25 +970,6 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
-      "summary": "Jamie Shea, former NATO spokesperson joined Euronews' new evening show Europe Tonight to discuss how Satellite systems could be affected and what would it mean for the world.",
-      "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
-      "published": "2026-11-25T19:20:03+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 76,
-        "timeliness": 68,
-        "source_reliability": 91
       }
     },
     {
@@ -1030,25 +1030,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Няма български гражданин, потърсил съдействието на дипломатическото ни представителство във връзка с инцидента между феновете на футболните клубове Левски и Олимпик Марсилия",
-      "summary": "Генералното консулство на България в Лион, Франция е запознато с инцидента, който се е случил на 25-ти ноември, между феновете на футболните клубове Левски и Олимпик Марсилия в Марсилия. Това съобщиха в отговор на запитване на БТА от Министерството на външните",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255495-nyama-balgarski-grazhdanin-potarsil-sadeystvieto-na-diplomaticheskoto-ni-predst",
-      "published": "2026-11-26T17:50:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Европейска комисия",
       "title": "Daily News 26/ 11/ 2026",
@@ -1068,41 +1049,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "България е готова да се включи в новия европейски заем за Украйна",
-      "summary": "Българският премиер Румен Радев потвърди, че страната ще се включи в новия заем на Европейския съюз (ЕС) за подкрепа на Украйна в размер на 45 млрд. евро, но няма да участва във финансирането на покупките на оръжия и боеприпаси. Заемът има за цел да покрие две",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-e-gotova-da-se-vkluchi-v-novija-evropejski-zaem-za-ukrajna",
-      "published": "2026-11-26T10:35:08+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
-      "summary": "Public Committee Against Torture in Israel examined 42 complaints against Shin Bet interrogators over past decade Israel has institutionalised the use of torture to extract confessions from Palestinian prisoners, sometimes documenting abuse in official records",
-      "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
-      "published": "2026-11-26T10:00:52+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "source": "BBC News – Свят",
+      "title": "Politics and peek-a-boo in Australian parliament as senator brings baby to work",
+      "summary": "Senator Lidia Thorpe kept 6-month-old Aaliyah entertained, as her mum Senator Fatima Payman, participated in an online safety bill debate.",
+      "url": "https://www.bbc.co.uk/news/videos/cmvg23djw8v9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T09:49:42+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 31,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 94
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -1164,6 +1126,44 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+      "summary": "Macy's has postponed its 100th parade in Manhattan as more than 600,000 homes and businesses lost power.",
+      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+      "published": "2026-11-26T21:57:53+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "At odds over the EU budget, European leaders cut summit short - DW has more",
+      "summary": "Even before they met, it was clear the gap between European leaders' demands for the EU budget would make negotiations difficult. They ended a summit meeting early and aim to agree on EU funding in December. DW has more.",
+      "url": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short-dw-has-more/live-80056415?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T21:47:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
       "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
@@ -1183,11 +1183,68 @@
     },
     {
       "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "България е готова да се включи в новия европейски заем за Украйна",
+      "summary": "Българският премиер Румен Радев потвърди, че страната ще се включи в новия заем на Европейския съюз (ЕС) за подкрепа на Украйна в размер на 45 млрд. евро, но няма да участва във финансирането на покупките на оръжия и боеприпаси. Заемът има за цел да покрие две",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-e-gotova-da-se-vkluchi-v-novija-evropejski-zaem-za-ukrajna",
+      "published": "2026-11-26T10:35:08+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
+      "summary": "Public Committee Against Torture in Israel examined 42 complaints against Shin Bet interrogators over past decade Israel has institutionalised the use of torture to extract confessions from Palestinian prisoners, sometimes documenting abuse in official records",
+      "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
+      "published": "2026-11-26T10:00:52+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "ФК Дунав (Русе) осъди нападенията срещу българските привърженици в Марсилия и изрази подкрепа за Левски",
+      "summary": "Футболен клуб Дунав разпространи официална позиция, в която категорично осъди нападенията срещу българските граждани, пътували до Марсилия, за да подкрепят Левски. От ръководството на \"драконите\" заявиха солидарността си с футболния отбор на актуалния шампион,",
+      "url": "https://www.bta.bg/bg/news/sport/1255579-fk-dunav-ruse-osadi-napadeniyata-sreshtu-balgarskite-privarzhenitsi-v-marsiliy",
+      "published": "2026-11-26T22:05:03+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "БТА",
       "title": "Нападението над български футболни фенове в Марсилия е недопустимо, готови сме да окажем съдействие, съобщи президентът Илияна Йотова",
       "summary": "Президентът Илияна Йотова поздрави баскетболните ни национали за победата над Дания и призова френските власти да потърсят отговорност за нападението над български футболни фенове в Марсилия. Поздравявам българските баскетболни национали за победата над Дания!",
       "url": "https://www.bta.bg/bg/news/bulgaria/1255573-napadenieto-nad-balgarski-futbolni-fenove-v-marsiliya-e-nedopustimo-gotovi-sme-",
-      "published": "2026-11-26T21:31:44+00:00",
+      "published": "2026-11-26T21:31:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1274,63 +1331,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Настоявам българското правителство незабавно да поиска обяснение и отговорност от френските власти заради нападенията над фенове на Левски в Марсилия, заяви Бойко Борисов",
-      "summary": "Настоявам българското правителство незабавно да поиска обяснение и отговорност от френските власти. Очаквам УЕФА да наложи най-тежките наказания на Олимпик Марсилия, защото видяхме сянката на стадион “Хейзел”! Това заявява лидерът на ГЕРБ Бойко Борисов на стра",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255548-nastoyavam-balgarskoto-pravitelstvo-nezabavno-da-poiska-obyasnenie-i-otgovornost",
-      "published": "2026-11-26T19:57:41+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Националната галерия откри изложбата „Кирил Цонев. От рисунката до картината“",
-      "summary": "„Кирил Цонев до последно експериментира, до последно си играе с техниките, до последно доказва как може да рисува в различен стил“, каза пред БТА реставраторката Кристина Белева, един от кураторите на изложбата „Кирил Цонев. От рисунката до картината“. Експози",
-      "url": "https://www.bta.bg/bg/news/lik/1255533-natsionalnata-galeriya-otkri-izlozhbata-kiril-tsonev-ot-risunkata-do-kartinata",
-      "published": "2026-11-26T19:14:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Преслав Райков: Бюджет 2027 няма амбиция да излезе от процедурата по свръхдефицит",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440126-preslav-raykov-byudzhet-2027-nyama-ambitsiya-da-izleze-ot-protsedurata-po-svrahdefitsit",
-      "published": "2026-11-26T18:30:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
       }
     }
   ],
