@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T09:15:00.685949+00:00",
-  "last_checked_at": "2026-11-26T09:15:00.685962+00:00",
+  "updated_at": "2026-11-26T10:24:23.861929+00:00",
+  "last_checked_at": "2026-11-26T10:24:23.861939+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -43,6 +43,25 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "EU leaders brace for tough talks on budget and Ukraine – Europe live",
+      "summary": "António Costa says the next long-term budget is ‘the most important’ item on the agenda The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not going to",
+      "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
+      "published": "2026-11-26T10:03:17+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "€561 Billion and Still Not Enough: Germany's 2027 Budget Exposes a Coalition on the Brink",
       "summary": "The budget for 2027 has reached new highs, and pension funds, defense spending and a weak economy are increasing the pressure. At the same time, tensions are mounting within the government.",
@@ -63,16 +82,16 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Служители на Агенцията по вписванията в Перник подкрепиха националните стачни действия за по-високи доходи",
-      "summary": "Работещи в Агенцията по вписванията в Перник подкрепиха днешната национална стачка с искания за по-високи възнаграждения и равнопоставеност в държавната администрация. Ниското заплащане на фона на високата натовареност и отговорността при изпълнение на служебн",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254779-sluzhiteli-na-agentsiyata-po-vpisvaniyata-v-pernik-podkrepiha-natsionalnite-stac",
-      "published": "2026-11-26T09:09:52+00:00",
+      "title": "Хибриден модел с участие на държавата в депозитната система обмисля Министерството на околната среда и водите",
+      "summary": "Хибриден модел с участие на държавата в депозитната система обмисля Министерството на околната среда и водите. Анализът показва, че трябва да се премине към хибриден модел, в който държавата да има поне 34% участие, а останалите проценти да бъдат разпределени",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254888-hibriden-model-s-uchastie-na-darzhavata-v-depozitnata-sistema-obmislya-ministers",
+      "published": "2026-11-26T10:20:46+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 44,
+      "priority_score": 41,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 74,
+        "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
@@ -80,22 +99,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "EU leaders brace for tough talks on budget and Ukraine – Europe live",
-      "summary": "António Costa says the next long-term budget is ‘the most important’ item on the agenda Latvia’s Andris Kulbergs offered a similar argument, saying that countries on the eastern flank had to ramp up their defence spending, often at the cost of other priorities",
-      "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
-      "published": "2026-11-26T09:03:17+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 43,
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Пътната карта за реформа в пенсионната система още е в процес на разработка",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/440110-patnata-karta-za-reforma-v-pensionnata-sistema-oshte-e-v-protses-na-razrabotka",
+      "published": "2026-11-26T10:00:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 41,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 87
       }
     },
     {
@@ -119,6 +138,25 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+      "summary": "A massive fire from a fuel tanker crash on Giza’s Ring Road in Waraq killed at least 31 and injured 21, highlighting Egypt’s deadly road risks.",
+      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
+      "published": "2026-11-26T09:30:05+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
       "source": "BBC News – Свят",
       "title": "FedEx plane overshoots Miami runway, causing brief suspension of flights at airport",
       "summary": "The brief stoppage came on the eve of the US Thanksgiving holiday, one of the busiest travel days of the year.",
@@ -137,6 +175,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Парламентарната комисия по иновации прие на първо четене Законопроекта за Европейския портфейл за цифрова самоличност",
+      "summary": "Членовете на парламентарната Комисия по иновациите и дигиталната трансформация приеха на извънредно заседание днес Законопроекта за Европейския портфейл за цифрова самоличност с вносител Министерския съвет (МС). Текстовете получиха подкрепата на 14 депутати, а",
+      "url": "https://www.bta.bg/bg/news/economy/1254887-parlamentarnata-komisiya-po-inovatsii-prie-na-parvo-chetene-zakonoproekta-za-evr",
+      "published": "2026-11-26T10:14:40+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 26th, 2026 – Morning",
@@ -150,25 +207,6 @@
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
-      "summary": "At least 31 people have been killed and 21 injured after a crash involving a fuel tanker triggered a massive fire on a major highway near Cairo. The blaze engulfed more than two dozen cars and motorcycles on the Ring Road in Giza on Wednesday night.",
-      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
-      "published": "2026-11-26T04:40:55+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 91
@@ -210,44 +248,6 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
-      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T22:18:06+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
-      "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances responded to the crash, and Egyptian health authorities say the death toll could rise.",
-      "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T21:37:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
       }
     },
     {
@@ -308,22 +308,41 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Съветниците в Ямбол гласуваха допълнителни средства за комуналното предприятие, зала „Диана“ и футболния клуб",
-      "summary": "Общинският съвет в Ямбол гласува актуализация на бюджета на Общината за 2026 г, като допълнителни средства се заделят за Общинското предприятие (ОП) „Комунални дейности“, за спортната зала „Диана“ и за Футболен клуб „Ямбол-1915”. Парите на общинското предприят",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254796-savetnitsite-v-yambol-glasuvaha-dopalnitelni-sredstva-za-komunalnoto-predpriyati",
-      "published": "2026-11-26T09:07:50+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 37,
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T22:18:06+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 38,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 22,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
+      "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances responded to the crash, and Egyptian health authorities say the death toll could rise.",
+      "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T21:37:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -343,25 +362,6 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 98
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "„Тренд“: Всеки втори българин иска кабинетът да управлява въпреки растящото неодобрение",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/440104-trend-vseki-vtori-balgarin-iska-kabinetat-da-upravlyava-vapreki-rastyashtoto-neodobrenie",
-      "published": "2026-11-26T08:54:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
       }
     },
     {
@@ -400,6 +400,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
+      "summary": "At least 31 people have been killed and 21 injured after a crash involving a fuel tanker triggered a massive fire on a major highway near Cairo. The blaze engulfed more than two dozen cars and motorcycles on the Ring Road in Giza on Wednesday night.",
+      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
+      "published": "2026-11-26T04:40:55+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -537,25 +556,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 24th, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 24th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-evening",
-      "published": "2026-11-24T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
       "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
@@ -614,29 +614,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Търговище разреши изменение на Общия устройствен план за изграждане на индустриален парк край Буховци",
-      "summary": "Общинският съвет в Търговище разреши да бъде изменен Общият устройствен план на общината за терен от близо 936 дка в землището на село Буховци. Целта е да бъдат създадени устройствени предпоставки за изграждането на частен индустриален парк „PDC Буховци“. Пред",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254794-obshtinskiyat-savet-v-targovishte-razreshi-izmenenie-na-obshtiya-ustroystven-pla",
-      "published": "2026-11-26T09:06:31+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Антоново одобри пренасочването на средства за изграждане на зала за обреди",
-      "summary": "Общинският съвет в Антоново прие с 12 гласа „за“ докладна записка на кмета Хайредин Мехмедов за корекция на общинския бюджет за 2026 г. Средствата в размер на 24 727 евро от резерва в Инвестиционната програма ще бъдат пренасочени за изграждането на зала за обр",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254763-obshtinskiyat-savet-v-antonovo-odobri-prenasochvaneto-na-sredstva-za-izgrazhdane",
-      "published": "2026-11-26T08:41:07+00:00",
+      "title": "Общинският съвет подкрепи изменението на бюджета и инвестиционната програма на Община Казанлък за 2026 година",
+      "summary": "По време на редовното си заседание Общинският съвет в Казанлък прие предложената от кмета Галина Стоянова актуализация на бюджета и Инвестиционната програма на Община Казанлък за 2026 година. Промените отразяват напредъка по изпълнението на обектите, актуалнит",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254885-obshtinskiyat-savet-podkrepi-izmenenieto-na-byudzheta-i-investitsionnata-program",
+      "published": "2026-11-26T10:18:45+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 35,
@@ -647,6 +628,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Details of two treaties at heart of Andy Burnham’s EU reset to be published",
+      "summary": "Government also to publish bill that will enact EU deals, as Tories and Reform hit out over 10-year termination clause Europe live – latest updates Business live – latest updates Details of two treaties at the heart of Andy Burnham’s post- Brexit reset plans w",
+      "url": "https://www.theguardian.com/politics/2026/nov/26/treaties-andy-burnham-eu-reset-published",
+      "published": "2026-11-26T09:16:19+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -880,25 +880,6 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "US plans new tariffs on EU, China and 12 others",
-      "summary": "The Trump administration is planning new import duties of up to 20% to counter excessive manufacturing abroad. The measures could put further pressure on US consumers already struggling with high living costs.",
-      "url": "https://www.dw.com/en/us-plans-new-tariffs-on-eu-china-and-12-others/a-80050872?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T14:54:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
       "title": "German firms eye Africa as global trade shocks hit traditional markets",
       "summary": "German businesses are optimistic about Africa, but Berlin's cautious approach to risk is holding them back from cashing in on the opportunities that their competitors from countries like the UAE and Turkey are seizing.",
       "url": "https://www.dw.com/en/german-firms-eye-africa-as-global-trade-shocks-hit-traditional-markets/a-80047671?maca=en-rss-en-all-1573-rdf",
@@ -935,25 +916,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "EС няма да се върне към руските енергийни ресурси",
-      "summary": "ЕС никога няма да се върне към руските енергийни ресурси, независимо от резултата от преговорите между Вашингтон и Москва, заяви пред Euronews еврокомисарят по енергетиката Дан Йоргенсен. В предаването On the Record with Maria Tadeo Йоргенсен определи Русия ка",
-      "url": "https://www.economic.bg/bg/a/view/es-njama-da-se-vyrne-kym-ruskite-energijni-resursi",
-      "published": "2026-11-25T09:46:06+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Боян Томов: Бизнесът иска предвидимост, за да може да работи",
@@ -970,73 +932,6 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Служители на Агенцията по вписванията в Пловдив излязоха на мирен протест с искания за увеличение на заплатите",
-      "summary": "Служители на Агенцията по вписванията в Пловдив излязоха на мирен протест пред работните си места с искане за увеличение на заплатите. Протестът е под надслов „Справедливост и равни права“, организиран е от Синдиката на административните служители „Подкрепа“ и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254797-sluzhiteli-na-agentsiyata-po-vpisvaniyata-v-plovdiv-izlyazoha-na-miren-protest-s",
-      "published": "2026-11-26T09:13:26+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      },
-      "related_items": [
-        {
-          "source": "БТА",
-          "publisher": "БТА",
-          "title": "Служители на Агенцията по вписванията в Добрич се включиха в едночасова стачка с искане за по-високо възнаграждение",
-          "url": "https://www.bta.bg/bg/news/bulgaria/1254771-sluzhiteli-na-agentsiyata-po-vpisvaniyata-v-dobrich-se-vklyuchiha-v-ednochasova-",
-          "published": "2026-11-26T08:47:21+00:00"
-        }
-      ],
-      "related_count": 1
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Регионалните инспекции по околната среда и водите стават седем, съобщи министърът на околната среда и водите Росица Карамфилова",
-      "summary": "Регионалните инспекции по околната среда и водите (РИОСВ) стават седем в сравнение с досегашните 15, съобщи министърът на околната среда и водите Росица Карамфилова – Благова на пресконференция в ресорното министерство. Първата РИОСВ ще бъде с център Бургас и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254783-regionalnite-inspektsii-po-okolnata-sreda-i-vodite-stavat-sedem-saobshti-minist",
-      "published": "2026-11-26T09:02:51+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Служители от Агенцията по вписванията в Стара Загора излязоха на едночасова стачка с настояване за по-високи заплати",
-      "summary": "Служителите на Агенцията по вписвания в Стара Загора излязоха на едночасова стачка пред сградата на институцията с искане увеличение с 350 евро на основните месечни заплати с 350 евро. Те настояха и за възстановяване на допълнителното възнаграждение за придоби",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254766-sluzhiteli-ot-agentsiyata-po-vpisvaniyata-v-stara-zagora-izlyazoha-na-ednochasov",
-      "published": "2026-11-26T08:47:26+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1079,6 +974,44 @@
     },
     {
       "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
+      "summary": "Public Committee Against Torture in Israel examined 42 complaints against Shin Bet interrogators over past decade Israel has institutionalised the use of torture to extract confessions from Palestinian prisoners, sometimes documenting abuse in official records",
+      "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
+      "published": "2026-11-26T10:00:52+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "EС няма да се върне към руските енергийни ресурси",
+      "summary": "ЕС никога няма да се върне към руските енергийни ресурси, независимо от резултата от преговорите между Вашингтон и Москва, заяви пред Euronews еврокомисарят по енергетиката Дан Йоргенсен. В предаването On the Record with Maria Tadeo Йоргенсен определи Русия ка",
+      "url": "https://www.economic.bg/bg/a/view/es-njama-da-se-vyrne-kym-ruskite-energijni-resursi",
+      "published": "2026-11-25T09:46:06+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
       "source": "Economic.bg",
       "title": "„Булгаргаз“ обеща по-малко поскъпване на газа",
       "summary": "„Булгаргаз“ ще предложи по-ниска цена на природния газ от предложената в първоначалното си заявление, съобщи изпълнителният директор на дружеството Георги Татарски по време на открито заседание на Комисията за енергийно и водно регулиране (КЕВР). На 10 ноември",
@@ -1116,12 +1049,88 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Силистра одобри инвестиции на ВиК за над 84 хиляди евро",
+      "summary": "Общинският съвет в Силистра прие инвестиции на обща стойност 84 069,92 евро, извършени от „Водоснабдяване и канализация“ (ВиК) ООД – Силистра през 2026 г. в публични активи, собственост на общината. Средствата са вложени в подобрения и реконструкции на водосна",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254896-obshtinskiyat-savet-v-silistra-odobri-investitsii-na-vik-za-nad-84-hilyadi-evro",
+      "published": "2026-11-26T10:20:05+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Въпроси за бюджета, разпореждане с общинско имущество и нов оператор за разделно събиране на отпадъци гласуваха съветниците в Търговище",
+      "summary": "Общо 19 докладни записки, една от които бе включена допълнително в предварително обявения дневен ред, гласуваха общинските съветници в Търговище на днешното си редовно заседание. Всички предложения бяха приети с мнозинство. Общинският съвет (ОбС) в Търговище и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254870-vaprosi-za-byudzheta-razporezhdane-s-obshtinsko-imushtestvo-i-nov-operator-za-r",
+      "published": "2026-11-26T10:06:34+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Чирпан пренасочи 19 525 евро за ремонт на покрива на училищен физкултурен салон",
+      "summary": "По време на редовно заседание Общинският съвет в Чирпан прие актуализация на бюджета на общината за 2026 г., с която 19 525 евро от реализирани икономии в капиталовата програма се пренасочват за ремонт на покрива на физкултурния салон на Основно училище „Васил",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254868-obshtinskiyat-savet-v-chirpan-prenasochi-19-525-evro-za-remont-na-pokriva-na-uch",
+      "published": "2026-11-26T10:02:47+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Germany news: Final budget debate continues in Bundestag",
+      "summary": "Spending for federal police and domestic intelligence are high on the agenda for parliamentary debate this Thursday. An alleged spy and suspected terrorists are also making in Germany this Thursday. DW has more.",
+      "url": "https://www.dw.com/en/germany-news-final-budget-debate-continues-in-bundestag/live-80056746?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T09:49:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Two screenings of Pakistani TV show cancelled in India after backlash",
-      "summary": "The show, Dar-e-Nijaat, has become a sensation in India but is now embroiled in a political row.",
-      "url": "https://www.bbc.co.uk/news/articles/cky97x7delz9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T08:30:12+00:00",
+      "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T09:27:44+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 30,
@@ -1137,10 +1146,10 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Europe’s €2 trillion punch-up: Welcome to the Brussels fight club",
-      "summary": "Good morning. Leo Cendrowicz here with your Thursday newsletter. We have almighty punch-up on our agenda today, as EU leaders gather in Brussels to brawl over their seven-year budget – a slugfest that almost certainly won’t be resolved by the end of the summit",
-      "url": "https://www.euronews.com/2026/11/26/europes-2-trillion-punch-up-welcome-to-the-brussels-fight-club",
-      "published": "2026-11-26T07:24:16+00:00",
+      "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+      "summary": "A major explosion at a Bangchak oil facility in eastern Bangkok sent flames and thick black smoke into the sky on Thursday. Authorities urged people living nearby to evacuate as emergency services responded to the incident.",
+      "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+      "published": "2026-11-26T09:25:01+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 30,
@@ -1155,13 +1164,13 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "India news: Resolve tariff concerns in trade talks — India tells US",
-      "summary": "India has denied US claims that New Delhi's policies promote excess manufacturing capacity. Further headlines from India include Constitution Day celebrations. DW has more.",
-      "url": "https://www.dw.com/en/india-news-resolve-tariff-concerns-in-trade-talks-india-tells-us/live-80056202?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T06:59:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
+      "source": "BBC News – Свят",
+      "title": "Two screenings of Pakistani TV show cancelled in India after backlash",
+      "summary": "The show, Dar-e-Nijaat, has become a sensation in India but is now embroiled in a political row.",
+      "url": "https://www.bbc.co.uk/news/articles/cky97x7delz9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T08:30:12+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 30,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -1270,10 +1279,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Симфониета - Враца представя концерта „Поети-философи“",
-      "summary": "Концертът „Поети-философи“ с произведения на Ференц Лист и Рихард Щраус ще представи Симфониета - Враца тази вечер. Той е посветен на композитори, за които музиката е не само изкуство на звука, но и средство за разказ, размисъл и духовно търсене, съобщиха от к",
-      "url": "https://www.bta.bg/bg/news/lik/1254777-simfonieta-vratsa-predstavya-kontserta-poeti-filosofi-",
-      "published": "2026-11-26T09:00:50+00:00",
+      "title": "Общинският съвет във Велинград прие промени в капиталовата програма и решения в социалната и културната сфера",
+      "summary": "Общинският съвет във Велинград прие четири предложения, свързани с управлението на общинските финанси и имоти, предоставянето на социални услуги и развитието на читалищната дейност. Решенията бяха гласувани на редовното заседание днес. Съветниците одобриха про",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254874-obshtinskiyat-savet-vav-velingrad-prie-promeni-v-kapitalovata-programa-i-resheni",
+      "published": "2026-11-26T10:21:18+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1287,60 +1296,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
-      "summary": "Brazil indignant about proposed tariffs on sugar and aircraft, while Beijing says new levies amount to ‘political manipulation’ Trump proposing new tariffs on 14 partners including China and EU Brazil has said it will not bend to the new US tariff “threat” and",
-      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
-      "published": "2026-11-26T06:10:56+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Служители от Агенцията по вписванията в София излязоха на едночасова стачка с искане за увеличение на възнагражденията",
+      "summary": "Служители от Агенцията по вписванията в София излязоха на едночасова стачка с искане за увеличение на възнагражденията. Стачката е част от едночасова ефективна стачка в цялата страна в рамките на протестните действия на Синдиката на административните служители",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254862-sluzhiteli-ot-agentsiyata-po-vpisvaniyata-v-sofiya-izlyazoha-na-ednochasova-stac",
+      "published": "2026-11-26T10:09:30+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 94
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU leaders brace for a summit ‘bloodbath’",
-      "summary": "Presented by Fusion for Energy.",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-leaders-brace-for-a-summit-bloodbath/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T05:05:00+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Българистиката е опора на идентичността ни, каза президентът Илияна Йотова при откриването на международен форум в БАН",
+      "summary": "Българистиката е опора на националната ни идентичност, каза президентът Илияна Йотова при откриването на международния форум „Българистиката в съвременния свят – проблеми и предизвикателства“. Събитието започна днес в зала „Проф. Марин Дринов“ на Българската а",
+      "url": "https://www.bta.bg/bg/news/lik/1254856-balgaristikata-e-opora-na-identichnostta-ni-kaza-prezidentat-iliyana-yotova-pri",
+      "published": "2026-11-26T10:03:25+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "US announces new tariffs on host of countries including China",
-      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T04:10:58+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
+        "timeliness": 100,
+        "source_reliability": 90
       }
     }
   ],
