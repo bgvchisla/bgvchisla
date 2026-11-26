@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T05:41:27.619497+00:00",
-  "last_checked_at": "2026-11-26T05:41:27.619509+00:00",
+  "updated_at": "2026-11-26T06:39:04.466528+00:00",
+  "last_checked_at": "2026-11-26T06:39:04.466541+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -81,13 +81,32 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "5 budget battles to watch at the EU summit",
-      "summary": "From farmers' subsidies to tech taxes, leaders are expected to disagree over almost everything at the European Council.",
-      "url": "https://www.politico.eu/article/5-budget-battles-to-watch-at-the-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T03:00:00+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 26th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-morning",
+      "published": "2026-11-26T06:00:32+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Елена ще разгледа информация за текущото изпълнението на инвестиционната програма и състоянието на общинския дълг",
+      "summary": "Общинският съвет в Елена ще разгледа информация за текущото изпълнение на бюджета, инвестиционната програма, сметките за средства от Европейския съюз и състоянието на общинския дълг към 30 септември 2026 г. Това предвижда дневният ред на заседанието на Общинск",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254349-obshtinskiyat-savet-v-elena-shte-razgleda-informatsiya-za-tekushtoto-izpalneniet",
+      "published": "2026-11-26T06:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 48,
@@ -95,7 +114,7 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 92
+        "source_reliability": 90
       }
     },
     {
@@ -115,6 +134,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "5 budget battles to watch at the EU summit",
+      "summary": "From farmers' subsidies to tech taxes, leaders are expected to disagree over almost everything at the European Council.",
+      "url": "https://www.politico.eu/article/5-budget-battles-to-watch-at-the-eu-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T03:00:00+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -181,25 +219,6 @@
       "summary": "A truck carrying fuel reportedly overturned on a busy highway, setting vehicles ablaze and prompting a major emergency response. Authorities warned that the death toll could rise.",
       "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
       "published": "2026-11-25T19:56:45+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Greece: 14,000 march in Athens against rising living costs",
-      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
-      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
-      "published": "2026-11-25T18:20:44+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 39,
@@ -309,25 +328,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Бяла ще разгледа предложение за изграждане на втора клетка на регионалното депо за отпадъци",
-      "summary": "Общинският съвет в Бяла ще реши на заседание днес дали да даде съгласие Общината като водещ партньор в Регионалното сдружение за управление на отпадъците да подаде заявление за кандидатстване пред Предприятието за управление на дейностите по опазване на околна",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254301-obshtinskiyat-savet-v-byala-shte-razgleda-predlozhenie-za-izgrazhdane-na-vtora-k",
-      "published": "2026-11-26T05:25:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Народното събрание одобри на първо четене бюджета за 2027 г.",
       "summary": "",
@@ -404,6 +404,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Иваново ще обсъди промени в бюджета и инвестиции във ВиК инфраструктурата",
+      "summary": "Общинският съвет в Иваново ще разгледа информация за изменението на общинския бюджет за третото тримесечие на 2026 г., корекции в капиталовата програма и инвестиции във ВиК инфраструктурата. Това показва дневният ред за заседанието, публикуван на интернет стра",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254663-obshtinskiyat-savet-v-ivanovo-shte-obsadi-promeni-v-byudzheta-i-investitsii-vav-",
+      "published": "2026-11-26T05:45:52+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
       "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
@@ -438,6 +457,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Greece: 14,000 march in Athens against rising living costs",
+      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
+      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
+      "published": "2026-11-25T18:20:44+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -479,6 +517,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общо 17 души са ранени при 12 тежки пътни произшествия през изминалото денонощие",
+      "summary": "Общо 17 души са ранени при 12 тежки пътни произшествия през изминалото денонощие в страната, съобщиха от Министерството на вътрешните работи на сайта си. В София са регистрирани 36 леки пътнотранспортни произшествия. От началото на месеца при 382 катастрофи в",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254666-obshto-17-dushi-sa-raneni-pri-12-tezhki-patni-proizshestviya-prez-izminaloto-den",
+      "published": "2026-11-26T05:42:08+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 25th, 2026 – Morning",
@@ -487,13 +544,13 @@
       "published": "2026-11-25T06:00:33+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 91
       }
     },
@@ -533,25 +590,6 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Хисаря ще разгледа план за ползване на дървесина за 2027 година",
-      "summary": "Общинският съвет в Хисаря ще разгледа предложение за приемане на Годишен план за ползване на дървесина за 2027 г. на Общинско предприятие „Общинско горско стопанство – Хисаря“. Това е една от точките в дневния ред на заседанието, публикуван на страницата на Об",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253938-obshtinskiyat-savet-v-hisarya-shte-razgleda-plan-za-polzvane-na-darvesina-za-202",
-      "published": "2026-11-26T05:15:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -609,44 +647,6 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинска собственост, финанси и транспортна схема ще обсъди Общинският съвет в Оряхово",
-      "summary": "Въпроси, свързани с управлението на общинската собственост, финансирането на местни дейности и промени в общинската транспортна схема, ще разгледа Общинският съвет в Оряхово на редовното си заседание. Проектът за дневен ред е публикуван на сайта на общинска ад",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253807-obshtinska-sobstvenost-finansi-i-transportna-shema-shte-obsadi-obshtinskiyat-sa",
-      "published": "2026-11-26T05:21:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Финансиране на социални услуги, общински имоти и читалищна дейност са сред темите на заседанието на Общинския съвет в Дупница",
-      "summary": "Общинският съвет в Дупница ще проведе редовно заседание. В предварителния дневен ред са включени 22 точки, свързани с финансови, социални, инфраструктурни и имуществени въпроси, според публикувания на страницата на Общината предварителен дневен ред. Сред предл",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253932-finansirane-na-sotsialni-uslugi-obshtinski-imoti-i-chitalishtna-deynost-sa-sred",
-      "published": "2026-11-26T05:19:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -878,25 +878,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Teachers clash with police during nationwide strike over education cuts in Chile",
-      "summary": "Thousands of teachers marched in Santiago during a nationwide strike against proposed budget cuts to public and higher education, with some protesters clashing with police.",
-      "url": "https://www.euronews.com/video/2026/11/25/teachers-clash-with-police-during-nationwide-strike-over-education-cuts-in-chile",
-      "published": "2026-11-25T06:23:23+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Боян Томов: Бизнесът иска предвидимост, за да може да работи",
@@ -951,6 +932,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Teachers clash with police during nationwide strike over education cuts in Chile",
+      "summary": "Thousands of teachers marched in Santiago during a nationwide strike against proposed budget cuts to public and higher education, with some protesters clashing with police.",
+      "url": "https://www.euronews.com/video/2026/11/25/teachers-clash-with-police-during-nationwide-strike-over-education-cuts-in-chile",
+      "published": "2026-11-25T06:23:23+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 91
       }
     },
     {
@@ -1011,14 +1011,14 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Троян ще разгледат предложения за актуализация на бюджета и награждаване на изявени спортисти",
-      "summary": "Актуализация на бюджета и поименния списък за капиталови разходи, награждаване на изявени спортисти и отпускане на еднократна финансова помощ за траурната церемония на почетния гражданин на Троян Владимир Киров са сред акцентите в днешното заседание на Общинск",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254462-obshtinskiyat-savet-v-troyan-shte-razgledat-predlozheniya-za-aktualizatsiya-na-b",
-      "published": "2026-11-26T05:25:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
+      "summary": "Brazil indignant about proposed tariffs on sugar and aircraft, while Beijing says new levies amount to ‘political manipulation’ Trump proposing new tariffs on 14 partners including China and EU Brazil has said it will not bend to the new US tariff “threat” and",
+      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "published": "2026-11-26T06:10:56+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 30,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -1026,16 +1026,16 @@
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 90
+        "source_reliability": 94
       }
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Долни Дъбник ще гласува актуализация на бюджета на Община Долни Дъбник за 2026 г.",
-      "summary": "Общинският съвет в Долни Дъбник на редовно заседание ще гласува актуализация на бюджета на Община Долни Дъбник за 2026 г. Това е записано в публикувания на официалната интернет страница на Общината предварителен дневен ред. Съветниците ще обсъдят дали да се ра",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253948-obshtinskiyat-savet-v-dolni-dabnik-shte-glasuva-aktualizatsiya-na-byudzheta-na-o",
-      "published": "2026-11-26T05:15:00+00:00",
+      "title": "Общинският съвет в Левски ще избира нов председател",
+      "summary": "Избор на нов председател е първа точка в дневния ред на днешното редовно заседание на Общинския съвет (ОбС) в Левски. Това е записано в предоставените на БТА материали за сесията. Вносител на предложението за избор на нов председател са група общински съветниц",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254226-obshtinskiyat-savet-v-levski-shte-izbira-nov-predsedatel",
+      "published": "2026-11-26T06:00:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 30,
@@ -1088,44 +1088,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
-      "summary": "Brazil indignant about proposed tariffs on sugar and aircraft, while Beijing says new levies amount to ‘political manipulation’ Trump proposing new tariffs on 14 partners including China and EU Brazil has said it will not bend to the new US tariff “threat” and",
-      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
-      "published": "2026-11-26T03:54:24+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "This Riviera mayor wants to bring Javier Milei’s chainsaw politics to France",
-      "summary": "The right-wing challenger wants sweeping spending cuts, looser business rules and tougher immigration controls.",
-      "url": "https://www.politico.eu/article/lisnard-riviera-mayor-wants-milei-chainsaw-politics-france-presidential-candidate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T03:00:00+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
       "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much. Allow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
@@ -1160,25 +1122,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "\"Булгаргаз\" поиска \"Топлофикация София\" да признае 302 млн. евро дълг с изтичаща давност",
-      "summary": "",
-      "url": "https://www.investor.bg/a/518-energetika/440062-bulgargaz-poiska-toplofikatsiya-sofiya-da-priznae-302-mln-evro-dalg-s-iztichashta-davnost",
-      "published": "2026-11-25T13:00:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 87
       }
     },
     {
@@ -1279,6 +1222,63 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Абел Томпа и Ева Кобор ще изнесат във Варненската опера концерт с творби на Брамс, Корнголд и Елгар",
+      "summary": "Симфоничен концерт с музика на Брамс, Корнголд и Елгар ще звучи в рамките на Коледния музикален фестивал на Варненската опера тази вечер в 19:00 ч. На диригентския пулт ще застане румънският диригент Абел Томпа, а солистка ще бъде младата френска цигуларка Ева",
+      "url": "https://www.bta.bg/bg/news/lik/1254365-abel-tompa-i-eva-kobor-shte-iznesat-vav-varnenskata-opera-kontsert-s-tvorbi-na-b",
+      "published": "2026-11-26T06:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Доц. Бойко Великов ще представи втори том на книгата си „Политическа психология в България\"",
+      "summary": "Доц. Бойко Великов ще представи втори том на книгата си „Политическа психология в България\" тази вечер в зала „Шипка\" на столичния хотел „Кристъл палас\", съобщи авторът. Подзаглавието на изданието е „Исторически събития и личности през Българското възраждане”.",
+      "url": "https://www.bta.bg/bg/news/lik/1254629-dots-boyko-velikov-shte-predstavi-vtori-tom-na-knigata-si-politicheska-psiholo",
+      "published": "2026-11-26T06:15:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "„Тренд“ отчита ръст на положителните оценки за президентската институция и увеличение на подкрепата за „Продължаваме промяната“ и „Възраждане“",
+      "summary": "„Продължаваме промяната“ и „Възраждане“ увеличават електоралната си подкрепа след президентските избори. Отчита се ръст на положителните оценки за президентската институция. Съотношението между хората, които предпочитат настоящото правителство да продължи да у",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254669--trend-otchita-rast-na-polozhitelnite-otsenki-za-prezidentskata-institutsiya-i-",
+      "published": "2026-11-26T06:07:08+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Общо 94 пожара са потушени в страната през изминалото денонощие",
       "summary": "През изминалото денонощие в страната са потушени 94 пожара, съобщиха от Главна дирекция „Пожарна безопасност и защита на населението“ (ГДПБЗН) на сайта си. Пожарникарите са реагирали на 125 сигнала за произшествия. Регистрирани са четири фалшиви повиквания. Пр",
       "url": "https://www.bta.bg/bg/news/bulgaria/1254664-obshto-94-pozhara-sa-potusheni-v-stranata-prez-izminaloto-denonoshtie",
@@ -1296,41 +1296,41 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Националният литературен музей ще връчи за първи път наградата за литературна история и памет „Славослов“",
-      "summary": "Националният литературен музей (НЛМ) ще връчи за първи път Националната награда за литературна история и памет „Славослов“ днес в къщата музей „Иван Вазов“ в София. Отличието е учредено в годината на 50-годишнината от създаването на музея и по повод 100-годишн",
-      "url": "https://www.bta.bg/bg/news/lik/1254624-natsionalniyat-literaturen-muzey-shte-vrachi-za-parvi-pat-nagradata-za-literatur",
-      "published": "2026-11-26T05:30:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "This Riviera mayor wants to bring Javier Milei’s chainsaw politics to France",
+      "summary": "The right-wing challenger wants sweeping spending cuts, looser business rules and tougher immigration controls.",
+      "url": "https://www.politico.eu/article/lisnard-riviera-mayor-wants-milei-chainsaw-politics-france-presidential-candidate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T03:00:00+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Нормален е трафикът на всички гранични преходи и пунктове, съобщиха от „Гранична полиция“",
-      "summary": "Трафикът е нормален на всички гранични преходи и гранични контролно-пропускателни пунктове (ГКПП) в страната, съобщиха от Главна дирекция „Гранична полиция“. Информацията е към 6:00 ч. На границата с Румъния трафикът е нормален на всички гранични преходи. Фери",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254662-normalen-e-trafikat-na-vsichki-granichni-prehodi-i-punktove-saobshtiha-ot-gran",
-      "published": "2026-11-26T05:20:55+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Federal Reserve",
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+      "published": "2026-11-25T20:00:00+00:00",
+      "feed_id": "federal-reserve",
+      "publisher": "Федерален резерв",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 99
       }
     }
   ],
