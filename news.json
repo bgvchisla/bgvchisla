@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T03:38:51.419899+00:00",
-  "last_checked_at": "2026-11-26T03:38:51.419911+00:00",
+  "updated_at": "2026-11-26T04:45:20.679203+00:00",
+  "last_checked_at": "2026-11-26T04:45:20.679216+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -37,7 +37,7 @@
         "national_impact": 61,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -61,25 +61,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Не можем да подкрепим закон за бюджет, който предвижда много висока инфлация, по-високи цени, обедняване, заявиха от ГЕРБ-СДС",
-      "summary": "ПГ ГЕРБ-СДС няма как да подкрепи такъв закон за бюджета, защото на първо място той предвижда много висока инфлация, съответно много по-високи цени, обедняване на българските граждани, води до увеличаване на данъчната тежест, до много по-висок дефицит и нов дъл",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254576-ne-mozhem-da-podkrepim-zakon-za-byudzhet-koyto-predvizhda-mnogo-visoka-inflatsi",
-      "published": "2026-11-25T18:41:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 48,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "€561 Billion and Still Not Enough: Germany's 2027 Budget Exposes a Coalition on the Brink",
@@ -88,42 +69,61 @@
       "published": "2026-11-25T16:06:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 48,
+      "priority_score": 47,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 95
       }
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Парламентът прие на първо четене Законопроекта за държавния бюджет за 2027 г.",
-      "summary": "Парламентът прие на първо четене Законопроекта за държавния бюджет за 2027 г. със 126 гласа \"за\", 81 \"против\" и без въздържали се. Подкрепиха го единствено от \"Прогресивна България\", а останалите парламентарни групи гласуваха \"против\". Министърът на финансите",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254587-parlamentat-prie-na-parvo-chetene-zakonoproekta-za-darzhavniya-byudzhet-za-2027-",
-      "published": "2026-11-25T18:49:00+00:00",
+      "title": "Общинският съвет в Рудозем ще разгледа отчета за изпълнението на проектите през 2026 г.",
+      "summary": "Проекти за осигуряване на топъл обяд, енергийно обновяване на обществени и жилищни сгради и реконструкция на уличната мрежа са изпълнявани в община Рудозем през 2026 г. Това се посочва в отчета за изпълнението на проектите, реализирани от Община Рудозем, който",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254432-obshtinskiyat-savet-v-rudozem-shte-razgleda-otcheta-za-izpalnenieto-na-proektite",
+      "published": "2026-11-26T04:44:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 45,
+      "priority_score": 43,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 100,
-        "household_business_impact": 0,
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Кюстендил ще обсъди актуализация на бюджета, енергийно обновяване на сгради и регионален център за устойчиви производства",
+      "summary": "Общинският съвет в Кюстендил ще проведе редовно заседание в заседателната зала на общината. В предварителния дневен ред са включени 19 точки, свързани с бюджета, европейски проекти, общинската собственост, транспорта, образованието и горските територии, предви",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254009-obshtinskiyat-savet-v-kyustendil-shte-obsadi-aktualizatsiya-na-byudzheta-energi",
+      "published": "2026-11-26T04:31:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 43,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 90
       }
     },
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Liberals ‘tossing up whether to leave or remain’, Albanese says; Coalition warns energy prices to cause Christmas ‘pain’",
+      "title": "Australian politics live: Chalmers says unemployment rise a ‘very bad development’; Liberals ‘tossing up whether to leave or remain’, PM says",
       "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation –",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
-      "published": "2026-11-26T03:33:25+00:00",
+      "published": "2026-11-26T04:34:13+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 40,
@@ -156,25 +156,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-      "summary": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people, Egyptian authorities",
-      "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
-      "published": "2026-11-26T00:39:10+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "ЕЦБ: Данъкът върху свръхпечалбите на банките може да засегне финансовата стабилност на България",
@@ -195,21 +176,21 @@
     },
     {
       "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "Press briefing - Transport, Telecommunications and Energy Council (Transport and Telecommunications) of 30 November and 1 December 2026",
-      "summary": "The press briefing ahead of the Transport, Telecommunications and Energy Council will take place on Friday, 27 November 2026 at 14:00.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/press-briefing-transport-telecommunications-and-energy-council-transport-and-telecommunications-of-30-november-and-1-december-2026/",
-      "published": "2026-11-25T16:00:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
-      "priority_score": 40,
+      "source": "The Guardian – World",
+      "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+      "summary": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people, Egyptian authorities",
+      "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+      "published": "2026-11-26T00:39:10+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 92,
-        "source_reliability": 99
+        "source_reliability": 94
       }
     },
     {
@@ -286,6 +267,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "Press briefing - Transport, Telecommunications and Energy Council (Transport and Telecommunications) of 30 November and 1 December 2026",
+      "summary": "The press briefing ahead of the Transport, Telecommunications and Energy Council will take place on Friday, 27 November 2026 at 14:00.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/press-briefing-transport-telecommunications-and-energy-council-transport-and-telecommunications-of-30-november-and-1-december-2026/",
+      "published": "2026-11-25T16:00:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -404,6 +404,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "План за градска мобилност и дигитализация на дейностите по поддръжка на общинската инфраструктура ще обсъдят съветниците в Силистра",
+      "summary": "Общинският съвет в Силистра ще обсъди промени в бюджета на общината за 2026 г., изменение на наредбата за местните такси и цени на услугите, както и планове и програми в областта на градското планиране и поддръжката на инфраструктурата. Това показва дневният р",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253958-plan-za-gradska-mobilnost-i-digitalizatsiya-na-deynostite-po-poddrazhka-na-obsht",
+      "published": "2026-11-26T04:23:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 43,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
       "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
@@ -419,25 +438,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "\"Възраждане\" е категорично против този бюджет, който ни загробва, вдига данъците, обяви Цончо Ганев",
-      "summary": "„Възраждане“ е категорично против този бюджет, който ни загробва, вдига данъците поголовно и не прави нищо за най-бедната част от населението, която е над 60%, заяви Цончо Ганев при обсъждането на план-сметката на държавата за следващата година. По думите му б",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254545--vazrazhdane-e-kategorichno-protiv-tozi-byudzhet-koyto-ni-zagrobva-vdiga-dana",
-      "published": "2026-11-25T17:51:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
       }
     },
     {
@@ -556,30 +556,30 @@
     },
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Кой стои зад проекта за завод за барут край Хасково?",
-      "summary": "Семейни бизнеси с дългогодишен опит в международната търговия с оръжие и турски компании от отбранителната индустрия стоят зад проекта за изграждане на завод за барут край хасковското село Бодрово. Инвестицията е на стойност над 250 млн. евро, а за реализацият",
-      "url": "https://www.economic.bg/bg/a/view/koj-stoi-zad-proekta-za-zavod-za-barut-kraj-haskovo",
-      "published": "2026-11-25T16:00:17+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
+      "source": "БТА",
+      "title": "Изпълнението на бюджета, актуализация на капиталовата програма са част от темите, които ще разгледат общинските съветници в Бяла Слатина",
+      "summary": "Общинският съвет в Бяла Слатина ще заседава от 17:00 часа, а в предварителния дневен ред, публикуван на сайта на администрацията, са включени отчети за дейността на местния парламент и изпълнението на неговите решения, информация за касовото изпълнение на общи",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253828-izpalnenieto-na-byudzheta-aktualizatsiya-na-kapitalovata-programa-sa-chast-ot-t",
+      "published": "2026-11-26T04:44:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 36,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 22,
+        "economic_significance": 28,
+        "national_impact": 61,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 85
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Coalition would privatise Melbourne’s sewage treatment while selling state-owned land and renewables to fund Victorian election promises",
+      "title": "Coalition would privatise Melbourne’s sewage treatment while selling state land and renewables to fund Victorian election promises and cut debt",
       "summary": "Liberal and Nationals’ pre-election policy costings also reveal that ‘air rights’ between Richmond train station and the MCG would be sold Follow our Australia politics live blog for latest updates Victorian election 2026 guide: what you need to know Confused",
       "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
-      "published": "2026-11-26T02:35:09+00:00",
+      "published": "2026-11-26T04:34:12+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 35,
@@ -590,6 +590,44 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Тервел ще обсъди отпускане на безлихвен заем за училището в Коларци и именуване на нова улица",
+      "summary": "Отпускане на временен безлихвен заем за Обединено училище „Д-р Петър Берон“ в село Коларци, именуване на новоизградена улица в Тервел и промени в разчетите за капиталови разходи на общината за 2026 година са сред предложенията, които ще разгледа Общинският съв",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254207-obshtinskiyat-savet-v-tervel-shte-obsadi-otpuskane-na-bezlihven-zaem-za-uchilish",
+      "published": "2026-11-26T04:27:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Самоков ще обсъди промени в бюджета и допълнителни средства за реконструкция на ул. „Отец Паисий“",
+      "summary": "Общинският съвет в Самоков ще обсъди промени в бюджета за 2026 г., сред които допълване на списъка с капиталови разходи с 93 833 евро за реконструкция на инженерната инфраструктура, пътната настилка и тротоарите по ул. „Отец Паисий“. Това предвижда дневният ре",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253866-obshtinskiyat-savet-v-samokov-shte-obsadi-promeni-v-byudzheta-i-dopalnitelni-sre",
+      "published": "2026-11-26T04:20:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -613,40 +651,21 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство",
-      "summary": "Мартин Димитров от \"Демократична България\" прочете параметрите на проектобюджета на държавата през погледа на тричленно семейство. По време на дебата на първо четене в пленарната зала той посочи, че премиерът е сравнил бюджета за 2027 г. с камион без спирачки,",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254583-martin-dimitrov-ot-demokratichna-balgariya-prochete-parametrite-na-proektobyud",
-      "published": "2026-11-25T18:47:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "source": "Economic.bg",
+      "title": "Кой стои зад проекта за завод за барут край Хасково?",
+      "summary": "Семейни бизнеси с дългогодишен опит в международната търговия с оръжие и турски компании от отбранителната индустрия стоят зад проекта за изграждане на завод за барут край хасковското село Бодрово. Инвестицията е на стойност над 250 млн. евро, а за реализацият",
+      "url": "https://www.economic.bg/bg/a/view/koj-stoi-zad-proekta-za-zavod-za-barut-kraj-haskovo",
+      "published": "2026-11-25T16:00:17+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 35,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
+        "economic_significance": 48,
+        "national_impact": 22,
         "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Осем задържани в България заради предполагаема схема за измама с европейски субсидии, се казва в съобщение на Европейската прокуратура",
-      "summary": "По искане на офиса на Европейската прокуратура в София, днес са задържани осем души, сред които петима представители на публичната власт, по подозрение за участие в организирана престъпна група с цел измама с финансови средства от бюджета на ЕС, отпуснати на о",
-      "url": "https://www.bta.bg/bg/news/world/1254586-osem-zadarzhani-v-balgariya-zaradi-predpolagaema-shema-za-izmama-s-evropeyski-su",
-      "published": "2026-11-25T18:33:35+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -746,25 +765,6 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Trump's accounts traded Nvidia shares 44 times this year, records show",
-      "summary": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant.",
-      "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T16:42:11+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
       "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
@@ -783,22 +783,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинските съветници в Момчилград приеха актуализация на разпределение на капиталовите разходи през 2026 г.",
-      "summary": "Последна за годината актуализация на разчета за поименно разпределение на капиталовите разходи на Община Момчилград приеха на заседание общинските съветници. То включва обекти, финансирани от различни източници, сред които инфраструктурни и социални. Годишна п",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254581-obshtinskite-savetnitsi-v-momchilgrad-prieha-aktualizatsiya-na-razpredelenie-na-",
-      "published": "2026-11-25T19:00:27+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Trump's accounts traded Nvidia shares 44 times this year, records show",
+      "summary": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant.",
+      "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T16:42:11+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 33,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 90
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -1012,25 +1012,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
-      "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much. Allow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
-      "published": "2026-11-25T15:42:36+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU plans €50 billion sovereign tech equity fund to boost quantum technology",
       "summary": "The European Commission proposed a tech fund with a target size of €50 billion to boost quantum computing efforts. The bloc aims to keep up with the US and China in the global race.",
@@ -1068,12 +1049,50 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Чирпан ще обсъди актуализация на бюджета за 2026 година",
+      "summary": "Актуализация на бюджета на община Чирпан за 2026 г. ще обсъдят общинските съветници на днешното си редовно заседание. Това е първа точка в проекта за дневен ред на Общинския съвет, публикуван на интернет страницата на администрацията. В дневния ред са включени",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254048-obshtinskiyat-savet-v-chirpan-shte-obsadi-aktualizatsiya-na-byudzheta-za-2026-go",
+      "published": "2026-11-26T04:35:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Проектобюджетът за 2027 г. и финансовото подпомагане на семейства и студенти ще обсъди Общинският съвет в Козлодуй",
+      "summary": "Проектобюджетът на община Козлодуй за 2027 г., финансовото подпомагане на семейства с репродуктивни проблеми, родители на новородени и осиновени деца, както и на студенти са сред въпросите, които ще разгледа Общинският съвет в Козлодуй на редовното си заседани",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253811-proektobyudzhetat-za-2027-g-i-finansovoto-podpomagane-na-semeystva-i-studenti-s",
+      "published": "2026-11-26T04:24:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "US announces new tariffs on host of countries including China",
       "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
       "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T03:01:40+00:00",
+      "published": "2026-11-26T04:10:58+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 30,
@@ -1084,6 +1103,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
+      "summary": "Brazil indignant about proposed tariffs on sugar and aircraft, while Beijing says new levies amount to ‘political manipulation’ Trump proposing new tariffs on 14 partners including China and EU Brazil has said it will not bend to the new US tariff “threat” and",
+      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "published": "2026-11-26T03:54:24+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -1103,6 +1141,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
+      "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much. Allow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
+      "published": "2026-11-25T15:42:36+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     },
     {
@@ -1239,98 +1296,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Federal Reserve",
-      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-      "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
-      "published": "2026-11-25T20:00:00+00:00",
-      "feed_id": "federal-reserve",
-      "publisher": "Федерален резерв",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Гърция предлага пилотен план за сухопътен маршрут за износ на украинско зърно",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/440087-gartsiya-predlaga-piloten-plan-za-suhopaten-marshrut-za-iznos-na-ukrainsko-zarno",
-      "published": "2026-11-25T17:54:09+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Macron threatens to stop negotiating EU budget after December",
-      "summary": "The French president's ultimatum ramps up pressure on negotiators ahead of a budget-focused European Council meeting.",
-      "url": "https://www.politico.eu/article/emmanuel-macron-threatens-stop-negotiating-eu-budget-after-december/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T16:40:20+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Canada says it ‘does not report to the US’ after Pentagon criticizes military spending",
-      "summary": "Scathing US document memo supposedly ‘atrophied’ defence capabilities of its northern neighbour Canada is a “sovereign nation” that does not “report” to the United States, the country’s defense minister said after the Pentagon released a scathing memo that cri",
-      "url": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo",
-      "published": "2026-11-24T22:02:13+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Жълт код за опасност от поледици е обявен в осем области в страната",
+      "summary": "Жълт код за опасност от поледици е обявен в осем области в Западна България, съобщиха от Националния институт по метеорология и хидрология (НИМХ) на сайта си. Предупредителният код е обявен за областите Видин, Монтана, Враца, София-град, София област, Перник,",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254484-zhalt-kod-za-opasnost-ot-poleditsi-e-obyaven-v-osem-oblasti-v-stranata",
+      "published": "2026-11-26T04:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 68,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Spain’s election: the end of a leftwing icon? - podcast",
-      "summary": "Madrid correspondent Sam Jones and European community affairs correspondent Ashifa Kassam report on a pivotal election in Spain this weekend, which could see longtime PM Pedro Sánchez replaced by a conservative coalition including the far right He has become a",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/26/spains-election-the-end-of-a-leftwing-icon-podcast",
-      "published": "2026-11-26T03:00:43+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
+        "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Благотворителна изложба базар на Светия синод на БПЦ в подкрепа на детски болнични отделения ще бъде открита в Народното събрание",
+      "summary": "Поредната съвместна благотворителна изложба базар на Светия синод на Българската православна църква - Българска патриаршия (БПЦ-БП) и на Народното събрание в подкрепа на детски болнични отделения у нас ще бъде открита днес в източното крило на парламента (площ",
+      "url": "https://www.bta.bg/bg/news/lik/1254622-blagotvoritelna-izlozhba-bazar-na-svetiya-sinod-na-bpts-v-podkrepa-na-detski-bol",
+      "published": "2026-11-26T04:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     }
   ],
