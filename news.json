@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T18:42:43.337888+00:00",
-  "last_checked_at": "2026-11-26T18:42:43.337897+00:00",
+  "updated_at": "2026-11-26T19:46:53.823090+00:00",
+  "last_checked_at": "2026-11-26T19:46:53.823103+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -12,13 +12,13 @@
       "published": "2026-11-26T16:27:43+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 51,
+      "priority_score": 50,
       "priority_breakdown": {
         "economic_significance": 68,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -94,6 +94,25 @@
         "national_impact": 74,
         "household_business_impact": 0,
         "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "По-висока данъчна оценка на имотите с 30% от 2027 г. и намаление с 23% на данъка за придобиване на жилище от млади семейства, прие парламентът",
+      "summary": "Увеличаване на данъчната оценка на имотите с 30% от 2027 г. и намаление с 23% на данъка при покупка на жилище от млади семейства до 30-годишна възраст с поне едно дете, прие окончателно парламентът. Депутатите гласуваха на второ четене промените в Закона за ме",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255534-po-visoka-danachna-otsenka-na-imotite-s-30-ot-2027-g-i-namalenie-s-23-na-dana",
+      "published": "2026-11-26T19:37:18+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
       }
@@ -232,25 +251,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Многонационалната бойна група на НАТО в България проведе тактическо учение",
-      "summary": "Многонационалната бойна група на НАТО в България проведе тактическо учение с бойни стрелби на ниво бригада „Тракия-26“, съобщиха от пресцентъра на Министерството на отбраната. Подготовката премина на учебните полигони „Ново село“ и „Корен“. В нея участваха вое",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255505-mnogonatsionalnata-boyna-grupa-na-nato-v-balgariya-provede-taktichesko-uchenie",
-      "published": "2026-11-26T18:08:45+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Press briefing - Transport, Telecommunications and Energy Council (Transport and Telecommunications) of 30 November and 1 December 2026",
@@ -308,6 +308,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
+      "published": "2026-11-26T19:30:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Лихвите при потребителските и жилищните заеми намаляват на годишна база през октомври",
@@ -324,25 +343,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
-      "summary": "Madrid's victory came after the Netherlands threw in the towel for the central bank's top job.",
-      "url": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T14:57:34+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
       }
     },
     {
@@ -392,13 +392,13 @@
       "published": "2026-11-26T16:12:13+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 49,
+      "priority_score": 48,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 61,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -411,13 +411,13 @@
       "published": "2026-11-26T07:41:09+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 47,
+      "priority_score": 46,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -468,13 +468,13 @@
       "published": "2026-11-26T16:00:25+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 41,
+      "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -593,6 +593,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Многонационалната бойна група на НАТО в България проведе тактическо учение",
+      "summary": "Многонационалната бойна група на НАТО в България проведе тактическо учение с бойни стрелби на ниво бригада „Тракия-26“, съобщиха от пресцентъра на Министерството на отбраната. Подготовката премина на учебните полигони „Ново село“ и „Корен“. В нея участваха вое",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255505-mnogonatsionalnata-boyna-grupa-na-nato-v-balgariya-provede-taktichesko-uchenie",
+      "published": "2026-11-26T18:08:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Greece: 14,000 march in Athens against rising living costs",
@@ -669,41 +688,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Министър Илин Димитров проведе среща с представители на туристическия бизнес и на институции в Банско преди началото на зимния сезон",
-      "summary": "Министърът на туризма Илин Димитров проведе среща с представители на туристическия бизнес и на институции в Банско. Срещата бе с цел да се провери готовността за предстоящия зимен сезон, като бяха обсъдени и различни казуси, които възникват пред институции и б",
-      "url": "https://www.bta.bg/bg/news/economy/1255465-ministar-ilin-dimitrov-provede-sreshta-s-predstaviteli-na-turisticheskiya-biznes",
-      "published": "2026-11-26T17:12:49+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Севлиево одобри временни заеми за проекти и подкрепи продажби на общински имоти",
-      "summary": "Общинският съвет в Севлиево прие предложения за предоставяне на временни безлихвени заеми, разпореждане с общинска собственост и промени в устройствените планове на населени места. На заседанието присъстваха 28 общински съветници. Сред обсъжданите въпроси беше",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255462-obshtinskiyat-savet-v-sevlievo-odobri-vremenni-zaemi-za-proekti-i-podkrepi-proda",
-      "published": "2026-11-26T17:10:17+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "On farewell trip, Steinmeier calls for more investment in Africa",
+      "summary": "Cote d'Ivoire, Ghana, Kenya: On his last trip to Africa, outgoing German President Frank-Walter Steinmeier called on companies at home to be bolder and seize opportunities in Africa.",
+      "url": "https://www.dw.com/en/on-farewell-trip-steinmeier-calls-for-more-investment-in-africa/a-80067717?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T17:23:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
       "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 90
+        "source_reliability": 95
       }
     },
     {
@@ -745,22 +745,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Екипажът на НИК 421 оказа помощ на претоварена лодка с мигранти край бреговете на Мароко",
-      "summary": "Екипажът на НИК 421 оказа помощ на претоварена лодка с мигранти край бреговете на Мароко, съобщават от ВВМУ. На 25.11.2026 г. научноизследователският кораб „Св. св. Кирил и Методий“ с бордови номер 421 от състава на Висшето военноморско училище „Н. Й. Вапцаров",
-      "url": "https://www.bta.bg/bg/news/lik/1255453-ekipazhat-na-nik-421-okaza-pomosht-na-pretovarena-lodka-s-migranti-kray-bregovet",
-      "published": "2026-11-26T17:03:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
+      "summary": "Madrid's victory came after the Netherlands threw in the towel for the central bank's top job.",
+      "url": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T14:57:34+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -790,25 +790,6 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440121-rastat-na-bankovoto-kreditirane-u-nas-se-zabavi-i-prez-oktomvri",
       "published": "2026-11-26T13:05:00+00:00",
       "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Заплатите в Германия са се увеличили реално с 1,3% през третото тримесечие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440127-zaplatite-v-germaniya-sa-se-uvelichili-realno-s-13-prez-tretoto-trimesechie",
-      "published": "2026-11-26T12:25:34+00:00",
-      "feed_id": "investor-economy",
       "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
@@ -973,25 +954,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
-      "summary": "Jamie Shea, former NATO spokesperson joined Euronews' new evening show Europe Tonight to discuss how Satellite systems could be affected and what would it mean for the world.",
-      "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
-      "published": "2026-11-25T19:20:03+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 76,
-        "timeliness": 82,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "БТА",
       "title": "Няма български гражданин, потърсил съдействието на дипломатическото ни представителство във връзка с инцидента между феновете на футболните клубове Левски и Олимпик Марсилия",
@@ -1031,6 +993,25 @@
     },
     {
       "section": "europe",
+      "source": "Euronews",
+      "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
+      "summary": "Jamie Shea, former NATO spokesperson joined Euronews' new evening show Europe Tonight to discuss how Satellite systems could be affected and what would it mean for the world.",
+      "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
+      "published": "2026-11-25T19:20:03+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 76,
+        "timeliness": 68,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
       "source": "Deutsche Welle",
       "title": "German firms eye Africa as global trade shocks hit traditional markets",
       "summary": "German businesses are optimistic about Africa, but Berlin's cautious approach to risk is holding them back from cashing in on the opportunities that their competitors from countries like the UAE and Turkey are seizing.",
@@ -1065,6 +1046,25 @@
         "strategic_significance": 32,
         "timeliness": 10,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "What would happen if Russia detonated a nuclear weapon in space?",
+      "summary": "⁠Sputnik-S, a nuclear-enabled satellite, has been assembled by Russia and could be launched in 60 days, reports say Russia is reportedly preparing to launch a nuclear-armed satellite into space later this year, in a scenario that could pose a significant threa",
+      "url": "https://www.theguardian.com/world/2026/nov/26/what-would-be-the-fallout-from-a-nuclear-armed-satellite-detonated-into-space",
+      "published": "2026-11-26T18:13:33+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -1187,7 +1187,7 @@
       "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
       "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
       "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T17:54:22+00:00",
+      "published": "2026-11-26T19:27:45+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 30,
@@ -1201,60 +1201,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
-      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T16:21:19+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 30,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Националната галерия откри изложбата „Кирил Цонев. От рисунката до картината“",
+      "summary": "„Кирил Цонев до последно експериментира, до последно си играе с техниките, до последно доказва как може да рисува в различен стил“, каза пред БТА реставраторката Кристина Белева, един от кураторите на изложбата „Кирил Цонев. От рисунката до картината“. Експози",
+      "url": "https://www.bta.bg/bg/news/lik/1255533-natsionalnata-galeriya-otkri-izlozhbata-kiril-tsonev-ot-risunkata-do-kartinata",
+      "published": "2026-11-26T19:14:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
-      "summary": "Thousands have gathered in the capital of northern Iraq's semiautonomous Kurdish region, waving flags and voicing opposition to plans for the federal government to take control of oil operations and border crossings.",
-      "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T16:13:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Trump says he wants Putin to ‘pull back all military aggression’ in Europe – as it happened",
-      "summary": "This blog is now closed The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not going to work. “The budget is too large and not sufficiently future-orien",
-      "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
-      "published": "2026-11-26T15:59:13+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 90
       }
     },
     {
@@ -1315,22 +1277,60 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Свищовската галерия гостува в Народното събрание с изложбата на акад. Александър Божинов \"Вечният съвременник\"",
-      "summary": "Художествената галерия „Николай Павлович“ в Свищов ще гостува в Народното събрание с изложбата „Вечният съвременник“, включваща творби на академик Александър Божинов, съобщиха от културната институция. Оттам допълниха, че официалното откриване на експозицията",
-      "url": "https://www.bta.bg/bg/news/lik/1255420-svishtovskata-galeriya-gostuva-v-narodnoto-sabranie-s-izlozhbata-na-akad-aleksa",
-      "published": "2026-11-26T17:00:20+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
+      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T16:21:19+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+      "summary": "Thousands have gathered in the capital of northern Iraq's semiautonomous Kurdish region, waving flags and voicing opposition to plans for the federal government to take control of oil operations and border crossings.",
+      "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T16:13:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Trump says he wants Putin to ‘pull back all military aggression’ in Europe – as it happened",
+      "summary": "This blog is now closed The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not going to work. “The budget is too large and not sufficiently future-orien",
+      "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
+      "published": "2026-11-26T15:59:13+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     }
   ],
