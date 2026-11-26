@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T14:50:00.686646+00:00",
-  "last_checked_at": "2026-11-26T14:50:00.686652+00:00",
+  "updated_at": "2026-11-26T15:50:53.005350+00:00",
+  "last_checked_at": "2026-11-26T15:50:53.005362+00:00",
   "items": [
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "„Демократична България“ предлага училищата, яслите, детските градини, студентските общежития да бъдат приравнени с битовите потребители на ток",
-      "summary": "„Демократична България“ предлага училищата, яслите, детските градини, студентските общежития да бъдат приравнени с битовите потребители на ток и така да бъдат компенсирани за високите цени. Това обяви пред журналисти в Народното събрание Анна Бодакова от парла",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255248--demokratichna-balgariya-predlaga-uchilishtata-yaslite-detskite-gradini-stud",
-      "published": "2026-11-26T14:16:00+00:00",
+      "title": "Въвеждане на данък върху свръхпечалбата на банки, телекоми и търговски вериги одобри Народното събрание на второ четене",
+      "summary": "Народното събрание одобри на второто четене законопроект за промени в Закона за корпоративното подоходно облагане, който предвижда еднократен данък върху свръхпечалбата за компании в определени икономически сфери. В обсега на данъка попадат банките, застрахова",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255354-vavezhdane-na-danak-varhu-svrahpechalbata-na-banki-telekomi-i-targovski-verigi-",
+      "published": "2026-11-26T15:24:55+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 54,
+      "priority_score": 53,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 87,
-        "household_business_impact": 59,
+        "economic_significance": 48,
+        "national_impact": 74,
+        "household_business_impact": 42,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -101,39 +101,20 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Тутракан одобри заеми за енергийно обновяване на два блока и предостави помещение на земеделска служба",
-      "summary": "Общинският съвет в Тутракан одобри временни безлихвени заеми за два проекта за енергийно обновяване на многофамилни жилищни сгради и прие решения за управление и разпореждане с общинска собственост. Това са част от решенията, гласувани на днешното заседание на",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255256-obshtinskiyat-savet-v-tutrakan-odobri-zaemi-za-energiyno-obnovyavane-na-dva-blok",
-      "published": "2026-11-26T14:14:24+00:00",
+      "title": "Общинският съвет във Видин прие декларация за финансирането на скоростния път Видин – Ботевград и подкрепи финансовото стимулиране на здравни специалисти",
+      "summary": "Общинският съвет във Видин прие декларация до държавните институции с настояване за осигуряване на достатъчно финансиране за скоростния път Видин – Ботевград и одобри допълнително финансово стимулиране на лекари специализанти и медицински специалисти, работещи",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255359-obshtinskiyat-savet-vav-vidin-prie-deklaratsiya-za-finansiraneto-na-skorostniya-",
+      "published": "2026-11-26T15:37:03+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 43,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Пътната карта за реформа в пенсионната система още е в процес на разработка",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/440110-patnata-karta-za-reforma-v-pensionnata-sistema-oshte-e-v-protses-na-razrabotka",
-      "published": "2026-11-26T10:00:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 40,
+      "priority_score": 41,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -152,6 +133,25 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Лихвите по новите депозити растат през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440130-lihvite-po-novite-depoziti-rastat-prez-oktomvri",
+      "published": "2026-11-26T14:32:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 87
       }
     },
@@ -425,7 +425,7 @@
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "What is the US permitting bill and would it actually help the climate?",
-      "summary": "A sweeping US bill to speed up energy projects has rare bipartisan support. Supporters say it would unlock clean energy and lower bills, but critics say it's a gift to fossil fuels.",
+      "summary": "Sweeping US legislation to speed up energy projects has found rare bipartisan support. Supporters say it would unlock clean energy and lower energy bills, but critics say it's a gift to fossil fuels.",
       "url": "https://www.dw.com/en/what-is-the-us-permitting-bill-and-would-it-actually-help-the-climate/a-80007213?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-26T11:22:00+00:00",
       "feed_id": "dw-world",
@@ -438,44 +438,6 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Европейското финансиране в Северозападна България нараства, но регионът продължава да привлича ограничен дял от ресурса, посочват ОИЦ",
-      "summary": "Европейското финансиране в Северозападния район се увеличава в абсолютна стойност, но делът му от общия инвестиционен ресурс за страната остава сравнително ограничен. Това показва анализ на изпълнението на кохезионната политика в България, направен от екипа на",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255281-evropeyskoto-finansirane-v-severozapadna-balgariya-narastva-no-regionat-prodalz",
-      "published": "2026-11-26T14:34:32+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Лихвите по новите депозити растат през октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440130-lihvite-po-novite-depoziti-rastat-prez-oktomvri",
-      "published": "2026-11-26T14:32:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
       }
     },
     {
@@ -552,25 +514,6 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
-      "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances responded to the crash, and Egyptian health authorities say the death toll could rise.",
-      "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T21:37:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 95
       }
     },
     {
@@ -652,17 +595,17 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Спортната зала в Завет не е пригодена за футбол, общината ще търси възможности за подобряване на условията",
-      "summary": "Спортната зала в Завет не е пригодена за футбол, а общинската администрация ще проучи възможностите за осигуряване на подходящи условия за практикуването на този спорт през зимните месеци. Това заяви кметът на общината Ахтер Велиев в отговор на въпрос на общин",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255300-sportnata-zala-v-zavet-ne-e-prigodena-za-futbol-obshtinata-shte-tarsi-vazmozhno",
-      "published": "2026-11-26T14:40:53+00:00",
+      "title": "Туроператори отчитат устойчив ръст на интереса към България, каза в Банско министърът на туризма",
+      "summary": "Туроператори отчитат устойчив ръст на интереса към България, каза пред журналисти министърът на туризма Илин Димитров, който посети планинския град, за да провери готовността на курорта за предстоящия зимен сезон. Димитров посочи, че според предварителна инфор",
+      "url": "https://www.bta.bg/bg/news/economy/1255372-turoperatori-otchitat-ustoychiv-rast-na-interesa-kam-balgariya-kaza-v-bansko-mi",
+      "published": "2026-11-26T15:44:55+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 35,
+      "priority_score": 36,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -670,11 +613,30 @@
     },
     {
       "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
+      "summary": "Madrid's victory came after the Netherlands threw in the towel for the central bank's top job.",
+      "url": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T14:57:34+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "EU leaders braced for clashes over Ukraine aid at budget talks",
-      "summary": "Slovakia, Hungary and Czechia want to opt out of €45bn Ukraine loan to fill funding black hole caused by Russia’s relentless attacks Europe live – latest updates EU leaders are bracing for a clash over long-term financial aid for Ukraine, amid an effort to fin",
+      "summary": "Slovakia, Hungary and Czechia want to opt out of €45bn Ukraine loan to fill funding black hole caused by Russia’s relentless attacks Europe live – latest updates EU leaders are bracing for a clash over long-term financial aid for Ukraine amid an effort to fina",
       "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks",
-      "published": "2026-11-26T12:07:14+00:00",
+      "published": "2026-11-26T14:56:58+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 35,
@@ -685,25 +647,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "TUI boss wants EU to cut bureaucracy, attract talent and expand green energy",
-      "summary": "Euronews spoke with TUI's CEO Sebastian Ebel about manure-powered cruise ships, migration, dependence on the US, Artificial Intelligence, and the future of tourism.",
-      "url": "https://www.euronews.com/2026/11/26/tui-boss-wants-eu-to-cut-bureaucracy-attract-talent-and-expand-green-energy",
-      "published": "2026-11-26T11:51:35+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
       }
     },
     {
@@ -764,25 +707,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "„БМФ Порт Бургас“ получи разрешение да реорганизира пристанищен терминал „Бургас-запад“",
-      "summary": "Правителството одобри промяна в концесионния договор на пристанищен терминал „Бургас-запад“, която ще позволи на концесионера, „БМФ Порт Бургас“ АД, да премахне сграда с отпаднало предназначение и да реорганизира част от пристанищните площи. Целта е да бъдат о",
-      "url": "https://www.economic.bg/bg/a/view/bmf-port-burgas-poluchi-razreshenie-da-reorganizira-pristanishten-terminal-burgas-zapad",
-      "published": "2026-11-25T15:04:28+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
@@ -799,25 +723,6 @@
         "strategic_significance": 32,
         "timeliness": 50,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Три празни товарни вагона са дерайлирали край Перник, няма пострадали",
-      "summary": "Три вагона от празна товарна композиция са дерайлирали между гарите Перник-разпределителна и Разменна, съобщиха за БТА от пресцентъра на Национална компания „Железопътна инфраструктура“ (НКЖИ). Движението в железопътния участък е преустановено от 13:46 ч. На м",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255254-tri-prazni-tovarni-vagona-sa-deraylirali-kray-pernik-nyama-postradali",
-      "published": "2026-11-26T14:23:28+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -873,27 +778,27 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Българският електромобил L CITY затъва в технически и финансови проблеми",
-      "summary": "Слаб пазар, липса на нови поръчки, над 108 хил. евро за проблемни компоненти и гаранционно обслужване и потенциален съдебен спор. Българският електромобил L CITY се сблъсква с поредното препятствие пред серийното си производство",
-      "url": "https://www.economic.bg/bg/a/view/bylgarskijat-elektromobil-l-city-zatyva-v-tehnicheski-i-finansovi-problemi",
-      "published": "2026-11-26T12:04:19+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
+      "section": "europe",
+      "source": "Euronews",
+      "title": "TUI boss wants EU to cut bureaucracy, attract talent and expand green energy",
+      "summary": "Euronews spoke with TUI's CEO Sebastian Ebel about manure-powered cruise ships, migration, dependence on the US, Artificial Intelligence, and the future of tourism.",
+      "url": "https://www.euronews.com/2026/11/26/tui-boss-wants-eu-to-cut-bureaucracy-attract-talent-and-expand-green-energy",
+      "published": "2026-11-26T11:51:35+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 85
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -916,41 +821,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU leaders seek agreement on long-term budget and Ukraine at summit",
-      "summary": "Leaders of the EU's 27 member states are expected to thrash out the EU's budget for 2028 to 2034. Ukraine and European Central Bank leadership are also up for discussion. DW has more.",
-      "url": "https://www.dw.com/en/eu-leaders-seek-agreement-on-long-term-budget-and-ukraine-at-summit/live-80056415?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T07:31:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "„БМФ Порт Бургас“ получи разрешение да реорганизира пристанищен терминал „Бургас-запад“",
+      "summary": "Правителството одобри промяна в концесионния договор на пристанищен терминал „Бургас-запад“, която ще позволи на концесионера, „БМФ Порт Бургас“ АД, да премахне сграда с отпаднало предназначение и да реорганизира част от пристанищните площи. Целта е да бъдат о",
+      "url": "https://www.economic.bg/bg/a/view/bmf-port-burgas-poluchi-razreshenie-da-reorganizira-pristanishten-terminal-burgas-zapad",
+      "published": "2026-11-25T15:04:28+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 74,
         "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Петролът продължава да поскъпва на фона на напрежението в Близкия изток*",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/440102-petrolat-prodalzhava-da-poskapva-na-fona-na-naprezhenieto-v-blizkiya-iztok",
-      "published": "2026-11-26T07:27:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 85
       }
     },
     {
@@ -975,7 +861,7 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Ministers have ‘failed to make the case’ for Heathrow third runway, MPs says",
+      "title": "Ministers have ‘failed to make the case’ for Heathrow third runway, MPs say",
       "summary": "Transport committee says policy papers show expanding airport would fall short of pledges on economy and climate Ministers have “failed to make the case” for a third runway at Heathrow , according to a damning report by MPs. The Commons transport committee sai",
       "url": "https://www.theguardian.com/environment/2026/nov/26/ministers-fail-to-make-case-for-heathrow-third-runway-mps-report-says",
       "published": "2026-11-26T13:43:36+00:00",
@@ -989,6 +875,25 @@
         "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Българският електромобил L CITY затъва в технически и финансови проблеми",
+      "summary": "Слаб пазар, липса на нови поръчки, над 108 хил. евро за проблемни компоненти и гаранционно обслужване и потенциален съдебен спор. Българският електромобил L CITY се сблъсква с поредното препятствие пред серийното си производство",
+      "url": "https://www.economic.bg/bg/a/view/bylgarskijat-elektromobil-l-city-zatyva-v-tehnicheski-i-finansovi-problemi",
+      "published": "2026-11-26T12:04:19+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -1220,6 +1125,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "От бюджета на Община Тетевен ще бъдат отпуснати общо около 2556 евро за десет новородени бебета",
+      "summary": "От бюджета на Община Тетевен ще бъдат отпуснати общо около 2556 евро за десет новородени бебета. Това реши на днешното си заседание на Общинският съвет, съобщи за БТА председателят Мария Стойчева. Средствата се отпускат по реда на Правилника за реда и условият",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255400-ot-byudzheta-na-obshtina-teteven-shte-badat-otpusnati-obshto-okolo-2556-evro-za-",
+      "published": "2026-11-26T15:46:25+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Николай Любенов е новият председател на Общинския съвет в Левски",
+      "summary": "Николай Любенов е новият председател на Общинския съвет в Левски. Той бе избран на редовната сесия на Общинския съвет. Предложението за избор на нов председател бе точка първа в дневния ред. Вносител на предложението за избор на нов председател са група общинс",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255357-nikolay-lyubenov-e-noviyat-predsedatel-na-obshtinskiya-savet-v-levski",
+      "published": "2026-11-26T15:28:03+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
@@ -1236,25 +1179,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "EU leaders ‘light-years away’ on agreeing budget at summit, warns Giorgia Meloni – Europe live",
-      "summary": "A number of leaders hope to agree to a budget before consequential elections around the continent The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not",
-      "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
-      "published": "2026-11-26T14:34:05+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
       }
     },
     {
@@ -1277,6 +1201,101 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Акад. Георги Марков е един от най-ярките и авторитетни съвременни български историци, смята чл.-кор. Евелина Славчева",
+      "summary": "Акад. Георги Марков е един от най-ярките и авторитетни съвременни български историци, който превърна историческото знание в жива обществена кауза. Това каза председателят на Българската академия на науките (БАН) чл.-кор. Евелина Славчева при честването на 80-а",
+      "url": "https://www.bta.bg/bg/news/lik/1255368-akad-georgi-markov-e-edin-ot-nay-yarkite-i-avtoritetni-savremenni-balgarski-ist",
+      "published": "2026-11-26T15:41:06+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Два проекта за близо 18 млн. евро получиха сертификати за инвестиции",
+      "summary": "",
+      "url": "https://www.investor.bg/a/524-industriya/440135-dva-proekta-za-blizo-18-mln-evro-poluchiha-sertifikati-za-investitsii",
+      "published": "2026-11-26T15:33:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Козлодуй прие решения за финансово подпомагане за студенти, семейства и жители със здравословни проблеми през 2027 г.",
+      "summary": "Решения за финансово подпомагане през следващата година на студенти, семейства с репродуктивни проблеми и с новородени или осиновени деца, както и на жители със сериозни здравословни проблеми приеха общинските съветници в Козлодуй. Общината ще продължи финанси",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255367-obshtinskiyat-savet-v-kozloduy-prie-resheniya-za-finansovo-podpomagane-za-studen",
+      "published": "2026-11-26T15:29:41+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "България търси нова ниша на туристическия пазар чрез климатолечението",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/440131-balgariya-tarsi-nova-nisha-na-turisticheskiya-pazar-chrez-klimatolechenieto",
+      "published": "2026-11-26T15:04:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "\"Лукойл\" си взима почивка от международните пазари и ще развива паралелен бизнес",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/440129-lukoyl-si-vzima-pochivka-ot-mezhdunarodnite-pazari-i-shte-razviva-paralelen-biznes",
+      "published": "2026-11-26T13:30:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
@@ -1285,13 +1304,13 @@
       "published": "2026-11-26T12:00:22+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
-      "priority_score": 30,
+      "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 94
       }
     },
@@ -1304,45 +1323,21 @@
       "published": "2026-11-26T12:00:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 30,
+      "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
-      "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much. Allow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
-      "published": "2026-11-25T15:42:36+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 99
       }
     }
   ],
   "feed_status": {
-    "ok": 20,
+    "ok": 21,
     "total": 21,
-    "failures": [
-      {
-        "feed": "economic-bg",
-        "error": "The read operation timed out"
-      }
-    ]
+    "failures": []
   },
   "notice": "Показваме заглавия и кратки описания от RSS/Atom емисиите. Пълният материал се чете на сайта на източника."
 }
