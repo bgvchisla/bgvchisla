@@ -1,27 +1,8 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T04:45:20.679203+00:00",
-  "last_checked_at": "2026-11-26T04:45:20.679216+00:00",
+  "updated_at": "2026-11-26T05:41:27.619497+00:00",
+  "last_checked_at": "2026-11-26T05:41:27.619509+00:00",
   "items": [
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "По-високи осигуровки и пенсии прие парламентът с бюджета на ДОО за 2027 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440074-po-visoki-osigurovki-i-pensii-prie-parlamentat-s-byudzheta-na-doo-za-2027-g",
-      "published": "2026-11-25T14:59:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 56,
-      "priority_breakdown": {
-        "economic_significance": 68,
-        "national_impact": 74,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 87
-      }
-    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -82,58 +63,20 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Рудозем ще разгледа отчета за изпълнението на проектите през 2026 г.",
-      "summary": "Проекти за осигуряване на топъл обяд, енергийно обновяване на обществени и жилищни сгради и реконструкция на уличната мрежа са изпълнявани в община Рудозем през 2026 г. Това се посочва в отчета за изпълнението на проектите, реализирани от Община Рудозем, който",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254432-obshtinskiyat-savet-v-rudozem-shte-razgleda-otcheta-za-izpalnenieto-na-proektite",
-      "published": "2026-11-26T04:44:00+00:00",
+      "title": "Парламентът ще обсъди на второ четене промени в Закона за данъците върху доходите на физическите лица, заложени са по-големи облекчения за деца",
+      "summary": "Парламентът ще обсъди на второ гласуване промени в Закона за данъците върху доходите на физическите лица според приетата програма за работа на депутатите. В проекта се залага по-висок размер на данъчните облекчения за деца - 5000 евро за едно дете, 10 000 евро",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254183-parlamentat-shte-obsadi-na-vtoro-chetene-promeni-v-zakona-za-danatsite-varhu-doh",
+      "published": "2026-11-26T05:30:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 43,
+      "priority_score": 46,
       "priority_breakdown": {
         "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Кюстендил ще обсъди актуализация на бюджета, енергийно обновяване на сгради и регионален център за устойчиви производства",
-      "summary": "Общинският съвет в Кюстендил ще проведе редовно заседание в заседателната зала на общината. В предварителния дневен ред са включени 19 точки, свързани с бюджета, европейски проекти, общинската собственост, транспорта, образованието и горските територии, предви",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254009-obshtinskiyat-savet-v-kyustendil-shte-obsadi-aktualizatsiya-na-byudzheta-energi",
-      "published": "2026-11-26T04:31:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 43,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Australian politics live: Chalmers says unemployment rise a ‘very bad development’; Liberals ‘tossing up whether to leave or remain’, PM says",
-      "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation –",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
-      "published": "2026-11-26T04:34:13+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 25,
-        "strategic_significance": 32,
+        "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 94
+        "source_reliability": 90
       }
     },
     {
@@ -346,6 +289,63 @@
       }
     },
     {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Coalition would privatise Melbourne’s sewage treatment while selling state land and renewables to fund Victorian election promises and cut debt",
+      "summary": "Liberal and Nationals’ pre-election policy costings also reveal that ‘air rights’ between Richmond train station and the MCG would be sold Follow our Australia politics live blog for latest updates Victorian election 2026 guide: what you need to know Confused",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
+      "published": "2026-11-26T05:30:32+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Бяла ще разгледа предложение за изграждане на втора клетка на регионалното депо за отпадъци",
+      "summary": "Общинският съвет в Бяла ще реши на заседание днес дали да даде съгласие Общината като водещ партньор в Регионалното сдружение за управление на отпадъците да подаде заявление за кандидатстване пред Предприятието за управление на дейностите по опазване на околна",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254301-obshtinskiyat-savet-v-byala-shte-razgleda-predlozhenie-za-izgrazhdane-na-vtora-k",
+      "published": "2026-11-26T05:25:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Народното събрание одобри на първо четене бюджета за 2027 г.",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440090-narodnoto-sabranie-odobri-na-parvo-chetene-byudzheta-za-2027-g",
+      "published": "2026-11-25T19:06:54+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Михаела Доцова: Убедена съм, че между 52-рото Народно събрание и президентството ще се осъществява конструктивен диалог в защита на държавността и на интересите на България",
@@ -404,25 +404,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "План за градска мобилност и дигитализация на дейностите по поддръжка на общинската инфраструктура ще обсъдят съветниците в Силистра",
-      "summary": "Общинският съвет в Силистра ще обсъди промени в бюджета на общината за 2026 г., изменение на наредбата за местните такси и цени на услугите, както и планове и програми в областта на градското планиране и поддръжката на инфраструктурата. Това показва дневният р",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253958-plan-za-gradska-mobilnost-i-digitalizatsiya-na-deynostite-po-poddrazhka-na-obsht",
-      "published": "2026-11-26T04:23:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 43,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
       "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
@@ -430,33 +411,14 @@
       "published": "2026-11-25T17:41:12+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 40,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 25th, 2026 – Evening",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-evening",
-      "published": "2026-11-25T17:00:26+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
       }
     },
     {
@@ -476,6 +438,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 25th, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-evening",
+      "published": "2026-11-25T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -557,17 +538,17 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Изпълнението на бюджета, актуализация на капиталовата програма са част от темите, които ще разгледат общинските съветници в Бяла Слатина",
-      "summary": "Общинският съвет в Бяла Слатина ще заседава от 17:00 часа, а в предварителния дневен ред, публикуван на сайта на администрацията, са включени отчети за дейността на местния парламент и изпълнението на неговите решения, информация за касовото изпълнение на общи",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253828-izpalnenieto-na-byudzheta-aktualizatsiya-na-kapitalovata-programa-sa-chast-ot-t",
-      "published": "2026-11-26T04:44:00+00:00",
+      "title": "Общинският съвет в Хисаря ще разгледа план за ползване на дървесина за 2027 година",
+      "summary": "Общинският съвет в Хисаря ще разгледа предложение за приемане на Годишен план за ползване на дървесина за 2027 г. на Общинско предприятие „Общинско горско стопанство – Хисаря“. Това е една от точките в дневния ред на заседанието, публикуван на страницата на Об",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253938-obshtinskiyat-savet-v-hisarya-shte-razgleda-plan-za-polzvane-na-darvesina-za-202",
+      "published": "2026-11-26T05:15:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 36,
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -576,77 +557,20 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Coalition would privatise Melbourne’s sewage treatment while selling state land and renewables to fund Victorian election promises and cut debt",
-      "summary": "Liberal and Nationals’ pre-election policy costings also reveal that ‘air rights’ between Richmond train station and the MCG would be sold Follow our Australia politics live blog for latest updates Victorian election 2026 guide: what you need to know Confused",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
-      "published": "2026-11-26T04:34:12+00:00",
+      "title": "UK to invest £9.5m in Ukraine windfarm to bolster war-hit energy system",
+      "summary": "Project capable of powering 300,000 homes, with Britain having offered more than £770m to rebuild energy sector Britain will add to its multimillion pound investments in rebuilding Ukraine’s energy system by funding a windfarm project capable of powering 300,0",
+      "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
+      "published": "2026-11-26T05:00:46+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 35,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
+        "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Тервел ще обсъди отпускане на безлихвен заем за училището в Коларци и именуване на нова улица",
-      "summary": "Отпускане на временен безлихвен заем за Обединено училище „Д-р Петър Берон“ в село Коларци, именуване на новоизградена улица в Тервел и промени в разчетите за капиталови разходи на общината за 2026 година са сред предложенията, които ще разгледа Общинският съв",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254207-obshtinskiyat-savet-v-tervel-shte-obsadi-otpuskane-na-bezlihven-zaem-za-uchilish",
-      "published": "2026-11-26T04:27:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Самоков ще обсъди промени в бюджета и допълнителни средства за реконструкция на ул. „Отец Паисий“",
-      "summary": "Общинският съвет в Самоков ще обсъди промени в бюджета за 2026 г., сред които допълване на списъка с капиталови разходи с 93 833 евро за реконструкция на инженерната инфраструктура, пътната настилка и тротоарите по ул. „Отец Паисий“. Това предвижда дневният ре",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253866-obshtinskiyat-savet-v-samokov-shte-obsadi-promeni-v-byudzheta-i-dopalnitelni-sre",
-      "published": "2026-11-26T04:20:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Народното събрание одобри на първо четене бюджета за 2027 г.",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440090-narodnoto-sabranie-odobri-na-parvo-chetene-byudzheta-za-2027-g",
-      "published": "2026-11-25T19:06:54+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
       }
     },
     {
@@ -685,6 +609,44 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинска собственост, финанси и транспортна схема ще обсъди Общинският съвет в Оряхово",
+      "summary": "Въпроси, свързани с управлението на общинската собственост, финансирането на местни дейности и промени в общинската транспортна схема, ще разгледа Общинският съвет в Оряхово на редовното си заседание. Проектът за дневен ред е публикуван на сайта на общинска ад",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253807-obshtinska-sobstvenost-finansi-i-transportna-shema-shte-obsadi-obshtinskiyat-sa",
+      "published": "2026-11-26T05:21:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Финансиране на социални услуги, общински имоти и читалищна дейност са сред темите на заседанието на Общинския съвет в Дупница",
+      "summary": "Общинският съвет в Дупница ще проведе редовно заседание. В предварителния дневен ред са включени 22 точки, свързани с финансови, социални, инфраструктурни и имуществени въпроси, според публикувания на страницата на Общината предварителен дневен ред. Сред предл",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253932-finansirane-na-sotsialni-uslugi-obshtinski-imoti-i-chitalishtna-deynost-sa-sred",
+      "published": "2026-11-26T05:19:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -746,25 +708,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Don’t ‘backslide’ on defense spending, senior US lawmaker tells Europe",
-      "summary": "Brendan Boyle said the EU needs to keep investing in defense amid fraught seven-year budget talks.",
-      "url": "https://www.politico.eu/article/dont-backslide-on-defense-spending-senior-us-lawmaker-tells-europe-brendan-boyle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T17:25:37+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
       "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
@@ -780,6 +723,25 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Don’t ‘backslide’ on defense spending, senior US lawmaker tells Europe",
+      "summary": "Brendan Boyle said the EU needs to keep investing in defense amid fraught seven-year budget talks.",
+      "url": "https://www.politico.eu/article/dont-backslide-on-defense-spending-senior-us-lawmaker-tells-europe-brendan-boyle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-25T17:25:37+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 92
       }
     },
     {
@@ -1051,10 +1013,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Чирпан ще обсъди актуализация на бюджета за 2026 година",
-      "summary": "Актуализация на бюджета на община Чирпан за 2026 г. ще обсъдят общинските съветници на днешното си редовно заседание. Това е първа точка в проекта за дневен ред на Общинския съвет, публикуван на интернет страницата на администрацията. В дневния ред са включени",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254048-obshtinskiyat-savet-v-chirpan-shte-obsadi-aktualizatsiya-na-byudzheta-za-2026-go",
-      "published": "2026-11-26T04:35:00+00:00",
+      "title": "Общинският съвет в Троян ще разгледат предложения за актуализация на бюджета и награждаване на изявени спортисти",
+      "summary": "Актуализация на бюджета и поименния списък за капиталови разходи, награждаване на изявени спортисти и отпускане на еднократна финансова помощ за траурната церемония на почетния гражданин на Троян Владимир Киров са сред акцентите в днешното заседание на Общинск",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254462-obshtinskiyat-savet-v-troyan-shte-razgledat-predlozheniya-za-aktualizatsiya-na-b",
+      "published": "2026-11-26T05:25:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 30,
@@ -1070,10 +1032,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Проектобюджетът за 2027 г. и финансовото подпомагане на семейства и студенти ще обсъди Общинският съвет в Козлодуй",
-      "summary": "Проектобюджетът на община Козлодуй за 2027 г., финансовото подпомагане на семейства с репродуктивни проблеми, родители на новородени и осиновени деца, както и на студенти са сред въпросите, които ще разгледа Общинският съвет в Козлодуй на редовното си заседани",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1253811-proektobyudzhetat-za-2027-g-i-finansovoto-podpomagane-na-semeystva-i-studenti-s",
-      "published": "2026-11-26T04:24:00+00:00",
+      "title": "Общинският съвет в Долни Дъбник ще гласува актуализация на бюджета на Община Долни Дъбник за 2026 г.",
+      "summary": "Общинският съвет в Долни Дъбник на редовно заседание ще гласува актуализация на бюджета на Община Долни Дъбник за 2026 г. Това е записано в публикувания на официалната интернет страница на Общината предварителен дневен ред. Съветниците ще обсъдят дали да се ра",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1253948-obshtinskiyat-savet-v-dolni-dabnik-shte-glasuva-aktualizatsiya-na-byudzheta-na-o",
+      "published": "2026-11-26T05:15:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 30,
@@ -1084,6 +1046,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU leaders brace for a summit ‘bloodbath’",
+      "summary": "Presented by Fusion for Energy.",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-leaders-brace-for-a-summit-bloodbath/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T05:05:00+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
       }
     },
     {
@@ -1298,10 +1279,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Жълт код за опасност от поледици е обявен в осем области в страната",
-      "summary": "Жълт код за опасност от поледици е обявен в осем области в Западна България, съобщиха от Националния институт по метеорология и хидрология (НИМХ) на сайта си. Предупредителният код е обявен за областите Видин, Монтана, Враца, София-град, София област, Перник,",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254484-zhalt-kod-za-opasnost-ot-poleditsi-e-obyaven-v-osem-oblasti-v-stranata",
-      "published": "2026-11-26T04:30:00+00:00",
+      "title": "Общо 94 пожара са потушени в страната през изминалото денонощие",
+      "summary": "През изминалото денонощие в страната са потушени 94 пожара, съобщиха от Главна дирекция „Пожарна безопасност и защита на населението“ (ГДПБЗН) на сайта си. Пожарникарите са реагирали на 125 сигнала за произшествия. Регистрирани са четири фалшиви повиквания. Пр",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254664-obshto-94-pozhara-sa-potusheni-v-stranata-prez-izminaloto-denonoshtie",
+      "published": "2026-11-26T05:30:36+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1317,10 +1298,29 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Благотворителна изложба базар на Светия синод на БПЦ в подкрепа на детски болнични отделения ще бъде открита в Народното събрание",
-      "summary": "Поредната съвместна благотворителна изложба базар на Светия синод на Българската православна църква - Българска патриаршия (БПЦ-БП) и на Народното събрание в подкрепа на детски болнични отделения у нас ще бъде открита днес в източното крило на парламента (площ",
-      "url": "https://www.bta.bg/bg/news/lik/1254622-blagotvoritelna-izlozhba-bazar-na-svetiya-sinod-na-bpts-v-podkrepa-na-detski-bol",
-      "published": "2026-11-26T04:30:00+00:00",
+      "title": "Националният литературен музей ще връчи за първи път наградата за литературна история и памет „Славослов“",
+      "summary": "Националният литературен музей (НЛМ) ще връчи за първи път Националната награда за литературна история и памет „Славослов“ днес в къщата музей „Иван Вазов“ в София. Отличието е учредено в годината на 50-годишнината от създаването на музея и по повод 100-годишн",
+      "url": "https://www.bta.bg/bg/news/lik/1254624-natsionalniyat-literaturen-muzey-shte-vrachi-za-parvi-pat-nagradata-za-literatur",
+      "published": "2026-11-26T05:30:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Нормален е трафикът на всички гранични преходи и пунктове, съобщиха от „Гранична полиция“",
+      "summary": "Трафикът е нормален на всички гранични преходи и гранични контролно-пропускателни пунктове (ГКПП) в страната, съобщиха от Главна дирекция „Гранична полиция“. Информацията е към 6:00 ч. На границата с Румъния трафикът е нормален на всички гранични преходи. Фери",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1254662-normalen-e-trafikat-na-vsichki-granichni-prehodi-i-punktove-saobshtiha-ot-gran",
+      "published": "2026-11-26T05:20:55+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
