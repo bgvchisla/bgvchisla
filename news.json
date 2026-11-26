@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T01:28:57.839817+00:00",
-  "last_checked_at": "2026-11-26T01:28:57.839830+00:00",
+  "updated_at": "2026-11-26T02:35:20.905117+00:00",
+  "last_checked_at": "2026-11-26T02:35:20.905131+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -392,13 +392,13 @@
       "published": "2026-11-25T14:09:19+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 47,
+      "priority_score": 46,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 74,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -764,25 +764,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Инфлацията в САЩ се е ускорила до 3,8% през октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440070-inflatsiyata-v-sasht-se-e-uskorila-do-38-prez-oktomvri",
-      "published": "2026-11-25T13:54:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
       "section": "europe",
       "source": "World Trade Organization (WTO)",
       "title": "EU launches safeguard investigation into certain composite input materials",
@@ -804,10 +785,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Australian politics live: Blyth did not ‘feel safe’ in the Liberal party before One Nation defection; Canavan vows ‘more united’ comeback",
+      "title": "Australian politics live: Blyth did not ‘feel safe’ in the Liberal party before One Nation defection; ‘coal must be replaced’, Bowen says",
       "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation –",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
-      "published": "2026-11-26T01:19:06+00:00",
+      "published": "2026-11-26T01:59:47+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 33,
@@ -837,6 +818,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Инфлацията в САЩ се е ускорила до 3,8% през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440070-inflatsiyata-v-sasht-se-e-uskorila-do-38-prez-oktomvri",
+      "published": "2026-11-25T13:54:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 87
       }
     },
     {
@@ -974,25 +974,6 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU plans €50 billion sovereign tech equity fund to boost quantum technology",
-      "summary": "The European Commission proposed a tech fund with a target size of €50 billion to boost quantum computing efforts. The bloc aims to keep up with the US and China in the global race.",
-      "url": "https://www.dw.com/en/eu-plans-€50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology/a-80047569?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T13:44:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
       "source": "Евростат",
       "title": "Annual inflation up to 4.0% in the euro area",
       "summary": "The euro area annual inflation rate was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.1%. European Union annual inflation was 4.0% in October 2026, up from 3.8% in September. A year earlier, the rate was 2.5%. These figures ar",
@@ -1046,6 +1027,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU plans €50 billion sovereign tech equity fund to boost quantum technology",
+      "summary": "The European Commission proposed a tech fund with a target size of €50 billion to boost quantum computing efforts. The bloc aims to keep up with the US and China in the global race.",
+      "url": "https://www.dw.com/en/eu-plans-€50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology/a-80047569?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T13:44:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
