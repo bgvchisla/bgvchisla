@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T20:42:13.278003+00:00",
-  "last_checked_at": "2026-11-26T20:42:13.278014+00:00",
+  "updated_at": "2026-11-26T21:33:20.371420+00:00",
+  "last_checked_at": "2026-11-26T21:33:20.371433+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -47,7 +47,7 @@
       "title": "Coalition team up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
       "summary": "Coalition voted in Senate to pass government’s final major piece of legislation for 2026, denying Greens’ bid for 25% tax on exports Get our daily political email , free app or daily news podcast A federal gas reservation scheme requiring Australia’s largest e",
       "url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
-      "published": "2026-11-26T17:35:25+00:00",
+      "published": "2026-11-26T20:58:12+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 48,
@@ -56,7 +56,7 @@
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 100,
         "source_reliability": 94
       }
     },
@@ -94,7 +94,7 @@
         "national_impact": 74,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 90
       }
     },
@@ -194,25 +194,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Deadly fire erupts near Cairo killing dozens of people",
-      "summary": "At least 31 people have died in a large fire on a busy highway in Cairo, after a fuel tanker overturned, says Egypt's health ministry.",
-      "url": "https://www.bbc.co.uk/news/videos/c52e8ndplvemo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T09:09:49+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на регистрираните одитори",
@@ -248,6 +229,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Deadly fire erupts near Cairo killing dozens of people",
+      "summary": "At least 31 people have died in a large fire on a busy highway in Cairo, after a fuel tanker overturned, says Egypt's health ministry.",
+      "url": "https://www.bbc.co.uk/news/videos/c52e8ndplvemo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T09:09:49+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -341,7 +341,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -479,25 +479,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
-      "summary": "A massive fire from a fuel tanker crash on Giza’s Ring Road in Waraq killed at least 31 and injured 21, highlighting Egypt’s deadly road risks.",
-      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
-      "published": "2026-11-26T09:30:05+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
@@ -514,6 +495,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+      "summary": "A massive fire from a fuel tanker crash on Giza’s Ring Road in Waraq killed at least 31 and injured 21, highlighting Egypt’s deadly road risks.",
+      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
+      "published": "2026-11-26T09:30:05+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -588,7 +588,7 @@
         "national_impact": 74,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 90
       }
     },
@@ -632,25 +632,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
-      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning sup",
-      "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
-      "published": "2026-11-26T17:50:54+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
       "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
@@ -669,22 +650,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Бяла Слатина общинските съветници приеха план за младежта с акцент върху образованието, заетостта и доброволчеството",
-      "summary": "Фестивалът „Здравей, здраве“, общинската панорама на образованието и асамблеята на детското и ученическото творчество, отбелязване на Международния ден на младежта, лятно парти са част от предвидените събития в Общински план за младежта за следващата година, к",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255491-v-byala-slatina-obshtinskite-savetnitsi-prieha-plan-za-mladezhta-s-aktsent-varhu",
-      "published": "2026-11-26T17:40:12+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning sup",
+      "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+      "published": "2026-11-26T17:50:54+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 92,
-        "source_reliability": 90
+        "source_reliability": 94
       }
     },
     {
@@ -935,25 +916,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Няма български гражданин, потърсил съдействието на дипломатическото ни представителство във връзка с инцидента между феновете на футболните клубове Левски и Олимпик Марсилия",
-      "summary": "Генералното консулство на България в Лион, Франция е запознато с инцидента, който се е случил на 25-ти ноември, между феновете на футболните клубове Левски и Олимпик Марсилия в Марсилия. Това съобщиха в отговор на запитване на БТА от Министерството на външните",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255495-nyama-balgarski-grazhdanin-potarsil-sadeystvieto-na-diplomaticheskoto-ni-predst",
-      "published": "2026-11-26T17:50:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Politics and peek-a-boo in Australian parliament as senator brings baby to work",
@@ -1063,8 +1025,27 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 54,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Няма български гражданин, потърсил съдействието на дипломатическото ни представителство във връзка с инцидента между феновете на футболните клубове Левски и Олимпик Марсилия",
+      "summary": "Генералното консулство на България в Лион, Франция е запознато с инцидента, който се е случил на 25-ти ноември, между феновете на футболните клубове Левски и Олимпик Марсилия в Марсилия. Това съобщиха в отговор на запитване на БТА от Министерството на външните",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255495-nyama-balgarski-grazhdanin-potarsil-sadeystvieto-na-diplomaticheskoto-ni-predst",
+      "published": "2026-11-26T17:50:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -1187,7 +1168,7 @@
       "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
       "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
       "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T20:35:39+00:00",
+      "published": "2026-11-26T21:17:53+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 30,
@@ -1198,6 +1179,63 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Нападението над български футболни фенове в Марсилия е недопустимо, готови сме да окажем съдействие, съобщи президентът Илияна Йотова",
+      "summary": "Президентът Илияна Йотова поздрави баскетболните ни национали за победата над Дания и призова френските власти да потърсят отговорност за нападението над български футболни фенове в Марсилия. Поздравявам българските баскетболни национали за победата над Дания!",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255573-napadenieto-nad-balgarski-futbolni-fenove-v-marsiliya-e-nedopustimo-gotovi-sme-",
+      "published": "2026-11-26T21:31:44+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Украинските удари по руските рафинерии увеличават излишъка от петрол на световните пазари",
+      "summary": "",
+      "url": "https://www.investor.bg/a/518-energetika/440139-ukrainskite-udari-po-ruskite-rafinerii-uvelichavat-izlishaka-ot-petrol-na-svetovnite-pazari",
+      "published": "2026-11-26T21:00:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Акциз за нови и употребявани мощни автомобили и забрана за търговия с домашна ракия одобри на второ четене парламентът",
+      "summary": "Народното събрание одобри на второ четене промени в Закона за акцизите и данъчните складове, внесени от Министерския съвет, с които се предвижда акциз за нови и употребявани мощни автомобили и забрана на търговията с домашна ракия. Според промените леките авто",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255557-aktsiz-za-novi-i-upotrebyavani-moshtni-avtomobili-i-zabrana-za-targoviya-s-domas",
+      "published": "2026-11-26T20:45:53+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1291,46 +1329,8 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Индексите на БФБ затвориха разнопосочно при по-слаба активност",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/440150-indeksite-na-bfb-zatvoriha-raznoposochno-pri-po-slaba-aktivnost",
-      "published": "2026-11-26T17:33:17+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
-      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T16:21:19+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
       }
     }
   ],
