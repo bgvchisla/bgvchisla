@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T22:35:38.131292+00:00",
-  "last_checked_at": "2026-11-26T22:35:38.131303+00:00",
+  "updated_at": "2026-11-26T23:34:29.459680+00:00",
+  "last_checked_at": "2026-11-26T23:34:29.459689+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -44,7 +44,7 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Coalition team up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
+      "title": "Coalition teams up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
       "summary": "Coalition voted in Senate to pass government’s final major piece of legislation for 2026, denying Greens’ bid for 25% tax on exports Get our daily political email , free app or daily news podcast A federal gas reservation scheme requiring Australia’s largest e",
       "url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
       "published": "2026-11-26T20:58:12+00:00",
@@ -80,25 +80,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Физическите лица и бизнеси, които са коректни към фиска, няма да бъдат засегнати от повишените глоби в данъчните закони, каза Людмила Петкова",
-      "summary": "Актуализацията на глобите и санкциите в данъчните закони не е обвързана мярка със Закона за въвеждане на еврото в България, обясни заместник-министърът на финансите Людмила Петкова при дебатите на второ четене в пленарната зала по промените в Закона за местнит",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255507-fizicheskite-litsa-i-biznesi-koito-sa-korektni-kam-fiska-nyama-da-badat-zasegn",
-      "published": "2026-11-26T17:59:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 44,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
@@ -126,13 +107,13 @@
       "published": "2026-11-26T19:37:18+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 41,
+      "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 90
       }
     },
@@ -175,25 +156,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 26th, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-midday",
-      "published": "2026-11-26T11:00:15+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на регистрираните одитори",
@@ -233,21 +195,21 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Deadly fire erupts near Cairo killing dozens of people",
-      "summary": "At least 31 people have died in a large fire on a busy highway in Cairo, after a fuel tanker overturned, says Egypt's health ministry.",
-      "url": "https://www.bbc.co.uk/news/videos/c52e8ndplvemo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T09:09:49+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 26th, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-midday",
+      "published": "2026-11-26T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 38,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
+        "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 82,
-        "source_reliability": 95
+        "source_reliability": 91
       }
     },
     {
@@ -267,6 +229,25 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Многонационалната бойна група на НАТО в България проведе тактическо учение",
+      "summary": "Многонационалната бойна група на НАТО в България проведе тактическо учение с бойни стрелби на ниво бригада „Тракия-26“, съобщиха от пресцентъра на Министерството на отбраната. Подготовката премина на учебните полигони „Ново село“ и „Корен“. В нея участваха вое",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255505-mnogonatsionalnata-boyna-grupa-na-nato-v-balgariya-provede-taktichesko-uchenie",
+      "published": "2026-11-26T18:08:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -305,6 +286,25 @@
         "strategic_significance": 54,
         "timeliness": 68,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Macron accuses ‘arrogant’ Le Pen of speaking as if she already won",
+      "summary": "Le Pen feels she's being cut out of EU budget negotiations. Macron reminded her that he's still in charge.",
+      "url": "https://www.politico.eu/article/macron-accuses-arrogant-marine-le-pen-criticism-eu-budget-negotiations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T22:39:42+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
       }
     },
     {
@@ -449,13 +449,13 @@
       "published": "2026-11-26T11:22:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 43,
+      "priority_score": 42,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 95
       }
     },
@@ -571,25 +571,6 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Многонационалната бойна група на НАТО в България проведе тактическо учение",
-      "summary": "Многонационалната бойна група на НАТО в България проведе тактическо учение с бойни стрелби на ниво бригада „Тракия-26“, съобщиха от пресцентъра на Министерството на отбраната. Подготовката премина на учебните полигони „Ново село“ и „Корен“. В нея участваха вое",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255505-mnogonatsionalnata-boyna-grupa-na-nato-v-balgariya-provede-taktichesko-uchenie",
-      "published": "2026-11-26T18:08:45+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 90
       }
     },
     {
@@ -1031,25 +1012,6 @@
     },
     {
       "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Daily News 26/ 11/ 2026",
-      "summary": "European Commission Daily news Brussels, 26 Nov 2026 EU launches Supply Chain Early Warning Network with Trans-Pacific bloc The EU and the members of the Comprehensive and Progressive Agreement for Trans-Pacific P...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2595",
-      "published": "2026-11-26T10:51:28+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Politics and peek-a-boo in Australian parliament as senator brings baby to work",
       "summary": "Senator Lidia Thorpe kept 6-month-old Aaliyah entertained, as her mum Senator Fatima Payman, participated in an online safety bill debate.",
@@ -1126,6 +1088,25 @@
     },
     {
       "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "European Council puts forward Pablo Hernández de Cos as next President of the European Central Bank",
+      "summary": "The European Council has put forward Pablo Hernández de Cos as next President of the European Central Bank, and Laurence Boone and Markus Brunnermeier as members of its executive board.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/26/european-council-puts-forward-pablo-hernandez-de-cos-as-next-president-of-the-european-central-bank/",
+      "published": "2026-11-26T22:50:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
       "summary": "Macy's has postponed its 100th parade in Manhattan as more than 600,000 homes and businesses lost power.",
@@ -1182,6 +1163,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Daily News 26/ 11/ 2026",
+      "summary": "European Commission Daily news Brussels, 26 Nov 2026 EU launches Supply Chain Early Warning Network with Trans-Pacific bloc The EU and the members of the Comprehensive and Progressive Agreement for Trans-Pacific P...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2595",
+      "published": "2026-11-26T10:51:28+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 99
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "България е готова да се включи в новия европейски заем за Украйна",
@@ -1217,6 +1217,25 @@
         "strategic_significance": 54,
         "timeliness": 82,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Премиерът Румен Радев разговаря с френския президент Еманюел Макрон за нападението срещу български граждани преди мача на ПФК „Левски“ в Марсилия",
+      "summary": "Разговарях с президента на Франция Еманюел Макрон за нападението срещу български граждани преди мача на ПФК „Левски“ в Марсилия. Споделяме позицията, че агресията и насилието нямат място в цивилизована Европа, написа премиерът Румен Радев във Фейсбук. Благодар",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255589-premierat-rumen-radev-razgovarya-s-frenskiya-prezident-emanyuel-makron-za-napade",
+      "published": "2026-11-26T23:08:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1310,27 +1329,8 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Доц. Бойко Великов представи втория том на книгата си „Политическа психология в България“",
-      "summary": "Доц. Бойко Великов представи втория том на книгата си „Политическа психология в България“ тази вечер в зала „Шипка“ на столичния хотел „Кристъл палас“. Първият том „Политическа психология в България. Исторически събития и личности през Средните векове“ излезе",
-      "url": "https://www.bta.bg/bg/news/lik/1255545-dots-boyko-velikov-predstavi-vtoriya-tom-na-knigata-si-politicheska-psihologiy",
-      "published": "2026-11-26T20:08:43+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     }
   ],
