@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T16:56:24.410231+00:00",
-  "last_checked_at": "2026-11-26T16:56:24.410242+00:00",
+  "updated_at": "2026-11-26T17:46:48.980990+00:00",
+  "last_checked_at": "2026-11-26T17:46:48.981000+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -80,22 +80,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "„Еврохолд България“ вече е само енергиен холдинг",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/440097-evrohold-balgariya-veche-e-samo-energien-holding",
-      "published": "2026-11-26T08:15:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 26th, 2026 – Evening",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-evening",
+      "published": "2026-11-26T17:00:26+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 40,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
       }
     },
     {
@@ -113,27 +113,8 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "US warns EU leaders against Big Tech tax",
-      "summary": "Washington’s opposition to the idea of a bloc-wide digital services tax complicates efforts to find new revenue sources for the EU’s €2 trillion budget.",
-      "url": "https://www.politico.eu/article/us-fires-warning-shot-ahead-of-eu-leaders-big-tech-tax-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T11:21:36+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
         "timeliness": 92,
-        "source_reliability": 92
+        "source_reliability": 87
       }
     },
     {
@@ -150,25 +131,6 @@
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
-      "summary": "A massive fire from a fuel tanker crash on Giza’s Ring Road in Waraq killed at least 31 and injured 21, highlighting Egypt’s deadly road risks.",
-      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
-      "published": "2026-11-26T09:30:05+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 91
@@ -310,10 +272,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Павликени одобри допълнителни 14 895 евро за реконструкция на съществуващ каменен водосток в село Паскалевец",
-      "summary": "Общинският съвет в Павликени одобри допълнителни 14 895 евро за реконструкция на съществуващ каменен водосток в село Паскалевец на днешното си редовно заседание. Осигуряването на средствата е във връзка с възникнали непредвидени работи по времето на строителст",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255435-obshtinskiyat-savet-v-pavlikeni-odobri-dopalnitelni-14-895-evro-za-rekonstruktsi",
-      "published": "2026-11-26T16:26:05+00:00",
+      "title": "В Бяла Слатина общинските съветници приеха план за младежта с акцент върху образованието, заетостта и доброволчеството",
+      "summary": "Фестивалът „Здравей, здраве“, общинската панорама на образованието и асамблеята на детското и ученическото творчество, отбелязване на Международния ден на младежта, лятно парти са част от предвидените събития в Общински план за младежта за следващата година, к",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255491-v-byala-slatina-obshtinskite-savetnitsi-prieha-plan-za-mladezhta-s-aktsent-varhu",
+      "published": "2026-11-26T17:40:12+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 35,
@@ -343,6 +305,44 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 92
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Премиерът от Брюксел: Глоба за България заради бюджетен дефицит би била несправедлива",
+      "summary": "",
+      "url": "https://www.investor.bg/a/516-politika/440117-premierat-ot-bryuksel-globa-za-balgariya-zaradi-byudzheten-defitsit-bi-bila-nespravedliva",
+      "published": "2026-11-26T10:32:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Заплатите в Германия са се увеличили реално с 1,3% през третото тримесечие",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440127-zaplatite-v-germaniya-sa-se-uvelichili-realno-s-13-prez-tretoto-trimesechie",
+      "published": "2026-11-26T12:25:34+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
@@ -481,6 +481,25 @@
     {
       "section": "europe",
       "source": "Euronews",
+      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+      "summary": "A massive fire from a fuel tanker crash on Giza’s Ring Road in Waraq killed at least 31 and injured 21, highlighting Egypt’s deadly road risks.",
+      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
+      "published": "2026-11-26T09:30:05+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
       "title": "Latest news bulletin | November 26th, 2026 – Morning",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
       "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-morning",
@@ -495,25 +514,6 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
-      "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
-      "url": "https://www.economic.bg/bg/a/view/ima-sdelka-za-lukojl-kojato-vkluchva-i-burgaskata-rafinerija",
-      "published": "2026-11-25T17:41:12+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
       }
     },
     {
@@ -593,6 +593,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
+      "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
+      "url": "https://www.economic.bg/bg/a/view/ima-sdelka-za-lukojl-kojato-vkluchva-i-burgaskata-rafinerija",
+      "published": "2026-11-25T17:41:12+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 85
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 25th, 2026 – Evening",
@@ -601,23 +620,61 @@
       "published": "2026-11-25T17:00:26+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 68,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Argentina enters technical recession despite Milei's economic reforms",
+      "summary": "Argentina's economy shrank 1.8% in the third quarter, its second decline, as weak consumption and falling purchasing power cloud Javier Milei's prospects.",
+      "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-despite-mileis-economic-reforms",
+      "published": "2026-11-26T17:23:52+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 91
       }
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Радомир прие мерки за зимния сезон, удължи овърдрафт кредит и одобри кандидатстване по социален проект",
-      "summary": "Общинският съвет в Радомир прие доклад за подготовката на общината за зимния сезон 2026 – 2027 г., даде съгласие за удължаване с една година на овърдрафт кредит и одобри кандидатстването с проект за активен живот на възрастните хора. Съветниците разрешиха на О",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255405-obshtinskiyat-savet-v-radomir-prie-merki-za-zimniya-sezon-udalzhi-ovardraft-kre",
-      "published": "2026-11-26T16:08:32+00:00",
+      "title": "Министър Илин Димитров проведе среща с представители на туристическия бизнес и на институции в Банско преди началото на зимния сезон",
+      "summary": "Министърът на туризма Илин Димитров проведе среща с представители на туристическия бизнес и на институции в Банско. Срещата бе с цел да се провери готовността за предстоящия зимен сезон, като бяха обсъдени и различни казуси, които възникват пред институции и б",
+      "url": "https://www.bta.bg/bg/news/economy/1255465-ministar-ilin-dimitrov-provede-sreshta-s-predstaviteli-na-turisticheskiya-biznes",
+      "published": "2026-11-26T17:12:49+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Севлиево одобри временни заеми за проекти и подкрепи продажби на общински имоти",
+      "summary": "Общинският съвет в Севлиево прие предложения за предоставяне на временни безлихвени заеми, разпореждане с общинска собственост и промени в устройствените планове на населени места. На заседанието присъстваха 28 общински съветници. Сред обсъжданите въпроси беше",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255462-obshtinskiyat-savet-v-sevlievo-odobri-vremenni-zaemi-za-proekti-i-podkrepi-proda",
+      "published": "2026-11-26T17:10:17+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 35,
@@ -632,21 +689,21 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Премиерът от Брюксел: Глоба за България заради бюджетен дефицит би била несправедлива",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/440117-premierat-ot-bryuksel-globa-za-balgariya-zaradi-byudzheten-defitsit-bi-bila-nespravedliva",
-      "published": "2026-11-26T10:32:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
+      "source": "БТА",
+      "title": "Общинският съвет в Павликени одобри допълнителни 14 895 евро за реконструкция на съществуващ каменен водосток в село Паскалевец",
+      "summary": "Общинският съвет в Павликени одобри допълнителни 14 895 евро за реконструкция на съществуващ каменен водосток в село Паскалевец на днешното си редовно заседание. Осигуряването на средствата е във връзка с възникнали непредвидени работи по времето на строителст",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255435-obshtinskiyat-savet-v-pavlikeni-odobri-dopalnitelni-14-895-evro-za-rekonstruktsi",
+      "published": "2026-11-26T16:26:05+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
+        "national_impact": 22,
+        "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -690,37 +747,18 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Център за високи постижения в професионалното образование и обучение ще развиват във Ветеринарната гимназия в Ловеч",
-      "summary": "В Националната професионална гимназия по ветеринарна медицина „Проф. д-р Димитър Димов“ в Ловеч официално бе дадено начало на дейностите по проект за развитие на Център за високи постижения в професионалното образование и обучение. Той бе представен в мултифун",
-      "url": "https://www.bta.bg/bg/news/lik/1255392-tsentar-za-visoki-postizheniya-v-profesionalnoto-obrazovanie-i-obuchenie-shte-ra",
-      "published": "2026-11-26T16:13:27+00:00",
+      "title": "Екипажът на НИК 421 оказа помощ на претоварена лодка с мигранти край бреговете на Мароко",
+      "summary": "Екипажът на НИК 421 оказа помощ на претоварена лодка с мигранти край бреговете на Мароко, съобщават от ВВМУ. На 25.11.2026 г. научноизследователският кораб „Св. св. Кирил и Методий“ с бордови номер 421 от състава на Висшето военноморско училище „Н. Й. Вапцаров",
+      "url": "https://www.bta.bg/bg/news/lik/1255453-ekipazhat-na-nik-421-okaza-pomosht-na-pretovarena-lodka-s-migranti-kray-bregovet",
+      "published": "2026-11-26T17:03:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Автоматизирано установяване на около 20 вида пътни нарушения чрез електронни записи предвиждат подготвяни законови изменения, съобщи Министерството на транспорта",
-      "summary": "Около 20 вида пътни нарушения ще могат да бъдат установявани изцяло автоматизирано чрез електронни доказателствени записи от технически средства, без да е необходимо автомобилите да бъдат спирани физически. Това предвиждат подготвяни промени в Закона за движен",
-      "url": "https://www.bta.bg/bg/news/economy/1255398-avtomatizirano-ustanovyavane-na-okolo-20-vida-patni-narusheniya-chrez-elektronni",
-      "published": "2026-11-26T16:07:53+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 90
       }
@@ -752,25 +790,6 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440121-rastat-na-bankovoto-kreditirane-u-nas-se-zabavi-i-prez-oktomvri",
       "published": "2026-11-26T13:05:00+00:00",
       "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Заплатите в Германия са се увеличили реално с 1,3% през третото тримесечие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440127-zaplatite-v-germaniya-sa-se-uvelichili-realno-s-13-prez-tretoto-trimesechie",
-      "published": "2026-11-26T12:25:34+00:00",
-      "feed_id": "investor-economy",
       "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
@@ -1163,25 +1182,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Автомобил с опасна техническа неизправност бе спрян от движение при специализирана операция в Смолян в рамките на акция „Зима“",
-      "summary": "Автомобил с опасна техническа неизправност бе спрян от движение при специализирана полицейска операция по линия на широкообхватния контрол, която се провежда в Смолян в рамките на третия етап на традиционната акция „Зима“. От началото на кампанията в областта",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255424-avtomobil-s-opasna-tehnicheska-neizpravnost-be-spryan-ot-dvizhenie-pri-spetsiali",
-      "published": "2026-11-26T16:21:34+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
@@ -1239,31 +1239,50 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
-      "summary": "World football's governing body says the cyberattack targeted personal and business information. They struck at a sensitive time for the under-fire organization and its president, Gianni Infantino.",
-      "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T14:45:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 30,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Пловдивска галерия отдава почит към творчеството на Кольо Карамфилов (1963-2014)",
+      "summary": "Галерия „Люнион“ в Пловдив откри тази вечер изложба с живописни творби и рисунки на художника Кольо Карамфилов (1963–2014) от своята лична колекция. Експозицията е озаглавена „Портрети“ и по думите на домакините е „своеобразен жест на памет и почит“, който ги",
+      "url": "https://www.bta.bg/bg/news/lik/1255480-plovdivska-galeriya-otdava-pochit-kam-tvorchestvoto-na-kolyo-karamfilov-1963-20",
+      "published": "2026-11-26T17:38:47+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Индексите на БФБ затвориха разнопосочно при по-слаба активност",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/440150-indeksite-na-bfb-zatvoriha-raznoposochno-pri-po-slaba-aktivnost",
+      "published": "2026-11-26T17:33:17+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 95
+        "source_reliability": 87
       }
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Проф. Алберт Бенбасат, Йордан Каменов и Катя Зографова са лауреатите на първите награди „Славослов“ на Националния литературен музей",
-      "summary": "Проф. Алберт Бенбасат, Йордан Каменов и Катя Зографова са лауреатите на първите награди на Националния литературен музей (НЛМ) за литературна история и памет „Славослов“. Церемонията по награждаването се състоя в къщата музей „Иван Вазов“ в София. Отличието е",
-      "url": "https://www.bta.bg/bg/news/lik/1255437-prof-albert-benbasat-yordan-kamenov-i-katya-zografova-sa-laureatite-na-parvite",
-      "published": "2026-11-26T16:44:11+00:00",
+      "title": "Свищовската галерия гостува в Народното събрание с изложбата на акад. Александър Божинов \"Вечният съвременник\"",
+      "summary": "Художествената галерия „Николай Павлович“ в Свищов ще гостува в Народното събрание с изложбата „Вечният съвременник“, включваща творби на академик Александър Божинов, съобщиха от културната институция. Оттам допълниха, че официалното откриване на експозицията",
+      "url": "https://www.bta.bg/bg/news/lik/1255420-svishtovskata-galeriya-gostuva-v-narodnoto-sabranie-s-izlozhbata-na-akad-aleksa",
+      "published": "2026-11-26T17:00:20+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1279,10 +1298,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Въвежда се забрана за движение на моторни превозни средства от Троянския проход до хижа „Дерменка“",
-      "summary": "Забрана за движение, престой и паркиране на моторни превозни средства по пътя от местността Беклемето на Троянския проход до хижа „Дерменка“ се въвежда от днес до 1 април 2027 г., съобщават от Дирекция „Национален парк Централен Балкан“ на официалната си стран",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255419-vavezhda-se-zabrana-za-dvizhenie-na-motorni-prevozni-sredstva-ot-troyanskiya-pro",
-      "published": "2026-11-26T16:11:13+00:00",
+      "title": "Проф. Алберт Бенбасат, Йордан Каменов и Катя Зографова са лауреатите на първите награди „Славослов“ на Националния литературен музей",
+      "summary": "Проф. Алберт Бенбасат, Йордан Каменов и Катя Зографова са лауреатите на първите награди на Националния литературен музей (НЛМ) за литературна история и памет „Славослов“. Церемонията по награждаването се състоя в къщата музей „Иван Вазов“ в София. Отличието е",
+      "url": "https://www.bta.bg/bg/news/lik/1255437-prof-albert-benbasat-yordan-kamenov-i-katya-zografova-sa-laureatite-na-parvite",
+      "published": "2026-11-26T16:44:11+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1308,25 +1327,6 @@
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "България търси нова ниша на туристическия пазар чрез климатолечението",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/440131-balgariya-tarsi-nova-nisha-na-turisticheskiya-pazar-chrez-klimatolechenieto",
-      "published": "2026-11-26T15:04:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
