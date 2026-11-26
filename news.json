@@ -1,25 +1,25 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T11:23:04.766517+00:00",
-  "last_checked_at": "2026-11-26T11:23:04.766529+00:00",
+  "updated_at": "2026-11-26T12:28:00.723929+00:00",
+  "last_checked_at": "2026-11-26T12:28:00.723942+00:00",
   "items": [
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Община Тутракан осигурява временно финансиране за обновяването на два жилищни блока",
-      "summary": "Общинският съвет в Тутракан одобри предоставянето на временни безлихвени заеми от общинския бюджет за покриване на разходи по два проекта за енергийно обновяване на многофамилни жилищни сгради в града. Решенията са по предложения на кмета д-р Димитър Стефанов,",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254971-obshtina-tutrakan-osiguryava-vremenno-finansirane-za-obnovyavaneto-na-dva-zhilis",
-      "published": "2026-11-26T11:04:42+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 63,
+      "source": "Economic.bg",
+      "title": "Черен петък: Намаляват ли българите покупките си заради цените?",
+      "summary": "Как се променят потребителските навици на българите през 2026 г. и какво да очакваме на Черен петък? 2026-а, която е първата година на страната като част от еврозоната, е белязана от висока инфлация, забавящ се ръст на заплатите и висока несигурност. Това даде",
+      "url": "https://www.economic.bg/bg/a/view/cheren-petyk-namaljavat-li-bylgarite-pokupkite-si-zaradi-cenite",
+      "published": "2026-11-26T07:41:09+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 47,
       "priority_breakdown": {
-        "economic_significance": 88,
-        "national_impact": 61,
-        "household_business_impact": 59,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -42,41 +42,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Черен петък: Намаляват ли българите покупките си заради цените?",
-      "summary": "Как се променят потребителските навици на българите през 2026 г. и какво да очакваме на Черен петък? 2026-а, която е първата година на страната като част от еврозоната, е белязана от висока инфлация, забавящ се ръст на заплатите и висока несигурност. Това даде",
-      "url": "https://www.economic.bg/bg/a/view/cheren-petyk-namaljavat-li-bylgarite-pokupkite-si-zaradi-cenite",
-      "published": "2026-11-26T07:41:09+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 47,
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "What is the US permitting bill and would it actually help the climate?",
+      "summary": "A sweeping US bill to speed up energy projects has rare bipartisan support. Supporters say it would unlock clean energy and lower bills, but critics say it's a gift to fossil fuels.",
+      "url": "https://www.dw.com/en/what-is-the-us-permitting-bill-and-would-it-actually-help-the-climate/a-80007213?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T11:22:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 43,
       "priority_breakdown": {
-        "economic_significance": 48,
+        "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 26th, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-midday",
-      "published": "2026-11-26T11:00:15+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 91
+        "source_reliability": 95
       }
     },
     {
@@ -101,10 +82,29 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Проектното финансиране не осигурява устойчивост на читалищата, каза д-р Милена Налбантова в Добрич",
-      "summary": "Недостатъчната субсидирана численост, нарастващите разходи за труд и поддръжка на сградния фонд и необходимостта от промени в Закона за народните читалища са сред основните проблеми пред читалищната мрежа в страната. Проектното финансиране подпомага отделни ин",
-      "url": "https://www.bta.bg/bg/news/lik/1254984-proektnoto-finansirane-ne-osiguryava-ustoychivost-na-chitalishtata-kaza-d-r-mil",
-      "published": "2026-11-26T11:20:56+00:00",
+      "title": "По-висок размер на данъчните облекчения за деца и за хора с увреждания и увеличаване на глобите за нарушения прие парламентът със законови промени",
+      "summary": "По-висок размер на данъчните облекчения за деца и за хора с увреждания и увеличение на глобите за нарушения гласува парламентът, който прие на второ гласуване промените в Закона за данъците върху доходите на физическите лица. Увеличеният размер на глобите пред",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255002-po-visok-razmer-na-danachnite-oblekcheniya-za-detsa-i-za-hora-s-uvrezhdaniya-i-u",
+      "published": "2026-11-26T12:04:16+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 46,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет във Видин прие декларация срещу недостатъчното финансиране на пътя Видин – Ботевград в проекта за бюджет за 2027 г.",
+      "summary": "Общинският съвет във Видин прие декларация до правителството, министрите на регионалното развитие и благоустройството, на транспорта и на вътрешните работи, народните представители от 5-и МИР – Видин, Европейската комисия и Европейския комисар по устойчив тури",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255000-obshtinskiyat-savet-vav-vidin-prie-deklaratsiya-sreshtu-nedostatachnoto-finansir",
+      "published": "2026-11-26T11:43:58+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 44,
@@ -134,6 +134,44 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "US warns EU leaders against Big Tech tax",
+      "summary": "Washington’s opposition to the idea of a bloc-wide digital services tax complicates efforts to find new revenue sources for the EU’s €2 trillion budget.",
+      "url": "https://www.politico.eu/article/us-fires-warning-shot-ahead-of-eu-leaders-big-tech-tax-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T11:21:36+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 26th, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-midday",
+      "published": "2026-11-26T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
       }
     },
     {
@@ -172,6 +210,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Deadly fire erupts near Cairo killing dozens of people",
+      "summary": "At least 31 people have died in a large fire on a busy highway in Cairo, after a fuel tanker overturned, says Egypt's health ministry.",
+      "url": "https://www.bbc.co.uk/news/videos/c52e8ndplvemo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T09:09:49+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 95
       }
     },
     {
@@ -289,63 +346,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
-      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T22:18:06+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
-      "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances responded to the crash, and Egyptian health authorities say the death toll could rise.",
-      "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T21:37:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Bank for International Settlements (BIS)",
-      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
-      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
-      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bis-press",
-      "publisher": "BIS",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 68,
-        "source_reliability": 99
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Михаела Доцова: Убедена съм, че между 52-рото Народно събрание и президентството ще се осъществява конструктивен диалог в защита на държавността и на интересите на България",
@@ -367,19 +367,19 @@
     {
       "section": "bulgaria",
       "source": "Народно събрание",
-      "title": "Благотворителна изложба-живопис на художника Георги Василев беше открита в Народното събрание",
+      "title": "Председателят на парламента Михаела Доцова и българският патриарх Даниил откриха в Народното събрание благотворителната изложба-базар „Деца рисуват за деца“",
       "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6685",
-      "published": "2026-11-25T00:00:00+00:00",
+      "url": "https://www.parliament.bg/bg/news/6687",
+      "published": "2026-11-26T00:00:00+00:00",
       "feed_id": "parliament-news",
       "publisher": "Народно събрание",
-      "priority_score": 27,
+      "priority_score": 31,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 61,
+        "national_impact": 74,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 68,
+        "timeliness": 82,
         "source_reliability": 98
       }
     },
@@ -405,18 +405,18 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Служители на държавни институции в Петрич и Сандански протестираха с искане за увеличение на заплатите",
-      "summary": "Служители на държавни институции в Петрич и Сандански се включиха в едночасовите предупредителни протестни действия, които се провеждат в цялата страна. Основното искане на работещите е увеличение на възнагражденията с 350 евро от 1 януари, както и по-голямо у",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254950-sluzhiteli-na-darzhavni-institutsii-v-petrich-i-sandanski-protestiraha-s-iskane-",
-      "published": "2026-11-26T11:02:52+00:00",
+      "title": "Общинският съвет в Иваново гласува промени в бюджета и прие инвестиции във ВиК инфраструктурата",
+      "summary": "Общинският съвет в Иваново разгледа информация за изменението на общинския бюджет за третото тримесечие на 2026 г., корекции в капиталовата програма и инвестиции във ВиК инфраструктурата по време на днешното си заседание. Бюджетът на община Иваново е приет с п",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255043-obshtinskiyat-savet-v-ivanovo-glasuva-promeni-v-byudzheta-i-prie-investitsii-vav",
+      "published": "2026-11-26T11:52:36+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
-      "priority_score": 41,
+      "priority_score": 40,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
         "timeliness": 100,
         "source_reliability": 90
       }
@@ -500,10 +500,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Обявени са седем свободни работни места за специалисти с висше образование в Бюрото по труда в Лом",
-      "summary": "Седем свободни работни места за висококвалифицирани специалисти с висше образование са обявени в Дирекция „Бюро по труда“ в Лом, съобщиха за БТА от дирекцията. Община Медковец търси да назначи младши експерт с висше образование. Дневният център за стари хора в",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255001-obyaveni-sa-sedem-svobodni-rabotni-mesta-za-spetsialisti-s-visshe-obrazovanie-v-",
-      "published": "2026-11-26T11:17:04+00:00",
+      "title": "Осигурен е безплатен транспорт до Мемориалния комплекс „Създатели на българската държава“ за 3D мапинг шоу на 28 ноември",
+      "summary": "Осигурен е безплатен транспорт за гражданите, които искат да присъстват на 3D мапинг шоуто на Мемориалния комплекс „Създатели на българската държава“ на 28 ноември, съобщиха от пресцентъра на местната администрация. Автобусите ще тръгнат в 17:30 ч. от сградата",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255027-osiguren-e-bezplaten-transport-do-memorialniya-kompleks-sazdateli-na-balgarskat",
+      "published": "2026-11-26T11:33:54+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 38,
@@ -514,6 +514,44 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T22:18:06+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
+      "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances responded to the crash, and Egyptian health authorities say the death toll could rise.",
+      "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T21:37:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -574,6 +612,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Тервел прие декларация в подкрепа на жителите на Генерал Тошево срещу добива на газ в находище „Спасово“",
+      "summary": "Общинският съвет в Тервел прие декларация в подкрепа на жителите на община Генерал Тошево срещу инвестиционното предложение за проучване и добив на природен газ в находище „Спасово“ в блок „Добрич“. Декларацията бе внесена от кмета на Тервел инж. Симеон Симеон",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255062-obshtinskiyat-savet-v-tervel-prie-deklaratsiya-v-podkrepa-na-zhitelite-na-genera",
+      "published": "2026-11-26T12:27:26+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 25th, 2026 – Midday",
@@ -613,25 +670,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Парламентът и днес удължи работното си време",
-      "summary": "Парламентът и днес удължи работното си време - този път заради второ четене на пакета от данъчни закони. В сряда те обсъждаха и гласуваха на първо четене проектите на бюджети на НЗОК, ДОО и държавния бюджет за 2027 г. Депутатите днес ще работят до приемането н",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254988-parlamentat-i-dnes-udalzhi-rabotnoto-si-vreme",
-      "published": "2026-11-26T11:18:54+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Премиерът от Брюксел: Глоба за България заради бюджетен дефицит би била несправедлива",
       "summary": "",
@@ -651,11 +689,30 @@
     },
     {
       "section": "europe",
+      "source": "Bank for International Settlements (BIS)",
+      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
+      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bis-press",
+      "publisher": "BIS",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 68,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
-      "title": "Details of two treaties at heart of Andy Burnham’s EU reset to be published",
-      "summary": "Government also to publish bill that will enact EU deals as Tories and Reform hit out over 10-year termination clause Europe live – latest updates Business live – latest updates Details of two treaties at the heart of Andy Burnham’s post- Brexit reset plans wi",
-      "url": "https://www.theguardian.com/politics/2026/nov/26/treaties-andy-burnham-eu-reset-published",
-      "published": "2026-11-26T09:16:19+00:00",
+      "title": "EU leaders braced for clashes over Ukraine aid at budget talks",
+      "summary": "Slovakia, Hungary and Czechia want to opt out of €45bn Ukraine loan to fill funding black hole caused by Russia’s relentless attacks Europe live – latest updates EU leaders are bracing to clash over long-term financial aid for Ukraine, amid an effort to finali",
+      "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks",
+      "published": "2026-11-26T12:07:14+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 35,
@@ -666,6 +723,63 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 94
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "TUI boss wants EU to cut bureaucracy, attract talent and expand green energy",
+      "summary": "Euronews spoke with TUI's CEO Sebastian Ebel about manure-powered cruise ships, migration, dependence on the US, Artificial Intelligence, and the future of tourism.",
+      "url": "https://www.euronews.com/2026/11/26/tui-boss-wants-eu-to-cut-bureaucracy-attract-talent-and-expand-green-energy",
+      "published": "2026-11-26T11:51:35+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Мъж на 24 години е задържан за кражба на дизелово гориво от товарен автомобил край село Черно поле",
+      "summary": "Мъж на 24 години от село Карбинци е задържан за кражба на дизелово гориво от товарен автомобил на главен път Е-79, при отклонението за село Черно поле. Това съобщиха от Областната дирекция на МВР във Видин. Мъжът е бил засечен около 19:30 часа в сряда от патру",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255030-mazh-na-24-godini-e-zadarzhan-za-krazhba-na-dizelovo-gorivo-ot-tovaren-avtomobil",
+      "published": "2026-11-26T11:41:10+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+      "summary": "A powerful explosion rocks an oil depot in Bangkok, Thailand, sending thick black smoke into the sky and prompting evacuation warnings.",
+      "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+      "published": "2026-11-26T11:40:52+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 91
       }
     },
     {
@@ -745,14 +859,33 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Заплатите в Германия са се увеличили реално с 1,3% през третото тримесечие",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440127-zaplatite-v-germaniya-sa-se-uvelichili-realno-s-13-prez-tretoto-trimesechie",
+      "published": "2026-11-26T12:25:34+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Пълноценната грижа за всяко дете и взаимодействието между институциите и специалистите е основната тема на форума „Едно дете, една система\"",
-      "summary": "Пълноценната грижа за всяко дете чрез общи усилия, последователност и ефективно взаимодействие между ангажираните институции и специалисти е основната тема на Национален дискусионен форум „Едно дете, една система: Стратегическо взаимодействие между институциит",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254925-palnotsennata-grizha-za-vsyako-dete-i-vzaimodeystvieto-mezhdu-institutsiite-i-sp",
-      "published": "2026-11-26T11:19:52+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "source": "Economic.bg",
+      "title": "Българският електромобил L CITY затъва в технически и финансови проблеми",
+      "summary": "Слаб пазар, липса на нови поръчки, над 108 хил. евро за проблемни компоненти и гаранционно обслужване и потенциален съдебен спор. Българският електромобил L CITY се сблъсква с поредното препятствие пред серийното си производство",
+      "url": "https://www.economic.bg/bg/a/view/bylgarskijat-elektromobil-l-city-zatyva-v-tehnicheski-i-finansovi-problemi",
+      "published": "2026-11-26T12:04:19+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 0,
@@ -760,26 +893,26 @@
         "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 100,
-        "source_reliability": 90
+        "source_reliability": 85
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Д-р Калин Калинов е новият изпълнителен директор на Изпълнителна агенция „Медицински надзор“",
-      "summary": "Д-р Калин Калинов е новият изпълнителен директор на Изпълнителна агенция „Медицински надзор“ (ИАМН). Това съобщава Министерството на здравеопазването на официалната си интернет страница. В края на септември т.г. Иванка Динева беше освободена от поста на изпълн",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254976-d-r-kalin-kalinov-e-noviyat-izpalnitelen-direktor-na-izpalnitelna-agentsiya-med",
-      "published": "2026-11-26T11:03:52+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Details of two treaties at heart of Andy Burnham’s EU reset to be published",
+      "summary": "Government also to publish bill that will enact EU deals as Tories and Reform hit out over 10-year termination clause Europe live – latest updates Business live – latest updates Details of two treaties at the heart of Andy Burnham’s post- Brexit reset plans wi",
+      "url": "https://www.theguardian.com/politics/2026/nov/26/treaties-andy-burnham-eu-reset-published",
+      "published": "2026-11-26T09:16:19+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -837,25 +970,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "UK to invest £9.5m in Ukraine windfarm to bolster war-hit energy system",
-      "summary": "Project capable of powering 300,000 homes, with Britain having offered more than £770m to rebuild energy sector Britain will add to its multimillion pound investments in rebuilding Ukraine’s energy system by funding a windfarm project capable of powering 300,0",
-      "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
-      "published": "2026-11-26T05:00:46+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 94
       }
     },
     {
@@ -955,25 +1069,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Don’t ‘backslide’ on defense spending, senior US lawmaker tells Europe",
-      "summary": "Brendan Boyle said the EU needs to keep investing in defense amid fraught seven-year budget talks.",
-      "url": "https://www.politico.eu/article/dont-backslide-on-defense-spending-senior-us-lawmaker-tells-europe-brendan-boyle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-25T17:25:37+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Trump's accounts traded Nvidia shares 44 times this year, records show",
       "summary": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant.",
@@ -1008,25 +1103,6 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "С нов фонд за €50 млрд. Европа ще опита да навакса технологичното си изоставане",
-      "summary": "Европа разполага с една трета от квантовите компании в света, но привлича над шест пъти по-малко частен капитал в сектора от САЩ. Брюксел опитва да промени това с нов инвестиционен фонд и преференции за европейския бизнес",
-      "url": "https://www.economic.bg/bg/a/view/s-nov-fond-za-50-mlrd-evropa-shte-opita-da-navaksa-tehnologichnoto-si-izostavane",
-      "published": "2026-11-25T11:59:41+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
       }
     },
     {
@@ -1106,25 +1182,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинските съветници в Ловеч приеха изменение на Наредбата за местните такси и цени на услуги в Общината",
-      "summary": "Общинските съветници приеха на днешното си заседание изменение и допълнение на Наредбата за определянето и администрирането на местните такси и цени на услуги на територията на Община Ловеч. Предложението бе на кмета Страцимир Петков, в което той посочва, че е",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1254969-obshtinskite-savetnitsi-v-lovech-prieha-izmenenie-na-naredbata-za-mestnite-taksi",
-      "published": "2026-11-26T11:06:31+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
@@ -1146,36 +1203,17 @@
     {
       "section": "europe",
       "source": "Economic.bg",
-      "title": "EС няма да се върне към руските енергийни ресурси",
-      "summary": "ЕС никога няма да се върне към руските енергийни ресурси, независимо от резултата от преговорите между Вашингтон и Москва, заяви пред Euronews еврокомисарят по енергетиката Дан Йоргенсен. В предаването On the Record with Maria Tadeo Йоргенсен определи Русия ка",
-      "url": "https://www.economic.bg/bg/a/view/es-njama-da-se-vyrne-kym-ruskite-energijni-resursi",
-      "published": "2026-11-25T09:46:06+00:00",
+      "title": "С нов фонд за €50 млрд. Европа ще опита да навакса технологичното си изоставане",
+      "summary": "Европа разполага с една трета от квантовите компании в света, но привлича над шест пъти по-малко частен капитал в сектора от САЩ. Брюксел опитва да промени това с нов инвестиционен фонд и преференции за европейския бизнес",
+      "url": "https://www.economic.bg/bg/a/view/s-nov-fond-za-50-mlrd-evropa-shte-opita-da-navaksa-tehnologichnoto-si-izostavane",
+      "published": "2026-11-25T11:59:41+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
       "priority_score": 31,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "„Булгаргаз“ обеща по-малко поскъпване на газа",
-      "summary": "„Булгаргаз“ ще предложи по-ниска цена на природния газ от предложената в първоначалното си заявление, съобщи изпълнителният директор на дружеството Георги Татарски по време на открито заседание на Комисията за енергийно и водно регулиране (КЕВР). На 10 ноември",
-      "url": "https://www.economic.bg/bg/a/view/bulgargaz-obeshta-po-malko-poskypvane-na-gaza",
-      "published": "2026-11-25T09:08:45+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 85
@@ -1222,29 +1260,10 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "EU leaders ‘very far apart’ on agreeing budget at summit, reveals Danish prime minister – Europe live",
-      "summary": "A number of leaders hope to agree to a budget before consequential elections around the continent The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not",
-      "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
-      "published": "2026-11-26T11:13:33+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Norse Atlantic Airways suspends all flights as it makes urgent funding plea",
-      "summary": "Norwegian airline says its finances are ‘critical’ and it will file for bankruptcy if it cannot secure short-term backing Business live – latest updates Norse Atlantic Airways has suspended all flights and said it will file for bankruptcy if it cannot secure s",
-      "url": "https://www.theguardian.com/business/2026/nov/26/norse-atlantic-airways-suspends-all-flights-urgent-funding-plea",
-      "published": "2026-11-26T10:15:18+00:00",
+      "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+      "summary": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’ Trump proposing new tariffs on 14 partners including China and EU Beijing has said it reserves the right to take “necessary measures” after Donald",
+      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "published": "2026-11-26T12:00:22+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 30,
@@ -1260,10 +1279,10 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "Germany news: Final budget debate continues in Bundestag",
-      "summary": "Spending for federal police and domestic intelligence are high on the agenda for parliamentary debate this Thursday. An alleged spy and suspected terrorists are also making headlines in Germany on Thursday. DW has more.",
-      "url": "https://www.dw.com/en/germany-news-final-budget-debate-continues-in-bundestag/live-80056746?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T09:49:00+00:00",
+      "title": "Joshua Kimmich critcizes Bayern bosses over Musiala health comments",
+      "summary": "Joshua Kimmich has slammed Bayern Munich's leadership over comments about Jamal Musiala's health issues. The bosses have questioned whether the player can return to previous form – and is still worth his high salary.",
+      "url": "https://www.dw.com/en/joshua-kimmich-critcizes-bayern-bosses-over-musiala-health-comments/a-80060155?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T12:00:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
       "priority_score": 30,
@@ -1278,13 +1297,13 @@
     },
     {
       "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Musk's plan to send a million SpaceX data satellites into space approved",
-      "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T09:27:44+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
+      "source": "The Guardian – World",
+      "title": "EU leaders ‘light-years away’ on agreeing budget at summit, warns Giorgia Meloni – Europe live",
+      "summary": "A number of leaders hope to agree to a budget before consequential elections around the continent The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not",
+      "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
+      "published": "2026-11-26T11:55:06+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 30,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -1292,35 +1311,16 @@
         "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-      "summary": "A major explosion at a Bangchak oil facility in eastern Bangkok sent flames and thick black smoke into the sky on Thursday. Authorities urged people living nearby to evacuate as emergency services responded to the incident.",
-      "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
-      "published": "2026-11-26T09:25:01+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 91
+        "source_reliability": 94
       }
     },
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Two screenings of Pakistani TV show cancelled in India after backlash",
-      "summary": "The show, Dar-e-Nijaat, has become a sensation in India but is now embroiled in a political row.",
-      "url": "https://www.bbc.co.uk/news/articles/cky97x7delz9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T08:30:12+00:00",
+      "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
+      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, while officials urged residents to leave the area.",
+      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T11:21:50+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 30,
