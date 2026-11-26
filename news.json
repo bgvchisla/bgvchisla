@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T17:46:48.980990+00:00",
-  "last_checked_at": "2026-11-26T17:46:48.981000+00:00",
+  "updated_at": "2026-11-26T18:42:43.337888+00:00",
+  "last_checked_at": "2026-11-26T18:42:43.337897+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -77,6 +77,25 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Физическите лица и бизнеси, които са коректни към фиска, няма да бъдат засегнати от повишените глоби в данъчните закони, каза Людмила Петкова",
+      "summary": "Актуализацията на глобите и санкциите в данъчните закони не е обвързана мярка със Закона за въвеждане на еврото в България, обясни заместник-министърът на финансите Людмила Петкова при дебатите на второ четене в пленарната зала по промените в Закона за местнит",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255507-fizicheskite-litsa-i-biznesi-koito-sa-korektni-kam-fiska-nyama-da-badat-zasegn",
+      "published": "2026-11-26T17:59:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 44,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -213,6 +232,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Многонационалната бойна група на НАТО в България проведе тактическо учение",
+      "summary": "Многонационалната бойна група на НАТО в България проведе тактическо учение с бойни стрелби на ниво бригада „Тракия-26“, съобщиха от пресцентъра на Министерството на отбраната. Подготовката премина на учебните полигони „Ново село“ и „Корен“. В нея участваха вое",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255505-mnogonatsionalnata-boyna-grupa-na-nato-v-balgariya-provede-taktichesko-uchenie",
+      "published": "2026-11-26T18:08:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Press briefing - Transport, Telecommunications and Energy Council (Transport and Telecommunications) of 30 November and 1 December 2026",
@@ -229,25 +267,6 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Габрово отхвърли допълнителната субсидия за Обединен футболен клуб „Янтра 2019“",
-      "summary": "Общинският съвет в Габрово не прие на днешното си заседание актуализацията на бюджета на общината към 30 септември 2026 г. и предложението за допълнително финансиране на Обединен футболен клуб (ОФК) „Янтра 2019“ и Хандбален клуб (ХК) „Чардафон“. В заседанието",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255432-obshtinskiyat-savet-v-gabrovo-othvarli-dopalnitelnata-subsidiya-za-obedinen-futb",
-      "published": "2026-11-26T16:31:47+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -270,22 +289,41 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "В Бяла Слатина общинските съветници приеха план за младежта с акцент върху образованието, заетостта и доброволчеството",
-      "summary": "Фестивалът „Здравей, здраве“, общинската панорама на образованието и асамблеята на детското и ученическото творчество, отбелязване на Международния ден на младежта, лятно парти са част от предвидените събития в Общински план за младежта за следващата година, к",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255491-v-byala-slatina-obshtinskite-savetnitsi-prieha-plan-za-mladezhta-s-aktsent-varhu",
-      "published": "2026-11-26T17:40:12+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning sup",
+      "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+      "published": "2026-11-26T17:50:54+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 42,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Лихвите при потребителските и жилищните заеми намаляват на годишна база през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440134-lihvite-pri-potrebitelskite-i-zhilishtnite-zaemi-namalyavat-na-godishna-baza-prez-oktomvri",
+      "published": "2026-11-26T18:00:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 90
+        "source_reliability": 87
       }
     },
     {
@@ -297,44 +335,6 @@
       "published": "2026-11-26T14:57:34+00:00",
       "feed_id": "politico-europe",
       "publisher": "POLITICO",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Премиерът от Брюксел: Глоба за България заради бюджетен дефицит би била несправедлива",
-      "summary": "",
-      "url": "https://www.investor.bg/a/516-politika/440117-premierat-ot-bryuksel-globa-za-balgariya-zaradi-byudzheten-defitsit-bi-bila-nespravedliva",
-      "published": "2026-11-26T10:32:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Заплатите в Германия са се увеличили реално с 1,3% през третото тримесечие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440127-zaplatite-v-germaniya-sa-se-uvelichili-realno-s-13-prez-tretoto-trimesechie",
-      "published": "2026-11-26T12:25:34+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -342,7 +342,7 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 92,
-        "source_reliability": 87
+        "source_reliability": 92
       }
     },
     {
@@ -498,25 +498,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 26th, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-morning",
-      "published": "2026-11-26T06:00:32+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
@@ -533,6 +514,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 26th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-morning",
+      "published": "2026-11-26T06:00:32+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -574,25 +574,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Greece: 14,000 march in Athens against rising living costs",
-      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
-      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
-      "published": "2026-11-25T18:20:44+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
@@ -614,6 +595,25 @@
     {
       "section": "europe",
       "source": "Euronews",
+      "title": "Greece: 14,000 march in Athens against rising living costs",
+      "summary": "Thousands demonstrated across Greece on Wednesday 25 November 2026 during a 24-hour strike against rising living costs and stagnant wages. The industrial action disrupted metro services, grounded flights and kept ferries in port.",
+      "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
+      "published": "2026-11-25T18:20:44+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
       "title": "Latest news bulletin | November 25th, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
       "url": "https://www.euronews.com/video/2026/11/25/latest-news-bulletin-november-25th-2026-evening",
@@ -628,6 +628,25 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "В Бяла Слатина общинските съветници приеха план за младежта с акцент върху образованието, заетостта и доброволчеството",
+      "summary": "Фестивалът „Здравей, здраве“, общинската панорама на образованието и асамблеята на детското и ученическото творчество, отбелязване на Международния ден на младежта, лятно парти са част от предвидените събития в Общински план за младежта за следващата година, к",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255491-v-byala-slatina-obshtinskite-savetnitsi-prieha-plan-za-mladezhta-s-aktsent-varhu",
+      "published": "2026-11-26T17:40:12+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -682,25 +701,6 @@
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Павликени одобри допълнителни 14 895 евро за реконструкция на съществуващ каменен водосток в село Паскалевец",
-      "summary": "Общинският съвет в Павликени одобри допълнителни 14 895 евро за реконструкция на съществуващ каменен водосток в село Паскалевец на днешното си редовно заседание. Осигуряването на средствата е във връзка с възникнали непредвидени работи по времето на строителст",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255435-obshtinskiyat-savet-v-pavlikeni-odobri-dopalnitelni-14-895-evro-za-rekonstruktsi",
-      "published": "2026-11-26T16:26:05+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 42,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -790,6 +790,25 @@
       "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440121-rastat-na-bankovoto-kreditirane-u-nas-se-zabavi-i-prez-oktomvri",
       "published": "2026-11-26T13:05:00+00:00",
       "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Заплатите в Германия са се увеличили реално с 1,3% през третото тримесечие",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440127-zaplatite-v-germaniya-sa-se-uvelichili-realno-s-13-prez-tretoto-trimesechie",
+      "published": "2026-11-26T12:25:34+00:00",
+      "feed_id": "investor-economy",
       "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
@@ -973,22 +992,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Ministers have ‘failed to make the case’ for Heathrow third runway, MPs say",
-      "summary": "Transport committee says policy papers show expanding airport would fall short of pledges on economy and climate Ministers have “failed to make the case” for a third runway at Heathrow , according to a damning report by MPs. The Commons transport committee sai",
-      "url": "https://www.theguardian.com/environment/2026/nov/26/ministers-fail-to-make-case-for-heathrow-third-runway-mps-report-says",
-      "published": "2026-11-26T13:43:36+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Няма български гражданин, потърсил съдействието на дипломатическото ни представителство във връзка с инцидента между феновете на футболните клубове Левски и Олимпик Марсилия",
+      "summary": "Генералното консулство на България в Лион, Франция е запознато с инцидента, който се е случил на 25-ти ноември, между феновете на футболните клубове Левски и Олимпик Марсилия в Марсилия. Това съобщиха в отговор на запитване на БТА от Министерството на външните",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255495-nyama-balgarski-grazhdanin-potarsil-sadeystvieto-na-diplomaticheskoto-ni-predst",
+      "published": "2026-11-26T17:50:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 32,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1165,10 +1184,10 @@
     {
       "section": "europe",
       "source": "BBC News – Свят",
-      "title": "Italy says two citizens killed in Iranian strike in Kuwait",
+      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
       "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
       "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T16:39:30+00:00",
+      "published": "2026-11-26T17:54:22+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
       "priority_score": 30,
@@ -1240,6 +1259,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Преслав Райков: Бюджет 2027 няма амбиция да излезе от процедурата по свръхдефицит",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440126-preslav-raykov-byudzhet-2027-nyama-ambitsiya-da-izleze-ot-protsedurata-po-svrahdefitsit",
+      "published": "2026-11-26T18:30:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "БТА",
       "title": "Пловдивска галерия отдава почит към творчеството на Кольо Карамфилов (1963-2014)",
       "summary": "Галерия „Люнион“ в Пловдив откри тази вечер изложба с живописни творби и рисунки на художника Кольо Карамфилов (1963–2014) от своята лична колекция. Експозицията е озаглавена „Портрети“ и по думите на домакините е „своеобразен жест на памет и почит“, който ги",
@@ -1293,44 +1331,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Проф. Алберт Бенбасат, Йордан Каменов и Катя Зографова са лауреатите на първите награди „Славослов“ на Националния литературен музей",
-      "summary": "Проф. Алберт Бенбасат, Йордан Каменов и Катя Зографова са лауреатите на първите награди на Националния литературен музей (НЛМ) за литературна история и памет „Славослов“. Церемонията по награждаването се състоя в къщата музей „Иван Вазов“ в София. Отличието е",
-      "url": "https://www.bta.bg/bg/news/lik/1255437-prof-albert-benbasat-yordan-kamenov-i-katya-zografova-sa-laureatite-na-parvite",
-      "published": "2026-11-26T16:44:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Два проекта за близо 18 млн. евро получиха сертификати за инвестиции",
-      "summary": "",
-      "url": "https://www.investor.bg/a/524-industriya/440135-dva-proekta-za-blizo-18-mln-evro-poluchiha-sertifikati-za-investitsii",
-      "published": "2026-11-26T15:33:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 87
       }
     }
   ],
