@@ -11,6 +11,7 @@ import html
 import json
 import re
 import ssl
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -107,7 +108,17 @@ def main() -> None:
         raise RuntimeError("Липсва labour-market.json; отказ от създаване на непълен набор")
     payload = json.loads(OUTPUT.read_text(encoding="utf-8"))
     old = payload.get("active_vacancies", {})
-    latest = parse_vacancy_snapshot(fetch(URL))
+    try:
+        latest = parse_vacancy_snapshot(fetch(URL))
+    except (urllib.error.URLError, TimeoutError, ConnectionError) as exc:
+        # Keep the last confirmed vacancy snapshot. Transport failures (including
+        # TLS negotiation errors at the source) are not grounds for replacing it.
+        print(
+            "::warning::Агенцията по заетостта временно не е достъпна за "
+            f"автоматично обновяване на свободните позиции ({type(exc).__name__}: {exc}). "
+            f"Запазва се последната валидна стойност към {old.get('as_of')}: {old.get('count')}."
+        )
+        return
 
     old_date = old.get("as_of")
     if old_date and latest["as_of"] < old_date:
