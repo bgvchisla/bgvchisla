@@ -335,7 +335,7 @@
   },
   "active_vacancies": {
     "source": "Агенция по заетостта — електронна трудова борса",
-    "source_url": "https://az.government.bg/bg/ejobs/view_prl/",
+    "source_url": "https://www.az.government.bg/bg/ejobs/view_prl/",
     "as_of": "2026-11-27",
     "count": 6793,
     "definition": "Текущ брой обяви за свободни работни места, заявени в бюрата по труда към датата на проверката. Това е моментна наличност в електронната борса, а не всички свободни работни места в икономиката."
@@ -387,7 +387,7 @@
     },
     {
       "title": "Агенция по заетостта: Свободни работни места в електронната трудова борса",
-      "url": "https://az.government.bg/bg/ejobs/view_prl/"
+      "url": "https://www.az.government.bg/bg/ejobs/view_prl/"
     },
     {
       "title": "НСИ: Разходи за труд — ключови показатели",
