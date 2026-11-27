@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T07:50:19.558663+00:00",
-  "last_checked_at": "2026-11-27T07:50:19.558675+00:00",
+  "updated_at": "2026-11-27T08:53:40.343957+00:00",
+  "last_checked_at": "2026-11-27T08:53:40.343972+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -39,6 +39,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Изводът е прогресивно вдигане на данъците, прогресивна инфлация, прогресивно обедняване на българите, каза Бойко Борисов за данъчните промени",
+      "summary": "Всичко прогресивно нарасна, изводът е прогресивно вдигане на данъците, прогресивна инфлация, прогресивно обедняване на българите, каза лидерът на ГЕРБ Бойко Борисов пред журналисти в кулоарите на парламента по повод промените в данъчните закони, приети вчера о",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255697-izvodat-e-progresivno-vdigane-na-danatsite-progresivna-inflatsiya-progresivno-",
+      "published": "2026-11-27T08:35:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 46,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -80,6 +99,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Правителството ще защити и финансовата дисциплина пред Брюксел, и доходите на българските семейства, заявиха от „Прогресивна България“",
+      "summary": "Българското правителство и мнозинството в този парламент ще защитят както финансовата дисциплина пред Брюксел, така и доходите на българските семейства, заявиха от „Прогресивна България“ в отговор на „фалшиви новини за наложени глоби и спрени еврофондове“. Дек",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255684-pravitelstvoto-shte-zashtiti-i-finansovata-distsiplina-pred-bryuksel-i-dohodite",
+      "published": "2026-11-27T08:11:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 44,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
@@ -96,6 +134,25 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Германският софтуерен гигант SAP обмисля да съкрати поне 10 000 служители",
+      "summary": "SAP подготвя план за съкращаването на най-малко 10 000 работни места, тъй като германската компания преструктурира софтуерния си бизнес за ерата на изкуствения интелект, съобщи Bloomberg в четвъртък, позовавайки се на запознати с въпроса източници. Новината ид",
+      "url": "https://www.economic.bg/bg/a/view/germanskijat-softueren-gigant-sap-obmislja-da-sykrati-pone-10-000-slujiteli",
+      "published": "2026-11-27T08:44:19+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
       }
     },
     {
@@ -172,25 +229,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Един е загинал, а 16 души са ранени при 12 катастрофи през изминалото денонощие в страната",
-      "summary": "Един човек е загинал, а 16 души са ранени при 12 катастрофи през изминалото денонощие в страната. Това съобщават от Министерството на вътрешните работи на официалния си сайт. В София са регистрирани 39 леки пътнотранспортни произшествия и едно тежко. От начало",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255632-edin-e-zaginal-a-16-dushi-sa-raneni-pri-12-katastrofi-prez-izminaloto-denonosht",
-      "published": "2026-11-27T06:42:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -271,25 +309,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Студенти ще решават реални бизнес казуси в състезание в Благоевград",
-      "summary": "Общо 60 студенти ще участват в тридневното състезание Campaign Lab, организирано от студентския клуб Project S към Американския университет в България (АУБ). Инициативата започва днес и ще продължи до 29 ноември в кампуса на висшето училище в Благоевград, а на",
-      "url": "https://www.bta.bg/bg/news/lik/1255654-studenti-shte-reshavat-realni-biznes-kazusi-v-sastezanie-v-blagoevgrad",
-      "published": "2026-11-27T07:37:07+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Икономика и политика",
       "title": "Бизнесът вижда потенциал за утрояване на търговията между България и Северна Македония",
       "summary": "",
@@ -309,40 +328,21 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "How Costa’s budget talks sparked a new crisis",
-      "summary": "Presented by Fusion for Energy.",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-costas-budget-talks-sparked-a-new-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-27T03:45:00+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Bank for International Settlements (BIS)",
-      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
-      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
-      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bis-press",
-      "publisher": "BIS",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Печалбите на китайските промишлени предприятия нарастват с най-бързия темп от пет месеца",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440158-pechalbite-na-kitayskite-promishleni-predpriyatiya-narastvat-s-nay-barziya-temp-ot-pet-mesetsa",
+      "published": "2026-11-27T07:58:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 50,
-        "source_reliability": 99
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
       }
     },
     {
@@ -367,39 +367,20 @@
     {
       "section": "bulgaria",
       "source": "Народно събрание",
-      "title": "Председателят на парламента Михаела Доцова и българският патриарх Даниил откриха в Народното събрание благотворителната изложба-базар „Деца рисуват за деца“",
+      "title": "Благотворителна изложба-живопис на художника Георги Василев беше открита в Народното събрание",
       "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6687",
-      "published": "2026-11-26T00:00:00+00:00",
+      "url": "https://www.parliament.bg/bg/news/6685",
+      "published": "2026-11-25T00:00:00+00:00",
       "feed_id": "parliament-news",
       "publisher": "Народно събрание",
-      "priority_score": 30,
+      "priority_score": 25,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 74,
+        "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 68,
+        "timeliness": 50,
         "source_reliability": 98
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Черен петък: Намаляват ли българите покупките си заради цените?",
-      "summary": "Как се променят потребителските навици на българите през 2026 г. и какво да очакваме на Черен петък? 2026-а, която е първата година на страната като част от еврозоната, е белязана от висока инфлация, забавящ се ръст на заплатите и висока несигурност. Това даде",
-      "url": "https://www.economic.bg/bg/a/view/cheren-petyk-namaljavat-li-bylgarite-pokupkite-si-zaradi-cenite",
-      "published": "2026-11-26T07:41:09+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 45,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 85
       }
     },
     {
@@ -420,6 +401,49 @@
         "timeliness": 82,
         "source_reliability": 85
       }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Служители на Агенцията по геодезия, картография и кадастър в София излязоха на протест с искане за достойни заплати",
+      "summary": "Служители от Агенция по геодезия, картография и кадастър (АГКК) в София излязоха на протест с искане за достойни заплати. Протестът е част от едночасова ефективна стачка в цялата страна в рамките на действия срещу несправедливото заплащане, задълбочаващите се",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255715-sluzhiteli-na-agentsiyata-po-geodeziya-kartografiya-i-kadastar-v-sofiya-izlyazo",
+      "published": "2026-11-27T08:33:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      },
+      "related_items": [
+        {
+          "source": "БТА",
+          "publisher": "БТА",
+          "title": "Служители от Агенцията по геодезия, картография и кадастър в Стара Загора излязоха на едночасова стачка с искане за достойно заплащане",
+          "url": "https://www.bta.bg/bg/news/bulgaria/1255724-sluzhiteli-ot-agentsiyata-po-geodeziya-kartografiya-i-kadastar-v-stara-zagora-i",
+          "published": "2026-11-27T08:42:27+00:00"
+        },
+        {
+          "source": "БТА",
+          "publisher": "БТА",
+          "title": "Служители на Агенцията по геодезия, картография и кадастър в Шумен се включиха в едночасова ефективна стачка с искане за по-високи заплати",
+          "url": "https://www.bta.bg/bg/news/bulgaria/1255714-sluzhiteli-na-agentsiyata-po-geodeziya-kartografiya-i-kadastar-v-shumen-se-vkly",
+          "published": "2026-11-27T08:29:09+00:00"
+        },
+        {
+          "source": "БТА",
+          "publisher": "БТА",
+          "title": "С едночасова стачка работещи в службата по кадастър в Силистра поискаха по-високи възнаграждения",
+          "url": "https://www.bta.bg/bg/news/bulgaria/1255739-s-ednochasova-stachka-raboteshti-v-sluzhbata-po-kadastar-v-silistra-poiskaha-po-",
+          "published": "2026-11-27T08:50:22+00:00"
+        }
+      ],
+      "related_count": 3
     },
     {
       "section": "bulgaria",
@@ -479,25 +503,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
-      "summary": "Американският милиардер Тод Боули заяви, че е подписал споразумение с руския конгломерат „Лукойл“ за създаване на консорциум, в който участва и Kорпорацията за финансиране на международното развитие на САЩ (DFC), с цел придобиване на международните енергийни а",
-      "url": "https://www.economic.bg/bg/a/view/ima-sdelka-za-lukojl-kojato-vkluchva-i-burgaskata-rafinerija",
-      "published": "2026-11-25T17:41:12+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 26th, 2026 – Morning",
@@ -537,40 +542,59 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет във Ветово ще обсъди бюджетни корекции, отдаването под наем на терени за пчелни семейства и дарение",
-      "summary": "Общинският съвет във Ветово ще обсъди бюджетни корекции, предоставяне на общинска сграда за нуждите на полицията и приемане на дарение от фирма „Каолин“ ЕАД. Това се посочва в дневния ред на днешното 60-о редовно заседание на местния парламент, публикуван на и",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255635-obshtinskiyat-savet-vav-vetovo-shte-obsadi-byudzhetni-korektsii-otdavaneto-pod-",
-      "published": "2026-11-27T06:47:33+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 36,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Мистър и Мисис Икономика 2026 в снимки",
-      "summary": "И през 2026 г. конкурсът „Мистър и Мисис Икономика“ предизвика голям интерес и събра на една сцена водещи представители на българския бизнес. На 24 ноември се проведе тържествената церемония по обявяването на победителите в „София Тех Парк“. Организатори на ко",
-      "url": "https://www.economic.bg/bg/a/view/mistyr-i-misis-ikonomika-2026-v-snimki",
-      "published": "2026-11-26T08:14:14+00:00",
+      "title": "Проспериращата икономика се създава от образовани хора",
+      "summary": "„Силна икономика се прави от образовани кадри.“ За д-р инж. Румяна Вълканов, носител на приза „Мисис Икономика“ за 2026 г., успехът в бизнеса е неразривно свързан с отговорността към следващите поколения. Собственикът и председател на Съвета на директорите на",
+      "url": "https://www.economic.bg/bg/a/view/prosperirashtata-ikonomika-se-syzdava-ot-obrazovani-hora",
+      "published": "2026-11-27T08:27:35+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "How Costa’s budget talks sparked a new crisis",
+      "summary": "Presented by Fusion for Energy.",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-costas-budget-talks-sparked-a-new-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-27T03:45:00+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
+        "timeliness": 92,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Bank for International Settlements (BIS)",
+      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
+      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bis-press",
+      "publisher": "BIS",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 50,
+        "source_reliability": 99
       }
     },
     {
@@ -590,25 +614,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
-      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning sup",
-      "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
-      "published": "2026-11-26T17:50:54+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 94
       }
     },
     {
@@ -647,25 +652,6 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Ръстът на банковото кредитиране у нас се забави и през октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440121-rastat-na-bankovoto-kreditirane-u-nas-se-zabavi-i-prez-oktomvri",
-      "published": "2026-11-26T13:05:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 87
       }
     },
     {
@@ -727,11 +713,49 @@
     },
     {
       "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Мистър и Мисис Икономика 2026 в снимки",
+      "summary": "И през 2026 г. конкурсът „Мистър и Мисис Икономика“ предизвика голям интерес и събра на една сцена водещи представители на българския бизнес. На 24 ноември се проведе тържествената церемония по обявяването на победителите в „София Тех Парк“. Организатори на ко",
+      "url": "https://www.economic.bg/bg/a/view/mistyr-i-misis-ikonomika-2026-v-snimki",
+      "published": "2026-11-26T08:14:14+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "БТА",
-      "title": "Със спектакъл на фигуристи ще бъде открита вечерта ледената пързалка в Стара Загора",
-      "summary": "Със спектакъл по фигурно пързаляне ще бъде открита тази вечер ледената пързалка в Стара Загора. Това съобщи за БТА директорът на Общинско предприятие „Арт сцена-Стара Загора“ Екатерина Радукова. Тя поясни, че в него ще участват представители на Спортен клуб „Л",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255662-sas-spektakal-na-figuristi-shte-bade-otkrita-vecherta-ledenata-parzalka-v-stara-",
-      "published": "2026-11-27T07:32:57+00:00",
+      "title": "Сталин се опита да сломи украинския народ чрез глад, днес Путин се опитва да го подчини чрез война, заявиха от \"Демократична България\" по повод Гладомора",
+      "summary": "Парламентарната група на \"Демократична България\" излезе с декларация по повод 93-ата годишнина от Гладомора в Украйна и почете паметта на милионите жертви, сред които и хиляди българи. \"Преди 93 години Сталин се опитва да сломи украинския народ чрез глад, днес",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255732-stalin-se-opita-da-slomi-ukrainskiya-narod-chrez-glad-dnes-putin-se-opitva-da-g",
+      "published": "2026-11-27T08:48:43+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Служители от Службата по геодезия, картография и кадастър в Русе стачкуваха за по-високи възнаграждения",
+      "summary": "Служители от Службата по геодезия, картография и кадастър в Русе се включиха в едночасова стачка с искане за по-високи заплати. Тя е организирана от Конфедерацията на труда \"Подкрепа\", съобщи Надка Бончева - регионален секретар на синдикалната структура в край",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255737-sluzhiteli-ot-sluzhbata-po-geodeziya-kartografiya-i-kadastar-v-ruse-stachkuvaha",
+      "published": "2026-11-27T08:47:37+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 32,
@@ -739,63 +763,6 @@
         "economic_significance": 28,
         "national_impact": 22,
         "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Николай Денков призова за обща декларация на парламента във връзка с посегателството срещу български футболни привърженици в Марсилия",
-      "summary": "В началото на пленарното заседание председателят на парламентарната група на „Продължаваме промяната“ Николай Денков призова политическите сили в Народното събрание да изготвят обща декларация във връзка с посегателството срещу български футболни привърженици",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255656-nikolay-denkov-prizova-za-obshta-deklaratsiya-na-parlamenta-vav-vrazka-s-posegat",
-      "published": "2026-11-27T07:19:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Над 31 хиляди повиквания са регистрирани на телефон 112 за изминалата седмица",
-      "summary": "На единния европейски номер за спешни повиквания 112 са регистрирани 31 760 регламентирани повиквания през изминалата седмица, което е увеличение с 9,9% спрямо същия период на 2025 г., съобщиха от дирекция „Национална система 112“ към Министерството на вътрешн",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255638-nad-31-hilyadi-povikvaniya-sa-registrirani-na-telefon-112-za-izminalata-sedmitsa",
-      "published": "2026-11-27T06:58:20+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Категорично осъждам посегателството срещу български футболни привърженици в Марсилия, заяви председателят на парламента Михаела Доцова",
-      "summary": "Категорично осъждам посегателството срещу български футболни привърженици в Марсилия. Подобна агресия е абсолютно недопустима. Това написа председателят на Народното събрание Михаела Доцова в официалния си фейсбук профил по повод сблъсъците на футболния мач ме",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255631-kategorichno-osazhdam-posegatelstvoto-sreshtu-balgarski-futbolni-privarzhenitsi-",
-      "published": "2026-11-27T06:40:39+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
@@ -956,10 +923,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общинският съвет в Главиница ще разгледа инвестиции на ВиК оператора за близо 34 хил. евро и проект за реконструкция на водопровод",
-      "summary": "Общинският съвет в Главиница ще разгледа на днешното си редовно заседание отчитането и приемането на инвестиции на стойност близо 34 хил. евро, извършени от „Водоснабдяване и канализация“ ООД – Силистра през 2026 година в публични активи на общината. Точката е",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255667-obshtinskiyat-savet-v-glavinitsa-shte-razgleda-investitsii-na-vik-operatora-za-b",
-      "published": "2026-11-27T07:33:26+00:00",
+      "title": "Договорени са 97 на сто от над 3,3 млрд. евро по програма „Развитие на регионите“, съобщи зам.-министър Десислава Георгиева",
+      "summary": "Програма „Развитие на регионите“ 2021-2027 г. (ПРР) ускорява изпълнението си, като договорените средства достигат 97 на сто от финансовия ресурс на програмата, който е над 3,3 млрд. евро. Напредъкът и конкретните примери за съвместни инвестиции бяха представен",
+      "url": "https://www.bta.bg/bg/news/economy/1255710-dogovoreni-sa-97-na-sto-ot-nad-3-3-mlrd-evro-po-programa-razvitie-na-regionite",
+      "published": "2026-11-27T08:34:26+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 30,
@@ -1050,21 +1017,40 @@
     },
     {
       "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Изложбата „Швейцария и България: 110 години на партньорство, иновации и солидарност“ беше открита в Народното събрание",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6688",
-      "published": "2026-11-26T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "publisher": "Народно събрание",
-      "priority_score": 30,
+      "source": "БТА",
+      "title": "Служителите на кадастъра в Кюстендил се включиха в националния протест с искане за справедливо заплащане",
+      "summary": "Служителите на службата по геодезия, картография и кадастър в Кюстендил се включиха в едночасовия национален предупредителен протест на работещите в Агенцията по геодезия, картография и кадастър (АГКК). В знак на недоволство те преустановиха работа от 10:00 до",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255742-sluzhitelite-na-kadastara-v-kyustendil-se-vklyuchiha-v-natsionalniya-protest-s-i",
+      "published": "2026-11-27T08:51:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 74,
+        "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 98
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Баните ще разгледа предложение за актуализация на средствата за финансиране на капиталовата програма за 2026 г.",
+      "summary": "Общинският съвет в Баните ще разгледа на днешното си заседание проект за актуализация на разчетите за финансиране на капиталовата програма за 2026 г., съобщиха от Общинската администрация. Съветниците ще се произнесат и по предложение за кандидатстване на Общи",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255708-obshtinskiyat-savet-v-banite-shte-razgleda-predlozhenie-za-aktualizatsiya-na-sre",
+      "published": "2026-11-27T08:25:47+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1084,63 +1070,6 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Лоши са условията за туризъм, съобщиха от Планинската спасителна служба на БЧК",
-      "summary": "Лоши са условията за туризъм, съобщиха за БТА от Планинската спасителна служба на Българския Червен кръст (БЧК). В високите части на планините е облачно, мъгливо със слаб до умерен вятър. Видимостта е лоша, мокро и кално е, на места петна от сняг. Температурит",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255659-loshi-sa-usloviyata-za-turizam-saobshtiha-ot-planinskata-spasitelna-sluzhba-na-",
-      "published": "2026-11-27T07:19:06+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "УМБАЛ „Свети Георги“ въведе първата в България система за томотерапия Radixact",
-      "summary": "Университетската многопрофилна болница за активно лечение (УМБАЛ) „Свети Георги“ – Пловдив, въведе в експлоатация в Клиниката по лъчелечение първата в България система Radixact – най-ново поколение линеен ускорител или платформа за томотерапия на американската",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255641-umbal-sveti-georgi-vavede-parvata-v-balgariya-sistema-za-tomoterapiya-radixact",
-      "published": "2026-11-27T07:06:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Балетният спектакъл „Земфира“ на Държавната опера в Бургас поставя въпроса за избора между любовта, парите и свободата",
-      "summary": "История за любов, страст, свобода и цената на личния избор ще представи Държавната опера в Бургас с най-новото заглавие в своя репертоар – балетния спектакъл „Земфира“, чиято премиера e тази вечер, 27 ноември. Адаптацията, хореографията и режисурата са на Мари",
-      "url": "https://www.bta.bg/bg/news/lik/1255487-baletniyat-spektakal-zemfira-na-darzhavnata-opera-v-burgas-postavya-vaprosa-za",
-      "published": "2026-11-27T06:28:07+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1259,25 +1188,6 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Финанси",
-      "title": "Заможните европейци търсят алтернативи за инвестиции в AI на фона на пазарните сътресения",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/440108-zamozhnite-evropeytsi-tarsyat-alternativi-za-investitsii-v-ai-na-fona-na-pazarnite-satreseniya",
-      "published": "2026-11-26T20:30:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
       "source": "Европейска комисия",
       "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
       "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much. Allow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
@@ -1331,6 +1241,120 @@
         "strategic_significance": 32,
         "timeliness": 30,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Members briefed on food export restrictions history, safeguard mechanism",
+      "summary": "The history of negotiations on export restrictions on food and a proposed special safeguard mechanism (SSM) for developing economies were the focus of meetings of the Committee on Agriculture's negotiations body on 23 November. This was the latest in a series",
+      "url": "https://www.wto.org/english/news_e/news26_e/agng_23nov26_565_e.htm",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "publisher": "СТО",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 30,
+        "source_reliability": 98
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "По-добрата транспортна свързаност, туризмът и земеделието са сред възможностите за икономическо развитие на Видинския регион, смята Любомир Филипов",
+      "summary": "По-добрата транспортна свързаност, развитието на туризма и земеделието са сред основните възможности за икономическо развитие на Видинския регион. Това са част от акцентите в дискусионен форум във Видин, каза за БТА Любомир Филипов, председател на Управителния",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255735-po-dobrata-transportna-svarzanost-turizmat-i-zemedelieto-sa-sred-vazmozhnostite",
+      "published": "2026-11-27T08:47:49+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Липса на финансови средства оставя натоварен железопътен прелез край Свищов без охрана",
+      "summary": "Железопътният прелез при „Сортови семена – Свищов“ АД, в западната индустриална зона по линията Свищов – Ореш, остава без денонощна охрана заради липса на финансови средства от страна на дружеството, което го е стопанисвало досега, каза за БТА кметът на община",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255731-lipsa-na-finansovi-sredstva-ostavya-natovaren-zhelezopaten-prelez-kray-svishtov-",
+      "published": "2026-11-27T08:45:20+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "At critical juncture, Friedrich Merz finds Germans’ support for Ukraine wavering",
+      "summary": "German chancellor is on difficult terrain, at home and abroad, as he fights to maintain European backing for Kyiv The German chancellor, Friedrich Merz, is navigating choppy waters both at home and abroad over his insistence that Europe must keep up support –",
+      "url": "https://www.theguardian.com/world/2026/nov/27/at-critical-juncture-friedrich-merz-finds-germans-support-for-ukraine-wavering",
+      "published": "2026-11-27T08:33:08+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Изпълнителна агенция „Автомобилна администрация“ и „Пътна полиция“ започнаха проверки за претоварени камиони, съставени са 17 акта още в началото на акцията",
+      "summary": "По разпореждане на министъра на транспорта и съобщенията Георги Пеев Изпълнителна агенция „Автомобилна администрация“ съвместно със служители на „Пътна полиция“ - МВР започна специализирана контролна акция за установяване на претоварени тежкотоварни автомобили",
+      "url": "https://www.bta.bg/bg/news/economy/1255696-izpalnitelna-agentsiya-avtomobilna-administratsiya-i-patna-politsiya-zapochn",
+      "published": "2026-11-27T08:16:46+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Clashes erupt at Besiktas Europa League match against Israeli club",
+      "summary": "Besiktas supporters clashed with police in Batumi during a Europa League match against Israeli club Hapoel Beer-Sheva, with fans chanting and officers pursuing supporters outside the stadium.",
+      "url": "https://www.euronews.com/2026/11/27/clashes-erupt-at-besiktas-europa-league-match-against-israeli-club",
+      "published": "2026-11-27T06:57:35+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 91
       }
     }
   ],
