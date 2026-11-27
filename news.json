@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-26T23:34:29.459680+00:00",
-  "last_checked_at": "2026-11-26T23:34:29.459689+00:00",
+  "updated_at": "2026-11-27T00:35:49.890388+00:00",
+  "last_checked_at": "2026-11-27T00:35:49.890402+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -45,9 +45,9 @@
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Coalition teams up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
-      "summary": "Coalition voted in Senate to pass government’s final major piece of legislation for 2026, denying Greens’ bid for 25% tax on exports Get our daily political email , free app or daily news podcast A federal gas reservation scheme requiring Australia’s largest e",
+      "summary": "Labor passes final major piece of legislation for 2026, denying Greens’ bid for 25% tax on exports Get our daily political email , free app or daily news podcast A federal gas reservation scheme requiring Australia’s largest exporters to keep up to 20% of thei",
       "url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
-      "published": "2026-11-26T20:58:12+00:00",
+      "published": "2026-11-27T00:02:10+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 48,
@@ -156,44 +156,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на регистрираните одитори",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_1_BG",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "publisher": "БНБ",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_3_BG",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "publisher": "БНБ",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 99
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 26th, 2026 – Midday",
@@ -270,21 +232,40 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Bank for International Settlements (BIS)",
-      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
-      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
-      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "section": "bulgaria",
+      "source": "Българска народна банка",
+      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на регистрираните одитори",
+      "summary": "",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_1_BG",
       "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bis-press",
-      "publisher": "BIS",
-      "priority_score": 36,
+      "feed_id": "bnb-news",
+      "publisher": "БНБ",
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 68,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 50,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Българска народна банка",
+      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
+      "summary": "",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_3_BG",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bnb-news",
+      "publisher": "БНБ",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 50,
         "source_reliability": 99
       }
     },
@@ -346,6 +327,25 @@
       }
     },
     {
+      "section": "europe",
+      "source": "Bank for International Settlements (BIS)",
+      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
+      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bis-press",
+      "publisher": "BIS",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 50,
+        "source_reliability": 99
+      }
+    },
+    {
       "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Михаела Доцова: Убедена съм, че между 52-рото Народно събрание и президентството ще се осъществява конструктивен диалог в защита на държавността и на интересите на България",
@@ -373,13 +373,13 @@
       "published": "2026-11-26T00:00:00+00:00",
       "feed_id": "parliament-news",
       "publisher": "Народно събрание",
-      "priority_score": 31,
+      "priority_score": 30,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 74,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 98
       }
     },
@@ -479,25 +479,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Българска народна банка",
-      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
-      "summary": "",
-      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_2_BG",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bnb-news",
-      "publisher": "БНБ",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 99
-      }
-    },
-    {
       "section": "europe",
       "source": "Euronews",
       "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
@@ -593,22 +574,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Southern and central Australia face summer of heightened bushfire risk and heatwaves",
-      "summary": "Fire chiefs say large swathes of the country are at risk from fires driven by high fuel loads, dry soil and hot weather Get our breaking news email , free app or daily news podcast Large parts of southern and central Australia face elevated fire risk this summ",
-      "url": "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
-      "published": "2026-11-26T21:33:36+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 35,
+      "section": "bulgaria",
+      "source": "Българска народна банка",
+      "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
+      "summary": "",
+      "url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20261125_2_BG",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bnb-news",
+      "publisher": "БНБ",
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 94
+        "timeliness": 50,
+        "source_reliability": 99
       }
     },
     {
@@ -628,6 +609,25 @@
         "strategic_significance": 32,
         "timeliness": 50,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Southern and central Australia face summer of heightened bushfire risk and heatwaves",
+      "summary": "Fire chiefs say large swathes of the country are at risk from fires driven by high fuel loads, dry soil and hot weather Get our breaking news email , free app or daily news podcast Large parts of southern and central Australia face elevated fire risk this summ",
+      "url": "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
+      "published": "2026-11-26T21:33:36+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -726,63 +726,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
-      "summary": "Officials say the man confessed to travelling at speed and clipping the fuel truck as he was overtaking traffic.",
-      "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T12:16:06+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "TUI boss wants EU to cut bureaucracy, attract talent and expand green energy",
-      "summary": "Euronews spoke with TUI's CEO Sebastian Ebel about manure-powered cruise ships, migration, dependence on the US, Artificial Intelligence, and the future of tourism.",
-      "url": "https://www.euronews.com/2026/11/26/tui-boss-wants-eu-to-cut-bureaucracy-attract-talent-and-expand-green-energy",
-      "published": "2026-11-26T11:51:35+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-      "summary": "A powerful explosion rocks an oil depot in Bangkok, Thailand, sending thick black smoke into the sky and prompting evacuation warnings.",
-      "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
-      "published": "2026-11-26T11:40:52+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Мистър и Мисис Икономика 2026 в снимки",
@@ -822,21 +765,21 @@
     },
     {
       "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "EU launches safeguard investigation into certain composite input materials",
-      "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
-      "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "publisher": "СТО",
-      "priority_score": 34,
+      "source": "The Guardian – World",
+      "title": "Qantas and Air New Zealand planes too close at Sydney airport with ‘mental models’ of crews to be investigated",
+      "summary": "Aborted descent on Wednesday morning is latest in a series of landing incidents at Sydney airport The Australian Transport Safety Bureau is investigating flight crews’ “mental models” after a Qantas plane aborted its landing at Sydney Airport on Wednesday afte",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/27/qantas-plane-aborted-landing-sydney-airport-mental-model-investigation",
+      "published": "2026-11-27T00:10:55+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 33,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 0,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 50,
-        "source_reliability": 98
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 94
       }
     },
     {
@@ -859,33 +802,14 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Българският електромобил L CITY затъва в технически и финансови проблеми",
-      "summary": "Слаб пазар, липса на нови поръчки, над 108 хил. евро за проблемни компоненти и гаранционно обслужване и потенциален съдебен спор. Българският електромобил L CITY се сблъсква с поредното препятствие пред серийното си производство",
-      "url": "https://www.economic.bg/bg/a/view/bylgarskijat-elektromobil-l-city-zatyva-v-tehnicheski-i-finansovi-problemi",
-      "published": "2026-11-26T12:04:19+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
       "section": "europe",
-      "source": "BIS Research",
-      "title": "Inflation expectations in the context of climate change and the green transition",
-      "summary": "This paper studies how views on climate change shape household inflation expectations. Using a new representative survey of Dutch households, we elicit perceptions of climate change, the green transition and climate policies, and their expected effects on long",
-      "url": "https://www.bis.org/publications/working-paper-1399-inflation-expectations-context-climate-change-and-green-transition",
-      "published": "2026-11-26T00:00:00+00:00",
-      "feed_id": "bis-research",
-      "publisher": "BIS",
+      "source": "BBC News – Свят",
+      "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+      "summary": "Officials say the man confessed to travelling at speed and clipping the fuel truck as he was overtaking traffic.",
+      "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T12:16:06+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 33,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -893,7 +817,45 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 82,
-        "source_reliability": 99
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "TUI boss wants EU to cut bureaucracy, attract talent and expand green energy",
+      "summary": "Euronews spoke with TUI's CEO Sebastian Ebel about manure-powered cruise ships, migration, dependence on the US, Artificial Intelligence, and the future of tourism.",
+      "url": "https://www.euronews.com/2026/11/26/tui-boss-wants-eu-to-cut-bureaucracy-attract-talent-and-expand-green-energy",
+      "published": "2026-11-26T11:51:35+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+      "summary": "A powerful explosion rocks an oil depot in Bangkok, Thailand, sending thick black smoke into the sky and prompting evacuation warnings.",
+      "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+      "published": "2026-11-26T11:40:52+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -935,6 +897,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Българският електромобил L CITY затъва в технически и финансови проблеми",
+      "summary": "Слаб пазар, липса на нови поръчки, над 108 хил. евро за проблемни компоненти и гаранционно обслужване и потенциален съдебен спор. Българският електромобил L CITY се сблъсква с поредното препятствие пред серийното си производство",
+      "url": "https://www.economic.bg/bg/a/view/bylgarskijat-elektromobil-l-city-zatyva-v-tehnicheski-i-finansovi-problemi",
+      "published": "2026-11-26T12:04:19+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "Inflation expectations in the context of climate change and the green transition",
+      "summary": "This paper studies how views on climate change shape household inflation expectations. Using a new representative survey of Dutch households, we elicit perceptions of climate change, the green transition and climate policies, and their expected effects on long",
+      "url": "https://www.bis.org/publications/working-paper-1399-inflation-expectations-context-climate-change-and-green-transition",
+      "published": "2026-11-26T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "publisher": "BIS",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 99
+      }
+    },
+    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "Lululemon founder stuns Canadian women’s leadership conference with sexist comments",
@@ -970,6 +970,25 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "EU launches safeguard investigation into certain composite input materials",
+      "summary": "On 23 November 2026, the European Union notified the WTO’s Committee on Safeguards that it had initiated, on the same day (23 November 2026), a safeguard investigation into imports of certain composite input materials.",
+      "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_23nov26_561_e.htm",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "publisher": "СТО",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 30,
+        "source_reliability": 98
       }
     },
     {
@@ -1030,63 +1049,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Народно събрание",
-      "title": "Изложбата „Швейцария и България: 110 години на партньорство, иновации и солидарност“ беше открита в Народното събрание",
-      "summary": "",
-      "url": "https://www.parliament.bg/bg/news/6688",
-      "published": "2026-11-26T00:00:00+00:00",
-      "feed_id": "parliament-news",
-      "publisher": "Народно събрание",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
-      "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
-      "url": "https://www.wto.org/english/news_e/news26_e/tmg20_23nov26_559_e.htm",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "publisher": "СТО",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 98
-      }
-    },
-    {
-      "section": "europe",
-      "source": "World Trade Organization (WTO)",
-      "title": "Members briefed on food export restrictions history, safeguard mechanism",
-      "summary": "The history of negotiations on export restrictions on food and a proposed special safeguard mechanism (SSM) for developing economies were the focus of meetings of the Committee on Agriculture's negotiations body on 23 November. This was the latest in a series",
-      "url": "https://www.wto.org/english/news_e/news26_e/agng_23nov26_565_e.htm",
-      "published": "2026-11-23T00:00:00+00:00",
-      "feed_id": "wto-news",
-      "publisher": "СТО",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 98
-      }
-    },
-    {
       "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "European Council puts forward Pablo Hernández de Cos as next President of the European Central Bank",
@@ -1133,25 +1095,6 @@
       "published": "2026-11-26T21:47:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-      "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T21:17:53+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
       "priority_score": 30,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -1221,6 +1164,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Изложбата „Швейцария и България: 110 години на партньорство, иновации и солидарност“ беше открита в Народното събрание",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6688",
+      "published": "2026-11-26T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "publisher": "Народно събрание",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 68,
+        "source_reliability": 98
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "БТА",
       "title": "Премиерът Румен Радев разговаря с френския президент Еманюел Макрон за нападението срещу български граждани преди мача на ПФК „Левски“ в Марсилия",
       "summary": "Разговарях с президента на Франция Еманюел Макрон за нападението срещу български граждани преди мача на ПФК „Левски“ в Марсилия. Споделяме позицията, че агресията и насилието нямат място в цивилизована Европа, написа премиерът Румен Радев във Фейсбук. Благодар",
@@ -1258,22 +1220,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Нападението над български футболни фенове в Марсилия е недопустимо, готови сме да окажем съдействие, съобщи президентът Илияна Йотова",
-      "summary": "Президентът Илияна Йотова поздрави баскетболните ни национали за победата над Дания и призова френските власти да потърсят отговорност за нападението над български футболни фенове в Марсилия. Поздравявам българските баскетболни национали за победата над Дания!",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255573-napadenieto-nad-balgarski-futbolni-fenove-v-marsiliya-e-nedopustimo-gotovi-sme-",
-      "published": "2026-11-26T21:31:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+      "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T21:17:53+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 95
       }
     },
     {
@@ -1291,27 +1253,8 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Акциз за нови и употребявани мощни автомобили и забрана за търговия с домашна ракия одобри на второ четене парламентът",
-      "summary": "Народното събрание одобри на второ четене промени в Закона за акцизите и данъчните складове, внесени от Министерския съвет, с които се предвижда акциз за нови и употребявани мощни автомобили и забрана на търговията с домашна ракия. Според промените леките авто",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255557-aktsiz-za-novi-i-upotrebyavani-moshtni-avtomobili-i-zabrana-za-targoviya-s-domas",
-      "published": "2026-11-26T20:45:53+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1331,6 +1274,63 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Преслав Райков: Бюджет 2027 няма амбиция да излезе от процедурата по свръхдефицит",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440126-preslav-raykov-byudzhet-2027-nyama-ambitsiya-da-izleze-ot-protsedurata-po-svrahdefitsit",
+      "published": "2026-11-26T18:30:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Индексите на БФБ затвориха разнопосочно при по-слаба активност",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/440150-indeksite-na-bfb-zatvoriha-raznoposochno-pri-po-slaba-aktivnost",
+      "published": "2026-11-26T17:33:17+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
+      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-26T16:21:19+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 95
       }
     }
   ],
