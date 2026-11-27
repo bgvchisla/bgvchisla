@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T00:35:49.890388+00:00",
-  "last_checked_at": "2026-11-27T00:35:49.890402+00:00",
+  "updated_at": "2026-11-27T02:00:50.883878+00:00",
+  "last_checked_at": "2026-11-27T02:00:50.883955+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -88,13 +88,13 @@
       "published": "2026-11-26T13:41:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
-      "priority_score": 44,
+      "priority_score": 43,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 95
       }
     },
@@ -183,33 +183,14 @@
       "published": "2026-11-26T00:39:10+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
-      "priority_score": 38,
+      "priority_score": 37,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Многонационалната бойна група на НАТО в България проведе тактическо учение",
-      "summary": "Многонационалната бойна група на НАТО в България проведе тактическо учение с бойни стрелби на ниво бригада „Тракия-26“, съобщиха от пресцентъра на Министерството на отбраната. Подготовката премина на учебните полигони „Ново село“ и „Корен“. В нея участваха вое",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255505-mnogonatsionalnata-boyna-grupa-na-nato-v-balgariya-provede-taktichesko-uchenie",
-      "published": "2026-11-26T18:08:45+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 90
       }
     },
     {
@@ -278,13 +259,13 @@
       "published": "2026-11-26T22:39:42+00:00",
       "feed_id": "politico-europe",
       "publisher": "POLITICO",
-      "priority_score": 35,
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 92
       }
     },
@@ -366,6 +347,25 @@
     },
     {
       "section": "bulgaria",
+      "source": "БТА",
+      "title": "МВнР да поиска обяснение от френското посолство в София и да гарантира безопасното завръщане на привържениците на „Левски” у нас, призова Ивайло Мирчев",
+      "summary": "Министерството на външните работи трябва незабавно да поиска обяснение от френското посолство в София, както и да гарантира безопасното завръщане на привържениците на „Левски” у нас. България е длъжна да се погрижи за сигурността и достойнството на гражданите",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255578-mvnr-da-poiska-obyasnenie-ot-frenskoto-posolstvo-v-sofiya-i-da-garantira-bezopas",
+      "published": "2026-11-26T21:53:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Председателят на парламента Михаела Доцова и българският патриарх Даниил откриха в Народното събрание благотворителната изложба-базар „Деца рисуват за деца“",
       "summary": "",
@@ -430,13 +430,13 @@
       "published": "2026-11-26T13:49:42+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 43,
+      "priority_score": 42,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 74,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -689,44 +689,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Обмислят хибриден модел за депозитната система с 34% държавно участие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/519-ekologiya/440122-obmislyat-hibriden-model-za-depozitnata-sistema-s-34-darzhavno-uchastie",
-      "published": "2026-11-26T13:20:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Ръстът на банковото кредитиране у нас се забави и през октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440121-rastat-na-bankovoto-kreditirane-u-nas-se-zabavi-i-prez-oktomvri",
-      "published": "2026-11-26T13:05:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Мистър и Мисис Икономика 2026 в снимки",
       "summary": "И през 2026 г. конкурсът „Мистър и Мисис Икономика“ предизвика голям интерес и събра на една сцена водещи представители на българския бизнес. На 24 ноември се проведе тържествената церемония по обявяването на победителите в „София Тех Парк“. Организатори на ко",
@@ -766,8 +728,8 @@
     {
       "section": "europe",
       "source": "The Guardian – World",
-      "title": "Qantas and Air New Zealand planes too close at Sydney airport with ‘mental models’ of crews to be investigated",
-      "summary": "Aborted descent on Wednesday morning is latest in a series of landing incidents at Sydney airport The Australian Transport Safety Bureau is investigating flight crews’ “mental models” after a Qantas plane aborted its landing at Sydney Airport on Wednesday afte",
+      "title": "Qantas and Air New Zealand planes too close at Sydney airport as ‘mental models’ of crews to be investigated",
+      "summary": "Aborted descent on Wednesday morning is latest in a series of landing incidents at Sydney airport Get our breaking news email , free app or daily news podcast The Australian Transport Safety Bureau is investigating flight crews’ “mental models” after a Qantas",
       "url": "https://www.theguardian.com/australia-news/2026/nov/27/qantas-plane-aborted-landing-sydney-airport-mental-model-investigation",
       "published": "2026-11-27T00:10:55+00:00",
       "feed_id": "guardian-world",
@@ -798,6 +760,44 @@
         "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Обмислят хибриден модел за депозитната система с 34% държавно участие",
+      "summary": "",
+      "url": "https://www.investor.bg/a/519-ekologiya/440122-obmislyat-hibriden-model-za-depozitnata-sistema-s-34-darzhavno-uchastie",
+      "published": "2026-11-26T13:20:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Ръстът на банковото кредитиране у нас се забави и през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440121-rastat-na-bankovoto-kreditirane-u-nas-se-zabavi-i-prez-oktomvri",
+      "published": "2026-11-26T13:05:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
         "source_reliability": 87
       }
     },
@@ -856,44 +856,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "МВнР да поиска обяснение от френското посолство в София и да гарантира безопасното завръщане на привържениците на „Левски” у нас, призова Ивайло Мирчев",
-      "summary": "Министерството на външните работи трябва незабавно да поиска обяснение от френското посолство в София, както и да гарантира безопасното завръщане на привържениците на „Левски” у нас. България е длъжна да се погрижи за сигурността и достойнството на гражданите",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255578-mvnr-da-poiska-obyasnenie-ot-frenskoto-posolstvo-v-sofiya-i-da-garantira-bezopas",
-      "published": "2026-11-26T21:53:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Френските власти да изяснят обстоятелствата около инцидентите с български граждани в Марсилия, настояват в позиция от външното министерство",
-      "summary": "Министерството на външните работи категорично осъжда нападенията срещу български граждани в Марсилия. Насилието и посегателствата срещу личната неприкосновеност са недопустими. Настояваме компетентните френски власти да изяснят в пълнота обстоятелствата около",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255576-frenskite-vlasti-da-izyasnyat-obstoyatelstvata-okolo-intsidentite-s-balgarski-gr",
-      "published": "2026-11-26T21:42:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1011,6 +973,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Френските власти да изяснят обстоятелствата около инцидентите с български граждани в Марсилия, настояват в позиция от външното министерство",
+      "summary": "Министерството на външните работи категорично осъжда нападенията срещу български граждани в Марсилия. Насилието и посегателствата срещу личната неприкосновеност са недопустими. Настояваме компетентните френски власти да изяснят в пълнота обстоятелствата около",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255576-frenskite-vlasti-da-izyasnyat-obstoyatelstvata-okolo-intsidentite-s-balgarski-gr",
+      "published": "2026-11-26T21:42:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "What would happen if Russia detonated a nuclear weapon in space?",
@@ -1045,63 +1026,6 @@
         "household_business_impact": 25,
         "strategic_significance": 32,
         "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Съвет на Европейския съюз",
-      "title": "European Council puts forward Pablo Hernández de Cos as next President of the European Central Bank",
-      "summary": "The European Council has put forward Pablo Hernández de Cos as next President of the European Central Bank, and Laurence Boone and Markus Brunnermeier as members of its executive board.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/26/european-council-puts-forward-pablo-hernandez-de-cos-as-next-president-of-the-european-central-bank/",
-      "published": "2026-11-26T22:50:00+00:00",
-      "feed_id": "council-press",
-      "publisher": "Съвет на ЕС",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-      "summary": "Macy's has postponed its 100th parade in Manhattan as more than 600,000 homes and businesses lost power.",
-      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-      "published": "2026-11-26T21:57:53+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "At odds over the EU budget, European leaders cut summit short - DW has more",
-      "summary": "Even before they met, it was clear the gap between European leaders' demands for the EU budget would make negotiations difficult. They ended a summit meeting early and aim to agree on EU funding in December. DW has more.",
-      "url": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short-dw-has-more/live-80056415?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T21:47:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
         "source_reliability": 95
       }
     },
@@ -1184,6 +1108,25 @@
     {
       "section": "bulgaria",
       "source": "БТА",
+      "title": "Елисейският дворец: Еманюел Макрон категорично осъжда насилието срещу български футболни фенове в Марсилия",
+      "summary": "Еманюел Макрон осъжда по най-категоричен начин актовете на насилие срещу български фенове на ПФК „Левски“ по време на футболен мач в Марсилия, предаде Франс прес, като се позова на изявление на Елисейския дворец. Подобни прояви на насилие „нямат място нито в с",
+      "url": "https://www.bta.bg/bg/news/world/1255601-eliseyskiyat-dvorets-emanyuel-makron-kategorichno-osazhda-nasilieto-sreshtu-bal",
+      "published": "2026-11-27T01:32:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
       "title": "Премиерът Румен Радев разговаря с френския президент Еманюел Макрон за нападението срещу български граждани преди мача на ПФК „Левски“ в Марсилия",
       "summary": "Разговарях с президента на Франция Еманюел Макрон за нападението срещу български граждани преди мача на ПФК „Левски“ в Марсилия. Споделяме позицията, че агресията и насилието нямат място в цивилизована Европа, написа премиерът Румен Радев във Фейсбук. Благодар",
       "url": "https://www.bta.bg/bg/news/bulgaria/1255589-premierat-rumen-radev-razgovarya-s-frenskiya-prezident-emanyuel-makron-za-napade",
@@ -1201,22 +1144,60 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "ФК Дунав (Русе) осъди нападенията срещу българските привърженици в Марсилия и изрази подкрепа за Левски",
-      "summary": "Футболен клуб Дунав разпространи официална позиция, в която категорично осъди нападенията срещу българските граждани, пътували до Марсилия, за да подкрепят Левски. От ръководството на \"драконите\" заявиха солидарността си с футболния отбор на актуалния шампион,",
-      "url": "https://www.bta.bg/bg/news/sport/1255579-fk-dunav-ruse-osadi-napadeniyata-sreshtu-balgarskite-privarzhenitsi-v-marsiliy",
-      "published": "2026-11-26T22:05:03+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Съвет на Европейския съюз",
+      "title": "European Council puts forward Pablo Hernández de Cos as next President of the European Central Bank",
+      "summary": "The European Council has put forward Pablo Hernández de Cos as next President of the European Central Bank, and Laurence Boone and Markus Brunnermeier as members of its executive board.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/26/european-council-puts-forward-pablo-hernandez-de-cos-as-next-president-of-the-european-central-bank/",
+      "published": "2026-11-26T22:50:00+00:00",
+      "feed_id": "council-press",
+      "publisher": "Съвет на ЕС",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+      "summary": "Macy's has postponed its 100th parade in Manhattan as more than 600,000 homes and businesses lost power.",
+      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+      "published": "2026-11-26T21:57:53+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "At odds over the EU budget, European leaders cut summit short",
+      "summary": "Even before they met, it was clear the gap between European leaders' demands for the EU budget would make negotiations difficult. They ended a summit meeting early and aim to agree on EU funding in December. DW has more.",
+      "url": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short/live-80056415?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T21:47:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 95
       }
     },
     {
@@ -1323,6 +1304,25 @@
       "published": "2026-11-26T16:21:19+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+      "summary": "Thousands have gathered in the capital of northern Iraq's semiautonomous Kurdish region, waving flags and voicing opposition to plans for the federal government to take control of oil operations and border crossings.",
+      "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T16:13:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
       "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 28,
