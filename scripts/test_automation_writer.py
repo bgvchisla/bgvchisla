@@ -52,6 +52,8 @@ class AutomatedWriterSecurityTests(unittest.TestCase):
  def test_production_deploys_from_main_after_merge(self):
   s=(ROOT/".github/workflows/deploy-production.yml").read_text(encoding="utf-8")
   self.assertIn("branches: [main]",s)
+  for dataset in ("source_status.json","economy.json","official_bnb.json","official_business_climate.json","inflation.json","labour-market.json","news.json","official_fiscal.json","official_nssi.json"):
+   self.assertIn(f'"{dataset}"',s)
   self.assertIn("pages deploy public --project-name=bgvchisla --branch=main",s)
  def test_analysis_publication_keeps_guarded_merge_and_deploy(self):
   s=(ROOT/".github/workflows/generate-analyses.yml").read_text(encoding="utf-8")
