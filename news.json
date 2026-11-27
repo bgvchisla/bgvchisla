@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T17:36:30.050197+00:00",
-  "last_checked_at": "2026-11-27T17:36:30.050209+00:00",
+  "updated_at": "2026-11-27T18:42:46.322232+00:00",
+  "last_checked_at": "2026-11-27T18:42:46.322243+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -43,44 +43,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Гоце Делчев одобри промени в капиталовата програма за 2026 година",
-      "summary": "Общинският съвет в Гоце Делчев одобри вътрешни компенсирани промени в разходите по капиталовата програма на общината за 2026 г. Решението предвижда пренасочване на средства към няколко инфраструктурни обекта, като част от ремонтите ще бъдат реализирани през 20",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1256337-obshtinskiyat-savet-v-gotse-delchev-odobri-promeni-v-kapitalovata-programa-za-20",
-      "published": "2026-11-27T15:56:07+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 46,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Russian drone strikes hit Ukraine's energy, rail and civilian infrastructure, causing deaths",
-      "summary": "After a series of Russian strikes and with the onset of winter cold, Ukraine was forced to halt all electricity exports, while imports reached their highest level since mid-June.",
-      "url": "https://www.euronews.com/2026/11/27/russian-drone-strikes-hit-ukraines-energy-rail-and-civilian-infrastructure-causing-deaths",
-      "published": "2026-11-27T15:16:17+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 45,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Икономист: Натрупаният стрес и несигурност сред бизнеса се отразява на заетостта и инвестициите",
       "summary": "",
@@ -99,22 +61,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Над 2000 деца от 43 детски градини в страната подобряват двигателните си умения по програма на МОН и на Националната спортна академия",
-      "summary": "Над 2000 деца от 43 детски градини в страната подобряват двигателните си умения по програма за насърчаване на физическата активност, реализирана от Министерството на образованието и науката (МОН) и от Националната спортна академия (НСА) „Васил Левски“. Резулта",
-      "url": "https://www.bta.bg/bg/news/lik/1256320-nad-2000-detsa-ot-43-detski-gradini-v-stranata-podobryavat-dvigatelnite-si-umeni",
-      "published": "2026-11-27T15:43:14+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Russian drone strikes hit Ukraine's energy, rail and civilian infrastructure, causing deaths",
+      "summary": "After a series of Russian strikes and with the onset of winter cold, Ukraine was forced to halt all electricity exports, while imports reached their highest level since mid-June.",
+      "url": "https://www.euronews.com/2026/11/27/russian-drone-strikes-hit-ukraines-energy-rail-and-civilian-infrastructure-causing-deaths",
+      "published": "2026-11-27T15:16:17+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 44,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
+        "economic_significance": 48,
+        "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 91
       }
     },
     {
@@ -202,13 +164,13 @@
       "published": "2026-11-27T15:40:35+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
-      "priority_score": 40,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 94
       }
     },
@@ -309,21 +271,59 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Инфлацията във Франция и Испания се забавя значително повече от очакваното",
-      "summary": "",
-      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440165-inflatsiyata-vav-frantsiya-i-ispaniya-se-zabavya-znachitelno-poveche-ot-ochakvanoto",
-      "published": "2026-11-27T09:05:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
+      "source": "Bank for International Settlements (BIS)",
+      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
+      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "published": "2026-11-25T00:00:00+00:00",
+      "feed_id": "bis-press",
+      "publisher": "BIS",
       "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
-        "household_business_impact": 25,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 50,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "При инцидентите преди футболната среща между „Олимпик Марсилия“ и „Левски София“ са пострадали 11 български граждани, съобщиха от МВнР",
+      "summary": "По първоначални данни на френските болнични и полицейски власти при инцидентите преди футболната среща между „Олимпик Марсилия“ и „Левски София“ са пострадали 11 български граждани, съобщиха от пресцентъра на Министерството на външните работи (МВнР) във връзка",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1256429-pri-intsidentite-predi-futbolnata-sreshta-mezhdu-olimpik-marsiliya-i-levski-s",
+      "published": "2026-11-27T18:13:12+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Започва 40-ото издание на Новогодишния музикален фестивал на НДК",
+      "summary": "Новогодишният музикален фестивал (НМФ) на Националния дворец на културата започва на 1 декември и ще продължи до 1 януари 2027 г., съобщават домакините. Четиридесетото издание на фестивала предвижда и три изложби. Както писа БТА, на 1 декември в зала 9 ще се с",
+      "url": "https://www.bta.bg/bg/news/lik/1256392-zapochva-40-oto-izdanie-na-novogodishniya-muzikalen-festival-na-ndk",
+      "published": "2026-11-27T17:35:28+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -518,25 +518,6 @@
     },
     {
       "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 27th, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 27th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/27/latest-news-bulletin-november-27th-2026-morning",
-      "published": "2026-11-27T06:00:33+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 39,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
       "source": "Deutsche Welle",
       "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
       "summary": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's Norse Atlantic into bankruptcy.",
@@ -552,6 +533,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 27th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 27th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/27/latest-news-bulletin-november-27th-2026-morning",
+      "published": "2026-11-27T06:00:33+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -614,9 +614,9 @@
     {
       "section": "europe",
       "source": "Deutsche Welle",
-      "title": "German lawmakers approve debt-laden 2027 budget",
+      "title": "Germany news: Lawmakers approve debt-laden 2027 budget",
       "summary": "German lawmakers voted on a federal budget which foresees €556 billion in spending. Elsewhere, the Left Party is hosting a summit on femicide and the BSW party conference starts in Dresden. DW has more.",
-      "url": "https://www.dw.com/en/german-lawmakers-approve-debt-laden-2027-budget/live-80071074?maca=en-rss-en-all-1573-rdf",
+      "url": "https://www.dw.com/en/germany-news-lawmakers-approve-debt-laden-2027-budget/live-80071074?maca=en-rss-en-all-1573-rdf",
       "published": "2026-11-27T13:54:00+00:00",
       "feed_id": "dw-world",
       "publisher": "Deutsche Welle",
@@ -707,25 +707,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Bank for International Settlements (BIS)",
-      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
-      "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
-      "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
-      "published": "2026-11-25T00:00:00+00:00",
-      "feed_id": "bis-press",
-      "publisher": "BIS",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 50,
-        "source_reliability": 99
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Между дома и офиса: Накъде върви хибридната работа в България?",
@@ -761,25 +742,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 92
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Започва 40-ото издание на Новогодишния музикален фестивал на НДК",
-      "summary": "Новогодишният музикален фестивал (НМФ) на Националния дворец на културата започва на 1 декември и ще продължи до 1 януари 2027 г., съобщават домакините. Четиридесетото издание на фестивала предвижда и три изложби. Както писа БТА, на 1 декември в зала 9 ще се с",
-      "url": "https://www.bta.bg/bg/news/lik/1256392-zapochva-40-oto-izdanie-na-novogodishniya-muzikalen-festival-na-ndk",
-      "published": "2026-11-27T17:35:28+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -935,31 +897,31 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "German firms eye Africa as global trade shocks hit traditional markets",
-      "summary": "German businesses are optimistic about Africa, but Berlin's cautious approach to risk is holding them back from cashing in on the opportunities that their competitors from countries like the UAE and Turkey are seizing.",
-      "url": "https://www.dw.com/en/german-firms-eye-africa-as-global-trade-shocks-hit-traditional-markets/a-80047671?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T14:38:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 30,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "„Дългият път на деня към нощта“ от Юджийн О'Нийл се завръща на сцената на „Театър 199“ след 56 години отсъствие",
+      "summary": "Премиерата на спектакъла „Дългият път на деня към нощта“ от американския драматург Юджийн О'Нийл ще се състои на 1 декември в „Театър 199“, съобщават домакините. Постановката се връща в афиша на театъра 56 години след първата постановка в България и 70 години",
+      "url": "https://www.bta.bg/bg/news/lik/1256423--dalgiyat-pat-na-denya-kam-noshtta-ot-yudzhiyn-o-niyl-se-zavrashta-na-stsenata-",
+      "published": "2026-11-27T18:10:45+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 61,
         "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 95
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Насилието в Марсилия започна от френска страна, полицията реагира в съответствие със стандартната процедура, каза посланикът на Франция в София",
-      "summary": "\"Очевидно насилието започна от френска страна\". Полицията бе извикана в съответствие със стандартната процедура, което предотврати по-нататъшни инциденти и позволи мачът да продължи\", заяви днес посланикът на Франция в България Мари Дюмулен в отговор на въпрос",
-      "url": "https://www.bta.bg/bg/news/world/1256269-nasilieto-v-marsiliya-zapochna-ot-frenska-strana-politsiyata-reagira-v-saotvets",
-      "published": "2026-11-27T16:59:00+00:00",
+      "title": "Националният театрален фестивал „Кисимови празници“ започна във Велико Търново",
+      "summary": "Велико Търново възроди традицията на театралните прегледи на историческата и класическата драма с първото издание на Националния фестивал „Кисимови празници“. Форумът беше официално открит тази вечер в Музикално-драматичния театър (МДТ) „Константин Кисимов“ и",
+      "url": "https://www.bta.bg/bg/news/lik/1256419-natsionalniyat-teatralen-festival-kisimovi-praznitsi-zapochna-vav-veliko-tarno",
+      "published": "2026-11-27T17:53:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -976,9 +938,9 @@
       "section": "bulgaria",
       "source": "БТА",
       "title": "Насилието в Марсилия започна от френска страна, полицията реагира в съответствие със стандартната процедура, каза посланикът на Франция в София",
-      "summary": "\"Очевидно насилието започна от френска страна\". Полицията бе извикана в съответствие със стандартната процедура, което предотврати по-нататъшни инциденти и позволи мачът да продължи, заяви днес посланикът на Франция в България Мари Дюмулен в отговор на въпрос",
-      "url": "https://www.bta.bg/bg/news/world/1256268-nasilieto-v-marsiliya-zapochna-ot-frenska-strana-politsiyata-reagira-v-saotvets",
-      "published": "2026-11-27T16:04:00+00:00",
+      "summary": "\"Очевидно насилието започна от френска страна. Полицията бе извикана в съответствие със стандартната процедура, което предотврати по-нататъшни инциденти и позволи мачът да продължи\", заяви днес посланикът на Франция в България Мари Дюмулен в отговор на въпрос",
+      "url": "https://www.bta.bg/bg/news/world/1256269-nasilieto-v-marsiliya-zapochna-ot-frenska-strana-politsiyata-reagira-v-saotvets",
+      "published": "2026-11-27T16:59:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1006,7 +968,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -1065,25 +1027,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "EU leaders fail to bridge budget splits as talks stall",
-      "summary": "Aid for Ukraine was among the disputes as EU members hope to conclude talks by the end of the year.",
-      "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-27T06:11:55+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
       }
     },
     {
@@ -1168,7 +1111,7 @@
       "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
       "summary": "Greenpeace publishes report showing tech firm is continuing to build despite planning appeal still unresolved Belgian authorities have ordered Google to halt construction work on a large datacentre in the south of the country because the US tech firm’s request",
       "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
-      "published": "2026-11-27T17:18:19+00:00",
+      "published": "2026-11-27T17:21:18+00:00",
       "feed_id": "guardian-world",
       "publisher": "The Guardian",
       "priority_score": 28,
@@ -1240,63 +1183,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Заместник-министърът на образованието проф. Сеня Терзиева и проф. Димитър Дончев от ХТМУ бяха удостоени с френския орден „Академични палми“",
-      "summary": "Заместник-министърът на образованието и науката проф. Сеня Терзиева и проф. Димитър Дончев от Химикотехнологичния и металургичен университет (ХТМУ) бяха удостоени с френския орден „Академични палми“ за приноса си към развитието на академичното сътрудничество м",
-      "url": "https://www.bta.bg/bg/news/lik/1256334-zamestnik-ministarat-na-obrazovanieto-prof-senya-terzieva-i-prof-dimitar-donch",
-      "published": "2026-11-27T15:58:46+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "‘Mass-casualty event’ in Europe possible amid rise in Russian sabotage, says thinktank",
-      "summary": "Report warns attacks on critical infrastructure could lead to demand for retaliation and expose EU divisions Russian sabotage attacks on Europe are increasing and a “mass-casualty event” is now possible as increasingly skilled operatives target critical infras",
-      "url": "https://www.theguardian.com/world/2026/nov/27/mass-casualty-event-europe-possible-russian-sabotage-says-thinktank",
-      "published": "2026-11-27T14:46:27+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "We’d be ‘stupid’ not to: Poland defends $300M military AI deal with Palantir",
-      "summary": "Poland's defense minister said it would be “wrong” not to use the software, despite concerns over reliance on American technology.",
-      "url": "https://www.politico.eu/article/wed-be-stupid-not-to-poland-defends-300m-military-ai-deal-with-palantir/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-27T14:41:55+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Парламентът одобри постепенното повишаване на прага за регистрация по ДДС",
       "summary": "",
@@ -1331,6 +1217,120 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Keynote speech by Commissioner Albuquerque at the Training Day' of the 10th Anniversary of the ECB Simulation Conference for University Students",
+      "summary": "European Commission Speech Online, 27 Nov 2026 Good morning, everyone. I am delighted to join you for the opening of the 10th ECB Simulation Conference. Let me begin by congratulating the organisers on a dec...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2613",
+      "published": "2026-11-27T12:48:42+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "В София отвори първото българско аутлет селище",
+      "summary": "Нов търговски формат навлиза в България. Първото аутлет селище в страната съчетава международни брандове, целогодишни намаления и пазаруване на открито",
+      "url": "https://www.economic.bg/bg/a/view/v-sofija-otvori-pyrvoto-bylgarsko-autlet-selishte",
+      "published": "2026-11-27T12:25:20+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Фискалният съвет очаква Брюксел да поиска нови мерки за понижаване на дефицита от България",
+      "summary": "",
+      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440182-fiskalniyat-savet-ochakva-bryuksel-da-poiska-novi-merki-za-ponizhavane-na-defitsita-ot-balgariya",
+      "published": "2026-11-27T12:25:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Daily News 27 / 11 / 2026",
+      "summary": "European Commission Daily news Brussels, 27 Nov 2026 Commission unconditionally approves Deutsche Börse's acquisition of Allfunds The European Commission has unconditionally approved, under the EU Merger Regulatio...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2609",
+      "published": "2026-11-27T10:27:23+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BBC News – Свят",
+      "title": "EU leaders fail to bridge budget splits as talks stall",
+      "summary": "Aid for Ukraine was among the disputes as EU members hope to conclude talks by the end of the year.",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-27T06:11:55+00:00",
+      "feed_id": "bbc-world",
+      "publisher": "BBC",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Народно събрание",
+      "title": "Комисията по европейските въпроси и контрол на европейските фондове и българските евродепутати обсъдиха националните приоритети в преговорите по Многогодишната финансова рамка на ЕС 2028–2034 г.",
+      "summary": "",
+      "url": "https://www.parliament.bg/bg/news/6691",
+      "published": "2026-11-27T00:00:00+00:00",
+      "feed_id": "parliament-news",
+      "publisher": "Народно събрание",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 98
       }
     }
   ],
