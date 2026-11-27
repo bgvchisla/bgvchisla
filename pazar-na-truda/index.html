@@ -432,8 +432,9 @@ function render(data){
  barChart("employment-sector-chart",l.by_sector.map(p=>({label:p.label,value:p.employed_thousands})).sort((a,b)=>a.value-b.value),"value","Заети лица по икономически сектор","blue-bar"," хил.");
  var wageMonths=w.monthly_series.map(p=>({label:p.label,value:p.gross_monthly_eur}));
  barChart("wage-monthly-chart",wageMonths,"value","Средна брутна работна заплата","green-bar"," €");
- var hi=w.quarterly_activity_extremes.filter(p=>p.group==="highest").map(p=>({label:p.activity,value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
- var low=w.quarterly_activity_extremes.filter(p=>p.group==="lowest").map(p=>({label:p.activity,value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
+ var shortActivity=function(v){return v.replace("Създаване и разпространение на информация и творчески продукти; далекосъобщения","Информация и далекосъобщения").replace("Финансови и застрахователни дейности","Финанси и застраховане").replace("Селско, горско и рибно стопанство","Селско стопанство").replace("Хотелиерство и ресторантьорство","Хотели и ресторанти");};
+ var hi=w.quarterly_activity_extremes.filter(p=>p.group==="highest").map(p=>({label:shortActivity(p.activity),value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
+ var low=w.quarterly_activity_extremes.filter(p=>p.group==="lowest").map(p=>({label:shortActivity(p.activity),value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
  barChart("wage-high-chart",hi,"value","Най-високи възнаграждения","blue-bar"," €");
  barChart("wage-low-chart",low,"value","Най-ниски възнаграждения","gold-bar"," €");
  var wt=$("wage-activity-table").querySelector("tbody");wt.textContent="";
