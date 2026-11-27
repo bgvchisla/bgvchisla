@@ -50,11 +50,17 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from urllib.parse import urlparse
           data = json.loads(Path("labour-market.json").read_text(encoding="utf-8"))
           vacancy = data["active_vacancies"]
           if not vacancy.get("as_of") or not isinstance(vacancy.get("count"), int):
               raise SystemExit("Invalid vacancy snapshot")
-          if not vacancy["source_url"].startswith("https://az.government.bg/"):
+          source = urlparse(vacancy["source_url"])
+          if (
+              source.scheme != "https"
+              or source.hostname not in {"az.government.bg", "www.az.government.bg"}
+              or source.path != "/bg/ejobs/view_prl/"
+          ):
               raise SystemExit("Unexpected vacancy data source")
           print(f"Validated {vacancy['count']} open positions as of {vacancy['as_of']}.")
           PY
