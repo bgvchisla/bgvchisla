@@ -193,7 +193,7 @@ jobs:
               "scripts/fact_check_analysis.py",
           }
           allowed = required | audit_control
-          ledger_only = required.issubset(changed) and changed.issubset(allowed)
+          ledger_only = bool(changed.intersection(required)) and changed.issubset(allowed)
           verification_ledger_only = changed == {"analysis/verification_usage.json"}
           audit_policy_only = audit_control.issubset(changed) and changed.issubset(audit_control)
 
