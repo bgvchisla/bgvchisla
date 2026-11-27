@@ -1,46 +1,8 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T06:25:27.770588+00:00",
-  "last_checked_at": "2026-11-27T06:25:27.770602+00:00",
+  "updated_at": "2026-11-27T07:50:19.558663+00:00",
+  "last_checked_at": "2026-11-27T07:50:19.558675+00:00",
   "items": [
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Парламентът ще разгледа на второ четене промени в Закона за ДДС, с които се регламентира специален режим за облагане на малки предприятия",
-      "summary": "Парламентът ще разгледа на второ четене промени в Закона за данък върху добавената стойност, с които се регламентират условията за прилагане на специални режими за облагане с ДДС на малки предприятия, на лицата, установени на територията на страната, и за тези",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255493-parlamentat-shte-razgleda-na-vtoro-chetene-promeni-v-zakona-za-dds-s-koito-se-r",
-      "published": "2026-11-27T05:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 49,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 61,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: „Ивкони“ наема имоти и жп коловози от БДЖ; Кой стои зад поредния завод за барут?",
-      "summary": "Нова високотехнологична инвестиция идва в България – турската TEI ще вложи 90 млн. долара в завод за авиочасти в Пловдив, който ще осигури 170 работни места. Междувременно страната прави поредна стъпка към изграждането на втори граничен пункт при Капитан Андре",
-      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-ivkoni-naema-imoti-i-jp-kolovozi-ot-bdj-koj-stoi-zad-porednija-zavod-za-barut",
-      "published": "2026-11-25T16:30:24+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 51,
-      "priority_breakdown": {
-        "economic_significance": 68,
-        "national_impact": 61,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 68,
-        "source_reliability": 85
-      }
-    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -61,41 +23,22 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
-      "summary": "The agreement offers new export and investment opportunities for Jakarta and Brussels. But can Indonesia turn Europe's growing interest in its markets and critical minerals into sustainable gains at home?",
-      "url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T13:41:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 43,
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Решено: Банки, телекоми и хранителни вериги ще плащат данък „Свръхпечалба“ през 2027 г.",
+      "summary": "Банките, застрахователите, телекомите и големите вериги за търговия с храни ще плащат еднократен данък върху свръхпечалбата, реализирана през 2027 г. Това прие Народното събрание на второ четене на Закона за корпоративното подоходно облагане (ЗКПО). Новият нал",
+      "url": "https://www.economic.bg/bg/a/view/resheno-banki-telekomi-i-hranitelni-verigi-shte-plashtat-danyk-svryhpechalba-prez-2027-g",
+      "published": "2026-11-26T16:12:13+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 48,
       "priority_breakdown": {
         "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "€561 Billion and Still Not Enough: Germany's 2027 Budget Exposes a Coalition on the Brink",
-      "summary": "The budget for 2027 has reached new highs, and pension funds, defense spending and a weak economy are increasing the pressure. At the same time, tensions are mounting within the government.",
-      "url": "https://www.dw.com/en/€561-billion-and-still-not-enough-germany-s-2027-budget-exposes-a-coalition-on-the-brink/a-80052664?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-25T16:06:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 46,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
+        "national_impact": 61,
         "household_business_impact": 42,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 95
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -119,6 +62,44 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "€561 Billion and Still Not Enough: Germany's 2027 Budget Exposes a Coalition on the Brink",
+      "summary": "The budget for 2027 has reached new highs, and pension funds, defense spending and a weak economy are increasing the pressure. At the same time, tensions are mounting within the government.",
+      "url": "https://www.dw.com/en/€561-billion-and-still-not-enough-germany-s-2027-budget-exposes-a-coalition-on-the-brink/a-80052664?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-25T16:06:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 46,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
+      "summary": "The agreement offers new export and investment opportunities for Jakarta and Brussels. But can Indonesia turn Europe's growing interest in its markets and critical minerals into sustainable gains at home?",
+      "url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T13:41:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 43,
+      "priority_breakdown": {
+        "economic_significance": 48,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "POLITICO Europe",
       "title": "EU leaders brave clash with Trump over tech tax, defense, Ukraine",
       "summary": "European governments are now more willing to take on the U.S. president: 'What do we have to lose?'",
@@ -137,14 +118,14 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Стражица ще обсъди общия устройствен план на общината и промени в бюджета",
-      "summary": "Общинския съвет в Стражица ще обсъди общия устройствен план на общината, проект на наредба за местните такси и цени на услуги и актуализации на общинския бюджет за 2026 година на днешното си редовно заседание. Това е записано в дневния ред, публикуван на офици",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255110-obshtinskiyat-savet-v-strazhitsa-shte-obsadi-obshtiya-ustroystven-plan-na-obshti",
-      "published": "2026-11-27T04:49:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Европейски строителни федерации и инвеститори настояват за преразглеждане на спорния регламент за вноса на стомана",
+      "summary": "Водещи европейски федерации, компании от строителния сектор и работодателски организации настояват за спешно преразглеждане на Регламента за стоманата, който въвежда нов режим на тарифни квоти и 50% по-високи мита върху вноса на стоманени продукти в Европейски",
+      "url": "https://www.economic.bg/bg/a/view/evropejski-stroitelni-federacii-i-investitori-nastojavat-za-prerazglejdane-na-spornija-reglament-za-vnosa-na-stomana",
+      "published": "2026-11-27T07:00:04+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 38,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -152,7 +133,7 @@
         "household_business_impact": 42,
         "strategic_significance": 0,
         "timeliness": 100,
-        "source_reliability": 90
+        "source_reliability": 85
       }
     },
     {
@@ -191,6 +172,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Един е загинал, а 16 души са ранени при 12 катастрофи през изминалото денонощие в страната",
+      "summary": "Един човек е загинал, а 16 души са ранени при 12 катастрофи през изминалото денонощие в страната. Това съобщават от Министерството на вътрешните работи на официалния си сайт. В София са регистрирани 39 леки пътнотранспортни произшествия и едно тежко. От начало",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255632-edin-e-zaginal-a-16-dushi-sa-raneni-pri-12-katastrofi-prez-izminaloto-denonosht",
+      "published": "2026-11-27T06:42:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -270,6 +270,44 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Студенти ще решават реални бизнес казуси в състезание в Благоевград",
+      "summary": "Общо 60 студенти ще участват в тридневното състезание Campaign Lab, организирано от студентския клуб Project S към Американския университет в България (АУБ). Инициативата започва днес и ще продължи до 29 ноември в кампуса на висшето училище в Благоевград, а на",
+      "url": "https://www.bta.bg/bg/news/lik/1255654-studenti-shte-reshavat-realni-biznes-kazusi-v-sastezanie-v-blagoevgrad",
+      "published": "2026-11-27T07:37:07+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Бизнесът вижда потенциал за утрояване на търговията между България и Северна Македония",
+      "summary": "",
+      "url": "https://www.investor.bg/a/515-ikonomika-i-makrodanni/440155-biznesat-vizhda-potentsial-za-utroyavane-na-targoviyata-mezhdu-balgariya-i-severna-makedoniya",
+      "published": "2026-11-27T07:08:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
       "section": "europe",
       "source": "POLITICO Europe",
       "title": "How Costa’s budget talks sparked a new crisis",
@@ -278,13 +316,13 @@
       "published": "2026-11-27T03:45:00+00:00",
       "feed_id": "politico-europe",
       "publisher": "POLITICO",
-      "priority_score": 35,
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 92
       }
     },
@@ -305,44 +343,6 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
-      "published": "2026-11-26T19:30:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Лихвите при потребителските и жилищните заеми намаляват на годишна база през октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440134-lihvite-pri-potrebitelskite-i-zhilishtnite-zaemi-namalyavat-na-godishna-baza-prez-oktomvri",
-      "published": "2026-11-26T18:00:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 87
       }
     },
     {
@@ -386,38 +386,19 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "Решено: Банки, телекоми и хранителни вериги ще плащат данък „Свръхпечалба“ през 2027 г.",
-      "summary": "Банките, застрахователите, телекомите и големите вериги за търговия с храни ще плащат еднократен данък върху свръхпечалбата, реализирана през 2027 г. Това прие Народното събрание на второ четене на Закона за корпоративното подоходно облагане (ЗКПО). Новият нал",
-      "url": "https://www.economic.bg/bg/a/view/resheno-banki-telekomi-i-hranitelni-verigi-shte-plashtat-danyk-svryhpechalba-prez-2027-g",
-      "published": "2026-11-26T16:12:13+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 48,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 61,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
       "title": "Черен петък: Намаляват ли българите покупките си заради цените?",
       "summary": "Как се променят потребителските навици на българите през 2026 г. и какво да очакваме на Черен петък? 2026-а, която е първата година на страната като част от еврозоната, е белязана от висока инфлация, забавящ се ръст на заплатите и висока несигурност. Това даде",
       "url": "https://www.economic.bg/bg/a/view/cheren-petyk-namaljavat-li-bylgarite-pokupkite-si-zaradi-cenite",
       "published": "2026-11-26T07:41:09+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 46,
+      "priority_score": 45,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 82,
+        "timeliness": 68,
         "source_reliability": 85
       }
     },
@@ -438,25 +419,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "What is the US permitting bill and would it actually help the climate?",
-      "summary": "Sweeping US legislation to speed up energy projects has found rare bipartisan support. Supporters say it would unlock clean energy and lower energy bills, but critics say it's a gift to fossil fuels.",
-      "url": "https://www.dw.com/en/what-is-the-us-permitting-bill-and-would-it-actually-help-the-climate/a-80007213?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T11:22:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 42,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 95
       }
     },
     {
@@ -555,25 +517,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
-      "summary": "At least 31 people have been killed and 21 injured after a crash involving a fuel tanker triggered a massive fire on a major highway near Cairo. The blaze engulfed more than two dozen cars and motorcycles on the Ring Road in Giza on Wednesday night.",
-      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
-      "published": "2026-11-26T04:40:55+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Българска народна банка",
       "title": "УС на БНБ прие решение на основание чл. 9, ал. 1 във връзка с § 2 от заключителните разпоредби на Наредба № 50 на БНБ от 13 ноември 2025 г. за назначаване на регистрирани одитори и външни независими експерти по чл. 46, ал. 1, т. 3 от Закона за лицата, обслужващи кредити, и купувачите на кредити, както и изискванията към тях, за обявяване на процедура за вписване в списъка на външните независими ек",
@@ -595,10 +538,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Финансиране на процедури инвитро и отпускане на финансова помощ са сред точките, които ще разгледат общинските съветници в Благоевград",
-      "summary": "Финансиране на процедури инвитро със средства от бюджета на община Благоевград е заложено като точка в дневния ред на Общинския съвет, публикуван на интернет страницата на институцията. На свое заседание днес от 9:30 часа съветниците ще разгледат и точка, свър",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255153-finansirane-na-protseduri-invitro-i-otpuskane-na-finansova-pomosht-sa-sred-tochk",
-      "published": "2026-11-27T04:28:00+00:00",
+      "title": "Общинският съвет във Ветово ще обсъди бюджетни корекции, отдаването под наем на терени за пчелни семейства и дарение",
+      "summary": "Общинският съвет във Ветово ще обсъди бюджетни корекции, предоставяне на общинска сграда за нуждите на полицията и приемане на дарение от фирма „Каолин“ ЕАД. Това се посочва в дневния ред на днешното 60-о редовно заседание на местния парламент, публикуван на и",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255635-obshtinskiyat-savet-vav-vetovo-shte-obsadi-byudzhetni-korektsii-otdavaneto-pod-",
+      "published": "2026-11-27T06:47:33+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 36,
@@ -628,6 +571,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Лихвите при потребителските и жилищните заеми намаляват на годишна база през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440134-lihvite-pri-potrebitelskite-i-zhilishtnite-zaemi-namalyavat-na-godishna-baza-prez-oktomvri",
+      "published": "2026-11-26T18:00:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 87
       }
     },
     {
@@ -764,22 +726,98 @@
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Qantas and Air New Zealand planes too close at Sydney airport as ‘mental models’ of crews to be investigated",
-      "summary": "Aborted descent on Wednesday morning is latest in a series of landing incidents at Sydney airport Get our breaking news email , free app or daily news podcast The Australian Transport Safety Bureau is investigating flight crews’ “mental models” after a Qantas",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/27/qantas-plane-aborted-landing-sydney-airport-mental-model-investigation",
-      "published": "2026-11-27T00:10:55+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Със спектакъл на фигуристи ще бъде открита вечерта ледената пързалка в Стара Загора",
+      "summary": "Със спектакъл по фигурно пързаляне ще бъде открита тази вечер ледената пързалка в Стара Загора. Това съобщи за БТА директорът на Общинско предприятие „Арт сцена-Стара Загора“ Екатерина Радукова. Тя поясни, че в него ще участват представители на Спортен клуб „Л",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255662-sas-spektakal-na-figuristi-shte-bade-otkrita-vecherta-ledenata-parzalka-v-stara-",
+      "published": "2026-11-27T07:32:57+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 22,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Николай Денков призова за обща декларация на парламента във връзка с посегателството срещу български футболни привърженици в Марсилия",
+      "summary": "В началото на пленарното заседание председателят на парламентарната група на „Продължаваме промяната“ Николай Денков призова политическите сили в Народното събрание да изготвят обща декларация във връзка с посегателството срещу български футболни привърженици",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255656-nikolay-denkov-prizova-za-obshta-deklaratsiya-na-parlamenta-vav-vrazka-s-posegat",
+      "published": "2026-11-27T07:19:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 32,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 31 хиляди повиквания са регистрирани на телефон 112 за изминалата седмица",
+      "summary": "На единния европейски номер за спешни повиквания 112 са регистрирани 31 760 регламентирани повиквания през изминалата седмица, което е увеличение с 9,9% спрямо същия период на 2025 г., съобщиха от дирекция „Национална система 112“ към Министерството на вътрешн",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255638-nad-31-hilyadi-povikvaniya-sa-registrirani-na-telefon-112-za-izminalata-sedmitsa",
+      "published": "2026-11-27T06:58:20+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Категорично осъждам посегателството срещу български футболни привърженици в Марсилия, заяви председателят на парламента Михаела Доцова",
+      "summary": "Категорично осъждам посегателството срещу български футболни привърженици в Марсилия. Подобна агресия е абсолютно недопустима. Това написа председателят на Народното събрание Михаела Доцова в официалния си фейсбук профил по повод сблъсъците на футболния мач ме",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255631-kategorichno-osazhdam-posegatelstvoto-sreshtu-balgarski-futbolni-privarzhenitsi-",
+      "published": "2026-11-27T06:40:39+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
+      "published": "2026-11-26T19:30:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
+        "timeliness": 82,
+        "source_reliability": 87
       }
     },
     {
@@ -918,67 +956,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Промяна на инвестиционно намерение за туристическо селище ще обсъди Общинският съвет в Белоградчик",
-      "summary": "Промяна на инвестиционно намерение за изграждане на туристическо селище в село Вещица ще обсъди Общинският съвет в Белоградчик. Това показва дневният ред на предстоящото заседание, публикуван на сайта на Общината. Във връзка с имота в землището на село Вещица",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255128-promyana-na-investitsionno-namerenie-za-turistichesko-selishte-shte-obsadi-obsht",
-      "published": "2026-11-27T05:14:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Лясковец ще обсъди подготовката за зимния сезон, бюджетното изпълнение и мерки за намаляване на риска от бедствия",
-      "summary": "Информация за състоянието на пътната обстановка и подготовката за есенно-зимния сезон 2026–2027 г. в община Лясковец е сред въпросите, включени в дневния ред на предстоящото заседание на Общинския съвет, публикуван на интернет страницата на институцията. Общин",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255452-obshtinskiyat-savet-v-lyaskovets-shte-obsadi-podgotovkata-za-zimniya-sezon-byud",
-      "published": "2026-11-27T05:11:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Кочериново ще обсъди отчета за изпълнение на бюджета за 2025 година",
-      "summary": "Общинският съвет в Кочериново ще обсъди отчета за изпълнение на бюджета за 2025 година и отчета за състоянието на общинския дълг на община Кочериново. Това показва публикуваният дневен ред на редовното заседание на съвета, което ще се състои от 10:00 часа в за",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255292-obshtinskiyat-savet-v-kocherinovo-shte-obsadi-otcheta-za-izpalnenie-na-byudzheta",
-      "published": "2026-11-27T04:44:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Златарица ще обсъди зимната готовност и културната програма за 2027 година",
-      "summary": "Общинският съвет в Златарица ще обсъди готовността на общината за работа през есенно-зимния период 2026–2027 година и ще разгледа програмата за развитие на читалищната дейност и календара на културните мероприятия за 2027 година. Това е записано в дневния ред",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255092-obshtinskiyat-savet-v-zlataritsa-shte-obsadi-zimnata-gotovnost-i-kulturnata-prog",
-      "published": "2026-11-27T04:37:00+00:00",
+      "title": "Общинският съвет в Главиница ще разгледа инвестиции на ВиК оператора за близо 34 хил. евро и проект за реконструкция на водопровод",
+      "summary": "Общинският съвет в Главиница ще разгледа на днешното си редовно заседание отчитането и приемането на инвестиции на стойност близо 34 хил. евро, извършени от „Водоснабдяване и канализация“ ООД – Силистра през 2026 година в публични активи на общината. Точката е",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255667-obshtinskiyat-savet-v-glavinitsa-shte-razgleda-investitsii-na-vik-operatora-za-b",
+      "published": "2026-11-27T07:33:26+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 30,
@@ -1088,11 +1069,30 @@
     },
     {
       "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Цената на петрола се насочва към седмичен ръст*",
+      "summary": "",
+      "url": "https://www.investor.bg/a/538-pazari/440156-tsenata-na-petrola-se-nasochva-kam-sedmichen-rast",
+      "published": "2026-11-27T07:40:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
       "source": "БТА",
-      "title": "Няма данни за българи в ареста или в болница в Марсилия, съобщи генералният консул на България в Лион",
-      "summary": "По официални данни на френската полиция няма нито един арестуван български гражданин, нито български гражданин, който да се намира в болнично заведение. Това съобщи генералният консул на България в Лион Надя Живкова-Ванева в ефира на БНТ по повод сблъсъците по",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255623-nyama-danni-za-balgari-v-aresta-ili-v-bolnitsa-v-marsiliya-saobshti-generalniya",
-      "published": "2026-11-27T06:17:00+00:00",
+      "title": "Лоши са условията за туризъм, съобщиха от Планинската спасителна служба на БЧК",
+      "summary": "Лоши са условията за туризъм, съобщиха за БТА от Планинската спасителна служба на Българския Червен кръст (БЧК). В високите части на планините е облачно, мъгливо със слаб до умерен вятър. Видимостта е лоша, мокро и кално е, на места петна от сняг. Температурит",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255659-loshi-sa-usloviyata-za-turizam-saobshtiha-ot-planinskata-spasitelna-sluzhba-na-",
+      "published": "2026-11-27T07:19:06+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1108,10 +1108,29 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Общо 72 пожара са ликвидирани в страната през изминалото денонощие, няма пострадали",
-      "summary": "Общо 72 пожара са потушени в страната през изминалото денонощие, няма загинали и пострадали, съобщиха от Главна дирекция „Пожарна безопасност и защита на населението“ – МВР на сайта си. Пожарните екипи са реагирали на 102 сигнала за произшествия. С преки матер",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255612-obshto-72-pozhara-sa-likvidirani-v-stranata-prez-izminaloto-denonoshtie-nyama-p",
-      "published": "2026-11-27T05:57:48+00:00",
+      "title": "УМБАЛ „Свети Георги“ въведе първата в България система за томотерапия Radixact",
+      "summary": "Университетската многопрофилна болница за активно лечение (УМБАЛ) „Свети Георги“ – Пловдив, въведе в експлоатация в Клиниката по лъчелечение първата в България система Radixact – най-ново поколение линеен ускорител или платформа за томотерапия на американската",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255641-umbal-sveti-georgi-vavede-parvata-v-balgariya-sistema-za-tomoterapiya-radixact",
+      "published": "2026-11-27T07:06:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Балетният спектакъл „Земфира“ на Държавната опера в Бургас поставя въпроса за избора между любовта, парите и свободата",
+      "summary": "История за любов, страст, свобода и цената на личния избор ще представи Държавната опера в Бургас с най-новото заглавие в своя репертоар – балетния спектакъл „Земфира“, чиято премиера e тази вечер, 27 ноември. Адаптацията, хореографията и режисурата са на Мари",
+      "url": "https://www.bta.bg/bg/news/lik/1255487-baletniyat-spektakal-zemfira-na-darzhavnata-opera-v-burgas-postavya-vaprosa-za",
+      "published": "2026-11-27T06:28:07+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
@@ -1245,25 +1264,6 @@
       "summary": "",
       "url": "https://www.investor.bg/a/538-pazari/440108-zamozhnite-evropeytsi-tarsyat-alternativi-za-investitsii-v-ai-na-fona-na-pazarnite-satreseniya",
       "published": "2026-11-26T20:30:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Преслав Райков: Бюджет 2027 няма амбиция да излезе от процедурата по свръхдефицит",
-      "summary": "",
-      "url": "https://www.investor.bg/a/540-danatsi-i-byudzhet/440126-preslav-raykov-byudzhet-2027-nyama-ambitsiya-da-izleze-ot-protsedurata-po-svrahdefitsit",
-      "published": "2026-11-26T18:30:00+00:00",
       "feed_id": "investor-finance",
       "publisher": "investor.bg",
       "priority_score": 29,
