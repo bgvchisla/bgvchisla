@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""Static security checks for the automated data writers and deployment hand-off."""
+"""Static security checks for PR-first automated data writers."""
 from __future__ import annotations
-
 import unittest
 from pathlib import Path
 
@@ -10,99 +9,57 @@ APP_TOKEN_ACTION = "actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25c
 TOKEN_FALLBACK = "token: ${{ steps.automation_token.outputs.token || github.token }}"
 APP_CLIENT_VARIABLE = "vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID"
 APP_PRIVATE_KEY = "secrets.BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY"
-
 WRITERS = {
-    ".github/workflows/check-official-sources.yml": "source_status.json",
-    ".github/workflows/daily-update.yml": "economy.json",
-    ".github/workflows/update-bnb-monetary.yml": "official_bnb.json",
-    ".github/workflows/update-business-climate.yml": "official_business_climate.json",
-    ".github/workflows/update-economy.yml": "economy.json",
-    ".github/workflows/update-news.yml": "news.json",
-    ".github/workflows/update-nsi-fiscal.yml": "official_fiscal.json",
-    ".github/workflows/update-nssi-pensions.yml": "official_nssi.json",
+ ".github/workflows/check-official-sources.yml":"source_status.json",
+ ".github/workflows/daily-update.yml":"economy.json",
+ ".github/workflows/update-bnb-monetary.yml":"official_bnb.json",
+ ".github/workflows/update-business-climate.yml":"official_business_climate.json",
+ ".github/workflows/update-economy.yml":"economy.json",
+ ".github/workflows/update-inflation.yml":"inflation.json",
+ ".github/workflows/update-labour-market.yml":"labour-market.json",
+ ".github/workflows/update-news.yml":"news.json",
+ ".github/workflows/update-nsi-fiscal.yml":"official_fiscal.json",
+ ".github/workflows/update-nssi-pensions.yml":"official_nssi.json",
 }
-
-
 class AutomatedWriterSecurityTests(unittest.TestCase):
-    def test_every_data_writer_uses_the_dedicated_app_identity(self):
-        for workflow, output_file in WRITERS.items():
-            with self.subTest(workflow=workflow):
-                source = (ROOT / workflow).read_text(encoding="utf-8")
-                self.assertIn(APP_TOKEN_ACTION, source)
-                self.assertIn(APP_CLIENT_VARIABLE, source)
-                self.assertIn(APP_PRIVATE_KEY, source)
-                self.assertIn(TOKEN_FALLBACK, source)
-                self.assertIn("permission-contents: write", source)
-                self.assertIn("APP_SLUG=", source)
-                self.assertIn("actions: write", source)
-                self.assertEqual(
-                    source.count('git config user.name "github-actions[bot]"'),
-                    1,
-                    "The legacy identity may appear only in the explicit no-App fallback.",
-                )
-                self.assertEqual(
-                    source.count('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"'),
-                    1,
-                    "The legacy email may appear only in the explicit no-App fallback.",
-                )
-                self.assertIn(
-                    "GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}",
-                    source,
-                    "GitHub CLI must receive the same scoped token used for the checkout.",
-                )
-
-    def test_data_writers_stage_only_their_designated_output(self):
-        for workflow, output_file in WRITERS.items():
-            with self.subTest(workflow=workflow):
-                source = (ROOT / workflow).read_text(encoding="utf-8")
-                stage_lines = [
-                    line.strip()
-                    for line in source.splitlines()
-                    if line.strip().startswith("git add ")
-                ]
-                self.assertEqual(
-                    stage_lines,
-                    [f"git add{' -f' if output_file.startswith('official_') and output_file in {'official_bnb.json', 'official_business_climate.json', 'official_nssi.json'} else ''} {output_file}"],
-                    "A data writer must stage only its designated generated JSON file.",
-                )
-
-    def test_data_writers_push_without_force_and_dispatch_production(self):
-        for workflow in WRITERS:
-            with self.subTest(workflow=workflow):
-                source = (ROOT / workflow).read_text(encoding="utf-8")
-                self.assertIn("git push origin HEAD:main", source)
-                self.assertNotIn("git push --force", source)
-                self.assertNotIn("git push -f", source)
-                self.assertIn("if: steps.save.outputs.changed == 'true'", source)
-                self.assertIn("gh workflow run deploy-production.yml", source)
-
-    def test_writers_rebase_or_safely_retry_before_push(self):
-        for workflow in WRITERS:
-            with self.subTest(workflow=workflow):
-                source = (ROOT / workflow).read_text(encoding="utf-8")
-                self.assertTrue(
-                    "git pull --rebase origin main" in source or "git rebase origin/main" in source,
-                    "The workflow must rebase on the latest main before retrying a non-fast-forward push.",
-                )
-
-    def test_production_deployment_is_explicit_and_does_not_duplicate_data_pushes(self):
-        source = (ROOT / ".github/workflows/deploy-production.yml").read_text(encoding="utf-8")
-        self.assertIn("workflow_dispatch:", source)
-        self.assertNotIn("workflow_run:", source)
-        push_section = source.split("  push:\n", 1)[1].split("\npermissions:", 1)[0]
-        for output_file in set(WRITERS.values()):
-            self.assertNotIn(f'"{output_file}"', push_section)
-        self.assertIn("pages deploy public --project-name=bgvchisla --branch=main", source)
-
-    def test_editorial_merge_dispatches_production_after_automated_approval(self):
-        source = (ROOT / ".github/workflows/generate-analyses.yml").read_text(encoding="utf-8")
-        self.assertIn('select(.context == "editorial-approval")', source)
-        self.assertIn("gh api --method PUT", source)
-        self.assertIn("gh workflow run deploy-production.yml", source)
-        self.assertLess(source.index("gh api --method PUT"), source.index("gh workflow run deploy-production.yml"))
-        self.assertNotIn("/approve", source)
-        self.assertFalse((ROOT / ".github/workflows/approve-analysis.yml").exists())
-
-
-if __name__ == "__main__":
-    unittest.main(verbosity=2)
+ def test_all_ten_writers_use_scoped_app_token_with_pr_permission(self):
+  self.assertEqual(len(WRITERS),10)
+  for workflow in WRITERS:
+   with self.subTest(workflow=workflow):
+    s=(ROOT/workflow).read_text(encoding="utf-8")
+    for required in (APP_TOKEN_ACTION,APP_CLIENT_VARIABLE,APP_PRIVATE_KEY,TOKEN_FALLBACK,"permission-contents: write","permission-pull-requests: write","pull-requests: write","scripts/create_data_update_pr.sh"):
+     self.assertIn(required,s)
+    self.assertIn("GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}",s)
+ def test_writers_never_push_main_or_dispatch_deployment(self):
+  for workflow in WRITERS:
+   with self.subTest(workflow=workflow):
+    s=(ROOT/workflow).read_text(encoding="utf-8")
+    for forbidden in ("git push","git pull --rebase","git rebase origin/main","gh workflow run deploy-production.yml"):
+     self.assertNotIn(forbidden,s)
+ def test_helper_is_allowlisted_and_creates_pr(self):
+  s=(ROOT/"scripts/create_data_update_pr.sh").read_text(encoding="utf-8")
+  for required in ('case "$OUTPUT_FILE" in','git add -- "$OUTPUT_FILE"','git add -f -- "$OUTPUT_FILE"','git switch -c "$BRANCH"','git push --set-upstream origin "$BRANCH"','gh pr create','--base main','automation/data-update-'):
+   self.assertIn(required,s)
+  self.assertNotIn("HEAD:main",s)
+  self.assertNotIn("git add .",s)
+ def test_each_writer_uses_its_designated_output(self):
+  h=(ROOT/"scripts/create_data_update_pr.sh").read_text(encoding="utf-8")
+  for workflow,output in WRITERS.items():
+   with self.subTest(workflow=workflow):
+    s=(ROOT/workflow).read_text(encoding="utf-8")
+    self.assertIn(f"scripts/create_data_update_pr.sh {output}",s)
+    self.assertIn(output,h)
+ def test_production_deploys_from_main_after_merge(self):
+  s=(ROOT/".github/workflows/deploy-production.yml").read_text(encoding="utf-8")
+  self.assertIn("branches: [main]",s)
+  self.assertIn("pages deploy public --project-name=bgvchisla --branch=main",s)
+ def test_analysis_publication_keeps_guarded_merge_and_deploy(self):
+  s=(ROOT/".github/workflows/generate-analyses.yml").read_text(encoding="utf-8")
+  self.assertIn('select(.context == "editorial-approval")',s)
+  self.assertIn("gh api --method PUT",s)
+  self.assertIn("gh workflow run deploy-production.yml",s)
+  self.assertLess(s.index("gh api --method PUT"),s.index("gh workflow run deploy-production.yml"))
+  self.assertNotIn("/approve",s)
+  self.assertFalse((ROOT/".github/workflows/approve-analysis.yml").exists())
+if __name__=="__main__":
+ unittest.main(verbosity=2)
