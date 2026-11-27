@@ -1,0 +1,11 @@
+# Legacy English URLs: keep the real privacy policy; retire nonexistent pages.
+/en/privacy-policy /privacy 301
+/en/privacy-policy/ /privacy 301
+/en/about /404.html 410
+/en/about/ /404.html 410
+/en/contact /404.html 410
+/en/contact/ /404.html 410
+/en/disclaimer /404.html 410
+/en/disclaimer/ /404.html 410
+/en/terms-of-service /404.html 410
+/en/terms-of-service/ /404.html 410

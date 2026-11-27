@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "title": "Пазар на труда в България",
+  "last_updated": "2026-11-27T13:40:00+02:00",
+  "latest_period": "2026-Q3",
+  "latest_label": "Трето тримесечие 2026 г.",
+  "labour_force": {
+    "source": "Национален статистически институт",
+    "source_url": "https://www.nsi.bg/press-release/osnovni-rezultati-ot-nablyudenieto-na-rabotnata-sila-iii-trimesechie-2026-godina-9214",
+    "published_on": "2026-11-13",
+    "period": "2026-Q3",
+    "total_employed_thousands": 2927.8,
+    "employed_15plus_rate_pct": 53.3,
+    "employed_15_64_thousands": 2788.1,
+    "employed_15_64_rate_pct": 70.8,
+    "employed_20_64_thousands": 2777.5,
+    "employed_20_64_rate_pct": 77,
+    "employed_55_64_thousands": 652,
+    "employed_55_64_rate_pct": 72.2,
+    "employed_15_29_rate_pct": 34.1,
+    "activity_15_64_rate_pct": 73.1,
+    "unemployed_thousands": 95.1,
+    "unemployment_rate_pct": 3.1,
+    "unemployment_rate_male_pct": 3.6,
+    "unemployment_rate_female_pct": 2.7,
+    "unemployed_15_29_rate_pct": 8.1,
+    "unemployed_15_29_male_pct": 10,
+    "unemployed_15_29_female_pct": 5.6,
+    "long_term_unemployed_thousands": 41.5,
+    "long_term_unemployed_share_pct": 43.6,
+    "long_term_unemployment_rate_pct": 1.4,
+    "first_time_jobseekers_thousands": 19,
+    "first_time_jobseekers_share_pct": 20,
+    "by_sector": [
+      {
+        "id": "services",
+        "label": "Услуги",
+        "employed_thousands": 2001.1,
+        "share_pct": 68.3
+      },
+      {
+        "id": "industry",
+        "label": "Индустрия",
+        "employed_thousands": 788,
+        "share_pct": 26.9
+      },
+      {
+        "id": "agriculture",
+        "label": "Селско, горско и рибно стопанство",
+        "employed_thousands": 138.7,
+        "share_pct": 4.7
+      }
+    ],
+    "employment_status": [
+      {
+        "id": "employees",
+        "label": "Наети",
+        "employed_thousands": 2526.8,
+        "share_pct": 86.3
+      },
+      {
+        "id": "self_employed",
+        "label": "Самостоятелно заети без наети",
+        "employed_thousands": 224.6,
+        "share_pct": 7.7
+      },
+      {
+        "id": "employers",
+        "label": "Работодатели",
+        "employed_thousands": 167.8,
+        "share_pct": 5.7
+      },
+      {
+        "id": "unpaid_family",
+        "label": "Неплатени семейни работници",
+        "employed_thousands": 8.7,
+        "share_pct": 0.3
+      }
+    ],
+    "employees_public_thousands": 626.5,
+    "employees_public_share_pct": 24.8,
+    "employees_private_thousands": 1900.2,
+    "employees_private_share_pct": 75.2,
+    "temporary_work_thousands": 85.5,
+    "temporary_work_share_pct": 3.4,
+    "inactive_15plus_thousands": 2475.1,
+    "inactive_15_64_thousands": 1058.9,
+    "inactive_15_64_share_pct": 26.9,
+    "discouraged_15_64_thousands": 16.9,
+    "sampling_error": {
+      "employed_relative_standard_error_pct": 1.4,
+      "unemployed_relative_standard_error_pct": 6.9,
+      "unemployment_rate_relative_standard_error_pct": 6.7
+    }
+  },
+  "labour_force_quarterly": [
+    {
+      "period": "2026-Q2",
+      "label": "Q2 2026",
+      "employed_thousands": 2917.9,
+      "unemployed_thousands": 107.1,
+      "unemployment_rate_pct": 3.5,
+      "employment_15_64_rate_pct": 70.5,
+      "employment_20_64_rate_pct": 76.7,
+      "activity_15_64_rate_pct": 73.2,
+      "youth_unemployment_15_29_pct": 8.1
+    },
+    {
+      "period": "2026-Q3",
+      "label": "Q3 2026",
+      "employed_thousands": 2927.8,
+      "unemployed_thousands": 95.1,
+      "unemployment_rate_pct": 3.1,
+      "employment_15_64_rate_pct": 70.8,
+      "employment_20_64_rate_pct": 77,
+      "activity_15_64_rate_pct": 73.1,
+      "youth_unemployment_15_29_pct": 8.1
+    }
+  ],
+  "labour_force_yoy": {
+    "comparison_period": "2025-Q3",
+    "current_period": "2026-Q3",
+    "employed_thousands": {
+      "previous": 2956,
+      "current": 2927.8,
+      "change": -28.2
+    },
+    "unemployment_rate_pct": {
+      "previous": 3.4,
+      "current": 3.1,
+      "change_pp": -0.3
+    },
+    "employment_15_64_rate_pct": {
+      "previous": 71.4,
+      "current": 70.8,
+      "change_pp": -0.6
+    },
+    "employment_20_64_rate_pct": {
+      "previous": 77.5,
+      "current": 77,
+      "change_pp": -0.5
+    },
+    "activity_15_64_rate_pct": {
+      "previous": 73.9,
+      "current": 73.1,
+      "change_pp": -0.8
+    },
+    "youth_unemployment_15_29_pct": {
+      "previous": 8.7,
+      "current": 8.1,
+      "change_pp": -0.6
+    }
+  },
+  "payroll_employment": {
+    "source": "Национален статистически институт",
+    "source_url": "https://www.nsi.bg/press-release/naeti-lica-i-sredna-rabotna-zaplata-9213",
+    "published_on": "2026-11-13",
+    "reference_date": "2026-09-30",
+    "period": "2026-Q3",
+    "employees_count": 2324148,
+    "qoq_change_count": -43500,
+    "qoq_change_pct": -1.8,
+    "yoy_change_count": -31400,
+    "yoy_change_pct": -1.3,
+    "monthly_series": [
+      {
+        "period": "2026-07",
+        "label": "Юли",
+        "employees": 2367637
+      },
+      {
+        "period": "2026-08",
+        "label": "Август",
+        "employees": 2349339
+      },
+      {
+        "period": "2026-09",
+        "label": "Септември",
+        "employees": 2324148
+      }
+    ],
+    "note": "Наети по трудово и служебно правоотношение към края на месеца. Този административно-статистически обхват е по-тесен от всички заети лица в Наблюдението на работната сила."
+  },
+  "wages": {
+    "source": "Национален статистически институт",
+    "source_url": "https://www.nsi.bg/press-release/naeti-lica-i-sredna-rabotna-zaplata-9213",
+    "published_on": "2026-11-13",
+    "period": "2026-Q3",
+    "average_gross_monthly_eur": 1438,
+    "qoq_change_pct": -0.4,
+    "yoy_change_pct": 10.4,
+    "monthly_series": [
+      {
+        "period": "2026-07",
+        "label": "Юли",
+        "gross_monthly_eur": 1445
+      },
+      {
+        "period": "2026-08",
+        "label": "Август",
+        "gross_monthly_eur": 1411
+      },
+      {
+        "period": "2026-09",
+        "label": "Септември",
+        "gross_monthly_eur": 1458
+      }
+    ],
+    "public_sector_yoy_growth_pct": 5.9,
+    "private_sector_yoy_growth_pct": 11.9,
+    "quarterly_activity_extremes": [
+      {
+        "activity": "Създаване и разпространение на информация и творчески продукти; далекосъобщения",
+        "average_gross_monthly_eur": 3059,
+        "group": "highest"
+      },
+      {
+        "activity": "Финансови и застрахователни дейности",
+        "average_gross_monthly_eur": 2088,
+        "group": "highest"
+      },
+      {
+        "activity": "Производство и разпределение на електрическа и топлинна енергия и на газообразни горива",
+        "average_gross_monthly_eur": 2063,
+        "group": "highest"
+      },
+      {
+        "activity": "Хотелиерство и ресторантьорство",
+        "average_gross_monthly_eur": 908,
+        "group": "lowest"
+      },
+      {
+        "activity": "Други дейности",
+        "average_gross_monthly_eur": 1065,
+        "group": "lowest"
+      },
+      {
+        "activity": "Селско, горско и рибно стопанство",
+        "average_gross_monthly_eur": 1084,
+        "group": "lowest"
+      }
+    ],
+    "september_activity_wages": [
+      {
+        "activity": "Селско, горско и рибно стопанство",
+        "gross_monthly_eur": 1107
+      },
+      {
+        "activity": "Добивна промишленост",
+        "gross_monthly_eur": 1846
+      },
+      {
+        "activity": "Преработваща промишленост",
+        "gross_monthly_eur": 1275
+      },
+      {
+        "activity": "Производство и разпределение на електрическа и топлинна енергия и на газообразни горива",
+        "gross_monthly_eur": 2037
+      },
+      {
+        "activity": "Доставяне на води; канализационни услуги, управление на отпадъци и възстановяване",
+        "gross_monthly_eur": 1109
+      },
+      {
+        "activity": "Строителство",
+        "gross_monthly_eur": 1199
+      },
+      {
+        "activity": "Търговия; ремонт на автомобили и мотоциклети",
+        "gross_monthly_eur": 1283
+      },
+      {
+        "activity": "Транспорт, складиране и пощи",
+        "gross_monthly_eur": 1306
+      },
+      {
+        "activity": "Хотелиерство и ресторантьорство",
+        "gross_monthly_eur": 930
+      },
+      {
+        "activity": "Създаване и разпространение на информация и творчески продукти; далекосъобщения",
+        "gross_monthly_eur": 3101
+      },
+      {
+        "activity": "Финансови и застрахователни дейности",
+        "gross_monthly_eur": 2089
+      },
+      {
+        "activity": "Операции с недвижими имоти",
+        "gross_monthly_eur": 1331
+      },
+      {
+        "activity": "Професионални дейности и научни изследвания",
+        "gross_monthly_eur": 1950
+      },
+      {
+        "activity": "Административни и спомагателни дейности",
+        "gross_monthly_eur": 1238
+      },
+      {
+        "activity": "Държавно управление",
+        "gross_monthly_eur": 1573
+      },
+      {
+        "activity": "Образование",
+        "gross_monthly_eur": 1570
+      },
+      {
+        "activity": "Хуманно здравеопазване и социална работа",
+        "gross_monthly_eur": 1435
+      },
+      {
+        "activity": "Култура, спорт и развлечения",
+        "gross_monthly_eur": 1391
+      },
+      {
+        "activity": "Други дейности",
+        "gross_monthly_eur": 1078
+      }
+    ],
+    "methodology": "Средна брутна месечна заплата на наетите лица по трудово и служебно правоотношение. Показателят е средна стойност, не медиана и не включва всички форми на доход от труд на самонаети лица."
+  },
+  "az_registered": {
+    "source": "Агенция по заетостта",
+    "source_url": "https://www.az.government.bg/bg/news/view/nad-13-000-bezrabotni-s-nova-rabota-prez-oktomvri-4268/",
+    "published_on": "2026-11-17",
+    "period": "2026-10",
+    "registered_unemployed_count": 158751,
+    "registered_unemployment_rate_pct": 5.6,
+    "placed_in_jobs_with_agency_count": 13085,
+    "employer_vacancies_primary_market_count": 9213,
+    "inactive_people_motivated_count": 6800,
+    "subsidized_employment_placements_count": 1847,
+    "definition": "Равнището се изчислява като дял на регистрираните безработни от икономически активното население на възраст 15–64 г., установено при Преброяване 2021."
+  },
+  "active_vacancies": {
+    "source": "Агенция по заетостта — електронна трудова борса",
+    "source_url": "https://www.az.government.bg/bg/ejobs/view_prl/",
+    "as_of": "2026-11-27",
+    "count": 6793,
+    "definition": "Текущ брой обяви за свободни работни места, заявени в бюрата по труда към датата на проверката. Това е моментна наличност в електронната борса, а не всички свободни работни места в икономиката."
+  },
+  "labour_cost_index": {
+    "source": "Национален статистически институт",
+    "source_url": "https://www.nsi.bg/press-release/key-indicators-for-bulgaria-latest-data-as-of-october-2-2026-9171",
+    "period": "2026-Q2",
+    "total_yoy_pct": 9.9,
+    "industry_yoy_pct": 12.2,
+    "services_yoy_pct": 11.5,
+    "construction_yoy_pct": 8.5,
+    "status": "Предварителни данни",
+    "note": "Общи разходи на работодателите за един отработен час от наетите лица. Това не е равнозначно на ръста на брутната работна заплата."
+  },
+  "methodology": {
+    "labour_force": "Наблюдението на работната сила е непрекъснато извадково изследване на домакинствата. Заети са лицата на възраст 15–89 години, които са работили поне един час срещу заплащане/доход или временно отсъстват от работа. Безработни са лицата на 15–74 години без работа, които активно търсят работа през последните четири седмици и могат да започнат до две седмици.",
+    "unemployment_rate": "Коефициентът на безработица е делът на безработните сред икономически активното население (работната сила), а не дял от цялото население.",
+    "registered_unemployment": "Регистрираната безработица на Агенцията по заетостта се изчислява спрямо икономически активното население на възраст 15–64 години от Преброяване 2021. Това е административен показател и не е пряко съпоставим с извадковия коефициент на НСИ.",
+    "employees": "„Наети лица“ по трудово и служебно правоотношение са по-тесен обхват от всички „заети“ в Наблюдението на работната сила, тъй като последното включва работодатели и самостоятелно заети.",
+    "wages": "Средната брутна работна заплата се отнася до наетите по трудово и служебно правоотношение. Тя е средна, не медианна стойност; не трябва да се тълкува като заплата, получавана от типичния работник.",
+    "seasonal": "Публикуваните тримесечни стойности на Наблюдението на работната сила не са сезонно изгладени. Сравненията между съседни тримесечия трябва да се четат с оглед на сезонността; за годишни сравнения използвайте същото тримесечие.",
+    "sampling": "Резултатите от Наблюдението на работната сила са извадкови. За Q3 2026 относителната стандартна грешка е 6,9% за броя на безработните и 6,7% за коефициента на безработица; 95% интервалът за равнището на безработица е 2,7–3,6%."
+  },
+  "source_links": [
+    {
+      "title": "НСИ: Основни резултати от наблюдението на работната сила — III тримесечие 2026 г.",
+      "url": "https://www.nsi.bg/press-release/osnovni-rezultati-ot-nablyudenieto-na-rabotnata-sila-iii-trimesechie-2026-godina-9214"
+    },
+    {
+      "title": "НСИ: Основни резултати от наблюдението на работната сила — II тримесечие 2026 г.",
+      "url": "https://www.nsi.bg/press-release/osnovni-rezultati-ot-nablyudenieto-na-rabotnata-sila-ii-trimesechie-2026-godina-9118"
+    },
+    {
+      "title": "НСИ: Наети лица и средна работна заплата — III тримесечие 2026 г.",
+      "url": "https://www.nsi.bg/press-release/naeti-lica-i-sredna-rabotna-zaplata-9213"
+    },
+    {
+      "title": "НСИ: Тримесечни данни от наблюдението на работната сила",
+      "url": "https://www.nsi.bg/statistical-data/169"
+    },
+    {
+      "title": "НСИ: Наети лица и средна работна заплата — национално ниво",
+      "url": "https://www.nsi.bg/statistical-data/179/570"
+    },
+    {
+      "title": "Агенция по заетостта: Над 13 000 безработни с нова работа през октомври",
+      "url": "https://www.az.government.bg/bg/news/view/nad-13-000-bezrabotni-s-nova-rabota-prez-oktomvri-4268/"
+    },
+    {
+      "title": "Агенция по заетостта: Свободни работни места в електронната трудова борса",
+      "url": "https://www.az.government.bg/bg/ejobs/view_prl/"
+    },
+    {
+      "title": "НСИ: Разходи за труд — ключови показатели",
+      "url": "https://www.nsi.bg/press-release/key-indicators-za-bulgaria-latest-data-as-of-october-2-2026-9171"
+    },
+    {
+      "title": "НСИ: Производителност на труда, заети лица и отработено време — II тримесечие 2026 г.",
+      "url": "https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-9150"
+    }
+  ],
+  "productivity": {
+    "source": "Национален статистически институт",
+    "source_url": "https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-9150",
+    "published_on": "2026-09-07",
+    "period": "2026-Q2",
+    "status": "Предварителни данни",
+    "gdp_per_employed_current_eur": 8272.6,
+    "gdp_per_hour_current_eur": 21.2,
+    "gdp_per_employed_real_yoy_pct": 3.1,
+    "gva_per_employed_real_yoy_pct": 0.3,
+    "gva_per_hour_real_yoy_pct": 0.5,
+    "employment_in_resident_production_units_thousands": 3661.8,
+    "hours_worked_mio": 1428.3,
+    "sectors": [
+      {
+        "id": "services",
+        "label": "Услуги",
+        "gva_per_employed_current_eur": 7298.4,
+        "gva_per_hour_current_eur": 18.5
+      },
+      {
+        "id": "industry",
+        "label": "Индустрия",
+        "gva_per_employed_current_eur": 7898.2,
+        "gva_per_hour_current_eur": 19.4
+      },
+      {
+        "id": "agriculture",
+        "label": "Аграрен сектор",
+        "gva_per_employed_current_eur": 1305.8,
+        "gva_per_hour_current_eur": 3.9
+      }
+    ],
+    "methodology": "Производителността съпоставя произведения продукт (БВП или БДС) с вложения труд — брой заети в резидентните производствени единици или отработени човекочасове. За международни сравнения на националните икономики се използва БВП; по икономически сектори може да се използва БДС. Тези заети и отработени часове са по концепцията на ESA 2010 и не съвпадат непременно с лицата от Наблюдението на работната сила.",
+    "next_release_date": "2026-12-04"
+  }
+}

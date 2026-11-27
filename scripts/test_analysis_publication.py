@@ -19,6 +19,35 @@ CONFIG = ROOT / "analysis" / "config.json"
 
 class EditorialPublicationTests(unittest.TestCase):
 
+    def test_labour_market_resource_is_linked_and_uses_official_data(self):
+        page_path = ROOT / "pazar-na-truda" / "index.html"
+        data_path = ROOT / "labour-market.json"
+        page = page_path.read_text(encoding="utf-8")
+        data = json.loads(data_path.read_text(encoding="utf-8"))
+        sitemap = SITEMAP.read_text(encoding="utf-8")
+        homepage = (ROOT / "index.html").read_text(encoding="utf-8")
+
+        title = re.search(r"<title>(.*?)</title>", page, re.I | re.S)
+        description = re.search(r'<meta name="description" content="([^"]+)"', page, re.I)
+        self.assertIsNotNone(title)
+        self.assertIsNotNone(description)
+        self.assertLessEqual(len(title.group(1)), 60)
+        self.assertLessEqual(len(description.group(1)), 160)
+        self.assertIn('rel="canonical" href="https://bgvchisla.com/pazar-na-truda/"', page)
+        self.assertIn('type="application/ld+json"', page)
+        self.assertIn('fetch("/labour-market.json"', page)
+        self.assertIn('href="/pazar-na-truda/"', homepage)
+        self.assertIn("<loc>https://bgvchisla.com/pazar-na-truda/</loc>", sitemap)
+        self.assertEqual(data["latest_period"], "2026-Q3")
+        self.assertEqual(data["labour_force"]["unemployment_rate_pct"], 3.1)
+        self.assertEqual(data["wages"]["average_gross_monthly_eur"], 1438)
+        self.assertEqual(data["az_registered"]["registered_unemployment_rate_pct"], 5.60)
+        self.assertEqual(data["productivity"]["period"], "2026-Q2")
+        self.assertEqual(data["productivity"]["gdp_per_employed_real_yoy_pct"], 3.1)
+        self.assertIn("productivity-sector-chart", page)
+        self.assertGreaterEqual(len(data["source_links"]), 8)
+
+
     def test_banking_resource_has_data_scope_sources_and_canonical_url(self):
         page_path = ROOT / "banki" / "index.html"
         data_path = ROOT / "banking.json"
@@ -50,8 +79,11 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertEqual(data["interest_rates"]["household"]["housing_loan_rate_pct"], 2.41)
         self.assertEqual(data["interest_rates"]["household"]["consumer_loan_rate_pct"], 8.83)
         self.assertEqual(data["capital_adequacy"]["reference_date"], "2025-12-31")
-        self.assertEqual(bnb["latest_period"], "2026-09")
-        self.assertEqual(len(bnb["series"]["household_housing_loans"]["points"]), 237)
+        latest_bnb_period = bnb["latest_period"]
+        for series_key in ("household_consumer_loans", "household_housing_loans", "household_other_loans"):
+            monthly_points = bnb["series"][series_key]["points"]
+            self.assertGreaterEqual(len(monthly_points), 237)
+            self.assertEqual(monthly_points[-1]["period"], latest_bnb_period)
         self.assertGreaterEqual(len(data["source_links"]), 8)
         self.assertIn("различ", data["methodology"]["banking_system"].lower())
 

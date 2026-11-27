@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Пазар на труда в България – заетост, заплати и безработица</title>
+<meta name="description" content="Официални данни за заетостта, безработицата, работните заплати, свободните места и търсенето на труд в България от НСИ и Агенцията по заетостта.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://bgvchisla.com/pazar-na-truda/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="bg_BG">
+<meta property="og:site_name" content="БЪЛГАРИЯ В ЧИСЛА">
+<meta property="og:title" content="Пазар на труда в България – заетост, заплати и безработица">
+<meta property="og:description" content="Заетост, безработица, заплати по сектори, наети лица, свободни работни места и методология от официални източници.">
+<link rel="stylesheet" href="/assets/design-system.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"Пазар на труда в България",
+  "description":"Официална статистика за заетостта, безработицата, заплатите и търсенето на труд.",
+  "inLanguage":"bg",
+  "url":"https://bgvchisla.com/pazar-na-truda/",
+  "isPartOf":{"@type":"WebSite","name":"БЪЛГАРИЯ В ЧИСЛА","url":"https://bgvchisla.com/"}
+}
+</script>
+<style>
+:root{--navy:#24384f;--blue:#315f91;--green:#24765f;--red:#b64b45;--gold:#a8732e;--paper:#e8edf3;--ink:#263548;--muted:#607187;--line:#d7e0e9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--blue);text-underline-offset:3px}
+a:hover{color:var(--navy)}
+.site-header{background:var(--navy);border-bottom:3px solid var(--blue);padding:16px max(18px,calc((100% - 1120px)/2))}
+.site-header a{color:#fff;text-decoration:none;font-size:.78rem;font-weight:850;letter-spacing:.1em}
+.shell{max-width:1120px;margin:0 auto;padding:26px 18px 64px}
+.breadcrumb{font-size:.76rem;color:var(--muted);margin:0 0 18px}
+.breadcrumb a{color:var(--muted)}
+.hero{background:#fff;border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:15px;padding:clamp(22px,4vw,38px);box-shadow:0 4px 18px rgba(36,56,79,.055)}
+.kicker{color:var(--blue);font-size:.67rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+h1{margin:9px 0 12px;color:var(--navy);font-size:clamp(2rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.045em}
+.hero-lead{max-width:920px;margin:0;color:#52677e;font-size:1.04rem;line-height:1.65}
+.meta-line{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:20px;color:var(--muted);font-size:.73rem}
+.status{display:inline-flex;align-items:center;gap:7px;border:1px solid #c7d9d0;background:#f2f8f4;color:#26634f;padding:5px 9px;border-radius:99px;font-weight:750}
+.status:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green)}
+.status.warning{border-color:#e7d8b8;background:#faf6ed;color:#80551f}
+.status.warning:before{background:var(--gold)}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:17px 18px;min-width:0;box-shadow:0 2px 9px rgba(36,56,79,.04)}
+.kpi .value{display:block;color:var(--navy);font-size:clamp(1.5rem,3.2vw,2.25rem);font-weight:820;line-height:1.1;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.kpi.red .value{color:var(--red)}.kpi.blue .value{color:var(--blue)}.kpi.green .value{color:var(--green)}.kpi.gold .value{color:var(--gold)}
+.kpi .label{display:block;color:#40556d;font-size:.82rem;font-weight:700;line-height:1.4;margin-top:9px}
+.kpi .note{display:block;color:var(--muted);font-size:.7rem;line-height:1.4;margin-top:5px}
+.section{margin-top:30px}
+.section-heading{margin:0 0 14px;color:var(--navy);font-size:1.35rem;letter-spacing:-.025em;line-height:1.25}
+.section-intro{max-width:900px;color:var(--muted);font-size:.89rem;margin:-5px 0 14px}
+.insight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.insight{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 19px}
+.insight h3{font-size:.9rem;color:var(--navy);line-height:1.35;margin:0 0 8px}
+.insight p{font-size:.82rem;color:#53677d;margin:0;line-height:1.6}
+.chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;min-width:0;box-shadow:0 2px 9px rgba(36,56,79,.035)}
+.panel h3{font-size:.92rem;color:var(--navy);margin:0 0 4px}
+.panel .sub{font-size:.73rem;color:var(--muted);margin:0 0 13px}
+.chart{min-height:220px;width:100%;overflow:hidden}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font-family:Inter,system-ui,sans-serif;fill:#65778b;font-size:11px}
+.chart .gridline{stroke:#e3e9ef;stroke-width:1}
+.chart .axisline{stroke:#aebdcb;stroke-width:1}
+.chart .navy-line{stroke:var(--navy);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .blue-line{stroke:var(--blue);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .green-line{stroke:var(--green);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .red-line{stroke:var(--red);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .gold-line{stroke:var(--gold);fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.chart .navy-dot{fill:var(--navy)}.chart .blue-dot{fill:var(--blue)}.chart .green-dot{fill:var(--green)}.chart .red-dot{fill:var(--red)}.chart .gold-dot{fill:var(--gold)}
+.chart .navy-bar{fill:var(--navy)}.chart .blue-bar{fill:var(--blue)}.chart .red-bar{fill:var(--red)}.chart .green-bar{fill:var(--green)}.chart .gold-bar{fill:var(--gold)}
+.legend{display:flex;flex-wrap:wrap;gap:12px 15px;margin-top:4px;color:#53677d;font-size:.71rem}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:17px;height:3px;border-radius:3px}
+.legend .navy{background:var(--navy)}.legend .blue{background:var(--blue)}.legend .green{background:var(--green)}.legend .red{background:var(--red)}.legend .gold{background:var(--gold)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.79rem;min-width:620px}
+th,td{padding:11px 13px;border-bottom:1px solid #e8edf2;text-align:right;white-space:nowrap}
+th{background:#eff3f7;color:#40556c;font-size:.7rem;letter-spacing:.02em;font-weight:800}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+td{font-variant-numeric:tabular-nums;color:#394d63}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#f7f9fb}
+td.emph{font-weight:800;color:var(--navy)}
+td.positive{color:var(--green);font-weight:750}
+td.negative{color:var(--red);font-weight:750}
+.note{font-size:.72rem;color:var(--muted);line-height:1.6;margin:8px 1px 0}
+.callout{background:#f6f3ec;border:1px solid #e6ddca;border-left:4px solid var(--gold);border-radius:9px;padding:15px 17px;color:#5f5038;font-size:.8rem;line-height:1.6}
+.callout strong{color:#4d402d}
+.compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.compare-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px}
+.compare-card h3{font-size:.88rem;color:var(--navy);margin:0 0 6px}
+.compare-card .big{font-size:2rem;color:var(--navy);font-weight:850;line-height:1.15;font-variant-numeric:tabular-nums}
+.compare-card .sub{font-size:.73rem;color:var(--muted);margin-top:6px}
+.rate-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.rate{background:#fff;border:1px solid var(--line);border-radius:11px;padding:15px 16px}
+.rate h3{font-size:.79rem;color:var(--navy);margin:0 0 7px}
+.rate .num{font-size:1.65rem;font-weight:820;color:var(--blue);font-variant-numeric:tabular-nums}
+.rate .detail{font-size:.72rem;color:var(--muted);margin-top:4px}
+.definition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.definition{background:#fff;border:1px solid var(--line);border-radius:11px;padding:16px 17px}
+.definition h3{font-size:.86rem;color:var(--navy);margin:0 0 7px}
+.definition p{font-size:.77rem;color:#53677d;line-height:1.6;margin:0}
+.sources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 20px;padding:0;margin:0;list-style:none}
+.sources li{font-size:.78rem;line-height:1.5}
+.sources a{font-weight:650}
+.related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.related a{display:block;background:#fff;border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:10px;padding:16px 18px;color:var(--navy);text-decoration:none;font-weight:750}
+.related a small{display:block;color:var(--muted);font-weight:500;font-size:.72rem;margin-top:6px}
+.footer{margin-top:34px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:.7rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+@media(max-width:900px){.kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.insight-grid{grid-template-columns:1fr}}
+@media(max-width:680px){.shell{padding:18px 12px 42px}.chart-grid,.sources,.related,.definition-grid,.compare-grid{grid-template-columns:1fr}.hero{padding:21px 18px}.kpi,.rate{padding:14px}.panel{padding:15px 13px}.section{margin-top:25px}.rate-strip{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="site-header"><a href="/">БЪЛГАРИЯ В ЧИСЛА <span aria-hidden="true">/</span> ФАКТИТЕ. БЕЗ ШУМ.</a></header>
+<main class="shell">
+<nav class="breadcrumb" aria-label="Навигация"><a href="/">Начало</a> / Пазар на труда</nav>
+
+<section class="hero">
+ <div class="kicker">ЗАЕТОСТ · ЗАПЛАТИ · БЕЗРАБОТИЦА</div>
+ <h1>Пазар на труда в България</h1>
+ <p class="hero-lead">Как се променят заетостта, безработицата и възнагражденията; в кои сектори се търсят хора и какво показват работодателските данни. Разделяме извадковите оценки на НСИ от наетите по трудови договори и административната регистрация в Агенцията по заетостта.</p>
+ <div class="meta-line">
+  <span class="status" id="survey-status">НСИ · III тримесечие 2026 г.</span>
+  <span class="status warning">Заплати · предварителни данни</span>
+  <span>Агенция по заетостта: <strong>октомври 2026 г.</strong></span>
+  <span>Последна проверка на отворените позиции: <strong id="vacancy-date">27.11.2026 г.</strong></span>
+ </div>
+</section>
+
+<section class="kpi-grid" aria-label="Основни показатели за пазара на труда">
+ <article class="kpi red"><span class="value" id="survey-unemployment">3,1%</span><span class="label">Безработица · НСИ</span><span class="note">Q3 2026 · население 15–74 г. · −0,3 пр. п. на годишна база</span></article>
+ <article class="kpi blue"><span class="value" id="employment-rate">77,0%</span><span class="label">Заетост · 20–64 г.</span><span class="note">Q3 2026 · −0,5 пр. п. на годишна база</span></article>
+ <article class="kpi green"><span class="value" id="average-wage">1 438 €</span><span class="label">Средна брутна заплата</span><span class="note">Q3 2026 · +10,4% на годишна база</span></article>
+ <article class="kpi gold"><span class="value" id="registered-unemployment">5,60%</span><span class="label">Регистрирана безработица</span><span class="note">Агенция по заетостта · октомври 2026 г.</span></article>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Поглед към пазара на труда</h2>
+ <div class="insight-grid">
+  <article class="insight">
+   <h3>Безработицата по наблюдението на НСИ намалява</h3>
+   <p id="insight-unemployment">Безработните са 95,1 хил. през Q3 2026 г., а коефициентът е 3,1% — с 0,3 процентни пункта под Q3 2025 г.</p>
+  </article>
+  <article class="insight">
+   <h3>Заетостта остава висока, но е под нивото отпреди година</h3>
+   <p id="insight-employment">Коефициентът на заетост за възраст 20–64 г. е 77,0%, с 0,5 процентни пункта по-нисък спрямо Q3 2025 г.</p>
+  </article>
+  <article class="insight">
+   <h3>Средната заплата расте, броят на наетите намалява</h3>
+   <p id="insight-wages">Средната брутна месечна заплата е 1 438 евро за Q3 2026 г. (+10,4% на годишна база), докато наетите по трудово и служебно правоотношение са 2,324 млн. в края на септември.</p>
+  </article>
+ </div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Заетост и безработица: наблюдение на НСИ</h2>
+ <p class="section-intro">Наблюдението на работната сила е извадково изследване на домакинствата. Основните коефициенти се отнасят за населението в посочената възрастова група и не са административни регистрации в бюрата по труда.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>Коефициент на безработица</h3>
+   <p class="sub">Дял от работната сила · население 15–74 г.</p>
+   <div class="chart" id="unemployment-chart" aria-live="polite">
+    <svg viewBox="0 0 720 260" role="img" aria-label="Коефициент на безработица: 3,5 процента Q2 и 3,1 процента Q3 2026">
+     <line x1="70" x2="700" y1="30" y2="30" stroke="#e3e9ef"/><line x1="70" x2="700" y1="90" y2="90" stroke="#e3e9ef"/><line x1="70" x2="700" y1="150" y2="150" stroke="#e3e9ef"/>
+     <polyline points="150,70 570,120" fill="none" stroke="#b64b45" stroke-width="4"/><circle cx="150" cy="70" r="6" fill="#b64b45"/><circle cx="570" cy="120" r="6" fill="#b64b45"/>
+     <text x="150" y="52" text-anchor="middle">3,5%</text><text x="570" y="102" text-anchor="middle">3,1%</text><text x="150" y="225" text-anchor="middle">Q2 2026</text><text x="570" y="225" text-anchor="middle">Q3 2026</text>
+    </svg>
+   </div>
+   <div class="legend"><span><i class="red"></i>Коефициент на безработица</span></div>
+  </article>
+  <article class="panel">
+   <h3>Коефициент на заетост</h3>
+   <p class="sub">Дял от населението на възраст 20–64 г.</p>
+   <div class="chart" id="employment-chart" aria-live="polite">
+    <svg viewBox="0 0 720 260" role="img" aria-label="Коефициент на заетост 76,7 процента Q2 и 77,0 процента Q3 2026">
+     <line x1="70" x2="700" y1="30" y2="30" stroke="#e3e9ef"/><line x1="70" x2="700" y1="90" y2="90" stroke="#e3e9ef"/><line x1="70" x2="700" y1="150" y2="150" stroke="#e3e9ef"/>
+     <polyline points="150,120 570,90" fill="none" stroke="#315f91" stroke-width="4"/><circle cx="150" cy="120" r="6" fill="#315f91"/><circle cx="570" cy="90" r="6" fill="#315f91"/>
+     <text x="150" y="102" text-anchor="middle">76,7%</text><text x="570" y="72" text-anchor="middle">77,0%</text><text x="150" y="225" text-anchor="middle">Q2 2026</text><text x="570" y="225" text-anchor="middle">Q3 2026</text>
+    </svg>
+   </div>
+   <div class="legend"><span><i class="blue"></i>Коефициент на заетост</span></div>
+  </article>
+ </div>
+ <div class="kpi-grid" style="grid-template-columns:repeat(3,minmax(0,1fr));margin-top:14px">
+  <div class="kpi"><span class="value" id="employed-total">2,928 млн.</span><span class="label">Заети лица</span><span class="note">Q3 2026 · лица на 15–89 г.; всички статуси</span></div>
+  <div class="kpi"><span class="value" id="unemployed-total">95,1 хил.</span><span class="label">Безработни лица</span><span class="note">Q3 2026 · 15–74 г.</span></div>
+  <div class="kpi gold"><span class="value" id="youth-unemployment">8,1%</span><span class="label">Безработица · 15–29 г.</span><span class="note">Q3 2026 · 10,0% мъже · 5,6% жени</span></div>
+ </div>
+ <div class="chart-grid" style="margin-top:14px">
+  <article class="panel">
+   <h3>Заети лица по икономически сектори</h3>
+   <p class="sub">Q3 2026 · хиляди души</p>
+   <div class="chart" id="employment-sector-chart" aria-live="polite">
+    <p class="note">Зареждане на данните…</p>
+   </div>
+   <div class="legend"><span><i class="blue"></i>Услуги</span><span><i class="green"></i>Индустрия</span><span><i class="gold"></i>Селско стопанство</span></div>
+  </article>
+  <article class="panel">
+   <h3>Продължителна безработица</h3>
+   <p class="sub">Без работа от една година или повече · Q3 2026</p>
+   <div class="compare-card" style="border:0;padding:0">
+    <div class="big" id="long-term-unemployed">41,5 хил.</div>
+    <div class="sub" id="long-term-share">43,6% от всички безработни</div>
+    <div class="note">Коефициент на продължителна безработица: 1,4% от работната сила.</div>
+   </div>
+  </article>
+ </div>
+ <p class="note">НСИ отчита 2 927,8 хил. заети лица, 95,1 хил. безработни и 3,1% коефициент на безработица през Q3 2026 г. Поради извадковия характер на наблюдението има статистическа грешка; относителната стандартна грешка на коефициента на безработица е 6,7%.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Заплати и възнаграждения</h2>
+ <p class="section-intro">Средната брутна месечна работна заплата на наетите по трудово и служебно правоотношение е 1 438 евро за третото тримесечие на 2026 г. Това е средна стойност, не медианна заплата.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>Средна брутна работна заплата</h3>
+   <p class="sub">Месечни стойности · евро</p>
+   <div class="chart" id="wage-monthly-chart" aria-live="polite">
+    <svg viewBox="0 0 720 260" role="img" aria-label="Средна работна заплата: юли 1445, август 1411, септември 1458 евро">
+     <line x1="65" x2="700" y1="30" y2="30" stroke="#e3e9ef"/><line x1="65" x2="700" y1="90" y2="90" stroke="#e3e9ef"/><line x1="65" x2="700" y1="150" y2="150" stroke="#e3e9ef"/>
+     <rect x="150" y="80" width="100" height="90" rx="5" fill="#315f91"/><rect x="330" y="100" width="100" height="70" rx="5" fill="#315f91"/><rect x="510" y="62" width="100" height="108" rx="5" fill="#24765f"/>
+     <text x="200" y="67" text-anchor="middle">1 445 €</text><text x="380" y="87" text-anchor="middle">1 411 €</text><text x="560" y="49" text-anchor="middle">1 458 €</text>
+     <text x="200" y="215" text-anchor="middle">Юли</text><text x="380" y="215" text-anchor="middle">Август</text><text x="560" y="215" text-anchor="middle">Септември</text>
+    </svg>
+   </div>
+   <div class="legend"><span><i class="blue"></i>Средна брутна работна заплата</span></div>
+  </article>
+  <article class="panel">
+   <h3>Ръст на възнагражденията</h3>
+   <p class="sub">Q3 2026 спрямо съответния период</p>
+   <div class="rate-strip">
+    <div class="rate"><h3>На годишна база</h3><div class="num" id="wage-yoy">+10,4%</div><div class="detail">Спрямо Q3 2025</div></div>
+    <div class="rate"><h3>На тримесечна база</h3><div class="num" id="wage-qoq">−0,4%</div><div class="detail">Спрямо Q2 2026</div></div>
+    <div class="rate"><h3>Частен сектор</h3><div class="num" id="wage-private">+11,9%</div><div class="detail">Годишен ръст</div></div>
+   </div>
+   <p class="note">В обществения сектор годишното увеличение е 5,9%. Ръстът на средната заплата не е равнозначен на ръст на реалната покупателна способност; за това трябва да се отчете инфлацията.</p>
+  </article>
+ </div>
+ <div class="chart-grid" style="margin-top:14px">
+  <article class="panel">
+   <h3>Най-високи средни възнаграждения по дейности</h3>
+   <p class="sub">Средномесечна брутна заплата за Q3 2026 · евро</p>
+   <div class="chart" id="wage-high-chart" aria-live="polite"><p class="note">Зареждане на данните…</p></div>
+  </article>
+  <article class="panel">
+   <h3>Най-ниски средни възнаграждения по дейности</h3>
+   <p class="sub">Средномесечна брутна заплата за Q3 2026 · евро</p>
+   <div class="chart" id="wage-low-chart" aria-live="polite"><p class="note">Зареждане на данните…</p></div>
+  </article>
+ </div>
+ <div class="table-wrap" style="margin-top:14px">
+  <table id="wage-activity-table">
+   <thead><tr><th>Икономическа дейност</th><th>Средна брутна заплата · Q3 2026</th><th>Група</th></tr></thead>
+   <tbody>
+    <tr><td>Информация и далекосъобщения</td><td>3 059 €</td><td>Най-висока</td></tr>
+    <tr><td>Финансови и застрахователни дейности</td><td>2 088 €</td><td>Най-висока</td></tr>
+    <tr><td>Енергетика</td><td>2 063 €</td><td>Най-висока</td></tr>
+    <tr><td>Хотелиерство и ресторантьорство</td><td>908 €</td><td>Най-ниска</td></tr>
+    <tr><td>Други дейности</td><td>1 065 €</td><td>Най-ниска</td></tr>
+    <tr><td>Селско, горско и рибно стопанство</td><td>1 084 €</td><td>Най-ниска</td></tr>
+   </tbody>
+  </table>
+ </div>
+ <div class="panel" style="margin-top:14px">
+  <h3>Средна брутна заплата по икономически дейности</h3>
+  <p class="sub">Септември 2026 г. · евро на месец · предварителни данни</p>
+  <div class="table-wrap">
+   <table id="wage-september-table">
+    <thead><tr><th>Икономическа дейност</th><th>Средна брутна заплата</th></tr></thead>
+    <tbody></tbody>
+   </table>
+  </div>
+ </div>
+ <p class="note">Заплатите по дейности са средни брутни месечни възнаграждения на наетите по трудово и служебно правоотношение. Разликите по дейности не показват разпределението на индивидуалните заплати вътре във всяка дейност.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Наети по трудови договори</h2>
+ <p class="section-intro">Този показател обхваща наетите по трудово и служебно правоотношение, а не всички заети лица в наблюдението на работната сила. Данните към края на месеца са предварителни.</p>
+ <div class="chart-grid">
+  <article class="panel">
+   <h3>Наети лица към края на месеца</h3>
+   <p class="sub">Брой лица · юли–септември 2026 г.</p>
+   <div class="chart" id="payroll-employees-chart" aria-live="polite"><p class="note">Зареждане на данните…</p></div>
+  </article>
+  <article class="panel">
+   <h3>Промяна през тримесечието</h3>
+   <div class="compare-card" style="border:0;padding:0">
+    <div class="big" id="payroll-employees-total">2,324 млн.</div>
+    <div class="sub">Наети към 30 септември 2026 г.</div>
+    <div class="note">−43,5 хил. спрямо края на юни (−1,8%); −31,4 хил. спрямо септември 2025 г. (−1,3%).</div>
+   </div>
+  </article>
+ </div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Регистрирана безработица и търсене на труд</h2>
+ <p class="section-intro">Административните данни на Агенцията по заетостта описват регистрираните в бюрата по труда лица и обявените там работни места. Те не са пряко съпоставими с извадковото наблюдение на НСИ.</p>
+ <div class="compare-grid">
+  <article class="compare-card">
+   <h3>Регистрирана безработица</h3>
+   <div class="big" id="az-registered-rate">5,60%</div>
+   <div class="sub">158 751 регистрирани безработни · октомври 2026 г.</div>
+   <p class="note">Определя се като дял на регистрираните безработни от икономически активното население на възраст 15–64 г. според Преброяване 2021.</p>
+  </article>
+  <article class="compare-card">
+   <h3>Отворени позиции в електронната трудова борса</h3>
+   <div class="big" id="active-vacancies">6 793</div>
+   <div class="sub">Заявени свободни места към 27.11.2026 г.</div>
+   <p class="note">Това е моментна наличност в електронната борса на Агенцията по заетостта, а не общият брой незаети позиции в икономиката.</p>
+  </article>
+ </div>
+ <div class="kpi-grid" style="grid-template-columns:repeat(3,minmax(0,1fr));margin-top:14px">
+  <div class="kpi green"><span class="value" id="az-placements">13 085</span><span class="label">Започнали работа с посредничеството на бюрата по труда</span><span class="note">Октомври 2026 г.</span></div>
+  <div class="kpi blue"><span class="value" id="az-primary-vacancies">9 213</span><span class="label">Заявени места на първичния пазар</span><span class="note">Октомври 2026 г.</span></div>
+  <div class="kpi gold"><span class="value" id="az-subsidized">1 847</span><span class="label">Започнали субсидирана заетост</span><span class="note">Уязвими групи · октомври 2026 г.</span></div>
+ </div>
+ <div class="callout" style="margin-top:13px"><strong>Не сравнявайте директно 3,1% и 5,60%.</strong> НСИ използва международната дефиниция за безработен — лице без работа, което активно търси и е на разположение да започне. Агенцията отчита регистрираните в бюрата по труда и използва различен знаменател. Разликата не е статистическо противоречие.</div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Разходи за труд</h2>
+ <p class="section-intro">Последните налични тук данни са за второто тримесечие на 2026 г. Показателят измерва общите разходи на работодателя за един отработен час, а не само брутната заплата.</p>
+ <div class="rate-strip">
+  <div class="rate"><h3>Общо за икономиката</h3><div class="num">+9,9%</div><div class="detail">На годишна база · Q2 2026</div></div>
+  <div class="rate"><h3>Индустрия</h3><div class="num">+12,2%</div><div class="detail">На годишна база · Q2 2026</div></div>
+  <div class="rate"><h3>Услуги</h3><div class="num">+11,5%</div><div class="detail">На годишна база · Q2 2026</div></div>
+ </div>
+ <p class="note">За строителството увеличението е 8,5%. Данните са предварителни и се отнасят до общите разходи за отработен час. <a href="https://www.nsi.bg/press-release/key-indicators-for-bulgaria-latest-data-as-of-october-2-2026-9171">Източник: НСИ — ключови показатели, 2 октомври 2026 г.</a></p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Производителност на труда</h2>
+ <p class="section-intro">Последните налични данни са за Q2 2026 г. и са предварителни. Производителността измерва създадения продукт спрямо вложения труд и се изчислява по обхвата на националните сметки (ESA 2010), а не чрез извадковото наблюдение на домакинствата.</p>
+ <div class="kpi-grid" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+  <article class="kpi blue"><span class="value" id="productivity-per-employed">8 272,6 €</span><span class="label">БВП на един зает</span><span class="note">Текущи цени · Q2 2026 г.</span></article>
+  <article class="kpi green"><span class="value" id="productivity-per-hour">21,2 €</span><span class="label">БВП на един отработен час</span><span class="note">Текущи цени · Q2 2026 г.</span></article>
+  <article class="kpi gold"><span class="value" id="productivity-growth">+3,1%</span><span class="label">Реален годишен ръст на БВП на зает</span><span class="note">Спрямо Q2 2025 г.</span></article>
+ </div>
+ <div class="chart-grid" style="margin-top:14px">
+  <article class="panel">
+   <h3>БДС на един зает по сектори</h3>
+   <p class="sub">Текущи цени · евро · Q2 2026 г.</p>
+   <div class="chart" id="productivity-sector-chart" aria-live="polite"><p class="note">Зареждане на данните…</p></div>
+  </article>
+  <article class="panel">
+   <h3>Промяна в реалната производителност</h3>
+   <p class="sub">Q2 2026 спрямо Q2 2025 г.</p>
+   <div class="rate-strip">
+    <div class="rate"><h3>БВП на зает</h3><div class="num">+3,1%</div><div class="detail">Реален ръст</div></div>
+    <div class="rate"><h3>БДС на зает</h3><div class="num">+0,3%</div><div class="detail">Реален ръст</div></div>
+    <div class="rate"><h3>БДС на човекочас</h3><div class="num">+0,5%</div><div class="detail">Реален ръст</div></div>
+   </div>
+   <p class="note">Източникът отчита 3 661,8 хил. заети в резидентните производствени единици и 1 428,3 млн. отработени часа през тримесечието.</p>
+  </article>
+ </div>
+ <div class="callout" style="margin-top:13px"><strong>Важно за съпоставимостта:</strong> заетите по националните сметки (ESA 2010) включват труда в резидентните производствени единици и имат различен обхват от лицата в Наблюдението на работната сила. За секторите НСИ използва БДС, а за международни сравнения на националните икономики — БВП.</div>
+ <p class="note">Статус: предварителни данни за Q2 2026 г. Следващото публикуване за Q3 2026 г. е планирано за 4 декември 2026 г. <a href="https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-9150">Публикация на НСИ и методологични бележки.</a></p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Методология: какво измерват показателите</h2>
+ <div class="definition-grid">
+  <article class="definition"><h3>Заети лица · Наблюдение на работната сила</h3><p>Лица на възраст 15–89 години, които са работили поне един час срещу заплащане/доход или временно отсъстват от работа. Включват наети, самонаети, работодатели и неплатени семейни работници.</p></article>
+  <article class="definition"><h3>Безработни · Наблюдение на работната сила</h3><p>Лица на възраст 15–74 години без работа, които активно са търсили работа през последните четири седмици и могат да започнат работа до две седмици. Коефициентът е делът им от работната сила.</p></article>
+  <article class="definition"><h3>Регистрирани безработни</h3><p>Лица, регистрирани в бюрата по труда. Равнището на Агенцията по заетостта използва като знаменател икономически активното население на възраст 15–64 години от Преброяване 2021.</p></article>
+  <article class="definition"><h3>Наети по трудови правоотношения</h3><p>Наетите по трудов и служебен договор са по-тесен обхват от всички заети лица в Наблюдението на работната сила. Не включват самонаетите и работодателите без трудов договор.</p></article>
+  <article class="definition"><h3>Средна брутна заплата</h3><p>Средно възнаграждение преди удръжки на наетите по трудово и служебно правоотношение. Това не е медиана и не обхваща автоматично всички форми на доход от труд.</p></article>
+  <article class="definition"><h3>Сезонност и точност</h3><p>Тримесечните оценки на НСИ не са сезонно изгладени. Извадковите показатели имат статистическа грешка; за Q3 2026 относителната стандартна грешка на коефициента на безработица е 6,7%.</p></article>
+ </div>
+ <div class="callout" style="margin-top:13px"><strong>Правило за четене:</strong> за тенденцията в безработицата сравнявайте еднакви тримесечия на различни години; за възнагражденията проверявайте дали стойността е брутна или нетна, месечна или почасова и дали се отнася до наети или до всички заети.</div>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Първични източници</h2>
+ <ul class="sources" id="source-list">
+  <li><a href="https://www.nsi.bg/press-release/osnovni-rezultati-ot-nablyudenieto-na-rabotnata-sila-iii-trimesechie-2026-godina-9214">НСИ: Наблюдение на работната сила — III тримесечие 2026 г.</a></li>
+  <li><a href="https://www.nsi.bg/press-release/osnovni-rezultati-ot-nablyudenieto-na-rabotnata-sila-ii-trimesechie-2026-godina-9118">НСИ: Наблюдение на работната сила — II тримесечие 2026 г.</a></li>
+  <li><a href="https://www.nsi.bg/press-release/naeti-lica-i-sredna-rabotna-zaplata-9213">НСИ: Наети лица и средна работна заплата — III тримесечие 2026 г.</a></li>
+  <li><a href="https://www.nsi.bg/statistical-data/169">НСИ: тримесечни данни за работната сила</a></li>
+  <li><a href="https://www.nsi.bg/statistical-data/179/570">НСИ: средна работна заплата — национално ниво</a></li>
+  <li><a href="https://www.az.government.bg/bg/news/view/nad-13-000-bezrabotni-s-nova-rabota-prez-oktomvri-4268/">Агенция по заетостта: резултати за октомври 2026 г.</a></li>
+  <li><a href="https://www.az.government.bg/bg/ejobs/view_prl/">Агенция по заетостта: текущи свободни работни места</a></li>
+  <li><a href="https://www.nsi.bg/press-release/key-indicators-for-bulgaria-latest-data-as-of-october-2-2026-9171">НСИ: разходи за труд и ключови показатели — октомври 2026 г.</a></li>
+  <li><a href="https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-9150">НСИ: производителност на труда — II тримесечие 2026 г. (предварителни данни)</a></li>
+ </ul>
+ <p class="note">Публикуваните данни са съпроводени с период, статус и дефиниция. При ревизия се запазва историята и се посочва коя публикация е използвана.</p>
+</section>
+
+<section class="section">
+ <h2 class="section-heading">Свързани материали</h2>
+ <div class="related">
+  <a href="/dalg-i-byudzhet/">Дълг и бюджет на България<small>Публични финанси, дефицит, лихвени плащания и фискална устойчивост.</small></a>
+  <a href="/banki/">Банки в България<small>Кредити, депозити, лихви и стабилност на банковата система.</small></a>
+ </div>
+</section>
+
+<footer class="footer">
+ <span>БЪЛГАРИЯ В ЧИСЛА · ФАКТИТЕ. БЕЗ ШУМ.</span>
+ <span><a href="/">Начална страница</a> · <a href="/privacy">Поверителност</a></span>
+</footer>
+</main>
+
+<script>
+(function(){
+"use strict";
+var $=id=>document.getElementById(id);
+var fmt=(v,d)=>new Intl.NumberFormat("bg-BG",{minimumFractionDigits:d||0,maximumFractionDigits:d===undefined?1:d}).format(v);
+var percent=v=>fmt(v,1)+"%";
+var $svg=(svg,tag,attrs,text)=>{var e=document.createElementNS("http://www.w3.org/2000/svg",tag);Object.keys(attrs).forEach(k=>e.setAttribute(k,attrs[k]));if(text!==undefined)e.textContent=text;svg.appendChild(e);return e;};
+function base(id,label){var host=$(id);if(!host)return null;host.textContent="";var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.setAttribute("viewBox","0 0 720 260");svg.setAttribute("role","img");svg.setAttribute("aria-label",label);host.appendChild(svg);return svg;}
+function lineChart(id,rows,series,min,max,unit){
+ if(!rows||rows.length<2)return;var svg=base(id,series.map(s=>s.label).join(", "));
+ var W=720,H=260,L=70,R=18,T=24,B=44,values=[];rows.forEach(p=>series.forEach(s=>{if(Number.isFinite(p[s.key]))values.push(p[s.key]);}));
+ var lo=min===undefined?Math.min.apply(null,values):min,hi=max===undefined?Math.max.apply(null,values):max,pad=(hi-lo||1)*.12;lo-=pad;hi+=pad;
+ var x=i=>L+i*(W-L-R)/(rows.length-1),y=v=>T+(hi-v)*(H-T-B)/(hi-lo);
+ for(var g=0;g<=4;g++){var v=lo+(hi-lo)*g/4;$svg(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),class:"gridline"});$svg(svg,"text",{x:L-9,y:y(v)+4,"text-anchor":"end"},fmt(v,1)+(unit||""));}
+ $svg(svg,"line",{x1:L,x2:W-R,y1:H-B,y2:H-B,class:"axisline"});
+ series.forEach(s=>{var pts=rows.filter(p=>Number.isFinite(p[s.key]));var path=pts.map(p=>{var i=rows.indexOf(p);return (i?"L":"M")+x(i)+" "+y(p[s.key]);}).join(" ");$svg(svg,"path",{d:path,class:s.line});pts.forEach(p=>{var c=$svg(svg,"circle",{cx:x(rows.indexOf(p)),cy:y(p[s.key]),r:4,class:s.dot});var t=document.createElementNS(svg.namespaceURI,"title");t.textContent=p.label+": "+fmt(p[s.key],1)+(unit||"");c.appendChild(t);});});
+ rows.forEach((p,i)=>$svg(svg,"text",{x:x(i),y:H-12,"text-anchor":"middle"},p.label));
+}
+function barChart(id,rows,key,label,barClass,unit){
+ if(!rows||!rows.length)return;var svg=base(id,label);var W=720,H=260,L=210,R=35,T=20,B=18;
+ var vals=rows.map(p=>p[key]),max=Math.max.apply(null,vals)*1.12,min=0,yStep=(H-T-B)/rows.length,scale=(W-L-R)/(max-min||1);
+ for(var g=0;g<=4;g++){var v=max*g/4,x=L+v*scale;$svg(svg,"line",{x1:x,x2:x,y1:T,y2:H-B,class:"gridline"});$svg(svg,"text",{x:x,y:H-2,"text-anchor":"middle"},fmt(v,0)+(unit||""));}
+ rows.forEach((p,i)=>{var y=T+i*yStep+5,w=(p[key]-min)*scale;$svg(svg,"text",{x:L-10,y:y+yStep*.55,"text-anchor":"end"},p.label);$svg(svg,"rect",{x:L,y:y,width:Math.max(1,w),height:Math.min(25,yStep-10),rx:3,class:barClass});$svg(svg,"text",{x:L+w+7,y:y+yStep*.55},fmt(p[key],0)+(unit||""));});
+}
+function render(data){
+ var l=data.labour_force,w=data.wages,pay=data.payroll_employment,az=data.az_registered,vac=data.active_vacancies;
+ $("survey-unemployment").textContent=percent(l.unemployment_rate_pct);
+ $("employment-rate").textContent=percent(l.employed_20_64_rate_pct);
+ $("average-wage").textContent=fmt(w.average_gross_monthly_eur,0)+" €";
+ $("registered-unemployment").textContent=fmt(az.registered_unemployment_rate_pct,2)+"%";
+ $("employed-total").textContent=fmt(l.total_employed_thousands/1000,3)+" млн.";
+ $("unemployed-total").textContent=fmt(l.unemployed_thousands,1)+" хил.";
+ $("youth-unemployment").textContent=percent(l.unemployed_15_29_rate_pct);
+ $("long-term-unemployed").textContent=fmt(l.long_term_unemployed_thousands,1)+" хил.";
+ $("long-term-share").textContent=fmt(l.long_term_unemployed_share_pct,1)+"% от всички безработни";
+ $("wage-yoy").textContent="+"+percent(w.yoy_change_pct);
+ $("wage-qoq").textContent="−"+percent(Math.abs(w.qoq_change_pct));
+ $("wage-private").textContent="+"+percent(w.private_sector_yoy_growth_pct);
+ $("payroll-employees-total").textContent=fmt(pay.employees_count/1000000,3)+" млн.";
+ $("az-registered-rate").textContent=fmt(az.registered_unemployment_rate_pct,2)+"%";
+ $("active-vacancies").textContent=fmt(vac.count,0);
+ $("az-placements").textContent=fmt(az.placed_in_jobs_with_agency_count,0);
+ $("az-primary-vacancies").textContent=fmt(az.employer_vacancies_primary_market_count,0);
+ $("az-subsidized").textContent=fmt(az.subsidized_employment_placements_count,0);
+ $("vacancy-date").textContent=new Date(vac.as_of+"T12:00:00").toLocaleDateString("bg-BG");
+ $("insight-unemployment").textContent="Безработните са "+fmt(l.unemployed_thousands,1)+" хил. през Q3 2026 г., а коефициентът е "+percent(l.unemployment_rate_pct)+" — с "+fmt(Math.abs(data.labour_force_yoy.unemployment_rate_pct.change_pp),1)+" процентни пункта под Q3 2025 г. Продължително безработни са "+fmt(l.long_term_unemployed_thousands,1)+" хил.";
+ $("insight-employment").textContent="Коефициентът на заетост за възраст 20–64 г. е "+percent(l.employed_20_64_rate_pct)+", с "+fmt(Math.abs(data.labour_force_yoy.employment_20_64_rate_pct.change_pp),1)+" процентни пункта по-нисък спрямо Q3 2025 г. В услугите са заети "+fmt(l.by_sector[0].employed_thousands,1)+" хил. души.";
+ $("insight-wages").textContent="Средната брутна месечна заплата е "+fmt(w.average_gross_monthly_eur,0)+" евро за Q3 2026 г. (+"+percent(w.yoy_change_pct)+" на годишна база), докато наетите по трудово и служебно правоотношение са "+fmt(pay.employees_count/1000000,3)+" млн. в края на септември.";
+ var q=data.labour_force_quarterly;
+ lineChart("unemployment-chart",q.map(p=>({label:p.label,value:p.unemployment_rate_pct})),[{key:"value",label:"Безработица",line:"red-line",dot:"red-dot"}],2.5,4.0,"%");
+ lineChart("employment-chart",q.map(p=>({label:p.label,value:p.employment_20_64_rate_pct})),[{key:"value",label:"Заетост 20–64 г.",line:"blue-line",dot:"blue-dot"}],75,78,"%");
+ barChart("employment-sector-chart",l.by_sector.map(p=>({label:p.label,value:p.employed_thousands})).sort((a,b)=>a.value-b.value),"value","Заети лица по икономически сектор","blue-bar"," хил.");
+ var wageMonths=w.monthly_series.map(p=>({label:p.label,value:p.gross_monthly_eur}));
+ barChart("wage-monthly-chart",wageMonths,"value","Средна брутна работна заплата","green-bar"," €");
+ var prod=data.productivity;
+ $("productivity-per-employed").textContent=fmt(prod.gdp_per_employed_current_eur,1)+" €";
+ $("productivity-per-hour").textContent=fmt(prod.gdp_per_hour_current_eur,1)+" €";
+ $("productivity-growth").textContent="+"+percent(prod.gdp_per_employed_real_yoy_pct);
+ barChart("productivity-sector-chart",prod.sectors.map(p=>({label:p.label,value:p.gva_per_employed_current_eur})).sort((a,b)=>a.value-b.value),"value","БДС на един зает по сектори","gold-bar"," €");
+ var shortActivity=function(v){return v.replace("Производство и разпределение на електрическа и топлинна енергия и на газообразни горива","Енергетика").replace("Създаване и разпространение на информация и творчески продукти; далекосъобщения","Информация и далекосъобщения").replace("Финансови и застрахователни дейности","Финанси и застраховане").replace("Селско, горско и рибно стопанство","Селско стопанство").replace("Хотелиерство и ресторантьорство","Хотели и ресторанти");};
+ var hi=w.quarterly_activity_extremes.filter(p=>p.group==="highest").map(p=>({label:shortActivity(p.activity),value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
+ var low=w.quarterly_activity_extremes.filter(p=>p.group==="lowest").map(p=>({label:shortActivity(p.activity),value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
+ barChart("wage-high-chart",hi,"value","Най-високи възнаграждения","blue-bar"," €");
+ barChart("wage-low-chart",low,"value","Най-ниски възнаграждения","gold-bar"," €");
+ var wt=$("wage-activity-table").querySelector("tbody");wt.textContent="";
+ w.quarterly_activity_extremes.forEach(p=>{var row=document.createElement("tr");[p.activity,fmt(p.average_gross_monthly_eur,0)+" €",p.group==="highest"?"Най-висока":"Най-ниска"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});wt.appendChild(row);});
+ var st=$("wage-september-table").querySelector("tbody");st.textContent="";
+ w.september_activity_wages.slice().sort((a,b)=>b.gross_monthly_eur-a.gross_monthly_eur).forEach(p=>{var row=document.createElement("tr");[p.activity,fmt(p.gross_monthly_eur,0)+" €"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});st.appendChild(row);});
+ lineChart("payroll-employees-chart",pay.monthly_series.map(p=>({label:p.label,value:p.employees/1000000})),[{key:"value",label:"Наети лица",line:"navy-line",dot:"navy-dot"}],2.25,2.42," млн.");
+}
+Promise.all([
+ fetch("/labour-market.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("labour-market.json HTTP "+r.status);return r.json();})
+]).then(x=>render(x[0])).catch(e=>{console.error("Неуспешно зареждане на данните за пазара на труда",e);$("survey-status").textContent="Последни публикувани данни";});
+})();
+</script>
+</body>
+</html>

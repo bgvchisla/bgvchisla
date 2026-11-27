@@ -1,6 +1,6 @@
 name: Deploy production to Cloudflare Pages
-# Publish after validated NSSI dataset refresh.
-# Production release pipeline for validated portal assets and live data
+# Publish validated portal assets, thematic pages, and live data.
+# Production release pipeline for the complete public site.
 
 on:
   workflow_dispatch:
@@ -13,9 +13,23 @@ on:
       - "privacy.html"
       - "sitemap.xml"
       - "advertise.html"
+      - "404.html"
+      - "_redirects"
+      - "tseni-i-inflatsia/**"
+      - "inflation.json"
+      - "dalg-i-byudzhet/**"
+      - "debt-budget.json"
+      - "banki/**"
+      - "banking.json"
+      - "pazar-na-truda/**"
+      - "labour-market.json"
+      - ".github/workflows/update-inflation.yml"
+      - ".github/workflows/update-labour-market.yml"
+      - ".github/workflows/update-bnb-monetary.yml"
       - ".github/workflows/update-business-climate.yml"
-      - "scripts/update_nssi_pensions.py"
       - ".github/workflows/update-nssi-pensions.yml"
+      - "scripts/update_nsi_fiscal.py"
+      - "scripts/update_nssi_pensions.py"
       - "scripts/update_bnb_monetary.py"
       - "economy-charts.js"
       - ".github/workflows/deploy-production.yml"
@@ -36,25 +50,79 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Validate data files
+      - name: Validate source pages and data
         run: |
-          python3 -c "import json; json.load(open('data.json', encoding='utf-8')); json.load(open('economy.json', encoding='utf-8')); print('JSON OK')"
-          test -f index.html
-          test -f assets/design-system.css
-          test -f economy-charts.js
-          test -f privacy.html
-          test -f source_status.json
-          python3 -c "import json; json.load(open('source_status.json', encoding='utf-8')); json.load(open('official_fiscal.json', encoding='utf-8')); json.load(open('official_bnb.json', encoding='utf-8')); json.load(open('official_nssi.json', encoding='utf-8')); json.load(open('official_business_climate.json', encoding='utf-8')); print('Official data JSON OK')"
-          python3 -c "import json; json.load(open('news.json', encoding='utf-8')); print('News JSON OK')"
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          files = [
+              "data.json", "economy.json", "inflation.json",
+              "debt-budget.json", "banking.json", "labour-market.json",
+              "source_status.json", "official_fiscal.json",
+              "official_bnb.json", "official_nssi.json",
+              "official_business_climate.json", "news.json"
+          ]
+          for name in files:
+              with Path(name).open(encoding="utf-8") as f:
+                  json.load(f)
+              print(f"JSON OK: {name}")
+          pages = [
+              "index.html", "privacy.html", "assets/design-system.css",
+              "economy-charts.js", "tseni-i-inflatsia/index.html",
+              "dalg-i-byudzhet/index.html", "banki/index.html",
+              "pazar-na-truda/index.html", "analizi/index.html",
+              "404.html", "_redirects"
+          ]
+          for name in pages:
+              p = Path(name)
+              assert p.is_file() and p.stat().st_size > 0, f"Missing/empty: {name}"
+              print(f"PAGE/ROUTING OK: {name}")
+          PY
 
-      - name: Prepare files
+      - name: Prepare complete production artifact
         run: |
-          mkdir -p public/assets
+          set -euo pipefail
+          mkdir -p public/assets public/analizi public/pazar-na-truda
+          mkdir -p public/tseni-i-inflatsia public/dalg-i-byudzhet public/banki
           cp -R assets/. public/assets/
-          mkdir -p public
-          cp index.html advertise.html data.json economy.json economy-charts.js privacy.html robots.txt sitemap.xml news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json _headers public/
-          mkdir -p public/analizi
+          cp index.html advertise.html data.json economy.json economy-charts.js privacy.html robots.txt sitemap.xml news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json labour-market.json inflation.json debt-budget.json banking.json _headers _redirects 404.html public/
           cp -R analizi/. public/analizi/
+          cp -R pazar-na-truda/. public/pazar-na-truda/
+          cp -R tseni-i-inflatsia/. public/tseni-i-inflatsia/
+          cp -R dalg-i-byudzhet/. public/dalg-i-byudzhet/
+          cp -R banki/. public/banki/
+
+      - name: Verify final artifact and sitemap
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          root = Path("public")
+          pages = ["analizi", "pazar-na-truda", "tseni-i-inflatsia", "dalg-i-byudzhet", "banki"]
+          for page in pages:
+              p = root / page / "index.html"
+              assert p.is_file() and p.stat().st_size > 0, f"Missing artifact: {p}"
+          datasets = ["labour-market.json", "inflation.json", "debt-budget.json", "banking.json"]
+          for name in datasets:
+              p = root / name
+              assert p.is_file() and p.stat().st_size > 0, f"Missing artifact: {p}"
+              with p.open(encoding="utf-8") as f:
+                  json.load(f)
+          for name in ["404.html", "_redirects"]:
+              p = root / name
+              assert p.is_file() and p.stat().st_size > 0, f"Missing routing artifact: {p}"
+          redirects = (root / "_redirects").read_text(encoding="utf-8")
+          assert "/en/privacy-policy/ /privacy 301" in redirects
+          assert "/en/disclaimer/ /404.html 410" in redirects
+          ET.parse(root / "sitemap.xml")
+          d = json.loads((root / "labour-market.json").read_text(encoding="utf-8"))
+          assert d.get("schema_version") == 1
+          assert d.get("active_vacancies", {}).get("as_of")
+          print("All thematic pages, datasets, routing artifacts and sitemap validated.")
+          PY
 
       - name: Deploy production
         uses: cloudflare/wrangler-action@v3

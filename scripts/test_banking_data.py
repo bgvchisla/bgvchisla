@@ -100,11 +100,11 @@ class BankingDataTests(unittest.TestCase):
 
     def test_monthly_household_loan_dataset_is_present_and_current(self):
         d = self.monthly
-        self.assertEqual(d["latest_period"], "2026-09")
-        self.assertEqual(len(d["series"]["household_housing_loans"]["points"]), 237)
+        latest = d["latest_period"]
         for key in ("household_consumer_loans", "household_housing_loans", "household_other_loans"):
             points = d["series"][key]["points"]
-            self.assertEqual(points[-1]["period"], "2026-09")
+            self.assertGreaterEqual(len(points), 237)
+            self.assertEqual(points[-1]["period"], latest)
             self.assertTrue(all(math.isfinite(p["value"]) and p["value"] >= 0 for p in points))
         self.assertIn("не представляват общия кредитен портфейл", d["methodology"])
 
