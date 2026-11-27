@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T02:00:50.883878+00:00",
-  "last_checked_at": "2026-11-27T02:00:50.883955+00:00",
+  "updated_at": "2026-11-27T03:02:04.611893+00:00",
+  "last_checked_at": "2026-11-27T03:02:04.611916+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -145,13 +145,13 @@
       "published": "2026-11-26T14:32:00+00:00",
       "feed_id": "investor-finance",
       "publisher": "investor.bg",
-      "priority_score": 39,
+      "priority_score": 38,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 87
       }
     },
@@ -290,25 +290,6 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
-      "summary": "Madrid's victory came after the Netherlands threw in the towel for the central bank's top job.",
-      "url": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T14:57:34+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
       "source": "Bank for International Settlements (BIS)",
       "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
       "summary": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
@@ -324,6 +305,25 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
+      "published": "2026-11-26T19:30:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
@@ -746,21 +746,21 @@
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
-      "published": "2026-11-26T19:30:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
+      "source": "POLITICO Europe",
+      "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
+      "summary": "Madrid's victory came after the Netherlands threw in the towel for the central bank's top job.",
+      "url": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T14:57:34+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
       "priority_score": 33,
       "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 87
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 92
       }
     },
     {
@@ -1031,6 +1031,25 @@
     },
     {
       "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Budget summit walkout leaves EU one month to salvage deal",
+      "summary": "No one expected an agreement at Thursday's gathering — but the scale of division caused leaders to depart visibly shocked and angry.",
+      "url": "https://www.politico.eu/article/eu-budget-summit-walkout-antonio-costa-leaves-one-month-negotiations-drama/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-27T02:50:17+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
       "source": "Европейска комисия",
       "title": "Daily News 26/ 11/ 2026",
       "summary": "European Commission Daily news Brussels, 26 Nov 2026 EU launches Supply Chain Early Warning Network with Trans-Pacific bloc The EU and the members of the Comprehensive and Progressive Agreement for Trans-Pacific P...",
@@ -1112,25 +1131,6 @@
       "summary": "Еманюел Макрон осъжда по най-категоричен начин актовете на насилие срещу български фенове на ПФК „Левски“ по време на футболен мач в Марсилия, предаде Франс прес, като се позова на изявление на Елисейския дворец. Подобни прояви на насилие „нямат място нито в с",
       "url": "https://www.bta.bg/bg/news/world/1255601-eliseyskiyat-dvorets-emanyuel-makron-kategorichno-osazhda-nasilieto-sreshtu-bal",
       "published": "2026-11-27T01:32:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Премиерът Румен Радев разговаря с френския президент Еманюел Макрон за нападението срещу български граждани преди мача на ПФК „Левски“ в Марсилия",
-      "summary": "Разговарях с президента на Франция Еманюел Макрон за нападението срещу български граждани преди мача на ПФК „Левски“ в Марсилия. Споделяме позицията, че агресията и насилието нямат място в цивилизована Европа, написа премиерът Румен Радев във Фейсбук. Благодар",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255589-premierat-rumen-radev-razgovarya-s-frenskiya-prezident-emanyuel-makron-za-napade",
-      "published": "2026-11-26T23:08:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 29,
