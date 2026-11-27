@@ -1253,6 +1253,22 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
 .news-more-divider{display:flex;align-items:center;gap:10px;margin:15px 0 10px;color:#536981;font-size:.76rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
 .news-more-divider:after{content:"";height:1px;flex:1;background:#d9e1ea}
 </style>
+<style id="accessibility-contrast-fix">
+/* Accessibility: raise muted-text contrast without changing the visual hierarchy. */
+:root{--mu:#526276;--ui-muted:#526276}
+#mk-note,
+.hero>small,.hero .r,label.sw,
+#site-content p.h,
+#site-content .src,#site-content .src li,
+.masthead-note,
+.news-intro,.news-updated,.news-meta,.news-summary,
+.site-footer,.site-footer small{
+  color:#526276;
+}
+.fc-status{
+  color:#80551b;
+}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Към основното съдържание</a>
