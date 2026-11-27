@@ -35,7 +35,7 @@ class VacancySnapshotTests(unittest.TestCase):
         result = parse_vacancy_snapshot(page)
         self.assertEqual(result["as_of"], "2026-11-27")
         self.assertEqual(result["count"], 6793)
-        self.assertEqual(result["source_url"], "https://az.government.bg/bg/ejobs/view_prl/")
+        self.assertEqual(result["source_url"], "https://www.az.government.bg/bg/ejobs/view_prl/")
 
     def test_parses_space_grouped_vacancy_count(self):
         page = "<p>Към 03/12/2026 в бюрата по труда има заявени 7 125 свободни работни места.</p>"

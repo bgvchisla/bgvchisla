@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
-URL = "https://az.government.bg/bg/ejobs/view_prl/"
+URL = "https://www.az.government.bg/bg/ejobs/view_prl/"
 OUTPUT = Path("labour-market.json")
 UA = "Mozilla/5.0 (compatible; BgvchislaLabourMarket/1.0; +https://bgvchisla.com)"
 MAX_BYTES = 8_000_000
