@@ -287,7 +287,8 @@ jobs:
                 startsWith(github.head_ref, 'fix/navigation-labels-desktop-news-mobile-only-') ||
                 startsWith(github.head_ref, 'fix/news-lead-freshness-') ||
                 startsWith(github.head_ref, 'fix/skip-confirmed-dead-analysis-sources-') ||
-                startsWith(github.head_ref, 'fix/get-probe-dead-analysis-sources-')
+                startsWith(github.head_ref, 'fix/get-probe-dead-analysis-sources-') ||
+                startsWith(github.head_ref, 'fix/deploy-labour-market-page-')
               )
             ) ||
             (
@@ -311,7 +312,8 @@ jobs:
                 startsWith(github.ref_name, 'fix/navigation-labels-desktop-news-mobile-only-') ||
                 startsWith(github.ref_name, 'fix/news-lead-freshness-') ||
                 startsWith(github.ref_name, 'fix/skip-confirmed-dead-analysis-sources-') ||
-                startsWith(github.ref_name, 'fix/get-probe-dead-analysis-sources-')
+                startsWith(github.ref_name, 'fix/get-probe-dead-analysis-sources-') ||
+                startsWith(github.ref_name, 'fix/deploy-labour-market-page-')
               )
             )
           )
@@ -328,7 +330,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*) ;;
+            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
