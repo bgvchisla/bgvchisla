@@ -411,7 +411,7 @@ try {
       title: document.querySelector("h1")?.textContent?.trim() ?? "",
       surveyUnemployment: document.querySelector("#survey-unemployment")?.textContent?.trim() ?? "",
       employmentRate: document.querySelector("#employment-rate")?.textContent?.trim() ?? "",
-      averageWage: (document.querySelector("#average-wage")?.textContent ?? "").replace(/\s+/g, " ").trim(),
+      averageWageNumber: (document.querySelector("#average-wage")?.textContent ?? "").replace(/[^\d,.-]/g, "").replace(",", "."),
       registeredUnemployment: document.querySelector("#registered-unemployment")?.textContent?.trim() ?? "",
       activeVacancies: document.querySelector("#active-vacancies")?.textContent?.trim() ?? "",
       unemploymentChart: !!document.querySelector("#unemployment-chart svg"),
@@ -422,7 +422,7 @@ try {
       lowWageChart: !!document.querySelector("#wage-low-chart svg"),
       payrollChart: !!document.querySelector("#payroll-employees-chart svg"),
       productivityChart: !!document.querySelector("#productivity-sector-chart svg"),
-      productivityPerEmployed: (document.querySelector("#productivity-per-employed")?.textContent ?? "").replace(/\s+/g, " ").trim(),
+      productivityPerEmployedNumber: (document.querySelector("#productivity-per-employed")?.textContent ?? "").replace(/[^\d,.-]/g, "").replace(",", "."),
       productivityGrowth: document.querySelector("#productivity-growth")?.textContent?.trim() ?? "",
       wageRows: document.querySelectorAll("#wage-activity-table tbody tr").length,
       septemberRows: document.querySelectorAll("#wage-september-table tbody tr").length,
@@ -440,10 +440,10 @@ try {
       viewport.name + ": registered unemployment did not load");
     assert.ok(labourMetrics.employmentRate.includes("77,0"),
       viewport.name + ": employment rate did not load");
-    assert.ok(labourMetrics.averageWage.includes("1 438"),
-      viewport.name + ": average wage did not load");
-    assert.ok(labourMetrics.productivityPerEmployed.includes("8 272,6"),
-      viewport.name + ": labour productivity per employed person did not load");
+    assert.ok(Math.abs(Number(labourMetrics.averageWageNumber) - 1438) < 0.1,
+      viewport.name + ": average wage did not load (" + labourMetrics.averageWageNumber + ")");
+    assert.ok(Math.abs(Number(labourMetrics.productivityPerEmployedNumber) - 8272.6) < 0.1,
+      viewport.name + ": labour productivity per employed person did not load (" + labourMetrics.productivityPerEmployedNumber + ")");
     assert.equal(labourMetrics.productivityGrowth, "+3,1%",
       viewport.name + ": real labour productivity growth did not load");
     for (const chart of [
