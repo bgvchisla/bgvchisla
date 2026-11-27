@@ -14,6 +14,7 @@ on:
 permissions:
   contents: write
   actions: write
+  pull-requests: write
 
 concurrency:
   group: production-data-refresh
@@ -32,6 +33,7 @@ jobs:
           client-id: ${{ vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID }}
           private-key: ${{ secrets.BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY }}
           permission-contents: write
+          permission-pull-requests: write
       - uses: actions/checkout@v4
         with:
           token: ${{ steps.automation_token.outputs.token || github.token }}
@@ -71,61 +73,12 @@ jobs:
           print(f"Validated all {len(successful)} Eurostat series.")
           PY
 
-      - name: Save only real data changes
+      - name: Create a pull request for validated data
         id: save
         env:
           GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}
-        run: |
-          python - <<'PY'
-          import json
-          import subprocess
-          from pathlib import Path
-
-          path = Path("economy.json")
-          new = json.loads(path.read_text(encoding="utf-8"))
-          old = json.loads(subprocess.check_output(
-              ["git", "show", "HEAD:economy.json"], text=True
-          ))
-
-          def comparable(data):
-              data.pop("last_successful_update", None)
-              data.pop("updated_at", None)
-              for row in data.get("series", []):
-                  row.pop("updated_at", None)
-              return data
-
-          if comparable(new) == comparable(old):
-              subprocess.check_call(["git", "checkout", "--", "economy.json"])
-              print("No new observations or status changes; keeping the last published file.")
-          else:
-              print("New observations or a data-status change detected.")
-          PY
-          APP_SLUG="${{ steps.automation_token.outputs.app-slug }}"
-          if [ -n "$APP_SLUG" ]; then
-            BOT_USER_ID="$(gh api "/users/${APP_SLUG}[bot]" --jq .id)"
-            git config user.name "${APP_SLUG}[bot]"
-            git config user.email "${BOT_USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com"
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          fi
-          git add economy.json
-          if git diff --cached --quiet; then
-            echo "No economic data changes to publish."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            git commit -m "Update official Eurostat series"
-            git pull --rebase origin main
-            git push origin HEAD:main
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Dispatch production deployment after data changes
-        if: steps.save.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          REPOSITORY: ${{ github.repository }}
-        run: |
-          set -euo pipefail
-          gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
-          echo "Production deployment requested for the validated data update."
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_WORKFLOW: ${{ github.workflow }}
+          APP_SLUG: ${{ steps.automation_token.outputs.app-slug }}
+        run: bash scripts/create_data_update_pr.sh economy.json "Update official Eurostat series"
