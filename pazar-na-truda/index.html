@@ -338,6 +338,35 @@ td.negative{color:var(--red);font-weight:750}
 </section>
 
 <section class="section">
+ <h2 class="section-heading">Производителност на труда</h2>
+ <p class="section-intro">Последните налични данни са за Q2 2026 г. и са предварителни. Производителността измерва създадения продукт спрямо вложения труд и се изчислява по обхвата на националните сметки (ESA 2010), а не чрез извадковото наблюдение на домакинствата.</p>
+ <div class="kpi-grid" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+  <article class="kpi blue"><span class="value" id="productivity-per-employed">8 272,6 €</span><span class="label">БВП на един зает</span><span class="note">Текущи цени · Q2 2026 г.</span></article>
+  <article class="kpi green"><span class="value" id="productivity-per-hour">21,2 €</span><span class="label">БВП на един отработен час</span><span class="note">Текущи цени · Q2 2026 г.</span></article>
+  <article class="kpi gold"><span class="value" id="productivity-growth">+3,1%</span><span class="label">Реален годишен ръст на БВП на зает</span><span class="note">Спрямо Q2 2025 г.</span></article>
+ </div>
+ <div class="chart-grid" style="margin-top:14px">
+  <article class="panel">
+   <h3>БДС на един зает по сектори</h3>
+   <p class="sub">Текущи цени · евро · Q2 2026 г.</p>
+   <div class="chart" id="productivity-sector-chart" aria-live="polite"><p class="note">Зареждане на данните…</p></div>
+  </article>
+  <article class="panel">
+   <h3>Промяна в реалната производителност</h3>
+   <p class="sub">Q2 2026 спрямо Q2 2025 г.</p>
+   <div class="rate-strip">
+    <div class="rate"><h3>БВП на зает</h3><div class="num">+3,1%</div><div class="detail">Реален ръст</div></div>
+    <div class="rate"><h3>БДС на зает</h3><div class="num">+0,3%</div><div class="detail">Реален ръст</div></div>
+    <div class="rate"><h3>БДС на човекочас</h3><div class="num">+0,5%</div><div class="detail">Реален ръст</div></div>
+   </div>
+   <p class="note">Източникът отчита 3 661,8 хил. заети в резидентните производствени единици и 1 428,3 млн. отработени часа през тримесечието.</p>
+  </article>
+ </div>
+ <div class="callout" style="margin-top:13px"><strong>Важно за съпоставимостта:</strong> заетите по националните сметки (ESA 2010) включват труда в резидентните производствени единици и имат различен обхват от лицата в Наблюдението на работната сила. За секторите НСИ използва БДС, а за международни сравнения на националните икономики — БВП.</div>
+ <p class="note">Статус: предварителни данни за Q2 2026 г. Следващото публикуване за Q3 2026 г. е планирано за 4 декември 2026 г. <a href="https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-ii-trimesechie-2026-godina-predvaritelni-danni-9150">Публикация на НСИ и методологични бележки.</a></p>
+</section>
+
+<section class="section">
  <h2 class="section-heading">Методология: какво измерват показателите</h2>
  <div class="definition-grid">
   <article class="definition"><h3>Заети лица · Наблюдение на работната сила</h3><p>Лица на възраст 15–89 години, които са работили поне един час срещу заплащане/доход или временно отсъстват от работа. Включват наети, самонаети, работодатели и неплатени семейни работници.</p></article>
@@ -433,6 +462,11 @@ function render(data){
  barChart("employment-sector-chart",l.by_sector.map(p=>({label:p.label,value:p.employed_thousands})).sort((a,b)=>a.value-b.value),"value","Заети лица по икономически сектор","blue-bar"," хил.");
  var wageMonths=w.monthly_series.map(p=>({label:p.label,value:p.gross_monthly_eur}));
  barChart("wage-monthly-chart",wageMonths,"value","Средна брутна работна заплата","green-bar"," €");
+ var prod=data.productivity;
+ $("productivity-per-employed").textContent=fmt(prod.gdp_per_employed_current_eur,1)+" €";
+ $("productivity-per-hour").textContent=fmt(prod.gdp_per_hour_current_eur,1)+" €";
+ $("productivity-growth").textContent="+"+percent(prod.gdp_per_employed_real_yoy_pct);
+ barChart("productivity-sector-chart",prod.sectors.map(p=>({label:p.label,value:p.gva_per_employed_current_eur})).sort((a,b)=>a.value-b.value),"value","БДС на един зает по сектори","gold-bar"," €");
  var shortActivity=function(v){return v.replace("Създаване и разпространение на информация и творчески продукти; далекосъобщения","Информация и далекосъобщения").replace("Финансови и застрахователни дейности","Финанси и застраховане").replace("Селско, горско и рибно стопанство","Селско стопанство").replace("Хотелиерство и ресторантьорство","Хотели и ресторанти");};
  var hi=w.quarterly_activity_extremes.filter(p=>p.group==="highest").map(p=>({label:shortActivity(p.activity),value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
  var low=w.quarterly_activity_extremes.filter(p=>p.group==="lowest").map(p=>({label:shortActivity(p.activity),value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
