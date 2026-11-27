@@ -212,7 +212,7 @@ td.negative{color:var(--red);font-weight:750}
    </div>
   </article>
  </div>
- <p class="note">НСИ отчита 2 927,8 хил. заети лица, 95,1 хил. безработни и 3,1% коефициент на безработица през Q3 2026 г. Поради извадковия характер на наблюдението има статистическа грешка; относителната стандартна грешка на коефициента на безработица е 6,7%, а 95% интервалът е 2,7–3,6%.</p>
+ <p class="note">НСИ отчита 2 927,8 хил. заети лица, 95,1 хил. безработни и 3,1% коефициент на безработица през Q3 2026 г. Поради извадковия характер на наблюдението има статистическа грешка; относителната стандартна грешка на коефициента на безработица е 6,7%.</p>
 </section>
 
 <section class="section">
@@ -468,7 +468,7 @@ function render(data){
  $("productivity-per-hour").textContent=fmt(prod.gdp_per_hour_current_eur,1)+" €";
  $("productivity-growth").textContent="+"+percent(prod.gdp_per_employed_real_yoy_pct);
  barChart("productivity-sector-chart",prod.sectors.map(p=>({label:p.label,value:p.gva_per_employed_current_eur})).sort((a,b)=>a.value-b.value),"value","БДС на един зает по сектори","gold-bar"," €");
- var shortActivity=function(v){return v.replace("Създаване и разпространение на информация и творчески продукти; далекосъобщения","Информация и далекосъобщения").replace("Финансови и застрахователни дейности","Финанси и застраховане").replace("Селско, горско и рибно стопанство","Селско стопанство").replace("Хотелиерство и ресторантьорство","Хотели и ресторанти");};
+ var shortActivity=function(v){return v.replace("Производство и разпределение на електрическа и топлинна енергия и на газообразни горива","Енергетика").replace("Създаване и разпространение на информация и творчески продукти; далекосъобщения","Информация и далекосъобщения").replace("Финансови и застрахователни дейности","Финанси и застраховане").replace("Селско, горско и рибно стопанство","Селско стопанство").replace("Хотелиерство и ресторантьорство","Хотели и ресторанти");};
  var hi=w.quarterly_activity_extremes.filter(p=>p.group==="highest").map(p=>({label:shortActivity(p.activity),value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
  var low=w.quarterly_activity_extremes.filter(p=>p.group==="lowest").map(p=>({label:shortActivity(p.activity),value:p.average_gross_monthly_eur})).sort((a,b)=>a.value-b.value);
  barChart("wage-high-chart",hi,"value","Най-високи възнаграждения","blue-bar"," €");
