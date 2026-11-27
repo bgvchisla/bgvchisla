@@ -1,25 +1,25 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T04:10:45.481309+00:00",
-  "last_checked_at": "2026-11-27T04:10:45.481322+00:00",
+  "updated_at": "2026-11-27T05:17:02.106609+00:00",
+  "last_checked_at": "2026-11-27T05:17:02.106617+00:00",
   "items": [
     {
       "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: Парламентът прие данък „Свръхпечалба“; Отстъпки при имотите; „Теклас“ инвестира в роботи",
-      "summary": "Нов данък за големия бизнес, отстъпки за десетки хиляди евро при жилищните оферти и инвестиция в роботизирано производство в Кърджали. Какво още се случи днес – във вечерния обзор на Economic.bg",
-      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-parlamentyt-prie-danyk-svryhpechalba-otstypki-pri-imotite-teklas-investira-v-roboti",
-      "published": "2026-11-26T16:27:43+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 50,
+      "source": "БТА",
+      "title": "Парламентът ще разгледа на второ четене промени в Закона за ДДС, с които се регламентира специален режим за облагане на малки предприятия",
+      "summary": "Парламентът ще разгледа на второ четене промени в Закона за данък върху добавената стойност, с които се регламентират условията за прилагане на специални режими за облагане с ДДС на малки предприятия, на лицата, установени на територията на страната, и за тези",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255493-parlamentat-shte-razgleda-na-vtoro-chetene-promeni-v-zakona-za-dds-s-koito-se-r",
+      "published": "2026-11-27T05:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 49,
       "priority_breakdown": {
-        "economic_significance": 68,
+        "economic_significance": 48,
         "national_impact": 61,
-        "household_business_impact": 25,
+        "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -39,6 +39,44 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "Вечерни новини: Парламентът прие данък „Свръхпечалба“; Отстъпки при имотите; „Теклас“ инвестира в роботи",
+      "summary": "Нов данък за големия бизнес, отстъпки за десетки хиляди евро при жилищните оферти и инвестиция в роботизирано производство в Кърджали. Какво още се случи днес – във вечерния обзор на Economic.bg",
+      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-parlamentyt-prie-danyk-svryhpechalba-otstypki-pri-imotite-teklas-investira-v-roboti",
+      "published": "2026-11-26T16:27:43+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 49,
+      "priority_breakdown": {
+        "economic_significance": 68,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинските съветници в Каолиново ще разгледат предложения за отпускане на помощи и на временен безлихвен заем за изпълнение на проект",
+      "summary": "Общинските съветници в Каолиново ще разгледат предложение за ползване на временен безлихвен заем от бюджета на община Каолиново за осигуряване на финансов ресурс за изпълнение на проект „Иновативни здравно-социални услуги“ по договор от 2 април 2025 г. В предв",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255095-obshtinskite-savetnitsi-v-kaolinovo-shte-razgledat-predlozheniya-za-otpuskane-na",
+      "published": "2026-11-27T04:18:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 48,
+      "priority_breakdown": {
+        "economic_significance": 68,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -80,25 +118,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Събитията днес - България",
-      "summary": "Парламентът ще разгледа на второ четене промени в Закона за данък върху добавената стойност, според приетата програма за работа на Народното събрание. В нея е предвиден и редовният петъчен парламентарен контрол. (НК) ***** Кметът на София Васил Терзиев ще инсп",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1248548-sabitiyata-dnes-balgariya",
-      "published": "2026-11-27T04:00:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 44,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
@@ -115,25 +134,6 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "По-висока данъчна оценка на имотите с 30% от 2027 г. и намаление с 23% на данъка за придобиване на жилище от млади семейства, прие парламентът",
-      "summary": "Увеличаване на данъчната оценка на имотите с 30% от 2027 г. и намаление с 23% на данъка при покупка на жилище от млади семейства до 30-годишна възраст с поне едно дете, прие окончателно парламентът. Депутатите гласуваха на второ четене промените в Закона за ме",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255534-po-visoka-danachna-otsenka-na-imotite-s-30-ot-2027-g-i-namalenie-s-23-na-dana",
-      "published": "2026-11-26T19:37:18+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 40,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
       }
     },
     {
@@ -164,13 +164,13 @@
       "published": "2026-11-26T17:00:26+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
-      "priority_score": 39,
+      "priority_score": 38,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 91
       }
     },
@@ -398,7 +398,7 @@
         "national_impact": 61,
         "household_business_impact": 42,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -479,6 +479,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Стражица ще обсъди общия устройствен план на общината и промени в бюджета",
+      "summary": "Общинския съвет в Стражица ще обсъди общия устройствен план на общината, проект на наредба за местните такси и цени на услуги и актуализации на общинския бюджет за 2026 година на днешното си редовно заседание. Това е записано в дневния ред, публикуван на офици",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255110-obshtinskiyat-savet-v-strazhitsa-shte-obsadi-obshtiya-ustroystven-plan-na-obshti",
+      "published": "2026-11-27T04:49:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
@@ -517,25 +536,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
-      "summary": "At least 31 people have been killed and 21 injured after a crash involving a fuel tanker triggered a massive fire on a major highway near Cairo. The blaze engulfed more than two dozen cars and motorcycles on the Ring Road in Giza on Wednesday night.",
-      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
-      "published": "2026-11-26T04:40:55+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 91
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Има сделка за „Лукойл“, която включва и бургаската рафинерия",
@@ -552,6 +552,25 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
+      "summary": "At least 31 people have been killed and 21 injured after a crash involving a fuel tanker triggered a massive fire on a major highway near Cairo. The blaze engulfed more than two dozen cars and motorcycles on the Ring Road in Giza on Wednesday night.",
+      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
+      "published": "2026-11-26T04:40:55+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 68,
+        "source_reliability": 91
       }
     },
     {
@@ -593,41 +612,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Macron accuses ‘arrogant’ Le Pen of speaking as if she already won",
-      "summary": "Le Pen feels she's being cut out of EU budget negotiations. Macron reminded her that he's still in charge.",
-      "url": "https://www.politico.eu/article/macron-accuses-arrogant-marine-le-pen-criticism-eu-budget-negotiations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T22:39:42+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 34,
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Финансиране на процедури инвитро и отпускане на финансова помощ са сред точките, които ще разгледат общинските съветници в Благоевград",
+      "summary": "Финансиране на процедури инвитро със средства от бюджета на община Благоевград е заложено като точка в дневния ред на Общинския съвет, публикуван на интернет страницата на институцията. На свое заседание днес от 9:30 часа съветниците ще разгледат и точка, свър",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255153-finansirane-na-protseduri-invitro-i-otpuskane-na-finansova-pomosht-sa-sred-tochk",
+      "published": "2026-11-27T04:28:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 92
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Southern and central Australia face summer of heightened bushfire risk and heatwaves",
-      "summary": "Fire chiefs say large swathes of the country are at risk from fires driven by high fuel loads, dry soil and hot weather Get our breaking news email , free app or daily news podcast Large parts of southern and central Australia face elevated fire risk this summ",
-      "url": "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
-      "published": "2026-11-26T21:33:36+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Макреш ще обсъди промени в наредбата за местните такси и план-сметката за дейностите по чистотата за 2027 г.",
+      "summary": "Промени в Наредбата за определяне и администриране на местните такси и цени на услуги и одобряване на план-сметката за разходите за събиране и транспортиране на битови отпадъци, тяхното третиране и поддържане на чистотата на обществените територии през 2027 г.",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255385-obshtinskiyat-savet-v-makresh-shte-obsadi-promeni-v-naredbata-za-mestnite-taksi-",
+      "published": "2026-11-27T04:19:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 34,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 0,
         "national_impact": 34,
-        "household_business_impact": 25,
+        "household_business_impact": 59,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 94
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -973,44 +992,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "МВнР да поиска обяснение от френското посолство в София и да гарантира безопасното завръщане на привържениците на „Левски” у нас, призова Ивайло Мирчев",
-      "summary": "Министерството на външните работи трябва незабавно да поиска обяснение от френското посолство в София, както и да гарантира безопасното завръщане на привържениците на „Левски” у нас. България е длъжна да се погрижи за сигурността и достойнството на гражданите",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255578-mvnr-da-poiska-obyasnenie-ot-frenskoto-posolstvo-v-sofiya-i-da-garantira-bezopas",
-      "published": "2026-11-26T21:53:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Френските власти да изяснят обстоятелствата около инцидентите с български граждани в Марсилия, настояват в позиция от външното министерство",
-      "summary": "Министерството на външните работи категорично осъжда нападенията срещу български граждани в Марсилия. Насилието и посегателствата срещу личната неприкосновеност са недопустими. Настояваме компетентните френски власти да изяснят в пълнота обстоятелствата около",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255576-frenskite-vlasti-da-izyasnyat-obstoyatelstvata-okolo-intsidentite-s-balgarski-gr",
-      "published": "2026-11-26T21:42:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
       "source": "The Guardian – World",
       "title": "What would happen if Russia detonated a nuclear weapon in space?",
@@ -1046,6 +1027,82 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Промяна на инвестиционно намерение за туристическо селище ще обсъди Общинският съвет в Белоградчик",
+      "summary": "Промяна на инвестиционно намерение за изграждане на туристическо селище в село Вещица ще обсъди Общинският съвет в Белоградчик. Това показва дневният ред на предстоящото заседание, публикуван на сайта на Общината. Във връзка с имота в землището на село Вещица",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255128-promyana-na-investitsionno-namerenie-za-turistichesko-selishte-shte-obsadi-obsht",
+      "published": "2026-11-27T05:14:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Лясковец ще обсъди подготовката за зимния сезон, бюджетното изпълнение и мерки за намаляване на риска от бедствия",
+      "summary": "Информация за състоянието на пътната обстановка и подготовката за есенно-зимния сезон 2026–2027 г. в община Лясковец е сред въпросите, включени в дневния ред на предстоящото заседание на Общинския съвет, публикуван на интернет страницата на институцията. Общин",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255452-obshtinskiyat-savet-v-lyaskovets-shte-obsadi-podgotovkata-za-zimniya-sezon-byud",
+      "published": "2026-11-27T05:11:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Кочериново ще обсъди отчета за изпълнение на бюджета за 2025 година",
+      "summary": "Общинският съвет в Кочериново ще обсъди отчета за изпълнение на бюджета за 2025 година и отчета за състоянието на общинския дълг на община Кочериново. Това показва публикуваният дневен ред на редовното заседание на съвета, което ще се състои от 10:00 часа в за",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255292-obshtinskiyat-savet-v-kocherinovo-shte-obsadi-otcheta-za-izpalnenie-na-byudzheta",
+      "published": "2026-11-27T04:44:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Златарица ще обсъди зимната готовност и културната програма за 2027 година",
+      "summary": "Общинският съвет в Златарица ще обсъди готовността на общината за работа през есенно-зимния период 2026–2027 година и ще разгледа програмата за развитие на читалищната дейност и календара на културните мероприятия за 2027 година. Това е записано в дневния ред",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255092-obshtinskiyat-savet-v-zlataritsa-shte-obsadi-zimnata-gotovnost-i-kulturnata-prog",
+      "published": "2026-11-27T04:37:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -1141,25 +1198,6 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 98
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Елисейският дворец: Еманюел Макрон категорично осъжда насилието срещу български футболни фенове в Марсилия",
-      "summary": "Еманюел Макрон осъжда по най-категоричен начин актовете на насилие срещу български фенове на ПФК „Левски“ по време на футболен мач в Марсилия, предаде Франс прес, като се позова на изявление на Елисейския дворец. Подобни прояви на насилие „нямат място нито в с",
-      "url": "https://www.bta.bg/bg/news/world/1255601-eliseyskiyat-dvorets-emanyuel-makron-kategorichno-osazhda-nasilieto-sreshtu-bal",
-      "published": "2026-11-27T01:32:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -1293,44 +1331,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Индексите на БФБ затвориха разнопосочно при по-слаба активност",
-      "summary": "",
-      "url": "https://www.investor.bg/a/538-pazari/440150-indeksite-na-bfb-zatvoriha-raznoposochno-pri-po-slaba-aktivnost",
-      "published": "2026-11-26T17:33:17+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "BBC News – Свят",
-      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
-      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-26T16:21:19+00:00",
-      "feed_id": "bbc-world",
-      "publisher": "BBC",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
       }
     }
   ],
