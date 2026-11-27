@@ -34,6 +34,9 @@ on:
       - "scripts/update_inflation.py"
       - "scripts/test_inflation_data.py"
       - "scripts/test_debt_budget_data.py"
+      - "scripts/test_labour_market_data.py"
+      - "labour-market.json"
+      - "pazar-na-truda/**"
       - "scripts/test_banking_data.py"
       - "banking.json"
       - "banki/**"
@@ -94,6 +97,8 @@ jobs:
         run: python scripts/test_inflation_data.py
       - name: Run debt and budget scope and data regression tests
         run: python scripts/test_debt_budget_data.py
+      - name: Run labour market data and definitions regression tests
+        run: python scripts/test_labour_market_data.py
       - name: Run banking scope and data regression tests
         run: python scripts/test_banking_data.py
       - name: Validate mobile navigation and all inline JavaScript
@@ -133,7 +138,7 @@ jobs:
           required = [
               "data.json", "economy.json", "news.json", "source_status.json",
               "official_fiscal.json", "official_bnb.json", "official_nssi.json",
-              "official_business_climate.json", "inflation.json", "debt-budget.json", "banking.json", "analysis/monthly_usage.json",
+              "official_business_climate.json", "inflation.json", "debt-budget.json", "banking.json", "labour-market.json", "analysis/monthly_usage.json",
               "analysis/verification_usage.json", "analizi/articles.json",
           ]
           for name in required:
