@@ -394,6 +394,46 @@
     {
       "title": "НСИ: Разходи за труд — ключови показатели",
       "url": "https://www.nsi.bg/press-release/key-indicators-za-bulgaria-latest-data-as-of-october-2-2026-9171"
+    },
+    {
+      "title": "НСИ: Производителност на труда, заети лица и отработено време — II тримесечие 2026 г.",
+      "url": "https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-ii-trimesechie-2026-godina-predvaritelni-danni-9150"
     }
-  ]
+  ],
+  "productivity": {
+    "source": "Национален статистически институт",
+    "source_url": "https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-ii-trimesechie-2026-godina-predvaritelni-danni-9150",
+    "published_on": "2026-09-07",
+    "period": "2026-Q2",
+    "status": "Предварителни данни",
+    "gdp_per_employed_current_eur": 8272.6,
+    "gdp_per_hour_current_eur": 21.2,
+    "gdp_per_employed_real_yoy_pct": 3.1,
+    "gva_per_employed_real_yoy_pct": 0.3,
+    "gva_per_hour_real_yoy_pct": 0.5,
+    "employment_in_resident_production_units_thousands": 3661.8,
+    "hours_worked_mio": 1428.3,
+    "sectors": [
+      {
+        "id": "services",
+        "label": "Услуги",
+        "gva_per_employed_current_eur": 7298.4,
+        "gva_per_hour_current_eur": 18.5
+      },
+      {
+        "id": "industry",
+        "label": "Индустрия",
+        "gva_per_employed_current_eur": 7898.2,
+        "gva_per_hour_current_eur": 19.4
+      },
+      {
+        "id": "agriculture",
+        "label": "Аграрен сектор",
+        "gva_per_employed_current_eur": 1305.8,
+        "gva_per_hour_current_eur": 3.9
+      }
+    ],
+    "methodology": "Производителността съпоставя произведения продукт (БВП или БДС) с вложения труд — брой заети в резидентните производствени единици или отработени човекочасове. За международни сравнения на националните икономики се използва БВП; по икономически сектори може да се използва БДС. Тези заети и отработени часове са по концепцията на ESA 2010 и не съвпадат непременно с лицата от Наблюдението на работната сила.",
+    "next_release_date": "2026-12-04"
+  }
 }
