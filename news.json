@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T03:02:04.611893+00:00",
-  "last_checked_at": "2026-11-27T03:02:04.611916+00:00",
+  "updated_at": "2026-11-27T04:10:45.481309+00:00",
+  "last_checked_at": "2026-11-27T04:10:45.481322+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -56,7 +56,7 @@
         "national_impact": 34,
         "household_business_impact": 42,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 94
       }
     },
@@ -77,6 +77,25 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Събитията днес - България",
+      "summary": "Парламентът ще разгледа на второ четене промени в Закона за данък върху добавената стойност, според приетата програма за работа на Народното събрание. В нея е предвиден и редовният петъчен парламентарен контрол. (НК) ***** Кметът на София Васил Терзиев ще инсп",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1248548-sabitiyata-dnes-balgariya",
+      "published": "2026-11-27T04:00:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 44,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -115,6 +134,25 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "EU leaders brave clash with Trump over tech tax, defense, Ukraine",
+      "summary": "European governments are now more willing to take on the U.S. president: 'What do we have to lose?'",
+      "url": "https://www.politico.eu/article/eu-leaders-brave-clash-with-trump-over-tech-tax-defense-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T23:38:19+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -253,19 +291,19 @@
     {
       "section": "europe",
       "source": "POLITICO Europe",
-      "title": "Macron accuses ‘arrogant’ Le Pen of speaking as if she already won",
-      "summary": "Le Pen feels she's being cut out of EU budget negotiations. Macron reminded her that he's still in charge.",
-      "url": "https://www.politico.eu/article/macron-accuses-arrogant-marine-le-pen-criticism-eu-budget-negotiations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T22:39:42+00:00",
+      "title": "How Costa’s budget talks sparked a new crisis",
+      "summary": "Presented by Fusion for Energy.",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-costas-budget-talks-sparked-a-new-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-27T03:45:00+00:00",
       "feed_id": "politico-europe",
       "publisher": "POLITICO",
-      "priority_score": 34,
+      "priority_score": 35,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
+        "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 100,
         "source_reliability": 92
       }
     },
@@ -308,25 +346,6 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
-      "published": "2026-11-26T19:30:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
       "section": "bulgaria",
       "source": "Народно събрание",
       "title": "Михаела Доцова: Убедена съм, че между 52-рото Народно събрание и президентството ще се осъществява конструктивен диалог в защита на държавността и на интересите на България",
@@ -343,25 +362,6 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 98
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "МВнР да поиска обяснение от френското посолство в София и да гарантира безопасното завръщане на привържениците на „Левски” у нас, призова Ивайло Мирчев",
-      "summary": "Министерството на външните работи трябва незабавно да поиска обяснение от френското посолство в София, както и да гарантира безопасното завръщане на привържениците на „Левски” у нас. България е длъжна да се погрижи за сигурността и достойнството на гражданите",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255578-mvnr-da-poiska-obyasnenie-ot-frenskoto-posolstvo-v-sofiya-i-da-garantira-bezopas",
-      "published": "2026-11-26T21:53:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 90
       }
     },
     {
@@ -468,13 +468,13 @@
       "published": "2026-11-26T16:00:25+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 40,
+      "priority_score": 39,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 92,
+        "timeliness": 82,
         "source_reliability": 85
       }
     },
@@ -594,21 +594,21 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Bombed factories, billion-dollar opportunity: Why German companies are staying in Ukraine",
-      "summary": "German companies remain committed to Ukraine despite million-dollar losses, an unreliable energy supply and a shortage of skilled workers. They are betting on new markets and long-term growth.",
-      "url": "https://www.dw.com/en/bombed-factories-billion-dollar-opportunity-why-german-companies-are-staying-in-ukraine/a-80030201?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-24T11:00:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 35,
+      "source": "POLITICO Europe",
+      "title": "Macron accuses ‘arrogant’ Le Pen of speaking as if she already won",
+      "summary": "Le Pen feels she's being cut out of EU budget negotiations. Macron reminded her that he's still in charge.",
+      "url": "https://www.politico.eu/article/macron-accuses-arrogant-marine-le-pen-criticism-eu-budget-negotiations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-26T22:39:42+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 34,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 50,
-        "source_reliability": 95
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -727,40 +727,21 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Qantas and Air New Zealand planes too close at Sydney airport as ‘mental models’ of crews to be investigated",
-      "summary": "Aborted descent on Wednesday morning is latest in a series of landing incidents at Sydney airport Get our breaking news email , free app or daily news podcast The Australian Transport Safety Bureau is investigating flight crews’ “mental models” after a Qantas",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/27/qantas-plane-aborted-landing-sydney-airport-mental-model-investigation",
-      "published": "2026-11-27T00:10:55+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
+      "published": "2026-11-26T19:30:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
       "priority_score": 33,
       "priority_breakdown": {
         "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 25,
+        "national_impact": 61,
+        "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
-      "summary": "Madrid's victory came after the Netherlands threw in the towel for the central bank's top job.",
-      "url": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-26T14:57:34+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 92
+        "timeliness": 92,
+        "source_reliability": 87
       }
     },
     {
@@ -856,6 +837,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Qantas and Air New Zealand planes too close at Sydney airport as ‘mental models’ of crews to be investigated",
+      "summary": "Aborted descent on Wednesday morning is latest in a series of landing incidents at Sydney airport Get our breaking news email , free app or daily news podcast The Australian Transport Safety Bureau is investigating flight crews’ “mental models” after a Qantas",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/27/qantas-plane-aborted-landing-sydney-airport-mental-model-investigation",
+      "published": "2026-11-27T00:10:55+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 32,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 94
       }
     },
     {
@@ -970,6 +970,25 @@
         "strategic_significance": 32,
         "timeliness": 10,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "МВнР да поиска обяснение от френското посолство в София и да гарантира безопасното завръщане на привържениците на „Левски” у нас, призова Ивайло Мирчев",
+      "summary": "Министерството на външните работи трябва незабавно да поиска обяснение от френското посолство в София, както и да гарантира безопасното завръщане на привържениците на „Левски” у нас. България е длъжна да се погрижи за сигурността и достойнството на гражданите",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255578-mvnr-da-poiska-obyasnenie-ot-frenskoto-posolstvo-v-sofiya-i-da-garantira-bezopas",
+      "published": "2026-11-26T21:53:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 90
       }
     },
     {
@@ -1304,25 +1323,6 @@
       "published": "2026-11-26T16:21:19+00:00",
       "feed_id": "bbc-world",
       "publisher": "BBC",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
-      "summary": "Thousands have gathered in the capital of northern Iraq's semiautonomous Kurdish region, waving flags and voicing opposition to plans for the federal government to take control of oil operations and border crossings.",
-      "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T16:13:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
       "priority_score": 29,
       "priority_breakdown": {
         "economic_significance": 28,
