@@ -421,6 +421,9 @@ try {
       highWageChart: !!document.querySelector("#wage-high-chart svg"),
       lowWageChart: !!document.querySelector("#wage-low-chart svg"),
       payrollChart: !!document.querySelector("#payroll-employees-chart svg"),
+      productivityChart: !!document.querySelector("#productivity-sector-chart svg"),
+      productivityPerEmployed: document.querySelector("#productivity-per-employed")?.textContent?.trim() ?? "",
+      productivityGrowth: document.querySelector("#productivity-growth")?.textContent?.trim() ?? "",
       wageRows: document.querySelectorAll("#wage-activity-table tbody tr").length,
       septemberRows: document.querySelectorAll("#wage-september-table tbody tr").length,
       sources: document.querySelectorAll("#source-list a").length,
@@ -439,9 +442,13 @@ try {
       viewport.name + ": employment rate did not load");
     assert.ok(labourMetrics.averageWage.includes("1 438"),
       viewport.name + ": average wage did not load");
+    assert.ok(labourMetrics.productivityPerEmployed.includes("8 272,6"),
+      viewport.name + ": labour productivity per employed person did not load");
+    assert.equal(labourMetrics.productivityGrowth, "+3,1%",
+      viewport.name + ": real labour productivity growth did not load");
     for (const chart of [
       "unemploymentChart", "employmentChart", "sectorChart", "monthlyWageChart",
-      "highWageChart", "lowWageChart", "payrollChart"
+      "highWageChart", "lowWageChart", "payrollChart", "productivityChart"
     ]) {
       assert.ok(labourMetrics[chart], viewport.name + ": missing rendered labour chart " + chart);
     }
