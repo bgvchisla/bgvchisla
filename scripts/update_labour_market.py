@@ -10,6 +10,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import ssl
 import urllib.request
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -35,6 +36,20 @@ class TextParser(HTMLParser):
         return re.sub(r"\s+", " ", html.unescape(" ".join(self.parts))).strip()
 
 
+def build_ssl_context() -> ssl.SSLContext:
+    """Use certificate-verified TLS 1.2 with ECDHE-only ciphers for the AZ legacy host.
+
+    The Employment Agency host currently negotiates undersized finite-field DH
+    parameters with default clients. Do not lower OpenSSL's security level or
+    disable certificate verification; instead, offer modern ECDHE suites only.
+    """
+    context = ssl.create_default_context()
+    context.minimum_version = ssl.TLSVersion.TLSv1_2
+    context.maximum_version = ssl.TLSVersion.TLSv1_2
+    context.set_ciphers("ECDHE+AESGCM:ECDHE+CHACHA20")
+    return context
+
+
 def fetch(url: str) -> str:
     request = urllib.request.Request(
         url,
@@ -43,7 +58,7 @@ def fetch(url: str) -> str:
             "Accept": "text/html,application/xhtml+xml,*/*",
         },
     )
-    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+    with urllib.request.urlopen(request, timeout=TIMEOUT, context=build_ssl_context()) as response:
         if response.status != 200:
             raise RuntimeError(f"АЗ върна HTTP {response.status}")
         raw = response.read(MAX_BYTES + 1)

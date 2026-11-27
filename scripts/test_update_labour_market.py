@@ -3,16 +3,27 @@
 from __future__ import annotations
 
 import sys
+import ssl
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from update_labour_market import parse_vacancy_snapshot
+from update_labour_market import build_ssl_context, parse_vacancy_snapshot
 
 
 class VacancySnapshotTests(unittest.TestCase):
+    def test_tls_context_uses_verified_tls12_and_ecdhe_only_suites(self):
+        context = build_ssl_context()
+        self.assertTrue(context.check_hostname)
+        self.assertEqual(context.verify_mode, ssl.CERT_REQUIRED)
+        self.assertEqual(context.minimum_version, ssl.TLSVersion.TLSv1_2)
+        self.assertEqual(context.maximum_version, ssl.TLSVersion.TLSv1_2)
+        tls12 = [cipher for cipher in context.get_ciphers() if cipher["protocol"] == "TLSv1.2"]
+        self.assertTrue(tls12)
+        self.assertTrue(all("ECDHE" in cipher["name"] for cipher in tls12))
+
     def test_parses_date_and_count_from_the_official_listing(self):
         page = """
         <html><body>
