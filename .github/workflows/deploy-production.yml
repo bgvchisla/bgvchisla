@@ -13,6 +13,8 @@ on:
       - "privacy.html"
       - "sitemap.xml"
       - "advertise.html"
+      - "404.html"
+      - "_redirects"
       - "tseni-i-inflatsia/**"
       - "inflation.json"
       - "dalg-i-byudzhet/**"
@@ -69,12 +71,13 @@ jobs:
               "index.html", "privacy.html", "assets/design-system.css",
               "economy-charts.js", "tseni-i-inflatsia/index.html",
               "dalg-i-byudzhet/index.html", "banki/index.html",
-              "pazar-na-truda/index.html", "analizi/index.html"
+              "pazar-na-truda/index.html", "analizi/index.html",
+              "404.html", "_redirects"
           ]
           for name in pages:
               p = Path(name)
               assert p.is_file() and p.stat().st_size > 0, f"Missing/empty: {name}"
-              print(f"PAGE OK: {name}")
+              print(f"PAGE/ROUTING OK: {name}")
           PY
 
       - name: Prepare complete production artifact
@@ -83,7 +86,7 @@ jobs:
           mkdir -p public/assets public/analizi public/pazar-na-truda
           mkdir -p public/tseni-i-inflatsia public/dalg-i-byudzhet public/banki
           cp -R assets/. public/assets/
-          cp index.html advertise.html data.json economy.json economy-charts.js privacy.html robots.txt sitemap.xml news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json labour-market.json inflation.json debt-budget.json banking.json _headers public/
+          cp index.html advertise.html data.json economy.json economy-charts.js privacy.html robots.txt sitemap.xml news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json labour-market.json inflation.json debt-budget.json banking.json _headers _redirects 404.html public/
           cp -R analizi/. public/analizi/
           cp -R pazar-na-truda/. public/pazar-na-truda/
           cp -R tseni-i-inflatsia/. public/tseni-i-inflatsia/
@@ -108,11 +111,17 @@ jobs:
               assert p.is_file() and p.stat().st_size > 0, f"Missing artifact: {p}"
               with p.open(encoding="utf-8") as f:
                   json.load(f)
+          for name in ["404.html", "_redirects"]:
+              p = root / name
+              assert p.is_file() and p.stat().st_size > 0, f"Missing routing artifact: {p}"
+          redirects = (root / "_redirects").read_text(encoding="utf-8")
+          assert "/en/privacy-policy/ /privacy 301" in redirects
+          assert "/en/disclaimer/ /404.html 410" in redirects
           ET.parse(root / "sitemap.xml")
           d = json.loads((root / "labour-market.json").read_text(encoding="utf-8"))
           assert d.get("schema_version") == 1
           assert d.get("active_vacancies", {}).get("as_of")
-          print("All thematic pages, datasets and sitemap validated.")
+          print("All thematic pages, datasets, routing artifacts and sitemap validated.")
           PY
 
       - name: Deploy production
