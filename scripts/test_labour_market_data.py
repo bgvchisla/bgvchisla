@@ -26,7 +26,7 @@ class LabourMarketDataTests(unittest.TestCase):
         self.assertEqual(l["total_employed_thousands"], 2927.8)
         self.assertEqual(l["unemployed_thousands"], 95.1)
         self.assertEqual(l["unemployment_rate_pct"], 3.1)
-        self.assertEqual(l["employment_15_64_rate_pct"], 70.8)
+        self.assertEqual(l["employed_15_64_rate_pct"], 70.8)
         self.assertEqual(l["employment_20_64_rate_pct"], 77.0)
         self.assertEqual(l["activity_15_64_rate_pct"], 73.1)
 
@@ -83,7 +83,7 @@ class LabourMarketDataTests(unittest.TestCase):
         self.assertEqual(max(x["average_gross_monthly_eur"] for x in extremes if x["group"] == "highest"), 3059)
         self.assertEqual(min(x["average_gross_monthly_eur"] for x in extremes if x["group"] == "lowest"), 908)
         self.assertGreaterEqual(len(w["september_activity_wages"]), 18)
-        ict = next(x for x in w["september_activity_wages"] if x["activity"] == "Информация и далекосъобщения")
+        ict = next(x for x in w["september_activity_wages"] if x["activity"].startswith("Създаване и разпространение на информация"))
         self.assertEqual(ict["gross_monthly_eur"], 3101)
 
     def test_registered_unemployment_and_open_vacancies_are_separate_administrative_indicators(self):
