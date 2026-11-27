@@ -42,7 +42,10 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertEqual(data["labour_force"]["unemployment_rate_pct"], 3.1)
         self.assertEqual(data["wages"]["average_gross_monthly_eur"], 1438)
         self.assertEqual(data["az_registered"]["registered_unemployment_rate_pct"], 5.60)
-        self.assertGreaterEqual(len(data["source_links"]), 7)
+        self.assertEqual(data["productivity"]["period"], "2026-Q2")
+        self.assertEqual(data["productivity"]["gdp_per_employed_real_yoy_pct"], 3.1)
+        self.assertIn("productivity-sector-chart", page)
+        self.assertGreaterEqual(len(data["source_links"]), 8)
 
 
     def test_banking_resource_has_data_scope_sources_and_canonical_url(self):
