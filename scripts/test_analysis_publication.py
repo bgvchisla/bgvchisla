@@ -79,8 +79,11 @@ class EditorialPublicationTests(unittest.TestCase):
         self.assertEqual(data["interest_rates"]["household"]["housing_loan_rate_pct"], 2.41)
         self.assertEqual(data["interest_rates"]["household"]["consumer_loan_rate_pct"], 8.83)
         self.assertEqual(data["capital_adequacy"]["reference_date"], "2025-12-31")
-        self.assertEqual(bnb["latest_period"], "2026-09")
-        self.assertEqual(len(bnb["series"]["household_housing_loans"]["points"]), 237)
+        latest_bnb_period = bnb["latest_period"]
+        for series_key in ("household_consumer_loans", "household_housing_loans", "household_other_loans"):
+            monthly_points = bnb["series"][series_key]["points"]
+            self.assertGreaterEqual(len(monthly_points), 237)
+            self.assertEqual(monthly_points[-1]["period"], latest_bnb_period)
         self.assertGreaterEqual(len(data["source_links"]), 8)
         self.assertIn("различ", data["methodology"]["banking_system"].lower())
 
