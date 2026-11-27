@@ -27,7 +27,7 @@ class LabourMarketDataTests(unittest.TestCase):
         self.assertEqual(l["unemployed_thousands"], 95.1)
         self.assertEqual(l["unemployment_rate_pct"], 3.1)
         self.assertEqual(l["employed_15_64_rate_pct"], 70.8)
-        self.assertEqual(l["employment_20_64_rate_pct"], 77.0)
+        self.assertEqual(l["employed_20_64_rate_pct"], 77.0)
         self.assertEqual(l["activity_15_64_rate_pct"], 73.1)
 
     def test_q2_and_q3_series_keep_the_same_age_and_statistical_definitions(self):
