@@ -268,6 +268,16 @@ td.negative{color:var(--red);font-weight:750}
    </tbody>
   </table>
  </div>
+ <div class="panel" style="margin-top:14px">
+  <h3>Средна брутна заплата по икономически дейности</h3>
+  <p class="sub">Септември 2026 г. · евро на месец · предварителни данни</p>
+  <div class="table-wrap">
+   <table id="wage-september-table">
+    <thead><tr><th>Икономическа дейност</th><th>Средна брутна заплата</th></tr></thead>
+    <tbody></tbody>
+   </table>
+  </div>
+ </div>
  <p class="note">Заплатите по дейности са средни брутни месечни възнаграждения на наетите по трудово и служебно правоотношение. Разликите по дейности не показват разпределението на индивидуалните заплати вътре във всяка дейност.</p>
 </section>
 
@@ -428,6 +438,8 @@ function render(data){
  barChart("wage-low-chart",low,"value","Най-ниски възнаграждения","gold-bar"," €");
  var wt=$("wage-activity-table").querySelector("tbody");wt.textContent="";
  w.quarterly_activity_extremes.forEach(p=>{var row=document.createElement("tr");[p.activity,fmt(p.average_gross_monthly_eur,0)+" €",p.group==="highest"?"Най-висока":"Най-ниска"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});wt.appendChild(row);});
+ var st=$("wage-september-table").querySelector("tbody");st.textContent="";
+ w.september_activity_wages.slice().sort((a,b)=>b.gross_monthly_eur-a.gross_monthly_eur).forEach(p=>{var row=document.createElement("tr");[p.activity,fmt(p.gross_monthly_eur,0)+" €"].forEach((v,i)=>{var td=document.createElement("td");td.textContent=v;if(i===0)td.className="emph";row.appendChild(td);});st.appendChild(row);});
  lineChart("payroll-employees-chart",pay.monthly_series.map(p=>({label:p.label,value:p.employees/1000000})),[{key:"value",label:"Наети лица",line:"navy-line",dot:"navy-dot"}],2.25,2.42," млн.");
 }
 Promise.all([
