@@ -1,8 +1,27 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T09:54:07.233202+00:00",
-  "last_checked_at": "2026-11-27T09:54:07.233216+00:00",
+  "updated_at": "2026-11-27T10:45:30.609613+00:00",
+  "last_checked_at": "2026-11-27T10:45:30.609624+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Висшите училища, бизнесът и Министерството на образованието и науката заедно ще подготвят модел за дуално обучение",
+      "summary": "Активното участие на работодателите и споделената отговорност с висшите училища за качеството на подготовката на студентите са в основата на успешните европейски практики в дуалното обучение. Това показва сравнителен анализ на опита на пет държави - Германия,",
+      "url": "https://www.bta.bg/bg/news/lik/1255865-visshite-uchilishta-biznesat-i-ministerstvoto-na-obrazovanieto-i-naukata-zaedno",
+      "published": "2026-11-27T10:16:25+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 44,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -99,6 +118,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "До 30 април 2027 г. се забранява движението на камиони по пътя Вакарел – Белица – Панагюрище заради влошеното трасе",
+      "summary": "Движението на тежкотоварни автомобили с ремаркета и полуремаркета в участък от път III-801 Вакарел – Белица – Панагюрище се забранява до 30 април 2027 година, съобщиха от Агенция \"Пътна инфраструктура\"(АПИ). Като причина се посочват осигуряване на безопасностт",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255869-do-30-april-2027-g-se-zabranyava-dvizhenieto-na-kamioni-po-patya-vakarel-beli",
+      "published": "2026-11-27T10:28:28+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 40,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 27th, 2026 – Morning",
@@ -119,25 +157,6 @@
     },
     {
       "section": "europe",
-      "source": "Economic.bg",
-      "title": "Европейски строителни федерации и инвеститори настояват за преразглеждане на спорния регламент за вноса на стомана",
-      "summary": "Водещи европейски федерации, компании от строителния сектор и работодателски организации настояват за спешно преразглеждане на Регламента за стоманата, който въвежда нов режим на тарифни квоти и 50% по-високи мита върху вноса на стоманени продукти в Европейски",
-      "url": "https://www.economic.bg/bg/a/view/evropejski-stroitelni-federacii-i-investitori-nastojavat-za-prerazglejdane-na-spornija-reglament-za-vnosa-na-stomana",
-      "published": "2026-11-27T07:00:04+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
       "title": "Latest news bulletin | November 26th, 2026 – Evening",
       "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
@@ -153,6 +172,25 @@
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Европейски строителни федерации и инвеститори настояват за преразглеждане на спорния регламент за вноса на стомана",
+      "summary": "Водещи европейски федерации, компании от строителния сектор и работодателски организации настояват за спешно преразглеждане на Регламента за стоманата, който въвежда нов режим на тарифни квоти и 50% по-високи мита върху вноса на стоманени продукти в Европейски",
+      "url": "https://www.economic.bg/bg/a/view/evropejski-stroitelni-federacii-i-investitori-nastojavat-za-prerazglejdane-na-spornija-reglament-za-vnosa-na-stomana",
+      "published": "2026-11-27T07:00:04+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 37,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 85
       }
     },
     {
@@ -240,52 +278,14 @@
       "published": "2026-11-27T07:08:00+00:00",
       "feed_id": "investor-economy",
       "publisher": "investor.bg",
-      "priority_score": 36,
+      "priority_score": 35,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 61,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Работещи в Служба по геодезия, картография и кадастър в Плевен настояха за уважение към труда им и увеличение на заплатите",
-      "summary": "Служители на Службата по геодезия, картография и кадастър в Плевен излязоха на едночасова ефективна стачка. Те настояват за уважение към труда им и увеличение на заплатите с 350 евро. „Искаме преди всичко уважение от хората, защото това, че сме държавни служит",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255760-raboteshti-v-sluzhba-po-geodeziya-kartografiya-i-kadastar-v-pleven-nastoyaha-za",
-      "published": "2026-11-27T09:19:28+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Фармацията дава огромна възможност, каза проф. Георги Момеков за 75-годишнината на Факултета по фармация на Медицинския университет – София",
-      "summary": "Фармацията дава огромна възможност, а фармацевтът е ключов играч в здравеопазването и неговата роля се променя непрекъснато. Това заяви на пресконференция в Националния пресклуб на БТА проф. Георги Момеков по случай 75 години от създаването на Факултета по фар",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255790-farmatsiyata-dava-ogromna-vazmozhnost-kaza-prof-georgi-momekov-za-75-godishnin",
-      "published": "2026-11-27T09:32:11+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
       }
     },
     {
@@ -386,6 +386,25 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
+      "title": "България и Северна Македония подписват през декември за строежа на жп тунела „Деве баир“",
+      "summary": "България и Северна Македония ще подпишат на 4 декември допълнителния протокол към междуправителственото споразумение за изграждането на трансграничния железопътен тунел „Деве баир“. Документът ще формализира постигнатата договореност, за да поеме България отго",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-i-severna-makedonija-podpisvat-prez-dekemvri-za-stroeja-na-jp-tunela-deve-bair",
+      "published": "2026-11-27T10:33:35+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 42,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 25,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
       "title": "Жилищните кредити в България достигнаха 20 млрд. евро",
       "summary": "Жилищните кредити в България достигнаха 20 млрд. евро в края на октомври 2026 г. въпреки забавянето на темпа на растеж. Това показват най-новите данни от паричната статистика на Българската народна банка (БНБ). На годишна база жилищните заеми нарастват с 24.1%",
       "url": "https://www.economic.bg/bg/a/view/jilishtnite-krediti-v-bylgarija-dostignaha-20-mlrd-evro",
@@ -399,6 +418,25 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 82,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "България е договорила над 3 млрд. евро за развитие на регионите",
+      "summary": "Над 3 млрд. евро са договорени за развитие на българските региони. Част от инвестициите са насочени към преодоляване на неравенствата в достъпа до здравеопазване",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-e-dogovorila-nad-3-mlrd-evro-za-razvitie-na-regionite",
+      "published": "2026-11-27T10:09:47+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 41,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
         "source_reliability": 85
       }
     },
@@ -479,6 +517,25 @@
       }
     },
     {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинските съветници в Благоевград отпуснаха средства за инвитро процедури",
+      "summary": "Общинските съветници в Благоевград приеха предложение да бъдат финансирани инвитро процедури със средства от общинския бюджет. При докладване на точката общинският съветник д-р Калоян Калоянов посочи, че в комисия са разгледани две предложения, като и двете са",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255878-obshtinskite-savetnitsi-v-blagoevgrad-otpusnaha-sredstva-za-invitro-protseduri",
+      "published": "2026-11-27T10:24:13+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
       "section": "europe",
       "source": "Deutsche Welle",
       "title": "Germany news: Parliament to vote on €556 billion 2027 budget",
@@ -495,6 +552,25 @@
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общински съветници от ПП-ДБ и „Синя България“ предлагат 40% от столичния автотранспорт да бъде даден на частен превозвач",
+      "summary": "Общински съветници от коалиция „Продължаваме промяната - Демократична България“ в Столичния общински съвет (СОС) предлагат 40% от „Столичен автотранспорт“ да бъде даден на частен превозвач. Това бе съобщено на брифинг в Столична община, на който присъстваха Бо",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255827-obshtinski-savetnitsi-ot-pp-db-i-sinya-balgariya-predlagat-40-ot-stolichniya-",
+      "published": "2026-11-27T10:17:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 34,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -671,10 +747,10 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "\"Възраждане\" определи като излючителен срам за Франция и за УЕФА нападението над български футболни фенове в Марсилия",
-      "summary": "Това е изключителен срам за Франция като държава, изключителен срам за УЕФА, коментира пред журналисти заместник-председателят на \"Възраждане\" Цончо Ганев, който е и заместник-председател на парламента, относно нападението над български футболни фенове в Марси",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255802--vazrazhdane-opredeli-kato-izlyuchitelen-sram-za-frantsiya-i-za-uefa-napadeniet",
-      "published": "2026-11-27T09:46:05+00:00",
+      "title": "Външното министерство изпрати нота до Франция по повод нападенията срещу български граждани в Марсилия",
+      "summary": "Министерство на външните работи (МВнР) изпрати нота до френската страна във връзка с нападенията срещу български граждани в Марсилия, настоявайки за пълно разследване. Това съобщиха от ведомството на официалната си интернет страница във връзка със сблъсъците н",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255884-vanshnoto-ministerstvo-izprati-nota-do-frantsiya-po-povod-napadeniyata-sreshtu-b",
+      "published": "2026-11-27T10:39:00+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 32,
@@ -690,39 +766,20 @@
     {
       "section": "bulgaria",
       "source": "БТА",
-      "title": "Служители на Агенцията по геодезия, картография и кадастър в Пловдив излязоха на едночасова ефективна стачка",
-      "summary": "Служители на Агенцията по геодезия, картография и кадастър в Пловдив излязоха на едночасова ефективна стачка пред работните си места с искане за увеличение на заплатите. Стачката е под надслов „Справедливост и равни права“, организирана от Синдиката на админис",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255770-sluzhiteli-na-agentsiyata-po-geodeziya-kartografiya-i-kadastar-v-plovdiv-izlyaz",
-      "published": "2026-11-27T09:18:02+00:00",
+      "title": "Поетапно увеличаване на националния праг за годишния оборот в страната за регистрация по ДДС прие парламентът на второ четене",
+      "summary": "Националния праг за годишния оборот в страната за регистрация по ДДС да се повиши поетапно, за три години, прие парламентът.. Така той ще бъде 60 000 евро от 1 януари 2027 г., 70 000 евро - от 1 януари 2028 г. и 75 000 евро - от 1 януари 2029 г. Досега национа",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255892-poetapno-uvelichavane-na-natsionalniya-prag-za-godishniya-oborot-v-stranata-za-r",
+      "published": "2026-11-27T10:38:41+00:00",
       "feed_id": "bta-bulgaria",
       "publisher": "БТА",
       "priority_score": 32,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 22,
-        "household_business_impact": 25,
+        "economic_significance": 0,
+        "national_impact": 74,
+        "household_business_impact": 0,
         "strategic_significance": 0,
         "timeliness": 100,
         "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
-      "published": "2026-11-26T19:30:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 87
       }
     },
     {
@@ -841,6 +898,25 @@
     },
     {
       "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "The man who coined ‘Brexit’ likes the sound of ‘Breturn’ and ‘Brejoin’",
+      "summary": "Peter Wilding - credited by Oxford English Dictionary with first using the term Brexit - says having a snappy new shorthand will bring the arguments into the present.",
+      "url": "https://www.politico.eu/article/the-man-who-coined-brexit-likes-the-sound-of-breturn-and-brejoin-peter-wilding/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-27T10:32:43+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 30,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 92
+      }
+    },
+    {
+      "section": "europe",
       "source": "Euronews",
       "title": "Estonia prepares to close all five road border crossings with Russia",
       "summary": "Long queues have formed at Estonia's border with Russia ahead of its planned closure on 1 December. The decision, prompted by security concerns, threatens to separate families and disrupt local businesses.",
@@ -897,44 +973,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "България е готова да се включи в новия европейски заем за Украйна",
-      "summary": "Българският премиер Румен Радев потвърди, че страната ще се включи в новия заем на Европейския съюз (ЕС) за подкрепа на Украйна в размер на 45 млрд. евро, но няма да участва във финансирането на покупките на оръжия и боеприпаси. Заемът има за цел да покрие две",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-e-gotova-da-se-vkluchi-v-novija-evropejski-zaem-za-ukrajna",
-      "published": "2026-11-26T10:35:08+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 74,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
-      "summary": "Public Committee Against Torture in Israel examined 42 complaints against Shin Bet interrogators over past decade Israel has institutionalised the use of torture to extract confessions from Palestinian prisoners, sometimes documenting abuse in official records",
-      "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
-      "published": "2026-11-26T10:00:52+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 30,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 82,
-        "source_reliability": 94
-      }
-    },
-    {
       "section": "europe",
       "source": "BBC News – Свят",
       "title": "Politics and peek-a-boo in Australian parliament as senator brings baby to work",
@@ -951,6 +989,82 @@
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 95
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Прогноза за времето",
+      "summary": "През следващото денонощие ще бъде облачно, ветровито и с валежи. През нощта в цялата страна ще вали дъжд, на много места количествата ще са значителни, в югоизточните райони ще има и гръмотевична дейност. Ще духа слаб и умерен североизточен вятър. През деня вя",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255889-prognoza-za-vremeto",
+      "published": "2026-11-27T10:29:59+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Даниел Мирчев-Дъна представя скулптури от велпапе в изложбата „Колони и фризове“",
+      "summary": "Изложбата „Колони и фризове“ на Даниел Мирчев-Дъна ще бъде открита на 1 декември в зала 1C на ул. „Шипка“ 6 в София. Куратор на проекта е Христина Бобокова, а експозицията ще продължи до 5 януари 2027 г., съобщават от Съюза на българските художници (СБХ). В но",
+      "url": "https://www.bta.bg/bg/news/lik/1255853-daniel-mirchev-dana-predstavya-skulpturi-ot-velpape-v-izlozhbata-koloni-i-frizo",
+      "published": "2026-11-27T10:15:48+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Безплатни прегледи за ХИВ и сексуално предаваните болести ще се извършват в Ловеч и Троян през следваща седмица",
+      "summary": "Безплатни прегледи за ХИВ и сексуално предаваните болести ще се извършват в Ловеч и Троян. От 30 ноември до 4 декември започва първият етап на Националната АНТИСПИН кампания, свързана с отбелязване на 1 декември – Световен ден за борба срещу СПИН. Мотото на на",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255859-bezplatni-pregledi-za-hiv-i-seksualno-predavanite-bolesti-shte-se-izvarshvat-v-l",
+      "published": "2026-11-27T10:13:40+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Траш метълът среща класическата музика в Black Metallica Symphony",
+      "summary": "Сръбският музикален проект Black Metallica Symphony ще представи на живо хитовете на американската група Metallica в симфоничен аранжимент. Събитието е на 28 ноември в зала 3 на НДК, съобщават организаторите от „Гост“. Спектакълът обединява звученето на траш м",
+      "url": "https://www.bta.bg/bg/news/lik/1255858-trash-metalat-sreshta-klasicheskata-muzika-v-black-metallica-symphony",
+      "published": "2026-11-27T10:08:25+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -993,44 +1107,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Призоваваме президента да не бърза да подписва всички закони, в които се увеличават глобите, казаха от \"Демократична България\"",
-      "summary": "Призоваваме президента Илияна Йотова да не бърза да пуска към \"Държавен вестник\" всички закони, в които се увеличават глобите. Ще изпратим писмо до президента с аргументи защо този тип вдигане на глоби, без оценка и без разчети, просто така на око, е абсолютно",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255767-prizovavame-prezidenta-da-ne-barza-da-podpisva-vsichki-zakoni-v-koito-se-uvelic",
-      "published": "2026-11-27T09:32:30+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Шабла подкрепи кандидатурата на Каварна за „Европейска столица на културата“ през 2032 г.",
-      "summary": "Общинският съвет в Шабла подкрепи кандидатурата на Каварна за присъждане на званието „Европейска столица на културата“ през 2032 г. в България. Съветниците дадоха съгласие и за разработването на културна концепция с регионален обхват Балчик – Каварна – Шабла.",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255780-obshtinskiyat-savet-v-shabla-podkrepi-kandidaturata-na-kavarna-za-evropeyska-st",
-      "published": "2026-11-27T09:21:20+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 29,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Investor.bg – Финанси",
       "title": "Цената на петрола се насочва към седмичен ръст*",
       "summary": "",
@@ -1044,7 +1120,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -1068,22 +1144,41 @@
       }
     },
     {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-      "summary": "Macy's has postponed its 100th parade in Manhattan as more than 600,000 homes and businesses lost power.",
-      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-      "published": "2026-11-26T21:57:53+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "България е готова да се включи в новия европейски заем за Украйна",
+      "summary": "Българският премиер Румен Радев потвърди, че страната ще се включи в новия заем на Европейския съюз (ЕС) за подкрепа на Украйна в размер на 45 млрд. евро, но няма да участва във финансирането на покупките на оръжия и боеприпаси. Заемът има за цел да покрие две",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-e-gotova-da-se-vkluchi-v-novija-evropejski-zaem-za-ukrajna",
+      "published": "2026-11-26T10:35:08+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
       "priority_score": 29,
       "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
+        "economic_significance": 0,
+        "national_impact": 74,
         "household_business_impact": 0,
         "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 91
+        "timeliness": 68,
+        "source_reliability": 85
+      }
+    },
+    {
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
+      "summary": "Public Committee Against Torture in Israel examined 42 complaints against Shin Bet interrogators over past decade Israel has institutionalised the use of torture to extract confessions from Palestinian prisoners, sometimes documenting abuse in official records",
+      "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
+      "published": "2026-11-26T10:00:52+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 68,
+        "source_reliability": 94
       }
     },
     {
@@ -1164,49 +1259,11 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Trump calling Putin ‘friend’ like declaring friendship with Hitler during WW2, Zelenskyy says – Europe live",
-      "summary": "Ukraine’s president labels US counterpart’s comments ‘strange’ and urges Washington to increase pressure on Moscow Overnight, Nato fighter jets and an interceptor drone were scrambled overnight in Latvia after a drone briefly entered the country’s airspace nea",
-      "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates",
-      "published": "2026-11-27T09:42:32+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Dépendance aux Big Tech américaines : où en est la France par rapport à ses voisins européens ?",
-      "summary": "Plus de 78% des sites des services publics maltais reposent sur de la technologie américaine, contre moins de 3% en Allemagne.",
-      "url": "https://www.politico.eu/article/ue-tech-americaine-dependance-souverainete-ia-cloud/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-27T09:41:42+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
       "source": "Euronews",
-      "title": "Footage shows skidding truck end up hanging between highway ramps",
-      "summary": "A container truck lost control on in Toledo, Ohio, skidding across a gap between two elevated roadways and becoming stranded over the edge.",
-      "url": "https://www.euronews.com/2026/11/27/footage-shows-skidding-truck-end-up-hanging-between-highway-ramps",
-      "published": "2026-11-27T09:40:42+00:00",
+      "title": "NATO jets scrambled after drone briefly enters Latvian airspace",
+      "summary": "Latvia's army hasn't said where the drone came from, and it warns more incursions are likely.",
+      "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace",
+      "published": "2026-11-27T10:41:24+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 28,
@@ -1221,116 +1278,59 @@
     },
     {
       "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "ЕС планира нов фонд, с който да замени военния капацитет на САЩ",
-      "summary": "",
-      "url": "https://www.investor.bg/a/593-sigurnost-i-otbrana/440164-es-planira-nov-fond-s-koyto-da-zameni-voenniya-kapatsitet-na-sasht",
-      "published": "2026-11-27T09:12:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
+      "source": "БТА",
+      "title": "Най-много катастрофи в Ловешка област стават в събота отчита статистиката",
+      "summary": "По дни от седмицата най-много пътнотранспортни произшествия в Ловешка област са настъпили в събота – 39, най-много са ранените в понеделник – 55 души, а загиналите във вторник – четирима. Това сочат данните на отдел „Статистически изследвания – Ловеч“ към Тери",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255891-nay-mnogo-katastrofi-v-loveshka-oblast-stavat-v-sabota-otchita-statistikata",
+      "published": "2026-11-27T10:35:51+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
       "priority_score": 28,
       "priority_breakdown": {
         "economic_significance": 0,
         "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "‘Islam is Sharia’: Germany’s far-right leader attacks Le Pen on Muslims and Europe",
-      "summary": "AfD’s Alice Weidel talks mass deportations, the right to Israel’s existence and peace with Russia.",
-      "url": "https://www.politico.eu/article/islam-sharia-germany-far-right-leader-alice-weidel-attacks-marine-le-pen-muslims-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-27T08:59:14+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 92
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "At critical juncture, Friedrich Merz finds Germans’ support for Ukraine wavering",
-      "summary": "German chancellor is on difficult terrain, at home and abroad, as he fights to maintain European backing for Kyiv The German chancellor, Friedrich Merz, is navigating choppy waters both at home and abroad over his insistence that Europe must keep up support –",
-      "url": "https://www.theguardian.com/world/2026/nov/27/at-critical-juncture-friedrich-merz-finds-germans-support-for-ukraine-wavering",
-      "published": "2026-11-27T08:33:08+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Clashes erupt at Besiktas Europa League match against Israeli club",
-      "summary": "Besiktas supporters clashed with police in Batumi during a Europa League match against Israeli club Hapoel Beer-Sheva, with fans chanting and officers pursuing supporters outside the stadium.",
-      "url": "https://www.euronews.com/2026/11/27/clashes-erupt-at-besiktas-europa-league-match-against-israeli-club",
-      "published": "2026-11-27T06:57:35+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Европейска комисия",
-      "title": "Statement by President von der Leyen with President Costa following the Special European Council meeting of November 2026",
-      "summary": "European Commission Statement Brussels, 27 Nov 2026 Statement Special EUCO",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2603",
-      "published": "2026-11-26T23:00:00+00:00",
-      "feed_id": "commission-press",
-      "publisher": "Европейска комисия",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 99
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "At odds over the EU budget, European leaders cut summit short",
-      "summary": "Even before they met, it was clear the gap between European leaders' demands for the EU budget would make negotiations difficult. They ended a summit meeting early and aim to agree on EU funding in December.",
-      "url": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short/live-80056415?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T21:47:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
+        "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 82,
-        "source_reliability": 95
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Софийската градска прокуратура предаде на съд управител на строителна фирма за смъртта на работник, поразен от електрически ток през 2024 г.",
+      "summary": "Софийската градска прокуратура (СГП) внесе обвинителен акт в Софийския градски съд срещу М. М. за смъртта на работник през 2024 г., съобщиха от държавното обвинение. Предстои съдът да насрочи разпоредително заседание по делото. Мъжът не е осъждан преди, но е р",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255886-sofiyskata-gradska-prokuratura-predade-na-sad-upravitel-na-stroitelna-firma-za-s",
+      "published": "2026-11-27T10:34:24+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Над 40 процента от възпитаниците на Морско училище се обучават в модерни специалности, свързани с компютърните и комуникационните технологии",
+      "summary": "Най-проспериращите към момента специалности във Висшето военноморско училище „Никола Й. Вапцаров“ (ВВМУ) са по професионалното направление „Компютърна и комуникационна техника“. През последните години те се развиват бързо от екипа и се радват на огромна популя",
+      "url": "https://www.bta.bg/bg/news/lik/1255872-nad-40-protsenta-ot-vazpitanitsite-na-morsko-uchilishte-se-obuchavat-v-moderni-s",
+      "published": "2026-11-27T10:31:25+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     }
   ],
