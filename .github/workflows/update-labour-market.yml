@@ -29,13 +29,13 @@ jobs:
         if: vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID != ''
         uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc
         with:
-          client-id: \${{ vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID }}
-          private-key: \${{ secrets.BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY }}
+          client-id: ${{ vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY }}
           permission-contents: write
       - name: Checkout main
         uses: actions/checkout@v4
         with:
-          token: \${{ steps.automation_token.outputs.token || github.token }}
+          token: ${{ steps.automation_token.outputs.token || github.token }}
           ref: main
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -61,7 +61,7 @@ jobs:
       - name: Commit only a changed vacancy snapshot
         id: save
         env:
-          GH_TOKEN: \${{ steps.automation_token.outputs.token || github.token }}
+          GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}
         run: |
           set -euo pipefail
           git add labour-market.json
@@ -70,11 +70,11 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          APP_SLUG="\${{ steps.automation_token.outputs.app-slug }}"
+          APP_SLUG="${{ steps.automation_token.outputs.app-slug }}"
           if [ -n "$APP_SLUG" ]; then
-            BOT_USER_ID="$(gh api "/users/\${APP_SLUG}[bot]" --jq .id)"
-            git config user.name "\${APP_SLUG}[bot]"
-            git config user.email "\${BOT_USER_ID}+\${APP_SLUG}[bot]@users.noreply.github.com"
+            BOT_USER_ID="$(gh api "/users/${APP_SLUG}[bot]" --jq .id)"
+            git config user.name "${APP_SLUG}[bot]"
+            git config user.email "${BOT_USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com"
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -96,8 +96,8 @@ jobs:
       - name: Dispatch production deployment after changes
         if: steps.save.outputs.changed == 'true'
         env:
-          GH_TOKEN: \${{ github.token }}
-          REPOSITORY: \${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
           gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
