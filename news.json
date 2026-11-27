@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T05:17:02.106609+00:00",
-  "last_checked_at": "2026-11-27T05:17:02.106617+00:00",
+  "updated_at": "2026-11-27T06:25:27.770588+00:00",
+  "last_checked_at": "2026-11-27T06:25:27.770602+00:00",
   "items": [
     {
       "section": "bulgaria",
@@ -61,41 +61,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинските съветници в Каолиново ще разгледат предложения за отпускане на помощи и на временен безлихвен заем за изпълнение на проект",
-      "summary": "Общинските съветници в Каолиново ще разгледат предложение за ползване на временен безлихвен заем от бюджета на община Каолиново за осигуряване на финансов ресурс за изпълнение на проект „Иновативни здравно-социални услуги“ по договор от 2 април 2025 г. В предв",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255095-obshtinskite-savetnitsi-v-kaolinovo-shte-razgledat-predlozheniya-za-otpuskane-na",
-      "published": "2026-11-27T04:18:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 48,
-      "priority_breakdown": {
-        "economic_significance": 68,
-        "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Coalition teams up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
-      "summary": "Labor passes final major piece of legislation for 2026, denying Greens’ bid for 25% tax on exports Get our daily political email , free app or daily news podcast A federal gas reservation scheme requiring Australia’s largest exporters to keep up to 20% of thei",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
-      "published": "2026-11-27T00:02:10+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 48,
+      "source": "Deutsche Welle",
+      "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
+      "summary": "The agreement offers new export and investment opportunities for Jakarta and Brussels. But can Indonesia turn Europe's growing interest in its markets and critical minerals into sustainable gains at home?",
+      "url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T13:41:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 43,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 42,
+        "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -119,21 +100,21 @@
     },
     {
       "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
-      "summary": "The agreement offers new export and investment opportunities for Jakarta and Brussels. But can Indonesia turn Europe's growing interest in its markets and critical minerals into sustainable gains at home?",
-      "url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T13:41:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 43,
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 27th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 27th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/27/latest-news-bulletin-november-27th-2026-morning",
+      "published": "2026-11-27T06:00:33+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
+      "priority_score": 40,
       "priority_breakdown": {
         "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
+        "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 95
+        "timeliness": 100,
+        "source_reliability": 91
       }
     },
     {
@@ -153,6 +134,25 @@
         "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 92
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общинският съвет в Стражица ще обсъди общия устройствен план на общината и промени в бюджета",
+      "summary": "Общинския съвет в Стражица ще обсъди общия устройствен план на общината, проект на наредба за местните такси и цени на услуги и актуализации на общинския бюджет за 2026 година на днешното си редовно заседание. Това е записано в дневния ред, публикуван на офици",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255110-obshtinskiyat-savet-v-strazhitsa-shte-obsadi-obshtiya-ustroystven-plan-na-obshti",
+      "published": "2026-11-27T04:49:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 38,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
       }
     },
     {
@@ -191,25 +191,6 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 87
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 26th, 2026 – Midday",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-midday",
-      "published": "2026-11-26T11:00:15+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 91
       }
     },
     {
@@ -308,25 +289,6 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Investor.bg – Финанси",
-      "title": "Лихвите при потребителските и жилищните заеми намаляват на годишна база през октомври",
-      "summary": "",
-      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440134-lihvite-pri-potrebitelskite-i-zhilishtnite-zaemi-namalyavat-na-godishna-baza-prez-oktomvri",
-      "published": "2026-11-26T18:00:00+00:00",
-      "feed_id": "investor-finance",
-      "publisher": "investor.bg",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
       "section": "europe",
       "source": "Bank for International Settlements (BIS)",
       "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
@@ -343,6 +305,44 @@
         "strategic_significance": 54,
         "timeliness": 50,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Investor.bg – Икономика и политика",
+      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
+      "summary": "",
+      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
+      "published": "2026-11-26T19:30:00+00:00",
+      "feed_id": "investor-economy",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 92,
+        "source_reliability": 87
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "Investor.bg – Финанси",
+      "title": "Лихвите при потребителските и жилищните заеми намаляват на годишна база през октомври",
+      "summary": "",
+      "url": "https://www.investor.bg/a/539-banki-i-zastrahovateli/440134-lihvite-pri-potrebitelskite-i-zhilishtnite-zaemi-namalyavat-na-godishna-baza-prez-oktomvri",
+      "published": "2026-11-26T18:00:00+00:00",
+      "feed_id": "investor-finance",
+      "publisher": "investor.bg",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 87
       }
     },
     {
@@ -479,22 +479,22 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Стражица ще обсъди общия устройствен план на общината и промени в бюджета",
-      "summary": "Общинския съвет в Стражица ще обсъди общия устройствен план на общината, проект на наредба за местните такси и цени на услуги и актуализации на общинския бюджет за 2026 година на днешното си редовно заседание. Това е записано в дневния ред, публикуван на офици",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255110-obshtinskiyat-savet-v-strazhitsa-shte-obsadi-obshtiya-ustroystven-plan-na-obshti",
-      "published": "2026-11-27T04:49:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
+      "section": "europe",
+      "source": "Euronews",
+      "title": "Latest news bulletin | November 26th, 2026 – Midday",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-midday",
+      "published": "2026-11-26T11:00:15+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 38,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 42,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 91
       }
     },
     {
@@ -511,25 +511,6 @@
         "economic_significance": 28,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 82,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Latest news bulletin | November 26th, 2026 – Morning",
-      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-morning",
-      "published": "2026-11-26T06:00:32+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 34,
-        "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 82,
         "source_reliability": 91
@@ -557,17 +538,17 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
-      "summary": "At least 31 people have been killed and 21 injured after a crash involving a fuel tanker triggered a massive fire on a major highway near Cairo. The blaze engulfed more than two dozen cars and motorcycles on the Ring Road in Giza on Wednesday night.",
-      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
-      "published": "2026-11-26T04:40:55+00:00",
+      "title": "Latest news bulletin | November 26th, 2026 – Morning",
+      "summary": "Catch up with the most important stories from around Europe and beyond this November 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "url": "https://www.euronews.com/video/2026/11/26/latest-news-bulletin-november-26th-2026-morning",
+      "published": "2026-11-26T06:00:32+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 37,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 48,
         "national_impact": 34,
-        "household_business_impact": 25,
+        "household_business_impact": 0,
         "strategic_significance": 32,
         "timeliness": 68,
         "source_reliability": 91
@@ -576,10 +557,10 @@
     {
       "section": "europe",
       "source": "Euronews",
-      "title": "At least 30 killed in highway fire in Cairo district",
-      "summary": "A truck carrying fuel reportedly overturned on a busy highway, setting vehicles ablaze and prompting a major emergency response. Authorities warned that the death toll could rise.",
-      "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
-      "published": "2026-11-25T19:56:45+00:00",
+      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
+      "summary": "At least 31 people have been killed and 21 injured after a crash involving a fuel tanker triggered a massive fire on a major highway near Cairo. The blaze engulfed more than two dozen cars and motorcycles on the Ring Road in Giza on Wednesday night.",
+      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
+      "published": "2026-11-26T04:40:55+00:00",
       "feed_id": "euronews",
       "publisher": "Euronews",
       "priority_score": 37,
@@ -632,82 +613,6 @@
     },
     {
       "section": "bulgaria",
-      "source": "БТА",
-      "title": "Общинският съвет в Макреш ще обсъди промени в наредбата за местните такси и план-сметката за дейностите по чистотата за 2027 г.",
-      "summary": "Промени в Наредбата за определяне и администриране на местните такси и цени на услуги и одобряване на план-сметката за разходите за събиране и транспортиране на битови отпадъци, тяхното третиране и поддържане на чистотата на обществените територии през 2027 г.",
-      "url": "https://www.bta.bg/bg/news/bulgaria/1255385-obshtinskiyat-savet-v-makresh-shte-obsadi-promeni-v-naredbata-za-mestnite-taksi-",
-      "published": "2026-11-27T04:19:00+00:00",
-      "feed_id": "bta-bulgaria",
-      "publisher": "БТА",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 59,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 90
-      }
-    },
-    {
-      "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
-      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning sup",
-      "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
-      "published": "2026-11-26T17:50:54+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Euronews",
-      "title": "Argentina enters technical recession as weak consumption undermines Milei's economic gains",
-      "summary": "Argentina's economy shrank 1.8% in the third quarter, its second straight contraction. Weak consumption, falling purchasing power and strain in key sectors are slowing growth and clouding Javier Milei's prospects.",
-      "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains",
-      "published": "2026-11-26T17:23:52+00:00",
-      "feed_id": "euronews",
-      "publisher": "Euronews",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 91
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "On farewell trip, Steinmeier calls for more investment in Africa",
-      "summary": "Cote d'Ivoire, Ghana, Kenya: On his last trip to Africa, outgoing German President Frank-Walter Steinmeier called on companies at home to be bolder and seize opportunities in Africa.",
-      "url": "https://www.dw.com/en/on-farewell-trip-steinmeier-calls-for-more-investment-in-africa/a-80067717?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-26T17:23:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 95
-      }
-    },
-    {
-      "section": "bulgaria",
       "source": "Economic.bg",
       "title": "Мистър и Мисис Икономика 2026 в снимки",
       "summary": "И през 2026 г. конкурсът „Мистър и Мисис Икономика“ предизвика голям интерес и събра на една сцена водещи представители на българския бизнес. На 24 ноември се проведе тържествената церемония по обявяването на победителите в „София Тех Парк“. Организатори на ко",
@@ -726,52 +631,33 @@
       }
     },
     {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Кой стои зад проекта за завод за барут край Хасково?",
-      "summary": "Семейни бизнеси с дългогодишен опит в международната търговия с оръжие и турски компании от отбранителната индустрия стоят зад проекта за изграждане на завод за барут край хасковското село Бодрово. Инвестицията е на стойност над 250 млн. евро, а за реализацият",
-      "url": "https://www.economic.bg/bg/a/view/koj-stoi-zad-proekta-za-zavod-za-barut-kraj-haskovo",
-      "published": "2026-11-25T16:00:17+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 34,
+      "section": "europe",
+      "source": "The Guardian – World",
+      "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning sup",
+      "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+      "published": "2026-11-26T17:50:54+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
+      "priority_score": 33,
       "priority_breakdown": {
-        "economic_significance": 48,
-        "national_impact": 22,
+        "economic_significance": 28,
+        "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 68,
-        "source_reliability": 85
+        "timeliness": 82,
+        "source_reliability": 94
       }
     },
     {
       "section": "europe",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Общото европейско финансиране може да ускори отбранителната интеграция",
-      "summary": "",
-      "url": "https://www.investor.bg/a/461-bloomberg-tv/440144-obshtoto-evropeysko-finansirane-mozhe-da-uskori-otbranitelnata-integratsiya",
-      "published": "2026-11-26T19:30:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
-      "priority_score": 33,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 61,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 92,
-        "source_reliability": 87
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Investor.bg – Икономика и политика",
-      "title": "Обмислят хибриден модел за депозитната система с 34% държавно участие",
-      "summary": "",
-      "url": "https://www.investor.bg/a/519-ekologiya/440122-obmislyat-hibriden-model-za-depozitnata-sistema-s-34-darzhavno-uchastie",
-      "published": "2026-11-26T13:20:00+00:00",
-      "feed_id": "investor-economy",
-      "publisher": "investor.bg",
+      "source": "Euronews",
+      "title": "Argentina enters technical recession as weak consumption undermines Milei's economic gains",
+      "summary": "Argentina's economy shrank 1.8% in the third quarter, its second straight contraction. Weak consumption, falling purchasing power and strain in key sectors are slowing growth and clouding Javier Milei's prospects.",
+      "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains",
+      "published": "2026-11-26T17:23:52+00:00",
+      "feed_id": "euronews",
+      "publisher": "Euronews",
       "priority_score": 33,
       "priority_breakdown": {
         "economic_significance": 28,
@@ -779,7 +665,26 @@
         "household_business_impact": 25,
         "strategic_significance": 0,
         "timeliness": 82,
-        "source_reliability": 87
+        "source_reliability": 91
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "On farewell trip, Steinmeier calls for more investment in Africa",
+      "summary": "Cote d'Ivoire, Ghana, Kenya: On his last trip to Africa, outgoing German President Frank-Walter Steinmeier called on companies at home to be bolder and seize opportunities in Africa.",
+      "url": "https://www.dw.com/en/on-farewell-trip-steinmeier-calls-for-more-investment-in-africa/a-80067717?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-26T17:23:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 82,
+        "source_reliability": 95
       }
     },
     {
@@ -993,25 +898,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "What would happen if Russia detonated a nuclear weapon in space?",
-      "summary": "⁠Sputnik-S, a nuclear-enabled satellite, has been assembled by Russia and could be launched in 60 days, reports say Russia is reportedly preparing to launch a nuclear-armed satellite into space later this year, in a scenario that could pose a significant threa",
-      "url": "https://www.theguardian.com/world/2026/nov/26/what-would-be-the-fallout-from-a-nuclear-armed-satellite-detonated-into-space",
-      "published": "2026-11-26T18:13:33+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 31,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 54,
-        "timeliness": 92,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "BBC News – Свят",
       "title": "Politics and peek-a-boo in Australian parliament as senator brings baby to work",
       "summary": "Senator Lidia Thorpe kept 6-month-old Aaliyah entertained, as her mum Senator Fatima Payman, participated in an online safety bill debate.",
@@ -1107,21 +993,21 @@
     },
     {
       "section": "europe",
-      "source": "POLITICO Europe",
-      "title": "Budget summit walkout leaves EU one month to salvage deal",
-      "summary": "No one expected an agreement at Thursday's gathering — but the scale of division caused leaders to depart visibly shocked and angry.",
-      "url": "https://www.politico.eu/article/eu-budget-summit-walkout-antonio-costa-leaves-one-month-negotiations-drama/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "2026-11-27T02:50:17+00:00",
-      "feed_id": "politico-europe",
-      "publisher": "POLITICO",
+      "source": "The Guardian – World",
+      "title": "What would happen if Russia detonated a nuclear weapon in space?",
+      "summary": "⁠Sputnik-S, a nuclear-enabled satellite, has been assembled by Russia and could be launched in 60 days, reports say Russia is reportedly preparing to launch a nuclear-armed satellite into space later this year, in a scenario that could pose a significant threa",
+      "url": "https://www.theguardian.com/world/2026/nov/26/what-would-be-the-fallout-from-a-nuclear-armed-satellite-detonated-into-space",
+      "published": "2026-11-26T18:13:33+00:00",
+      "feed_id": "guardian-world",
+      "publisher": "The Guardian",
       "priority_score": 30,
       "priority_breakdown": {
-        "economic_significance": 28,
+        "economic_significance": 0,
         "national_impact": 34,
         "household_business_impact": 0,
-        "strategic_significance": 0,
-        "timeliness": 100,
-        "source_reliability": 92
+        "strategic_significance": 54,
+        "timeliness": 82,
+        "source_reliability": 94
       }
     },
     {
@@ -1198,6 +1084,63 @@
         "strategic_significance": 0,
         "timeliness": 68,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Няма данни за българи в ареста или в болница в Марсилия, съобщи генералният консул на България в Лион",
+      "summary": "По официални данни на френската полиция няма нито един арестуван български гражданин, нито български гражданин, който да се намира в болнично заведение. Това съобщи генералният консул на България в Лион Надя Живкова-Ванева в ефира на БНТ по повод сблъсъците по",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255623-nyama-danni-za-balgari-v-aresta-ili-v-bolnitsa-v-marsiliya-saobshti-generalniya",
+      "published": "2026-11-27T06:17:00+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "bulgaria",
+      "source": "БТА",
+      "title": "Общо 72 пожара са ликвидирани в страната през изминалото денонощие, няма пострадали",
+      "summary": "Общо 72 пожара са потушени в страната през изминалото денонощие, няма загинали и пострадали, съобщиха от Главна дирекция „Пожарна безопасност и защита на населението“ – МВР на сайта си. Пожарните екипи са реагирали на 102 сигнала за произшествия. С преки матер",
+      "url": "https://www.bta.bg/bg/news/bulgaria/1255612-obshto-72-pozhara-sa-likvidirani-v-stranata-prez-izminaloto-denonoshtie-nyama-p",
+      "published": "2026-11-27T05:57:48+00:00",
+      "feed_id": "bta-bulgaria",
+      "publisher": "БТА",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 61,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 90
+      }
+    },
+    {
+      "section": "europe",
+      "source": "POLITICO Europe",
+      "title": "Budget summit walkout leaves EU one month to salvage deal",
+      "summary": "No one expected an agreement at Thursday's gathering — but the scale of division caused leaders to depart visibly shocked and angry.",
+      "url": "https://www.politico.eu/article/eu-budget-summit-walkout-antonio-costa-leaves-one-month-negotiations-drama/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "2026-11-27T02:50:17+00:00",
+      "feed_id": "politico-europe",
+      "publisher": "POLITICO",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 92,
+        "source_reliability": 92
       }
     },
     {
@@ -1331,6 +1274,63 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 87
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
+      "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much. Allow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
+      "published": "2026-11-25T15:42:36+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 68,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Европейска комисия",
+      "title": "Keynote speech by Commissioner Kubilius on Defence Readiness in the EU Military Committee meeting at the level of Chiefs of Defence",
+      "summary": "European Commission Speech Brussels, 25 Nov 2026 Good to be together again with all of you! You asked us to elaborate on several questions. I am going to do that right away. My major message: we need to intens...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2586",
+      "published": "2026-11-25T10:53:53+00:00",
+      "feed_id": "commission-press",
+      "publisher": "Европейска комисия",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 0,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 54,
+        "timeliness": 68,
+        "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "World Trade Organization (WTO)",
+      "title": "Trade-facilitating measures help offset rise in new G20 trade restrictions",
+      "summary": "The number of tariff increases and other non-facilitating trade measures introduced by G20 economies rose sharply in the first half of 2026, and the stockpile of such measures reached a record level, according to the WTO's latest report on G20 trade measures.",
+      "url": "https://www.wto.org/english/news_e/news26_e/tmg20_23nov26_559_e.htm",
+      "published": "2026-11-23T00:00:00+00:00",
+      "feed_id": "wto-news",
+      "publisher": "СТО",
+      "priority_score": 29,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 32,
+        "timeliness": 30,
+        "source_reliability": 98
       }
     }
   ],
