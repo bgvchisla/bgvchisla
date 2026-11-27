@@ -1,8 +1,27 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T18:42:46.322232+00:00",
-  "last_checked_at": "2026-11-27T18:42:46.322243+00:00",
+  "updated_at": "2026-11-27T19:41:44.448026+00:00",
+  "last_checked_at": "2026-11-27T19:41:44.448031+00:00",
   "items": [
+    {
+      "section": "bulgaria",
+      "source": "Economic.bg",
+      "title": "България се подготвя за жп коридор – алтернатива на Ормузкия проток",
+      "summary": "България подготвя железопътната си инфраструктура за евентуалното ѝ използване като част от нов транспортен коридор, който да свързва Саудитска Арабия и други държави от Близкия изток с Европа през Турция. Инициативата, която включва и развитие на енергийни и",
+      "url": "https://www.economic.bg/bg/a/view/bylgarija-se-gotvi-za-jp-koridor-alternativa-na-ormuzkija-protok",
+      "published": "2026-11-27T12:00:26+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 49,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 61,
+        "household_business_impact": 25,
+        "strategic_significance": 54,
+        "timeliness": 92,
+        "source_reliability": 85
+      }
+    },
     {
       "section": "bulgaria",
       "source": "Economic.bg",
@@ -12,32 +31,13 @@
       "published": "2026-11-27T16:25:43+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 49,
+      "priority_score": 48,
       "priority_breakdown": {
         "economic_significance": 28,
         "national_impact": 74,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "bulgaria",
-      "source": "Economic.bg",
-      "title": "Вечерни новини: Работата по АМ „Струма“ напредва; Задължителна регистрация по ДДС при продажба на имот",
-      "summary": "Фискалният съвет настоява за допълнителни мерки за до 2 млрд. евро в Бюджет 2027, а парламентът прие нови правила за регистрация по ДДС при продажбата на нови имоти. България се подготвя за железопътен коридор между Близкия изток и Европа и ще подпише със Севе",
-      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-rabotata-po-am-struma-napredva-zadyljitelna-registracija-po-dds-pri-prodajba-na-imot",
-      "published": "2026-11-27T16:02:00+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 49,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 74,
-        "household_business_impact": 25,
-        "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 85
       }
     },
@@ -56,7 +56,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 0,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 87
       }
     },
@@ -151,7 +151,7 @@
         "national_impact": 34,
         "household_business_impact": 25,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 99
       }
     },
@@ -188,25 +188,6 @@
         "economic_significance": 48,
         "national_impact": 34,
         "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 85
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Economic.bg",
-      "title": "Европейски строителни федерации и инвеститори настояват за преразглеждане на спорния регламент за вноса на стомана",
-      "summary": "Водещи европейски федерации, компании от строителния сектор и работодателски организации настояват за спешно преразглеждане на Регламента за стоманата, който въвежда нов режим на тарифни квоти и 50% по-високи мита върху вноса на стоманени продукти в Европейски",
-      "url": "https://www.economic.bg/bg/a/view/evropejski-stroitelni-federacii-i-investitori-nastojavat-za-prerazglejdane-na-spornija-reglament-za-vnosa-na-stomana",
-      "published": "2026-11-27T07:00:04+00:00",
-      "feed_id": "economic-bg",
-      "publisher": "Economic.bg",
-      "priority_score": 37,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 42,
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 85
@@ -267,6 +248,25 @@
         "strategic_significance": 0,
         "timeliness": 50,
         "source_reliability": 99
+      }
+    },
+    {
+      "section": "europe",
+      "source": "Economic.bg",
+      "title": "Европейски строителни федерации и инвеститори настояват за преразглеждане на спорния регламент за вноса на стомана",
+      "summary": "Водещи европейски федерации, компании от строителния сектор и работодателски организации настояват за спешно преразглеждане на Регламента за стоманата, който въвежда нов режим на тарифни квоти и 50% по-високи мита върху вноса на стоманени продукти в Европейски",
+      "url": "https://www.economic.bg/bg/a/view/evropejski-stroitelni-federacii-i-investitori-nastojavat-za-prerazglejdane-na-spornija-reglament-za-vnosa-na-stomana",
+      "published": "2026-11-27T07:00:04+00:00",
+      "feed_id": "economic-bg",
+      "publisher": "Economic.bg",
+      "priority_score": 36,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 42,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 85
       }
     },
     {
@@ -386,18 +386,18 @@
     {
       "section": "bulgaria",
       "source": "Economic.bg",
-      "title": "България се подготвя за жп коридор – алтернатива на Ормузкия проток",
-      "summary": "България подготвя железопътната си инфраструктура за евентуалното ѝ използване като част от нов транспортен коридор, който да свързва Саудитска Арабия и други държави от Близкия изток с Европа през Турция. Инициативата, която включва и развитие на енергийни и",
-      "url": "https://www.economic.bg/bg/a/view/bylgarija-se-gotvi-za-jp-koridor-alternativa-na-ormuzkija-protok",
-      "published": "2026-11-27T12:00:26+00:00",
+      "title": "Вечерни новини: Работата по АМ „Струма“ напредва; Задължителна регистрация по ДДС при продажба на имот",
+      "summary": "Фискалният съвет настоява за допълнителни мерки за до 2 млрд. евро в Бюджет 2027, а парламентът прие нови правила за регистрация по ДДС при продажбата на нови имоти. България се подготвя за железопътен коридор между Близкия изток и Европа и ще подпише със Севе",
+      "url": "https://www.economic.bg/bg/a/view/vecherni-novini-rabotata-po-am-struma-napredva-zadyljitelna-registracija-po-dds-pri-prodajba-na-imot",
+      "published": "2026-11-27T16:02:00+00:00",
       "feed_id": "economic-bg",
       "publisher": "Economic.bg",
-      "priority_score": 49,
+      "priority_score": 48,
       "priority_breakdown": {
         "economic_significance": 28,
-        "national_impact": 61,
+        "national_impact": 74,
         "household_business_impact": 25,
-        "strategic_significance": 54,
+        "strategic_significance": 32,
         "timeliness": 92,
         "source_reliability": 85
       }
@@ -594,6 +594,25 @@
     },
     {
       "section": "europe",
+      "source": "Deutsche Welle",
+      "title": "Germany news: Lawmakers approve debt-laden 2027 budget",
+      "summary": "German lawmakers voted on a federal budget which foresees €556 billion in spending. Elsewhere, the Left Party is hosting a summit on femicide and the BSW party conference starts in Dresden. DW has more.",
+      "url": "https://www.dw.com/en/germany-news-lawmakers-approve-debt-laden-2027-budget/live-80071074?maca=en-rss-en-all-1573-rdf",
+      "published": "2026-11-27T19:18:00+00:00",
+      "feed_id": "dw-world",
+      "publisher": "Deutsche Welle",
+      "priority_score": 35,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 25,
+        "strategic_significance": 0,
+        "timeliness": 100,
+        "source_reliability": 95
+      }
+    },
+    {
+      "section": "europe",
       "source": "The Guardian – World",
       "title": "Jess Wilson’s plan for Melbourne sewage plants risks water and wetlands without bringing debt down, experts say",
       "summary": "Academic says Victorian Liberal proposal to lease treatment plants and generate profit with no compromise of services ‘a total furphy’ Victorian election 2026 guide: what you need to know Confused about who to vote for? Check the parties’ key promises and poli",
@@ -609,25 +628,6 @@
         "strategic_significance": 0,
         "timeliness": 92,
         "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
-      "source": "Deutsche Welle",
-      "title": "Germany news: Lawmakers approve debt-laden 2027 budget",
-      "summary": "German lawmakers voted on a federal budget which foresees €556 billion in spending. Elsewhere, the Left Party is hosting a summit on femicide and the BSW party conference starts in Dresden. DW has more.",
-      "url": "https://www.dw.com/en/germany-news-lawmakers-approve-debt-laden-2027-budget/live-80071074?maca=en-rss-en-all-1573-rdf",
-      "published": "2026-11-27T13:54:00+00:00",
-      "feed_id": "dw-world",
-      "publisher": "Deutsche Welle",
-      "priority_score": 34,
-      "priority_breakdown": {
-        "economic_significance": 28,
-        "national_impact": 34,
-        "household_business_impact": 25,
-        "strategic_significance": 0,
-        "timeliness": 92,
-        "source_reliability": 95
       }
     },
     {
@@ -1145,25 +1145,6 @@
     },
     {
       "section": "europe",
-      "source": "The Guardian – World",
-      "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – as it happened",
-      "summary": "This blog is now closed Freelance journalist based in Madrid and host of the Sobremesa podcast Vox has often been portrayed in international coverage as a party of Franco nostalgists whose ultraconservative Catholicism and civil-war rhetoric towards the separa",
-      "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates",
-      "published": "2026-11-27T16:19:50+00:00",
-      "feed_id": "guardian-world",
-      "publisher": "The Guardian",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "economic_significance": 0,
-        "national_impact": 34,
-        "household_business_impact": 0,
-        "strategic_significance": 32,
-        "timeliness": 100,
-        "source_reliability": 94
-      }
-    },
-    {
-      "section": "europe",
       "source": "Съвет на Европейския съюз",
       "title": "Media advisory - Foreign Affairs Council (Trade) 30 November 2026",
       "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
@@ -1177,7 +1158,7 @@
         "national_impact": 34,
         "household_business_impact": 0,
         "strategic_significance": 32,
-        "timeliness": 100,
+        "timeliness": 92,
         "source_reliability": 99
       }
     },
@@ -1331,6 +1312,25 @@
         "strategic_significance": 0,
         "timeliness": 82,
         "source_reliability": 98
+      }
+    },
+    {
+      "section": "europe",
+      "source": "BIS Research",
+      "title": "Banking across borders: where to lend from differs by sector",
+      "summary": "Where do globally active banks choose to lend from? We study the geography of crossborder bank lending using BIS international banking statistics that identify the parent-bank nationality, the location where cross-border claims are booked, and the borrower cou",
+      "url": "https://www.bis.org/publications/working-paper-1400-banking-across-borders-where-lend-differs-sector",
+      "published": "2026-11-27T00:00:00+00:00",
+      "feed_id": "bis-research",
+      "publisher": "BIS",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "economic_significance": 28,
+        "national_impact": 34,
+        "household_business_impact": 0,
+        "strategic_significance": 0,
+        "timeliness": 82,
+        "source_reliability": 99
       }
     }
   ],
