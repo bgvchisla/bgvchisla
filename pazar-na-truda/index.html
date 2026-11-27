@@ -438,7 +438,7 @@ function render(data){
  $("survey-unemployment").textContent=percent(l.unemployment_rate_pct);
  $("employment-rate").textContent=percent(l.employed_20_64_rate_pct);
  $("average-wage").textContent=fmt(w.average_gross_monthly_eur,0)+" €";
- $("registered-unemployment").textContent=percent(az.registered_unemployment_rate_pct);
+ $("registered-unemployment").textContent=fmt(az.registered_unemployment_rate_pct,2)+"%";
  $("employed-total").textContent=fmt(l.total_employed_thousands/1000,3)+" млн.";
  $("unemployed-total").textContent=fmt(l.unemployed_thousands,1)+" хил.";
  $("youth-unemployment").textContent=percent(l.unemployed_15_29_rate_pct);
@@ -448,7 +448,7 @@ function render(data){
  $("wage-qoq").textContent="−"+percent(Math.abs(w.qoq_change_pct));
  $("wage-private").textContent="+"+percent(w.private_sector_yoy_growth_pct);
  $("payroll-employees-total").textContent=fmt(pay.employees_count/1000000,3)+" млн.";
- $("az-registered-rate").textContent=percent(az.registered_unemployment_rate_pct);
+ $("az-registered-rate").textContent=fmt(az.registered_unemployment_rate_pct,2)+"%";
  $("active-vacancies").textContent=fmt(vac.count,0);
  $("az-placements").textContent=fmt(az.placed_in_jobs_with_agency_count,0);
  $("az-primary-vacancies").textContent=fmt(az.employer_vacancies_primary_market_count,0);
