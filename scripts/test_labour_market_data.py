@@ -98,6 +98,21 @@ class LabourMarketDataTests(unittest.TestCase):
         self.assertEqual(vac["count"], 6793)
         self.assertIn("не е пряко съпоставим", self.data["methodology"]["registered_unemployment"])
 
+    def test_productivity_uses_preliminary_national_accounts_and_is_not_lfs_employment(self):
+        p = self.data["productivity"]
+        self.assertEqual(p["period"], "2026-Q2")
+        self.assertEqual(p["status"], "Предварителни данни")
+        self.assertEqual(p["gdp_per_employed_current_eur"], 8272.6)
+        self.assertEqual(p["gdp_per_hour_current_eur"], 21.2)
+        self.assertEqual(p["gdp_per_employed_real_yoy_pct"], 3.1)
+        self.assertEqual(p["gva_per_employed_real_yoy_pct"], 0.3)
+        self.assertEqual(p["gva_per_hour_real_yoy_pct"], 0.5)
+        self.assertEqual(p["employment_in_resident_production_units_thousands"], 3661.8)
+        self.assertNotEqual(p["employment_in_resident_production_units_thousands"], self.data["labour_force"]["total_employed_thousands"])
+        self.assertEqual(p["next_release_date"], "2026-12-04")
+        self.assertIn("не съвпадат", p["methodology"])
+        self.assertTrue(any("производителност" in x["title"].lower() for x in self.data["source_links"]))
+
     def test_labour_cost_index_is_separate_from_wage_growth(self):
         d = self.data["labour_cost_index"]
         self.assertEqual(d["period"], "2026-Q2")
