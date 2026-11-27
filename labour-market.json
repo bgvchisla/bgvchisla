@@ -90,9 +90,7 @@
     "sampling_error": {
       "employed_relative_standard_error_pct": 1.4,
       "unemployed_relative_standard_error_pct": 6.9,
-      "unemployment_rate_relative_standard_error_pct": 6.7,
-      "unemployment_rate_95ci_low_pct": 2.7,
-      "unemployment_rate_95ci_high_pct": 3.6
+      "unemployment_rate_relative_standard_error_pct": 6.7
     }
   },
   "labour_force_quarterly": [
@@ -397,12 +395,12 @@
     },
     {
       "title": "НСИ: Производителност на труда, заети лица и отработено време — II тримесечие 2026 г.",
-      "url": "https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-ii-trimesechie-2026-godina-predvaritelni-danni-9150"
+      "url": "https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-9150"
     }
   ],
   "productivity": {
     "source": "Национален статистически институт",
-    "source_url": "https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-ii-trimesechie-2026-godina-predvaritelni-danni-9150",
+    "source_url": "https://www.nsi.bg/press-release/proizvoditelnost-na-truda-zaeti-lica-i-otraboteno-vreme-9150",
     "published_on": "2026-09-07",
     "period": "2026-Q2",
     "status": "Предварителни данни",
