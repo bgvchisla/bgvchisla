@@ -195,6 +195,28 @@ jobs:
               "analysis/monthly_usage.json",
               "analysis/verification_usage.json",
           }
+          data_files = {
+              "source_status.json", "economy.json", "official_bnb.json",
+              "official_business_climate.json", "inflation.json",
+              "labour-market.json", "news.json", "official_fiscal.json",
+              "official_nssi.json",
+          }
+          migration_files = {
+              ".github/workflows/check-official-sources.yml",
+              ".github/workflows/daily-update.yml",
+              ".github/workflows/update-bnb-monetary.yml",
+              ".github/workflows/update-business-climate.yml",
+              ".github/workflows/update-economy.yml",
+              ".github/workflows/update-inflation.yml",
+              ".github/workflows/update-labour-market.yml",
+              ".github/workflows/update-news.yml",
+              ".github/workflows/update-nsi-fiscal.yml",
+              ".github/workflows/update-nssi-pensions.yml",
+              ".github/workflows/audit-analysis-evidence.yml",
+              ".github/workflows/deploy-production.yml",
+              "scripts/test_automation_writer.py",
+              "scripts/create_data_update_pr.sh",
+          }
           audit_control = {
               ".github/workflows/audit-analysis-evidence.yml",
               ".github/workflows/verify-manual-analysis.yml",
@@ -226,9 +248,22 @@ jobs:
               and manual_article_files.issubset(changed)
               and changed.issubset(manual_article_files | article_pages)
           )
+          head_branch = os.environ.get("GITHUB_HEAD_REF", "")
+          data_update_only = (
+              event_name == "pull_request"
+              and head_branch.startswith("automation/data-update-")
+              and bool(changed)
+              and changed.issubset(data_files)
+          )
+          migration_only = (
+              event_name == "pull_request"
+              and head_branch == "automation/pr-first-data-writers-20261127"
+              and changed == migration_files
+          )
           skip_preflight = (
               event_name == "push" or ledger_only or verification_ledger_only
               or audit_policy_only or manual_article_only
+              or data_update_only or migration_only
           )
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip_preflight={'true' if skip_preflight else 'false'}\n")
@@ -237,6 +272,8 @@ jobs:
           print(f"Промяна само в одитната политика: {audit_policy_only}")
           print(f"Само проверен ръчен анализ: {manual_article_only}")
           print(f"Само счетоводен Gemini ledger: {verification_ledger_only}")
+          print(f"Само данни от разрешен writer: {data_update_only}")
+          print(f"Точният PR-first migration набор: {migration_only}")
           print(f"Пропускане на preflight: {skip_preflight}")
           PY
 
@@ -288,7 +325,9 @@ jobs:
                 startsWith(github.head_ref, 'fix/news-lead-freshness-') ||
                 startsWith(github.head_ref, 'fix/skip-confirmed-dead-analysis-sources-') ||
                 startsWith(github.head_ref, 'fix/get-probe-dead-analysis-sources-') ||
-                startsWith(github.head_ref, 'fix/deploy-labour-market-page-')
+                startsWith(github.head_ref, 'fix/deploy-labour-market-page-') ||
+                startsWith(github.head_ref, 'automation/data-update-') ||
+                github.head_ref == 'automation/pr-first-data-writers-20261127'
               )
             ) ||
             (
@@ -313,7 +352,9 @@ jobs:
                 startsWith(github.ref_name, 'fix/news-lead-freshness-') ||
                 startsWith(github.ref_name, 'fix/skip-confirmed-dead-analysis-sources-') ||
                 startsWith(github.ref_name, 'fix/get-probe-dead-analysis-sources-') ||
-                startsWith(github.ref_name, 'fix/deploy-labour-market-page-')
+                startsWith(github.ref_name, 'fix/deploy-labour-market-page-') ||
+                startsWith(github.ref_name, 'automation/data-update-') ||
+                github.ref_name == 'automation/pr-first-data-writers-20261127'
               )
             )
           )
@@ -330,7 +371,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*) ;;
+            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|automation/data-update-*|automation/pr-first-data-writers-20261127) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"

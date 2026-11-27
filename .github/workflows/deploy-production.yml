@@ -32,6 +32,13 @@ on:
       - "scripts/update_nssi_pensions.py"
       - "scripts/update_bnb_monetary.py"
       - "economy-charts.js"
+      - "source_status.json"
+      - "economy.json"
+      - "official_bnb.json"
+      - "official_business_climate.json"
+      - "news.json"
+      - "official_fiscal.json"
+      - "official_nssi.json"
       - ".github/workflows/deploy-production.yml"
 
 permissions:
