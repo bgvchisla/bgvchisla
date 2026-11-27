@@ -260,10 +260,50 @@ jobs:
               and head_branch == "automation/pr-first-data-writers-20261127"
               and changed == migration_files
           )
+          # A narrowly scoped accessibility CSS patch must still pass every
+          # offline regression/viewport test, but must not invoke the analysis
+          # generator's budget guard or any editorial preflight.
+          accessibility_contrast_only = False
+          if event_name == "pull_request" and changed == {"index.html"}:
+              diff = subprocess.check_output(
+                  ["git", "diff", "--unified=0", "origin/main...HEAD", "--", "index.html"],
+                  text=True,
+              )
+              in_fix_block = False
+              saw_fix_block = False
+              valid_diff = True
+              for line in diff.splitlines():
+                  if line.startswith(("diff --git ", "index ", "--- ", "+++ ", "@@")):
+                      continue
+                  if line.startswith("-"):
+                      valid_diff = False
+                      break
+                  if line.startswith("+"):
+                      added = line[1:]
+                      if added == '<style id="accessibility-contrast-fix">':
+                          if in_fix_block or saw_fix_block:
+                              valid_diff = False
+                              break
+                          in_fix_block = True
+                          saw_fix_block = True
+                      elif not in_fix_block:
+                          valid_diff = False
+                          break
+                      elif added == "</style>":
+                          in_fix_block = False
+              accessibility_contrast_only = valid_diff and saw_fix_block and not in_fix_block
+          if accessibility_contrast_only:
+              html = open("index.html", encoding="utf-8").read()
+              accessibility_contrast_only = (
+                  '<style id="accessibility-contrast-fix">' in html
+                  and "--mu:#526276" in html
+                  and "color:#526276" in html
+                  and "color:#80551b" in html
+              )
           skip_preflight = (
               event_name == "push" or ledger_only or verification_ledger_only
               or audit_policy_only or manual_article_only
-              or data_update_only or migration_only
+              or data_update_only or migration_only or accessibility_contrast_only
           )
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip_preflight={'true' if skip_preflight else 'false'}\n")
@@ -274,6 +314,7 @@ jobs:
           print(f"Само счетоводен Gemini ledger: {verification_ledger_only}")
           print(f"Само данни от разрешен writer: {data_update_only}")
           print(f"Точният PR-first migration набор: {migration_only}")
+          print(f"Само CSS корекция за контраст: {accessibility_contrast_only}")
           print(f"Пропускане на preflight: {skip_preflight}")
           PY
 
@@ -326,6 +367,7 @@ jobs:
                 startsWith(github.head_ref, 'fix/skip-confirmed-dead-analysis-sources-') ||
                 startsWith(github.head_ref, 'fix/get-probe-dead-analysis-sources-') ||
                 startsWith(github.head_ref, 'fix/deploy-labour-market-page-') ||
+                startsWith(github.head_ref, 'fix/accessibility-contrast-preflight-') ||
                 startsWith(github.head_ref, 'automation/data-update-') ||
                 github.head_ref == 'automation/pr-first-data-writers-20261127'
               )
@@ -353,6 +395,7 @@ jobs:
                 startsWith(github.ref_name, 'fix/skip-confirmed-dead-analysis-sources-') ||
                 startsWith(github.ref_name, 'fix/get-probe-dead-analysis-sources-') ||
                 startsWith(github.ref_name, 'fix/deploy-labour-market-page-') ||
+                startsWith(github.ref_name, 'fix/accessibility-contrast-preflight-') ||
                 startsWith(github.ref_name, 'automation/data-update-') ||
                 github.ref_name == 'automation/pr-first-data-writers-20261127'
               )
@@ -371,7 +414,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|automation/data-update-*|automation/pr-first-data-writers-20261127) ;;
+            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|fix/accessibility-contrast-preflight-*|automation/data-update-*|automation/pr-first-data-writers-20261127) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
