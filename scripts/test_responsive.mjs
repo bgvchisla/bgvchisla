@@ -392,6 +392,71 @@ try {
     assert.ok(bankMetrics.sources >= 8,
       viewport.name + ": primary-source list is incomplete");
 
+    const labourUrl = new URL("pazar-na-truda/", SITE_URL).toString();
+    const labourResponse = await page.goto(labourUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
+    assert.ok(labourResponse && labourResponse.ok(), viewport.name + ": labour-market resource did not load");
+    await page.waitForSelector("#unemployment-chart svg", { timeout: 10000 });
+    await page.waitForSelector("#wage-september-table tbody tr", { timeout: 10000 });
+    await page.waitForFunction(() => {
+      const wageRows = document.querySelectorAll("#wage-activity-table tbody tr");
+      const septemberRows = document.querySelectorAll("#wage-september-table tbody tr");
+      return wageRows.length >= 6 && septemberRows.length >= 18 &&
+        document.querySelector("#survey-unemployment")?.textContent?.trim() === "3,1%" &&
+        document.querySelector("#registered-unemployment")?.textContent?.trim() === "5,60%";
+    }, null, { timeout: 10000 });
+    const labourMetrics = await page.evaluate(() => ({
+      innerWidth: window.innerWidth,
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      title: document.querySelector("h1")?.textContent?.trim() ?? "",
+      surveyUnemployment: document.querySelector("#survey-unemployment")?.textContent?.trim() ?? "",
+      employmentRate: document.querySelector("#employment-rate")?.textContent?.trim() ?? "",
+      averageWageNumber: (document.querySelector("#average-wage")?.textContent ?? "").replace(/[^\d,.-]/g, "").replace(",", "."),
+      registeredUnemployment: document.querySelector("#registered-unemployment")?.textContent?.trim() ?? "",
+      activeVacancies: document.querySelector("#active-vacancies")?.textContent?.trim() ?? "",
+      unemploymentChart: !!document.querySelector("#unemployment-chart svg"),
+      employmentChart: !!document.querySelector("#employment-chart svg"),
+      sectorChart: !!document.querySelector("#employment-sector-chart svg"),
+      monthlyWageChart: !!document.querySelector("#wage-monthly-chart svg"),
+      highWageChart: !!document.querySelector("#wage-high-chart svg"),
+      lowWageChart: !!document.querySelector("#wage-low-chart svg"),
+      payrollChart: !!document.querySelector("#payroll-employees-chart svg"),
+      productivityChart: !!document.querySelector("#productivity-sector-chart svg"),
+      productivityPerEmployedNumber: (document.querySelector("#productivity-per-employed")?.textContent ?? "").replace(/[^\d,.-]/g, "").replace(",", "."),
+      productivityGrowth: document.querySelector("#productivity-growth")?.textContent?.trim() ?? "",
+      wageRows: document.querySelectorAll("#wage-activity-table tbody tr").length,
+      septemberRows: document.querySelectorAll("#wage-september-table tbody tr").length,
+      sources: document.querySelectorAll("#source-list a").length,
+    }));
+    assert.equal(labourMetrics.clientWidth, viewport.width,
+      viewport.name + ": labour-market viewport width mismatch");
+    assert.ok(labourMetrics.scrollWidth <= labourMetrics.clientWidth + 1,
+      viewport.name + ": labour-market page has horizontal overflow");
+    assert.ok(labourMetrics.title.includes("Пазар на труда"),
+      viewport.name + ": labour-market title is missing");
+    assert.equal(labourMetrics.surveyUnemployment, "3,1%",
+      viewport.name + ": NSI survey unemployment did not load");
+    assert.equal(labourMetrics.registeredUnemployment, "5,60%",
+      viewport.name + ": registered unemployment did not load");
+    assert.ok(labourMetrics.employmentRate.includes("77,0"),
+      viewport.name + ": employment rate did not load");
+    assert.ok(Math.abs(Number(labourMetrics.averageWageNumber) - 1438) < 0.1,
+      viewport.name + ": average wage did not load (" + labourMetrics.averageWageNumber + ")");
+    assert.ok(Math.abs(Number(labourMetrics.productivityPerEmployedNumber) - 8272.6) < 0.1,
+      viewport.name + ": labour productivity per employed person did not load (" + labourMetrics.productivityPerEmployedNumber + ")");
+    assert.equal(labourMetrics.productivityGrowth, "+3,1%",
+      viewport.name + ": real labour productivity growth did not load");
+    for (const chart of [
+      "unemploymentChart", "employmentChart", "sectorChart", "monthlyWageChart",
+      "highWageChart", "lowWageChart", "payrollChart", "productivityChart"
+    ]) {
+      assert.ok(labourMetrics[chart], viewport.name + ": missing rendered labour chart " + chart);
+    }
+    assert.ok(labourMetrics.wageRows >= 6 && labourMetrics.septemberRows >= 18,
+      viewport.name + ": wage detail tables are incomplete");
+    assert.ok(labourMetrics.sources >= 7,
+      viewport.name + ": primary-source list is incomplete");
+
     assert.equal(pageErrors.length, 0,
       viewport.name + ": uncaught browser errors: " + pageErrors.join("; "));
     console.log(JSON.stringify({

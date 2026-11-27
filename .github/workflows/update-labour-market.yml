@@ -1,0 +1,104 @@
+name: Update live Employment Agency vacancy count
+
+on:
+  schedule:
+    - cron: "20 8 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_labour_market.py"
+      - "scripts/test_update_labour_market.py"
+      - ".github/workflows/update-labour-market.yml"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: labour-market-live-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Create scoped automation App token
+        id: automation_token
+        if: vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID != ''
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc
+        with:
+          client-id: ${{ vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY }}
+          permission-contents: write
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.automation_token.outputs.token || github.token }}
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test the vacancy snapshot parser offline
+        run: python scripts/test_update_labour_market.py
+      - name: Import the current official vacancy listing
+        run: python scripts/update_labour_market.py
+      - name: Validate the updated dataset
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("labour-market.json").read_text(encoding="utf-8"))
+          vacancy = data["active_vacancies"]
+          if not vacancy.get("as_of") or not isinstance(vacancy.get("count"), int):
+              raise SystemExit("Invalid vacancy snapshot")
+          if not vacancy["source_url"].startswith("https://az.government.bg/"):
+              raise SystemExit("Unexpected vacancy data source")
+          print(f"Validated {vacancy['count']} open positions as of {vacancy['as_of']}.")
+          PY
+      - name: Commit only a changed vacancy snapshot
+        id: save
+        env:
+          GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}
+        run: |
+          set -euo pipefail
+          git add labour-market.json
+          if git diff --cached --quiet -- labour-market.json; then
+            echo "Vacancy snapshot unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          APP_SLUG="${{ steps.automation_token.outputs.app-slug }}"
+          if [ -n "$APP_SLUG" ]; then
+            BOT_USER_ID="$(gh api "/users/${APP_SLUG}[bot]" --jq .id)"
+            git config user.name "${APP_SLUG}[bot]"
+            git config user.email "${BOT_USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          fi
+          git commit -m "Update Employment Agency vacancy count"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Vacancy snapshot committed."
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Push failed after 3 safe attempts."
+              exit 1
+            fi
+            git fetch origin main
+            git rebase origin/main
+          done
+      - name: Dispatch production deployment after changes
+        if: steps.save.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
+          echo "Production deployment requested."
