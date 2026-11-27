@@ -213,6 +213,7 @@ jobs:
               ".github/workflows/update-nsi-fiscal.yml",
               ".github/workflows/update-nssi-pensions.yml",
               ".github/workflows/audit-analysis-evidence.yml",
+              ".github/workflows/deploy-production.yml",
               "scripts/test_automation_writer.py",
               "scripts/create_data_update_pr.sh",
           }
