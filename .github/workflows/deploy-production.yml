@@ -1,6 +1,6 @@
 name: Deploy production to Cloudflare Pages
-# Publish after validated NSSI dataset refresh.
-# Production release pipeline for validated portal assets and live data
+# Publish validated portal assets, thematic pages, and live data.
+# Production release pipeline for the complete public site.
 
 on:
   workflow_dispatch:
@@ -13,6 +13,12 @@ on:
       - "privacy.html"
       - "sitemap.xml"
       - "advertise.html"
+      - "tseni-i-inflatsia/**"
+      - "inflation.json"
+      - "dalg-i-byudzhet/**"
+      - "debt-budget.json"
+      - "banki/**"
+      - "banking.json"
       - "pazar-na-truda/**"
       - "labour-market.json"
       - ".github/workflows/update-business-climate.yml"
@@ -38,35 +44,48 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Validate data files
+      - name: Validate data files and thematic pages
         run: |
-          python3 -c "import json; json.load(open('data.json', encoding='utf-8')); json.load(open('economy.json', encoding='utf-8')); print('JSON OK')"
-          test -f index.html
-          test -f assets/design-system.css
-          test -f economy-charts.js
-          test -f privacy.html
-          test -f source_status.json
-          test -f pazar-na-truda/index.html
+          set -euo pipefail
+          python3 -c "import json; json.load(open('data.json', encoding='utf-8')); json.load(open('economy.json', encoding='utf-8')); json.load(open('inflation.json', encoding='utf-8')); json.load(open('debt-budget.json', encoding='utf-8')); json.load(open('banking.json', encoding='utf-8')); print('JSON OK')"
+          test -s index.html
+          test -s assets/design-system.css
+          test -s economy-charts.js
+          test -s privacy.html
+          test -s source_status.json
+          test -s tseni-i-inflatsia/index.html
+          test -s dalg-i-byudzhet/index.html
+          test -s banki/index.html
+          test -s pazar-na-truda/index.html
           python3 -c "import json; json.load(open('labour-market.json', encoding='utf-8')); print('Labour market JSON OK')"
           python3 -c "import json; json.load(open('source_status.json', encoding='utf-8')); json.load(open('official_fiscal.json', encoding='utf-8')); json.load(open('official_bnb.json', encoding='utf-8')); json.load(open('official_nssi.json', encoding='utf-8')); json.load(open('official_business_climate.json', encoding='utf-8')); print('Official data JSON OK')"
           python3 -c "import json; json.load(open('news.json', encoding='utf-8')); print('News JSON OK')"
 
-      - name: Prepare files
+      - name: Prepare complete production artifact
         run: |
+          set -euo pipefail
           mkdir -p public/assets
           cp -R assets/. public/assets/
           mkdir -p public
-          cp index.html advertise.html data.json economy.json economy-charts.js privacy.html robots.txt sitemap.xml news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json labour-market.json _headers public/
-          mkdir -p public/analizi
+          cp index.html advertise.html data.json economy.json economy-charts.js privacy.html robots.txt sitemap.xml news.json source_status.json official_fiscal.json official_bnb.json official_nssi.json official_business_climate.json labour-market.json inflation.json debt-budget.json banking.json _headers public/
+          mkdir -p public/analizi public/pazar-na-truda public/tseni-i-inflatsia public/dalg-i-byudzhet public/banki
           cp -R analizi/. public/analizi/
-          mkdir -p public/pazar-na-truda
           cp -R pazar-na-truda/. public/pazar-na-truda/
+          cp -R tseni-i-inflatsia/. public/tseni-i-inflatsia/
+          cp -R dalg-i-byudzhet/. public/dalg-i-byudzhet/
+          cp -R banki/. public/banki/
 
-      - name: Verify production artifact
+      - name: Verify all public page and data artifacts
         run: |
           set -euo pipefail
-          test -s public/pazar-na-truda/index.html
-          test -s public/labour-market.json
+          for page in analizi pazar-na-truda tseni-i-inflatsia dalg-i-byudzhet banki; do
+            test -s "public/$page/index.html"
+          done
+          for data in labour-market.json inflation.json debt-budget.json banking.json; do
+            test -s "public/$data"
+            python3 -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "public/$data"
+          done
+          python3 -c "import xml.etree.ElementTree as ET; ET.parse('public/sitemap.xml'); print('Sitemap XML OK')"
           python3 -c "import json; d=json.load(open('public/labour-market.json', encoding='utf-8')); assert d.get('schema_version') == 1; assert d.get('active_vacancies', {}).get('as_of'); print('Labour market production artifact OK')"
 
       - name: Deploy production
