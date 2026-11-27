@@ -12,6 +12,7 @@ on:
 permissions:
   contents: write
   actions: write
+  pull-requests: write
 concurrency:
   group: production-data-refresh
   cancel-in-progress: false
@@ -28,6 +29,7 @@ jobs:
           client-id: ${{ vars.BGVCHISLA_AUTOMATION_APP_CLIENT_ID }}
           private-key: ${{ secrets.BGVCHISLA_AUTOMATION_APP_PRIVATE_KEY }}
           permission-contents: write
+          permission-pull-requests: write
       - uses: actions/checkout@v4
         with:
           token: ${{ steps.automation_token.outputs.token || github.token }}
@@ -39,37 +41,12 @@ jobs:
         run: python scripts/test_update_business_climate.py
       - name: Import and validate official NSI indicators
         run: python scripts/update_business_climate.py
-      - name: Commit changed dataset
+      - name: Create a pull request for validated data
         id: save
         env:
           GH_TOKEN: ${{ steps.automation_token.outputs.token || github.token }}
-        run: |
-          git add -f official_business_climate.json
-          if git diff --cached --quiet -- official_business_climate.json; then
-            echo "No business-climate data changes."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            APP_SLUG="${{ steps.automation_token.outputs.app-slug }}"
-            if [ -n "$APP_SLUG" ]; then
-              BOT_USER_ID="$(gh api "/users/${APP_SLUG}[bot]" --jq .id)"
-              git config user.name "${APP_SLUG}[bot]"
-              git config user.email "${BOT_USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com"
-            else
-              git config user.name "github-actions[bot]"
-              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            fi
-            git commit -m "Update official NSI business climate data"
-            git pull --rebase origin main
-            git push origin HEAD:main
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Dispatch production deployment after data changes
-        if: steps.save.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          REPOSITORY: ${{ github.repository }}
-        run: |
-          set -euo pipefail
-          gh workflow run deploy-production.yml --repo "$REPOSITORY" --ref main
-          echo "Production deployment requested for the validated data update."
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_WORKFLOW: ${{ github.workflow }}
+          APP_SLUG: ${{ steps.automation_token.outputs.app-slug }}
+        run: bash scripts/create_data_update_pr.sh official_business_climate.json "Update official NSI business climate data"
