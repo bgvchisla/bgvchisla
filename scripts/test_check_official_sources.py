@@ -105,12 +105,26 @@ class OfficialSourceMonitorTests(unittest.TestCase):
         self.assertEqual(result["status"], "error")
         self.assertIn("Content-Type", result["error"])
 
-    def test_all_seven_sources_are_pending_until_the_new_monitor_runs(self):
+    def test_source_status_dataset_schema_and_counters_are_consistent(self):
         payload = json.loads((ROOT / "source_status.json").read_text(encoding="utf-8"))
+        sources = payload["sources"]
+        allowed_statuses = {
+            "ok",
+            "restricted",
+            "error",
+            "content_mismatch",
+            "pending_validation",
+        }
+
         self.assertEqual(payload["total"], 7)
-        self.assertEqual(payload["ok"], 0)
-        self.assertEqual(len({row["id"] for row in payload["sources"]}), 7)
-        self.assertTrue(all(row["status"] == "pending_validation" for row in payload["sources"]))
+        self.assertEqual(len(sources), 7)
+        self.assertEqual(len({row["id"] for row in sources}), 7)
+        self.assertTrue(all(row["status"] in allowed_statuses for row in sources))
+        self.assertEqual(
+            payload["ok"],
+            sum(row["status"] == "ok" for row in sources),
+        )
+        self.assertEqual(payload["total"], len(sources))
 
 
 if __name__ == "__main__":
