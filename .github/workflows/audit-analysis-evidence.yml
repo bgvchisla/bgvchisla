@@ -279,7 +279,7 @@ jobs:
           # launch the analysis generator's editorial preflight for this exact PR.
           mobile_navigation_only = (
               event_name == "pull_request"
-              and head_branch == "fix/mobile-nav-toggle-preflight-scope"
+              and head_branch == "fix/mobile-nav-toggle-preflight-scope-v2"
               and changed == {
                   "index.html",
                   "scripts/test_responsive.mjs",
@@ -292,7 +292,7 @@ jobs:
               mobile_navigation_only = (
                   '<style id="mobile-nav-toggle-visibility-fix">' in html
                   and "mobile-nav-toggle" in responsive_test
-                  and "computed" in responsive_test
+                  and "getComputedStyle" in responsive_test
               )
 
           accessibility_contrast_only = False
@@ -348,6 +348,7 @@ jobs:
           print(f"Само данни от разрешен writer: {data_update_only}")
           print(f"Точният PR-first migration набор: {migration_only}")
           print(f"Само промяна в одитния workflow: {audit_workflow_only}")
+          print(f"Само мобилна навигация: {mobile_navigation_only}")
           print(f"Само CSS корекция за контраст: {accessibility_contrast_only}")
           print(f"Пропускане на preflight: {skip_preflight}")
           PY
