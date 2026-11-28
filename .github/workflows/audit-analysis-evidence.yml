@@ -300,14 +300,17 @@ jobs:
               event_name == "pull_request"
               and head_branch == "fix/mobile-nav-responsive-test-race"
               and changed == {
+                  "index.html",
                   "scripts/test_responsive.mjs",
                   ".github/workflows/audit-analysis-evidence.yml",
               }
           )
           if mobile_navigation_test_only:
+              html = open("index.html", encoding="utf-8").read()
               responsive_test = open("scripts/test_responsive.mjs", encoding="utf-8").read()
               mobile_navigation_test_only = (
-                  "Dispatch synchronously in the same page task" in responsive_test
+                  '<style id="mobile-nav-toggle-visibility-fix">' in html
+                  and "Dispatch synchronously in the same page task" in responsive_test
                   and "toggle.click();" in responsive_test
                   and "waitForFunction" in responsive_test
               )
