@@ -196,6 +196,7 @@ jobs:
               "analysis/verification_usage.json",
           }
           data_files = {
+              "scripts/check_official_sources.py",
               "source_status.json", "economy.json", "official_bnb.json",
               "official_business_climate.json", "inflation.json",
               "labour-market.json", "news.json", "official_fiscal.json",
