@@ -1,37 +1,49 @@
 {
   "schema_version": 1,
   "checked_at": "2026-11-28T06:26:37.738317+00:00",
-  "scope": "source_availability_only",
-  "ok": 4,
-  "total": 5,
+  "scope": "source_availability_and_page_topic",
+  "ok": 2,
+  "total": 7,
   "sources": [
     {
       "id": "minfin_budget",
       "name": "Министерство на финансите — месечно изпълнение на бюджета",
       "owner": "Министерство на финансите",
-      "url": "https://www.minfin.bg/bg/statistics/5",
+      "url": "https://www.minfin.bg/bg/statistics/18",
       "frequency": "месечно",
-      "expected": "Месечни таблици за изпълнението на държавния бюджет",
-      "status": "restricted",
-      "error": "HTTP Error 403: Forbidden",
-      "checked_at": "2026-11-28T06:26:33.924636+00:00",
-      "note": "Автоматизираната среда е ограничена от сървъра на източника; това не означава, че официалната страница е недостъпна за посетители."
+      "expected": "Данни по държавния бюджет и месечни таблици за изпълнението",
+      "status": "pending_validation",
+      "note": "Източникът е добавен или коригиран в монитора; изчаква ново изпълнение на проверката. Не се приема за проверен."
     },
     {
-      "id": "bnb_statistics",
-      "name": "Българска народна банка — парична и лихвена статистика",
+      "id": "bnb_monetary_statistics",
+      "name": "Българска народна банка — парична статистика",
       "owner": "Българска народна банка",
-      "url": "https://www.bnb.bg/Statistics/StStatisticalBD/",
-      "frequency": "месечно/тримесечно",
-      "expected": "Кредити, депозити и лихвени проценти",
-      "status": "ok",
-      "http_status": 200,
-      "content_type": "text/html;charset=utf-8",
-      "final_url": "https://www.bnb.bg/Statistics/StStatisticalBD/",
-      "download_links_detected": 0,
-      "checked_at": "2026-11-28T06:26:34.997355+00:00",
-      "response_seconds": 1.07,
-      "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия."
+      "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StMonetaryStatistics/index.htm",
+      "frequency": "месечно",
+      "expected": "Парична статистика с таблици за кредити и депозити",
+      "status": "pending_validation",
+      "note": "Източникът е добавен или коригиран в монитора; изчаква ново изпълнение на проверката. Не се приема за проверен."
+    },
+    {
+      "id": "bnb_deposits_loans",
+      "name": "Българска народна банка — кредити и депозити",
+      "owner": "Българска народна банка",
+      "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StDepositsAndLoans/StDCDeposits/StDCDepositsQuarterlyData/index.htm",
+      "frequency": "тримесечно",
+      "expected": "Статистика и таблици за кредити и депозити",
+      "status": "pending_validation",
+      "note": "Източникът е добавен или коригиран в монитора; изчаква ново изпълнение на проверката. Не се приема за проверен."
+    },
+    {
+      "id": "bnb_interest_rates",
+      "name": "Българска народна банка — лихвена статистика",
+      "owner": "Българска народна банка",
+      "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StInterestRate/StIRInterestRate/",
+      "frequency": "месечно",
+      "expected": "Лихвена статистика и таблици с лихвени проценти",
+      "status": "pending_validation",
+      "note": "Източникът е добавен или коригиран в монитора; изчаква ново изпълнение на проверката. Не се приема за проверен."
     },
     {
       "id": "nsi_sdmx",
@@ -39,15 +51,9 @@
       "owner": "Национален статистически институт",
       "url": "https://www.nsi.bg/ddb2.1/?l=bg",
       "frequency": "според показателя",
-      "expected": "Официални статистически набори и SDMX структури",
-      "status": "ok",
-      "http_status": 200,
-      "content_type": "text/html; charset=UTF-8",
-      "final_url": "https://www.nsi.bg/ddb2.1/?l=bg",
-      "download_links_detected": 0,
-      "checked_at": "2026-11-28T06:26:35.511056+00:00",
-      "response_seconds": 0.51,
-      "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия."
+      "expected": "SDMX 2.1 файлове за данни и DSD структури",
+      "status": "pending_validation",
+      "note": "Проверката за SDMX download_data.php и download_dsd.php е променена; изчаква ново изпълнение. Старият отчет за 0 линка не е валиден за новия брояч."
     },
     {
       "id": "nsi_statistical_data",
@@ -82,5 +88,6 @@
       "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия."
     }
   ],
-  "notice": "Статусът показва достъпност на официалните страници, а не дата на последното статистическо наблюдение."
+  "notice": "Статусът показва HTTP достъпност и съответствие на страницата с очакваната тема; не удостоверява актуалността на последното статистическо наблюдение. Новите и променените проверки остават pending_validation до следващото реално изпълнение.",
+  "validation_state": "pending_after_monitor_update"
 }
