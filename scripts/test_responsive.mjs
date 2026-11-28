@@ -204,7 +204,56 @@ try {
       for (let index = 0; index < 16; index += 1) {
         const nav = page.locator("#site-content nav#nav");
         if (await nav.evaluate(element => element.classList.contains("mobile-collapsed"))) {
-          await page.locator("#mobile-nav-toggle").click();
+          const toggle = page.locator("#mobile-nav-toggle");
+          try {
+            await toggle.click({ timeout: 5000 });
+          } catch (error) {
+            const diagnostic = await page.evaluate(() => {
+              const element = document.querySelector("#mobile-nav-toggle");
+              const navElement = document.querySelector("#site-content nav#nav");
+              const describe = node => {
+                if (!node) return null;
+                const css = getComputedStyle(node);
+                const rect = node.getBoundingClientRect();
+                return {
+                  tag: node.tagName,
+                  id: node.id || null,
+                  className: typeof node.className === "string" ? node.className : null,
+                  display: css.display,
+                  visibility: css.visibility,
+                  opacity: css.opacity,
+                  position: css.position,
+                  pointerEvents: css.pointerEvents,
+                  width: rect.width,
+                  height: rect.height,
+                  x: rect.x,
+                  y: rect.y,
+                  hidden: node.hidden,
+                  ariaHidden: node.getAttribute("aria-hidden"),
+                };
+              };
+              const ancestors = [];
+              for (let node = element, depth = 0; node && depth < 7; node = node.parentElement, depth++) {
+                ancestors.push(describe(node));
+              }
+              return {
+                viewport: { innerWidth: innerWidth, innerHeight: innerHeight },
+                scroll: { x: scrollX, y: scrollY },
+                mobileMediaQuery: matchMedia("(max-width: 639px)").matches,
+                navClasses: navElement?.className ?? null,
+                toggle: describe(element),
+                ancestors,
+                activeSection: Array.from(document.querySelectorAll("#site-content main section"))
+                  .find(section => section.classList.contains("on"))?.id ?? null,
+              };
+            });
+            console.error("MOBILE_NAV_TOGGLE_CLICK_DIAGNOSTIC " + JSON.stringify(diagnostic));
+            throw new Error(
+              "mobile navigation toggle was not clickable: " +
+              JSON.stringify(diagnostic) +
+              "; original error: " + error.message
+            );
+          }
         }
         await page.locator("#site-content nav#nav button[data-i=\"" + index + "\"]").click();
         await page.waitForFunction(i => {
