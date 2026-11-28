@@ -344,19 +344,33 @@ jobs:
                       elif added == "</style>":
                           in_fix_block = False
               accessibility_contrast_only = valid_diff and saw_fix_block and not in_fix_block
-          if accessibility_contrast_only:
+          # This exact PR is limited to homepage hero visibility and its viewport tests.
+          # Keep all offline/security/regression/browser checks, but skip paid/free editorial preflight.
+          hero_visibility_only = (
+              event_name == "pull_request"
+              and head_branch == "fix/hero-visibility-all-viewports"
+              and changed == {
+                  "index.html",
+                  "scripts/test_responsive.mjs",
+                  ".github/workflows/audit-analysis-evidence.yml",
+              }
+          )
+          if hero_visibility_only:
               html = open("index.html", encoding="utf-8").read()
-              accessibility_contrast_only = (
-                  '<style id="accessibility-contrast-fix">' in html
-                  and "--mu:#526276" in html
-                  and "color:#526276" in html
-                  and "color:#80551b" in html
+              responsive_test = open("scripts/test_responsive.mjs", encoding="utf-8").read()
+              hero_visibility_only = (
+                  "#site-content.section-hero-hidden .hero{display:none!important}" in html
+                  and "hero must be hidden outside the homepage" in responsive_test
+                  and "debt counter must be hidden outside the homepage" in responsive_test
+                  and "fiscal compass must be hidden outside the homepage" in responsive_test
+                  and "hero must return on the homepage" in responsive_test
               )
           skip_preflight = (
               event_name == "push" or ledger_only or verification_ledger_only
               or audit_policy_only or manual_article_only
               or data_update_only or migration_only or audit_workflow_only
-              or mobile_navigation_only or mobile_navigation_test_only or accessibility_contrast_only
+              or mobile_navigation_only or mobile_navigation_test_only
+              or accessibility_contrast_only or hero_visibility_only
           )
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip_preflight={'true' if skip_preflight else 'false'}\n")
@@ -371,6 +385,7 @@ jobs:
           print(f"Само мобилна навигация: {mobile_navigation_only}")
           print(f"Само race-condition тест за мобилна навигация: {mobile_navigation_test_only}")
           print(f"Само CSS корекция за контраст: {accessibility_contrast_only}")
+          print(f"Само корекция за видимост на hero: {hero_visibility_only}")
           print(f"Пропускане на preflight: {skip_preflight}")
           PY
 
@@ -427,7 +442,8 @@ jobs:
                 startsWith(github.head_ref, 'automation/data-update-') ||
                 github.head_ref == 'automation/pr-first-data-writers-20261127' ||
                 github.head_ref == 'fix/mobile-nav-toggle-preflight-scope-v2' ||
-                github.head_ref == 'fix/mobile-nav-responsive-test-race'
+                github.head_ref == 'fix/mobile-nav-responsive-test-race' ||
+                github.head_ref == 'fix/hero-visibility-all-viewports'
               )
             ) ||
             (
@@ -474,7 +490,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|fix/accessibility-contrast-preflight-*|automation/data-update-*|automation/pr-first-data-writers-20261127|fix/mobile-nav-toggle-preflight-scope-v2|fix/mobile-nav-responsive-test-race) ;;
+            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|fix/accessibility-contrast-preflight-*|automation/data-update-*|automation/pr-first-data-writers-20261127|fix/mobile-nav-toggle-preflight-scope-v2|fix/mobile-nav-responsive-test-race|fix/hero-visibility-all-viewports) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"

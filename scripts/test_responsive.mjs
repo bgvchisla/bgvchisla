@@ -172,6 +172,51 @@ try {
       }
     }
 
+    // The debt counter and fiscal compass belong only to the homepage on every viewport.
+    const homeHeroVisible = await page.locator("#site-content .hero").evaluate(element =>
+      getComputedStyle(element).display !== "none" &&
+      element.getBoundingClientRect().width > 0 &&
+      element.getBoundingClientRect().height > 0
+    );
+    assert.ok(homeHeroVisible, viewport.name + ": homepage hero must be visible");
+    await page.evaluate(() => document.querySelector('#site-content nav#nav button[data-i="1"]').click());
+    await page.waitForFunction(() =>
+      document.querySelector("#site-content")?.classList.contains("section-hero-hidden") &&
+      document.querySelector("#site-content main section.on")?.id === "s1"
+    , null, { timeout: 5000 });
+    const nonHomeHeroState = await page.evaluate(() => {
+      const hero = document.querySelector("#site-content .hero");
+      const debt = document.querySelector("#site-content #debt");
+      const compass = document.querySelector("#site-content .fiscal-compass");
+      return {
+        heroDisplay: hero ? getComputedStyle(hero).display : null,
+        heroHeight: hero?.getBoundingClientRect().height ?? 0,
+        debtVisible: !!debt && getComputedStyle(debt).display !== "none" &&
+          debt.getBoundingClientRect().width > 0 && debt.getBoundingClientRect().height > 0,
+        compassVisible: !!compass && getComputedStyle(compass).display !== "none" &&
+          compass.getBoundingClientRect().width > 0 && compass.getBoundingClientRect().height > 0,
+      };
+    });
+    assert.equal(nonHomeHeroState.heroDisplay, "none",
+      viewport.name + ": hero must be hidden outside the homepage");
+    assert.equal(nonHomeHeroState.heroHeight, 0,
+      viewport.name + ": hidden hero must not leave empty space");
+    assert.equal(nonHomeHeroState.debtVisible, false,
+      viewport.name + ": debt counter must be hidden outside the homepage");
+    assert.equal(nonHomeHeroState.compassVisible, false,
+      viewport.name + ": fiscal compass must be hidden outside the homepage");
+    await page.evaluate(() => document.querySelector('#site-content nav#nav button[data-i="0"]').click());
+    await page.waitForFunction(() =>
+      !document.querySelector("#site-content")?.classList.contains("section-hero-hidden") &&
+      document.querySelector("#site-content main section.on")?.id === "s0"
+    , null, { timeout: 5000 });
+    const restoredHeroVisible = await page.locator("#site-content .hero").evaluate(element =>
+      getComputedStyle(element).display !== "none" &&
+      element.getBoundingClientRect().width > 0 &&
+      element.getBoundingClientRect().height > 0
+    );
+    assert.ok(restoredHeroVisible, viewport.name + ": hero must return on the homepage");
+
     if (viewport.mobile) {
       assert.equal(metrics.sideNewsDisplay, "none", viewport.name + ": desktop news sidebars should be hidden");
       assert.equal(metrics.headingDirection, "column", viewport.name + ": title/CTA should stack");
