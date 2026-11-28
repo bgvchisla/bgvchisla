@@ -1270,6 +1270,18 @@ body>a.skip-link:focus,body>a.skip-link:focus-visible{
   color:#80551b;
 }
 </style>
+<style id="mobile-nav-toggle-visibility-fix">
+/* Явно правило с висока специфичност за мобилния бутон след всички основни стилове. */
+@media (max-width:639px){
+ #site-content main#main-content > button#mobile-nav-toggle.mobile-nav-toggle.nav-toggle-visible.mobile-visible{
+  display:flex!important;
+  visibility:visible!important;
+  opacity:1!important;
+  width:100%!important;
+  min-height:46px!important;
+ }
+}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Към основното съдържание</a>
