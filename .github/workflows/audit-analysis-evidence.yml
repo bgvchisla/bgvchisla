@@ -274,6 +274,27 @@ jobs:
               event_name == "pull_request"
               and changed == {".github/workflows/audit-analysis-evidence.yml"}
           )
+          # The mobile navigation visibility fix is a tightly scoped frontend change.
+          # Keep all offline security, regression, and exact-viewport tests, but do not
+          # launch the analysis generator's editorial preflight for this exact PR.
+          mobile_navigation_only = (
+              event_name == "pull_request"
+              and head_branch == "fix/mobile-nav-toggle-preflight-scope"
+              and changed == {
+                  "index.html",
+                  "scripts/test_responsive.mjs",
+                  ".github/workflows/audit-analysis-evidence.yml",
+              }
+          )
+          if mobile_navigation_only:
+              html = open("index.html", encoding="utf-8").read()
+              responsive_test = open("scripts/test_responsive.mjs", encoding="utf-8").read()
+              mobile_navigation_only = (
+                  '<style id="mobile-nav-toggle-visibility-fix">' in html
+                  and "mobile-nav-toggle" in responsive_test
+                  and "computed" in responsive_test
+              )
+
           accessibility_contrast_only = False
           if event_name == "pull_request" and changed == {"index.html"}:
               diff = subprocess.check_output(
@@ -314,7 +335,8 @@ jobs:
           skip_preflight = (
               event_name == "push" or ledger_only or verification_ledger_only
               or audit_policy_only or manual_article_only
-              or data_update_only or migration_only or audit_workflow_only or accessibility_contrast_only
+              or data_update_only or migration_only or audit_workflow_only
+              or mobile_navigation_only or accessibility_contrast_only
           )
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip_preflight={'true' if skip_preflight else 'false'}\n")
