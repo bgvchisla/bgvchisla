@@ -1,7 +1,8 @@
 {
   "schema_version": 1,
+  "checked_at": "2026-11-28T12:28:56.087553+00:00",
   "scope": "source_availability_and_page_topic",
-  "ok": 0,
+  "ok": 6,
   "total": 7,
   "sources": [
     {
@@ -11,8 +12,10 @@
       "url": "https://www.minfin.bg/bg/statistics/18",
       "frequency": "месечно",
       "expected": "Данни по държавния бюджет и месечни таблици за изпълнението",
-      "status": "pending_validation",
-      "note": "Не е изпълнявана нова проверка по текущите правила на монитора; изчаква реално изпълнение. Не се приема за проверен."
+      "status": "restricted",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_at": "2026-11-28T12:28:32.461160+00:00",
+      "note": "Автоматизираната среда е ограничена от сървъра на източника; това не означава, че официалната страница е недостъпна за посетители."
     },
     {
       "id": "bnb_monetary_statistics",
@@ -21,8 +24,14 @@
       "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StMonetaryStatistics/index.htm",
       "frequency": "месечно",
       "expected": "Парична статистика с таблици за кредити и депозити",
-      "status": "pending_validation",
-      "note": "Не е изпълнявана нова проверка по текущите правила на монитора; изчаква реално изпълнение. Не се приема за проверен."
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "text/html",
+      "final_url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StMonetaryStatistics/index.htm",
+      "download_links_detected": 16,
+      "checked_at": "2026-11-28T12:28:40.312295+00:00",
+      "response_seconds": 7.85,
+      "note": "HTTP достъпността и очакваните тематични термини са проверени; това не потвърждава актуалността на всяка статистическа серия."
     },
     {
       "id": "bnb_deposits_loans",
@@ -31,8 +40,14 @@
       "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StDepositsAndLoans/StDCDeposits/StDCDepositsQuarterlyData/index.htm",
       "frequency": "тримесечно",
       "expected": "Статистика и таблици за кредити и депозити",
-      "status": "pending_validation",
-      "note": "Не е изпълнявана нова проверка по текущите правила на монитора; изчаква реално изпълнение. Не се приема за проверен."
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "text/html",
+      "final_url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StDepositsAndLoans/StDCDeposits/StDCDepositsQuarterlyData/index.htm",
+      "download_links_detected": 9,
+      "checked_at": "2026-11-28T12:28:44.884924+00:00",
+      "response_seconds": 4.57,
+      "note": "HTTP достъпността и очакваните тематични термини са проверени; това не потвърждава актуалността на всяка статистическа серия."
     },
     {
       "id": "bnb_interest_rates",
@@ -41,8 +56,14 @@
       "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StInterestRate/StIRInterestRate/",
       "frequency": "месечно",
       "expected": "Лихвена статистика и таблици с лихвени проценти",
-      "status": "pending_validation",
-      "note": "Не е изпълнявана нова проверка по текущите правила на монитора; изчаква реално изпълнение. Не се приема за проверен."
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "text/html",
+      "final_url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StInterestRate/StIRInterestRate/",
+      "download_links_detected": 7,
+      "checked_at": "2026-11-28T12:28:53.489166+00:00",
+      "response_seconds": 8.6,
+      "note": "HTTP достъпността и очакваните тематични термини са проверени; това не потвърждава актуалността на всяка статистическа серия."
     },
     {
       "id": "nsi_sdmx",
@@ -51,8 +72,14 @@
       "url": "https://www.nsi.bg/ddb2.1/?l=bg",
       "frequency": "според показателя",
       "expected": "SDMX 2.1 файлове за данни и DSD структури",
-      "status": "pending_validation",
-      "note": "Не е изпълнявана нова проверка по текущите правила на монитора; изчаква реално изпълнение. Не се приема за проверен."
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.nsi.bg/ddb2.1/?l=bg",
+      "download_links_detected": 40,
+      "checked_at": "2026-11-28T12:28:53.760990+00:00",
+      "response_seconds": 0.27,
+      "note": "HTTP достъпността и очакваните тематични термини са проверени; това не потвърждава актуалността на всяка статистическа серия."
     },
     {
       "id": "nsi_statistical_data",
@@ -61,8 +88,14 @@
       "url": "https://www.nsi.bg/statistical-data/146",
       "frequency": "годишно",
       "expected": "Доходи, бедност и социални показатели",
-      "status": "pending_validation",
-      "note": "Не е изпълнявана нова проверка по текущите правила на монитора; изчаква реално изпълнение. Не се приема за проверен."
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.nsi.bg/statistical-data/146",
+      "download_links_detected": 14,
+      "checked_at": "2026-11-28T12:28:54.598175+00:00",
+      "response_seconds": 0.84,
+      "note": "HTTP достъпността и очакваните тематични термини са проверени; това не потвърждава актуалността на всяка статистическа серия."
     },
     {
       "id": "nssi_pensions",
@@ -70,11 +103,16 @@
       "owner": "Национален осигурителен институт",
       "url": "https://www.nssi.bg/publikacii/statistika/pensii-statistika/",
       "frequency": "тримесечно/годишно",
-      "expected": "Бюлетини и годишници за пенсии и пенсионери",
-      "status": "pending_validation",
-      "note": "Не е изпълнявана нова проверка по текущите правила на монитора; изчаква реално изпълнение. Не се приема за проверен."
+      "expected": "Статистика, бюлетини и годишници за пенсии и пенсионери",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "text/html",
+      "final_url": "https://www.nssi.bg/publikacii/statistika/pensii-statistika/",
+      "download_links_detected": 77,
+      "checked_at": "2026-11-28T12:28:56.087517+00:00",
+      "response_seconds": 1.49,
+      "note": "HTTP достъпността и очакваните тематични термини са проверени; това не потвърждава актуалността на всяка статистическа серия."
     }
   ],
-  "notice": "Всичките седем източника са pending_validation до ново изпълнение на актуалния монитор. Статусът след проверката ще показва HTTP достъпност и съответствие на страницата с очакваната тема; не удостоверява актуалността на последното статистическо наблюдение.",
-  "validation_state": "pending_after_monitor_update"
+  "notice": "Статусът показва HTTP достъпност и съответствие на страницата с очакваната тема; не удостоверява актуалността на последното статистическо наблюдение."
 }
