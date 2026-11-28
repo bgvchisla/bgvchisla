@@ -196,6 +196,7 @@ jobs:
               "analysis/verification_usage.json",
           }
           data_files = {
+              ".github/workflows/audit-analysis-evidence.yml",
               "scripts/check_official_sources.py",
               "source_status.json", "economy.json", "official_bnb.json",
               "official_business_climate.json", "inflation.json",
