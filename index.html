@@ -60,6 +60,7 @@ body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
 main{max-width:1120px;margin:0 auto;padding:14px 14px 48px}
 .hero{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:20px 14px;text-align:center}
+#site-content.section-hero-hidden .hero{display:none!important}
 .hero small{color:var(--mu);font-size:.8rem}
 .hero .n{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:clamp(1.6rem,8.5vw,4rem);font-weight:700;color:var(--ac);font-variant-numeric:tabular-nums;margin:6px 0;word-break:break-all}
 .hero .r{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;font-size:.8rem;color:var(--mu)}
@@ -905,7 +906,7 @@ label.sw{
  #site-content .mobile-nav-current{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
  #site-content .mobile-nav-chevron{font-size:1.2rem;line-height:1;color:#66809b}
  #site-content nav#nav{position:relative!important;top:auto!important;z-index:auto!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;padding:8px 0 12px!important;overflow:visible!important}
- #site-content.section-hero-hidden .hero{display:none!important}
+
 #site-content nav#nav.mobile-collapsed{display:none!important}
  #site-content nav#nav button{
   display:grid!important;grid-template-columns:28px minmax(0,1fr)!important;
