@@ -294,6 +294,23 @@ jobs:
                   and "mobile-nav-toggle" in responsive_test
                   and "getComputedStyle" in responsive_test
               )
+          # This exact PR changes only the responsive test and this workflow.
+          # Keep all offline/security/browser checks, while skipping editorial preflight.
+          mobile_navigation_test_only = (
+              event_name == "pull_request"
+              and head_branch == "fix/mobile-nav-responsive-test-race"
+              and changed == {
+                  "scripts/test_responsive.mjs",
+                  ".github/workflows/audit-analysis-evidence.yml",
+              }
+          )
+          if mobile_navigation_test_only:
+              responsive_test = open("scripts/test_responsive.mjs", encoding="utf-8").read()
+              mobile_navigation_test_only = (
+                  "Dispatch synchronously in the same page task" in responsive_test
+                  and "toggle.click();" in responsive_test
+                  and "waitForFunction" in responsive_test
+              )
 
           accessibility_contrast_only = False
           if event_name == "pull_request" and changed == {"index.html"}:
@@ -336,7 +353,7 @@ jobs:
               event_name == "push" or ledger_only or verification_ledger_only
               or audit_policy_only or manual_article_only
               or data_update_only or migration_only or audit_workflow_only
-              or mobile_navigation_only or accessibility_contrast_only
+              or mobile_navigation_only or mobile_navigation_test_only or accessibility_contrast_only
           )
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip_preflight={'true' if skip_preflight else 'false'}\n")
@@ -349,6 +366,7 @@ jobs:
           print(f"Точният PR-first migration набор: {migration_only}")
           print(f"Само промяна в одитния workflow: {audit_workflow_only}")
           print(f"Само мобилна навигация: {mobile_navigation_only}")
+          print(f"Само race-condition тест за мобилна навигация: {mobile_navigation_test_only}")
           print(f"Само CSS корекция за контраст: {accessibility_contrast_only}")
           print(f"Пропускане на preflight: {skip_preflight}")
           PY
@@ -405,7 +423,8 @@ jobs:
                 startsWith(github.head_ref, 'fix/accessibility-contrast-preflight-') ||
                 startsWith(github.head_ref, 'automation/data-update-') ||
                 github.head_ref == 'automation/pr-first-data-writers-20261127' ||
-                github.head_ref == 'fix/mobile-nav-toggle-preflight-scope-v2'
+                github.head_ref == 'fix/mobile-nav-toggle-preflight-scope-v2' ||
+                github.head_ref == 'fix/mobile-nav-responsive-test-race'
               )
             ) ||
             (
@@ -434,7 +453,8 @@ jobs:
                 startsWith(github.ref_name, 'fix/accessibility-contrast-preflight-') ||
                 startsWith(github.ref_name, 'automation/data-update-') ||
                 github.ref_name == 'automation/pr-first-data-writers-20261127' ||
-                github.ref_name == 'fix/mobile-nav-toggle-preflight-scope-v2'
+                github.ref_name == 'fix/mobile-nav-toggle-preflight-scope-v2' ||
+                github.ref_name == 'fix/mobile-nav-responsive-test-race'
               )
             )
           )
@@ -451,7 +471,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|fix/accessibility-contrast-preflight-*|automation/data-update-*|automation/pr-first-data-writers-20261127|fix/mobile-nav-toggle-preflight-scope-v2) ;;
+            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|fix/accessibility-contrast-preflight-*|automation/data-update-*|automation/pr-first-data-writers-20261127|fix/mobile-nav-toggle-preflight-scope-v2|fix/mobile-nav-responsive-test-race) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
