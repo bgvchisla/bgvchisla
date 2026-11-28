@@ -404,7 +404,8 @@ jobs:
                 startsWith(github.head_ref, 'fix/deploy-labour-market-page-') ||
                 startsWith(github.head_ref, 'fix/accessibility-contrast-preflight-') ||
                 startsWith(github.head_ref, 'automation/data-update-') ||
-                github.head_ref == 'automation/pr-first-data-writers-20261127'
+                github.head_ref == 'automation/pr-first-data-writers-20261127' ||
+                github.head_ref == 'fix/mobile-nav-toggle-preflight-scope-v2'
               )
             ) ||
             (
@@ -432,7 +433,8 @@ jobs:
                 startsWith(github.ref_name, 'fix/deploy-labour-market-page-') ||
                 startsWith(github.ref_name, 'fix/accessibility-contrast-preflight-') ||
                 startsWith(github.ref_name, 'automation/data-update-') ||
-                github.ref_name == 'automation/pr-first-data-writers-20261127'
+                github.ref_name == 'automation/pr-first-data-writers-20261127' ||
+                github.ref_name == 'fix/mobile-nav-toggle-preflight-scope-v2'
               )
             )
           )
@@ -449,7 +451,7 @@ jobs:
           # The independent audit above must finish successfully before this step runs.
           # Only exact in-repository automation branches may receive the machine status.
           case "$HEAD_BRANCH" in
-            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|fix/accessibility-contrast-preflight-*|automation/data-update-*|automation/pr-first-data-writers-20261127) ;;
+            editorial/manual-bulgaria-*|analysis/auto-*|automation/full-auto-editorial-pipeline-*|automation/full-auto-editorial-modern-publish-*|automation/analysis-usage-ledger-*|automation/gemini-output-capacity-*|automation/independent-ai-factcheck-*|automation/gemini-billing-regression-*|seo/stage1-*|automation/fix-chart-numeric-*|fix/debt-counter-*|fix/news-ui-enforces-publisher-diversity-*|fix/news-more-divider-*|fix/navigation-labels-desktop-news-mobile-only-*|fix/news-lead-freshness-*|fix/skip-confirmed-dead-analysis-sources-*|fix/get-probe-dead-analysis-sources-*|fix/deploy-labour-market-page-*|fix/accessibility-contrast-preflight-*|automation/data-update-*|automation/pr-first-data-writers-20261127|fix/mobile-nav-toggle-preflight-scope-v2) ;;
             *) echo "No automatic editorial approval for this branch."; exit 0 ;;
           esac
           test "$HEAD_REPOSITORY" = "$REPOSITORY"
