@@ -905,7 +905,8 @@ label.sw{
  #site-content .mobile-nav-current{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
  #site-content .mobile-nav-chevron{font-size:1.2rem;line-height:1;color:#66809b}
  #site-content nav#nav{position:relative!important;top:auto!important;z-index:auto!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;padding:8px 0 12px!important;overflow:visible!important}
- #site-content nav#nav.mobile-collapsed{display:none!important}
+ #site-content.section-hero-hidden>.hero{display:none!important}
+#site-content nav#nav.mobile-collapsed{display:none!important}
  #site-content nav#nav button{
   display:grid!important;grid-template-columns:28px minmax(0,1fr)!important;
   align-items:center;gap:8px!important;width:100%;min-width:0;min-height:52px!important;
@@ -1643,6 +1644,7 @@ function activateSection(index){
   section.classList.toggle("on",section===target);
  });
  navToggle.querySelector(".mobile-nav-current").textContent=navButtons[index].querySelector(".nav-title").textContent+" · Всички раздели";
+ document.getElementById("site-content").classList.toggle("section-hero-hidden",index!==0);
  setNavCollapsed(true);
 }
 navButtons.forEach(function(button){
