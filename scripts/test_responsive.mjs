@@ -203,8 +203,45 @@ try {
     if (viewport.name === "mobile-390x844") {
       for (let index = 0; index < 16; index += 1) {
         const nav = page.locator("#site-content nav#nav");
-        if (await nav.evaluate(element => element.classList.contains("mobile-collapsed"))) {
-          await page.locator("#mobile-nav-toggle").click();
+        const expandedFromCollapsed = await page.evaluate(() => {
+          const navElement = document.querySelector("#site-content nav#nav");
+          if (!navElement?.classList.contains("mobile-collapsed")) return false;
+
+          const toggle = document.querySelector("#mobile-nav-toggle");
+          const css = toggle ? getComputedStyle(toggle) : null;
+          const rect = toggle?.getBoundingClientRect();
+          const isVisible = !!toggle && css?.display !== "none" &&
+            css?.visibility === "visible" && Number(css?.opacity) > 0 &&
+            !!rect && rect.width > 0 && rect.height > 0;
+
+          if (!isVisible) {
+            throw new Error("Collapsed mobile navigation has no visible toggle: " +
+              JSON.stringify({
+                navClasses: navElement.className,
+                toggleClasses: toggle?.className ?? null,
+                display: css?.display ?? null,
+                visibility: css?.visibility ?? null,
+                opacity: css?.opacity ?? null,
+                width: rect?.width ?? 0,
+                height: rect?.height ?? 0,
+                scrollY: window.scrollY,
+                activeSection: Array.from(document.querySelectorAll("#site-content main section"))
+                  .find(section => section.classList.contains("on"))?.id ?? null,
+              }));
+          }
+
+          // Dispatch synchronously in the same page task as the state check.
+          // Playwright's normal click auto-scroll can trigger the page's scroll
+          // handler, which may expand the menu and hide this button mid-click.
+          toggle.click();
+          return true;
+        });
+        if (expandedFromCollapsed) {
+          await page.waitForFunction(() =>
+            !document.querySelector("#site-content nav#nav")?.classList.contains("mobile-collapsed"),
+          null,
+          { timeout: 2000 }
+          );
         }
         await page.locator("#site-content nav#nav button[data-i=\"" + index + "\"]").click();
         await page.waitForFunction(i => {
