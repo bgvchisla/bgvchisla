@@ -13,27 +13,48 @@ import urllib.request
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urljoin, urlsplit
 
 OUT = Path("source_status.json")
 TIMEOUT = 30
 MAX_BYTES = 4_000_000
-UA = "bgvchisla-official-source-monitor/1.0 (+https://bgvchisla.com)"
+UA = "bgvchisla-official-source-monitor/1.1 (+https://bgvchisla.com)"
 
 SOURCES = [
     {
         "id": "minfin_budget",
         "name": "Министерство на финансите — месечно изпълнение на бюджета",
-        "url": "https://www.minfin.bg/bg/statistics/5",
+        "url": "https://www.minfin.bg/bg/statistics/18",
         "frequency": "месечно",
-        "expected": "Месечни таблици за изпълнението на държавния бюджет",
+        "expected_terms": [["държавния бюджет", "държавен бюджет"], ["месеч"]],
+        "expected": "Данни по държавния бюджет и месечни таблици за изпълнението",
         "owner": "Министерство на финансите",
     },
     {
-        "id": "bnb_statistics",
-        "name": "Българска народна банка — парична и лихвена статистика",
-        "url": "https://www.bnb.bg/Statistics/StStatisticalBD/",
-        "frequency": "месечно/тримесечно",
-        "expected": "Кредити, депозити и лихвени проценти",
+        "id": "bnb_monetary_statistics",
+        "name": "Българска народна банка — парична статистика",
+        "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StMonetaryStatistics/index.htm",
+        "frequency": "месечно",
+        "expected_terms": [["парична статистика", "паричната статистика"], ["кредит", "депозит"]],
+        "expected": "Парична статистика с таблици за кредити и депозити",
+        "owner": "Българска народна банка",
+    },
+    {
+        "id": "bnb_deposits_loans",
+        "name": "Българска народна банка — кредити и депозити",
+        "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StDepositsAndLoans/StDCDeposits/StDCDepositsQuarterlyData/index.htm",
+        "frequency": "тримесечно",
+        "expected_terms": [["кредит", "кредити"], ["депозит", "депозити"]],
+        "expected": "Статистика и таблици за кредити и депозити",
+        "owner": "Българска народна банка",
+    },
+    {
+        "id": "bnb_interest_rates",
+        "name": "Българска народна банка — лихвена статистика",
+        "url": "https://www.bnb.bg/Statistics/StMonetaryInterestRate/StInterestRate/StIRInterestRate/",
+        "frequency": "месечно",
+        "expected_terms": [["лихвен", "лихвена", "лихвени"], ["статистика", "таблици"]],
+        "expected": "Лихвена статистика и таблици с лихвени проценти",
         "owner": "Българска народна банка",
     },
     {
@@ -41,7 +62,8 @@ SOURCES = [
         "name": "НСИ — SDMX база за разпространение",
         "url": "https://www.nsi.bg/ddb2.1/?l=bg",
         "frequency": "според показателя",
-        "expected": "Официални статистически набори и SDMX структури",
+        "expected_terms": [["sdmx"], ["данни"], ["dsd", "структур"]],
+        "expected": "SDMX 2.1 файлове за данни и DSD структури",
         "owner": "Национален статистически институт",
     },
     {
@@ -49,6 +71,7 @@ SOURCES = [
         "name": "НСИ — статистически данни за бедност и социално включване",
         "url": "https://www.nsi.bg/statistical-data/146",
         "frequency": "годишно",
+        "expected_terms": [["бедност", "бедността"], ["доходи", "доход"]],
         "expected": "Доходи, бедност и социални показатели",
         "owner": "Национален статистически институт",
     },
@@ -57,21 +80,32 @@ SOURCES = [
         "name": "НОИ — статистика на пенсиите",
         "url": "https://www.nssi.bg/publikacii/statistika/pensii-statistika/",
         "frequency": "тримесечно/годишно",
-        "expected": "Бюлетини и годишници за пенсии и пенсионери",
+        "expected_terms": [["пенси"], ["статистик", "бюлетин", "годишник"]],
+        "expected": "Статистика, бюлетини и годишници за пенсии и пенсионери",
         "owner": "Национален осигурителен институт",
     },
 ]
 
-class Links(HTMLParser):
+class PageParser(HTMLParser):
     def __init__(self):
-        super().__init__()
-        self.items = []
+        super().__init__(convert_charrefs=True)
+        self.links = []
+        self.text_parts = []
     def handle_starttag(self, tag, attrs):
         if tag.lower() == "a":
-            a = dict(attrs)
-            href = a.get("href", "")
+            href = dict(attrs).get("href", "")
             if href:
-                self.items.append(href)
+                self.links.append(href)
+    def handle_data(self, data):
+        if data.strip():
+            self.text_parts.append(data)
+
+def downloadable_link(href):
+    path = urlsplit(href).path.lower()
+    if re.search(r"\.(xlsx?|csv|pdf)$", path):
+        return True
+    # NSI SDMX exposes data/DSD files through these named PHP endpoints.
+    return path.rsplit("/", 1)[-1] in {"download_data.php", "download_dsd.php"}
 
 def check(source):
     req = urllib.request.Request(source["url"], headers={
@@ -89,30 +123,41 @@ def check(source):
             raise RuntimeError("Страницата надвишава лимита за проверка от 4 MB")
         if status != 200:
             raise RuntimeError(f"HTTP {status}")
+        if "html" not in content_type.lower():
+            raise RuntimeError(f"Неочакван Content-Type: {content_type[:120]}")
         text = body.decode("utf-8", errors="replace")
-        parser = Links()
+        parser = PageParser()
         parser.feed(text)
-        # Count downloadable statistical files without downloading them.
-        files = [
-            href for href in parser.items
-            if re.search(r"\.(xlsx?|csv|pdf)(?:$|[?#])", href, re.I)
-        ]
-        return {
+        page_text = " ".join(parser.text_parts).casefold()
+        groups = source["expected_terms"]
+        missing = [terms for terms in groups if not any(term.casefold() in page_text for term in terms)]
+        files = {
+            urljoin(final_url, href)
+            for href in parser.links
+            if downloadable_link(urljoin(final_url, href))
+        }
+        content_ok = not missing
+        result = {
             "id": source["id"],
             "name": source["name"],
             "owner": source["owner"],
             "url": source["url"],
             "frequency": source["frequency"],
             "expected": source["expected"],
-            "status": "ok",
+            "status": "ok" if content_ok else "content_mismatch",
             "http_status": status,
             "content_type": content_type[:120],
             "final_url": final_url,
             "download_links_detected": len(files),
             "checked_at": datetime.now(timezone.utc).isoformat(),
             "response_seconds": round(time.monotonic() - started, 2),
-            "note": "Проверена достъпността на официалната страница; това не потвърждава актуалността на всяка статистическа серия.",
+            "note": (
+                "HTTP достъпността и очакваните тематични термини са проверени; това не потвърждава актуалността на всяка статистическа серия."
+                if content_ok else
+                "Страницата отговаря, но липсват очаквани тематични термини: " + "; ".join(", ".join(group) for group in missing)
+            ),
         }
+        return result
     except Exception as exc:
         restricted = isinstance(exc, urllib.error.HTTPError) and exc.code in (401, 403, 429)
         return {
@@ -125,7 +170,7 @@ def check(source):
             "status": "restricted" if restricted else "error",
             "error": str(exc)[:240],
             "checked_at": datetime.now(timezone.utc).isoformat(),
-            "note": ("Автоматизираната среда е ограничена от сървъра на източника; това не означава, че официалната страница е недостъпна за посетители." if restricted else "Източникът не премина проверката за достъпност."),
+            "note": ("Автоматизираната среда е ограничена от сървъра на източника; това не означава, че официалната страница е недостъпна за посетители." if restricted else "Източникът не премина проверката за достъпност и съдържание."),
         }
 
 def main():
@@ -133,16 +178,16 @@ def main():
     result = {
         "schema_version": 1,
         "checked_at": datetime.now(timezone.utc).isoformat(),
-        "scope": "source_availability_only",
+        "scope": "source_availability_and_page_topic",
         "ok": sum(row["status"] == "ok" for row in results),
         "total": len(results),
         "sources": results,
-        "notice": "Статусът показва достъпност на официалните страници, а не дата на последното статистическо наблюдение.",
+        "notice": "Статусът показва HTTP достъпност и съответствие на страницата с очакваната тема; не удостоверява актуалността на последното статистическо наблюдение.",
     }
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Official source availability: {result['ok']}/{result['total']} reachable")
+    print(f"Official source checks: {result['ok']}/{result['total']} passed")
     for row in results:
-        print(row["status"].upper(), row["id"], row.get("http_status", row.get("error", "")))
+        print(row["status"].upper(), row["id"], row.get("http_status", row.get("error", "")), row.get("download_links_detected", ""))
 
 if __name__ == "__main__":
     main()
